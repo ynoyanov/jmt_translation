@@ -1,0 +1,421 @@
+<resources>
+
+
+    <!-- Used in file SurveyPointListAdapter.java:125 -->
+    <string name="string__d_vertices">%d 垂直</string>
+    <!-- Used in file ts_points.xml:10 -->
+    <string name="action_search">搜尋</string>
+    <!-- Used in file IdenticalPointsActivity.java:92 -->
+    <string name="string_can_t_save_the_settings_">無法儲存設定!</string>
+    <!-- Used in file PointsActivity.java:267 -->
+    <string name="string_points">點位</string>
+    <!-- Used in file IdenticalPointListAdapter.java:1599 -->
+    <string name="string_problem_with_transformation">用轉換問題</string>
+    <!-- Used in file PointActivity.java:205 -->
+    <string name="string_h_rms_">H.RMS:</string>
+    <!-- Used in file PointActivity.java:313 -->
+    <string name="string_point_name_is_empty_">點位名稱是空的!</string>
+    <!-- Used in file IdenticalPointsActivity.java:311 -->
+    <string name="string_delete_points__s">刪除點位 %s</string>
+    <!-- Used in file PointActivity.java:203 -->
+    <string name="string_solution_">來源:</string>
+    <!-- Used in file identical_points.xml:25 -->
+    <string name="action_delete_localization">刪除地方化</string>
+    <!-- Used in file JobActivity.java:392 -->
+    <string name="string_no_localization">沒有地方化</string>
+    <!-- Used in file cslist.xml:5 -->
+    <string name="action_filter">由點位過濾</string>
+    <!-- Used in file CoordinateSystemsActivity.java:193 -->
+    <string name="string_delete__1_d_filtered_cses__of__2_d_">刪除 %1$d 過濾情況 (of %2$d)</string>
+    <!-- Used in file activity_job.xml:70 -->
+    <string name="job_organization">組織</string>
+    <!-- Used in file PointActivity.java:204 -->
+    <string name="string_epochs">曆元</string>
+    <!-- Used in file TSPointsActivity.java:290 -->
+    <string name="string_delete__1_d_selected_points__of__2_d_">刪除 %1$d 選擇點位 (of %2$d)</string>
+    <!-- Used in file SelectPoint2Activity.java:127 -->
+    <string name="string_design_points">設計點位</string>
+    <!-- Used in file IdenticalPointListAdapter.java:1597 -->
+    <string name="string_nothing_to_compute">沒有計算</string>
+    <!-- Used in file IdenticalPointListAdapter.java:183 -->
+    <string name="string_height_offset">高度偏移</string>
+    <!-- Used in file CoordinateSystemsActivity.java:179 -->
+    <string name="string_select_cs">選擇座標系統</string>
+    <!-- Used in file activity_point_antenna.xml:75 -->
+    <string name="height_vertical">垂直</string>
+    <!-- Used in file UserCSPreferenceFragment.java:231 -->
+    <string name="string_datum_">基準:</string>
+    <!-- Used in file TSPointsActivity.java:84 -->
+    <string name="string_check_all">檢查全部</string>
+    <!-- Used in file activity_point_antenna.xml:28 -->
+    <string name="antenna_type">天線形式</string>
+    <!-- Used in file IdenticalPointListAdapter.java:189 -->
+    <string name="string_east_inclination">東傾</string>
+    <!-- Used in file TSPointsActivity.java:273 -->
+    <string name="string_edit_point">編輯點位</string>
+    <!-- Used in file CSListActivity.java:129 -->
+    <string name="string_can_t_read_coordinate_system_from_the_receiver_">無法由接收儀讀取座標系統!</string>
+    <!-- Used in file JobActivity.java:193 -->
+    <string name="string__last_time_"> 最後時間 </string>
+    <!-- Used in file activity_audio_recording.xml:24 -->
+    <string name="button_record_audio">紀錄</string>
+    <!-- Used in file PointActivity.java:315 -->
+    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">點位名稱太長!\n請不要超過40字元</string>
+    <!-- Used in file SetupLocalizationParametersActivity.java:124 -->
+    <string name="string_center">中心</string>
+    <!-- Used in file TSPointsActivity.java:275 -->
+    <string name="string_delete_point__s">刪除點位 %s</string>
+    <!-- Used in file ts_points.xml:5 -->
+    <string name="action_map">地圖</string>
+    <!-- Used in file UserCSPreferenceFragment.java:71 -->
+    <string name="string_push_to_choose_from_list">由列表中選擇</string>
+    <!-- Used in file SurveyPointListAdapter.java:146 -->
+    <string name="string_hrms_">HRMS:</string>
+    <!-- Used in file TSPointsActivity.java:357 -->
+    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">點位 %1$s 已成功加入目錄 %2$s</string>
+    <!-- Used in file CSListActivity.java:130 -->
+    <string name="string_error">錯誤</string>
+    <!-- Used in file PointAntennaActivity.java:108 -->
+    <string name="string_antenna_id_is_not_selected_">天線沒有選擇!</string>
+    <!-- Used in file PointActivity.java:207 -->
+    <string name="string_sats_">衛星:</string>
+    <!-- Used in file list_identical_point.xml:37 -->
+    <string name="design_point">設計點位</string>
+    <!-- Used in file JobActivity.java:359 -->
+    <string name="string_job__s_already_exists_">工作檔%s 已經存在!</string>
+    <!-- Used in file CoordinateSystemsActivity.java:135 -->
+    <string name="string_cs">座標系統</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:113 -->
+    <string name="string_origin">起源</string>
+    <!-- Used in file PointAntennaActivity.java:114 -->
+    <string name="string_wrong_antenna_height_">錯誤的天線高!</string>
+    <!-- Used in file activity_select_point.xml:22 -->
+    <string name="data_source">資料來源</string>
+    <!-- Used in file activity_point.xml:30 -->
+    <string name="point_name">名稱</string>
+    <!-- Used in file PointsActivity.java:69 -->
+    <string name="string_exportdxf">輸出Dxf</string>
+    <!-- Used in file DesignPointsActivity.java:321 -->
+    <string name="string_no_points_to_delete_">沒有點位刪除!</string>
+    <!-- Used in file JobActivity.java:406 -->
+    <string name="string_scale___6f">尺度比:%.6f</string>
+    <!-- Used in file IdenticalPointsActivity.java:268 -->
+    <string name="string_identical_point">相同點</string>
+    <!-- Used in file UserCSPreferenceFragment.java:87 -->
+    <string name="string_name_">名稱:</string>
+    <!-- Used in file activity_point_antenna.xml:80 -->
+    <string name="height_slant">斜高</string>
+    <!-- Used in file activity_point.xml:144 -->
+    <string name="height">高度</string>
+    <!-- Used in file activity_point.xml:51 -->
+    <string name="description">描述.</string>
+    <!-- Used in file PointAntennaActivity.java:118 -->
+    <string name="string_wrong_slant_height_">錯誤的斜高!</string>
+    <!-- Used in file user_cs.xml:13 -->
+    <string name="category_datum">基準</string>
+    <!-- Used in file IdenticalPointListAdapter.java:186 -->
+    <string name="string_north_inclination">北傾角</string>
+    <!-- Used in file activity_identical_points.xml:57 -->
+    <string name="string_type">形式</string>
+    <!-- Used in file IdenticalPointsActivity.java:101 -->
+    <string name="string_delete_localization">刪除地方化</string>
+    <!-- Used in file DesignPointsActivity.java:209 -->
+    <string name="string_add_new_point">增加新點位</string>
+    <!-- Used in file list_points.xml:93 -->
+    <string name="string_descriptionhint">描述</string>
+    <!-- Used in file IdenticalPointListAdapter.java:1598 -->
+    <string name="string_something_wrong_with_params">有問題的使用參數</string>
+    <!-- Used in file activity_job.xml:133 -->
+    <string name="localization">地方化</string>
+    <!-- Used in file IdenticalPointsActivity.java:119 -->
+    <string name="string_can_t_delete_the_localization_">無法刪除地方化!</string>
+    <!-- Used in file activity_point.xml:72 -->
+    <string name="code">編碼</string>
+    <!-- Used in file points.xml:20 -->
+    <string name="action_calendar">日曆</string>
+    <!-- Used in file PointActivity.java:175 -->
+    <string name="string_vert_">垂高.</string>
+    <!-- Used in file TSPointsActivity.java:359 -->
+    <string name="string_can_t_add_point__s_to_catalog_">無法增加點位 %s到目錄!</string>
+    <!-- Used in file CoordinateSystemsActivity.java:182 -->
+    <string name="string_view_cs_info">查看座標系統資訊</string>
+    <!-- Used in file JobActivity.java:412 -->
+    <string name="string_dn___3f">dN:%.3f</string>
+    <!-- Used in file IdenticalPointsActivity.java:108 -->
+    <string name="string_can_t_delete_localization">無法刪除地方化</string>
+    <!-- Used in file CoordinateSystemsActivity.java:187 -->
+    <string name="string_delete_cs__s">刪除坐標系統 %s</string>
+    <!-- Used in file PointActivity.java:204 -->
+    <string name="string_occ_time_">紀錄時間:</string>
+    <!-- Used in file JobActivity.java:435 -->
+    <string name="string__identical_points"> 相同點位</string>
+    <!-- Used in file AndroidManifest.xml:13 -->
+    <string name="app_name">存儲</string>
+    <!-- Used in file design_points.xml:39 -->
+    <string name="string_import">輸入</string>
+    <!-- Used in file TSPointsActivity.java:72 -->
+    <string name="string_time">時間</string>
+    <!-- Used in file JobsActivity.java:700 -->
+    <string name="string_job">工作檔</string>
+    <!-- Used in file list_points.xml:66 -->
+    <string name="string_codehint">編碼</string>
+    <!-- Used in file CoordinateSystemsActivity.java:199 -->
+    <string name="string_delete__1_d_selected_cses__of__2_d_">刪除 %1$d 選擇座標系統 (of %2$d)</string>
+    <!-- Used in file activity_point_antenna.xml:45 -->
+    <string name="antenna_height">天線高</string>
+    <!-- Used in file PointActivity.java:322 -->
+    <string name="string_point__s_already_exists_">點位 %s 已經存在!</string>
+    <!-- Used in file IdenticalPointsActivity.java:128 -->
+    <string name="string_localization_was_changed_and_not_saved_">地方化被改變但不會儲存!</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:400 -->
+    <string name="button_cancel">取消</string>
+    <!-- Used in file DxfExportPreferenceFragment.java:127 -->
+    <string name="string_5">5</string>
+    <!-- Used in file DxfExportPreferenceFragment.java:125 -->
+    <string name="string_4">4</string>
+    <!-- Used in file UserCSPreferenceFragment.java:418 -->
+    <string name="string_ellipsoidal_height">橢球高</string>
+    <!-- Used in file DxfExportPreferenceFragment.java:123 -->
+    <string name="string_3">3</string>
+    <!-- Used in file DxfExportPreferenceFragment.java:121 -->
+    <string name="string_2">2</string>
+    <!-- Used in file TSPointsActivity.java:278 -->
+    <string name="string_view_on_map">查看由地圖</string>
+    <!-- Used in file JobsActivity.java:426 -->
+    <string name="string_edit_job">編輯工作</string>
+    <!-- Used in file PointsActivity.java:322 -->
+    <string name="string_delete__1_s__2_s">刪除 %1$s %2$s</string>
+    <!-- Used in file JobActivity.java:418 -->
+    <string name="string_ah___3f">天線高:%.3f</string>
+    <!-- Used in file PointActivity.java:211 -->
+    <string name="string_time_">時間:</string>
+    <!-- Used in file JobActivity.java:430 -->
+    <string name="string_vrms___3f">VRMS:%.3f</string>
+    <!-- Used in file PointsActivity.java:330 -->
+    <string name="string_view_images">查看相片</string>
+    <!-- Used in file PointsActivity.java:262 -->
+    <string name="string_point">點位</string>
+    <!-- Used in file TSPointsActivity.java:297 -->
+    <string name="string_add_to_catalog__s">增加至目錄 %s</string>
+    <!-- Used in file IdenticalPointListAdapter.java:180 -->
+    <string name="string_east_ground">東地面</string>
+    <!-- Used in file IdenticalPointsActivity.java:127 -->
+    <string name="string_localization_changed">地方化更改</string>
+    <!-- Used in file IdenticalPointListAdapter.java:195 -->
+    <string name="string_longitude_origin">地方化起源.</string>
+    <!-- Used in file SelectPoint2Activity.java:120 -->
+    <string name="string_surveyed_points">測量點位</string>
+    <!-- Used in file DesignPointsActivity.java:338 -->
+    <string name="string_all__s_were_deleted">全部 %s 被刪除</string>
+    <!-- Used in file user_cs.xml:73 -->
+    <string name="string_datum_scale_difference">尺度比差異, ppm</string>
+    <!-- Used in file TSPointsActivity.java:284 -->
+    <string name="string_delete__1_d_filtered_points__of__2_d_">刪除 %1$d 過濾點位(of %2$d)</string>
+    <!-- Used in file DxfExportPreferenceFragment.java:106 -->
+    <string name="string_export_failed">輸出失敗</string>
+    <!-- Used in file JobActivity.java:349 -->
+    <string name="string_job_name_is_empty_">工作檔名稱是空的!</string>
+    <!-- Used in file JobsActivity.java:428 -->
+    <string name="string_delete_job">刪除工作檔</string>
+    <!-- Used in file ts_points.xml:15 -->
+    <string name="action_sort">分類</string>
+    <!-- Used in file activity_job.xml:177 -->
+    <string name="write_to_text_files">寫入到文字檔檔案</string>
+    <!-- Used in file TSPointsActivity.java:240 -->
+    <string name="string_ts_points">TS 點位</string>
+    <!-- Used in file JobActivity.java:424 -->
+    <string name="string_ch___3f">CH:%.3f</string>
+    <!-- Used in file activity_identical_points.xml:48 -->
+    <string name="string_survey">測量</string>
+    <!-- Used in file TSPointsActivity.java:300 -->
+    <string name="string_close">結束</string>
+    <!-- Used in file activity_job.xml:163 -->
+    <string name="measure_units">測量單位</string>
+    <!-- Used in file list_identical_point.xml:145 -->
+    <string name="identical_point_type">相同點位形式</string>
+    <!-- Used in file activity_audio_recording.xml:14 -->
+    <string name="button_play_audio">撥放</string>
+    <!-- Used in file SelectPoint2Activity.java:421 -->
+    <string name="string_select_point__s">選擇點位 %s</string>
+    <!-- Used in file activity_identical_points.xml:39 -->
+    <string name="string_design">設計</string>
+    <!-- Used in file TSPointsActivity.java:44 -->
+    <string name="string_export">輸出</string>
+    <!-- Used in file IdenticalPointsActivity.java:129 -->
+    <string name="string_return_and_lost">返回及遺失</string>
+    <!-- Used in file JobActivity.java:163 -->
+    <string name="string_the_job_is_empty">此工作檔是空的</string>
+    <!-- Used in file IdenticalPointListAdapter.java:177 -->
+    <string name="string_north_ground">北地面</string>
+    <!-- Used in file JobActivity.java:166 -->
+    <string name="string__d_points_in_the_job">%d 在作業點位</string>
+    <!-- Used in file user_cs.xml:6 -->
+    <string name="category_projection">投影</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:410 -->
+    <string name="button_apply">套用</string>
+    <!-- Used in file activity_point_antenna.xml:92 -->
+    <string name="button_recalculaye">重新計算</string>
+    <!-- Used in file JobsActivity.java:705 -->
+    <string name="string_jobs">工作</string>
+    <!-- Used in file PointActivity.java:222 -->
+    <string name="string_base_dist_">基站距離:</string>
+    <!-- Used in file DesignPointsActivity.java:329 -->
+    <string name="string_do_you_want_to_delete_all__1_d__2_s_">是否要刪除全部%1$d %2$s?</string>
+    <!-- Used in file DesignPointsActivity.java:327 -->
+    <string name="string_delete_all__s">刪除全部%s</string>
+    <!-- Used in file CoordinateSystemsActivity.java:140 -->
+    <string name="string_cses">坐標系統</string>
+    <!-- Used in file JobActivity.java:409 -->
+    <string name="string_rotation__s">旋轉:%s</string>
+    <!-- Used in file JobActivity.java:415 -->
+    <string name="string_de___3f">dE:%.3f</string>
+    <!-- Used in file design_points.xml:36 -->
+    <string name="action_delete_all">刪除全部設計點</string>
+    <!-- Used in file IdenticalPointsActivity.java:100 -->
+    <string name="string_do_you_want_to_delete_localization_">是否要刪除地方化?</string>
+    <!-- Used in file JobActivity.java:427 -->
+    <string name="string_hrms___3f">HRMS:%.3f</string>
+    <!-- Used in file UserCSPreferenceFragment.java:394 -->
+    <string name="string_user_to_wgs84">使用者-到-WGS84</string>
+    <!-- Used in file IdenticalPointListAdapter.java:1600 -->
+    <string name="string_points_are_to_close_each_other">是否要關閉此點</string>
+    <!-- Used in file TSPointsActivity.java:235 -->
+    <string name="string_ts_point">全測站點位</string>
+    <!-- Used in file activity_point.xml:211 -->
+    <string name="survey_info">測量資訊:\n\n</string>
+    <!-- Used in file activity_ts_points.xml:15 -->
+    <string name="search_hint">搜尋</string>
+    <!-- Used in file SelectPoint2Activity.java:146 -->
+    <string name="string_all_points">全部點位</string>
+    <!-- Used in file JobActivity.java:421 -->
+    <string name="string_bh___3f">BH:%.3f</string>
+    <!-- Used in file IdenticalPointListAdapter.java:173 -->
+    <string name="string_scale">尺度比</string>
+    <!-- Used in file activity_point.xml:178 -->
+    <string name="coordinate_system">坐標系統</string>
+    <!-- Used in file IdenticalPointsActivity.java:128 -->
+    <string name="string_returning_back_losts_your_changes_">返回遺失所做的更改.</string>
+    <!-- Used in file PointsActivity.java:320 -->
+    <string name="string_edit__s">編輯 %s</string>
+    <!-- Used in file IdenticalPointsActivity.java:82 -->
+    <string name="string_can_t_show_the_settings_">無法顯示此設定!</string>
+    <!-- Used in file JobsActivity.java:424 -->
+    <string name="string_select_job">選擇工作</string>
+    <!-- Used in file PointActivity.java:206 -->
+    <string name="string_v_rms_">V.RMS:</string>
+    <!-- Used in file JobActivity.java:437 -->
+    <string name="string_no_identical_points">無相同點位</string>
+    <!-- Used in file JobActivity.java:351 -->
+    <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">工作檔名太長!\n請不要超過 40字元</string>
+    <!-- Used in file activity_audio_recording.xml:34 -->
+    <string name="button_stop_audio">停止</string>
+    <!-- Used in file UserCSPreferenceFragment.java:394 -->
+    <string name="string_wgs84_to_user">WGS84-到-使用者</string>
+    <!-- Used in file activity_point_antenna.xml:65 -->
+    <string name="height_type">高度形式</string>
+    <!-- Used in file activity_point.xml:93 -->
+    <string name="north">北</string>
+    <!-- Used in file user_cs.xml:65 -->
+    <string name="string_datum_rz">RZ, sec</string>
+    <!-- Used in file user_cs.xml:49 -->
+    <string name="string_datum_rx">RX, sec</string>
+    <!-- Used in file SelectPoint2Activity.java:121 -->
+    <string name="string_rtk_bases">RTK 基站</string>
+    <!-- Used in file user_cs.xml:57 -->
+    <string name="string_datum_ry">RY, sec</string>
+    <!-- Used in file jobs.xml:5 -->
+    <string name="action_add">增加</string>
+    <!-- Used in file JobActivity.java:191 -->
+    <string name="string__nbegin_time_">\n開始時間</string>
+    <!-- Used in file PointActivity.java:222 -->
+    <string name="string_base_">基站:</string>
+    <!-- Used in file IdenticalPointListAdapter.java:170 -->
+    <string name="string_rotation">旋轉</string>
+    <!-- Used in file activity_point.xml:119 -->
+    <string name="east">東</string>
+    <!-- Used in file list_identical_point.xml:89 -->
+    <string name="survey_point">測量點位</string>
+    <!-- Used in file activity_job.xml:50 -->
+    <string name="job_surveyor">測量員</string>
+    <!-- Used in file IdenticalPointsActivity.java:273 -->
+    <string name="string_identical_points">相同點位</string>
+    <!-- Used in file IdenticalPointsActivity.java:39 -->
+    <string name="string_save">儲存</string>
+    <!-- Used in file SurveyPointListAdapter.java:151 -->
+    <string name="string_slant">斜高</string>
+    <!-- Used in file DesignPointsActivity.java:332 -->
+    <string name="string_delete">刪除</string>
+    <!-- Used in file UserCSPreferenceFragment.java:217 -->
+    <string name="string_ellipsoid_">橢球高:</string>
+    <!-- Used in file user_cs.xml:33 -->
+    <string name="string_datum_dy">DY, m</string>
+    <!-- Used in file user_cs.xml:25 -->
+    <string name="string_datum_dx">DX, m</string>
+    <!-- Used in file identical_points.xml:20 -->
+    <string name="action_parameters">設定</string>
+    <!-- Used in file activity_point.xml:198 -->
+    <string name="button_antenna">天線</string>
+    <!-- Used in file activity_job.xml:30 -->
+    <string name="job_name">Name</string>
+    <!-- Used in file user_cs.xml:41 -->
+    <string name="string_datum_dz">DZ, m</string>
+    <!-- Used in file CSListActivity.java:131 -->
+    <string name="string_cancel">取消</string>
+    <!-- Used in file IdenticalPointListAdapter.java:192 -->
+    <string name="string_latitude_origin">緯度起源.</string>
+    <!-- Used in file PointsActivity.java:335 -->
+    <string name="string_listen_audio">收聽音效</string>
+    <!-- Used in file ts_points.xml:20 -->
+    <string name="action_delete">刪除</string>
+    <!-- Used in file SurveyPointListAdapter.java:148 -->
+    <string name="string_trajectory">軌跡</string>
+    <!-- UNUSED STRING -->
+    <string name="check_and_save_settings_summary">檢查及儲存</string>
+    <!-- UNUSED STRING -->
+    <string name="string_origin_north">北 0</string>
+    <!-- UNUSED STRING -->
+    <string name="string_solutiontype">來源形式</string>
+    <!-- UNUSED STRING -->
+    <string name="string_pdop">PDOP</string>
+    <!-- UNUSED STRING -->
+    <string name="string_origin_east">東 0</string>
+    <!-- UNUSED STRING -->
+    <string name="string_longitude">經度</string>
+    <!-- UNUSED STRING -->
+    <string name="string_hdop">HDOP</string>
+    <!-- UNUSED STRING -->
+    <string name="string_gdop">GDOP</string>
+    <!-- UNUSED STRING -->
+    <string name="string_vertical_treshold">垂直門檻</string>
+    <!-- UNUSED STRING -->
+    <string name="string_latitude">緯度</string>
+    <!-- UNUSED STRING -->
+    <string name="string_vrms">VRMS</string>
+    <!-- UNUSED STRING -->
+    <string name="string_horizontal_treshold">水平門檻</string>
+    <!-- UNUSED STRING -->
+    <string name="string_hrms">HRMS</string>
+    <!-- UNUSED STRING -->
+    <string name="string_tdop">TDOP</string>
+    <!-- UNUSED STRING -->
+    <string name="string_vdop">VDOP</string>
+    
+<string-array name="coordinate_system_array">
+    <item>WGS 84</item>
+    <item>地方</item>
+</string-array>
+
+<string-array name="measure_units_array">
+    <item>公尺</item>
+    <item>US 英尺</item>
+    <item>Int.英尺</item></string-array>
+
+<string-array name="identical_point_types_array">
+    <item>H+V</item>
+    <item>H 唯一</item>
+    <item>V 唯一</item>
+    <item>檢查</item>
+    <item>關閉</item>
+</string-array>
+
+</resources>
