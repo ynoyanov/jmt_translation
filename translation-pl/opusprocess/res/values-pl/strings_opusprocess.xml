@@ -1,148 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-<resources>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-    <!-- Used in file DPOS.java:777 -->
-    <string name="string_project_deleted_ok">Project deleted OK</string>
-    <!-- Used in file OpusProcessActivity.java:432 -->
-    <string name="string_wrong_antenna_height_">Wrong Antenna height!</string>
-    <!-- Used in file activity_process_opus_result.xml:47 -->
-    <string name="vbrtk">VBRTK</string>
-    <!-- Used in file activity_process_opus.xml:216 -->
-    <string name="button_start_process">Send to OPUS</string>
-    <!-- Used in file list_vbrtk_point.xml:67 -->
-    <string name="arrow">-&gt;</string>
-    <!-- Used in file activity_process_opus.xml:151 -->
-    <string name="output_format">Out.Format</string>
-    <!-- Used in file DPOS.java:1217 -->
-    <string name="string_finishing___">Finishing&#8230;</string>
-    <!-- Used in file activity_process_opus_result.xml:26 -->
-    <string name="add_to_catalog">Add to Catalog</string>
-    <!-- Used in file FileListActivity.java:331 -->
-    <string name="string_view_opus">View OPUS</string>
-    <!-- Used in file OpusProcessActivity.java:213 -->
-    <string name="string_automatic">Automatic</string>
-    <!-- Used in file DPOS.java:627 -->
-    <string name="string_sent">Sent</string>
-    <!-- Used in file OpusProcessActivity.java:156 -->
-    <string name="string_dpos_process">DPOS Process</string>
-    <!-- Used in file DPOS.java:769 -->
-    <string name="string_canceled_by_user">Canceled by user</string>
-    <!-- Used in file activity_file_list.xml:30 -->
-    <string name="button_delete">Delete</string>
-    <!-- Used in file OpusProcessActivity.java:175 -->
-    <string name="kinematic">Kinematic</string>
-    <!-- Used in file FileListActivity.java:352 -->
-    <string name="string_delete_the_file">Delete the file</string>
-    <!-- Used in file activity_process_opus.xml:85 -->
-    <string name="antenna_height_opus">Antenna Height\n(vert. in meters)</string>
-    <!-- Used in file activity_process_opus.xml:189 -->
-    <string name="dpos_server">DPOS Server</string>
-    <!-- Used in file activity_process_opus.xml:114 -->
-    <string name="antenna_height_type_opus">Height Type</string>
-    <!-- Used in file OpusProcessActivity.java:589 -->
-    <string name="string_processing_file__s">Processing file %s</string>
-    <!-- Used in file DPOS.java:1109 -->
-    <string name="string_reading_answer___">Reading answer&#8230;</string>
-    <!-- Used in file OpusProcessResultActivity.java:120 -->
-    <string name="title_dpos_result">DPOS Process Result</string>
-    <!-- Used in file activity_process_opus.xml:132 -->
-    <string name="rapid_static">Rapid Static</string>
-    <!-- Used in file activity_process_opus_result.xml:14 -->
-    <string name="save_result">Save Report</string>
-    <!-- Used in file DPOS.java:777 -->
-    <string name="string_can_t_delete_dpos_project">Can\'t delete DPOS project</string>
-    <!-- Used in file activity_process_opus_result.xml:32 -->
-    <string name="catalog">Catalog</string>
-    <!-- Used in file FileListActivity.java:147 -->
-    <string name="string_show_log_files">Show Log Files</string>
-    <!-- Used in file FileListActivity.java:335 -->
-    <string name="string_view_dpos">View DPOS</string>
-    <!-- Used in file FileListActivity.java:341 -->
-    <string name="string_convert_to_rinex">Convert to Rinex</string>
-    <!-- Used in file OpusProcessActivity.java:219 -->
-    <string name="string_send_to_dpos">Send to DPOS</string>
-    <!-- Used in file OpusProcessResultActivity.java:120 -->
-    <string name="title_opus_result">OPUS Process Result</string>
-    <!-- Used in file DPOS.java:518 -->
-    <string name="string_ssl_sertificate_is_not_installed_">SSL sertificate is not installed!</string>
-    <!-- Used in file activity_process_opus.xml:47 -->
-    <string name="email">e-mail</string>
-    <!-- Used in file FileListActivity.java:867 -->
-    <string name="string_analyzing___">Analyzing&#8230;</string>
-    <!-- Used in file FileListActivity.java:145 -->
-    <string name="string_hide_log_files">Hide Log Files</string>
-    <!-- Used in file activity_process_opus.xml:162 -->
-    <string name="project_id">Project Id</string>
-    <!-- Used in file OpusProcessActivity.java:421 -->
-    <string name="string_empty_antenna_height_">Empty Antenna height!</string>
-    <!-- Used in file FileListActivity.java:358 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file activity_process_opus.xml:74 -->
-    <string name="antenna_id_opus">Antenna Id</string>
-    <!-- Used in file OpusProcessActivity.java:219 -->
-    <string name="string_send_to_opus">Send to OPUS</string>
-    <!-- Used in file OpusProcessActivity.java:177 -->
-    <string name="process_mode">Process Mode</string>
-    <!-- Used in file OpusProcessActivity.java:156 -->
-    <string name="string_opus_process">OPUS Process</string>
-    <!-- Used in file activity_file_list.xml:23 -->
-    <string name="button_view">View</string>
-    <!-- Used in file activity_file_list.xml:37 -->
-    <string name="button_process_opus">Process OPUS</string>
-    <!-- Used in file AndroidManifest.xml:25 -->
-    <string name="title_activity_file_list">File List</string>
-    <!-- Used in file DPOS.java:1054 -->
-    <string name="string_sending_to_server___">Sending to server&#8230;</string>
-    <!-- Used in file activity_process_opus.xml:35 -->
-    <string name="file_name">File Name</string>
-    <!-- Used in file AndroidManifest.xml:20 -->
-    <string name="app_name">OPUS Process</string>
-    <!-- Used in file OpusProcessActivity.java:518 -->
-    <string name="string_finished">Finished</string>
-    <!-- Used in file FileListActivity.java:94 -->
-    <string name="string_show_log_folder">Show Log Folder</string>
-    <!-- Used in file DPOS.java:1158 -->
-    <string name="string_processed__reading_result___">Processed. Reading result&#8230;</string>
-    <!-- Used in file activity_file_list.xml:44 -->
-    <string name="button_process_jopus">Process DPOS</string>
-    <!-- Used in file activity_file_list.xml:76 -->
-    <string name="button_select">. . .</string>
-    <!-- Used in file AndroidManifest.xml:42 -->
-    <string name="title_activity_opus_result_process">OPUS Process Result</string>
-    <!-- Used in file FileListActivity.java:349 -->
-    <string name="string_process_dpos">Process DPOS</string>
-    <!-- Used in file FileListActivity.java:355 -->
-    <string name="string_view_on_map">View on Map</string>
-    <!-- Used in file OpusProcessActivity.java:118 -->
-    <string name="antenna_height_dpos">Antenna Height</string>
-    <!-- Used in file DPOS.java:1028 -->
-    <string name="string_unknown_error_">Unknown error!</string>
-    <!-- Used in file activity_file_list.xml:60 -->
-    <string name="text_folder2">Folder\nof files:</string>
-    <!-- Used in file FileListActivity.java:882 -->
-    <string name="string_looking_for_antenna_info_in_file__s">Looking for antenna info in file %s</string>
-    <!-- Used in file file_list.xml:6 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file FileListActivity.java:345 -->
-    <string name="string_process_opus">Process OPUS</string>
-    <!-- Used in file OpusProcessActivity.java:317 -->
-    <string name="string_no_file_is_selected_">No file is selected!</string>
-    <!-- Used in file DPOS.java:616 -->
-    <string name="string_file_send_error">File send error</string>
-    <!-- Used in file AndroidManifest.xml:34 -->
-    <string name="title_activity_opus_process">OPUS Process</string>
-    <!-- Used in file OpusProcessActivity.java:379 -->
-    <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">OPUS Project (with ProjectId) can\'t process Rapid-Static!</string>
-    <!-- Used in file OpusProcessActivity.java:415 -->
-    <string name="string_antenna_id_is_not_selected_">Antenna ID is not selected!</string>
-    <!-- Used in file DPOS.java:1035 -->
-    <string name="string_process_starting___">Process Starting&#8230;</string>
-    <!-- Used in file OpusProcessActivity.java:604 -->
-    <string name="string_processing___">Processing&#8230;</string>
-    <!-- Used in file FileListActivity.java:94 -->
-    <string name="string_hide_log_folder">Hide Log Folder</string>
-    <!-- UNUSED STRING -->
-    <string name="string_finished_with_error_">Finished with error.</string>
-    
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Project deleted OK-->
+  <string name="string_project_deleted_ok">Projekt usunięty</string>
+  <!--Original value: Wrong Antenna height!-->
+  <string name="string_wrong_antenna_height_">Błędna wysokość anteny!</string>
+  <!--Original value: VBRTK-->
+  <string name="vbrtk">VBRTK</string>
+  <!--Original value: Send to OPUS-->
+  <string name="button_start_process">Wyślij do OPUS</string>
+  <!--Original value: ->-->
+  <string name="arrow">-&gt;</string>
+  <!--Original value: Out.Format-->
+  <string name="output_format">Format wyjśc.</string>
+  <!--Original value: Finishing…-->
+  <string name="string_finishing___">Kończenie…</string>
+  <!--Original value: Add to Catalog-->
+  <string name="add_to_catalog">Dodaj do katalogu</string>
+  <!--Original value: View OPUS-->
+  <string name="string_view_opus">Podgląd OPUS</string>
+  <!--Original value: Automatic-->
+  <string name="string_automatic">Automatycznie</string>
+  <!--Original value: Sent-->
+  <string name="string_sent">Wyślij</string>
+  <!--Original value: DPOS Process-->
+  <string name="string_dpos_process">Przetwarzaj z DPOS</string>
+  <!--Original value: Canceled by user-->
+  <string name="string_canceled_by_user">Anulowanie przez użytkownika</string>
+  <!--Original value: Delete-->
+  <string name="button_delete">Usuń</string>
+  <!--Original value: Kinematic-->
+  <string name="kinematic">Kinematyczne</string>
+  <!--Original value: Delete the file-->
+  <string name="string_delete_the_file">Kasuj plik</string>
+  <!--Original value: Antenna Height\n(vert. in meters)-->
+  <string name="antenna_height_opus">Wys. anteny\n(pion. w metrach)</string>
+  <!--Original value: DPOS Server-->
+  <string name="dpos_server">Serwer DPOS</string>
+  <!--Original value: Height Type-->
+  <string name="antenna_height_type_opus">Typ wysokości</string>
+  <!--Original value: Processing file %s-->
+  <string name="string_processing_file__s">Przetwarzanie pliku %s</string>
+  <!--Original value: Reading answer…-->
+  <string name="string_reading_answer___">Odczyt odpowiedzi…</string>
+  <!--Original value: DPOS Process Result-->
+  <string name="title_dpos_result">Wyniki DPOS</string>
+  <!--Original value: Rapid Static-->
+  <string name="rapid_static">Rapid Static</string>
+  <!--Original value: Save Report-->
+  <string name="save_result">Zapisz raport</string>
+  <!--Original value: Can\'t delete DPOS project-->
+  <string name="string_can_t_delete_dpos_project">Nie można usunąć projektu</string>
+  <!--Original value: Catalog-->
+  <string name="catalog">Katalog</string>
+  <!--Original value: Show Log Files-->
+  <string name="string_show_log_files">Pokaż Logi</string>
+  <!--Original value: View DPOS-->
+  <string name="string_view_dpos">Podgląd DPOS</string>
+  <!--Original value: Convert to Rinex-->
+  <string name="string_convert_to_rinex">Konwertuj do Rinex</string>
+  <!--Original value: Send to DPOS-->
+  <string name="string_send_to_dpos">Wyślij do DPOS</string>
+  <!--Original value: OPUS Process Result-->
+  <string name="title_opus_result">Wyniki OPUS</string>
+  <!--Original value: SSL sertificate is not installed!-->
+  <string name="string_ssl_sertificate_is_not_installed_">Nie zainstalowana certyfikatu SSL!</string>
+  <!--Original value: e-mail-->
+  <string name="email">e-mail</string>
+  <!--Original value: Analyzing…-->
+  <string name="string_analyzing___">Analizowanie…</string>
+  <!--Original value: Hide Log Files-->
+  <string name="string_hide_log_files">Ukryj Logi</string>
+  <!--Original value: Project Id-->
+  <string name="project_id">ID projektu</string>
+  <!--Original value: Empty Antenna height!-->
+  <string name="string_empty_antenna_height_">Pusta wysokość anteny!</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Antenna Id-->
+  <string name="antenna_id_opus">ID Anteny</string>
+  <!--Original value: Send to OPUS-->
+  <string name="string_send_to_opus">Wyślij do OPUS</string>
+  <!--Original value: Process Mode-->
+  <string name="process_mode">Tryb przetwarzania</string>
+  <!--Original value: OPUS Process-->
+  <string name="string_opus_process">Przetwarzanie OPUS</string>
+  <!--Original value: View-->
+  <string name="button_view">Podgląd</string>
+  <!--Original value: Process OPUS-->
+  <string name="button_process_opus">Przetwarzanie OPUS</string>
+  <!--Original value: File List-->
+  <string name="title_activity_file_list">Lista plików</string>
+  <!--Original value: Sending to server…-->
+  <string name="string_sending_to_server___">Wysyłanie na serwer…</string>
+  <!--Original value: File Name-->
+  <string name="file_name">Nazwa pliku</string>
+  <!--Original value: OPUS Process-->
+  <string name="app_name">Przetwarzanie OPUS</string>
+  <!--Original value: Finished-->
+  <string name="string_finished">Zakończono</string>
+  <!--Original value: Show Log Folder-->
+  <string name="string_show_log_folder">Pokaż katalog Logów</string>
+  <!--Original value: Processed. Reading result…-->
+  <string name="string_processed__reading_result___">Przetworzono. Odczyt wyników…</string>
+  <!--Original value: Process DPOS-->
+  <string name="button_process_jopus">Przetwarzanie DPOS</string>
+  <!--Original value: . . .-->
+  <string name="button_select">. . .</string>
+  <!--Original value: OPUS Process Result-->
+  <string name="title_activity_opus_result_process">Wyniki OPUS</string>
+  <!--Original value: Process DPOS-->
+  <string name="string_process_dpos">Process DPOS</string>
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Zobacz na mapie</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height_dpos">Wys. Anteny</string>
+  <!--Original value: Unknown error!-->
+  <string name="string_unknown_error_">Nieznay błąd!</string>
+  <!--Original value: Folder\nof files:-->
+  <string name="text_folder2">Katalog:</string>
+  <!--Original value: Looking for antenna info in file %s-->
+  <string name="string_looking_for_antenna_info_in_file__s">Szukanie danych anteny w pliku %s</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Ustawienia</string>
+  <!--Original value: Process OPUS-->
+  <string name="string_process_opus">Przetwarzanie OPUS</string>
+  <!--Original value: No file is selected!-->
+  <string name="string_no_file_is_selected_">Nie wybrano pliku!</string>
+  <!--Original value: File send error-->
+  <string name="string_file_send_error">Błąd wysyłania</string>
+  <!--Original value: OPUS Process-->
+  <string name="title_activity_opus_process">Przetwarzanie OPUS</string>
+  <!--Original value: OPUS Project (with ProjectId) can\'t process Rapid-Static!-->
+  <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">Nie można przetworzyć Rapid-Static!</string>
+  <!--Original value: Antenna ID is not selected!-->
+  <string name="string_antenna_id_is_not_selected_">Nie wybrano ID anteny!</string>
+  <!--Original value: Process Starting…-->
+  <string name="string_process_starting___">Rozpoczynanie…</string>
+  <!--Original value: Processing…-->
+  <string name="string_processing___">Przetwarzanie…</string>
+  <!--Original value: Hide Log Folder-->
+  <string name="string_hide_log_folder">Ukryj katalog</string>
+  <!--Original value: Finished with error.-->
+  <string name="string_finished_with_error_">Zakończone z błędem.</string>
 </resources>

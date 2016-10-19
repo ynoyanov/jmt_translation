@@ -1,77 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file FileManagerActivity.java:331 -->
-    <string name="string_resume">Resume</string>
-    <!-- Used in file FileManagerActivity.java:319 -->
-    <string name="string_rewrite">Rewrite</string>
-    <!-- Used in file FileManagerActivity.java:691 -->
-    <string name="string_delete_file_result">Delete file result</string>
-    <!-- Used in file FileManagerActivity.java:313 -->
-    <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">File %s already exist.\nDo you want to Rewrite it or Resume?</string>
-    <!-- Used in file FileManagerActivity.java:516 -->
-    <string name="string_downloading___">Downloading&#8230;</string>
-    <!-- Used in file FileManagerActivity.java:300 -->
-    <string name="string_loaded">loaded</string>
-    <!-- Used in file file_manager.xml:39 -->
-    <string name="action_download_block_size">Download Block Size</string>
-    <!-- Used in file activity_actions.xml:12 -->
-    <string name="button_download">Download</string>
-    <!-- Used in file FileManagerActivity.java:459 -->
-    <string name="string_removing___">Removing&#8230;</string>
-    <!-- Used in file FileManagerActivity.java:683 -->
-    <string name="string_successfully_deleted_all__d_files">Successfully deleted all %d files</string>
-    <!-- Used in file AndroidManifest.xml:26 -->
-    <string name="app_name">Receiver Files</string>
-    <!-- Used in file FileManagerActivity.java:111 -->
-    <string name="action_hide_deleted">Switch back to receiver files</string>
-    <!-- Used in file activity_file_manager.xml:46 -->
-    <string name="search_hint">Search files&#8230;</string>
-    <!-- Used in file activity_actions.xml:19 -->
-    <string name="button_delete">Delete</string>
-    <!-- Used in file activity_actions.xml:26 -->
-    <string name="button_delete_all">Delete All Files</string>
-    <!-- Used in file activity_file_manager.xml:22 -->
-    <string name="text_folder">Folder\nto Store:</string>
-    <!-- Used in file activity_file_manager.xml:38 -->
-    <string name="button_select">. . .</string>
-    <!-- Used in file activity_block_size.xml:60 -->
-    <string name="button_cancel">Cancel</string>
-    <!-- Used in file activity_block_size.xml:20 -->
-    <string name="block_size_description">Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.</string>
-    <!-- Used in file FileManagerActivity.java:531 -->
-    <string name="string_downloading_file__s">Downloading file %s</string>
-    <!-- Used in file FileManagerActivity.java:312 -->
-    <string name="string_download_file">Download file</string>
-    <!-- Used in file FileManagerActivity.java:687 -->
-    <string name="string_all__d_files_will_be_deleted">All %d files will be deleted</string>
-    <!-- Used in file activity_main.xml:14 -->
-    <string name="hello_world">Hello World</string>
-    <!-- Used in file activity_block_size.xml:34 -->
-    <string name="block_size">Block Size, bytes</string>
-    <!-- Used in file main.xml:7 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file AndroidManifest.xml:35 -->
-    <string name="title_activity_file_manager">File Manager</string>
-    <!-- Used in file activity_block_size.xml:69 -->
-    <string name="button_apply">Apply&quot;</string>
-    <!-- Used in file file_manager.xml:28 -->
-    <string name="action_show_deleted">Switch to Deleted files</string>
-    <!-- Used in file FileManagerActivity.java:688 -->
-    <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Wait several minutes till receiver flashing is over!</string>
-    <!-- Used in file FileManagerActivity.java:686 -->
-    <string name="string_file_system_init_started_">File system init started.</string>
-    <!-- Used in file FileManagerActivity.java:662 -->
-    <string name="string_removed_file__s">Removed file %s</string>
-    <!-- Used in file FileManagerActivity.java:682 -->
-    <string name="string_deleted__1_d_files__from__2_d_">Deleted %1$d files (from %2$d)</string>
-    <!-- Used in file AndroidManifest.xml:59 -->
-    <string name="title_activity_connection">Connection</string>
-    <!-- Used in file FileManagerActivity.java:339 -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file FileManagerActivity.java:692 -->
-    <string name="string_close">Close</string>
-    <!-- UNUSED STRING -->
-    <string name="title_activity_connection_configurations">Connection Configuration</string>
-    
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Resume-->
+  <string name="string_resume">Wznów</string>
+  <!--Original value: Rewrite-->
+  <string name="string_rewrite">Nadpisz</string>
+  <!--Original value: Delete file result-->
+  <string name="string_delete_file_result">Usuń plik wynikowy</string>
+  <!--Original value: File %s already exist.\nDo you want to Rewrite it or Resume?-->
+  <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Plik %s już istnieje.\nChcesz nadpisać dane czy dopisać do istniejących?</string>
+  <!--Original value: Downloading…-->
+  <string name="string_downloading___">Pobieranie…</string>
+  <!--Original value: loaded-->
+  <string name="string_loaded">załadowano</string>
+  <!--Original value: Download Block Size-->
+  <string name="action_download_block_size">Rozmiar bloku</string>
+  <!--Original value: Download-->
+  <string name="button_download">Pobierz</string>
+  <!--Original value: Removing…-->
+  <string name="string_removing___">Usuwanie…</string>
+  <!--Original value: Successfully deleted all %d files-->
+  <string name="string_successfully_deleted_all__d_files">Kasowanie wszystkich %d plików zakończone powodzeniem.</string>
+  <!--Original value: Receiver Files-->
+  <string name="app_name">Pliki w pamięci odbiornika</string>
+  <!--Original value: Switch back to receiver files-->
+  <string name="action_hide_deleted">Powrót do plików w pamięci odbiornika</string>
+  <!--Original value: Search files…-->
+  <string name="search_hint">Szukanie plików…</string>
+  <!--Original value: Delete-->
+  <string name="button_delete">Usuń</string>
+  <!--Original value: Delete All Files-->
+  <string name="button_delete_all">Usuń wszystkie pliki</string>
+  <!--Original value: Folder\nto Store:-->
+  <string name="text_folder">Katalog \ndocelowy:</string>
+  <!--Original value: . . .-->
+  <string name="button_select">. . .</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">Anuluj</string>
+  <!--Original value: Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.-->
+  <string name="block_size_description">Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block size is 4096 bytes.</string>
+  <!--Original value: Downloading file %s-->
+  <string name="string_downloading_file__s">Pobieranie pliku %s</string>
+  <!--Original value: Download file-->
+  <string name="string_download_file">Pobierz plik</string>
+  <!--Original value: All %d files will be deleted-->
+  <string name="string_all__d_files_will_be_deleted">Ilość plików do usunięcią: %d</string>
+  <!--Original value: Hello World-->
+  <string name="hello_world">Witaj świecie</string>
+  <!--Original value: Block Size, bytes-->
+  <string name="block_size">Block Size, bytes</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Ustawienia</string>
+  <!--Original value: File Manager-->
+  <string name="title_activity_file_manager">Manager plików</string>
+  <!--Original value: Apply"-->
+  <string name="button_apply">Zastosuj"</string>
+  <!--Original value: Switch to Deleted files-->
+  <string name="action_show_deleted">Powrót do plików usuniętych</string>
+  <!--Original value: Wait several minutes till receiver flashing is over!-->
+  <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Zaczekaj kilka minut, aż flashowanie odbiornika zostanie zakończone!</string>
+  <!--Original value: File system init started.-->
+  <string name="string_file_system_init_started_">Zainicjowano system plików.</string>
+  <!--Original value: Removed file %s-->
+  <string name="string_removed_file__s">Usunięto plik %s</string>
+  <!--Original value: Deleted %1$d files (from %2$d)-->
+  <string name="string_deleted__1_d_files__from__2_d_">Usunięto %1$d plików (z %2$d)</string>
+  <!--Original value: Connection-->
+  <string name="title_activity_connection">Połączenie</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Connection Configuration-->
+  <string name="title_activity_connection_configurations">Konfiguracja połączenia</string>
 </resources>

@@ -1,160 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:534 -->
-    <string name="string_file_doesn_t_exist_">File doesn\'t exist!</string>
-    <!-- Used in file PairModemActivity.java:293 -->
-    <string name="string_modem_is_paired_ok__rebooting_modem___">Modem is paired ok. Rebooting modem&#8230;</string>
-    <!-- Used in file activity_pair_modem.xml:24 -->
-    <string name="text_select_modem">Select HPT modem to pair</string>
-    <!-- Used in file PairModemActivity.java:335 -->
-    <string name="string_pairing_has_done_">Pairing has done.</string>
-    <!-- Used in file PairModemActivity.java:254 -->
-    <string name="string_connected__starting_to_pair___">Connected. Starting to pair&#8230;</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:47 -->
-    <string name="string_bluetooth_radio">Bluetooth Radio</string>
-    <!-- Used in file PairModemActivity.java:262 -->
-    <string name="string_can_t_set_modem_to_command_mode">Can\'t set modem to command mode</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:616 -->
-    <string name="string_firmware_successfully_loaded">Firmware successfully loaded</string>
-    <!-- Used in file PairModemActivity.java:358 -->
-    <string name="string_unpairing_error">Unpairing error</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:23 -->
-    <string name="text_select_modem_2">Select radio to update firmware</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:583 -->
-    <string name="string_wrong_firmware_file_">Wrong firmware file!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:94 -->
-    <string name="string_connected_to_radio">Connected to radio</string>
-    <!-- Used in file AndroidManifest.xml:35 -->
-    <string name="title_activity_pair_modem">Pair HPT Modem</string>
-    <!-- Used in file PairModemActivity.java:271 -->
-    <string name="string_modem_info_received___">Modem info received&#8230;</string>
-    <!-- Used in file activity_pair_modem.xml:16 -->
-    <string name="text_receiver_info">Connected to receiver</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:41 -->
-    <string name="string_paired_radio">Paired to receiver Radio</string>
-    <!-- Used in file activity_repeater.xml:92 -->
-    <string name="simplex_protocol_parameters">Simplex Protocol Parameters</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:570 -->
-    <string name="string_load_firmware_anyway">Load firmware anyway</string>
-    <!-- Used in file activity_main.xml:14 -->
-    <string name="hello_world">Hello world!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:650 -->
-    <string name="string_can_t_initiate_firmware_loading">Can\'t initiate firmware loading</string>
-    <!-- Used in file PairModemActivity.java:125 -->
-    <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Do you want to unpair the receiver and the modem?</string>
-    <!-- Used in file PairModemActivity.java:210 -->
-    <string name="string_wait__">Wait!!</string>
-    <!-- Used in file PairModemActivity.java:235 -->
-    <string name="string_receiver_is_not_connected_">Receiver is not connected!</string>
-    <!-- Used in file FindRangefinderActivity.java:212 -->
-    <string name="string_please_wait">Please wait</string>
-    <!-- Used in file PairModemActivity.java:77 -->
-    <string name="string_turn_the_radio_off_and_on_to_finish_">Turn the radio off and on to finish.</string>
-    <!-- Used in file PairModemActivity.java:62 -->
-    <string name="string_paired_to__">Paired to:)</string>
-    <!-- Used in file PairModemActivity.java:77 -->
-    <string name="string_unpaired_">Unpaired.</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:542 -->
-    <string name="string_load_firmware">Load firmware</string>
-    <!-- Used in file activity_repeater.xml:37 -->
-    <string name="frequency_hz">Frequency, Hz</string>
-    <!-- Used in file activity_repeater.xml:151 -->
-    <string name="fec">Error Correction (FEC)</string>
-    <!-- Used in file activity_find_rangefinder.xml:16 -->
-    <string name="text_select_rangefinder">Select a Rangefinder</string>
-    <!-- Used in file PairModemActivity.java:297 -->
-    <string name="string_can_t_save_modem_settings_">Can\'t save modem settings!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:94 -->
-    <string name="string_do_you_want_to_update_its_firmware_">Do you want to update its firmware?</string>
-    <!-- Used in file FindRangefinderActivity.java:115 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file activity_repeater.xml:141 -->
-    <string name="scrambling">Scrambling</string>
-    <!-- Used in file activity_repeater.xml:111 -->
-    <string name="modulation">Modulation</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:315 -->
-    <string name="string_can_t_connect_to_internal_radio_">Can\'t connect to internal radio!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:544 -->
-    <string name="string_write_firmware">Write firmware</string>
-    <!-- Used in file FindRangefinderActivity.java:211 -->
-    <string name="string_conecting___">Conecting&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:594 -->
-    <string name="string_your_radio_is">Your radio is</string>
-    <!-- Used in file PairModemActivity.java:124 -->
-    <string name="string_modem_already_paired">Modem already paired</string>
-    <!-- Used in file AndroidManifest.xml:25 -->
-    <string name="app_name">Pair HPT Modem</string>
-    <!-- Used in file PairModemActivity.java:117 -->
-    <string name="no_connection">No connection to a Javad receiver</string>
-    <!-- Used in file activity_repeater.xml:55 -->
-    <string name="call_sign">Call Sign</string>
-    <!-- Used in file FindRangefinderActivity.java:113 -->
-    <string name="string_connected_to_rangefinder">Connected to Rangefinder</string>
-    <!-- Used in file PairModemActivity.java:324 -->
-    <string name="string_reseting_gnss_receiver___">Reseting GNSS receiver&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:569 -->
-    <string name="string_can_t_read_version_from_from_the_file_">Can\'t read version from from the file!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:594 -->
-    <string name="string_this_firmware_is">This firmware is</string>
-    <!-- Used in file RepeaterActivity.java:150 -->
-    <string name="string_reading_setting___">Reading setting&#8230;</string>
-    <!-- Used in file PairModemActivity.java:209 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file PairModemActivity.java:310 -->
-    <string name="string_exit_from_data_mode___">Exit from data mode&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:757 -->
-    <string name="string_reset">Reset</string>
-    <!-- Used in file PairModemActivity.java:239 -->
-    <string name="string_receiver_bluetooth_address_is_not_obtained_">Receiver Bluetooth address is not obtained!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:640 -->
-    <string name="string_can_t_start_firmware_load">Can\'t start firmware load</string>
-    <!-- Used in file activity_repeater.xml:130 -->
-    <string name="channel_spacing">Channel Spacing</string>
-    <!-- Used in file activity_repeater.xml:81 -->
-    <string name="protocol">Protocol</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:691 -->
-    <string name="string_loaded___1f_____block___d_from__d_">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
-    <!-- Used in file pair_modem.xml:7 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file activity_repeater.xml:169 -->
-    <string name="rtr_echo">RTR Echo</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:453 -->
-    <string name="string_can_t_read_radio_info">Can\'t read radio info</string>
-    <!-- Used in file activity_repeater.xml:206 -->
-    <string name="button_apply">Apply</string>
-    <!-- Used in file activity_repeater.xml:73 -->
-    <string name="output_power_w">Output Power</string>
-    <!-- Used in file activity_find_repeater.xml:16 -->
-    <string name="text_select_repeater">Select HPT Repeater to setup</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:241 -->
-    <string name="string_radio_paired_by_bluetooth">Radio Paired by Bluetooth</string>
-    <!-- Used in file PairModemActivity.java:321 -->
-    <string name="string_pairing_gnss_receiver___">Pairing GNSS receiver&#8230;</string>
-    <!-- Used in file PairModemActivity.java:329 -->
-    <string name="string_can_t_pair_gnss_receiver">Can\'t pair GNSS receiver</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:35 -->
-    <string name="string_internal_radio">Internal Radio</string>
-    <!-- Used in file FindRangefinderActivity.java:114 -->
-    <string name="string_successfully_connected_to__s">Successfully connected to %s</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:543 -->
-    <string name="string_do_you_want_to_load_the_firmware_">Do you want to load the firmware?</string>
-    <!-- Used in file PairModemActivity.java:355 -->
-    <string name="string_successfully_unpaired_">Successfully unpaired.</string>
-    <!-- Used in file PairModemActivity.java:112 -->
-    <string name="string_connected_to_">Connected to </string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:787 -->
-    <string name="string_rebooting___1f">Rebooting %.1f</string>
-    <!-- Used in file AndroidManifest.xml:60 -->
-    <string name="title_activity_connection">Connection</string>
-    <!-- Used in file PairModemActivity.java:306 -->
-    <string name="string_modem_bluetooth_address_is_not_obtained_">Modem Bluetooth address is not obtained!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:549 -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file activity_repeater.xml:197 -->
-    <string name="button_read_from_radio">From Radio</string>
-    <!-- UNUSED STRING -->
-    <string name="title_activity_connection_configurations">Connection Configuration</string>
-    <!-- UNUSED STRING -->
-    <string name="string_do_you_want_ot_load_firmware_">Do you want ot load firmware?</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: File doesn\'t exist!-->
+  <string name="string_file_doesn_t_exist_">Plik nie istnieje!</string>
+  <!--Original value: Modem is paired ok. Rebooting modem…-->
+  <string name="string_modem_is_paired_ok__rebooting_modem___">Sparowano modem. Restarowanie…</string>
+  <!--Original value: Select HPT modem to pair-->
+  <string name="text_select_modem">Wybierz modem HPT aby sparować</string>
+  <!--Original value: Pairing has done.-->
+  <string name="string_pairing_has_done_">Zakończono parowanie.</string>
+  <!--Original value: Connected. Starting to pair…-->
+  <string name="string_connected__starting_to_pair___">Połącznono. Rozpoczęto parowanie…</string>
+  <!--Original value: Bluetooth Radio-->
+  <string name="string_bluetooth_radio">Radio Bluetooth</string>
+  <!--Original value: Can\'t set modem to command mode-->
+  <string name="string_can_t_set_modem_to_command_mode">Nie można ustawić modemu w trybie rozkazowym</string>
+  <!--Original value: Firmware successfully loaded-->
+  <string name="string_firmware_successfully_loaded">Załadowano FW</string>
+  <!--Original value: Unpairing error-->
+  <string name="string_unpairing_error">Błąd rozparowywania</string>
+  <!--Original value: Select radio to update firmware-->
+  <string name="text_select_modem_2">Wybierz radio aby uaktualnić Firmware</string>
+  <!--Original value: Wrong firmware file!-->
+  <string name="string_wrong_firmware_file_">Niewłaściwe oprogramowanie!</string>
+  <!--Original value: Connected to radio-->
+  <string name="string_connected_to_radio">Połączono z radiem</string>
+  <!--Original value: Pair HPT Modem-->
+  <string name="title_activity_pair_modem">Sparowano modem HPT</string>
+  <!--Original value: Modem info received…-->
+  <string name="string_modem_info_received___">Zbieranie danych o modemie…</string>
+  <!--Original value: Connected to receiver-->
+  <string name="text_receiver_info">Połączono z odbiornikiem</string>
+  <!--Original value: Paired to receiver Radio-->
+  <string name="string_paired_radio">Sparowano z radiem odbiornika</string>
+  <!--Original value: Simplex Protocol Parameters-->
+  <string name="simplex_protocol_parameters">Parametry Simplex</string>
+  <!--Original value: Load firmware anyway-->
+  <string name="string_load_firmware_anyway">Ładuj FW mimo wszystko</string>
+  <!--Original value: Hello world!-->
+  <string name="hello_world">Witaj świecie!</string>
+  <!--Original value: Can\'t initiate firmware loading-->
+  <string name="string_can_t_initiate_firmware_loading">Nie można zainicjować aktualizacji</string>
+  <!--Original value: Do you want to unpair the receiver and the modem?-->
+  <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Czy chcesz rozparować odbiornik i modem?</string>
+  <!--Original value: Wait!!-->
+  <string name="string_wait__">Czekaj!!</string>
+  <!--Original value: Receiver is not connected!-->
+  <string name="string_receiver_is_not_connected_">Odbiornik niepołączony!</string>
+  <!--Original value: Please wait-->
+  <string name="string_please_wait">Proszę czekać</string>
+  <!--Original value: Turn the radio off and on to finish.-->
+  <string name="string_turn_the_radio_off_and_on_to_finish_">Wyłącz i włącz  radio aby dokończyć.</string>
+  <!--Original value: Paired to:)-->
+  <string name="string_paired_to__">Sparowany z:)</string>
+  <!--Original value: Unpaired.-->
+  <string name="string_unpaired_">Rozparowany.</string>
+  <!--Original value: Load firmware-->
+  <string name="string_load_firmware">Ładuj FW</string>
+  <!--Original value: Frequency, Hz-->
+  <string name="frequency_hz">Częstotliwość, Hz</string>
+  <!--Original value: Error Correction (FEC)-->
+  <string name="fec">FEC</string>
+  <!--Original value: Select a Rangefinder-->
+  <string name="text_select_rangefinder">Wybierz dalmierz</string>
+  <!--Original value: Can\'t save modem settings!-->
+  <string name="string_can_t_save_modem_settings_">Nie można zapisac ustawień!</string>
+  <!--Original value: Do you want to update its firmware?-->
+  <string name="string_do_you_want_to_update_its_firmware_">Czy chcesz zaktualizować jego FW?</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Scrambling-->
+  <string name="scrambling">Szyfrowanie</string>
+  <!--Original value: Modulation-->
+  <string name="modulation">Modulacja</string>
+  <!--Original value: Can\'t connect to internal radio!-->
+  <string name="string_can_t_connect_to_internal_radio_">Nie można połączyć z radiem wewn.!</string>
+  <!--Original value: Write firmware-->
+  <string name="string_write_firmware">Zapis FW</string>
+  <!--Original value: Conecting…-->
+  <string name="string_conecting___">Łączenie…</string>
+  <!--Original value: Your radio is-->
+  <string name="string_your_radio_is">Twoje radio jest</string>
+  <!--Original value: Modem already paired-->
+  <string name="string_modem_already_paired">Modem już sparowany</string>
+  <!--Original value: Pair HPT Modem-->
+  <string name="app_name">Paruj modem HPT</string>
+  <!--Original value: No connection to a Javad receiver-->
+  <string name="no_connection">Brak połączenie z odbiornikiem</string>
+  <!--Original value: Call Sign-->
+  <string name="call_sign">Call Sign</string>
+  <!--Original value: Connected to Rangefinder-->
+  <string name="string_connected_to_rangefinder">Połączono z dalmierzem</string>
+  <!--Original value: Reseting GNSS receiver…-->
+  <string name="string_reseting_gnss_receiver___">Resetowanie odbiornika…</string>
+  <!--Original value: Can\'t read version from from the file!-->
+  <string name="string_can_t_read_version_from_from_the_file_">Nie można odczytać wersji z pliku!</string>
+  <!--Original value: This firmware is-->
+  <string name="string_this_firmware_is">To FW jest</string>
+  <!--Original value: Reading setting…-->
+  <string name="string_reading_setting___">Odczyt ustawienia…</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Proszę czekać!!</string>
+  <!--Original value: Exit from data mode…-->
+  <string name="string_exit_from_data_mode___">Wyjście z trybu danych…</string>
+  <!--Original value: Reset-->
+  <string name="string_reset">Reset</string>
+  <!--Original value: Receiver Bluetooth address is not obtained!-->
+  <string name="string_receiver_bluetooth_address_is_not_obtained_">Nie uzyskano adresu BT odbiornika!</string>
+  <!--Original value: Can\'t start firmware load-->
+  <string name="string_can_t_start_firmware_load">Nie można rozpocząć ładowania FW</string>
+  <!--Original value: Channel Spacing-->
+  <string name="channel_spacing">Channel Spacing</string>
+  <!--Original value: Protocol-->
+  <string name="protocol">Protokół</string>
+  <!--Original value: Loaded %1$.1f %% (block #%2$d from %3$d)-->
+  <string name="string_loaded___1f_____block___d_from__d_">Załadowano %1$.1f %% (blok #%2$d z %3$d)</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Ustawienia</string>
+  <!--Original value: RTR Echo-->
+  <string name="rtr_echo">Echo RTR</string>
+  <!--Original value: Can\'t read radio info-->
+  <string name="string_can_t_read_radio_info">Nie można odczytać parametrów</string>
+  <!--Original value: Apply-->
+  <string name="button_apply">Zastosuj</string>
+  <!--Original value: Output Power-->
+  <string name="output_power_w">Output Power</string>
+  <!--Original value: Select HPT Repeater to setup-->
+  <string name="text_select_repeater">Wybierz Repeater HPT aby go ustawić</string>
+  <!--Original value: Radio Paired by Bluetooth-->
+  <string name="string_radio_paired_by_bluetooth">Radio sparowane przez BT</string>
+  <!--Original value: Pairing GNSS receiver…-->
+  <string name="string_pairing_gnss_receiver___">Parowanie odbiornika GNSS…</string>
+  <!--Original value: Can\'t pair GNSS receiver-->
+  <string name="string_can_t_pair_gnss_receiver">Nie można sparować odbiornika</string>
+  <!--Original value: Internal Radio-->
+  <string name="string_internal_radio">Radiow wewnętrzne</string>
+  <!--Original value: Successfully connected to %s-->
+  <string name="string_successfully_connected_to__s">Połączono z %s</string>
+  <!--Original value: Do you want to load the firmware?-->
+  <string name="string_do_you_want_to_load_the_firmware_">Czy chcesz załadować FW?</string>
+  <!--Original value: Successfully unpaired.-->
+  <string name="string_successfully_unpaired_">Rozparowano.</string>
+  <!--Original value: Connected to -->
+  <string name="string_connected_to_">Połączono z</string>
+  <!--Original value: Rebooting %.1f-->
+  <string name="string_rebooting___1f">Rebooting %.1f</string>
+  <!--Original value: Connection-->
+  <string name="title_activity_connection">Połączenie</string>
+  <!--Original value: Modem Bluetooth address is not obtained!-->
+  <string name="string_modem_bluetooth_address_is_not_obtained_">Nie uzyskano adresu BT modemu!</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: From Radio-->
+  <string name="button_read_from_radio">Od modemu</string>
+  <!--Original value: Connection Configuration-->
+  <string name="title_activity_connection_configurations">Konfiguracja połączenia</string>
+  <!--Original value: Do you want ot load firmware?-->
+  <string name="string_do_you_want_ot_load_firmware_">Czy chcesz załadować FW?</string>
 </resources>
