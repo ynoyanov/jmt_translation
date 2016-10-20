@@ -167,7 +167,7 @@
   <!--Original value: Set Coordinates-->
   <string name="set_coordinate">Ustaw współrz.</string>
   <!--Original value: Stop RTK-->
-  <string name="button_stop">Zatrzymaj RTK</string>
+  <string name="button_stop">Stop RTK</string>
   <!--Original value: C/A & P L2 measurements are used in RTK processing-->
   <string name="string_c_a___p_l2_measurements_are_used_in_rtk_processing">C/A &amp; P L2 są używane przy RTK</string>
   <!--Original value: Mount Point-->
@@ -349,7 +349,7 @@ Dopuszczalny zakres: od %1$fW(%2$fdBm) do %3$fW(%4$fdBm)!</string>
   <!--Original value: 100Hz-->
   <string name="string_100hz">100Hz</string>
   <!--Original value: Reconfigure Receiver-->
-  <string name="reconfigure_receiver">Rekonfig odbironika</string>
+  <string name="reconfigure_receiver">Ustaw odbiornik</string>
   <!--Original value: Boot Loader Version-->
   <string name="receiver_bootloader_version">Boot Loader Version</string>
   <!--Original value: Can\'t parse source table info-->
@@ -715,8 +715,13 @@ Sprawdź połączenie!
   <string name="get_from_receiver">Z odbiornika</string>
   <!--Original value: -->
   <string name="link_quality" />
-  <!--Original value: RTK Surveying is on…-->
+
+  <!--Original value: RTK Surveying is on&#8230;-->
   <string name="string_rtk_surveying_is_on___">Pomiar RTK w toku…</string>
+  
+  <!-- Used in file SurveyModel.java:648 -->
+  <string name="string_rtk_surveying_is_on___">Pomiar RTK w toku…</string>
+
   <!--Original value: Store Offset-->
   <string name="button_store_offset">Zapisz offset</string>
   <!--Original value: Vendor:-->
@@ -877,7 +882,7 @@ Dopuszczalny zakres to od %1$.3fW(%2$d) do %3$.3fW(%4$d)!</string>
   <!--Original value: %1$dmin. %2$dsec.-->
   <string name="string__1_dmin___2_dsec_">%1$dmin. %2$dsec.</string>
   <!--Original value: Start-->
-  <string name="button_start">Start</string>
+  <string name="button_start">Start RTK</string>
   <!--Original value: epochs collected-->
   <string name="epochs_collected">zebrane epoki</string>
   <!--Original value: Traj.Min.Length-->
@@ -1349,7 +1354,7 @@ celowa</string>
   <!--Original value: Not enough memory in the receiver!-->
   <string name="string_not_enough_memory_in_the_receiver_">Brak wystarczającej pamięci w odbiorniku!</string>
   <!--Original value: Stay for %dsec-->
-  <string name="string_stay_for__dsec">Pozostań przez %dsek</string>
+  <string name="string_stay_for__dsec">Ilość zliczeń %dsek</string>
   <!--Original value: Azimuth Type-->
   <string name="text_azimuth">Typ azymutu</string>
   <!--Original value: secs-->
@@ -1486,7 +1491,7 @@ Z:</string>
   <!--Original value: SatSys-->
   <string name="satsys">SysSat</string>
   <!--Original value: Stay till Stop-->
-  <string name="string_stay_till_stop">Pozostań do zatrzymania</string>
+  <string name="string_stay_till_stop">Zatrzymaj ręcznie</string>
   <!--Original value: Next-->
   <string name="text_next">Dalej</string>
   <!--Original value: CORRECTIONS-->
