@@ -123,6 +123,8 @@
   <string name="sounds_up">ЗВУКИ</string>
   <!--Original value: Wrong longitude!-->
   <string name="string_wrong_longitude_">Неверная долгота!</string>
+  <!--Original value: No epoch collected!-->
+  <string name="string_no_epoch_collected_">Не снято ни одной эпохи!</string>
   <!--Original value: Description-->
   <string name="description">Описание</string>
   <!--Original value: Bluetooth B-->
@@ -221,6 +223,8 @@
   <string name="gprs_dialup_number">Номер тел.</string>
   <!--Original value: Table-->
   <string name="action_table">Таблица</string>
+  <!--Original value: Sort by-->
+  <string name="sort_description">Сортировать по</string>
   <!--Original value: Canceled by user-->
   <string name="string_canceled_by_user">Прервано пользователем</string>
   <!--Original value: TCP Port:-->
@@ -243,6 +247,8 @@
   <string name="string_course_up">Курс вверху</string>
   <!--Original value: Can\'t start UHF radio-->
   <string name="string_can_t_start_uhf_radio">Не удалось запустить УВЧ модем</string>
+  <!--Original value: Trajectories-->
+  <string name="string_menu_offset_trajectory">Траектории</string>
   <!--Original value: Antenna-->
   <string name="antenna">Антенна</string>
   <!--Original value: Connected to Internet…-->
@@ -399,10 +405,10 @@
   <string name="action_settings">Настройки</string>
   <!--Original value: TCPO Mode-->
   <string name="tcpo_on">Режим TCPO</string>
-  <!--Original value: Trajectory-->
-  <string name="button_trajectory">Кинематика</string>
   <!--Original value: Reading file list…-->
   <string name="string_reading_file_list___">Чтение списка файлов…</string>
+  <!--Original value: Trajectory-->
+  <string name="button_trajectory">Кинематика</string>
   <!--Original value: Dist 3D\n-->
   <string name="text_dist_3d">3D раст\n</string>
   <!--Original value: Transparent pars.-->
@@ -433,6 +439,8 @@
   <string name="start_levels_calibration">Начать\nКалибровку\nУровней</string>
   <!--Original value: Survey P2-->
   <string name="button_survey_p2">Снять P2</string>
+  <!--Original value: Traj.Name-->
+  <string name="trajectory_name">Имя траект.</string>
   <!--Original value:  Internet via WiFi-->
   <string name="string__internet_via_wifi">  Интернет из WiFi</string>
   <!--Original value: Time Since Last Reboot-->
@@ -461,6 +469,8 @@
   <string name="string_can_t_store_rtk_base_information_into_job_">Не удалось сохранить информацию о РТК базе в проект!</string>
   <!--Original value: Firmware Version-->
   <string name="receiver_firmware_version">Версия прошики</string>
+  <!--Original value: Temporary point P1 is not surveyed yet!-->
+  <string name="string_temporary_point_p1_is_not_surveyed_yet_">Не снята промежуточная точка P1!</string>
   <!--Original value: Model:-->
   <string name="string_model_">Модель:</string>
   <!--Original value: Internet from-->
@@ -481,6 +491,8 @@
   <string name="string_compass_calibration____">Калибровка компаса…</string>
   <!--Original value: Simplex pars.:-->
   <string name="string_simplex_pars__">Пар-ры Simplex:</string>
+  <!--Original value: Temporary point P2 is not surveyed yet!-->
+  <string name="string_temporary_point_p2_is_not_surveyed_yet_">Не снята промежуточная точка P2!</string>
   <!--Original value: Previous Dialog-->
   <string name="string_previous_dialog">Предыдущий диалог</string>
   <!--Original value: Start Station-->
@@ -491,6 +503,8 @@
   <string name="elevation">Возвышение</string>
   <!--Original value: %02dseconds-->
   <string name="string__02dseconds">%02dсекунд</string>
+  <!--Original value: ⬇-->
+  <string name="button_menu" />
   <!--Original value: Static %1$s logging to file %2$s is in progress!\n%3$s remain-->
   <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_remain">Статика %1$s пишется в файл %2$s…\n%3$s осталось</string>
   <!--Original value: Output Power-->
@@ -525,6 +539,8 @@
   <string name="string__connected_to_internal_modem"> подключенно к внутреннему модему</string>
   <!--Original value: Freq.Rule-->
   <string name="f_rule">Частотное правило</string>
+  <!--Original value: Store Offset-->
+  <string name="string_store_offset">Сохранить Промер</string>
   <!--Original value: Use Repeater-->
   <string name="repeater">Исп.повторитель</string>
   <!--Original value: Calibrate-->
@@ -779,10 +795,10 @@
   <string name="string_new_uhf_radio">новый УВЧ модем</string>
   <!--Original value: Static-->
   <string name="button_static">Статика</string>
-  <!--Original value: Can\'t convert coordinates to WGS84!-->
-  <string name="string_can_t_convert_coordinates_to_wgs84_">Не удалось преобразовать координату в WGS84!</string>
   <!--Original value: Turning off WLAN to activate LAN…-->
   <string name="string_turning_off_wlan_to_activate_lan___">Выключаем WiFi для активации LAN…</string>
+  <!--Original value: Can\'t convert coordinates to WGS84!-->
+  <string name="string_can_t_convert_coordinates_to_wgs84_">Не удалось преобразовать координату в WGS84!</string>
   <!--Original value: Size Of RAM-->
   <string name="receiver_sizeof_ram">Размер ОЗУ</string>
   <!--Original value: N\n-->
@@ -849,6 +865,8 @@
   <string name="string_cancel">Отменить</string>
   <!--Original value: This allows you to enter a string-->
   <string name="antenna_height_summary">Здесь можно ввести строку</string>
+  <!--Original value: Trajectory-->
+  <string name="string_trajectory">Траектории</string>
   <!--Original value: new RCV Server-->
   <string name="string_new_rcv_server">новый RCV сервер</string>
   <!--Original value: Nav.System-->
@@ -869,6 +887,8 @@
   <string name="trajector_length_filter">Мин.траектория</string>
   <!--Original value: FH-->
   <string name="fh">FH</string>
+  <!--Original value: Points-->
+  <string name="string_menu_offset_point">Точки</string>
   <!--Original value: 20Hz-->
   <string name="string_20hz">20Гц</string>
   <!--Original value: Level Offsets are cleared-->
@@ -1099,6 +1119,8 @@
   <string name="string_survey">Снятое\n</string>
   <!--Original value: Wrong TPC IP Port!-->
   <string name="string_wrong_tpc_ip_port_">Неправильный порт TCP!</string>
+  <!--Original value: Close-->
+  <string name="string_close">Закрыть</string>
   <!--Original value: CORRECTIONS-->
   <string name="corrections">ПОПРАВКИ</string>
   <!--Original value: Frequency should be a multiply of 6250Hz!-->
@@ -1269,6 +1291,8 @@
   <string name="button01">Снять</string>
   <!--Original value: Levels are calibrated OK-->
   <string name="levels_status_ok">Уровни успешно откалиброванны</string>
+  <!--Original value: Stake-->
+  <string name="string_stake">Вынести</string>
   <!--Original value: Dist Horz\n-->
   <string name="text_dist_plane">План.раст\n</string>
   <!--Original value: Firmware:-->
@@ -1337,6 +1361,8 @@
   <string name="string__1_s__2_dbs_fec__3_s_cmpt__4_s">%1$s %2$dbs FEC:%3$s Сов:%4$s</string>
   <!--Original value:  without radio setup-->
   <string name="string__without_radio_setup"> без настройки радио </string>
+  <!--Original value: What to do with point %1$s?-->
+  <string name="string_what_to_do_with_point__1_s_">Что делать с точкой %1$s?</string>
   <!--Original value:     Bootloader:-->
   <string name="string_____bootloader_">    Загрузчик:</string>
   <!--Original value: new FH radio-->
@@ -1529,26 +1555,24 @@
   <string name="string_event">Метка</string>
   <!--Original value: epochs collected-->
   <string name="epochs_collected2">собрано эпох</string>
-  <!--Original value: CTT-->
-  <string name="text_ctt">CTT</string>
   <!--Original value: Distance1-->
   <string name="string_distance1">Расстояние 1</string>
-  <!--Original value: Distance2-->
-  <string name="string_distance2">Расстояние 2</string>
+  <!--Original value: CTT-->
+  <string name="text_ctt">CTT</string>
   <!--Original value: Traverse-->
   <string name="string_menu_offset_traverse">Ход</string>
+  <!--Original value: Distance2-->
+  <string name="string_distance2">Расстояние 2</string>
   <!--Original value: Can\'t activate 3G/GPRS!\n\n-->
   <string name="string_can_t_activate_3g_gprs__n_n">Не удалось запустить 3G/GPRS!\n\n</string>
-  <!--Original value: Offset-->
-  <string name="button_offset">Отступ</string>
   <!--Original value: TCPO E-->
   <string name="correction_type_tcpo_e">TCPO E</string>
   <!--Original value: Orientation-->
   <string name="text_orientation">Ориентация</string>
-  <!--Original value: RTK Started OK-->
-  <string name="string_rtk_started_ok">RTK успешно запущено</string>
   <!--Original value: TCPO C-->
   <string name="correction_type_tcpo_c">TCPO C</string>
+  <!--Original value: RTK Started OK-->
+  <string name="string_rtk_started_ok">RTK успешно запущено</string>
   <!--Original value: TCPO D-->
   <string name="correction_type_tcpo_d">TCPO D</string>
   <!--Original value: TCPO A-->
@@ -1689,6 +1713,8 @@
   <string name="text_cut_map">Срезать</string>
   <!--Original value: Connected to-->
   <string name="base_connected_to">Подключенно к </string>
+  <!--Original value: Offset-->
+  <string name="button_offset">Отступ</string>
   <!--Original value: Y-->
   <string name="text_y_map">Y</string>
 </resources>
