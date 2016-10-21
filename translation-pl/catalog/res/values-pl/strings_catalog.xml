@@ -1,94 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file catalog.xml:25 -->
-    <string name="action_import">Import</string>
-    <!-- Used in file CatalogInfoActivity.java:104 -->
-    <string name="string_catalog__s_has_been_deleted">Catalog %s has been deleted</string>
-    <!-- Used in file catalogs.xml:15 -->
-    <string name="action_search">Search</string>
-    <!-- Used in file activity_catalog_edit.xml:55 -->
-    <string name="button_ok">OK</string>
-    <!-- Used in file CatalogsActivity.java:358 -->
-    <string name="string_edit_catalog">Edit Catalog</string>
-    <!-- Used in file CatalogsActivity.java:360 -->
-    <string name="string_delete_catalog">Delete Catalog</string>
-    <!-- Used in file CatalogInfoActivity.java:60 -->
-    <string name="string_new_catalog">New Catalog</string>
-    <!-- Used in file CatalogPointsActivity.java:74 -->
-    <string name="string_catalog__s">Catalog %s</string>
-    <!-- Used in file AndroidManifest.xml:18 -->
-    <string name="app_name">catalog</string>
-    <!-- Used in file catalogs.xml:10 -->
-    <string name="action_add">Add</string>
-    <!-- Used in file CatalogsActivity.java:356 -->
-    <string name="string_select_catalog">Select Catalog</string>
-    <!-- Used in file list_catalog_points.xml:68 -->
-    <string name="string_codehint">Code</string>
-    <!-- Used in file activity_catalogs.xml:15 -->
-    <string name="search_hint">Search files&#8230;</string>
-    <!-- Used in file CatalogInfoActivity.java:158 -->
-    <string name="string_catalog__1_s_has_been_renamed_to__2_s">Catalog %1$s has been renamed to %2$s</string>
-    <!-- Used in file CatalogPointsActivity.java:758 -->
-    <string name="string_delete__1_d_filtered_points__of__2_d_">Delete %1$d filtered points (of %2$d)</string>
-    <!-- Used in file CatalogInfoActivity.java:107 -->
-    <string name="string_can_t_delete_catalog__s_">Can\'t delete catalog %s!</string>
-    <!-- Used in file CatalogsActivity.java:391 -->
-    <string name="string_catalog">catalog</string>
-    <!-- Used in file CatalogsActivity.java:395 -->
-    <string name="string_catalogs">catalogs</string>
-    <!-- Used in file list_catalog_points.xml:79 -->
-    <string name="string_descriptionhint">Description</string>
-    <!-- Used in file CatalogPointsActivity.java:752 -->
-    <string name="string_view_on_map">View on Map</string>
-    <!-- Used in file activity_catalog_edit.xml:38 -->
-    <string name="coordinate_system">Coordinate System</string>
-    <!-- Used in file CatalogInfoActivity.java:151 -->
-    <string name="string_can_t_create_catalog__s_">Can\'t create catalog %s!</string>
-    <!-- Used in file catalogs.xml:20 -->
-    <string name="action_sort">Sort</string>
-    <!-- Used in file CatalogInfoActivity.java:139 -->
-    <string name="string_can_t_set_cs__s">Can\'t set CS %s</string>
-    <!-- Used in file CatalogInfoActivity.java:178 -->
-    <string name="edit">Modify Catalog</string>
-    <!-- Used in file catalogs.xml:5 -->
-    <string name="action_map">Map</string>
-    <!-- Used in file activity_catalog_edit.xml:45 -->
-    <string name="button_delete_catalog">Delete Catalog</string>
-    <!-- Used in file catalogs.xml:25 -->
-    <string name="action_calendar">Calendar</string>
-    <!-- Used in file CatalogInfoActivity.java:174 -->
-    <string name="create">Create Catalog</string>
-    <!-- Used in file CatalogInfoActivity.java:148 -->
-    <string name="string_catalog__s_has_been_created">Catalog %s has been created</string>
-    <!-- Used in file activity_catalog_edit.xml:15 -->
-    <string name="text_catalog">Catalog</string>
-    <!-- Used in file CatalogInfoActivity.java:196 -->
-    <string name="string_catalog__s_already_exists_">Catalog %s already exists!</string>
-    <!-- Used in file CatalogPointsActivity.java:764 -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">Delete %1$d selected points (of %2$d)</string>
-    <!-- Used in file activity_catalog.xml:23 -->
-    <string name="button_catalog">Catalog </string>
-    <!-- Used in file catalog.xml:30 -->
-    <string name="action_export">Export</string>
-    <!-- Used in file CatalogPointsActivity.java:749 -->
-    <string name="string_delete_point">Delete point</string>
-    <!-- Used in file CatalogInfoActivity.java:161 -->
-    <string name="string_can_t_rename_catalog__1_s_to__2_s_">Can\'t rename catalog %1$s to %2$s!</string>
-    <!-- Used in file CatalogInfoActivity.java:187 -->
-    <string name="string_catalog_name_is_empty_">Catalog name is empty!</string>
-    <!-- Used in file CatalogsActivity.java:362 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file CatalogInfoActivity.java:189 -->
-    <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Catalog name is too long!\nLimit it up to 40 chars, please</string>
-    <!-- Used in file catalogs.xml:30 -->
-    <string name="action_delete">Delete</string>
-    
-    
-<string-array name="coordinate_system_array">
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Import-->
+  <string name="action_import">Import</string>
+  <!--Original value: Catalog %s has been deleted-->
+  <string name="string_catalog__s_has_been_deleted">Katalog %s został usunięty</string>
+  <!--Original value: Search-->
+  <string name="action_search">Szukaj</string>
+  <!--Original value: OK-->
+  <string name="button_ok">OK</string>
+  <!--Original value: Edit Catalog-->
+  <string name="string_edit_catalog">Edytuj Katalog</string>
+  <!--Original value: Delete Catalog-->
+  <string name="string_delete_catalog">Usuń Katalog</string>
+  <!--Original value: New Catalog-->
+  <string name="string_new_catalog">Nowy Katalog</string>
+  <!--Original value: Catalog %s-->
+  <string name="string_catalog__s">Katalog %s</string>
+  <!--Original value: catalog-->
+  <string name="app_name">latalog</string>
+  <!--Original value: Add-->
+  <string name="action_add">Dodaj</string>
+  <!--Original value: Select Catalog-->
+  <string name="string_select_catalog">Wybierz Katalog</string>
+  <!--Original value: Code-->
+  <string name="string_codehint">Kod</string>
+  <!--Original value: Search files…-->
+  <string name="search_hint">Szukaj plików…</string>
+  <!--Original value: Catalog %1$s has been renamed to %2$s-->
+  <string name="string_catalog__1_s_has_been_renamed_to__2_s">Nazwę katalogu %1$s zmieniono na %2$s</string>
+  <!--Original value: Delete %1$d filtered points (of %2$d)-->
+  <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d punkt(y) (z %2$d)</string>
+  <!--Original value: Can\'t delete catalog %s!-->
+  <string name="string_can_t_delete_catalog__s_">Nie można usunąć katalogu %s!</string>
+  <!--Original value: catalog-->
+  <string name="string_catalog">katalog</string>
+  <!--Original value: catalogs-->
+  <string name="string_catalogs">katalogi</string>
+  <!--Original value: Description-->
+  <string name="string_descriptionhint">Opis</string>
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Pokaż na Mapie</string>
+  <!--Original value: Coordinate System-->
+  <string name="coordinate_system">System współrzędnych</string>
+  <!--Original value: Can\'t create catalog %s!-->
+  <string name="string_can_t_create_catalog__s_">Nie można utworzyć katalogu %s!</string>
+  <!--Original value: Sort-->
+  <string name="action_sort">Sortuj</string>
+  <!--Original value: Can\'t set CS %s-->
+  <string name="string_can_t_set_cs__s">Nie można ustawić SW %s</string>
+  <!--Original value: Modify Catalog-->
+  <string name="edit">Modyfikuj</string>
+  <!--Original value: Map-->
+  <string name="action_map">Mapa</string>
+  <!--Original value: Delete Catalog-->
+  <string name="button_delete_catalog">Usuń Katalog</string>
+  <!--Original value: Calendar-->
+  <string name="action_calendar">Kalendarz</string>
+  <!--Original value: Create Catalog-->
+  <string name="create">Utwórz katalog</string>
+  <!--Original value: Catalog %s has been created-->
+  <string name="string_catalog__s_has_been_created">Utworzono katalog %s</string>
+  <!--Original value: Catalog-->
+  <string name="text_catalog">Katalog</string>
+  <!--Original value: Catalog %s already exists!-->
+  <string name="string_catalog__s_already_exists_">Katalog %s już istnieje!</string>
+  <!--Original value: Delete %1$d selected points (of %2$d)-->
+  <string name="string_delete__1_d_selected_points__of__2_d_">Usunięto %1$d punkt(y) (z %2$d)</string>
+  <!--Original value: Catalog -->
+  <string name="button_catalog">Katalog </string>
+  <!--Original value: Export-->
+  <string name="action_export">Eksport</string>
+  <!--Original value: Delete point-->
+  <string name="string_delete_point">Usuń punkt</string>
+  <!--Original value: Can\'t rename catalog %1$s to %2$s!-->
+  <string name="string_can_t_rename_catalog__1_s_to__2_s_">Nie można zmienić nazwy %1$s na %2$s!</string>
+  <!--Original value: Catalog name is empty!-->
+  <string name="string_catalog_name_is_empty_">Nazwa katalogu jest pusta!</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Catalog name is too long!\nLimit it up to 40 chars, please-->
+  <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa przekracza dopuszczalne 40 znaków.</string>
+  <!--Original value: Delete-->
+  <string name="action_delete">Usuń</string>
+  <string-array name="coordinate_system_array">
+    <!--Original value: WGS 84-->
     <item>WGS 84</item>
+    <!--Original value: Local-->
     <item>Local</item>
-</string-array>
-
-
+  </string-array>
 </resources>

@@ -1,82 +1,100 @@
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file activity_ts_exchange_main.xml:44 -->
-    <string name="leica_gsi_import">Leica GSI Bluetooth Import</string>
-    <!-- Used in file FindTSActivity.java:773 -->
-    <string name="string_connection_error">Connection error</string>
-    <!-- Used in file activity_find_ts.xml:16 -->
-    <string name="text_select_ts">Select Total Station</string>
-    <!-- Used in file FindTSActivity.java:384 -->
-    <string name="string_loading__s_list___">Loading %s List&#8230;</string>
-    <!-- Used in file FindTSActivity.java:671 -->
-    <string name="string_import_started___">Import started&#8230;</string>
-    <!-- Used in file TSJobAdapter.java:71 -->
-    <string name="string_create_new_job">Create New Job</string>
-    <!-- Used in file FindTSActivity.java:245 -->
-    <string name="string_export_to_total_station_is_over">Export to Total Station is over</string>
-    <!-- Used in file FindTSActivity.java:358 -->
-    <string name="string_roads">Roads</string>
-    <!-- Used in file activity_ts_type.xml:16 -->
-    <string name="search_hint">Search</string>
-    <!-- Used in file FindTSActivity.java:380 -->
-    <string name="string_job">Job</string>
-    <!-- Used in file FindTSActivity.java:357 -->
-    <string name="string_control_points">Control Points</string>
-    <!-- Used in file TSJobAdapter.java:58 -->
-    <string name="string_observs_">Observs:</string>
-    <!-- Used in file FindTSActivity.java:728 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file FindTSActivity.java:381 -->
-    <string name="string_code">Code</string>
-    <!-- Used in file FindTSActivity.java:251 -->
-    <string name="string_echange_canceled">Echange canceled</string>
-    <!-- Used in file TSJobAdapter.java:71 -->
-    <string name="string_delete_job">Delete job</string>
-    <!-- Used in file FindTSActivity.java:664 -->
-    <string name="string_start_data_transfrom_from_ts">Start data transfrom from TS</string>
-    <!-- Used in file activity_ts_exchange_main.xml:23 -->
-    <string name="ts_exchange_version">version 1.0 build 09/05/2015</string>
-    <!-- Used in file FindTSActivity.java:247 -->
-    <string name="string_import_error">Import error</string>
-    <!-- Used in file TSJobAdapter.java:71 -->
-    <string name="string_select_job">Select job</string>
-    <!-- Used in file activity_ts_exchange_main.xml:54 -->
-    <string name="generic_export">Generic Bluetooth Export</string>
-    <!-- Used in file FindTSActivity.java:382 -->
-    <string name="string_road">Road</string>
-    <!-- Used in file FindTSActivity.java:245 -->
-    <string name="string_import_from_total_station_is_over">Import from Total Station is over</string>
-    <!-- Used in file FindTSActivity.java:356 -->
-    <string name="string_observations">Observations</string>
-    <!-- Used in file TSJobAdapter.java:70 -->
-    <string name="string_what_to_do_with__s_">What to do with %s?</string>
-    <!-- Used in file TSJobAdapter.java:57 -->
-    <string name="string_controls_">Controls:</string>
-    <!-- Used in file FindTSActivity.java:247 -->
-    <string name="string_export_error">Export error</string>
-    <!-- Used in file FindTSActivity.java:706 -->
-    <string name="string_imported__d_bytes">Imported %d bytes</string>
-    <!-- Used in file activity_ts_exchange_main.xml:64 -->
-    <string name="generic_import">Generic Bluetooth Import</string>
-    <!-- Used in file FindTSActivity.java:251 -->
-    <string name="string_exchnage_is_over">Exchnage is over</string>
-    <!-- Used in file TSBluetoothExchangeActivity.java:93 -->
-    <string name="string_version__1_s_build__2_s">Version %1$s Build %2$s</string>
-    <!-- Used in file activity_exchange_progress.xml:14 -->
-    <string name="ts_exchange_progress">Exchange Progress</string>
-    <!-- Used in file FindTSActivity.java:469 -->
-    <string name="string_loading_format_list___">Loading Format List&#8230;</string>
-    <!-- Used in file activity_ts_exchange_main.xml:15 -->
-    <string name="ts_exchange_title">TS Bluetooth Exchange</string>
-    <!-- Used in file FindTSActivity.java:359 -->
-    <string name="string_codes">Codes</string>
-    <!-- Used in file TSJobAdapter.java:71 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file FindTSActivity.java:530 -->
-    <string name="string_exchange">Exchange</string>
-    <!-- Used in file activity_ts_exchange_main.xml:34 -->
-    <string name="leica_gsi_export">Leica GSI Bluetooth Export</string>
-    <!-- Used in file FindTSActivity.java:598 -->
-    <string name="string_exported__d_bytes">Exported %d bytes</string>
-    
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Leica GSI Bluetooth Import-->
+  <string name="leica_gsi_import">Import Leica GSI prze BT</string>
+  <!--Original value: Connection error-->
+  <string name="string_connection_error">Błąd połączenia</string>
+  <!--Original value: Select Total Station-->
+  <string name="text_select_ts">Wybierz Total Station</string>
+  <!--Original value: Loading %s List…-->
+  <string name="string_loading__s_list___">Ładowanie listy %s…</string>
+  <!--Original value: Import started…-->
+  <string name="string_import_started___">Import rozpoczęto…</string>
+  <!--Original value: Create New Job-->
+  <string name="string_create_new_job">Utwór nowy plik</string>
+  <!--Original value: Export to Total Station is over-->
+  <string name="string_export_to_total_station_is_over">Export do Total Station zakończony</string>
+  <!--Original value: Roads-->
+  <string name="string_roads">Drogi</string>
+  <!--Original value: Search-->
+  <string name="search_hint">Szukaj</string>
+  <!--Original value: Job-->
+  <string name="string_job">Projekt</string>
+  <!--Original value: Control Points-->
+  <string name="string_control_points">Punkty kontrolne</string>
+  <!--Original value: Observs:-->
+  <string name="string_observs_">Obserw:</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Proszę czekać!!</string>
+  <!--Original value: Code-->
+  <string name="string_code">Kod</string>
+  <!--Original value: Echange canceled-->
+  <string name="string_echange_canceled">Wymiana anulowana</string>
+  <!--Original value: Delete job-->
+  <string name="string_delete_job">Usuń projekt</string>
+  <!--Original value: Start data transfrom from TS-->
+  <string name="string_start_data_transfrom_from_ts">Uruchom transfer z TS</string>
+  <!--Original value: version 1.0 build 09/05/2015-->
+  <string name="ts_exchange_version">version 1.0 build 09/05/2015</string>
+  <!--Original value: Import error-->
+  <string name="string_import_error">Błąd importu</string>
+  <!--Original value: Select job-->
+  <string name="string_select_job">Wybierz projekt</string>
+  <!--Original value: Generic Bluetooth Export-->
+  <string name="generic_export">Ogólny eksport BT</string>
+  <!--Original value: Road-->
+  <string name="string_road">Droga</string>
+  <!--Original value: Import from Total Station is over-->
+  <string name="string_import_from_total_station_is_over">Import z Total Station zakończony</string>
+  <!--Original value: Observations-->
+  <string name="string_observations">Obserwacje</string>
+  <!--Original value: What to do with %s?-->
+  <string name="string_what_to_do_with__s_">Co zrobić z %s?</string>
+  <!--Original value: Controls:-->
+  <string name="string_controls_">Kontr:</string>
+  <!--Original value: Export error-->
+  <string name="string_export_error">Błąd eksportu</string>
+  <!--Original value: Imported %d bytes-->
+  <string name="string_imported__d_bytes">Zaimportowano %d bajtów</string>
+  <!--Original value: Generic Bluetooth Import-->
+  <string name="generic_import">Ogólny eksport BT</string>
+  <!--Original value: Exchnage is over-->
+  <string name="string_exchnage_is_over">Wymiana zakończona</string>
+  <!--Original value: Version %1$s Build %2$s-->
+  <string name="string_version__1_s_build__2_s">Version %1$s Build %2$s</string>
+  <!--Original value: Exchange Progress-->
+  <string name="ts_exchange_progress">Postę wymiany</string>
+  <!--Original value: Loading Format List…-->
+  <string name="string_loading_format_list___">Ładowanie z listy…</string>
+  <!--Original value: TS Bluetooth Exchange-->
+  <string name="ts_exchange_title">TS Bluetooth Exchange</string>
+  <!--Original value: Codes-->
+  <string name="string_codes">Kody</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zakończ</string>
+  <!--Original value: Exchange-->
+  <string name="string_exchange">Wymiana</string>
+  <!--Original value: Leica GSI Bluetooth Export-->
+  <string name="leica_gsi_export">Export Leica GSI przez BT</string>
+  <!--Original value: Exported %d bytes-->
+  <string name="string_exported__d_bytes">Wyeksportowano %d bajtów</string>
 </resources>
