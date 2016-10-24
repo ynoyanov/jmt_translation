@@ -1,26 +1,23 @@
 # jmt_translation
-Translation of Javad Mobile Tools
+## Translation of Javad Mobile Tools
 
 
+To test translation - install Javad Mobile Tools to any Android device, navigate to **javad** catalog on the device and add **translation** subfolder. Then copy there the translated data.
 
+The catalog structure will be as follows:
 
-To check translation - install Javad Mobile Tools to any Android device and in folder javad that it creates on the device you should add translation subfolder and copy there the translated data.
-The folder structure will be following:
-javad
-|
-— translation
-|
-- antenna
-|     |
-|	res
-|        |
-|        values
-|        values-po
-|
-- catalog
-|
-res
-|
-values
-values-po
-Then then you run JMT you can use Settings button on main home screen. There you will see Language item. Then you select it you will be able to select your language.
+     |-- javad
+          |-- translation
+          |-- antenna
+             |-- res
+                |-- values
+                |-- values-po
+ 
+          |-- catalog
+             |-- res
+                |-- values
+                |-- values-po
+
+          |-- ...and so on
+
+Next, run JMT and use Settings button on main home screen. There you will see **Language** item on drop-down list - choose it and select your language.
