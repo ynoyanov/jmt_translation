@@ -1,32 +1,38 @@
 <resources>
 
+    <!-- Used in file OAFUpdateActivity.java:155 -->
+    <string name="string_options_are_permanent">Options are permanent</string>
     <!-- Used in file activity_update_firmware.xml:37 -->
     <string name="update_from_internet_stable">Update from Internet to Stable</string>
-    <!-- Used in file OAFUpdateActivity.java:309 -->
+    <!-- Used in file OAFUpdateActivity.java:220 -->
     <string name="string_checking_oaf___">Checking OAF&#8230;</string>
     <!-- Used in file AndroidManifest.xml:13 -->
     <string name="app_name">update</string>
-    <!-- Used in file OAFUpdateActivity.java:191 -->
+    <!-- Used in file OAFUpdateActivity.java:271 -->
     <string name="string_option_update_error_">Option update error!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339 -->
+    <!-- Used in file FirmwareUpdateActivity.java:338 -->
     <string name="string_firmware_have_successfully_updated">Firmware have successfully updated</string>
+    <!-- Used in file OAFUpdateActivity.java:366 -->
+    <string name="string_oaf_update_error">OAF Update Error</string>
     <!-- Used in file activity_update_oaf.xml:27 -->
     <string name="update_from_file">Update from File</string>
-    <!-- Used in file OAFUpdateActivity.java:257 -->
-    <string name="string_oaf_update_error">OAF Update Error</string>
-    <!-- Used in file OAFUpdateActivity.java:308 -->
+    <!-- Used in file OAFUpdateActivity.java:417 -->
     <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file OAFUpdateActivity.java:116 -->
+    <!-- Used in file OAFUpdateActivity.java:246 -->
+    <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">The file is corrupted or not a correct option OAF file!</string>
+    <!-- Used in file OAFUpdateActivity.java:151 -->
     <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Receiver Options Expires on %1$s.\n(After %2$d days)</string>
-    <!-- Used in file FirmwareUpdateActivity.java:541 -->
+    <!-- Used in file FirmwareUpdateActivity.java:540 -->
     <string name="string_restarting___">Restarting&#8230;</string>
-    <!-- Used in file FirmwareUpdateActivity.java:492 -->
-    <string name="string_radio_firmware">radio firmware</string>
     <!-- Used in file FirmwareUpdateActivity.java:144 -->
     <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Latest Firmware version on site is %1$s %2$s</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339 -->
+    <!-- Used in file FirmwareUpdateActivity.java:491 -->
+    <string name="string_radio_firmware">radio firmware</string>
+    <!-- Used in file OAFUpdateActivity.java:236 -->
+    <string name="string_loading_oaf___">Loading OAF&#8230;</string>
+    <!-- Used in file FirmwareUpdateActivity.java:338 -->
     <string name="string_firmware_update_error_">Firmware update error!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:488 -->
+    <!-- Used in file FirmwareUpdateActivity.java:487 -->
     <string name="string_main_firmware">main firmware</string>
     <!-- Used in file FirmwareUpdateActivity.java:143 -->
     <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Stable Firmware version on site is %1$s %2$s</string>
@@ -34,27 +40,51 @@
     <string name="oaf_info">Options are OK</string>
     <!-- Used in file FirmwareUpdateActivity.java:142 -->
     <string name="string_receiver_firmware_version_is__s">Receiver Firmware version is %s</string>
-    <!-- Used in file OAFUpdateActivity.java:253 -->
-    <string name="string_oaf_successfully_updated">OAF Successfully Updated</string>
-    <!-- Used in file FirmwareUpdateActivity.java:361 -->
+    <!-- Used in file FirmwareUpdateActivity.java:360 -->
     <string name="string_unpacking___">Unpacking&#8230;</string>
-    <!-- Used in file OAFUpdateActivity.java:256 -->
+    <!-- Used in file OAFUpdateActivity.java:362 -->
+    <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Receiver was cleared so it may need to be reconfigured</string>
+    <!-- Used in file OAFUpdateActivity.java:362 -->
+    <string name="string_oaf_successfully_updated_">OAF Successfully Updated.</string>
+    <!-- Used in file OAFUpdateActivity.java:365 -->
     <string name="string_oaf_update">OAF Update</string>
-    <!-- Used in file FirmwareUpdateActivity.java:490 -->
+    <!-- Used in file FirmwareUpdateActivity.java:489 -->
     <string name="string_firmware_loader">firmware loader</string>
     <!-- Used in file activity_update_firmware.xml:47 -->
     <string name="update_from_internet_latest">Update from Internet to Lattest</string>
-    <!-- Used in file OAFUpdateActivity.java:191 -->
+    <!-- Used in file OAFUpdateActivity.java:271 -->
     <string name="string_options_have_successfully_updated">Options have successfully updated</string>
     <!-- Used in file activity_update_oaf.xml:37 -->
     <string name="update_from_internet">Update from Internet</string>
-    <!-- Used in file OAFUpdateActivity.java:118 -->
-    <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Receiver Options have Expired on %1$s.\n(%2$d days ago)</string>
-    <!-- Used in file FirmwareUpdateActivity.java:502 -->
+    <!-- Used in file OAFUpdateActivity.java:422 -->
+    <string name="string_cancel">Cancel</string>
+    <!-- Used in file FirmwareUpdateActivity.java:501 -->
     <string name="string_uploading__s____">Uploading %s &#8230;</string>
-    <!-- Used in file OAFUpdateActivity.java:264 -->
-    <string name="string_close">Close</string>
+    <!-- Used in file OAFUpdateActivity.java:153 -->
+    <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Receiver Options have Expired on %1$s.\n(%2$d days ago)</string>
     <!-- Used in file activity_update_oaf.xml:45 -->
     <string name="check_oaf_at_every_connection">Check OAF at every connection</string>
+    <!-- Used in file OAFUpdateActivity.java:373 -->
+    <string name="string_close">Close</string>
+    <!-- UNUSED STRING -->
+    <string name="string_oaf_successfully_updated">OAF Successfully Updated</string>
+    <string name="clear_nvram">Clear NVRAM</string>
+    <string name="init_parameters">Init Parameters</string>
+    <string name="clear_file_system">Clear File System</string>
+    <string name="reset_receiver">Reset Receiver</string>
+    <string name="reset_rtk">Reset RTK</string>
+    <string name="save_settings">Save Receiver Settings</string>
+    <string name="restore_settings">Restore Receiver Settings</string>
+    <string name="update_firmware">Update Firmware</string>
+    <string name="update_oaf">Update OAF</string>
+    <string name="clear_nvram_summary">Crear all receiver settings to default values</string>
+    <string name="init_parameters_summary">Crear all receiver settings to default values</string>
+    <string name="clear_file_system_summary">Clear file system removes all jps files on the receiver</string>
+    <string name="reset_receiver_summary">Reset turns off and on the receiver</string>
+    <string name="reset_rtk_summary">Turn RTK off and on to refix solution</string>
+    <string name="save_settings_summary">Save all receiver settings into text file</string>
+    <string name="restore_settings_summary">Restore  all receiver settings from setting file</string>
+    <string name="update_firmware_summary">Upfate receiver firmware from file or from Web</string>
+    <string name="update_oaf_summary">Upfate receiver options(OAF) from file or from Web</string>
     
 </resources>
