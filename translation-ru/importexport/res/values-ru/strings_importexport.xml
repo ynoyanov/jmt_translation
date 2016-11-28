@@ -1,32 +1,66 @@
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file pref_dxf.xml:7 -->
-    <string name="inverse_xy">Inverse XY Values</string>
-    <!-- Used in file pref_dxf.xml:14 -->
-    <string name="export">Export</string>
-    <!-- Used in file pref_dxf.xml:4 -->
-    <string name="file_name">File Name</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">ImportExport</string>
-    <!-- Used in file pref_dxf.xml:8 -->
-    <string name="first_text_field">First Text Field</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:114 -->
-    <string name="string_error">Error</string>
-    <!-- Used in file pref_dxf.xml:12 -->
-    <string name="send_via_email">Share file</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:157 -->
-    <string name="string_5">5</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:155 -->
-    <string name="string_4">4</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:115 -->
-    <string name="string_export_failed">Export failed</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:153 -->
-    <string name="string_3">3</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:151 -->
-    <string name="string_2">2</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:117 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file pref_dxf.xml:10 -->
-    <string name="second_text_field">Second Text Field</string>
-    
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Folder name-->
+  <string name="folder_name">Папка</string>
+  <!--Original value: Report Template-->
+  <string name="template">Шаблон отчета</string>
+  <!--Original value: Inverse XY Values-->
+  <string name="inverse_xy">Inverse XY Values</string>
+  <!--Original value: Export-->
+  <string name="export">Export</string>
+  <!--Original value: Report-->
+  <string name="string_report">Отчет</string>
+  <!--Original value: Report failed-->
+  <string name="string_report_failed">Ошибка отчета</string>
+  <!--Original value: File Name-->
+  <string name="file_name">File Name</string>
+  <!--Original value: ImportExport-->
+  <string name="app_name">ImportExport</string>
+  <!--Original value: Output format-->
+  <string name="report_output_format">Сохранить в формате</string>
+  <!--Original value: First Text Field-->
+  <string name="first_text_field">First Text Field</string>
+  <!--Original value: Error-->
+  <string name="string_error">Error</string>
+  <!--Original value: Report template is not selected!-->
+  <string name="string_report_template_is_not_selected_">Не выбран шаблон отчета!</string>
+  <!--Original value: Share file with…-->
+  <string name="string_share_file_with___">Отправить через</string>
+  <!--Original value: Share file-->
+  <string name="send_via_email">Share file</string>
+  <!--Original value: 5-->
+  <string name="string_5">5</string>
+  <!--Original value: 4-->
+  <string name="string_4">4</string>
+  <!--Original value: Export failed-->
+  <string name="string_export_failed">Export failed</string>
+  <!--Original value: 3-->
+  <string name="string_3">3</string>
+  <!--Original value: Second Text Field-->
+  <string name="second_text_field">Second Text Field</string>
+  <!--Original value: Close-->
+  <string name="string_close">Close</string>
+  <!--Original value: 2-->
+  <string name="string_2">2</string>
+  <!--Original value: RTK Bases-->
+  <string name="rtkbases">RTK Базы</string>
 </resources>

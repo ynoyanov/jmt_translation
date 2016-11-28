@@ -29,8 +29,12 @@
   <string name="string_points">точки</string>
   <!--Original value: problem with transformation-->
   <string name="string_problem_with_transformation">проблема с транфсормацией</string>
+  <!--Original value: Duplicate Job-->
+  <string name="string_duplicate_job">Создать копию проекта</string>
   <!--Original value: H.RMS:-->
   <string name="string_h_rms_">План.СКО:</string>
+  <!--Original value: View Images/Audios-->
+  <string name="string_view_images_audios">Просмотр Фото/Аудио</string>
   <!--Original value: Point name is empty!-->
   <string name="string_point_name_is_empty_">Имя точки пустое!</string>
   <!--Original value: Delete Points %s-->
@@ -43,10 +47,10 @@
   <string name="string_no_localization">без локализации</string>
   <!--Original value: Filter by position-->
   <string name="action_filter">Фильтр по положению</string>
-  <!--Original value: Delete %1$d filtered CSes (of %2$d)-->
-  <string name="string_delete__1_d_filtered_cses__of__2_d_">Удалить %1$d отобранных СК (из %2$d)</string>
   <!--Original value: Organization-->
   <string name="job_organization">Организация</string>
+  <!--Original value: Delete %1$d filtered CSes (of %2$d)-->
+  <string name="string_delete__1_d_filtered_cses__of__2_d_">Удалить %1$d отобранных СК (из %2$d)</string>
   <!--Original value: epochs-->
   <string name="string_epochs">эпох</string>
   <!--Original value: Delete %1$d selected points (of %2$d)-->
@@ -61,22 +65,22 @@
   <string name="string_select_cs">Выбрать СК</string>
   <!--Original value: Vertical-->
   <string name="height_vertical">Верт.</string>
-  <!--Original value: Datum:-->
-  <string name="string_datum_">Датум:</string>
   <!--Original value: Check All-->
   <string name="string_check_all">Отметить все</string>
+  <!--Original value: Datum:-->
+  <string name="string_datum_">Датум:</string>
   <!--Original value: Antenna Type-->
   <string name="antenna_type">Антенна</string>
   <!--Original value: East Inclination-->
   <string name="string_east_inclination">Наклон на восток</string>
+  <!--Original value: rtkbases-->
+  <string name="string_rtkbases" />
   <!--Original value: Edit point-->
   <string name="string_edit_point">Редак-ть точку</string>
   <!--Original value: Can\'t read coordinate system from the receiver!-->
   <string name="string_can_t_read_coordinate_system_from_the_receiver_">Не удалось прочесть СК из приемника!</string>
   <!--Original value:  Last time -->
   <string name="string__last_time_">  Время окончания</string>
-  <!--Original value: Record-->
-  <string name="button_record_audio">Записать</string>
   <!--Original value: Point name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Слишком длинное имя.\nОграничение 40 символов</string>
   <!--Original value: Center-->
@@ -117,34 +121,36 @@
   <string name="string_no_points_to_delete_">Нет точек для удаления</string>
   <!--Original value: ExportDxf-->
   <string name="string_exportdxf">ЭкспортDXF</string>
+  <!--Original value: rtkbase-->
+  <string name="string_rtkbase" />
   <!--Original value: Scale:%.6f-->
   <string name="string_scale___6f">Масштаб:%.6f</string>
   <!--Original value: Identical Point-->
   <string name="string_identical_point">Идентичные точки</string>
-  <!--Original value: Name:-->
-  <string name="string_name_">Имя:</string>
   <!--Original value: Slant-->
   <string name="height_slant">Накл.</string>
+  <!--Original value: Name:-->
+  <string name="string_name_">Имя:</string>
   <!--Original value: Height-->
   <string name="height">Высота</string>
   <!--Original value: Descr.-->
   <string name="description">Описание</string>
   <!--Original value: Wrong slant height!-->
   <string name="string_wrong_slant_height_">Неверная наклонная высота</string>
-  <!--Original value: Datum-->
-  <string name="category_datum">Датум</string>
-  <!--Original value: North Inclination-->
-  <string name="string_north_inclination">Наклон на север</string>
   <!--Original value: Type-->
   <string name="string_type">Тип</string>
+  <!--Original value: North Inclination-->
+  <string name="string_north_inclination">Наклон на север</string>
+  <!--Original value: Datum-->
+  <string name="category_datum">Датум</string>
   <!--Original value: Delete localization-->
   <string name="string_delete_localization">Удалить локализацию</string>
   <!--Original value: Add new point-->
   <string name="string_add_new_point">Добавить новую точку</string>
-  <!--Original value: Description-->
-  <string name="string_descriptionhint">Описание</string>
   <!--Original value: something wrong with params-->
   <string name="string_something_wrong_with_params">что-то не так с параметрами</string>
+  <!--Original value: Description-->
+  <string name="string_descriptionhint">Описание</string>
   <!--Original value: Localization-->
   <string name="localization">Локализация</string>
   <!--Original value: Can\'t delete the localization!-->
@@ -157,44 +163,50 @@
   <string name="action_calendar">Календарь</string>
   <!--Original value: vert.-->
   <string name="string_vert_">верт.</string>
-  <!--Original value: Can\'t add point %s to catalog!-->
-  <string name="string_can_t_add_point__s_to_catalog_">Не удалось добавать точку %s в каталог!</string>
   <!--Original value: View CS Info-->
   <string name="string_view_cs_info">Информация о СК</string>
+  <!--Original value: Can\'t add point %s to catalog!-->
+  <string name="string_can_t_add_point__s_to_catalog_">Не удалось добавать точку %s в каталог!</string>
   <!--Original value: dN:%.3f-->
   <string name="string_dn___3f">dN:%.3f</string>
   <!--Original value: Can\'t delete localization-->
   <string name="string_can_t_delete_localization">Не удалось удалить локализацию</string>
+  <!--Original value: Can\'t add rtk base %s to catalog!-->
+  <string name="string_can_t_add_rtk_base__s_to_catalog_">Не удалось добавить базу %s в каталог!</string>
   <!--Original value: Delete CS %s-->
   <string name="string_delete_cs__s">Удалить СК %s</string>
+  <!--Original value: And move all %d rover points from it-->
+  <string name="string_and_move_all__d_rover_points_from_it">И переместить %d точек ровера, снятых с нее</string>
   <!--Original value: Occ.time:-->
   <string name="string_occ_time_">Время стояния:</string>
-  <!--Original value:  identical points-->
-  <string name="string__identical_points"> идентичные точки</string>
-  <!--Original value: storage-->
-  <string name="app_name">storage</string>
   <!--Original value: Import-->
   <string name="string_import">Импорт</string>
+  <!--Original value: storage-->
+  <string name="app_name">storage</string>
+  <!--Original value:  identical points-->
+  <string name="string__identical_points"> идентичные точки</string>
   <!--Original value: Time-->
   <string name="string_time">Время</string>
-  <!--Original value: job-->
-  <string name="string_job">проект</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Код</string>
-  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
-  <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
   <!--Original value: Antenna Height-->
   <string name="antenna_height">Высота антенны</string>
+  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
+  <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
+  <!--Original value: Code-->
+  <string name="string_codehint">Код</string>
+  <!--Original value: job-->
+  <string name="string_job">проект</string>
   <!--Original value: Wrong scale difference!-->
   <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
   <!--Original value: Point %s already exists!-->
   <string name="string_point__s_already_exists_">Точка с именем %s уже существует!</string>
-  <!--Original value: Localization was changed and not saved!-->
-  <string name="string_localization_was_changed_and_not_saved_">Локализация была изменена и не сохранена!</string>
   <!--Original value: Cancel-->
   <string name="button_cancel">Отменить</string>
+  <!--Original value: Localization was changed and not saved!-->
+  <string name="string_localization_was_changed_and_not_saved_">Локализация была изменена и не сохранена!</string>
   <!--Original value: Ellipsoidal Height-->
   <string name="string_ellipsoidal_height">Эллипс.высота</string>
+  <!--Original value: RTK base %1$s was successfully added into catalog %2$s-->
+  <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK база %1$s добавлена в каталог %2$s</string>
   <!--Original value: View on Map-->
   <string name="string_view_on_map">Показать на карте</string>
   <!--Original value: Edit Job-->
@@ -205,12 +217,14 @@
   <string name="string_share_job">Отправить проект</string>
   <!--Original value: AH:%.3f-->
   <string name="string_ah___3f">AH:%.3f</string>
+  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
+  <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Точка %1$s добавлена в каталог %2$s</string>
   <!--Original value: Time:-->
   <string name="string_time_">Время:</string>
+  <!--Original value: Jps file-->
+  <string name="string_filename">Файл jps</string>
   <!--Original value: VRMS:%.3f-->
   <string name="string_vrms___3f">ВСКО:%.3f</string>
-  <!--Original value: View Images-->
-  <string name="string_view_images">Просмотр изображений</string>
   <!--Original value: point-->
   <string name="string_point">точка</string>
   <!--Original value: Add to catalog %s-->
@@ -225,6 +239,8 @@
   <string name="string_surveyed_points">Снятые точки</string>
   <!--Original value: All %s were deleted-->
   <string name="string_all__s_were_deleted">Все %s были удалены</string>
+  <!--Original value: Modify-->
+  <string name="button_modify">Изменить</string>
   <!--Original value: Scale Difference, ppm-->
   <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
   <!--Original value: Delete %1$d filtered points (of %2$d)-->
@@ -249,8 +265,6 @@
   <string name="measure_units">Единицы измерения</string>
   <!--Original value: Identical Point Type-->
   <string name="identical_point_type">Идентичная точка</string>
-  <!--Original value: Play-->
-  <string name="button_play_audio">Воспроизвести</string>
   <!--Original value: Select point %s-->
   <string name="string_select_point__s">Выбор точки %s</string>
   <!--Original value: Design-->
@@ -277,8 +291,12 @@
   <string name="button_apply">Применить</string>
   <!--Original value: Recalculate-->
   <string name="button_recalculaye">Пересчитать</string>
+  <!--Original value: Move-->
+  <string name="string_move">Сдвинуть</string>
   <!--Original value: jobs-->
   <string name="string_jobs">прое-ов</string>
+  <!--Original value: File name:-->
+  <string name="string_file_name_">Имя файла:</string>
   <!--Original value: Base dist:-->
   <string name="string_base_dist_">Раст.до базы:</string>
   <!--Original value: Do you want to delete all %1$d %2$s?-->
@@ -303,6 +321,8 @@
   <string name="string_points_are_to_close_each_other">точки слишком близко друг к другу</string>
   <!--Original value: TS point-->
   <string name="string_ts_point">Тах.точки</string>
+  <!--Original value: New Job-->
+  <string name="string_new_job">Новый проект</string>
   <!--Original value: SurveyInfo:\n\n-->
   <string name="survey_info">Съем.Информация:\n\n</string>
   <!--Original value: Search-->
@@ -327,20 +347,28 @@
   <string name="string_select_job">Выбрать работу</string>
   <!--Original value: V.RMS:-->
   <string name="string_v_rms_">Верт.СКО:</string>
+  <!--Original value: Base Id-->
+  <string name="string_id">Ид.базы</string>
   <!--Original value: Localization successfully imported-->
   <string name="string_localization_successfully_imported">Локализация успешно загружена</string>
   <!--Original value: no identical points-->
   <string name="string_no_identical_points">нет идент.точек</string>
   <!--Original value: Job name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Имя работы слишко длинно!\nДопускается не более 40 символов</string>
-  <!--Original value: Stop-->
-  <string name="button_stop_audio">Стоп</string>
+  <!--Original value: DPOS/OPUS-->
+  <string name="string_dpos">DPOS/OPUS</string>
+  <!--Original value: Modify RTK Base-->
+  <string name="string_modify_rtk_base">Изменить RTK базу</string>
   <!--Original value: WGS84-to-User-->
   <string name="string_wgs84_to_user">WGS84-в-Пользв.</string>
   <!--Original value: Height Type-->
   <string name="height_type">Тип высоты</string>
+  <!--Original value: Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)-->
+  <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Хотите переместить RTK базу на %1$s (dN:%2$s dE:%3$s dH:%4$s)</string>
   <!--Original value: North-->
   <string name="north">Север</string>
+  <!--Original value: Comment-->
+  <string name="job_comment">Комментарий</string>
   <!--Original value: RZ, sec-->
   <string name="string_datum_rz">RZ, сек</string>
   <!--Original value: RX, sec-->
@@ -387,10 +415,10 @@
   <string name="string_datum_dz">DZ, м</string>
   <!--Original value: Cancel-->
   <string name="string_cancel">Отменить</string>
-  <!--Original value: Latitude Orig.-->
-  <string name="string_latitude_origin">Нач.широта</string>
   <!--Original value: Listen Audio-->
   <string name="string_listen_audio">Прослушать звук</string>
+  <!--Original value: Latitude Orig.-->
+  <string name="string_latitude_origin">Нач.широта</string>
   <!--Original value: Delete-->
   <string name="action_delete">Удалить</string>
   <!--Original value: trajectory-->
@@ -419,10 +447,14 @@
   <string name="string_hdop">HDOP</string>
   <!--Original value: GDOP-->
   <string name="string_gdop">GDOP</string>
+  <!--Original value: View Images-->
+  <string name="string_view_images">Просмотр изображений</string>
   <!--Original value: Export failed-->
   <string name="string_export_failed">Ошибка экспорта</string>
   <!--Original value: Receive Job"-->
   <string name="title_activity_receive">Принять проект</string>
+  <!--Original value: RTK Bases-->
+  <string name="title_rtkbases">RTK Базы</string>
   <!--Original value: Vertical Treashold-->
   <string name="string_vertical_treshold">Верт.ошибка</string>
   <!--Original value: Latitude-->
