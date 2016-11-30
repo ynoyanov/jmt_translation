@@ -74,6 +74,17 @@
         <item>60 sec</item>
         </string-array>
 
+<string-array name="logging_rate_rtk_array">
+        <item>0.2 sec (5Hz)</item>
+        <item>0.5 sec (2Hz)</item>
+        <item>1 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+        <item>30 sec</item>
+        <item>60 sec</item>
+        </string-array>
+
 <string-array name="height_type_array">
         <item>vertical</item>
         <item>slant</item>
@@ -514,7 +525,12 @@
 		<item>Right</item>
 	</string-array>
 
-	<string-array name="dhcp_array">
+	<string-array name="p1_p2_array">
+		<item>from P2</item>
+		<item>from P1</item>
+	</string-array>
+	
+		<string-array name="dhcp_array">
 		<item>Off</item>
 		<item>Client</item>
 		<item>Server</item>
@@ -563,5 +579,9 @@
         <item>sort by Usage</item>
     </string-array>
 	
+<string-array name="charging_mode_array">
+        <item>Auto</item>
+        <item>Off</item>
+    </string-array>
 
 </resources>
