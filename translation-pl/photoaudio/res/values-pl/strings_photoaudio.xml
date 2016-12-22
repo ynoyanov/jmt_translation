@@ -1,49 +1,68 @@
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file brush_chooser.xml:20 -->
-    <string name="med">Medium</string>
-    <!-- Used in file activity_audio_recording.xml:34 -->
-    <string name="button_stop_audio">Stop</string>
-    <!-- Used in file activity_edit_image.xml:41 -->
-    <string name="save">Save</string>
-    <!-- Used in file PhotoImageAdapter.java:395 -->
-    <string name="string_delete_image">Delete image</string>
-    <!-- Used in file activity_edit_image.xml:34 -->
-    <string name="erase">Erase</string>
-    <!-- Used in file PhotoImageAdapter.java:395 -->
-    <string name="string_delete_audio">Delete audio</string>
-    <!-- Used in file brush_chooser.xml:28 -->
-    <string name="lrg">Large</string>
-    <!-- Used in file brush_chooser.xml:12 -->
-    <string name="sml">Small</string>
-    <!-- Used in file activity_edit_image.xml:195 -->
-    <string name="paint">Paint</string>
-    <!-- Used in file PhotoImageAdapter.java:396 -->
-    <string name="string_do_you_want_to_delete_file_">Do you want to delete file </string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">photoaudio</string>
-    <!-- Used in file PhotoImageAdapter.java:401 -->
-    <string name="string_file_has_removed">File has removed</string>
-    <!-- Used in file PhotoImageAdapter.java:397 -->
-    <string name="string_delete">Delete</string>
-    <!-- Used in file DrawOnBitmapActivity.java:208 -->
-    <string name="string_saved_">Saved!</string>
-    <!-- Used in file dialog_full_screen_image.xml:11 -->
-    <string name="close">Close</string>
-    <!-- Used in file activity_edit_image.xml:20 -->
-    <string name="start_new">New</string>
-    <!-- Used in file PhotoImageAdapter.java:403 -->
-    <string name="string_can_t_remove_the_file_">Can\'t remove the file!</string>
-    <!-- Used in file activity_audio_recording.xml:24 -->
-    <string name="button_record_audio">Record</string>
-    <!-- Used in file TakePhotoActivity.java:247 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file activity_edit_image.xml:27 -->
-    <string name="brush">Brush</string>
-    <!-- Used in file TakePhotoActivity.java:245 -->
-    <string name="string_take_photo_failed">Take photo failed</string>
-    <!-- Used in file activity_audio_recording.xml:14 -->
-    <string name="button_play_audio">Play</string>
-    <!-- UNUSED STRING -->
-    <string name="string_listen_audio">Listen Audio</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Medium-->
+  <string name="med">Medium</string>
+  <!--Original value: Stop-->
+  <string name="button_stop_audio">Stop</string>
+  <!--Original value: Save-->
+  <string name="save">Zapisz</string>
+  <!--Original value: Delete image-->
+  <string name="string_delete_image">Usuń obraz</string>
+  <!--Original value: Erase-->
+  <string name="erase">Wymaż</string>
+  <!--Original value: Delete audio-->
+  <string name="string_delete_audio">Usuń audio</string>
+  <!--Original value: Large-->
+  <string name="lrg">Duży</string>
+  <!--Original value: Small-->
+  <string name="sml">Mały</string>
+  <!--Original value: Paint-->
+  <string name="paint">Rysuj</string>
+  <!--Original value: Do you want to delete file -->
+  <string name="string_do_you_want_to_delete_file_">Czy chcesz usunąć plik</string>
+  <!--Original value: photoaudio-->
+  <string name="app_name">photoaudio</string>
+  <!--Original value: File has removed-->
+  <string name="string_file_has_removed">Plik usunięty</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Usuń</string>
+  <!--Original value: Saved!-->
+  <string name="string_saved_">Zapisano!</string>
+  <!--Original value: Close-->
+  <string name="close">Zamknij</string>
+  <!--Original value: New-->
+  <string name="start_new">Nowy</string>
+  <!--Original value: Can\'t remove the file!-->
+  <string name="string_can_t_remove_the_file_">Nie można usunąć pliku!</string>
+  <!--Original value: Record-->
+  <string name="button_record_audio">Nagraj</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Brush-->
+  <string name="brush">Pędzel</string>
+  <!--Original value: Take photo failed-->
+  <string name="string_take_photo_failed">Nie udało się wykonać zdjęcia</string>
+  <!--Original value: Play-->
+  <string name="button_play_audio">Odtwórz</string>
+  <!--Original value: Listen Audio-->
+  <string name="string_listen_audio">Odsłuch</string>
 </resources>
