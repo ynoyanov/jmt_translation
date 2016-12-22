@@ -1,56 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file SmartTipActivity.java:171 -->
-    <string name="string_calibration_is_over">Calibration is over</string>
-    <!-- Used in file SmartTipActivity.java:454 -->
-    <string name="string_hw_version__1_d_____sw_version__2_d">HW version:%1$d     SW version:%2$d</string>
-    <!-- Used in file activity_smarttip.xml:86 -->
-    <string name="string_min_value">Min Value</string>
-    <!-- Used in file SmartTipActivity.java:1060 -->
-    <string name="string_conecting___">Conecting&#8230;</string>
-    <!-- Used in file SmartTipActivity.java:172 -->
-    <string name="string_do_you_want_to_save_the_calibration_">Do you want to save the calibration?</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">smarttip</string>
-    <!-- Used in file activity_smarttip.xml:31 -->
-    <string name="button_calibrate">Calibrate</string>
-    <!-- Used in file SmartTipActivity.java:983 -->
-    <string name="string_firmware_have_successfully_updated">Firmware have successfully updated</string>
-    <!-- Used in file FindSmartTipActivity.java:111 -->
-    <string name="string_connected_to_smarttip">Connected to SmartTip</string>
-    <!-- Used in file SmartTipActivity.java:1010 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file activity_smarttip.xml:72 -->
-    <string name="string_sensivity">Sensivity</string>
-    <!-- Used in file SmartTipActivity.java:983 -->
-    <string name="string_firmware_update_error_">Firmware update error!</string>
-    <!-- Used in file SmartTipActivity.java:163 -->
-    <string name="string_calibration">Calibration</string>
-    <!-- Used in file activity_smarttip.xml:39 -->
-    <string name="button_firmware">Upload Firmware</string>
-    <!-- Used in file SmartTipActivity.java:1061 -->
-    <string name="string_please_wait">Please wait</string>
-    <!-- Used in file activity_find_smarttip.xml:16 -->
-    <string name="text_select_smarttip">Select SmartTip</string>
-    <!-- Used in file activity_smarttip.xml:108 -->
-    <string name="string_max_value">Max Value</string>
-    <!-- Used in file activity_smarttip.xml:49 -->
-    <string name="button_course">Set Course to 0</string>
-    <!-- Used in file activity_smarttip.xml:125 -->
-    <string name="string_gain">Gain 0</string>
-    <!-- Used in file SmartTipActivity.java:184 -->
-    <string name="string_stop_calibration">Stop Calibration</string>
-    <!-- Used in file SmartTipActivity.java:1011 -->
-    <string name="string_uploading_firmware___">Uploading firmware&#8230;</string>
-    <!-- Used in file SmartTipActivity.java:1078 -->
-    <string name="string_cancelled_by_user">Cancelled by user</string>
-    <!-- Used in file SmartTipActivity.java:481 -->
-    <string name="string_successfully_connected_to__s">Successfully connected to %s</string>
-    <!-- Used in file SmartTipActivity.java:1063 -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file SmartTipActivity.java:985 -->
-    <string name="string_close">Close</string>
-    <!-- UNUSED STRING -->
-    <string name="button_zero">Set Outside Metal</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Calibration is over-->
+  <string name="string_calibration_is_over">Ukończono kalibrację</string>
+  <!--Original value: HW version:%1$d     SW version:%2$d-->
+  <string name="string_hw_version__1_d_____sw_version__2_d">Wersja HW:%1$d     Wersja SW:%2$d</string>
+  <!--Original value: Min Value-->
+  <string name="string_min_value">Wartość min</string>
+  <!--Original value: Conecting…-->
+  <string name="string_conecting___">Łączenie…</string>
+  <!--Original value: Do you want to save the calibration?-->
+  <string name="string_do_you_want_to_save_the_calibration_">Czy zapisać kalibrację?</string>
+  <!--Original value: smarttip-->
+  <string name="app_name">smarttip</string>
+  <!--Original value: Calibrate-->
+  <string name="button_calibrate">Kalibracja</string>
+  <!--Original value: Firmware have successfully updated-->
+  <string name="string_firmware_have_successfully_updated">Aktualizacja FW zakończona sukcesem</string>
+  <!--Original value: Connected to J-Tip-->
+  <string name="string_connected_to_smarttip">SmartTip połączony</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Proszę czekać!!</string>
+  <!--Original value: Sensivity-->
+  <string name="string_sensivity">Czułość</string>
+  <!--Original value: Firmware update error!-->
+  <string name="string_firmware_update_error_">Błąd aktualizacji!</string>
+  <!--Original value: Calibration-->
+  <string name="string_calibration">Kalibracja</string>
+  <!--Original value: Upload Firmware-->
+  <string name="button_firmware">Ładowanie FW</string>
+  <!--Original value: Please wait-->
+  <string name="string_please_wait">Proszę czekać</string>
+  <!--Original value: Select J-Tip-->
+  <string name="text_select_smarttip">Wybierz SmartTip</string>
+  <!--Original value: Max Value-->
+  <string name="string_max_value">Wartość max</string>
+  <!--Original value: Set Course to 0-->
+  <string name="button_course">Ustaw kurs na 0</string>
+  <!--Original value: Gain 0-->
+  <string name="string_gain">Gain 0</string>
+  <!--Original value: Stop Calibration-->
+  <string name="string_stop_calibration">Koniec kalibracji</string>
+  <!--Original value: Uploading firmware…-->
+  <string name="string_uploading_firmware___">Ładowanie FW</string>
+  <!--Original value: Cancelled by user-->
+  <string name="string_cancelled_by_user">Anulowane przez użytkownika</string>
+  <!--Original value: Successfully connected to %s-->
+  <string name="string_successfully_connected_to__s">Połączono z %s</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Set Outside Metal-->
+  <string name="button_zero" />
 </resources>

@@ -23,8 +23,12 @@
   <string name="string__d_vertices">%d narożniki</string>
   <!--Original value: Search-->
   <string name="action_search">Szukaj</string>
+  <!--Original value: Use Fix Only-->
+  <string name="string_use_fix_only">Tylko Fix</string>
   <!--Original value: Can\'t save the settings!-->
   <string name="string_can_t_save_the_settings_">Nie można zapisac ustawień!</string>
+  <!--Original value: Test-->
+  <string name="string_test" />
   <!--Original value: points-->
   <string name="string_points">punkty</string>
   <!--Original value: problem with transformation-->
@@ -41,22 +45,32 @@
   <string name="string_delete_points__s">Usuń punkty %s</string>
   <!--Original value: Solution:-->
   <string name="string_solution_">Rozwiązanie:</string>
-  <!--Original value: Delete Localization-->
-  <string name="action_delete_localization">Usuń Lokalizację</string>
+  <!--Original value: H.RMS-->
+  <string name="string_h_rms" />
   <!--Original value: No Localization-->
   <string name="string_no_localization">Bez lokalizacji</string>
+  <!--Original value: Delete Localization-->
+  <string name="action_delete_localization">Usuń Lokalizację</string>
+  <!--Original value: -->
+  <string name="string_" />
+  <!--Original value: FH Freq-->
+  <string name="string_fh_freq" />
   <!--Original value: Filter by position-->
   <string name="action_filter">Filtruj wg pozycji</string>
-  <!--Original value: Organization-->
-  <string name="job_organization">Organizacja</string>
   <!--Original value: Delete %1$d filtered CSes (of %2$d)-->
   <string name="string_delete__1_d_filtered_cses__of__2_d_">Usuń %1$d z %2$d</string>
+  <!--Original value: Organization-->
+  <string name="job_organization">Organizacja</string>
+  <!--Original value: Correction by Levels-->
+  <string name="string_correction_by_levels">Koryguj wychylenie</string>
   <!--Original value: epochs-->
   <string name="string_epochs">epok</string>
   <!--Original value: Delete %1$d selected points (of %2$d)-->
   <string name="string_delete__1_d_selected_points__of__2_d_">Usuń %1$d wybranych punktów(z %2$d)</string>
   <!--Original value: Design Points-->
   <string name="string_design_points">Punkty projektowane</string>
+  <!--Original value: Satellites-->
+  <string name="string_satellites">Satelity</string>
   <!--Original value: nothing to compute-->
   <string name="string_nothing_to_compute">nie ma co obliczyć</string>
   <!--Original value: Height Offset-->
@@ -65,18 +79,26 @@
   <string name="string_select_cs">Wybierz UW</string>
   <!--Original value: Vertical-->
   <string name="height_vertical">Pionowo</string>
+  <!--Original value: Show antenna vertical offset-->
+  <string name="show_antenna_offsets">Pokaż offset anteny</string>
+  <!--Original value: Protocol-->
+  <string name="string_protocol">Protokół</string>
+  <!--Original value: Epochs collected-->
+  <string name="string_epochs_collected">Zapisane epoki</string>
+  <!--Original value: Vertical Offset-->
+  <string name="antenna_vertical_offset">Offset pionowy</string>
   <!--Original value: Check All-->
   <string name="string_check_all">Sprawdź wszystko</string>
   <!--Original value: Datum:-->
   <string name="string_datum_">Odniesienie:</string>
+  <!--Original value: Epoch Filter-->
+  <string name="string_epoch_filter">Filtr Epok</string>
   <!--Original value: Antenna Type-->
   <string name="antenna_type">Typ anteny</string>
   <!--Original value: East Inclination-->
   <string name="string_east_inclination">Pochylenie na wschód</string>
   <!--Original value: rtkbases-->
   <string name="string_rtkbases" />
-  <!--Original value: Edit point-->
-  <string name="string_edit_point">Edycja punktu</string>
   <!--Original value: Can\'t read coordinate system from the receiver!-->
   <string name="string_can_t_read_coordinate_system_from_the_receiver_">Nie można odczytać układu wsp.!</string>
   <!--Original value:  Last time -->
@@ -85,20 +107,26 @@
   <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">zbyt długa nazwa punktów!\nLimit to 40 znaków</string>
   <!--Original value: Center-->
   <string name="string_center">Centruj</string>
+  <!--Original value: SimCard-->
+  <string name="string_simcard">Karta Sim</string>
   <!--Original value: Delete point %s-->
   <string name="string_delete_point__s">Usuń punkt %s</string>
   <!--Original value: Map-->
   <string name="action_map">Mapa</string>
   <!--Original value: Push to choose from list-->
   <string name="string_push_to_choose_from_list">Naciśnij aby wybrać z listy</string>
-  <!--Original value: HRMS:-->
-  <string name="string_hrms_">HRMS:</string>
-  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
-  <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Punkt %1$s dodano do katalogu %2$s</string>
   <!--Original value: Error-->
   <string name="string_error">Błąd</string>
+  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
+  <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Punkt %1$s dodano do katalogu %2$s</string>
+  <!--Original value: HRMS:-->
+  <string name="string_hrms_">HRMS:</string>
+  <!--Original value: Elipsoidal Height-->
+  <string name="string_elipsoidal_height">Wys elipsoidalna</string>
   <!--Original value: Antenna Id is not selected!-->
   <string name="string_antenna_id_is_not_selected_">Nie wybrano ID anteny!</string>
+  <!--Original value: FH EU-->
+  <string name="string_fh_eu" />
   <!--Original value: Sats:-->
   <string name="string_sats_">Sat:</string>
   <!--Original value: Design Point-->
@@ -117,56 +145,68 @@
   <string name="data_source">Źródło danych</string>
   <!--Original value: Name-->
   <string name="point_name">Nazwa</string>
-  <!--Original value: No points to delete!-->
-  <string name="string_no_points_to_delete_">Brak punktów do usunięcia!</string>
   <!--Original value: ExportDxf-->
   <string name="string_exportdxf">ExportDxf</string>
-  <!--Original value: rtkbase-->
-  <string name="string_rtkbase" />
+  <!--Original value: No points to delete!-->
+  <string name="string_no_points_to_delete_">Brak punktów do usunięcia!</string>
+  <!--Original value: Confirm-->
+  <string name="string_confirm">Potwiedź</string>
   <!--Original value: Scale:%.6f-->
   <string name="string_scale___6f">Skala:%.6f</string>
+  <!--Original value: rtkbase-->
+  <string name="string_rtkbase" />
   <!--Original value: Identical Point-->
   <string name="string_identical_point">Punkty wspólne</string>
-  <!--Original value: Slant-->
-  <string name="height_slant">Skos</string>
   <!--Original value: Name:-->
   <string name="string_name_">Nazwa:</string>
+  <!--Original value: Slant-->
+  <string name="height_slant">Skos</string>
   <!--Original value: Height-->
   <string name="height">Wys.</string>
   <!--Original value: Descr.-->
   <string name="description">Opis.</string>
   <!--Original value: Wrong slant height!-->
   <string name="string_wrong_slant_height_">Błędna wys. skośna!</string>
-  <!--Original value: Type-->
-  <string name="string_type">Typ</string>
-  <!--Original value: North Inclination-->
-  <string name="string_north_inclination">Pochylenie na północ</string>
+  <!--Original value: PDOP-->
+  <string name="string_pdop">PDOP</string>
   <!--Original value: Datum-->
   <string name="category_datum">Odniesienie</string>
+  <!--Original value: North Inclination-->
+  <string name="string_north_inclination">Pochylenie na północ</string>
+  <!--Original value: Type-->
+  <string name="string_type">Typ</string>
   <!--Original value: Delete localization-->
   <string name="string_delete_localization">Usuń lokalizację</string>
   <!--Original value: Add new point-->
   <string name="string_add_new_point">Dodaj nowy punkt</string>
-  <!--Original value: something wrong with params-->
-  <string name="string_something_wrong_with_params">błąd w parametrach</string>
+  <!--Original value: UHF Freq-->
+  <string name="string_uhf_freq" />
   <!--Original value: Description-->
   <string name="string_descriptionhint">Opis</string>
+  <!--Original value: something wrong with params-->
+  <string name="string_something_wrong_with_params">błąd w parametrach</string>
+  <!--Original value: Manual Stop-->
+  <string name="string_manual_stop">Zatrzymaj ręcznie</string>
   <!--Original value: Localization-->
   <string name="localization">Lokalizacja</string>
   <!--Original value: Can\'t delete the localization!-->
   <string name="string_can_t_delete_the_localization_">Nie można usunąć lokalizacji!</string>
   <!--Original value: wrong parameters were computed-->
   <string name="string_wrong_parameters_were_computed">obliczono błędne parametry</string>
+  <!--Original value: Wrong vertical offset!-->
+  <string name="string_wrong_vertical_offset_">Błędny offset!</string>
+  <!--Original value: Verify Mode-->
+  <string name="string_verify_mode">Tryb weryfikacji</string>
   <!--Original value: Code-->
   <string name="code">Kod</string>
   <!--Original value: Calendar-->
   <string name="action_calendar">Kalendarz</string>
   <!--Original value: vert.-->
   <string name="string_vert_">pion.</string>
-  <!--Original value: View CS Info-->
-  <string name="string_view_cs_info">Pokaż szczegóły</string>
   <!--Original value: Can\'t add point %s to catalog!-->
   <string name="string_can_t_add_point__s_to_catalog_">Nie można dodać punktu %s do katalogu!</string>
+  <!--Original value: View CS Info-->
+  <string name="string_view_cs_info">Pokaż szczegóły</string>
   <!--Original value: dN:%.3f-->
   <string name="string_dn___3f">dN:%.3f</string>
   <!--Original value: Can\'t delete localization-->
@@ -179,36 +219,38 @@
   <string name="string_and_move_all__d_rover_points_from_it">I przenieś wszystkie %d punkty z niego</string>
   <!--Original value: Occ.time:-->
   <string name="string_occ_time_">Czas:</string>
-  <!--Original value: Import-->
-  <string name="string_import">Import</string>
-  <!--Original value: storage-->
-  <string name="app_name">pamięć</string>
+  <!--Original value: RCV Server-->
+  <string name="string_rcv_server">Server RCV</string>
   <!--Original value:  identical points-->
   <string name="string__identical_points"> identycznych punktów</string>
+  <!--Original value: storage-->
+  <string name="app_name">pamięć</string>
+  <!--Original value: Import-->
+  <string name="string_import">Import</string>
   <!--Original value: Time-->
   <string name="string_time">Czas</string>
-  <!--Original value: Antenna Height-->
-  <string name="antenna_height">Wys. anteny</string>
-  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
-  <string name="string_delete__1_d_selected_cses__of__2_d_">Usuń %1$d wybranych z %2$d</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Kod</string>
   <!--Original value: job-->
   <string name="string_job">projekt</string>
+  <!--Original value: Code-->
+  <string name="string_codehint">Kod</string>
+  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
+  <string name="string_delete__1_d_selected_cses__of__2_d_">Usuń %1$d wybranych z %2$d</string>
   <!--Original value: Wrong scale difference!-->
   <string name="string_wrong_scale_difference_">Błędna różnica skali!</string>
   <!--Original value: Point %s already exists!-->
   <string name="string_point__s_already_exists_">Punkt %s już istnieje!</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Anuluj</string>
   <!--Original value: Localization was changed and not saved!-->
   <string name="string_localization_was_changed_and_not_saved_">Nie zapisano zmian w lokalizacji!</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">Anuluj</string>
   <!--Original value: Ellipsoidal Height-->
   <string name="string_ellipsoidal_height">Wysokość elipsoidalna</string>
-  <!--Original value: RTK base %1$s was successfully added into catalog %2$s-->
-  <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">Baza RTK 1%$s zostałą dodana do katalogu %2$s</string>
+  <!--Original value: HDOP-->
+  <string name="string_hdop">HDOP</string>
   <!--Original value: View on Map-->
   <string name="string_view_on_map">Podgląd na mapie</string>
+  <!--Original value: RTK base %1$s was successfully added into catalog %2$s-->
+  <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">Baza RTK 1%$s zostałą dodana do katalogu %2$s</string>
   <!--Original value: Edit Job-->
   <string name="string_edit_job">Edycja projektu</string>
   <!--Original value: Delete %1$s %2$s-->
@@ -219,8 +261,12 @@
   <string name="string_ah___3f">AH:%.3f</string>
   <!--Original value: Point %1$s was successfully added into catalog %2$s-->
   <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Punkt %1$s został dodany do katalogu %2$s</string>
+  <!--Original value: Change job CS-->
+  <string name="string_change_job_cs">Zmień układ współrzędnych</string>
   <!--Original value: Time:-->
   <string name="string_time_">Czas:</string>
+  <!--Original value: SN-->
+  <string name="string_sn" />
   <!--Original value: Jps file-->
   <string name="string_filename">Plik JPS</string>
   <!--Original value: VRMS:%.3f-->
@@ -239,6 +285,8 @@
   <string name="string_surveyed_points">Punkty zmierzone</string>
   <!--Original value: All %s were deleted-->
   <string name="string_all__s_were_deleted">Skasowano %s</string>
+  <!--Original value: Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?-->
+  <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Czy chcesz ustawic nowy ukł. współrzędnych \'%1$s\' dla projektu \'%$s\'?</string>
   <!--Original value: Modify-->
   <string name="button_modify">Zmień</string>
   <!--Original value: Scale Difference, ppm-->
@@ -251,12 +299,18 @@
   <string name="string_delete_job">Usuń projekt</string>
   <!--Original value: Sort-->
   <string name="action_sort">Sortuj</string>
+  <!--Original value: Use Any Expochs-->
+  <string name="string_use_any_expochs">Użyj każdej epoki</string>
   <!--Original value: Write to text files-->
   <string name="write_to_text_files">Zapis do pliku tekstowego</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height_storage">Wys anteny</string>
   <!--Original value: TS Points-->
   <string name="string_ts_points">Punkty TS</string>
   <!--Original value: CH:%.3f-->
   <string name="string_ch___3f">CH:%.3f</string>
+  <!--Original value: View/Edit %s-->
+  <string name="string_view_edit__s">Podgląd\Edycja %s</string>
   <!--Original value: Survey-->
   <string name="string_survey">Pomiar</string>
   <!--Original value: Close-->
@@ -269,8 +323,12 @@
   <string name="string_select_point__s">Wybierz punkt %s</string>
   <!--Original value: Design-->
   <string name="string_design">Projektuj</string>
+  <!--Original value: Solution-->
+  <string name="string_solution">Rozwiązanie</string>
   <!--Original value: Export-->
   <string name="string_export">Export</string>
+  <!--Original value: V.RMS-->
+  <string name="string_v_rms" />
   <!--Original value: Return and lost-->
   <string name="string_return_and_lost">Powrót</string>
   <!--Original value: The job is empty-->
@@ -283,10 +341,16 @@
   <string name="string__d_points_in_the_job">Ilość punktów w projekcie: %d</string>
   <!--Original value: Projection-->
   <string name="category_projection">Ukł. wsp.</string>
+  <!--Original value: GNSS Receiver-->
+  <string name="string_gnss_receiver">Odbiornik GNSS</string>
   <!--Original value: Receive-->
   <string name="action_receive">Odbierz</string>
   <!--Original value: North Origing-->
   <string name="string_north_origin">North Origing</string>
+  <!--Original value: Ntrip Server-->
+  <string name="string_ntrip_server">Serwer NTRIP</string>
+  <!--Original value: on-->
+  <string name="string_on">wł</string>
   <!--Original value: Apply-->
   <string name="button_apply">Zastosuj</string>
   <!--Original value: Recalculate-->
@@ -311,6 +375,8 @@
   <string name="string_de___3f">dE:%.3f</string>
   <!--Original value: Delete All Design-->
   <string name="action_delete_all">Usuń wszystkie</string>
+  <!--Original value: Start Time-->
+  <string name="string_start_time">Start</string>
   <!--Original value: Do you want to delete localization?-->
   <string name="string_do_you_want_to_delete_localization_">Czy chcesz usunąć lokalizację?</string>
   <!--Original value: HRMS:%.3f-->
@@ -319,8 +385,14 @@
   <string name="string_user_to_wgs84">Użytkownika-do-WGS84</string>
   <!--Original value: points are to close each other-->
   <string name="string_points_are_to_close_each_other">punkty zbyt blisko siebie</string>
+  <!--Original value: FH USA-->
+  <string name="string_fh_usa" />
   <!--Original value: TS point-->
   <string name="string_ts_point">punkt TS</string>
+  <!--Original value: FH FRule-->
+  <string name="string_fh_frule" />
+  <!--Original value: Use Fix or Float-->
+  <string name="string_use_fix_or_float">Fix lub Float</string>
   <!--Original value: New Job-->
   <string name="string_new_job">Nowy Projekt</string>
   <!--Original value: SurveyInfo:\n\n-->
@@ -331,6 +403,8 @@
   <string name="string_all_points">Wszystkie punkty</string>
   <!--Original value: BH:%.3f-->
   <string name="string_bh___3f">BH:%.3f</string>
+  <!--Original value: off-->
+  <string name="string_off">wył</string>
   <!--Original value: East Origing-->
   <string name="string_east_origin">East Origing</string>
   <!--Original value: Scale-->
@@ -339,8 +413,8 @@
   <string name="coordinate_system">Układ współrzędnych</string>
   <!--Original value: Returning back losts your changes.-->
   <string name="string_returning_back_losts_your_changes_">Wychodząc stracisz zmiany.</string>
-  <!--Original value: Edit %s-->
-  <string name="string_edit__s">Edytuj %s</string>
+  <!--Original value: Hz-->
+  <string name="string_hz" />
   <!--Original value: Can\'t show the settings!-->
   <string name="string_can_t_show_the_settings_">Nie można pokazać ustawień!</string>
   <!--Original value: Select Job-->
@@ -353,10 +427,18 @@
   <string name="string_localization_successfully_imported">Zakończono import lokalizacji</string>
   <!--Original value: no identical points-->
   <string name="string_no_identical_points">brak punktów wspólnych</string>
+  <!--Original value: CSD Phone-->
+  <string name="string_csd_phone" />
   <!--Original value: Job name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa projektu zbyt długa, limi to 40 znaków</string>
+  <!--Original value: Correction Source-->
+  <string name="string_correction_source">Źródło poprawek</string>
   <!--Original value: DPOS/OPUS-->
   <string name="string_dpos" />
+  <!--Original value: 5 Hz mode-->
+  <string name="string_5_hz_mode">Tryb 5Hz</string>
+  <!--Original value: TDOP-->
+  <string name="string_tdop">TDOP</string>
   <!--Original value: Modify RTK Base-->
   <string name="string_modify_rtk_base">Zmień Bazę RTK</string>
   <!--Original value: WGS84-to-User-->
@@ -382,6 +464,10 @@
   <string name="action_add">Dodaj</string>
   <!--Original value: \nBegin time -->
   <string name="string__nbegin_time_">\nCzas rozp.</string>
+  <!--Original value: Mount point-->
+  <string name="string_mount_point" />
+  <!--Original value: Lift&Tilt Survey-->
+  <string name="string_lift_tilt_survey">Lift&amp;Tilt</string>
   <!--Original value: Base:-->
   <string name="string_base_">Baza:</string>
   <!--Original value: Rotation-->
@@ -389,39 +475,53 @@
   <!--Original value: East-->
   <string name="east">Wschód</string>
   <!--Original value: Survey Point-->
-  <string name="survey_point">Zmierzony punkt</string>
+  <string name="survey_point">Zmierz punkt</string>
   <!--Original value: Surveyor-->
   <string name="job_surveyor">Operator</string>
   <!--Original value: Identical Points-->
   <string name="string_identical_points">Punkty Wspólne</string>
+  <!--Original value: Survey Settings-->
+  <string name="string_survey_settings">Ustawienia pomiaru</string>
   <!--Original value: Save-->
   <string name="string_save">Zapis</string>
+  <!--Original value: Survey Info-->
+  <string name="string_survey_info">Info</string>
+  <!--Original value: End Time-->
+  <string name="string_end_time">Stop</string>
   <!--Original value: slant-->
   <string name="string_slant">skos</string>
+  <!--Original value: Occupation Time-->
+  <string name="string_occupation_time">Czas pomiaru</string>
   <!--Original value: Delete-->
   <string name="string_delete">Usuń</string>
   <!--Original value: Ellipsoid:-->
   <string name="string_ellipsoid_">Elipsoida:</string>
   <!--Original value: DY, m-->
   <string name="string_datum_dy">DY, m</string>
-  <!--Original value: DX, m-->
-  <string name="string_datum_dx">DX, m</string>
   <!--Original value: Setup-->
   <string name="action_parameters">Ustawienia</string>
+  <!--Original value: DX, m-->
+  <string name="string_datum_dx">DX, m</string>
+  <!--Original value: UHF Prot.-->
+  <string name="string_uhf_prot_" />
   <!--Original value: Antenna-->
   <string name="button_antenna">Antena</string>
   <!--Original value: Name-->
   <string name="job_name">Nazwa</string>
+  <!--Original value: VDOP-->
+  <string name="string_vdop">VDOP</string>
   <!--Original value: DZ, m-->
   <string name="string_datum_dz">DZ, m</string>
   <!--Original value: Cancel-->
   <string name="string_cancel">Anuluj</string>
-  <!--Original value: Listen Audio-->
-  <string name="string_listen_audio">Odsłuch Audio</string>
   <!--Original value: Latitude Orig.-->
   <string name="string_latitude_origin">Równoleżnik osiowy</string>
+  <!--Original value: Listen Audio-->
+  <string name="string_listen_audio">Odsłuch Audio</string>
   <!--Original value: Delete-->
   <string name="action_delete">Usuń</string>
+  <!--Original value: View/Edit point-->
+  <string name="string_view_edit_point">Podgląd/Edycja punktu</string>
   <!--Original value: trajectory-->
   <string name="string_trajectory">krzywa</string>
   <!--Original value: Check and Save-->
@@ -430,22 +530,22 @@
   <string name="string_origin_north">PN 0</string>
   <!--Original value: SolutionType-->
   <string name="string_solutiontype">Typ rozwiązania</string>
-  <!--Original value: PDOP-->
-  <string name="string_pdop">PDOP</string>
+  <!--Original value: Edit point-->
+  <string name="string_edit_point">Edycja punktu</string>
   <!--Original value: East 0-->
   <string name="string_origin_east">WSCH 0</string>
-  <!--Original value: Longitude-->
-  <string name="string_longitude">Długość</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height">Wys. anteny</string>
   <!--Original value: 5-->
   <string name="string_5">5</string>
+  <!--Original value: Longitude-->
+  <string name="string_longitude">Długość</string>
   <!--Original value: 4-->
   <string name="string_4">4</string>
   <!--Original value: 3-->
   <string name="string_3">3</string>
   <!--Original value: 2-->
   <string name="string_2">2</string>
-  <!--Original value: HDOP-->
-  <string name="string_hdop">HDOP</string>
   <!--Original value: GDOP-->
   <string name="string_gdop">GDOP</string>
   <!--Original value: View Images-->
@@ -462,14 +562,12 @@
   <string name="string_latitude">Szerokość</string>
   <!--Original value: VRMS-->
   <string name="string_vrms">VRMS</string>
+  <!--Original value: Edit %s-->
+  <string name="string_edit__s">Edytuj %s</string>
   <!--Original value: Horizontal Treashold-->
   <string name="string_horizontal_treshold">Próg poziomy</string>
   <!--Original value: HRMS-->
   <string name="string_hrms">HRMS</string>
-  <!--Original value: TDOP-->
-  <string name="string_tdop">TDOP</string>
-  <!--Original value: VDOP-->
-  <string name="string_vdop">VDOP</string>
   <string-array name="coordinate_system_array">
     <!--Original value: WGS 84-->
     <item>WGS 84</item>
@@ -496,10 +594,4 @@
     <!--Original value: Off-->
     <item>Wyłącz</item>
   </string-array>
-  <!--Original value: -->
-  <string name="" />
-  <!--Original value: -->
-  <string name="" />
-  <!--Original value: -->
-  <string name="" />
 </resources>
