@@ -74,6 +74,17 @@
         <item>60 sec</item>
         </string-array>
 
+<string-array name="logging_rate_rtk_array">
+        <item>0.2 sec (5Hz)</item>
+        <item>0.5 sec (2Hz)</item>
+        <item>1 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+        <item>30 sec</item>
+        <item>60 sec</item>
+        </string-array>
+
 <string-array name="height_type_array">
         <item>vertical</item>
         <item>slant</item>
@@ -211,6 +222,7 @@
 <string-array name="uhf_protocols">
         <item>simplex</item>
         <item>transparent</item>
+        <item>satel</item>
         </string-array>
 
 <string-array name="simplex_modulations">
@@ -220,11 +232,34 @@
         <item>d16qam</item>
         </string-array>
 
+<string-array name="transparent_modulations">
+        <item>gmsk</item>
+        <item>4fsk</item>
+        </string-array>
+
+<string-array name="satel_modulations">
+        <item>4fsk</item>
+        </string-array>
+
 <string-array name="simplex_spacings">
         <item>6250</item>
         <item>12500</item>
         <item>20000</item>
         <item>25000</item>
+        </string-array>
+
+<string-array name="transparent_spacings">
+        <item>25000</item>
+        </string-array>
+
+<string-array name="satel_spacings">
+        <item>12500</item>
+        <item>25000</item>
+        </string-array>
+        
+<string-array name="satel_compatibility">
+        <item>3as</item>
+        <item>easy</item>
         </string-array>
 
 
@@ -490,7 +525,12 @@
 		<item>Right</item>
 	</string-array>
 
-	<string-array name="dhcp_array">
+	<string-array name="p1_p2_array">
+		<item>from P2</item>
+		<item>from P1</item>
+	</string-array>
+	
+		<string-array name="dhcp_array">
 		<item>Off</item>
 		<item>Client</item>
 		<item>Server</item>
@@ -506,6 +546,42 @@
 	<string-array name="stakeout_line_offset_rl">
         <item>R</item>
         <item>L</item>
+    </string-array>
+
+	<string-array name="reference_frame_array">
+        <item>WGS84(ITRF2008)</item>
+        <item>NAD83(2011)</item>
+        <item>NAD83(PA11)</item>
+        <item>NAD83(CSRS)</item>
+        <item>NAD83(MA11)</item>
+        <item>ETRS89</item>
+        <item>RTCM3</item>
+        </string-array>
+
+	<string-array name="reference_frame_values_array">
+        <item>CSG_WGS_84</item>
+        <item>CSG_NAD83_2011</item>
+        <item>CSG_NAD83_PA11</item>
+        <item>CSG_NAD83_CSRS</item>
+        <item>CSG_NAD83_MA11</item>
+        <item>CSG_ETRS89</item>
+        <item>RTCM3</item>
+        </string-array>
+
+	<string-array name="sim_card_to_array">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        </string-array>
+
+<string-array name="description_sort_array">
+        <item>sort Alphabetically</item>
+        <item>sort by Date</item>
+        <item>sort by Usage</item>
+    </string-array>
+	
+<string-array name="charging_mode_array">
+        <item>Auto</item>
+        <item>Off</item>
     </string-array>
 
 </resources>

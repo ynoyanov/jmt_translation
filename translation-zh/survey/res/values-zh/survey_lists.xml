@@ -211,6 +211,7 @@
 <string-array name="uhf_protocols">
         <item>simplex</item>
         <item>transparent</item>
+        <item>satel</item>
         </string-array>
 
 <string-array name="simplex_modulations">
@@ -478,11 +479,11 @@
 	</string-array>
  
 	<integer-array name="offset_types_image">
-		<item>@繪製/一般偏移RTK</item>  
-		<item>@繪製/偏移沿線RTK</item>
-		<item>@繪製/偏移RTK交會</item>
-		<item>@繪製/偏移的直接RTK</item>
-		<item>@繪製/偏移垂直RTK</item>
+		<item>@drawable/offsetrtkgeneral</item>
+		<item>@drawable/offsetrtkalongline</item>
+		<item>@drawable/offsetrtkintersection</item>
+		<item>@drawable/offsetrtkdirect</item>
+		<item>@drawable/offsetrtkperpendicular</item>
 	</integer-array>	
 
 	<string-array name="left_right_array">
