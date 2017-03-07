@@ -27,6 +27,8 @@
   <string name="string_use_fix_only">Исп.только Fixed</string>
   <!--Original value: Can\'t save the settings!-->
   <string name="string_can_t_save_the_settings_">Не удалось сохранить настройки</string>
+  <!--Original value: Test-->
+  <string name="string_test" />
   <!--Original value: points-->
   <string name="string_points">точки</string>
   <!--Original value: problem with transformation-->
@@ -77,10 +79,14 @@
   <string name="string_select_cs">Выбрать СК</string>
   <!--Original value: Vertical-->
   <string name="height_vertical">Верт.</string>
+  <!--Original value: Show antenna vertical offset-->
+  <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
   <!--Original value: Protocol-->
   <string name="string_protocol">Протокол</string>
   <!--Original value: Epochs collected-->
   <string name="string_epochs_collected">Собрано эпох</string>
+  <!--Original value: Vertical Offset-->
+  <string name="antenna_vertical_offset">Вертикальный отступ</string>
   <!--Original value: Check All-->
   <string name="string_check_all">Отметить все</string>
   <!--Original value: Datum:-->
@@ -109,12 +115,14 @@
   <string name="action_map">Карта</string>
   <!--Original value: Push to choose from list-->
   <string name="string_push_to_choose_from_list">Нажмите для выбора из списка</string>
-  <!--Original value: HRMS:-->
-  <string name="string_hrms_">ПлСКО:</string>
-  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
-  <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Точка %1$s успешно добавлена в каталог %2$s</string>
   <!--Original value: Error-->
   <string name="string_error">Ошибка</string>
+  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
+  <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Точка %1$s успешно добавлена в каталог %2$s</string>
+  <!--Original value: HRMS:-->
+  <string name="string_hrms_">ПлСКО:</string>
+  <!--Original value: Elipsoidal Height-->
+  <string name="string_elipsoidal_height">Элип.высота</string>
   <!--Original value: Antenna Id is not selected!-->
   <string name="string_antenna_id_is_not_selected_">Антенна не выбрана!</string>
   <!--Original value: FH EU-->
@@ -185,6 +193,8 @@
   <string name="string_can_t_delete_the_localization_">Не удалось удалить локализацию!</string>
   <!--Original value: wrong parameters were computed-->
   <string name="string_wrong_parameters_were_computed">были вычисленны неверные параметры</string>
+  <!--Original value: Wrong vertical offset!-->
+  <string name="string_wrong_vertical_offset_">Неверный отступ антенны!</string>
   <!--Original value: Verify Mode-->
   <string name="string_verify_mode">Режим Проверки</string>
   <!--Original value: Code-->
@@ -225,8 +235,6 @@
   <string name="string_codehint">Код</string>
   <!--Original value: Delete %1$d selected CSes (of %2$d)-->
   <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
-  <!--Original value: Antenna Height-->
-  <string name="antenna_height">Высота антенны</string>
   <!--Original value: Wrong scale difference!-->
   <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
   <!--Original value: Point %s already exists!-->
@@ -270,7 +278,7 @@
   <!--Original value: East Ground-->
   <string name="string_east_ground">Восток наз.</string>
   <!--Original value: Localization changed-->
-  <string name="string_localization_changed">Ллкализация изменена</string>
+  <string name="string_localization_changed">Локализация изменена</string>
   <!--Original value: Longitude Orig.-->
   <string name="string_longitude_origin">Нач.долгота</string>
   <!--Original value: Surveyed Points-->
@@ -295,6 +303,8 @@
   <string name="string_use_any_expochs">Исп-ть все эпохи</string>
   <!--Original value: Write to text files-->
   <string name="write_to_text_files">Писать в текстовые файлы</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height_storage">Высота антенны</string>
   <!--Original value: TS Points-->
   <string name="string_ts_points">Тах.точки</string>
   <!--Original value: CH:%.3f-->
@@ -523,6 +533,8 @@
   <string name="string_edit_point">Редак-ть точку</string>
   <!--Original value: East 0-->
   <string name="string_origin_east">Восток 0</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height">Высота антенны</string>
   <!--Original value: 5-->
   <string name="string_5">5</string>
   <!--Original value: Longitude-->
