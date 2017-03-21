@@ -74,6 +74,17 @@
         <item>60 sec</item>
         </string-array>
 
+<string-array name="logging_rate_rtk_array">
+        <item>0.2 sec (5Hz)</item>
+        <item>0.5 sec (2Hz)</item>
+        <item>1 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+        <item>30 sec</item>
+        <item>60 sec</item>
+        </string-array>
+
 <string-array name="height_type_array">
         <item>vertical</item>
         <item>slant</item>
@@ -212,6 +223,10 @@
         <item>simplex</item>
         <item>transparent</item>
         <item>satel</item>
+        <item>trimtalk450s</item>
+        <item>tt450shw</item>
+        <item>trimmarkII</item>
+        <item>trimmark3</item>
         </string-array>
 
 <string-array name="simplex_modulations">
@@ -514,7 +529,12 @@
 		<item>Right</item>
 	</string-array>
 
-	<string-array name="dhcp_array">
+	<string-array name="p1_p2_array">
+		<item>from P2</item>
+		<item>from P1</item>
+	</string-array>
+	
+		<string-array name="dhcp_array">
 		<item>Off</item>
 		<item>Client</item>
 		<item>Server</item>
@@ -556,5 +576,53 @@
         <item>SIM 1</item>
         <item>SIM 2</item>
         </string-array>
+
+	<string-array name="description_sort_array">
+        <item>sort Alphabetically</item>
+        <item>sort by Date</item>
+        <item>sort by Usage</item>
+    </string-array>
+	
+	<string-array name="charging_mode_array">
+        <item>Auto</item>
+        <item>Off</item>
+    </string-array>
+
+
+	<string-array name="trimtalk450s_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimtalk450s_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="tt450shw_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="tt450shw_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmark3_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimmark3_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
 
 </resources>

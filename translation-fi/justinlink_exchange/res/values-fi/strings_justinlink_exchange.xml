@@ -1,66 +1,104 @@
-﻿<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file FirmwareUpdater.java:411 -->
-    <string name="string_firmware_successfully_updated">Firmware päivitetty onnistuneesti</string>
-    <!-- Used in file OAFUpdater.java:70 -->
-    <string name="string_download_and_update">Lataa ja päivitä</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">justinlink_exchange</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:79 -->
-    <string name="justinlink_server_on">Päälle</string>
-    <!-- Used in file JustinLinkServerSetupActivity.java:172 -->
-    <string name="string_wsdd_server_works_on__s">WSDD Serveri toimii %s</string>
-    <!-- Used in file OAFUpdater.java:103 -->
-    <string name="string_oaf_update_error">OAF päivitysvirhe</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:147 -->
-    <string name="text_mock_location_provider">Mock Location Provider</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:155 -->
-    <string name="mock_location_provider_on">Päällä</string>
-    <!-- Used in file OAFUpdater.java:67 -->
-    <string name="string_the_receiver_options_have_expired_">Vastaanottimen asetukset ovat erääntyneet!</string>
-    <!-- Used in file OAFUpdater.java:67 -->
-    <string name="string_the_receiver_options_are_going_to_be_expired_in__d_days_">Vastaanottimen asetukset erääntyvät %d päivässä!</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:48 -->
-    <string name="wsdd_server_log">Loki</string>
-    <!-- Used in file JustinLinkServerSetupActivity.java:174 -->
-    <string name="string_justinlink_exchange_server_works_on__s">JustinLink Exchange Server toimii %s </string>
-    <!-- Used in file OAFUpdater.java:99 -->
-    <string name="string_oaf_successfully_updated">OAF päivitetty onnistuneesti</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:162 -->
-    <string name="mock_location_provider_log">Loki</string>
-    <!-- Used in file JustinLinkServerSetupActivity.java:172 -->
-    <string name="string_wsdd_server_is_stopped">WSDD Serveri on pysäytetty</string>
-    <!-- Used in file FirmwareUpdater.java:135 -->
-    <string name="string_loaded___">Ladattu&#8230;</string>
-    <!-- Used in file JustinLinkServerSetupActivity.java:174 -->
-    <string name="string_justinlink_exchange_server_is_stopped">JustinLink Exchange Serveri on pysäytetty</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:41 -->
-    <string name="wsdd_server_on">Päällä</string>
-    <!-- Used in file FirmwareUpdater.java:415 -->
-    <string name="string_firmware_update_error">Firmware päivitysvirhe</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:86 -->
-    <string name="justinlink_server_log">Loki</string>
-    <!-- Used in file OAFUpdater.java:102 -->
-    <string name="string_oaf_update">OAF Päivitys</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:124 -->
-    <string name="opusmail_server_log">Loki</string>
-    <!-- Used in file FirmwareUpdater.java:80 -->
-    <string name="string_parsing_data___">Jäsentää tietoa…</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:109 -->
-    <string name="text_opusmail_server">OPUS Sähköpostin lukija</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:71 -->
-    <string name="text_justinlink_server">JustinLink Exchange Serveri</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:117 -->
-    <string name="opusmail_server_on">Päällä</string>
-    <!-- Used in file FirmwareUpdater.java:414 -->
-    <string name="string_firmware_update">Firmware päivitys</string>
-    <!-- Used in file FirmwareUpdater.java:45 -->
-    <string name="string_reading_data___">Luetaan dataa…</string>
-    <!-- Used in file OAFUpdater.java:110 -->
-    <string name="string_close">Sulje</string>
-    <!-- Used in file activity_justinlink_server_setup.xml:34 -->
-    <string name="text_wsdd_server">WSDD Serveri</string>
-    <!-- Used in file FirmwareUpdater.java:90 -->
-    <string name="string_reading_binary___">Luetaan binääriä...</string>
-    
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Received job %s with errors-->
+  <string name="string_received_job__s_with_errors">Проект %s загружен с ошибками</string>
+  <!--Original value: Receiveing…-->
+  <string name="string_receiveing___">Получение...</string>
+  <!--Original value: Do you want to receive job %s-->
+  <string name="string_do_you_want_to_receive_job__s">Хотите загрузить проект %s</string>
+  <!--Original value: Firmware Successfully Updated-->
+  <string name="string_firmware_successfully_updated">Firmware päivitetty onnistuneesti</string>
+  <!--Original value: Download and update-->
+  <string name="string_download_and_update">Lataa ja päivitä</string>
+  <!--Original value: justinlink_exchange-->
+  <string name="app_name">justinlink_exchange</string>
+  <!--Original value: On-->
+  <string name="justinlink_server_on">Päälle</string>
+  <!--Original value: WSDD Server works on %s-->
+  <string name="string_wsdd_server_works_on__s">WSDD Serveri toimii %s</string>
+  <!--Original value: OAF Update Error-->
+  <string name="string_oaf_update_error">OAF päivitysvirhe</string>
+  <!--Original value: Mock Location Provider-->
+  <string name="text_mock_location_provider">Mock Location Provider</string>
+  <!--Original value: On-->
+  <string name="mock_location_provider_on">Päällä</string>
+  <!--Original value: Successfully received job %s-->
+  <string name="string_successfully_received_job__s">Успешно загружен проект %s</string>
+  <!--Original value: The receiver options have expired!-->
+  <string name="string_the_receiver_options_have_expired_">Vastaanottimen asetukset ovat erääntyneet!</string>
+  <!--Original value: The receiver options are going to be expired in %d days!-->
+  <string name="string_the_receiver_options_are_going_to_be_expired_in__d_days_">Vastaanottimen asetukset erääntyvät %d päivässä!</string>
+  <!--Original value: Log-->
+  <string name="wsdd_server_log">Loki</string>
+  <!--Original value: JustinLink Exchange Server works on %s-->
+  <string name="string_justinlink_exchange_server_works_on__s">JustinLink Exchange Server toimii %s </string>
+  <!--Original value: OAF Successfully Updated-->
+  <string name="string_oaf_successfully_updated">OAF päivitetty onnistuneesti</string>
+  <!--Original value: Please wait…-->
+  <string name="string_please_wait___">Подождите...</string>
+  <!--Original value: Log-->
+  <string name="mock_location_provider_log">Loki</string>
+  <!--Original value: WSDD Server is stopped-->
+  <string name="string_wsdd_server_is_stopped">WSDD Serveri on pysäytetty</string>
+  <!--Original value: Loaded…-->
+  <string name="string_loaded___">Ladattu…</string>
+  <!--Original value: JustinLink Exchange Server is stopped-->
+  <string name="string_justinlink_exchange_server_is_stopped">JustinLink Exchange Serveri on pysäytetty</string>
+  <!--Original value: On-->
+  <string name="wsdd_server_on">Päällä</string>
+  <!--Original value: Firmware Update Error-->
+  <string name="string_firmware_update_error">Firmware päivitysvirhe</string>
+  <!--Original value: Log-->
+  <string name="justinlink_server_log">Loki</string>
+  <!--Original value: Parsing data…-->
+  <string name="string_parsing_data___">Jäsentää tietoa…</string>
+  <!--Original value: Log-->
+  <string name="opusmail_server_log">Loki</string>
+  <!--Original value: OAF Update-->
+  <string name="string_oaf_update">OAF Päivitys</string>
+  <!--Original value: OPUS Mail Reader-->
+  <string name="text_opusmail_server">OPUS Sähköpostin lukija</string>
+  <!--Original value: JustinLink Exchange Server-->
+  <string name="text_justinlink_server">JustinLink Exchange Serveri</string>
+  <!--Original value: Reading file list for job %s …-->
+  <string name="string_reading_file_list_for_job__s____">Загрузка списка файлов для проекта %s ...</string>
+  <!--Original value: Receive Job-->
+  <string name="string_receive_job">Получить проект</string>
+  <!--Original value: Receiving file %s …-->
+  <string name="string_receiving_file__s____">Получение файла %s ...</string>
+  <!--Original value: On-->
+  <string name="opusmail_server_on">Päällä</string>
+  <!--Original value: Receive-->
+  <string name="string_receive">Получить</string>
+  <!--Original value: Firmware Update-->
+  <string name="string_firmware_update">Firmware päivitys</string>
+  <!--Original value: Reading data…-->
+  <string name="string_reading_data___">Luetaan dataa…</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отменить</string>
+  <!--Original value: Close-->
+  <string name="string_close">Sulje</string>
+  <!--Original value: WSDD Server-->
+  <string name="text_wsdd_server">WSDD Serveri</string>
+  <!--Original value: Reading binary…-->
+  <string name="string_reading_binary___">Luetaan binääriä...</string>
 </resources>
