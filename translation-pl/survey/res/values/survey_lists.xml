@@ -223,6 +223,10 @@
         <item>simplex</item>
         <item>transparent</item>
         <item>satel</item>
+        <item>trimtalk450s</item>
+        <item>tt450shw</item>
+        <item>trimmarkII</item>
+        <item>trimmark3</item>
         </string-array>
 
 <string-array name="simplex_modulations">
@@ -573,15 +577,73 @@
         <item>SIM 2</item>
         </string-array>
 
-<string-array name="description_sort_array">
+	<string-array name="description_sort_array">
         <item>sort Alphabetically</item>
         <item>sort by Date</item>
         <item>sort by Usage</item>
     </string-array>
 	
-<string-array name="charging_mode_array">
+	<string-array name="charging_mode_array">
         <item>Auto</item>
         <item>Off</item>
+    </string-array>
+
+
+	<string-array name="trimtalk450s_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimtalk450s_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="tt450shw_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="tt450shw_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmark3_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimmark3_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+
+	
+	<string-array name="minimal_rtk_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+		
+	<string-array name="minial_rtk_values_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
 </resources>
