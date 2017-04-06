@@ -3,11 +3,11 @@
 
     <!-- Used in file activity_power.xml:143 -->
     <string name="text_battery_charging_mode">Battery Charging Mode</string>
-    <!-- Used in file SurveyModel.java:198 -->
+    <!-- Used in file SurveyModel.java:228 -->
     <string name="not_enough_memory">Not enough memory in the receiver!</string>
     <!-- Used in file PowerActivity.java:86 -->
     <string name="string_sleep_mode_failed">Sleep mode failed</string>
-    <!-- Used in file CorrectionsActivity.java:218 -->
+    <!-- Used in file CorrectionsActivity.java:219 -->
     <string name="string_ntrip_status">Ntrip status</string>
     <!-- Used in file MapStakeoutActivity.java:454 -->
     <string name="string_next_">next </string>
@@ -19,7 +19,7 @@
     <string name="string_google_maps">Google Maps</string>
     <!-- Used in file CorrectionSources.java:300 -->
     <string name="string_transparent_pars__">Transparent pars.:</string>
-    <!-- Used in file RTKSetupActivity.java:934 -->
+    <!-- Used in file RTKSetupActivity.java:944 -->
     <string name="string_setup_rcv_client_error">Setup Rcv client error</string>
     <!-- Used in file activity_stakeout_cutfill.xml:164 -->
     <string name="text_dh">dH\n</string>
@@ -33,7 +33,7 @@
     <string name="satellites">satellites</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1172 -->
     <string name="string_can_t_setup_uhf_radio___error___s_">Can\'t setup UHF radio! (Error=#%s)</string>
-    <!-- Used in file settings_general.xml:74 -->
+    <!-- Used in file settings_general.xml:88 -->
     <string name="lift_and_tilt_started">Lift&amp;Tilt Started</string>
     <!-- Used in file RTKBaseSettingsFragment.java:568 -->
     <string name="string_base_station__no_connection">Base Station: No connection</string>
@@ -45,7 +45,7 @@
     <string name="action_skyplot">Skyplot</string>
     <!-- Used in file rtk_base_rcv_base.xml:129 -->
     <string name="sim_card">SIM Card</string>
-    <!-- Used in file SurveyingSnGActivity.java:169 -->
+    <!-- Used in file SurveyingSnGActivity.java:181 -->
     <string name="stop_and_go">Stop and Go</string>
     <!-- Used in file CorrectionSources.java:490 -->
     <string name="string_trimmark_ii_iie_pars_">Trimmark II/IIe pars.</string>
@@ -55,19 +55,19 @@
     <string name="csd_phone_number">Direct Call (CSD)</string>
     <!-- Used in file source_table_row_header_dark.xml:120 -->
     <string name="fee">Fee</string>
-    <!-- Used in file map.xml:5 -->
+    <!-- Used in file map_survey.xml:5 -->
     <string name="action_map_layers">Points</string>
     <!-- Used in file activity_configure_uhf.xml:425 -->
     <string name="fec">Error Correction (FEC)</string>
     <!-- Used in file ConfigureUHFActivity.java:228 -->
     <string name="string___hw_">  HW:</string>
-    <!-- Used in file SurveyModel.java:1769 -->
+    <!-- Used in file SurveyModel.java:2174 -->
     <string name="string_survey_is_stopping___">Survey is stopping&#8230;</string>
     <!-- Used in file rtk_base_uhf.xml:165 -->
     <string name="trimmark3">Trimmark3</string>
     <!-- Used in file MapStakeoutActivity.java:411 -->
     <string name="string_eye">Eye</string>
-    <!-- Used in file RTKSetupActivity.java:885 -->
+    <!-- Used in file RTKSetupActivity.java:895 -->
     <string name="string_applying_setting___">Applying setting&#8230;</string>
     <!-- Used in file activity_satellite_types.xml:54 -->
     <string name="check_qzss">QZSS</string>
@@ -75,13 +75,13 @@
     <string name="string_internal_fh_radio">Internal FH radio</string>
     <!-- Used in file receiver_info.xml:8 -->
     <string name="receiver_hardware_version">Hardware Version</string>
-    <!-- Used in file SurveyingRTKActivity.java:1131 -->
+    <!-- Used in file SurveyingRTKActivity.java:1371 -->
     <string name="string_stay_for__1_d_groups_of__2_d">Stay for %1$d groups of %2$d</string>
-    <!-- Used in file JavadMapActivity.java:107 -->
+    <!-- Used in file JavadMapActivity.java:163 -->
     <string name="string_catalog_points">Catalog Points</string>
-    <!-- Used in file RTKSetupActivity.java:1369 -->
+    <!-- Used in file RTKSetupActivity.java:1379 -->
     <string name="string_starting_radio___s____">Starting radio (%s)&#8230;</string>
-    <!-- Used in file SurveyingActivity.java:107 -->
+    <!-- Used in file SurveyingActivity.java:114 -->
     <string name="string_until_stopped_manually">Until Stopped Manually</string>
     <!-- Used in file CalibrationActivity.java:483 -->
     <string name="string_levels_offset_clearing_error_">Levels Offset Clearing Error!</string>
@@ -95,6 +95,8 @@
     <string name="string_fh_radio_on_">FH radio on </string>
     <!-- Used in file activity_stakeout.xml:190 -->
     <string name="text_ett">ETT</string>
+    <!-- Used in file verify_settings.xml:51 -->
+    <string name="verify_tolerance_between_groups_summary">Tolerance between groups</string>
     <!-- Used in file activity_surveying_sng.xml:303 -->
     <string name="button_event">Event</string>
     <!-- Used in file RTKBaseSettingsFragment.java:734 -->
@@ -107,25 +109,29 @@
     <string name="set_coordinate_summary">Set Coordinates To Receiver Without Radio Setup</string>
     <!-- Used in file activity_surveying.xml:94 -->
     <string name="survey_antenna_height">Ant.Height</string>
+    <!-- Used in file verify_settings.xml:44 -->
+    <string name="verify_number_of_groups">Number of Groups</string>
     <!-- Used in file UHFPreferenceFragment.java:695 -->
     <string name="string_setup_failed___error_">Setup failed! (Error=</string>
-    <!-- Used in file SurveyModel.java:1049 -->
+    <!-- Used in file SurveyModel.java:1229 -->
     <string name="hour">1 hour</string>
+    <!-- Used in file activity_antenna.xml:112 -->
+    <string name="antenna_show_vertical_offset">Show vertical offsets</string>
     <!-- Used in file SatelliteActivity.java:344 -->
     <string name="string_satellite_navigation_status_is_undefined">Satellite navigation status is undefined</string>
     <!-- Used in file survey_settings.xml:70 -->
     <string name="show_vertical_offsets">Show Vertical Offsets</string>
-    <!-- Used in file SurveyModel.java:1032 -->
+    <!-- Used in file SurveyModel.java:1212 -->
     <string name="days">days</string>
-    <!-- Used in file RTKSetupActivity.java:1160 -->
+    <!-- Used in file RTKSetupActivity.java:1170 -->
     <string name="string_activating_3g_gprs___">Activating 3G/GPRS&#8230;</string>
-    <!-- Used in file SurveyModel.java:1721 -->
+    <!-- Used in file SurveyModel.java:2152 -->
     <string name="string_epochs_without_limit">Epochs: %1$d (Rejected:%2$d)</string>
     <!-- Used in file activity_configure_fh.xml:83 -->
     <string name="zone">Zone</string>
     <!-- Used in file PowerActivity.java:207 -->
     <string name="string_low_power_mode_has_enabled">Low Power Mode has enabled</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:142 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:151 -->
     <string name="string_0_01_sec__100hz_">0.01 sec (100Hz)</string>
     <!-- Used in file RTKSetupActivity.java:160 -->
     <string name="string_receiver__no_connection">Receiver: No connection</string>
@@ -133,8 +139,6 @@
     <string name="sounds_up">SOUNDS</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1710 -->
     <string name="string_wrong_longitude_">Wrong longitude!</string>
-    <!-- Used in file SurveyingSnGActivity.java:1091 -->
-    <string name="string_no_epoch_collected_">No epoch collected!</string>
     <!-- Used in file activity_surveying_sng.xml:75 -->
     <string name="description">Description</string>
     <!-- Used in file CorrectionSources.java:506 -->
@@ -147,13 +151,13 @@
     <string name="last_point_names">Last Point Names</string>
     <!-- Used in file activity_satellite_types.xml:73 -->
     <string name="check_invisible">Show invisible</string>
-    <!-- Used in file RTKSetupActivity.java:935 -->
+    <!-- Used in file RTKSetupActivity.java:945 -->
     <string name="string_tcp_cl_mode_setup_error">TCP/CL mode setup error</string>
     <!-- Used in file CorrectionSources.java:319 -->
     <string name="string_trimtalk_pars__">Trimtalk pars.:</string>
-    <!-- Used in file offset_survey.xml:101 -->
+    <!-- Used in file offset_survey.xml:99 -->
     <string name="string_left_right">Left/Right</string>
-    <!-- Used in file SurveyModel.java:855 -->
+    <!-- Used in file SurveyModel.java:1031 -->
     <string name="string_vert_">vert.</string>
     <!-- Used in file receiver_info.xml:18 -->
     <string name="receiver_external_power">External Power, V</string>
@@ -173,9 +177,9 @@
     <string name="string_u_">U </string>
     <!-- Used in file CoordsPickerDialog.java:51 -->
     <string name="string_stakeout">Stakeout</string>
-    <!-- Used in file StakeoutActivity.java:411 -->
+    <!-- Used in file StakeoutActivity.java:412 -->
     <string name="string_target_is_not_selected_">Target is not selected!</string>
-    <!-- Used in file RTKSetupActivity.java:688 -->
+    <!-- Used in file RTKSetupActivity.java:698 -->
     <string name="string_file__1_s_at__2__0fhz">File %1$s at %2$.0fHz</string>
     <!-- Used in file rtk_base.xml:85 -->
     <string name="set_coordinate">Set Coordinates</string>
@@ -189,33 +193,35 @@
     <string name="eu_zone_parameters">EU zone parameters</string>
     <!-- Used in file CorrectionSources.java:522 -->
     <string name="string_ip_port_">IP:Port:</string>
+    <!-- Used in file verify_settings.xml:52 -->
+    <string name="verify_tolerance_between_groups">Tolerance between groups</string>
     <!-- Used in file SatelliteActivity.java:319 -->
     <string name="string_this_sv_is_excluded_from_position_computation_by_the_user">This SV is excluded from position computation by the user</string>
-    <!-- Used in file SurveyModel.java:911 -->
+    <!-- Used in file SurveyModel.java:1091 -->
     <string name="string_logging_to_file__s_is_in_progress_">Logging to file %s is in progress!</string>
-    <!-- Used in file StakeoutActivity.java:154 -->
+    <!-- Used in file StakeoutActivity.java:155 -->
     <string name="string_surveying_is_on">Surveying is on</string>
     <!-- Used in file CalibrationActivity.java:399 -->
     <string name="string_side__d_is_calibrated_ok">Side %d is calibrated OK</string>
-    <!-- Used in file RTKSetupActivity.java:937 -->
+    <!-- Used in file RTKSetupActivity.java:947 -->
     <string name="string_port_setup_error">Port setup error</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:146 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:155 -->
     <string name="string_0_02_sec__50hz_">0.02 sec (50Hz)</string>
-    <!-- Used in file RTKSetupActivity.java:1236 -->
+    <!-- Used in file RTKSetupActivity.java:1246 -->
     <string name="string_connecting_to_server___">Connecting to server&#8230;</string>
     <!-- Used in file source_table_row_header_dark.xml:22 -->
     <string name="source">Source</string>
-    <!-- Used in file StakeoutActivity.java:424 -->
+    <!-- Used in file StakeoutActivity.java:425 -->
     <string name="string_stop">Stop</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1246 -->
     <string name="string_server_error_">Server error!</string>
     <!-- Used in file RTKBaseSettingsFragment.java:199 -->
     <string name="string_base_station_stopped">Base Station Stopped</string>
-    <!-- Used in file SurveyingRTKActivity.java:887 -->
+    <!-- Used in file SurveyingRTKActivity.java:634 -->
     <string name="string_survey_action">Survey</string>
-    <!-- Used in file SurveyingSnGActivity.java:852 -->
+    <!-- Used in file SurveyingSnGActivity.java:832 -->
     <string name="string_fixed_only">Fixed Only</string>
-    <!-- Used in file survey_settings.xml:127 -->
+    <!-- Used in file survey_settings.xml:132 -->
     <string name="lift_and_tilt_survey_mode">Lift&amp;Tilt Survey</string>
     <!-- Used in file rtk_base.xml:6 -->
     <string name="text_connection">Connected to</string>
@@ -233,7 +239,7 @@
     <string name="string_modulation_">Modulation:</string>
     <!-- Used in file activity_file_logging.xml:113 -->
     <string name="check_base_info">Store Base Corrections</string>
-    <!-- Used in file SurveyingSnGActivity.java:166 -->
+    <!-- Used in file SurveyingSnGActivity.java:178 -->
     <string name="string_point">Point</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1250 -->
     <string name="string_can_t_set_tcp_input_mode_">Can\'t set tcp input mode!</string>
@@ -243,13 +249,13 @@
     <string name="action_table">Table</string>
     <!-- Used in file activity_descriptions.xml:14 -->
     <string name="sort_description">Sort by</string>
-    <!-- Used in file RTKSetupActivity.java:943 -->
+    <!-- Used in file RTKSetupActivity.java:953 -->
     <string name="string_canceled_by_user">Canceled by user</string>
     <!-- Used in file CorrectionSources.java:545 -->
     <string name="string_tcp_port_">TCP Port:</string>
     <!-- Used in file SatelliteActivity.java:336 -->
     <string name="string_c_a_slot_is_used_in_rtk_processing">C/A slot is used in RTK processing</string>
-    <!-- Used in file settings_general.xml:53 -->
+    <!-- Used in file settings_general.xml:46 -->
     <string name="epoch_distance_rejected">Epoch too close in trajectory</string>
     <!-- Used in file source_table_row_header_dark.xml:43 -->
     <string name="carrier">Carrier</string>
@@ -265,9 +271,9 @@
     <string name="string_n__1__3f_e__2__3f">N:%1$.3f_E:%2$.3f</string>
     <!-- Used in file CorrectionSources.java:508 -->
     <string name="string_serial_b">Serial B</string>
-    <!-- Used in file CorrectionsActivity.java:227 -->
+    <!-- Used in file CorrectionsActivity.java:228 -->
     <string name="string_base">Base</string>
-    <!-- Used in file StakeoutActivity.java:372 -->
+    <!-- Used in file StakeoutActivity.java:373 -->
     <string name="string_course_up">Course Up</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1197 -->
     <string name="string_can_t_start_uhf_radio">Can\'t start UHF radio</string>
@@ -279,15 +285,17 @@
     <string name="antenna">Antenna</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1442 -->
     <string name="string_connected_to_internet___">Connected to Internet&#8230;</string>
-    <!-- Used in file SurveyModel.java:393 -->
+    <!-- Used in file SurveyModel.java:561 -->
     <string name="cant_read_rtk_base">Can\'t read RTK Base Info!</string>
     <!-- Used in file satellite_row_header_dark.xml:49 -->
     <string name="l1ca">L1CA</string>
     <!-- Used in file activity_configure_uhf.xml:659 -->
     <string name="button_read_from_receiver">From receiver</string>
-    <!-- Used in file SurveyModel.java:918 -->
+    <!-- Used in file SurveyModel.java:1098 -->
     <string name="string_stop_go_logging_to_file__1_s_is_in_progress_">Stop-Go logging to file %1$s is in progress!</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:358 -->
+    <!-- Used in file activity_rtk_setup.xml:227 -->
+    <string name="button_read_cs">Read CS from Receiver</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:374 -->
     <string name="sounds_on">Sounds are on</string>
     <!-- Used in file rtk_base.xml:80 -->
     <string name="get_from_catalog">Get From Catalog</string>
@@ -297,17 +305,19 @@
     <string name="string_can_t_convert_position_to_wgs84_">Can\'t convert position to WGS84!</string>
     <!-- Used in file ConfigureUHFActivity.java:358 -->
     <string name="string_wrong_power__npower_should_be_from__1_fw__2_fdbm__to__3_fw__4_fdbm__">Wrong power!\nPower should be from %1$fW(%2$fdBm) to %3$fW(%4$fdBm)!</string>
-    <!-- Used in file survey_settings.xml:105 -->
+    <!-- Used in file survey_settings.xml:110 -->
     <string name="string_use_cs_from_vrs">Use CS from VRS</string>
     <!-- Used in file StatusBarUpdater.java:348 -->
     <string name="dgps">DGPS</string>
     <!-- Used in file satellites.xml:14 -->
     <string name="action_sat_types">Satellites</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:164 -->
+    <string name="wrong_number_epochs_in_group">Wrong number epochs in group!</string>
     <!-- Used in file satellite_row_header_dark.xml:70 -->
     <string name="l2c">L2C</string>
-    <!-- Used in file SurveyingSnGActivity.java:1503 -->
+    <!-- Used in file SurveyingSnGActivity.java:1450 -->
     <string name="string_can_t_write_event_">Can\'t write event!</string>
-    <!-- Used in file SurveyingSnGActivity.java:852 -->
+    <!-- Used in file SurveyingSnGActivity.java:832 -->
     <string name="string_use">Use</string>
     <!-- Used in file offsets2.xml:20 -->
     <string name="string_menu_offset_general">OffLine</string>
@@ -337,6 +347,8 @@
     <string name="vendor">Vendor</string>
     <!-- Used in file rtk_base_uhf.xml:11 -->
     <string name="base_connected_to_2">Base radio connected to</string>
+    <!-- Used in file SurveyModel.java:2146 -->
+    <string name="string_epochs_format">Epochs: %1$d / %2$d (Rejected:%3$d)</string>
     <!-- Used in file CorrectionSources.java:309 -->
     <string name="string_satel_pars__">Satel pars.:</string>
     <!-- Used in file UHFPreferenceFragment.java:757 -->
@@ -345,7 +357,7 @@
     <string name="tt450hsw_protocol_parameters">TT450S(HW) params.</string>
     <!-- Used in file RCVBasePreferenceFragment.java:662 -->
     <string name="lan_ip">IP</string>
-    <!-- Used in file map.xml:10 -->
+    <!-- Used in file map_survey.xml:10 -->
     <string name="action_map_provider">Map Provider</string>
     <!-- Used in file survey_settings.xml:39 -->
     <string name="antenna_type_summary">Switch between antenna input</string>
@@ -367,15 +379,17 @@
     <string name="float2">Float</string>
     <!-- Used in file activity_stakeout_line_target.xml:115 -->
     <string name="string_station">Station</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:198 -->
+    <string name="wrong_tolerance">Wrong Tolerance!</string>
     <!-- Used in file activity_wizard_05_corrections.xml:45 -->
     <string name="radio_gsm_radio">GSM DirectCall</string>
     <!-- Used in file activity_stakeout.xml:294 -->
     <string name="text_height">H\n</string>
     <!-- Used in file ConfigureUHFActivity.java:299 -->
     <string name="string_empty_configuration_name_">Empty configuration name!</string>
-    <!-- Used in file StakeoutActivity.java:547 -->
+    <!-- Used in file StakeoutActivity.java:548 -->
     <string name="string_point__s_selected">Point %s selected</string>
-    <!-- Used in file SurveyingSnGActivity.java:1322 -->
+    <!-- Used in file SurveyingSnGActivity.java:1269 -->
     <string name="string_along_line">Along Line</string>
     <!-- Used in file SatelliteActivity.java:318 -->
     <string name="string_ura_indicates_the_absence_of_accuracy_prediction_for_this_sv">URA indicates the absence of accuracy prediction for this SV</string>
@@ -385,57 +399,57 @@
     <string name="reconfigure_receiver">Reconfigure Receiver</string>
     <!-- Used in file receiver_info.xml:10 -->
     <string name="receiver_bootloader_version">Boot Loader Version</string>
-    <!-- Used in file StakeoutActivity.java:556 -->
+    <!-- Used in file StakeoutActivity.java:557 -->
     <string name="string_all_targets_have_staked_out">All targets have staked out</string>
     <!-- Used in file SourceTableActivity.java:170 -->
     <string name="string_can_t_parse_source_table_info">Can\'t parse source table info</string>
     <!-- Used in file rtk_base.xml:17 -->
     <string name="station_id">Station ID</string>
-    <!-- Used in file CorrectionsActivity.java:119 -->
+    <!-- Used in file CorrectionsActivity.java:120 -->
     <string name="string_disconnected">disconnected</string>
     <!-- Used in file CalibrationActivity.java:364 -->
     <string name="string_wrong_side__nset_receiver_up_as_in_the_picture">Wrong side!\nSet receiver up as in the picture</string>
-    <!-- Used in file SurveyModel.java:1756 -->
+    <!-- Used in file SurveyModel.java:2171 -->
     <string name="string_survey_is_starting___">Survey is starting&#8230;</string>
     <!-- Used in file CorrectionSources.java:440 -->
     <string name="string_hz">Hz</string>
     <!-- Used in file activity_stakeout_line_target.xml:89 -->
     <string name="string_slope">dH</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:154 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:163 -->
     <string name="string_0_1_sec__10hz_">0.1 sec (10Hz)</string>
     <!-- Used in file CorrectionSources.java:474 -->
     <string name="string__1_s__2_dbs_fec__3_s_scr__4_s">%1$s %2$dbs FEC:%3$s Scr:%4$s</string>
-    <!-- Used in file survey_settings.xml:109 -->
+    <!-- Used in file survey_settings.xml:114 -->
     <string name="reference_frame">Ref.Frame</string>
-    <!-- Used in file SurveyingSnGActivity.java:235 -->
+    <!-- Used in file SurveyingSnGActivity.java:247 -->
     <string name="string___0fhz">%.0fHz</string>
     <!-- Used in file FileLoggingActivity.java:335 -->
     <string name="string_receiver_file__s_already_exist_">Receiver File %s already exist!</string>
     <!-- Used in file ConfigureUHFActivity.java:230 -->
     <string name="string____fccid">   FCCID</string>
-    <!-- Used in file SurveyingSnGActivity.java:1028 -->
+    <!-- Used in file SurveyingSnGActivity.java:1026 -->
     <string name="wrong_elevation_mask">Wrong elevation mask!</string>
-    <!-- Used in file SurveyingSnGActivity.java:1334 -->
+    <!-- Used in file SurveyingSnGActivity.java:1281 -->
     <string name="string_perpendicular">Perpendicular</string>
     <!-- Used in file rtk_base_uhf.xml:128 -->
     <string name="scrambling">Scrambling</string>
-    <!-- Used in file CorrectionsActivity.java:119 -->
+    <!-- Used in file CorrectionsActivity.java:120 -->
     <string name="string_connecting">connecting</string>
     <!-- Used in file CorrectionSources.java:540 -->
     <string name="string_internal_3g_gprs">Internal 3G/GPRS</string>
     <!-- Used in file rtk_base.xml:76 -->
     <string name="get_from_receiver_summary">Read Coordinates From Receiver</string>
-    <!-- Used in file SurveyingSnGActivity.java:1330 -->
+    <!-- Used in file SurveyingSnGActivity.java:1277 -->
     <string name="string_traverse">Traverse</string>
-    <!-- Used in file RTKSetupActivity.java:681 -->
+    <!-- Used in file RTKSetupActivity.java:691 -->
     <string name="string_no_file_logging">No file logging</string>
     <!-- Used in file activity_stakeout.xml:107 -->
     <string name="text_across">Across</string>
-    <!-- Used in file RTKSetupActivity.java:1430 -->
+    <!-- Used in file RTKSetupActivity.java:1440 -->
     <string name="string_stopping_rtk___">Stopping RTK&#8230;</string>
     <!-- Used in file settings_general.xml:5 -->
     <string name="turn_on_sounds">Enable Sounds</string>
-    <!-- Used in file DrawV6.java:283 -->
+    <!-- Used in file DrawV6.java:300 -->
     <string name="string_reset">Reset</string>
     <!-- Used in file rtk_rover_start.xml:6 -->
     <string name="survey_connected_to">Connected To</string>
@@ -455,14 +469,18 @@
     <string name="text_dist_3d">Dist 3D\n</string>
     <!-- Used in file CorrectionSources.java:456 -->
     <string name="string_transparent_pars_">Transparent pars.</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:165 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:174 -->
     <string name="string_1_sec__1hz_">1 sec (1Hz)</string>
     <!-- Used in file SatelliteActivity.java:309 -->
     <string name="string_ionosphere_free_combination_used_for_position_computation">Ionosphere-free combination used for position computation</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:88 -->
+    <string name="verify_description">%1$d epochs in %2$d groups with %3$s</string>
     <!-- Used in file rtk_rover_start.xml:3 -->
     <string name="survey_job_name2">Job Name</string>
     <!-- Used in file descriptions.xml:6 -->
     <string name="action_delete">Del</string>
+    <!-- Used in file verify_settings.xml:28 -->
+    <string name="verify_number_epochs_in_group">Number Epochs in group</string>
     <!-- Used in file activity_stakeout_line_target.xml:190 -->
     <string name="string_interval">Interval</string>
     <!-- Used in file rtk_base_rcv_base.xml:144 -->
@@ -479,47 +497,49 @@
     <string name="connected_to_2">Connected To</string>
     <!-- Used in file offset_survey.xml:34 -->
     <string name="button_survey_p1">Survey P1</string>
-    <!-- Used in file CorrectionsActivity.java:223 -->
+    <!-- Used in file CorrectionsActivity.java:224 -->
     <string name="string_radio_link">Radio Link</string>
     <!-- Used in file activity_calibrate.xml:120 -->
     <string name="start_levels_calibration">Start\nLevels\nCalibration</string>
     <!-- Used in file offset_survey.xml:51 -->
     <string name="button_survey_p2">Survey P2</string>
-    <!-- Used in file SurveyingRTKActivity.java:889 -->
+    <!-- Used in file SurveyingRTKActivity.java:636 -->
     <string name="trajectory_name">Traj.Name</string>
     <!-- Used in file RTKBaseSettingsFragment.java:761 -->
     <string name="string__internet_via_wifi"> Internet via WiFi</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:169 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:178 -->
     <string name="string_10sec__0_1hz_">10sec (0.1Hz)</string>
     <!-- Used in file receiver_info.xml:16 -->
     <string name="receiver_time_since_reboot">Time Since Last Reboot</string>
     <!-- Used in file CorrectionSources.java:624 -->
     <string name="string_new_direct_call__csd_">new Direct Call (CSD)</string>
-    <!-- Used in file StakeoutActivity.java:155 -->
+    <!-- Used in file StakeoutActivity.java:156 -->
     <string name="string_surveying_is_in_progress__do_you_want_to_stop_the_survey_to_close_the_window_">Surveying is in progress. Do you want to stop the survey to close the window?</string>
     <!-- Used in file rtk_base_rcv_base.xml:31 -->
     <string name="tcp_port">TCP Port</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:175 -->
+    <string name="wrong_tolerance_in_group">Wrong tolerance in group!</string>
     <!-- Used in file ConfigureNtripActivity.java:235 -->
     <string name="string_can_t_read_source_table_">Can\'t read source table!</string>
     <!-- Used in file rtk_rover_start.xml:7 -->
     <string name="survey_radio_settings">Radio Settings</string>
-    <!-- Used in file RTKSetupActivity.java:1243 -->
+    <!-- Used in file RTKSetupActivity.java:1253 -->
     <string name="string_can_t_activate_wifi__ncheck_access_point__n">Can\'t activate WiFi!\nCheck Access Point!\n</string>
     <!-- Used in file activity_configure_uhf.xml:544 -->
     <string name="trimmark3_protocol_parameters">Trimtalk 3 params.</string>
-    <!-- Used in file SurveyModel.java:332 -->
+    <!-- Used in file SurveyModel.java:501 -->
     <string name="cant_program_session">Can\'t program auto-close file!</string>
     <!-- Used in file SatelliteActivity.java:315 -->
     <string name="string_almanac_sv_health_indicator_is_not_available_for_this_satellite">Almanac SV health indicator is not available for this satellite</string>
     <!-- Used in file CalibrationActivity.java:623 -->
     <string name="compass_status_error">Compass calibration is required!</string>
-    <!-- Used in file CorrectionsActivity.java:212 -->
+    <!-- Used in file CorrectionsActivity.java:213 -->
     <string name="string_wifi_status">WiFi status</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1373 -->
     <string name="string_can_t_store_rtk_base_information_into_job_">Can\'t store RTK Base information into job!</string>
     <!-- Used in file receiver_info.xml:9 -->
     <string name="receiver_firmware_version">Firmware Version</string>
-    <!-- Used in file SurveyingRTKActivity.java:1840 -->
+    <!-- Used in file SurveyingRTKActivity.java:1893 -->
     <string name="string_temporary_point_p1_is_not_surveyed_yet_">Temporary point P1 is not surveyed yet!</string>
     <!-- Used in file UHFPreferenceFragment.java:571 -->
     <string name="string_model_">Model:</string>
@@ -529,13 +549,13 @@
     <string name="string_internet_from">Internet from</string>
     <!-- Used in file survey_settings.xml:40 -->
     <string name="antenna_type">Antenna Type</string>
-    <!-- Used in file RTKSetupActivity.java:1239 -->
+    <!-- Used in file RTKSetupActivity.java:1249 -->
     <string name="string_can_t_enter_internet__ncheck_your_connection__n">Can\'t enter Internet.\nCheck your connection!\n</string>
     <!-- Used in file CorrectionSources.java:440 -->
     <string name="string_frequency_">Frequency:</string>
     <!-- Used in file UHFPreferenceFragment.java:855 -->
     <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Wrong call sign (only numbers and capital chars are avaibale!)</string>
-    <!-- Used in file CorrectionsActivity.java:200 -->
+    <!-- Used in file CorrectionsActivity.java:201 -->
     <string name="string_radio_status">Radio status</string>
     <!-- Used in file ConfigureUHFActivity.java:324 -->
     <string name="string_wrong_frequency__nfrequency_should_be_a_multiply_of_6250hz_">Wrong frequency!\nFrequency should be a multiply of 6250Hz!</string>
@@ -545,7 +565,7 @@
     <string name="string_compass_calibration____">Compass Calibration &#8230;</string>
     <!-- Used in file CorrectionSources.java:291 -->
     <string name="string_simplex_pars__">Simplex pars.:</string>
-    <!-- Used in file SurveyingRTKActivity.java:1844 -->
+    <!-- Used in file SurveyingRTKActivity.java:1897 -->
     <string name="string_temporary_point_p2_is_not_surveyed_yet_">Temporary point P2 is not surveyed yet!</string>
     <!-- Used in file RTKBaseSettingsActivity.java:54 -->
     <string name="string_previous_dialog">Previous Dialog</string>
@@ -553,13 +573,13 @@
     <string name="survey_start_station2">Start Station</string>
     <!-- Used in file satellite_row_header_dark.xml:35 -->
     <string name="elevation">Elevation</string>
-    <!-- Used in file SurveyModel.java:977 -->
+    <!-- Used in file SurveyModel.java:1157 -->
     <string name="string__02dseconds">%02dseconds</string>
     <!-- Used in file activity_surveying_rtk.xml:38 -->
     <string name="button_menu">&#x2B07;</string>
     <!-- Used in file CorrectionSources.java:497 -->
     <string name="string__1_s__2_dbs">%1$s %2$dbs</string>
-    <!-- Used in file SurveyModel.java:941 -->
+    <!-- Used in file SurveyModel.java:1121 -->
     <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_remain">Static %1$s logging to file %2$s is in progress!\n%3$s remain</string>
     <!-- Used in file activity_configure_uhf.xml:109 -->
     <string name="output_power_w">Output Power</string>
@@ -569,7 +589,7 @@
     <string name="string_ca_l1_and_l2c_measurements_are_used_in_rtk_processing">CA/L1 and L2C measurements are used in RTK processing</string>
     <!-- Used in file activity_surveying_sng.xml:48 -->
     <string name="site_name">Site Name</string>
-    <!-- Used in file StakeoutActivity.java:490 -->
+    <!-- Used in file StakeoutActivity.java:491 -->
     <string name="target_line_small">Line Target</string>
     <!-- Used in file StartSurveyActivity.java:449 -->
     <string name="string_antenna_height_is_not_setup__please_recheck_antenna">Antenna height is not setup! Please recheck antenna</string>
@@ -579,7 +599,7 @@
     <string name="trajector_length_filter_summary">Trajectory Length Filter</string>
     <!-- Used in file FileLoggingActivity.java:107 -->
     <string name="string_50hz">50Hz</string>
-    <!-- Used in file SurveyModel.java:1728 -->
+    <!-- Used in file SurveyModel.java:2161 -->
     <string name="remain">Remain </string>
     <!-- Used in file activity_power.xml:154 -->
     <string name="enable_power_output">Enable Power Output</string>
@@ -589,25 +609,27 @@
     <string name="string_directcall__csd__radio_on_">DirectCall (CSD) radio on </string>
     <!-- Used in file StartSurveyActivity.java:689 -->
     <string name="string_resume">Resume</string>
-    <!-- Used in file SurveyingSnGActivity.java:1361 -->
+    <!-- Used in file SurveyingSnGActivity.java:1308 -->
     <string name="string_distance">Distance</string>
     <!-- Used in file RTKBaseSettingsFragment.java:751 -->
     <string name="string__connected_to_internal_modem"> connected to Internal Modem</string>
     <!-- Used in file activity_configure_fh.xml:125 -->
     <string name="f_rule">Freq.Rule</string>
-    <!-- Used in file SurveyingRTKActivity.java:912 -->
+    <!-- Used in file SurveyingRTKActivity.java:659 -->
     <string name="string_store_offset">Store Offset</string>
     <!-- Used in file activity_configure_uhf.xml:594 -->
     <string name="repeater">Use Repeater</string>
-    <!-- Used in file survey_settings.xml:132 -->
+    <!-- Used in file SurveyModel.java:1404 -->
+    <string name="error_survey_already_stopped">Survey already stopped!</string>
+    <!-- Used in file survey_settings.xml:137 -->
     <string name="calibrate">Calibrate</string>
-    <!-- Used in file CorrectionsActivity.java:191 -->
+    <!-- Used in file CorrectionsActivity.java:192 -->
     <string name="string_connected_to">Connected to</string>
     <!-- Used in file RCVBasePreferenceFragment.java:652 -->
     <string name="lan_on">Set LAN</string>
     <!-- Used in file CorrectionSources.java:503 -->
     <string name="string_directcall_csd_">DirectCall(CSD)</string>
-    <!-- Used in file SurveyingSnGActivity.java:164 -->
+    <!-- Used in file SurveyingSnGActivity.java:176 -->
     <string name="rtk">RTK</string>
     <!-- Used in file RTKBaseSettingsActivity.java:358 -->
     <string name="string_disconnect">Disconnect</string>
@@ -617,13 +639,17 @@
     <string name="check_sbas">SBAS</string>
     <!-- Used in file survey_settings.xml:93 -->
     <string name="title_advanced">ADVANCED</string>
-    <!-- Used in file StakeoutActivity.java:427 -->
+    <!-- Used in file StakeoutActivity.java:428 -->
     <string name="string_ellapsed_time__d_sec">Ellapsed time %d sec</string>
+    <!-- Used in file settings_general.xml:74 -->
+    <string name="survey_point_stored_error">Point store error</string>
+    <!-- Used in file verify_settings.xml:5 -->
+    <string name="string_verify_mode">Verify Mode</string>
     <!-- Used in file CorrectionSources.java:536 -->
     <string name="string_the_android_device">the Android device</string>
-    <!-- Used in file survey_settings.xml:121 -->
+    <!-- Used in file survey_settings.xml:126 -->
     <string name="compass_and_levels">Compass and Levels</string>
-    <!-- Used in file RTKSetupActivity.java:938 -->
+    <!-- Used in file RTKSetupActivity.java:948 -->
     <string name="string_port_input_mode_setup_error">Port input mode setup error</string>
     <!-- Used in file activity_calibrate.xml:116 -->
     <string name="levels_status">Levels are calibrated OK</string>
@@ -639,7 +665,7 @@
     <string name="string_wrong_source_table_data_">Wrong source table data!</string>
     <!-- Used in file RCVBasePreferenceFragment.java:667 -->
     <string name="lan_mask">Mask</string>
-    <!-- Used in file CorrectionsActivity.java:327 -->
+    <!-- Used in file CorrectionsActivity.java:331 -->
     <string name="string_rcv_server">RCV Server</string>
     <!-- Used in file AndroidManifest.xml:13 -->
     <string name="app_name">Javad Survey</string>
@@ -655,7 +681,7 @@
     <string name="string_list">List</string>
     <!-- Used in file SatelliteActivity.java:321 -->
     <string name="string_this_sv_is_excluded_from_solution_since_its_system_number_is_unknown">This SV is excluded from solution since its system number is unknown</string>
-    <!-- Used in file RTKSetupActivity.java:316 -->
+    <!-- Used in file RTKSetupActivity.java:324 -->
     <string name="string_you_didn_t_select_a_correction_source_">You didn\'t select a correction source.</string>
     <!-- Used in file CalibrationActivity.java:225 -->
     <string name="string_can_t_start_levels_calibration__ndisabled_by_oaf_options_">Can\'t start levels calibration!\nDisabled by OAF options!</string>
@@ -663,13 +689,13 @@
     <string name="transparent">Transparent protocol settings</string>
     <!-- Used in file CorrectionSources.java:149 -->
     <string name="string_rcv_server_">RCV Server </string>
-    <!-- Used in file RTKSetupActivity.java:1190 -->
+    <!-- Used in file RTKSetupActivity.java:1200 -->
     <string name="string_activating_wifi___">Activating WiFi&#8230;</string>
-    <!-- Used in file survey_settings.xml:142 -->
+    <!-- Used in file survey_settings.xml:147 -->
     <string name="sounds">Sounds</string>
     <!-- Used in file rtk_base_uhf.xml:30 -->
     <string name="protocol">Protocol</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:167 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:176 -->
     <string name="string_5sec__0_2hz_">5sec (0.2Hz)</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1729 -->
     <string name="string_wrong_easting_">Wrong easting!</string>
@@ -681,24 +707,28 @@
     <string name="string_wrong_corrections_">Wrong corrections!</string>
     <!-- Used in file CalibrationActivity.java:382 -->
     <string name="string_start_nlevels_ncalibration">Start\nLevels\nCalibration</string>
+    <!-- Used in file verify_settings.xml:27 -->
+    <string name="verify_number_epochs_in_group_summary">Number Epochs in each group</string>
     <!-- Used in file StakeoutActivity.java:1023 -->
     <string name="text_backward">Back</string>
     <!-- Used in file activity_stakeout.xml:341 -->
     <string name="text_zoom_minus">Minus</string>
     <!-- Used in file source_table_row_header_dark.xml:113 -->
     <string name="authentication">Authentication</string>
-    <!-- Used in file SurveyingActivity.java:50 -->
+    <!-- Used in file SurveyingActivity.java:57 -->
     <string name="trajectory">Trajectory</string>
     <!-- Used in file DrawCompass.java:92 -->
     <string name="rotate_receiver_string2">your receiver</string>
-    <!-- Used in file SurveyModel.java:1723 -->
+    <!-- Used in file SurveyModel.java:2154 -->
     <string name="epochs_rejected"> rejected</string>
-    <!-- Used in file SurveyingSnGActivity.java:1326 -->
+    <!-- Used in file SurveyingSnGActivity.java:1273 -->
     <string name="string_intersection">Intersection</string>
     <!-- Used in file CorrectionSources.java:464 -->
     <string name="string__1_s__2_dbs_fec__3_s_cmpt__4_s_clkcrr__5_s">%1$s %2$dbs FEC:%3$s Cmpt:%4$s ClkCrr:%5$s</string>
     <!-- Used in file activity_confirm_point_survey.xml:171 -->
     <string name="text_point_antenna_height">Antenna Hgt.</string>
+    <!-- Used in file SurveyingRTKActivity.java:1096 -->
+    <string name="string_survey_already_started_">Survey already started!</string>
     <!-- Used in file activity_satellite_types.xml:27 -->
     <string name="check_gps">GPS</string>
     <!-- Used in file CorrectionSources.java:474 -->
@@ -719,6 +749,8 @@
     <string name="connecttion">Connection</string>
     <!-- Used in file CorrectionSources.java:527 -->
     <string name="string_password_">Password:</string>
+    <!-- Used in file JavadMapActivity.java:197 -->
+    <string name="string_autocad_drawing___dwg">AutoCad Drawing *.dwg</string>
     <!-- Used in file rtk_base_rcv_base.xml:155 -->
     <string name="gprs_password_summary">Password</string>
     <!-- Used in file rtk_base_csd.xml:7 -->
@@ -727,7 +759,9 @@
     <string name="string_l2c_slot_is_used_in_rtk_processing">L2C slot is used in RTK processing</string>
     <!-- Used in file rtk_base_csd.xml:11 -->
     <string name="csd_phone">Phone</string>
-    <!-- Used in file SurveyModel.java:1051 -->
+    <!-- Used in file verify_settings.xml:35 -->
+    <string name="verify_tolerance_in_group_summary">Tolerance in group</string>
+    <!-- Used in file SurveyModel.java:1231 -->
     <string name="hours">hours</string>
     <!-- Used in file rtk_base_rcv_base.xml:116 -->
     <string name="nethub_login">NetHub Login</string>
@@ -737,45 +771,47 @@
     <string name="trimtalk450s">Trimtalk 450S</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1697 -->
     <string name="string_wrong_latitude_">Wrong latitude!</string>
-    <!-- Used in file SurveyingSnGActivity.java:233 -->
+    <!-- Used in file SurveyingSnGActivity.java:245 -->
     <string name="string___0fsec">%.0fsec</string>
     <!-- Used in file StakeoutActivity.java:1012 -->
     <string name="text_fill">Fill</string>
-    <!-- Used in file rtk_base.xml:121 -->
-    <string name="radio_setup">Radio Setup</string>
     <!-- Used in file rtk_base_rcv.xml:25 -->
     <string name="port">Port</string>
+    <!-- Used in file rtk_base.xml:121 -->
+    <string name="radio_setup">Radio Setup</string>
     <!-- Used in file activity_stakeout_cutfill.xml:202 -->
     <string name="string_design">Design\n</string>
-    <!-- Used in file RTKSetupActivity.java:942 -->
-    <string name="string_time_out_error___">Time out error!!!</string>
     <!-- Used in file activity_configure_ntrip.xml:103 -->
     <string name="mount_point">Mount Point</string>
+    <!-- Used in file RTKSetupActivity.java:952 -->
+    <string name="string_time_out_error___">Time out error!!!</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:187 -->
+    <string name="wrong_number_of_groups">Wrong number of groups</string>
     <!-- Used in file SatelliteActivity.java:328 -->
     <string name="string_dll_is_not_settled">DLL is not settled</string>
     <!-- Used in file activity_configure_fh.xml:94 -->
     <string name="usa_zone_parameters">USA zone parameters</string>
-    <!-- Used in file settings_general.xml:32 -->
+    <!-- Used in file settings_general.xml:60 -->
     <string name="survey_complete">Survey Completed</string>
-    <!-- Used in file MapStakeoutActivity.java:438 -->
-    <string name="string_mapprovider">MapProvider</string>
     <!-- Used in file survey_settings.xml:24 -->
     <string name="confirm_point_survey">Confirm Point</string>
+    <!-- Used in file MapStakeoutActivity.java:438 -->
+    <string name="string_mapprovider">MapProvider</string>
     <!-- Used in file RTKBaseSettingsFragment.java:759 -->
     <string name="string__internet_via_android"> Internet via Android</string>
     <!-- Used in file activity_calibrate.xml:45 -->
     <string name="start_compass_calibration">Start\nCompass\nCalibration</string>
-    <!-- Used in file CorrectionSources.java:576 -->
-    <string name="string_corrections_">Corrections:</string>
     <!-- Used in file ReceiverInfoActivity.java:40 -->
     <string name="string_receiver">Receiver</string>
+    <!-- Used in file CorrectionSources.java:576 -->
+    <string name="string_corrections_">Corrections:</string>
     <!-- Used in file RTKBaseSettingsFragment.java:871 -->
     <string name="string_android_ip_address_">Android IP Address:</string>
     <!-- Used in file StakeoutActivity.java:1023 -->
     <string name="text_forward">Fwrd</string>
     <!-- Used in file survey_settings.xml:48 -->
     <string name="base_antenna_height">Antenna Height</string>
-    <!-- Used in file StakeoutActivity.java:372 -->
+    <!-- Used in file StakeoutActivity.java:373 -->
     <string name="string_north_up">North Up</string>
     <!-- Used in file job_info.xml:5 -->
     <string name="job_surveypoints">Surveyed Points</string>
@@ -793,9 +829,9 @@
     <string name="link_quality">LQ</string>
     <!-- Used in file rtk_base.xml:75 -->
     <string name="get_from_receiver">Get From Receiver</string>
-    <!-- Used in file SurveyModel.java:905 -->
+    <!-- Used in file SurveyModel.java:1085 -->
     <string name="string_rtk_surveying_is_on___">RTK Surveying is on&#8230;</string>
-    <!-- Used in file offset_survey.xml:115 -->
+    <!-- Used in file offset_survey.xml:113 -->
     <string name="button_store_offset">Store Offset</string>
     <!-- Used in file ConfigureCSDActivity.java:188 -->
     <string name="string_vendor_">Vendor:</string>
@@ -829,9 +865,9 @@
     <string name="longitude">Longitude</string>
     <!-- Used in file activity_configure_uhf.xml:148 -->
     <string name="simplex_protocol_parameters">Simplex Protocol Parameters</string>
-    <!-- Used in file settings_general.xml:67 -->
+    <!-- Used in file settings_general.xml:81 -->
     <string name="lift_and_tilt_starting">Lift&amp;Tilt Starting</string>
-    <!-- Used in file SurveyModel.java:937 -->
+    <!-- Used in file SurveyModel.java:1117 -->
     <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_overwriting_">Static %1$s logging to file %2$s is in progress!\n%3$s overwriting!</string>
     <!-- Used in file CorrectionSources.java:514 -->
     <string name="string_phone_">Phone:</string>
@@ -841,7 +877,7 @@
     <string name="string_deltas">Deltas\n</string>
     <!-- Used in file rtk_base_uhf.xml:84 -->
     <string name="satel">Satel protocol settings</string>
-    <!-- Used in file RTKSetupActivity.java:1437 -->
+    <!-- Used in file RTKSetupActivity.java:1447 -->
     <string name="string_rtk_stopped">RTK Stopped</string>
     <!-- Used in file source_table_row_header_dark.xml:29 -->
     <string name="format">Format</string>
@@ -849,7 +885,7 @@
     <string name="text_point_epochs">Epochs</string>
     <!-- Used in file survey_settings.xml:99 -->
     <string name="string_multirtk">Multi RTK</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:433 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:449 -->
     <string name="wrong_trajectory_length_filter">Wrong Trajectory Length Filter!</string>
     <!-- Used in file rtk_rover_start.xml:12 -->
     <string name="survey_record_rate">Record Rate</string>
@@ -865,9 +901,9 @@
     <string name="button_static">Static</string>
     <!-- Used in file PowerActivity.java:234 -->
     <string name="string_charger">Charger</string>
-    <!-- Used in file RTKSetupActivity.java:1220 -->
+    <!-- Used in file RTKSetupActivity.java:1230 -->
     <string name="string_turning_off_wlan_to_activate_lan___">Turning off WLAN to activate LAN&#8230;</string>
-    <!-- Used in file SurveyingSnGActivity.java:1464 -->
+    <!-- Used in file SurveyingSnGActivity.java:1411 -->
     <string name="string_can_t_convert_coordinates_to_wgs84_">Can\'t convert coordinates to WGS84!</string>
     <!-- Used in file receiver_info.xml:11 -->
     <string name="receiver_sizeof_ram">Size Of RAM</string>
@@ -877,7 +913,7 @@
     <string name="text_empty">\t</string>
     <!-- Used in file rtk_base_rcv_base.xml:70 -->
     <string name="tcpo_port">TCPO Port</string>
-    <!-- Used in file SurveyingSnGActivity.java:1032 -->
+    <!-- Used in file SurveyingSnGActivity.java:1030 -->
     <string name="cant_setup_elevation_mask">Can\'t setup elevation mask!</string>
     <!-- Used in file survey_settings.xml:79 -->
     <string name="file_name">File Name</string>
@@ -887,11 +923,11 @@
     <string name="receiver_files">File Manager</string>
     <!-- Used in file SatelliteActivity.java:323 -->
     <string name="string_ephemeris_data_is_too_old">Ephemeris data is too old</string>
-    <!-- Used in file StakeoutActivity.java:373 -->
+    <!-- Used in file StakeoutActivity.java:374 -->
     <string name="string_magnetic_az_">Magnetic Az.</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:171 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:180 -->
     <string name="string_15sec">15sec</string>
-    <!-- Used in file SurveyingRTKActivity.java:1128 -->
+    <!-- Used in file SurveyingRTKActivity.java:1368 -->
     <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
     <!-- Used in file StartSurveyActivity.java:499 -->
     <string name="string_please__type_a_receiver_file_name_">Please, type a receiver file name!</string>
@@ -907,7 +943,7 @@
     <string name="receiver_mainboard">Mainboard</string>
     <!-- Used in file survey_settings.xml:4 -->
     <string name="string_survey_settings">Surveying</string>
-    <!-- Used in file SurveyModel.java:1055 -->
+    <!-- Used in file SurveyModel.java:1235 -->
     <string name="minutes">mins</string>
     <!-- Used in file rtk_base_uhf.xml:15 -->
     <string name="uhf">UHF</string>
@@ -915,7 +951,7 @@
     <string name="string_ionospheric_corrections_are_not_received_from_base">Ionospheric corrections are not received from base</string>
     <!-- Used in file StakeoutSettingsActivity.java:132 -->
     <string name="calibration_required">calibration required</string>
-    <!-- Used in file SurveyModel.java:855 -->
+    <!-- Used in file SurveyModel.java:1031 -->
     <string name="string_slant">slant</string>
     <!-- Used in file activity_calibrate.xml:88 -->
     <string name="use_levels">Use Levels</string>
@@ -933,11 +969,11 @@
     <string name="text_point_description">Description</string>
     <!-- Used in file survey_settings.xml:68 -->
     <string name="antenna_height_unit">Height Unit</string>
-    <!-- Used in file StakeoutActivity.java:164 -->
+    <!-- Used in file StakeoutActivity.java:165 -->
     <string name="string_cancel">Cancel</string>
     <!-- Used in file survey_settings.xml:47 -->
     <string name="antenna_height_summary">This allows you to enter a string</string>
-    <!-- Used in file SurveyingRTKActivity.java:881 -->
+    <!-- Used in file SurveyingRTKActivity.java:628 -->
     <string name="string_trajectory">Trajectory</string>
     <!-- Used in file CorrectionSources.java:622 -->
     <string name="string_new_rcv_server">new RCV Server</string>
@@ -951,7 +987,7 @@
     <string name="string_points">Points</string>
     <!-- Used in file rtk_base_uhf.xml:210 -->
     <string name="check_and_save_settings_summary">Check and save settings</string>
-    <!-- Used in file SurveyModel.java:982 -->
+    <!-- Used in file SurveyModel.java:1162 -->
     <string name="string__1_dmin___2_dsec_">%1$dmin. %2$dsec.</string>
     <!-- Used in file activity_rtk_setup.xml:49 -->
     <string name="button_start">Start</string>
@@ -969,26 +1005,28 @@
     <string name="string_level_offsets_are_cleared">Level Offsets are cleared</string>
     <!-- Used in file RCVBasePreferenceFragment.java:418 -->
     <string name="string_wrong_tcpo_ip_port_">Wrong TCPO IP Port!</string>
-    <!-- Used in file SurveyModel.java:923 -->
+    <!-- Used in file SurveyModel.java:1103 -->
     <string name="string_trajectory__1_s_logging_to_file__2_s_is_in_progress_">Trajectory %1$s logging to file %2$s is in progress!</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:512 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:534 -->
     <string name="wrong_slant_height">Wrong slant height!</string>
     <!-- Used in file stakeout_settings.xml:4 -->
     <string name="string_stakeout_settings">Navigation</string>
     <!-- Used in file rtk_base_rcv_base.xml:149 -->
     <string name="gprs_user">User</string>
-    <!-- Used in file SurveyModel.java:1715 -->
-    <string name="string_epochs">Epochs: %1$d / %2$d (Rejected:%3$d)</string>
-    <!-- Used in file SurveyingRTKActivity.java:887 -->
+    <!-- Used in file SurveyingRTKActivity.java:634 -->
     <string name="string_fast_traj_">Fast Traj.</string>
     <!-- Used in file SatelliteActivity.java:338 -->
     <string name="string_p_l2_slot_is_used_in_rtk_processing">P L2 slot is used in RTK processing</string>
+    <!-- Used in file SurveyModel.java:1420 -->
+    <string name="error_no_data_collected">No data collected!</string>
     <!-- Used in file activity_rtk_setup.xml:141 -->
     <string name="connected_to">Radio is connected to</string>
     <!-- Used in file survey_settings.xml:67 -->
     <string name="antenna_height_unit_summary">Switch between antenna input</string>
-    <!-- Used in file settings_general.xml:39 -->
+    <!-- Used in file settings_general.xml:32 -->
     <string name="epoch_accepted">Epoch Accepted</string>
+    <!-- Used in file verify_settings.xml:8 -->
+    <string name="string_verify_settings">Verify settings</string>
     <!-- Used in file activity_rtk_setup.xml:122 -->
     <string name="correction_source">Correction Source</string>
     <!-- Used in file CorrectionSources.java:369 -->
@@ -997,9 +1035,9 @@
     <string name="string_yandex_map">Yandex Map</string>
     <!-- Used in file activity_confirm_point_survey.xml:240 -->
     <string name="text_base">Base</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:358 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:374 -->
     <string name="sounds_off">Sounds are off</string>
-    <!-- Used in file SurveyModel.java:1095 -->
+    <!-- Used in file SurveyModel.java:1275 -->
     <string name="string_surveing_of__s_is_over_">Surveing of %s is over!</string>
     <!-- Used in file rtk_base_uhf.xml:208 -->
     <string name="check_settings">Check Settings</string>
@@ -1025,6 +1063,8 @@
     <string name="antenna_vertical_offset_summary">Antenna Vertical Offset</string>
     <!-- Used in file rtk_base_uhf.xml:98 -->
     <string name="text_compatibility">Compatibility</string>
+    <!-- Used in file settings_general.xml:67 -->
+    <string name="survey_point_stored_ok">Point stored OK</string>
     <!-- Used in file activity_surveying_settings.xml:260 -->
     <string name="correct_inclination">Correct Inclination</string>
     <!-- Used in file offsets2.xml:25 -->
@@ -1035,7 +1075,7 @@
     <string name="string_rtk_base_started_ok">RTK Base started OK</string>
     <!-- Used in file CorrectionSources.java:223 -->
     <string name="string_3g_gsm">3G/GSM</string>
-    <!-- Used in file settings_general.xml:60 -->
+    <!-- Used in file settings_general.xml:53 -->
     <string name="stakeout_epoch_rejected">Stakeout Epoch Rejected</string>
     <!-- Used in file offsets2.xml:40 -->
     <string name="string_menu_offset_perpendicular">Perpendicular</string>
@@ -1045,7 +1085,7 @@
     <string name="receiver_lan_ip">LAN IP</string>
     <!-- Used in file source_table_row_header_dark.xml:85 -->
     <string name="gga">GGA</string>
-    <!-- Used in file SurveyingSnGActivity.java:1359 -->
+    <!-- Used in file SurveyingSnGActivity.java:1306 -->
     <string name="string_angle">Angle</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1157 -->
     <string name="string_can_t_start_fh_radio">Can\'t start FH radio</string>
@@ -1065,7 +1105,7 @@
     <string name="string_calibration_error_">Calibration error!</string>
     <!-- Used in file SatelliteActivity.java:307 -->
     <string name="string_p1_data_used_for_position_computation">P1 data used for position computation</string>
-    <!-- Used in file SurveyingSnGActivity.java:1486 -->
+    <!-- Used in file SurveyingSnGActivity.java:1433 -->
     <string name="string_point__s_has_been_created">Point %s has been created</string>
     <!-- Used in file PowerActivity.java:247 -->
     <string name="string_v">V</string>
@@ -1073,7 +1113,7 @@
     <string name="string_power_">Power:</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1955 -->
     <string name="string_can_t_convert_selected_point_coordinate_into_wgs84_">Can\'t convert selected point coordinate into WGS84!</string>
-    <!-- Used in file CorrectionsActivity.java:291 -->
+    <!-- Used in file CorrectionsActivity.java:295 -->
     <string name="string_gsm_radio">GSM Radio</string>
     <!-- Used in file rtk_base_rcv_base.xml:38 -->
     <string name="correction_type_tcp_a">TCP A</string>
@@ -1081,7 +1121,7 @@
     <string name="string_receiver_file_already_exist_">Receiver File already exist!</string>
     <!-- Used in file CorrectionSources.java:515 -->
     <string name="string_cbst_rate_">CBST Rate:</string>
-    <!-- Used in file RTKSetupActivity.java:931 -->
+    <!-- Used in file RTKSetupActivity.java:941 -->
     <string name="string_rover_mode_setup_error">Rover mode setup error</string>
     <!-- Used in file RTKSetupActivity.java:77 -->
     <string name="string_rtk_survey">RTK Survey</string>
@@ -1095,25 +1135,25 @@
     <string name="receiver_board_temp">Receiver Board Temperature</string>
     <!-- Used in file activity_configure_uhf.xml:73 -->
     <string name="frequency_hz">Frequency, Hz</string>
-    <!-- Used in file SurveyingActivity.java:49 -->
+    <!-- Used in file SurveyingActivity.java:56 -->
     <string name="static_t">Static</string>
-    <!-- Used in file RTKSetupActivity.java:932 -->
+    <!-- Used in file RTKSetupActivity.java:942 -->
     <string name="string_setup_client_error">Setup client error</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:158 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:167 -->
     <string name="string_0_2_sec__5hz_">0.2 sec (5Hz)</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1837 -->
     <string name="string_no_corrections_at_any_port_">No corrections at any port!</string>
-    <!-- Used in file survey_settings.xml:115 -->
+    <!-- Used in file survey_settings.xml:120 -->
     <string name="rtcm3_summary">VRS RTCM3 Coordinate System</string>
     <!-- Used in file StartSurveyActivity.java:505 -->
     <string name="string_receiver_file_name_is_incorrect_">Receiver file name is incorrect!</string>
-    <!-- Used in file CorrectionsActivity.java:282 -->
+    <!-- Used in file CorrectionsActivity.java:286 -->
     <string name="string_uhf_radio">UHF Radio</string>
     <!-- Used in file rtk_rover_start.xml:5 -->
     <string name="survey_setup_radio">Setup Radio</string>
     <!-- Used in file FileLoggingActivity.java:126 -->
     <string name="string_1hz">1Hz</string>
-    <!-- Used in file SurveyingSnGActivity.java:1519 -->
+    <!-- Used in file SurveyingSnGActivity.java:1466 -->
     <string name="string_can_t_stop_receiver_file_">Can\'t stop receiver file!</string>
     <!-- Used in file rtk_base_rcv_base.xml:126 -->
     <string name="gprs_on">Set 3G/GPRS</string>
@@ -1123,11 +1163,15 @@
     <string name="sleep_mode">Sleep Mode</string>
     <!-- Used in file rtk_base_uhf.xml:17 -->
     <string name="frequency">Frequency, Hz</string>
+    <!-- Used in file JavadMapActivity.java:198 -->
+    <string name="string_import">Import</string>
     <!-- Used in file UHFPreferenceFragment.java:1150 -->
     <string name="string_reading_setting___">Reading setting&#8230;</string>
+    <!-- Used in file SurveyModel.java:1467 -->
+    <string name="error_store_point">Data storing error!</string>
     <!-- Used in file CorrectionSources.java:497 -->
     <string name="string_trimmark_3_params_">Trimmark 3 params.</string>
-    <!-- Used in file SurveyingSnGActivity.java:1433 -->
+    <!-- Used in file SurveyingSnGActivity.java:1380 -->
     <string name="string_can_t_convert_coordinate_">Can\'t convert coordinate!</string>
     <!-- Used in file rtk_base_uhf.xml:133 -->
     <string name="tt450shw">TT 450SHW</string>
@@ -1145,9 +1189,11 @@
     <string name="button_logging">File Logging</string>
     <!-- Used in file activity_stakeout_line_target.xml:74 -->
     <string name="string_azimuth">Azimuth</string>
+    <!-- Used in file verify_settings.xml:43 -->
+    <string name="verify_number_of_groups_summary">Number of Groups</string>
     <!-- Used in file rtk_base_rcv_base.xml:58 -->
     <string name="correction_type_tcp_e">TCP E</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:175 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:184 -->
     <string name="string_60sec">60sec</string>
     <!-- Used in file SatelliteActivity.java:317 -->
     <string name="string__">\</string>
@@ -1177,7 +1223,7 @@
     <string name="gprs_apn_summary">Access Point Name (APN)</string>
     <!-- Used in file rtk_base_rcv_base.xml:123 -->
     <string name="gprs_settings">3G/GPRS</string>
-    <!-- Used in file CorrectionsActivity.java:323 -->
+    <!-- Used in file CorrectionsActivity.java:327 -->
     <string name="string___error__s_"> (Error:%s)</string>
     <!-- Used in file StatusBarUpdater.java:350 -->
     <string name="fixed">Fixed</string>
@@ -1187,7 +1233,7 @@
     <string name="string_surveyed_points">Surveyed Points</string>
     <!-- Used in file activity_stakeout_line_target.xml:140 -->
     <string name="string_along">Along</string>
-    <!-- Used in file SurveyingSnGActivity.java:1459 -->
+    <!-- Used in file SurveyingSnGActivity.java:1406 -->
     <string name="string_can_t_compute_coordinates_">Can\'t compute coordinates!</string>
     <!-- Used in file rtk_base.xml:81 -->
     <string name="get_from_catalog_summary">Read Coordinates From Catalog</string>
@@ -1195,7 +1241,7 @@
     <string name="string_frequency__dhz">Frequency:%dHz</string>
     <!-- Used in file RTKBaseSettingsFragment.java:749 -->
     <string name="string__connected_to_serial_b"> connected to Serial B</string>
-    <!-- Used in file settings_general.xml:88 -->
+    <!-- Used in file settings_general.xml:102 -->
     <string name="lift_and_tilt_all_epochs_collected">All epochs are collected at Lift/Titl survey</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1044 -->
     <string name="string_time_out">Time out</string>
@@ -1213,13 +1259,15 @@
     <string name="levels_status_error">Levels calibration is required!</string>
     <!-- Used in file rtk_base.xml:100 -->
     <string name="file_name_summary">This allows you to enter a string</string>
+    <!-- Used in file verify_settings.xml:36 -->
+    <string name="verify_tolerance_in_group">Tolerance in group</string>
     <!-- Used in file StakeoutSettingsActivity.java:126 -->
     <string name="are_ok">are OK</string>
     <!-- Used in file RCVBasePreferenceFragment.java:651 -->
     <string name="lan_settings">LAN</string>
     <!-- Used in file RCVBasePreferenceFragment.java:437 -->
     <string name="string_wrong_nethub_address_">Wrong NetHub Address!</string>
-    <!-- Used in file SurveyModel.java:1701 -->
+    <!-- Used in file SurveyModel.java:2137 -->
     <string name="elapsed_time">Elapsed time</string>
     <!-- Used in file rtk_base.xml:145 -->
     <string name="start_station_up">START STATION</string>
@@ -1233,7 +1281,7 @@
     <string name="corrections">CORRECTIONS</string>
     <!-- Used in file UHFPreferenceFragment.java:797 -->
     <string name="string_frequency_should_be_a_multiply_of_6250hz_">Frequency should be a multiply of 6250Hz!</string>
-    <!-- Used in file SurveyingSnGActivity.java:852 -->
+    <!-- Used in file SurveyingSnGActivity.java:832 -->
     <string name="string_all_epochs">All Epochs</string>
     <!-- Used in file activity_stakeout.xml:367 -->
     <string name="text_survey">Survey\n\n</string>
@@ -1245,21 +1293,21 @@
     <string name="string_wrong_cbst_rate_">Wrong CBST Rate!</string>
     <!-- Used in file CalibrationActivity.java:396 -->
     <string name="string_start_nside__d_ncalibration">Start\nSide %d\nCalibration</string>
-    <!-- Used in file StakeoutActivity.java:492 -->
+    <!-- Used in file StakeoutActivity.java:493 -->
     <string name="target_line">Line\nTarget</string>
     <!-- Used in file rtk_base_uhf.xml:198 -->
     <string name="get_receiver_setting">Get Receiver Settings</string>
-    <!-- Used in file RTKSetupActivity.java:316 -->
+    <!-- Used in file RTKSetupActivity.java:324 -->
     <string name="string_do_you_want_to_continue_anyway_">Do you want to continue anyway?</string>
-    <!-- Used in file settings_general.xml:81 -->
+    <!-- Used in file settings_general.xml:95 -->
     <string name="lift_and_tilt_any_epoch_collected">Any epoch is collected at Lift/Titl survey</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:518 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:540 -->
     <string name="wrong_antenna_vertical_offset">Wrong antenna vertical offset!</string>
     <!-- Used in file rtk_base.xml:151 -->
     <string name="stop_station">Stop Station</string>
-    <!-- Used in file SurveyModel.java:979 -->
+    <!-- Used in file SurveyModel.java:1159 -->
     <string name="string_1hour__02dmins">1hour %02dmins</string>
-    <!-- Used in file RTKSetupActivity.java:936 -->
+    <!-- Used in file RTKSetupActivity.java:946 -->
     <string name="string_tcp_cl_input_mode_setup_error">TCP/CL input mode setup error</string>
     <!-- Used in file RCVPreferenceFragment.java:250 -->
     <string name="string_wrong_ip_port_">Wrong IP Port!</string>
@@ -1267,7 +1315,7 @@
     <string name="correction_period">Correction Period</string>
     <!-- Used in file FileLoggingActivity.java:115 -->
     <string name="string_10hz">10Hz</string>
-    <!-- Used in file SurveyModel.java:426 -->
+    <!-- Used in file SurveyModel.java:597 -->
     <string name="string_cant_stop_receiver_file">Can not stop receiver file!</string>
     <!-- Used in file rtk_base_rcv_base.xml:109 -->
     <string name="nethub_address">NetHub Address</string>
@@ -1277,13 +1325,13 @@
     <string name="string_initial_conditions__position_and_velocity_vectors__from_the_ephemeris_data_set_may_be_wrong">Initial conditions (position and velocity vectors) from the ephemeris data set may be wrong</string>
     <!-- Used in file CorrectionSources.java:516 -->
     <string name="string_sim_card_">SIM Card:</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:577 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:599 -->
     <string name="cant_setup_gsps_mode">Cannot configure DGPS</string>
     <!-- Used in file RTKBaseSettingsFragment.java:861 -->
     <string name="string_3g_ip_address_">3G IP Address:</string>
     <!-- Used in file activity_wizard_05_corrections.xml:29 -->
     <string name="radio_uhf_radio">UHF Radio</string>
-    <!-- Used in file StakeoutActivity.java:428 -->
+    <!-- Used in file StakeoutActivity.java:429 -->
     <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d epoch collected (%3$d rejected)</string>
     <!-- Used in file RTKBaseSettingsActivity.java:111 -->
     <string name="string_use_existing_connection_with_base_station_">Use existing connection with base station?</string>
@@ -1295,15 +1343,17 @@
     <string name="receiver_free_file_memory">Free File Memory</string>
     <!-- Used in file rtk_base_rcv_base.xml:35 -->
     <string name="tcp_password">TCP Password</string>
-    <!-- Used in file survey_settings.xml:114 -->
+    <!-- Used in file survey_settings.xml:119 -->
     <string name="rtcm3_cs">RTCM3 CS</string>
+    <!-- Used in file CorrectionsActivity.java:334 -->
+    <string name="string_ntrip_error">Ntrip Error</string>
     <!-- Used in file PowerActivity.java:207 -->
     <string name="string_low_power_mode_has_disabled">Low Power Mode has disabled</string>
     <!-- Used in file rtk_rover_start.xml:9 -->
     <string name="survey_file_recording">FILE RECORDING</string>
     <!-- Used in file activity_calibrate.xml:24 -->
     <string name="magnetic_azimuth">Mag.Azimuth</string>
-    <!-- Used in file StakeoutActivity.java:550 -->
+    <!-- Used in file StakeoutActivity.java:551 -->
     <string name="string_target__s_selected">Target %s selected</string>
     <!-- Used in file StartSurveyActivity.java:687 -->
     <string name="string_file__s_already_exist__do_you_want_to_resume_it_or_use_different_filename_">File %s already exist. Do you want to Resume it or use different filename?</string>
@@ -1315,15 +1365,15 @@
     <string name="string_can_t_activate_wifi__n">Can\'t activate WiFi!\n</string>
     <!-- Used in file RCVBasePreferenceFragment.java:444 -->
     <string name="string_wrong_nethub_port_">Wrong NetHub Port!</string>
-    <!-- Used in file StakeoutActivity.java:156 -->
+    <!-- Used in file StakeoutActivity.java:157 -->
     <string name="string_stop_and_close">Stop and Close</string>
     <!-- Used in file SatelliteActivity.java:322 -->
     <string name="string_this_sv_has_elevation_lower_than_the_specified_mask_angle">This SV has elevation lower than the specified mask angle</string>
-    <!-- Used in file SurveyingSnGActivity.java:1499 -->
+    <!-- Used in file SurveyingSnGActivity.java:1446 -->
     <string name="string_event__s_is_written_ok">Event %s is written OK</string>
     <!-- Used in file RCVBasePreferenceFragment.java:617 -->
     <string name="wlan_on">Set WLAN</string>
-    <!-- Used in file settings_general.xml:46 -->
+    <!-- Used in file settings_general.xml:39 -->
     <string name="epoch_rejected">Epoch Rejected</string>
     <!-- Used in file rtk_base.xml:12 -->
     <string name="station_name">Station Name</string>
@@ -1335,8 +1385,10 @@
     <string name="start_levels_calibration_land">S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
     <!-- Used in file CorrectionSources.java:428 -->
     <string name="string_uhf_radio_on_">UHF radio on </string>
-    <!-- Used in file RTKSetupActivity.java:941 -->
+    <!-- Used in file RTKSetupActivity.java:951 -->
     <string name="string_setup_rtk_rate_error">Setup RTK rate error</string>
+    <!-- Used in file map_survey.xml:20 -->
+    <string name="action_map_import">Import</string>
     <!-- Used in file activity_start_survey.xml:240 -->
     <string name="button_stop_and_go">Stop and Go</string>
     <!-- Used in file RCVBasePreferenceFragment.java:616 -->
@@ -1363,9 +1415,9 @@
     <string name="network">Network</string>
     <!-- Used in file rtk_base_rcv_base.xml:120 -->
     <string name="nethub_password">NetHub Password</string>
-    <!-- Used in file JavadMapActivity.java:107 -->
+    <!-- Used in file JavadMapActivity.java:163 -->
     <string name="string_rtk_bases">RTK Bases</string>
-    <!-- Used in file StakeoutActivity.java:373 -->
+    <!-- Used in file StakeoutActivity.java:374 -->
     <string name="string_geodetic_az_">Geodetic Az.</string>
     <!-- Used in file survey_settings.xml:53 -->
     <string name="antenna_height_type_summary">Switch between antenna input</string>
@@ -1379,13 +1431,13 @@
     <string name="string_login_">Login:</string>
     <!-- Used in file source_table_row_header_dark.xml:99 -->
     <string name="generator">Generator</string>
-    <!-- Used in file SurveyModel.java:209 -->
+    <!-- Used in file SurveyModel.java:239 -->
     <string name="cant_create_file">Can\'t create receiver file!</string>
-    <!-- Used in file SurveyingSnGActivity.java:1318 -->
+    <!-- Used in file SurveyingSnGActivity.java:1265 -->
     <string name="string_off_line">Off Line</string>
-    <!-- Used in file CorrectionsActivity.java:282 -->
+    <!-- Used in file CorrectionsActivity.java:286 -->
     <string name="string_fh_radio">FH Radio</string>
-    <!-- Used in file CorrectionsActivity.java:210 -->
+    <!-- Used in file CorrectionsActivity.java:211 -->
     <string name="string_signal">Signal</string>
     <!-- Used in file activity_stakeout.xml:274 -->
     <string name="text_east">E\n</string>
@@ -1395,13 +1447,13 @@
     <string name="configuration_name">Configuration Name</string>
     <!-- Used in file job_info.xml:7 -->
     <string name="job_surveyorname">Surveyor Name</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:173 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:182 -->
     <string name="string_30sec">30sec</string>
     <!-- Used in file activity_stakeout.xml:38 -->
     <string name="button_antenna">JAV_TRIUMPH-1   NONE\n1.25m vert.</string>
     <!-- Used in file rtk_base_uhf.xml:182 -->
     <string name="correction_type">Correction Type</string>
-    <!-- Used in file survey_settings.xml:102 -->
+    <!-- Used in file survey_settings.xml:107 -->
     <string name="string_debug_survey">Debug Survey</string>
     <!-- Used in file rtk_base_rcv_base.xml:150 -->
     <string name="gprs_user_summary">User Name</string>
@@ -1413,7 +1465,7 @@
     <string name="string__with_fh_radio"> with FH radio</string>
     <!-- Used in file receiver_info.xml:21 -->
     <string name="receiver_gprs_ip">GPRS IP</string>
-    <!-- Used in file CorrectionsActivity.java:204 -->
+    <!-- Used in file CorrectionsActivity.java:205 -->
     <string name="string_ppp_status">PPP status</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1307 -->
     <string name="string_can_t_write_info_into_receiver_file">Can\'t write info into receiver file</string>
@@ -1431,15 +1483,19 @@
     <string name="text_dist_plane">Dist Horz\n</string>
     <!-- Used in file UHFPreferenceFragment.java:572 -->
     <string name="string_firmware_">Firmware:</string>
+    <!-- Used in file verify_settings.xml:17 -->
+    <string name="minimal_rtk_engines">Minimal RTK Engines to accept</string>
     <!-- Used in file RCVBasePreferenceFragment.java:672 -->
     <string name="lan_gateway">Gateway</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1909 -->
     <string name="string_starting_rtk_base_station___">Starting RTK base station;#8230;</string>
     <!-- Used in file job_info.xml:6 -->
     <string name="job_workingcs">Working CS</string>
+    <!-- Used in file map_survey.xml:15 -->
+    <string name="action_map_export">Export</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1143 -->
     <string name="string_fh_radio_error____s_">FH radio error! (%s)</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:162 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:171 -->
     <string name="string_0_5_sec__2hz_">0.5 sec (2Hz)</string>
     <!-- Used in file CorrectionSources.java:310 -->
     <string name="string__1_s__2_dbs_fec__3_s_comp__4_s_clkcrr__5_s">%1$s %2$dbs FEC:%3$s Comp:%4$s ClkCrr:%5$s</string>
@@ -1469,11 +1525,11 @@
     <string name="string_connected_to_wifi___">Connected to WiFi&#8230;</string>
     <!-- Used in file receiver_info.xml:6 -->
     <string name="receiver_id">Receiver ID</string>
-    <!-- Used in file DrawV6.java:281 -->
+    <!-- Used in file DrawV6.java:298 -->
     <string name="string_no_data">No Data</string>
     <!-- Used in file CorrectionSources.java:342 -->
     <string name="string_trimmark3_pars__">Trimmark3 pars.:</string>
-    <!-- Used in file SurveyingSnGActivity.java:1416 -->
+    <!-- Used in file SurveyingSnGActivity.java:1363 -->
     <string name="string_distance2_is_empty_">Distance2 is empty!</string>
     <!-- Used in file activity_wizard_05_corrections.xml:37 -->
     <string name="radio_fh_radio">FH Radio</string>
@@ -1483,9 +1539,9 @@
     <string name="string_receiver_is_turned_to_sleep_mode">Receiver is turned to sleep mode</string>
     <!-- Used in file status_bar.xml:93 -->
     <string name="solution_type">Std</string>
-    <!-- Used in file SurveyingSnGActivity.java:171 -->
+    <!-- Used in file SurveyingSnGActivity.java:183 -->
     <string name="string_static">Static</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:150 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:159 -->
     <string name="string_0_05_sec__20hz_">0.05 sec (20Hz)</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1233 -->
     <string name="string_can_t_start_gsm_radio_to_base_mode">Can\'t start GSM radio to base mode</string>
@@ -1495,11 +1551,11 @@
     <string name="string_wrong_frequency__nfrequency_should_be_from__1_f_to__2_f">Wrong frequency!\nFrequency should be from %1$f to %2$f</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1290 -->
     <string name="string_not_enough_memory_in_the_receiver_">Not enough memory in the receiver!</string>
-    <!-- Used in file SurveyingSnGActivity.java:848 -->
+    <!-- Used in file SurveyingSnGActivity.java:828 -->
     <string name="string_stay_for__dsec">Stay for %dsec</string>
     <!-- Used in file stakeout_settings.xml:11 -->
     <string name="text_azimuth">Azimuth Type</string>
-    <!-- Used in file SurveyModel.java:1056 -->
+    <!-- Used in file SurveyModel.java:1236 -->
     <string name="seconds">secs</string>
     <!-- Used in file RCVPreferenceFragment.java:188 -->
     <string name="string_setup_failed_">Setup failed!</string>
@@ -1509,32 +1565,32 @@
     <string name="text_job_name">Job Name</string>
     <!-- Used in file RTKBaseSettingsFragment.java:728 -->
     <string name="string__without_radio_setup"> without radio setup</string>
-    <!-- Used in file CorrectionSources.java:483 -->
-    <string name="string_tt450s_hw__pars_">TT450S(HW) pars.</string>
     <!-- Used in file MapStakeoutActivity.java:1066 -->
     <string name="string_what_to_do_with_point__1_s_">What to do with point %1$s?</string>
+    <!-- Used in file CorrectionSources.java:483 -->
+    <string name="string_tt450s_hw__pars_">TT450S(HW) pars.</string>
     <!-- Used in file ConfigureUHFActivity.java:229 -->
     <string name="string_____bootloader_">    Bootloader:</string>
-    <!-- Used in file activity_configure_uhf.xml:495 -->
-    <string name="trimmarkii_protocol_parameters">Trimmark II/IIe params.</string>
     <!-- Used in file CorrectionSources.java:619 -->
     <string name="string_new_fh_radio">new FH radio</string>
+    <!-- Used in file activity_configure_uhf.xml:495 -->
+    <string name="trimmarkii_protocol_parameters">Trimmark II/IIe params.</string>
     <!-- Used in file rtk_base_rcv.xml:35 -->
     <string name="login">Login</string>
     <!-- Used in file PowerActivity.java:230 -->
     <string name="string_external">External</string>
-    <!-- Used in file CorrectionsActivity.java:367 -->
+    <!-- Used in file CorrectionsActivity.java:373 -->
     <string name="string__id__d_">(id:%d)</string>
-    <!-- Used in file RTKSetupActivity.java:928 -->
-    <string name="string_can_t_apply_settings__n">Can\'t apply settings!\n</string>
     <!-- Used in file UHFPreferenceFragment.java:698 -->
     <string name="string_settings_ok">Settings OK</string>
+    <!-- Used in file RTKSetupActivity.java:938 -->
+    <string name="string_can_t_apply_settings__n">Can\'t apply settings!\n</string>
     <!-- Used in file RTKBaseSettingsFragment.java:720 -->
     <string name="string_restart_station">Restart station</string>
-    <!-- Used in file offsets2.xml:15 -->
-    <string name="string_menu_offset_fast_trajectory">Fast Trajectory</string>
     <!-- Used in file rtk_base.xml:104 -->
     <string name="record_rate">Record Rate</string>
+    <!-- Used in file offsets2.xml:15 -->
+    <string name="string_menu_offset_fast_trajectory">Fast Trajectory</string>
     <!-- Used in file StatusBarUpdater.java:347 -->
     <string name="std">Std</string>
     <!-- Used in file rtk_base_uhf.xml:106 -->
@@ -1549,7 +1605,7 @@
     <string name="string_can_t_start_compass_calibration__ndisabled_by_oaf_options_">Can\'t start compass calibration!\nDisabled by OAF options!</string>
     <!-- Used in file DrawCompass.java:91 -->
     <string name="rotate_receiver_string">Please rotate</string>
-    <!-- Used in file SurveyModel.java:901 -->
+    <!-- Used in file SurveyModel.java:1081 -->
     <string name="string_rtk_base__s_is_working___">RTK Base %s is working&#8230;</string>
     <!-- Used in file FHPreferenceFragment.java:512 -->
     <string name="string_wrong_frequecy_">Wrong frequecy!</string>
@@ -1573,7 +1629,7 @@
     <string name="string_tcpo_port_">TCPO Port:</string>
     <!-- Used in file CorrectionSources.java:567 -->
     <string name="string_nethub_">NetHub:</string>
-    <!-- Used in file SurveyingRTKActivity.java:1146 -->
+    <!-- Used in file SurveyingRTKActivity.java:1386 -->
     <string name="string_traj_min_length__s">Traj.min length %s</string>
     <!-- Used in file activity_file_logging.xml:124 -->
     <string name="check_event_format">Write additional antenna height info, including height type and offset</string>
@@ -1587,21 +1643,21 @@
     <string name="string_output">Output</string>
     <!-- Used in file RTKBaseSettingsFragment.java:856 -->
     <string name="string_wlan_ip_address_">WLAN IP Address:</string>
-    <!-- Used in file activity_antenna.xml:120 -->
+    <!-- Used in file activity_antenna.xml:140 -->
     <string name="units">Measure Units</string>
     <!-- Used in file CalibrationActivity.java:276 -->
     <string name="string_calibration_progress_is_">Calibration progress is </string>
-    <!-- Used in file RTKSetupActivity.java:686 -->
+    <!-- Used in file RTKSetupActivity.java:696 -->
     <string name="string_file__1_s_at__2__0fsec">File %1$s at %2$.0fsec</string>
-    <!-- Used in file CorrectionsActivity.java:119 -->
+    <!-- Used in file CorrectionsActivity.java:120 -->
     <string name="string_connected">connected</string>
-    <!-- Used in file SurveyingActivity.java:61 -->
+    <!-- Used in file SurveyingActivity.java:68 -->
     <string name="string_slat">slat</string>
     <!-- Used in file ConfigureUHFActivity.java:230 -->
     <string name="string____ic_">   IC:</string>
     <!-- Used in file PowerActivity.java:186 -->
     <string name="string_power_output_to_serial_ports_has_enabled">Power Output to serial ports has enabled</string>
-    <!-- Used in file RTKSetupActivity.java:933 -->
+    <!-- Used in file RTKSetupActivity.java:943 -->
     <string name="string_setup_ntrip_client_error">Setup Ntrip client error</string>
     <!-- Used in file receiver_info.xml:12 -->
     <string name="receiver_file_memory_size">File Memory Size</string>
@@ -1615,21 +1671,21 @@
     <string name="string_this_sv_does_not_belong_to_the_constellation_the_user_has_selected">This SV does not belong to the constellation the user has selected</string>
     <!-- Used in file UHFPreferenceFragment.java:797 -->
     <string name="string_wrong_frequency_">Wrong frequency!</string>
-    <!-- Used in file RTKSetupActivity.java:505 -->
+    <!-- Used in file RTKSetupActivity.java:515 -->
     <string name="string_radio_is_connected_to">Radio is connected to</string>
     <!-- Used in file CorrectionSources.java:623 -->
     <string name="string_new_rcv_base">new RCV Base</string>
-    <!-- Used in file RTKSetupActivity.java:315 -->
+    <!-- Used in file RTKSetupActivity.java:323 -->
     <string name="string_warning">Warning</string>
-    <!-- Used in file MapProviderChooserDialog.java:97 -->
+    <!-- Used in file MapProviderChooserDialog.java:103 -->
     <string name="string_background_file">Background File</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1292 -->
     <string name="string_can_t_start_logging_to_receiver_file_">Can\'t start logging to receiver file!</string>
     <!-- Used in file source_table_row_header_dark.xml:106 -->
     <string name="compression">Compression</string>
-    <!-- Used in file CorrectionsActivity.java:225 -->
+    <!-- Used in file CorrectionsActivity.java:226 -->
     <string name="string_all_bad">All/Bad</string>
-    <!-- Used in file SurveyModel.java:1106 -->
+    <!-- Used in file SurveyModel.java:1286 -->
     <string name="string_surveying_is_over">Surveying is over</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1254 -->
     <string name="string_can_t_setup_nethub_rcv_mode_">Can\'t setup NetHub rcv mode!</string>
@@ -1645,29 +1701,31 @@
     <string name="string_login">Login</string>
     <!-- Used in file rtk_rover_start.xml:3 -->
     <string name="survey_job_name">JOB NAME</string>
-    <!-- Used in file JavadMapActivity.java:107 -->
+    <!-- Used in file JavadMapActivity.java:163 -->
     <string name="string_ts_points">TS Points</string>
-    <!-- Used in file JavadMapActivity.java:107 -->
+    <!-- Used in file JavadMapActivity.java:163 -->
     <string name="string_survey_points">Survey Points</string>
-    <!-- Used in file CorrectionsActivity.java:214 -->
+    <!-- Used in file CorrectionsActivity.java:215 -->
     <string name="string_rcv_status">RCV status</string>
-    <!-- Used in file RTKSetupActivity.java:940 -->
+    <!-- Used in file SurveyModel.java:2039 -->
+    <string name="epochs_reject"> rejec.</string>
+    <!-- Used in file RTKSetupActivity.java:950 -->
     <string name="string_radio_setup_error">Radio setup error</string>
     <!-- Used in file rtk_base.xml:64 -->
     <string name="position">Position</string>
-    <!-- Used in file SurveyModel.java:345 -->
+    <!-- Used in file SurveyModel.java:514 -->
     <string name="cant_start_surveying">Can\'t start surveying!</string>
     <!-- Used in file satellite_row_header_dark.xml:21 -->
     <string name="satsys">SatSys</string>
     <!-- Used in file rtk_base.xml:65 -->
     <string name="x_y_z">X:\nY:\nZ:</string>
-    <!-- Used in file SurveyingSnGActivity.java:850 -->
+    <!-- Used in file SurveyingSnGActivity.java:830 -->
     <string name="string_stay_till_stop">Stay till Stop</string>
     <!-- Used in file activity_stakeout.xml:48 -->
     <string name="text_next">Next</string>
     <!-- Used in file rtk_base.xml:117 -->
     <string name="corrections_up">CORRECTIONS</string>
-    <!-- Used in file survey_settings.xml:6 -->
+    <!-- Used in file verify_settings.xml:11 -->
     <string name="use_epochs">Position accuracy</string>
     <!-- Used in file CorrectionSources.java:439 -->
     <string name="string_call_sign_">Call Sign:</string>
@@ -1685,19 +1743,19 @@
     <string name="string_changing_mode_set_failed_">Changing mode set failed!</string>
     <!-- Used in file SatelliteActivity.java:326 -->
     <string name="string_wrong_measurements_have_been_detected_by_raim">Wrong measurements have been detected by RAIM</string>
-    <!-- Used in file SurveyingSnGActivity.java:852 -->
+    <!-- Used in file SurveyingSnGActivity.java:832 -->
     <string name="string_fix__float_or_dgps">Fix, Float or DGPS</string>
     <!-- Used in file SatelliteActivity.java:339 -->
     <string name="string_p_l1___p_l2_measurements_are_used_in_rtk_processing">P L1 &amp; P L2 measurements are used in RTK processing</string>
-    <!-- Used in file RTKSetupActivity.java:1355 -->
+    <!-- Used in file RTKSetupActivity.java:1365 -->
     <string name="string_starting_radio___">Starting radio&#8230;</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1341 -->
     <string name="string_uhf_didn_t_start_correction_">UHF didn\'t start correction!</string>
-    <!-- Used in file SurveyingSnGActivity.java:857 -->
+    <!-- Used in file SurveyingSnGActivity.java:837 -->
     <string name="string_ant_">Ant.</string>
-    <!-- Used in file CorrectionsActivity.java:327 -->
+    <!-- Used in file CorrectionsActivity.java:331 -->
     <string name="string_ntrip_server">Ntrip Server</string>
-    <!-- Used in file SurveyingRTKActivity.java:1142 -->
+    <!-- Used in file SurveyingRTKActivity.java:1388 -->
     <string name="string__5hz"> 5Hz</string>
     <!-- Used in file activity_surveying_settings.xml:36 -->
     <string name="button_apply">Apply</string>
@@ -1743,23 +1801,23 @@
     <string name="string_coarse_code_outlier_has_been_detected">Coarse code outlier has been detected</string>
     <!-- Used in file survey_settings.xml:96 -->
     <string name="string_enable_dgps">Enable DGPS if no fixed/float</string>
-    <!-- Used in file SurveyingSnGActivity.java:691 -->
+    <!-- Used in file SurveyingSnGActivity.java:670 -->
     <string name="string_event">Event</string>
     <!-- Used in file survey_settings.xml:81 -->
     <string name="logging_rate">Logging Rate</string>
-    <!-- Used in file SurveyModel.java:1735 -->
+    <!-- Used in file SurveyModel.java:2163 -->
     <string name="epochs_collected2">epochs collected</string>
     <!-- Used in file activity_stakeout.xml:148 -->
     <string name="text_ctt">CTT</string>
     <!-- Used in file offset_survey.xml:68 -->
     <string name="string_distance1">Distance1</string>
-    <!-- Used in file offset_survey.xml:84 -->
+    <!-- Used in file offset_survey.xml:83 -->
     <string name="string_distance2">Distance2</string>
     <!-- Used in file offsets2.xml:35 -->
     <string name="string_menu_offset_traverse">Traverse</string>
     <!-- Used in file survey_settings.xml:30 -->
     <string name="verify_mode">Verify</string>
-    <!-- Used in file RTKSetupActivity.java:1241 -->
+    <!-- Used in file RTKSetupActivity.java:1251 -->
     <string name="string_can_t_activate_3g_gprs__n_n">Can\'t activate 3G/GPRS!\n\n</string>
     <!-- Used in file rtk_base_rcv_base.xml:97 -->
     <string name="correction_type_tcpo_e">TCPO E</string>
@@ -1769,7 +1827,7 @@
     <string name="string_power_output_to_serial_ports_failed_">Power Output to serial ports failed!</string>
     <!-- Used in file rtk_base_rcv_base.xml:87 -->
     <string name="correction_type_tcpo_c">TCPO C</string>
-    <!-- Used in file RTKSetupActivity.java:999 -->
+    <!-- Used in file RTKSetupActivity.java:1009 -->
     <string name="string_rtk_started_ok">RTK Started OK</string>
     <!-- Used in file rtk_base_rcv_base.xml:92 -->
     <string name="correction_type_tcpo_d">TCPO D</string>
@@ -1777,7 +1835,7 @@
     <string name="correction_type_tcpo_a">TCPO A</string>
     <!-- Used in file rtk_base_rcv_base.xml:82 -->
     <string name="correction_type_tcpo_b">TCPO B</string>
-    <!-- Used in file SurveyingSnGActivity.java:1416 -->
+    <!-- Used in file SurveyingSnGActivity.java:1363 -->
     <string name="string_angle_is_empty_">Angle is empty!</string>
     <!-- Used in file PowerActivity.java:233 -->
     <string name="string_battery_b">Battery B</string>
@@ -1793,15 +1851,17 @@
     <string name="azimuth">Azimuth</string>
     <!-- Used in file activity_configure_rcv.xml:205 -->
     <string name="string_aux_port">AIM aux Port</string>
-    <!-- Used in file StakeoutActivity.java:490 -->
+    <!-- Used in file JavadMapActivity.java:197 -->
+    <string name="string_ascii_file___txt">ASCII file *.txt</string>
+    <!-- Used in file StakeoutActivity.java:491 -->
     <string name="target_point_small">Pnt.Target</string>
     <!-- Used in file RTKBaseSettingsFragment.java:732 -->
     <string name="string__with_uhf_radio"> with UHF radio</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1220 -->
     <string name="string_gsm_radio_error____s_">GSM radio error! (%s)</string>
-    <!-- Used in file CorrectionsActivity.java:229 -->
+    <!-- Used in file CorrectionsActivity.java:230 -->
     <string name="string_base_distance">Base distance</string>
-    <!-- Used in file SurveyModel.java:1053 -->
+    <!-- Used in file SurveyModel.java:1233 -->
     <string name="minute">1 minute</string>
     <!-- Used in file CorrectionSources.java:230 -->
     <string name="string_mount_point">Mount Point</string>
@@ -1811,7 +1871,7 @@
     <string name="string_use_different_name">Use different name</string>
     <!-- Used in file rtk_rover_start.xml:3 -->
     <string name="survey_receiver_setup">RECEIVER SETUP</string>
-    <!-- Used in file SurveyModel.java:319 -->
+    <!-- Used in file SurveyModel.java:488 -->
     <string name="cant_read_receivertime_to_program">Can\'t obtain current receiver time!</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1184 -->
     <string name="string_uhf_radio_error____s_">UHF radio error! (%s)</string>
@@ -1821,13 +1881,13 @@
     <string name="text_comma">:</string>
     <!-- Used in file activity_stakeout.xml:333 -->
     <string name="text_zoom_target">Target</string>
-    <!-- Used in file SurveyingSnGActivity.java:1408 -->
+    <!-- Used in file SurveyingSnGActivity.java:1355 -->
     <string name="string_distance1_is_empty_">Distance1 is empty!</string>
     <!-- Used in file settings_general.xml:11 -->
     <string name="bluetooth_quality">Low Bluetooth/WiFi connection</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1042 -->
     <string name="string_cancelled_by_user">Cancelled by user</string>
-    <!-- Used in file SurveyingSnGActivity.java:1473 -->
+    <!-- Used in file SurveyingSnGActivity.java:1420 -->
     <string name="string_can_t_store_position">Can\'t store position</string>
     <!-- Used in file activity_stakeout_cutfill.xml:28 -->
     <string name="text_point_name">Point\n</string>
@@ -1837,7 +1897,7 @@
     <string name="string_ephemeris_is_not_available">Ephemeris is not available</string>
     <!-- Used in file StakeoutActivity.java:1025 -->
     <string name="text_left">Left</string>
-    <!-- Used in file survey_settings.xml:124 -->
+    <!-- Used in file survey_settings.xml:129 -->
     <string name="use_compass_and_levels">Use Compass/Levels</string>
     <!-- Used in file MapProviderChooserDialog.java:43 -->
     <string name="string_open_street_map">Open Street Map</string>
@@ -1851,6 +1911,8 @@
     <string name="button_get_from_point">Get from Point</string>
     <!-- UNUSED STRING -->
     <string name="height">Height</string>
+    <!-- UNUSED STRING -->
+    <string name="string_no_epoch_collected_">No epoch collected!</string>
     <!-- UNUSED STRING -->
     <string name="text_left_map">Left</string>
     <!-- UNUSED STRING -->
