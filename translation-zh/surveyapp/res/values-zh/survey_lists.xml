@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<string-array name="天線_ids_排列">
+<string-array name="antenna_ids_array">
         <item>Triumph-2 內建</item>
         <item>Triumph-1 內建</item>
         <item>GISMore 內建</item>
     </string-array>
     
-<string-array name="紀錄_時間_排列">
+<string-array name="occupation_time_array">
         <item>1 分鐘</item>
         <item>2 分鐘</item>
         <item>3 分鐘</item>
@@ -26,7 +25,7 @@
         <item>10 小時</item>
         </string-array>
 
-<string-array name="紀錄_間隔_排列">
+<string-array name="logging_rate_array">
         <item>1 秒</item>
         <item>5 秒</item>
         <item>10 秒</item>
@@ -35,18 +34,18 @@
         <item>60 秒</item>
         </string-array>
 
-<string-array name="高度_形式_排列">
+<string-array name="height_type_array">
         <item>垂高</item>
         <item>斜高</item>
         </string-array>
 
-<string-array name="單位_排列">
+<string-array name="units_array">
         <item>公尺</item>
         <item>US 英尺</item>
         <item>Int.英尺</item>
         </string-array>
 
-<string-array name="移動站_模式_排列">
+<string-array name="rover_mode_array">
         <item>pd</item>
         <item>pf</item>
         <item>cd</item>
@@ -54,13 +53,13 @@
         <item>sp</item>
         </string-array>
 
-<string-array name="差分_來源_排列">
-        <item>關閉</item>
+<string-array name="correction_source_array">
+        <item>關閉 </item>
     	<item>ntrip</item>
     	<item>rcv</item>
         </string-array>
 
-<string-array name="差分_形式_排列">
+<string-array name="correction_type_array">
         <item>cmd</item>
     	<item>rtcm3</item>
     	<item>rtcm</item>

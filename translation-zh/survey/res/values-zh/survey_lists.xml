@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 <string-array name="antenna_ids_array">
@@ -74,6 +73,17 @@
         <item>60 秒</item>
         </string-array>
 
+<string-array name="logging_rate_rtk_array">
+        <item>0.2 秒 (5Hz)</item>
+        <item>0.5 秒 (2Hz)</item>
+        <item>1 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>60 秒</item>
+        </string-array>
+
 <string-array name="height_type_array">
         <item>垂高</item>
         <item>斜高</item>
@@ -94,7 +104,7 @@
         </string-array>
 
 <string-array name="correction_source_array">
-        <item>關閉 (沒有差分資料)</item>
+        <item>關閉 (沒有差分資料))</item>
     	<item>Ntrip 伺服器</item>
     	<item>RCV 伺服器</item>
     		</string-array>
@@ -112,15 +122,15 @@
     	<item>Ntrip 伺服器</item>
     	<item>RCV 伺服器</item>
     	<item>FH 由藍芽埠 B</item>
-    	<item>UHF 由藍芽埠B</item>
+    	<item>UHF 由藍芽埠 B</item>
     	<item>內建 FH</item>
     	<item>內建 UHF</item>
     			</string-array>
     			
 <string-array name="correction_source_for_gismore_array">
         <item>關閉 (沒有差分資料)</item>
-    	<item>Ntrip  伺服器</item>
-    	<item>RCV  伺服器</item>
+    	<item>Ntrip 伺服器</item>
+    	<item>RCV 伺服器</item>
     	<item>FH 由藍芽埠 B</item>
     	<item>UHF 由藍芽埠 B</item>
     			</string-array>
@@ -128,8 +138,8 @@
 <string-array name="base_correction_destination_array">
     	<item>FH 由藍芽埠 B</item>
     	<item>UHF 由藍芽埠 B</item>
-    	<item>FH 由序列埠 B</item>
-    	<item>UHF 由序列埠 B</item>
+    	<item>FH 由藍芽埠 B</item>
+    	<item>UHF 由藍芽埠 B</item>
     	<item>內建 FH</item>
     	<item>內建 UHF</item>
  				</string-array>
@@ -144,7 +154,7 @@
         </string-array>
 
 <string-array name="use_epoch_array">
-        <item>RTK 唯一Fixed </item>
+        <item>RTK Fixed 唯一</item>
     	<item>Fixed, Float 或 DGPS</item>
     	<item>全部</item>
         </string-array>
@@ -153,16 +163,16 @@
         <item>未知(關閉)</item>
         <item>FH 數據機由藍芽埠 B</item>
         <item>UHF 數據機由藍芽埠 B</item>
-        <item>FH 數據機 由序列埠 B</item>
-        <item>UHF 數據機 由序列埠 B</item>
+        <item>FH 數據機由藍芽埠 B</item>
+        <item>UHF 數據機由藍芽埠 B</item>
         </string-array>
 
 <string-array name="base_correction_source_for_triumph_1_array">
         <item>未知(關閉)</item>
         <item>FH 數據機由藍芽埠 B</item>
         <item>UHF 數據機由藍芽埠 B</item>
-        <item>FH 數據機 由序列埠 B</item>
-        <item>UHF 數據機 由序列埠 B</item>
+        <item>FH 數據機由藍芽埠 B</item>
+        <item>UHF 數據機由藍芽埠 B</item>
         <item>內建 FH</item>
         <item>內建 UHF</item>
         </string-array>
@@ -194,7 +204,7 @@
     	</string-array>
     	
 <string-array name="base_correction_type_array_rcv">
-        <item>無差分資料</item>
+        <item>無差分改正</item>
     	<item>RTCM 3.x full</item>
     	<item>RTCM 3.x min</item>
     	<item>RTCM 3.x MSM</item>
@@ -221,6 +231,15 @@
         <item>d16qam</item>
         </string-array>
 
+<string-array name="transparent_modulations">
+        <item>gmsk</item>
+        <item>4fsk</item>
+        </string-array>
+
+<string-array name="satel_modulations">
+        <item>4fsk</item>
+        </string-array>
+
 <string-array name="simplex_spacings">
         <item>6250</item>
         <item>12500</item>
@@ -228,11 +247,25 @@
         <item>25000</item>
         </string-array>
 
+<string-array name="transparent_spacings">
+        <item>25000</item>
+        </string-array>
+
+<string-array name="satel_spacings">
+        <item>12500</item>
+        <item>25000</item>
+        </string-array>
+        
+<string-array name="satel_compatibility">
+        <item>3as</item>
+        <item>easy</item>
+        </string-array>
+
 
 <string-array name="fh_zones">
-        <item>美國</item>
+        <item>usa</item>
         <item>aus</item>
-        <item>歐洲</item>
+        <item>eu</item>
         </string-array>
 
 <string-array name="fh_protocols">
@@ -305,7 +338,7 @@
  		</string-array>
  
  
- <string-array name="fh_輸出_功率">
+ <string-array name="fh_output_power">
         <item>0.020W / 13dBm</item>
         <item>0.025W / 14dBm</item>
         <item>0.030W / 15dBm</item>
@@ -341,7 +374,7 @@
         <item>35.00W / 45dBm</item>
         </string-array>
 
- <string-array name="uhf_輸出_功率">
+ <string-array name="uhf_output_power">
         <item>0.020W / 13dBm</item>
         <item>0.025W / 14dBm</item>
         <item>0.030W / 15dBm</item>
@@ -408,7 +441,7 @@
 
 
     <string-array name="radioArray">
-        <item>不要設定</item>
+        <item>不設置</item>
         <item>FH 數據機</item>
         <item>UHF 數據機</item>
     </string-array>
@@ -466,15 +499,15 @@
     </string-array>
 
 	<string-array name="stakeout_line_mode_array">
-        <item>2 點位</item>
-        <item>1 點位及方位</item>
+        <item>2 點</item>
+        <item>1 點及方位</item>
     </string-array>
 
 	<string-array name="offset_types_array">
-		<item>關閉線</item>
+		<item>關閉縣</item>
 		<item>沿著線</item>
+		<item>交點</item>
 		<item>交會</item>
-		<item>導線</item>
 		<item>垂直</item>
 	</string-array>
  
@@ -491,7 +524,12 @@
 		<item>右邊</item>
 	</string-array>
 
-	<string-array name="dhcp_array">
+	<string-array name="p1_p2_array">
+		<item>由 P2</item>
+		<item>由 P1</item>
+	</string-array>
+	
+		<string-array name="dhcp_array">
 		<item>關閉</item>
 		<item>客戶端</item>
 		<item>伺服器</item>
@@ -505,8 +543,44 @@
         </string-array>
         
 	<string-array name="stakeout_line_offset_rl">
-        <item>右邊</item>
-        <item>左邊</item>
+        <item>右</item>
+        <item>左</item>
+    </string-array>
+
+	<string-array name="reference_frame_array">
+        <item>WGS84(ITRF2008)</item>
+        <item>NAD83(2011)</item>
+        <item>NAD83(PA11)</item>
+        <item>NAD83(CSRS)</item>
+        <item>NAD83(MA11)</item>
+        <item>ETRS89</item>
+        <item>RTCM3</item>
+        </string-array>
+
+	<string-array name="reference_frame_values_array">
+        <item>CSG_WGS_84</item>
+        <item>CSG_NAD83_2011</item>
+        <item>CSG_NAD83_PA11</item>
+        <item>CSG_NAD83_CSRS</item>
+        <item>CSG_NAD83_MA11</item>
+        <item>CSG_ETRS89</item>
+        <item>RTCM3</item>
+        </string-array>
+
+	<string-array name="sim_card_to_array">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        </string-array>
+
+<string-array name="description_sort_array">
+        <item>按字母排序</item>
+        <item>按日期排序</item>
+        <item>按用法排序</item>
+    </string-array>
+	
+<string-array name="charging_mode_array">
+        <item>自動</item>
+        <item>關閉</item>
     </string-array>
 
 </resources>
