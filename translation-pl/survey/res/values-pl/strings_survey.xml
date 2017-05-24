@@ -34,6 +34,8 @@
 </string>
   <!--Original value: Levels-->
   <string name="levels">Libella</string>
+  <!--Original value: Google Maps-->
+  <string name="string_google_maps">Google Maps</string>
   <!--Original value: Transparent pars.:-->
   <string name="string_transparent_pars__">Transparent pars.:</string>
   <!--Original value: Setup Rcv client error-->
@@ -44,38 +46,44 @@
   <string name="string_can_t_setup_rcv_">Nie można ustawić RCV!</string>
   <!--Original value: Zone:-->
   <string name="string_zone_">Strefa:</string>
-  <!--Original value: dE\n-->
-  <string name="text_de">dE\n</string>
   <!--Original value: satellites-->
   <string name="satellites">satelity</string>
+  <!--Original value: dE\n-->
+  <string name="text_de">dE\n</string>
   <!--Original value: Can\'t setup UHF radio! (Error=#%s)-->
   <string name="string_can_t_setup_uhf_radio___error___s_">Nie można skonfigurować radia! (Error=#%s)</string>
-  <!--Original value: Lift&Tilt Started-->
-  <string name="lift_and_tilt_started">Włączono Lift&amp;Tilt</string>
-  <!--Original value: Base Station: No connection-->
-  <string name="string_base_station__no_connection">Stacja bazowa: Brak połączenia</string>
   <!--Original value: Processor Frequency, MHz-->
   <string name="receiver_processor_freq">Częstotl.Procesora, MHz</string>
+  <!--Original value: Base Station: No connection-->
+  <string name="string_base_station__no_connection">Stacja bazowa: Brak połączenia</string>
+  <!--Original value: Lift&Tilt Started-->
+  <string name="lift_and_tilt_started">Włączono Lift&amp;Tilt</string>
   <!--Original value: BLH-->
-  <string name="lat_lon_hgt" />
+  <string name="lat_lon_hgt">BLH</string>
   <!--Original value: Skyplot-->
   <string name="action_skyplot">Widok nieba</string>
-  <!--Original value: SIM Card-->
-  <string name="sim_card">Karta SIM</string>
+  <!--Original value: Trimmark II/IIe pars.-->
+  <string name="string_trimmark_ii_iie_pars_">Trimmark II/II par.</string>
   <!--Original value: Stop and Go-->
   <string name="stop_and_go">Stop and Go</string>
+  <!--Original value: SIM Card-->
+  <string name="sim_card">Karta SIM</string>
   <!--Original value: new Ntrip Server-->
   <string name="string_new_ntrip_server">Nowy serwer NTRIP</string>
   <!--Original value: Direct Call (CSD)-->
   <string name="csd_phone_number">Direct Call (CSD)</string>
   <!--Original value: Fee-->
   <string name="fee">Opłata</string>
+  <!--Original value: Points-->
+  <string name="action_map_layers">Punkty</string>
   <!--Original value: Error Correction (FEC)-->
   <string name="fec">Error Correction (FEC)</string>
   <!--Original value:   HW:-->
   <string name="string___hw_">  HW:</string>
   <!--Original value: Survey is stopping…-->
   <string name="string_survey_is_stopping___">Zatrzymywanie pomiaru…</string>
+  <!--Original value: Trimmark3-->
+  <string name="trimmark3">Trimmmark3</string>
   <!--Original value: Eye-->
   <string name="string_eye">Oko</string>
   <!--Original value: Applying setting…-->
@@ -85,9 +93,11 @@
   <!--Original value: Internal FH radio-->
   <string name="string_internal_fh_radio">Wewnętrzny modem FH</string>
   <!--Original value: Hardware Version-->
-  <string name="receiver_hardware_version">Wersja sprzętu</string>
+  <string name="receiver_hardware_version">Wersja urządzenia</string>
   <!--Original value: Stay for %1$d groups of %2$d-->
-  <string name="string_stay_for__1_d_groups_of__2_d">Stay for %1$d groups of %2$d</string>
+  <string name="string_stay_for__1_d_groups_of__2_d">Ilość serii: %1$d/seria co %2$d</string>
+  <!--Original value: Catalog Points-->
+  <string name="string_catalog_points">Punkty katalogowe</string>
   <!--Original value: Starting radio (%s)…-->
   <string name="string_starting_radio___s____">Uruchamianie radia (%s)…</string>
   <!--Original value: Until Stopped Manually-->
@@ -104,10 +114,12 @@
   <string name="string_fh_radio_on_">wł. radio FH </string>
   <!--Original value: ETT-->
   <string name="text_ett">WSCH</string>
-  <!--Original value: Event-->
-  <string name="button_event">Zdarzenie</string>
+  <!--Original value: Tolerance between groups-->
+  <string name="verify_tolerance_between_groups_summary">Toleracja między seriami</string>
   <!--Original value:  with Direct Call (CSD)-->
   <string name="string__with_direct_call__csd_"> z Direct Call (CSD)</string>
+  <!--Original value: Event-->
+  <string name="button_event">Zdarzenie</string>
   <!--Original value: Connecting to NetHub…-->
   <string name="string_connecting_to_nethub___">Łączenie z NetHub…</string>
   <!--Original value: Set Coordinates To Receiver Without Radio Setup-->
@@ -116,14 +128,18 @@
   <string name="rcv_base">Baza RCV</string>
   <!--Original value: Ant.Height-->
   <string name="survey_antenna_height">Wys.Anteny</string>
+  <!--Original value: Number of Groups-->
+  <string name="verify_number_of_groups">Ilość serii</string>
   <!--Original value: Setup failed! (Error=-->
   <string name="string_setup_failed___error_">Nie można ustawić! (Error=</string>
   <!--Original value: 1 hour-->
   <string name="hour">1 h</string>
-  <!--Original value: Satellite navigation status is undefined-->
-  <string name="string_satellite_navigation_status_is_undefined">Niezdefiniowany status naw. satelitarnej</string>
+  <!--Original value: Show vertical offsets-->
+  <string name="antenna_show_vertical_offset">Pokaż offset pionowy</string>
   <!--Original value: Show Vertical Offsets-->
   <string name="show_vertical_offsets">Pokaż offset pionowy</string>
+  <!--Original value: Satellite navigation status is undefined-->
+  <string name="string_satellite_navigation_status_is_undefined">Niezdefiniowany status naw. satelitarnej</string>
   <!--Original value: days-->
   <string name="days">dni</string>
   <!--Original value: Activating 3G/GPRS…-->
@@ -142,38 +158,40 @@
   <string name="sounds_up">DŹWIĘKI</string>
   <!--Original value: Wrong longitude!-->
   <string name="string_wrong_longitude_">Błędna długość!</string>
-  <!--Original value: No epoch collected!-->
-  <string name="string_no_epoch_collected_">Nie zapisano ani jednej epoki!</string>
   <!--Original value: Description-->
   <string name="description">Opis</string>
-  <!--Original value: Bluetooth B-->
-  <string name="string_bluetooth_b">Bluetooth B</string>
   <!--Original value: Receiver File Logging-->
   <string name="check_logging">Zapis w pamięci odbiornika</string>
+  <!--Original value: Bluetooth B-->
+  <string name="string_bluetooth_b">Bluetooth B</string>
   <!--Original value: Can\'t start levels calibration!-->
   <string name="string_can_t_start_levels_calibration_">Nie można uruchomić klaibracji libelli!</string>
-  <!--Original value: Last Point Names-->
-  <string name="last_point_names">Nazwa ostatniego punktu</string>
   <!--Original value: Show invisible-->
   <string name="check_invisible">Pokaż niewidoczne</string>
+  <!--Original value: Last Point Names-->
+  <string name="last_point_names">Nazwa ostatniego punktu</string>
+  <!--Original value: Points-->
+  <string name="action_points">Punkty</string>
   <!--Original value: TCP/CL mode setup error-->
   <string name="string_tcp_cl_mode_setup_error">Błąd ustawienia trybu TCP/CL</string>
-  <!--Original value: Left/Right-->
-  <string name="string_left_right">Lewo/Prawo</string>
+  <!--Original value: Trimtalk pars.:-->
+  <string name="string_trimtalk_pars__">Param. Trimmtalk:</string>
   <!--Original value: vert.-->
   <string name="string_vert_">pion.</string>
-  <!--Original value: External Power, V-->
-  <string name="receiver_external_power">Zasilanie zewn., V</string>
-  <!--Original value: Country-->
-  <string name="country">Państwo</string>
+  <!--Original value: Left/Right-->
+  <string name="string_left_right">Lewo/Prawo</string>
   <!--Original value: Error Correction(FEC)-->
   <string name="error_correction">Error Correction(FEC)</string>
+  <!--Original value: Country-->
+  <string name="country">Państwo</string>
+  <!--Original value: External Power, V-->
+  <string name="receiver_external_power">Zasilanie zewn., V</string>
   <!--Original value: On/Off Sounds-->
   <string name="on_off_sounds">Dźwięki wł/wył</string>
-  <!--Original value: 2Hz-->
-  <string name="string_2hz">2Hz</string>
   <!--Original value: WiFi SSID-->
   <string name="wlan_ssid_summary">WiFi SSID</string>
+  <!--Original value: 2Hz-->
+  <string name="string_2hz">2Hz</string>
   <!--Original value:  connected to Bluetooth B-->
   <string name="string__connected_to_bluetooth_b"> połączono z Bluetooth B</string>
   <!--Original value: U -->
@@ -186,38 +204,42 @@
   <string name="string_file__1_s_at__2__0fhz">Plik %1$s - %2$.0fHz</string>
   <!--Original value: Set Coordinates-->
   <string name="set_coordinate">Ustaw współrz.</string>
-  <!--Original value: Stop RTK-->
-  <string name="button_stop">Stop RTK</string>
   <!--Original value: C/A & P L2 measurements are used in RTK processing-->
   <string name="string_c_a___p_l2_measurements_are_used_in_rtk_processing">C/A &amp; P L2 są używane przy RTK</string>
-  <!--Original value: Mount Point-->
-  <string name="name">Mount Point</string>
+  <!--Original value: Stop RTK-->
+  <string name="button_stop">Stop RTK</string>
   <!--Original value: EU zone parameters-->
   <string name="eu_zone_parameters">Parametry stref EU</string>
+  <!--Original value: Mount Point-->
+  <string name="name">Mount Point</string>
   <!--Original value: IP:Port:-->
   <string name="string_ip_port_">IP/Port:</string>
+  <!--Original value: Tolerance between groups-->
+  <string name="verify_tolerance_between_groups">Tolerancja między seriami</string>
   <!--Original value: This SV is excluded from position computation by the user-->
   <string name="string_this_sv_is_excluded_from_position_computation_by_the_user">SV jest wykluczony z pozycjonowania przez użytkownika</string>
   <!--Original value: Logging to file %s is in progress!-->
   <string name="string_logging_to_file__s_is_in_progress_">Zapis do pliku %s w toku!</string>
   <!--Original value: Surveying is on-->
   <string name="string_surveying_is_on">Pomiar włączony</string>
-  <!--Original value: Port setup error-->
-  <string name="string_port_setup_error">Błąd ustawienia portu</string>
   <!--Original value: Side %d is calibrated OK-->
   <string name="string_side__d_is_calibrated_ok">Strona %d jest skalibrowana</string>
-  <!--Original value: Connecting to server…-->
-  <string name="string_connecting_to_server___">Łączenie z serwerem…</string>
+  <!--Original value: Port setup error-->
+  <string name="string_port_setup_error">Błąd ustawienia portu</string>
   <!--Original value: 0.02 sec (50Hz)-->
   <string name="string_0_02_sec__50hz_">0.02 sek (50Hz)</string>
+  <!--Original value: Connecting to server…-->
+  <string name="string_connecting_to_server___">Łączenie z serwerem…</string>
   <!--Original value: Source-->
   <string name="source">Źródło</string>
   <!--Original value: Stop-->
-  <string name="string_stop" />
+  <string name="string_stop">Stop</string>
   <!--Original value: Server error!-->
   <string name="string_server_error_">Błąd serwera!</string>
   <!--Original value: Base Station Stopped-->
   <string name="string_base_station_stopped">Baza zatrzymana</string>
+  <!--Original value: Survey-->
+  <string name="string_survey_action">Pomiar</string>
   <!--Original value: Fixed Only-->
   <string name="string_fixed_only">Tylko Fixed</string>
   <!--Original value: Lift&Tilt Survey-->
@@ -264,6 +286,8 @@
   <string name="string_p2">P2</string>
   <!--Original value:  with RCV (TCP)-->
   <string name="string__with_rcv__tcp_"> z RCV (TCP)</string>
+  <!--Original value: Trimtalk450SHW pars.:-->
+  <string name="string_trimtalk450shw_pars__">Param. Trimmtalk450SHW:</string>
   <!--Original value: N:%1$.3f_E:%2$.3f-->
   <string name="string_n__1__3f_e__2__3f">N:%1$.3f_E:%2$.3f</string>
   <!--Original value: Serial B-->
@@ -274,6 +298,8 @@
   <string name="string_course_up">Względem kursu</string>
   <!--Original value: Can\'t start UHF radio-->
   <string name="string_can_t_start_uhf_radio">Nie można uruchomić radia UHF</string>
+  <!--Original value: CAD Drawing-->
+  <string name="string_cad_drawing">Rysunek CAD</string>
   <!--Original value: Trajectories-->
   <string name="string_menu_offset_trajectory">Krzywe</string>
   <!--Original value: Antenna-->
@@ -288,6 +314,8 @@
   <string name="button_read_from_receiver">Z odbiornika</string>
   <!--Original value: Stop-Go logging to file %1$s is in progress!-->
   <string name="string_stop_go_logging_to_file__1_s_is_in_progress_">Logowanie Stop-Go do pliku %1$s w toku!</string>
+  <!--Original value: Read CS from Receiver-->
+  <string name="button_read_cs">Odczyt Ukł. wsp. z odbiornika</string>
   <!--Original value: Sounds are on-->
   <string name="sounds_on">Dźwięki włączone</string>
   <!--Original value: Get From Catalog-->
@@ -304,6 +332,8 @@
   <string name="dgps">DGPS</string>
   <!--Original value: Satellites-->
   <string name="action_sat_types">Satelity</string>
+  <!--Original value: Wrong number epochs in group!-->
+  <string name="wrong_number_epochs_in_group">Niewłaściwa ilość epok w serii!</string>
   <!--Original value: L2C-->
   <string name="l2c">L2C</string>
   <!--Original value: Can\'t write event!-->
@@ -338,12 +368,18 @@
   <string name="vendor">Producent</string>
   <!--Original value: Base radio connected to-->
   <string name="base_connected_to_2">Radio bazy połączone z</string>
+  <!--Original value: Epochs: %1$d / %2$d (Rejected:%3$d)-->
+  <string name="string_epochs_format">Epoki: %1$d / %2$d (Odrzucono:%3$d)</string>
   <!--Original value: Satel pars.:-->
   <string name="string_satel_pars__">Satel pars.:</string>
   <!--Original value: Settings \'%s\' already exists!-->
   <string name="string_settings___s__already_exists_">Ustawienia \'%s\' już istnieją!</string>
+  <!--Original value: TT450S(HW) params.-->
+  <string name="tt450hsw_protocol_parameters">Param. TT450(HW):</string>
   <!--Original value: IP-->
   <string name="lan_ip">IP</string>
+  <!--Original value: Map Provider-->
+  <string name="action_map_provider">Dostawca map</string>
   <!--Original value: Switch between antenna input-->
   <string name="antenna_type_summary">Przełączaj między wejściami anteny</string>
   <!--Original value: Name-->
@@ -364,6 +400,8 @@
   <string name="float2">Float</string>
   <!--Original value: Station-->
   <string name="string_station">Stacja</string>
+  <!--Original value: Wrong Tolerance!-->
+  <string name="wrong_tolerance">Błędna tolerancja!</string>
   <!--Original value: GSM DirectCall-->
   <string name="radio_gsm_radio">GSM DirectCall</string>
   <!--Original value: H\n-->
@@ -383,10 +421,10 @@
   <string name="reconfigure_receiver">Ustaw odbiornik</string>
   <!--Original value: Boot Loader Version-->
   <string name="receiver_bootloader_version">Wersja Bootloader</string>
-  <!--Original value: All targets have staked out-->
-  <string name="string_all_targets_have_staked_out">Wytyczono wszytskie cele</string>
   <!--Original value: Can\'t parse source table info-->
   <string name="string_can_t_parse_source_table_info">Nie można odczytać źródeł</string>
+  <!--Original value: All targets have staked out-->
+  <string name="string_all_targets_have_staked_out">Wytyczono wszytskie cele</string>
   <!--Original value: Station ID-->
   <string name="station_id">ID stacji</string>
   <!--Original value: disconnected-->
@@ -405,16 +443,16 @@
   <string name="string__1_s__2_dbs_fec__3_s_scr__4_s">%1$s %2$dbs FEC:%3$s Scr:%4$s</string>
   <!--Original value: Ref.Frame-->
   <string name="reference_frame">Odniesienie</string>
-  <!--Original value: %.0fHz-->
-  <string name="string___0fhz">%.0fHz</string>
-  <!--Original value: Receiver File %s already exist!-->
-  <string name="string_receiver_file__s_already_exist_">Plik %s już istnieje!</string>
   <!--Original value:    FCCID-->
   <string name="string____fccid">   FCCID</string>
-  <!--Original value: Wrong elevation mask!-->
-  <string name="wrong_elevation_mask">Błędna maska elewacji!</string>
+  <!--Original value: Receiver File %s already exist!-->
+  <string name="string_receiver_file__s_already_exist_">Plik %s już istnieje!</string>
+  <!--Original value: %.0fHz-->
+  <string name="string___0fhz">%.0fHz</string>
   <!--Original value: Perpendicular-->
   <string name="string_perpendicular">Prostopadła</string>
+  <!--Original value: Wrong elevation mask!-->
+  <string name="wrong_elevation_mask">Błędna maska elewacji!</string>
   <!--Original value: Scrambling-->
   <string name="scrambling">Szyfrowanie</string>
   <!--Original value: connecting-->
@@ -429,10 +467,12 @@
   <string name="string_no_file_logging">Bez logowania do pliku</string>
   <!--Original value: Across-->
   <string name="text_across">Przez</string>
-  <!--Original value: Stopping RTK…-->
-  <string name="string_stopping_rtk___">Zatrzymywanie RTK…</string>
   <!--Original value: Enable Sounds-->
   <string name="turn_on_sounds">Wł. dźwieki</string>
+  <!--Original value: Stopping RTK…-->
+  <string name="string_stopping_rtk___">Zatrzymywanie RTK…</string>
+  <!--Original value: Reset-->
+  <string name="string_reset">Reset</string>
   <!--Original value: Connected To-->
   <string name="survey_connected_to">Połączony z</string>
   <!--Original value: Channel Spacing-->
@@ -441,10 +481,12 @@
   <string name="action_settings">Ustawienia</string>
   <!--Original value: TCPO Mode-->
   <string name="tcpo_on">Tryb TCPO</string>
-  <!--Original value: Reading file list…-->
-  <string name="string_reading_file_list___">Odczyt listy plików…</string>
+  <!--Original value: Choose Map Provider-->
+  <string name="string_choose_map_provider">Wybierz dostawcę map</string>
   <!--Original value: Trajectory-->
   <string name="button_trajectory">Krzywa</string>
+  <!--Original value: Reading file list…-->
+  <string name="string_reading_file_list___">Odczyt listy plików…</string>
   <!--Original value: Dist 3D\n-->
   <string name="text_dist_3d">Odl. 3D
 </string>
@@ -452,54 +494,60 @@
   <string name="string_transparent_pars_">Transparent pars.</string>
   <!--Original value: 1 sec (1Hz)-->
   <string name="string_1_sec__1hz_">1 sek (1Hz)</string>
+  <!--Original value: %1$d epochs in %2$d groups with %3$s-->
+  <string name="verify_description">Serie: %2$d/Epoki w serii: %1$d/Tolerancja: %3$s</string>
   <!--Original value: Ionosphere-free combination used for position computation-->
   <string name="string_ionosphere_free_combination_used_for_position_computation">Do obliczenia pozycji używana jest kombinacja typu Ionosphere-free</string>
   <!--Original value: Job Name-->
   <string name="survey_job_name2">Nazwa Projektu</string>
   <!--Original value: Del-->
   <string name="action_delete">Usuń</string>
+  <!--Original value: Number Epochs in group-->
+  <string name="verify_number_epochs_in_group">Ilość epok w serii</string>
   <!--Original value: Interval-->
   <string name="string_interval">Interwał</string>
   <!--Original value: APN-->
   <string name="gprs_apn">APN</string>
   <!--Original value: Set receiver this side up for level calibration-->
   <string name="string_set_receiver_this_side_up_for_level_calibration">Ustaw odbiornik jak na rysunku, aby skalibrować libellę</string>
-  <!--Original value: Right-->
-  <string name="text_right">Prawo</string>
   <!--Original value: Unhealthy SV-->
   <string name="string_unhealthy_sv">SV niepewny</string>
+  <!--Original value: Right-->
+  <string name="text_right">Prawo</string>
   <!--Original value: Internet from:-->
   <string name="string_internet_from_">Internet z:</string>
-  <!--Original value: Connected To-->
-  <string name="connected_to_2">Połączony z</string>
-  <!--Original value: Survey P1-->
-  <string name="button_survey_p1">Pomiar P1</string>
   <!--Original value: Radio Link-->
   <string name="string_radio_link">Połączenie radiowe</string>
+  <!--Original value: Survey P1-->
+  <string name="button_survey_p1">Pomiar P1</string>
+  <!--Original value: Connected To-->
+  <string name="connected_to_2">Połączony z</string>
   <!--Original value: Start\nLevels\nCalibration-->
   <string name="start_levels_calibration">Uruchom\nKalibrację\nLibelli</string>
-  <!--Original value: Survey P2-->
-  <string name="button_survey_p2">Pomiar P2</string>
   <!--Original value: Traj.Name-->
   <string name="trajectory_name">Nazwa Krzywej</string>
+  <!--Original value: Survey P2-->
+  <string name="button_survey_p2">Pomiar P2</string>
   <!--Original value:  Internet via WiFi-->
   <string name="string__internet_via_wifi"> Internet via WiFi</string>
   <!--Original value: 10sec (0.1Hz)-->
   <string name="string_10sec__0_1hz_">10 sek (0.1Hz)</string>
-  <!--Original value: Time Since Last Reboot-->
-  <string name="receiver_time_since_reboot">Czas od ostatniego uruchomienia</string>
-  <!--Original value: %1$s %2$dbs FEC:%3$s Comp:%4$s-->
-  <string name="string__1_s__2_dbs_fec__3_s_comp__4_s">%1$s %2$dbs FEC:%3$s Comp:%4$s</string>
   <!--Original value: new Direct Call (CSD)-->
   <string name="string_new_direct_call__csd_">new Direct Call (CSD)</string>
+  <!--Original value: Time Since Last Reboot-->
+  <string name="receiver_time_since_reboot">Czas od ostatniego uruchomienia</string>
   <!--Original value: Surveying is in progress. Do you want to stop the survey to close the window?-->
   <string name="string_surveying_is_in_progress__do_you_want_to_stop_the_survey_to_close_the_window_">Pomiar w toku. Czy chcesz go zakończyć, aby zamknąć okno?</string>
   <!--Original value: TCP Port-->
   <string name="tcp_port">Port TCP</string>
+  <!--Original value: Wrong tolerance in group!-->
+  <string name="wrong_tolerance_in_group">Błędna tolerancja w serii!</string>
   <!--Original value: Can\'t read source table!-->
   <string name="string_can_t_read_source_table_">Nie mozna odczytać źródeł!</string>
   <!--Original value: Radio Settings-->
   <string name="survey_radio_settings">Ustawienia Radia</string>
+  <!--Original value: Trimtalk 3 params.-->
+  <string name="trimmark3_protocol_parameters">Param. Trimtalk 3</string>
   <!--Original value: Can\'t activate WiFi!\nCheck Access Point!\n-->
   <string name="string_can_t_activate_wifi__ncheck_access_point__n">Nie można aktywować WiFi!\nSprawdź punkt dostępu!\n</string>
   <!--Original value: Can\'t program auto-close file!-->
@@ -516,66 +564,70 @@
   <string name="receiver_firmware_version">Wersja FW</string>
   <!--Original value: Temporary point P1 is not surveyed yet!-->
   <string name="string_temporary_point_p1_is_not_surveyed_yet_">Punkt tymczasowy P1 nie został jeszcze zmierzony!</string>
-  <!--Original value: Model:-->
-  <string name="string_model_">Model:</string>
   <!--Original value: Vertical Offset-->
   <string name="antenna_vertical_offset">Offset pionowy</string>
+  <!--Original value: Model:-->
+  <string name="string_model_">Model:</string>
   <!--Original value: Internet from-->
   <string name="string_internet_from">Internet z</string>
   <!--Original value: Antenna Type-->
   <string name="antenna_type">Typ Anteny</string>
+  <!--Original value: Radio status-->
+  <string name="string_radio_status">Status radiomodemu</string>
+  <!--Original value: Wrong call sign (only numbers and capital chars are avaibale!)-->
+  <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Wrong call sign (only numbers and capital chars are avaibale!)</string>
+  <!--Original value: Frequency:-->
+  <string name="string_frequency_">Częstotliwość:</string>
   <!--Original value: Can\'t enter Internet.\nCheck your connection!\n-->
   <string name="string_can_t_enter_internet__ncheck_your_connection__n">Brak internetu.
 Sprawdź połączenie!
 </string>
-  <!--Original value: Frequency:-->
-  <string name="string_frequency_">Częstotliwość:</string>
-  <!--Original value: Wrong call sign (only numbers and capital chars are avaibale!)-->
-  <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Wrong call sign (only numbers and capital chars are avaibale!)</string>
-  <!--Original value: Radio status-->
-  <string name="string_radio_status">Status radiomodemu</string>
-  <!--Original value: Wrong frequency!\nFrequency should be a multiply of 6250Hz!-->
-  <string name="string_wrong_frequency__nfrequency_should_be_a_multiply_of_6250hz_">Błędna częstotliwość!\nDopuszczalna jest tylko wielokrotność 6250Hz!</string>
   <!--Original value: Points-->
   <string name="action_list">Punkty</string>
+  <!--Original value: Wrong frequency!\nFrequency should be a multiply of 6250Hz!-->
+  <string name="string_wrong_frequency__nfrequency_should_be_a_multiply_of_6250hz_">Błędna częstotliwość!\nDopuszczalna jest tylko wielokrotność 6250Hz!</string>
   <!--Original value: Compass Calibration …-->
   <string name="string_compass_calibration____">Kalibracja kompasu …</string>
-  <!--Original value: Simplex pars.:-->
-  <string name="string_simplex_pars__">Simplex pars.:</string>
   <!--Original value: Temporary point P2 is not surveyed yet!-->
   <string name="string_temporary_point_p2_is_not_surveyed_yet_">Punkt tymczasowy P2 nie został jeszcze zmierzony!</string>
+  <!--Original value: Simplex pars.:-->
+  <string name="string_simplex_pars__">Simplex pars.:</string>
   <!--Original value: Previous Dialog-->
   <string name="string_previous_dialog">Poprzednie okno</string>
   <!--Original value: Start Station-->
   <string name="survey_start_station2">Uruchom stację</string>
-  <!--Original value: Elevation-->
-  <string name="elevation">Wysokość</string>
+  <!--Original value: Next-->
+  <string name="string_next_target">Dalej</string>
   <!--Original value: %02dseconds-->
   <string name="string__02dseconds">%02dsekund</string>
+  <!--Original value: Elevation-->
+  <string name="elevation">Wysokość</string>
   <!--Original value: ⬇-->
   <string name="button_menu">⬇</string>
+  <!--Original value: %1$s %2$dbs-->
+  <string name="string__1_s__2_dbs">%1$s %2$dbs</string>
   <!--Original value: Static %1$s logging to file %2$s is in progress!\n%3$s remain-->
   <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_remain">Zapis danych statycznych %1$s do pliku %2$s w toku!\nPozostało %3$s</string>
-  <!--Original value: Output Power-->
-  <string name="output_power_w">Moc wyjściowa</string>
-  <!--Original value: P/L1 and L2C measurements are used in RTK processing-->
-  <string name="string_p_l1_and_l2c_measurements_are_used_in_rtk_processing">P/L1 i L2C są używane przy RTK</string>
   <!--Original value: CA/L1 and L2C measurements are used in RTK processing-->
   <string name="string_ca_l1_and_l2c_measurements_are_used_in_rtk_processing">CA/L1 i L2C są używane przy RTK</string>
-  <!--Original value: Site Name-->
-  <string name="site_name">Nazwa</string>
+  <!--Original value: P/L1 and L2C measurements are used in RTK processing-->
+  <string name="string_p_l1_and_l2c_measurements_are_used_in_rtk_processing">P/L1 i L2C są używane przy RTK</string>
+  <!--Original value: Output Power-->
+  <string name="output_power_w">Moc wyjściowa</string>
   <!--Original value: Line Target-->
   <string name="target_line_small">Linia celowa</string>
+  <!--Original value: Site Name-->
+  <string name="site_name">Nazwa</string>
   <!--Original value: Antenna height is not setup! Please recheck antenna-->
   <string name="string_antenna_height_is_not_setup__please_recheck_antenna">Nie ustawiono wysokości anteny</string>
   <!--Original value: Satel protocol settings-->
   <string name="satel_protocol_parameters">Ustawienia protokołu Satel</string>
   <!--Original value: Trajectory Length Filter-->
   <string name="trajector_length_filter_summary">Filtr długości krzywej</string>
-  <!--Original value: 50Hz-->
-  <string name="string_50hz">50Hz</string>
   <!--Original value: Remain -->
   <string name="remain">Pozostało</string>
+  <!--Original value: 50Hz-->
+  <string name="string_50hz">50Hz</string>
   <!--Original value: Enable Power Output-->
   <string name="enable_power_output">Włącz Power Output</string>
   <!--Original value: Power:%1$.3fW(%2$ddBm)-->
@@ -588,30 +640,38 @@ Sprawdź połączenie!
   <string name="string_distance">Odległość</string>
   <!--Original value:  connected to Internal Modem-->
   <string name="string__connected_to_internal_modem"> połączono z modemem wewn.</string>
-  <!--Original value: Freq.Rule-->
-  <string name="f_rule">Zakres Częst.</string>
   <!--Original value: Store Offset-->
   <string name="string_store_offset">Zapisz Offset</string>
+  <!--Original value: Freq.Rule-->
+  <string name="f_rule">Zakres Częst.</string>
   <!--Original value: Use Repeater-->
   <string name="repeater">Użyj Repeatera</string>
+  <!--Original value: Survey already stopped!-->
+  <string name="error_survey_already_stopped">Pomiar już zatrzymany!</string>
   <!--Original value: Calibrate-->
   <string name="calibrate">Kalibruj</string>
   <!--Original value: Connected to-->
   <string name="string_connected_to">Połączono z</string>
   <!--Original value: Set LAN-->
   <string name="lan_on">Ustaw LAN</string>
+  <!--Original value: DirectCall(CSD)-->
+  <string name="string_directcall_csd_">DirectCall(CSD)</string>
   <!--Original value: RTK-->
   <string name="rtk">RTK</string>
-  <!--Original value: Disconnect-->
-  <string name="string_disconnect">Rozłącz</string>
   <!--Original value: Messages-->
   <string name="format_messages">Depesze</string>
+  <!--Original value: Disconnect-->
+  <string name="string_disconnect">Rozłącz</string>
   <!--Original value: SBAS-->
   <string name="check_sbas">SBAS</string>
   <!--Original value: ADVANCED-->
   <string name="title_advanced">ZAAWANSOWANE</string>
   <!--Original value: Ellapsed time %d sec-->
   <string name="string_ellapsed_time__d_sec">Minęło %d sec</string>
+  <!--Original value: Point store error-->
+  <string name="survey_point_stored_error">Błąd zapisu punktu</string>
+  <!--Original value: Verify Mode-->
+  <string name="string_verify_mode">Tryb Verify</string>
   <!--Original value: the Android device-->
   <string name="string_the_android_device">Kontroler</string>
   <!--Original value: Compass and Levels-->
@@ -626,26 +686,28 @@ Sprawdź połączenie!
   <string name="string_p_l1_slot_is_used_in_rtk_processing">Slot P L1 jest używany przy RTK</string>
   <!--Original value: Side %1$d calibration %2$d%%-->
   <string name="string_side__1_d_calibration__2_d__">Strona %1$d skalibrowana %2$d%%</string>
-  <!--Original value: Curr.Pos-->
-  <string name="string_curr_pos">Akt.Poz</string>
   <!--Original value: Wrong source table data!-->
   <string name="string_wrong_source_table_data_">Błąd źródeł!</string>
+  <!--Original value: Curr.Pos-->
+  <string name="string_curr_pos">Akt.Poz</string>
   <!--Original value: Mask-->
   <string name="lan_mask">Maska</string>
   <!--Original value: RCV Server-->
   <string name="string_rcv_server">Server RCV</string>
   <!--Original value: Javad Survey-->
   <string name="app_name">Javad Survey</string>
-  <!--Original value: 5sec-->
-  <string name="string_5sec">5sek</string>
   <!--Original value: CA/L1 data used for position computation-->
   <string name="string_ca_l1_data_used_for_position_computation">Do obliczenia pozycji używane są dane CA/L1</string>
+  <!--Original value: 5sec-->
+  <string name="string_5sec">5sek</string>
   <!--Original value: RTK Stakeout-->
   <string name="string_rtk_stakeout">Tyczenie RTK</string>
   <!--Original value: Job-->
   <string name="string_job">Projekt</string>
   <!--Original value: List-->
   <string name="string_list">Lista</string>
+  <!--Original value: You didn\'t select a correction source.-->
+  <string name="string_you_didn_t_select_a_correction_source_">Nie wybrano źródła poprawek.</string>
   <!--Original value: This SV is excluded from solution since its system number is unknown-->
   <string name="string_this_sv_is_excluded_from_solution_since_its_system_number_is_unknown">Ten SV jest wykluczony z rozwiązania, gdyż jego numer systemowy nie jest znany</string>
   <!--Original value: Can\'t start levels calibration!\nDisabled by OAF options!-->
@@ -664,32 +726,42 @@ Sprawdź połączenie!
   <string name="string_5sec__0_2hz_">5 sek (0.2Hz)</string>
   <!--Original value: Wrong easting!-->
   <string name="string_wrong_easting_">Błędny kurs Wsch!</string>
-  <!--Original value: 00+00-->
-  <string name="number_of_sats">00+00</string>
   <!--Original value: Low Power Mode change has failed!-->
   <string name="string_low_power_mode_change_has_failed_">Zmiana trybu Low Power nie powiodła się!</string>
+  <!--Original value: 00+00-->
+  <string name="number_of_sats">00+00</string>
   <!--Original value: Wrong corrections!-->
   <string name="string_wrong_corrections_">Błędne poprawki!</string>
   <!--Original value: Start\nLevels\nCalibration-->
   <string name="string_start_nlevels_ncalibration">Uruchom\nKalibrację\nLibelli</string>
+  <!--Original value: Number Epochs in each group-->
+  <string name="verify_number_epochs_in_group_summary">Liczba epok w każdej serii</string>
   <!--Original value: Back-->
   <string name="text_backward">Wstecz</string>
-  <!--Original value: Minus-->
-  <string name="text_zoom_minus">Minus</string>
-  <!--Original value: Authentication-->
-  <string name="authentication">Uwierzytelnienie</string>
+  <!--Original value: Confirm Point-->
+  <string name="menu_confirm">Potwierdź punkt</string>
   <!--Original value: Trajectory-->
   <string name="trajectory">Krzywa</string>
+  <!--Original value: Authentication-->
+  <string name="authentication">Uwierzytelnienie</string>
+  <!--Original value: Minus-->
+  <string name="text_zoom_minus">Minus</string>
   <!--Original value: your receiver-->
   <string name="rotate_receiver_string2">twój odbiornik</string>
   <!--Original value:  rejected-->
   <string name="epochs_rejected"> odrzucono</string>
   <!--Original value: Intersection-->
   <string name="string_intersection">Wcięcie</string>
+  <!--Original value: %1$s %2$dbs FEC:%3$s Cmpt:%4$s ClkCrr:%5$s-->
+  <string name="string__1_s__2_dbs_fec__3_s_cmpt__4_s_clkcrr__5_s">%1$s %2$dbs FEC:%3$s Cmpt:%4$s ClkCrr:%5$s</string>
   <!--Original value: Antenna Hgt.-->
   <string name="text_point_antenna_height">Wys. Anteny</string>
+  <!--Original value: Survey already started!-->
+  <string name="string_survey_already_started_">Pomiar już rozpoczęty!</string>
   <!--Original value: GPS-->
   <string name="check_gps">GPS</string>
+  <!--Original value: Trimtalk450S pars.-->
+  <string name="string_trimtalk450s_pars_">Param. Trimtalk450S</string>
   <!--Original value: Use Repeater-->
   <string name="use_repeater">Użyj Repeatera</string>
   <!--Original value: Zone: -->
@@ -698,26 +770,34 @@ Sprawdź połączenie!
   <string name="string_stop_station_with_fh_radio">Zatrzymaj stację z modemem FH</string>
   <!--Original value: Settings Name-->
   <string name="settings_name">Nazwa ustawień</string>
-  <!--Original value: INFO-->
-  <string name="info">INFO</string>
   <!--Original value: Wrong northing!-->
   <string name="string_wrong_northing_">Błędny kurs Pn!</string>
+  <!--Original value: INFO-->
+  <string name="info">INFO</string>
+  <!--Original value: Close-->
+  <string name="menu_close">Zamknij</string>
   <!--Original value: Connection-->
   <string name="connecttion">Połączenie</string>
   <!--Original value: Password:-->
   <string name="string_password_">Hasło:</string>
-  <!--Original value: Password-->
-  <string name="gprs_password_summary">Hasło</string>
+  <!--Original value: AutoCad Drawing *.dwg-->
+  <string name="string_autocad_drawing___dwg">AutoCad Drawing *.dwg</string>
   <!--Original value: Name-->
   <string name="csd_settings_name_summary">Nazwa</string>
+  <!--Original value: Password-->
+  <string name="gprs_password_summary">Hasło</string>
   <!--Original value: L2C slot is used in RTK processing-->
   <string name="string_l2c_slot_is_used_in_rtk_processing">Slot L2C jest używany przy RTK</string>
   <!--Original value: Phone-->
   <string name="csd_phone">Telefon</string>
+  <!--Original value: Tolerance in group-->
+  <string name="verify_tolerance_in_group_summary">Tolerancja w seriach</string>
   <!--Original value: hours-->
   <string name="hours">godz.</string>
   <!--Original value: NetHub Login-->
   <string name="nethub_login">NetHub Login</string>
+  <!--Original value: Trimtalk 450S-->
+  <string name="trimtalk450s">Trimtalk 450S</string>
   <!--Original value: Starting survey…-->
   <string name="string_starting_survey___">Rozpoczynanie pomiaru…</string>
   <!--Original value: Wrong latitude!-->
@@ -726,36 +806,38 @@ Sprawdź połączenie!
   <string name="string___0fsec">%.0fsek</string>
   <!--Original value: Fill-->
   <string name="text_fill">Wyżej</string>
-  <!--Original value: Radio Setup-->
-  <string name="radio_setup">Ustawienia radia</string>
   <!--Original value: Port-->
   <string name="port">Port</string>
+  <!--Original value: Radio Setup-->
+  <string name="radio_setup">Ustawienia radia</string>
   <!--Original value: Design\n-->
   <string name="string_design">Punkty\n
 </string>
-  <!--Original value: Time out error!!!-->
-  <string name="string_time_out_error___">Przekroczono limit czasu!!!</string>
   <!--Original value: Mount Point-->
   <string name="mount_point">Mount Point</string>
+  <!--Original value: Time out error!!!-->
+  <string name="string_time_out_error___">Przekroczono limit czasu!!!</string>
+  <!--Original value: Wrong number of groups-->
+  <string name="wrong_number_of_groups">Błędna ilość serii!</string>
   <!--Original value: DLL is not settled-->
   <string name="string_dll_is_not_settled">DLL is not settled</string>
   <!--Original value: USA zone parameters-->
   <string name="usa_zone_parameters">Parametry stref USA</string>
   <!--Original value: Survey Completed-->
   <string name="survey_complete">Pomiar zakończony</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Dostawca Map</string>
   <!--Original value: Confirm Point-->
   <string name="confirm_point_survey">Potwierdź zapis</string>
+  <!--Original value: MapProvider-->
+  <string name="string_mapprovider">Dostawca Map</string>
   <!--Original value:  Internet via Android-->
   <string name="string__internet_via_android"> Internet via Android</string>
   <!--Original value: Start\nCompass\nCalibration-->
   <string name="start_compass_calibration">Rozpocznij\nKalibrację\nKompasu
 </string>
-  <!--Original value: Corrections:-->
-  <string name="string_corrections_">Poprawki:</string>
   <!--Original value: Receiver-->
   <string name="string_receiver">Odbiornik</string>
+  <!--Original value: Corrections:-->
+  <string name="string_corrections_">Poprawki:</string>
   <!--Original value: Android IP Address:-->
   <string name="string_android_ip_address_">Android IP Address:</string>
   <!--Original value: Fwrd-->
@@ -770,27 +852,27 @@ Sprawdź połączenie!
   <string name="text_hrms">HRMS\n</string>
   <!--Original value: Height Type-->
   <string name="antenna_height_type_2">Sposób pomiaru wysokości</string>
-  <!--Original value: Can\'t convert coordinates!-->
-  <string name="string_can_t_convert_coordinates_">Nie można przeliczyć współrzędnych!</string>
   <!--Original value: VRMS\n-->
   <string name="text_vrms">VRMS
 </string>
+  <!--Original value: Can\'t convert coordinates!-->
+  <string name="string_can_t_convert_coordinates_">Nie można przeliczyć współrzędnych!</string>
   <!--Original value: Compass is calibrated OK-->
   <string name="compass_status">Kalibracja kompasu OK</string>
+  <!--Original value: LQ-->
+  <string name="link_quality">LQ</string>
   <!--Original value: Get From Receiver-->
   <string name="get_from_receiver">Z odbiornika</string>
-  <!--Original value: LQ-->
-  <string name="link_quality" />
   <!--Original value: RTK Surveying is on…-->
   <string name="string_rtk_surveying_is_on___">Pomiar RTK w toku…</string>
   <!--Original value: Store Offset-->
   <string name="button_store_offset">Zapisz offset</string>
   <!--Original value: Vendor:-->
   <string name="string_vendor_">Producent:</string>
-  <!--Original value: Receiver is not connected!-->
-  <string name="receiver_is_not_connected">Odbiornik nie jest podłączony!</string>
   <!--Original value: radio-->
   <string name="radio">radio</string>
+  <!--Original value: Receiver is not connected!-->
+  <string name="receiver_is_not_connected">Odbiornik nie jest podłączony!</string>
   <!--Original value: Restarting RTK Survey…-->
   <string name="string_restarting_rtk_survey___">Restart RTK…</string>
   <!--Original value: Start Levels Calibration-->
@@ -808,7 +890,7 @@ Sprawdź połączenie!
   <!--Original value: pdop-->
   <string name="pdop">pdop</string>
   <!--Original value: Wrong power!\nPower should be from %1$f to %2$f-->
-  <string name="string_wrong_power__npower_should_be_from__1_f_to__2_f">Niewłaściwa moc!\nDopuszczalny zakres to od %1$f do %2$f!</string>
+  <string name="string_wrong_power__npower_should_be_from__1_f_to__2_f">Niewłaściwa moc!\nDopuszczalny zakres to od %1$.3fW(%2$d) do %3$.3fW(%4$d)!</string>
   <!--Original value: Password-->
   <string name="gprs_password">Hasło</string>
   <!--Original value: off-->
@@ -860,6 +942,8 @@ Sprawdź połączenie!
   <string name="string_can_t_convert_coordinates_to_wgs84_">Nie można przeliczyć współrzędnych do WGS84!</string>
   <!--Original value: Size Of RAM-->
   <string name="receiver_sizeof_ram">Rozmiar RAM</string>
+  <!--Original value: Can\'t connect to NetHub!-->
+  <string name="string_can_t_connect_to_nethub_">Nie można połączyć z NetHub!</string>
   <!--Original value: N\n-->
   <string name="text_north">N\n
 </string>
@@ -969,20 +1053,26 @@ Sprawdź połączenie!
   <string name="string_stakeout_settings">Nawigacja</string>
   <!--Original value: User-->
   <string name="gprs_user">Użytkownik</string>
-  <!--Original value: Epochs: %1$d / %2$d (Rejected:%3$d)-->
-  <string name="string_epochs_format">Epoki: %1$d / %2$d (Odrzucono:%3$d)</string>
+  <!--Original value: Fast Traj.-->
+  <string name="string_fast_traj_">Szybka krzywa</string>
   <!--Original value: P L2 slot is used in RTK processing-->
   <string name="string_p_l2_slot_is_used_in_rtk_processing">Slot P L2 jest używany przy RTK</string>
+  <!--Original value: No data collected!-->
+  <string name="error_no_data_collected">Nie zebrano danych!</string>
   <!--Original value: Radio is connected to-->
   <string name="connected_to">Radio połączono z</string>
   <!--Original value: Switch between antenna input-->
   <string name="antenna_height_unit_summary">Przełączaj między wejściami anteny</string>
   <!--Original value: Epoch Accepted-->
   <string name="epoch_accepted">Epoka uznana</string>
+  <!--Original value: Verify settings-->
+  <string name="string_verify_settings">Ustawienia Verify</string>
   <!--Original value: Correction Source-->
   <string name="correction_source">Źródło poprawek</string>
   <!--Original value: Correction Type:-->
   <string name="string_correction_type_">Typ poprawek:</string>
+  <!--Original value: Yandex Map-->
+  <string name="string_yandex_map">Yandex Map</string>
   <!--Original value: Base-->
   <string name="text_base">Baza</string>
   <!--Original value: Sounds are off-->
@@ -1000,6 +1090,8 @@ Sprawdź połączenie!
 </string>
   <!--Original value: battery-->
   <string name="battery">bateria</string>
+  <!--Original value: Trimtalk 450S params.-->
+  <string name="trimtalk450s_protocol_parameters">Param. Trimtalk 450S</string>
   <!--Original value: DTT-->
   <string name="text_dtt">ODL</string>
   <!--Original value: SIM Card-->
@@ -1012,6 +1104,8 @@ Sprawdź połączenie!
   <string name="antenna_vertical_offset_summary">Offset pionowy</string>
   <!--Original value: Compatibility-->
   <string name="text_compatibility">Zgodność</string>
+  <!--Original value: Point stored OK-->
+  <string name="survey_point_stored_ok">Punkt zapisano</string>
   <!--Original value: Correct Inclination-->
   <string name="correct_inclination">Koryguj pochylenie</string>
   <!--Original value: Along Line-->
@@ -1055,7 +1149,7 @@ Sprawdź połączenie!
   <!--Original value: Point %s has been created-->
   <string name="string_point__s_has_been_created">Utworzono punkt %s</string>
   <!--Original value: V-->
-  <string name="string_v" />
+  <string name="string_v">V</string>
   <!--Original value: Power:-->
   <string name="string_power_">Moc:</string>
   <!--Original value: Can\'t convert selected point coordinate into WGS84!-->
@@ -1110,10 +1204,18 @@ Sprawdź połączenie!
   <string name="sleep_mode">Tryb Hibernacji</string>
   <!--Original value: Frequency, Hz-->
   <string name="frequency">Częstotl., Hz</string>
+  <!--Original value: Import-->
+  <string name="string_import">Import</string>
   <!--Original value: Reading setting…-->
   <string name="string_reading_setting___">Reading setting…</string>
+  <!--Original value: Data storing error!-->
+  <string name="error_store_point">Błąd zapisu danych!</string>
+  <!--Original value: Trimmark 3 params.-->
+  <string name="string_trimmark_3_params_">Param. Trimmark 3</string>
   <!--Original value: Can\'t convert coordinate!-->
   <string name="string_can_t_convert_coordinate_">Nie można przeliczyć współrzędnej!</string>
+  <!--Original value: TT 450SHW-->
+  <string name="tt450shw">TT 450SHW</string>
   <!--Original value: SNR below specified minimum level-->
   <string name="string_snr_below_specified_minimum_level">SNR poniżej określonego poziomu</string>
   <!--Original value: Grd.Azimuth-->
@@ -1128,6 +1230,8 @@ Sprawdź połączenie!
   <string name="button_logging">Zapis do pliku</string>
   <!--Original value: Azimuth-->
   <string name="string_azimuth">Azymut</string>
+  <!--Original value: Number of Groups-->
+  <string name="verify_number_of_groups_summary">Ilość serii</string>
   <!--Original value: TCP E-->
   <string name="correction_type_tcp_e">TCP E</string>
   <!--Original value: 60sec-->
@@ -1161,7 +1265,7 @@ Sprawdź połączenie!
   <!--Original value: 3G/GPRS-->
   <string name="gprs_settings">3G/GPRS</string>
   <!--Original value:  (Error:%s)-->
-  <string name="string___error__s_">(Error:%s)</string>
+  <string name="string___error__s_"> (Błąd:%s)</string>
   <!--Original value: Fixed-->
   <string name="fixed">Fixed</string>
   <!--Original value: Measurements are not available-->
@@ -1197,10 +1301,12 @@ Sprawdź połączenie!
   <string name="levels_status_error">Wymagana kalibracja libelli!</string>
   <!--Original value: This allows you to enter a string-->
   <string name="file_name_summary">Pozwala wprowadzić ciąg znaków</string>
+  <!--Original value: Tolerance in group-->
+  <string name="verify_tolerance_in_group">Tolerancja w seriach</string>
   <!--Original value: are OK-->
   <string name="are_ok">są OK</string>
   <!--Original value: LAN-->
-  <string name="lan_settings" />
+  <string name="lan_settings">LAN</string>
   <!--Original value: Wrong NetHub Address!-->
   <string name="string_wrong_nethub_address_">Błędny adres NetHub!</string>
   <!--Original value: Elapsed time-->
@@ -1236,6 +1342,8 @@ Sprawdź połączenie!
   <string name="target_line">Linia\ncelowa</string>
   <!--Original value: Get Receiver Settings-->
   <string name="get_receiver_setting">Pobierz ustawienia</string>
+  <!--Original value: Do you want to continue anyway?-->
+  <string name="string_do_you_want_to_continue_anyway_">Czy chcesz kontynuować mimo to?</string>
   <!--Original value: Any epoch is collected at Lift/Titl survey-->
   <string name="lift_and_tilt_any_epoch_collected">Dowolna epoka przy pomiarze L&amp;T</string>
   <!--Original value: Wrong antenna vertical offset!-->
@@ -1282,6 +1390,8 @@ Sprawdź połączenie!
   <string name="tcp_password">TCP Hasło</string>
   <!--Original value: RTCM3 CS-->
   <string name="rtcm3_cs">RTCM3 UW</string>
+  <!--Original value: Ntrip Error-->
+  <string name="string_ntrip_error">Błąd NTRIP</string>
   <!--Original value: Low Power Mode has disabled-->
   <string name="string_low_power_mode_has_disabled">Wyłączono tryb Low Power</string>
   <!--Original value: FILE RECORDING-->
@@ -1323,12 +1433,16 @@ Sprawdź połączenie!
   <string name="string_uhf_radio_on_">Radio UHF wł</string>
   <!--Original value: Setup RTK rate error-->
   <string name="string_setup_rtk_rate_error">Błąd</string>
+  <!--Original value: Import-->
+  <string name="action_map_import">Import</string>
   <!--Original value: Stop and Go-->
   <string name="button_stop_and_go">Stop and Go</string>
   <!--Original value: WLAN-->
   <string name="wlan_settings">WLAN</string>
   <!--Original value: sats-->
   <string name="sats">sats</string>
+  <!--Original value: TrimmarkII/IIe pars.:-->
+  <string name="string_trimmarkii_iie_pars__">Param. TrimmarkII/IIe:</string>
   <!--Original value: Receiver File Manager-->
   <string name="receiver_files_summury">Manager plików</string>
   <!--Original value: Line-->
@@ -1347,6 +1461,8 @@ Sprawdź połączenie!
   <string name="network">Sieć</string>
   <!--Original value: NetHub Password-->
   <string name="nethub_password">NetHub Password</string>
+  <!--Original value: RTK Bases-->
+  <string name="string_rtk_bases">Bazy RTK</string>
   <!--Original value: Geodetic Az.-->
   <string name="string_geodetic_az_">Az. geodezyjny</string>
   <!--Original value: Switch between antenna input-->
@@ -1384,6 +1500,8 @@ Sprawdź połączenie!
   <string name="button_antenna">JAV_TRIUMPH-1   NONE\n1.25m vert.</string>
   <!--Original value: Correction Type-->
   <string name="correction_type">Typ poprawek</string>
+  <!--Original value: Debug Survey-->
+  <string name="string_debug_survey">Tryb debugowania</string>
   <!--Original value: User Name-->
   <string name="gprs_user_summary">Nazwa użytk.</string>
   <!--Original value: Bitrate-->
@@ -1413,16 +1531,22 @@ Sprawdź połączenie!
 </string>
   <!--Original value: Firmware:-->
   <string name="string_firmware_">Firmware:</string>
+  <!--Original value: Minimal RTK Engines to accept-->
+  <string name="minimal_rtk_engines">Minimalna liczba silników RTK</string>
   <!--Original value: Gateway-->
   <string name="lan_gateway">Gateway</string>
   <!--Original value: Starting RTK base station;#8230;-->
   <string name="string_starting_rtk_base_station___">Uruchamianie stacji bazowej;#8230;</string>
   <!--Original value: Working CS-->
   <string name="job_workingcs">Aktualny UW</string>
+  <!--Original value: Export-->
+  <string name="action_map_export">Eksport</string>
   <!--Original value: FH radio error! (%s)-->
   <string name="string_fh_radio_error____s_">FH radio error! (%s)</string>
   <!--Original value: 0.5 sec (2Hz)-->
   <string name="string_0_5_sec__2hz_">0.5 sek (2Hz)</string>
+  <!--Original value: %1$s %2$dbs FEC:%3$s Comp:%4$s ClkCrr:%5$s-->
+  <string name="string__1_s__2_dbs_fec__3_s_comp__4_s_clkcrr__5_s">%1$s %2$dbs FEC:%3$s Comp:%4$s ClkCrr:%5$s</string>
   <!--Original value: Can\'t start compass calibration!-->
   <string name="string_can_t_start_compass_calibration_">Nie można uruchomić klaibracji kompasu!</string>
   <!--Original value: Survey Type-->
@@ -1449,22 +1573,28 @@ Sprawdź połączenie!
   <string name="string_connected_to_wifi___">Połączono z WiFi…</string>
   <!--Original value: Receiver ID-->
   <string name="receiver_id">ID odbiornika</string>
+  <!--Original value: Point-->
+  <string name="string_new_point">Punkt</string>
+  <!--Original value: No Data-->
+  <string name="string_no_data">Brak danych</string>
+  <!--Original value: Trimmark3 pars.:-->
+  <string name="string_trimmark3_pars__">Param. Trimmark3:</string>
   <!--Original value: Distance2 is empty!-->
   <string name="string_distance2_is_empty_">Brak Odl.2!</string>
   <!--Original value: FH Radio-->
   <string name="radio_fh_radio">FH Radio</string>
   <!--Original value: P2 data used for position computation-->
   <string name="string_p2_data_used_for_position_computation">Do obliczenia pozycji używane są dane P2</string>
-  <!--Original value: Receiver is turned to sleep mode-->
-  <string name="string_receiver_is_turned_to_sleep_mode">Odbiornik w hibernacji</string>
   <!--Original value: Std-->
   <string name="solution_type">Std</string>
+  <!--Original value: Receiver is turned to sleep mode-->
+  <string name="string_receiver_is_turned_to_sleep_mode">Odbiornik w hibernacji</string>
   <!--Original value: Static-->
   <string name="string_static">Statyka</string>
-  <!--Original value: 0.05 sec (20Hz)-->
-  <string name="string_0_05_sec__20hz_">0.05 sek (20Hz)</string>
   <!--Original value: Can\'t start GSM radio to base mode-->
   <string name="string_can_t_start_gsm_radio_to_base_mode">Nie można uruchomić GSM w trybie bazy</string>
+  <!--Original value: 0.05 sec (20Hz)-->
+  <string name="string_0_05_sec__20hz_">0.05 sek (20Hz)</string>
   <!--Original value: Receiver is turned off-->
   <string name="string_receiver_is_turned_off">Odniornik jest wyłączony</string>
   <!--Original value: Wrong frequency!\nFrequency should be from %1$f to %2$f-->
@@ -1483,14 +1613,16 @@ Sprawdź połączenie!
   <string name="recording">zapis</string>
   <!--Original value: Job Name-->
   <string name="text_job_name">Nazwa projektu</string>
-  <!--Original value: %1$s %2$dbs FEC:%3$s Cmpt:%4$s-->
-  <string name="string__1_s__2_dbs_fec__3_s_cmpt__4_s">%1$s %2$dbs FEC:%3$s Cmpt:%4$s</string>
   <!--Original value:  without radio setup-->
   <string name="string__without_radio_setup"> bez ustawiania modemu</string>
+  <!--Original value: TT450S(HW) pars.-->
+  <string name="string_tt450s_hw__pars_">Param. TT450S(HW)</string>
   <!--Original value: What to do with point %1$s?-->
-  <string name="string_what_to_do_with_point__1_s_">Co zrobić z punktem %1$s?</string>
+  <string name="string_what_to_do_with_point__1_s_">Co zrobić z punktem %$1s?</string>
   <!--Original value:     Bootloader:-->
   <string name="string_____bootloader_">    Bootloader:</string>
+  <!--Original value: Trimmark II/IIe params.-->
+  <string name="trimmarkii_protocol_parameters">Param. Trimmark II/IIe</string>
   <!--Original value: new FH radio-->
   <string name="string_new_fh_radio">nowe radio FH</string>
   <!--Original value: Login-->
@@ -1506,14 +1638,20 @@ Sprawdź połączenie!
   <string name="string_settings_ok">Ustawienia OK</string>
   <!--Original value: Restart station-->
   <string name="string_restart_station">Restart</string>
+  <!--Original value: Fast Trajectory-->
+  <string name="string_menu_offset_fast_trajectory">Szybka krzywa</string>
   <!--Original value: Record Rate-->
   <string name="record_rate">Interwał</string>
   <!--Original value: Std-->
   <string name="std">Std</string>
+  <!--Original value: Clock Correction-->
+  <string name="clock_correction">Korygowanie zegara</string>
   <!--Original value: Levels Calibration…-->
   <string name="string_levels_calibration____">Kalibracja libelli…</string>
   <!--Original value: Stop station with UHF radio-->
   <string name="string_stop_station_with_uhf_radio">Zatrzymaj stację z modemem UHF</string>
+  <!--Original value: Trimmark II/IIe-->
+  <string name="trimmarkii">Trimmark II/IIe</string>
   <!--Original value: Can\'t start compass calibration!\nDisabled by OAF options!-->
   <string name="string_can_t_start_compass_calibration__ndisabled_by_oaf_options_">Nie można uruchomić klaibracji kompasu!
 Opcja wyłączona w OAF!</string>
@@ -1543,10 +1681,14 @@ Opcja wyłączona w OAF!</string>
   <string name="string_tcpo_port_">TCPO Port:</string>
   <!--Original value: NetHub:-->
   <string name="string_nethub_">NetHub:</string>
+  <!--Original value: Cancel Point-->
+  <string name="menu_cancel">Odrzuć punkt</string>
   <!--Original value: Traj.min length %s-->
   <string name="string_traj_min_length__s">Minimalna dł. krzywej %s</string>
   <!--Original value: Write additional antenna height info, including height type and offset-->
   <string name="check_event_format">Zapisz dodatkową wysokość anteny, łącznie z typem wysokości i offsetem</string>
+  <!--Original value: Accept Point-->
+  <string name="menu_accept">Akceptuj punkt</string>
   <!--Original value: WiFi-->
   <string name="string_wifi">WiFi</string>
   <!--Original value: BASE STATION-->
@@ -1587,8 +1729,12 @@ Opcja wyłączona w OAF!</string>
   <string name="string_wrong_frequency_">Błedna częstotliwość!</string>
   <!--Original value: Radio is connected to-->
   <string name="string_radio_is_connected_to">Radio połączono z</string>
+  <!--Original value: Warning-->
+  <string name="string_warning">Ostrzeżenie</string>
   <!--Original value: new RCV Base-->
   <string name="string_new_rcv_base">nowa baza RCV</string>
+  <!--Original value: Background File-->
+  <string name="string_background_file">Plik rastra</string>
   <!--Original value: Can\'t start logging to receiver file!-->
   <string name="string_can_t_start_logging_to_receiver_file_">Nie można rozpocząć zapisu do pliku!</string>
   <!--Original value: Compression-->
@@ -1602,28 +1748,34 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Solution\n-->
   <string name="text_solution_type">Rozwiązanie
 </string>
-  <!--Original value: Can\'t setup FH radio!-->
-  <string name="string_can_t_setup_fh_radio_">Nie można ustawić radia FH!</string>
   <!--Original value: Remain time:-->
   <string name="remain_time">Pozostały czas:</string>
+  <!--Original value: Can\'t setup FH radio!-->
+  <string name="string_can_t_setup_fh_radio_">Nie można ustawić radia FH!</string>
   <!--Original value: Next-->
   <string name="button_next">Dalej</string>
   <!--Original value: Login-->
   <string name="string_login">Login</string>
   <!--Original value: JOB NAME-->
   <string name="survey_job_name">NAZWA PROJEKTU</string>
+  <!--Original value: TS Points-->
+  <string name="string_ts_points">Punkty TS</string>
   <!--Original value: RCV status-->
   <string name="string_rcv_status">Status RCV</string>
+  <!--Original value: Survey Points-->
+  <string name="string_survey_points">Punkty GPS</string>
+  <!--Original value:  rejec.-->
+  <string name="epochs_reject">odrz.</string>
   <!--Original value: Radio setup error-->
   <string name="string_radio_setup_error">Błąd ustawień radia</string>
   <!--Original value: Position-->
   <string name="position">Pozycja</string>
   <!--Original value: Can\'t start surveying!-->
   <string name="cant_start_surveying">Nie można rozpocząć pomiaru!</string>
-  <!--Original value: SatSys-->
-  <string name="satsys">SysSat</string>
   <!--Original value: X:\nY:\nZ:-->
   <string name="x_y_z">X:\nY:\nZ:</string>
+  <!--Original value: SatSys-->
+  <string name="satsys">SysSat</string>
   <!--Original value: Stay till Stop-->
   <string name="string_stay_till_stop">Zatrzymaj ręcznie</string>
   <!--Original value: Next-->
@@ -1640,38 +1792,40 @@ Opcja wyłączona w OAF!</string>
   <string name="five_hz_mode">Tryb 5Hz</string>
   <!--Original value:   Id:-->
   <string name="string___id_">  Id:</string>
-  <!--Original value: NAN-->
+  <!--Original value: log-->
   <string name="cur_log_file">nn</string>
-  <!--Original value: Transparent protocol settings-->
-  <string name="transparent_protocol_parameters" />
   <!--Original value: Changing mode set failed!-->
   <string name="string_changing_mode_set_failed_">Zmiana trybu nie powiodła się!</string>
+  <!--Original value: Transparent protocol settings-->
+  <string name="transparent_protocol_parameters">Ustawienia protokołu</string>
   <!--Original value: Wrong measurements have been detected by RAIM-->
   <string name="string_wrong_measurements_have_been_detected_by_raim">System RAIM wykrył nieprawidłowy pomiar</string>
   <!--Original value: Fix, Float or DGPS-->
   <string name="string_fix__float_or_dgps">Fix, Float lub DGPS</string>
-  <!--Original value: P L1 & P L2 measurements are used in RTK processing-->
-  <string name="string_p_l1___p_l2_measurements_are_used_in_rtk_processing">Pomiary P L1 &amp; P L2 są używane przy RTK</string>
   <!--Original value: Starting radio…-->
   <string name="string_starting_radio___">Uruchamianie radia...</string>
+  <!--Original value: P L1 & P L2 measurements are used in RTK processing-->
+  <string name="string_p_l1___p_l2_measurements_are_used_in_rtk_processing">Pomiary P L1 &amp; P L2 są używane przy RTK</string>
   <!--Original value: UHF didn\'t start correction!-->
   <string name="string_uhf_didn_t_start_correction_">UHF nie emitue poprawek!</string>
   <!--Original value: Ant.-->
-  <string name="string_ant_" />
+  <string name="string_ant_">Ant.</string>
+  <!--Original value: Your hardware is limited compatible with RTK V6+!-->
+  <string name="string_your_hardware_is_limited_compatible_with_rtk_v6__">To urządzenie ma ograniczoną kompatybilność z RTK V6+!</string>
   <!--Original value: Ntrip Server-->
   <string name="string_ntrip_server">Server NTRIP</string>
   <!--Original value:  5Hz-->
-  <string name="string__5hz" />
-  <!--Original value: Apply-->
-  <string name="button_apply">Zastosuj</string>
+  <string name="string__5hz"> 5Hz</string>
   <!--Original value: Receiver: -->
   <string name="string_receiver__">Odbiornik:</string>
+  <!--Original value: Apply-->
+  <string name="button_apply">Zastosuj</string>
   <!--Original value: LAN-->
-  <string name="string_lan" />
+  <string name="string_lan">LAN</string>
   <!--Original value: NetHub Port-->
   <string name="nethub_port">Port NetHub</string>
   <!--Original value: Gallileo-->
-  <string name="check_gal" />
+  <string name="check_gal">Gallileo</string>
   <!--Original value: Along-->
   <string name="text_along">Wzdłuż</string>
   <!--Original value: IP Address:-->
@@ -1688,10 +1842,10 @@ Opcja wyłączona w OAF!</string>
   <string name="tcp_on">Tryb TCP</string>
   <!--Original value: Enable Low Power Mode-->
   <string name="enable_low_power_mode">Włącz tryb Low Power</string>
-  <!--Original value: WiFi SSID-->
-  <string name="wlan_ssid" />
   <!--Original value: Cut-->
   <string name="text_cut">Niżej</string>
+  <!--Original value: WiFi SSID-->
+  <string name="wlan_ssid">WiFi SSID</string>
   <!--Original value: Power Output to serial ports has turned off-->
   <string name="string_power_output_to_serial_ports_has_turned_off">Wyłączono zasilanie na porcie</string>
   <!--Original value: Password-->
@@ -1706,90 +1860,92 @@ Opcja wyłączona w OAF!</string>
   <string name="string_coarse_code_outlier_has_been_detected">Wykryto zgrubny kod poboczny</string>
   <!--Original value: Enable DGPS if no fixed/float-->
   <string name="string_enable_dgps">Używaj DGPS jeśli brak Fix/Float</string>
-  <!--Original value: Event-->
-  <string name="string_event">Zdarzenie</string>
   <!--Original value: Logging Rate-->
   <string name="logging_rate">Tempo zapisu</string>
+  <!--Original value: Event-->
+  <string name="string_event">Zdarzenie</string>
   <!--Original value: epochs collected-->
   <string name="epochs_collected2">epok zapisano</string>
-  <!--Original value: CTT-->
-  <string name="text_ctt">KURS</string>
   <!--Original value: Distance1-->
   <string name="string_distance1">Odl 1</string>
+  <!--Original value: CTT-->
+  <string name="text_ctt">KURS</string>
+  <!--Original value: Traverse-->
+  <string name="string_menu_offset_traverse">Poligon</string>
   <!--Original value: Distance2-->
   <string name="string_distance2">Odl 2</string>
-  <!--Original value: Traverse-->
-  <string name="string_menu_offset_traverse" />
   <!--Original value: Verify-->
   <string name="verify_mode">Tryb kontrolowany</string>
   <!--Original value: Can\'t activate 3G/GPRS!\n\n-->
   <string name="string_can_t_activate_3g_gprs__n_n">Nie można aktywować 3G/GPRS!\n\n</string>
   <!--Original value: TCPO E-->
-  <string name="correction_type_tcpo_e" />
-  <!--Original value: Orientation-->
-  <string name="text_orientation">Orientacja</string>
+  <string name="correction_type_tcpo_e">TCPO E</string>
   <!--Original value: Power Output to serial ports failed!-->
   <string name="string_power_output_to_serial_ports_failed_">Ustawienie zasilania na porcie nieudane! </string>
-  <!--Original value: TCPO C-->
-  <string name="correction_type_tcpo_c" />
+  <!--Original value: Orientation-->
+  <string name="text_orientation">Orientacja</string>
   <!--Original value: RTK Started OK-->
   <string name="string_rtk_started_ok">Rozpoczęto pomiar RTK</string>
+  <!--Original value: TCPO C-->
+  <string name="correction_type_tcpo_c">TCPO C</string>
   <!--Original value: TCPO D-->
-  <string name="correction_type_tcpo_d" />
+  <string name="correction_type_tcpo_d">TCPO D</string>
   <!--Original value: TCPO A-->
-  <string name="correction_type_tcpo_a" />
+  <string name="correction_type_tcpo_a">TCPO A</string>
   <!--Original value: TCPO B-->
-  <string name="correction_type_tcpo_b" />
+  <string name="correction_type_tcpo_b">TCPO B</string>
   <!--Original value: Angle is empty!-->
   <string name="string_angle_is_empty_">Pusty kąt!</string>
   <!--Original value: Battery B-->
   <string name="string_battery_b">Bateria B</string>
-  <!--Original value: Source with name \'%s\' already exists!-->
-  <string name="string_source_with_name___s__already_exists_">Źródło o nazwie \'%s\' już istnieje!</string>
   <!--Original value: Battery A-->
   <string name="string_battery_a">Bateria B</string>
+  <!--Original value: Source with name \'%s\' already exists!-->
+  <string name="string_source_with_name___s__already_exists_">Źródło o nazwie \'%s\' już istnieje!</string>
   <!--Original value: RCVBase Server -->
   <string name="string_rcvbase_server_">Server bazy RCV</string>
   <!--Original value: New Correction Source-->
   <string name="string_correction_source">Nowe źródło poprawek</string>
+  <!--Original value: AIM aux Port-->
+  <string name="string_aux_port">AIM aux Port</string>
   <!--Original value: Azimuth-->
   <string name="azimuth">Azymut</string>
-  <!--Original value: AIM aux Port-->
-  <string name="string_aux_port" />
-  <!--Original value: Pnt.Target-->
-  <string name="target_point_small">Cel</string>
+  <!--Original value: ASCII file *.txt-->
+  <string name="string_ascii_file___txt">ASCII file *.txt</string>
   <!--Original value:  with UHF radio-->
   <string name="string__with_uhf_radio">z radiomodemem UHF</string>
+  <!--Original value: Pnt.Target-->
+  <string name="target_point_small">Cel</string>
   <!--Original value: GSM radio error! (%s)-->
   <string name="string_gsm_radio_error____s_">Błąd GSM! (%s)</string>
   <!--Original value: Base distance-->
   <string name="string_base_distance">Odległość od bazy</string>
   <!--Original value: 1 minute-->
   <string name="minute">1 minuta</string>
-  <!--Original value: Mount Point-->
-  <string name="string_mount_point">Mount Point</string>
   <!--Original value: Side %1$d calibration progress is %2$d%%-->
   <string name="string_side__1_d_calibration_progress_is__2_d__">Postęp kalibracji strony %1$d wynosi %2$d%%</string>
+  <!--Original value: Mount Point-->
+  <string name="string_mount_point">Mount Point</string>
   <!--Original value: Use different name-->
   <string name="string_use_different_name">Użyj innej nazwy</string>
-  <!--Original value: RECEIVER SETUP-->
-  <string name="survey_receiver_setup">USTAWIENIA ODBIORNIKA</string>
   <!--Original value: Can\'t obtain current receiver time!-->
   <string name="cant_read_receivertime_to_program">Nie można uzyskać aktualnego czasu odbiornika!</string>
+  <!--Original value: RECEIVER SETUP-->
+  <string name="survey_receiver_setup">USTAWIENIA ODBIORNIKA</string>
   <!--Original value: UHF radio error! (%s)-->
   <string name="string_uhf_radio_error____s_">Błąd UHF! (%s)</string>
   <!--Original value: Height type-->
   <string name="antenna_height_type">Typ wysokości</string>
-  <!--Original value: :-->
-  <string name="text_comma" />
   <!--Original value: Target-->
   <string name="text_zoom_target">Cel</string>
+  <!--Original value: :-->
+  <string name="text_comma">:</string>
   <!--Original value: Distance1 is empty!-->
   <string name="string_distance1_is_empty_">Odl 1 jest pusta</string>
-  <!--Original value: Low Bluetooth/WiFi connection-->
-  <string name="bluetooth_quality">Słabe połączenie BT/WiFi</string>
   <!--Original value: Cancelled by user-->
   <string name="string_cancelled_by_user">Anulowane przez użytkownika</string>
+  <!--Original value: Low Bluetooth/WiFi connection-->
+  <string name="bluetooth_quality">Słabe połączenie BT/WiFi</string>
   <!--Original value: Can\'t store position-->
   <string name="string_can_t_store_position">Nie można zapisać pozycji</string>
   <!--Original value: Point\n-->
@@ -1802,16 +1958,20 @@ Opcja wyłączona w OAF!</string>
   <string name="text_left">Lewo</string>
   <!--Original value: Use Compass/Levels-->
   <string name="use_compass_and_levels">Używaj Kompasu/Libelli</string>
+  <!--Original value: Open Street Map-->
+  <string name="string_open_street_map">Open Street Map</string>
   <!--Original value: Z-->
-  <string name="text_z_map" />
+  <string name="text_z_map">Z</string>
   <!--Original value: DTT-->
   <string name="text_dtt_map">ODL</string>
   <!--Original value: Stop-->
-  <string name="button_stop_base" />
+  <string name="button_stop_base">Stop</string>
   <!--Original value: Get from Point-->
   <string name="button_get_from_point">Z punktu</string>
   <!--Original value: Height-->
   <string name="height">Wysokość</string>
+  <!--Original value: No epoch collected!-->
+  <string name="string_no_epoch_collected_">Nie zapisano ani jednej epoki!</string>
   <!--Original value: Left-->
   <string name="text_left_map">Lewo</string>
   <!--Original value: Across-->
@@ -1823,7 +1983,7 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Course-->
   <string name="text_course_map">Kurs</string>
   <!--Original value: RCV-->
-  <string name="string_rcv" />
+  <string name="string_rcv">RCV</string>
   <!--Original value: Trajectory %1$s is logging to file %2$s is in progress!-->
   <string name="string_trajectory__1_s_is_logging_to_file__2_s_is_in_progress_">Zapis krzywej %1$s do pliku %2$s w toku!</string>
   <!--Original value: Configure FH-->
@@ -1831,7 +1991,9 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Get from Receiver-->
   <string name="button_get_from_receiver">Z odbiornika</string>
   <!--Original value: Reset-->
-  <string name="reset_picture_string" />
+  <string name="reset_picture_string">Reset</string>
+  <!--Original value: %1$s %2$dbs FEC:%3$s Comp:%4$s-->
+  <string name="string__1_s__2_dbs_fec__3_s_comp__4_s">%1$s %2$dbs FEC:%3$s Comp:%4$s</string>
   <!--Original value: Target-->
   <string name="text_target">Cel</string>
   <!--Original value: NTT-->
@@ -1839,7 +2001,9 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Base Position-->
   <string name="base_position">Pozycja bazy</string>
   <!--Original value: GLONASS-->
-  <string name="check_glo" />
+  <string name="check_glo">GLONASS</string>
+  <!--Original value: Survey -->
+  <string name="string_survey_">Pomiar</string>
   <!--Original value: Stake out %1$s %2$s?-->
   <string name="string_stake_out__1_s__2_s_">Tyczyć %1$s %2$s?</string>
   <!--Original value: Configure RCV-->
@@ -1847,7 +2011,7 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Configure Ntrip-->
   <string name="string_configure_ntrip">Konfiguruj NTRIP</string>
   <!--Original value: X-->
-  <string name="text_x_map" />
+  <string name="text_x_map">X</string>
   <!--Original value: CTT-->
   <string name="text_ctt_map">KURS</string>
   <!--Original value: Stop reading from receiver-->
@@ -1867,19 +2031,21 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: sec-->
   <string name="string_sec">sek</string>
   <!--Original value: TextView-->
-  <string name="text_textview" />
-  <!--Original value: Capture-->
-  <string name="button01">Przechwyć</string>
+  <string name="text_textview">TextView</string>
   <!--Original value: What to do with %1$s %2$s?-->
   <string name="string_what_to_do_with__1_s__2_s_">Wykonaj akcję dla %1$s %2$s</string>
+  <!--Original value: Capture-->
+  <string name="button01">Przechwyć</string>
   <!--Original value: Right-->
   <string name="text_right_map">Prawo</string>
-  <!--Original value: Along-->
-  <string name="text_along_map">Wzdłuż</string>
   <!--Original value: File %1$s at %2$.1fsec-->
   <string name="string_file__1_s_at__2__1fsec">Plik %1$s - %2$.1fsek</string>
+  <!--Original value: Along-->
+  <string name="text_along_map">Wzdłuż</string>
   <!--Original value: Get from Receiver-->
   <string name="string_get_from_receiver">Z odbiornika</string>
+  <!--Original value: %1$s %2$dbs FEC:%3$s Cmpt:%4$s-->
+  <string name="string__1_s__2_dbs_fec__3_s_cmpt__4_s">%1$s %2$dbs FEC:%3$s Cmpt:%4$s</string>
   <!--Original value: Hello world!-->
   <string name="hello_world">Witaj świecie!</string>
   <!--Original value: Can\'t setup UHF radio! (Error=#%s)-->
@@ -1895,5 +2061,5 @@ Opcja wyłączona w OAF!</string>
   <!--Original value: Choose Picture-->
   <string name="choose_picture">Wybierz zdjęcie</string>
   <!--Original value: Y-->
-  <string name="text_y_map" />
+  <string name="text_y_map">Y</string>
 </resources>
