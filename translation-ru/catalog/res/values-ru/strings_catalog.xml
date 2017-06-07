@@ -21,8 +21,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Import-->
   <string name="action_import">Импорт</string>
-  <!--Original value: Catalog %s has been deleted-->
-  <string name="string_catalog__s_has_been_deleted">Каталог %s удален</string>
   <!--Original value: Search-->
   <string name="action_search">Поиск</string>
   <!--Original value: OK-->
@@ -33,18 +31,12 @@
   <string name="string_edit_catalog">Изменить каталог</string>
   <!--Original value: Delete Catalog-->
   <string name="string_delete_catalog">Удалить каталог</string>
-  <!--Original value: New Catalog-->
-  <string name="string_new_catalog">Создать каталог</string>
+  <!--Original value: point-->
+  <string name="string_point">точка</string>
   <!--Original value: Catalog %s-->
   <string name="string_catalog__s">Каталог %s</string>
-  <!--Original value: catalog-->
-  <string name="app_name">каталог</string>
-  <!--Original value: Add-->
-  <string name="action_add">Добавить</string>
-  <!--Original value: Select Catalog-->
-  <string name="string_select_catalog">Выбрать каталог</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Код</string>
+  <!--Original value: points-->
+  <string name="string_points">точек</string>
   <!--Original value: Search files…-->
   <string name="search_hint">Поиск файлов</string>
   <!--Original value: Catalog %1$s has been renamed to %2$s-->
@@ -53,42 +45,24 @@
   <string name="string_mapinfo___tab">MapInfo *.tab</string>
   <!--Original value: Delete %1$d filtered points (of %2$d)-->
   <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
-  <!--Original value: Can\'t delete catalog %s!-->
-  <string name="string_can_t_delete_catalog__s_">Не удалось удалить каталог %s!</string>
-  <!--Original value: catalog-->
-  <string name="string_catalog">каталог</string>
-  <!--Original value: catalogs-->
-  <string name="string_catalogs">каталога</string>
   <!--Original value: Description-->
   <string name="string_descriptionhint">Описание</string>
   <!--Original value: NetCAD *.ncn-->
   <string name="string_netcad___ncn">NetCAD *.ncn</string>
-  <!--Original value: View on Map-->
-  <string name="string_view_on_map">Показать на карте</string>
   <!--Original value: Coordinate System-->
   <string name="coordinate_system">Система Координат</string>
-  <!--Original value: Can\'t create catalog %s!-->
-  <string name="string_can_t_create_catalog__s_">Не удалось создать каталог %s!</string>
   <!--Original value: Sort-->
   <string name="action_sort">Сортировка</string>
-  <!--Original value: Google KML *.kml-->
-  <string name="string_google_kml___kml">Google KML *.kml</string>
   <!--Original value: Can\'t set CS %s-->
   <string name="string_can_t_set_cs__s">Не удалось установить СК %s</string>
-  <!--Original value: Modify Catalog-->
-  <string name="edit">Изменить Каталог</string>
-  <!--Original value: Map-->
-  <string name="action_map">Карта</string>
-  <!--Original value: Delete Catalog-->
-  <string name="button_delete_catalog">Удалить Каталог</string>
+  <!--Original value: Select Export Type-->
+  <string name="string_select_export_type">Выберите тип экспорта</string>
   <!--Original value: Calendar-->
   <string name="action_calendar">Календарь</string>
   <!--Original value: Create Catalog-->
   <string name="create">Новый каталог</string>
   <!--Original value: Catalog %s has been created-->
   <string name="string_catalog__s_has_been_created">Каталог %s успешно создан</string>
-  <!--Original value: Catalog-->
-  <string name="text_catalog">Каталог</string>
   <!--Original value: Catalog %s already exists!-->
   <string name="string_catalog__s_already_exists_">Каталог с именем %s уже сущестует!</string>
   <!--Original value: Delete %1$d selected points (of %2$d)-->
@@ -97,20 +71,56 @@
   <string name="button_catalog">Каталог </string>
   <!--Original value: Export-->
   <string name="action_export">Экспорт</string>
-  <!--Original value: Delete point-->
-  <string name="string_delete_point">Удалить точку</string>
   <!--Original value: Can\'t rename catalog %1$s to %2$s!-->
   <string name="string_can_t_rename_catalog__1_s_to__2_s_">Не удалось переименовать каталог %1$s в %2$s!</string>
   <!--Original value: Catalog name is empty!-->
   <string name="string_catalog_name_is_empty_">Пустое имя каталога!</string>
-  <!--Original value: AutoCad Drawing *.dxf-->
-  <string name="string_autocad_drawing___dxf">AutoCAD DXF *.dxf</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
   <!--Original value: Catalog name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Имя каталога слишком длинное!\nОграничение в 40 символов</string>
   <!--Original value: ASCII file *.txt-->
   <string name="string_ascii_file___txt">Текстовый файл *.txt</string>
+  <!--Original value: Catalog %s has been deleted-->
+  <string name="string_catalog__s_has_been_deleted">Каталог %s удален</string>
+  <!--Original value: Export-->
+  <string name="string_export">Экспорт</string>
+  <!--Original value: New Catalog-->
+  <string name="string_new_catalog">Создать каталог</string>
+  <!--Original value: catalog-->
+  <string name="app_name">каталог</string>
+  <!--Original value: Add-->
+  <string name="action_add">Добавить</string>
+  <!--Original value: Code-->
+  <string name="string_codehint">Код</string>
+  <!--Original value: Select Catalog-->
+  <string name="string_select_catalog">Выбрать каталог</string>
+  <!--Original value: Can\'t delete catalog %s!-->
+  <string name="string_can_t_delete_catalog__s_">Не удалось удалить каталог %s!</string>
+  <!--Original value: catalog-->
+  <string name="string_catalog">каталог</string>
+  <!--Original value: catalogs-->
+  <string name="string_catalogs">каталога</string>
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Показать на карте</string>
+  <!--Original value: Can\'t create catalog %s!-->
+  <string name="string_can_t_create_catalog__s_">Не удалось создать каталог %s!</string>
+  <!--Original value: Google KML *.kml-->
+  <string name="string_google_kml___kml">Google KML *.kml</string>
+  <!--Original value: Modify Catalog-->
+  <string name="edit">Изменить Каталог</string>
+  <!--Original value: Map-->
+  <string name="action_map">Карта</string>
+  <!--Original value: Delete Catalog-->
+  <string name="button_delete_catalog">Удалить Каталог</string>
+  <!--Original value: Catalog-->
+  <string name="text_catalog">Каталог</string>
+  <!--Original value: Delete point-->
+  <string name="string_delete_point">Удалить точку</string>
+  <!--Original value: AutoCad Drawing *.dxf-->
+  <string name="string_autocad_drawing___dxf">AutoCAD DXF *.dxf</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отменить</string>
   <!--Original value: Delete-->
   <string name="action_delete">Удалить</string>
   <string-array name="coordinate_system_array">
