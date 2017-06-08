@@ -21,66 +21,48 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Import-->
   <string name="action_import">Import</string>
-  <!--Original value: Catalog %s has been deleted-->
-  <string name="string_catalog__s_has_been_deleted">Katalog %s został usunięty</string>
   <!--Original value: Search-->
   <string name="action_search">Szukaj</string>
   <!--Original value: OK-->
   <string name="button_ok">OK</string>
+  <!--Original value: MapInfo *.mif-->
+  <string name="string_mapinfo___mif">MapInfo *.mif</string>
   <!--Original value: Edit Catalog-->
   <string name="string_edit_catalog">Edytuj Katalog</string>
   <!--Original value: Delete Catalog-->
   <string name="string_delete_catalog">Usuń Katalog</string>
-  <!--Original value: New Catalog-->
-  <string name="string_new_catalog">Nowy Katalog</string>
+  <!--Original value: point-->
+  <string name="string_point">punkt</string>
   <!--Original value: Catalog %s-->
   <string name="string_catalog__s">Katalog %s</string>
-  <!--Original value: catalog-->
-  <string name="app_name">latalog</string>
-  <!--Original value: Add-->
-  <string name="action_add">Dodaj</string>
-  <!--Original value: Select Catalog-->
-  <string name="string_select_catalog">Wybierz Katalog</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Kod</string>
+  <!--Original value: points-->
+  <string name="string_points">punkty</string>
   <!--Original value: Search files…-->
   <string name="search_hint">Szukaj plików…</string>
   <!--Original value: Catalog %1$s has been renamed to %2$s-->
   <string name="string_catalog__1_s_has_been_renamed_to__2_s">Nazwę katalogu %1$s zmieniono na %2$s</string>
+  <!--Original value: MapInfo *.tab-->
+  <string name="string_mapinfo___tab">MapInfo *.tab</string>
   <!--Original value: Delete %1$d filtered points (of %2$d)-->
   <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d punkt(y) (z %2$d)</string>
-  <!--Original value: Can\'t delete catalog %s!-->
-  <string name="string_can_t_delete_catalog__s_">Nie można usunąć katalogu %s!</string>
-  <!--Original value: catalog-->
-  <string name="string_catalog">katalog</string>
-  <!--Original value: catalogs-->
-  <string name="string_catalogs">katalogi</string>
   <!--Original value: Description-->
   <string name="string_descriptionhint">Opis</string>
-  <!--Original value: View on Map-->
-  <string name="string_view_on_map">Pokaż na Mapie</string>
+  <!--Original value: NetCAD *.ncn-->
+  <string name="string_netcad___ncn">NetCAD *.ncn</string>
   <!--Original value: Coordinate System-->
   <string name="coordinate_system">System współrzędnych</string>
-  <!--Original value: Can\'t create catalog %s!-->
-  <string name="string_can_t_create_catalog__s_">Nie można utworzyć katalogu %s!</string>
   <!--Original value: Sort-->
   <string name="action_sort">Sortuj</string>
   <!--Original value: Can\'t set CS %s-->
   <string name="string_can_t_set_cs__s">Nie można ustawić SW %s</string>
-  <!--Original value: Modify Catalog-->
-  <string name="edit">Modyfikuj</string>
-  <!--Original value: Map-->
-  <string name="action_map">Mapa</string>
-  <!--Original value: Delete Catalog-->
-  <string name="button_delete_catalog">Usuń Katalog</string>
+  <!--Original value: Select Export Type-->
+  <string name="string_select_export_type">Wybierz typ eksportu</string>
   <!--Original value: Calendar-->
   <string name="action_calendar">Kalendarz</string>
   <!--Original value: Create Catalog-->
   <string name="create">Utwórz katalog</string>
   <!--Original value: Catalog %s has been created-->
   <string name="string_catalog__s_has_been_created">Utworzono katalog %s</string>
-  <!--Original value: Catalog-->
-  <string name="text_catalog">Katalog</string>
   <!--Original value: Catalog %s already exists!-->
   <string name="string_catalog__s_already_exists_">Katalog %s już istnieje!</string>
   <!--Original value: Delete %1$d selected points (of %2$d)-->
@@ -89,8 +71,6 @@
   <string name="button_catalog">Katalog </string>
   <!--Original value: Export-->
   <string name="action_export">Eksport</string>
-  <!--Original value: Delete point-->
-  <string name="string_delete_point">Usuń punkt</string>
   <!--Original value: Can\'t rename catalog %1$s to %2$s!-->
   <string name="string_can_t_rename_catalog__1_s_to__2_s_">Nie można zmienić nazwy %1$s na %2$s!</string>
   <!--Original value: Catalog name is empty!-->
@@ -99,12 +79,54 @@
   <string name="string_close">Zamknij</string>
   <!--Original value: Catalog name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa przekracza dopuszczalne 40 znaków.</string>
+  <!--Original value: ASCII file *.txt-->
+  <string name="string_ascii_file___txt">ASCII file *.txt</string>
+  <!--Original value: Catalog %s has been deleted-->
+  <string name="string_catalog__s_has_been_deleted">Katalog %s został usunięty</string>
+  <!--Original value: Export-->
+  <string name="string_export">Eksport</string>
+  <!--Original value: New Catalog-->
+  <string name="string_new_catalog">Nowy Katalog</string>
+  <!--Original value: catalog-->
+  <string name="app_name">katalog</string>
+  <!--Original value: Add-->
+  <string name="action_add">Dodaj</string>
+  <!--Original value: Code-->
+  <string name="string_codehint">Kod</string>
+  <!--Original value: Select Catalog-->
+  <string name="string_select_catalog">Wybierz Katalog</string>
+  <!--Original value: Can\'t delete catalog %s!-->
+  <string name="string_can_t_delete_catalog__s_">Nie można usunąć katalogu %s!</string>
+  <!--Original value: catalog-->
+  <string name="string_catalog">katalog</string>
+  <!--Original value: catalogs-->
+  <string name="string_catalogs">katalogi</string>
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Pokaż na Mapie</string>
+  <!--Original value: Can\'t create catalog %s!-->
+  <string name="string_can_t_create_catalog__s_">Nie można utworzyć katalogu %s!</string>
+  <!--Original value: Google KML *.kml-->
+  <string name="string_google_kml___kml">Google KML *.kml</string>
+  <!--Original value: Modify Catalog-->
+  <string name="edit">Modyfikuj</string>
+  <!--Original value: Map-->
+  <string name="action_map">Mapa</string>
+  <!--Original value: Delete Catalog-->
+  <string name="button_delete_catalog">Usuń Katalog</string>
+  <!--Original value: Catalog-->
+  <string name="text_catalog">Katalog</string>
+  <!--Original value: Delete point-->
+  <string name="string_delete_point">Usuń punkt</string>
+  <!--Original value: AutoCad Drawing *.dxf-->
+  <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
   <!--Original value: Delete-->
   <string name="action_delete">Usuń</string>
   <string-array name="coordinate_system_array">
     <!--Original value: WGS 84-->
     <item>WGS 84</item>
     <!--Original value: Local-->
-    <item>Local</item>
+    <item>Lokalny</item>
   </string-array>
 </resources>

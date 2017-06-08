@@ -374,6 +374,14 @@
     <item>transparent</item>
     <!--Original value: satel-->
     <item>satel</item>
+    <!--Original value: trimtalk450s-->
+    <item />
+    <!--Original value: tt450shw-->
+    <item />
+    <!--Original value: trimmarkII-->
+    <item />
+    <!--Original value: trimmark3-->
+    <item />
   </string-array>
   <string-array name="simplex_modulations">
     <!--Original value: dbpsk-->
@@ -483,9 +491,21 @@
     <!--Original value: Bluetooth B-->
     <item>Bluetooth B</item>
   </string-array>
+  <string-array name="connected_to_array_radio_sigma">
+    <!--Original value: Bluetooth B-->
+    <item>Bluetooth B</item>
+    <!--Original value: Serial B-->
+    <item>Serial B</item>
+    <!--Original value: Internal radio-->
+    <item>Internal radio</item>
+  </string-array>
   <string-array name="connected_to_array_csd_triumph1">
     <!--Original value: Internal GSM-->
     <item>Wewnętrzny GSM</item>
+  </string-array>
+  <string-array name="connected_to_array_csd_sigma">
+    <!--Original value: Internal GSM-->
+    <item>Internal GSM</item>
   </string-array>
   <string-array name="connected_to_array_internet">
     <!--Original value: the Android device-->
@@ -514,6 +534,14 @@
     <item>WiFi</item>
     <!--Original value: 3G GISMORE-->
     <item>3G GISMORE</item>
+  </string-array>
+  <string-array name="connected_to_array_internet_sigma">
+    <!--Original value: the Android device-->
+    <item>Android</item>
+    <!--Original value: WiFi-->
+    <item>WiFi</item>
+    <!--Original value: 3G Sigma-->
+    <item>3G Sigma</item>
   </string-array>
   <string-array name="fh_output_power">
     <!--Original value: 0.020W / 13dBm-->
@@ -851,8 +879,80 @@
   </string-array>
   <string-array name="charging_mode_array">
     <!--Original value: Auto-->
-    <item />
+    <item>Auto</item>
     <!--Original value: Off-->
     <item>Wył</item>
+  </string-array>
+  <string-array name="trimtalk450s_modulations">
+    <!--Original value: gmsk-->
+    <item>gmsk</item>
+  </string-array>
+  <string-array name="trimtalk450s_spacings">
+    <!--Original value: 12500-->
+    <item>12500</item>
+    <!--Original value: 25000-->
+    <item>25000</item>
+  </string-array>
+  <string-array name="tt450shw_modulations">
+    <!--Original value: gmsk-->
+    <item>gmsk</item>
+  </string-array>
+  <string-array name="tt450shw_spacings">
+    <!--Original value: 12500-->
+    <item>12500</item>
+    <!--Original value: 25000-->
+    <item>25000</item>
+  </string-array>
+  <string-array name="trimmarkII_modulations">
+    <!--Original value: gmsk-->
+    <item>gmsk</item>
+  </string-array>
+  <string-array name="trimmarkII_spacings">
+    <!--Original value: 12500-->
+    <item>12500</item>
+    <!--Original value: 25000-->
+    <item>25000</item>
+  </string-array>
+  <string-array name="trimmark3_modulations">
+    <!--Original value: gmsk-->
+    <item>gmsk</item>
+  </string-array>
+  <string-array name="trimmark3_spacings">
+    <!--Original value: 12500-->
+    <item>12500</item>
+    <!--Original value: 25000-->
+    <item>25000</item>
+  </string-array>
+  <string-array name="minimal_rtk_array">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+    <!--Original value: 4-->
+    <item>4</item>
+    <!--Original value: 5-->
+    <item>5</item>
+    <!--Original value: 6-->
+    <item>6</item>
+  </string-array>
+  <string-array name="minial_rtk_values_array">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+    <!--Original value: 4-->
+    <item>4</item>
+    <!--Original value: 5-->
+    <item>5</item>
+    <!--Original value: 6-->
+    <item>6</item>
   </string-array>
 </resources>
