@@ -45,8 +45,6 @@
     <string name="string_base_station__no_connection">Bázis állomás: Nincs kapcsolat</string>
     <!-- Used in file receiver_info.xml:14 -->
     <string name="receiver_processor_freq">Processor frekvencia, MHz</string>
-    <!-- Used in file activity_surveying_sng.xml:245 -->
-    <string name="lat_lon_hgt"></string>
     <!-- Used in file CalibrationActivity.java:482 -->
     <string name="string_level_offsets_are_cleared">Level Offsets are cleared</string>
     <!-- Used in file RCVBasePreferenceFragment.java:384 -->
@@ -228,7 +226,7 @@
     <!-- Used in file StartSurveyActivity.java:423 -->
     <string name="string_receiver_file_already_exists">A vevőfile már létezik</string>
     <!-- Used in file receiver_info.xml:15 -->
-    <string name="receiver_board_temp">Vevő alaplap belső hőmérséklete</string>
+    <string name="receiver_board_temp">Vevő alaplap belső hőmérséklete,\u00b0C</string>
     <!-- Used in file SurveyModel.java:601 -->
     <string name="string_vert_">vert.</string>
     <!-- Used in file offset_survey.xml:101 -->
@@ -733,8 +731,6 @@
     <string name="survey_job_name2">Munka neve</string>
     <!-- Used in file source_table_row_header_dark.xml:127 -->
     <string name="bitrate">Bitrate</string>
-    <!-- Used in file UHFPreferenceFragment.java:505 -->
-    <string name="string_wrong_frequency__nfrequency_should_be_from__1_f_to__2_f">Wrong frequency!\nFrequency should be from %1$f to %2$f</string>
     <!-- Used in file UHFPreferenceFragment.java:252 -->
     <string name="string_s_n_">Gy.sz.:</string>
     <!-- Used in file descriptions.xml:6 -->
@@ -862,7 +858,7 @@
     <!-- Used in file ConfigureUHFActivity.java:364 -->
     <string name="string_wrong_frequency__nfrequency_should_be_from__1_f_to__2_f">Wrong frequency!\nFrequency should be from %1$f to %2$f</string>
     <!-- Used in file survey_settings.xml:92 -->
-    <string name="use_compass">Use Compass</string>
+    <string name="use_compass_and_levels">Use Compass</string>
     <!-- Used in file rtk_rover_start.xml:15 -->
     <string name="survey_start_station2">Start Station</string>
     <!-- Used in file RTKBaseSettingsFragment.java:1067 -->
@@ -1176,7 +1172,7 @@
     <!-- Used in file RTKBaseSettingsFragment.java:676 -->
     <string name="string__internet_via_android"> Internet Android-on</string>
     <!-- Used in file status_bar.xml:119 -->
-    <string name="cur_log_file"></string>
+    <string name="cur_log_file">cur log</string>
     <!-- Used in file activity_calibrate.xml:45 -->
     <string name="start_compass_calibration">Start\nCompass\nCalibration</string>
     <!-- Used in file ReceiverInfoActivity.java:23 -->
@@ -1222,7 +1218,7 @@
     <!-- Used in file CorrectionSources.java:373 -->
     <string name="string_ip_address_">IP cím:</string>
     <!-- Used in file status_bar.xml:101 -->
-    <string name="link_quality"></string>
+    <string name="link_quality">LQ</string>
     <!-- Used in file rtk_base.xml:64 -->
     <string name="get_from_receiver">Vétel a vevőről</string>
     <!-- Used in file CorrectionSources.java:428 -->
@@ -1262,7 +1258,7 @@
     <!-- Used in file CorrectionSources.java:327 -->
     <string name="string_frule_">FRule:</string>
     <!-- Used in file DrawLevels.java:106 -->
-    <string name="top_view_string3"></string>
+    <string name="top_view_string3">top</string>
     <!-- Used in file RTKBaseSettingsFragment.java:492 -->
     <string name="string_base_station__">Bázis állomás: </string>
     <!-- Used in file DrawLevels.java:105 -->
@@ -1457,78 +1453,6 @@
     <string name="string_cancel">Mégsem</string>
     <!-- Used in file survey_settings.xml:41 -->
     <string name="antenna_height_summary">This allows you to enter a string</string>
-    <!-- UNUSED STRING -->
-    <string name="text_z_map">Z</string>
-    <!-- UNUSED STRING -->
-    <string name="text_x_map">X</string>
-    <!-- UNUSED STRING -->
-    <string name="text_dtt_map">Táv</string>
-    <!-- UNUSED STRING -->
-    <string name="button_stop_base">Stop</string>
-    <!-- UNUSED STRING -->
-    <string name="text_ctt_map">Ir.</string>
-    <!-- UNUSED STRING -->
-    <string name="string_stop_reading_from_receiver">Stop reading from receiver</string>
-    <!-- UNUSED STRING -->
-    <string name="button_get_from_point">Get from Point</string>
-    <!-- UNUSED STRING -->
-    <string name="height">Magasság</string>
-    <!-- UNUSED STRING -->
-    <string name="text_left_map">Bal</string>
-    <!-- UNUSED STRING -->
-    <string name="wlan_password">Gateway</string>
-    <!-- UNUSED STRING -->
-    <string name="correction_destination">Corrections to</string>
-    <!-- UNUSED STRING -->
-    <string name="text_across_map">Across</string>
-    <!-- UNUSED STRING -->
-    <string name="base_name">Bázis név</string>
-    <!-- UNUSED STRING -->
-    <string name="string_can_t_convert_to_current_working_system_">Can\'t convert to current working system!</string>
-    <!-- UNUSED STRING -->
-    <string name="text_ett_map">dK</string>
-    <!-- UNUSED STRING -->
-    <string name="text_course_map">Irány</string>
-    <!-- UNUSED STRING -->
-    <string name="string_rcv">RCV</string>
-    <!-- UNUSED STRING -->
-    <string name="string_configure_fh">Configure FH</string>
-    <!-- UNUSED STRING -->
-    <string name="string_sec">mp</string>
-    <!-- UNUSED STRING -->
-    <string name="text_textview">TextView</string>
-    <!-- UNUSED STRING -->
-    <string name="button_get_from_receiver">Vétel vevőről</string>
-    <!-- UNUSED STRING -->
-    <string name="text_right_map">Jobb</string>
-    <!-- UNUSED STRING -->
-    <string name="string_file__1_s_at__2__1fsec">Vevőfile %1$s : %2$.1fmp</string>
-    <!-- UNUSED STRING -->
-    <string name="text_along_map">Along</string>
-    <!-- UNUSED STRING -->
-    <string name="text_target">Cél</string>
-    <!-- UNUSED STRING -->
-    <string name="string_get_from_receiver">Vétel vevőről</string>
-    <!-- UNUSED STRING -->
-    <string name="string_can_t_setup_uhf_radio___error___d_">Nem lehet beállítani az URH rádiót! (Error=#%s)</string>
-    <!-- UNUSED STRING -->
-    <string name="string_configure_uhf">URH konfigurálás</string>
-    <!-- UNUSED STRING -->
-    <string name="text_cut_map">Vág</string>
-    <!-- UNUSED STRING -->
-    <string name="text_ntt_map">dÉ</string>
-    <!-- UNUSED STRING -->
-    <string name="base_position">Bázis pozíció</string>
-    <!-- UNUSED STRING -->
-    <string name="base_connected_to">Csatlakoztatva</string>
-    <!-- UNUSED STRING -->
-    <string name="check_glo">GLONASS</string>
-    <!-- UNUSED STRING -->
-    <string name="string_configure_rcv">Configure RCV</string>
-    <!-- UNUSED STRING -->
-    <string name="string_configure_ntrip">Configure Ntrip</string>
-    <!-- UNUSED STRING -->
-    <string name="text_y_map">Y</string>
     <string name="nethub_on">NetHub Mode</string>
     <string name="nethub_address">NetHub Address</string>
     <string name="nethub_port">NetHub Port</string>

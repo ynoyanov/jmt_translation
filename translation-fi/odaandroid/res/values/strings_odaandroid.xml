@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Main!</string>
+    <!-- Used in file preferences_a.xml:10 -->
+    <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
+    <!-- Used in file preferences_a.xml:5 -->
+    <string name="folder_depth_summary">If enabled, all files found in subfolders will be shown</string>
+    <!-- Used in file preferences_a.xml:9 -->
+    <string name="file_extension_title">File Extensions</string>
+    <!-- Used in file TeighaDwgActivity.java:61 -->
+    <string name="string_loading__s_file___">Loading %s file&#8230;</string>
+    <!-- Used in file main_menu.xml:3 -->
     <string name="settings">Settings</string>
+    <!-- Used in file TeighaDwgActivity.java:61 -->
+    <string name="string_please_wait">Please wait</string>
+    <!-- Used in file preferences_a.xml:4 -->
+    <string name="folder_depth_title">Read folders recursefly</string>
+    <!-- Used in file AndroidManifest.xml:23 -->
     <string name="app_name">OdaAndroidApp</string>
 
-    <string name="folder_depth_title">Read folders recursefly</string>
-    <string name="folder_depth_summary">If enabled, all files found in subfolders will be shown</string>
     
-    <string name="category">File Extensions</string>
-    <string name="category_title">Files with selected extensions will be available for opening</string>
-
-   <string name="file_extension_title">File Extensions</string>
-   <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
-   <string-array name="file_extension_entries">
+    <string-array name="file_extension_entries">
         <item>.dwg</item>
         <item>.dxf</item>
         <item>.dwf</item>

@@ -38,6 +38,10 @@
     <string name="string_firmware_update_error_">Firmware update error!</string>
     <!-- Used in file fragment_resets.xml:17 -->
     <string name="clear_nvram_summary">Crear all receiver settings to default values</string>
+    <!-- Used in file ResetFragment.java:113 -->
+    <string name="string_file_system_cleared_">File System Cleared!</string>
+    <!-- Used in file ResetFragment.java:165 -->
+    <string name="string_rtk_reset_">RTK reset!</string>
     <!-- Used in file ResetFragment.java:160 -->
     <string name="string_this_will_drop_rtk_solution">This will drop RTK solution</string>
     <!-- Used in file FirmwareUpdateActivity.java:142 -->
@@ -52,6 +56,8 @@
     <string name="string_unpacking___">Unpacking&#8230;</string>
     <!-- Used in file ResetFragment.java:134 -->
     <string name="string_do_you_want_to_reset_receiver_">Do you want to reset receiver?</string>
+    <!-- Used in file ResetFragment.java:87 -->
+    <string name="string_init_parameters_">Init Parameters!</string>
     <!-- Used in file fragment_resets.xml:46 -->
     <string name="update_firmware_summary">Upfate receiver firmware from file or from Web</string>
     <!-- Used in file fragment_resets.xml:17 -->
@@ -86,16 +92,16 @@
     <string name="update_oaf_summary">Upfate receiver options(OAF) from file or from Web</string>
     <!-- Used in file ResetActivity.java:96 -->
     <string name="string_connected_to_receiver">Connected to receiver</string>
-    <!-- Used in file ResetFragment.java:107 -->
-    <string name="string_clear_file_system">Clear File System</string>
     <!-- Used in file OAFUpdateActivity.java:220 -->
     <string name="string_checking_oaf___">Checking OAF&#8230;</string>
     <!-- Used in file fragment_resets.xml:42 -->
     <string name="restore_settings">Restore Receiver Settings</string>
-    <!-- Used in file ResetFragment.java:82 -->
-    <string name="string_this_will_reset_all_parameters_to_default_values_">This will reset all parameters to default values.</string>
+    <!-- Used in file ResetFragment.java:107 -->
+    <string name="string_clear_file_system">Clear File System</string>
     <!-- Used in file AndroidManifest.xml:13 -->
     <string name="app_name">update</string>
+    <!-- Used in file ResetFragment.java:82 -->
+    <string name="string_this_will_reset_all_parameters_to_default_values_">This will reset all parameters to default values.</string>
     <!-- Used in file FirmwareUpdateActivity.java:338 -->
     <string name="string_firmware_have_successfully_updated">Firmware have successfully updated</string>
     <!-- Used in file fragment_resets.xml:30 -->
@@ -160,7 +166,5 @@
     <string name="check_oaf_at_every_connection">Check OAF at every connection</string>
     <!-- Used in file ResetFragment.java:308 -->
     <string name="string_save_receiver_settings">Save receiver settings</string>
-    <!-- UNUSED STRING -->
-    <string name="string_oaf_successfully_updated">OAF Successfully Updated</string>
     
 </resources>

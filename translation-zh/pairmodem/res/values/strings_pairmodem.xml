@@ -91,8 +91,6 @@
     <string name="string_your_radio_is">Your radio is</string>
     <!-- Used in file RepeaterActivity.java:332 -->
     <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Frequency should be from %1$dHz to %2$dHz</string>
-    <!-- Used in file RepeaterActivity.java:355 -->
-    <string name="string_power_should_be_from__1__2w__2_ddbm__to__3__2w__4_ddbm_">Power should be from %1$.2W(%2$ddBm) to %3$.2W(%4$ddBm)</string>
     <!-- Used in file PairModemActivity.java:124 -->
     <string name="string_modem_already_paired">Modem already paired</string>
     <!-- Used in file AndroidManifest.xml:25 -->
@@ -141,6 +139,8 @@
     <string name="rtr_echo">RTR Echo</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:446 -->
     <string name="string_can_t_read_radio_info">Can\'t read radio info</string>
+    <!-- Used in file RepeaterActivity.java:355 -->
+    <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
     <!-- Used in file activity_repeater.xml:224 -->
     <string name="button_apply">Apply</string>
     <!-- Used in file activity_find_repeater.xml:16 -->
@@ -177,10 +177,4 @@
     <string name="button_read_from_radio">From Radio</string>
     <!-- Used in file RepeaterActivity.java:294 -->
     <string name="string_wrong_tx_frequecy_">Wrong TX frequecy!</string>
-    <!-- UNUSED STRING -->
-    <string name="title_activity_connection_configurations">Connection Configuration</string>
-    <!-- UNUSED STRING -->
-    <string name="string_do_you_want_ot_load_firmware_">Do you want ot load firmware?</string>
-    <!-- UNUSED STRING -->
-    <string name="frequency_hz">Frequency, Hz</string>
 </resources>

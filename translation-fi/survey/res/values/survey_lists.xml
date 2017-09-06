@@ -316,7 +316,18 @@
         <item>Bluetooth B</item>
  		</string-array>
  
+ <string-array name="connected_to_array_radio_sigma">
+        <item>Bluetooth B</item>
+        <item>Serial B</item>
+        <item>Internal radio</item>
+ 		</string-array>
+ 
+ 
  <string-array name="connected_to_array_csd_triumph1">
+        <item>Internal GSM</item>
+ 		</string-array>
+ 
+ <string-array name="connected_to_array_csd_sigma">
         <item>Internal GSM</item>
  		</string-array>
  
@@ -342,6 +353,11 @@
         <item>3G GISMORE</item>
  		</string-array>
  
+ <string-array name="connected_to_array_internet_sigma">
+        <item>the Android device</item>
+        <item>WiFi</item>
+        <item>3G Sigma</item>
+ 		</string-array>
  
  <string-array name="fh_output_power">
         <item>0.020W / 13dBm</item>
@@ -623,6 +639,27 @@
 	<string-array name="trimmark3_spacings">
         <item>12500</item>
         <item>25000</item>
+    </string-array>
+
+	
+	<string-array name="minimal_rtk_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+		
+	<string-array name="minial_rtk_values_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
 </resources>
