@@ -135,14 +135,6 @@
  				</string-array>
 
 
-<string-array name="correction_type_array">
-        <item>cmd</item>
-    	<item>rtcm3</item>
-    	<item>rtcm</item>
-    	<item>cmr</item>
-        <item>jps</item>
-        </string-array>
-
 <string-array name="use_epoch_array">
         <item>только RTK Fixed</item>
     	<item>Fixed, Float или DGPS</item>
@@ -208,49 +200,6 @@
     	<item>RTCM 2.x DGPS</item>
     	</string-array>
 
-<string-array name="uhf_protocols">
-        <item>simplex</item>
-        <item>transparent</item>
-        <item>satel</item>
-        </string-array>
-
-<string-array name="simplex_modulations">
-        <item>dbpsk</item>
-        <item>dqpsk</item>
-        <item>d8psk</item>
-        <item>d16qam</item>
-        </string-array>
-
-<string-array name="simplex_spacings">
-        <item>6250</item>
-        <item>12500</item>
-        <item>20000</item>
-        <item>25000</item>
-        </string-array>
-
-
-<string-array name="fh_zones">
-        <item>usa</item>
-        <item>aus</item>
-        <item>eu</item>
-        </string-array>
-
-<string-array name="fh_protocols">
-        <item>simplex</item>
-        </string-array>
-
-<string-array name="fh_modulcations">
-        <item>gmsk</item>
-        </string-array>
-        
- <string-array name="rcv_login_array">
-        <item>Default</item>
-        <item>a</item>
-        <item>b</item>
-        <item>c</item>
-        <item>d</item>
-        <item>e</item>
-        </string-array>
 
  <string-array name="connected_to_array">
         <item>Модем на Bluetooth B</item>
@@ -419,32 +368,6 @@
     
         
 
-    <string-array name="freqRuleUsaArray">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-    </string-array>
-    <string-array name="freqRuleAusArray">
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-    </string-array>
-
-
     <string-array name="base_correction_period_5_array">
         <item>1 Гц</item>
         <item>2 Гц</item>
@@ -501,13 +424,6 @@
 		<item>Сервер</item>
 	</string-array>
 
-	<string-array name="aux_port_array">
-        <item>dev/ser/a</item>
-        <item>dev/ser/b</item>
-        <item>dev/ser/c</item>
-        <item>dev/ser/d</item>
-        </string-array>
- 
 	<string-array name="stakeout_line_offset_rl">
         <item>R</item>
         <item>L</item>
