@@ -21,6 +21,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: WiFi SSID is -->
   <string name="string_wifi_ssid_is_">WiFi SSID jest</string>
+  <!--Original value: Network Port:-->
+  <string name="string_network_port_">Port:</string>
   <!--Original value: This will use your WiFi settings to reprogram your receiver for WiFi connection.-->
   <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">Spowoduje to wykorzystanie Twoich ustawień WiFi do przeprogramowania połączenia WiFi odbiornika.</string>
   <!--Original value: Reprogram WiFi for iPhone/iPad-->
@@ -35,6 +37,8 @@
   <string name="string_delete_entry">Usuń wpis</string>
   <!--Original value: Mobile HotSpot is -->
   <string name="string_mobile_hotspot_is_">Mobilny HotSpot jest</string>
+  <!--Original value: Password-->
+  <string name="string_password">Hasło</string>
   <!--Original value: Build-->
   <string name="string_build">Kompilacja</string>
   <!--Original value:  (;©) Copyright JAVAD GNSS 2017-->
@@ -53,16 +57,20 @@
   <string name="ethernet_radio">Sieć</string>
   <!--Original value: Exit application-->
   <string name="string_exit_application">Przerwij konfigurację</string>
+  <!--Original value: Login-->
+  <string name="string_login">Login</string>
   <!--Original value: - - -without receiver- - - -->
   <string name="string_without_receiver">---bez odbiornika---</string>
   <!--Original value: Version 1.0.9 build 25 June 2014-->
   <string name="string_version">Version 1.0.9 build 25 June 2014</string>
-  <!--Original value: Set receiver WiFi AdHoc mode for iPhone-->
-  <string name="button_wifi_iphone_reconnect">Ustaw odbiornik w trybie WiFi AdHoc</string>
   <!--Original value: Are you sure you want to delete %d configurations?-->
   <string name="string_are_you_sure_you_want_to_delete__d_configurations_">Czy na pewno usunąć konfigurację %d?</string>
+  <!--Original value: Set receiver WiFi AdHoc mode for iPhone-->
+  <string name="button_wifi_iphone_reconnect">Ustaw odbiornik w trybie WiFi AdHoc</string>
   <!--Original value: This will switch your JAVAD GNSS receiver WiFi into AdHoc mode.-->
   <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">Spowoduje to przełączenie odbiornika Javad GNSS w tryb WiFi AdHoc.</string>
+  <!--Original value: IP Address-->
+  <string name="string_ip_address">Adres IP</string>
   <!--Original value: WiFi\n(Mob.AP)-->
   <string name="wifi_ap_radio">WiFi (Mobile AP)</string>
   <!--Original value: Configuration could not be read-->
@@ -109,20 +117,20 @@
   <string name="string_ver">Wersja  </string>
   <!--Original value: Password length must be 8 chars!-->
   <string name="string_password_length_must_be_8_chars_">Minimalna długość hasła to 8 znaków!</string>
-  <!--Original value: Are you sure you want to delete configuration \-->
-  <string name="string_are_you_sure_you_want_to_delete_configuration__">Czy na pewno usunąć konfigurację \</string>
   <!--Original value: Rename-->
   <string name="string_rename">Zmiana nazwy</string>
+  <!--Original value: Are you sure you want to delete configuration \-->
+  <string name="string_are_you_sure_you_want_to_delete_configuration__">Czy na pewno usunąć konfigurację \</string>
   <!--Original value: Are you sure you want to delete this entry?-->
   <string name="string_are_you_sure_you_want_to_delete_this_entry_">Czy na pewno usunąć ten wpis?</string>
-  <!--Original value: AP -->
-  <string name="string_ap_">AP </string>
   <!--Original value: Configuration with name %s already exist!-->
   <string name="string_configuration_with_name__s_already_exist_">Konfiguracja o nazwie %s już istnieje!</string>
-  <!--Original value: New-->
-  <string name="string_new">Nowy</string>
+  <!--Original value: AP -->
+  <string name="string_ap_">AP </string>
   <!--Original value: WiFi-->
   <string name="string_wifi">WiFi</string>
+  <!--Original value: New-->
+  <string name="string_new">Nowy</string>
   <!--Original value: Settings-->
   <string name="action_settings">Ustawienia</string>
   <!--Original value: Are you sure you want to delete configurations:\n-->
@@ -131,26 +139,22 @@
   <string name="wifi_radio">WiFi</string>
   <!--Original value: wifi is disabled… making it enabled-->
   <string name="string_wifi_is_disabled____making_it_enabled">wifi wyłączone… włączanie </string>
-  <!--Original value: About-->
-  <string name="action_about">About</string>
   <!--Original value: Delete-->
   <string name="string_delete">Usuń</string>
-  <!--Original value: WiFi password is %s.-->
-  <string name="string_wifi_password_is__s_">Hasło WiFi to %s.</string>
+  <!--Original value: About-->
+  <string name="action_about">About</string>
   <!--Original value: - - - select a configuration - - - -->
   <string name="string_select_configuration">--- wybierz konfigurację --- </string>
+  <!--Original value: WiFi password is %s.-->
+  <string name="string_wifi_password_is__s_">Hasło WiFi to %s.</string>
   <!--Original value: Reconnect with WiFi using external AP-->
   <string name="button_wifi_network_reconnect">Połącz z WiFi używając zewnętrznego AP</string>
-  <!--Original value: Connection to receiver:-->
-  <string name="text_connection">Połączenie z serwerem:</string>
   <!--Original value: Net-->
   <string name="string_net">Sieć</string>
-  <!--Original value: Edit-->
-  <string name="string_edit">Edycja</string>
-  <!--Original value: UnTranslate-->
-  <string name="string_untranslate">UnTranslate</string>
-  <!--Original value: Translate-->
-  <string name="string_translate">Translate</string>
+  <!--Original value: Connection to receiver:-->
+  <string name="text_connection">Połączenie z odbiornikiem:</string>
+  <!--Original value: CONNECT-->
+  <string name="string_connect">POŁĄCZ</string>
   <string-array name="login_array">
     <!--Original value: Default-->
     <item>Domyślny</item>
@@ -183,4 +187,10 @@
     <!--Original value: Without login-->
     <item>Bez loginu</item>
   </string-array>
+  <!--Original value: -->
+  <string name="">Edycja</string>
+  <!--Original value: -->
+  <string name="">UnTranslate</string>
+  <!--Original value: -->
+  <string name="">Translate</string>
 </resources>
