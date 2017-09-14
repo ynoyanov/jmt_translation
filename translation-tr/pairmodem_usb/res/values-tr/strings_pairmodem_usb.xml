@@ -1,2 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources><string name="pair_info">The radio is paired to receiver with BT Address XX.XX.XX.XX.XX</string><string name="modem_info">HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n</string><string name="title_activity_connection">Bağlantı</string><string name="title_activity_connection_configurations">Bağlantı ayarları</string><string name="app_name">Eşlenen HPT Modem</string><string name="title_activity_about">Hakkında</string><string name="button_pair">HPT Radio ile eşlenen Alıcı</string><string name="button_unpair">HPT Radio Eşleşme kesildi</string><string name="baudrate">Baud rate</string><string name="button_upload_firmware">Upload Firmware</string><string-array name="baud_rate_1"><item>300</item><item>600</item><item>1200</item><item>4800</item><item>9600</item><item>19200</item><item>38400</item><item>57600</item><item>115200</item><item>230400</item><item>460800</item><item>921600</item></string-array><string-array name="baud_rate_2"><item>300</item><item>600</item><item>1200</item><item>4800</item><item>9600</item><item>19200</item><item>38400</item><item>57600</item><item>115200</item></string-array><string-array name="stop_bits"><item>1</item><item>2</item></string-array><string-array name="data_bits"><item>7</item><item>8</item></string-array><string-array name="parity"><item>None</item><item>Odd</item><item>Even</item><item>Mark</item><item>Space</item></string-array><string-array name="flow_control"><item>None</item><item>CTS/RTS</item><item>DTR/DSR</item><item>XOFF/XON</item></string-array><string-array name="port_list_1"><item>0</item></string-array><string-array name="port_list_2"><item>0</item><item>1</item></string-array><string-array name="port_list_3"><item>0</item><item>1</item><item>2</item></string-array><string-array name="port_list_4"><item>0</item><item>1</item><item>2</item><item>3</item></string-array><string-array name="port_list_5"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item></string-array><string-array name="port_list_6"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></string-array><string-array name="port_list_7"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item></string-array><string-array name="port_list_8"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></string-array></resources>
+<resources>
+<string name="pair_info">Radyo, BT Adresi ile alıcıyla eşleştirilir XX.XX.XX.XX.XX</string>
+<string name="modem_info">HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n</string>
+<string name="title_activity_connection">Bağlantı</string>
+<string name="title_activity_connection_configurations">Bağlantı Ayarları</string>
+<string name="app_name">HPT Modem Eşleştir</string>
+<string name="title_activity_about">Hakkında</string>
+<string name="button_pair">HPT Radio ile Alıcıyı eşleştir</string>
+<string-array name="baud_rate_1">
+<item>300</item>
+<item>600</item>
+<item>1200</item>
+<item>4800</item>
+<item>9600</item>
+<item>19200</item>
+<item>38400</item>
+<item>57600</item>
+<item>115200</item>
+<item>230400</item>
+<item>460800</item>
+<item>921600</item>
+</string-array>
+<string-array name="baud_rate_2">
+<item>300</item>
+<item>600</item>
+<item>1200</item>
+<item>4800</item>
+<item>9600</item>
+<item>19200</item>
+<item>38400</item>
+<item>57600</item>
+<item>115200</item>
+</string-array>
+<string-array name="stop_bits">
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="data_bits">
+<item>7</item>
+<item>8</item>
+</string-array>
+<string-array name="parity">
+<item>None</item>
+<item>Odd</item>
+<item>Even</item>
+<item>Mark</item>
+<item>Space</item>
+</string-array>
+<string-array name="flow_control">
+<item>None</item>
+<item>CTS/RTS</item>
+<item>DTR/DSR</item>
+<item>XOFF/XON</item>
+</string-array>
+<string-array name="port_list_1">
+<item>0</item>
+</string-array>
+<string-array name="port_list_2">
+<item>0</item>
+<item>1</item>
+</string-array>
+<string-array name="port_list_3">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="port_list_4">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="port_list_5">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+</string-array>
+<string-array name="port_list_6">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+</string-array>
+<string-array name="port_list_7">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+</string-array>
+<string-array name="port_list_8">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+</string-array>
+</resources>
