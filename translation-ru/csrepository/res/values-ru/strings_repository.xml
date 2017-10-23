@@ -21,6 +21,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Can\'t find user manual-->
   <string name="string_can_t_find_user_manual">Не удалось найти руководство пользователя</string>
+  <!--Original value: Do you want to update GeoData?-->
+  <string name="string_do_you_want_to_update_geodata_">Хотите обновить GeoData?</string>
   <!--Original value: Yes-->
   <string name="string_yes">Да</string>
   <!--Original value: All-->
@@ -53,10 +55,14 @@
   <string name="string_read_cs_from_receiver">СК из приемника</string>
   <!--Original value: Name-->
   <string name="string_name">Имя</string>
+  <!--Original value: GeoData has updated to %1$s (your is %2$s).-->
+  <string name="string_geodata_has_updated_to__1_s__your_is__2_s__">GeoData обновилась на версию %1$s (у вас %2$s).</string>
   <!--Original value: GeoData update error!-->
   <string name="string_geodata_update_error_">Ошибка обновления GeoData!</string>
   <!--Original value: Binary file %s is required for the transformation.\nDo you want to download it.-->
   <string name="string_binary_file__s_is_required_for_the_transformation__ndo_you_want_to_download_it_">Для преобразования требуется файл %s.\nЗагрузить его?</string>
+  <!--Original value: GeoData is missing\nDo you want to download GeoData?-->
+  <string name="string_geodata_is_missing_ndo_you_want_to_download_geodata_">Отсутсвует GeoData.\nЗагрузить GeoData? </string>
   <!--Original value: m-->
   <string name="string_m">м</string>
   <!--Original value: ECEF-->
@@ -69,8 +75,6 @@
   <string name="string_user_manual_loaded">Руководство пользователя загружено</string>
   <!--Original value: Ask Me Later-->
   <string name="string_ask_me_later">Спросить позже</string>
-  <!--Original value: GeoData has updated to %1$s (your is %2$s)\nDo you want to update GeoData?-->
-  <string name="string_geodata_has_updated_to__1_s__your_is__2_s__ndo_you_want_to_update_geodata_">Вышла новая GeoData версия %1$s (ваша версия %2$s)\nХотите обновить GeoData?</string>
   <!--Original value: Vertical-->
   <string name="string_vertical">Вертикальная</string>
   <!--Original value: Grid-->
@@ -89,12 +93,4 @@
   <string name="string_do_you_want_to_download_the_user_manual_">Загрузить руководство пользователя?</string>
   <!--Original value: Continents-->
   <string name="string_continents">Континенты</string>
-  <string name="string_geoid">Геоид</string>
-  <string name="string_transformation">Трансформация</string>
-  <string name="add_to_favorites">Сохранить в Избранное</string>
-  <string name="add_to_favorites_description">Нажмите, чтобы добавить эту СК в список избранных СК</string>
-  <string name="name">Имя</string>
-  <string name="current_epoch">Текущая эпоха</string>
-  <string name="datum_direction">Направление датума</string>
-  
 </resources>
