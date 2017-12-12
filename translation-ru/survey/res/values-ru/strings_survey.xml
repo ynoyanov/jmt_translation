@@ -97,6 +97,8 @@
   <string name="string_internal_fh_radio">Внутренний FH модем </string>
   <!--Original value: Hardware Version-->
   <string name="receiver_hardware_version">Версия платы</string>
+  <!--Original value: WiFi Mode:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s-->
+  <string name="setup_internet_wifi_format">WiFi:%1$s\nSSID:%2$s\nШифр.:%3$s DHCP:%4$s</string>
   <!--Original value: Stay for %1$d groups of %2$d-->
   <string name="string_stay_for__1_d_groups_of__2_d">Стоять %1$d групп из %2$d</string>
   <!--Original value: Rover has moved-->
@@ -109,6 +111,8 @@
   <string name="string_until_stopped_manually">Пока не остановят вручную</string>
   <!--Original value: Levels Offset Clearing Error!-->
   <string name="string_levels_offset_clearing_error_">Ошибка отступов уровней!</string>
+  <!--Original value: WiFi Mode-->
+  <string name="wifi_mode">Режим WiFi</string>
   <!--Original value: Internal GSM radio-->
   <string name="string_internal_gsm_radio">Внутренний GSM модем</string>
   <!--Original value: Log file created OK-->
@@ -121,6 +125,8 @@
   <string name="string_fh_radio_on_">FH модем на </string>
   <!--Original value: Start Side %d Calibration-->
   <string name="string_start_side__d_calibration">Начать сторону %d</string>
+  <!--Original value: Build-->
+  <string name="jmt_build">Сборка</string>
   <!--Original value: Tolerance between groups-->
   <string name="verify_tolerance_between_groups_summary">Допустимый разброс между группами</string>
   <!--Original value: Event-->
@@ -133,12 +139,16 @@
   <string name="set_coordinate_summary">Установить координаты базового приемника без перенастройки модема и пр.</string>
   <!--Original value: Ant.Height-->
   <string name="survey_antenna_height">Выс.Антенны</string>
+  <!--Original value: RAM-->
+  <string name="jmt_ram">ОЗУ</string>
   <!--Original value: Number of Groups-->
   <string name="verify_number_of_groups">Число групп</string>
   <!--Original value: Setup failed! (Error=-->
   <string name="string_setup_failed___error_">Сбой настройки! (Ошибка=</string>
   <!--Original value: 1 hour-->
   <string name="hour">1 час</string>
+  <!--Original value: DHCP-->
+  <string name="dhcp_mode">DHCP</string>
   <!--Original value: Show vertical offsets-->
   <string name="antenna_show_vertical_offset">Отображать верт.отступы</string>
   <!--Original value: Satellite navigation status is undefined-->
@@ -155,6 +165,8 @@
   <string name="zone">Регион</string>
   <!--Original value: Low Power Mode has enabled-->
   <string name="string_low_power_mode_has_enabled">Включен режим низкого энергопотребления</string>
+  <!--Original value: Gateway-->
+  <string name="gateway">Маршрутизатор</string>
   <!--Original value: 0.01 sec (100Hz)-->
   <string name="string_0_01_sec__100hz_">0.01 сек (100Гц)</string>
   <!--Original value: Receiver: No connection-->
@@ -173,6 +185,8 @@
   <string name="string_bluetooth_b">Bluetooth B</string>
   <!--Original value: Receiver File Logging-->
   <string name="check_logging">Запись в приемник</string>
+  <!--Original value: View-->
+  <string name="string_view">Вид</string>
   <!--Original value: Can\'t start levels calibration!-->
   <string name="string_can_t_start_levels_calibration_">Не удалось начать калибровку уровней!</string>
   <!--Original value: 10 sats -->
@@ -197,12 +211,20 @@
   <string name="country">Страна</string>
   <!--Original value: Error Correction(FEC)-->
   <string name="error_correction">Коррекция ошибок (FEC)</string>
+  <!--Original value: SNR 1-->
+  <string name="string_snr1">С/Ш 1</string>
+  <!--Original value: SNR 2-->
+  <string name="string_snr2">С/Ш 2</string>
   <!--Original value: On/Off Sounds-->
   <string name="on_off_sounds">Вкл/Выкл. звуки</string>
+  <!--Original value: IP Address-->
+  <string name="ip_address">IP адрес</string>
   <!--Original value: 2Hz-->
   <string name="string_2hz">2Гц</string>
   <!--Original value: WiFi SSID-->
   <string name="wlan_ssid_summary">WiFi SSID</string>
+  <!--Original value: Can\'t turn on GLO tracking!-->
+  <string name="string_can_t_turn_on_glo_tracking_">Не удалось включить ГЛОНАСС!</string>
   <!--Original value: U -->
   <string name="string_u_">-</string>
   <!--Original value: Stakeout-->
@@ -231,6 +253,8 @@
   <string name="string_this_sv_is_excluded_from_position_computation_by_the_user">Спутник исключен из вычислений пользователем</string>
   <!--Original value: Logging to file %s is in progress!-->
   <string name="string_logging_to_file__s_is_in_progress_">Идет запись в файл %s!</string>
+  <!--Original value: Disable Clusters-->
+  <string name="string_disable_clusters">Откл.группировку</string>
   <!--Original value: Surveying is on-->
   <string name="string_surveying_is_on">Идет съемка</string>
   <!--Original value: Side %d is calibrated OK-->
@@ -259,6 +283,8 @@
   <string name="text_connection">Подключенно к </string>
   <!--Original value: Connect-->
   <string name="string_connect">Связь</string>
+  <!--Original value: Can\'t setup WiFi parameters-->
+  <string name="string_can_t_setup_wifi_parameters">Не удалось настроить параметры WiFi!</string>
   <!--Original value: No-->
   <string name="string_no">Нет</string>
   <!--Original value: P1-->
@@ -275,6 +301,8 @@
   <string name="check_base_info">Сохранять поправки базы в файлы</string>
   <!--Original value: Point-->
   <string name="string_point">Точка</string>
+  <!--Original value: UNREGISTERED-->
+  <string name="string_unregistered">НЕЛЕГАЛЬНАЯ</string>
   <!--Original value: Can\'t set tcp input mode!-->
   <string name="string_can_t_set_tcp_input_mode_">Не удалось настроить входной режим tcp!</string>
   <!--Original value: Dialup Number-->
@@ -295,10 +323,14 @@
   <string name="epoch_distance_rejected">Слишком короткая траектория</string>
   <!--Original value: Carrier-->
   <string name="carrier">Оператор</string>
+  <!--Original value: Data memory-->
+  <string name="job_main_memory">Объем памяти</string>
   <!--Original value: Radio Settings-->
   <string name="radio_settings">Настройки модема</string>
   <!--Original value: P2-->
   <string name="string_p2">P2</string>
+  <!--Original value: Can\'t set WiFi mode-->
+  <string name="string_can_t_set_wifi_mode">Не удалось установить режим WiFi!</string>
   <!--Original value: Trimtalk450SHW pars.:-->
   <string name="string_trimtalk450shw_pars__">Пар-ры Trimtalk450S(HW)</string>
   <!--Original value: N:%1$.3f_E:%2$.3f-->
@@ -321,6 +353,8 @@
   <string name="antenna">Антенна</string>
   <!--Original value: Connected to Internet…-->
   <string name="string_connected_to_internet___">Подключенно к Интернет</string>
+  <!--Original value: dDoppl-->
+  <string name="string_ddoppl">dDoppl</string>
   <!--Original value: Ignore the movement-->
   <string name="ignore_movement">Игнорировать этот сдвиг</string>
   <!--Original value: Can\'t read RTK Base Info!-->
@@ -335,6 +369,8 @@
   <string name="string_stop_go_logging_to_file__1_s_is_in_progress_">Стой-Иди пишется в файл %1$s !</string>
   <!--Original value: Read CS from Receiver-->
   <string name="button_read_cs">Прочесть СК из приемника</string>
+  <!--Original value: Ready-->
+  <string name="string_ready">Готово</string>
   <!--Original value: Sounds are on-->
   <string name="sounds_on">Звуки включены</string>
   <!--Original value: Get From Catalog-->
@@ -393,6 +429,10 @@
   <string name="base_connected_to_2">Модем базы подключен к </string>
   <!--Original value: Epochs: %1$d / %2$d (Rejected:%3$d)-->
   <string name="string_epochs_format">Эпох: %1$d / %2$d (Отверг.:%3$d)</string>
+  <!--Original value: Pin Code-->
+  <string name="pin_code">ПинКод</string>
+  <!--Original value: Setup\n3G-->
+  <string name="setup_internet_3g">Настройки\n3G</string>
   <!--Original value: Satel pars.:-->
   <string name="string_satel_pars__">Пар-ры Satel:</string>
   <!--Original value: Settings \'%s\' already exists!-->
@@ -429,6 +469,8 @@
   <string name="wrong_tolerance">Неверный разброс!</string>
   <!--Original value: H\n-->
   <string name="text_height">H\n</string>
+  <!--Original value: Hybrid RTK stores raw data for each point as a separate file to process then on DPOS if no RTK fix for given time-->
+  <string name="hibrid_rtk_description">В режиме Hybrid RTK для каждой снимаемой точки сохраняется отдельный файл сырых измерений для последующей обработки на DPOS если RTK решение не удалось получить </string>
   <!--Original value: Empty configuration name!-->
   <string name="string_empty_configuration_name_">Пустое имя конфигурации!</string>
   <!--Original value: Point %s selected-->
@@ -437,6 +479,8 @@
   <string name="string_along_line">Створ</string>
   <!--Original value: RCV client runs-->
   <string name="rcv_client_runs">RCV клиент запущен</string>
+  <!--Original value: 3G Mode:%1$s Sim:%2$s\nAPN:%3$s-->
+  <string name="setup_internet_3g_format">3G режим:%1$s Сим:%2$s\nAPN:%3$s</string>
   <!--Original value: URA indicates the absence of accuracy prediction for this SV-->
   <string name="string_ura_indicates_the_absence_of_accuracy_prediction_for_this_sv">Недостаточно точности спутника по URA</string>
   <!--Original value: 100Hz-->
@@ -471,6 +515,8 @@
   <string name="string___0fhz">%.0fГц"</string>
   <!--Original value: Receiver File %s already exist!-->
   <string name="string_receiver_file__s_already_exist_">Файл приемника %s уже существует!</string>
+  <!--Original value: Track-->
+  <string name="string_track">Принимать</string>
   <!--Original value: Wrong elevation mask!-->
   <string name="wrong_elevation_mask">Неверная маска угла возвышения!</string>
   <!--Original value: Perpendicular-->
@@ -503,6 +549,8 @@
   <string name="channel_spacing">Channel Spacing</string>
   <!--Original value: Settings-->
   <string name="action_settings">Настройки</string>
+  <!--Original value: Application-->
+  <string name="jmt_name">Программа</string>
   <!--Original value: Delete-->
   <string name="string_delete">Удалить</string>
   <!--Original value: Choose Map Provider-->
@@ -525,12 +573,16 @@
   <string name="verify_description">%1$d эпох в %2$d группах с %3$s</string>
   <!--Original value: Job Name-->
   <string name="survey_job_name2">Имя проекта</string>
+  <!--Original value: Can\'t turn off GAL tracking!-->
+  <string name="string_can_t_turn_off_gal_tracking_">Не удалось выключить прием Галлилео</string>
   <!--Original value: Del-->
   <string name="action_delete">Удалить</string>
   <!--Original value: Number Epochs in group-->
   <string name="verify_number_epochs_in_group">Число эпох в группе</string>
   <!--Original value: Interval-->
   <string name="string_interval">Интервал</string>
+  <!--Original value: Can\'t setup LAN parameters-->
+  <string name="string_can_t_setup_lan_parameters">Не удалось настроить параметры сети</string>
   <!--Original value: APN-->
   <string name="gprs_apn">Имя точки доступа (APN)</string>
   <!--Original value: Set receiver this side up for level calibration-->
@@ -563,10 +615,14 @@
   <string name="receiver_time_since_reboot">Время с последней перезагрузки</string>
   <!--Original value: new Direct Call (CSD)-->
   <string name="string_new_direct_call__csd_">новый прямой звонок (CSD)</string>
+  <!--Original value: server-->
+  <string name="string_server">сервер</string>
   <!--Original value: Surveying is in progress. Do you want to stop the survey to close the window?-->
   <string name="string_surveying_is_in_progress__do_you_want_to_stop_the_survey_to_close_the_window_">Идет съемка. Хотите остановить съемку и закрыть это окно?</string>
   <!--Original value: TCP Port-->
   <string name="tcp_port">Порт TCP</string>
+  <!--Original value: JMT-->
+  <string name="string_jmt">JMT</string>
   <!--Original value: Wrong tolerance in group!-->
   <string name="wrong_tolerance_in_group">Неверный разброс в группе!</string>
   <!--Original value: Can\'t read source table!-->
@@ -577,6 +633,8 @@
   <string name="string_can_t_activate_wifi__ncheck_access_point__n">Сбой настройки WiFi!\nПроверьте точку доступа!\n</string>
   <!--Original value: Trimtalk 3 params.-->
   <string name="trimmark3_protocol_parameters">Пар-ры Trimtalk 3</string>
+  <!--Original value: Controller-->
+  <string name="jmt_controller">Контролер</string>
   <!--Original value: Can\'t program auto-close file!-->
   <string name="cant_program_session">Не удалось запрограммировать автоматическую остановку записи!</string>
   <!--Original value: Almanac SV health indicator is not available for this satellite-->
@@ -585,6 +643,8 @@
   <string name="compass_status_error">Требуется калибровка компаса!</string>
   <!--Original value: ReSurvey-->
   <string name="resurvey">ПереСнять</string>
+  <!--Original value: Internet Settings-->
+  <string name="button_configure_internet">Настройки доступа Internet</string>
   <!--Original value: WiFi status-->
   <string name="string_wifi_status">Состояние WiFi</string>
   <!--Original value: Can\'t store RTK Base information into job!-->
@@ -623,6 +683,10 @@
   <string name="string_previous_dialog">Предыдущий диалог</string>
   <!--Original value: Start Station-->
   <string name="survey_start_station2">Запуск Станции</string>
+  <!--Original value: Data Path-->
+  <string name="job_data_path">Путь к данным</string>
+  <!--Original value: Job archieving is off-->
+  <string name="string_job_archieving_is_off">Архивация проектов выключена</string>
   <!--Original value: Next-->
   <string name="string_next_target">След.точка</string>
   <!--Original value: Elevation-->
@@ -633,6 +697,8 @@
   <string name="button_menu">⬇</string>
   <!--Original value: %1$s %2$dbs-->
   <string name="string__1_s__2_dbs">%1$s %2$dбит/с</string>
+  <!--Original value: Noise-->
+  <string name="string_noise">Шум</string>
   <!--Original value: Static %1$s logging to file %2$s is in progress!\n%3$s remain-->
   <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_remain">Статика %1$s пишется в файл %2$s…\n%3$s осталось</string>
   <!--Original value: Output Power-->
@@ -671,18 +737,24 @@
   <string name="string_store_offset">Сохранить Промер</string>
   <!--Original value: Use Repeater-->
   <string name="repeater">Исп.повторитель</string>
+  <!--Original value: Do you want to save point and raw file?-->
+  <string name="string_do_you_want_to_save_point_and_raw_file_">Сохранить точку и файл сырых измерений?</string>
   <!--Original value: Survey already stopped!-->
   <string name="error_survey_already_stopped">Съемка уже остановлена!</string>
   <!--Original value: Calibrate-->
   <string name="calibrate">Калибровать</string>
   <!--Original value: Connected to-->
   <string name="string_connected_to">Поключенно к </string>
+  <!--Original value: Can\'t turn off SBAS tracking!-->
+  <string name="string_can_t_turn_off_sbas_tracking_">Не удалось выключить прием SBAS!</string>
   <!--Original value: Set LAN-->
   <string name="lan_on">Настройки LAN</string>
   <!--Original value: DirectCall(CSD)-->
   <string name="string_directcall_csd_">Прямой звонок(CSD)</string>
   <!--Original value: RTK-->
   <string name="rtk">RTK</string>
+  <!--Original value: %ds-->
+  <string name="string__ds">%dс</string>
   <!--Original value: Disconnect-->
   <string name="string_disconnect">Разорвать</string>
   <!--Original value: Messages-->
@@ -691,8 +763,12 @@
   <string name="check_sbas">SBAS</string>
   <!--Original value: ADVANCED-->
   <string name="title_advanced">ДОПОЛНИТЕЛЬНО</string>
+  <!--Original value: Range 2-->
+  <string name="string_range2">Диапазон 2</string>
   <!--Original value: Ellapsed time %d sec-->
   <string name="string_ellapsed_time__d_sec">Прошло %d сек</string>
+  <!--Original value: Range 1-->
+  <string name="string_range1">Диапазон 1</string>
   <!--Original value: Point store error-->
   <string name="survey_point_stored_error">Ошибка сохранения точки</string>
   <!--Original value: Verify Mode-->
@@ -711,6 +787,8 @@
   <string name="string_pick_points_on_map_to_measure_area">Нажмите точки на карте для измерения площади</string>
   <!--Original value: P L1 slot is used in RTK processing-->
   <string name="string_p_l1_slot_is_used_in_rtk_processing">P L1 используется для РТК обработки</string>
+  <!--Original value: Can\'t turn off GPS tracking!-->
+  <string name="string_can_t_turn_off_gps_tracking_">Не удалось выключить прием GPS!</string>
   <!--Original value: Side %1$d calibration %2$d%%-->
   <string name="string_side__1_d_calibration__2_d__">Сторона %1$d выполнена %2$d%%</string>
   <!--Original value: Curr.Pos-->
@@ -784,7 +862,7 @@
   <!--Original value: your receiver-->
   <string name="rotate_receiver_string2">ваш приемник</string>
   <!--Original value:  rejected-->
-  <string name="epochs_rejected"> отвергнуто</string>
+  <string name="epochs_rejected"> отклонено</string>
   <!--Original value: Intersection-->
   <string name="string_intersection">Пересечение</string>
   <!--Original value: %1$s %2$dbs FEC:%3$s Cmpt:%4$s ClkCrr:%5$s-->
@@ -831,8 +909,12 @@
   <string name="verify_tolerance_in_group_summary">Допуск в группе</string>
   <!--Original value: hours-->
   <string name="hours">часов</string>
+  <!--Original value: Dialup Number-->
+  <string name="dialup_number">Номер</string>
   <!--Original value: NetHub Login-->
   <string name="nethub_login">Логин NetHub</string>
+  <!--Original value: SAT-->
+  <string name="string_satsys">СПУТ</string>
   <!--Original value: Trimtalk 450S-->
   <string name="trimtalk450s">Trimtalk 450S</string>
   <!--Original value: Starting survey…-->
@@ -841,6 +923,8 @@
   <string name="string_wrong_latitude_">Неправильная широта!</string>
   <!--Original value: %.0fsec-->
   <string name="string___0fsec">%.0fсек</string>
+  <!--Original value: Hybrid RTK-->
+  <string name="string_hybrid_rtk">Гибридное RTK</string>
   <!--Original value: Fill-->
   <string name="text_fill">Досыпать</string>
   <!--Original value: Port-->
@@ -915,10 +999,16 @@
   <string name="string_start_levels_calibration">Начать\nкалибровку\nуровней</string>
   <!--Original value: Unknown-->
   <string name="string_unknown">Неизвестно</string>
+  <!--Original value: Show Clusters-->
+  <string name="action_show_clusters">Вкл.группировку</string>
   <!--Original value: Enable Recording-->
   <string name="survey_enable_recording">Вкл. запись</string>
+  <!--Original value: Mask-->
+  <string name="mask">Маска сети</string>
   <!--Original value: Frequency Rule-->
   <string name="frequency_rule">Частотное правило</string>
+  <!--Original value: GLONASS-->
+  <string name="check_glo">ГЛОНАСС</string>
   <!--Original value: FRule:-->
   <string name="string_frule_">ЧПравило:</string>
   <!--Original value: connected to Bluetooth B-->
@@ -937,6 +1027,8 @@
   <string name="longitude">Долгота</string>
   <!--Original value: Simplex Protocol Parameters-->
   <string name="simplex_protocol_parameters">Настройки протокола Simplex</string>
+  <!--Original value: Arhieve memory-->
+  <string name="job_sd_memory">Объем архива</string>
   <!--Original value: Lift&Tilt Starting-->
   <string name="lift_and_tilt_starting">Начало Lift-Tilt</string>
   <!--Original value: Static %1$s logging to file %2$s is in progress!\n%3$s overwriting!-->
@@ -953,6 +1045,8 @@
   <string name="satel">Настройки Satel</string>
   <!--Original value: RTK Stopped-->
   <string name="string_rtk_stopped">РТК остановленно</string>
+  <!--Original value: Use-->
+  <string name="string_use_sats">Исп.</string>
   <!--Original value: Format-->
   <string name="format">Формат</string>
   <!--Original value: Epochs-->
@@ -1055,6 +1149,8 @@
   <string name="antenna_height_summary">Здесь можно ввести строку</string>
   <!--Original value: (Error:%s)-->
   <string name="string__error__s_">(Ошибка:%s)</string>
+  <!--Original value: Can\'t turn off BeiDou tracking!-->
+  <string name="string_can_t_turn_off_beidou_tracking_">Не удалось выключить прием BeiDou!</string>
   <!--Original value: Trajectory-->
   <string name="string_trajectory">Траектории</string>
   <!--Original value: new RCV Server-->
@@ -1077,18 +1173,28 @@
   <string name="epochs_collected">собрано эпох</string>
   <!--Original value: Traj.Min.Length-->
   <string name="trajector_length_filter">Мин.траектория</string>
+  <!--Original value: Doppl 2-->
+  <string name="string_doppl2">Допл.2</string>
+  <!--Original value: Doppl 1-->
+  <string name="string_doppl1">Допл.1</string>
   <!--Original value: X-->
   <string name="text_x_map">X</string>
   <!--Original value: FH-->
   <string name="fh">FH</string>
+  <!--Original value: Can\'t setup 3G parameters-->
+  <string name="string_can_t_setup_3g_parameters">Не удалось настроить праметры 3G!</string>
   <!--Original value: Points-->
   <string name="string_menu_offset_point">Точки</string>
   <!--Original value: 20Hz-->
   <string name="string_20hz">20Гц</string>
+  <!--Original value: Activate Post-Processing after-->
+  <string name="save_post_processing_after">Оставлять для пост.обработки после </string>
   <!--Original value: Level Offsets are cleared-->
   <string name="string_level_offsets_are_cleared">Сдвиги уровней стерты</string>
   <!--Original value: Wrong TCPO IP Port!-->
   <string name="string_wrong_tcpo_ip_port_">Неверный порт TCPO!</string>
+  <!--Original value: Archieve path-->
+  <string name="job_archieve">Путь к архиву</string>
   <!--Original value: Trajectory %1$s logging to file %2$s is in progress!-->
   <string name="string_trajectory__1_s_logging_to_file__2_s_is_in_progress_">Траектория %1$s пишется в файл %2$s !</string>
   <!--Original value: Wrong slant height!-->
@@ -1123,10 +1229,14 @@
   <string name="string_yandex_map">Яндекс.Карты</string>
   <!--Original value: Base-->
   <string name="text_base">База</string>
+  <!--Original value: Can\'t turn on GAL tracking!-->
+  <string name="string_can_t_turn_on_gal_tracking_">Не удалось включить прием Галлилео!</string>
   <!--Original value: Sounds are off-->
   <string name="sounds_off">Звуки выключены</string>
   <!--Original value: Surveing of %s is over!-->
   <string name="string_surveing_of__s_is_over_">Съемка %s завершена</string>
+  <!--Original value: Can\'t turn on BeiDou tracking!-->
+  <string name="string_can_t_turn_on_beidou_tracking_">Не удалось включить прием BeiDou!</string>
   <!--Original value: Selected Area: %s-->
   <string name="string_selected_area___s">Выбранная площадь: %s</string>
   <!--Original value: Pick points on map to add line-->
@@ -1153,6 +1263,8 @@
   <string name="raw_mode">RAW-режим</string>
   <!--Original value: Rover radio connected to-->
   <string name="rover_connected_to_2">Модем ровера подключен к </string>
+  <!--Original value: Android-->
+  <string name="jmt_android">Android</string>
   <!--Original value: Antenna Vertical Offset-->
   <string name="antenna_vertical_offset_summary">Вертикальный отступ антенны</string>
   <!--Original value: Compatibility-->
@@ -1163,6 +1275,8 @@
   <string name="correct_inclination">Использовать Уровни</string>
   <!--Original value: Along Line-->
   <string name="string_menu_offset_along_line">Створ</string>
+  <!--Original value: Setup\nWiFi-->
+  <string name="setup_internet_wifi">Настройки\nWiFi</string>
   <!--Original value: Calibration is finished OK-->
   <string name="string_calibration_is_finished_ok">Калибровка\nуспешно выполнена.</string>
   <!--Original value: RTK Base started OK-->
@@ -1191,6 +1305,8 @@
   <string name="string_5hz">5Гц</string>
   <!--Original value: LAN IP Address:-->
   <string name="string_lan_ip_address_">LAN IP адрес:</string>
+  <!--Original value: Can\'t turn on GPS tracking!-->
+  <string name="string_can_t_turn_on_gps_tracking_">Не удалось включить прием GPS!</string>
   <!--Original value: Elevation Mask-->
   <string name="elevation_mask">Маска угла</string>
   <!--Original value: with RCV (TCP)-->
@@ -1215,6 +1331,10 @@
   <string name="string_gsm_radio">GSM модем</string>
   <!--Original value: TCP A-->
   <string name="correction_type_tcp_a">TCP A</string>
+  <!--Original value: N-->
+  <string name="string_n">№</string>
+  <!--Original value: Enable Clusters-->
+  <string name="string_enable_clusters">Вкл.группировку</string>
   <!--Original value: Receiver File already exist!-->
   <string name="string_receiver_file_already_exist_">Файл приемника с таким именем уже существует!</string>
   <!--Original value: CBST Rate:-->
@@ -1247,6 +1367,8 @@
   <string name="string_0_2_sec__5hz_">0.2 сек (5Гц)</string>
   <!--Original value: No corrections at any port!-->
   <string name="string_no_corrections_at_any_port_">Нет поправок ни на одном порту!</string>
+  <!--Original value: Version-->
+  <string name="jmt_version">Версия</string>
   <!--Original value: VRS RTCM3 Coordinate System-->
   <string name="rtcm3_summary">Система координат для RTCM3</string>
   <!--Original value: Receiver file name is incorrect!-->
@@ -1361,6 +1483,8 @@
   <string name="levels_status_error">Требуется калибровка уровней!</string>
   <!--Original value: This allows you to enter a string-->
   <string name="file_name_summary">Здесь можно ввести строку</string>
+  <!--Original value: %dm -->
+  <string name="string__dm_">%dм</string>
   <!--Original value: Tolerance in group-->
   <string name="verify_tolerance_in_group">Допуск в группе</string>
   <!--Original value: are OK-->
@@ -1434,7 +1558,7 @@
   <!--Original value: UHF Radio-->
   <string name="radio_uhf_radio">УВЧ модем</string>
   <!--Original value: %1$d / %2$d epoch collected (%3$d rejected)-->
-  <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d эпох собрано (%3$d отброшенно)</string>
+  <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d эпох собрано (%3$d отклонено)</string>
   <!--Original value: Use existing connection with base station?-->
   <string name="string_use_existing_connection_with_base_station_">Использовать текущее подключение и к базовой станции?</string>
   <!--Original value: ACBST-->
@@ -1453,6 +1577,8 @@
   <string name="string_low_power_mode_has_disabled">Режим низкого энергопотребления отключен</string>
   <!--Original value: FILE RECORDING-->
   <string name="survey_file_recording">ЗАПИСЬ В ФАЙЛ</string>
+  <!--Original value: %dh -->
+  <string name="string__dh_">%dч</string>
   <!--Original value: Mag.Azimuth-->
   <string name="magnetic_azimuth">Маг.Азимут</string>
   <!--Original value: Target %s selected-->
@@ -1485,6 +1611,8 @@
   <string name="coordinate_system">Система координат</string>
   <!--Original value: S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
   <string name="start_levels_calibration_land">Н\nа\nч\nа\nт\nь\n \nК\nа\nл\nи\nб\nр\nо\nв\nк\nу \nУ\nр\nо\nв\nн\nе\nй</string>
+  <!--Original value: Hot Start-->
+  <string name="hot_start">Гор.запуск</string>
   <!--Original value: TextView-->
   <string name="text_textview">TextView</string>
   <!--Original value: UHF radio on -->
@@ -1525,6 +1653,8 @@
   <string name="string_rtk_bases">RTK базы</string>
   <!--Original value: Geodetic Az.-->
   <string name="string_geodetic_az_">Геодезический азим.</string>
+  <!--Original value: Setup\nLAN-->
+  <string name="setup_internet_lan">Настройки\nLAN</string>
   <!--Original value: Switch between antenna input-->
   <string name="antenna_height_type_summary">Переключение между антенными входами</string>
   <!--Original value: Enable Recording-->
@@ -1535,6 +1665,8 @@
   <string name="string_method">Метод</string>
   <!--Original value: Login:-->
   <string name="string_login_">Логин:</string>
+  <!--Original value: Copyright-->
+  <string name="jmt_copyright">Copyright</string>
   <!--Original value: Generator-->
   <string name="generator">Генератор</string>
   <!--Original value: Can\'t create receiver file!-->
@@ -1543,6 +1675,8 @@
   <string name="string_off_line">Отступ</string>
   <!--Original value: FH Radio-->
   <string name="string_fh_radio">FH модем</string>
+  <!--Original value: Can\'t turn on QZSS tracking!-->
+  <string name="string_can_t_turn_on_qzss_tracking_">Не удалось включить прием QZSS!</string>
   <!--Original value: Signal-->
   <string name="string_signal">Сигнал</string>
   <!--Original value: IC:-->
@@ -1557,6 +1691,8 @@
   <string name="job_surveyorname">Съемщик</string>
   <!--Original value: 30sec-->
   <string name="string_30sec">30сек</string>
+  <!--Original value: WiFi SSID-->
+  <string name="wifi_ssid">WiFi SSID</string>
   <!--Original value: JAV_TRIUMPH-1   NONE\n1.25m vert.-->
   <string name="button_antenna">JAV_TRIUMPH-1   NONE\n1.25m vert.</string>
   <!--Original value: Correction Type-->
@@ -1579,6 +1715,8 @@
   <string name="string_can_t_write_info_into_receiver_file">Не удалось записать информацию в приемник</string>
   <!--Original value: PPP status-->
   <string name="string_ppp_status">Состояние PPP</string>
+  <!--Original value: client-->
+  <string name="string_client">клиент</string>
   <!--Original value: Receiver-->
   <string name="receiver">Приемник</string>
   <!--Original value: What to do with %1$s %2$s?-->
@@ -1591,6 +1729,8 @@
   <string name="string_stake">Вынести</string>
   <!--Original value: Dist Horz\n-->
   <string name="text_dist_plane">План.раст\n</string>
+  <!--Original value: Use Hybrid RTK-->
+  <string name="check_hibrid_rtk">Использовать Гибридный RTK</string>
   <!--Original value: Firmware:-->
   <string name="string_firmware_">Прошивка:</string>
   <!--Original value: Minimal RTK Engines to accept-->
@@ -1637,6 +1777,8 @@
   <string name="receiver_id">Ид.приемника</string>
   <!--Original value: Point-->
   <string name="string_new_point">Точка</string>
+  <!--Original value: WiFi Security-->
+  <string name="wifi_security">Защита WiFi</string>
   <!--Original value: Along-->
   <string name="text_along_map">Вдоль</string>
   <!--Original value: No Data-->
@@ -1673,20 +1815,28 @@
   <string name="string_bootloader__">Загрузчик:</string>
   <!--Original value: Azimuth Type-->
   <string name="text_azimuth">Тип азимута</string>
+  <!--Original value: Javad Mobile Tools for Android-->
+  <string name="string_javad_mobile_tools_for_android">Javad Mobile Tools для Android</string>
   <!--Original value: %d meas.-->
   <string name="string__d_meas_">%d изм.</string>
   <!--Original value: secs-->
   <string name="seconds">сек.</string>
+  <!--Original value: LICENSED-->
+  <string name="string_licensed">ЛЕГАЛЬНАЯ КОПИЯ</string>
   <!--Original value: Setup failed!-->
   <string name="string_setup_failed_">Сбой настройки!</string>
   <!--Original value: recording-->
   <string name="recording">recording</string>
   <!--Original value: Job Name-->
   <string name="text_job_name">Имя работы</string>
+  <!--Original value: Save PP-->
+  <string name="string_save_pp">Сохранить для ПО</string>
   <!--Original value: What to do with point %1$s?-->
   <string name="string_what_to_do_with_point__1_s_">Что делать с точкой %1$s?</string>
   <!--Original value: TT450S(HW) pars.-->
   <string name="string_tt450s_hw__pars_">Пар-ры TT450S(HW)</string>
+  <!--Original value: Login-->
+  <string name="gprs_login">Логин</string>
   <!--Original value: new FH radio-->
   <string name="string_new_fh_radio">новый FH модем</string>
   <!--Original value: Trimmark II/IIe params.-->
@@ -1769,6 +1919,8 @@
   <string name="string_output">Вывод</string>
   <!--Original value: WLAN IP Address:-->
   <string name="string_wlan_ip_address_">WiFi IP адрес</string>
+  <!--Original value: IP:%1$s\nDHCP:%2$s-->
+  <string name="setup_internet_lan_format">IP:%1$s\nDHCP:%2$s</string>
   <!--Original value: Measure Units-->
   <string name="units">Единицы измерения</string>
   <!--Original value: Calibration progress is -->
@@ -1801,6 +1953,8 @@
   <string name="string_new_rcv_base">новый стиль RCV базы</string>
   <!--Original value: Warning-->
   <string name="string_warning">Внимание</string>
+  <!--Original value: Registration Status-->
+  <string name="jmt_license">Регистрация</string>
   <!--Original value: Background File-->
   <string name="string_background_file">Файл подложки</string>
   <!--Original value: Can\'t start logging to receiver file!-->
@@ -1811,6 +1965,8 @@
   <string name="string_all_bad">Все/Плох.</string>
   <!--Original value: Surveying is over-->
   <string name="string_surveying_is_over">Съемка завершена</string>
+  <!--Original value: Can\'t turn off GLO tracking!-->
+  <string name="string_can_t_turn_off_glo_tracking_">Не удалось выключить прием Глонасс</string>
   <!--Original value: Can\'t setup NetHub rcv mode!-->
   <string name="string_can_t_setup_nethub_rcv_mode_">Не удалось настроить режим RCV NetHub!</string>
   <!--Original value: Solution\n-->
@@ -1832,7 +1988,9 @@
   <!--Original value: RCV status-->
   <string name="string_rcv_status">Состояние RCV</string>
   <!--Original value:  rejec.-->
-  <string name="epochs_reject"> отбр.</string>
+  <string name="epochs_reject"> откл.</string>
+  <!--Original value: dRange-->
+  <string name="string_drange">dRange</string>
   <!--Original value: Radio setup error-->
   <string name="string_radio_setup_error">Ошибка настройки модема</string>
   <!--Original value: Position-->
@@ -1877,10 +2035,14 @@
   <string name="string_uhf_didn_t_start_correction_">УВЧ не начал передавать поправки!</string>
   <!--Original value: Ant.-->
   <string name="string_ant_">Ант.</string>
+  <!--Original value: Hybrid RTK-->
+  <string name="title_hybrid_rtk">Гибридный RTK</string>
   <!--Original value: Ntrip Server-->
   <string name="string_ntrip_server">Сервер Ntrip</string>
   <!--Original value: Your hardware is limited compatible with RTK V6+!-->
   <string name="string_your_hardware_is_limited_compatible_with_rtk_v6__">Встроенное ПО (firmware) вашего приемника ограниченно совместимо с RTK V6+!</string>
+  <!--Original value: Can\'t turn off QZSS tracking!-->
+  <string name="string_can_t_turn_off_qzss_tracking_">Не удалось выключить прием QZSS</string>
   <!--Original value: Apply-->
   <string name="button_apply">Применить</string>
   <!--Original value: Receiver: -->
@@ -1913,6 +2075,8 @@
   <string name="wlan_ssid">WiFi SSID</string>
   <!--Original value: Cut-->
   <string name="text_cut">Срезать</string>
+  <!--Original value: Can\'t turn on SBAS tracking!-->
+  <string name="string_can_t_turn_on_sbas_tracking_">Не удалось включить прием SBAS</string>
   <!--Original value: Power Output to serial ports has turned off-->
   <string name="string_power_output_to_serial_ports_has_turned_off">Вывод напряжения на последовательные порты отключен</string>
   <!--Original value: Password-->
@@ -1981,6 +2145,8 @@
   <string name="string_ascii_file___txt">ASCII файл *.txt</string>
   <!--Original value: Pnt.Target-->
   <string name="target_point_small">Цель</string>
+  <!--Original value: Remove PP-->
+  <string name="string_remove_pp">Удалить файл</string>
   <!--Original value: GSM radio error! (%s)-->
   <string name="string_gsm_radio_error____s_">Ошибка GSM модема (%s)!</string>
   <!--Original value: Base distance-->
@@ -1991,6 +2157,8 @@
   <string name="string_mount_point">Точка подключения</string>
   <!--Original value: Side %1$d calibration progress is %2$d%%-->
   <string name="string_side__1_d_calibration_progress_is__2_d__">Сторона %1$d выполнена %2$d%%</string>
+  <!--Original value: Registration-->
+  <string name="registration_mode">Регистрация</string>
   <!--Original value: Use different name-->
   <string name="string_use_different_name">Используйте другое имя</string>
   <!--Original value: RECEIVER SETUP-->
@@ -1999,6 +2167,8 @@
   <string name="cant_read_receivertime_to_program">Не удалось прочесть время приемника!</string>
   <!--Original value: UHF radio error! (%s)-->
   <string name="string_uhf_radio_error____s_">Ошибка УВЧ модема (%s)!</string>
+  <!--Original value: License the application before use the receiver or purchase authorization OAF option!-->
+  <string name="string_license_the_application_before_use_the_receiver_or_purchase_authorization_oaf_option_">Приобретите официальную копию программы для использования приемника или закажите опцию (OAF) приемника для JMT! </string>
   <!--Original value: Height type-->
   <string name="antenna_height_type">Тип высоты</string>
   <!--Original value: :-->
@@ -2029,6 +2199,10 @@
   <string name="string_open_street_map">Open Street Map</string>
   <!--Original value: Y-->
   <string name="text_y_map">Y</string>
-  <!--Original value: GLONASS-->
-  <string name="check_glo">ГЛОНАСС</string>
+  <!--Original value: Sim:1\nAPN:internet.beeline.ru-->
+  <string name="internet_settings">Sim:1\nAPN:internet.beeline.ru</string>
+  <!--Original value: Activate Post-Processing after-->
+  <string name="hybrid_rtk_check">Оставлять файл дял пост.обработки после</string>
+  <!--Original value: Setup Inet-->
+  <string name="setup_internet">Настр.Интернет</string>
 </resources>

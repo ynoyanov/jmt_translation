@@ -19,6 +19,8 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Coordinates-->
+  <string name="text_coordinates">Координаты</string>
   <!--Original value: Project deleted OK-->
   <string name="string_project_deleted_ok">Проект успешно закончен на сервере</string>
   <!--Original value: Wrong Antenna height!-->
@@ -37,6 +39,8 @@
   <string name="add_to_catalog">Добавить в каталог</string>
   <!--Original value: View OPUS-->
   <string name="string_view_opus">Результат OPUS</string>
+  <!--Original value: Anonymous-->
+  <string name="string_anonymous">Анонимно</string>
   <!--Original value: Automatic-->
   <string name="string_automatic">Автоматически</string>
   <!--Original value: Sent-->
@@ -49,28 +53,48 @@
   <string name="button_delete">Удалить</string>
   <!--Original value: Delete the file-->
   <string name="string_delete_the_file">Удалить файл</string>
-  <!--Original value: Antenna Height\n(vert. in meters)-->
-  <string name="antenna_height_opus">Высота Антенны\n(верт.в метрах)</string>
   <!--Original value: DPOS server is not selected!-->
   <string name="string_dpos_server_is_not_selected_">Сервер DPOS не выбран!</string>
+  <!--Original value: Antenna Height\n(vert. in meters)-->
+  <string name="antenna_height_opus">Высота Антенны\n(верт.в метрах)</string>
   <!--Original value: DPOS Server-->
   <string name="dpos_server">DPOS Сервер</string>
+  <!--Original value: 
+        <h1>Attach Device to DPOS</h1>
+        Please visit out <b>JAVAD Customer Area<b> at <b>app.javad.com<b> and navigate to J-FieldAssistant/<b>Devices<b> section.<br> </br>
+           Follow to instructions in <b>Connect device<b> widget on the page to generate a new handshake key.<br></br>
+           Enter this key into field below and click <b>Establish Connection</b> button to complete the procedure.
+    -->
+  <string name="html_handshake">&lt;h1&gt;Привязать приемник к DPOS&lt;/h1&gt;
+Пожалуйста зайдите на страницу &lt;b&gt;JAVAD Customer Area&lt;b&gt; - &lt;b&gt;app.javad.com&lt;b&gt; и перейдите в раздел J-FieldAssistance/&lt;b&gt;Устройства&lt;b&gt;. Там выберите код, который введите в поле ниже</string>
   <!--Original value: Height Type-->
   <string name="antenna_height_type_opus">Тип высоты</string>
-  <!--Original value: Processing file %s-->
-  <string name="string_processing_file__s">Обрабатывается файл %s</string>
   <!--Original value: Reading answer…-->
   <string name="string_reading_answer___">Чтение ответа…</string>
+  <!--Original value: Processing file %s-->
+  <string name="string_processing_file__s">Обрабатывается файл %s</string>
   <!--Original value: Authorization error!!!-->
   <string name="string_authorization_error___">Ошибка авторизации!</string>
   <!--Original value: DPOS Process Result-->
   <string name="title_dpos_result">Результат DPOS</string>
+  <!--Original value: Base file-->
+  <string name="base_file">Файл базы</string>
+  <!--Original value: Establish Connection-->
+  <string name="button_handshake">Установить соединение</string>
   <!--Original value: Save Report-->
   <string name="save_result">Сохранить отчет</string>
   <!--Original value: Rapid Static-->
   <string name="rapid_static">Быстрая Статика</string>
   <!--Original value: Can\'t delete DPOS project-->
   <string name="string_can_t_delete_dpos_project">Не удалось закончить проект DPOS</string>
+  <!--Original value: Base File send error-->
+  <string name="string_base_file_send_error">Ошибка посылка файла базы</string>
+  <!--Original value: 
+        <h1>Device to DPOS Connection</h1>
+        Connection to <b>JAVAD Customer Area<b> is established!<br> 
+        Please check for the available services at <b>app.javad.com<b>
+    -->
+  <string name="html_revoke">&lt;h1&gt;Подключение к DPOS&lt;/h&gt;Войдите на JAVAD &lt;b&gt;app.javad.com&lt;/b&gt; и убедитесь, что соединение установлено&lt;br&gt;Проверьте </string>
   <!--Original value: Project creation error!\n-->
   <string name="string_project_creation_error__n">Ошибка создания проекта!</string>
   <!--Original value: Catalog-->
@@ -81,12 +105,12 @@
   <string name="string_view_dpos">Результат DPOS</string>
   <!--Original value: Convert to Rinex-->
   <string name="string_convert_to_rinex">В Rinex</string>
+  <!--Original value: %1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s-->
+  <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
   <!--Original value: Send to DPOS-->
   <string name="string_send_to_dpos">Отправить на DPOS</string>
   <!--Original value: OPUS Process Result-->
   <string name="title_opus_result">Результат OPUS</string>
-  <!--Original value: SSL sertificate is not installed!-->
-  <string name="string_ssl_sertificate_is_not_installed_">Не установлен SSL сертификат!</string>
   <!--Original value: e-mail-->
   <string name="email">e-mail</string>
   <!--Original value: Analyzing…-->
@@ -97,6 +121,8 @@
   <string name="project_id">Ид.проекта</string>
   <!--Original value: Empty Antenna height!-->
   <string name="string_empty_antenna_height_">Пустая высота антенны!</string>
+  <!--Original value: Can\'t create project.\n-->
+  <string name="string_can_t_create_project__n">Не удалось создать проект!\n</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
   <!--Original value: Antenna Id-->
@@ -107,16 +133,24 @@
   <string name="process_mode">Режим обработки</string>
   <!--Original value: OPUS Process-->
   <string name="string_opus_process">Обработка OPUS</string>
+  <!--Original value: 
+        <h1>Device to DPOS Connection</h1>
+        No connection to <b>JAVAD Customer Area<b>!<br> 
+        Please check Internet connection on your device!
+    -->
+  <string name="html_no_internet">&lt;h1&gt;Подключение к DPOS&lt;/h1&gt;Нет связи с &lt;b&gt;app.javad.com&lt;/b&gt;&lt;br&gt;Пожалуйста, проверьте подключение к Internet!</string>
   <!--Original value: View-->
   <string name="button_view">Просмотр</string>
   <!--Original value: Process OPUS-->
   <string name="button_process_opus">Обработать OPUS</string>
   <!--Original value: File List-->
   <string name="title_activity_file_list">Файлы</string>
-  <!--Original value: File Name-->
-  <string name="file_name">Имя Файла</string>
+  <!--Original value: Point-->
+  <string name="button_point_name">Точка</string>
   <!--Original value: Sending to server…-->
   <string name="string_sending_to_server___">Отправка на сервер…</string>
+  <!--Original value: File Name-->
+  <string name="file_name">Имя Файла</string>
   <!--Original value: OPUS Process-->
   <string name="app_name">OPUS обработка</string>
   <!--Original value: Finished-->
@@ -125,36 +159,46 @@
   <string name="string_show_log_folder">Показывать из папки Log</string>
   <!--Original value: Processed. Reading result…-->
   <string name="string_processed__reading_result___">Обработка. Ожидание результатов…</string>
+  <!--Original value: Base file-->
+  <string name="string_base_file">Файл базы</string>
   <!--Original value: Process DPOS-->
   <string name="button_process_jopus">Обработать DPOS</string>
   <!--Original value: . . .-->
   <string name="button_select">. . .</string>
-  <!--Original value: OPUS Process Result-->
-  <string name="title_activity_opus_result_process">Результат обработки OPUS</string>
   <!--Original value: Process DPOS-->
   <string name="string_process_dpos">Обработать DPOS</string>
-  <!--Original value: View on Map-->
-  <string name="string_view_on_map">Показать на карте</string>
+  <!--Original value: OPUS Process Result-->
+  <string name="title_activity_opus_result_process">Результат обработки OPUS</string>
   <!--Original value: Antenna Height in meters-->
   <string name="antenna_height_dpos">Высота антенны</string>
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Показать на карте</string>
   <!--Original value: Unknown error!-->
   <string name="string_unknown_error_">Неизвестная ошибка!</string>
   <!--Original value: Folder\nof files:-->
   <string name="text_folder2">Папка\nфайлов:</string>
+  <!--Original value: No base-->
+  <string name="string_no_base">Без базы</string>
   <!--Original value: Looking for antenna info in file %s-->
   <string name="string_looking_for_antenna_info_in_file__s">Поиск информации об антенне в файле %s…</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Настройки</string>
   <!--Original value: Process OPUS-->
   <string name="string_process_opus">Обработать OPUS</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Настройки</string>
   <!--Original value: No file is selected!-->
   <string name="string_no_file_is_selected_">Выберите файл!</string>
   <!--Original value: File send error-->
   <string name="string_file_send_error">Ошибка отправки файла</string>
-  <!--Original value: OPUS Process-->
-  <string name="title_activity_opus_process">OPUS Process</string>
+  <!--Original value: Attach Device-->
+  <string name="action_attach_device">Подключить устройство</string>
   <!--Original value: Authorization…-->
   <string name="string_authorization___">Авторизация</string>
+  <!--Original value: OPUS Process-->
+  <string name="title_activity_opus_process">OPUS Process</string>
+  <!--Original value: Wrong file selected-->
+  <string name="string_wrong_file_selected">Неверный файл</string>
+  <!--Original value: Revoke Connection-->
+  <string name="button_revoke">Отозвать связь</string>
   <!--Original value: OPUS Project (with ProjectId) can\'t process Rapid-Static!-->
   <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">OPUS Project (with ProjectId) can\'t process Rapid-Static!</string>
   <!--Original value: Antenna ID is not selected!-->
@@ -163,10 +207,16 @@
   <string name="string_process_starting___">Начинается обработка…</string>
   <!--Original value: Use Debug server-->
   <string name="use_debug_server">Исп.отладочный сервер</string>
-  <!--Original value: Processing…-->
-  <string name="string_processing___">Обработка</string>
   <!--Original value: Hide Log Folder-->
   <string name="string_hide_log_folder">Скрыть из папки Log</string>
-  <!--Original value: Kinematic-->
-  <string name="kinematic">Кинематика</string>
+  <!--Original value: Processing…-->
+  <string name="string_processing___">Обработка</string>
+  <!--Original value: Press to select-->
+  <string name="string_press_to_select">Выберите</string>
+  <!--Original value: Process as Device-->
+  <string name="process_as_device">Обработать как устройство</string>
+  <!--Original value: SSL sertificate is not installed!-->
+  <string name="string_ssl_sertificate_is_not_installed_">Не установлен SSL сертификат!</string>
+  <!--Original value: -->
+  <string name="">Кинематика</string>
 </resources>
