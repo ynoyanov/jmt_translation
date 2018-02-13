@@ -19,6 +19,8 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Wgs84-->
+  <string name="coordinate_wgs84" />
   <!--Original value: %d vertices-->
   <string name="string__d_vertices">%d вершин</string>
   <!--Original value: Search-->
@@ -41,6 +43,8 @@
   <string name="string_view_images_audios">Просмотр Фото/Аудио</string>
   <!--Original value: Point name is empty!-->
   <string name="string_point_name_is_empty_">Имя точки пустое!</string>
+  <!--Original value: Name-->
+  <string name="string_name">Имя точки</string>
   <!--Original value: Solution:-->
   <string name="string_solution_">Решение:</string>
   <!--Original value: H.RMS-->
@@ -67,8 +71,12 @@
   <string name="string_design_points">Выносные точки</string>
   <!--Original value: Satellites-->
   <string name="string_satellites">Спутников</string>
+  <!--Original value: Share file with-->
+  <string name="string_share_file_with" />
   <!--Original value: Archieve Folder-->
   <string name="action_arhieve_folder">Архивация проектов</string>
+  <!--Original value: Imported OK-->
+  <string name="string_imported_ok" />
   <!--Original value: Applying setting…-->
   <string name="string_applying_setting___">Настройки применяются...</string>
   <!--Original value: Vertical-->
@@ -93,6 +101,8 @@
   <string name="string_rtkbases">rtkbases</string>
   <!--Original value: Point name is too long!\nLimit it up to 40 chars, please-->
   <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Слишком длинное имя.\nОграничение 40 символов</string>
+  <!--Original value: LandXML *.xml-->
+  <string name="string_landxml___xml" />
   <!--Original value: Map-->
   <string name="action_map">Карта</string>
   <!--Original value: Delete point %s-->
@@ -139,6 +149,8 @@
   <string name="string_wrong_slant_height_">Неверная наклонная высота</string>
   <!--Original value: PDOP-->
   <string name="string_pdop">PDOP</string>
+  <!--Original value: Comment-->
+  <string name="string_comment">Описание</string>
   <!--Original value: Add new point-->
   <string name="string_add_new_point">Добавить новую точку</string>
   <!--Original value: UHF Freq-->
@@ -151,6 +163,8 @@
   <string name="localization">Локализация</string>
   <!--Original value: Wrong vertical offset!-->
   <string name="string_wrong_vertical_offset_">Неверный отступ антенны!</string>
+  <!--Original value: Hybrid RTK:-->
+  <string name="string_hybrid_rtk_">Гибридный RTK:</string>
   <!--Original value: Verify Mode-->
   <string name="string_verify_mode">Режим Проверки</string>
   <!--Original value: Code-->
@@ -163,6 +177,10 @@
   <string name="string_can_t_add_point__s_to_catalog_">Не удалось добавать точку %s в каталог!</string>
   <!--Original value: dN:%.3f-->
   <string name="string_dn___3f">dN:%.3f</string>
+  <!--Original value: Processed OK-->
+  <string name="string_processed_ok">Обработанно</string>
+  <!--Original value: MapInfo *.mif, *.tab-->
+  <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
   <!--Original value: Can\'t add rtk base %s to catalog!-->
   <string name="string_can_t_add_rtk_base__s_to_catalog_">Не удалось добавить базу %s в каталог!</string>
   <!--Original value: And move all %d rover points from it-->
@@ -185,6 +203,8 @@
   <string name="string_job">проект</string>
   <!--Original value: Point %s already exists!-->
   <string name="string_point__s_already_exists_">Точка с именем %s уже существует!</string>
+  <!--Original value: Import error #-->
+  <string name="string_import_error__">Ошибка импорта №</string>
   <!--Original value: HDOP-->
   <string name="string_hdop">HDOP</string>
   <!--Original value: RTK base %1$s was successfully added into catalog %2$s-->
@@ -193,6 +213,8 @@
   <string name="string_view_on_map">Показать на карте</string>
   <!--Original value: Edit Job-->
   <string name="string_edit_job">Редак-ть проект</string>
+  <!--Original value: Import error-->
+  <string name="string_import_error">Ошибка импорта</string>
   <!--Original value: Delete %1$s %2$s-->
   <string name="string_delete__1_s__2_s">Удалить %1$s %2$s</string>
   <!--Original value: Share Job-->
@@ -201,6 +223,8 @@
   <string name="string_ah___3f">AH:%.3f</string>
   <!--Original value: Point %1$s was successfully added into catalog %2$s-->
   <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Точка %1$s добавлена в каталог %2$s</string>
+  <!--Original value: Unprocessed-->
+  <string name="string_unprocessed">Необработанно</string>
   <!--Original value: Time:-->
   <string name="string_time_">Время:</string>
   <!--Original value: SN-->
@@ -217,8 +241,12 @@
   <string name="string_add_to_catalog__s">Добавить в каталог %s</string>
   <!--Original value: All %s were deleted-->
   <string name="string_all__s_were_deleted">Все %s были удалены</string>
+  <!--Original value: Origin-->
+  <string name="coordinate_origin">Начало</string>
   <!--Original value: Modify-->
   <string name="button_modify">Изменить</string>
+  <!--Original value: AutoCad Drawing *.dwg-->
+  <string name="string_autocad_drawing___dwg">Чертеж AutoCAD *.dwg</string>
   <!--Original value: Delete %1$d filtered points (of %2$d)-->
   <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
   <!--Original value: Job name is empty!-->
@@ -239,18 +267,26 @@
   <string name="string_select_export_type">Выберите тип экспорта</string>
   <!--Original value: Auto Archieve Jobs to Folder-->
   <string name="check_archieve_folder">Автоархивация проектов в папку</string>
+  <!--Original value: Dwg import is unsuppurted-->
+  <string name="string_dwg_import_is_unsuppurted">Импорт DWG не поддерживается</string>
   <!--Original value: TS Points-->
   <string name="string_ts_points">Тах.точки</string>
   <!--Original value: CH:%.3f-->
   <string name="string_ch___3f">CH:%.3f</string>
+  <!--Original value: ASCII file *.txt, *.sdr …-->
+  <string name="string_ascii_file___txt____sdr____">Текст.файл *.txt, *.sdr и др.</string>
   <!--Original value: View/Edit %s-->
   <string name="string_view_edit__s">Прсмотр/Правка %s</string>
   <!--Original value: Survey Points-->
   <string name="string_survey_points">Снятые точки</string>
+  <!--Original value: Hybrid RTK-->
+  <string name="string_hybrid_rtk">Гибридный RTK</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
   <!--Original value: Measure Units-->
   <string name="measure_units">Единицы измерения</string>
+  <!--Original value: Can\'t load importexport library!-->
+  <string name="string_can_t_load_importexport_library_">Не удалось загрузить библиотеку importexport!</string>
   <!--Original value: Solution-->
   <string name="string_solution">Решение</string>
   <!--Original value: Job Archieving is activated to folder \'%s\'!-->
@@ -261,6 +297,8 @@
   <string name="string_v_rms">Выс.СКО</string>
   <!--Original value: The job is empty-->
   <string name="string_the_job_is_empty">Работа пуста</string>
+  <!--Original value: Credo *.top-->
+  <string name="string_credo___top">CREDO *.top</string>
   <!--Original value: Job Archieving is turned OFF-->
   <string name="string_job_archieving_is_turned_off">Арихивация проектов ОТКЛЮЧЕНА</string>
   <!--Original value: Contouring-->
@@ -269,12 +307,16 @@
   <string name="string__d_points_in_the_job">в работе %d точек</string>
   <!--Original value: Layers-->
   <string name="string_layers">Слои</string>
+  <!--Original value: VRS(NEH)-->
+  <string name="coordinate_neh">VRS(NEH)</string>
   <!--Original value: GNSS Receiver-->
   <string name="string_gnss_receiver">Приемник</string>
   <!--Original value: MultiRTK Mode-->
   <string name="string_multirtk_mode">Режим MultiRTK</string>
   <!--Original value: Receive-->
   <string name="action_receive">Получить</string>
+  <!--Original value: Importing-->
+  <string name="string_importing">Импорт</string>
   <!--Original value: Ntrip Server-->
   <string name="string_ntrip_server">Ntrip сервер</string>
   <!--Original value: on-->
@@ -329,6 +371,8 @@
   <string name="string_on__">в (</string>
   <!--Original value: BH:%.3f-->
   <string name="string_bh___3f">BH:%.3f</string>
+  <!--Original value: Code-->
+  <string name="string_code">Код</string>
   <!--Original value: off-->
   <string name="string_off">выкл.</string>
   <!--Original value: Coordinate System-->
@@ -357,16 +401,18 @@
   <string name="string_ascii_file___txt">Текстовый файл .txt</string>
   <!--Original value: 5 Hz mode-->
   <string name="string_5_hz_mode">режим 5 Гц</string>
-  <!--Original value: Modify RTK Base-->
-  <string name="string_modify_rtk_base">Изменить RTK базу</string>
   <!--Original value: TDOP-->
   <string name="string_tdop">TDOP</string>
+  <!--Original value: Modify RTK Base-->
+  <string name="string_modify_rtk_base">Изменить RTK базу</string>
   <!--Original value: Height Type-->
   <string name="height_type">Тип высоты</string>
   <!--Original value: Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)-->
   <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Хотите переместить RTK базу на %1$s (dN:%2$s dE:%3$s dH:%4$s)</string>
   <!--Original value: North-->
   <string name="north">Север</string>
+  <!--Original value: ESRI ArcGis *.shp-->
+  <string name="string_esri_arcgis___shp">ESRI ArcGIS *.shp</string>
   <!--Original value: Comment-->
   <string name="job_comment">Комментарий</string>
   <!--Original value: RTK Bases-->
@@ -375,20 +421,20 @@
   <string name="action_add">Добавить</string>
   <!--Original value: Mount point-->
   <string name="string_mount_point">Точка подключения</string>
-  <!--Original value: Base:-->
-  <string name="string_base_">База:</string>
   <!--Original value: Lift&Tilt Survey-->
   <string name="string_lift_tilt_survey">Съемка Lift-Tilt</string>
+  <!--Original value: Base:-->
+  <string name="string_base_">База:</string>
   <!--Original value: East-->
   <string name="east">Восток</string>
   <!--Original value: Surveyor-->
   <string name="job_surveyor">Съемщик</string>
   <!--Original value: Identical Points-->
   <string name="string_identical_points">Идентичные точки</string>
-  <!--Original value: Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.-->
-  <string name="archieve_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
   <!--Original value: Survey Settings-->
   <string name="string_survey_settings">Настройки съемки</string>
+  <!--Original value: Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.-->
+  <string name="archieve_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
   <!--Original value: Folder %s doesn\'t exist!-->
   <string name="string_folder__s_doesn_t_exist_">Папка %s не существует!</string>
   <!--Original value: Survey Info-->
@@ -409,6 +455,8 @@
   <string name="button_antenna">Антенна</string>
   <!--Original value: UHF Prot.-->
   <string name="string_uhf_prot_">Протокол УВЧ</string>
+  <!--Original value: Status-->
+  <string name="string_status">Статус</string>
   <!--Original value: Name-->
   <string name="job_name">Имя</string>
   <!--Original value: VDOP-->
@@ -423,29 +471,38 @@
   <string name="string_trajectory">траект.</string>
   <!--Original value: View/Edit point-->
   <string name="string_view_edit_point">Просмотр/Правка точки</string>
-  
-  <string name="string_basedistance">Раст.до базы</string>
-  <string name="string_satellite_count">Общ.число спутников</string>
-  <string name="string_gdop">GDOP</string>
+  <!--Original value: Solution Type-->
   <string name="string_solutiontype">Тип решения</string>
+  <!--Original value: Total Satellite Count-->
+  <string name="string_satellite_count">Общ.число спутников</string>
+  <!--Original value: Stakeout Cut/Fill-->
   <string name="string_stakeout_cutfill">Вынос Срезать/Досыпать</string>
+  <!--Original value: Base Distance-->
+  <string name="string_basedistance">Раст.до базы</string>
+  <!--Original value: RTK Engines-->
   <string name="string_engine_count">Число RTK процессоров</string>
-  <string name="string_stakeout_dn">Вынос dN</string>
-  <string name="string_stakeout_de">Вынос dE</string>
-  <string name="string_stakeout_dh">Вынос dH</string>
-  <string name="string_stakeout_direction">Вынос Направление</string>
-  <string name="string_name">Имя точки</string>
-  <string name="string_baseid">Ид.Базы</string>
-  <string name="string_code">Код</string>
-  <string name="string_comment">Описание</string>
-  <string name="string_antennainfo">Антенна вся информация</string>
+  <!--Original value: Antenna Height Type-->
   <string name="string_antennaheighttype">Антенна Тип высоты</string>
-  <string name="string_antennaverticaloffset">Антенна Верт.Отступ</string>
+  <!--Original value: GDOP-->
+  <string name="string_gdop">GDOP</string>
+  <!--Original value: Antenna ID-->
   <string name="string_antennaid">Антенна Ид.</string>
+  <!--Original value: Antenna Vertical Offset-->
+  <string name="string_antennaverticaloffset">Антенна Верт.Отступ</string>
+  <!--Original value: Base ID-->
+  <string name="string_baseid">Ид.Базы</string>
+  <!--Original value: Stakeout Direction-->
+  <string name="string_stakeout_direction">Вынос Направление</string>
+  <!--Original value: Stakeout dE-->
+  <string name="string_stakeout_de">Вынос dE</string>
+  <!--Original value: Antenna Height-->
   <string name="string_antenna_height">Антенна Высота</string>
-  
-  
-  
+  <!--Original value: Stakeout dN-->
+  <string name="string_stakeout_dn">Вынос dN</string>
+  <!--Original value: Antena Info-->
+  <string name="string_antennainfo">Антенна вся информация</string>
+  <!--Original value: Stakeout dH-->
+  <string name="string_stakeout_dh">Вынос dH</string>
   <string-array name="coordinate_system_array">
     <!--Original value: WGS 84-->
     <item>WGS 84</item>
