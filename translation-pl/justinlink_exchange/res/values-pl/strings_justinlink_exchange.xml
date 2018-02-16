@@ -19,20 +19,26 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Received job %s with errors-->
+  <string name="string_received_job__s_with_errors">Projekt %s otrzymano z błędami</string>
   <!--Original value: Receiveing…-->
   <string name="string_receiveing___">Odbieranie…</string>
   <!--Original value: Do you want to receive job %s-->
   <string name="string_do_you_want_to_receive_job__s">Czy chcesz odebrać plik %s</string>
-  <!--Original value: On-->
-  <string name="justinlink_server_on">Wł.</string>
-  <!--Original value: Mock Location Provider-->
-  <string name="text_mock_location_provider">Dostawca pseudopozycji</string>
-  <!--Original value: On-->
-  <string name="mock_location_provider_on">Wł.</string>
+  <!--Original value: Firmware Successfully Updated-->
+  <string name="string_firmware_successfully_updated">Aktualizacja zakończona powodzeniem</string>
+  <!--Original value: Download and update-->
+  <string name="string_download_and_update">Pobierz i aktualizuj</string>
+  <!--Original value: justinlink_exchange-->
+  <string name="app_name">justinlink_exchange</string>
+  <!--Original value: OAF Update Error-->
+  <string name="string_oaf_update_error">Błąd aktualizacji OAF</string>
+  <!--Original value: Successfully received job %s-->
+  <string name="string_successfully_received_job__s">Odebrano projekt %s</string>
+  <!--Original value: The receiver options have expired!-->
+  <string name="string_the_receiver_options_have_expired_">Opcje odbiornika wygasły!</string>
   <!--Original value: The receiver options are going to be expired in %d days!-->
   <string name="string_the_receiver_options_are_going_to_be_expired_in__d_days_">Opcje odbiornika wygasną w ciągu %d dni!</string>
-  <!--Original value: Log-->
-  <string name="wsdd_server_log">Log</string>
   <!--Original value: OAF Successfully Updated-->
   <string name="string_oaf_successfully_updated">Aktualizacja OAF zakończona powodzeniem</string>
   <!--Original value: Please wait…-->
@@ -41,48 +47,42 @@
   <string name="string_loaded___">Załadowano…</string>
   <!--Original value: Firmware Update Error-->
   <string name="string_firmware_update_error">Błąd aktualizacji FW</string>
-  <!--Original value: Parsing data…-->
-  <string name="string_parsing_data___">Parsowanie danych…</string>
-  <!--Original value: Log-->
-  <string name="opusmail_server_log">Log</string>
   <!--Original value: OAF Update-->
   <string name="string_oaf_update">Aktualizacja OAF</string>
-  <!--Original value: OPUS Mail Reader-->
-  <string name="text_opusmail_server">OPUS Mail Reader</string>
+  <!--Original value: Parsing data…-->
+  <string name="string_parsing_data___">Parsowanie danych…</string>
   <!--Original value: Reading file list for job %s …-->
   <string name="string_reading_file_list_for_job__s____">Czytanie listy plików projektu %s …</string>
-  <!--Original value: On-->
-  <string name="opusmail_server_on">Wł.</string>
+  <!--Original value: Receiving file %s …-->
+  <string name="string_receiving_file__s____">Odebrano %s …</string>
+  <!--Original value: Receive Job-->
+  <string name="string_receive_job">Odbierz projkt</string>
   <!--Original value: Receive-->
   <string name="string_receive">Odbierz</string>
   <!--Original value: Firmware Update-->
   <string name="string_firmware_update">Aktualizacja FW</string>
   <!--Original value: Reading data…-->
   <string name="string_reading_data___">Odczyt danych…</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
   <!--Original value: Close-->
   <string name="string_close">Zamknij</string>
-  <!--Original value: WSDD Server-->
-  <string name="text_wsdd_server">Serwer WSDD</string>
-  <!--Original value: Received job %s with errors-->
-  <string name="string_received_job__s_with_errors">Projekt %s otrzymano z błędami</string>
-  <!--Original value: Firmware Successfully Updated-->
-  <string name="string_firmware_successfully_updated">Aktualizacja zakończona powodzeniem</string>
-  <!--Original value: Download and update-->
-  <string name="string_download_and_update">Pobierz i aktualizuj</string>
-  <!--Original value: justinlink_exchange-->
-  <string name="app_name">justinlink_exchange</string>
+  <!--Original value: Reading binary…-->
+  <string name="string_reading_binary___">Czytanie danych binarnych…</string>
   <!--Original value: J-Community-->
   <string name="text_j_community">J-Community</string>
+  <!--Original value: On-->
+  <string name="justinlink_server_on">Wł.</string>
   <!--Original value: WSDD Server works on %s-->
   <string name="string_wsdd_server_works_on__s">Serwer WSDD uruchomiony na %s</string>
-  <!--Original value: OAF Update Error-->
-  <string name="string_oaf_update_error">Błąd aktualizacji OAF</string>
-  <!--Original value: Successfully received job %s-->
-  <string name="string_successfully_received_job__s">Odebrano projekt %s</string>
-  <!--Original value: The receiver options have expired!-->
-  <string name="string_the_receiver_options_have_expired_">Opcje odbiornika wygasły!</string>
+  <!--Original value: Mock Location Provider-->
+  <string name="text_mock_location_provider">Dostawca pseudopozycji</string>
   <!--Original value: On-->
-  <string name="j_community_on" />
+  <string name="mock_location_provider_on">Wł.</string>
+  <!--Original value: On-->
+  <string name="j_community_on">Wł.</string>
+  <!--Original value: Log-->
+  <string name="wsdd_server_log">Log</string>
   <!--Original value: JustinLink Exchange Server works on %s-->
   <string name="string_justinlink_exchange_server_works_on__s">JustinLink Exchange serwer pracuje na %s</string>
   <!--Original value: Log-->
@@ -95,16 +95,16 @@
   <string name="string_justinlink_exchange_server_is_stopped">Serwer JustinLink Exchange zatrzymany</string>
   <!--Original value: Log-->
   <string name="justinlink_server_log">Log</string>
+  <!--Original value: Log-->
+  <string name="opusmail_server_log">Log</string>
+  <!--Original value: OPUS Mail Reader-->
+  <string name="text_opusmail_server">OPUS Mail Reader</string>
   <!--Original value: JustinLink Exchange Server-->
   <string name="text_justinlink_server">Serwer JustinLink Exchange</string>
-  <!--Original value: Receiving file %s …-->
-  <string name="string_receiving_file__s____">Odebrano %s …</string>
-  <!--Original value: Receive Job-->
-  <string name="string_receive_job">Odbierz projkt</string>
+  <!--Original value: On-->
+  <string name="opusmail_server_on">Wł.</string>
   <!--Original value: Log-->
   <string name="j_community_log">Log</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: Reading binary…-->
-  <string name="string_reading_binary___">Czytanie danych binarnych…</string>
+  <!--Original value: WSDD Server-->
+  <string name="text_wsdd_server">Serwer WSDD</string>
 </resources>

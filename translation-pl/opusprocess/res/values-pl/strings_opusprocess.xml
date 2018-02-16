@@ -19,22 +19,120 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Project deleted OK-->
-  <string name="string_project_deleted_ok">Projekt usunięty</string>
-  <!--Original value: Wrong Antenna height!-->
-  <string name="string_wrong_antenna_height_">Błędna wysokość anteny!</string>
+  <!--Original value: Coordinates-->
+  <string name="text_coordinates">Współrzędne</string>
   <!--Original value: VBRTK-->
   <string name="vbrtk">VBRTK</string>
-  <!--Original value: Send to OPUS-->
-  <string name="button_start_process">Wyślij do OPUS</string>
+  <!--Original value: V.Offset-->
+  <string name="string_antenna_vertical_offset">Offset pionowy</string>
   <!--Original value: ->-->
   <string name="arrow">-&gt;</string>
+  <!--Original value: Point Name  /  File Name-->
+  <string name="string_point_file">Nazwa pliku / punktu</string>
+  <!--Original value: DPOS network is not selected!-->
+  <string name="string_dpos_network_is_not_selected_">Nie wybrano sieci DPOS!</string>
   <!--Original value: Out.Format-->
   <string name="output_format">Format wyjśc.</string>
   <!--Original value: Finishing…-->
   <string name="string_finishing___">Kończenie…</string>
   <!--Original value: Add to Catalog-->
   <string name="add_to_catalog">Dodaj do katalogu</string>
+  <!--Original value: Anonymous-->
+  <string name="string_anonymous" />
+  <!--Original value: Type-->
+  <string name="string_antenna_height_type">Typ</string>
+  <!--Original value: Canceled by user-->
+  <string name="string_canceled_by_user">Anulowanie przez użytkownika</string>
+  <!--Original value: Mode-->
+  <string name="string_process_mode">Tryb</string>
+  <!--Original value: Delete the file-->
+  <string name="string_delete_the_file">Kasuj plik</string>
+  <!--Original value: DPOS server is not selected!-->
+  <string name="string_dpos_server_is_not_selected_">Nie wybrano serwera DPOS!</string>
+  <!--Original value: Parsing server answer-->
+  <string name="string_parsing_server_answer">Parsowanie odpowiedzi z serwera...</string>
+  <!--Original value: Height Type-->
+  <string name="antenna_height_type_opus">Typ wysokości</string>
+  <!--Original value: Reading answer…-->
+  <string name="string_reading_answer___">Odczyt odpowiedzi…</string>
+  <!--Original value: Processing file %s-->
+  <string name="string_processing_file__s">Przetwarzanie pliku %s</string>
+  <!--Original value: Establish Connection-->
+  <string name="button_handshake">Ustanów połączenie</string>
+  <!--Original value: Save Report-->
+  <string name="save_result">Zapisz raport</string>
+  <!--Original value: Catalog-->
+  <string name="catalog">Katalog</string>
+  <!--Original value: Convert to Rinex-->
+  <string name="string_convert_to_rinex">Konwertuj do Rinex</string>
+  <!--Original value: OPUS Process Result-->
+  <string name="title_opus_result">Wyniki OPUS</string>
+  <!--Original value: HybridRTK is over-->
+  <string name="string_hybridrtk_is_over">Zakończono HybridRTK</string>
+  <!--Original value: Empty Antenna height!-->
+  <string name="string_empty_antenna_height_">Pusta wysokość anteny!</string>
+  <!--Original value: Can\'t create project.\n-->
+  <string name="string_can_t_create_project__n">Nie można utworzyć projektu.\n</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Update HybridRTK coordinate for point %s-->
+  <string name="hybrid_rtk_format">Uaktualnij współrzędne HybridRTK dla punktu %s</string>
+  <!--Original value: OPUS Process-->
+  <string name="string_opus_process">Przetwarzanie OPUS</string>
+  <!--Original value: Finished-->
+  <string name="string_finished">Zakończono</string>
+  <!--Original value: Processed. Reading result…-->
+  <string name="string_processed__reading_result___">Przetworzono. Odczyt wyników…</string>
+  <!--Original value: Network-->
+  <string name="dpos_network">Sieć</string>
+  <!--Original value: Creating project…-->
+  <string name="string_creating_project___">Tworzenie projektu...</string>
+  <!--Original value: Process DPOS-->
+  <string name="button_process_jopus">Przetwarzanie DPOS</string>
+  <!--Original value: . . .-->
+  <string name="button_select">. . .</string>
+  <!--Original value: Antenna Height-->
+  <string name="string_antenna_all">Wysokość Anteny</string>
+  <!--Original value: OPUS Process Result-->
+  <string name="title_activity_opus_result_process">Wyniki OPUS</string>
+  <!--Original value: Process DPOS-->
+  <string name="string_process_dpos">Process DPOS</string>
+  <!--Original value: Do HybridRTK-->
+  <string name="do_hybrid_rtk">Wykonaj HybridRTK</string>
+  <!--Original value: Looking for antenna info in file %s-->
+  <string name="string_looking_for_antenna_info_in_file__s">Szukanie danych anteny w pliku %s</string>
+  <!--Original value: No base-->
+  <string name="string_no_base">Brak bazy</string>
+  <!--Original value: No file is selected!-->
+  <string name="string_no_file_is_selected_">Nie wybrano pliku!</string>
+  <!--Original value: File send error-->
+  <string name="string_file_send_error">Błąd wysyłania</string>
+  <!--Original value: No files for Hybrid RTK found!-->
+  <string name="string_no_files_for_hybrid_rtk_found_">Nie odnaleziono plików dla HybridRTK!</string>
+  <!--Original value: Save Results-->
+  <string name="button_save">Zapisz wynik</string>
+  <!--Original value: Authorization…-->
+  <string name="string_authorization___">Autoryzacja...</string>
+  <!--Original value: Wrong file selected-->
+  <string name="string_wrong_file_selected">Wybrano niewłaściwy plik</string>
+  <!--Original value: OPUS Project (with ProjectId) can\'t process Rapid-Static!-->
+  <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">Nie można przetworzyć Rapid-Static!</string>
+  <!--Original value: Error-->
+  <string name="string_error">Błąd</string>
+  <!--Original value: Antenna ID is not selected!-->
+  <string name="string_antenna_id_is_not_selected_">Nie wybrano ID anteny!</string>
+  <!--Original value: Process Starting…-->
+  <string name="string_process_starting___">Rozpoczynanie…</string>
+  <!--Original value: Update HybridRTK coordinate for point-->
+  <string name="hybrid_rtk">Uaktualnij współrzędne HybridRTK dla punktu</string>
+  <!--Original value: Process as Device-->
+  <string name="process_as_device">Przetwarzaj jako urządzenie</string>
+  <!--Original value: Wrong Antenna height!-->
+  <string name="string_wrong_antenna_height_">Błędna wysokość anteny!</string>
+  <!--Original value: Project deleted OK-->
+  <string name="string_project_deleted_ok">Projekt usunięty</string>
+  <!--Original value: Send to OPUS-->
+  <string name="button_start_process">Wyślij do OPUS</string>
   <!--Original value: View OPUS-->
   <string name="string_view_opus">Podgląd OPUS</string>
   <!--Original value: Automatic-->
@@ -43,70 +141,79 @@
   <string name="string_sent">Wyślij</string>
   <!--Original value: DPOS Process-->
   <string name="string_dpos_process">Przetwarzaj z DPOS</string>
-  <!--Original value: Canceled by user-->
-  <string name="string_canceled_by_user">Anulowanie przez użytkownika</string>
   <!--Original value: Delete-->
   <string name="button_delete">Usuń</string>
-  <!--Original value: Delete the file-->
-  <string name="string_delete_the_file">Kasuj plik</string>
-  <!--Original value: DPOS server is not selected!-->
-  <string name="string_dpos_server_is_not_selected_">Nie wybrano serwera DPOS!</string>
   <!--Original value: Antenna Height\n(vert. in meters)-->
   <string name="antenna_height_opus">Wys. anteny\n(pion. w metrach)</string>
-  <!--Original value: DPOS Server-->
+  <!--Original value: Server-->
   <string name="dpos_server">Serwer DPOS</string>
-  <!--Original value: Height Type-->
-  <string name="antenna_height_type_opus">Typ wysokości</string>
-  <!--Original value: Reading answer…-->
-  <string name="string_reading_answer___">Odczyt odpowiedzi…</string>
-  <!--Original value: Processing file %s-->
-  <string name="string_processing_file__s">Przetwarzanie pliku %s</string>
+  <!--Original value: 
+        <h1>Attach Device to DPOS</h1>
+        Please visit out <b>JAVAD Customer Area<b> at <b>app.javad.com<b> and navigate to J-FieldAssistant/<b>Devices<b> section.<br> </br>
+           Follow to instructions in <b>Connect device<b> widget on the page to generate a new handshake key.<br></br>
+           Enter this key into field below and click <b>Establish Connection</b> button to complete the procedure.
+    -->
+  <string name="html_handshake">    </string>
   <!--Original value: Authorization error!!!-->
   <string name="string_authorization_error___">Błąd autoryzacji!</string>
   <!--Original value: DPOS Process Result-->
   <string name="title_dpos_result">Wyniki DPOS</string>
-  <!--Original value: Save Report-->
-  <string name="save_result">Zapisz raport</string>
+  <!--Original value: Base file-->
+  <string name="base_file">Plik bazy</string>
+  <!--Original value: Antenna-->
+  <string name="string_antenna3">Antena</string>
   <!--Original value: Rapid Static-->
   <string name="rapid_static">Rapid Static</string>
   <!--Original value: Can\'t delete DPOS project-->
   <string name="string_can_t_delete_dpos_project">Nie można usunąć projektu</string>
-  <!--Original value: Project creation error!\n-->
-  <string name="string_project_creation_error__n">Błąd projektu!\n</string>
-  <!--Original value: Catalog-->
-  <string name="catalog">Katalog</string>
+  <!--Original value: Base File send error-->
+  <string name="string_base_file_send_error">Błąd wysyłania pliku bazy</string>
+  <!--Original value: DPOS HybridRTK-->
+  <string name="action_hybrid_rtk">DPOS HybridRTK</string>
   <!--Original value: Show Log Files-->
   <string name="string_show_log_files">Pokaż Logi</string>
+  <!--Original value: Project creation error!\n-->
+  <string name="string_project_creation_error__n">Błąd projektu!\n</string>
+  <!--Original value: 
+        <h1>Device to DPOS Connection</h1>
+        Connection to <b>JAVAD Customer Area<b> is established!<br> 
+        Please check for the available services at <b>app.javad.com<b>
+    -->
+  <string name="html_revoke" />
   <!--Original value: View DPOS-->
   <string name="string_view_dpos">Podgląd DPOS</string>
-  <!--Original value: Convert to Rinex-->
-  <string name="string_convert_to_rinex">Konwertuj do Rinex</string>
+  <!--Original value: %1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s-->
+  <string name="base_format" />
   <!--Original value: Send to DPOS-->
   <string name="string_send_to_dpos">Wyślij do DPOS</string>
-  <!--Original value: OPUS Process Result-->
-  <string name="title_opus_result">Wyniki OPUS</string>
-  <!--Original value: SSL sertificate is not installed!-->
-  <string name="string_ssl_sertificate_is_not_installed_">Nie zainstalowana certyfikatu SSL!</string>
+  <!--Original value: Sending %s to server…-->
+  <string name="string_sending__s_to_server___">Wysyłanie %s na serwer…</string>
+  <!--Original value: Use-->
+  <string name="string_use_header">Użyj</string>
   <!--Original value: e-mail-->
   <string name="email">e-mail</string>
   <!--Original value: Analyzing…-->
   <string name="string_analyzing___">Analizowanie…</string>
-  <!--Original value: Hide Log Files-->
-  <string name="string_hide_log_files">Ukryj Logi</string>
   <!--Original value: Project Id-->
   <string name="project_id">ID projektu</string>
-  <!--Original value: Empty Antenna height!-->
-  <string name="string_empty_antenna_height_">Pusta wysokość anteny!</string>
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
+  <!--Original value: Hide Log Files-->
+  <string name="string_hide_log_files">Ukryj Logi</string>
+  <!--Original value: Antenna-->
+  <string name="string_antenna_hrtk">Antena</string>
   <!--Original value: Antenna Id-->
   <string name="antenna_id_opus">ID Anteny</string>
   <!--Original value: Send to OPUS-->
   <string name="string_send_to_opus">Wyślij do OPUS</string>
   <!--Original value: Process Mode-->
   <string name="process_mode">Tryb przetwarzania</string>
-  <!--Original value: OPUS Process-->
-  <string name="string_opus_process">Przetwarzanie OPUS</string>
+  <!--Original value: Authenticate as-->
+  <string name="authenticate_as_device">Uwierzytelnij jako</string>
+  <!--Original value: 
+        <h1>Device to DPOS Connection</h1>
+        No connection to <b>JAVAD Customer Area<b>!<br> 
+        Please check Internet connection on your device!
+    -->
+  <string name="html_no_internet" />
   <!--Original value: View-->
   <string name="button_view">Podgląd</string>
   <!--Original value: Process OPUS-->
@@ -117,56 +224,54 @@
   <string name="string_sending_to_server___">Wysyłanie na serwer…</string>
   <!--Original value: File Name-->
   <string name="file_name">Nazwa pliku</string>
+  <!--Original value: Point-->
+  <string name="button_point_name">Punkt</string>
   <!--Original value: OPUS Process-->
   <string name="app_name">Przetwarzanie OPUS</string>
-  <!--Original value: Finished-->
-  <string name="string_finished">Zakończono</string>
   <!--Original value: Show Log Folder-->
   <string name="string_show_log_folder">Pokaż katalog Logów</string>
-  <!--Original value: Processed. Reading result…-->
-  <string name="string_processed__reading_result___">Przetworzono. Odczyt wyników…</string>
-  <!--Original value: Process DPOS-->
-  <string name="button_process_jopus">Przetwarzanie DPOS</string>
-  <!--Original value: . . .-->
-  <string name="button_select">. . .</string>
-  <!--Original value: Process DPOS-->
-  <string name="string_process_dpos">Process DPOS</string>
-  <!--Original value: OPUS Process Result-->
-  <string name="title_activity_opus_result_process">Wyniki OPUS</string>
-  <!--Original value: Antenna Height in meters-->
-  <string name="antenna_height_dpos">Wys. Anteny</string>
+  <!--Original value: Engine-->
+  <string name="dpos_engine">Silnik</string>
+  <!--Original value: Base file-->
+  <string name="string_base_file">Plik bazy</string>
+  <!--Original value: Coordinates-->
+  <string name="string_coordinates">Współrzędne</string>
+  <!--Original value: HybridRTK saved with errors-->
+  <string name="string_hybridrtk_saved_with_errors">HybridRTK zapisano z błędami</string>
+  <!--Original value: %1$s engine is not supported for network %2$s!-->
+  <string name="string__1_s_engine_is_not_supported_for_network__2_s_">Silnik %1$s nie jest wspierany przez sieć %2$s!</string>
   <!--Original value: View on Map-->
   <string name="string_view_on_map">Zobacz na mapie</string>
+  <!--Original value: Antenna Height-->
+  <string name="antenna_height_dpos">Wys. Anteny</string>
   <!--Original value: Unknown error!-->
   <string name="string_unknown_error_">Nieznay błąd!</string>
   <!--Original value: Folder\nof files:-->
   <string name="text_folder2">Katalog:</string>
-  <!--Original value: Looking for antenna info in file %s-->
-  <string name="string_looking_for_antenna_info_in_file__s">Szukanie danych anteny w pliku %s</string>
-  <!--Original value: Process OPUS-->
-  <string name="string_process_opus">Przetwarzanie OPUS</string>
   <!--Original value: Settings-->
   <string name="action_settings">Ustawienia</string>
-  <!--Original value: No file is selected!-->
-  <string name="string_no_file_is_selected_">Nie wybrano pliku!</string>
-  <!--Original value: File send error-->
-  <string name="string_file_send_error">Błąd wysyłania</string>
-  <!--Original value: Authorization…-->
-  <string name="string_authorization___">Autoryzacja...</string>
+  <!--Original value: Process OPUS-->
+  <string name="string_process_opus">Przetwarzanie OPUS</string>
+  <!--Original value: No files!-->
+  <string name="string_no_files_">Brak plików!</string>
+  <!--Original value: Attach Device-->
+  <string name="action_attach_device">Dołącz urządzenie</string>
   <!--Original value: OPUS Process-->
   <string name="title_activity_opus_process">Przetwarzanie OPUS</string>
-  <!--Original value: OPUS Project (with ProjectId) can\'t process Rapid-Static!-->
-  <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">Nie można przetworzyć Rapid-Static!</string>
-  <!--Original value: Antenna ID is not selected!-->
-  <string name="string_antenna_id_is_not_selected_">Nie wybrano ID anteny!</string>
-  <!--Original value: Process Starting…-->
-  <string name="string_process_starting___">Rozpoczynanie…</string>
+  <!--Original value: Revoke Connection-->
+  <string name="button_revoke">Odwołaj połączenie</string>
   <!--Original value: Use Debug server-->
   <string name="use_debug_server">Tryb debugowania</string>
-  <!--Original value: Hide Log Folder-->
-  <string name="string_hide_log_folder">Ukryj katalog</string>
   <!--Original value: Processing…-->
   <string name="string_processing___">Przetwarzanie…</string>
-  <!--Original value: Kinematic-->
-  <string name="kinematic">Kinematyczne</string>
+  <!--Original value: Hide Log Folder-->
+  <string name="string_hide_log_folder">Ukryj katalog</string>
+  <!--Original value: Press to select-->
+  <string name="string_press_to_select">Naciśnij aby wybrać</string>
+  <!--Original value: Height-->
+  <string name="string_antenna_height2">Wysokość</string>
+  <!--Original value: SSL sertificate is not installed!-->
+  <string name="string_ssl_sertificate_is_not_installed_">Nie zainstalowana certyfikatu SSL!</string>
+  <!--Original value: -->
+  <string name="">Kinematyczne</string>
 </resources>

@@ -19,361 +19,386 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: JAVAD-->
-  <string name="home_activity_title">JAVAD</string>
-  <!--Original value: Telnet-->
-  <string name="title_telnet">Telnet</string>
+  <!--Original value: Select date-->
+  <string name="title_activity_calendar">Wybierz datę</string>
   <!--Original value: Configure FH-->
   <string name="title_activity_configure_fh">Konfiguruj FH</string>
   <!--Original value: Satellites-->
-  <string name="title_satellites">Satelity</string>
+  <string name="title_activity_satellite_types">Satelity</string>
+  <!--Original value: Satellites-->
+  <string name="title_activity_satellite">Satelity</string>
   <!--Original value: CS Info-->
   <string name="string_cs_info">Info</string>
-  <!--Original value: RTK Stakeout-->
-  <string name="radio_rtk_stakeout">Tyczenie RTK</string>
+  <!--Original value: Pair HPT Modem-->
+  <string name="title_activity_pair_modem">Paruj z modemem HPT</string>
+  <!--Original value: Connect J-Tip-->
+  <string name="title_activity_find_smarttip">Połącz ze SmartTip</string>
+  <!--Original value: Receive-->
+  <string name="title_activity_receive">Odbierz projekt</string>
   <!--Original value: Jobs-->
   <string name="title_activity_jobs">Projekty</string>
-  <!--Original value: Pair Modem-->
-  <string name="title_pairmodem">Paruj z modemem</string>
+  <!--Original value: Services-->
+  <string name="title_justinlink_server_settings">Serwisy</string>
+  <!--Original value: Find Repeater-->
+  <string name="title_activity_find_repeater">Znajdź Repeater</string>
   <!--Original value: Repeater-->
   <string name="title_activity_repeater">Repeater</string>
-  <!--Original value: Post-Processing data collection-->
-  <string name="radio_post_processing">Zbieraj dane do Post-Processingu</string>
-  <!--Original value: Receiver Files-->
-  <string name="title_filemanager">Pliki odbiornika</string>
-  <!--Original value: Power-->
-  <string name="title_power">Zasilanie</string>
-  <!--Original value: Russian-->
-  <string name="string_russian">Rosyjski</string>
+  <!--Original value: RTK Rover-->
+  <string name="title_activity_rtk">Rover RTK</string>
+  <!--Original value: Update Firmware-->
+  <string name="title_activity_update_firmware">Aktualizuj FW</string>
   <!--Original value: Localization Setup-->
   <string name="title_activity_localization_parameters">Ustawienia lokalizacji</string>
-  <!--Original value: English-->
-  <string name="string_english">English</string>
-  <!--Original value: Javad Mobile Tools-->
+  <!--Original value: Corrections-->
+  <string name="title_activity_corrections">Poprawki</string>
+  <!--Original value: About-->
+  <string name="title_activity_about">About</string>
+  <!--Original value: Settings-->
+  <string name="title_activity_jcommunity_settings">J-Community</string>
+  <!--Original value: Splash-->
   <string name="title_activity_splash">Javad Mobile Tools</string>
   <!--Original value: CoGo-->
   <string name="title_activity_cogo_home">COGO</string>
   <!--Original value: Load Firmware-->
   <string name="title_load_firmware_modem">Ładuj Firmware</string>
-  <!--Original value: Turn Off Controller-->
-  <string name="check_turn_off_controller">Wyłącz kontroler</string>
-  <!--Original value: RTK Base-->
-  <string name="string_rtk_base">Baza RTK</string>
-  <!--Original value: Inverse-->
-  <string name="title_activity_cogo_inverse">Zadanie odwrotne</string>
-  <!--Original value: File Logging-->
-  <string name="title_activity_file_logging">Zapis do pliku</string>
-  <!--Original value: RTK Base-->
-  <string name="title_rtkbase">Baza RTK</string>
-  <!--Original value: Turkish-->
-  <string name="string_turkish">Turkish</string>
-  <!--Original value: Select Last Job (%s)-->
-  <string name="string_select_last_job___s_">Poprzedni projekt: %s</string>
-  <!--Original value: Job-->
-  <string name="title_activity_job">Projekt</string>
-  <!--Original value: Survey Settings-->
-  <string name="title_activity_survey_settings">Ustawienia pomiaru</string>
-  <!--Original value: Point-->
-  <string name="title_activity_design_point">Punkt</string>
-  <!--Original value: Total Station-->
-  <string name="title_ts_exchange">Total Station</string>
-  <!--Original value: Info-->
-  <string name="title_receiver_info">Info</string>
-  <!--Original value: Direct-->
-  <string name="title_activity_cogo_direct">Zadanie wprost</string>
-  <!--Original value: RangeFinder-->
-  <string name="title_activity_rangefinder">Dalmierz</string>
-  <!--Original value: TS Points-->
-  <string name="title_ts_points">Punkty TS</string>
-  <!--Original value: RTK Survey-->
-  <string name="radio_rtk_survey">Pomiar RTK</string>
-  <!--Original value: Design Points-->
-  <string name="title_activity_design_points">Punkty wpisane</string>
-  <!--Original value: Select Other Job…-->
-  <string name="string_select_other_job___">Inny projekt...</string>
-  <!--Original value: Record Audio-->
-  <string name="title_activity_audio_recording">Nagraj Audio</string>
-  <!--Original value: Surveying-->
-  <string name="title_activity_surveying">Pomiar</string>
-  <!--Original value: Exchange Progress-->
-  <string name="title_ts_echange_progress">Postęp wymiany</string>
-  <!--Original value: Download Block Size-->
-  <string name="title_activity_block_size">Download Block Size</string>
-  <!--Original value: Receiver connected via NetHub-->
-  <string name="radio_receiver_via_nethub">Odbiornik podłączony przez NetHub</string>
-  <!--Original value: Descriptions-->
-  <string name="title_activity_descriptions">Opisy</string>
-  <!--Original value: Survey Points-->
-  <string name="title_survey_points">Punkty GPS</string>
-  <!--Original value: Terminal-->
-  <string name="title_terminal">Terminal</string>
-  <!--Original value: Settings-->
-  <string name="title_activity_stakeout_settings">Ustawienia</string>
-  <!--Original value: Stakeout-->
-  <string name="title_activity_stakeout_cutfill">Tyczenie</string>
-  <!--Original value: Process-->
-  <string name="title_process">Przetwarzaj</string>
-  <!--Original value: Stop Mobile Data-->
-  <string name="check_stop_mobile_data">Zatrzymaj dane mobilne</string>
-  <!--Original value: Select Job-->
-  <string name="title_select_job">Wybierz projekt</string>
-  <!--Original value: TS Points-->
-  <string name="title_activity_ts_points">Punkty TS</string>
-  <!--Original value: Select Project-->
-  <string name="string_select_project">Wybierz Projekt</string>
-  <!--Original value: Design Points-->
-  <string name="title_design_points">Punkty wpisane</string>
-  <!--Original value: ;© JAVAD GNSS 2017-->
-  <string name="hello_world">;© JAVAD GNSS 2018</string>
-  <!--Original value: Services-->
-  <string name="title_justinlink_server">Serwisy</string>
-  <!--Original value: Disconnect-->
-  <string name="string_disconnect">Rozłącz</string>
-  <!--Original value: J-Community-->
-  <string name="title_jcommunity">J-Community</string>
-  <!--Original value: Confirm-->
-  <string name="title_activity_confirm_survey_point">Zatwierdź</string>
-  <!--Original value: Identical Points-->
-  <string name="title_activity_localization_ip">Pkty dostosowania</string>
-  <!--Original value: Survey Points-->
-  <string name="title_activity_survey_points">Punkty GPS</string>
-  <!--Original value: Do you want to exit the application?-->
-  <string name="string_do_you_want_to_exit_the_application_">Czy chcesz wyjść z programu?</string>
-  <!--Original value: Codes-->
-  <string name="title_activity_codes">Kody</string>
-  <!--Original value: Taiwan-->
-  <string name="string_taiwan">Taiwan</string>
-  <!--Original value: Stop RTK and Radio-->
-  <string name="check_stop_rtk_radio">Zatrzymaj RTK i modem</string>
-  <!--Original value: Static Survey-->
-  <string name="title_survey_pp">Pomiar Stat.</string>
-  <!--Original value: Rangefinder-->
-  <string name="title_rangefinder">Dalmierz</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="string_permission_denied_to_write_to_your_external_storage">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
-  <!--Original value: Choose Map Provider-->
-  <string name="title_activity_provider">Wybierz dostawcę mapy</string>
-  <!--Original value: Points-->
-  <string name="title_activity_points">Punkty</string>
-  <!--Original value: Catalogs-->
-  <string name="title_activity_catalogs">Katalogi</string>
-  <!--Original value: Source Table-->
-  <string name="title_activity_source_table">Źródła</string>
-  <!--Original value: English-->
-  <string name="translation_english">English</string>
-  <!--Original value: Corrections-->
-  <string name="title_corrections">Poprawki</string>
-  <!--Original value: Coord.Sys-->
-  <string name="title_cs">Ukł.Wsp.</string>
-  <!--Original value: J-Tip-->
-  <string name="title_smart_tips">SmartTip</string>
-  <!--Original value: Antenna-->
-  <string name="title_activity_antenna">Antena</string>
-  <!--Original value: Surveying-->
-  <string name="title_activity_surveying_rtk">Pomiar</string>
-  <!--Original value: Select Data Type-->
-  <string name="title_select_type">Wybierz typ danych</string>
-  <!--Original value: Russian-->
-  <string name="translation_russian">Russian</string>
-  <!--Original value: About-->
-  <string name="action_about">About</string>
-  <!--Original value: OPUS Process-->
-  <string name="title_activity_opus_process">Przetwarzanie OPUS</string>
-  <!--Original value: Job-->
-  <string name="title_jobs">Projekt</string>
-  <!--Original value: Localize-->
-  <string name="title_localize">Lokalizacja</string>
-  <!--Original value: Results-->
-  <string name="title_activity_cogo_result">Wyniki</string>
-  <!--Original value: Configure RCV-->
-  <string name="title_activity_configure_rcv">Konfiguruj RCV</string>
-  <!--Original value: Radio-->
-  <string name="title_radio">Radio</string>
-  <!--Original value: Stop Logging-->
-  <string name="check_stop_logging">Zatrzymaj zapis</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Połącz</string>
-  <!--Original value: Satellites-->
-  <string name="title_activity_satellite_types">Satelity</string>
-  <!--Original value: Satellites-->
-  <string name="title_activity_satellite">Satelity</string>
-  <!--Original value: Pair HPT Modem-->
-  <string name="title_activity_pair_modem">Paruj z modemem HPT</string>
-  <!--Original value: Connect J-Tip-->
-  <string name="title_activity_find_smarttip">Połącz ze SmartTip</string>
-  <!--Original value: Job:-->
-  <string name="string_job_">Proj:</string>
-  <!--Original value: Repeater-->
-  <string name="title_repeater">Repeater</string>
-  <!--Original value: Services-->
-  <string name="title_justinlink_server_settings">Serwisy</string>
-  <!--Original value: Find Repeater-->
-  <string name="title_activity_find_repeater">Znajdź Repeater</string>
-  <!--Original value: RTK Rover-->
-  <string name="title_activity_rtk">Rover RTK</string>
-  <!--Original value: Wrong device-->
-  <string name="string_wrong_device">Niewłaśćiwe urządz.</string>
-  <!--Original value: Update Firmware-->
-  <string name="title_activity_update_firmware">Update Firmware</string>
-  <!--Original value: Corrections-->
-  <string name="title_activity_corrections">Poprawki</string>
-  <!--Original value: Exit application-->
-  <string name="string_exit_application">Zamknij program</string>
-  <!--Original value: Next >>-->
-  <string name="button_next">Dalej &gt;&gt;</string>
-  <!--Original value: About-->
-  <string name="title_activity_about">About</string>
-  <!--Original value: image_view-->
-  <string name="image_view">image_view</string>
-  <!--Original value: J-Community-->
-  <string name="title_activity_jcommunity_settings">J-Community</string>
-  <!--Original value: Radio Firmware Loader-->
-  <string name="radio_firmware">Radio Firmware Loader</string>
   <!--Original value: CS Favorites-->
   <string name="title_activity_cses">Ulubione UW</string>
   <!--Original value: RTK Base Antenna-->
   <string name="title_activity_antena">Antena bazy RTK</string>
   <!--Original value: RTK Base-->
   <string name="title_activity_rtk_base">Baza RTK</string>
-  <!--Original value: RTK Rover-->
-  <string name="title_rtkrover">Rover RTK</string>
-  <!--Original value: © JAVAD GNSS, 2017-->
-  <string name="string_splash">&#169; JAVAD GNSS, 2018</string>
-  <!--Original value: Devices-->
-  <string name="title_activity_jcommunity_devices">Urządzenia</string>
   <!--Original value: Bluetooth Search-->
   <string name="title_find_ts">Szukaj Bluetooth</string>
-  <!--Original value: Language-->
-  <string name="string_language">Język</string>
-  <!--Original value: China-->
-  <string name="translation_china">China</string>
+  <!--Original value: Devices-->
+  <string name="title_activity_jcommunity_devices">Urządzenia</string>
+  <!--Original value: RTK Base-->
+  <string name="string_rtk_base">Baza RTK</string>
+  <!--Original value: Inverse-->
+  <string name="title_activity_cogo_inverse">Zadanie odwrotne</string>
+  <!--Original value: File Logging-->
+  <string name="title_activity_file_logging">Zapis do pliku</string>
+  <!--Original value: Spoofing-->
+  <string name="title_activity_spoofing">Spoofing</string>
+  <!--Original value: Job-->
+  <string name="title_activity_job">Projekt</string>
   <!--Original value: Terminal-->
   <string name="title_activity_terminal">Terminal</string>
-  <!--Original value: Connected to : %s-->
-  <string name="string_connected_to____s">Połączono z : %s</string>
+  <!--Original value: Survey Settings-->
+  <string name="title_activity_survey_settings">Ustawienia pomiaru</string>
+  <!--Original value: Verify-->
+  <string name="title_verify_settings">Ustawienia trybu Verify</string>
   <!--Original value: Survey Info-->
   <string name="title_activity_point_survey_info">Info</string>
-  <!--Original value: Verify Settings-->
-  <string name="title_verify_settings">Ustawienia trybu Verify</string>
-  <!--Original value: Catalog-->
-  <string name="title_activity_catalog">Katalog</string>
+  <!--Original value: Point-->
+  <string name="title_activity_design_point">Punkt</string>
   <!--Original value: Map-->
   <string name="title_activity_map">Mapa</string>
-  <!--Original value: GNSS Receiver with radio (GSM, UHF/FH)-->
-  <string name="radio_receiver_with_radio">Odbiornik GNSS z modemem (GSM, UHF/FH)</string>
+  <!--Original value: Catalog-->
+  <string name="title_activity_catalog">Katalog</string>
+  <!--Original value: Info-->
+  <string name="title_receiver_info">Info</string>
+  <!--Original value: Process Result-->
+  <string name="title_activity_opus_result_process">Przetwarzaj wynik</string>
   <!--Original value: Settings-->
   <string name="string_settings">Ustawienia</string>
   <!--Original value: Direct Call-->
   <string name="title_activity_configure_csd">Direct Call</string>
+  <!--Original value: Setup WiFi-->
+  <string name="title_activity_configure_wifi">Ustaw WiFi</string>
   <!--Original value: DPOS Process-->
   <string name="title_activity_dpos_process">Przetwarzanie DPOS</string>
   <!--Original value: RTK Base-->
   <string name="title_activity_rtkbase">Baza RTK</string>
+  <!--Original value: Direct-->
+  <string name="title_activity_cogo_direct">Zadanie wprost</string>
+  <!--Original value: RangeFinder-->
+  <string name="title_activity_rangefinder">Dalmierz</string>
+  <!--Original value: Attach Device-->
+  <string name="title_activity_attach_device">Dołącz urządzenie</string>
   <!--Original value: Select Format-->
   <string name="title_select_format">Wybierz format</string>
   <!--Original value: J-Tip-->
   <string name="title_activity_smarttip">SmartTip</string>
   <!--Original value: Stakeout-->
   <string name="title_activity_stakeout">Tyczenie</string>
-  <!--Original value: Turkish-->
-  <string name="translation_turkish">Turkish</string>
+  <!--Original value: Design Points-->
+  <string name="title_activity_design_points">Punkty wpisane</string>
+  <!--Original value: Record Audio-->
+  <string name="title_activity_audio_recording">Nagraj Audio</string>
+  <!--Original value: Surveying-->
+  <string name="title_activity_surveying">Pomiar</string>
   <!--Original value: Power-->
   <string name="title_activity_power">Zasilanie</string>
+  <!--Original value: Download Block Size-->
+  <string name="title_activity_block_size">Download Block Size</string>
+  <!--Original value: Exchange Progress-->
+  <string name="title_ts_echange_progress">Postęp wymiany</string>
   <!--Original value: Configure UHF-->
   <string name="title_activity_configure_uhf">Konfiguruj UHF</string>
   <!--Original value: Update OAF-->
-  <string name="title_activity_update_oaf">Update OAF</string>
-  <!--Original value: Turn Off Receiver-->
-  <string name="check_turn_off">Wyłącz odbiornik</string>
-  <!--Original value: Version %1$s%2$s Build %3$s-->
-  <string name="string_version__1_s_2_s_build__3_s">Version %1$s%2$s Build %3$s</string>
-  <!--Original value: text_view-->
-  <string name="text_view">text_view</string>
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="string_permission_denied_to_read_from_your_external_storage">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
-  <!--Original value: Control-->
-  <string name="title_resets">Narzędzia</string>
+  <string name="title_activity_update_oaf">Aktualizuj OAF</string>
+  <!--Original value: Descriptions-->
+  <string name="title_activity_descriptions">Opisy</string>
+  <!--Original value: Explorer-->
+  <string name="title_explorer">Eksplorator</string>
+  <!--Original value: DPOS Base-->
+  <string name="title_activity_dpos_base">Baza DPOS</string>
+  <!--Original value: Settings-->
+  <string name="title_activity_stakeout_settings">Ustawienia</string>
+  <!--Original value: Stakeout-->
+  <string name="title_activity_stakeout_cutfill">Tyczenie</string>
+  <!--Original value: Select Job-->
+  <string name="title_select_job">Wybierz projekt</string>
+  <!--Original value: TS Points-->
+  <string name="title_activity_ts_points">Punkty TS</string>
   <!--Original value: Radio-->
   <string name="title_activity_radio_home">Radio</string>
   <!--Original value: Point-->
   <string name="title_activity_point">Punkt</string>
   <!--Original value: VB-RTK-->
   <string name="title_activity_vbrtk">VB-RTK</string>
-  <!--Original value: Select Job-->
-  <string name="string_select_job">Wybierz projekt</string>
-  <!--Original value: Exit JMT application-->
-  <string name="check_exit_app">Zamknij program JMT</string>
-  <!--Original value: Actions-->
-  <string name="title_activity_resets">Narzędzia</string>
+  <!--Original value: Confirm-->
+  <string name="title_activity_confirm_survey_point">Zatwierdź</string>
   <!--Original value: Receiver Files-->
   <string name="title_activity_file_manager">Pliki odbiornika</string>
+  <!--Original value: Actions-->
+  <string name="title_activity_resets">Narzędzia</string>
   <!--Original value: Calibration-->
   <string name="title_activity_calibration">Kalibracja</string>
   <!--Original value: RTK V6-->
   <string name="title_activity_v6_info">RTK V6+</string>
-  <!--Original value: User Manual-->
-  <string name="title_usermanual">Podręcznik</string>
-  <!--Original value: Stakeout-->
-  <string name="title_stakeout">Tyczenie</string>
   <!--Original value: Current Catalog-->
   <string name="title_activity_catalog_info">Bieżący katalog</string>
   <!--Original value: RTK Bases-->
   <string name="title_activity_rtkbases">Bazy RTK</string>
-  <!--Original value: Javad Mobile Tools-->
-  <string name="title_activity_home">Javad Mobile Tools</string>
   <!--Original value: JPS2Rinex-->
   <string name="jps2rin_activity">JPS2Rinex</string>
-  <!--Original value: VRS (no base required)-->
-  <string name="radio_vrs_no_base">VRS (baza nie jest wymagana)</string>
-  <!--Original value: Catalog-->
-  <string name="title_catalog">Katalog</string>
+  <!--Original value: Identical Points-->
+  <string name="title_activity_localization_ip">Pkty dostosowania</string>
   <!--Original value: Correction Source-->
   <string name="string_correction_source">Źródło poprawek</string>
-  <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
-  <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">The application is designed to be ran on Nautiz X8 device only.</string>
-  <!--Original value: RTK Survey-->
-  <string name="title_survey_rtk">Pomiar RTK</string>
-  <!--Original value: Reconnect WiFi-->
-  <string name="title_reconnectwifi">Połącz WiFi</string>
+  <!--Original value: Survey Points-->
+  <string name="title_activity_survey_points">Punkty GPS</string>
+  <!--Original value: Codes-->
+  <string name="title_activity_codes">Kody</string>
+  <!--Original value: Setup 3G/GPRS-->
+  <string name="title_activity_configure_3g">Ustaw 3G/GPRS</string>
+  <!--Original value: File List-->
+  <string name="title_activity_file_list">Lista plików</string>
+  <!--Original value: Achieve Folder-->
+  <string name="title_activity_archieve_job_folder">Katalog aktualizacji</string>
+  <!--Original value: Exit-->
+  <string name="title_exit">Wyjdź</string>
   <!--Original value: Select File-->
   <string name="title_select_file">Wybierz plik</string>
-  <!--Original value: Exit-->
-  <string name="title_exit">Exit</string>
+  <!--Original value: Setup LAN-->
+  <string name="title_activity_configure_lan">Ustaw LAN</string>
+  <!--Original value: Map Provider-->
+  <string name="title_activity_provider">Wybierz dostawcę mapy</string>
+  <!--Original value: Catalogs-->
+  <string name="title_activity_catalogs">Katalogi</string>
+  <!--Original value: Points-->
+  <string name="title_activity_points">Punkty</string>
+  <!--Original value: Source Table-->
+  <string name="title_activity_source_table">Źródła</string>
   <!--Original value: Survey-->
   <string name="title_activity_start_survey">Pomiar</string>
   <!--Original value: Surveying-->
   <string name="title_activity_surveying_sng">Pomiar</string>
-  <!--Original value: Language 2-->
-  <string name="translation_2">Language 2</string>
-  <!--Original value: Language 3-->
-  <string name="translation_3">Language 3</string>
-  <!--Original value: Language 1-->
-  <string name="translation_1">Language 1</string>
-  <!--Original value: Wizard-->
-  <string name="title_wizard">Wizard</string>
-  <!--Original value: Calibrate-->
-  <string name="title_calibrate">Kalibruj</string>
   <!--Original value: Configure Ntrip-->
   <string name="title_activity_configure_ntrip">Konfiguruj Ntrip</string>
   <!--Original value: Rename-->
   <string name="title_activity_connection_configuration_rename">Zmień nazwę</string>
   <!--Original value: Contouring-->
   <string name="title_activity_contouring_heights">Warstwicowanie</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Ustawienia</string>
+  <!--Original value: Antenna-->
+  <string name="title_activity_antenna">Antena</string>
   <!--Original value: Details-->
   <string name="title_activity_details">Szczegóły</string>
+  <!--Original value: Surveying-->
+  <string name="title_activity_surveying_rtk">Pomiar</string>
+  <!--Original value: Select Data Type-->
+  <string name="title_select_type">Wybierz typ danych</string>
   <!--Original value: Last Names-->
   <string name="title_activity_last_point_names">Ostatnie nazwy</string>
+  <!--Original value: OPUS Process-->
+  <string name="title_activity_opus_process">Przetwarzanie OPUS</string>
   <!--Original value: Line Target-->
   <string name="title_activity_stakeout_line_target">Linia docelowa</string>
   <!--Original value: Work Type-->
   <string name="string_work_type">Typ pracy</string>
-  <!--Original value: Map-->
-  <string name="title_map">Mapa</string>
-  <!--Original value: Exit-->
-  <string name="button_exit">Exit</string>
-  <!--Original value: Receive Job"-->
-  <string name="title_activity_receive">Odbierz projekt"</string>
-  
+  <!--Original value: Threads-->
+  <string name="title_threads">Wątki</string>
+  <!--Original value: Result-->
+  <string name="title_activity_cogo_result">Wyniki</string>
+  <!--Original value: Configure RCV-->
+  <string name="title_activity_configure_rcv">Konfiguruj RCV</string>
+  <!--Original value: Configurations-->
+  <string name="title_activity_connection_configurations_title">Konfiguracje</string>
+  <!--Original value: -->
+  <string name="">JAVAD</string>
+  <!--Original value: -->
+  <string name="">Telnet</string>
+  <!--Original value: -->
+  <string name="">Satelity</string>
+  <!--Original value: -->
+  <string name="">Tyczenie RTK</string>
+  <!--Original value: -->
+  <string name="">Paruj z modemem</string>
+  <!--Original value: -->
+  <string name="">Zbieraj dane do Post-Processingu</string>
+  <!--Original value: -->
+  <string name="">Pliki odbiornika</string>
+  <!--Original value: -->
+  <string name="">Zasilanie</string>
+  <!--Original value: -->
+  <string name="">Rosyjski</string>
+  <!--Original value: -->
+  <string name="">English</string>
+  <!--Original value: -->
+  <string name="">Wyłącz kontroler</string>
+  <!--Original value: -->
+  <string name="">Baza RTK</string>
+  <!--Original value: -->
+  <string name="">Turkish</string>
+  <!--Original value: -->
+  <string name="">Poprzedni projekt: %s</string>
+  <!--Original value: -->
+  <string name="">Total Station</string>
+  <!--Original value: -->
+  <string name="">Punkty TS</string>
+  <!--Original value: -->
+  <string name="">Pomiar RTK</string>
+  <!--Original value: -->
+  <string name="">Inny projekt...</string>
+  <!--Original value: -->
+  <string name="">Odbiornik podłączony przez NetHub</string>
+  <!--Original value: -->
+  <string name="">Punkty GPS</string>
+  <!--Original value: -->
+  <string name="">Terminal</string>
+  <!--Original value: -->
+  <string name="">Przetwarzaj</string>
+  <!--Original value: -->
+  <string name="">Zatrzymaj dane mobilne</string>
+  <!--Original value: -->
+  <string name="">Wybierz Projekt</string>
+  <!--Original value: -->
+  <string name="">Punkty wpisane</string>
+  <!--Original value: -->
+  <string name="">;© JAVAD GNSS 2018</string>
+  <!--Original value: -->
+  <string name="">Serwisy</string>
+  <!--Original value: -->
+  <string name="">Rozłącz</string>
+  <!--Original value: -->
+  <string name="">J-Community</string>
+  <!--Original value: -->
+  <string name="">Czy chcesz wyjść z programu?</string>
+  <!--Original value: -->
+  <string name="">Taiwan</string>
+  <!--Original value: -->
+  <string name="">Zatrzymaj RTK i modem</string>
+  <!--Original value: -->
+  <string name="">Pomiar Stat.</string>
+  <!--Original value: -->
+  <string name="">Dalmierz</string>
+  <!--Original value: -->
+  <string name="">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
+  <!--Original value: -->
+  <string name="">English</string>
+  <!--Original value: -->
+  <string name="">Poprawki</string>
+  <!--Original value: -->
+  <string name="">Ukł.Wsp.</string>
+  <!--Original value: -->
+  <string name="">SmartTip</string>
+  <!--Original value: -->
+  <string name="">Russian</string>
+  <!--Original value: -->
+  <string name="">About</string>
+  <!--Original value: -->
+  <string name="">Projekt</string>
+  <!--Original value: -->
+  <string name="">Lokalizacja</string>
+  <!--Original value: -->
+  <string name="">Radio</string>
+  <!--Original value: -->
+  <string name="">Zatrzymaj zapis</string>
+  <!--Original value: -->
+  <string name="">Połącz</string>
+  <!--Original value: -->
+  <string name="">Proj:</string>
+  <!--Original value: -->
+  <string name="">Repeater</string>
+  <!--Original value: -->
+  <string name="">Niewłaśćiwe urządz.</string>
+  <!--Original value: -->
+  <string name="">Zamknij program</string>
+  <!--Original value: -->
+  <string name="">Dalej &gt;&gt;</string>
+  <!--Original value: -->
+  <string name="">image_view</string>
+  <!--Original value: -->
+  <string name="">Radio Firmware Loader</string>
+  <!--Original value: -->
+  <string name="">Rover RTK</string>
+  <!--Original value: -->
+  <string name="">© JAVAD GNSS, 2018</string>
+  <!--Original value: -->
+  <string name="">Język</string>
+  <!--Original value: -->
+  <string name="">China</string>
+  <!--Original value: -->
+  <string name="">Połączono z : %s</string>
+  <!--Original value: -->
+  <string name="">Odbiornik GNSS z modemem (GSM, UHF/FH)</string>
+  <!--Original value: -->
+  <string name="">Turkish</string>
+  <!--Original value: -->
+  <string name="">Wyłącz odbiornik</string>
+  <!--Original value: -->
+  <string name="">Version %1$s%2$s Build %3$s</string>
+  <!--Original value: -->
+  <string name="">text_view</string>
+  <!--Original value: -->
+  <string name="">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
+  <!--Original value: -->
+  <string name="">Narzędzia</string>
+  <!--Original value: -->
+  <string name="">Wybierz projekt</string>
+  <!--Original value: -->
+  <string name="">Zamknij program JMT</string>
+  <!--Original value: -->
+  <string name="">Podręcznik</string>
+  <!--Original value: -->
+  <string name="">Tyczenie</string>
+  <!--Original value: -->
+  <string name="">Javad Mobile Tools</string>
+  <!--Original value: -->
+  <string name="">VRS (baza nie jest wymagana)</string>
+  <!--Original value: -->
+  <string name="">Katalog</string>
+  <!--Original value: -->
+  <string name="">The application is designed to be ran on Nautiz X8 device only.</string>
+  <!--Original value: -->
+  <string name="">Pomiar RTK</string>
+  <!--Original value: -->
+  <string name="">Połącz WiFi</string>
+  <!--Original value: -->
+  <string name="">Language 2</string>
+  <!--Original value: -->
+  <string name="">Language 3</string>
+  <!--Original value: -->
+  <string name="">Language 1</string>
+  <!--Original value: -->
+  <string name="">Wizard</string>
+  <!--Original value: -->
+  <string name="">Kalibruj</string>
+  <!--Original value: -->
+  <string name="">Ustawienia</string>
+  <!--Original value: -->
+  <string name="">Mapa</string>
+  <!--Original value: -->
+  <string name="">Exit</string>
 </resources>
