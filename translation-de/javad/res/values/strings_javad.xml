@@ -1,375 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file AndroidManifest.xml:65 -->
-    <string name="home_activity_title">JAVAD</string>
-    <!-- Used in file HomeActivity.java:1132 -->
-    <string name="title_telnet">Telnet</string>
-    <!-- Used in file AndroidManifest.xml:508 -->
+    <!-- Used in file AndroidManifest.xml:1740 -->
+    <string name="title_activity_calendar">Select date</string>
+    <!-- Used in file AndroidManifest.xml:521 -->
     <string name="title_activity_configure_fh">Configure FH</string>
-    <!-- Used in file AndroidManifest.xml:630 -->
+    <!-- Used in file AndroidManifest.xml:671 -->
     <string name="title_activity_satellite_types">Satellites</string>
-    <!-- Used in file AndroidManifest.xml:622 -->
+    <!-- Used in file AndroidManifest.xml:663 -->
     <string name="title_activity_satellite">Satellites</string>
-    <!-- Used in file HomeActivity.java:1121 -->
-    <string name="title_satellites">Satellites</string>
-    <!-- Used in file AndroidManifest.xml:1339 -->
+    <!-- Used in file AndroidManifest.xml:1443 -->
     <string name="string_cs_info">CS Info</string>
-    <!-- Used in file AndroidManifest.xml:685 -->
+    <!-- Used in file AndroidManifest.xml:736 -->
     <string name="title_activity_pair_modem">Pair HPT Modem</string>
-    <!-- Used in file AndroidManifest.xml:1191 -->
+    <!-- Used in file AndroidManifest.xml:1295 -->
     <string name="title_activity_find_smarttip">Connect J-Tip</string>
-    <!-- Used in file HomeActivity.java:610 -->
-    <string name="string_job_">Job:</string>
-    <!-- Used in file activity_home.xml:17 -->
-    <string name="version_number">Version 1.2.6 build 21 November 2014</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:45 -->
-    <string name="radio_rtk_stakeout">RTK Stakeout</string>
-    <!-- Used in file AndroidManifest.xml:789 -->
-    <string name="title_activity_receive">Получить проект с устройства&quot;</string>
-    <!-- Used in file RadioHomeActivity.java:149 -->
-    <string name="title_repeater">Repeater</string>
-    <!-- Used in file AndroidManifest.xml:780 -->
+    <!-- Used in file AndroidManifest.xml:883 -->
+    <string name="title_activity_receive">Receive</string>
+    <!-- Used in file AndroidManifest.xml:874 -->
     <string name="title_activity_jobs">Jobs</string>
-    <!-- Used in file RadioHomeActivity.java:149 -->
-    <string name="title_pairmodem">Pair Modem</string>
-    <!-- Used in file AndroidManifest.xml:1247 -->
+    <!-- Used in file AndroidManifest.xml:831 -->
+    <string name="title_activity_dpos_process_hybrid_rtk">Process HybridRTK</string>
+    <!-- Used in file AndroidManifest.xml:1351 -->
     <string name="title_justinlink_server_settings">Services</string>
-    <!-- Used in file AndroidManifest.xml:52 -->
-    <string name="app_name_javad">JAVAD</string>
-    <!-- Used in file HomeActivity.java:1125 -->
-    <string name="title_rtkbases">RTK Bases</string>
-    <!-- Used in file AndroidManifest.xml:702 -->
+    <!-- Used in file AndroidManifest.xml:753 -->
     <string name="title_activity_find_repeater">Find Repeater</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:29 -->
-    <string name="radio_post_processing">Post-Processing data collection</string>
-    <!-- Used in file AndroidManifest.xml:710 -->
+    <!-- Used in file AndroidManifest.xml:761 -->
     <string name="title_activity_repeater">Repeater</string>
-    <!-- Used in file AndroidManifest.xml:324 -->
+    <!-- Used in file AndroidManifest.xml:337 -->
     <string name="title_activity_rtk">RTK Rover</string>
-    <!-- Used in file HomeActivity.java:1121 -->
-    <string name="title_power">Power</string>
-    <!-- Used in file AndroidManifest.xml:1276 -->
+    <!-- Used in file AndroidManifest.xml:1380 -->
     <string name="title_activity_update_firmware">Update Firmware</string>
-    <!-- Used in file HomeActivity.java:153 -->
-    <string name="string_wrong_device">Wrong device</string>
-    <!-- Used in file HomeActivity.java:1122 -->
-    <string name="title_filemanager">Receiver Files</string>
-    <!-- Used in file AndroidManifest.xml:1042 -->
+    <!-- Used in file AndroidManifest.xml:1136 -->
     <string name="title_activity_localization_parameters">Localization Setup</string>
-    <!-- Used in file HomeActivity.java:673 -->
-    <string name="string_russian">Russian</string>
-    <!-- Used in file AndroidManifest.xml:640 -->
+    <!-- Used in file AndroidManifest.xml:691 -->
     <string name="title_activity_corrections">Corrections</string>
-    <!-- Used in file HomeActivity.java:889 -->
-    <string name="string_exit_application">Exit application</string>
-    <!-- Used in file activity_wizard_03_base.xml:55 -->
-    <string name="button_next">Next &gt;&gt;</string>
-    <!-- Used in file AndroidManifest.xml:188 -->
-    <string name="title_activity_about">About</string>
-    <!-- Used in file grid_item.xml:10 -->
-    <string name="image_view">image_view</string>
-    <!-- Used in file HomeActivity.java:653 -->
-    <string name="string_english">English</string>
-    <!-- Used in file AndroidManifest.xml:1610 -->
-    <string name="title_activity_jcommunity_settings">J-Community</string>
-    <!-- Used in file AndroidManifest.xml:76 -->
-    <string name="title_activity_splash">Javad Mobile Tools</string>
-    <!-- Used in file AndroidManifest.xml:693 -->
-    <string name="title_load_firmware_modem">Load Firmware</string>
-    <!-- Used in file AndroidManifest.xml:1420 -->
-    <string name="title_activity_cogo_home">CoGo</string>
-    <!-- Used in file RadioHomeActivity.java:149 -->
-    <string name="radio_firmware">Radio Firmware Loader</string>
-    <!-- Used in file AndroidManifest.xml:836 -->
-    <string name="title_activity_cses">CS Favorites</string>
-    <!-- Used in file AndroidManifest.xml:1019 -->
-    <string name="title_activity_antena">RTK Base Antenna</string>
-    <!-- Used in file AndroidManifest.xml:340 -->
-    <string name="title_activity_rtk_base">RTK Base</string>
-    <!-- Used in file HomeActivity.java:1119 -->
-    <string name="title_rtkrover">RTK Rover</string>
-    <!-- Used in file activity_exit.xml:50 -->
-    <string name="check_turn_off_controller">Turn Off Controller</string>
-    <!-- Used in file activity_splash.xml:13 -->
-    <string name="string_splash">&#169; JAVAD GNSS, 2017</string>
-    <!-- Used in file AndroidManifest.xml:1602 -->
-    <string name="title_activity_jcommunity_devices">Devices</string>
-    <!-- Used in file AndroidManifest.xml:1164 -->
-    <string name="title_find_ts">Bluetooth Search</string>
-    <!-- Used in file AndroidManifest.xml:1320 -->
-    <string name="string_rtk_base">RTK Base</string>
-    <!-- Used in file translate.xml:38 -->
-    <string name="translation_china">China</string>
-    <!-- Used in file HomeActivity.java:650 -->
-    <string name="string_language">Language</string>
-    <!-- Used in file AndroidManifest.xml:1589 -->
-    <string name="title_activity_cogo_inverse">Inverse</string>
-    <!-- Used in file AndroidManifest.xml:612 -->
-    <string name="title_activity_file_logging">File Logging</string>
-    <!-- Used in file HomeActivity.java:1119 -->
-    <string name="title_rtkbase">RTK Base</string>
-    <!-- Used in file HomeActivity.java:1690 -->
-    <string name="string_select_last_job___s_">Select Last Job (%s)</string>
-    <!-- Used in file HomeActivity.java:675 -->
-    <string name="string_turkish">Turkish</string>
-    <!-- Used in file AndroidManifest.xml:798 -->
-    <string name="title_activity_job">Job</string>
-    <!-- Used in file AndroidManifest.xml:674 -->
-    <string name="title_activity_terminal">Terminal</string>
-    <!-- Used in file AndroidManifest.xml:491 -->
-    <string name="title_activity_survey_settings">Survey Settings</string>
-    <!-- Used in file AndroidManifest.xml:604 -->
-    <string name="title_verify_settings">Verify Settings</string>
-    <!-- Used in file AndroidManifest.xml:927 -->
-    <string name="title_activity_point_survey_info">Survey Info</string>
-    <!-- Used in file HomeActivity.java:1791 -->
-    <string name="string_connected_to____s">Connected to : %s</string>
-    <!-- Used in file AndroidManifest.xml:963 -->
-    <string name="title_activity_design_point">Point</string>
-    <!-- Used in file AndroidManifest.xml:1386 -->
-    <string name="title_activity_map">Map</string>
-    <!-- Used in file AndroidManifest.xml:866 -->
-    <string name="title_activity_catalog">Catalog</string>
-    <!-- Used in file activity_wizard_03_base.xml:29 -->
-    <string name="radio_receiver_with_radio">GNSS Receiver with radio (GSM, UHF/FH)</string>
-    <!-- Used in file HomeActivity.java:1126 -->
-    <string name="title_ts_exchange">Total Station</string>
-    <!-- Used in file AndroidManifest.xml:457 -->
-    <string name="title_receiver_info">Info</string>
-    <!-- Used in file AndroidManifest.xml:371 -->
-    <string name="string_settings">Settings</string>
-    <!-- Used in file AndroidManifest.xml:524 -->
-    <string name="title_activity_configure_csd">Direct Call</string>
-    <!-- Used in file AndroidManifest.xml:756 -->
-    <string name="title_activity_dpos_process">DPOS Process</string>
-    <!-- Used in file AndroidManifest.xml:1009 -->
-    <string name="title_activity_rtkbase">RTK Base</string>
-    <!-- Used in file AndroidManifest.xml:1437 -->
-    <string name="title_activity_cogo_direct">Direct</string>
-    <!-- Used in file AndroidManifest.xml:1181 -->
-    <string name="title_activity_rangefinder">RangeFinder</string>
-    <!-- Used in file HomeActivity.java:1124 -->
-    <string name="title_ts_points">TS Points</string>
-    <!-- Used in file AndroidManifest.xml:1237 -->
-    <string name="title_select_format">Select Format</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:37 -->
-    <string name="radio_rtk_survey">RTK Survey</string>
-    <!-- Used in file AndroidManifest.xml:1201 -->
-    <string name="title_activity_smarttip">J-Tip</string>
-    <!-- Used in file AndroidManifest.xml:447 -->
-    <string name="title_activity_stakeout">Stakeout</string>
-    <!-- Used in file HomeActivity.java:1691 -->
-    <string name="string_select_other_job___">Select Other Job&#8230;</string>
-    <!-- Used in file AndroidManifest.xml:986 -->
-    <string name="title_activity_design_points">Design Points</string>
-    <!-- Used in file translate.xml:44 -->
-    <string name="translation_turkish">Turkish</string>
-    <!-- Used in file AndroidManifest.xml:286 -->
-    <string name="title_activity_audio_recording">Record Audio</string>
-    <!-- Used in file AndroidManifest.xml:649 -->
-    <string name="title_activity_power">Power</string>
-    <!-- Used in file AndroidManifest.xml:208 -->
-    <string name="title_activity_surveying">Surveying</string>
-    <!-- Used in file AndroidManifest.xml:355 -->
-    <string name="title_activity_block_size">Download Block Size</string>
-    <!-- Used in file AndroidManifest.xml:1172 -->
-    <string name="title_ts_echange_progress">Exchange Progress</string>
-    <!-- Used in file activity_wizard_03_base.xml:45 -->
-    <string name="radio_receiver_via_nethub">Receiver connected via NetHub</string>
-    <!-- Used in file AndroidManifest.xml:516 -->
-    <string name="title_activity_configure_uhf">Configure UHF</string>
-    <!-- Used in file AndroidManifest.xml:1267 -->
-    <string name="title_activity_update_oaf">Update OAF</string>
-    <!-- Used in file activity_exit.xml:29 -->
-    <string name="check_turn_off">Turn Off Receiver</string>
-    <!-- Used in file AndroidManifest.xml:564 -->
-    <string name="title_activity_descriptions">Descriptions</string>
-    <!-- Used in file AndroidManifest.xml:1143 -->
-    <string name="title_explorer">Explorer</string>
-    <!-- Used in file HomeActivity.java:582 -->
-    <string name="string_version__1_s_2_s_build__3_s">Version %1$s%2$s Build %3$s</string>
-    <!-- Used in file HomeActivity.java:1127 -->
-    <string name="title_terminal">Terminal</string>
-    <!-- Used in file HomeActivity.java:1124 -->
-    <string name="title_survey_points">Survey Points</string>
-    <!-- Used in file grid_item.xml:18 -->
-    <string name="text_view">text_view</string>
-    <!-- Used in file AndroidManifest.xml:400 -->
-    <string name="title_activity_stakeout_settings">Settings</string>
-    <!-- Used in file HomeActivity.java:491 -->
-    <string name="string_permission_denied_to_read_from_your_external_storage">Permission denied to read from your External storage</string>
-    <!-- Used in file AndroidManifest.xml:418 -->
-    <string name="title_activity_stakeout_cutfill">Stakeout</string>
-    <!-- Used in file HomeActivity.java:1127 -->
-    <string name="title_resets">Control</string>
-    <!-- Used in file HomeActivity.java:1122 -->
-    <string name="title_process">Process</string>
-    <!-- Used in file activity_exit.xml:43 -->
-    <string name="check_stop_mobile_data">Stop Mobile Data</string>
-    <!-- Used in file AndroidManifest.xml:1229 -->
-    <string name="title_select_job">Select Job</string>
-    <!-- Used in file HomeActivity.java:1653 -->
-    <string name="string_select_project">Select Project</string>
-    <!-- Used in file AndroidManifest.xml:1155 -->
-    <string name="title_activity_ts_points">TS Points</string>
-    <!-- Used in file AndroidManifest.xml:94 -->
-    <string name="title_activity_radio_home">Radio</string>
-    <!-- Used in file activity_photo.xml:14 -->
-    <string name="hello_world">;&#169; JAVAD GNSS 2017</string>
-    <!-- Used in file HomeActivity.java:1124 -->
-    <string name="title_design_points">Design Points</string>
-    <!-- Used in file HomeActivity.java:1122 -->
-    <string name="title_justinlink_server">Services</string>
-    <!-- Used in file AndroidManifest.xml:917 -->
-    <string name="title_activity_point">Point</string>
-    <!-- Used in file HomeActivity.java:1640 -->
-    <string name="string_disconnect">Disconnect</string>
-    <!-- Used in file AndroidManifest.xml:764 -->
-    <string name="title_activity_vbrtk">VB-RTK</string>
-    <!-- Used in file HomeActivity.java:1688 -->
-    <string name="string_select_job">Select Job</string>
-    <!-- Used in file HomeActivity.java:1131 -->
-    <string name="title_jcommunity">J-Community</string>
-    <!-- Used in file activity_exit.xml:36 -->
-    <string name="check_exit_app">Exit JMT application</string>
-    <!-- Used in file AndroidManifest.xml:499 -->
-    <string name="title_activity_confirm_survey_point">Confirm</string>
-    <!-- Used in file AndroidManifest.xml:1287 -->
-    <string name="title_activity_resets">Actions</string>
-    <!-- Used in file AndroidManifest.xml:658 -->
-    <string name="title_activity_file_manager">Receiver Files</string>
-    <!-- Used in file AndroidManifest.xml:596 -->
-    <string name="title_activity_calibration">Calibration</string>
-    <!-- Used in file AndroidManifest.xml:311 -->
-    <string name="title_activity_v6_info">RTK V6</string>
-    <!-- Used in file HomeActivity.java:1128 -->
-    <string name="title_usermanual">User Manual</string>
-    <!-- Used in file HomeActivity.java:1120 -->
-    <string name="title_stakeout">Stakeout</string>
-    <!-- Used in file AndroidManifest.xml:886 -->
-    <string name="title_activity_catalog_info">Current Catalog</string>
-    <!-- Used in file HomeActivity.java:1125 -->
-    <string name="title_cogo">CoGo</string>
-    <!-- Used in file AndroidManifest.xml:999 -->
-    <string name="title_activity_rtkbases">RTK Bases</string>
-    <!-- Used in file AndroidManifest.xml:85 -->
-    <string name="title_activity_home">Javad Mobile Tools</string>
-    <!-- Used in file AndroidManifest.xml:732 -->
-    <string name="jps2rin_activity">JPS2Rinex</string>
-    <!-- Used in file AndroidManifest.xml:846 -->
-    <string name="title_activity_localization_ip">Identical Points</string>
-    <!-- Used in file activity_wizard_03_base.xml:37 -->
-    <string name="radio_vrs_no_base">VRS (no base required)</string>
-    <!-- Used in file HomeActivity.java:1125 -->
-    <string name="title_catalog">Catalog</string>
-    <!-- Used in file AndroidManifest.xml:1329 -->
-    <string name="string_correction_source">Correction Source</string>
-    <!-- Used in file AndroidManifest.xml:973 -->
-    <string name="title_activity_survey_points">Survey Points</string>
-    <!-- Used in file AndroidManifest.xml:572 -->
-    <string name="title_activity_codes">Codes</string>
-    <!-- Used in file HomeActivity.java:890 -->
-    <string name="string_do_you_want_to_exit_the_application_">Do you want to exit the application?</string>
-    <!-- Used in file HomeActivity.java:674 -->
-    <string name="string_taiwan">Taiwan</string>
-    <!-- Used in file HomeActivity.java:154 -->
-    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">The application is designed to be ran on Nautiz X8 device only.</string>
-    <!-- Used in file activity_exit.xml:22 -->
-    <string name="check_stop_rtk_radio">Stop RTK and Radio</string>
-    <!-- Used in file HomeActivity.java:1120 -->
-    <string name="title_survey_rtk">RTK Survey</string>
-    <!-- Used in file HomeActivity.java:1128 -->
-    <string name="title_reconnectwifi">Reconnect WiFi</string>
-    <!-- Used in file AndroidManifest.xml:1212 -->
-    <string name="title_select_file">Select File</string>
-    <!-- Used in file AndroidManifest.xml:1298 -->
-    <string name="title_exit">Exit</string>
-    <!-- Used in file AndroidManifest.xml:1627 -->
-    <string name="title_activity_archieve_job_folder">Archieve Jobs</string>
-    <!-- Used in file HomeActivity.java:1119 -->
-    <string name="title_survey_pp">Static Survey</string>
-    <!-- Used in file HomeActivity.java:1126 -->
-    <string name="title_rangefinder">Rangefinder</string>
-    <!-- Used in file HomeActivity.java:501 -->
-    <string name="string_permission_denied_to_write_to_your_external_storage">Permission denied to write to your External storage</string>
-    <!-- Used in file AndroidManifest.xml:876 -->
-    <string name="title_activity_catalogs">Catalogs</string>
-    <!-- Used in file AndroidManifest.xml:1132 -->
-    <string name="title_activity_points">Points</string>
-    <!-- Used in file AndroidManifest.xml:1396 -->
-    <string name="title_activity_provider">Choose Map Provider</string>
-    <!-- Used in file AndroidManifest.xml:540 -->
-    <string name="title_activity_source_table">Source Table</string>
-    <!-- Used in file translate.xml:7 -->
-    <string name="translation_english">English</string>
     <!-- Used in file AndroidManifest.xml:199 -->
+    <string name="title_activity_about">About</string>
+    <!-- Used in file AndroidManifest.xml:1714 -->
+    <string name="title_activity_jcommunity_settings">Settings</string>
+    <!-- Used in file AndroidManifest.xml:87 -->
+    <string name="title_activity_splash">Splash</string>
+    <!-- Used in file AndroidManifest.xml:1524 -->
+    <string name="title_activity_cogo_home">CoGo</string>
+    <!-- Used in file AndroidManifest.xml:744 -->
+    <string name="title_load_firmware_modem">Load Firmware</string>
+    <!-- Used in file AndroidManifest.xml:930 -->
+    <string name="title_activity_cses">CS Favorites</string>
+    <!-- Used in file AndroidManifest.xml:1113 -->
+    <string name="title_activity_antena">RTK Base Antenna</string>
+    <!-- Used in file AndroidManifest.xml:353 -->
+    <string name="title_activity_rtk_base">RTK Base</string>
+    <!-- Used in file AndroidManifest.xml:1258 -->
+    <string name="title_find_ts">Bluetooth Search</string>
+    <!-- Used in file AndroidManifest.xml:1706 -->
+    <string name="title_activity_jcommunity_devices">Devices</string>
+    <!-- Used in file AndroidManifest.xml:1424 -->
+    <string name="string_rtk_base">RTK Base</string>
+    <!-- Used in file AndroidManifest.xml:1693 -->
+    <string name="title_activity_cogo_inverse">Inverse</string>
+    <!-- Used in file AndroidManifest.xml:653 -->
+    <string name="title_activity_file_logging">File Logging</string>
+    <!-- Used in file AndroidManifest.xml:681 -->
+    <string name="title_activity_spoofing">Spoofing</string>
+    <!-- Used in file AndroidManifest.xml:892 -->
+    <string name="title_activity_job">Job</string>
+    <!-- Used in file AndroidManifest.xml:725 -->
+    <string name="title_activity_terminal">Terminal</string>
+    <!-- Used in file AndroidManifest.xml:504 -->
+    <string name="title_activity_survey_settings">Survey Settings</string>
+    <!-- Used in file AndroidManifest.xml:645 -->
+    <string name="title_verify_settings">Verify</string>
+    <!-- Used in file AndroidManifest.xml:1021 -->
+    <string name="title_activity_point_survey_info">Survey Info</string>
+    <!-- Used in file AndroidManifest.xml:1057 -->
+    <string name="title_activity_design_point">Point</string>
+    <!-- Used in file AndroidManifest.xml:1490 -->
+    <string name="title_activity_map">Map</string>
+    <!-- Used in file AndroidManifest.xml:960 -->
+    <string name="title_activity_catalog">Catalog</string>
+    <!-- Used in file AndroidManifest.xml:470 -->
+    <string name="title_receiver_info">Info</string>
+    <!-- Used in file AndroidManifest.xml:799 -->
+    <string name="title_activity_opus_result_process">Process Result</string>
+    <!-- Used in file AndroidManifest.xml:384 -->
+    <string name="string_settings">Settings</string>
+    <!-- Used in file AndroidManifest.xml:537 -->
+    <string name="title_activity_configure_csd">Direct Call</string>
+    <!-- Used in file AndroidManifest.xml:569 -->
+    <string name="title_activity_configure_wifi">Setup WiFi</string>
+    <!-- Used in file AndroidManifest.xml:815 -->
+    <string name="title_activity_dpos_process">DPOS Process</string>
+    <!-- Used in file AndroidManifest.xml:1103 -->
+    <string name="title_activity_rtkbase">RTK Base</string>
+    <!-- Used in file AndroidManifest.xml:1541 -->
+    <string name="title_activity_cogo_direct">Direct</string>
+    <!-- Used in file AndroidManifest.xml:849 -->
+    <string name="title_activity_attach_device">Attach Device</string>
+    <!-- Used in file AndroidManifest.xml:1285 -->
+    <string name="title_activity_rangefinder">RangeFinder</string>
+    <!-- Used in file AndroidManifest.xml:1341 -->
+    <string name="title_select_format">Select Format</string>
+    <!-- Used in file AndroidManifest.xml:1305 -->
+    <string name="title_activity_smarttip">J-Tip</string>
+    <!-- Used in file AndroidManifest.xml:460 -->
+    <string name="title_activity_stakeout">Stakeout</string>
+    <!-- Used in file AndroidManifest.xml:1080 -->
+    <string name="title_activity_design_points">Design Points</string>
+    <!-- Used in file AndroidManifest.xml:299 -->
+    <string name="title_activity_audio_recording">Record Audio</string>
+    <!-- Used in file AndroidManifest.xml:219 -->
+    <string name="title_activity_surveying">Surveying</string>
+    <!-- Used in file AndroidManifest.xml:700 -->
+    <string name="title_activity_power">Power</string>
+    <!-- Used in file AndroidManifest.xml:368 -->
+    <string name="title_activity_block_size">Download Block Size</string>
+    <!-- Used in file AndroidManifest.xml:1266 -->
+    <string name="title_ts_echange_progress">Exchange Progress</string>
+    <!-- Used in file AndroidManifest.xml:529 -->
+    <string name="title_activity_configure_uhf">Configure UHF</string>
+    <!-- Used in file AndroidManifest.xml:1371 -->
+    <string name="title_activity_update_oaf">Update OAF</string>
+    <!-- Used in file AndroidManifest.xml:603 -->
+    <string name="title_activity_descriptions">Descriptions</string>
+    <!-- Used in file AndroidManifest.xml:1237 -->
+    <string name="title_explorer">Explorer</string>
+    <!-- Used in file AndroidManifest.xml:858 -->
+    <string name="title_activity_dpos_base">DPOS Base</string>
+    <!-- Used in file AndroidManifest.xml:413 -->
+    <string name="title_activity_stakeout_settings">Settings</string>
+    <!-- Used in file AndroidManifest.xml:431 -->
+    <string name="title_activity_stakeout_cutfill">Stakeout</string>
+    <!-- Used in file AndroidManifest.xml:1333 -->
+    <string name="title_select_job">Select Job</string>
+    <!-- Used in file AndroidManifest.xml:1249 -->
+    <string name="title_activity_ts_points">TS Points</string>
+    <!-- Used in file AndroidManifest.xml:105 -->
+    <string name="title_activity_radio_home">Radio</string>
+    <!-- Used in file AndroidManifest.xml:1011 -->
+    <string name="title_activity_point">Point</string>
+    <!-- Used in file AndroidManifest.xml:840 -->
+    <string name="title_activity_vbrtk">VB-RTK</string>
+    <!-- Used in file AndroidManifest.xml:512 -->
+    <string name="title_activity_confirm_survey_point">Confirm</string>
+    <!-- Used in file AndroidManifest.xml:709 -->
+    <string name="title_activity_file_manager">Receiver Files</string>
+    <!-- Used in file AndroidManifest.xml:1391 -->
+    <string name="title_activity_resets">Actions</string>
+    <!-- Used in file AndroidManifest.xml:637 -->
+    <string name="title_activity_calibration">Calibration</string>
+    <!-- Used in file AndroidManifest.xml:324 -->
+    <string name="title_activity_v6_info">RTK V6</string>
+    <!-- Used in file AndroidManifest.xml:980 -->
+    <string name="title_activity_catalog_info">Current Catalog</string>
+    <!-- Used in file AndroidManifest.xml:1093 -->
+    <string name="title_activity_rtkbases">RTK Bases</string>
+    <!-- Used in file AndroidManifest.xml:783 -->
+    <string name="jps2rin_activity">JPS2Rinex</string>
+    <!-- Used in file AndroidManifest.xml:940 -->
+    <string name="title_activity_localization_ip">Identical Points</string>
+    <!-- Used in file AndroidManifest.xml:1433 -->
+    <string name="string_correction_source">Correction Source</string>
+    <!-- Used in file AndroidManifest.xml:1067 -->
+    <string name="title_activity_survey_points">Survey Points</string>
+    <!-- Used in file AndroidManifest.xml:612 -->
+    <string name="title_activity_codes">Codes</string>
+    <!-- Used in file AndroidManifest.xml:577 -->
+    <string name="title_activity_configure_3g">Setup 3G/GPRS</string>
+    <!-- Used in file AndroidManifest.xml:867 -->
+    <string name="title_activity_file_list">File List</string>
+    <!-- Used in file AndroidManifest.xml:1731 -->
+    <string name="title_activity_archieve_job_folder">Achieve Folder</string>
+    <!-- Used in file AndroidManifest.xml:1402 -->
+    <string name="title_exit">Exit</string>
+    <!-- Used in file AndroidManifest.xml:1316 -->
+    <string name="title_select_file">Select File</string>
+    <!-- Used in file AndroidManifest.xml:585 -->
+    <string name="title_activity_configure_lan">Setup LAN</string>
+    <!-- Used in file AndroidManifest.xml:1500 -->
+    <string name="title_activity_provider">Map Provider</string>
+    <!-- Used in file AndroidManifest.xml:970 -->
+    <string name="title_activity_catalogs">Catalogs</string>
+    <!-- Used in file AndroidManifest.xml:1226 -->
+    <string name="title_activity_points">Points</string>
+    <!-- Used in file AndroidManifest.xml:553 -->
+    <string name="title_activity_source_table">Source Table</string>
+    <!-- Used in file AndroidManifest.xml:210 -->
     <string name="title_activity_start_survey">Survey</string>
-    <!-- Used in file AndroidManifest.xml:278 -->
+    <!-- Used in file AndroidManifest.xml:291 -->
     <string name="title_activity_surveying_sng">Surveying</string>
-    <!-- Used in file translate.xml:19 -->
-    <string name="translation_2">Language 2</string>
-    <!-- Used in file HomeActivity.java:1121 -->
-    <string name="title_corrections">Corrections</string>
-    <!-- Used in file translate.xml:25 -->
-    <string name="translation_3">Language 3</string>
-    <!-- Used in file translate.xml:13 -->
-    <string name="translation_1">Language 1</string>
-    <!-- Used in file HomeActivity.java:1128 -->
-    <string name="title_wizard">Wizard</string>
-    <!-- Used in file HomeActivity.java:1127 -->
-    <string name="title_calibrate">Calibrate</string>
-    <!-- Used in file AndroidManifest.xml:532 -->
-    <string name="title_activity_configure_ntrip">Configure Ntrip</string>
-    <!-- Used in file AndroidManifest.xml:122 -->
-    <string name="title_activity_connection_configuration_rename">Rename</string>
-    <!-- Used in file AndroidManifest.xml:952 -->
+    <!-- Used in file AndroidManifest.xml:1046 -->
     <string name="title_activity_contouring_heights">Contouring</string>
-    <!-- Used in file HomeActivity.java:1123 -->
-    <string name="title_cs">Coord.Sys</string>
-    <!-- Used in file HomeActivity.java:1130 -->
-    <string name="title_smart_tips">J-Tip</string>
-    <!-- Used in file main.xml:13 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file AndroidManifest.xml:483 -->
+    <!-- Used in file AndroidManifest.xml:545 -->
+    <string name="title_activity_configure_ntrip">Configure Ntrip</string>
+    <!-- Used in file AndroidManifest.xml:133 -->
+    <string name="title_activity_connection_configuration_rename">Rename</string>
+    <!-- Used in file AndroidManifest.xml:496 -->
     <string name="title_activity_antenna">Antenna</string>
-    <!-- Used in file AndroidManifest.xml:945 -->
+    <!-- Used in file AndroidManifest.xml:1039 -->
     <string name="title_activity_details">Details</string>
-    <!-- Used in file AndroidManifest.xml:243 -->
+    <!-- Used in file AndroidManifest.xml:255 -->
     <string name="title_activity_surveying_rtk">Surveying</string>
-    <!-- Used in file AndroidManifest.xml:1221 -->
+    <!-- Used in file AndroidManifest.xml:1325 -->
     <string name="title_select_type">Select Data Type</string>
-    <!-- Used in file AndroidManifest.xml:556 -->
+    <!-- Used in file AndroidManifest.xml:594 -->
     <string name="title_activity_last_point_names">Last Names</string>
-    <!-- Used in file translate.xml:32 -->
-    <string name="translation_russian">Russian</string>
-    <!-- Used in file AndroidManifest.xml:740 -->
+    <!-- Used in file AndroidManifest.xml:791 -->
     <string name="title_activity_opus_process">OPUS Process</string>
-    <!-- Used in file home.xml:6 -->
-    <string name="action_about">About</string>
-    <!-- Used in file HomeActivity.java:1123 -->
-    <string name="title_jobs">Job</string>
-    <!-- Used in file AndroidManifest.xml:409 -->
+    <!-- Used in file AndroidManifest.xml:422 -->
     <string name="title_activity_stakeout_line_target">Line Target</string>
-    <!-- Used in file AndroidManifest.xml:1311 -->
+    <!-- Used in file AndroidManifest.xml:1415 -->
     <string name="string_work_type">Work Type</string>
-    <!-- Used in file HomeActivity.java:1123 -->
-    <string name="title_localize">Localize</string>
-    <!-- Used in file AndroidManifest.xml:1428 -->
-    <string name="title_activity_cogo_result">Results</string>
-    <!-- Used in file AndroidManifest.xml:548 -->
+    <!-- Used in file AndroidManifest.xml:1360 -->
+    <string name="title_threads">Threads</string>
+    <!-- Used in file AndroidManifest.xml:1532 -->
+    <string name="title_activity_cogo_result">Result</string>
+    <!-- Used in file AndroidManifest.xml:561 -->
     <string name="title_activity_configure_rcv">Configure RCV</string>
-    <!-- Used in file HomeActivity.java:1120 -->
-    <string name="title_map">Map</string>
-    <!-- Used in file HomeActivity.java:1126 -->
-    <string name="title_radio">Radio</string>
-    <!-- Used in file activity_exit.xml:15 -->
-    <string name="check_stop_logging">Stop Logging</string>
-    <!-- Used in file activity_exit.xml:57 -->
-    <string name="button_exit">Exit</string>
-    <!-- Used in file AndroidManifest.xml:113 -->
-    <string name="title_activity_connection_configurations_title">Configuration</string>
-    <!-- Used in file HomeActivity.java:1642 -->
-    <string name="string_connect">Connect</string>
-  
+    <!-- Used in file AndroidManifest.xml:124 -->
+    <string name="title_activity_connection_configurations_title">Configurations</string>
+    
 </resources>
