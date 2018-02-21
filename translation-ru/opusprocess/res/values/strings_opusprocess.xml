@@ -7,10 +7,10 @@
     <string name="vbrtk">VBRTK</string>
     <!-- Used in file list_hybrid_rtk_header.xml:64 -->
     <string name="string_antenna_vertical_offset">V.Offset</string>
-    <!-- Used in file list_vbrtk_point.xml:67 -->
-    <string name="arrow">-&gt;</string>
     <!-- Used in file list_hybrid_rtk_result_header.xml:20 -->
     <string name="string_point_file">Point Name  /  File Name</string>
+    <!-- Used in file list_vbrtk_point.xml:67 -->
+    <string name="arrow">-&gt;</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:469 -->
     <string name="string_dpos_network_is_not_selected_">DPOS network is not selected!</string>
     <!-- Used in file activity_process_opus.xml:170 -->
@@ -19,10 +19,10 @@
     <string name="string_finishing___">Finishing&#8230;</string>
     <!-- Used in file activity_process_opus_result.xml:26 -->
     <string name="add_to_catalog">Add to Catalog</string>
-    <!-- Used in file DPOSProcessHybridRTKActivity.java:160 -->
-    <string name="string_anonymous">Anonymous</string>
     <!-- Used in file list_hybrid_rtk_header.xml:54 -->
     <string name="string_antenna_height_type">Type</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:160 -->
+    <string name="string_anonymous">Anonymous</string>
     <!-- Used in file DPOS.java:760 -->
     <string name="string_canceled_by_user">Canceled by user</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:42 -->
@@ -39,7 +39,9 @@
     <string name="string_reading_answer___">Reading answer&#8230;</string>
     <!-- Used in file OpusProcessActivity.java:507 -->
     <string name="string_processing_file__s">Processing file %s</string>
-    <!-- Used in file activity_attach_device.xml:24 -->
+    <!-- Used in file DPOSProcessActivity2.java:359 -->
+    <string name="string_debug__dpos_dev_javad_com_">Debug (dpos-dev.javad.com)</string>
+    <!-- Used in file activity_attach_device.xml:31 -->
     <string name="button_handshake">Establish Connection</string>
     <!-- Used in file activity_process_opus_result.xml:14 -->
     <string name="save_result">Save Report</string>
@@ -53,44 +55,44 @@
     <string name="string_hybridrtk_is_over">HybridRTK is over</string>
     <!-- Used in file OpusProcessActivity.java:326 -->
     <string name="string_empty_antenna_height_">Empty Antenna height!</string>
-    <!-- Used in file DPOS.java:647 -->
-    <string name="string_can_t_create_project__n">Can\'t create project.\n</string>
     <!-- Used in file FileListActivity.java:405 -->
     <string name="string_close">Close</string>
+    <!-- Used in file DPOS.java:647 -->
+    <string name="string_can_t_create_project__n">Can\'t create project.\n</string>
     <!-- Used in file OpusProcessResultActivity.java:269 -->
     <string name="hybrid_rtk_format">Update HybridRTK coordinate for point %s</string>
     <!-- Used in file OpusProcessActivity.java:159 -->
     <string name="string_opus_process">OPUS Process</string>
     <!-- Used in file OpusProcessActivity.java:434 -->
     <string name="string_finished">Finished</string>
-    <!-- Used in file DPOS.java:1219 -->
-    <string name="string_processed__reading_result___">Processed. Reading result&#8230;</string>
-    <!-- Used in file activity_process_hybrid_rtk.xml:70 -->
-    <string name="dpos_network">Network</string>
     <!-- Used in file DPOS.java:654 -->
     <string name="string_creating_project___">Creating project&#8230;</string>
+    <!-- Used in file activity_process_hybrid_rtk.xml:70 -->
+    <string name="dpos_network">Network</string>
+    <!-- Used in file DPOS.java:1219 -->
+    <string name="string_processed__reading_result___">Processed. Reading result&#8230;</string>
     <!-- Used in file activity_file_list.xml:44 -->
     <string name="button_process_jopus">Process DPOS</string>
     <!-- Used in file activity_file_list.xml:76 -->
     <string name="button_select">. . .</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:32 -->
     <string name="string_antenna_all">Antenna Height</string>
-    <!-- Used in file AndroidManifest.xml:42 -->
-    <string name="title_activity_opus_result_process">OPUS Process Result</string>
     <!-- Used in file FileListActivity.java:396 -->
     <string name="string_process_dpos">Process DPOS</string>
+    <!-- Used in file AndroidManifest.xml:42 -->
+    <string name="title_activity_opus_result_process">OPUS Process Result</string>
     <!-- Used in file file_list.xml:16 -->
     <string name="do_hybrid_rtk">Do HybridRTK</string>
-    <!-- Used in file FileListActivity.java:937 -->
-    <string name="string_looking_for_antenna_info_in_file__s">Looking for antenna info in file %s</string>
     <!-- Used in file activity_process_hybrid_rtk.xml:108 -->
     <string name="string_no_base">No base</string>
+    <!-- Used in file FileListActivity.java:937 -->
+    <string name="string_looking_for_antenna_info_in_file__s">Looking for antenna info in file %s</string>
     <!-- Used in file OpusProcessActivity.java:301 -->
     <string name="string_no_file_is_selected_">No file is selected!</string>
-    <!-- Used in file DPOS.java:553 -->
-    <string name="string_file_send_error">File send error</string>
     <!-- Used in file FileListActivity.java:197 -->
     <string name="string_no_files_for_hybrid_rtk_found_">No files for Hybrid RTK found!</string>
+    <!-- Used in file DPOS.java:553 -->
+    <string name="string_file_send_error">File send error</string>
     <!-- Used in file activity_process_hybrid_rtk_result.xml:29 -->
     <string name="button_save">Save Results</string>
     <!-- Used in file DPOS.java:915 -->
@@ -129,7 +131,7 @@
     <string name="antenna_height_opus">Antenna Height\n(vert. in meters)</string>
     <!-- Used in file activity_process_opus.xml:208 -->
     <string name="dpos_server">Server</string>
-    <!-- Used in file AttachDeviceActivity.java:172 -->
+    <!-- Used in file AttachDeviceActivity.java:176 -->
     <string name="html_handshake">
         &lt;h1&gt;Attach Device to DPOS&lt;/h1&gt;
         Please visit out &lt;b&gt;JAVAD Customer Area&lt;b&gt; at &lt;b&gt;app.javad.com&lt;b&gt; and navigate to J-FieldAssistant/&lt;b&gt;Devices&lt;b&gt; section.&lt;br&gt; &lt;/br&gt;
@@ -156,7 +158,7 @@
     <string name="string_show_log_files">Show Log Files</string>
     <!-- Used in file DPOS.java:676 -->
     <string name="string_project_creation_error__n">Project creation error!\n</string>
-    <!-- Used in file AttachDeviceActivity.java:163 -->
+    <!-- Used in file AttachDeviceActivity.java:167 -->
     <string name="html_revoke">
         &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
         Connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt; is established!&lt;br&gt; 
@@ -186,11 +188,11 @@
     <string name="antenna_id_opus">Antenna Id</string>
     <!-- Used in file OpusProcessActivity.java:205 -->
     <string name="string_send_to_opus">Send to OPUS</string>
-    <!-- Used in file activity_process_dpos2.xml:205 -->
+    <!-- Used in file activity_process_dpos2.xml:212 -->
     <string name="process_mode">Process Mode</string>
     <!-- Used in file activity_process_hybrid_rtk.xml:51 -->
     <string name="authenticate_as_device">Authenticate as</string>
-    <!-- Used in file AttachDeviceActivity.java:179 -->
+    <!-- Used in file AttachDeviceActivity.java:183 -->
     <string name="html_no_internet">
         &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
         No connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt;!&lt;br&gt; 
@@ -202,12 +204,12 @@
     <string name="button_process_opus">Process OPUS</string>
     <!-- Used in file AndroidManifest.xml:25 -->
     <string name="title_activity_file_list">File List</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:52 -->
+    <string name="button_point_name">Point</string>
     <!-- Used in file DPOS.java:1115 -->
     <string name="string_sending_to_server___">Sending to server&#8230;</string>
     <!-- Used in file activity_process_opus.xml:35 -->
     <string name="file_name">File Name</string>
-    <!-- Used in file activity_dpos_rtk_base.xml:52 -->
-    <string name="button_point_name">Point</string>
     <!-- Used in file AndroidManifest.xml:20 -->
     <string name="app_name">OPUS Process</string>
     <!-- Used in file FileListActivity.java:94 -->
@@ -222,32 +224,34 @@
     <string name="string_hybridrtk_saved_with_errors">HybridRTK saved with errors</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:531 -->
     <string name="string__1_s_engine_is_not_supported_for_network__2_s_">%1$s engine is not supported for network %2$s!</string>
+    <!-- Used in file activity_process_dpos2.xml:147 -->
+    <string name="antenna_height_dpos">Antenna Height</string>
     <!-- Used in file FileListActivity.java:402 -->
     <string name="string_view_on_map">View on Map</string>
-    <!-- Used in file activity_process_dpos2.xml:140 -->
-    <string name="antenna_height_dpos">Antenna Height</string>
     <!-- Used in file DPOS.java:1089 -->
     <string name="string_unknown_error_">Unknown error!</string>
     <!-- Used in file activity_file_list.xml:60 -->
     <string name="text_folder2">Folder\nof files:</string>
-    <!-- Used in file file_list.xml:6 -->
-    <string name="action_settings">Settings</string>
     <!-- Used in file FileListActivity.java:392 -->
     <string name="string_process_opus">Process OPUS</string>
+    <!-- Used in file file_list.xml:6 -->
+    <string name="action_settings">Settings</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:445 -->
     <string name="string_no_files_">No files!</string>
     <!-- Used in file opus_process.xml:6 -->
     <string name="action_attach_device">Attach Device</string>
     <!-- Used in file AndroidManifest.xml:34 -->
     <string name="title_activity_opus_process">OPUS Process</string>
-    <!-- Used in file AttachDeviceActivity.java:166 -->
+    <!-- Used in file DPOSProcessActivity2.java:359 -->
+    <string name="string_main__app_javad_com_">Main (app.javad.com)</string>
+    <!-- Used in file AttachDeviceActivity.java:170 -->
     <string name="button_revoke">Revoke Connection</string>
-    <!-- Used in file activity_process_dpos.xml:170 -->
+    <!-- Used in file dpos_process2.xml:7 -->
     <string name="use_debug_server">Use Debug server</string>
-    <!-- Used in file OpusProcessActivity.java:522 -->
-    <string name="string_processing___">Processing&#8230;</string>
     <!-- Used in file FileListActivity.java:94 -->
     <string name="string_hide_log_folder">Hide Log Folder</string>
+    <!-- Used in file OpusProcessActivity.java:522 -->
+    <string name="string_processing___">Processing&#8230;</string>
     <!-- Used in file DPOSBaseActivity.java:190 -->
     <string name="string_press_to_select">Press to select</string>
     <!-- UNUSED STRING -->
