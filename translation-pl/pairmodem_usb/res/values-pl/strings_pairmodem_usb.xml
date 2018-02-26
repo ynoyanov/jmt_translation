@@ -33,12 +33,6 @@
   <string name="button_pair">Sparuj radio HPT z idbiornikiem</string>
   <!--Original value: About-->
   <string name="title_activity_about">About</string>
-  <!--Original value: UnPair HPT Radio-->
-  <string name="button_unpair">Rozparuj radio HPT</string>
-  <!--Original value: Upload Firmware-->
-  <string name="button_upload_firmware">Załaduj FW</string>
-  <!--Original value: Baud rate-->
-  <string name="baudrate">Baud rate</string>
   <string-array name="baud_rate_1">
     <!--Original value: 300-->
     <item>300</item>
@@ -97,18 +91,13 @@
     <!--Original value: 8-->
     <item>8</item>
   </string-array>
-  <string-array name="parity">
-    <!--Original value: None-->
-    <item>None</item>
-    <!--Original value: Odd-->
-    <item>Odd</item>
-    <!--Original value: Even-->
-    <item>Even</item>
-    <!--Original value: Mark-->
-    <item>Mark</item>
-    <!--Original value: Space-->
-    <item>Space</item>
-  </string-array>
+	<string-array name="parity">        
+		<item>None</item>        
+		<item>Odd</item>
+		<item>Even</item>
+		<item >Mark</item>
+		<item >Space</item>
+	</string-array>
   <string-array name="flow_control">
     <!--Original value: None-->
     <item>None</item>
