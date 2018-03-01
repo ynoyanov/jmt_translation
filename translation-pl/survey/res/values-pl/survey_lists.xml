@@ -181,18 +181,7 @@
     <!--Original value: Int.feet-->
     <item>stopy Int.</item>
   </string-array>
-  <string-array name="rover_mode_array">
-    <!--Original value: pd-->
-    <item />
-    <!--Original value: pf-->
-    <item />
-    <!--Original value: cd-->
-    <item />
-    <!--Original value: wd-->
-    <item />
-    <!--Original value: sp-->
-    <item />
-  </string-array>
+ 
   <string-array name="correction_source_array">
     <!--Original value: Off (no corrections)-->
     <item>Wył (bez poprawek)</item>
@@ -255,25 +244,14 @@
     <!--Original value: Internal UHF-->
     <item>Wewnętrzny UHF</item>
   </string-array>
-  <string-array name="correction_type_array">
-    <!--Original value: cmd-->
-    <item />
-    <!--Original value: rtcm3-->
-    <item />
-    <!--Original value: rtcm-->
-    <item />
-    <!--Original value: cmr-->
-    <item />
-    <!--Original value: jps-->
-    <item />
-  </string-array>
+
   <string-array name="use_epoch_array">
     <!--Original value: RTK Fixed only-->
     <item>Tylko Fixed</item>
     <!--Original value: Fixed, Float or DGPS-->
     <item>Fixed, Float or DGPS</item>
     <!--Original value: All-->
-    <item>Dowolna</item>
+    <item>Wszystko</item>
   </string-array>
   <string-array name="base_correction_source_array">
     <!--Original value: Unknown(off)-->
@@ -366,98 +344,6 @@
     <item>RTCM 2.x min</item>
     <!--Original value: RTCM 2.x DGPS-->
     <item>RTCM 2.x DGPS</item>
-  </string-array>
-  <string-array name="uhf_protocols">
-    <!--Original value: simplex-->
-    <item />
-    <!--Original value: transparent-->
-    <item />
-    <!--Original value: satel-->
-    <item />
-    <!--Original value: trimtalk450s-->
-    <item />
-    <!--Original value: tt450shw-->
-    <item />
-    <!--Original value: trimmarkII-->
-    <item />
-    <!--Original value: trimmark3-->
-    <item />
-  </string-array>
-  <string-array name="simplex_modulations">
-    <!--Original value: dbpsk-->
-    <item />
-    <!--Original value: dqpsk-->
-    <item />
-    <!--Original value: d8psk-->
-    <item />
-    <!--Original value: d16qam-->
-    <item />
-  </string-array>
-  <string-array name="transparent_modulations">
-    <!--Original value: gmsk-->
-    <item />
-    <!--Original value: 4fsk-->
-    <item />
-  </string-array>
-  <string-array name="satel_modulations">
-    <!--Original value: 4fsk-->
-    <item />
-  </string-array>
-  <string-array name="simplex_spacings">
-    <!--Original value: 6250-->
-    <item />
-    <!--Original value: 12500-->
-    <item />
-    <!--Original value: 20000-->
-    <item />
-    <!--Original value: 25000-->
-    <item />
-  </string-array>
-  <string-array name="transparent_spacings">
-    <!--Original value: 25000-->
-    <item />
-  </string-array>
-  <string-array name="satel_spacings">
-    <!--Original value: 12500-->
-    <item />
-    <!--Original value: 25000-->
-    <item />
-  </string-array>
-  <string-array name="satel_compatibility">
-    <!--Original value: 3as-->
-    <item />
-    <!--Original value: easy-->
-    <item />
-  </string-array>
-  <string-array name="fh_zones">
-    <!--Original value: usa-->
-    <item />
-    <!--Original value: aus-->
-    <item />
-    <!--Original value: eu-->
-    <item />
-  </string-array>
-  <string-array name="fh_protocols">
-    <!--Original value: simplex-->
-    <item />
-  </string-array>
-  <string-array name="fh_modulcations">
-    <!--Original value: gmsk-->
-    <item />
-  </string-array>
-  <string-array name="rcv_login_array">
-    <!--Original value: Default-->
-    <item />
-    <!--Original value: a-->
-    <item />
-    <!--Original value: b-->
-    <item />
-    <!--Original value: c-->
-    <item />
-    <!--Original value: d-->
-    <item />
-    <!--Original value: e-->
-    <item />
   </string-array>
   <string-array name="connected_to_array">
     <!--Original value: Radio on Bluetooth B-->
@@ -707,50 +593,7 @@
     <!--Original value: 3-->
     <item>3</item>
   </string-array>
-  <string-array name="freqRuleUsaArray">
-    <!--Original value: 0-->
-    <item />
-    <!--Original value: 1-->
-    <item />
-    <!--Original value: 2-->
-    <item />
-    <!--Original value: 3-->
-    <item />
-    <!--Original value: 4-->
-    <item />
-    <!--Original value: 5-->
-    <item />
-    <!--Original value: 6-->
-    <item />
-    <!--Original value: 7-->
-    <item />
-    <!--Original value: 8-->
-    <item />
-    <!--Original value: 9-->
-    <item />
-  </string-array>
-  <string-array name="freqRuleAusArray">
-    <!--Original value: 10-->
-    <item />
-    <!--Original value: 11-->
-    <item />
-    <!--Original value: 12-->
-    <item />
-    <!--Original value: 13-->
-    <item />
-    <!--Original value: 14-->
-    <item />
-    <!--Original value: 15-->
-    <item />
-    <!--Original value: 16-->
-    <item />
-    <!--Original value: 17-->
-    <item />
-    <!--Original value: 18-->
-    <item />
-    <!--Original value: 19-->
-    <item />
-  </string-array>
+
   <string-array name="base_correction_period_5_array">
     <!--Original value: 1 Hz-->
     <item>1 Hz</item>
@@ -815,16 +658,6 @@
     <!--Original value: Server-->
     <item>Serwer</item>
   </string-array>
-  <string-array name="aux_port_array">
-    <!--Original value: dev/ser/a-->
-    <item />
-    <!--Original value: dev/ser/b-->
-    <item />
-    <!--Original value: dev/ser/c-->
-    <item />
-    <!--Original value: dev/ser/d-->
-    <item />
-  </string-array>
   <string-array name="stakeout_line_offset_rl">
     <!--Original value: R-->
     <item>P</item>
@@ -883,142 +716,124 @@
     <!--Original value: Off-->
     <item>Wył</item>
   </string-array>
-  <string-array name="trimtalk450s_modulations">
-    <!--Original value: gmsk-->
-    <item>gmsk</item>
-  </string-array>
-  <string-array name="trimtalk450s_spacings">
-    <!--Original value: 12500-->
-    <item>12500</item>
-    <!--Original value: 25000-->
-    <item>25000</item>
-  </string-array>
-  <string-array name="tt450shw_modulations">
-    <!--Original value: gmsk-->
-    <item>gmsk</item>
-  </string-array>
-  <string-array name="tt450shw_spacings">
-    <!--Original value: 12500-->
-    <item>12500</item>
-    <!--Original value: 25000-->
-    <item>25000</item>
-  </string-array>
-  <string-array name="trimmarkII_modulations">
-    <!--Original value: gmsk-->
-    <item>gmsk</item>
-  </string-array>
-  <string-array name="trimmarkII_spacings">
-    <!--Original value: 12500-->
-    <item>12500</item>
-    <!--Original value: 25000-->
-    <item>25000</item>
-  </string-array>
-  <string-array name="trimmark3_modulations">
-    <!--Original value: gmsk-->
-    <item>gmsk</item>
-  </string-array>
-  <string-array name="trimmark3_spacings">
-    <!--Original value: 12500-->
-    <item>12500</item>
-    <!--Original value: 25000-->
-    <item>25000</item>
-  </string-array>
-  <string-array name="minimal_rtk_array">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-    <!--Original value: 4-->
-    <item>4</item>
-    <!--Original value: 5-->
-    <item>5</item>
-    <!--Original value: 6-->
-    <item>6</item>
-  </string-array>
-  <string-array name="minial_rtk_values_array">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-    <!--Original value: 4-->
-    <item>4</item>
-    <!--Original value: 5-->
-    <item>5</item>
-    <!--Original value: 6-->
-    <item>6</item>
-  </string-array>
-  <string-array name="wifi_mode_array">
-    <!--Original value: off-->
-    <item>off</item>
-    <!--Original value: on-->
-    <item>on</item>
-    <!--Original value: adhoc-->
-    <item>adhoc</item>
-  </string-array>
-  <string-array name="wifi_security_array">
-    <!--Original value: wep-->
-    <item>wep</item>
-    <!--Original value: wap-->
-    <item>wap</item>
-  </string-array>
-  <string-array name="hot_start_array">
-    <!--Original value: on-->
-    <item>on</item>
-    <!--Original value: off-->
-    <item>off</item>
-  </string-array>
-  <string-array name="registration_mode_array">
-    <!--Original value: auto-->
-    <item>auto</item>
-    <!--Original value: 2g-->
-    <item>2g</item>
-    <!--Original value: 3g-->
-    <item>3g</item>
-    <!--Original value: 4g-->
-    <item>4g</item>
-  </string-array>
-  <string-array name="hybrid_rtk_array">
-    <!--Original value: Never-->
-    <item>Never</item>
-    <!--Original value: 5 mins-->
-    <item>5 mins</item>
-    <!--Original value: 7 mins-->
-    <item>7 mins</item>
-    <!--Original value: 10 mins-->
-    <item>10 mins</item>
-    <!--Original value: 15 mins-->
-    <item>15 mins</item>
-    <!--Original value: 20 mins-->
-    <item>20 mins</item>
-    <!--Original value: 25 mins-->
-    <item>25 mins</item>
-    <!--Original value: 30 mins-->
-    <item>30 mins</item>
-    <!--Original value: 45 mins-->
-    <item>45 mins</item>
-    <!--Original value: 1 hour-->
-    <item>1 hour</item>
-    <!--Original value: 2 hours-->
-    <item>2 hours</item>
-    <!--Original value: 10 sec-->
-    <item>10 sec</item>
-    <!--Original value: 30 secs-->
-    <item>30 secs</item>
-    <!--Original value: 1 min-->
-    <item>1 min</item>
-  </string-array>
-  <string-array name="rtk_computation_mode">
-    <!--Original value: Extrapolation-->
-    <item>Extrapolation</item>
-    <!--Original value: Delay-->
-    <item>Delay</item>
-  </string-array>
+
+  
+
+	<string-array name="trimtalk450s_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimtalk450s_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="tt450shw_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="tt450shw_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_modulations">
+        <item>gmsk</item>
+    </string-array>
+	
+	<string-array name="trimmarkII_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+	
+	<string-array name="trimmark3_modulations">
+        <item>gmsk</item>
+    </string-array>
+
+	<string-array name="trimmark3_spacings">
+        <item>12500</item>
+        <item>25000</item>
+    </string-array>
+
+	
+	<string-array name="minimal_rtk_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+		
+	<string-array name="minial_rtk_values_array">
+        <item>0</item>
+	    <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string-array name="wifi_mode_array">
+        <item>off</item>
+	    <item>on</item>
+        <item>adhoc</item>
+    </string-array>
+    
+	<string-array name="wifi_security_array">
+        <item>wep</item>
+	    <item>wap</item>
+    </string-array>
+    
+	
+	
+	<string-array name="hot_start_array">
+        <item>on</item>
+	    <item>off</item>
+    </string-array>
+    
+	<string-array name="registration_mode_array">
+        <item>auto</item>
+	    <item>2g</item>
+	    <item>3g</item>
+	  	<item>4g</item>
+	</string-array>
+	
+
+	<string-array name="hybrid_rtk_array">
+        <item>Never</item>
+        <item>5 mins</item>
+        <item>7 mins</item>
+        <item>10 mins</item>
+        <item>15 mins</item>
+        <item>20 mins</item>
+        <item>25 mins</item>
+        <item>30 mins</item>
+        <item>45 mins</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>10 sec</item>
+        <item>30 secs</item>
+        <item>1 min</item>
+   </string-array>
+   
+	<string-array name="rtk_computation_mode">
+	    <item>Extrapolation</item>
+	    <item>Delay</item>
+	</string-array>	    	
+	
+	
+  
 </resources>
