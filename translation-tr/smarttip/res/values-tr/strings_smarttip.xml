@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-<string name="string_calibration_is_over">Kalibrasyon Bitti</string>
-<string name="string_hw_version__1_d_____sw_version__2_d">HW version:%1$d     SW version:%2$d</string>
-<string name="string_min_value">Min Değer</string>
-<string name="string_conecting___">Bağlanıyor…</string>
-<string name="string_do_you_want_to_save_the_calibration_">Kalibrasyonu kaydedecekmisiniz?</string>
-<string name="app_name">smarttip</string>
-<string name="string_firmware_have_successfully_updated">Firmware başarıyla update edildi</string>
-<string name="button_calibrate">Calibrasyon</string>
-<string name="string_connected_to_smarttip"> J-Tip Bağlandı</string>
-<string name="string_sensivity">Hassasiyet</string>
-<string name="string_please_wait__">Lütfen Bekleyin!!</string>
-<string name="string_firmware_update_error_">Firmware update hatası!</string>
-<string name="string_calibration">Kalibrasyon</string>
-<string name="button_firmware">Firmware Upload</string>
-<string name="string_please_wait">Lütfen Bekleyin</string>
-<string name="text_select_smarttip">J-Tip Seçim</string>
-<string name="string_max_value">Max Değer</string>
-<string name="button_course">Set Course to 0</string>
-<string name="string_gain">Kazanç 0</string>
-<string name="string_stop_calibration">Kalibrasyonu Durdur</string>
-<string name="string_uploading_firmware___">Firmware Yükleniyor…</string>
-<string name="string_cancelled_by_user">Kullanıcı tarafından İptal edildi </string>
-<string name="string_successfully_connected_to__s">Başarılı Bağlantı %s</string>
-<string name="string_cancel">İptal</string>
-<string name="string_close">Kapat</string>
+    <!-- Used in file activity_smarttip.xml:39. Original value:Upload Firmware -->
+    <string name="button_firmware">Firmware Upload</string>
+    <!-- Used in file SmartTipActivity.java:171. Original value:Calibration is over -->
+    <string name="string_calibration_is_over">Kalibrasyon Tamamlandı</string>
+    <!-- Used in file SmartTipActivity.java:454. Original value:HW version:%1$d     SW version:%2$d -->
+    <string name="string_hw_version__1_d_____sw_version__2_d">HW version:%1$d     SW version:%2$d</string>
+    <!-- Used in file activity_smarttip.xml:86. Original value:Min Value -->
+    <string name="string_min_value">Min Değer</string>
+    <!-- Used in file SmartTipActivity.java:1061. Original value:Please wait -->
+    <string name="string_please_wait">Lütfen Bekleyin</string>
+    <!-- Used in file SmartTipActivity.java:1060. Original value:Conecting&#8230; -->
+    <string name="string_conecting___">Bağlantı…</string>
+    <!-- Used in file activity_smarttip.xml:108. Original value:Max Value -->
+    <string name="string_max_value">Max Değer</string>
+    <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip -->
+    <string name="text_select_smarttip">J-Tip Seçim</string>
+    <!-- Used in file SmartTipActivity.java:172. Original value:Do you want to save the calibration? -->
+    <string name="string_do_you_want_to_save_the_calibration_">Kalibrasyonu Saklamak istermisiniz?</string>
+    <!-- Used in file activity_smarttip.xml:125. Original value:Gain 0 -->
+    <string name="string_gain">Gain 0</string>
+    <!-- Used in file activity_smarttip.xml:49. Original value:Set Course to 0 -->
+    <string name="button_course">Set Course to 0</string>
+    <!-- Used in file SmartTipActivity.java:184. Original value:Stop Calibration -->
+    <string name="string_stop_calibration">Kalibrasyon Durdur</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:smarttip -->
+    <string name="app_name">smarttip</string>
+    <!-- Used in file activity_smarttip.xml:31. Original value:Calibrate -->
+    <string name="button_calibrate">Kalibrasyon</string>
+    <!-- Used in file SmartTipActivity.java:983. Original value:Firmware have successfully updated -->
+    <string name="string_firmware_have_successfully_updated">Firmware Güncellendi</string>
+    <!-- Used in file SmartTipActivity.java:1011. Original value:Uploading firmware&#8230; -->
+    <string name="string_uploading_firmware___">Uploading firmware…</string>
+    <!-- Used in file SmartTipActivity.java:1078. Original value:Cancelled by user -->
+    <string name="string_cancelled_by_user">Kulanıcı İptal etti</string>
+    <!-- Used in file FindSmartTipActivity.java:111. Original value:Connected to J-Tip -->
+    <string name="string_connected_to_smarttip">J-Tip Bağlantı</string>
+    <!-- Used in file SmartTipActivity.java:481. Original value:Successfully connected to %s -->
+    <string name="string_successfully_connected_to__s">Başarılı Bağlantı %s</string>
+    <!-- Used in file SmartTipActivity.java:1010. Original value:Please Wait!! -->
+    <string name="string_please_wait__">Lütfen Bekleyin!!</string>
+    <!-- Used in file activity_smarttip.xml:72. Original value:Sensivity -->
+    <string name="string_sensivity">Duyarlılık</string>
+    <!-- Used in file SmartTipActivity.java:1063. Original value:Cancel -->
+    <string name="string_cancel">İptall</string>
+    <!-- Used in file SmartTipActivity.java:985. Original value:Close -->
+    <string name="string_close">Kapat</string>
+    <!-- Used in file SmartTipActivity.java:983. Original value:Firmware update error! -->
+    <string name="string_firmware_update_error_">Firmware update hatası!</string>
+    <!-- Used in file SmartTipActivity.java:163. Original value:Calibration -->
+    <string name="string_calibration">Kalibrasyon</string>
 </resources>

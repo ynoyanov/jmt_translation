@@ -1,37 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-<string name="med">Orta</string>
-<string name="string_brush_size_">Fırça Boyutu:</string>
-<string name="button_stop_audio">Dur</string>
-<string name="save">Sakla</string>
-<string name="string_delete_image">Görüntü Sil</string>
-<string name="erase">Sil</string>
-<string name="string_yes">Evet</string>
-<string name="lrg">Büyük</string>
-<string name="string_save_drawing">Çizimi saklıyor</string>
-<string name="string_eraser_size_">Silgi Boyutu:</string>
-<string name="save_picture">Resmi Sakla</string>
-<string name="string_new_drawing">Yeni çizim</string>
-<string name="string_permission_denied_to_access_to_camera">Kameraya erişim reddedildi</string>
-<string name="app_name">Fotograf Ses</string>
-<string name="string_saved_">Saklandı!</string>
-<string name="close">Kapat</string>
-<string name="string_can_t_remove_the_file_">Dosya Kaldırılamadı!</string>
-<string name="button_record_audio">Kayıt</string>
-<string name="string_save_drawing_to_device_gallery_">Cizimi Cihaz Galerisine sakla?</string>
-<string name="string_delete_audio">Audio Sil</string>
-<string name="sml">Küçük</string>
-<string name="choose_picture">Resi Seç</string>
-<string name="paint">Boya</string>
-<string name="string_do_you_want_to_delete_file_">Dosyayı silmek istiyor musun</string>
-<string name="string_file_has_removed">Dosya Kaldırıldı</string>
-<string name="string_delete">Sil</string>
-<string name="start_new">Yeni</string>
-<string name="string_start_new_drawing__you_will_lose_the_current_drawing__">Yeni çizime başla (mevcut çizim kaldırılacak)?</string>
-<string name="reset_picture_string">Reset</string>
-<string name="string_cancel">İptal</string>
-<string name="brush">Fırça</string>
-<string name="string_close">Kapat</string>
-<string name="string_take_photo_failed">Fotograf Alımı başarısız</string>
-<string name="button_play_audio">Play</string>
+    <!-- Used in file brush_chooser.xml:20. Original value:Medium -->
+    <string name="med">Orta</string>
+    <!-- Used in file DrawOnBitmapActivity.java:106. Original value:Brush size: -->
+    <string name="string_brush_size_">Brush boyut:</string>
+    <!-- Used in file activity_audio_recording.xml:34. Original value:Stop -->
+    <string name="button_stop_audio">Dur</string>
+    <!-- Used in file activity_edit_image.xml:41. Original value:Save -->
+    <string name="save">Sakla</string>
+    <!-- Used in file DrawOnBitmapActivity.java:195. Original value:Yes -->
+    <string name="string_yes">Evet</string>
+    <!-- Used in file activity_edit_image.xml:34. Original value:Erase -->
+    <string name="erase">Temizle</string>
+    <!-- Used in file PhotoImageAdapter.java:397. Original value:Delete image -->
+    <string name="string_delete_image">İmaj Sil</string>
+    <!-- Used in file brush_chooser.xml:28. Original value:Large -->
+    <string name="lrg">Geniş</string>
+    <!-- Used in file DrawOnBitmapActivity.java:193. Original value:Save drawing -->
+    <string name="string_save_drawing">Cizimi sakla</string>
+    <!-- Used in file DrawOnBitmapActivity.java:143. Original value:Eraser size: -->
+    <string name="string_eraser_size_">Silinen Boyut:</string>
+    <!-- Used in file DrawOnBitmapActivity.java:176. Original value:New drawing -->
+    <string name="string_new_drawing">Yeni Çizim</string>
+    <!-- Used in file activity_draw_on_bitmap.xml:10. Original value:Save Picture -->
+    <string name="save_picture">Resim Sakla</string>
+    <!-- Used in file TakePhotoActivity2.java:409. Original value:Permission denied to access to camera -->
+    <string name="string_permission_denied_to_access_to_camera">Kameraya erişim izni reddedildi</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:photoaudio -->
+    <string name="app_name">photoaudio</string>
+    <!-- Used in file DrawOnBitmapActivity.java:214. Original value:Saved! -->
+    <string name="string_saved_">Saklandı!</string>
+    <!-- Used in file dialog_full_screen_image.xml:11. Original value:Close -->
+    <string name="close">Kapat</string>
+    <!-- Used in file PhotoImageAdapter.java:405. Original value:Can\'t remove the file! -->
+    <string name="string_can_t_remove_the_file_">Dosya kaldırılamaz!</string>
+    <!-- Used in file activity_audio_recording.xml:24. Original value:Record -->
+    <string name="button_record_audio">Kayıt</string>
+    <!-- Used in file DrawOnBitmapActivity.java:194. Original value:Save drawing to device Gallery? -->
+    <string name="string_save_drawing_to_device_gallery_">Cizim cihaz galerisine saklansın mı?</string>
+    <!-- Used in file PhotoImageAdapter.java:397. Original value:Delete audio -->
+    <string name="string_delete_audio">Ses Sil</string>
+    <!-- Used in file brush_chooser.xml:12. Original value:Small -->
+    <string name="sml">Küçük</string>
+    <!-- Used in file activity_draw_on_bitmap.xml:43. Original value:Choose Picture -->
+    <string name="choose_picture">Resim seçim</string>
+    <!-- Used in file activity_edit_image.xml:195. Original value:Paint -->
+    <string name="paint">Renk</string>
+    <!-- Used in file PhotoImageAdapter.java:398. Original value:Do you want to delete file  -->
+    <string name="string_do_you_want_to_delete_file_">Dosya silinecek Eminmisiniz</string>
+    <!-- Used in file PhotoImageAdapter.java:399. Original value:Delete -->
+    <string name="string_delete">Sil</string>
+    <!-- Used in file PhotoImageAdapter.java:403. Original value:File has removed -->
+    <string name="string_file_has_removed">Dosya Kaldırıldı</string>
+    <!-- Used in file activity_edit_image.xml:20. Original value:New -->
+    <string name="start_new">Yeni</string>
+    <!-- Used in file DrawOnBitmapActivity.java:177. Original value:Start new drawing (you will lose the current drawing)? -->
+    <string name="string_start_new_drawing__you_will_lose_the_current_drawing__">Yeni çizime başla (mevcut çizimi kaybedeceksin)?</string>
+    <!-- Used in file activity_draw_on_bitmap.xml:33. Original value:Reset -->
+    <string name="reset_picture_string">Reset</string>
+    <!-- Used in file DrawOnBitmapActivity.java:227. Original value:Cancel -->
+    <string name="string_cancel">İptal</string>
+    <!-- Used in file TakePhotoActivity.java:292. Original value:Close -->
+    <string name="string_close">Kapat</string>
+    <!-- Used in file activity_edit_image.xml:27. Original value:Brush -->
+    <string name="brush">Fırça</string>
+    <!-- Used in file TakePhotoActivity.java:290. Original value:Take photo failed -->
+    <string name="string_take_photo_failed">Resim almada hata</string>
+    <!-- Used in file activity_audio_recording.xml:14. Original value:Play -->
+    <string name="button_play_audio">Oynat</string>
 </resources>

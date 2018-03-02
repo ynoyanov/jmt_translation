@@ -1,42 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-<string name="leica_gsi_import">Leica GSI Bluetooth Import</string>
-<string name="string_connection_error">Bağlantı Hatası</string>
-<string name="string_loading__s_list___">Yükleniyor %s Liste…</string>
-<string name="text_select_ts">Total Station Seçim</string>
-<string name="string_import_started___">Almaya Başladı…</string>
-<string name="string_create_new_job">Yeni İş Oluştur</string>
-<string name="string_export_to_total_station_is_over">Total Station a Gönderme Tamam</string>
-<string name="string_job">İş</string>
-<string name="search_hint">Ara</string>
-<string name="string_roads">Yollar</string>
-<string name="string_control_points">Kontrol Noktaları</string>
-<string name="string_observs_">Gözlem:</string>
-<string name="string_please_wait__">Lütfen Bekleyiniz!!</string>
-<string name="string_code">Kod</string>
-<string name="string_echange_canceled">Değişim İptal</string>
-<string name="string_delete_job">İş Silme</string>
-<string name="string_start_data_transfrom_from_ts">TS Data Dönüşüm Başlat</string>
-<string name="ts_exchange_version">version 1.0 build 09/05/2015</string>
-<string name="string_import_error">Alırken Hata</string>
-<string name="string_select_job">İş Seçimi</string>
-<string name="generic_export">Generic Bluetooth Export</string>
-<string name="string_road">Yol</string>
-<string name="string_import_from_total_station_is_over">Total Station Alma Tamam</string>
-<string name="string_observations">Gözlemlerr</string>
-<string name="string_what_to_do_with__s_">Ne ile yapılmalı %s?</string>
-<string name="string_controls_">Kontroller:</string>
-<string name="string_export_error">Göndermede Hata</string>
-<string name="string_exchnage_is_over">Değişim Sona erdir</string>
-<string name="generic_import">Generic Bluetooth Import</string>
-<string name="string_imported__d_bytes">Alındı %d bytes</string>
-<string name="string_version__1_s_build__2_s">Version %1$s Build %2$s</string>
-<string name="ts_exchange_progress">Exchange Progress</string>
-<string name="string_loading_format_list___">Format Listesi Yükleniyor…</string>
-<string name="ts_exchange_title">TS Bluetooth Exchange</string>
-<string name="string_codes">Kodlar</string>
-<string name="string_exchange">Değişim </string>
-<string name="string_close">Kapat</string>
-<string name="leica_gsi_export">Leica GSI Bluetooth Export</string>
-<string name="string_exported__d_bytes">Gönderildi %d bytes</string>
+    <!-- Used in file activity_ts_exchange_main.xml:44. Original value:Leica GSI Bluetooth Import -->
+    <string name="leica_gsi_import">Leica GSI Bluetooth Import</string>
+    <!-- Used in file FindTSActivity.java:780. Original value:Connection error -->
+    <string name="string_connection_error">Bağlantı Hatası</string>
+    <!-- Used in file FindTSActivity.java:384. Original value:Loading %s List&#8230; -->
+    <string name="string_loading__s_list___">Yüklüyor %s Liste…</string>
+    <!-- Used in file activity_find_ts.xml:16. Original value:Select Total Station -->
+    <string name="text_select_ts">Total Station Seç</string>
+    <!-- Used in file FindTSActivity.java:678. Original value:Import started&#8230; -->
+    <string name="string_import_started___">Alım Başladı…</string>
+    <!-- Used in file TSJobAdapter.java:71. Original value:Create New Job -->
+    <string name="string_create_new_job">Yeni iş Oluştur</string>
+    <!-- Used in file FindTSActivity.java:245. Original value:Export to Total Station is over -->
+    <string name="string_export_to_total_station_is_over">Total Station Export Tamamr</string>
+    <!-- Used in file FindTSActivity.java:380. Original value:Job -->
+    <string name="string_job">İş</string>
+    <!-- Used in file activity_ts_type.xml:16. Original value:Search -->
+    <string name="search_hint">Ara</string>
+    <!-- Used in file FindTSActivity.java:358. Original value:Roads -->
+    <string name="string_roads">Yollar</string>
+    <!-- Used in file FindTSActivity.java:357. Original value:Control Points -->
+    <string name="string_control_points">Kontrol Noktaları</string>
+    <!-- Used in file TSJobAdapter.java:58. Original value:Observs: -->
+    <string name="string_observs_">Gözlem:</string>
+    <!-- Used in file FindTSActivity.java:735. Original value:Please Wait!! -->
+    <string name="string_please_wait__">Lütfen Bekleyin!!</string>
+    <!-- Used in file FindTSActivity.java:381. Original value:Code -->
+    <string name="string_code">Kod</string>
+    <!-- Used in file FindTSActivity.java:251. Original value:Echange canceled -->
+    <string name="string_echange_canceled">Echange canceled</string>
+    <!-- Used in file TSJobAdapter.java:71. Original value:Delete job -->
+    <string name="string_delete_job">İş Sil</string>
+    <!-- Used in file FindTSActivity.java:671. Original value:Start data transfrom from TS -->
+    <string name="string_start_data_transfrom_from_ts">TS data Dönünüşümü başlat</string>
+    <!-- Used in file activity_ts_exchange_main.xml:23. Original value:version 1.0 build 09/05/2015 -->
+    <string name="ts_exchange_version">version 1.0 build 09/05/2015</string>
+    <!-- Used in file FindTSActivity.java:247. Original value:Import error -->
+    <string name="string_import_error">Alırken Hata</string>
+    <!-- Used in file TSJobAdapter.java:71. Original value:Select job -->
+    <string name="string_select_job">İş Seç</string>
+    <!-- Used in file activity_ts_exchange_main.xml:54. Original value:Generic Bluetooth Export -->
+    <string name="generic_export">Generic Bluetooth Export</string>
+    <!-- Used in file FindTSActivity.java:382. Original value:Road -->
+    <string name="string_road">Yol</string>
+    <!-- Used in file FindTSActivity.java:245. Original value:Import from Total Station is over -->
+    <string name="string_import_from_total_station_is_over">TS Alma İşi tamamlandı</string>
+    <!-- Used in file FindTSActivity.java:356. Original value:Observations -->
+    <string name="string_observations">Gözlemler</string>
+    <!-- Used in file TSJobAdapter.java:70. Original value:What to do with %s? -->
+    <string name="string_what_to_do_with__s_">What to do with %s?</string>
+    <!-- Used in file TSJobAdapter.java:57. Original value:Controls: -->
+    <string name="string_controls_">Kontroller:</string>
+    <!-- Used in file FindTSActivity.java:247. Original value:Export error -->
+    <string name="string_export_error">Gönderme İşi Hata</string>
+    <!-- Used in file FindTSActivity.java:251. Original value:Exchnage is over -->
+    <string name="string_exchnage_is_over">Değişim tamamlandı</string>
+    <!-- Used in file activity_ts_exchange_main.xml:64. Original value:Generic Bluetooth Import -->
+    <string name="generic_import">Generic Bluetooth Import</string>
+    <!-- Used in file FindTSActivity.java:713. Original value:Imported %d bytes -->
+    <string name="string_imported__d_bytes">Alındı %d bytes</string>
+    <!-- Used in file TSBluetoothExchangeActivity.java:93. Original value:Version %1$s Build %2$s -->
+    <string name="string_version__1_s_build__2_s">Version %1$s Build %2$s</string>
+    <!-- Used in file activity_exchange_progress.xml:14. Original value:Exchange Progress -->
+    <string name="ts_exchange_progress">Exchange Progress</string>
+    <!-- Used in file FindTSActivity.java:469. Original value:Loading Format List&#8230; -->
+    <string name="string_loading_format_list___">Format Listesi Yüklüyor…</string>
+    <!-- Used in file activity_ts_exchange_main.xml:15. Original value:TS Bluetooth Exchange -->
+    <string name="ts_exchange_title">TS Bluetooth Exchange</string>
+    <!-- Used in file FindTSActivity.java:359. Original value:Codes -->
+    <string name="string_codes">Kodlar</string>
+    <!-- Used in file FindTSActivity.java:530. Original value:Exchange -->
+    <string name="string_exchange">Değişim</string>
+    <!-- Used in file TSJobAdapter.java:71. Original value:Close -->
+    <string name="string_close">Kapat</string>
+    <!-- Used in file activity_ts_exchange_main.xml:34. Original value:Leica GSI Bluetooth Export -->
+    <string name="leica_gsi_export">Leica GSI Bluetooth Export</string>
+    <!-- Used in file FindTSActivity.java:602. Original value:Exported %d bytes -->
+    <string name="string_exported__d_bytes">Gönderildi %d bytes</string>
 </resources>

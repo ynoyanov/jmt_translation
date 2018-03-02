@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-<string name="string_contorining_is_over_with_an_error">Münhaniler Hatalı Geçirildi</string>
-<string name="store_contours">Münhanileri Sakla</string>
-<string name="store_triangles">Üçgenleri Sakla</string>
-<string name="string_contouring_is_over">Münhani tamamlandı</string>
-<string name="heights">Yükseklikler</string>
-<string name="button_delete_contours">Tüm Münhanileri Sil</string>
-<string name="app_name">Münhani Ayarlanıyor</string>
-<string name="button_contouring">Münhani Ayarlanıyor</string>
-<string name="store_smoothed_contours">Düzeltilen Münhaniler sakla</string>
-<string name="string_all_contouring_triangles_and_isolines_have_removed">Tüm izinler ve ayarlamalar kaldırıldı</string>
-<string name="string_contouring_has_succesfully_done">Münhaniler başarıyla gecirildi</string>
-<string name="button_cancel">İptal</string>
-<string name="string_heights__from__1_f_to__2_f">Yükseklikler (from %1$f to %2$f</string>
-<string name="string_contouring_deleted">Münhaniler Silindi</string>
+    <!-- Used in file HeightsActivity.java:100. Original value:Contorining is over with an error -->
+    <string name="string_contorining_is_over_with_an_error">Münhani hata ile bitti</string>
+    <!-- Used in file activity_contouring_heights.xml:31. Original value:Store Contours -->
+    <string name="store_contours">Münhani Sakla</string>
+    <!-- Used in file activity_contouring_heights.xml:26. Original value:Store Triangles -->
+    <string name="store_triangles">Üçgenleri Sakla</string>
+    <!-- Used in file HeightsActivity.java:102. Original value:Contouring is over -->
+    <string name="string_contouring_is_over">Münhanileme bitti</string>
+    <!-- Used in file activity_contouring_heights.xml:14. Original value:Heights -->
+    <string name="heights">Yükseklikler</string>
+    <!-- Used in file activity_contouring_heights.xml:43. Original value:Delete all contouring -->
+    <string name="button_delete_contours">Tüm Münhanileri Sil</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:contouring -->
+    <string name="app_name">münhaniler</string>
+    <!-- Used in file activity_contouring_heights.xml:73. Original value:Contouring -->
+    <string name="button_contouring">Münhaniler</string>
+    <!-- Used in file activity_contouring_heights.xml:36. Original value:Store Smoothed Contours -->
+    <string name="store_smoothed_contours">Düzeltilmiş Münhaniler</string>
+    <!-- Used in file HeightsActivity.java:127. Original value:All contouring triangles and isolines have removed -->
+    <string name="string_all_contouring_triangles_and_isolines_have_removed">Tüm münhaniler, üçgenler ve isolines kaldırıldı</string>
+    <!-- Used in file HeightsActivity.java:100. Original value:Contouring has succesfully done -->
+    <string name="string_contouring_has_succesfully_done">Münhanileme  başarı ile tamamlandı</string>
+    <!-- Used in file activity_contouring_heights.xml:63. Original value:Cancel -->
+    <string name="button_cancel">İptal</string>
+    <!-- Used in file HeightsActivity.java:67. Original value:Heights (from %1$f to %2$f -->
+    <string name="string_heights__from__1_f_to__2_f">Yükseklik (den %1$f a %2$f)</string>
+    <!-- Used in file HeightsActivity.java:126. Original value:Contouring deleted -->
+    <string name="string_contouring_deleted">Münhaniler silindi</string>
 </resources>
