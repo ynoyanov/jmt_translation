@@ -9,13 +9,13 @@
     <!-- Used in file PairModemActivity.java:509. Original value:Pairing has done. -->
     <string name="string_pairing_has_done_">Eşleştirme Yapıldı.</string>
     <!-- Used in file RepeaterActivity.java:323. Original value:Wrong TX frequency! -->
-    <string name="string_wrong_tx_frequency_">Hatalı TX frekans!</string>
+    <string name="string_wrong_tx_frequency_">TX frekans Yanlış!</string>
     <!-- Used in file PairModemActivity.java:428. Original value:Connected. Starting to pair&#8230; -->
     <string name="string_connected__starting_to_pair___">Bağlandı.Eşleştirme Başlıyor…</string>
     <!-- Used in file PairModemActivity.java:436. Original value:Can\'t set modem to command mode -->
     <string name="string_can_t_set_modem_to_command_mode">Modemi komut moduna ayarlayamazsınız</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:576. Original value:Wrong firmware file! -->
-    <string name="string_wrong_firmware_file_">Hatalı Firmware Dosyası!</string>
+    <string name="string_wrong_firmware_file_">Firmware Dosyası Yanlış!</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Connected to radio -->
     <string name="string_connected_to_radio">Radio ya Bağlandı</string>
     <!-- Used in file pair_modem.xml:13. Original value:WiFi -->
@@ -35,9 +35,9 @@
     <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC) -->
     <string name="fec">Hata Düzeltmesi (FEC)</string>
     <!-- Used in file activity_find_rangefinder.xml:16. Original value:Select a Rangefinder -->
-    <string name="text_select_rangefinder">BT MesfÖlçer Seçimi</string>
+    <string name="text_select_rangefinder">BT MesfÖlçer Seç</string>
     <!-- Used in file PairModemActivity.java:982. Original value:Permission denied to obtain list of Bluetooth devices around -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
+    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Bluetooth cihazlarının listesini almak için izin reddedildi</string>
     <!-- Used in file PairModemActivity.java:471. Original value:Can\'t save modem settings! -->
     <string name="string_can_t_save_modem_settings_">Modem Ayarları Saklanamaz!</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Do you want to update its firmware? -->
@@ -66,10 +66,10 @@
     <string name="call_sign">Call Sign</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:562. Original value:Can\'t read version from from the file! -->
     <string name="string_can_t_read_version_from_from_the_file_">Dosyadan sürüm okunamıyor!</string>
-    <!-- Used in file FindRangefinderActivity.java:345. Original value:Connected to Rangefinder -->
-    <string name="string_connected_to_rangefinder">BT MesfÖlçer Bağlandı</string>
     <!-- Used in file PairModemActivity.java:498. Original value:Reseting GNSS receiver&#8230; -->
     <string name="string_reseting_gnss_receiver___">GNSS Alıcısı Resetleniyor…</string>
+    <!-- Used in file FindRangefinderActivity.java:345. Original value:Connected to Rangefinder -->
+    <string name="string_connected_to_rangefinder">BT MesfÖlçer Bağlandı</string>
     <!-- Used in file RepeaterActivity.java:343. Original value:Wrong call sign (only numbers and capital chars are avaibale!) -->
     <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Hatalı Sinyal değeri (Yalnız Rakam ve Capital Karakterler Uygundur!)</string>
     <!-- Used in file PairModemActivity.java:383. Original value:Please Wait!! -->
@@ -83,7 +83,7 @@
     <!-- Used in file RepeaterActivity.java:466. Original value:Setup OK -->
     <string name="string_setup_ok">Kurulum OK</string>
     <!-- Used in file PairModemActivity.java:130. Original value:Successfully unpared with radio.\nTurn the radio off and on to disconnect. -->
-    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Successfully unpared with radio.\nTurn the radio off and on to disconnect.</string>
+    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Radyo ile başarıyla eşleştirilmemiş. \ Bağlantıyı kesmek için radyoyu kapatıp açın.</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:684. Original value:Loaded %1$.1f %% (block #%2$d from %3$d) -->
     <string name="string_loaded___1f_____block___d_from__d_">Yüklendi %1$.1f %% (block #%2$d from %3$d)</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:446. Original value:Can\'t read radio info -->
@@ -91,7 +91,7 @@
     <!-- Used in file RepeaterActivity.java:355. Original value:Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm) -->
     <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Güç Birimi %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
     <!-- Used in file PairModemActivity.java:105. Original value:Paired -->
-    <string name="string_paired">Paired</string>
+    <string name="string_paired">Esleştirildi</string>
     <!-- Used in file activity_repeater.xml:224. Original value:Apply -->
     <string name="button_apply">Uygula</string>
     <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup -->
@@ -119,15 +119,13 @@
     <!-- Used in file LoadFirmwareModemSelectActivity.java:609. Original value:Firmware successfully loaded -->
     <string name="string_firmware_successfully_loaded">Firmware Başarıyla Yüklendi</string>
     <!-- Used in file PairModemActivity.java:106. Original value:Successfully paired to radio. -->
-    <string name="string_successfully_paired_to_radio_">Successfully paired to radio.</string>
+    <string name="string_successfully_paired_to_radio_">Radyo başarıyla eşleştirildi.</string>
     <!-- Used in file PairModemActivity.java:533. Original value:Unpairing error -->
     <string name="string_unpairing_error">Eşleştirme hatası</string>
     <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware -->
     <string name="text_select_modem_2">Firmware Güncelleme için Radio Seçin</string>
     <!-- Used in file item_device.xml:13. Original value:None -->
     <string name="none">None</string>
-    <!-- Used in file null:0. Original value:Devices -->
-    <string name="paired_devices">Cihazlar</string>
     <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters -->
     <string name="simplex_protocol_parameters">Simplex Protocol Parametreleri</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:563. Original value:Load firmware anyway -->
@@ -147,7 +145,7 @@
     <!-- Used in file PairModemActivity.java:125. Original value:Turn the radio off and on to finish. -->
     <string name="string_turn_the_radio_off_and_on_to_finish_">Bitirmek için radyoyu kapatıp açın.</string>
     <!-- Used in file PairModemActivity.java:125. Original value:Unpaired. -->
-    <string name="string_unpaired_">Eşleşmemiş.</string>
+    <string name="string_unpaired_">Eşleşmedi.</string>
     <!-- Used in file LoadFirmwareModemSelectActivity.java:535. Original value:Load firmware -->
     <string name="string_load_firmware">Firmware yükle</string>
     <!-- Used in file activity_repeater.xml:159. Original value:Scrambling -->
@@ -173,7 +171,7 @@
     <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing -->
     <string name="channel_spacing">Kanal Aralığı</string>
     <!-- Used in file PairModemActivity.java:129. Original value:Unparing -->
-    <string name="string_unparing">Unparing</string>
+    <string name="string_unparing">Eşleşmiyor</string>
     <!-- Used in file pair_modem.xml:18. Original value:Settings -->
     <string name="action_settings">Ayarlar</string>
     <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo -->

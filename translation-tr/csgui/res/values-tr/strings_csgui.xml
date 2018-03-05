@@ -32,16 +32,16 @@
     <string name="string_name_">İsim:</string>
     <!-- Used in file CoordinateSystemsActivity.java:134. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'? -->
     <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Yeni CS ayarlamak istiyor musun \'%1$s\'mevcut işte \'%2$s\'?</string>
-    <!-- Used in file user_cs.xml:73. Original value:Scale Difference, ppm -->
-    <string name="string_datum_scale_difference">Ölçek Farkı, ppm</string>
-    <!-- Used in file user_cs.xml:13. Original value:Datum -->
-    <string name="category_datum">Datum</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:298. Original value:North Inclination -->
-    <string name="string_north_inclination">Kuzey Eğim</string>
     <!-- Used in file IdenticalPointsActivity.java:337. Original value:Delete Points %s -->
     <string name="string_delete_points__s">Noktaları Sil %s</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:298. Original value:North Inclination -->
+    <string name="string_north_inclination">Kuzey Eğim</string>
+    <!-- Used in file user_cs.xml:13. Original value:Datum -->
+    <string name="category_datum">Datum</string>
+    <!-- Used in file user_cs.xml:73. Original value:Scale Difference, ppm -->
+    <string name="string_datum_scale_difference">Ölçek Farkı, ppm</string>
     <!-- Used in file activity_identical_points.xml:49. Original value:Type -->
-    <string name="string_type">Type</string>
+    <string name="string_type">Tip</string>
     <!-- Used in file IdenticalPointsActivity.java:342. Original value:Delete %1$d filtered Points (of %2$d) -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">Sil %1$d Filtrelenen noktaları (of %2$d)</string>
     <!-- Used in file CoordinateSystemsActivity.java:141. Original value:Can\'t create coordinate system! -->
@@ -51,7 +51,7 @@
     <!-- Used in file SaveLocalizationParametersActivity.java:59. Original value:East Origing -->
     <string name="string_east_origin">Doğu Origing</string>
     <!-- Used in file activity_identical_points.xml:22. Original value:&#8211; -->
-    <string name="string_action_button">&#8211;</string>
+    <string name="string_action_button">–</string>
     <!-- Used in file IdenticalPointListAdapter.java:1301. Original value:something wrong with params -->
     <string name="string_something_wrong_with_params">Parametre ile ilgili birşey yanlış</string>
     <!-- Used in file activity_setup_localization_parameters.xml:252. Original value:Scale -->
@@ -83,11 +83,11 @@
     <!-- Used in file CoordinateSystemsActivity.java:273. Original value:View CS Info -->
     <string name="string_view_cs_info">CS Bilgisi Gör</string>
     <!-- Used in file activity_identical_points.xml:40. Original value:Survey -->
-    <string name="string_survey">Survey</string>
+    <string name="string_survey">Ölçüm</string>
     <!-- Used in file IdenticalPointsActivity.java:346. Original value:Close -->
     <string name="string_close">Kapat</string>
     <!-- Used in file IdenticalPointListAdapter.java:1300. Original value:nothing to compute -->
-    <string name="string_nothing_to_compute">hesaplanamaz</string>
+    <string name="string_nothing_to_compute">Hesaplanamaz</string>
     <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset -->
     <string name="string_height_offset">Yüks.Ofset</string>
     <!-- Used in file activity_setup_localization_parameters.xml:372. Original value:Vertical treshold -->
@@ -97,7 +97,7 @@
     <!-- Used in file IdenticalPointsActivity.java:118. Original value:Can\'t delete localization -->
     <string name="string_can_t_delete_localization">Lokalizasyon Silinemez</string>
     <!-- Used in file activity_identical_points.xml:31. Original value:Design -->
-    <string name="string_design">Design</string>
+    <string name="string_design">Aplikasyon</string>
     <!-- Used in file CoordinateSystemsActivity.java:278. Original value:Delete CS %s -->
     <string name="string_delete_cs__s">CS Sil %s</string>
     <!-- Used in file UserCSPreferenceFragment.java:440. Original value:WGS84-to-User -->
@@ -110,30 +110,30 @@
     <string name="string_datum_rz">RZ, sec</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:csgui -->
     <string name="app_name">csgui</string>
-    <!-- Used in file user_cs.xml:49. Original value:RX, sec -->
-    <string name="string_datum_rx">RX, sec</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:216. Original value:CS with such name already exist! -->
-    <string name="string_cs_with_such_name_already_exist_">Aynı İsimde CS mevcut!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:180. Original value:North Ground -->
     <string name="string_north_ground">Arazi Kuzey</string>
-    <!-- Used in file user_cs.xml:57. Original value:RY, sec -->
-    <string name="string_datum_ry">RY, sec</string>
+    <!-- Used in file SaveLocalizationParametersActivity.java:216. Original value:CS with such name already exist! -->
+    <string name="string_cs_with_such_name_already_exist_">Aynı İsimde CS mevcut!</string>
+    <!-- Used in file user_cs.xml:49. Original value:RX, sec -->
+    <string name="string_datum_rx">RX, sec</string>
     <!-- Used in file UserCSPreferenceFragment.java:253. Original value:Datum: -->
     <string name="string_datum_">Datum:</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:323. Original value:East Inclination -->
-    <string name="string_east_inclination">Doğu Eğim</string>
+    <!-- Used in file user_cs.xml:57. Original value:RY, sec -->
+    <string name="string_datum_ry">RY, sec</string>
     <!-- Used in file CoordinateSystemsActivity.java:290. Original value:Delete %1$d selected CSes (of %2$d) -->
     <string name="string_delete__1_d_selected_cses__of__2_d_">Sil %1$d Seçilen CS yi (of %2$d)</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:191. Original value:Wrong scale difference! -->
-    <string name="string_wrong_scale_difference_">Hatalı Ölçek Farkı!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:229. Original value:Rotation -->
-    <string name="string_rotation">Dönüklük</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:323. Original value:East Inclination -->
+    <string name="string_east_inclination">Doğu Eğim</string>
     <!-- Used in file CSListActivity.java:261. Original value:Can\'t read coordinate system from the receiver! -->
     <string name="string_can_t_read_coordinate_system_from_the_receiver_">Koord.Sistemi Alıcıda Okunmaz!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel -->
-    <string name="button_cancel">İptal</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:229. Original value:Rotation -->
+    <string name="string_rotation">Dönüklük</string>
+    <!-- Used in file SaveLocalizationParametersActivity.java:191. Original value:Wrong scale difference! -->
+    <string name="string_wrong_scale_difference_">Hatalı Ölçek Farkı!</string>
     <!-- Used in file IdenticalPointsActivity.java:148. Original value:Localization was changed and not saved! -->
     <string name="string_localization_was_changed_and_not_saved_">Lokalizasyon Değiştirildi ama Kaydedilmedi!</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel -->
+    <string name="button_cancel">İptal</string>
     <!-- Used in file user_cs.xml:6. Original value:Projection -->
     <string name="category_projection">Projeksion</string>
     <!-- Used in file UserCSPreferenceFragment.java:470. Original value:Ellipsoidal Height -->
@@ -141,39 +141,39 @@
     <!-- Used in file IdenticalPointsActivity.java:299. Original value:Identical Points -->
     <string name="string_identical_points">Benzer Noktalar</string>
     <!-- Used in file SaveLocalizationParametersActivity.java:58. Original value:North Origing -->
-    <string name="string_north_origin">Kuzey Origing</string>
+    <string name="string_north_origin">Kuzey Orig.</string>
     <!-- Used in file CoordinateSystemsActivity.java:271. Original value:Edit user CS -->
     <string name="string_edit_user_cs">Kullanıcı CS Düzelt</string>
     <!-- Used in file IdenticalPointsActivity.java:48. Original value:Save -->
     <string name="string_save">Sakla</string>
-    <!-- Used in file SetupLocalizationParametersActivity.java:130. Original value:Center -->
-    <string name="string_center">Merkez</string>
     <!-- Used in file activity_setup_localization_parameters.xml:410. Original value:Apply -->
     <string name="button_apply">Uygula</string>
+    <!-- Used in file SetupLocalizationParametersActivity.java:130. Original value:Center -->
+    <string name="string_center">Merkez</string>
     <!-- Used in file UserCSPreferenceFragment.java:82. Original value:Push to choose from list -->
     <string name="string_push_to_choose_from_list">Listeden Seç</string>
     <!-- Used in file activity_save_localization_parameters.xml:29. Original value:CS Name -->
     <string name="string_cs_name">CS Adı</string>
-    <!-- Used in file user_cs.xml:77. Original value:Cur.Epoch -->
-    <string name="current_epoch">Geçerli Epoch</string>
-    <!-- Used in file CoordinateSystemsActivity.java:264. Original value:Change job CS -->
-    <string name="string_change_job_cs">İşin CS sini Değiştir</string>
-    <!-- Used in file CoordinateSystemsActivity.java:222. Original value:CSes -->
-    <string name="string_cses">CS ler</string>
-    <!-- Used in file user_cs.xml:33. Original value:DY, m -->
-    <string name="string_datum_dy">DY, m</string>
     <!-- Used in file UserCSPreferenceFragment.java:236. Original value:Ellipsoid: -->
     <string name="string_ellipsoid_">Elipsoid:</string>
-    <!-- Used in file user_cs.xml:25. Original value:DX, m -->
-    <string name="string_datum_dx">DX, m</string>
+    <!-- Used in file user_cs.xml:33. Original value:DY, m -->
+    <string name="string_datum_dy">DY, m</string>
+    <!-- Used in file CoordinateSystemsActivity.java:222. Original value:CSes -->
+    <string name="string_cses">CS ler</string>
+    <!-- Used in file CoordinateSystemsActivity.java:264. Original value:Change job CS -->
+    <string name="string_change_job_cs">İş CS sini Değiştir</string>
+    <!-- Used in file user_cs.xml:77. Original value:Cur.Epoch -->
+    <string name="current_epoch">Geçerli Epoch</string>
     <!-- Used in file identical_points.xml:20. Original value:Setup -->
     <string name="action_parameters">Kurulum</string>
+    <!-- Used in file user_cs.xml:25. Original value:DX, m -->
+    <string name="string_datum_dx">DX, m</string>
     <!-- Used in file user_cs.xml:79. Original value:Add to favorites -->
     <string name="add_to_favorites">Favorilere Ekle</string>
-    <!-- Used in file CSPreferenceFragment.java:102. Original value:Elipsoidal Height -->
-    <string name="string_elipsoidal_height">Elipsoidal Yüks.</string>
     <!-- Used in file CSListActivity.java:262. Original value:Error -->
     <string name="string_error">Hata</string>
+    <!-- Used in file CSPreferenceFragment.java:102. Original value:Elipsoidal Height -->
+    <string name="string_elipsoidal_height">Elipsoidal Yüks.</string>
     <!-- Used in file user_cs.xml:41. Original value:DZ, m -->
     <string name="string_datum_dz">DZ, m</string>
     <!-- Used in file SaveLocalizationParametersActivity.java:218. Original value:Cancel -->
@@ -184,5 +184,4 @@
     <string name="string_do_you_want_to_delete_localization_">Lokalizasyon Silenecek mi?</string>
     <!-- Used in file CoordinateSystemsActivity.java:352. Original value:CS %s is not user CS! -->
     <string name="string_cs__s_is_not_user_cs_">CS %s Kullanılan CS Değil!</string>
- 
 </resources>

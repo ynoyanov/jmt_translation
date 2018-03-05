@@ -4,20 +4,27 @@
     <string name="string_version">Version 1.0.9 build 25 June 2014</string>
     <!-- Used in file activity_about.xml:12. Original value:(;©) Copyright JAVAD GNSS 2017 -->
     <string name="string_copyright">(;©) Copyright JAVAD GNSS 2017</string>
-    <!-- Used in file main_old.xml:13. Original value:HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n -->
-    <string name="modem_info">HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n</string>
     <!-- Used in file main_old.xml:21. Original value:The radio is paired to receiver with BT Address XX.XX.XX.XX.XX -->
     <string name="pair_info">The radio is paired to receiver with BT Address XX.XX.XX.XX.XX</string>
+    <!-- Used in file main_old.xml:13. Original value:HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n -->
+    <string name="modem_info">HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n</string>
     <!-- Used in file AndroidManifest.xml:89. Original value:Connection -->
     <string name="title_activity_connection">Bağlantı</string>
-    <!-- Used in file AndroidManifest.xml:27. Original value:Pair HPT Modem -->
-    <string name="app_name">Pair HPT Modem</string>
     <!-- Used in file AndroidManifest.xml:73. Original value:Connection Configuration -->
     <string name="title_activity_connection_configurations">Bağlantı Kurulum</string>
-    <!-- Used in file main_old.xml:30. Original value:Pair HPT Radio with Receiver -->
-    <string name="button_pair">Pair HPT Radio with Receiver</string>
+    <!-- Used in file AndroidManifest.xml:27. Original value:Pair HPT Modem -->
+    <string name="app_name">HPT Modem Eşleştir</string>
     <!-- Used in file AndroidManifest.xml:97. Original value:About -->
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_about">Hakkında</string>
+    <!-- Used in file main_old.xml:30. Original value:Pair HPT Radio with Receiver -->
+    <string name="button_pair">HPT Radyo ile Alıcıyı eşleştir</string>
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="parity">
+         <item>None</item>
+         <item>Odd</item>
+         <item>Even</item>
+    </string-array>
+
     <!-- UNUSED STRING ARRAY-->
     <string-array name="port_list_8">
          <item>0</item>
@@ -28,24 +35,6 @@
          <item>5</item>
          <item>6</item>
          <item>7</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="parity">
-         <item>None</item>
-         <item>Odd</item>
-         <item>Even</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="port_list_7">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -62,6 +51,27 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
+    <string-array name="port_list_7">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="port_list_6">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
     <string-array name="baud_rate_1">
          <item>300</item>
          <item>600</item>
@@ -75,16 +85,6 @@
          <item>230400</item>
          <item>460800</item>
          <item>921600</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="port_list_6">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -141,7 +141,5 @@
          <item>1</item>
          <item>2</item>
     </string-array>
-
-
 
 </resources>

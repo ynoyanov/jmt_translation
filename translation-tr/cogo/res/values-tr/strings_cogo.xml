@@ -134,10 +134,10 @@
     <string name="string_height">Yüks.</string>
     <!-- Used in file CoGoBaseActivity.java:390. Original value:H, Avg. -->
     <string name="string_h__avg_">H,Ort</string>
-    <!-- Used in file CoGoLineOffsetActivity.java:333. Original value:%d points successfully created -->
-    <string name="string__d_points_successfully_created">%d Nokta Oluşturuldu</string>
     <!-- Used in file CoGoHomeActivity2.java:87. Original value:Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n -->
     <string name="description_stakes">Kazık İşi\nHat Bölme,Hat Ofsetleri, Kurb Kazığı İşleri\n</string>
+    <!-- Used in file CoGoLineOffsetActivity.java:333. Original value:%d points successfully created -->
+    <string name="string__d_points_successfully_created">%d Nokta Oluşturuldu</string>
     <!-- Used in file activity_cogo_triangle.xml:169. Original value:Perimeter -->
     <string name="text_perimeter">Çevre</string>
     <!-- Used in file CoGoTriangleActivity.java:55. Original value:Swap Points -->
@@ -160,12 +160,12 @@
     <string name="string_left">SOL</string>
     <!-- Used in file CoGoHomeActivity2.java:80. Original value:The task moves existing points by given distance and angle. -->
     <string name="description_move">Bu Program verilen noktaları verilen mesafe ve açı ile hareket ettirir.</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:181. Original value:Degree of Curvature, arc -->
-    <string name="text_d_arc">Eğiklik Açısı, Yay</string>
-    <!-- Used in file CoGoHomeActivity2.java:75. Original value:Recompute area by parallel moving edge -->
-    <string name="description_parallel">Kenara Paralel  kenarla alanı yeniden hesapla</string>
     <!-- Used in file activity_cogo_line_offset.xml:97. Original value:Track Incremenet -->
     <string name="text_track_increment">Artış Hızı</string>
+    <!-- Used in file CoGoHomeActivity2.java:75. Original value:Recompute area by parallel moving edge -->
+    <string name="description_parallel">Kenara Paralel  hat ile alanı yeniden hesapla</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:181. Original value:Degree of Curvature, arc -->
+    <string name="text_d_arc">Eğiklik Açısı, Yay</string>
     <!-- Used in file info_2point_list_items.xml:21. Original value:Distance -->
     <string name="text_distance">Mesafe</string>
     <!-- Used in file CoGoBaseActivity.java:294. Original value:D3, slant -->
@@ -177,7 +177,7 @@
     <!-- Used in file CoGoBaseActivity.java:240. Original value:D, slant -->
     <string name="string_d__slant">D, eğik</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:cogo -->
-    <string name="app_name">Kogo</string>
+    <string name="app_name">Ko-Geo</string>
     <!-- Used in file info_2point_list_header.xml:29. Original value:&#x394;N -->
     <string name="text_delta_n">ΔX</string>
     <!-- Used in file CoGoHomeActivity2.java:86. Original value:Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Diagonals and Resection tasks\n -->
@@ -219,7 +219,7 @@
     <!-- Used in file activity_cogo_triangle.xml:21. Original value:P1\npoint1\n -->
     <string name="text_p1">P1\nnokta1\n</string>
     <!-- Used in file CoGoTraverseActivity.java:160. Original value:Wrong distance! -->
-    <string name="string_wrong_distance_">Yanlış Mesf.!</string>
+    <string name="string_wrong_distance_">Mesafe Yanlış.!</string>
     <!-- Used in file CoGoBaseActivity.java:550. Original value:Select P4 -->
     <string name="string_select_p4">P4 Seçin</string>
     <!-- Used in file CoGoBaseActivity.java:534. Original value:Select P3 -->
@@ -229,17 +229,17 @@
     <!-- Used in file CoGoHomeActivity2.java:67. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value. -->
     <string name="description_line_offsets">Bu Program Bilinen iki nokta arasındaki hattın, nokta sayısına göre eşit parçalara bölünmesini sağlar. Ayrıca verilen ara mesafe değeri ile paralel olarak ilave sayıda parça oluşturur.</string>
     <!-- Used in file CoGoParallelActivity.java:212. Original value:Can\'t cut %1$.3fm2 from all %2$.4fm2 -->
-    <string name="string_can_t_cut__1__3fm2_from_all__2__4fm2">Can\'t cut %1$.3fm2 from all %2$.4fm2</string>
+    <string name="string_can_t_cut__1__3fm2_from_all__2__4fm2">Kazılamaz %1$.3fm2 için tümü %2$.4fm2</string>
     <!-- Used in file CoGoStakeoutCurveActivity.java:156. Original value:Wrong number of points! -->
     <string name="string_wrong_number_of_points_">Yanlış Nokta Sayısı!</string>
     <!-- Used in file CoGoResultActivity.java:156. Original value:point -->
-    <string name="string_point">nokta</string>
+    <string name="string_point">Nokta</string>
     <!-- Used in file CoGoHomeActivity2.java:66. Original value:The task divides line defined by two known points to given number of points. -->
     <string name="description_divide_line">Bu Program Bilinen iki nokta ile tanımlanan hattı verilen nokta sayısına böler.</string>
     <!-- Used in file CoGoResultActivity.java:247. Original value:Add to catalog %s -->
     <string name="string_add_to_catalog__s">Katalog\'a ekle %s</string>
     <!-- Used in file CoGoLineOffsetActivity.java:290. Original value:Wrong segment length! -->
-    <string name="string_wrong_segment_length_">Yanlış bölüm Uzunluğu!</string>
+    <string name="string_wrong_segment_length_">Bölüm Uzunluğu Yanlış!</string>
     <!-- Used in file CoGoTraverseActivity.java:223. Original value:Can\'t compute coordinates! -->
     <string name="string_can_t_compute_coordinates_">Koord.Hesaplanamaz!</string>
     <!-- Used in file CoGoHomeActivity2.java:85. Original value:Offsets -->
@@ -271,7 +271,7 @@
     <!-- Used in file CoGoHomeActivity2.java:68. Original value:Stakeout Curve -->
     <string name="title_stakeout_curve">Kurb Aplikasyonu</string>
     <!-- Used in file CoGoParallelActivity.java:203. Original value:Wrong area! -->
-    <string name="string_wrong_area_">Yanlış Alan!</string>
+    <string name="string_wrong_area_">Alan Yanlış!</string>
     <!-- Used in file CoGoResultActivity.java:218. Original value:View/Edit %s -->
     <string name="string_view_edit__s">Gör/Düzelt %s</string>
     <!-- Used in file CoGoHomeActivity2.java:63. Original value:Resection -->
@@ -289,9 +289,9 @@
     <!-- Used in file CoGoListAdapter.java:23. Original value:Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points -->
     <string name="description_direct">Bir noktanın pozisyonunu, bir başlangıç noktasının bilinen pozisyonu ve yataylık (azimut) ve iki nokta arasındaki mesafe göz önüne alınarak hesaplanır</string>
     <!-- Used in file CoGoIntersectionDDActivity.java:155. Original value:Wrong distance D1! -->
-    <string name="string_wrong_distance_d1_">Yanlış Mesf D1!</string>
+    <string name="string_wrong_distance_d1_">D1 Mesafesi Yanlış!</string>
     <!-- Used in file CoGoHomeActivity2.java:62. Original value:Diagonals -->
-    <string name="title_diagonals">Kösegen</string>
+    <string name="title_diagonals">Köşegen</string>
     <!-- Used in file CoGoResultActivity.java:49. Original value:Export -->
     <string name="string_export">Export</string>
     <!-- Used in file activity_cogo_volume.xml:57. Original value:Volume -->
@@ -305,7 +305,7 @@
     <!-- Used in file CoGoBaseActivity.java:1805. Original value:Please manually open result file in the job/cogoreport subfolder. -->
     <string name="string_please_manually_open_result_file_in_the_job_cogoreport_subfolder_">Lütfen sonuç dosyasını job / cogoreport alt klasöründe manuel olarak açın.</string>
     <!-- Used in file CoGoRotateActivity.java:99. Original value:Wrong bearing increase! -->
-    <string name="string_wrong_bearing_increase_">Yanlış Kırılma Artışı!</string>
+    <string name="string_wrong_bearing_increase_">Kırılma Artış Yanlışı!</string>
     <!-- Used in file CoGoHomeActivity2.java:76. Original value:Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3. -->
     <string name="description_triangle">Traverse jeodezik görev, bilinen üç nokta P1, P2 ve P3 ile üçgen parametrelerini (yan uzunluk ve açılar) hesaplar.</string>
     <!-- Used in file CoGoHomeActivity.java:171. Original value:Basic -->
@@ -335,7 +335,7 @@
     <!-- Used in file CoGoBaseActivity.java:1771. Original value:Share file with&#8230; -->
     <string name="string_share_file_with___">Dosya ile Paylaş…</string>
     <!-- Used in file CoGoStakeoutCurveActivity.java:172. Original value:Wrong offset! -->
-    <string name="string_wrong_offset_">Yanlış Ofset!</string>
+    <string name="string_wrong_offset_">Ofset Yanlış!</string>
     <!-- Used in file activity_cogo_parallel.xml:56. Original value:2nd nodal point -->
     <string name="text_second_nodal_point">2nci Düğüm Noktası</string>
     <!-- Used in file CoGoHomeActivity2.java:73. Original value:The task computes volume of the convex hall defined by selected points. -->
@@ -373,7 +373,7 @@
     <!-- Used in file CoGoLineOffsetActivity.java:114. Original value:Segment length -->
     <string name="string_segment_length">Bölüm Uzunluğu</string>
     <!-- Used in file CoGoStakeoutCurveActivity.java:167. Original value:Wrong radius! -->
-    <string name="string_wrong_radius_">Yanlış Yarıçap!</string>
+    <string name="string_wrong_radius_">Yarıçap Yanlış!</string>
     <!-- Used in file activity_cogo_stakeout_curve.xml:113. Original value:Offset -->
     <string name="text_offset">Offset</string>
     <!-- Used in file CoGoTriangleActivity.java:108. Original value:Select point 2 -->
@@ -387,7 +387,7 @@
     <!-- Used in file CoGoTriangleActivity.java:122. Original value:Can\'t convert point 3 coordinates to currect coordinate system! -->
     <string name="string_can_t_convert_point_3_coordinates_to_currect_coordinate_system_">Nokta 3 koordinatlarını doğru koordinat sistemine dönüştürülemez!</string>
     <!-- Used in file CoGoTraverseActivity.java:209. Original value:Wrong slope distance and height! -->
-    <string name="string_wrong_slope_distance_and_height_">Yanlış Eğik Mesf ve Yüks.!</string>
+    <string name="string_wrong_slope_distance_and_height_">Eğik Mesf ve Yüks.Yanlış!</string>
     <!-- Used in file list_selected_points_header.xml:27. Original value:N -->
     <string name="string_number">X</string>
     <!-- Used in file CoGoHomeActivity2.java:84. Original value:Basic -->
@@ -396,10 +396,10 @@
     <string name="string_select_p1_">P1 Seçin!</string>
     <!-- Used in file activity_cogo_triangle.xml:154. Original value:&#947; -->
     <string name="text_angle_c">γ</string>
+    <!-- Used in file CoGoTraverseActivity.java:153. Original value:Wrong bearing! -->
+    <string name="string_wrong_bearing_">KırılmaYanlış!</string>
     <!-- Used in file activity_cogo_triangle.xml:139. Original value:&#946; -->
     <string name="text_angle_b">β</string>
-    <!-- Used in file CoGoTraverseActivity.java:153. Original value:Wrong bearing! -->
-    <string name="string_wrong_bearing_">Yanlış Kırılma!</string>
     <!-- Used in file activity_cogo_triangle.xml:124. Original value: &#945; -->
     <string name="text_angle_a">α</string>
     <!-- Used in file activity_cogo_offset.xml:95. Original value:Left -->
