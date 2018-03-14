@@ -21,6 +21,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Coordinates-->
   <string name="text_coordinates">Współrzędne</string>
+  <!--Original value: Delete %1$d filtered files (of %2$d)-->
+  <string name="string_delete__1_d_filtered_files__of__2_d_">Usuń %1$d plkiów (z %2$d)</string>
   <!--Original value: VBRTK-->
   <string name="vbrtk">VBRTK</string>
   <!--Original value: V.Offset-->
@@ -38,7 +40,7 @@
   <!--Original value: Add to Catalog-->
   <string name="add_to_catalog">Dodaj do katalogu</string>
   <!--Original value: Anonymous-->
-  <string name="string_anonymous" />
+  <string name="string_anonymous">Anonymous</string>
   <!--Original value: Type-->
   <string name="string_antenna_height_type">Typ</string>
   <!--Original value: Canceled by user-->
@@ -57,6 +59,8 @@
   <string name="string_reading_answer___">Odczyt odpowiedzi…</string>
   <!--Original value: Processing file %s-->
   <string name="string_processing_file__s">Przetwarzanie pliku %s</string>
+  <!--Original value: Debug (dpos-dev.javad.com)-->
+  <string name="string_debug__dpos_dev_javad_com_">Debug (dpos-dev.javad.com)</string>
   <!--Original value: Establish Connection-->
   <string name="button_handshake">Ustanów połączenie</string>
   <!--Original value: Save Report-->
@@ -75,6 +79,8 @@
   <string name="string_can_t_create_project__n">Nie można utworzyć projektu.\n</string>
   <!--Original value: Close-->
   <string name="string_close">Zamknij</string>
+  <!--Original value: Delete %1$d selected files (of %2$d)-->
+  <string name="string_delete__1_d_selected_files__of__2_d_">Usuń %1$d wybranych plików (z %2$d)</string>
   <!--Original value: Update HybridRTK coordinate for point %s-->
   <string name="hybrid_rtk_format">Uaktualnij współrzędne HybridRTK dla punktu %s</string>
   <!--Original value: OPUS Process-->
@@ -91,6 +97,8 @@
   <string name="button_process_jopus">Przetwarzanie DPOS</string>
   <!--Original value: . . .-->
   <string name="button_select">. . .</string>
+  <!--Original value: Import file-->
+  <string name="string_import_file">Importuj plik</string>
   <!--Original value: Antenna Height-->
   <string name="string_antenna_all">Wysokość Anteny</string>
   <!--Original value: OPUS Process Result-->
@@ -127,6 +135,8 @@
   <string name="hybrid_rtk">Uaktualnij współrzędne HybridRTK dla punktu</string>
   <!--Original value: Process as Device-->
   <string name="process_as_device">Przetwarzaj jako urządzenie</string>
+  <!--Original value: Project has created-->
+  <string name="string_project_has_created">Utworzono projekt</string>
   <!--Original value: Wrong Antenna height!-->
   <string name="string_wrong_antenna_height_">Błędna wysokość anteny!</string>
   <!--Original value: Project deleted OK-->
@@ -139,6 +149,8 @@
   <string name="string_automatic">Automatycznie</string>
   <!--Original value: Sent-->
   <string name="string_sent">Wyślij</string>
+  <!--Original value: Sending-->
+  <string name="string_sending">Wysyłanie</string>
   <!--Original value: DPOS Process-->
   <string name="string_dpos_process">Przetwarzaj z DPOS</string>
   <!--Original value: Delete-->
@@ -147,13 +159,20 @@
   <string name="antenna_height_opus">Wys. anteny\n(pion. w metrach)</string>
   <!--Original value: Server-->
   <string name="dpos_server">Serwer DPOS</string>
+  <!--Original value: Loading-->
+  <string name="string_loading">Ładowanie</string>
   <!--Original value: 
         <h1>Attach Device to DPOS</h1>
         Please visit out <b>JAVAD Customer Area<b> at <b>app.javad.com<b> and navigate to J-FieldAssistant/<b>Devices<b> section.<br> </br>
            Follow to instructions in <b>Connect device<b> widget on the page to generate a new handshake key.<br></br>
            Enter this key into field below and click <b>Establish Connection</b> button to complete the procedure.
     -->
-  <string name="html_handshake">    </string>
+  <string name="html_handshake">
+        &lt;h1&gt;Attach Device to DPOS&lt;/h1&gt;
+        Please visit out &lt;b&gt;JAVAD Customer Area&lt;b&gt; at &lt;b&gt;app.javad.com&lt;b&gt; and navigate to J-FieldAssistant/&lt;b&gt;Devices&lt;b&gt; section.&lt;br&gt; &lt;/br&gt;
+           Follow to instructions in &lt;b&gt;Connect device&lt;b&gt; widget on the page to generate a new handshake key.&lt;br&gt;&lt;/br&gt;
+           Enter this key into field below and click &lt;b&gt;Establish Connection&lt;/b&gt; button to complete the procedure.
+    </string>
   <!--Original value: Authorization error!!!-->
   <string name="string_authorization_error___">Błąd autoryzacji!</string>
   <!--Original value: DPOS Process Result-->
@@ -179,13 +198,19 @@
         Connection to <b>JAVAD Customer Area<b> is established!<br> 
         Please check for the available services at <b>app.javad.com<b>
     -->
-  <string name="html_revoke" />
+  <string name="html_revoke">
+        &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
+        Connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt; is established!&lt;br&gt; 
+        Please check for the available services at &lt;b&gt;app.javad.com&lt;b&gt;
+    </string>
   <!--Original value: View DPOS-->
   <string name="string_view_dpos">Podgląd DPOS</string>
   <!--Original value: %1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s-->
   <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
   <!--Original value: Send to DPOS-->
   <string name="string_send_to_dpos">Wyślij do DPOS</string>
+  <!--Original value: Loading file-->
+  <string name="string_loading_file">Ładowanie pliku</string>
   <!--Original value: Sending %s to server…-->
   <string name="string_sending__s_to_server___">Wysyłanie %s na serwer…</string>
   <!--Original value: Use-->
@@ -213,17 +238,21 @@
         No connection to <b>JAVAD Customer Area<b>!<br> 
         Please check Internet connection on your device!
     -->
-  <string name="html_no_internet" />
+  <string name="html_no_internet">
+        &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
+        No connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt;!&lt;br&gt; 
+        Please check Internet connection on your device!
+    </string>
   <!--Original value: View-->
   <string name="button_view">Podgląd</string>
   <!--Original value: Process OPUS-->
   <string name="button_process_opus">Przetwarzanie OPUS</string>
   <!--Original value: File List-->
   <string name="title_activity_file_list">Lista plików</string>
-  <!--Original value: Sending to server…-->
-  <string name="string_sending_to_server___">Wysyłanie na serwer…</string>
   <!--Original value: File Name-->
   <string name="file_name">Nazwa pliku</string>
+  <!--Original value: Sending to server…-->
+  <string name="string_sending_to_server___">Wysyłanie na serwer…</string>
   <!--Original value: Point-->
   <string name="button_point_name">Punkt</string>
   <!--Original value: OPUS Process-->
@@ -236,10 +265,14 @@
   <string name="string_base_file">Plik bazy</string>
   <!--Original value: Coordinates-->
   <string name="string_coordinates">Współrzędne</string>
+  <!--Original value: Navigation files loading-->
+  <string name="string_navigation_files_loading">Ładowanie pliku nawigacyjnego</string>
   <!--Original value: HybridRTK saved with errors-->
   <string name="string_hybridrtk_saved_with_errors">HybridRTK zapisano z błędami</string>
   <!--Original value: %1$s engine is not supported for network %2$s!-->
   <string name="string__1_s_engine_is_not_supported_for_network__2_s_">Silnik %1$s nie jest wspierany przez sieć %2$s!</string>
+  <!--Original value: Connection established-->
+  <string name="string_connection_established">Ustanowiono połączenie</string>
   <!--Original value: View on Map-->
   <string name="string_view_on_map">Zobacz na mapie</string>
   <!--Original value: Antenna Height-->
@@ -258,8 +291,14 @@
   <string name="action_attach_device">Dołącz urządzenie</string>
   <!--Original value: OPUS Process-->
   <string name="title_activity_opus_process">Przetwarzanie OPUS</string>
+  <!--Original value: Main (app.javad.com)-->
+  <string name="string_main__app_javad_com_">Main (app.javad.com)</string>
+  <!--Original value: to server-->
+  <string name="string_to_server">na serwer</string>
   <!--Original value: Revoke Connection-->
   <string name="button_revoke">Odwołaj połączenie</string>
+  <!--Original value: Get report-->
+  <string name="string_get_report">Pobierz raport</string>
   <!--Original value: Use Debug server-->
   <string name="use_debug_server">Tryb debugowania</string>
   <!--Original value: Processing…-->

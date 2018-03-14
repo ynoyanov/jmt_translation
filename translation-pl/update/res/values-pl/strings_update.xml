@@ -19,6 +19,10 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Installing…-->
+  <string name="string_installing___">Instalowanie...</string>
+  <!--Original value: OAF downloaded.-->
+  <string name="string_oaf_downloaded_">Pobrano OAF</string>
   <!--Original value: Restore receiver settings-->
   <string name="string_restore_receiver_settings">Przywróć ustawienia odbiornika</string>
   <!--Original value: Receiver reset-->
@@ -39,26 +43,26 @@
   <string name="update_from_file">Aktualizuj z pliku</string>
   <!--Original value: Turn RTK off and on to refix solution-->
   <string name="reset_rtk_summary">Resetuje rozwiązanie RTK oraz śledzone sygnały</string>
-  <!--Original value: The file is corrupted or not a correct option OAF file!-->
-  <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Plik uszkodzony lub niewłaściwy!</string>
   <!--Original value: Init Parameters-->
   <string name="init_parameters">Parametry poczatkowe</string>
-  <!--Original value: Save Receiver Settings-->
-  <string name="save_settings">Zapisz ustawienia</string>
+  <!--Original value: The file is corrupted or not a correct option OAF file!-->
+  <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Plik uszkodzony lub niewłaściwy!</string>
   <!--Original value: Restarting…-->
   <string name="string_restarting___">Restartowanie…</string>
-  <!--Original value: Latest Firmware version on site is %1$s %2$s-->
-  <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Ostatnia wersja FW na stronie to %1$s %2$s</string>
+  <!--Original value: Save Receiver Settings-->
+  <string name="save_settings">Zapisz ustawienia</string>
   <!--Original value: Restore  all receiver settings from setting file-->
   <string name="restore_settings_summary">Przywróć ustawienia</string>
-  <!--Original value: Firmware update error!-->
-  <string name="string_firmware_update_error_">Błąd aktualizacji FW!</string>
+  <!--Original value: Latest Firmware version on site is %1$s %2$s-->
+  <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Ostatnia wersja FW na stronie to %1$s %2$s</string>
   <!--Original value: Reset RTK-->
   <string name="string_reset_rtk">Reset RTK</string>
-  <!--Original value: File System Cleared!-->
-  <string name="string_file_system_cleared_">Wyczyszczono system plików!</string>
+  <!--Original value: Firmware update error!-->
+  <string name="string_firmware_update_error_">Błąd aktualizacji FW!</string>
   <!--Original value: Crear all receiver settings to default values-->
   <string name="clear_nvram_summary">Przywróć ustawienia domyślne</string>
+  <!--Original value: File System Cleared!-->
+  <string name="string_file_system_cleared_">Wyczyszczono system plików!</string>
   <!--Original value: RTK reset!-->
   <string name="string_rtk_reset_">Reset RTK!</string>
   <!--Original value: Receiver Firmware version is %s-->
@@ -111,16 +115,16 @@
   <string name="update_oaf_summary">Aktualizuj OAF z pliku lub poprzez sieć</string>
   <!--Original value: Connected to receiver-->
   <string name="string_connected_to_receiver">Połączono z odbiornikiem</string>
-  <!--Original value: Clear File System-->
-  <string name="string_clear_file_system">Wyczyść system plików</string>
   <!--Original value: Checking OAF…-->
   <string name="string_checking_oaf___">Sprawdzanie OAF…</string>
+  <!--Original value: Clear File System-->
+  <string name="string_clear_file_system">Wyczyść system plików</string>
   <!--Original value: Restore Receiver Settings-->
   <string name="restore_settings">Przywróć ustawienia</string>
-  <!--Original value: This will reset all parameters to default values.-->
-  <string name="string_this_will_reset_all_parameters_to_default_values_">Przywrócenie parametrów do wartości domyślnych.</string>
   <!--Original value: update-->
   <string name="app_name">aktualizauj</string>
+  <!--Original value: This will reset all parameters to default values.-->
+  <string name="string_this_will_reset_all_parameters_to_default_values_">Przywrócenie parametrów do wartości domyślnych.</string>
   <!--Original value: Firmware have successfully updated-->
   <string name="string_firmware_have_successfully_updated">Aktualizacja zakończona powodzeniem</string>
   <!--Original value: Reset turns off and on the receiver-->
@@ -133,34 +137,40 @@
   <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Opcje odbiornika wygasną %1$s.\n(Po %2$d dni/ach)</string>
   <!--Original value: Reconfiguration of the receiver will required-->
   <string name="string_reconfiguration_of_the_receiver_will_required">Wymagana rekonfiguracja odbiornika</string>
-  <!--Original value: radio firmware-->
-  <string name="string_radio_firmware">FW radia</string>
   <!--Original value: Restoring setting…-->
   <string name="string_restoring_setting___">Przywracanie ustawień</string>
+  <!--Original value: radio firmware-->
+  <string name="string_radio_firmware">FW radia</string>
   <!--Original value: Loading OAF…-->
   <string name="string_loading_oaf___">Ładowanie OAF…</string>
   <!--Original value: main firmware-->
   <string name="string_main_firmware">główne FW</string>
   <!--Original value: Stable Firmware version on site is %1$s %2$s-->
   <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Wersja Stable FW na stronie to %1$s %2$s</string>
-  <!--Original value: Clear file system removes all jps files on the receiver-->
-  <string name="clear_file_system_summary">Wyczyść system plików</string>
   <!--Original value: Clear NVRAM-->
   <string name="string_clear_nvram">Wyczyść NVRAM</string>
+  <!--Original value: Clear file system removes all jps files on the receiver-->
+  <string name="clear_file_system_summary">Wyczyść system plików</string>
   <!--Original value: Options are OK-->
   <string name="oaf_info">Opcje OK</string>
-  <!--Original value: Clear File System-->
-  <string name="clear_file_system">Czyść system plików</string>
   <!--Original value: Reset Receiver-->
   <string name="string_reset_receiver">Reset odbiornika</string>
+  <!--Original value: Clear File System-->
+  <string name="clear_file_system">Czyść system plików</string>
+  <!--Original value: Installed-->
+  <string name="string_installed">Zainstalowano</string>
+  <!--Original value: CleanNVRAM…-->
+  <string name="string_cleannvram___">Czyść NVRAM</string>
   <!--Original value: Do you want to Clear NVRAM?-->
   <string name="string_do_you_want_to_clear_nvram_">Czy chcesz wyczyścić NVRAM?</string>
-  <!--Original value: Receiver was cleared so it may need to be reconfigured-->
-  <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Odbiornik został zresetowany i może wymgać rekonfiguracji</string>
   <!--Original value: Error in command(s):-->
   <string name="string_error_in_command_s__">Błąd komendy:</string>
+  <!--Original value: Receiver was cleared so it may need to be reconfigured-->
+  <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Odbiornik został zresetowany i może wymgać rekonfiguracji</string>
   <!--Original value: Update OAF-->
   <string name="update_oaf">Aktualizacja OAF</string>
+  <!--Original value: OAF Successfully Updated.-->
+  <string name="string_oaf_successfully_updated_">Załadowano OAF!</string>
   <!--Original value: Do you want to clear receiver file system?-->
   <string name="string_do_you_want_to_clear_receiver_file_system_">Czy chcesz wyczyścić system plików odbiornika?</string>
   <!--Original value: Reconnection to receiver…-->
@@ -169,16 +179,16 @@
   <string name="update_from_internet_latest">Aktualizuj przez internet do wersji Latest</string>
   <!--Original value: Options have successfully updated-->
   <string name="string_options_have_successfully_updated">Uaktualniono opcje</string>
-  <!--Original value: Reset Receiver-->
-  <string name="reset_receiver">Reset odbiornika</string>
   <!--Original value: Please check that you have downlaoded all required files-->
   <string name="string_please_check_that_you_have_downlaoded_all_required_files">Proszę sprawdzić, czy udało się pobrać wszystkie wymagane pliki</string>
+  <!--Original value: Reset Receiver-->
+  <string name="reset_receiver">Reset odbiornika</string>
   <!--Original value: Receiver settings successfully restored from file %s-->
   <string name="string_receiver_settings_successfully_restored_from_file__s">Przywracanie ustawień odbiornika z pliku %s zakończono powodzeniem</string>
-  <!--Original value: Receiver Options have Expired on %1$s.\n(%2$d days ago)-->
-  <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Opcje odbiornika wygasły %1$s.\n(%2$d dni temu)</string>
   <!--Original value: Cancel-->
   <string name="string_cancel">Anuluj</string>
+  <!--Original value: Receiver Options have Expired on %1$s.\n(%2$d days ago)-->
+  <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Opcje odbiornika wygasły %1$s.\n(%2$d dni temu)</string>
   <!--Original value: Check OAF at every connection-->
   <string name="check_oaf_at_every_connection">Sprawdź OAF przy każdym połączeniu</string>
   <!--Original value: Save receiver settings-->
