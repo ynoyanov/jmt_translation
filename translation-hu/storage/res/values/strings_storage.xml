@@ -1,63 +1,71 @@
 ﻿<resources>
+    <!-- Used in file activity_point.xml:196 -->
+    <string name="coordinate_wgs84">Wgs84</string>
     <!-- Used in file SurveyPointListAdapter.java:133 -->
     <string name="string__d_vertices">%d vertices</string>
     <!-- Used in file ts_points.xml:10 -->
     <string name="action_search">Search</string>
-    <!-- Used in file ExportAndReport.java:107 -->
+    <!-- Used in file ExportAndReport.java:110 -->
     <string name="string_mapinfo___mif">MapInfo *.mif</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:69 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:83 -->
     <string name="string_use_fix_only">Use Fix Only</string>
-    <!-- Used in file SurveyPointsActivity.java:91 -->
+    <!-- Used in file SurveyPointsActivity.java:88 -->
     <string name="string_test">Test</string>
-    <!-- Used in file SurveyPointsActivity.java:286 -->
+    <!-- Used in file SurveyPointsActivity.java:265 -->
     <string name="string_points">points</string>
-    <!-- Used in file ExportAndReport.java:107 -->
+    <!-- Used in file ExportAndReport.java:110 -->
     <string name="string_report____">Report *.*</string>
     <!-- Used in file JobsActivity.java:453 -->
     <string name="string_duplicate_job">Duplicate Job</string>
-    <!-- Used in file SurveyPointActivity.java:219 -->
+    <!-- Used in file SurveyPointActivity.java:220 -->
     <string name="string_h_rms_">H.RMS:</string>
-    <!-- Used in file SurveyPointsActivity.java:358 -->
+    <!-- Used in file SurveyPointsActivity.java:337 -->
     <string name="string_view_images_audios">View Images/Audios</string>
-    <!-- Used in file SurveyPointActivity.java:363 -->
+    <!-- Used in file SurveyPointActivity.java:472 -->
     <string name="string_point_name_is_empty_">Point name is empty!</string>
-    <!-- Used in file SurveyPointActivity.java:215 -->
+    <!-- Used in file SurveyPointActivity.java:216 -->
     <string name="string_solution_">Solution:</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:51 -->
+    <!-- Used in file TSPointsActivity.java:69 -->
+    <string name="string_name">Name</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:60 -->
     <string name="string_h_rms">H.RMS</string>
+    <!-- Used in file DesignPointsActivity.java:117 -->
+    <string name="string_netcad___ncn">NetCAD *.ncn</string>
     <!-- Used in file ArchieveJobFolderActivity.java:606 -->
     <string name="string_all_jobs_have_successfully_archieved_to_folder___s__">All Jobs have successfully archieved to folder \'%s\'!</string>
-    <!-- Used in file ExportAndReport.java:107 -->
-    <string name="string_netcad___ncn">NetCAD *.ncn</string>
     <!-- Used in file JobActivity.java:492 -->
     <string name="string_no_localization">No Localization</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:120 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:134 -->
     <string name="string_fh_freq">FH Freq</string>
     <!-- Used in file activity_job.xml:70 -->
     <string name="job_organization">Organization</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:73 -->
-    <string name="string_epochs">epochs</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:77 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:91 -->
     <string name="string_correction_by_levels">Correction by Levels</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:87 -->
+    <string name="string_epochs">epochs</string>
     <!-- Used in file TSPointsActivity.java:293 -->
     <string name="string_delete__1_d_selected_points__of__2_d_">Delete %1$d selected points (of %2$d)</string>
     <!-- Used in file JobActivity.java:227 -->
     <string name="string_last_time">Last time</string>
     <!-- Used in file DatabaseMapActivity.java:58 -->
     <string name="string_design_points">Design Points</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:53 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:62 -->
     <string name="string_satellites">Satellites</string>
+    <!-- Used in file ExportAndReport.java:1923 -->
+    <string name="string_share_file_with">Share file with</string>
     <!-- Used in file jobs.xml:45 -->
     <string name="action_arhieve_folder">Archieve Folder</string>
+    <!-- Used in file DesignPointsActivity.java:572 -->
+    <string name="string_imported_ok">Imported OK</string>
     <!-- Used in file ArchieveJobFolderActivity.java:554 -->
     <string name="string_applying_setting___">Applying setting&#8230;</string>
     <!-- Used in file activity_point_antenna.xml:74 -->
     <string name="height_vertical">Vertical</string>
     <!-- Used in file activity_job.xml:211 -->
     <string name="show_antenna_offsets">Show antenna vertical offset</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:98 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:112 -->
     <string name="string_protocol">Protocol</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:50 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:59 -->
     <string name="string_epochs_collected">Epochs collected</string>
     <!-- Used in file DatabaseMapActivity.java:58 -->
     <string name="string_catalog_points">Catalog Points</string>
@@ -65,19 +73,21 @@
     <string name="antenna_vertical_offset">Vertical Offset</string>
     <!-- Used in file TSPointsActivity.java:83 -->
     <string name="string_check_all">Check All</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:70 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:84 -->
     <string name="string_epoch_filter">Epoch Filter</string>
     <!-- Used in file activity_point_antenna.xml:28 -->
     <string name="antenna_type">Antenna Type</string>
     <!-- Used in file RTKBasesActivity.java:107 -->
     <string name="string_rtkbases">rtkbases</string>
-    <!-- Used in file SurveyPointActivity.java:365 -->
+    <!-- Used in file SurveyPointActivity.java:474 -->
     <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Point name is too long!\nLimit it up to 40 chars, please</string>
+    <!-- Used in file DesignPointsActivity.java:121 -->
+    <string name="string_landxml___xml">LandXML *.xml</string>
     <!-- Used in file ts_points.xml:5 -->
     <string name="action_map">Map</string>
     <!-- Used in file TSPointsActivity.java:278 -->
     <string name="string_delete_point__s">Delete point %s</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:131 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:145 -->
     <string name="string_simcard">SimCard</string>
     <!-- Used in file SurveyPointAntennaActivity.java:111 -->
     <string name="string_error">Error</string>
@@ -87,9 +97,9 @@
     <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Point %1$s was successfully added into catalog %2$s</string>
     <!-- Used in file SurveyPointAntennaActivity.java:149 -->
     <string name="string_antenna_id_is_not_selected_">Antenna Id is not selected!</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:119 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:133 -->
     <string name="string_fh_eu">FH EU</string>
-    <!-- Used in file SurveyPointActivity.java:221 -->
+    <!-- Used in file SurveyPointActivity.java:222 -->
     <string name="string_sats_">Sats:</string>
     <!-- Used in file JobActivity.java:465 -->
     <string name="string_job__s_already_exists_">Job %s already exists!</string>
@@ -99,104 +109,126 @@
     <string name="string_wrong_antenna_height_">Wrong antenna height!</string>
     <!-- Used in file activity_rtkbase.xml:30 -->
     <string name="point_name">Name</string>
-    <!-- Used in file SurveyPointsActivity.java:93 -->
-    <string name="string_exportdxf">ExportDxf</string>
-    <!-- Used in file DesignPointsActivity.java:492 -->
+    <!-- Used in file DesignPointsActivity.java:378 -->
     <string name="string_no_points_to_delete_">No points to delete!</string>
-    <!-- Used in file JobActivity.java:506 -->
-    <string name="string_scale___6f">Scale:%.6f</string>
+    <!-- Used in file SurveyPointsActivity.java:90 -->
+    <string name="string_exportdxf">ExportDxf</string>
     <!-- Used in file RTKBasesActivity.java:102 -->
     <string name="string_rtkbase">rtkbase</string>
+    <!-- Used in file JobActivity.java:506 -->
+    <string name="string_scale___6f">Scale:%.6f</string>
     <!-- Used in file activity_point_antenna.xml:79 -->
     <string name="height_slant">Slant</string>
     <!-- Used in file activity_rtkbase.xml:115 -->
     <string name="height">Height</string>
-    <!-- Used in file ExportAndReport.java:107 -->
-    <string name="string_mapinfo___tab">MapInfo *.tab</string>
     <!-- Used in file activity_point.xml:51 -->
     <string name="description">Descr.</string>
+    <!-- Used in file ExportAndReport.java:110 -->
+    <string name="string_mapinfo___tab">MapInfo *.tab</string>
     <!-- Used in file SurveyPointAntennaActivity.java:162 -->
     <string name="string_wrong_slant_height_">Wrong slant height!</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:55 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:64 -->
     <string name="string_pdop">PDOP</string>
-    <!-- Used in file DesignPointsActivity.java:380 -->
+    <!-- Used in file TSPointsActivity.java:73 -->
+    <string name="string_comment">Comment</string>
+    <!-- Used in file DesignPointsActivity.java:261 -->
     <string name="string_add_new_point">Add new point</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:125 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:83 -->
+    <string name="string_use_any_epoches">Use Any Epoches</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:139 -->
     <string name="string_uhf_freq">UHF Freq</string>
     <!-- Used in file list_points.xml:93 -->
     <string name="string_descriptionhint">Description</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:73 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:87 -->
     <string name="string_manual_stop">Manual Stop</string>
     <!-- Used in file activity_job.xml:151 -->
     <string name="localization">Localization</string>
     <!-- Used in file SurveyPointAntennaActivity.java:169 -->
     <string name="string_wrong_vertical_offset_">Wrong vertical offset!</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:83 -->
-    <string name="string_verify_mode">Verify Mode</string>
+    <!-- Used in file SurveyPointActivity.java:238 -->
+    <string name="string_hybrid_rtk_">Hybrid RTK:</string>
     <!-- Used in file activity_point.xml:72 -->
     <string name="code">Code</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:97 -->
+    <string name="string_verify_mode">Verify Mode</string>
     <!-- Used in file rtkbases.xml:22 -->
     <string name="action_calendar">Calendar</string>
-    <!-- Used in file SurveyPointActivity.java:190 -->
+    <!-- Used in file SurveyPointActivity.java:191 -->
     <string name="string_vert_">vert.</string>
     <!-- Used in file TSPointsActivity.java:362 -->
     <string name="string_can_t_add_point__s_to_catalog_">Can\'t add point %s to catalog!</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:74 -->
+    <string name="string_processed_ok">Processed OK</string>
     <!-- Used in file JobActivity.java:512 -->
     <string name="string_dn___3f">dN:%.3f</string>
+    <!-- Used in file DesignPointsActivity.java:118 -->
+    <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!-- Used in file RTKBasesActivity.java:245 -->
     <string name="string_can_t_add_rtk_base__s_to_catalog_">Can\'t add rtk base %s to catalog!</string>
-    <!-- Used in file RTKBaseActivity.java:259 -->
+    <!-- Used in file RTKBaseActivity.java:258 -->
     <string name="string_and_move_all__d_rover_points_from_it">And move all %d rover points from it</string>
-    <!-- Used in file SurveyPointActivity.java:218 -->
+    <!-- Used in file SurveyPointActivity.java:219 -->
     <string name="string_occ_time_">Occ.time:</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:102 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:116 -->
     <string name="string_rcv_server">RCV Server</string>
-    <!-- Used in file design_points.xml:39 -->
-    <string name="string_import">Import</string>
     <!-- Used in file AndroidManifest.xml:13 -->
     <string name="app_name">storage</string>
+    <!-- Used in file design_points.xml:44 -->
+    <string name="string_import">Import</string>
     <!-- Used in file TSPointsActivity.java:71 -->
     <string name="string_time">Time</string>
     <!-- Used in file ArchieveJobFolderActivity.java:469 -->
     <string name="string_permission_denied_to_write_to_your_external_storage">Permission denied to write to your External storage</string>
+    <!-- Used in file JobsActivity.java:976 -->
+    <string name="string_job">job</string>
     <!-- Used in file list_points.xml:66 -->
     <string name="string_codehint">Code</string>
-    <!-- Used in file JobsActivity.java:969 -->
-    <string name="string_job">job</string>
-    <!-- Used in file SurveyPointActivity.java:372 -->
+    <!-- Used in file SurveyPointActivity.java:481 -->
     <string name="string_point__s_already_exists_">Point %s already exists!</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:56 -->
+    <!-- Used in file DesignPointsActivity.java:711 -->
+    <string name="string_import_error__">Import error #</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:65 -->
     <string name="string_hdop">HDOP</string>
-    <!-- Used in file RTKBasesActivity.java:243 -->
-    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK base %1$s was successfully added into catalog %2$s</string>
     <!-- Used in file TSPointsActivity.java:281 -->
     <string name="string_view_on_map">View on Map</string>
+    <!-- Used in file RTKBasesActivity.java:243 -->
+    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK base %1$s was successfully added into catalog %2$s</string>
     <!-- Used in file JobsActivity.java:451 -->
     <string name="string_edit_job">Edit Job</string>
-    <!-- Used in file SurveyPointsActivity.java:350 -->
+    <!-- Used in file DesignPointsActivity.java:661 -->
+    <string name="string_import_error">Import error</string>
+    <!-- Used in file SurveyPointsActivity.java:329 -->
     <string name="string_delete__1_s__2_s">Delete %1$s %2$s</string>
     <!-- Used in file JobsActivity.java:460 -->
     <string name="string_share_job">Share Job</string>
     <!-- Used in file JobActivity.java:518 -->
     <string name="string_ah___3f">AH:%.3f</string>
-    <!-- Used in file SurveyPointsActivity.java:465 -->
+    <!-- Used in file SurveyPointsActivity.java:444 -->
     <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Point %1$s was successfully added into catalog %2$s</string>
-    <!-- Used in file SurveyPointActivity.java:225 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:74 -->
+    <string name="string_unprocessed">Unprocessed</string>
+    <!-- Used in file SurveyPointActivity.java:226 -->
     <string name="string_time_">Time:</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:138 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:152 -->
     <string name="string_sn">SN</string>
     <!-- Used in file JobActivity.java:530 -->
     <string name="string_vrms___3f">VRMS:%.3f</string>
     <!-- Used in file activity_rtkbase.xml:178 -->
     <string name="string_filename">Jps file</string>
-    <!-- Used in file SurveyPointsActivity.java:281 -->
+    <!-- Used in file points_from_survey.xml:40 -->
+    <string name="action_map_zoomall">Zoom All</string>
+    <!-- Used in file SurveyPointsActivity.java:260 -->
     <string name="string_point">point</string>
     <!-- Used in file TSPointsActivity.java:300 -->
     <string name="string_add_to_catalog__s">Add to catalog %s</string>
-    <!-- Used in file DesignPointsActivity.java:509 -->
+    <!-- Used in file DesignPointsActivity.java:395 -->
     <string name="string_all__s_were_deleted">All %s were deleted</string>
+    <!-- Used in file activity_point.xml:203 -->
+    <string name="coordinate_origin">Origin</string>
     <!-- Used in file activity_rtkbase.xml:211 -->
     <string name="button_modify">Modify</string>
+    <!-- Used in file DesignPointsActivity.java:116 -->
+    <string name="string_autocad_drawing___dwg">AutoCad Drawing *.dwg</string>
     <!-- Used in file TSPointsActivity.java:287 -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">Delete %1$d filtered points (of %2$d)</string>
     <!-- Used in file JobActivity.java:455 -->
@@ -207,38 +239,46 @@
     <string name="string_delete_job">Delete Job</string>
     <!-- Used in file ts_points.xml:15 -->
     <string name="action_sort">Sort</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:69 -->
-    <string name="string_use_any_expochs">Use Any Expochs</string>
     <!-- Used in file activity_job.xml:192 -->
     <string name="write_to_text_files">Write to text files</string>
     <!-- Used in file activity_point_antenna.xml:44 -->
     <string name="antenna_height_storage">Antenna Height</string>
-    <!-- Used in file ExportAndReport.java:110 -->
+    <!-- Used in file ExportAndReport.java:113 -->
     <string name="string_select_export_type">Select Export Type</string>
     <!-- Used in file activity_archieve_folder.xml:25 -->
     <string name="check_archieve_folder">Auto Archieve Jobs to Folder</string>
+    <!-- Used in file DesignPointsActivity.java:602 -->
+    <string name="string_dwg_import_is_unsuppurted">Dwg import is unsuppurted</string>
     <!-- Used in file TSPointsActivity.java:243 -->
     <string name="string_ts_points">TS Points</string>
     <!-- Used in file JobActivity.java:524 -->
     <string name="string_ch___3f">CH:%.3f</string>
-    <!-- Used in file SurveyPointsActivity.java:348 -->
+    <!-- Used in file DesignPointsActivity.java:115 -->
+    <string name="string_ascii_file___txt____sdr____">ASCII file *.txt, *.sdr &#8230;</string>
+    <!-- Used in file SurveyPointsActivity.java:327 -->
     <string name="string_view_edit__s">View/Edit %s</string>
     <!-- Used in file DatabaseMapActivity.java:58 -->
     <string name="string_survey_points">Survey Points</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:72 -->
+    <string name="string_hybrid_rtk">Hybrid RTK</string>
     <!-- Used in file TSPointsActivity.java:303 -->
     <string name="string_close">Close</string>
     <!-- Used in file activity_job.xml:180 -->
     <string name="measure_units">Measure Units</string>
+    <!-- Used in file DesignPointsActivity.java:656 -->
+    <string name="string_can_t_load_importexport_library_">Can\'t load importexport library!</string>
     <!-- Used in file SurveyPointSurveyInfoActivity.java:49 -->
     <string name="string_solution">Solution</string>
     <!-- Used in file ArchieveJobFolderActivity.java:599 -->
     <string name="string_job_archieving_is_activated_to_folder___s__">Job Archieving is activated to folder \'%s\'!</string>
     <!-- Used in file TSPointsActivity.java:43 -->
     <string name="string_export">Export</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:52 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:61 -->
     <string name="string_v_rms">V.RMS</string>
     <!-- Used in file JobActivity.java:197 -->
     <string name="string_the_job_is_empty">The job is empty</string>
+    <!-- Used in file DesignPointsActivity.java:122 -->
+    <string name="string_credo___top">Credo *.top</string>
     <!-- Used in file ArchieveJobFolderActivity.java:609 -->
     <string name="string_job_archieving_is_turned_off">Job Archieving is turned OFF</string>
     <!-- Used in file points_from_survey.xml:36 -->
@@ -247,75 +287,83 @@
     <string name="string__d_points_in_the_job">%d points in the job</string>
     <!-- Used in file DatabaseMapActivity.java:35 -->
     <string name="string_layers">Layers</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:136 -->
+    <!-- Used in file activity_point.xml:210 -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:150 -->
     <string name="string_gnss_receiver">GNSS Receiver</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:87 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:101 -->
     <string name="string_multirtk_mode">MultiRTK Mode</string>
     <!-- Used in file jobs.xml:40 -->
     <string name="action_receive">Receive</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:107 -->
+    <!-- Used in file DesignPointsActivity.java:552 -->
+    <string name="string_importing">Importing</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:121 -->
     <string name="string_ntrip_server">Ntrip Server</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:89 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:103 -->
     <string name="string_on">on</string>
     <!-- Used in file activity_point_antenna.xml:107 -->
     <string name="button_recalculaye">Recalculate</string>
-    <!-- Used in file RTKBaseActivity.java:265 -->
+    <!-- Used in file RTKBaseActivity.java:264 -->
     <string name="string_move">Move</string>
-    <!-- Used in file JobsActivity.java:974 -->
+    <!-- Used in file JobsActivity.java:981 -->
     <string name="string_jobs">jobs</string>
-    <!-- Used in file RTKBaseActivity.java:127 -->
+    <!-- Used in file RTKBaseActivity.java:126 -->
     <string name="string_file_name_">File name:</string>
-    <!-- Used in file SurveyPointActivity.java:236 -->
+    <!-- Used in file SurveyPointActivity.java:237 -->
     <string name="string_base_dist_">Base dist:</string>
-    <!-- Used in file DesignPointsActivity.java:500 -->
+    <!-- Used in file DesignPointsActivity.java:386 -->
     <string name="string_do_you_want_to_delete_all__1_d__2_s_">Do you want to delete all %1$d %2$s?</string>
-    <!-- Used in file DesignPointsActivity.java:498 -->
+    <!-- Used in file DesignPointsActivity.java:384 -->
     <string name="string_delete_all__s">Delete all %s</string>
     <!-- Used in file JobActivity.java:509 -->
     <string name="string_rotation__s">Rotation:%s</string>
     <!-- Used in file JobActivity.java:515 -->
     <string name="string_de___3f">dE:%.3f</string>
-    <!-- Used in file design_points.xml:36 -->
+    <!-- Used in file design_points.xml:41 -->
     <string name="action_delete_all">Delete All Design</string>
-    <!-- Used in file ExportAndReport.java:107 -->
+    <!-- Used in file ExportAndReport.java:110 -->
     <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:60 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:69 -->
     <string name="string_start_time">Start Time</string>
     <!-- Used in file ArchieveJobFolderActivity.java:99 -->
     <string name="string_don_t_use_job_archieving">Don\'t use Job Archieving</string>
     <!-- Used in file JobActivity.java:527 -->
     <string name="string_hrms___3f">HRMS:%.3f</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:114 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:128 -->
     <string name="string_fh_usa">FH USA</string>
     <!-- Used in file ArchieveJobFolderActivity.java:529 -->
     <string name="string__s_is_not_a_folder_">%s is not a folder!</string>
     <!-- Used in file TSPointsActivity.java:238 -->
     <string name="string_ts_point">TS point</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:115 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:129 -->
     <string name="string_fh_frule">FH FRule</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:69 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:83 -->
     <string name="string_use_fix_or_float">Use Fix or Float</string>
     <!-- Used in file JobActivity.java:87 -->
     <string name="string_new_job">New Job</string>
     <!-- Used in file ArchieveJobFolderActivity.java:459 -->
     <string name="string_permission_denied_to_read_from_your_external_storage">Permission denied to read from your External storage</string>
-    <!-- Used in file activity_point.xml:211 -->
+    <!-- Used in file activity_point.xml:241 -->
     <string name="survey_info">SurveyInfo:\n\n</string>
     <!-- Used in file activity_ts_points.xml:15 -->
     <string name="search_hint">Search</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:86 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:100 -->
     <string name="string_on__">on (</string>
     <!-- Used in file JobActivity.java:521 -->
     <string name="string_bh___3f">BH:%.3f</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:89 -->
+    <!-- Used in file TSPointsActivity.java:72 -->
+    <string name="string_code">Code</string>
+    <!-- Used in file JobsActivity.java:753 -->
+    <string name="string_no_file_selected_">No file selected!</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:103 -->
     <string name="string_off">off</string>
     <!-- Used in file activity_rtkbase.xml:145 -->
     <string name="coordinate_system">Coordinate System</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:125 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:139 -->
     <string name="string_hz">Hz</string>
     <!-- Used in file JobsActivity.java:446 -->
     <string name="string_select_job">Select Job</string>
-    <!-- Used in file SurveyPointActivity.java:220 -->
+    <!-- Used in file SurveyPointActivity.java:221 -->
     <string name="string_v_rms_">V.RMS:</string>
     <!-- Used in file JobActivity.java:225 -->
     <string name="string_begin_time">Begin time</string>
@@ -325,24 +373,26 @@
     <string name="string_no_identical_points">no identical points</string>
     <!-- Used in file JobActivity.java:457 -->
     <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Job name is too long!\nLimit it up to 40 chars, please</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:130 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:144 -->
     <string name="string_csd_phone">CSD Phone</string>
     <!-- Used in file RTKBasesActivity.java:86 -->
     <string name="string_dpos">DPOS/OPUS</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:96 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:110 -->
     <string name="string_correction_source">Correction Source</string>
-    <!-- Used in file ExportAndReport.java:107 -->
+    <!-- Used in file ExportAndReport.java:110 -->
     <string name="string_ascii_file___txt">ASCII file *.txt</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:80 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:94 -->
     <string name="string_5_hz_mode">5 Hz mode</string>
-    <!-- Used in file RTKBaseActivity.java:261 -->
+    <!-- Used in file RTKBaseActivity.java:260 -->
     <string name="string_modify_rtk_base">Modify RTK Base</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:58 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:67 -->
     <string name="string_tdop">TDOP</string>
     <!-- Used in file activity_point_antenna.xml:64 -->
     <string name="height_type">Height Type</string>
-    <!-- Used in file RTKBaseActivity.java:259 -->
+    <!-- Used in file RTKBaseActivity.java:258 -->
     <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)</string>
+    <!-- Used in file DesignPointsActivity.java:119 -->
+    <string name="string_esri_arcgis___shp">ESRI ArcGis *.shp</string>
     <!-- Used in file activity_rtkbase.xml:72 -->
     <string name="north">North</string>
     <!-- Used in file activity_job.xml:90 -->
@@ -351,11 +401,11 @@
     <string name="string_rtk_bases">RTK Bases</string>
     <!-- Used in file jobs.xml:5 -->
     <string name="action_add">Add</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:108 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:122 -->
     <string name="string_mount_point">Mount point</string>
-    <!-- Used in file SurveyPointActivity.java:236 -->
+    <!-- Used in file SurveyPointActivity.java:237 -->
     <string name="string_base_">Base:</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:90 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:104 -->
     <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
     <!-- Used in file activity_rtkbase.xml:94 -->
     <string name="east">East</string>
@@ -364,55 +414,44 @@
     <!-- Used in file JobActivity.java:535 -->
     <string name="string_identical_points">Identical Points</string>
     <!-- Used in file activity_archieve_folder.xml:18 -->
-    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:65 -->
+    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:79 -->
     <string name="string_survey_settings">Survey Settings</string>
     <!-- Used in file ArchieveJobFolderActivity.java:525 -->
     <string name="string_folder__s_doesn_t_exist_">Folder %s doesn\'t exist!</string>
     <!-- Used in file SurveyPointSurveyInfoActivity.java:45 -->
     <string name="string_survey_info">Survey Info</string>
-    <!-- Used in file ExportAndReport.java:107 -->
+    <!-- Used in file DesignPointsActivity.java:120 -->
     <string name="string_google_kml___kml">Google KML *.kml</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:61 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:70 -->
     <string name="string_end_time">End Time</string>
     <!-- Used in file SurveyPointListAdapter.java:163 -->
     <string name="string_slant">slant</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:74 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:88 -->
     <string name="string_occupation_time">Occupation Time</string>
-    <!-- Used in file DesignPointsActivity.java:503 -->
+    <!-- Used in file DesignPointsActivity.java:389 -->
     <string name="string_delete">Delete</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:86 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:100 -->
     <string name="string_engines_">engines)</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:74 -->
+    <string name="string_status">Status</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:140 -->
+    <string name="string_uhf_prot_">UHF Prot.</string>
     <!-- Used in file activity_rtkbase.xml:165 -->
     <string name="button_antenna">Antenna</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:126 -->
-    <string name="string_uhf_prot_">UHF Prot.</string>
     <!-- Used in file activity_job.xml:30 -->
     <string name="job_name">Name</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:57 -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:66 -->
     <string name="string_vdop">VDOP</string>
-    <!-- Used in file DesignPointsActivity.java:515 -->
+    <!-- Used in file DesignPointsActivity.java:581 -->
     <string name="string_cancel">Cancel</string>
-    <!-- Used in file SurveyPointsActivity.java:363 -->
+    <!-- Used in file SurveyPointsActivity.java:342 -->
     <string name="string_listen_audio">Listen Audio</string>
     <!-- Used in file ts_points.xml:20 -->
     <string name="action_delete">Delete</string>
-    <!-- Used in file SurveyPointsActivity.java:280 -->
-    <string name="string_trajectory">trajectory</string>
     <!-- Used in file TSPointsActivity.java:276 -->
     <string name="string_view_edit_point">View/Edit point</string>
-
-    
-    
-<string-array name="coordinate_system_array">
-    <item>WGS 84</item>
-    <item>Local</item>
-</string-array>
-
-<string-array name="measure_units_array">
-    <item>Meters</item>
-    <item>US Feet</item>
-    <item>Int.Feet</item>
-</string-array>
-
+    <!-- Used in file SurveyPointsActivity.java:259 -->
+    <string name="string_trajectory">trajectory</string>
+  
 </resources>

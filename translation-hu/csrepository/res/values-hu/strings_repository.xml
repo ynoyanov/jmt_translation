@@ -1,67 +1,78 @@
 <resources>
 
-    <!-- Used in file UserManualUpdater.java:224 -->
+    <!-- Used in file UserManualUpdater.java:395. Original value:Can\'t find user manual -->
+    <string name="string_can_t_find_user_manual">Can\'t find user manual</string>
+    <!-- Used in file GeoDataUpdater.java:172. Original value:Do you want to update GeoData? -->
+    <string name="string_do_you_want_to_update_geodata_">Do you want to update GeoData?</string>
+    <!-- Used in file UserManualUpdater.java:302. Original value:Yes -->
     <string name="string_yes">Igen</string>
-    <!-- Used in file CSRepository.java:103 -->
+    <!-- Used in file CSRepository.java:104. Original value:All -->
     <string name="string_all">Mind</string>
-    <!-- Used in file CSRepository.java:418 -->
+    <!-- Used in file CSRepository.java:427. Original value:Local -->
     <string name="string_local">Helyi</string>
-    <!-- Used in file CSRepository.java:441 -->
+    <!-- Used in file CSRepository.java:450. Original value:Ellipsoid -->
     <string name="string_ellipsoid">Ellipszoid</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
+    <!-- Used in file AndroidManifest.xml:13. Original value:csrepository -->
     <string name="app_name">csrepository</string>
-    <!-- Used in file UserManualUpdater.java:115 -->
+    <!-- Used in file GeoDataUpdater.java:510. Original value:File %1$s was successfully loaded. Now suplemental file %2$s will be loaded -->
+    <string name="string_file__1_s_was_successfully_loaded__now_suplemental_file__2_s_will_be_loaded">File %1$s was successfully loaded. Now suplemental file %2$s will be loaded</string>
+    <!-- Used in file UserManualUpdater.java:142. Original value:User Manual has updated.\nDo you want to downlaod the updated User Manual? -->
     <string name="string_user_manual_has_updated__ndo_you_want_to_downlaod_the_updated_user_manual_">User Manual has updated.\nDo you want to downlaod the updated User Manual?</string>
-    <!-- Used in file UserManualUpdater.java:158 -->
+    <!-- Used in file UserManualUpdater.java:196. Original value:Can\'t open help file. Please manually open it in the javad subfolder. -->
     <string name="string_can_t_open_help_file__please_manually_open_it_in_the_javad_subfolder_">Can\'t open help file. Please manually open it in the javad subfolder.</string>
-    <!-- Used in file GeoDataUpdater.java:404 -->
-    <string name="string_file__s_was_successfully_loaded_">File %s was successfully loaded!</string>
-    <!-- Used in file GeoDataUpdater.java:271 -->
-    <string name="string_geodata_was_successfully_updated_">GeoData sikeresen frissült!</string>
-    <!-- Used in file CSRepository.java:422 -->
-    <string name="string_type">Típus</string>
-    <!-- Used in file CSRepository.java:95 -->
-    <string name="string_en_us">en-US</string>
-    <!-- Used in file CSRepository.java:145 -->
-    <string name="string_new_local_cs">Új helyi k.r.</string>
-    <!-- Used in file CSRepository.java:135 -->
-    <string name="string_read_cs_from_receiver">Read CS from Receiver</string>
-    <!-- Used in file CSRepository.java:411 -->
-    <string name="string_name">Név</string>
-    <!-- Used in file GeoDataUpdater.java:387 -->
-    <string name="string_geodata_update_error_">GeoData frissítés hiba!</string>
-    <!-- Used in file GeoDataUpdater.java:415 -->
-    <string name="string_binary_file__s_is_required_for_the_transformation__ndo_you_want_to_download_it_">A %s bináris file szükséges a transzformációhoz.\nSzeretné letölteni?.</string>
-    <!-- Used in file CSRepository.java:588 -->
-    <string name="string_m">m</string>
-    <!-- Used in file CSRepository.java:415 -->
-    <string name="string_ecef">ECEF</string>
-    <!-- Used in file CSRepository.java:416 -->
-    <string name="string_geodetic">Geodéziai</string>
-    <!-- Used in file CSRepository.java:155 -->
-    <string name="string_new_user_defined_grid">Új felhasználói háló</string>
-    <!-- Used in file UserManualUpdater.java:312 -->
-    <string name="string_user_manual_loaded">User manual loaded</string>
-    <!-- Used in file UserManualUpdater.java:225 -->
-    <string name="string_ask_me_later">Kérdezze később újra</string>
-    <!-- Used in file CSRepository.java:419 -->
-    <string name="string_vertical">Függőleges</string>
-    <!-- Used in file CSRepository.java:417 -->
-    <string name="string_grid">Háló</string>
-    <!-- Used in file UserManualUpdater.java:226 -->
-    <string name="string_skip_this_version">Kihagyom ezt a verziót</string>
-    <!-- Used in file CSRepository.java:426 -->
-    <string name="string_base_system">Bázis rendszer</string>
-    <!-- Used in file CSRepository.java:431 -->
-    <string name="string_projection">Vetítés</string>
-    <!-- Used in file CSRepository.java:114 -->
-    <string name="string_world">Világ</string>
-    <!-- Used in file UserManualUpdater.java:314 -->
-    <string name="string_user_manual_loaded_with_error">User manual loaded with error</string>
-    <!-- Used in file UserManualUpdater.java:119 -->
-    <string name="string_do_you_want_to_download_the_user_manual_">Szeretné letölteni a kezelési leírást?</string>
-    <!-- Used in file CSRepository.java:125 -->
-    <string name="string_continents">Kontinensek</string>
+    <!-- Used in file UserManualUpdater.java:331. Original value:Cancel -->
     <string name="button_cancel">Mégsem</string>
+    <!-- Used in file CSRepository.java:146. Original value:New Local CS -->
+    <string name="string_new_local_cs">Új helyi k.r.</string>
+    <!-- Used in file CSRepository.java:96. Original value:en-US -->
+    <string name="string_en_us">en-US</string>
+    <!-- Used in file CSRepository.java:431. Original value:Type -->
+    <string name="string_type">Típus</string>
+    <!-- Used in file GeoDataUpdater.java:352. Original value:GeoData was successfully updated! -->
+    <string name="string_geodata_was_successfully_updated_">GeoData sikeresen frissült!</string>
+    <!-- Used in file GeoDataUpdater.java:513. Original value:File %s was successfully loaded! -->
+    <string name="string_file__s_was_successfully_loaded_">File %s was successfully loaded!</string>
+    <!-- Used in file CSRepository.java:136. Original value:Read CS from Receiver -->
+    <string name="string_read_cs_from_receiver">Read CS from Receiver</string>
+    <!-- Used in file CSRepository.java:420. Original value:Name -->
+    <string name="string_name">Név</string>
+    <!-- Used in file GeoDataUpdater.java:168. Original value:GeoData has updated to %1$s (your is %2$s). -->
+    <string name="string_geodata_has_updated_to__1_s__your_is__2_s__">GeoData has updated to %1$s (your is %2$s).</string>
+    <!-- Used in file GeoDataUpdater.java:489. Original value:GeoData update error! -->
+    <string name="string_geodata_update_error_">GeoData frissítés hiba!</string>
+    <!-- Used in file GeoDataUpdater.java:528. Original value:Binary file %s is required for the transformation.\nDo you want to download it. -->
+    <string name="string_binary_file__s_is_required_for_the_transformation__ndo_you_want_to_download_it_">A %s bináris file szükséges a transzformációhoz.\nSzeretné letölteni?.</string>
+    <!-- Used in file GeoDataUpdater.java:142. Original value:GeoData is missing\nDo you want to download GeoData? -->
+    <string name="string_geodata_is_missing_ndo_you_want_to_download_geodata_">GeoData is missing\nDo you want to download GeoData?</string>
+    <!-- Used in file CSRepository.java:597. Original value:m -->
+    <string name="string_m">m</string>
+    <!-- Used in file CSRepository.java:424. Original value:ECEF -->
+    <string name="string_ecef">ECEF</string>
+    <!-- Used in file CSRepository.java:425. Original value:Geodetic -->
+    <string name="string_geodetic">Geodéziai</string>
+    <!-- Used in file CSRepository.java:156. Original value:New User-Defined Grid -->
+    <string name="string_new_user_defined_grid">Új felhasználói háló</string>
+    <!-- Used in file UserManualUpdater.java:390. Original value:User manual loaded -->
+    <string name="string_user_manual_loaded">User manual loaded</string>
+    <!-- Used in file UserManualUpdater.java:303. Original value:Ask Me Later -->
+    <string name="string_ask_me_later">Kérdezze később újra</string>
+    <!-- Used in file CSRepository.java:428. Original value:Vertical -->
+    <string name="string_vertical">Függőleges</string>
+    <!-- Used in file UserManualUpdater.java:304. Original value:Skip This Version -->
+    <string name="string_skip_this_version">Kihagyom ezt a verziót</string>
+    <!-- Used in file CSRepository.java:426. Original value:Grid -->
+    <string name="string_grid">Háló</string>
+    <!-- Used in file CSRepository.java:435. Original value:Base system -->
+    <string name="string_base_system">Bázis rendszer</string>
+    <!-- Used in file CSRepository.java:440. Original value:Projection -->
+    <string name="string_projection">Vetítés</string>
+    <!-- Used in file CSRepository.java:115. Original value:World -->
+    <string name="string_world">Világ</string>
+    <!-- Used in file UserManualUpdater.java:392. Original value:User manual loaded with error -->
+    <string name="string_user_manual_loaded_with_error">User manual loaded with error</string>
+    <!-- Used in file UserManualUpdater.java:146. Original value:Do you want to download the User Manual? -->
+    <string name="string_do_you_want_to_download_the_user_manual_">Szeretné letölteni a kezelési leírást?</string>
+    <!-- Used in file CSRepository.java:126. Original value:Continents -->
+    <string name="string_continents">Kontinensek</string>
     
 </resources>

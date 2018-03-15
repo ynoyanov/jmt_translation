@@ -2,147 +2,129 @@
 <resources>
 
 <string-array name="antenna_ids_array">
-        <item>Triumph-1 internal</item>
-        <item>Triumph-2 internal</item>
-        <item>GISMore internal</item>
-    </string-array>
+        <item>Triumph-1 belső</item>
+        <item>Triumph-2 belső</item>
+        <item>GISMore belső</item>
+        <item>Grant external</item>
+        </string-array>
     
 <string-array name="occupation_time_array">
-        <item>1 min</item>
-        <item>2 mins</item>
-        <item>3 mins</item>
-        <item>5 mins</item>
-        <item>10 mins</item>
-        <item>15 mins</item>
-        <item>20 mins</item>
-        <item>30 mins</item>
-        <item>45 mins</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
-        <item>6 hours</item>
-        <item>8 hours</item>
-        <item>10 hours</item>
-        <item>12 hours</item>
-        <item>15 hours</item>
-        <item>18 hours</item>
-        <item>24 hours</item>
-        <item>36 hours</item>
-        <item>48 hours</item>
-        <item>Until stopped manually</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>3 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>20 perc</item>
+        <item>30 perc</item>
+        <item>45 perc</item>
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>3 óra</item>
+        <item>4 óra</item>
+        <item>5 óra</item>
+        <item>6 óra</item>
+        <item>8 óra</item>
+        <item>10 óra</item>
+        <item>12 óra</item>
+        <item>15 óra</item>
+        <item>18 óra</item>
+        <item>24 óra</item>
+        <item>36 óra</item>
+        <item>48 óra</item>
+        <item>Kézi leállításig</item>
         </string-array>
 
 <string-array name="occupation_time_rtk_array">
-        <item>1 sec</item>
-        <item>3 sec</item>
-        <item>5 sec</item>
-        <item>10 sec</item>
-        <item>15 sec</item>
-        <item>20 sec</item>
-        <item>30 sec</item>
-        <item>45 sec</item>
-        <item>1 min</item>
-        <item>2 mins</item>
-        <item>3 mins</item>
-        <item>5 mins</item>
-        <item>10 mins</item>
-        <item>15 mins</item>
-        <item>20 mins</item>
-        <item>30 mins</item>
-        <item>45 mins</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
-        <item>6 hours</item>
-        <item>10 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>48 hours</item>
-        <item>Until stopped manually</item>
+        <item>1 mpc</item>
+        <item>3 mpc</item>
+        <item>5 mpc</item>
+        <item>10 mpc</item>
+        <item>15 mpc</item>
+        <item>20 mpc</item>
+        <item>30 mpc</item>
+        <item>45 mpc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>3 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>20 perc</item>
+        <item>30 perc</item>
+        <item>45 perc</item>
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>3 óra</item>
+        <item>4 óra</item>
+        <item>5 óra</item>
+        <item>6 óra</item>
+        <item>10 óra</item>
+        <item>12 óra</item>
+        <item>24 óra</item>
+        <item>48 óra</item>
+        <item>Kézi leállításig</item>
         </string-array>
 
 <string-array name="logging_rate_array">
-        <item>1 sec</item>
-        <item>5 sec</item>
-        <item>10 sec</item>
-        <item>15 sec</item>
-        <item>30 sec</item>
-        <item>60 sec</item>
-        </string-array>
-
-<string-array name="logging_rate_rtk_array">
-        <item>0.2 sec (5Hz)</item>
-        <item>0.5 sec (2Hz)</item>
-        <item>1 sec</item>
-        <item>5 sec</item>
-        <item>10 sec</item>
-        <item>15 sec</item>
-        <item>30 sec</item>
-        <item>60 sec</item>
+        <item>1 mpc</item>
+        <item>5 mpc</item>
+        <item>10 mpc</item>
+        <item>15 mpc</item>
+        <item>30 mpc</item>
+        <item>60 mpc</item>
         </string-array>
 
 <string-array name="height_type_array">
-        <item>vertical</item>
-        <item>slant</item>
+        <item>függőleges</item>
+        <item>ferde</item>
         </string-array>
 
 <string-array name="units_array">
-        <item>meters</item>
+        <item>méter</item>
         <item>US feet</item>
         <item>Int.feet</item>
         </string-array>
 
-<string-array name="rover_mode_array">
-        <item>pd</item>
-        <item>pf</item>
-        <item>cd</item>
-        <item>wd</item>
-        <item>sp</item>
-        </string-array>
-
 <string-array name="correction_source_array">
-        <item>Off (no corrections)</item>
-    	<item>Ntrip server</item>
-    	<item>RCV server</item>
+        <item>Ki (nincs korrekció)</item>
+    	<item>Ntrip szerver</item>
+    	<item>RCV szerver</item>
     		</string-array>
 
 <string-array name="correction_source_for_triumph_2_array">
-        <item>Off (no corrections)</item>
-    	<item>Ntrip server</item>
-    	<item>RCV server</item>
-    	<item>FH on Bluetooth B</item>
-    	<item>UHF on Bluetooth B</item>
+        <item>Ki (nincs korrekció)</item>
+    	<item>Ntrip szerver</item>
+    	<item>RCV szerver</item>
+    	<item>FH Bluetooth-on</item>
+    	<item>URH Bluetooth-on</item>
     		</string-array>
 
 <string-array name="correction_source_for_triumph_1_array">
-        <item>Off (no corrections)</item>
-    	<item>Ntrip server</item>
-    	<item>RCV server</item>
-    	<item>FH on Bluetooth B</item>
-    	<item>UHF on Bluetooth B</item>
-    	<item>Internal FH</item>
-    	<item>Internal UHF</item>
+        <item>Ki (nincs korrekció)</item>
+    	<item>Ntrip szerver</item>
+    	<item>RCV szerver</item>
+    	<item>FH Bluetooth-on</item>
+    	<item>URH Bluetooth-on</item>
+    	<item>Belső FH</item>
+    	<item>Belső URH</item>
     			</string-array>
     			
 <string-array name="correction_source_for_gismore_array">
-        <item>Off (no corrections)</item>
-    	<item>Ntrip server</item>
-    	<item>RCV server</item>
-    	<item>FH on Bluetooth B</item>
-    	<item>UHF on Bluetooth B</item>
+        <item>Ki (nincs korrekció)</item>
+    	<item>Ntrip szerver</item>
+    	<item>RCV szerver</item>
+    	<item>FH Bluetooth-on</item>
+    	<item>URH Bluetooth-on</item>
     			</string-array>
 
 <string-array name="base_correction_destination_array">
-    	<item>FH on Bluetooth B</item>
-    	<item>UHF on Bluetooth B</item>
-    	<item>FH on Serail B</item>
-    	<item>UHF on Serial B</item>
-    	<item>Internal FH</item>
-    	<item>Internal UHF</item>
+    	<item>FH Bluetooth-on</item>
+    	<item>URH Bluetooth-on</item>
+    	<item>FH B soros porton</item>
+    	<item>URH B soros porton</item>
+    	<item>Belső FH</item>
+    	<item>Belső URH</item>
  				</string-array>
 
 
@@ -155,9 +137,9 @@
         </string-array>
 
 <string-array name="use_epoch_array">
-        <item>RTK Fixed only</item>
-    	<item>Fixed, Float or DGPS</item>
-    	<item>All</item>
+        <item>Csak RTK Fix</item>
+    	<item>Fix, lebegő vagy DGPS</item>
+    	<item>Mind</item>
         </string-array>
 
 <string-array name="base_correction_source_array">
@@ -219,76 +201,6 @@
     	</string-array>
 
 
-<string-array name="uhf_protocols">
-        <item>simplex</item>
-        <item>transparent</item>
-        <item>satel</item>
-        <item>trimtalk450s</item>
-        <item>tt450shw</item>
-        <item>trimmarkII</item>
-        <item>trimmark3</item>
-        </string-array>
-
-<string-array name="simplex_modulations">
-        <item>dbpsk</item>
-        <item>dqpsk</item>
-        <item>d8psk</item>
-        <item>d16qam</item>
-        </string-array>
-
-<string-array name="transparent_modulations">
-        <item>gmsk</item>
-        <item>4fsk</item>
-        </string-array>
-
-<string-array name="satel_modulations">
-        <item>4fsk</item>
-        </string-array>
-
-<string-array name="simplex_spacings">
-        <item>6250</item>
-        <item>12500</item>
-        <item>20000</item>
-        <item>25000</item>
-        </string-array>
-
-<string-array name="transparent_spacings">
-        <item>25000</item>
-        </string-array>
-
-<string-array name="satel_spacings">
-        <item>12500</item>
-        <item>25000</item>
-        </string-array>
-        
-<string-array name="satel_compatibility">
-        <item>3as</item>
-        <item>easy</item>
-        </string-array>
-
-
-<string-array name="fh_zones">
-        <item>usa</item>
-        <item>aus</item>
-        <item>eu</item>
-        </string-array>
-
-<string-array name="fh_protocols">
-        <item>simplex</item>
-        </string-array>
-
-<string-array name="fh_modulcations">
-        <item>gmsk</item>
-        </string-array>
-        
- <string-array name="rcv_login_array">
-        <item>Default</item>
-        <item>a</item>
-        <item>b</item>
-        <item>c</item>
-        <item>d</item>
-        <item>e</item>
-        </string-array>
 
  <string-array name="connected_to_array">
         <item>Radio on Bluetooth B</item>
@@ -316,18 +228,7 @@
         <item>Bluetooth B</item>
  		</string-array>
  
- <string-array name="connected_to_array_radio_sigma">
-        <item>Bluetooth B</item>
-        <item>Serial B</item>
-        <item>Internal radio</item>
- 		</string-array>
- 
- 
  <string-array name="connected_to_array_csd_triumph1">
-        <item>Internal GSM</item>
- 		</string-array>
- 
- <string-array name="connected_to_array_csd_sigma">
         <item>Internal GSM</item>
  		</string-array>
  
@@ -353,11 +254,6 @@
         <item>3G GISMORE</item>
  		</string-array>
  
- <string-array name="connected_to_array_internet_sigma">
-        <item>the Android device</item>
-        <item>WiFi</item>
-        <item>3G Sigma</item>
- 		</string-array>
  
  <string-array name="fh_output_power">
         <item>0.020W / 13dBm</item>
@@ -432,13 +328,13 @@
         </string-array>
  
 <string-array name="orientation_array">
-        <item>North Up</item>
-        <item>Course Up</item>
+        <item>Észak fent</item>
+        <item>Menetirány fent</item>
 </string-array>
 
 <string-array name="azimuth_array">
-        <item>Geodetic</item>
-        <item>Magnetic</item>
+        <item>Geodéziai</item>
+        <item>Mágneses</item>
 </string-array>
 
 
@@ -504,14 +400,14 @@
         <item>1 Hz</item>
         <item>2 Hz</item>
         <item>5 Hz</item>
-        <item>2 sec</item>
-        <item>5 sec</item>
+        <item>2 mpc</item>
+        <item>5 mpc</item>
     </string-array>
     
     <string-array name="base_correction_period_1_array">
         <item>1 Hz</item>
-        <item>2 sec</item>
-        <item>5 sec</item>
+        <item>2 mpc</item>
+        <item>5 mpc</item>
     </string-array>
     
 	<string-array name="stakeout_modes_array">
@@ -545,12 +441,7 @@
 		<item>Right</item>
 	</string-array>
 
-	<string-array name="p1_p2_array">
-		<item>from P2</item>
-		<item>from P1</item>
-	</string-array>
-	
-		<string-array name="dhcp_array">
+	<string-array name="dhcp_array">
 		<item>Off</item>
 		<item>Client</item>
 		<item>Server</item>
@@ -587,79 +478,5 @@
         <item>CSG_ETRS89</item>
         <item>RTCM3</item>
         </string-array>
-
-	<string-array name="sim_card_to_array">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-        </string-array>
-
-	<string-array name="description_sort_array">
-        <item>sort Alphabetically</item>
-        <item>sort by Date</item>
-        <item>sort by Usage</item>
-    </string-array>
-	
-	<string-array name="charging_mode_array">
-        <item>Auto</item>
-        <item>Off</item>
-    </string-array>
-
-
-	<string-array name="trimtalk450s_modulations">
-        <item>gmsk</item>
-    </string-array>
-
-	<string-array name="trimtalk450s_spacings">
-        <item>12500</item>
-        <item>25000</item>
-    </string-array>
-	
-	<string-array name="tt450shw_modulations">
-        <item>gmsk</item>
-    </string-array>
-	
-	<string-array name="tt450shw_spacings">
-        <item>12500</item>
-        <item>25000</item>
-    </string-array>
-	
-	<string-array name="trimmarkII_modulations">
-        <item>gmsk</item>
-    </string-array>
-	
-	<string-array name="trimmarkII_spacings">
-        <item>12500</item>
-        <item>25000</item>
-    </string-array>
-	
-	<string-array name="trimmark3_modulations">
-        <item>gmsk</item>
-    </string-array>
-
-	<string-array name="trimmark3_spacings">
-        <item>12500</item>
-        <item>25000</item>
-    </string-array>
-
-	
-	<string-array name="minimal_rtk_array">
-        <item>0</item>
-	    <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-		
-	<string-array name="minial_rtk_values_array">
-        <item>0</item>
-	    <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
 
 </resources>
