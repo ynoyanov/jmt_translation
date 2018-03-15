@@ -6,7 +6,7 @@
     <string name="string_cs">CS</string>
     <!-- Used in file user_cs.xml:76 -->
     <string name="string_geoid">Geoid</string>
-    <!-- Used in file UserCSPreferenceFragment.java:440 -->
+    <!-- Used in file UserCSPreferenceFragment.java:448 -->
     <string name="string_user_to_wgs84">User-to-WGS84</string>
     <!-- Used in file activity_setup_localization_parameters.xml:113 -->
     <string name="string_origin">Origin</string>
@@ -20,6 +20,8 @@
     <string name="string_east_ground">East Ground</string>
     <!-- Used in file IdenticalPointsActivity.java:147 -->
     <string name="string_localization_changed">Localization changed</string>
+    <!-- Used in file CSListActivity.java:147 -->
+    <string name="geodata_error">File javad/geodata/CoordinateSystemDB.db3 is corrupted!</string>
     <!-- Used in file CoordinateSystemsActivity.java:133 -->
     <string name="string_confirm">Confirm</string>
     <!-- Used in file activity_save_localization_parameters.xml:74 -->
@@ -28,10 +30,12 @@
     <string name="string_identical_point">Identical Point</string>
     <!-- Used in file IdenticalPointListAdapter.java:1302 -->
     <string name="string_problem_with_transformation">problem with transformation</string>
-    <!-- Used in file UserCSPreferenceFragment.java:101 -->
+    <!-- Used in file UserCSPreferenceFragment.java:104 -->
     <string name="string_name_">Name:</string>
     <!-- Used in file CoordinateSystemsActivity.java:134 -->
     <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?</string>
+    <!-- Used in file CSListActivity.java:149 -->
+    <string name="string_redownload">Redownload</string>
     <!-- Used in file activity_identical_points.xml:49 -->
     <string name="string_type">Type</string>
     <!-- Used in file user_cs.xml:73 -->
@@ -86,6 +90,8 @@
     <string name="string_survey">Survey</string>
     <!-- Used in file IdenticalPointsActivity.java:346 -->
     <string name="string_close">Close</string>
+    <!-- Used in file CSListActivity.java:168 -->
+    <string name="no_geodata_error">No GeoData!</string>
     <!-- Used in file IdenticalPointListAdapter.java:1300 -->
     <string name="string_nothing_to_compute">nothing to compute</string>
     <!-- Used in file activity_setup_localization_parameters.xml:275 -->
@@ -98,11 +104,13 @@
     <string name="string_design">Design</string>
     <!-- Used in file IdenticalPointsActivity.java:118 -->
     <string name="string_can_t_delete_localization">Can\'t delete localization</string>
+    <!-- Used in file CSListActivity.java:148 -->
+    <string name="do_you_want_to_remove_it">It wll be removed. Please redownload it.</string>
     <!-- Used in file CoordinateSystemsActivity.java:278 -->
     <string name="string_delete_cs__s">Delete CS %s</string>
     <!-- Used in file user_cs.xml:74 -->
     <string name="datum_direction">Datum direction</string>
-    <!-- Used in file UserCSPreferenceFragment.java:440 -->
+    <!-- Used in file UserCSPreferenceFragment.java:448 -->
     <string name="string_wgs84_to_user">WGS84-to-User</string>
     <!-- Used in file IdenticalPointsActivity.java:149 -->
     <string name="string_return_and_lost">Return and lost</string>
@@ -118,7 +126,7 @@
     <string name="string_north_ground">North Ground</string>
     <!-- Used in file user_cs.xml:57 -->
     <string name="string_datum_ry">RY, sec</string>
-    <!-- Used in file UserCSPreferenceFragment.java:253 -->
+    <!-- Used in file UserCSPreferenceFragment.java:257 -->
     <string name="string_datum_">Datum:</string>
     <!-- Used in file activity_setup_localization_parameters.xml:323 -->
     <string name="string_east_inclination">East Inclination</string>
@@ -128,7 +136,7 @@
     <string name="string_wrong_scale_difference_">Wrong scale difference!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:229 -->
     <string name="string_rotation">Rotation</string>
-    <!-- Used in file CSListActivity.java:261 -->
+    <!-- Used in file CSListActivity.java:313 -->
     <string name="string_can_t_read_coordinate_system_from_the_receiver_">Can\'t read coordinate system from the receiver!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:400 -->
     <string name="button_cancel">Cancel</string>
@@ -136,7 +144,7 @@
     <string name="string_localization_was_changed_and_not_saved_">Localization was changed and not saved!</string>
     <!-- Used in file user_cs.xml:6 -->
     <string name="category_projection">Projection</string>
-    <!-- Used in file UserCSPreferenceFragment.java:470 -->
+    <!-- Used in file UserCSPreferenceFragment.java:478 -->
     <string name="string_ellipsoidal_height">Ellipsoidal Height</string>
     <!-- Used in file IdenticalPointsActivity.java:299 -->
     <string name="string_identical_points">Identical Points</string>
@@ -162,7 +170,7 @@
     <string name="string_cses">CSes</string>
     <!-- Used in file user_cs.xml:33 -->
     <string name="string_datum_dy">DY, m</string>
-    <!-- Used in file UserCSPreferenceFragment.java:236 -->
+    <!-- Used in file UserCSPreferenceFragment.java:240 -->
     <string name="string_ellipsoid_">Ellipsoid:</string>
     <!-- Used in file user_cs.xml:25 -->
     <string name="string_datum_dx">DX, m</string>
@@ -172,7 +180,7 @@
     <string name="add_to_favorites">Add to favorites</string>
     <!-- Used in file CSPreferenceFragment.java:102 -->
     <string name="string_elipsoidal_height">Elipsoidal Height</string>
-    <!-- Used in file CSListActivity.java:262 -->
+    <!-- Used in file CSListActivity.java:314 -->
     <string name="string_error">Error</string>
     <!-- Used in file user_cs.xml:41 -->
     <string name="string_datum_dz">DZ, m</string>
@@ -184,5 +192,6 @@
     <string name="string_do_you_want_to_delete_localization_">Do you want to delete localization?</string>
     <!-- Used in file CoordinateSystemsActivity.java:352 -->
     <string name="string_cs__s_is_not_user_cs_">CS %s is not user CS!</string>
-
+    <string name="identical_point_type">Тип</string>
+    
 </resources>

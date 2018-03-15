@@ -39,6 +39,8 @@
   <string name="string_east_ground">Восток на местности</string>
   <!--Original value: Localization changed-->
   <string name="string_localization_changed">Локализация изменена</string>
+  <!--Original value: File javad/geodata/CoordinateSystemDB.db3 is corrupted!-->
+  <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
   <!--Original value: Confirm-->
   <string name="string_confirm">Подтверждение</string>
   <!--Original value: Longitude Orig.-->
@@ -51,16 +53,18 @@
   <string name="string_name_">Имя:</string>
   <!--Original value: Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?-->
   <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Хотите установить новую СК \'%1$s\' для текущего проекта \'%2$s\'?</string>
-  <!--Original value: Delete Points %s-->
-  <string name="string_delete_points__s">Удалить точку %s</string>
-  <!--Original value: North Inclination-->
-  <string name="string_north_inclination">Наклон на восток</string>
-  <!--Original value: Datum-->
-  <string name="category_datum">Датум</string>
-  <!--Original value: Scale Difference, ppm-->
-  <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
+  <!--Original value: Redownload-->
+  <string name="string_redownload">Загрузить</string>
   <!--Original value: Type-->
   <string name="string_type">Тип</string>
+  <!--Original value: Scale Difference, ppm-->
+  <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
+  <!--Original value: Datum-->
+  <string name="category_datum">Датум</string>
+  <!--Original value: North Inclination-->
+  <string name="string_north_inclination">Наклон на восток</string>
+  <!--Original value: Delete Points %s-->
+  <string name="string_delete_points__s">Удалить точку %s</string>
   <!--Original value: Delete %1$d filtered Points (of %2$d)-->
   <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точке (из %2$d)</string>
   <!--Original value: Can\'t create coordinate system!-->
@@ -69,8 +73,8 @@
   <string name="string_delete_localization">Удалить локализацию</string>
   <!--Original value: East Origing-->
   <string name="string_east_origin">Нач.Восток</string>
-  <!-- Used in file activity_identical_points.xml:22 -->
-  <string name="string_action_button">&#8211;</string>
+  <!--Original value: –-->
+  <string name="string_action_button">–</string>
   <!--Original value: something wrong with params-->
   <string name="string_something_wrong_with_params">ошибка в параметрах</string>
   <!--Original value: Scale-->
@@ -105,6 +109,8 @@
   <string name="string_survey">Съемочные</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
+  <!--Original value: No GeoData!-->
+  <string name="no_geodata_error">Нет GeoData!</string>
   <!--Original value: nothing to compute-->
   <string name="string_nothing_to_compute">нет данных для вычислений</string>
   <!--Original value: Height Offset-->
@@ -113,46 +119,48 @@
   <string name="string_vertical_treshold">Вертикальный порог</string>
   <!--Original value: Select CS-->
   <string name="string_select_cs">Выбор СК</string>
-  <!--Original value: Can\'t delete localization-->
-  <string name="string_can_t_delete_localization">Не удалось удалить локализацию!</string>
   <!--Original value: Design-->
   <string name="string_design">Выносные</string>
+  <!--Original value: Can\'t delete localization-->
+  <string name="string_can_t_delete_localization">Не удалось удалить локализацию!</string>
+  <!--Original value: It wll be removed. Please redownload it.-->
+  <string name="do_you_want_to_remove_it">Он будет удален и перезагружен.</string>
   <!--Original value: Delete CS %s-->
   <string name="string_delete_cs__s">Удалить СК %s</string>
-  <!--Original value: WGS84-to-User-->
-  <string name="string_wgs84_to_user">WGS84-к-Пользов.</string>
   <!--Original value: Datum direction-->
   <string name="datum_direction">Направление датума</string>
+  <!--Original value: WGS84-to-User-->
+  <string name="string_wgs84_to_user">WGS84-к-Пользов.</string>
   <!--Original value: Return and lost-->
   <string name="string_return_and_lost">Вернуться и отменить изменения</string>
   <!--Original value: RZ, sec-->
   <string name="string_datum_rz">RZ, сек</string>
   <!--Original value: csgui-->
   <string name="app_name">csgui</string>
-  <!--Original value: North Ground-->
-  <string name="string_north_ground">Север наземный</string>
-  <!--Original value: CS with such name already exist!-->
-  <string name="string_cs_with_such_name_already_exist_">СК с таким именем уже существует!</string>
   <!--Original value: RX, sec-->
   <string name="string_datum_rx">RX, сек</string>
-  <!--Original value: Datum:-->
-  <string name="string_datum_">Датум:</string>
+  <!--Original value: CS with such name already exist!-->
+  <string name="string_cs_with_such_name_already_exist_">СК с таким именем уже существует!</string>
+  <!--Original value: North Ground-->
+  <string name="string_north_ground">Север наземный</string>
   <!--Original value: RY, sec-->
   <string name="string_datum_ry">RY, сек</string>
-  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
-  <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
+  <!--Original value: Datum:-->
+  <string name="string_datum_">Датум:</string>
   <!--Original value: East Inclination-->
   <string name="string_east_inclination">Наклон на восток</string>
-  <!--Original value: Can\'t read coordinate system from the receiver!-->
-  <string name="string_can_t_read_coordinate_system_from_the_receiver_">Не удалось прочесть систему координат из приемника!</string>
-  <!--Original value: Rotation-->
-  <string name="string_rotation">Поворот</string>
+  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
+  <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
   <!--Original value: Wrong scale difference!-->
   <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
-  <!--Original value: Localization was changed and not saved!-->
-  <string name="string_localization_was_changed_and_not_saved_">Локализаця была изменена, но не сохранена!</string>
+  <!--Original value: Rotation-->
+  <string name="string_rotation">Поворот</string>
+  <!--Original value: Can\'t read coordinate system from the receiver!-->
+  <string name="string_can_t_read_coordinate_system_from_the_receiver_">Не удалось прочесть систему координат из приемника!</string>
   <!--Original value: Cancel-->
   <string name="button_cancel">Отменить</string>
+  <!--Original value: Localization was changed and not saved!-->
+  <string name="string_localization_was_changed_and_not_saved_">Локализаця была изменена, но не сохранена!</string>
   <!--Original value: Projection-->
   <string name="category_projection">Проекция</string>
   <!--Original value: Ellipsoidal Height-->
@@ -165,34 +173,34 @@
   <string name="string_edit_user_cs">Правка СК пользователя</string>
   <!--Original value: Save-->
   <string name="string_save">Сохранить</string>
-  <!--Original value: Apply-->
-  <string name="button_apply">Применить</string>
   <!--Original value: Center-->
   <string name="string_center">Центр</string>
+  <!--Original value: Apply-->
+  <string name="button_apply">Применить</string>
   <!--Original value: Push to choose from list-->
   <string name="string_push_to_choose_from_list">Нажмите для выбора из списка</string>
   <!--Original value: CS Name-->
   <string name="string_cs_name">Имя СК</string>
-  <!--Original value: Ellipsoid:-->
-  <string name="string_ellipsoid_">Эллипсоид:</string>
-  <!--Original value: DY, m-->
-  <string name="string_datum_dy">DY, м</string>
-  <!--Original value: CSes-->
-  <string name="string_cses">СК</string>
-  <!--Original value: Change job CS-->
-  <string name="string_change_job_cs">Изменить СК проекта</string>
   <!--Original value: Cur.Epoch-->
   <string name="current_epoch">Тек.эпоха</string>
-  <!--Original value: Setup-->
-  <string name="action_parameters">Установить</string>
+  <!--Original value: Change job CS-->
+  <string name="string_change_job_cs">Изменить СК проекта</string>
+  <!--Original value: CSes-->
+  <string name="string_cses">СК</string>
+  <!--Original value: DY, m-->
+  <string name="string_datum_dy">DY, м</string>
+  <!--Original value: Ellipsoid:-->
+  <string name="string_ellipsoid_">Эллипсоид:</string>
   <!--Original value: DX, m-->
   <string name="string_datum_dx">DX, м</string>
+  <!--Original value: Setup-->
+  <string name="action_parameters">Установить</string>
   <!--Original value: Add to favorites-->
   <string name="add_to_favorites">Добавить СК в список</string>
-  <!--Original value: Error-->
-  <string name="string_error">Ошибка</string>
   <!--Original value: Elipsoidal Height-->
   <string name="string_elipsoidal_height">Эллипоидальная высота</string>
+  <!--Original value: Error-->
+  <string name="string_error">Ошибка</string>
   <!--Original value: DZ, m-->
   <string name="string_datum_dz">DZ, м</string>
   <!--Original value: Cancel-->
@@ -203,5 +211,4 @@
   <string name="string_do_you_want_to_delete_localization_">Удалить локализацию?</string>
   <!--Original value: CS %s is not user CS!-->
   <string name="string_cs__s_is_not_user_cs_">Система %s не является СК пользователя!</string>
- 
 </resources>

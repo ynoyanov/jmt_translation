@@ -61,6 +61,8 @@
   <string name="string_base_station__no_connection">Базовая станция: Не подключено</string>
   <!--Original value: Processor Frequency, MHz-->
   <string name="receiver_processor_freq">Частота процессора, МГц</string>
+  <!--Original value: Compass / Levels-->
+  <string name="string_compass___levels" />
   <!--Original value: BLH-->
   <string name="lat_lon_hgt">BLH</string>
   <!--Original value: DTT-->
@@ -137,6 +139,10 @@
   <string name="button_event">Метка</string>
   <!--Original value: Connecting to NetHub…-->
   <string name="string_connecting_to_nethub___">Подключение к NetHub…</string>
+  <!--Original value: LICENSED by In-App Purchase-->
+  <string name="string_licensed_by_in_app_purchase" />
+  <!--Original value: Wrong maximum uncorrected tilt angle!-->
+  <string name="wrong_maximum_uncorrected_tilt_angle" />
   <!--Original value: Do you want to save point?-->
   <string name="string_do_you_want_to_save_point_" />
   <!--Original value: RCV Base-->
@@ -181,6 +187,10 @@
   <string name="string_save_interm_result" />
   <!--Original value: More-->
   <string name="string_more">Еще</string>
+  <!--Original value: Dist.1-->
+  <string name="string_dist_1" />
+  <!--Original value: Dist.2-->
+  <string name="string_dist_2" />
   <!--Original value: SOUNDS-->
   <string name="sounds_up">ЗВУКИ</string>
   <!--Original value: Wrong longitude!-->
@@ -201,14 +211,14 @@
   <string name="string_ca_l1__p_l2__and_l5_slots_are_used_in_rtk_processing" />
   <!--Original value: 10 sats -->
   <string name="string_10_sats_">10 сп.</string>
-  <!--Original value: Last Point Names-->
-  <string name="last_point_names">Последние имена точек</string>
   <!--Original value: Show invisible-->
   <string name="check_invisible">Показывать невидимые</string>
-  <!--Original value: TCP/CL mode setup error-->
-  <string name="string_tcp_cl_mode_setup_error">Ошибка установки TCP/CL</string>
+  <!--Original value: Last Point Names-->
+  <string name="last_point_names">Последние имена точек</string>
   <!--Original value: Points-->
   <string name="action_points">Точки</string>
+  <!--Original value: TCP/CL mode setup error-->
+  <string name="string_tcp_cl_mode_setup_error">Ошибка установки TCP/CL</string>
   <!--Original value: Trimtalk pars.:-->
   <string name="string_trimtalk_pars__">Пар-ры Trimtalk:</string>
   <!--Original value: vert.-->
@@ -327,6 +337,8 @@
   <string name="gprs_dialup_number">Номер тел.</string>
   <!--Original value: Table-->
   <string name="action_table">Таблица</string>
+  <!--Original value: Epoch Rejected in Verify-->
+  <string name="epoch_rejected_verify" />
   <!--Original value: Sort by-->
   <string name="sort_description">Сортировать по</string>
   <!--Original value: Canceled by user-->
@@ -385,14 +397,16 @@
   <string name="l1ca">L1CA</string>
   <!--Original value: From receiver-->
   <string name="button_read_from_receiver">Считать</string>
+  <!--Original value: Epoch Rejected by MultiRTK-->
+  <string name="epoch_rejected_multi_rtk" />
   <!--Original value: Stop-Go logging to file %1$s is in progress!-->
   <string name="string_stop_go_logging_to_file__1_s_is_in_progress_">Стой-Иди пишется в файл %1$s !</string>
   <!--Original value: Read CS from Receiver-->
   <string name="button_read_cs">Прочесть СК из приемника</string>
-  <!--Original value: Ready-->
-  <string name="string_ready">Готово</string>
   <!--Original value: Sounds are on-->
   <string name="sounds_on">Звуки включены</string>
+  <!--Original value: Ready-->
+  <string name="string_ready">Готово</string>
   <!--Original value: Get From Catalog-->
   <string name="get_from_catalog">Из каталога</string>
   <!--Original value: Plus-->
@@ -433,6 +447,8 @@
   <string name="string_confirm_and_start" />
   <!--Original value: Wrong freq. rule!-->
   <string name="string_wrong_freq__rule_">Неверное частотное правило!</string>
+  <!--Original value: Max.Corrected tilt angle-->
+  <string name="maximum_corrected_tilt_angle" />
   <!--Original value: Offset-->
   <string name="string_offset">Промеры</string>
   <!--Original value: Setup OK-->
@@ -585,6 +601,8 @@
   <string name="string_reading_file_list___">Чтение списка файлов…</string>
   <!--Original value: Trajectory-->
   <string name="button_trajectory">Кинематика</string>
+  <!--Original value: Correct by Tilt-->
+  <string name="correct_by_compass_and_levels" />
   <!--Original value: Dist 3D\n-->
   <string name="text_dist_3d">3D раст\n</string>
   <!--Original value: Transparent pars.-->
@@ -597,6 +615,8 @@
   <string name="verify_description">%1$d эпох в %2$d группах с %3$s</string>
   <!--Original value: Job Name-->
   <string name="survey_job_name2">Имя проекта</string>
+  <!--Original value: Epoch Rejected by Tilt-->
+  <string name="epoch_rejected_tilt" />
   <!--Original value: Can\'t turn off GAL tracking!-->
   <string name="string_can_t_turn_off_gal_tracking_">Не удалось выключить прием Галлилео</string>
   <!--Original value: Del-->
@@ -649,8 +669,6 @@
   <string name="string_surveying_is_in_progress__do_you_want_to_stop_the_survey_to_close_the_window_">Идет съемка. Хотите остановить съемку и закрыть это окно?</string>
   <!--Original value: TCP Port-->
   <string name="tcp_port">Порт TCP</string>
-  <!--Original value: JMT-->
-  <string name="string_jmt">J-Mobile</string>
   <!--Original value: Wrong tolerance in group!-->
   <string name="wrong_tolerance_in_group">Неверный разброс в группе!</string>
   <!--Original value: Can\'t read source table!-->
@@ -783,12 +801,12 @@
   <string name="string_directcall_csd_">Прямой звонок(CSD)</string>
   <!--Original value: RTK-->
   <string name="rtk">RTK</string>
+  <!--Original value: %ds-->
+  <string name="string__ds">%dс</string>
   <!--Original value: Disconnect-->
   <string name="string_disconnect">Разорвать</string>
   <!--Original value: Messages-->
   <string name="format_messages">Сообщения</string>
-  <!--Original value: %ds-->
-  <string name="string__ds">%dс</string>
   <!--Original value: SBAS-->
   <string name="check_sbas">SBAS</string>
   <!--Original value: ADVANCED-->
@@ -877,6 +895,8 @@
   <string name="string_start_nlevels_ncalibration">Начать\nКалибровку\nУровней</string>
   <!--Original value: Number Epochs in each group-->
   <string name="verify_number_epochs_in_group_summary">Число эпох в каждой группе</string>
+  <!--Original value: Wrong maximum corrected tilt angle!-->
+  <string name="wrong_maximum_corrected_tilt_angle" />
   <!--Original value: Back-->
   <string name="text_backward">Назад</string>
   <!--Original value: Confirm Point-->
@@ -891,7 +911,7 @@
   <string name="trajectory">Кинематика</string>
   <!--Original value: your receiver-->
   <string name="rotate_receiver_string2">ваш приемник</string>
-  <!--Original value:  rejected-->
+  <!--Original value: rejected-->
   <string name="epochs_rejected">отклонено</string>
   <!--Original value: Intersection-->
   <string name="string_intersection">Пересечение</string>
@@ -901,6 +921,8 @@
   <string name="text_point_antenna_height">Выс.антенны</string>
   <!--Original value: Survey already started!-->
   <string name="string_survey_already_started_">Съемка уже запущена!</string>
+  <!--Original value: L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
+  <string name="start_levels_calibration_land_small">К\nа\nл\nи\nб\nр\n.\n\nУ\nр\nо\nв\nн\nи</string>
   <!--Original value: GPS-->
   <string name="check_gps">GPS</string>
   <!--Original value: Create-->
@@ -943,6 +965,8 @@
   <string name="csd_phone">Тел.Номер</string>
   <!--Original value: Tolerance in group-->
   <string name="verify_tolerance_in_group_summary">Допуск в группе</string>
+  <!--Original value: Epoch Rejected by Solution Type-->
+  <string name="epoch_rejected_solution_type" />
   <!--Original value: hours-->
   <string name="hours">часов</string>
   <!--Original value: Dialup Number-->
@@ -1045,6 +1069,8 @@
   <string name="mask">Маска сети</string>
   <!--Original value: Frequency Rule-->
   <string name="frequency_rule">Частотное правило</string>
+  <!--Original value: Show Compass/Levels-->
+  <string name="show_compass_and_levels">Показать уровни и компас</string>
   <!--Original value: GLONASS-->
   <string name="check_glo">ГЛОНАСС</string>
   <!--Original value: FRule:-->
@@ -1091,6 +1117,8 @@
   <string name="format">Формат</string>
   <!--Original value: Epochs-->
   <string name="text_point_epochs">Эпохи</string>
+  <!--Original value: Site name is empty!-->
+  <string name="site_name_is_empty">Имя точки не введено!</string>
   <!--Original value: Multi RTK-->
   <string name="string_multirtk">Мульти RTK</string>
   <!--Original value: Wrong Trajectory Length Filter!-->
@@ -1215,6 +1243,8 @@
   <string name="button_start">Запуск</string>
   <!--Original value: epochs collected-->
   <string name="epochs_collected">собрано эпох</string>
+  <!--Original value: Reject epochs with tilt more than-->
+  <string name="reject_epochs_by_tilt">Отбраковывать эпохи с наклоном больше чем</string>
   <!--Original value: Traj.Min.Length-->
   <string name="trajector_length_filter">Мин.траектория</string>
   <!--Original value: Doppl 2-->
@@ -1239,6 +1269,8 @@
   <string name="string_wrong_tcpo_ip_port_">Неверный порт TCPO!</string>
   <!--Original value: Archieve path-->
   <string name="job_archieve">Путь к архиву</string>
+  <!--Original value: DGPS-->
+  <string name="string_dgps">Код.диф.</string>
   <!--Original value: Trajectory %1$s logging to file %2$s is in progress!-->
   <string name="string_trajectory__1_s_logging_to_file__2_s_is_in_progress_">Траектория %1$s пишется в файл %2$s !</string>
   <!--Original value: Wrong slant height!-->
@@ -1327,6 +1359,8 @@
   <string name="string_rtk_base_started_ok">RTK База успешно запущена</string>
   <!--Original value: 3G/GSM-->
   <string name="string_3g_gsm">3G/GSM</string>
+  <!--Original value: Dist.-->
+  <string name="string_dist_">Раст.</string>
   <!--Original value: Stakeout Epoch Rejected-->
   <string name="stakeout_epoch_rejected">Эпоха отверхнута в выноске</string>
   <!--Original value: Perpendicular-->
@@ -1391,6 +1425,8 @@
   <string name="string_rtk_survey">RTK съемка</string>
   <!--Original value: L2C data used for position computation-->
   <string name="string_l2c_data_used_for_position_computation">L2C используется для вычисления положения</string>
+  <!--Original value: Max.Uncorrected tilt angle-->
+  <string name="maximum_uncorrected_tilt_angle">Макс.угол наклона при откл.коррекции</string>
   <!--Original value: 1 Hz-->
   <string name="string_1_hz">1ГЦ</string>
   <!--Original value: HW:-->
@@ -1509,6 +1545,8 @@
   <string name="string_surveyed_points">Снятые точки</string>
   <!--Original value: Along-->
   <string name="string_along">Вдоль</string>
+  <!--Original value: RTK Fixed-->
+  <string name="string_rtk_fixed">RTK Фикс.</string>
   <!--Original value: Can\'t compute coordinates!-->
   <string name="string_can_t_compute_coordinates_">Не удалось вычислить координаты!</string>
   <!--Original value: Read Coordinates From Catalog-->
@@ -1517,12 +1555,12 @@
   <string name="string_frequency__dhz">Частота:%dГц</string>
   <!--Original value: All epochs are collected at Lift/Titl survey-->
   <string name="lift_and_tilt_all_epochs_collected">Собраны все эпохи в Lift/Tilt съемке</string>
-  <!--Original value: Time out-->
-  <string name="string_time_out">Время вышло</string>
-  <!--Original value: WiFi Triumph-->
-  <string name="string_wifi_triumph">WiFi Triumph</string>
   <!--Original value: Undefined-->
   <string name="string_undefined">Неопределенный</string>
+  <!--Original value: WiFi Triumph-->
+  <string name="string_wifi_triumph">WiFi Triumph</string>
+  <!--Original value: Time out-->
+  <string name="string_time_out">Время вышло</string>
   <!--Original value: Close File-->
   <string name="button_close_file">Закрыть Файл</string>
   <!--Original value: FILE RECORDING-->
@@ -1531,7 +1569,6 @@
   <string name="string_sv_with_this_frequency_channel_number_is_excluded_from_position_computation_by_the_user">Спутник с этой частотой исключен из вычислений пользователем</string>
   <!--Original value: Levels calibration is required!-->
   <string name="levels_status_error">Требуется калибровка уровней!</string>
-  <string name="levels_status_error_small">Требуется калибровка\nуровней!</string>
   <!--Original value: This allows you to enter a string-->
   <string name="file_name_summary">Здесь можно ввести строку</string>
   <!--Original value: %dm -->
@@ -1540,10 +1577,10 @@
   <string name="string_design_cf">Проект\n</string>
   <!--Original value: Tolerance in group-->
   <string name="verify_tolerance_in_group">Допуск в группе</string>
-  <!--Original value: are OK-->
-  <string name="are_ok">в порядке</string>
   <!--Original value: LAN-->
   <string name="lan_settings">LAN</string>
+  <!--Original value: are OK-->
+  <string name="are_ok">в порядке</string>
   <!--Original value: Wrong NetHub Address!-->
   <string name="string_wrong_nethub_address_">Неверный адрес NetHub!</string>
   <!--Original value: Elapsed time-->
@@ -1570,7 +1607,6 @@
   <string name="string_wrong_cbst_rate_">Неправильная скорость CBST</string>
   <!--Original value: S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
   <string name="start_compass_calibration_land">Н\nа\nч\nа\nт\nь\n \nК\nа\nл\nи\nб\nр\nо\nв\nк\nу\n \nК\nо\nм\nп\nа\nс\nс\nа</string>
-  <string name="start_compass_calibration_land_small">К\nа\nл\nи\nб\nр\nо\nв\nк\nа\n \nК\nо\nм\nп\nа\nс\nс\nа</string>
   <!--Original value: Line\nTarget-->
   <string name="target_line">Вынос\nЛинии</string>
   <!--Original value: Start\nSide %d\nCalibration-->
@@ -1627,6 +1663,8 @@
   <string name="rtcm3_cs">СК RTCM3</string>
   <!--Original value: Ntrip Error-->
   <string name="string_ntrip_error">Ошибка Ntrip</string>
+  <!--Original value: Max.Corrected tilt angle-->
+  <string name="maximum_corrected_tilt_angle_summary">Макс.угол наклона при вкл.коррекции</string>
   <!--Original value: Low Power Mode has disabled-->
   <string name="string_low_power_mode_has_disabled">Режим низкого энергопотребления отключен</string>
   <!--Original value: Restricted to Receivers with OAF-->
@@ -1661,8 +1699,6 @@
   <string name="string_event__s_is_written_ok">Сообщение %s успешно записано</string>
   <!--Original value: Set WLAN-->
   <string name="wlan_on">Настройки WLAN</string>
-  <!--Original value: Epoch Rejected-->
-  <string name="epoch_rejected">Эпоха отвергнута</string>
   <!--Original value: Station Name-->
   <string name="station_name">Имя станции</string>
   <!--Original value: WLAN IP-->
@@ -1671,7 +1707,6 @@
   <string name="coordinate_system">Система координат</string>
   <!--Original value: S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
   <string name="start_levels_calibration_land">Н\nа\nч\nа\nт\nь\n \nК\nа\nл\nи\nб\nр\nо\nв\nк\nу \nУ\nр\nо\nв\nн\nе\nй</string>
-  <string name="start_levels_calibration_land_small">К\nа\nл\nи\nб\nр\nо\nв\nк\nа \nУ\nр\nо\nв\nн\nе\nй</string>
   <!--Original value: Hot Start-->
   <string name="hot_start">Гор.запуск</string>
   <!--Original value: TextView-->
@@ -1786,7 +1821,6 @@
   <string name="string_what_to_do_with__1_s__2_s_">Что делать с %1$s %2$s?</string>
   <!--Original value: Levels are calibrated OK-->
   <string name="levels_status_ok">Уровни успешно\nоткалиброванны</string>
-  <string name="levels_status_ok_small">Уровни успешно\nоткалиброванны</string>
   <!--Original value: Charging mode is set to -->
   <string name="string_charging_mode_is_set_to_">Режим зарядки установлен в </string>
   <!--Original value: Stake-->
@@ -1811,10 +1845,14 @@
   <string name="action_map_export">Экспорт</string>
   <!--Original value: 0.5 sec (2Hz)-->
   <string name="string_0_5_sec__2hz_">0.5 сек (2Гц)</string>
+  <!--Original value: Max.Uncorrected tilt angle-->
+  <string name="maximum_uncorrected_tilt_angle_summary">Макс.угол наклона при откл.коррекции</string>
   <!--Original value: %1$s %2$dbs FEC:%3$s Comp:%4$s ClkCrr:%5$s-->
   <string name="string__1_s__2_dbs_fec__3_s_comp__4_s_clkcrr__5_s">%1$s %2$dбит Кор:%3$s Comp:%4$s Кор.час:%5$s</string>
   <!--Original value: Can\'t start compass calibration!-->
   <string name="string_can_t_start_compass_calibration_">Не удалось запустить калибровку компаса!</string>
+  <!--Original value: Standalone-->
+  <string name="string_standalone">Одиночное</string>
   <!--Original value: Survey Type-->
   <string name="survey_type">Тип съемки</string>
   <!--Original value: VRS-->
@@ -1873,6 +1911,8 @@
   <string name="string_wrong_frequency__nfrequency_should_be_from__1_f_to__2_f">Неправильная частота!\nЧастота должна быть от %1$f до %2$f</string>
   <!--Original value: Not enough memory in the receiver!-->
   <string name="string_not_enough_memory_in_the_receiver_">Недостаточно памяти в приемнике!</string>
+  <!--Original value: RTK Float-->
+  <string name="string_rtk_float">RTK Плав.</string>
   <!--Original value: Stay for %dsec-->
   <string name="string_stay_for__dsec">Стоять %dсек</string>
   <!--Original value: Bootloaderß:-->
@@ -1927,6 +1967,8 @@
   <string name="std">Авт</string>
   <!--Original value: connected to Serial B-->
   <string name="string_connected_to_serial_b">подключенно к порту B</string>
+  <!--Original value: Accept epochs with tilt-->
+  <string name="string_accept_title_settings">Принять эпохи с наклоном</string>
   <!--Original value: Clock Correction-->
   <string name="clock_correction">Коррекция часов</string>
   <!--Original value: Levels Calibration…-->
@@ -1979,6 +2021,8 @@
   <string name="menu_accept">Принять точку</string>
   <!--Original value: WiFi-->
   <string name="string_wifi">WiFi</string>
+  <!--Original value: reject.-->
+  <string name="epochs_reject_shorter">отклон.</string>
   <!--Original value: BASE STATION-->
   <string name="base_station">БАЗОВАЯ СТАНЦИЯ</string>
   <!--Original value: 10sec-->
@@ -2001,6 +2045,10 @@
   <string name="string_slat">накл.</string>
   <!--Original value: Javad Mobile Tools for Authorized Receivers for Android-->
   <string name="string_javad_mobile_tools_for_authorized_receivers_for_android">Javad Mobile Tools для авторизованных приемников под Android</string>
+  <!--Original value: J-Mobile-->
+  <string name="string_j_mobile">J-Mobile</string>
+  <!--Original value: C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
+  <string name="start_compass_calibration_land_small">К\nа\nл\nи\nб\nр\n.\nК\nо\nм\nп\nа\nс</string>
   <!--Original value: Power Output to serial ports has enabled-->
   <string name="string_power_output_to_serial_ports_has_enabled">Вывод напряжения на последовательные порты включен</string>
   <!--Original value: Setup Ntrip client error-->
@@ -2033,6 +2081,8 @@
   <string name="compression">Сжатие</string>
   <!--Original value: All/Bad-->
   <string name="string_all_bad">Все/Плох.</string>
+  <!--Original value: RTK V6-->
+  <string name="string_rtk_v6">RTK V6</string>
   <!--Original value: Surveying is over-->
   <string name="string_surveying_is_over">Съемка завершена</string>
   <!--Original value: Can\'t turn off GLO tracking!-->
@@ -2227,6 +2277,8 @@
   <string name="string_aux_port">Пром.порт AIM</string>
   <!--Original value: ASCII file *.txt-->
   <string name="string_ascii_file___txt">ASCII файл *.txt</string>
+  <!--Original value: %1$.3f : %2$.3f-->
+  <string name="string__1__3f____2__3f">%1$.3f : %2$.3f</string>
   <!--Original value: Pnt.Target-->
   <string name="target_point_small">Цель</string>
   <!--Original value: Remove PP-->
@@ -2237,6 +2289,8 @@
   <string name="string_base_distance">Раст.до базы</string>
   <!--Original value: 1 minute-->
   <string name="minute">1 минута</string>
+  <!--Original value: Add design-->
+  <string name="string_add_design">Доб.выносную</string>
   <!--Original value: Mount Point-->
   <string name="string_mount_point">Точка подключения</string>
   <!--Original value: Side %1$d calibration progress is %2$d%%-->
@@ -2277,21 +2331,11 @@
   <string name="string_ephemeris_is_not_available">Нет эфемерид</string>
   <!--Original value: Left-->
   <string name="text_left">Влево</string>
-  <!--Original value: Use Compass/Levels-->
-  <string name="use_compass_and_levels">Исп.уровни/компас</string>
   <!--Original value: Open Street Map-->
   <string name="string_open_street_map">Open Street Map</string>
   <!--Original value: Y-->
   <string name="text_y_map">Y</string>
-  <!--Original value: Sim:1\nAPN:internet.beeline.ru-->
-  <string name="internet_settings">Sim:1\nAPN:internet.beeline.ru</string>
-  <!--Original value: Hybrid RTK-->
-  <string name="string_hybrid_rtk">Гибридное RTK</string>
-  <!--Original value: Activate Post-Processing after-->
-  <string name="hybrid_rtk_check">Оставлять файл дял пост.обработки после</string>
-  <!--Original value: Setup Inet-->
-  <string name="setup_internet">Настр.Интернет</string>
-  <string name="site_name_is_empty">Имя точки не введено!</string>
-  <string name="epochs_reject_shorter">отклон.</string>
+  <string name="levels_status_ok_small">Уровни OK</string>
+  <string name="levels_status_error_small">Ошибка уровней</string>
   
 </resources>
