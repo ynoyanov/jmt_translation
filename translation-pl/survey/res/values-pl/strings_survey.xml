@@ -62,6 +62,8 @@
   <string name="string_base_station__no_connection">Stacja bazowa: Brak połączenia</string>
   <!--Original value: Lift&Tilt Started-->
   <string name="lift_and_tilt_started">Włączono Lift&amp;Tilt</string>
+  <!--Original value: Compass / Levels-->
+  <string name="string_compass___levels">Kompas/Libella</string>
   <!--Original value: BLH-->
   <string name="lat_lon_hgt">BLH</string>
   <!--Original value: DTT-->
@@ -274,6 +276,8 @@
   <string name="string_this_sv_is_excluded_from_position_computation_by_the_user">SV jest wykluczony z pozycjonowania przez użytkownika</string>
   <!--Original value: Logging to file %s is in progress!-->
   <string name="string_logging_to_file__s_is_in_progress_">Zapis do pliku %s w toku!</string>
+  <!--Original value: Levels OK-->
+  <string name="levels_status_ok_small">Libella OK</string>
   <!--Original value: Disable Clusters-->
   <string name="string_disable_clusters">Wyłącz klastry</string>
   <!--Original value: Surveying is on-->
@@ -537,6 +541,8 @@
   <string name="station_id">ID stacji</string>
   <!--Original value: disconnected-->
   <string name="string_disconnected">rozłączono</string>
+  <!--Original value: Switch to PlayMarket for J-Mobile-->
+  <string name="string_load_jmt">Switch to PlayMarket for J-Mobile</string>
   <!--Original value: Wrong side!\nSet receiver up as in the picture-->
   <string name="string_wrong_side__nset_receiver_up_as_in_the_picture">Niewłaściwa strona!\nUstaw odbiornik jak na rysunku</string>
   <!--Original value: Survey is starting…-->
@@ -788,10 +794,10 @@ Sprawdź połączenie!
   <string name="f_rule">Zakres Częst.</string>
   <!--Original value: Use Repeater-->
   <string name="repeater">Użyj Repeatera</string>
-  <!--Original value: Survey already stopped!-->
-  <string name="error_survey_already_stopped">Pomiar już zatrzymany!</string>
   <!--Original value: Do you want to save point and raw file?-->
   <string name="string_do_you_want_to_save_point_and_raw_file_">Czy chcesz zapisać punkt i surowe dane?</string>
+  <!--Original value: Survey already stopped!-->
+  <string name="error_survey_already_stopped">Pomiar już zatrzymany!</string>
   <!--Original value: Calibrate-->
   <string name="calibrate">Kalibruj</string>
   <!--Original value: Connected to-->
@@ -862,6 +868,8 @@ Sprawdź połączenie!
   <string name="string_rtk_stakeout">Tyczenie RTK</string>
   <!--Original value: Job-->
   <string name="string_job">Projekt</string>
+  <!--Original value: JAVAD J-Mobile-R works only with athorized GNSS Receivers!-->
+  <string name="jmtr_oaf_title">JAVAD J-Mobile-R works only with athorized GNSS Receivers!</string>
   <!--Original value: List-->
   <string name="string_list">Lista</string>
   <!--Original value: This SV is excluded from solution since its system number is unknown-->
@@ -1753,6 +1761,8 @@ Sprawdź połączenie!
   <string name="hu">H/U</string>
   <!--Original value: Epochs: RTK reset-->
   <string name="string_epochs_reset">Epoki: reset RTK</string>
+  <!--Original value: License the application before use the receiver or purchase authorization OAF option!-->
+  <string name="jmt_license_error">License the application before use the receiver or purchase authorization OAF option!</string>
   <!--Original value: Id:-->
   <string name="string_id_">Id:</string>
   <!--Original value: 0MB-->
@@ -1819,6 +1829,8 @@ Sprawdź połączenie!
   <string name="string_s_n_">S/N:</string>
   <!--Original value: List-->
   <string name="action_select_list">Lista</string>
+  <!--Original value: Levels error-->
+  <string name="levels_status_error_small">Błąd</string>
   <!--Original value: GPRS IP-->
   <string name="receiver_gprs_ip">GPRS IP</string>
   <!--Original value: PPP status-->
@@ -2098,6 +2110,8 @@ Sprawdź połączenie!
   <string name="string_all_bad">Wsz/Złe</string>
   <!--Original value: Surveying is over-->
   <string name="string_surveying_is_over">Pomiar zakończony</string>
+  <!--Original value: RTK V6-->
+  <string name="string_rtk_v6">RTK V6</string>
   <!--Original value: Can\'t turn off GLO tracking!-->
   <string name="string_can_t_turn_off_glo_tracking_">Nie można wyłączyć śledzenia Glonass!</string>
   <!--Original value: Can\'t setup NetHub rcv mode!-->
@@ -2185,6 +2199,8 @@ Sprawdź połączenie!
   <string name="string_receiver__">Odbiornik:</string>
   <!--Original value: Apply-->
   <string name="button_apply">Zastosuj</string>
+  <!--Original value: Select point on map to stake it-->
+  <string name="string_select_point_on_map_to_stake_it">Wybierz punkt na mapie aby go wytyczyć</string>
   <!--Original value: LAN-->
   <string name="string_lan">LAN</string>
   <!--Original value: Survey completed! %1$s %2$s created.-->
@@ -2217,6 +2233,8 @@ Sprawdź połączenie!
   <string name="text_cut">Niżej</string>
   <!--Original value: WiFi SSID-->
   <string name="wlan_ssid">WiFi SSID</string>
+  <!--Original value: The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).-->
+  <string name="jmtr_oaf_message">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).</string>
   <!--Original value: Can\'t turn on SBAS tracking!-->
   <string name="string_can_t_turn_on_sbas_tracking_">Nie można włączyć śledzenia SBAS!</string>
   <!--Original value: Power Output to serial ports has turned off-->
@@ -2319,8 +2337,6 @@ Sprawdź połączenie!
   <string name="survey_receiver_setup">USTAWIENIA ODBIORNIKA</string>
   <!--Original value: UHF radio error! (%s)-->
   <string name="string_uhf_radio_error____s_">Błąd UHF! (%s)</string>
-  <!--Original value: License the application before use the receiver or purchase authorization OAF option!-->
-  <string name="string_license_the_application_before_use_the_receiver_or_purchase_authorization_oaf_option_">License the application before use the receiver or purchase authorization OAF option!</string>
   <!--Original value: Height type-->
   <string name="antenna_height_type">Typ wysokości</string>
   <!--Original value: Target-->
@@ -2349,4 +2365,8 @@ Sprawdź połączenie!
   <string name="string_open_street_map">Open Street Map</string>
   <!--Original value: Y-->
   <string name="text_y_map">Y</string>
+  <!--Original value: The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile) or purchase extension option for J-Mobile-R.-->
+  <string name="jmtr_oaf_message2">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile) or purchase extension option for J-Mobile-R.</string>
+  <!--Original value: License the application before use the receiver or purchase authorization OAF option!-->
+  <string name="string_license_the_application_before_use_the_receiver_or_purchase_authorization_oaf_option_">License the application before use the receiver or purchase authorization OAF option!</string>
 </resources>

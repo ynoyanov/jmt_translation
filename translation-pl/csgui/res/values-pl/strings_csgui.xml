@@ -21,90 +21,52 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Press to add to cs favorites and finish-->
   <string name="add_to_favorites_description">Naciśnij aby dodać układ do ulubionych i zakończyć</string>
-  <!--Original value: CS-->
-  <string name="string_cs">CS</string>
   <!--Original value: Geoid-->
   <string name="string_geoid">Model Geoidy</string>
-  <!--Original value: User-to-WGS84-->
-  <string name="string_user_to_wgs84">Użytkownika-do-WGS84</string>
-  <!--Original value: Origin-->
-  <string name="string_origin">Punkt główny</string>
   <!--Original value: Rewrite CS-->
   <string name="string_rewrite_cs">Przepisz UW</string>
-  <!--Original value: points are to close each other-->
-  <string name="string_points_are_to_close_each_other">punkty znajdują się zbyt blisko siebie</string>
-  <!--Original value: Can\'t save the settings!-->
-  <string name="string_can_t_save_the_settings_">Nie można zapisać ustawień!</string>
   <!--Original value: East Ground-->
   <string name="string_east_ground">East Ground</string>
+  <!--Original value: Can\'t save the settings!-->
+  <string name="string_can_t_save_the_settings_">Nie można zapisać ustawień!</string>
   <!--Original value: Localization changed-->
   <string name="string_localization_changed">Lokalizacja zmieniona</string>
-  <!--Original value: Confirm-->
-  <string name="string_confirm">Potwierdź</string>
+  <!--Original value: File javad/geodata/CoordinateSystemDB.db3 is corrupted!-->
+  <string name="geodata_error">Plik CoordinateSystem.DB jest uszkodzony!</string>
   <!--Original value: Longitude Orig.-->
   <string name="string_longitude_origin">Longitude Orig.</string>
-  <!--Original value: Identical Point-->
-  <string name="string_identical_point">Identyczne punkty</string>
   <!--Original value: problem with transformation-->
   <string name="string_problem_with_transformation">problem z transformacją</string>
-  <!--Original value: Name:-->
-  <string name="string_name_">Nazwa:</string>
   <!--Original value: Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?-->
   <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Czy chcesz ustawić nowy układ \'%1$s\' dla aktualnego projektu\'%2$s\'?</string>
-  <!--Original value: Delete Points %s-->
-  <string name="string_delete_points__s">Usuń Punkty %s</string>
-  <!--Original value: North Inclination-->
-  <string name="string_north_inclination">Inklinacja N</string>
-  <!--Original value: Datum-->
-  <string name="category_datum">Odwzorowanie</string>
+  <!--Original value: Redownload-->
+  <string name="string_redownload">Pobierz ponownie</string>
   <!--Original value: Scale Difference, ppm-->
   <string name="string_datum_scale_difference">Współczynnik skali, ppm</string>
-  <!--Original value: Type-->
-  <string name="string_type">Typ</string>
+  <!--Original value: Delete Points %s-->
+  <string name="string_delete_points__s">Usuń Punkty %s</string>
   <!--Original value: Delete %1$d filtered Points (of %2$d)-->
   <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d (z %2$d)</string>
   <!--Original value: Can\'t create coordinate system!-->
   <string name="string_can_t_create_coordinate_system_">Nie można utworzyć układu współrzędnych!</string>
-  <!--Original value: Delete localization-->
-  <string name="string_delete_localization">Usuń lokalizację</string>
-  <!--Original value: East Origing-->
-  <string name="string_east_origin">Y punktu głównego</string>
-  <!--Original value: –-->
-  <string name="string_action_button">–</string>
-  <!--Original value: something wrong with params-->
-  <string name="string_something_wrong_with_params">błędne parametry</string>
-  <!--Original value: Scale-->
-  <string name="string_scale">Współczynnik skali</string>
   <!--Original value: Transformation-->
   <string name="string_transformation">Transformacja</string>
-  <!--Original value: Returning back losts your changes.-->
-  <string name="string_returning_back_losts_your_changes_">Powrót spowoduje utratę zmian.</string>
-  <!--Original value: Can\'t show the settings!-->
-  <string name="string_can_t_show_the_settings_">Nie można wyświetlić ustawień!</string>
-  <!--Original value: Can\'t delete the localization!-->
-  <string name="string_can_t_delete_the_localization_">Nie można usunąć lokalizacji!</string>
   <!--Original value: Delete Localization-->
   <string name="action_delete_localization">Usuń lokalizację</string>
-  <!--Original value: wrong parameters were computed-->
-  <string name="string_wrong_parameters_were_computed">wyliczono błędne parametry</string>
-  <!--Original value: Horizontal treshold-->
-  <string name="string_horizontal_treshold">Próg poziomy</string>
-  <!--Original value: East origin-->
-  <string name="string_origin_east">Y punktu głównego</string>
   <!--Original value: Filter-->
   <string name="action_filter">Filtr</string>
   <!--Original value: Delete %1$d filtered CSes (of %2$d)-->
   <string name="string_delete__1_d_filtered_cses__of__2_d_">Usuń %1$d (z %2$d)</string>
   <!--Original value: North origin-->
   <string name="string_origin_north">X punktu głównego</string>
-  <!--Original value: Localization successfully imported-->
-  <string name="string_localization_successfully_imported">Import lokalizacji zakończony powodzeniem</string>
-  <!--Original value: View CS Info-->
-  <string name="string_view_cs_info">Wyświetl Info</string>
   <!--Original value: Survey-->
   <string name="string_survey">Punkt GPS</string>
+  <!--Original value: Type-->
+  <string name="identical_point_type">Typ</string>
   <!--Original value: Close-->
   <string name="string_close">Zamknij</string>
+  <!--Original value: No GeoData!-->
+  <string name="no_geodata_error">Brak pliku definicji!</string>
   <!--Original value: nothing to compute-->
   <string name="string_nothing_to_compute">brak możliwości wykonania obliczeń</string>
   <!--Original value: Height Offset-->
@@ -113,98 +75,142 @@
   <string name="string_vertical_treshold">Próg pionowy</string>
   <!--Original value: Select CS-->
   <string name="string_select_cs">Wybierz UW</string>
-  <!--Original value: Can\'t delete localization-->
-  <string name="string_can_t_delete_localization">Nie można usunąć lokalizacji</string>
   <!--Original value: Design-->
   <string name="string_design">Punkt teoretyczny</string>
-  <!--Original value: Delete CS %s-->
-  <string name="string_delete_cs__s">Usuń UW %s</string>
-  <!--Original value: WGS84-to-User-->
-  <string name="string_wgs84_to_user">WGS84-do-Użytkownika</string>
-  <!--Original value: Datum direction-->
-  <string name="datum_direction">Kierunek odwzorowania</string>
   <!--Original value: Return and lost-->
   <string name="string_return_and_lost">Powrót i porzucenie zmian</string>
-  <!--Original value: RZ, sec-->
-  <string name="string_datum_rz">RZ, sek</string>
-  <!--Original value: csgui-->
-  <string name="app_name">csgui</string>
-  <!--Original value: North Ground-->
-  <string name="string_north_ground">North Ground</string>
   <!--Original value: CS with such name already exist!-->
   <string name="string_cs_with_such_name_already_exist_">Układ o takiej nazwie już istnieje!</string>
-  <!--Original value: RX, sec-->
-  <string name="string_datum_rx">RX, sek</string>
+  <!--Original value: North Ground-->
+  <string name="string_north_ground">North Ground</string>
   <!--Original value: Datum:-->
   <string name="string_datum_">Odwz.:</string>
-  <!--Original value: RY, sec-->
-  <string name="string_datum_ry">RY, sec</string>
-  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
-  <string name="string_delete__1_d_selected_cses__of__2_d_">Usuń %1$d (z %2$d)</string>
   <!--Original value: East Inclination-->
   <string name="string_east_inclination">Inklinacja E</string>
   <!--Original value: Can\'t read coordinate system from the receiver!-->
   <string name="string_can_t_read_coordinate_system_from_the_receiver_">Nie można odczytać UW z odbiornika!</string>
-  <!--Original value: Rotation-->
-  <string name="string_rotation">Skręcenie</string>
-  <!--Original value: Wrong scale difference!-->
-  <string name="string_wrong_scale_difference_">Błędny współczynnik skali!</string>
-  <!--Original value: Localization was changed and not saved!-->
-  <string name="string_localization_was_changed_and_not_saved_">Lokalizację zmieniono lecz nie zapisano!</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Anuluj</string>
   <!--Original value: Projection-->
   <string name="category_projection">Odwzorowanie</string>
-  <!--Original value: Ellipsoidal Height-->
-  <string name="string_ellipsoidal_height">H elipsoidalna</string>
-  <!--Original value: Identical Points-->
-  <string name="string_identical_points">Punkty dostosowania</string>
   <!--Original value: North Origing-->
   <string name="string_north_origin">X punktu głównego</string>
-  <!--Original value: Edit user CS-->
-  <string name="string_edit_user_cs">Edytuj UW użytkownika</string>
-  <!--Original value: Save-->
-  <string name="string_save">Zapisz</string>
-  <!--Original value: Apply-->
-  <string name="button_apply">Zastosuj</string>
   <!--Original value: Center-->
   <string name="string_center">Centruj</string>
+  <!--Original value: Apply-->
+  <string name="button_apply">Zastosuj</string>
   <!--Original value: Push to choose from list-->
   <string name="string_push_to_choose_from_list">Naciśnij aby wybrać z listy</string>
   <!--Original value: CS Name-->
   <string name="string_cs_name">Nazwa UW</string>
-  <!--Original value: Ellipsoid:-->
-  <string name="string_ellipsoid_">Elipsoida:</string>
-  <!--Original value: DY, m-->
-  <string name="string_datum_dy">DY, m</string>
-  <!--Original value: CSes-->
-  <string name="string_cses">UW</string>
-  <!--Original value: Change job CS-->
-  <string name="string_change_job_cs">Zmień UW projektu</string>
   <!--Original value: Cur.Epoch-->
   <string name="current_epoch">Aktualna epoka</string>
-  <!--Original value: Setup-->
-  <string name="action_parameters">Ustawienia</string>
-  <!--Original value: DX, m-->
-  <string name="string_datum_dx">DX, m</string>
+  <!--Original value: CSes-->
+  <string name="string_cses">UW</string>
   <!--Original value: Add to favorites-->
   <string name="add_to_favorites">Dodaj do ulubionych</string>
-  <!--Original value: Error-->
-  <string name="string_error">Błąd</string>
   <!--Original value: Elipsoidal Height-->
   <string name="string_elipsoidal_height">H elipsoidalna</string>
+  <!--Original value: Error-->
+  <string name="string_error">Błąd</string>
+  <!--Original value: Do you want to delete localization?-->
+  <string name="string_do_you_want_to_delete_localization_">Czy usunąć lokalizację?</string>
+  <!--Original value: CS-->
+  <string name="string_cs">CS</string>
+  <!--Original value: Origin-->
+  <string name="string_origin">Punkt główny</string>
+  <!--Original value: User-to-WGS84-->
+  <string name="string_user_to_wgs84">Użytkownika-do-WGS84</string>
+  <!--Original value: points are to close each other-->
+  <string name="string_points_are_to_close_each_other">punkty znajdują się zbyt blisko siebie</string>
+  <!--Original value: Confirm-->
+  <string name="string_confirm">Potwierdź</string>
+  <!--Original value: Identical Point-->
+  <string name="string_identical_point">Identyczne punkty</string>
+  <!--Original value: Name:-->
+  <string name="string_name_">Nazwa:</string>
+  <!--Original value: Type-->
+  <string name="string_type">Typ</string>
+  <!--Original value: Datum-->
+  <string name="category_datum">Odwzorowanie</string>
+  <!--Original value: North Inclination-->
+  <string name="string_north_inclination">Inklinacja N</string>
+  <!--Original value: Delete localization-->
+  <string name="string_delete_localization">Usuń lokalizację</string>
+  <!--Original value: East Origing-->
+  <string name="string_east_origin">Y punktu głównego</string>
+  <!--Original value: –-->
+  <string name="string_action_button">–</string>
+  <!--Original value: Scale-->
+  <string name="string_scale">Współczynnik skali</string>
+  <!--Original value: something wrong with params-->
+  <string name="string_something_wrong_with_params">błędne parametry</string>
+  <!--Original value: Returning back losts your changes.-->
+  <string name="string_returning_back_losts_your_changes_">Powrót spowoduje utratę zmian.</string>
+  <!--Original value: Can\'t show the settings!-->
+  <string name="string_can_t_show_the_settings_">Nie można wyświetlić ustawień!</string>
+  <!--Original value: Can\'t delete the localization!-->
+  <string name="string_can_t_delete_the_localization_">Nie można usunąć lokalizacji!</string>
+  <!--Original value: wrong parameters were computed-->
+  <string name="string_wrong_parameters_were_computed">wyliczono błędne parametry</string>
+  <!--Original value: East origin-->
+  <string name="string_origin_east">Y punktu głównego</string>
+  <!--Original value: Horizontal treshold-->
+  <string name="string_horizontal_treshold">Próg poziomy</string>
+  <!--Original value: View CS Info-->
+  <string name="string_view_cs_info">Wyświetl Info</string>
+  <!--Original value: Localization successfully imported-->
+  <string name="string_localization_successfully_imported">Import lokalizacji zakończony powodzeniem</string>
+  <!--Original value: Can\'t delete localization-->
+  <string name="string_can_t_delete_localization">Nie można usunąć lokalizacji</string>
+  <!--Original value: It wll be removed. Please redownload it.-->
+  <string name="do_you_want_to_remove_it">Plik zostanie usunięty. Proszę pobrać go ponownie.</string>
+  <!--Original value: Delete CS %s-->
+  <string name="string_delete_cs__s">Usuń UW %s</string>
+  <!--Original value: Datum direction-->
+  <string name="datum_direction">Kierunek odwzorowania</string>
+  <!--Original value: WGS84-to-User-->
+  <string name="string_wgs84_to_user">WGS84-do-Użytkownika</string>
+  <!--Original value: RZ, sec-->
+  <string name="string_datum_rz">RZ, sek</string>
+  <!--Original value: csgui-->
+  <string name="app_name">csgui</string>
+  <!--Original value: RX, sec-->
+  <string name="string_datum_rx">RX, sek</string>
+  <!--Original value: RY, sec-->
+  <string name="string_datum_ry">RY, sec</string>
+  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
+  <string name="string_delete__1_d_selected_cses__of__2_d_">Usuń %1$d (z %2$d)</string>
+  <!--Original value: Wrong scale difference!-->
+  <string name="string_wrong_scale_difference_">Błędny współczynnik skali!</string>
+  <!--Original value: Rotation-->
+  <string name="string_rotation">Skręcenie</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">Anuluj</string>
+  <!--Original value: Localization was changed and not saved!-->
+  <string name="string_localization_was_changed_and_not_saved_">Lokalizację zmieniono lecz nie zapisano!</string>
+  <!--Original value: Ellipsoidal Height-->
+  <string name="string_ellipsoidal_height">H elipsoidalna</string>
+  <!--Original value: Identical Points-->
+  <string name="string_identical_points">Punkty dostosowania</string>
+  <!--Original value: Edit user CS-->
+  <string name="string_edit_user_cs">Edytuj UW użytkownika</string>
+  <!--Original value: Save-->
+  <string name="string_save">Zapisz</string>
+  <!--Original value: Change job CS-->
+  <string name="string_change_job_cs">Zmień UW projektu</string>
+  <!--Original value: DY, m-->
+  <string name="string_datum_dy">DY, m</string>
+  <!--Original value: Ellipsoid:-->
+  <string name="string_ellipsoid_">Elipsoida:</string>
+  <!--Original value: DX, m-->
+  <string name="string_datum_dx">DX, m</string>
+  <!--Original value: Setup-->
+  <string name="action_parameters">Ustawienia</string>
   <!--Original value: DZ, m-->
   <string name="string_datum_dz">DZ, m</string>
   <!--Original value: Cancel-->
   <string name="string_cancel">Anuluj</string>
   <!--Original value: Latitude Orig.-->
   <string name="string_latitude_origin">B punktu głównego</string>
-  <!--Original value: Do you want to delete localization?-->
-  <string name="string_do_you_want_to_delete_localization_">Czy usunąć lokalizację?</string>
   <!--Original value: CS %s is not user CS!-->
   <string name="string_cs__s_is_not_user_cs_">%s nie jest ukł. współrzędnych użytkownika!</string>
-  <!--Original value: File javad/geodata/CoordinateSystemDB.db3 is corrupted!-->
-  <string name="geodata_error">Plik CoordinateSystem.DB jest uszkodzony!</string>
-  <!--Original value: It wll be removed. Please redownload it.-->
-  <string name="do_you_want_to_remove_it">Plik zostanie usunięty. Proszę pobrać go ponownie.</string>
 </resources>
