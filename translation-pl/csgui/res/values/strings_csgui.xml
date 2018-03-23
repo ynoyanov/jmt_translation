@@ -6,16 +6,16 @@
     <string name="string_geoid">Geoid</string>
     <!-- Used in file SaveLocalizationParametersActivity.java:219 -->
     <string name="string_rewrite_cs">Rewrite CS</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:205 -->
-    <string name="string_east_ground">East Ground</string>
     <!-- Used in file IdenticalPointsActivity.java:102 -->
     <string name="string_can_t_save_the_settings_">Can\'t save the settings!</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:205 -->
+    <string name="string_east_ground">East Ground</string>
     <!-- Used in file IdenticalPointsActivity.java:147 -->
     <string name="string_localization_changed">Localization changed</string>
-    <!-- Used in file CSListActivity.java:147 -->
-    <string name="geodata_error">File javad/geodata/CoordinateSystemDB.db3 is corrupted!</string>
     <!-- Used in file activity_save_localization_parameters.xml:74 -->
     <string name="string_longitude_origin">Longitude Orig.</string>
+    <!-- Used in file CSListActivity.java:147 -->
+    <string name="geodata_error">File javad/geodata/CoordinateSystemDB.db3 is corrupted!</string>
     <!-- Used in file IdenticalPointListAdapter.java:1302 -->
     <string name="string_problem_with_transformation">problem with transformation</string>
     <!-- Used in file CoordinateSystemsActivity.java:134 -->
@@ -34,6 +34,8 @@
     <string name="string_transformation">Transformation</string>
     <!-- Used in file identical_points.xml:30 -->
     <string name="action_delete_localization">Delete Localization</string>
+    <!-- Used in file UserCSPreferenceFragment.java:326 -->
+    <string name="string_name_is_empty_">Name is empty!</string>
     <!-- Used in file cslist.xml:5 -->
     <string name="action_filter">Filter</string>
     <!-- Used in file CoordinateSystemsActivity.java:284 -->
@@ -52,19 +54,19 @@
     <string name="string_nothing_to_compute">nothing to compute</string>
     <!-- Used in file activity_setup_localization_parameters.xml:275 -->
     <string name="string_height_offset">Height Offset</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:372 -->
-    <string name="string_vertical_treshold">Vertical treshold</string>
     <!-- Used in file CoordinateSystemsActivity.java:268 -->
     <string name="string_select_cs">Select CS</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:372 -->
+    <string name="string_vertical_treshold">Vertical treshold</string>
     <!-- Used in file activity_identical_points.xml:31 -->
     <string name="string_design">Design</string>
     <!-- Used in file IdenticalPointsActivity.java:149 -->
     <string name="string_return_and_lost">Return and lost</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:216 -->
-    <string name="string_cs_with_such_name_already_exist_">CS with such name already exist!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:180 -->
     <string name="string_north_ground">North Ground</string>
-    <!-- Used in file UserCSPreferenceFragment.java:257 -->
+    <!-- Used in file SaveLocalizationParametersActivity.java:216 -->
+    <string name="string_cs_with_such_name_already_exist_">CS with such name already exist!</string>
+    <!-- Used in file UserCSPreferenceFragment.java:258 -->
     <string name="string_datum_">Datum:</string>
     <!-- Used in file activity_setup_localization_parameters.xml:323 -->
     <string name="string_east_inclination">East Inclination</string>
@@ -74,31 +76,31 @@
     <string name="category_projection">Projection</string>
     <!-- Used in file SaveLocalizationParametersActivity.java:58 -->
     <string name="string_north_origin">North Origing</string>
-    <!-- Used in file SetupLocalizationParametersActivity.java:130 -->
-    <string name="string_center">Center</string>
     <!-- Used in file activity_setup_localization_parameters.xml:410 -->
     <string name="button_apply">Apply</string>
-    <!-- Used in file UserCSPreferenceFragment.java:82 -->
+    <!-- Used in file SetupLocalizationParametersActivity.java:130 -->
+    <string name="string_center">Center</string>
+    <!-- Used in file UserCSPreferenceFragment.java:83 -->
     <string name="string_push_to_choose_from_list">Push to choose from list</string>
     <!-- Used in file activity_save_localization_parameters.xml:29 -->
     <string name="string_cs_name">CS Name</string>
-    <!-- Used in file user_cs.xml:77 -->
-    <string name="current_epoch">Cur.Epoch</string>
     <!-- Used in file CoordinateSystemsActivity.java:222 -->
     <string name="string_cses">CSes</string>
+    <!-- Used in file user_cs.xml:77 -->
+    <string name="current_epoch">Cur.Epoch</string>
     <!-- Used in file user_cs.xml:79 -->
     <string name="add_to_favorites">Add to favorites</string>
-    <!-- Used in file CSPreferenceFragment.java:102 -->
-    <string name="string_elipsoidal_height">Elipsoidal Height</string>
     <!-- Used in file CSListActivity.java:314 -->
     <string name="string_error">Error</string>
+    <!-- Used in file CSPreferenceFragment.java:102 -->
+    <string name="string_elipsoidal_height">Elipsoidal Height</string>
     <!-- Used in file IdenticalPointsActivity.java:110 -->
     <string name="string_do_you_want_to_delete_localization_">Do you want to delete localization?</string>
     <!-- Used in file CoordinateSystemsActivity.java:217 -->
     <string name="string_cs">CS</string>
     <!-- Used in file activity_setup_localization_parameters.xml:113 -->
     <string name="string_origin">Origin</string>
-    <!-- Used in file UserCSPreferenceFragment.java:448 -->
+    <!-- Used in file UserCSPreferenceFragment.java:452 -->
     <string name="string_user_to_wgs84">User-to-WGS84</string>
     <!-- Used in file IdenticalPointListAdapter.java:1303 -->
     <string name="string_points_are_to_close_each_other">points are to close each other</string>
@@ -106,7 +108,7 @@
     <string name="string_confirm">Confirm</string>
     <!-- Used in file IdenticalPointsActivity.java:294 -->
     <string name="string_identical_point">Identical Point</string>
-    <!-- Used in file UserCSPreferenceFragment.java:104 -->
+    <!-- Used in file UserCSPreferenceFragment.java:105 -->
     <string name="string_name_">Name:</string>
     <!-- Used in file activity_identical_points.xml:49 -->
     <string name="string_type">Type</string>
@@ -148,7 +150,7 @@
     <string name="string_delete_cs__s">Delete CS %s</string>
     <!-- Used in file user_cs.xml:74 -->
     <string name="datum_direction">Datum direction</string>
-    <!-- Used in file UserCSPreferenceFragment.java:448 -->
+    <!-- Used in file UserCSPreferenceFragment.java:452 -->
     <string name="string_wgs84_to_user">WGS84-to-User</string>
     <!-- Used in file user_cs.xml:65 -->
     <string name="string_datum_rz">RZ, sec</string>
@@ -168,7 +170,7 @@
     <string name="button_cancel">Cancel</string>
     <!-- Used in file IdenticalPointsActivity.java:148 -->
     <string name="string_localization_was_changed_and_not_saved_">Localization was changed and not saved!</string>
-    <!-- Used in file UserCSPreferenceFragment.java:478 -->
+    <!-- Used in file UserCSPreferenceFragment.java:482 -->
     <string name="string_ellipsoidal_height">Ellipsoidal Height</string>
     <!-- Used in file IdenticalPointsActivity.java:299 -->
     <string name="string_identical_points">Identical Points</string>
@@ -180,7 +182,7 @@
     <string name="string_change_job_cs">Change job CS</string>
     <!-- Used in file user_cs.xml:33 -->
     <string name="string_datum_dy">DY, m</string>
-    <!-- Used in file UserCSPreferenceFragment.java:240 -->
+    <!-- Used in file UserCSPreferenceFragment.java:241 -->
     <string name="string_ellipsoid_">Ellipsoid:</string>
     <!-- Used in file user_cs.xml:25 -->
     <string name="string_datum_dx">DX, m</string>
