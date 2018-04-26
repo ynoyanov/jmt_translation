@@ -1,17 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Used in file activity_main_bosch.xml:36. Original value: m -->
     <string name="meter"> m</string>
     <!-- Used in file main_bosch_3.xml:7. Original value:Refresh -->
     <string name="refresh_bluetooth">更新</string>
     <!-- Used in file MainActivityBosch.java:213. Original value:Connected to  -->
     <string name="connected_to">連接至 </string>
+    <!-- Used in file item_device.xml:13. Original value:. -->
+    <string name="none">.</string>
     <!-- Used in file main_bosch_3.xml:14. Original value:Bluetooth Settings -->
     <string name="paired_devices">藍芽設定</string>
     <!-- Used in file activity_main_bosch.xml:26. Original value:No device connected -->
     <string name="no_device_connected">無裝置連接</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:GLM Connect -->
     <string name="app_name_bosch">GLM 連線</string>
-
 </resources>

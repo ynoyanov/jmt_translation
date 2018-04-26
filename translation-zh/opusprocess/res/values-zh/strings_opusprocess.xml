@@ -1,38 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-<resources>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Used in file activity_dpos_rtk_base.xml:45. Original value:Coordinates -->
+    <string name="text_coordinates">座標</string>
+    <!-- Used in file FileListActivity.java:405. Original value:Delete %1$d filtered files (of %2$d) -->
+    <string name="string_delete__1_d_filtered_files__of__2_d_">刪除 %1$d 過濾的文件(of %2$d)</string>
     <!-- Used in file activity_process_opus_result.xml:53. Original value:VBRTK -->
     <string name="vbrtk">VBRTK</string>
-    <!-- Used in file FileListActivity.java:405. Original value:Delete %1$d filtered files (of %2$d) -->
-    <string name="string_delete__1_d_filtered_files__of__2_d_">Delete %1$d filtered files (of %2$d)</string>
+    <!-- Used in file list_hybrid_rtk_header.xml:64. Original value:V.Offset -->
+    <string name="string_antenna_vertical_offset">V.偏移</string>
     <!-- Used in file list_vbrtk_point.xml:67. Original value:-&gt; -->
     <string name="arrow">-&gt;</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:22. Original value:Point Name  /  File Name -->
+    <string name="string_point_file">點位名稱  /  檔案名稱</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:469. Original value:DPOS network is not selected! -->
-    <string name="string_dpos_network_is_not_selected_">DPOS network is not selected!</string>
+    <string name="string_dpos_network_is_not_selected_">DPOS 網路未選擇!</string>
     <!-- Used in file activity_process_opus.xml:170. Original value:Out.Format -->
     <string name="output_format">輸出.格式</string>
     <!-- Used in file DPOS.java:1278. Original value:Finishing&#8230; -->
-    <string name="string_finishing___">完成中&#8230;</string>
+    <string name="string_finishing___">完成中…</string>
     <!-- Used in file activity_process_opus_result.xml:26. Original value:Add to Catalog -->
     <string name="add_to_catalog">增加到目錄</string>
+    <!-- Used in file list_hybrid_rtk_header.xml:54. Original value:Type -->
+    <string name="string_antenna_height_type">形式</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:160. Original value:Anonymous -->
-    <string name="string_anonymous">Anonymous</string>
+    <string name="string_anonymous">匿名</string>
     <!-- Used in file DPOS.java:760. Original value:Canceled by user -->
     <string name="string_canceled_by_user">由使用者取消</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:42. Original value:Mode -->
+    <string name="string_process_mode">模式</string>
     <!-- Used in file FileListActivity.java:400. Original value:Delete the file -->
     <string name="string_delete_the_file">刪除此檔案</string>
     <!-- Used in file DPOSProcessActivity.java:504. Original value:DPOS server is not selected! -->
     <string name="string_dpos_server_is_not_selected_">DPOS 伺服器未選擇!</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:585. Original value:Parsing server answer -->
-    <string name="string_parsing_server_answer">Parsing server answer</string>
-    <!-- Used in file activity_process_opus.xml:114. Original value:Height Type -->
+    <string name="string_parsing_server_answer">解析伺務器答案</string>
+    <!-- Used in file activity_process_dpos2.xml:178. Original value:Height Type -->
     <string name="antenna_height_type_opus">天線高形式</string>
-    <!-- Used in file OpusProcessActivity.java:507. Original value:Processing file %s -->
-    <string name="string_processing_file__s">處理檔案 %s</string>
     <!-- Used in file DPOS.java:1170. Original value:Reading answer&#8230; -->
-    <string name="string_reading_answer___">讀取回應&#8230;</string>
-    <!-- Used in file DPOSProcessActivity2.java:381. Original value:Debug (dpos-dev.javad.com) -->
-    <string name="string_debug__dpos_dev_javad_com_">Debug (dpos-dev.javad.com)</string>
+    <string name="string_reading_answer___">讀取回應…</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:872. Original value:Processing file %s -->
+    <string name="string_processing_file__s">處理檔案 %s</string>
+    <!-- Used in file AttachDeviceActivity.java:224. Original value:Debug (dpos-dev.javad.com) -->
+    <string name="string_debug__dpos_dev_javad_com_">調試 (dpos-dev.javad.com)</string>
+    <!-- Used in file activity_attach_device.xml:31. Original value:Establish Connection -->
+    <string name="button_handshake">建立連接</string>
     <!-- Used in file activity_process_opus_result.xml:14. Original value:Save Report -->
     <string name="save_result">儲存報告</string>
     <!-- Used in file activity_process_opus_result.xml:32. Original value:Catalog -->
@@ -42,60 +72,76 @@
     <!-- Used in file OpusProcessResultActivity.java:123. Original value:OPUS Process Result -->
     <string name="title_opus_result">OPUS 處理結果</string>
     <!-- Used in file DPOSProcessHybridRTKResultActivity.java:108. Original value:HybridRTK is over -->
-    <string name="string_hybridrtk_is_over">HybridRTK is over</string>
-    <!-- Used in file OpusProcessActivity.java:326. Original value:Empty Antenna height! -->
+    <string name="string_hybridrtk_is_over">混合RTK已經結束</string>
+    <!-- Used in file DPOSProcessActivity2.java:554. Original value:Empty Antenna height! -->
     <string name="string_empty_antenna_height_">天線高未輸入!</string>
-    <!-- Used in file FileListActivity.java:420. Original value:Close -->
-    <string name="string_close">關閉</string>
     <!-- Used in file DPOS.java:647. Original value:Can\'t create project.\n -->
-    <string name="string_can_t_create_project__n">Can\'t create project.\n</string>
+    <string name="string_can_t_create_project__n">無法創建項目.\n</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:280. Original value:Close -->
+    <string name="string_close">關閉</string>
     <!-- Used in file FileListActivity.java:411. Original value:Delete %1$d selected files (of %2$d) -->
-    <string name="string_delete__1_d_selected_files__of__2_d_">Delete %1$d selected files (of %2$d)</string>
+    <string name="string_delete__1_d_selected_files__of__2_d_">刪除 %1$d 選擇檔案(of %2$d)</string>
+    <!-- Used in file OpusProcessResultActivity.java:269. Original value:Update HybridRTK coordinate for point %s -->
+    <string name="hybrid_rtk_format">更新點的混合RTK坐標 %s</string>
     <!-- Used in file OpusProcessActivity.java:159. Original value:OPUS Process -->
     <string name="string_opus_process">OPUS 處理</string>
-    <!-- Used in file OpusProcessActivity.java:434. Original value:Finished -->
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:600. Original value:Finished -->
     <string name="string_finished">完成</string>
-    <!-- Used in file DPOS.java:654. Original value:Creating project&#8230; -->
-    <string name="string_creating_project___">Creating project&#8230;</string>
     <!-- Used in file DPOS.java:1219. Original value:Processed. Reading result&#8230; -->
-    <string name="string_processed__reading_result___">處理. 讀取結果&#8230;</string>
+    <string name="string_processed__reading_result___">處理. 讀取結果…</string>
+    <!-- Used in file activity_process_dpos2.xml:102. Original value:Network -->
+    <string name="dpos_network">網路</string>
+    <!-- Used in file DPOS.java:654. Original value:Creating project&#8230; -->
+    <string name="string_creating_project___">創建項目…</string>
     <!-- Used in file activity_file_list.xml:44. Original value:Process DPOS -->
     <string name="button_process_jopus">處理 DPOS</string>
     <!-- Used in file activity_file_list.xml:76. Original value:. . . -->
     <string name="button_select">. . .</string>
     <!-- Used in file DPOSProcessActivity2.java:341. Original value:Import file -->
-    <string name="string_import_file">Import file</string>
-    <!-- Used in file FileListActivity.java:396. Original value:Process DPOS -->
-    <string name="string_process_dpos">處理 DPOS</string>
+    <string name="string_import_file">輸入檔案</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:32. Original value:Antenna Height -->
+    <string name="string_antenna_all">天線高</string>
     <!-- Used in file AndroidManifest.xml:42. Original value:OPUS Process Result -->
     <string name="title_activity_opus_result_process">OPUS 處理結果</string>
+    <!-- Used in file FileListActivity.java:396. Original value:Process DPOS -->
+    <string name="string_process_dpos">處理 DPOS</string>
+    <!-- Used in file file_list.xml:16. Original value:Do HybridRTK -->
+    <string name="do_hybrid_rtk">做混合RTK</string>
     <!-- Used in file FileListActivity.java:958. Original value:Looking for antenna info in file %s -->
     <string name="string_looking_for_antenna_info_in_file__s">尋找文件天線資訊 %s</string>
-    <!-- Used in file OpusProcessActivity.java:301. Original value:No file is selected! -->
+    <!-- Used in file activity_process_dpos2.xml:236. Original value:No base -->
+    <string name="string_no_base">無基站</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:455. Original value:No file is selected! -->
     <string name="string_no_file_is_selected_">未選擇檔案!</string>
     <!-- Used in file DPOS.java:553. Original value:File send error -->
     <string name="string_file_send_error">檔案傳送錯誤</string>
     <!-- Used in file FileListActivity.java:197. Original value:No files for Hybrid RTK found! -->
-    <string name="string_no_files_for_hybrid_rtk_found_">No files for Hybrid RTK found!</string>
+    <string name="string_no_files_for_hybrid_rtk_found_">找不到混合RTK的文件!</string>
+    <!-- Used in file activity_process_hybrid_rtk_result.xml:29. Original value:Save Results -->
+    <string name="button_save">保存結果</string>
     <!-- Used in file DPOS.java:915. Original value:Authorization&#8230; -->
-    <string name="string_authorization___">授權&#8230;</string>
+    <string name="string_authorization___">授權…</string>
     <!-- Used in file DPOSBaseActivity.java:229. Original value:Wrong file selected -->
-    <string name="string_wrong_file_selected">Wrong file selected</string>
+    <string name="string_wrong_file_selected">選擇了錯誤的文件</string>
     <!-- Used in file OpusProcessActivity.java:346. Original value:OPUS Project (with ProjectId) can\'t process Rapid-Static! -->
     <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">OPUS 項目 (與項目標識) 無法處理快速靜態!</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:600. Original value:Error -->
-    <string name="string_error">Error</string>
-    <!-- Used in file OpusProcessActivity.java:316. Original value:Antenna ID is not selected! -->
+    <string name="string_error">錯誤</string>
+    <!-- Used in file DPOSProcessActivity2.java:543. Original value:Antenna ID is not selected! -->
     <string name="string_antenna_id_is_not_selected_">天線 ID 未選擇!</string>
     <!-- Used in file DPOS.java:1096. Original value:Process Starting&#8230; -->
-    <string name="string_process_starting___">啟動處理&#8230;</string>
+    <string name="string_process_starting___">啟動處理…</string>
+    <!-- Used in file activity_process_opus_result.xml:46. Original value:Update HybridRTK coordinate for point -->
+    <string name="hybrid_rtk">更新點的混合RTK坐標</string>
+    <!-- Used in file activity_process_dpos.xml:181. Original value:Process as Device -->
+    <string name="process_as_device">作為設備處理</string>
     <!-- Used in file DPOSProcessActivity2.java:342. Original value:Project has created -->
-    <string name="string_project_has_created">Project has created</string>
+    <string name="string_project_has_created">項目已創建</string>
+    <!-- Used in file DPOSProcessActivity2.java:561. Original value:Wrong Antenna height! -->
+    <string name="string_wrong_antenna_height_">錯誤天線高!</string>
     <!-- Used in file DPOS.java:771. Original value:Project deleted OK -->
     <string name="string_project_deleted_ok">項目刪除確定</string>
-    <!-- Used in file OpusProcessActivity.java:335. Original value:Wrong Antenna height! -->
-    <string name="string_wrong_antenna_height_">錯誤天線高!</string>
-    <!-- Used in file activity_process_opus.xml:235. Original value:Send to OPUS -->
+    <!-- Used in file activity_process_dpos2.xml:264. Original value:Send to OPUS -->
     <string name="button_start_process">傳送到 OPUS</string>
     <!-- Used in file FileListActivity.java:378. Original value:View OPUS -->
     <string name="string_view_opus">查看 OPUS</string>
@@ -103,76 +149,125 @@
     <string name="string_automatic">自動</string>
     <!-- Used in file DPOS.java:626. Original value:Sent -->
     <string name="string_sent">發送</string>
+    <!-- Used in file DPOSProcessActivity2.java:336. Original value:Sending -->
+    <string name="string_sending">傳送</string>
     <!-- Used in file OpusProcessActivity.java:159. Original value:DPOS Process -->
     <string name="string_dpos_process">DPOS 處理</string>
-    <!-- Used in file DPOSProcessActivity2.java:336. Original value:Sending -->
-    <string name="string_sending">Sending</string>
     <!-- Used in file activity_file_list.xml:30. Original value:Delete -->
     <string name="button_delete">刪除</string>
     <!-- Used in file activity_process_opus.xml:85. Original value:Antenna Height\n(vert. in meters) -->
     <string name="antenna_height_opus">天線高\n(垂直. in公尺)</string>
-    <!-- Used in file activity_process_opus.xml:208. Original value:Server -->
+    <!-- Used in file activity_process_dpos2.xml:63. Original value:Server -->
     <string name="dpos_server">DPOS 伺服器</string>
     <!-- Used in file DPOSProcessActivity2.java:340. Original value:Loading -->
-    <string name="string_loading">Loading</string>
+    <string name="string_loading">載入中</string>
+    <!-- Used in file AttachDeviceActivity.java:176. Original value:
+        &lt;h1&gt;Attach Device to DPOS&lt;/h1&gt;
+        Please visit out &lt;b&gt;JAVAD Customer Area&lt;b&gt; at &lt;b&gt;app.javad.com&lt;b&gt; and navigate to J-FieldAssistant/&lt;b&gt;Devices&lt;b&gt; section.&lt;br&gt; &lt;/br&gt;
+           Follow to instructions in &lt;b&gt;Connect device&lt;b&gt; widget on the page to generate a new handshake key.&lt;br&gt;&lt;/br&gt;
+           Enter this key into field below and click &lt;b&gt;Establish Connection&lt;/b&gt; button to complete the procedure.
+     -->
+    <string name="html_handshake">                    &lt;h1&gt;將設備連接到DPOS&lt;/h1&gt;
+       請出去&lt;b&gt;JAVAD客戶區&lt;b&gt;  在 &lt;b&gt;app.javad.com&lt;b&gt; 並導航至J-FieldAssistant/ &lt;b&gt;裝置&lt;b&gt; 部分.&lt;br&gt; &lt;br&gt;
+           按照說明&lt;b&gt;連接裝置&lt;b&gt;  小部件在頁面上生成一個新的交換密鑰.&lt;br&gt; &lt;br&gt;
+           在下面的字段中輸入此密鑰並單擊&lt;b&gt;建立連接&lt;/b&gt;按鈕完成該過程.</string>
     <!-- Used in file DPOS.java:950. Original value:Authorization error!!! -->
     <string name="string_authorization_error___">授權錯誤!!!</string>
     <!-- Used in file OpusProcessResultActivity.java:123. Original value:DPOS Process Result -->
     <string name="title_dpos_result">DPOS 處理結果</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:32. Original value:Base file -->
+    <string name="base_file">基站檔案</string>
+    <!-- Used in file list_hybrid_rtk_result_header.xml:40. Original value:Antenna -->
+    <string name="string_antenna3">天線</string>
     <!-- Used in file activity_process_opus.xml:151. Original value:Rapid Static -->
     <string name="rapid_static">快速靜態</string>
     <!-- Used in file DPOS.java:771. Original value:Can\'t delete DPOS project -->
     <string name="string_can_t_delete_dpos_project">無法刪除 DPOS 項目</string>
     <!-- Used in file DPOS.java:567. Original value:Base File send error -->
-    <string name="string_base_file_send_error">Base File send error</string>
+    <string name="string_base_file_send_error">基站文件發送錯誤</string>
+    <!-- Used in file FileListActivity.java:96. Original value:DPOS HybridRTK -->
+    <string name="action_hybrid_rtk">DPOS 混合RTK</string>
     <!-- Used in file FileListActivity.java:148. Original value:Show Log Files -->
     <string name="string_show_log_files">顯示紀錄檔案</string>
     <!-- Used in file DPOS.java:676. Original value:Project creation error!\n -->
     <string name="string_project_creation_error__n">項目建立錯誤!\n</string>
+    <!-- Used in file AttachDeviceActivity.java:167. Original value:
+        &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
+        Connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt; is established!&lt;br&gt; 
+        Please check for the available services at &lt;b&gt;app.javad.com&lt;b&gt;
+     -->
+    <string name="html_revoke">        &lt;h1&gt;將設備連接到DPOS&lt;/h1&gt;
+                     連線至to &lt;b&gt;JAVAD 客戶區&lt;b&gt;成立&lt;br&gt;
+                     請檢查可用的服務&lt;b&gt;app.javad.com&lt;b&gt;</string>
     <!-- Used in file FileListActivity.java:382. Original value:View DPOS -->
     <string name="string_view_dpos">查看 DPOS</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:194. Original value:%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s -->
+    <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:209. Original value:Send to DPOS -->
     <string name="string_send_to_dpos">傳送到 DPOS</string>
-    <!-- Used in file DPOS.java:968. Original value:Sending %s to server&#8230; -->
-    <string name="string_sending__s_to_server___">Sending %s to server&#8230;</string>
     <!-- Used in file DPOSProcessActivity2.java:339. Original value:Loading file -->
-    <string name="string_loading_file">Loading file</string>
+    <string name="string_loading_file">載入檔案</string>
+    <!-- Used in file DPOS.java:968. Original value:Sending %s to server&#8230; -->
+    <string name="string_sending__s_to_server___">傳送 %s 到伺服器…</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:12. Original value:Use -->
+    <string name="string_use_header">使用</string>
     <!-- Used in file activity_process_opus.xml:47. Original value:e-mail -->
     <string name="email">e-mail</string>
     <!-- Used in file FileListActivity.java:943. Original value:Analyzing&#8230; -->
-    <string name="string_analyzing___">分析&#8230;</string>
+    <string name="string_analyzing___">分析…</string>
     <!-- Used in file activity_process_opus.xml:181. Original value:Project Id -->
     <string name="project_id">項目 Id</string>
     <!-- Used in file FileListActivity.java:146. Original value:Hide Log Files -->
     <string name="string_hide_log_files">隱藏紀錄檔案</string>
-    <!-- Used in file activity_process_opus.xml:74. Original value:Antenna Id -->
+    <!-- Used in file list_hybrid_rtk_header.xml:34. Original value:Antenna -->
+    <string name="string_antenna_hrtk">天線</string>
+    <!-- Used in file activity_process_dpos2.xml:140. Original value:Antenna Id -->
     <string name="antenna_id_opus">天線 Id</string>
     <!-- Used in file OpusProcessActivity.java:205. Original value:Send to OPUS -->
     <string name="string_send_to_opus">傳送到 OPUS</string>
     <!-- Used in file activity_process_dpos2.xml:216. Original value:Process Mode -->
     <string name="process_mode">處理模式</string>
+    <!-- Used in file activity_process_dpos2.xml:82. Original value:Authenticate as -->
+    <string name="authenticate_as_device">認證為</string>
+    <!-- Used in file AttachDeviceActivity.java:183. Original value:
+        &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
+        No connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt;!&lt;br&gt; 
+        Please check Internet connection on your device!
+     -->
+    <string name="html_no_internet">       &lt;h1&gt;將設備連接到DPOS&lt; /h1&gt;
+                  未連線&lt;b&gt;JAVAD 客戶區&lt;b&gt; !&lt;br&gt;
+                 請檢查您設備上的網路連接!</string>
     <!-- Used in file activity_file_list.xml:23. Original value:View -->
     <string name="button_view">查看</string>
-    <!-- Used in file AndroidManifest.xml:25. Original value:File List -->
-    <string name="title_activity_file_list">檔案列表</string>
     <!-- Used in file activity_file_list.xml:37. Original value:Process OPUS -->
     <string name="button_process_opus">處理 OPUS</string>
-    <!-- Used in file activity_process_opus.xml:35. Original value:File Name -->
+    <!-- Used in file AndroidManifest.xml:25. Original value:File List -->
+    <string name="title_activity_file_list">檔案列表</string>
+    <!-- Used in file activity_process_dpos2.xml:36. Original value:File Name -->
     <string name="file_name">檔案名稱</string>
     <!-- Used in file DPOS.java:1115. Original value:Sending to server&#8230; -->
-    <string name="string_sending_to_server___">傳送至伺服器&#8230;</string>
+    <string name="string_sending_to_server___">傳送至伺服器…</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:52. Original value:Point -->
+    <string name="button_point_name">點位</string>
     <!-- Used in file AndroidManifest.xml:20. Original value:OPUS Process -->
     <string name="app_name">OPUS 處理</string>
     <!-- Used in file FileListActivity.java:94. Original value:Show Log Folder -->
     <string name="string_show_log_folder">顯示紀錄資料匣</string>
+    <!-- Used in file activity_process_dpos2.xml:121. Original value:Engine -->
+    <string name="dpos_engine">引擎</string>
+    <!-- Used in file activity_process_dpos2.xml:229. Original value:Base file -->
+    <string name="string_base_file">基站檔案</string>
+    <!-- Used in file list_hybrid_rtk_result_header.xml:30. Original value:Coordinates -->
+    <string name="string_coordinates">坐標</string>
     <!-- Used in file DPOSProcessActivity2.java:338. Original value:Navigation files loading -->
-    <string name="string_navigation_files_loading">Navigation files loading</string>
+    <string name="string_navigation_files_loading">導航文件加載</string>
     <!-- Used in file DPOSProcessHybridRTKResultActivity.java:114. Original value:HybridRTK saved with errors -->
-    <string name="string_hybridrtk_saved_with_errors">HybridRTK saved with errors</string>
+    <string name="string_hybridrtk_saved_with_errors">混合RTK 保存錯誤
+</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:491. Original value:%1$s engine is not supported for network %2$s! -->
-    <string name="string__1_s_engine_is_not_supported_for_network__2_s_">%1$s engine is not supported for network %2$s!</string>
+    <string name="string__1_s_engine_is_not_supported_for_network__2_s_">%1$s 引擎不支持網絡 %2$s!</string>
     <!-- Used in file DPOSProcessActivity2.java:335. Original value:Connection established -->
-    <string name="string_connection_established">Connection established</string>
+    <string name="string_connection_established">連接已建立</string>
     <!-- Used in file FileListActivity.java:417. Original value:View on Map -->
     <string name="string_view_on_map">由地圖查看</string>
     <!-- Used in file activity_process_dpos2.xml:151. Original value:Antenna Height -->
@@ -186,22 +281,27 @@
     <!-- Used in file FileListActivity.java:392. Original value:Process OPUS -->
     <string name="string_process_opus">處理 OPUS</string>
     <!-- Used in file DPOSProcessHybridRTKActivity.java:445. Original value:No files! -->
-    <string name="string_no_files_">No files!</string>
+    <string name="string_no_files_">無檔案!</string>
+    <!-- Used in file opus_process.xml:6. Original value:Attach Device -->
+    <string name="action_attach_device">連接設備</string>
     <!-- Used in file AndroidManifest.xml:34. Original value:OPUS Process -->
     <string name="title_activity_opus_process">OPUS 處理</string>
-    <!-- Used in file DPOSProcessActivity2.java:381. Original value:Main (app.javad.com) -->
-    <string name="string_main__app_javad_com_">Main (app.javad.com)</string>
+    <!-- Used in file AttachDeviceActivity.java:224. Original value:Main (app.javad.com) -->
+    <string name="string_main__app_javad_com_">主要 (app.javad.com)</string>
     <!-- Used in file DPOSProcessActivity2.java:337. Original value:to server -->
-    <string name="string_to_server">to server</string>
+    <string name="string_to_server">到伺服器</string>
+    <!-- Used in file AttachDeviceActivity.java:170. Original value:Revoke Connection -->
+    <string name="button_revoke">撤消連接</string>
     <!-- Used in file DPOSProcessActivity2.java:343. Original value:Get report -->
-    <string name="string_get_report">Get report</string>
-    <!-- Used in file dpos_process2.xml:7. Original value:Use Debug server -->
+    <string name="string_get_report">獲取報告</string>
+    <!-- Used in file attach_device.xml:7. Original value:Use Debug server -->
     <string name="use_debug_server">使用調試伺務器</string>
+    <!-- Used in file DPOS.java:1198. Original value:Processing&#8230; -->
+    <string name="string_processing___">處理中…</string>
     <!-- Used in file FileListActivity.java:94. Original value:Hide Log Folder -->
     <string name="string_hide_log_folder">隱藏記錄資件夾</string>
-    <!-- Used in file OpusProcessActivity.java:522. Original value:Processing&#8230; -->
-    <string name="string_processing___">處理中&#8230;</string>
+    <!-- Used in file list_hybrid_rtk_header.xml:44. Original value:Antenna Height -->
+    <string name="string_antenna_height">天線高</string>
     <!-- Used in file DPOSBaseActivity.java:190. Original value:Press to select -->
-    <string name="string_press_to_select">Press to select</string>
-    
+    <string name="string_press_to_select">按選擇</string>
 </resources>

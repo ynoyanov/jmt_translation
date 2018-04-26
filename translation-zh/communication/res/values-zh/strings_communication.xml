@@ -1,134 +1,152 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Used in file ConnectionBluetoothActivity.java:180. Original value:WiFi SSID is  -->
-    <string name="string_wifi_ssid_is_">WiFi SSID 是 </string>
-    <!-- Used in file MainCommunicationActivity.java:582. Original value:Network Port: -->
-    <string name="string_network_port_">網路埠:</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:135. Original value:This will use your WiFi settings to reprogram your receiver for WiFi connection. -->
-    <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">這將使用您的 WiFi 設定改變到您的接收儀由 WiFi 連接.</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:177. Original value:Reprogram WiFi for iPhone/iPad -->
-    <string name="string_reprogram_wifi_for_iphone_ipad">重新編程 WiFi 由  iPhone/iPad</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:101. Original value:and reprogram your receiver to connect to it with WiFi. -->
-    <string name="string_and_reprogram_your_receiver_to_connect_to_it_with_wifi_">及重新編程設定改變到您的接收儀道連接至此 WiFi.</string>
-    <!-- Used in file activity_connection.xml:79. Original value:Password -->
-    <string name="password">密碼</string>
-    <!-- Used in file activity_connection.xml:60. Original value:NetGear Login -->
-    <string name="login_netgear">NetGear 登錄</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:92. Original value:Delete entry -->
-    <string name="string_delete_entry">刪除條目</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:102. Original value:Mobile HotSpot is  -->
-    <string name="string_mobile_hotspot_is_">移動熱點</string>
-    <!-- Used in file MainCommunicationActivity.java:584. Original value:Password -->
-    <string name="string_password">密碼</string>
-    <!-- Used in file activity_connection.xml:50. Original value:Login -->
-    <string name="login">登錄</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:134. Original value:Reconnect with WiFi using AP -->
-    <string name="string_reconnect_with_wifi_using_ap">使用AP無線網絡重新連接</string>
-    <!-- Used in file MainCommunicationActivity.java:74. Original value:WiFi\nMobile -->
-    <string name="string_wifi_nmobile">WiFi\n移動手機</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name -->
-    <string name="setting_name">設定名稱</string>
-    <!-- Used in file MainCommunicationActivity.java:850. Original value:Wait!! -->
-    <string name="string_wait__">等待!</string>
-    <!-- Used in file activity_main_communication.xml:74. Original value:Network -->
-    <string name="ethernet_radio">網路</string>
-    <!-- Used in file MainCommunicationActivity.java:940. Original value:Exit application -->
-    <string name="string_exit_application">退出應用程式</string>
-    <!-- Used in file MainCommunicationActivity.java:583. Original value:Login -->
-    <string name="string_login">登錄</string>
-    <!-- Used in file ConfigurationManager.java:191. Original value:- - -without receiver- - -  -->
-    <string name="string_without_receiver">---不使用接收儀--- </string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:71. Original value:Are you sure you want to delete %d configurations? -->
-    <string name="string_are_you_sure_you_want_to_delete__d_configurations_">你確定要刪除 %d 配置?</string>
-    <!-- Used in file activity_connection_bluetooth.xml:95. Original value:Set receiver WiFi AdHoc mode for iPhone -->
-    <string name="button_wifi_iphone_reconnect">設定接收儀 WiFi AdHoc 模式由 iPhone</string>
-    <!-- Used in file MainCommunicationActivity.java:1040. Original value:Permission denied to obtain list of Bluetooth devices around -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:178. Original value:This will switch your JAVAD GNSS receiver WiFi into AdHoc mode. -->
-    <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">這將切換 JAVAD GNSS 接收儀 WiFi 成為 AdHoc 模式.</string>
-    <!-- Used in file MainCommunicationActivity.java:581. Original value:IP Address -->
-    <string name="string_ip_address">IP 位址</string>
-    <!-- Used in file activity_main_communication.xml:67. Original value:WiFi\n(Mob.AP) -->
-    <string name="wifi_ap_radio">WiFi\n(移動熱點)</string>
-    <!-- Used in file MainCommunicationActivity.java:179. Original value:Configuration could not be read -->
-    <string name="string_configuration_could_not_be_read">配置無法讀取</string>
-    <!-- Used in file MainCommunicationActivity.java:941. Original value:Do you want to exit the application? -->
-    <string name="string_do_you_want_to_exit_the_application_">你想退出應用程式?</string>
-    <!-- Used in file activity_main_communication.xml:53. Original value:Bluetooth -->
-    <string name="bluetooth_radio">藍芽</string>
-    <!-- Used in file activity_connection_bluetooth.xml:75. Original value:Reconnect with WiFi using the Android as Mobile Hotspot -->
-    <string name="button_wifi_ap_reconnect">重新連線WiFi使用Android移動熱點</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:99. Original value:Reconnect with WiFi using Android -->
-    <string name="string_reconnect_with_wifi_using_android">重新連線 WiFi 使用 Android</string>
-    <!-- Used in file MainCommunicationActivity.java:171. Original value:Connnected to  -->
-    <string name="string_connnected_to_">連接到 </string>
-    <!-- Used in file MainCommunicationActivity.java:72. Original value:Blt -->
-    <string name="string_blt">藍芽</string>
-    <!-- Used in file activity_connection_bluetooth.xml:61. Original value:WiFi Password -->
-    <string name="string_wifi_password">WiFi 密碼</string>
-    <!-- Used in file list_items_button.xml:13. Original value:Connect -->
-    <string name="button_connect">連線</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:179. Original value:That allows iPhone/iPad to be connected to this receiver with WiFi. -->
-    <string name="string_that_allows_iphone_ipad_to_be_connected_to_this_receiver_with_wifi_">這使的 iPhone/iPad 被連接到這個接收儀使以 WiFi.</string>
-    <!-- Used in file ConfigurationManager.java:168. Original value:- select a configuration -->
-    <string name="string_select_configuration_small">- 選擇一個配置</string>
-    <!-- Used in file ConnectionConfigurationRenameActivity.java:70. Original value:Rename Error! -->
-    <string name="string_rename_error_">更名錯誤!</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:136. Original value:The same AP will be used. -->
-    <string name="string_the_same_ap_will_be_used_">同一 AP 將被使用.</string>
-    <!-- Used in file MainCommunicationActivity.java:697. Original value:wifi AP is disabled&#8230; making it enabled -->
-    <string name="string_wifi_ap_is_disabled____making_it_enabled">wifi AP 被禁用; 使其啟用</string>
-    <!-- Used in file main_communication.xml:7. Original value:Refresh -->
-    <string name="action_refresh">更新</string>
-    <!-- Used in file MainCommunicationActivity.java:849. Original value:Please Wait!! -->
-    <string name="string_please_wait__">請等待!!</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:182. Original value:Do you want ot continue? -->
-    <string name="string_do_you_want_ot_continue_">你想繼續嗎?</string>
-    <!-- Used in file MainCommunicationActivity.java:304. Original value:Configuration %s could not be read -->
-    <string name="string_configuration__s_could_not_be_read">配置 %s 無法讀取</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel -->
-    <string name="button_cancel">取消</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:100. Original value:This will switch your Android device into Mobile HotSpot mode -->
-    <string name="string_this_will_switch_your_android_device_into_mobile_hotspot_mode">這將切換你的 Android 裝置進入移動熱點模式</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:166. Original value:Password length must be 8 chars! -->
-    <string name="string_password_length_must_be_8_chars_">密碼長度必須最少8個字元!</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:74. Original value:Are you sure you want to delete configuration \ -->
-    <string name="string_are_you_sure_you_want_to_delete_configuration__">你確定要刪除配置 \</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename -->
-    <string name="string_rename">更名</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:68. Original value:Are you sure you want to delete this entry? -->
-    <string name="string_are_you_sure_you_want_to_delete_this_entry_">你確定要刪除此項目?</string>
-    <!-- Used in file ConnectionConfigurationRenameActivity.java:63. Original value:Configuration with name %s already exist! -->
-    <string name="string_configuration_with_name__s_already_exist_">此名稱配置 %s 已經存在!</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:136. Original value:AP  -->
-    <string name="string_ap_">熱點 </string>
-    <!-- Used in file MainCommunicationActivity.java:73. Original value:WiFi -->
-    <string name="string_wifi">WiFi</string>
-    <!-- Used in file activity_connection_configurations.xml:19. Original value:New -->
-    <string name="string_new">新的</string>
-    <!-- Used in file connection.xml:7. Original value:Settings -->
-    <string name="action_settings">設定</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:76. Original value:Are you sure you want to delete configurations:\n -->
-    <string name="string_are_you_sure_you_want_to_delete_configurations__n">你確定要刪除配置:\n</string>
-    <!-- Used in file activity_main_communication.xml:60. Original value:WiFi -->
-    <string name="wifi_radio">WiFi</string>
-    <!-- Used in file MainCommunicationActivity.java:786. Original value:wifi is disabled&#8230; making it enabled -->
-    <string name="string_wifi_is_disabled____making_it_enabled">wifi已停用; 使其啟用</string>
-    <!-- Used in file activity_connection_configurations.xml:36. Original value:Delete -->
-    <string name="string_delete">刪除</string>
-    <!-- Used in file main_communication.xml:12. Original value:About -->
-    <string name="action_about">關於</string>
-    <!-- Used in file ConfigurationManager.java:170. Original value:- - - select a configuration - - -  -->
-    <string name="string_select_configuration">--- 選擇配置 --- </string>
-    <!-- Used in file ConnectionBluetoothActivity.java:181. Original value:WiFi password is %s. -->
-    <string name="string_wifi_password_is__s_">WiFi 密碼 %s.</string>
-    <!-- Used in file activity_connection_bluetooth.xml:85. Original value:Reconnect with WiFi using external AP -->
-    <string name="button_wifi_network_reconnect">使用外部AP無線網絡重新連接</string>
-    <!-- Used in file MainCommunicationActivity.java:75. Original value:Net -->
-    <string name="string_net">網路</string>
-    <!-- Used in file activity_main_communication.xml:36. Original value:Connection to receiver: -->
-    <string name="text_connection">連接到接收儀:</string>
-    <!-- Used in file MainCommunicationActivity.java:585. Original value:CONNECT -->
-    <string name="string_connect">連接</string>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: WiFi SSID is -->
+  <string name="string_wifi_ssid_is_">WiFi SSID 是 </string>
+  <!--Original value: Network Port:-->
+  <string name="string_network_port_">網路埠:</string>
+  <!--Original value: This will use your WiFi settings to reprogram your receiver for WiFi connection.-->
+  <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">這將使用您的 WiFi 設定改變到您的接收儀由 WiFi 連接.</string>
+  <!--Original value: Reprogram WiFi for iPhone/iPad-->
+  <string name="string_reprogram_wifi_for_iphone_ipad">重新編程 WiFi 由  iPhone/iPad</string>
+  <!--Original value: and reprogram your receiver to connect to it with WiFi.-->
+  <string name="string_and_reprogram_your_receiver_to_connect_to_it_with_wifi_">及重新編程設定改變到您的接收儀道連接至此 WiFi.</string>
+  <!--Original value: Password-->
+  <string name="password">密碼</string>
+  <!--Original value: NetGear Login-->
+  <string name="login_netgear">NetGear 登錄</string>
+  <!--Original value: Delete entry-->
+  <string name="string_delete_entry">刪除條目</string>
+  <!--Original value: Mobile HotSpot is -->
+  <string name="string_mobile_hotspot_is_">移動熱點</string>
+  <!--Original value: Password-->
+  <string name="string_password">密碼</string>
+  <!--Original value: Login-->
+  <string name="login">登錄</string>
+  <!--Original value: Reconnect with WiFi using AP-->
+  <string name="string_reconnect_with_wifi_using_ap">使用AP無線網絡重新連接</string>
+  <!--Original value: WiFi\nMobile-->
+  <string name="string_wifi_nmobile">WiFi\n移動手機</string>
+  <!--Original value: Settings Name-->
+  <string name="setting_name">設定名稱</string>
+  <!--Original value: Wait!!-->
+  <string name="string_wait__">等待!</string>
+  <!--Original value: Network-->
+  <string name="ethernet_radio">網路</string>
+  <!--Original value: Exit application-->
+  <string name="string_exit_application">退出應用程式</string>
+  <!--Original value: Login-->
+  <string name="string_login">登錄</string>
+  <!--Original value: - - -without receiver- - - -->
+  <string name="string_without_receiver">---不使用接收儀--- </string>
+  <!--Original value: Set receiver WiFi AdHoc mode for iPhone-->
+  <string name="button_wifi_iphone_reconnect">設定接收儀 WiFi AdHoc 模式由 iPhone</string>
+  <!--Original value: Are you sure you want to delete %d configurations?-->
+  <string name="string_are_you_sure_you_want_to_delete__d_configurations_">你確定要刪除 %d 配置?</string>
+  <!--Original value: Permission denied to obtain list of Bluetooth devices around-->
+  <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">權限被拒絕以獲取周圍的藍牙設備列表</string>
+  <!--Original value: This will switch your JAVAD GNSS receiver WiFi into AdHoc mode.-->
+  <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">這將切換 JAVAD GNSS 接收儀 WiFi 成為 AdHoc 模式.</string>
+  <!--Original value: IP Address-->
+  <string name="string_ip_address">IP 位址</string>
+  <!--Original value: WiFi\n(Mob.AP)-->
+  <string name="wifi_ap_radio">WiFi\n(移動熱點)</string>
+  <!--Original value: Configuration could not be read-->
+  <string name="string_configuration_could_not_be_read">配置無法讀取</string>
+  <!--Original value: Do you want to exit the application?-->
+  <string name="string_do_you_want_to_exit_the_application_">你想退出應用程式?</string>
+  <!--Original value: Bluetooth-->
+  <string name="bluetooth_radio">藍芽</string>
+  <!--Original value: Reconnect with WiFi using the Android as Mobile Hotspot-->
+  <string name="button_wifi_ap_reconnect">重新連線WiFi使用Android移動熱點</string>
+  <!--Original value: Reconnect with WiFi using Android-->
+  <string name="string_reconnect_with_wifi_using_android">重新連線 WiFi 使用 Android</string>
+  <!--Original value: Connnected to -->
+  <string name="string_connnected_to_">連接到 </string>
+  <!--Original value: Blt-->
+  <string name="string_blt">藍芽</string>
+  <!--Original value: WiFi Password-->
+  <string name="string_wifi_password">WiFi 密碼</string>
+  <!--Original value: Connect-->
+  <string name="button_connect">連線</string>
+  <!--Original value: That allows iPhone/iPad to be connected to this receiver with WiFi.-->
+  <string name="string_that_allows_iphone_ipad_to_be_connected_to_this_receiver_with_wifi_">這使的 iPhone/iPad 被連接到這個接收儀使以 WiFi.</string>
+  <!--Original value: - select a configuration-->
+  <string name="string_select_configuration_small">- 選擇一個配置</string>
+  <!--Original value: Rename Error!-->
+  <string name="string_rename_error_">更名錯誤!</string>
+  <!--Original value: The same AP will be used.-->
+  <string name="string_the_same_ap_will_be_used_">同一 AP 將被使用.</string>
+  <!--Original value: wifi AP is disabled… making it enabled-->
+  <string name="string_wifi_ap_is_disabled____making_it_enabled">wifi AP 被禁用; 使其啟用</string>
+  <!--Original value: Refresh-->
+  <string name="action_refresh">更新</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">請等待!!</string>
+  <!--Original value: Do you want ot continue?-->
+  <string name="string_do_you_want_ot_continue_">你想繼續嗎?</string>
+  <!--Original value: Configuration %s could not be read-->
+  <string name="string_configuration__s_could_not_be_read">配置 %s 無法讀取</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">取消</string>
+  <!--Original value: This will switch your Android device into Mobile HotSpot mode-->
+  <string name="string_this_will_switch_your_android_device_into_mobile_hotspot_mode">這將切換你的 Android 裝置進入移動熱點模式</string>
+  <!--Original value: Password length must be 8 chars!-->
+  <string name="string_password_length_must_be_8_chars_">密碼長度必須最少8個字元!</string>
+  <!--Original value: Are you sure you want to delete configuration \-->
+  <string name="string_are_you_sure_you_want_to_delete_configuration__">你確定要刪除配置 \</string>
+  <!--Original value: Rename-->
+  <string name="string_rename">更名</string>
+  <!--Original value: Are you sure you want to delete this entry?-->
+  <string name="string_are_you_sure_you_want_to_delete_this_entry_">你確定要刪除此項目?</string>
+  <!--Original value: AP -->
+  <string name="string_ap_">熱點 </string>
+  <!--Original value: Configuration with name %s already exist!-->
+  <string name="string_configuration_with_name__s_already_exist_">此名稱配置 %s 已經存在!</string>
+  <!--Original value: New-->
+  <string name="string_new">新的</string>
+  <!--Original value: WiFi-->
+  <string name="string_wifi">WiFi</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">設定</string>
+  <!--Original value: Are you sure you want to delete configurations:\n-->
+  <string name="string_are_you_sure_you_want_to_delete_configurations__n">你確定要刪除配置:\n</string>
+  <!--Original value: WiFi-->
+  <string name="wifi_radio">WiFi</string>
+  <!--Original value: wifi is disabled… making it enabled-->
+  <string name="string_wifi_is_disabled____making_it_enabled">wifi已停用; 使其啟用</string>
+  <!--Original value: About-->
+  <string name="action_about">關於</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">刪除</string>
+  <!--Original value: WiFi password is %s.-->
+  <string name="string_wifi_password_is__s_">WiFi 密碼 %s.</string>
+  <!--Original value: - - - select a configuration - - - -->
+  <string name="string_select_configuration">--- 選擇配置 --- </string>
+  <!--Original value: Reconnect with WiFi using external AP-->
+  <string name="button_wifi_network_reconnect">使用外部AP無線網絡重新連接</string>
+  <!--Original value: Connection to receiver:-->
+  <string name="text_connection">連接到接收儀:</string>
+  <!--Original value: Net-->
+  <string name="string_net">網路</string>
+  <!--Original value: CONNECT-->
+  <string name="string_connect">連接</string>
 </resources>

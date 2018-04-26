@@ -1,5 +1,24 @@
-﻿<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Used in file DrawLevels.java:151. Original value:View from top -->
     <string name="view_from_top">查看由頂部</string>
     <!-- Used in file DrawLevels.java:158. Original value:. -->
@@ -8,10 +27,14 @@
     <string name="top_view_string2">(如果需要，小於5度使用水準)</string>
     <!-- Used in file DrawLevels.java:374. Original value:No Calibration -->
     <string name="no_calibration">未校正</string>
+    <!-- Used in file DrawCompass.java:94. Original value:Please rotate -->
+    <string name="rotate_receiver_string">請旋轉</string>
     <!-- Used in file DrawLevels.java:156. Original value:Put the receiver on a flat surface -->
     <string name="top_view_string">將接收器放在平坦的表面上</string>
     <!-- Used in file DrawLevels.java:168. Original value:Do not move the receiver! -->
     <string name="do_not_move_string">不要移動接收儀!</string>
+    <!-- Used in file DrawCompass.java:95. Original value:your receiver -->
+    <string name="rotate_receiver_string2">您的接收儀</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:levels -->
     <string name="app_name">電子水準</string>
 </resources>
