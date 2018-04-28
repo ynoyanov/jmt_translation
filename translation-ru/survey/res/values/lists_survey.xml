@@ -36,34 +36,23 @@
         </string-array>
 
 <string-array name="occupation_time_rtk_array">
-        <item>1 sec</item>
-        <item>3 sec</item>
-        <item>5 sec</item>
-        <item>10 sec</item>
-        <item>15 sec</item>
-        <item>20 sec</item>
-        <item>30 sec</item>
-        <item>45 sec</item>
-        <item>1 min</item>
-        <item>2 mins</item>
-        <item>3 mins</item>
-        <item>5 mins</item>
-        <item>10 mins</item>
-        <item>15 mins</item>
-        <item>20 mins</item>
-        <item>30 mins</item>
-        <item>45 mins</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
-        <item>6 hours</item>
-        <item>10 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>48 hours</item>
         <item>Until stopped manually</item>
+    	<item>1 epoch</item>
+        <item>2 epochs</item>
+        <item>3 epochs</item>
+        <item>5 epochs</item>
+        <item>10 epochs</item>
+        <item>15 epochs</item>
+        <item>20 epochs</item>
+        <item>30 epochs</item>
+        <item>45 epochs</item>
+        <item>60 epochs</item>
+        <item>100 epochs</item>
+        <item>120 epochs</item>
+        <item>180 epochs</item>
+        <item>200 epochs</item>
+        <item>300 epochs</item>
+        <item>500 epochs</item>
         </string-array>
 
 <string-array name="logging_rate_array">
@@ -719,5 +708,77 @@
 	<string-array name="rtk_computation_mode">
 	    <item>Extrapolation</item>
 	    <item>Delay</item>
-	</string-array>	    	
+	</string-array>
+	
+	<string-array name="accept_hrms_array">
+        <item>All</item>
+        <item>0.5 cm</item>
+        <item>1 cm</item>
+        <item>1.5 cm</item>
+        <item>2 cm</item>
+        <item>3 cm</item>
+        <item>4 cm</item>
+        <item>5 cm</item>
+        <item>7 cm</item>
+        <item>10 cm</item>
+        <item>15 cm</item>
+        <item>30 cm</item>
+        <item>50 cm</item>
+        <item>1 m</item>
+        <item>2 m</item>
+        <item>3 m</item>
+        <item>5 m</item>
+        <item>10 m</item>
+        </string-array>
+			    	
+	<string-array name="accept_vrms_array">
+        <item>All</item>
+        <item>0.5 cm</item>
+        <item>1 cm</item>
+        <item>1.5 cm</item>
+        <item>2 cm</item>
+        <item>3 cm</item>
+        <item>4 cm</item>
+        <item>5 cm</item>
+        <item>7 cm</item>
+        <item>10 cm</item>
+        <item>15 cm</item>
+        <item>30 cm</item>
+        <item>50 cm</item>
+        <item>1 m</item>
+        <item>2 m</item>
+        <item>3 m</item>
+        <item>5 m</item>
+        <item>10 m</item>
+        </string-array>
+
+	<string-array name="accept_pdop_array">
+        <item>All</item>
+        <item>1.3</item>
+        <item>1.5</item>
+        <item>1.7</item>
+        <item>2.0</item>
+        <item>2.3</item>
+        <item>2.5</item>
+        <item>2.7</item>
+        <item>3.0</item>
+        <item>3.3</item>
+        <item>3.5</item>
+        <item>3.7</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>7.0</item>
+        <item>10.0</item>
+        <item>15.0</item>
+        <item>20.0</item>
+        <item>25.0</item>
+        <item>30.0</item>
+        </string-array>
+        
+	<string-array name="sound_schemes">
+        <item>Beeps</item>
+        <item>Voices</item>
+        <item>Off</item>
+    </string-array>
+		
 </resources>

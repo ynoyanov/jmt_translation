@@ -19,458 +19,514 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Wgs84-->
-  <string name="coordinate_wgs84">wgs84</string>
-  <!--Original value: %d vertices-->
-  <string name="string__d_vertices">%d вершин</string>
-  <!--Original value: Search-->
-  <string name="action_search">Поиск</string>
-  <!--Original value: MapInfo *.mif-->
-  <string name="string_mapinfo___mif">MapInfo *.mif</string>
-  <!--Original value: Use Fix Only-->
-  <string name="string_use_fix_only">Исп.только Fixed</string>
-  <!--Original value: Test-->
-  <string name="string_test">Тест</string>
-  <!--Original value: points-->
-  <string name="string_points">точки</string>
-  <!--Original value: Report *.*-->
-  <string name="string_report____">Отчет *.*</string>
-  <!--Original value: Duplicate Job-->
-  <string name="string_duplicate_job">Создать копию проекта</string>
-  <!--Original value: H.RMS:-->
-  <string name="string_h_rms_">План.СКО:</string>
-  <!--Original value: View Images/Audios-->
-  <string name="string_view_images_audios">Просмотр Фото/Аудио</string>
-  <!--Original value: Point name is empty!-->
-  <string name="string_point_name_is_empty_">Имя точки пустое!</string>
-  <!--Original value: Solution:-->
-  <string name="string_solution_">Решение:</string>
-  <!--Original value: Name-->
-  <string name="string_name">Имя точки</string>
-  <!--Original value: H.RMS-->
-  <string name="string_h_rms">Пл.СКО</string>
-  <!--Original value: NetCAD *.ncn-->
-  <string name="string_netcad___ncn">NetCAD *.ncn</string>
-  <!--Original value: All Jobs have successfully archieved to folder \'%s\'!-->
-  <string name="string_all_jobs_have_successfully_archieved_to_folder___s__">Все проекты успешно перенесены в папку %s!</string>
-  <!--Original value: No Localization-->
-  <string name="string_no_localization">без локализации</string>
-  <!--Original value: FH Freq-->
-  <string name="string_fh_freq">Част.FH</string>
-  <!--Original value: Organization-->
-  <string name="job_organization">Организация</string>
-  <!--Original value: Correction by Levels-->
-  <string name="string_correction_by_levels">Поправки уровнями</string>
-  <!--Original value: epochs-->
-  <string name="string_epochs">эпох</string>
-  <!--Original value: Delete %1$d selected points (of %2$d)-->
-  <string name="string_delete__1_d_selected_points__of__2_d_">Удалить %1$d выбранных точек (из %2$d)</string>
-  <!--Original value: Last time-->
-  <string name="string_last_time">Время конца</string>
-  <!--Original value: Design Points-->
-  <string name="string_design_points">Выносные точки</string>
-  <!--Original value: Satellites-->
-  <string name="string_satellites">Спутников</string>
-  <!--Original value: Share file with-->
-  <string name="string_share_file_with">Разделить файл с</string>
-  <!--Original value: Archieve Folder-->
-  <string name="action_arhieve_folder">Архивация проектов</string>
-  <!--Original value: Imported OK-->
-  <string name="string_imported_ok">Успешно загружено</string>
-  <!--Original value: Applying setting…-->
-  <string name="string_applying_setting___">Настройки применяются...</string>
-  <!--Original value: Vertical-->
-  <string name="height_vertical">Верт.</string>
-  <!--Original value: Show antenna vertical offset-->
-  <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
-  <!--Original value: Protocol-->
-  <string name="string_protocol">Протокол</string>
-  <!--Original value: Epochs collected-->
-  <string name="string_epochs_collected">Собрано эпох</string>
-  <!--Original value: Catalog Points-->
-  <string name="string_catalog_points">Точки каталога</string>
-  <!--Original value: Vertical Offset-->
-  <string name="antenna_vertical_offset">Вертикальный отступ</string>
-  <!--Original value: Check All-->
-  <string name="string_check_all">Отметить все</string>
-  <!--Original value: Epoch Filter-->
-  <string name="string_epoch_filter">Фильтр эпох</string>
-  <!--Original value: Antenna Type-->
-  <string name="antenna_type">Антенна</string>
-  <!--Original value: rtkbases-->
-  <string name="string_rtkbases">rtkbases</string>
-  <!--Original value: Point name is too long!\nLimit it up to 40 chars, please-->
-  <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Слишком длинное имя.\nОграничение 40 символов</string>
-  <!--Original value: LandXML *.xml-->
-  <string name="string_landxml___xml">LandXML *.xml</string>
-  <!--Original value: Map-->
-  <string name="action_map">Карта</string>
-  <!--Original value: Delete point %s-->
-  <string name="string_delete_point__s">Удалить точку %s</string>
-  <!--Original value: SimCard-->
-  <string name="string_simcard">SIM-карта</string>
-  <!--Original value: Error-->
-  <string name="string_error">Ошибка</string>
-  <!--Original value: HRMS:-->
-  <string name="string_hrms_">ПлСКО:</string>
-  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
-  <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Точка %1$s успешно добавлена в каталог %2$s</string>
-  <!--Original value: Antenna Id is not selected!-->
-  <string name="string_antenna_id_is_not_selected_">Антенна не выбрана!</string>
-  <!--Original value: FH EU-->
-  <string name="string_fh_eu">FH EU</string>
-  <!--Original value: Sats:-->
-  <string name="string_sats_">Спутн.:</string>
-  <!--Original value: Job %s already exists!-->
-  <string name="string_job__s_already_exists_">Проект %s уже существует!</string>
-  <!--Original value: Import-->
-  <string name="action_import">Импорт</string>
-  <!--Original value: Wrong antenna height!-->
-  <string name="string_wrong_antenna_height_">Неверная высота антенны!</string>
-  <!--Original value: Name-->
-  <string name="point_name">Имя</string>
-  <!--Original value: No points to delete!-->
-  <string name="string_no_points_to_delete_">Нет точек для удаления</string>
-  <!--Original value: ExportDxf-->
-  <string name="string_exportdxf">ЭкспортDXF</string>
-  <!--Original value: rtkbase-->
-  <string name="string_rtkbase">rtkbase</string>
-  <!--Original value: Scale:%.6f-->
-  <string name="string_scale___6f">Масштаб:%.6f</string>
-  <!--Original value: Slant-->
-  <string name="height_slant">Накл.</string>
-  <!--Original value: Height-->
-  <string name="height">Высота</string>
-  <!--Original value: Descr.-->
-  <string name="description">Описание</string>
-  <!--Original value: MapInfo *.tab-->
-  <string name="string_mapinfo___tab">MapInfo *.tab</string>
-  <!--Original value: Wrong slant height!-->
-  <string name="string_wrong_slant_height_">Неверная наклонная высота</string>
-  <!--Original value: PDOP-->
-  <string name="string_pdop">PDOP</string>
-  <!--Original value: Comment-->
-  <string name="string_comment">Описание</string>
-  <!--Original value: Add new point-->
-  <string name="string_add_new_point">Добавить новую точку</string>
-  <!--Original value: Use Any Epoches-->
-  <string name="string_use_any_epoches">Исп-ть все эпохи</string>
-  <!--Original value: UHF Freq-->
-  <string name="string_uhf_freq">Частота</string>
-  <!--Original value: Description-->
-  <string name="string_descriptionhint">Описание</string>
-  <!--Original value: Manual Stop-->
-  <string name="string_manual_stop">Остановка вручную</string>
-  <!--Original value: Localization-->
-  <string name="localization">Локализация</string>
-  <!--Original value: Wrong vertical offset!-->
-  <string name="string_wrong_vertical_offset_">Неверный отступ антенны!</string>
-  <!--Original value: Hybrid RTK:-->
-  <string name="string_hybrid_rtk_">Гибридный RTK:</string>
-  <!--Original value: Code-->
-  <string name="code">Код</string>
-  <!--Original value: Verify Mode-->
-  <string name="string_verify_mode">Режим Проверки</string>
-  <!--Original value: Calendar-->
-  <string name="action_calendar">Календарь</string>
-  <!--Original value: vert.-->
-  <string name="string_vert_">верт.</string>
-  <!--Original value: Can\'t add point %s to catalog!-->
-  <string name="string_can_t_add_point__s_to_catalog_">Не удалось добавать точку %s в каталог!</string>
-  <!--Original value: Processed OK-->
-  <string name="string_processed_ok">Обработанно</string>
-  <!--Original value: dN:%.3f-->
-  <string name="string_dn___3f">dN:%.3f</string>
-  <!--Original value: MapInfo *.mif, *.tab-->
-  <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
-  <!--Original value: Can\'t add rtk base %s to catalog!-->
-  <string name="string_can_t_add_rtk_base__s_to_catalog_">Не удалось добавить базу %s в каталог!</string>
-  <!--Original value: And move all %d rover points from it-->
-  <string name="string_and_move_all__d_rover_points_from_it">И переместить %d точек ровера, снятых с нее</string>
-  <!--Original value: Occ.time:-->
-  <string name="string_occ_time_">Время стояния:</string>
-  <!--Original value: RCV Server-->
-  <string name="string_rcv_server">RCV сервер</string>
-  <!--Original value: storage-->
-  <string name="app_name">storage</string>
-  <!--Original value: Import-->
-  <string name="string_import">Импорт</string>
-  <!--Original value: Time-->
-  <string name="string_time">Время</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="string_permission_denied_to_write_to_your_external_storage">Запрещен доступ к памяти устройства</string>
-  <!--Original value: job-->
-  <string name="string_job">проект</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Код</string>
-  <!--Original value: Point %s already exists!-->
-  <string name="string_point__s_already_exists_">Точка с именем %s уже существует!</string>
-  <!--Original value: Import error #-->
-  <string name="string_import_error__">Ошибка импорта №</string>
-  <!--Original value: HDOP-->
-  <string name="string_hdop">HDOP</string>
-  <!--Original value: View on Map-->
-  <string name="string_view_on_map">Показать на карте</string>
-  <!--Original value: RTK base %1$s was successfully added into catalog %2$s-->
-  <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK база %1$s добавлена в каталог %2$s</string>
-  <!--Original value: Edit Job-->
-  <string name="string_edit_job">Редак-ть проект</string>
-  <!--Original value: Import error-->
-  <string name="string_import_error">Ошибка импорта</string>
-  <!--Original value: Delete %1$s %2$s-->
-  <string name="string_delete__1_s__2_s">Удалить %1$s %2$s</string>
-  <!--Original value: Share Job-->
-  <string name="string_share_job">Отправить проект</string>
-  <!--Original value: AH:%.3f-->
-  <string name="string_ah___3f">AH:%.3f</string>
-  <!--Original value: Point %1$s was successfully added into catalog %2$s-->
-  <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Точка %1$s добавлена в каталог %2$s</string>
-  <!--Original value: Unprocessed-->
-  <string name="string_unprocessed">Необработанно</string>
-  <!--Original value: Time:-->
-  <string name="string_time_">Время:</string>
-  <!--Original value: SN-->
-  <string name="string_sn">Номер</string>
-  <!--Original value: VRMS:%.3f-->
-  <string name="string_vrms___3f">ВСКО:%.3f</string>
-  <!--Original value: Jps file-->
-  <string name="string_filename">Файл jps</string>
-  <!--Original value: Zoom All-->
-  <string name="action_map_zoomall">Показать все</string>
-  <!--Original value: point-->
-  <string name="string_point">точка</string>
-  <!--Original value: Add to catalog %s-->
-  <string name="string_add_to_catalog__s">Добавить в каталог %s</string>
-  <!--Original value: All %s were deleted-->
-  <string name="string_all__s_were_deleted">Все %s были удалены</string>
-  <!--Original value: Origin-->
-  <string name="coordinate_origin">Начало</string>
-  <!--Original value: Modify-->
-  <string name="button_modify">Изменить</string>
-  <!--Original value: AutoCad Drawing *.dwg-->
-  <string name="string_autocad_drawing___dwg">Чертеж AutoCAD *.dwg</string>
-  <!--Original value: Delete %1$d filtered points (of %2$d)-->
-  <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
-  <!--Original value: Job name is empty!-->
-  <string name="string_job_name_is_empty_">Имя работы пустое!</string>
-  <!--Original value: Select folder-->
-  <string name="button_select_folder">Выбор папки</string>
-  <!--Original value: Delete Job-->
-  <string name="string_delete_job">Удалить работы</string>
-  <!--Original value: Sort-->
-  <string name="action_sort">Сортировка</string>
-  <!--Original value: Write to text files-->
-  <string name="write_to_text_files">Писать в текстовые файлы</string>
-  <!--Original value: Antenna Height-->
-  <string name="antenna_height_storage">Высота антенны</string>
-  <!--Original value: Select Export Type-->
-  <string name="string_select_export_type">Выберите тип экспорта</string>
-  <!--Original value: Auto Archieve Jobs to Folder-->
-  <string name="check_archieve_folder">Автоархивация проектов в папку</string>
-  <!--Original value: Dwg import is unsuppurted-->
-  <string name="string_dwg_import_is_unsuppurted">Импорт DWG не поддерживается</string>
-  <!--Original value: TS Points-->
-  <string name="string_ts_points">Тах.точки</string>
-  <!--Original value: CH:%.3f-->
-  <string name="string_ch___3f">CH:%.3f</string>
-  <!--Original value: ASCII file *.txt, *.sdr …-->
-  <string name="string_ascii_file___txt____sdr____">Текст.файл *.txt, *.sdr и др.</string>
-  <!--Original value: View/Edit %s-->
-  <string name="string_view_edit__s">Просмотр/Правка %s</string>
-  <!--Original value: Survey Points-->
-  <string name="string_survey_points">Снятые точки</string>
-  <!--Original value: Hybrid RTK-->
-  <string name="string_hybrid_rtk">Гибридный RTK</string>
-  <!--Original value: Close-->
-  <string name="string_close">Закрыть</string>
-  <!--Original value: Measure Units-->
-  <string name="measure_units">Единицы измерения</string>
-  <!--Original value: Can\'t load importexport library!-->
-  <string name="string_can_t_load_importexport_library_">Не удалось загрузить библиотеку importexport!</string>
-  <!--Original value: Solution-->
-  <string name="string_solution">Решение</string>
-  <!--Original value: Job Archieving is activated to folder \'%s\'!-->
-  <string name="string_job_archieving_is_activated_to_folder___s__">Архивация проектов в папку \'%s\'</string>
-  <!--Original value: Export-->
-  <string name="string_export">Экспорт</string>
-  <!--Original value: V.RMS-->
-  <string name="string_v_rms">Выс.СКО</string>
-  <!--Original value: The job is empty-->
-  <string name="string_the_job_is_empty">Работа пуста</string>
-  <!--Original value: Credo *.top-->
-  <string name="string_credo___top">CREDO *.top</string>
-  <!--Original value: Job Archieving is turned OFF-->
-  <string name="string_job_archieving_is_turned_off">Арихивация проектов ОТКЛЮЧЕНА</string>
-  <!--Original value: Contouring-->
-  <string name="action_contouring">Изолинии</string>
-  <!--Original value: %d points in the job-->
-  <string name="string__d_points_in_the_job">в работе %d точек</string>
-  <!--Original value: Layers-->
-  <string name="string_layers">Слои</string>
-  <!--Original value: VRS(NEH)-->
-  <string name="coordinate_neh">VRS(NEH)</string>
-  <!--Original value: GNSS Receiver-->
-  <string name="string_gnss_receiver">Приемник</string>
-  <!--Original value: MultiRTK Mode-->
-  <string name="string_multirtk_mode">Режим MultiRTK</string>
-  <!--Original value: Receive-->
-  <string name="action_receive">Получить</string>
-  <!--Original value: Importing-->
-  <string name="string_importing">Импорт</string>
-  <!--Original value: Ntrip Server-->
-  <string name="string_ntrip_server">Ntrip сервер</string>
-  <!--Original value: on-->
-  <string name="string_on">вкл.</string>
-  <!--Original value: Recalculate-->
-  <string name="button_recalculaye">Пересчитать</string>
-  <!--Original value: Move-->
-  <string name="string_move">Сдвинуть</string>
-  <!--Original value: jobs-->
-  <string name="string_jobs">прое-ов</string>
-  <!--Original value: File name:-->
-  <string name="string_file_name_">Имя файла:</string>
-  <!--Original value: Base dist:-->
-  <string name="string_base_dist_">Раст.до базы:</string>
-  <!--Original value: Do you want to delete all %1$d %2$s?-->
-  <string name="string_do_you_want_to_delete_all__1_d__2_s_">Удалить все %1$d %2$s?</string>
-  <!--Original value: Delete all %s-->
-  <string name="string_delete_all__s">Удалить все %s</string>
-  <!--Original value: Rotation:%s-->
-  <string name="string_rotation__s">Поворот:%s</string>
-  <!--Original value: dE:%.3f-->
-  <string name="string_de___3f">dE:%.3f</string>
-  <!--Original value: Delete All Design-->
-  <string name="action_delete_all">Удалить все выносные</string>
-  <!--Original value: AutoCad Drawing *.dxf-->
-  <string name="string_autocad_drawing___dxf">Чертеж AutoCAD *.dxf</string>
-  <!--Original value: Start Time-->
-  <string name="string_start_time">Время начала</string>
-  <!--Original value: Don\'t use Job Archieving-->
-  <string name="string_don_t_use_job_archieving">Не использовать архивацию проектов</string>
-  <!--Original value: HRMS:%.3f-->
-  <string name="string_hrms___3f">Пл.СКО:%.3f</string>
-  <!--Original value: FH USA-->
-  <string name="string_fh_usa">FH USA</string>
-  <!--Original value: %s is not a folder!-->
-  <string name="string__s_is_not_a_folder_">%s - не папка!</string>
-  <!--Original value: TS point-->
-  <string name="string_ts_point">Тах.точки</string>
-  <!--Original value: FH FRule-->
-  <string name="string_fh_frule">Част.правило</string>
-  <!--Original value: Use Fix or Float-->
-  <string name="string_use_fix_or_float">Исп-ть Fix или Float</string>
-  <!--Original value: New Job-->
-  <string name="string_new_job">Новый проект</string>
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="string_permission_denied_to_read_from_your_external_storage">Требуются разрешение для доступа к памяти устройства</string>
-  <!--Original value: SurveyInfo:\n\n-->
-  <string name="survey_info">Съем.Информация:\n\n</string>
-  <!--Original value: Search-->
-  <string name="search_hint">Поиск</string>
-  <!--Original value: on (-->
-  <string name="string_on__">в (</string>
-  <!--Original value: BH:%.3f-->
-  <string name="string_bh___3f">BH:%.3f</string>
-  <!--Original value: Code-->
-  <string name="string_code">Код</string>
-  <!--Original value: No file selected!-->
-  <string name="string_no_file_selected_">Нет выбранных файлов!</string>
-  <!--Original value: off-->
-  <string name="string_off">выкл.</string>
-  <!--Original value: Coordinate System-->
-  <string name="coordinate_system">Система координат</string>
-  <!--Original value: Hz-->
-  <string name="string_hz">Гц</string>
-  <!--Original value: Select Job-->
-  <string name="string_select_job">Выбрать работу</string>
-  <!--Original value: V.RMS:-->
-  <string name="string_v_rms_">Верт.СКО:</string>
-  <!--Original value: Begin time-->
-  <string name="string_begin_time">Время начала</string>
-  <!--Original value: Base Id-->
-  <string name="string_id">Ид.базы</string>
-  <!--Original value: no identical points-->
-  <string name="string_no_identical_points">нет идент.точек</string>
-  <!--Original value: Job name is too long!\nLimit it up to 40 chars, please-->
-  <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Имя работы слишко длинно!\nДопускается не более 40 символов</string>
-  <!--Original value: CSD Phone-->
-  <string name="string_csd_phone">GSM</string>
-  <!--Original value: DPOS/OPUS-->
-  <string name="string_dpos">DPOS/OPUS</string>
-  <!--Original value: Correction Source-->
-  <string name="string_correction_source">Источник поправок</string>
-  <!--Original value: ASCII file *.txt-->
-  <string name="string_ascii_file___txt">Текстовый файл .txt</string>
-  <!--Original value: 5 Hz mode-->
-  <string name="string_5_hz_mode">режим 5 Гц</string>
-  <!--Original value: Modify RTK Base-->
-  <string name="string_modify_rtk_base">Изменить RTK базу</string>
-  <!--Original value: TDOP-->
-  <string name="string_tdop">TDOP</string>
-  <!--Original value: Height Type-->
-  <string name="height_type">Тип высоты</string>
-  <!--Original value: Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)-->
-  <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Хотите переместить RTK базу на %1$s (dN:%2$s dE:%3$s dH:%4$s)</string>
-  <!--Original value: ESRI ArcGis *.shp-->
-  <string name="string_esri_arcgis___shp">ESRI ArcGIS *.shp</string>
-  <!--Original value: North-->
-  <string name="north">Север</string>
-  <!--Original value: Comment-->
-  <string name="job_comment">Комментарий</string>
-  <!--Original value: RTK Bases-->
-  <string name="string_rtk_bases">RTK базы</string>
-  <!--Original value: Add-->
-  <string name="action_add">Добавить</string>
-  <!--Original value: Mount point-->
-  <string name="string_mount_point">Точка подключения</string>
-  <!--Original value: Base:-->
-  <string name="string_base_">База:</string>
-  <!--Original value: Lift&Tilt Survey-->
-  <string name="string_lift_tilt_survey">Съемка Lift-Tilt</string>
-  <!--Original value: East-->
-  <string name="east">Восток</string>
-  <!--Original value: Surveyor-->
-  <string name="job_surveyor">Съемщик</string>
-  <!--Original value: Identical Points-->
-  <string name="string_identical_points">Идентичные точки</string>
-  <!--Original value: Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.-->
-  <string name="archieve_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
-  <!--Original value: Survey Settings-->
-  <string name="string_survey_settings">Настройки съемки</string>
-  <!--Original value: Folder %s doesn\'t exist!-->
-  <string name="string_folder__s_doesn_t_exist_">Папка %s не существует!</string>
-  <!--Original value: Survey Info-->
-  <string name="string_survey_info">Информация о снятом</string>
-  <!--Original value: Google KML *.kml-->
-  <string name="string_google_kml___kml">Google KML *.kml</string>
-  <!--Original value: End Time-->
-  <string name="string_end_time">Время конца</string>
-  <!--Original value: slant-->
-  <string name="string_slant">накл.</string>
-  <!--Original value: Occupation Time-->
-  <string name="string_occupation_time">Время стояния</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Удалить</string>
-  <!--Original value: engines)-->
-  <string name="string_engines_">движков)</string>
-  <!--Original value: Status-->
-  <string name="string_status">Статус</string>
-  <!--Original value: UHF Prot.-->
-  <string name="string_uhf_prot_">Протокол УВЧ</string>
-  <!--Original value: Antenna-->
-  <string name="button_antenna">Антенна</string>
-  <!--Original value: Name-->
-  <string name="job_name">Имя</string>
-  <!--Original value: VDOP-->
-  <string name="string_vdop">VDOP</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Отменить</string>
-  <!--Original value: Listen Audio-->
-  <string name="string_listen_audio">Прослушать звук</string>
-  <!--Original value: Delete-->
-  <string name="action_delete">Удалить</string>
-  <!--Original value: View/Edit point-->
-  <string name="string_view_edit_point">Просмотр/Правка точки</string>
-  <!--Original value: trajectory-->
-  <string name="string_trajectory">траект.</string>
+    <!-- Used in file activity_point.xml:196. Original value:Wgs84    -->
+    <string name="coordinate_wgs84">wgs84</string>
+    <!-- Used in file rtkbases.xml:10. Original value:Search    -->
+    <string name="action_search">Поиск</string>
+    <!-- Used in file RTKBasesActivity.java:89. Original value:Process    -->
+    <string name="string_dpos_sort">Process</string>
+    <!-- Used in file activity_job.xml:70. Original value:Organization    -->
+    <string name="job_organization">Организация</string>
+    <!-- Used in file TSPointsActivity.java:69. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_rtkbase.xml:241. Original value:Restore    -->
+    <string name="button_reset_vb_rtk">Restore</string>
+    <!-- Used in file jobs.xml:45. Original value:Archieve Folder    -->
+    <string name="action_arhieve_folder">Архивация проектов</string>
+    <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
+    <string name="height_vertical">Верт.</string>
+    <!-- Used in file activity_job.xml:211. Original value:Show antenna vertical offset    -->
+    <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
+    <!-- Used in file activity_point_antenna.xml:88. Original value:Vertical Offset    -->
+    <string name="antenna_vertical_offset">Вертикальный отступ</string>
+    <!-- Used in file activity_point_antenna.xml:28. Original value:Antenna Type    -->
+    <string name="antenna_type">Антенна</string>
+    <!-- Used in file rtkbases.xml:5. Original value:Map    -->
+    <string name="action_map">Карта</string>
+    <!-- Used in file null:0. Original value:HRMS:    -->
+    <string name="string_hrms_">ПлСКО:</string>
+    <!-- Used in file TSPointsActivity.java:72. Original value:Code    -->
+    <string name="string_code_sort">Code</string>
+    <!-- Used in file jobs.xml:35. Original value:Import    -->
+    <string name="action_import">Импорт</string>
+    <!-- Used in file activity_design_point.xml:30. Original value:Name    -->
+    <string name="point_name">Имя</string>
+    <!-- Used in file activity_point_antenna.xml:79. Original value:Slant    -->
+    <string name="height_slant">Накл.</string>
+    <!-- Used in file activity_design_point.xml:130. Original value:Height    -->
+    <string name="height">Высота</string>
+    <!-- Used in file activity_design_point.xml:50. Original value:Descr.    -->
+    <string name="description">Описание</string>
+    <!-- Used in file null:0. Original value:Comment    -->
+    <string name="string_comment">Описание</string>
+    <!-- Used in file list_points.xml:93. Original value:Description    -->
+    <string name="string_descriptionhint">Описание</string>
+    <!-- Used in file activity_job.xml:151. Original value:Localization    -->
+    <string name="localization">Локализация</string>
+    <!-- Used in file activity_design_point.xml:70. Original value:Code    -->
+    <string name="code">Код</string>
+    <!-- Used in file rtkbases.xml:22. Original value:Calendar    -->
+    <string name="action_calendar">Календарь</string>
+    <!-- Used in file activity_rtkbase.xml:136. Original value:Ref.Frame    -->
+    <string name="string_reference_frame">Ref.Frame</string>
+    <!-- Used in file activity_rtkbase.xml:197. Original value:Jps file    -->
+    <string name="string_filename_xml">Jps file</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:storage    -->
+    <string name="app_name">storage</string>
+    <!-- Used in file list_points.xml:66. Original value:Code    -->
+    <string name="string_codehint">Код</string>
+    <!-- Used in file TSPointsActivity.java:73. Original value:Comment    -->
+    <string name="string_comment_sort">Comment</string>
+    <!-- Used in file points.xml:39. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Показать все</string>
+    <!-- Used in file activity_archieve_folder.xml:49. Original value:Archieve to Dropbox    -->
+    <string name="archive_dropbox">Archieve to Dropbox</string>
+    <!-- Used in file activity_point.xml:203. Original value:Origin    -->
+    <string name="coordinate_origin">Исходные</string>
+    <!-- Used in file activity_rtkbase.xml:250. Original value:Modify    -->
+    <string name="button_modify">Изменить</string>
+    <!-- Used in file TSPointsActivity.java:71. Original value:Time    -->
+    <string name="string_time_sort">Time</string>
+    <!-- Used in file RTKBasesActivity.java:88. Original value:Filename    -->
+    <string name="string_filename_sort">Filename</string>
+    <!-- Used in file activity_archieve_folder.xml:37. Original value:Select folder    -->
+    <string name="button_select_folder">Выбор папки</string>
+    <!-- Used in file rtkbases.xml:16. Original value:Sort    -->
+    <string name="action_sort">Сортировка</string>
+    <!-- Used in file activity_job.xml:192. Original value:Write to text files    -->
+    <string name="write_to_text_files">Писать в текстовые файлы</string>
+    <!-- Used in file activity_point_antenna.xml:44. Original value:Antenna Height    -->
+    <string name="antenna_height_storage">Высота антенны</string>
+    <!-- Used in file activity_archieve_folder.xml:25. Original value:Auto Archieve Jobs to Folder    -->
+    <string name="check_archieve_folder">Автоархивация проектов в папку</string>
+    <!-- Used in file activity_job.xml:180. Original value:Measure Units    -->
+    <string name="measure_units">Единицы измерения</string>
+    <!-- Used in file points.xml:34. Original value:Contouring    -->
+    <string name="action_contouring">Изолинии</string>
+    <!-- Used in file RTKBasesActivity.java:86. Original value:Id    -->
+    <string name="string_id_sort">Id</string>
+    <!-- Used in file activity_rtkbase.xml:51. Original value:Base Id    -->
+    <string name="string_base_id">Base Id</string>
+    <!-- Used in file activity_point.xml:210. Original value:VRS(NEH)    -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file jobs.xml:40. Original value:Receive    -->
+    <string name="action_receive">Получить</string>
+    <!-- Used in file activity_point_antenna.xml:107. Original value:Recalculate    -->
+    <string name="button_recalculaye">Пересчитать</string>
+    <!-- Used in file design_points.xml:41. Original value:Delete All Design    -->
+    <string name="action_delete_all">Удалить все выносные</string>
+    <!-- Used in file JobActivity.java:87. Original value:New Job    -->
+    <string name="string_new_job">Новый проект</string>
+    <!-- Used in file activity_point.xml:241. Original value:SurveyInfo:\n\n    -->
+    <string name="survey_info">Съем.Информация:\n\n</string>
+    <!-- Used in file activity_design_points.xml:16. Original value:Search    -->
+    <string name="search_hint">Поиск</string>
+    <!-- Used in file null:0. Original value:Code    -->
+    <string name="string_code">Код</string>
+    <!-- Used in file activity_job.xml:130. Original value:Coordinate System    -->
+    <string name="coordinate_system">Система координат</string>
+    <!-- Used in file activity_archieve_folder.xml:54. Original value:Authorize Dropbox    -->
+    <string name="button_authorize_dropbox">Authorize Dropbox</string>
+    <!-- Used in file null:0. Original value:DPOS/OPUS    -->
+    <string name="string_dpos">DPOS/OPUS</string>
+    <!-- Used in file activity_point_antenna.xml:64. Original value:Height Type    -->
+    <string name="height_type">Тип высоты</string>
+    <!-- Used in file activity_design_point.xml:90. Original value:North    -->
+    <string name="north">Север</string>
+    <!-- Used in file activity_job.xml:90. Original value:Comment    -->
+    <string name="job_comment">Комментарий</string>
+    <!-- Used in file jobs.xml:5. Original value:Add    -->
+    <string name="action_add">Добавить</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:104. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey">Съемка Lift-Tilt</string>
+    <!-- Used in file activity_design_point.xml:110. Original value:East    -->
+    <string name="east">Восток</string>
+    <!-- Used in file activity_job.xml:50. Original value:Surveyor    -->
+    <string name="job_surveyor">Съемщик</string>
+    <!-- Used in file activity_archieve_folder.xml:18. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
+    <string name="archieve_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
+    <!-- Used in file activity_rtkbase.xml:184. Original value:Antenna    -->
+    <string name="button_antenna">Антенна</string>
+    <!-- Used in file activity_job.xml:30. Original value:Name    -->
+    <string name="job_name">Имя</string>
+    <!-- Used in file jobs.xml:50. Original value:Delete    -->
+    <string name="action_delete">Удалить</string>
+    <!--  Used in file SurveyPointListAdapter.java:133. Original value:%d vertices  -->
+    <string name="string__d_vertices">%d вершин</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:MapInfo *.mif  -->
+    <string name="string_mapinfo___mif">MapInfo *.mif</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Fix Only  -->
+    <string name="string_use_fix_only">Исп.только Fixed</string>
+    <!--  Used in file DesignPointsActivity.java:203. Original value:points  -->
+    <string name="string_points">точки</string>
+    <!--  Used in file SurveyPointsActivity.java:88. Original value:Test  -->
+    <string name="string_test">Тест</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:Report *.*  -->
+    <string name="string_report____">Отчет *.*</string>
+    <!--  Used in file JobsActivity.java:244. Original value:Duplicate Job  -->
+    <string name="string_duplicate_job">Создать копию проекта</string>
+    <!--  Used in file SurveyPointActivity.java:228. Original value:H.RMS:  -->
+    <string name="string_h_rms_">План.СКО:</string>
+    <!--  Used in file SurveyPointsActivity.java:337. Original value:View Images/Audios  -->
+    <string name="string_view_images_audios">Просмотр Фото/Аудио</string>
+    <!--  Used in file DesignPointActivity.java:224. Original value:Point name is empty!  -->
+    <string name="string_point_name_is_empty_">Имя точки пустое!</string>
+    <!--  Used in file SurveyPointActivity.java:224. Original value:Solution:  -->
+    <string name="string_solution_">Решение:</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:60. Original value:H.RMS  -->
+    <string name="string_h_rms">Пл.СКО</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:NetCAD *.ncn  -->
+    <string name="string_netcad___ncn">NetCAD *.ncn</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:783. Original value:All Jobs have successfully archieved to folder \'%s\'!  -->
+    <string name="string_all_jobs_have_successfully_archieved_to_folder___s__">Все проекты успешно перенесены в папку %s!</string>
+    <!--  Used in file JobActivity.java:492. Original value:No Localization  -->
+    <string name="string_no_localization">без локализации</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:134. Original value:FH Freq  -->
+    <string name="string_fh_freq">Част.FH</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:91. Original value:Correction by Levels  -->
+    <string name="string_correction_by_levels">Поправки уровнями</string>
+    <!--  Used in file SurveyPointActivity.java:227. Original value:epochs  -->
+    <string name="string_epochs">эпох</string>
+    <!--  Used in file TSPointsActivity.java:293. Original value:Delete %1$d selected points (of %2$d)  -->
+    <string name="string_delete__1_d_selected_points__of__2_d_">Удалить %1$d выбранных точек (из %2$d)</string>
+    <!--  Used in file JobActivity.java:227. Original value:Last time  -->
+    <string name="string_last_time">Время конца</string>
+    <!--  Used in file RTKBaseActivity.java:171. Original value:Restore RTK Base  -->
+    <string name="string_restore_rtk_base">Restore RTK Base</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:Design Points  -->
+    <string name="string_design_points">Выносные точки</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:62. Original value:Satellites  -->
+    <string name="string_satellites">Спутников</string>
+    <!--  Used in file ExportAndReport.java:2108. Original value:Share file with  -->
+    <string name="string_share_file_with">Разделить файл с</string>
+    <!--  Used in file JavadImport.java:253. Original value:Imported OK  -->
+    <string name="string_imported_ok">Успешно загружено</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:731. Original value:Applying setting&#8230;  -->
+    <string name="string_applying_setting___">Настройки применяются&#8230;</string>
+    <!--  Used in file RTKBaseActivity.java:175. Original value:Restore  -->
+    <string name="string_restore">Restore</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:112. Original value:Protocol  -->
+    <string name="string_protocol">Протокол</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:59. Original value:Epochs collected  -->
+    <string name="string_epochs_collected">Собрано эпох</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:Catalog Points  -->
+    <string name="string_catalog_points">Точки каталога</string>
+    <!--  Used in file TSPointsActivity.java:83. Original value:Check All  -->
+    <string name="string_check_all">Отметить все</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:84. Original value:Epoch Filter  -->
+    <string name="string_epoch_filter">Фильтр эпох</string>
+    <!--  Used in file RTKBasesActivity.java:110. Original value:rtkbases  -->
+    <string name="string_rtkbases">rtkbases</string>
+    <!--  Used in file DesignPointActivity.java:226. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Слишком длинное имя.\nОграничение 40 символов</string>
+    <!--  Used in file DesignPointsActivity.java:125. Original value:LandXML *.xml  -->
+    <string name="string_landxml___xml">LandXML *.xml</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:145. Original value:SimCard  -->
+    <string name="string_simcard">SIM-карта</string>
+    <!--  Used in file TSPointsActivity.java:278. Original value:Delete point %s  -->
+    <string name="string_delete_point__s">Удалить точку %s</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:111. Original value:Error  -->
+    <string name="string_error">Ошибка</string>
+    <!--  Used in file TSPointsActivity.java:360. Original value:Point %1$s was successfully added into catalog %2$s  -->
+    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Точка %1$s успешно добавлена в каталог %2$s</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:149. Original value:Antenna Id is not selected!  -->
+    <string name="string_antenna_id_is_not_selected_">Антенна не выбрана!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:133. Original value:FH EU  -->
+    <string name="string_fh_eu">FH EU</string>
+    <!--  Used in file SurveyPointActivity.java:230. Original value:Sats:  -->
+    <string name="string_sats_">Спутн.:</string>
+    <!--  Used in file JobActivity.java:465. Original value:Job %s already exists!  -->
+    <string name="string_job__s_already_exists_">Проект %s уже существует!</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:157. Original value:Wrong antenna height!  -->
+    <string name="string_wrong_antenna_height_">Неверная высота антенны!</string>
+    <!--  Used in file SurveyPointsActivity.java:90. Original value:ExportDxf  -->
+    <string name="string_exportdxf">ЭкспортDXF</string>
+    <!--  Used in file DesignPointsActivity.java:382. Original value:No points to delete!  -->
+    <string name="string_no_points_to_delete_">Нет точек для удаления</string>
+    <!--  Used in file DesignPointsActivity.java:127. Original value:RossReestr *.xml  -->
+    <string name="string_rossreestr___xml">RossReestr *.xml</string>
+    <!--  Used in file JobActivity.java:506. Original value:Scale:%.6f  -->
+    <string name="string_scale___6f">Масштаб:%.6f</string>
+    <!--  Used in file RTKBasesActivity.java:105. Original value:rtkbase  -->
+    <string name="string_rtkbase">rtkbase</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:MapInfo *.tab  -->
+    <string name="string_mapinfo___tab">MapInfo *.tab</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:162. Original value:Wrong slant height!  -->
+    <string name="string_wrong_slant_height_">Неверная наклонная высота</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:64. Original value:PDOP  -->
+    <string name="string_pdop">PDOP</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:701. Original value:Archive  -->
+    <string name="string_archive">Archive</string>
+    <!--  Used in file DesignPointsActivity.java:266. Original value:Add new point  -->
+    <string name="string_add_new_point">Добавить новую точку</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Any Epoches  -->
+    <string name="string_use_any_epoches">Исп-ть все эпохи</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:139. Original value:UHF Freq  -->
+    <string name="string_uhf_freq">Частота</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:87. Original value:Manual Stop  -->
+    <string name="string_manual_stop">Остановка вручную</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:169. Original value:Wrong vertical offset!  -->
+    <string name="string_wrong_vertical_offset_">Неверный отступ антенны!</string>
+    <!--  Used in file SurveyPointActivity.java:246. Original value:Hybrid RTK:  -->
+    <string name="string_hybrid_rtk_">Гибридный RTK:</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:97. Original value:Verify Mode  -->
+    <string name="string_verify_mode">Режим Проверки</string>
+    <!--  Used in file SurveyPointActivity.java:199. Original value:vert.  -->
+    <string name="string_vert_">верт.</string>
+    <!--  Used in file TSPointsActivity.java:362. Original value:Can\'t add point %s to catalog!  -->
+    <string name="string_can_t_add_point__s_to_catalog_">Не удалось добавать точку %s в каталог!</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:205. Original value:%1$s free from %2$s total  -->
+    <string name="string__1_s_free_from__2_s_total">%1$s free from %2$s total</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Processed OK  -->
+    <string name="string_processed_ok">Обработанно</string>
+    <!--  Used in file JobActivity.java:512. Original value:dN:%.3f  -->
+    <string name="string_dn___3f">dN:%.3f</string>
+    <!--  Used in file DesignPointsActivity.java:122. Original value:MapInfo *.mif, *.tab  -->
+    <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
+    <!--  Used in file RTKBasesActivity.java:273. Original value:Can\'t add rtk base %s to catalog!  -->
+    <string name="string_can_t_add_rtk_base__s_to_catalog_">Не удалось добавить базу %s в каталог!</string>
+    <!--  Used in file RTKBaseActivity.java:348. Original value:And move all %d rover points from it  -->
+    <string name="string_and_move_all__d_rover_points_from_it">И переместить %d точек ровера, снятых с нее</string>
+    <!--  Used in file SurveyPointActivity.java:227. Original value:Occ.time:  -->
+    <string name="string_occ_time_">Время стояния:</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:116. Original value:RCV Server  -->
+    <string name="string_rcv_server">RCV сервер</string>
+    <!--  Used in file design_points.xml:45. Original value:Import  -->
+    <string name="string_import">Импорт</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:629. Original value:Permission denied to write to your External storage  -->
+    <string name="string_permission_denied_to_write_to_your_external_storage">Запрещен доступ к памяти устройства</string>
+    <!--  Used in file JobsActivity.java:713. Original value:job  -->
+    <string name="string_job">проект</string>
+    <!--  Used in file DesignPointActivity.java:233. Original value:Point %s already exists!  -->
+    <string name="string_point__s_already_exists_">Точка с именем %s уже существует!</string>
+    <!--  Used in file JavadImport.java:481. Original value:Import error #  -->
+    <string name="string_import_error__">Ошибка импорта №</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:65. Original value:HDOP  -->
+    <string name="string_hdop">HDOP</string>
+    <!--  Used in file RTKBaseActivity.java:146. Original value:%d RTK points from this base  -->
+    <string name="string__d_rtk_points_from_this_base">%d RTK points from this base</string>
+    <!--  Used in file TSPointsActivity.java:281. Original value:View on Map  -->
+    <string name="string_view_on_map">Показать на карте</string>
+    <!--  Used in file RTKBasesActivity.java:271. Original value:RTK base %1$s was successfully added into catalog %2$s  -->
+    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK база %1$s добавлена в каталог %2$s</string>
+    <!--  Used in file JobsActivity.java:242. Original value:Edit Job  -->
+    <string name="string_edit_job">Редак-ть проект</string>
+    <!--  Used in file SurveyPointsActivity.java:329. Original value:Delete %1$s %2$s  -->
+    <string name="string_delete__1_s__2_s">Удалить %1$s %2$s</string>
+    <!--  Used in file JavadImport.java:364. Original value:Import error  -->
+    <string name="string_import_error">Ошибка импорта</string>
+    <!--  Used in file JobsActivity.java:251. Original value:Share Job  -->
+    <string name="string_share_job">Отправить проект</string>
+    <!--  Used in file JobActivity.java:518. Original value:AH:%.3f  -->
+    <string name="string_ah___3f">AH:%.3f</string>
+    <!--  Used in file DesignPointsActivity.java:366. Original value:Point %1$s was successfully added into catalog %2$s  -->
+    <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Точка %1$s добавлена в каталог %2$s</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Unprocessed  -->
+    <string name="string_unprocessed">Необработанно</string>
+    <!--  Used in file SurveyPointActivity.java:234. Original value:Time:  -->
+    <string name="string_time_">Время:</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:152. Original value:SN  -->
+    <string name="string_sn">Номер</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:73. Original value:Jps file  -->
+    <string name="string_filename">Файл jps</string>
+    <!--  Used in file JobActivity.java:530. Original value:VRMS:%.3f  -->
+    <string name="string_vrms___3f">ВСКО:%.3f</string>
+    <!--  Used in file DesignPointsActivity.java:198. Original value:point  -->
+    <string name="string_point">точка</string>
+    <!--  Used in file TSPointsActivity.java:300. Original value:Add to catalog %s  -->
+    <string name="string_add_to_catalog__s">Добавить в каталог %s</string>
+    <!--  Used in file RTKBaseActivity.java:172. Original value:Do you want to restore RTK base before modification?  -->
+    <string name="string_do_you_want_to_restore_rtk_base_before_modification_">Do you want to restore RTK base before modification?</string>
+    <!--  Used in file DesignPointsActivity.java:399. Original value:All %s were deleted  -->
+    <string name="string_all__s_were_deleted">Все %s были удалены</string>
+    <!--  Used in file JavadImport.java:96. Original value:AutoCad Drawing *.dwg  -->
+    <string name="string_autocad_drawing___dwg">Чертеж AutoCAD *.dwg</string>
+    <!--  Used in file TSPointsActivity.java:287. Original value:Delete %1$d filtered points (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
+    <!--  Used in file JobActivity.java:455. Original value:Job name is empty!  -->
+    <string name="string_job_name_is_empty_">Имя работы пустое!</string>
+    <!--  Used in file JobsActivity.java:239. Original value:Delete Job  -->
+    <string name="string_delete_job">Удалить работы</string>
+    <!--  Used in file ExportAndReport.java:138. Original value:Select Export Type  -->
+    <string name="string_select_export_type">Выберите тип экспорта</string>
+    <!--  Used in file JavadImport.java:512. Original value:Dwg import is unsuppurted  -->
+    <string name="string_dwg_import_is_unsuppurted">Импорт DWG не поддерживается</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:TS Points  -->
+    <string name="string_ts_points">Тах.точки</string>
+    <!--  Used in file JobActivity.java:524. Original value:CH:%.3f  -->
+    <string name="string_ch___3f">CH:%.3f</string>
+    <!--  Used in file SurveyPointsActivity.java:327. Original value:View/Edit %s  -->
+    <string name="string_view_edit__s">Просмотр/Правка %s</string>
+    <!--  Used in file JavadImport.java:95. Original value:ASCII file *.txt, *.sdr &#8230;  -->
+    <string name="string_ascii_file___txt____sdr____">Текст.файл *.txt, *.sdr и др.</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:Survey Points  -->
+    <string name="string_survey_points">Снятые точки</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:72. Original value:Hybrid RTK  -->
+    <string name="string_hybrid_rtk">Гибридный RTK</string>
+    <!--  Used in file TSPointsActivity.java:303. Original value:Close  -->
+    <string name="string_close">Закрыть</string>
+    <!--  Used in file JavadImport.java:343. Original value:Can\'t load importexport library!  -->
+    <string name="string_can_t_load_importexport_library_">Не удалось загрузить библиотеку importexport!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:49. Original value:Solution  -->
+    <string name="string_solution">Решение</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:776. Original value:Job Archieving is activated to folder \'%s\'!  -->
+    <string name="string_job_archieving_is_activated_to_folder___s__">Архивация проектов в папку \'%s\'</string>
+    <!--  Used in file design_points.xml:53. Original value:Export  -->
+    <string name="string_export">Экспорт</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:61. Original value:V.RMS  -->
+    <string name="string_v_rms">Выс.СКО</string>
+    <!--  Used in file JobActivity.java:197. Original value:The job is empty  -->
+    <string name="string_the_job_is_empty">Работа пуста</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:698. Original value:Warning!  -->
+    <string name="string_warning_">Warning!</string>
+    <!--  Used in file DesignPointsActivity.java:126. Original value:Credo *.top  -->
+    <string name="string_credo___top">CREDO *.top</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:786. Original value:Job Archieving is turned OFF  -->
+    <string name="string_job_archieving_is_turned_off">Арихивация проектов ОТКЛЮЧЕНА</string>
+    <!--  Used in file JobActivity.java:200. Original value:%d points in the job  -->
+    <string name="string__d_points_in_the_job">в работе %d точек</string>
+    <!--  Used in file DatabaseMapActivity.java:35. Original value:Layers  -->
+    <string name="string_layers">Слои</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:150. Original value:GNSS Receiver  -->
+    <string name="string_gnss_receiver">Приемник</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:101. Original value:MultiRTK Mode  -->
+    <string name="string_multirtk_mode">Режим MultiRTK</string>
+    <!--  Used in file JavadImport.java:229. Original value:Importing  -->
+    <string name="string_importing">Импорт</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:121. Original value:Ntrip Server  -->
+    <string name="string_ntrip_server">Ntrip сервер</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:103. Original value:on  -->
+    <string name="string_on">вкл.</string>
+    <!--  Used in file JobsActivity.java:718. Original value:jobs  -->
+    <string name="string_jobs">прое-ов</string>
+    <!--  Used in file RTKBaseActivity.java:354. Original value:Move  -->
+    <string name="string_move">Сдвинуть</string>
+    <!--  Used in file JobsActivity.java:705. Original value:Archieve SD card is unavailable!  -->
+    <string name="string_archieve_sd_card_is_unavailable_">Archieve SD card is unavailable!</string>
+    <!--  Used in file SurveyPointActivity.java:245. Original value:Base dist:  -->
+    <string name="string_base_dist_">Раст.до базы:</string>
+    <!--  Used in file DesignPointsActivity.java:390. Original value:Do you want to delete all %1$d %2$s?  -->
+    <string name="string_do_you_want_to_delete_all__1_d__2_s_">Удалить все %1$d %2$s?</string>
+    <!--  Used in file RTKBaseActivity.java:139. Original value:File name:  -->
+    <string name="string_file_name_">Имя файла:</string>
+    <!--  Used in file DesignPointsActivity.java:388. Original value:Delete all %s  -->
+    <string name="string_delete_all__s">Удалить все %s</string>
+    <!--  Used in file JobActivity.java:509. Original value:Rotation:%s  -->
+    <string name="string_rotation__s">Поворот:%s</string>
+    <!--  Used in file JobActivity.java:515. Original value:dE:%.3f  -->
+    <string name="string_de___3f">dE:%.3f</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:AutoCad Drawing *.dxf  -->
+    <string name="string_autocad_drawing___dxf">Чертеж AutoCAD *.dxf</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:69. Original value:Start Time  -->
+    <string name="string_start_time">Время начала</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:145. Original value:Don\'t use Job Archieving  -->
+    <string name="string_don_t_use_job_archieving">Не использовать архивацию проектов</string>
+    <!--  Used in file JobActivity.java:527. Original value:HRMS:%.3f  -->
+    <string name="string_hrms___3f">Пл.СКО:%.3f</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:128. Original value:FH USA  -->
+    <string name="string_fh_usa">FH USA</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:688. Original value:%s is not a folder!  -->
+    <string name="string__s_is_not_a_folder_">%s - не папка!</string>
+    <!--  Used in file TSPointsActivity.java:238. Original value:TS point  -->
+    <string name="string_ts_point">Тах.точки</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:129. Original value:FH FRule  -->
+    <string name="string_fh_frule">Част.правило</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Fix or Float  -->
+    <string name="string_use_fix_or_float">Исп-ть Fix или Float</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:619. Original value:Permission denied to read from your External storage  -->
+    <string name="string_permission_denied_to_read_from_your_external_storage">Требуются разрешение для доступа к памяти устройства</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:100. Original value:on (  -->
+    <string name="string_on__">в (</string>
+    <!--  Used in file JobActivity.java:521. Original value:BH:%.3f  -->
+    <string name="string_bh___3f">BH:%.3f</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:103. Original value:off  -->
+    <string name="string_off">выкл.</string>
+    <!--  Used in file JobsActivity.java:477. Original value:No file selected!  -->
+    <string name="string_no_file_selected_">Нет выбранных файлов!</string>
+    <!--  Used in file JavadImport.java:353. Original value:Data loaded. Parsing&#8230;  -->
+    <string name="string_data_loaded__parsing___">Data loaded. Parsing&#8230;</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:139. Original value:Hz  -->
+    <string name="string_hz">Гц</string>
+    <!--  Used in file JobsActivity.java:237. Original value:Select Job  -->
+    <string name="string_select_job">Выбрать работу</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:699. Original value:All your jobs will be MOVED from javad/jobs folder to SD card.  -->
+    <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">All your jobs will be MOVED from javad/jobs folder to SD card.</string>
+    <!--  Used in file SurveyPointActivity.java:229. Original value:V.RMS:  -->
+    <string name="string_v_rms_">Верт.СКО:</string>
+    <!--  Used in file JobActivity.java:225. Original value:Begin time  -->
+    <string name="string_begin_time">Время начала</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:151. Original value:Base Id  -->
+    <string name="string_id">Ид.базы</string>
+    <!--  Used in file JobActivity.java:537. Original value:no identical points  -->
+    <string name="string_no_identical_points">нет идент.точек</string>
+    <!--  Used in file JobActivity.java:457. Original value:Job name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Имя работы слишко длинно!\nДопускается не более 40 символов</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:144. Original value:CSD Phone  -->
+    <string name="string_csd_phone">GSM</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:110. Original value:Correction Source  -->
+    <string name="string_correction_source">Источник поправок</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:ASCII file *.txt  -->
+    <string name="string_ascii_file___txt">Текстовый файл .txt</string>
+    <!--  Used in file SurveyPointListAdapter.java:157. Original value:HRMS  -->
+    <string name="string_hrms">HRMS</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:94. Original value:5 Hz mode  -->
+    <string name="string_5_hz_mode">режим 5 Гц</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:67. Original value:TDOP  -->
+    <string name="string_tdop">TDOP</string>
+    <!--  Used in file RTKBaseActivity.java:350. Original value:Modify RTK Base  -->
+    <string name="string_modify_rtk_base">Изменить RTK базу</string>
+    <!--  Used in file RTKBaseActivity.java:348. Original value:Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)  -->
+    <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Хотите переместить RTK базу на %1$s (dN:%2$s dE:%3$s dH:%4$s)</string>
+    <!--  Used in file DesignPointsActivity.java:123. Original value:ESRI ArcGis *.shp  -->
+    <string name="string_esri_arcgis___shp">ESRI ArcGIS *.shp</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:RTK Bases  -->
+    <string name="string_rtk_bases">RTK базы</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:122. Original value:Mount point  -->
+    <string name="string_mount_point">Точка подключения</string>
+    <!--  Used in file SurveyPointActivity.java:245. Original value:Base:  -->
+    <string name="string_base_">База:</string>
+    <!--  Used in file JobActivity.java:535. Original value:Identical Points  -->
+    <string name="string_identical_points">Идентичные точки</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:79. Original value:Survey Settings  -->
+    <string name="string_survey_settings">Настройки съемки</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:684. Original value:Folder %s doesn\'t exist!  -->
+    <string name="string_folder__s_doesn_t_exist_">Папка %s не существует!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:45. Original value:Survey Info  -->
+    <string name="string_survey_info">Информация о снятом</string>
+    <!--  Used in file ExportAndReport.java:135. Original value:Google KML *.kml  -->
+    <string name="string_google_kml___kml">Google KML *.kml</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:70. Original value:End Time  -->
+    <string name="string_end_time">Время конца</string>
+    <!--  Used in file RTKBaseListAdapter.java:160. Original value:slant  -->
+    <string name="string_slant">накл.</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:88. Original value:Occupation Time  -->
+    <string name="string_occupation_time">Время стояния</string>
+    <!--  Used in file DesignPointsActivity.java:393. Original value:Delete  -->
+    <string name="string_delete">Удалить</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:699. Original value:Please backup the jobs manually before the action!  -->
+    <string name="string_please_backup_the_jobs_manually_before_the_action_">Please backup the jobs manually before the action!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:100. Original value:engines)  -->
+    <string name="string_engines_">движков)</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Status  -->
+    <string name="string_status">Статус</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:140. Original value:UHF Prot.  -->
+    <string name="string_uhf_prot_">Протокол УВЧ</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:66. Original value:VDOP  -->
+    <string name="string_vdop">VDOP</string>
+    <!--  Used in file JavadImport.java:264. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
+    <!--  Used in file SurveyPointsActivity.java:342. Original value:Listen Audio  -->
+    <string name="string_listen_audio">Прослушать звук</string>
+    <!--  Used in file SurveyPointsActivity.java:259. Original value:trajectory  -->
+    <string name="string_trajectory">траект.</string>
+    <!--  Used in file TSPointsActivity.java:276. Original value:View/Edit point  -->
+    <string name="string_view_edit_point">Просмотр/Правка точки</string>
+    <!-- UNUSED STRING 
+    <string name="string_name">Имя точки</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_time">Время</string>
+    -->
+
+
 </resources>

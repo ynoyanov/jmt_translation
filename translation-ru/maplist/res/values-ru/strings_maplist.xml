@@ -19,112 +19,125 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: MON-->
-  <string name="monday_short">ПН</string>
-  <!--Original value: CS-->
-  <string name="string_cs">СК</string>
-  <!--Original value: THU-->
-  <string name="thursday_short">ЧТ</string>
-  <!--Original value: Search-->
-  <string name="action_search">Поиск</string>
-  <!--Original value: Zoom All-->
-  <string name="action_map_zoomall">Показать все</string>
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Что делать с %1$s %2$s</string>
-  <!--Original value: Google Maps-->
-  <string name="google_maps">Google Maps</string>
-  <!--Original value: TUE-->
-  <string name="tuesday_short">ВТ</string>
-  <!--Original value: Points-->
-  <string name="string_points">Точки</string>
-  <!--Original value: Hide Selection-->
-  <string name="action_unselect">Отменить выбор</string>
-  <!--Original value: Open-->
-  <string name="open">Открыть</string>
-  <!--Original value: Code-->
-  <string name="string_code">Код</string>
-  <!--Original value: Desc-->
-  <string name="string_desc">Описание</string>
-  <!--Original value: Comment-->
-  <string name="string_comment">Описание</string>
-  <!--Original value: file-->
-  <string name="string_file">файл</string>
-  <!--Original value: UnSelect All-->
-  <string name="action_unselect_all">Снять выборку</string>
-  <!--Original value: Do you want to delete %s:-->
-  <string name="string_do_you_want_to_delete__s_">Хотите удалить %s:</string>
-  <!--Original value: Sort-->
-  <string name="action_sort">Сортировка</string>
-  <!--Original value: Zoom All-->
-  <string name="string_zoom_all">Показать все</string>
-  <!--Original value: Calendar-->
-  <string name="action_calendar">Календарь</string>
-  <!--Original value: Sort by-->
-  <string name="string_sort_by">Сортировать по</string>
-  <!--Original value: SUN-->
-  <string name="sunday_short">ВС</string>
-  <!--Original value: FRI-->
-  <string name="friday_short">ПТ</string>
-  <!--Original value: Open Street Map-->
-  <string name="open_street_maps">Open Street Map</string>
-  <!--Original value: Select-->
-  <string name="action_select">Выбрать</string>
-  <!--Original value: SAT-->
-  <string name="saturday_short">СБ</string>
-  <!--Original value: User CAD Drawing-->
-  <string name="user_cad_drawing">CAD-файл пользователя</string>
-  <!--Original value: Reading list of %s…-->
-  <string name="string_reading_list_of__s___">Загружается список %s …</string>
-  <!--Original value: maplist-->
-  <string name="app_name">maplist</string>
-  <!--Original value: Do you want to delete %1$d %2$s?-->
-  <string name="string_do_you_want_to_delete__1_d__2_s_">Удалить %1$d %2$s?</string>
-  <!--Original value: Time-->
-  <string name="string_time">Время</string>
-  <!--Original value: Select All-->
-  <string name="action_select_all">Выбрать все</string>
-  <!--Original value: Dialog-->
-  <string name="action_dialog">Окно</string>
-  <!--Original value: Refresh-->
-  <string name="action_refresh">Обновить</string>
-  <!--Original value: Yandex Maps-->
-  <string name="yandex_maps">Яндекс.Карты</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Карты от</string>
-  <!--Original value: [ . . . ]-->
-  <string name="button_select">[ . . . ]</string>
-  <!--Original value: Do you want to delete %1$s %2$s?-->
-  <string name="string_do_you_want_to_delete__1_s__2_s_">Удалить %1$s %2$s?</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Отменить</string>
-  <!--Original value: Delete %s-->
-  <string name="string_delete__s">Удалить %s</string>
-  <!--Original value: Size-->
-  <string name="string_size">Размер</string>
-  <!--Original value: Type-->
-  <string name="string_type_sort">Тип</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Настройки</string>
-  <!--Original value: WED-->
-  <string name="wednesday_short">СР</string>
-  <!--Original value: Apply-->
-  <string name="button_apply">Примениить</string>
-  <!--Original value: Inverse Selection-->
-  <string name="action_inverse_all">Инвентировать выборку</string>
-  <!--Original value: Map-->
-  <string name="action_map">Карта</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Удалить</string>
-  <!--Original value: Open calendar-->
-  <string name="hello">Открыть календарь</string>
-  <!--Original value: User Tiled Map-->
-  <string name="user_tiled_map">Карта пользователя</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Отменить</string>
-  <!--Original value: files-->
-  <string name="string_files">файлы</string>
-  <!--Original value: Delete-->
-  <string name="action_delete">Удалить</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Связь</string>
+    <!-- Used in file calendar2.xml:96. Original value:MON    -->
+    <string name="monday_short">ПН</string>
+    <!-- Used in file activity_sort_4.xml:31. Original value:CS    -->
+    <string name="string_cs">СК</string>
+    <!-- Used in file calendar2.xml:138. Original value:THU    -->
+    <string name="thursday_short">ЧТ</string>
+    <!-- Used in file sort.xml:11. Original value:Search    -->
+    <string name="action_search">Поиск</string>
+    <!-- Used in file map_calendar_menu.xml:65. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Показать все</string>
+    <!-- Used in file activity_map_provider.xml:18. Original value:Google Maps    -->
+    <string name="google_maps">Google Maps</string>
+    <!-- Used in file calendar2.xml:110. Original value:TUE    -->
+    <string name="tuesday_short">ВТ</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:221. Original value:Hide Selection    -->
+    <string name="action_unselect">Отменить выбор</string>
+    <!-- Used in file calendar_main.xml:13. Original value:Open    -->
+    <string name="open">Открыть</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:333. Original value:Time    -->
+    <string name="string_time_sort">Time</string>
+    <!-- Used in file activity_sort_2.xml:38. Original value:Desc    -->
+    <string name="string_desc">Описание</string>
+    <!-- Used in file map_calendar_menu.xml:56. Original value:UnSelect All    -->
+    <string name="action_unselect_all">Снять выборку</string>
+    <!-- Used in file sort.xml:6. Original value:Sort    -->
+    <string name="action_sort">Сортировка</string>
+    <!-- Used in file map_calendar_menu.xml:15. Original value:Calendar    -->
+    <string name="action_calendar">Календарь</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:330. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file calendar2.xml:180. Original value:SUN    -->
+    <string name="sunday_short">ВС</string>
+    <!-- Used in file calendar2.xml:152. Original value:FRI    -->
+    <string name="friday_short">ПТ</string>
+    <!-- Used in file activity_map_provider.xml:32. Original value:Open Street Map    -->
+    <string name="open_street_maps">Open Street Map</string>
+    <!-- Used in file map_calendar_menu.xml:30. Original value:Select    -->
+    <string name="action_select">Выбрать</string>
+    <!-- Used in file calendar2.xml:166. Original value:SAT    -->
+    <string name="saturday_short">СБ</string>
+    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing    -->
+    <string name="user_cad_drawing">CAD-файл пользователя</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:maplist    -->
+    <string name="app_name">maplist</string>
+    <!-- Used in file map_calendar_menu.xml:51. Original value:Select All    -->
+    <string name="action_select_all">Выбрать все</string>
+    <!-- Used in file map_calendar_menu.xml:5. Original value:Dialog    -->
+    <string name="action_dialog">Окно</string>
+    <!-- Used in file sort.xml:21. Original value:Refresh    -->
+    <string name="action_refresh">Обновить</string>
+    <!-- Used in file activity_map_provider.xml:25. Original value:Yandex Maps    -->
+    <string name="yandex_maps">Яндекс.Карты</string>
+    <!-- Used in file activity_map_provider.xml:94. Original value:[ . . . ]    -->
+    <string name="button_select">[ . . . ]</string>
+    <!-- Used in file activity_map_provider.xml:111. Original value:Cancel    -->
+    <string name="button_cancel">Отменить</string>
+    <!-- Used in file activity_sort.xml:31. Original value:Type    -->
+    <string name="string_type_sort">Тип</string>
+    <!-- Used in file sort.xml:27. Original value:Settings    -->
+    <string name="action_settings">Настройки</string>
+    <!-- Used in file calendar2.xml:124. Original value:WED    -->
+    <string name="wednesday_short">СР</string>
+    <!-- Used in file activity_map_provider.xml:121. Original value:Apply    -->
+    <string name="button_apply">Примениить</string>
+    <!-- Used in file map_calendar_menu.xml:61. Original value:Inverse Selection    -->
+    <string name="action_inverse_all">Инвентировать выборку</string>
+    <!-- Used in file map_calendar_menu.xml:10. Original value:Map    -->
+    <string name="action_map">Карта</string>
+    <!-- Used in file calendar_main.xml:10. Original value:Open calendar    -->
+    <string name="hello">Открыть календарь</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:332. Original value:Size    -->
+    <string name="string_size_sort">Size</string>
+    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map    -->
+    <string name="user_tiled_map">Карта пользователя</string>
+    <!-- Used in file sort.xml:16. Original value:Delete    -->
+    <string name="action_delete">Удалить</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:783. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Что делать с %1$s %2$s</string>
+    <!--  Used in file BaseProviderMapActivity.java:30. Original value:Points  -->
+    <string name="string_points">Точки</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:627. Original value:file  -->
+    <string name="string_file">файл</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:660. Original value:Do you want to delete %s:  -->
+    <string name="string_do_you_want_to_delete__s_">Хотите удалить %s:</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:301. Original value:Zoom All  -->
+    <string name="string_zoom_all">Показать все</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:370. Original value:Sort by  -->
+    <string name="string_sort_by">Сортировать по</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:527. Original value:Reading list of %s&#8230;  -->
+    <string name="string_reading_list_of__s___">Загружается список %s …</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:669. Original value:Do you want to delete %1$d %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_d__2_s_">Удалить %1$d %2$s?</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:296. Original value:MapProvider  -->
+    <string name="string_mapprovider">Карты от</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:709. Original value:Do you want to delete %1$s %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_s__2_s_">Удалить %1$s %2$s?</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:708. Original value:Delete %s  -->
+    <string name="string_delete__s">Удалить %s</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:711. Original value:Delete  -->
+    <string name="string_delete">Удалить</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:717. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:631. Original value:files  -->
+    <string name="string_files">файлы</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:269. Original value:Connect  -->
+    <string name="string_connect">Связь</string>
+    <!-- UNUSED STRING 
+    <string name="string_code">Код</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_name">Name</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_comment">Описание</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_time">Время</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_size">Размер</string>
+    -->
 </resources>

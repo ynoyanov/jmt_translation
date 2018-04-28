@@ -19,200 +19,222 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Press to add to cs favorites and finish-->
-  <string name="add_to_favorites_description">Нажмите для добавки СК в список избранных ск</string>
-  <!--Original value: Geoid-->
-  <string name="string_geoid">Геоид</string>
-  <!--Original value: Rewrite CS-->
-  <string name="string_rewrite_cs">Перезаписать СК</string>
-  <!--Original value: Can\'t save the settings!-->
-  <string name="string_can_t_save_the_settings_">Не удалось сохранить настройки!</string>
-  <!--Original value: East Ground-->
-  <string name="string_east_ground">Восток на местности</string>
-  <!--Original value: Localization changed-->
-  <string name="string_localization_changed">Локализация изменена</string>
-  <!--Original value: Longitude Orig.-->
-  <string name="string_longitude_origin">Нач.долгота</string>
-  <!--Original value: File javad/geodata/CoordinateSystemDB.db3 is corrupted!-->
-  <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
-  <!--Original value: problem with transformation-->
-  <string name="string_problem_with_transformation">проблема с транфсормацией</string>
-  <!--Original value: Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?-->
-  <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Хотите установить новую СК \'%1$s\' для текущего проекта \'%2$s\'?</string>
-  <!--Original value: Redownload-->
-  <string name="string_redownload">Загрузить</string>
-  <!--Original value: Scale Difference, ppm-->
-  <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
-  <!--Original value: Delete Points %s-->
-  <string name="string_delete_points__s">Удалить точку %s</string>
-  <!--Original value: Delete %1$d filtered Points (of %2$d)-->
-  <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точке (из %2$d)</string>
-  <!--Original value: Can\'t create coordinate system!-->
-  <string name="string_can_t_create_coordinate_system_">Не удалось создать систему координат!</string>
-  <!--Original value: Transformation-->
-  <string name="string_transformation">Преобразование</string>
-  <!--Original value: Delete Localization-->
-  <string name="action_delete_localization">Удалить локализацию</string>
-  <!--Original value: Name is empty!-->
-  <string name="string_name_is_empty_">Имя пустое!</string>
-  <!--Original value: Filter-->
-  <string name="action_filter">Фильтр</string>
-  <!--Original value: Delete %1$d filtered CSes (of %2$d)-->
-  <string name="string_delete__1_d_filtered_cses__of__2_d_">Удалить %1$d отобранных СК (из %2$d)</string>
-  <!--Original value: North origin-->
-  <string name="string_origin_north">Сдвиг на север</string>
-  <!--Original value: Survey-->
-  <string name="string_survey">Съемочные</string>
-  <!--Original value: Тип-->
-  <string name="identical_point_type">Тип</string>
-  <!--Original value: Close-->
-  <string name="string_close">Закрыть</string>
-  <!--Original value: No GeoData!-->
-  <string name="no_geodata_error">Нет GeoData!</string>
-  <!--Original value: nothing to compute-->
-  <string name="string_nothing_to_compute">нет данных для вычислений</string>
-  <!--Original value: Height Offset-->
-  <string name="string_height_offset">Отступ по высоте</string>
-  <!--Original value: Select CS-->
-  <string name="string_select_cs">Выбор СК</string>
-  <!--Original value: Vertical treshold-->
-  <string name="string_vertical_treshold">Вертикальный порог</string>
-  <!--Original value: Design-->
-  <string name="string_design">Выносные</string>
-  <!--Original value: Return and lost-->
-  <string name="string_return_and_lost">Вернуться и отменить изменения</string>
-  <!--Original value: North Ground-->
-  <string name="string_north_ground">Север наземный</string>
-  <!--Original value: CS with such name already exist!-->
-  <string name="string_cs_with_such_name_already_exist_">СК с таким именем уже существует!</string>
-  <!--Original value: Datum:-->
-  <string name="string_datum_">Датум:</string>
-  <!--Original value: East Inclination-->
-  <string name="string_east_inclination">Наклон на восток</string>
-  <!--Original value: Can\'t read coordinate system from the receiver!-->
-  <string name="string_can_t_read_coordinate_system_from_the_receiver_">Не удалось прочесть систему координат из приемника!</string>
-  <!--Original value: Projection-->
-  <string name="category_projection">Проекция</string>
-  <!--Original value: North Origing-->
-  <string name="string_north_origin">Север на местности</string>
-  <!--Original value: Apply-->
-  <string name="button_apply">Применить</string>
-  <!--Original value: Center-->
-  <string name="string_center">Центр</string>
-  <!--Original value: Push to choose from list-->
-  <string name="string_push_to_choose_from_list">Нажмите для выбора из списка</string>
-  <!--Original value: CS Name-->
-  <string name="string_cs_name">Имя СК</string>
-  <!--Original value: CSes-->
-  <string name="string_cses">СК</string>
-  <!--Original value: Cur.Epoch-->
-  <string name="current_epoch">Тек.эпоха</string>
-  <!--Original value: Add to favorites-->
-  <string name="add_to_favorites">Добавить СК в список</string>
-  <!--Original value: Error-->
-  <string name="string_error">Ошибка</string>
-  <!--Original value: Elipsoidal Height-->
-  <string name="string_elipsoidal_height">Эллипоидальная высота</string>
-  <!--Original value: Do you want to delete localization?-->
-  <string name="string_do_you_want_to_delete_localization_">Удалить локализацию?</string>
-  <!--Original value: CS-->
-  <string name="string_cs">СК</string>
-  <!--Original value: Origin-->
-  <string name="string_origin">Начало</string>
-  <!--Original value: User-to-WGS84-->
-  <string name="string_user_to_wgs84">Пользов.-к-WGS84</string>
-  <!--Original value: points are to close each other-->
-  <string name="string_points_are_to_close_each_other">точки слишком близко друг к другу</string>
-  <!--Original value: Confirm-->
-  <string name="string_confirm">Подтверждение</string>
-  <!--Original value: Identical Point-->
-  <string name="string_identical_point">Идентичная точка</string>
-  <!--Original value: Name:-->
-  <string name="string_name_">Имя:</string>
-  <!--Original value: Type-->
-  <string name="string_type">Тип</string>
-  <!--Original value: Datum-->
-  <string name="category_datum">Датум</string>
-  <!--Original value: North Inclination-->
-  <string name="string_north_inclination">Наклон на восток</string>
-  <!--Original value: Delete localization-->
-  <string name="string_delete_localization">Удалить локализацию</string>
-  <!--Original value: East Origing-->
-  <string name="string_east_origin">Нач.Восток</string>
-  <!--Original value: –-->
-  <string name="string_action_button">–</string>
-  <!--Original value: Scale-->
-  <string name="string_scale">Масштаб</string>
-  <!--Original value: something wrong with params-->
-  <string name="string_something_wrong_with_params">ошибка в параметрах</string>
-  <!--Original value: Returning back losts your changes.-->
-  <string name="string_returning_back_losts_your_changes_">Вернуться и отменить изменения.</string>
-  <!--Original value: Can\'t show the settings!-->
-  <string name="string_can_t_show_the_settings_">Не удалось показать настройки!</string>
-  <!--Original value: Can\'t delete the localization!-->
-  <string name="string_can_t_delete_the_localization_">Не удалось удалить локализацию!</string>
-  <!--Original value: wrong parameters were computed-->
-  <string name="string_wrong_parameters_were_computed">получены неверные парамметры</string>
-  <!--Original value: East origin-->
-  <string name="string_origin_east">Сдвиг на восток</string>
-  <!--Original value: Horizontal treshold-->
-  <string name="string_horizontal_treshold">Плановый порог</string>
-  <!--Original value: View CS Info-->
-  <string name="string_view_cs_info">Просмотр СК</string>
-  <!--Original value: Localization successfully imported-->
-  <string name="string_localization_successfully_imported">Локализация успешно загружена</string>
-  <!--Original value: Can\'t delete localization-->
-  <string name="string_can_t_delete_localization">Не удалось удалить локализацию!</string>
-  <!--Original value: It wll be removed. Please redownload it.-->
-  <string name="do_you_want_to_remove_it">Он будет удален и перезагружен.</string>
-  <!--Original value: Delete CS %s-->
-  <string name="string_delete_cs__s">Удалить СК %s</string>
-  <!--Original value: Datum direction-->
-  <string name="datum_direction">Направление датума</string>
-  <!--Original value: WGS84-to-User-->
-  <string name="string_wgs84_to_user">WGS84-к-Пользов.</string>
-  <!--Original value: RZ, sec-->
-  <string name="string_datum_rz">RZ, сек</string>
-  <!--Original value: csgui-->
-  <string name="app_name">csgui</string>
-  <!--Original value: RX, sec-->
-  <string name="string_datum_rx">RX, сек</string>
-  <!--Original value: RY, sec-->
-  <string name="string_datum_ry">RY, сек</string>
-  <!--Original value: Delete %1$d selected CSes (of %2$d)-->
-  <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
-  <!--Original value: Wrong scale difference!-->
-  <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
-  <!--Original value: Rotation-->
-  <string name="string_rotation">Поворот</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Отменить</string>
-  <!--Original value: Localization was changed and not saved!-->
-  <string name="string_localization_was_changed_and_not_saved_">Локализаця была изменена, но не сохранена!</string>
-  <!--Original value: Ellipsoidal Height-->
-  <string name="string_ellipsoidal_height">Эллипсоидальная высота</string>
-  <!--Original value: Identical Points-->
-  <string name="string_identical_points">Идентичные точки</string>
-  <!--Original value: Edit user CS-->
-  <string name="string_edit_user_cs">Правка СК пользователя</string>
-  <!--Original value: Save-->
-  <string name="string_save">Сохранить</string>
-  <!--Original value: Change job CS-->
-  <string name="string_change_job_cs">Изменить СК проекта</string>
-  <!--Original value: DY, m-->
-  <string name="string_datum_dy">DY, м</string>
-  <!--Original value: Ellipsoid:-->
-  <string name="string_ellipsoid_">Эллипсоид:</string>
-  <!--Original value: DX, m-->
-  <string name="string_datum_dx">DX, м</string>
-  <!--Original value: Setup-->
-  <string name="action_parameters">Установить</string>
-  <!--Original value: DZ, m-->
-  <string name="string_datum_dz">DZ, м</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Отменить</string>
-  <!--Original value: Latitude Orig.-->
-  <string name="string_latitude_origin">Нач.широта</string>
-  <!--Original value: CS %s is not user CS!-->
-  <string name="string_cs__s_is_not_user_cs_">Система %s не является СК пользователя!</string>
+    <!-- Used in file pref_cs.xml:8. Original value:Press to add to cs favorites and finish    -->
+    <string name="add_to_favorites_description">Нажмите для добавки СК в список избранных ск</string>
+    <!-- Used in file pref_cs.xml:5. Original value:Geoid    -->
+    <string name="string_geoid">Геоид</string>
+    <!-- Used in file activity_save_localization_parameters.xml:74. Original value:Longitude Orig.    -->
+    <string name="string_longitude_origin">Нач.долгота</string>
+    <!-- Used in file CSListActivity.java:146. Original value:File javad/geodata/CoordinateSystemDB.db3 is corrupted!    -->
+    <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
+    <!-- Used in file user_cs.xml:73. Original value:Scale Difference, ppm    -->
+    <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
+    <!-- Used in file pref_cs.xml:7. Original value:Transformation    -->
+    <string name="string_transformation">Преобразование</string>
+    <!-- Used in file identical_points.xml:30. Original value:Delete Localization    -->
+    <string name="action_delete_localization">Удалить локализацию</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:180. Original value:North Ground    -->
+    <string name="string_north_ground_xml">North Ground</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:323. Original value:East Inclination    -->
+    <string name="string_east_inclination_xml">East Inclination</string>
+    <!-- Used in file cslist.xml:5. Original value:Filter    -->
+    <string name="action_filter">Фильтр</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:131. Original value:North origin    -->
+    <string name="string_origin_north">Сдвиг на север</string>
+    <!-- Used in file activity_identical_points.xml:40. Original value:Survey    -->
+    <string name="string_survey">Съемочные</string>
+    <!-- Used in file list_identical_point.xml:145. Original value:Type    -->
+    <string name="identical_point_type">Тип</string>
+    <!-- Used in file CSListActivity.java:167. Original value:No GeoData!    -->
+    <string name="no_geodata_error">Нет GeoData!</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:372. Original value:Vertical treshold    -->
+    <string name="string_vertical_treshold">Вертикальный порог</string>
+    <!-- Used in file activity_identical_points.xml:31. Original value:Design    -->
+    <string name="string_design">Выносные</string>
+    <!-- Used in file user_cs.xml:6. Original value:Projection    -->
+    <string name="category_projection">Проекция</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:58. Original value:Latitude    -->
+    <string name="string_latitude_xml">Latitude</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:410. Original value:Apply    -->
+    <string name="button_apply">Применить</string>
+    <!-- Used in file activity_save_localization_parameters.xml:29. Original value:CS Name    -->
+    <string name="string_cs_name">Имя СК</string>
+    <!-- Used in file pref_cs.xml:6. Original value:Cur.Epoch    -->
+    <string name="current_epoch">Тек.эпоха</string>
+    <!-- Used in file pref_cs.xml:8. Original value:Add to favorites    -->
+    <string name="add_to_favorites">Добавить СК в список</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:113. Original value:Origin    -->
+    <string name="string_origin">Начало</string>
+    <!-- Used in file activity_identical_points.xml:49. Original value:Type    -->
+    <string name="string_type">Тип</string>
+    <!-- Used in file user_cs.xml:13. Original value:Datum    -->
+    <string name="category_datum">Датум</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:298. Original value:North Inclination    -->
+    <string name="string_north_inclination_xml">North Inclination</string>
+    <!-- Used in file activity_identical_points.xml:22. Original value:&#8211;    -->
+    <string name="string_action_button">–</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:156. Original value:East origin    -->
+    <string name="string_origin_east">Сдвиг на восток</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:354. Original value:Horizontal treshold    -->
+    <string name="string_horizontal_treshold">Плановый порог</string>
+    <!-- Used in file CSListActivity.java:147. Original value:It wll be removed. Please redownload it.    -->
+    <string name="do_you_want_to_remove_it">Он будет удален и перезагружен.</string>
+    <!-- Used in file user_cs.xml:74. Original value:Datum direction    -->
+    <string name="datum_direction">Направление датума</string>
+    <!-- Used in file user_cs.xml:65. Original value:RZ, sec    -->
+    <string name="string_datum_rz">RZ, сек</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:csgui    -->
+    <string name="app_name">csgui</string>
+    <!-- Used in file user_cs.xml:49. Original value:RX, sec    -->
+    <string name="string_datum_rx">RX, сек</string>
+    <!-- Used in file user_cs.xml:57. Original value:RY, sec    -->
+    <string name="string_datum_ry">RY, сек</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:252. Original value:Scale    -->
+    <string name="string_scale_xml">Scale</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel    -->
+    <string name="button_cancel">Отменить</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:229. Original value:Rotation    -->
+    <string name="string_rotation_xml">Rotation</string>
+    <!-- Used in file activity_save_localization_parameters.xml:55. Original value:Latitude Orig.    -->
+    <string name="string_latitude_origin_xml">Latitude Orig.</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:205. Original value:East Ground    -->
+    <string name="string_east_ground_xml">East Ground</string>
+    <!-- Used in file user_cs.xml:33. Original value:DY, m    -->
+    <string name="string_datum_dy">DY, м</string>
+    <!-- Used in file identical_points.xml:20. Original value:Setup    -->
+    <string name="action_parameters">Установить</string>
+    <!-- Used in file user_cs.xml:25. Original value:DX, m    -->
+    <string name="string_datum_dx">DX, м</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:83. Original value:Longitude    -->
+    <string name="string_longitude_xml">Longitude</string>
+    <!-- Used in file user_cs.xml:41. Original value:DZ, m    -->
+    <string name="string_datum_dz">DZ, м</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset    -->
+    <string name="string_height_offset_xml">Height Offset</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:219. Original value:Rewrite CS  -->
+    <string name="string_rewrite_cs">Перезаписать СК</string>
+    <!--  Used in file IdenticalPointsActivity.java:102. Original value:Can\'t save the settings!  -->
+    <string name="string_can_t_save_the_settings_">Не удалось сохранить настройки!</string>
+    <!--  Used in file IdenticalPointListAdapter.java:185. Original value:East Ground  -->
+    <string name="string_east_ground">Восток на местности</string>
+    <!--  Used in file IdenticalPointsActivity.java:147. Original value:Localization changed  -->
+    <string name="string_localization_changed">Локализация изменена</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1303. Original value:problem with transformation  -->
+    <string name="string_problem_with_transformation">проблема с транфсормацией</string>
+    <!--  Used in file CoordinateSystemsActivity.java:134. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?  -->
+    <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Хотите установить новую СК \'%1$s\' для текущего проекта \'%2$s\'?</string>
+    <!--  Used in file CSListActivity.java:148. Original value:Redownload  -->
+    <string name="string_redownload">Загрузить</string>
+    <!--  Used in file IdenticalPointsActivity.java:337. Original value:Delete Points %s  -->
+    <string name="string_delete_points__s">Удалить точку %s</string>
+    <!--  Used in file IdenticalPointsActivity.java:342. Original value:Delete %1$d filtered Points (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точке (из %2$d)</string>
+    <!--  Used in file CoordinateSystemsActivity.java:141. Original value:Can\'t create coordinate system!  -->
+    <string name="string_can_t_create_coordinate_system_">Не удалось создать систему координат!</string>
+    <!--  Used in file UserCSPreferenceFragment.java:326. Original value:Name is empty!  -->
+    <string name="string_name_is_empty_">Имя пустое!</string>
+    <!--  Used in file CoordinateSystemsActivity.java:284. Original value:Delete %1$d filtered CSes (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_cses__of__2_d_">Удалить %1$d отобранных СК (из %2$d)</string>
+    <!--  Used in file CoordinateSystemsActivity.java:295. Original value:Close  -->
+    <string name="string_close">Закрыть</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1301. Original value:nothing to compute  -->
+    <string name="string_nothing_to_compute">нет данных для вычислений</string>
+    <!--  Used in file IdenticalPointListAdapter.java:188. Original value:Height Offset  -->
+    <string name="string_height_offset">Отступ по высоте</string>
+    <!--  Used in file CoordinateSystemsActivity.java:268. Original value:Select CS  -->
+    <string name="string_select_cs">Выбор СК</string>
+    <!--  Used in file IdenticalPointsActivity.java:149. Original value:Return and lost  -->
+    <string name="string_return_and_lost">Вернуться и отменить изменения</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:216. Original value:CS with such name already exist!  -->
+    <string name="string_cs_with_such_name_already_exist_">СК с таким именем уже существует!</string>
+    <!--  Used in file IdenticalPointListAdapter.java:182. Original value:North Ground  -->
+    <string name="string_north_ground">Север наземный</string>
+    <!--  Used in file UserCSPreferenceFragment.java:258. Original value:Datum:  -->
+    <string name="string_datum_">Датум:</string>
+    <!--  Used in file IdenticalPointListAdapter.java:194. Original value:East Inclination  -->
+    <string name="string_east_inclination">Наклон на восток</string>
+    <!--  Used in file CSListActivity.java:312. Original value:Can\'t read coordinate system from the receiver!  -->
+    <string name="string_can_t_read_coordinate_system_from_the_receiver_">Не удалось прочесть систему координат из приемника!</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:58. Original value:North Origing  -->
+    <string name="string_north_origin">Север на местности</string>
+    <!--  Used in file SetupLocalizationParametersActivity.java:130. Original value:Center  -->
+    <string name="string_center">Центр</string>
+    <!--  Used in file CSPreferenceFragment.java:309. Original value:Push to choose from list  -->
+    <string name="string_push_to_choose_from_list">Нажмите для выбора из списка</string>
+    <!--  Used in file CoordinateSystemsActivity.java:222. Original value:CSes  -->
+    <string name="string_cses">СК</string>
+    <!--  Used in file CSPreferenceFragment.java:107. Original value:Elipsoidal Height  -->
+    <string name="string_elipsoidal_height">Эллипоидальная высота</string>
+    <!--  Used in file CSListActivity.java:313. Original value:Error  -->
+    <string name="string_error">Ошибка</string>
+    <!--  Used in file IdenticalPointsActivity.java:110. Original value:Do you want to delete localization?  -->
+    <string name="string_do_you_want_to_delete_localization_">Удалить локализацию?</string>
+    <!--  Used in file CoordinateSystemsActivity.java:217. Original value:CS  -->
+    <string name="string_cs">СК</string>
+    <!--  Used in file UserCSPreferenceFragment.java:452. Original value:User-to-WGS84  -->
+    <string name="string_user_to_wgs84">Пользов.-к-WGS84</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1304. Original value:points are to close each other  -->
+    <string name="string_points_are_to_close_each_other">точки слишком близко друг к другу</string>
+    <!--  Used in file CoordinateSystemsActivity.java:133. Original value:Confirm  -->
+    <string name="string_confirm">Подтверждение</string>
+    <!--  Used in file IdenticalPointsActivity.java:294. Original value:Identical Point  -->
+    <string name="string_identical_point">Идентичная точка</string>
+    <!--  Used in file CSPreferenceFragment.java:328. Original value:Name:  -->
+    <string name="string_name_">Имя:</string>
+    <!--  Used in file IdenticalPointListAdapter.java:191. Original value:North Inclination  -->
+    <string name="string_north_inclination">Наклон на восток</string>
+    <!--  Used in file IdenticalPointsActivity.java:111. Original value:Delete localization  -->
+    <string name="string_delete_localization">Удалить локализацию</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:59. Original value:East Origing  -->
+    <string name="string_east_origin">Нач.Восток</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1302. Original value:something wrong with params  -->
+    <string name="string_something_wrong_with_params">ошибка в параметрах</string>
+    <!--  Used in file IdenticalPointListAdapter.java:178. Original value:Scale  -->
+    <string name="string_scale">Масштаб</string>
+    <!--  Used in file IdenticalPointsActivity.java:148. Original value:Returning back losts your changes.  -->
+    <string name="string_returning_back_losts_your_changes_">Вернуться и отменить изменения.</string>
+    <!--  Used in file IdenticalPointsActivity.java:92. Original value:Can\'t show the settings!  -->
+    <string name="string_can_t_show_the_settings_">Не удалось показать настройки!</string>
+    <!--  Used in file IdenticalPointsActivity.java:129. Original value:Can\'t delete the localization!  -->
+    <string name="string_can_t_delete_the_localization_">Не удалось удалить локализацию!</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1312. Original value:wrong parameters were computed  -->
+    <string name="string_wrong_parameters_were_computed">получены неверные парамметры</string>
+    <!--  Used in file IdenticalPointsActivity.java:436. Original value:Localization successfully imported  -->
+    <string name="string_localization_successfully_imported">Локализация успешно загружена</string>
+    <!--  Used in file CoordinateSystemsActivity.java:273. Original value:View CS Info  -->
+    <string name="string_view_cs_info">Просмотр СК</string>
+    <!--  Used in file IdenticalPointsActivity.java:118. Original value:Can\'t delete localization  -->
+    <string name="string_can_t_delete_localization">Не удалось удалить локализацию!</string>
+    <!--  Used in file CoordinateSystemsActivity.java:278. Original value:Delete CS %s  -->
+    <string name="string_delete_cs__s">Удалить СК %s</string>
+    <!--  Used in file UserCSPreferenceFragment.java:452. Original value:WGS84-to-User  -->
+    <string name="string_wgs84_to_user">WGS84-к-Пользов.</string>
+    <!--  Used in file CoordinateSystemsActivity.java:290. Original value:Delete %1$d selected CSes (of %2$d)  -->
+    <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:191. Original value:Wrong scale difference!  -->
+    <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
+    <!--  Used in file IdenticalPointListAdapter.java:175. Original value:Rotation  -->
+    <string name="string_rotation">Поворот</string>
+    <!--  Used in file IdenticalPointsActivity.java:148. Original value:Localization was changed and not saved!  -->
+    <string name="string_localization_was_changed_and_not_saved_">Локализаця была изменена, но не сохранена!</string>
+    <!--  Used in file UserCSPreferenceFragment.java:482. Original value:Ellipsoidal Height  -->
+    <string name="string_ellipsoidal_height">Эллипсоидальная высота</string>
+    <!--  Used in file IdenticalPointsActivity.java:299. Original value:Identical Points  -->
+    <string name="string_identical_points">Идентичные точки</string>
+    <!--  Used in file CoordinateSystemsActivity.java:271. Original value:Edit user CS  -->
+    <string name="string_edit_user_cs">Правка СК пользователя</string>
+    <!--  Used in file IdenticalPointsActivity.java:48. Original value:Save  -->
+    <string name="string_save">Сохранить</string>
+    <!--  Used in file UserCSPreferenceFragment.java:241. Original value:Ellipsoid:  -->
+    <string name="string_ellipsoid_">Эллипсоид:</string>
+    <!--  Used in file CoordinateSystemsActivity.java:264. Original value:Change job CS  -->
+    <string name="string_change_job_cs">Изменить СК проекта</string>
+    <!--  Used in file CSListActivity.java:314. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:49. Original value:Latitude Orig.  -->
+    <string name="string_latitude_origin">Нач.широта</string>
+    <!--  Used in file CoordinateSystemsActivity.java:352. Original value:CS %s is not user CS!  -->
+    <string name="string_cs__s_is_not_user_cs_">Система %s не является СК пользователя!</string>
+
+
 </resources>
