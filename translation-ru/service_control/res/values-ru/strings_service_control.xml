@@ -19,6 +19,14 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server works on %s  -->
+    <string name="string_wsdd_server_works_on__s">Сервер WSDD работает на %s</string>
+    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server works on %s  -->
+    <string name="string_justinlink_exchange_server_works_on__s">Сервер обмена с JustinLink работает на %s</string>
+    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server is stopped  -->
+    <string name="string_wsdd_server_is_stopped">Сервер WSDD остановлен</string>
+    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server is stopped  -->
+    <string name="string_justinlink_exchange_server_is_stopped">Сервер обмена JustinLink остановлен</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:13. Original value:Ntrip/RCV/Nethub    -->
     <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
     <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
@@ -39,10 +47,10 @@
     <string name="text_mock_location_provider">Поставщик фиктивного положения</string>
     <!-- Used in file activity_background_services_2.xml:206. Original value:On    -->
     <string name="mock_location_provider_on">Вкл</string>
-    <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
-    <string name="check_ntrip_client_threads">Поток Ntrip/RCV клиента</string>
     <!-- Used in file activity_background_services_jcommunity.xml:20. Original value:On    -->
     <string name="j_community_on">Вкл</string>
+    <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
+    <string name="check_ntrip_client_threads">Поток Ntrip/RCV клиента</string>
     <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
     <string name="check_nethub_client_threads">Поток NetHub клиент</string>
     <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
@@ -61,10 +69,10 @@
     <string name="opusmail_server_log">Лог</string>
     <!-- Used in file activity_background_services_2.xml:76. Original value:OPUS Mail Reader    -->
     <string name="text_opusmail_server">Почтовый сервер для OPUS</string>
-    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
-    <string name="text_justinlink_server">Обмен данными с JustinLin</string>
     <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
     <string name="check_rcv_server_threads">Поток RCV сервера</string>
+    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
+    <string name="text_justinlink_server">Обмен данными с JustinLin</string>
     <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
     <string name="check_bosch_g100_thread">Поток чтения с Bosch GLM100C</string>
     <!-- Used in file activity_background_services_2.xml:84. Original value:On    -->
@@ -83,13 +91,5 @@
     <string name="text_wsdd_server">сервер WSDD</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
     <string name="ntripnethub_log">Ntrip/RCV/Nethub логи</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server works on %s  -->
-    <string name="string_wsdd_server_works_on__s">Сервер WSDD работает на %s</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server works on %s  -->
-    <string name="string_justinlink_exchange_server_works_on__s">Сервер обмена с JustinLink работает на %s</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server is stopped  -->
-    <string name="string_wsdd_server_is_stopped">Сервер WSDD остановлен</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server is stopped  -->
-    <string name="string_justinlink_exchange_server_is_stopped">Сервер обмена JustinLink остановлен</string>
    
 </resources>
