@@ -19,54 +19,56 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Calibration is over-->
-  <string name="string_calibration_is_over">Ukończono kalibrację</string>
-  <!--Original value: HW version:%1$d     SW version:%2$d-->
-  <string name="string_hw_version__1_d_____sw_version__2_d">Wersja HW:%1$d     Wersja SW:%2$d</string>
-  <!--Original value: Min Value-->
-  <string name="string_min_value">Wartość min</string>
-  <!--Original value: Conecting…-->
-  <string name="string_conecting___">Łączenie…</string>
-  <!--Original value: Do you want to save the calibration?-->
-  <string name="string_do_you_want_to_save_the_calibration_">Czy zapisać kalibrację?</string>
-  <!--Original value: smarttip-->
-  <string name="app_name">smarttip</string>
-  <!--Original value: Calibrate-->
-  <string name="button_calibrate">Kalibracja</string>
-  <!--Original value: Firmware have successfully updated-->
-  <string name="string_firmware_have_successfully_updated">Aktualizacja FW zakończona sukcesem</string>
-  <!--Original value: Connected to J-Tip-->
-  <string name="string_connected_to_smarttip">SmartTip połączony</string>
-  <!--Original value: Please Wait!!-->
-  <string name="string_please_wait__">Proszę czekać!!</string>
-  <!--Original value: Sensivity-->
-  <string name="string_sensivity">Czułość</string>
-  <!--Original value: Firmware update error!-->
-  <string name="string_firmware_update_error_">Błąd aktualizacji!</string>
-  <!--Original value: Calibration-->
-  <string name="string_calibration">Kalibracja</string>
-  <!--Original value: Upload Firmware-->
-  <string name="button_firmware">Ładowanie FW</string>
-  <!--Original value: Please wait-->
-  <string name="string_please_wait">Proszę czekać</string>
-  <!--Original value: Select J-Tip-->
-  <string name="text_select_smarttip">Wybierz SmartTip</string>
-  <!--Original value: Max Value-->
-  <string name="string_max_value">Wartość max</string>
-  <!--Original value: Set Course to 0-->
-  <string name="button_course">Ustaw kurs na 0</string>
-  <!--Original value: Gain 0-->
-  <string name="string_gain">Gain 0</string>
-  <!--Original value: Stop Calibration-->
-  <string name="string_stop_calibration">Koniec kalibracji</string>
-  <!--Original value: Uploading firmware…-->
-  <string name="string_uploading_firmware___">Ładowanie FW</string>
-  <!--Original value: Cancelled by user-->
-  <string name="string_cancelled_by_user">Anulowane przez użytkownika</string>
-  <!--Original value: Successfully connected to %s-->
-  <string name="string_successfully_connected_to__s">Połączono z %s</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
+    <!--  Used in file SmartTipActivity.java:171. Original value:Calibration is over  -->
+    <string name="string_calibration_is_over">Ukończono kalibrację</string>
+    <!--  Used in file SmartTipActivity.java:454. Original value:HW version:%1$d     SW version:%2$d  -->
+    <string name="string_hw_version__1_d_____sw_version__2_d">Wersja HW:%1$d     Wersja SW:%2$d</string>
+    <!--  Used in file SmartTipActivity.java:1060. Original value:Conecting&#8230;  -->
+    <string name="string_conecting___">Łączenie…</string>
+    <!--  Used in file SmartTipActivity.java:172. Original value:Do you want to save the calibration?  -->
+    <string name="string_do_you_want_to_save_the_calibration_">Czy zapisać kalibrację?</string>
+    <!--  Used in file SmartTipActivity.java:983. Original value:Firmware have successfully updated  -->
+    <string name="string_firmware_have_successfully_updated">Aktualizacja FW zakończona sukcesem</string>
+    <!--  Used in file FindSmartTipActivity.java:111. Original value:Connected to J-Tip  -->
+    <string name="string_connected_to_smarttip">SmartTip połączony</string>
+    <!--  Used in file SmartTipActivity.java:1010. Original value:Please Wait!!  -->
+    <string name="string_please_wait__">Proszę czekać!!</string>
+    <!--  Used in file SmartTipActivity.java:983. Original value:Firmware update error!  -->
+    <string name="string_firmware_update_error_">Błąd aktualizacji!</string>
+    <!--  Used in file SmartTipActivity.java:163. Original value:Calibration  -->
+    <string name="string_calibration">Kalibracja</string>
+    <!--  Used in file SmartTipActivity.java:1061. Original value:Please wait  -->
+    <string name="string_please_wait">Proszę czekać</string>
+    <!--  Used in file SmartTipActivity.java:184. Original value:Stop Calibration  -->
+    <string name="string_stop_calibration">Koniec kalibracji</string>
+    <!--  Used in file SmartTipActivity.java:1078. Original value:Cancelled by user  -->
+    <string name="string_cancelled_by_user">Anulowane przez użytkownika</string>
+    <!--  Used in file SmartTipActivity.java:1011. Original value:Uploading firmware&#8230;  -->
+    <string name="string_uploading_firmware___">Ładowanie FW</string>
+    <!--  Used in file SmartTipActivity.java:481. Original value:Successfully connected to %s  -->
+    <string name="string_successfully_connected_to__s">Połączono z %s</string>
+    <!--  Used in file SmartTipActivity.java:1063. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file SmartTipActivity.java:985. Original value:Close  -->
+    <string name="string_close">Zamknij</string>
+    <!-- Used in file activity_smarttip.xml:86. Original value:Min Value    -->
+    <string name="string_min_value">Wartość min</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:smarttip    -->
+    <string name="app_name">smarttip</string>
+    <!-- Used in file activity_smarttip.xml:31. Original value:Calibrate    -->
+    <string name="button_calibrate">Kalibracja</string>
+    <!-- Used in file activity_smarttip.xml:72. Original value:Sensivity    -->
+    <string name="string_sensivity">Czułość</string>
+    <!-- Used in file activity_smarttip.xml:39. Original value:Upload Firmware    -->
+    <string name="button_firmware">Ładowanie FW</string>
+    <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip    -->
+    <string name="text_select_smarttip">Wybierz SmartTip</string>
+    <!-- Used in file activity_smarttip.xml:108. Original value:Max Value    -->
+    <string name="string_max_value">Wartość max</string>
+    <!-- Used in file activity_smarttip.xml:49. Original value:Set Course to 0    -->
+    <string name="button_course">Ustaw kurs na 0</string>
+    <!-- Used in file activity_smarttip.xml:125. Original value:Gain 0    -->
+    <string name="string_gain">Gain 0</string>
+
+
 </resources>

@@ -19,112 +19,127 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: MON-->
-  <string name="monday_short">PON</string>
-  <!--Original value: CS-->
-  <string name="string_cs">UW</string>
-  <!--Original value: THU-->
-  <string name="thursday_short">CZW</string>
-  <!--Original value: Search-->
-  <string name="action_search">Szukaj</string>
-  <!--Original value: Zoom All-->
-  <string name="action_map_zoomall">Powiększ wszystko</string>
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
-  <!--Original value: Google Maps-->
-  <string name="google_maps">Google Maps</string>
-  <!--Original value: TUE-->
-  <string name="tuesday_short">WTO</string>
-  <!--Original value: Points-->
-  <string name="string_points">Punkty</string>
-  <!--Original value: Hide Selection-->
-  <string name="action_unselect">Ukryj zaznaczenie</string>
-  <!--Original value: Open-->
-  <string name="open">Otwórz</string>
-  <!--Original value: Code-->
-  <string name="string_code">Kod</string>
-  <!--Original value: Desc-->
-  <string name="string_desc">Opis</string>
-  <!--Original value: Comment-->
-  <string name="string_comment">Komentarz</string>
-  <!--Original value: file-->
-  <string name="string_file">plik</string>
-  <!--Original value: UnSelect All-->
-  <string name="action_unselect_all">Odznacz Wszystko</string>
-  <!--Original value: Do you want to delete %s:-->
-  <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
-  <!--Original value: Sort-->
-  <string name="action_sort">Sortuj</string>
-  <!--Original value: Zoom All-->
-  <string name="string_zoom_all">Powiększ wszystko</string>
-  <!--Original value: Calendar-->
-  <string name="action_calendar">Kalendarz</string>
-  <!--Original value: Sort by-->
-  <string name="string_sort_by">Sortuj z</string>
-  <!--Original value: SUN-->
-  <string name="sunday_short">NIE</string>
-  <!--Original value: FRI-->
-  <string name="friday_short">PIĄ</string>
-  <!--Original value: Open Street Map-->
-  <string name="open_street_maps">Open Street Map</string>
-  <!--Original value: Select-->
-  <string name="action_select">Wybierz</string>
-  <!--Original value: SAT-->
-  <string name="saturday_short">SOB</string>
-  <!--Original value: User CAD Drawing-->
-  <string name="user_cad_drawing">Użyj rysunku CAD</string>
-  <!--Original value: Reading list of %s…-->
-  <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
-  <!--Original value: maplist-->
-  <string name="app_name">maplist</string>
-  <!--Original value: Do you want to delete %1$d %2$s?-->
-  <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
-  <!--Original value: Time-->
-  <string name="string_time">Czas</string>
-  <!--Original value: Select All-->
-  <string name="action_select_all">Zaznacz wszystko</string>
-  <!--Original value: Dialog-->
-  <string name="action_dialog">Dialog</string>
-  <!--Original value: Refresh-->
-  <string name="action_refresh">Odśwież</string>
-  <!--Original value: Yandex Maps-->
-  <string name="yandex_maps">Yandex Maps</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Dostawca Map</string>
-  <!--Original value: [ . . . ]-->
-  <string name="button_select">[ . . . ]</string>
-  <!--Original value: Do you want to delete %1$s %2$s?-->
-  <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Anuluj</string>
-  <!--Original value: Delete %s-->
-  <string name="string_delete__s">Usuń %s</string>
-  <!--Original value: Size-->
-  <string name="string_size">Rozmiar</string>
-  <!--Original value: Type-->
-  <string name="string_type_sort">Typ</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Ustawienia</string>
-  <!--Original value: WED-->
-  <string name="wednesday_short">ŚRO</string>
-  <!--Original value: Apply-->
-  <string name="button_apply">Zastosuj</string>
-  <!--Original value: Inverse Selection-->
-  <string name="action_inverse_all">Wyszukaj odwrotnie</string>
-  <!--Original value: Map-->
-  <string name="action_map">Mapa</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: Open calendar-->
-  <string name="hello">Otwórz kalendarz</string>
-  <!--Original value: User Tiled Map-->
-  <string name="user_tiled_map">Użyj podkładów mapowych</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: files-->
-  <string name="string_files">pliki</string>
-  <!--Original value: Delete-->
-  <string name="action_delete">Usuń</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Połącz</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:783. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
+    <!--  Used in file BaseProviderMapActivity.java:30. Original value:Points  -->
+    <string name="string_points">Punkty</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:627. Original value:file  -->
+    <string name="string_file">plik</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:660. Original value:Do you want to delete %s:  -->
+    <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:301. Original value:Zoom All  -->
+    <string name="string_zoom_all">Powiększ wszystko</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:370. Original value:Sort by  -->
+    <string name="string_sort_by">Sortuj z</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:527. Original value:Reading list of %s&#8230;  -->
+    <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:669. Original value:Do you want to delete %1$d %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:296. Original value:MapProvider  -->
+    <string name="string_mapprovider">Dostawca Map</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:709. Original value:Do you want to delete %1$s %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:708. Original value:Delete %s  -->
+    <string name="string_delete__s">Usuń %s</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:711. Original value:Delete  -->
+    <string name="string_delete">Usuń</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:717. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:631. Original value:files  -->
+    <string name="string_files">pliki</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:269. Original value:Connect  -->
+    <string name="string_connect">Połącz</string>
+    <!-- Used in file calendar2.xml:96. Original value:MON    -->
+    <string name="monday_short">PON</string>
+    <!-- Used in file calendar2.xml:138. Original value:THU    -->
+    <string name="thursday_short">CZW</string>
+    <!-- Used in file sort.xml:11. Original value:Search    -->
+    <string name="action_search">Szukaj</string>
+    <!-- Used in file map_calendar_menu.xml:65. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Powiększ wszystko</string>
+    <!-- Used in file activity_map_provider.xml:18. Original value:Google Maps    -->
+    <string name="google_maps">Google Maps</string>
+    <!-- Used in file calendar2.xml:110. Original value:TUE    -->
+    <string name="tuesday_short">WTO</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:221. Original value:Hide Selection    -->
+    <string name="action_unselect">Ukryj zaznaczenie</string>
+    <!-- Used in file calendar_main.xml:13. Original value:Open    -->
+    <string name="open">Otwórz</string>
+    <!-- Used in file activity_sort_4.xml:45. Original value:Time    -->
+    <string name="string_time_sort">Time</string>
+    <!-- Used in file map_calendar_menu.xml:56. Original value:UnSelect All    -->
+    <string name="action_unselect_all">Odznacz Wszystko</string>
+    <!-- Used in file sort.xml:6. Original value:Sort    -->
+    <string name="action_sort">Sortuj</string>
+    <!-- Used in file map_calendar_menu.xml:15. Original value:Calendar    -->
+    <string name="action_calendar">Kalendarz</string>
+    <!-- Used in file activity_sort_4.xml:24. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file calendar2.xml:180. Original value:SUN    -->
+    <string name="sunday_short">NIE</string>
+    <!-- Used in file calendar2.xml:152. Original value:FRI    -->
+    <string name="friday_short">PIĄ</string>
+    <!-- Used in file activity_map_provider.xml:32. Original value:Open Street Map    -->
+    <string name="open_street_maps">Open Street Map</string>
+    <!-- Used in file map_calendar_menu.xml:30. Original value:Select    -->
+    <string name="action_select">Wybierz</string>
+    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing    -->
+    <string name="user_cad_drawing">Użyj rysunku CAD</string>
+    <!-- Used in file calendar2.xml:166. Original value:SAT    -->
+    <string name="saturday_short">SOB</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:maplist    -->
+    <string name="app_name">maplist</string>
+    <!-- Used in file map_calendar_menu.xml:51. Original value:Select All    -->
+    <string name="action_select_all">Zaznacz wszystko</string>
+    <!-- Used in file map_calendar_menu.xml:5. Original value:Dialog    -->
+    <string name="action_dialog">Dialog</string>
+    <!-- Used in file sort.xml:21. Original value:Refresh    -->
+    <string name="action_refresh">Odśwież</string>
+    <!-- Used in file activity_map_provider.xml:25. Original value:Yandex Maps    -->
+    <string name="yandex_maps">Yandex Maps</string>
+    <!-- Used in file activity_map_provider.xml:94. Original value:[ . . . ]    -->
+    <string name="button_select">[ . . . ]</string>
+    <!-- Used in file activity_map_provider.xml:111. Original value:Cancel    -->
+    <string name="button_cancel">Anuluj</string>
+    <!-- Used in file activity_sort.xml:31. Original value:Type    -->
+    <string name="string_type_sort">Typ</string>
+    <!-- Used in file sort.xml:27. Original value:Settings    -->
+    <string name="action_settings">Ustawienia</string>
+    <!-- Used in file calendar2.xml:124. Original value:WED    -->
+    <string name="wednesday_short">ŚRO</string>
+    <!-- Used in file activity_map_provider.xml:121. Original value:Apply    -->
+    <string name="button_apply">Zastosuj</string>
+    <!-- Used in file map_calendar_menu.xml:61. Original value:Inverse Selection    -->
+    <string name="action_inverse_all">Wyszukaj odwrotnie</string>
+    <!-- Used in file map_calendar_menu.xml:10. Original value:Map    -->
+    <string name="action_map">Mapa</string>
+    <!-- Used in file calendar_main.xml:10. Original value:Open calendar    -->
+    <string name="hello">Otwórz kalendarz</string>
+    <!-- Used in file activity_sort_4.xml:38. Original value:Size    -->
+    <string name="string_size_sort">Size</string>
+    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map    -->
+    <string name="user_tiled_map">Użyj podkładów mapowych</string>
+    <!-- Used in file sort.xml:16. Original value:Delete    -->
+    <string name="action_delete">Usuń</string>
+    <!-- UNUSED STRING 
+    <string name="string_cs">UW</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_code">Kod</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_name">Name</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_desc">Opis</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_comment">Komentarz</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_time">Czas</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_size">Rozmiar</string>
+    -->
 </resources>
