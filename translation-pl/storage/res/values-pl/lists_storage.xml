@@ -1,21 +1,19 @@
 ﻿<resources>
     
-<string-array name="coordinate_system_array">
-    <!--Original value: WGS 84-->
-    <item>WGS 84</item>
-    <!--Original value: Local-->
-    <item>Lokalny</item>
-  </string-array>
-  
-  
-  <string-array name="measure_units_array">
-    <!--Original value: Meters-->
-    <item>Metry</item>
-    <!--Original value: US Feet-->
-    <item>Stopy US</item>
-    <!--Original value: Int.Feet-->
-    <item>Stopy Int.</item>
-  </string-array>
+    <!-- Used in file activity_job.xml:179 -->
+    <string-array name="measure_units_array">
+         <item>Metry</item>
+         <item>Stopy US</item>
+         <item>Stopy Int.</item>
+    </string-array>
+
+    <!-- Used in file activity_job.xml:117 -->
+    <string-array name="coordinate_system_array">
+         <item>WGS 84</item>
+         <item>Lokalny</item>
+    </string-array>
+
+
   
   
 </resources>

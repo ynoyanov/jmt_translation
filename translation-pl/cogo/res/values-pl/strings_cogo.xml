@@ -197,8 +197,6 @@
     <string name="text_dn">ΔN</string>
     <!-- Used in file activity_cogo_hinge.xml:90. Original value:Keep Area, m&#178;    -->
     <string name="text_keep_area_m2">Zachowaj powierzchnię, m²</string>
-    <!-- Used in file null:0. Original value:View Images/Audios    -->
-    <string name="string_view_images_audios">Podgląd Obrazów/Dźwięków</string>
     <!-- Used in file activity_cogo_hinge.xml:111. Original value:Create New Points    -->
     <string name="create_new_points">Utwórz nowe punkty</string>
     <!-- Used in file activity_cogo_shift.xml:72. Original value:&#x394;H    -->
@@ -209,10 +207,10 @@
     <string name="text_a">Kąt (A)</string>
     <!-- Used in file activity_cogo_shift.xml:57. Original value:&#x394;E    -->
     <string name="text_de">ΔE</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:65. Original value:Number of points    -->
-    <string name="text_num_points">Liczba punktów</string>
     <!-- Used in file activity_cogo_volume.xml:41. Original value:Reference Height    -->
     <string name="text_refheight">Referencja wysokości</string>
+    <!-- Used in file activity_cogo_stakeout_curve.xml:65. Original value:Number of points    -->
+    <string name="text_num_points">Liczba punktów</string>
     <!-- Used in file CoGoHomeActivity2.java:69. Original value:Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.    -->
     <string name="description_resection">Oblicza punkt P4 na podstawie odległości D1, D2, D3 od punktów P1, P2, P3.</string>
     <!-- Used in file CoGoBaseActivity.java:435. Original value:Keep Area, &#37;    -->
@@ -221,8 +219,6 @@
     <string name="string_east">Wschód</string>
     <!-- Used in file activity_cogo_points3_arc.xml:91. Original value:Radius (R)    -->
     <string name="text_r">Promień (R)</string>
-    <!-- Used in file null:0. Original value:Delete %1$d selected points (of %2$d)    -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">Usuń %1$d zaznaczonych punktów (z %2$d)</string>
     <!-- Used in file activity_cogo_points3_arc.xml:121. Original value:Tangent (T)    -->
     <string name="text_t">Styczna (T)</string>
     <!-- Used in file list_selected_points_header.xml:45. Original value:North    -->
@@ -237,8 +233,8 @@
     <string name="description_areas">Obliczenia Powierzchni/Obwody/Objętości</string>
     <!-- Used in file CoGoHomeActivity2.java:60. Original value:Traverse    -->
     <string name="title_traverse">Bagnet</string>
-    <!-- Used in file activity_cogo_along_line.xml:48. Original value:N: - - -\nE: - - -\nH: - - -\n    -->
-    <string name="text_coordinate">N: ---\nE: ---\nH: ---\n</string>
+    <!-- Used in file activity_cogo_along_line.xml:48. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n    -->
+    <string name="text_coordinate">N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n</string>
     <!-- Used in file CoGoHomeActivity2.java:87. Original value:Rotate    -->
     <string name="title_rotate">Obróć</string>
     <!-- Used in file CoGoHomeActivity2.java:85. Original value:The task shifts existing points by deltas north, east and up.    -->
@@ -295,10 +291,6 @@
     <string name="text_delta_e">ΔE</string>
     <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.    -->
     <string name="description_stakeout_curve">Podział łuku - zadanie podobne do podziału linii. Funkcja pozwala podzielić łuk na równe segmenty, bazując na liczbie punktów.</string>
-    <!-- Used in file null:0. Original value:View on Map    -->
-    <string name="string_view_on_map">Pokaż na mapie</string>
-    <!-- Used in file null:0. Original value:Delete %1$s %2$s    -->
-    <string name="string_delete__1_s__2_s">Usuń %1$s %2$s</string>
     <!-- Used in file activity_cogo_hinge.xml:41. Original value:1st nodal point    -->
     <string name="text_first_nodal_point">1. punkt węzłowy</string>
     <!-- Used in file activity_cogo_diagonals.xml:77. Original value:P4\npoint4\n    -->
@@ -318,14 +310,10 @@
     <!-- Used in file CoGoHomeActivity2.java:73. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.    -->
     <string name="description_line_offsets">Funkcja ta pozwala podzielić linię tworzaną przez znane punkty P1-P2 na wybraną liczbę równych segmentów.
 Dodatkowo, możliwe jest także wyznaczenie dowolnej liczby linii równoległych przez podanie przesunięcia.</string>
-    <!-- Used in file null:0. Original value:Add to catalog %s    -->
-    <string name="string_add_to_catalog__s">Dodaj do katalogu %s</string>
     <!-- Used in file CoGoHomeActivity2.java:72. Original value:The task divides line defined by two known points to given number of points.    -->
     <string name="description_divide_line">Funkcja pozwala wyznaczyć dowolną liczbę punktów na linii zdefiniowanej w oparciu o znane punkty P1-P2.</string>
     <!-- Used in file CoGoHomeActivity2.java:91. Original value:Offsets    -->
     <string name="title_offsets">Offsety</string>
-    <!-- Used in file null:0. Original value:Delete %1$d filtered points (of %2$d)    -->
-    <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d punktów (z %2$d)</string>
     <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc    -->
     <string name="title_points3_arc">Łuk trzypunktowy</string>
     <!-- Used in file activity_cogo_triangle.xml:108. Original value:C    -->
@@ -340,14 +328,12 @@ Dodatkowo, możliwe jest także wyznaczenie dowolnej liczby linii równoległych
     <string name="title_move">Przesuń</string>
     <!-- Used in file CoGoHomeActivity2.java:87. Original value:The task moves existing points by given angle related to given point.    -->
     <string name="description_rotate">Faunkcja przesuwa istniejące punkty o zadany kąt w odniesieniu do znanego punktu PB.</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:30. Original value:- - -     -->
-    <string name="text_point_coords">--- </string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:30. Original value:&#x002d;&#x002d;&#x002d;     -->
+    <string name="text_point_coords">&#x002d;&#x002d;&#x002d; </string>
     <!-- Used in file CoGoHomeActivity2.java:93. Original value:Stakes    -->
     <string name="title_stakes">Wyznaczenia</string>
     <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve    -->
     <string name="title_stakeout_curve">Wyznaczanie krzywej</string>
-    <!-- Used in file null:0. Original value:View/Edit %s    -->
-    <string name="string_view_edit__s">Podgląd/Edycja %s</string>
     <!-- Used in file CoGoHomeActivity2.java:69. Original value:Resection    -->
     <string name="title_resection">Wcięcie</string>
     <!-- Used in file CoGoBaseActivity.java:437. Original value:Cut Area, m&#178;    -->
@@ -382,8 +368,8 @@ Dodatkowo, możliwe jest także wyznaczenie dowolnej liczby linii równoległych
     <string name="image_view2">Obraz</string>
     <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)    -->
     <string name="description_points3_arc">Łuk trzypunktowy - funkcja pozwala na obliczenie następujących paramtrów łuku na podstawie trzech znanych punktów: Promień(R), Kąt(A), Długość łuku(L), Cięciwa(c), Styczna(T), Strzałka(m), Kąt łuku(D)</string>
-    <!-- Used in file activity_cogo_along_line.xml:93. Original value:N: - - -\nE: - - -\nH: - - -\nName:    -->
-    <string name="text_coordinate_result">N: ---\nE: ---\nH: ---\nNazwa:</string>
+    <!-- Used in file activity_cogo_along_line.xml:93. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nName:    -->
+    <string name="text_coordinate_result">N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nNazwa:</string>
     <!-- Used in file activity_cogo_hinge.xml:56. Original value:2nd nodal point    -->
     <string name="text_second_nodal_point">2. punkt węzłowy</string>
     <!-- Used in file CoGoHomeActivity2.java:79. Original value:The task computes volume of the convex hall defined by selected points.    -->
@@ -428,7 +414,4 @@ Dodatkowo, możliwe jest także wyznaczenie dowolnej liczby linii równoległych
     <string name="title_parallel">Równoległa</string>
     <!-- Used in file CoGoHomeActivity2.java:90. Original value:Basic functions as\nDirect, Inverse, Offset and Shifts\n    -->
     <string name="description_basic">Funkcje podstawowe, \njak Linia geodezyjna, Offset, Przesunięcie\n</string>
-    <!-- UNUSED STRING 
-    <string name="string_report">Zapisz raport do pliku</string>
-    -->
 </resources>
