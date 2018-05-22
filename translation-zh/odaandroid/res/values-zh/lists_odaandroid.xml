@@ -19,88 +19,63 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <string-array name="file_extension_entries">
-    <!--Original value: .dwg-->
-    <item>.dwg</item>
-    <!--Original value: .dxf-->
-    <item>.dxf</item>
-    <!--Original value: .dwf-->
-    <item>.dwf</item>
-    <!--Original value: .dae-->
-    <item>.dae</item>
-    <!--Original value: .bmp-->
-    <item>.bmp</item>
-    <!--Original value: .jpg-->
-    <item>.jpg</item>
-    <!--Original value: .png-->
-    <item>.png</item>
-    <!--Original value: .tiff-->
-    <item>.tiff</item>
-  </string-array>
-  <string-array name="file_extension_values">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-    <!--Original value: 4-->
-    <item>4</item>
-    <!--Original value: 5-->
-    <item>5</item>
-    <!--Original value: 6-->
-    <item>6</item>
-    <!--Original value: 7-->
-    <item>7</item>
-  </string-array>
-  <string-array name="file_extension_default">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-  </string-array>
-  <string-array name="file_extension_entriesA">
-    <!--Original value: .dwg-->
-    <item>.dwg</item>
-    <!--Original value: .dxf-->
-    <item>.dxf</item>
-    <!--Original value: .bmp-->
-    <item>.bmp</item>
-    <!--Original value: .jpg-->
-    <item>.jpg</item>
-    <!--Original value: .png-->
-    <item>.png</item>
-    <!--Original value: .tiff-->
-    <item>.tiff</item>
-  </string-array>
-  <string-array name="file_extension_valuesA">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-    <!--Original value: 4-->
-    <item>4</item>
-    <!--Original value: 5-->
-    <item>5</item>
-  </string-array>
-  <string-array name="file_extension_defaultA">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-  </string-array>
-  <!--Original value: -->
-  <string name="">載入 %s 檔案…</string>
-  <!--Original value: -->
-  <string name="">請等待</string>
+    <!-- Used in file preferences.xml:12 -->
+    <string-array name="file_extension_values">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+         <item>7</item>
+    </string-array>
+
+    <!-- Used in file preferences.xml:13 -->
+    <string-array name="file_extension_default">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+    </string-array>
+
+    <!-- Used in file preferences.xml:11 -->
+    <string-array name="file_extension_entries">
+         <item>.dwg</item>
+         <item>.dxf</item>
+         <item>.dwf</item>
+         <item>.dae</item>
+         <item>.bmp</item>
+         <item>.jpg</item>
+         <item>.png</item>
+         <item>.tiff</item>
+    </string-array>
+
+    <!-- Used in file preferences_a.xml:11 -->
+    <string-array name="file_extension_entriesa">
+         <item>.dwg</item>
+         <item>.dxf</item>
+         <item>.bmp</item>
+         <item>.jpg</item>
+         <item>.png</item>
+         <item>.tiff</item>
+    </string-array>
+
+    <!-- Used in file preferences_a.xml:12 -->
+    <string-array name="file_extension_valuesa">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+
+    <!-- Used in file preferences_a.xml:13 -->
+    <string-array name="file_extension_defaulta">
+         <item>0</item>
+         <item>1</item>
+    </string-array>
+
+
 </resources>
