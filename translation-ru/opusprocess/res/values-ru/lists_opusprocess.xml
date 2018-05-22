@@ -19,49 +19,47 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-    
-  <string-array name="antenna_ids2_array">
-        <item>JAV_TRIUMPH-1   NONE</item>
-        <item>JAVTRIUMPH_2A   NONE</item>
-        <item>JAVGISMORE      NONE</item>
-  </string-array>
-  
-  <string-array name="opus_formats_array">
-    <!--Original value: Standard-->
-    <item>Standard</item>
-    <!--Original value: Standard + XML(draft)-->
-    <item>Standard + XML(draft)</item>
-    <!--Original value: Extended-->
-    <item>Extended</item>
-  </string-array>
-  <string-array name="dpos_mode_array">
-    <!--Original value: Unchanged-->
-    <item>Как есть</item>
-    <!--Original value: Static-->
-    <item>Статика</item>
-    <!--Original value: Kinematic-->
-    <item>Кинематика</item>
-  </string-array>
-  <string-array name="dpos_network_array">
-    <!--Original value: Automatic-->
-    <item>Автовыбор</item>
-    <!--Original value: USA Server-->
-    <item>Сервер в США</item>
-    <!--Original value: Moscow Server-->
-    <item>Сервер в Москве</item>
-    <!--Original value: Giodis Server-->
-    <item>Сервер Giodis</item>
-  </string-array>
-  
-<string-array name="dpos_server_array">
-        <item>app.javad.com</item>
-    	<item>dpos-dev.javad.com</item>
-</string-array>
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="antenna_ids2_array">
+         <item>JAV_TRIUMPH-1   NONE</item>
+         <item>JAVTRIUMPH_2A   NONE</item>
+         <item>JAVGISMORE      NONE</item>
+    </string-array>
 
-<string-array name="dpos_engine_array">
-        <item>JUSTIN</item>
-    	<item>GIODIS</item>
-</string-array>
-  
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="dpos_server_array">
+         <item>app.javad.com</item>
+         <item>dpos-dev.javad.com</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="opus_formats_array">
+         <item>Standard</item>
+         <item>Standard + XML(draft)</item>
+         <item>Extended</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="dpos_network_array">
+         <item>Автовыбор</item>
+         <item>Сервер в США</item>
+         <item>Сервер в Москве</item>
+         <item>Сервер Giodis</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="dpos_mode_array">
+         <item>Как есть</item>
+         <item>Статика</item>
+         <item>Кинематика</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="dpos_engine_array">
+         <item>JUSTIN</item>
+         <item>GIODIS</item>
+    </string-array>
+
+
 
 </resources>
