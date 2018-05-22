@@ -1,106 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file CatalogExpandableListAdapter.java:918. Original value:What to do with catalog %1$s? -->
-    <string name="string_what_to_do_with_catalog__1_s_">What to do with catalog %1$s?</string>
-    <!-- Used in file CatalogInfoActivity.java:102. Original value:Catalog %s has been deleted -->
-    <string name="string_catalog__s_has_been_deleted">Catalog %s has been deleted</string>
-    <!-- Used in file CatalogsActivity.java:154. Original value:Edit Catalog -->
-    <string name="string_edit_catalog">Edit Catalog</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:MapInfo *.mif -->
-    <string name="string_mapinfo___mif">MapInfo *.mif</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Clear Select -->
-    <string name="string_clear_select">Clear Select</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Delete Catalog -->
-    <string name="string_delete_catalog">Delete Catalog</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Export -->
-    <string name="string_export">Export</string>
-    <!-- Used in file CatalogInfoActivity.java:57. Original value:New Catalog -->
-    <string name="string_new_catalog">New Catalog</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:920. Original value:Select -->
-    <string name="string_select">Select</string>
-    <!-- Used in file CatalogPointsActivity2.java:574. Original value:point -->
-    <string name="string_point">point</string>
-    <!-- Used in file CatalogPointsActivity.java:72. Original value:Catalog %s -->
-    <string name="string_catalog__s">Catalog %s</string>
-    <!-- Used in file CatalogPointsActivity2.java:579. Original value:points -->
-    <string name="string_points">points</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Import -->
-    <string name="string_import">Import</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:89. Original value:What to do with point %1$s? -->
-    <string name="string_what_to_do_with_point__1_s_">What to do with point %1$s?</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:546. Original value:%d points were deleted -->
-    <string name="string__d_points_were_deleted">%d points were deleted</string>
-    <!-- Used in file CatalogsActivity.java:157. Original value:Select Catalog -->
-    <string name="string_select_catalog">Select Catalog</string>
-    <!-- Used in file CatalogInfoActivity.java:156. Original value:Catalog %1$s has been renamed to %2$s -->
-    <string name="string_catalog__1_s_has_been_renamed_to__2_s">Catalog %1$s has been renamed to %2$s</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:MapInfo *.tab -->
-    <string name="string_mapinfo___tab">MapInfo *.tab</string>
-    <!-- Used in file CatalogPointsActivity2.java:630. Original value:Delete %1$d filtered points (of %2$d) -->
-    <string name="string_delete__1_d_filtered_points__of__2_d_">Delete %1$d filtered points (of %2$d)</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Select All -->
-    <string name="string_select_all">Select All</string>
-    <!-- Used in file CatalogInfoActivity.java:105. Original value:Can\'t delete catalog %s! -->
-    <string name="string_can_t_delete_catalog__s_">Can\'t delete catalog %s!</string>
-    <!-- Used in file CatalogsActivity.java:192. Original value:catalog -->
-    <string name="string_catalog">catalog</string>
-    <!-- Used in file CatalogsActivity.java:196. Original value:catalogs -->
-    <string name="string_catalogs">catalogs</string>
-    <!-- Used in file CatalogPointsActivity2.java:624. Original value:View on Map -->
-    <string name="string_view_on_map">View on Map</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:NetCAD *.ncn -->
-    <string name="string_netcad___ncn">NetCAD *.ncn</string>
-    <!-- Used in file CatalogInfoActivity.java:149. Original value:Can\'t create catalog %s! -->
-    <string name="string_can_t_create_catalog__s_">Can\'t create catalog %s!</string>
-    <!-- Used in file CatalogInfoActivity.java:137. Original value:Can\'t set CS %s -->
-    <string name="string_can_t_set_cs__s">Can\'t set CS %s</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:Google KML *.kml -->
-    <string name="string_google_kml___kml">Google KML *.kml</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:945. Original value:Can\'t delete currently selected catalog! -->
-    <string name="string_can_t_delete_currently_selected_catalog_">Can\'t delete currently selected catalog!</string>
-    <!-- Used in file CatalogPointsActivity2.java:351. Original value:Select Export Type -->
-    <string name="string_select_export_type">Select Export Type</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Show on map -->
-    <string name="string_show_on_map">Show on map</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:106. Original value:Delete -->
-    <string name="string_delete">Delete</string>
-    <!-- Used in file CatalogInfoActivity.java:146. Original value:Catalog %s has been created -->
-    <string name="string_catalog__s_has_been_created">Catalog %s has been created</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:585. Original value:+ Add new control point -->
-    <string name="string___add_new_control_point">+ Add new control point</string>
-    <!-- Used in file CatalogInfoActivity.java:194. Original value:Catalog %s already exists! -->
-    <string name="string_catalog__s_already_exists_">Catalog %s already exists!</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:929. Original value:Delete %1$d selected points (of %2$d) -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">Delete %1$d selected points (of %2$d)</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:472. Original value:Error! -->
-    <string name="string_error_">Error!</string>
-    <!-- Used in file CatalogInfoActivity.java:159. Original value:Can\'t rename catalog %1$s to %2$s! -->
-    <string name="string_can_t_rename_catalog__1_s_to__2_s_">Can\'t rename catalog %1$s to %2$s!</string>
-    <!-- Used in file CatalogPointsActivity2.java:621. Original value:Delete point -->
-    <string name="string_delete_point">Delete point</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:UnSelect -->
-    <string name="string_unselect">UnSelect</string>
-    <!-- Used in file CatalogInfoActivity.java:185. Original value:Catalog name is empty! -->
-    <string name="string_catalog_name_is_empty_">Catalog name is empty!</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:AutoCad Drawing *.dxf -->
-    <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
-    <!-- Used in file CatalogPointsActivity2.java:448. Original value:Cancel -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Close -->
-    <string name="string_close">Close</string>
-    <!-- Used in file CatalogInfoActivity.java:187. Original value:Catalog name is too long!\nLimit it up to 40 chars, please -->
-    <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Catalog name is too long!\nLimit it up to 40 chars, please</string>
-    <!-- Used in file CatalogExpandableListAdapter.java:930. Original value:Invert Selection -->
-    <string name="string_invert_selection">Invert Selection</string>
-    <!-- Used in file CatalogPointsActivity2.java:348. Original value:ASCII file *.txt -->
-    <string name="string_ascii_file___txt">ASCII file *.txt</string>
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="coordinate_system_array">
-         <item>WGS 84</item>
-         <item>地方</item>
-    </string-array>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
 
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="coordinate_system_array">
+    <!--Original value: WGS 84-->
+    <item>WGS 84</item>
+    <!--Original value: Local-->
+    <item>地方</item>
+  </string-array>
+  <!--Original value: -->
+  <string name="">如何處理目錄%1$s?</string>
+  <!--Original value: -->
+  <string name="">目錄 %s 已被刪除</string>
+  <!--Original value: -->
+  <string name="">編輯目錄</string>
+  <!--Original value: -->
+  <string name="">MapInfo *.mif</string>
+  <!--Original value: -->
+  <string name="">清除選擇</string>
+  <!--Original value: -->
+  <string name="">刪除目錄</string>
+  <!--Original value: -->
+  <string name="">輸出</string>
+  <!--Original value: -->
+  <string name="">新目錄</string>
+  <!--Original value: -->
+  <string name="">選擇</string>
+  <!--Original value: -->
+  <string name="">點位</string>
+  <!--Original value: -->
+  <string name="">目錄 %s</string>
+  <!--Original value: -->
+  <string name="">點位</string>
+  <!--Original value: -->
+  <string name="">輸入</string>
+  <!--Original value: -->
+  <string name="">如何處理點 %1$s?</string>
+  <!--Original value: -->
+  <string name="">%d 點位被刪除</string>
+  <!--Original value: -->
+  <string name="">選擇目錄</string>
+  <!--Original value: -->
+  <string name="">目錄 %1$s已更名為%2$s</string>
+  <!--Original value: -->
+  <string name="">MapInfo *.tab</string>
+  <!--Original value: -->
+  <string name="">刪除 %1$d 過濾點位(of %2$d)</string>
+  <!--Original value: -->
+  <string name="">選擇全部</string>
+  <!--Original value: -->
+  <string name="">無法刪除目錄 %s!</string>
+  <!--Original value: -->
+  <string name="">目錄</string>
+  <!--Original value: -->
+  <string name="">目錄</string>
+  <!--Original value: -->
+  <string name="">在地圖上查看</string>
+  <!--Original value: -->
+  <string name="">NetCAD *.ncn</string>
+  <!--Original value: -->
+  <string name="">無法創建目錄%s!</string>
+  <!--Original value: -->
+  <string name="">無法設定坐標系統 %s</string>
+  <!--Original value: -->
+  <string name="">Google KML *.kml</string>
+  <!--Original value: -->
+  <string name="">無法刪除當前選定的目錄!</string>
+  <!--Original value: -->
+  <string name="">選擇輸出形式</string>
+  <!--Original value: -->
+  <string name="">在地圖上顯示</string>
+  <!--Original value: -->
+  <string name="">刪除</string>
+  <!--Original value: -->
+  <string name="">目錄 %s 已經被創建了</string>
+  <!--Original value: -->
+  <string name="">+增加新的控制點</string>
+  <!--Original value: -->
+  <string name="">目錄 %s 已存在!</string>
+  <!--Original value: -->
+  <string name="">刪除 %1$d 選擇點位(of %2$d)</string>
+  <!--Original value: -->
+  <string name="">錯誤!</string>
+  <!--Original value: -->
+  <string name="">無法重命名目錄%1$s to %2$s!</string>
+  <!--Original value: -->
+  <string name="">刪除點位</string>
+  <!--Original value: -->
+  <string name="">取消選擇</string>
+  <!--Original value: -->
+  <string name="">目錄名稱為空!</string>
+  <!--Original value: -->
+  <string name="">AutoCad Drawing *.dxf</string>
+  <!--Original value: -->
+  <string name="">取消</string>
+  <!--Original value: -->
+  <string name="">關閉</string>
+  <!--Original value: -->
+  <string name="">目錄名稱太長!\限制為40個字符, 請</string>
+  <!--Original value: -->
+  <string name="">反轉選擇</string>
+  <!--Original value: -->
+  <string name="">ASCII file *.txt</string>
 </resources>
