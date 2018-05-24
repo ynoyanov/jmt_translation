@@ -1,101 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file pref_cs.xml:8. Original value:Press to add to cs favorites and finish    -->
-    <string name="add_to_favorites_description">Нажмите для добавки СК в список избранных ск</string>
-    <!-- Used in file pref_cs.xml:5. Original value:Geoid    -->
-    <string name="string_geoid">Геоид</string>
-    <!-- Used in file CSListActivity.java:146. Original value:File javad/geodata/CoordinateSystemDB.db3 is corrupted!    -->
-    <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
-    <!-- Used in file activity_save_localization_parameters.xml:74. Original value:Longitude Orig.    -->
-    <string name="string_longitude_origin">Нач.долгота</string>
-    <!-- Used in file user_cs.xml:73. Original value:Scale Difference, ppm    -->
-    <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
-    <!-- Used in file pref_cs.xml:7. Original value:Transformation    -->
-    <string name="string_transformation">Преобразование</string>
-    <!-- Used in file identical_points.xml:30. Original value:Delete Localization    -->
-    <string name="action_delete_localization">Удалить локализацию</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:180. Original value:North Ground    -->
-    <string name="string_north_ground_xml">North Ground</string>
-    <!-- Used in file cslist.xml:5. Original value:Filter    -->
-    <string name="action_filter">Фильтр</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:323. Original value:East Inclination    -->
-    <string name="string_east_inclination_xml">East Inclination</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:131. Original value:North origin    -->
-    <string name="string_origin_north">Сдвиг на север</string>
-    <!-- Used in file activity_identical_points.xml:40. Original value:Survey    -->
-    <string name="string_survey">Съемочные</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:58. Original value:North Origing    -->
-    <string name="string_north_origin_xml">Начало север</string>
-    <!-- Used in file list_identical_point.xml:145. Original value:Type    -->
-    <string name="identical_point_type">Тип</string>
-    <!-- Used in file CSListActivity.java:167. Original value:No GeoData!    -->
-    <string name="no_geodata_error">Нет GeoData!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:372. Original value:Vertical treshold    -->
-    <string name="string_vertical_treshold">Вертикальный порог</string>
-    <!-- Used in file activity_identical_points.xml:31. Original value:Design    -->
-    <string name="string_design">Выносные</string>
-    <!-- Used in file user_cs.xml:6. Original value:Projection    -->
-    <string name="category_projection">Проекция</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:58. Original value:Latitude    -->
-    <string name="string_latitude_xml">Latitude</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:410. Original value:Apply    -->
-    <string name="button_apply">Применить</string>
-    <!-- Used in file pref_cs.xml:3. Original value:CS Name    -->
-    <string name="string_cs_name">Имя СК</string>
-    <!-- Used in file pref_cs.xml:6. Original value:Cur.Epoch    -->
-    <string name="current_epoch">Тек.эпоха</string>
-    <!-- Used in file pref_cs.xml:8. Original value:Add to favorites    -->
-    <string name="add_to_favorites">Добавить СК в список</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:113. Original value:Origin    -->
-    <string name="string_origin">Начало</string>
-    <!-- Used in file user_cs.xml:13. Original value:Datum    -->
-    <string name="category_datum">Датум</string>
-    <!-- Used in file activity_identical_points.xml:49. Original value:Type    -->
-    <string name="string_type">Тип</string>
-    <!-- Used in file activity_identical_points.xml:22. Original value:&#8211;    -->
-    <string name="string_action_button">–</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:298. Original value:North Inclination    -->
-    <string name="string_north_inclination_xml">North Inclination</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:59. Original value:East Origing    -->
-    <string name="string_east_origin_xml">Начало восток</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:354. Original value:Horizontal treshold    -->
-    <string name="string_horizontal_treshold">Плановый порог</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:156. Original value:East origin    -->
-    <string name="string_origin_east">Сдвиг на восток</string>
-    <!-- Used in file CSListActivity.java:147. Original value:It wll be removed. Please redownload it.    -->
-    <string name="do_you_want_to_remove_it">Он будет удален и перезагружен.</string>
-    <!-- Used in file user_cs.xml:74. Original value:Datum direction    -->
-    <string name="datum_direction">Направление датума</string>
-    <!-- Used in file user_cs.xml:65. Original value:RZ, sec    -->
-    <string name="string_datum_rz">RZ, сек</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:csgui    -->
-    <string name="app_name">csgui</string>
-    <!-- Used in file user_cs.xml:49. Original value:RX, sec    -->
-    <string name="string_datum_rx">RX, сек</string>
-    <!-- Used in file user_cs.xml:57. Original value:RY, sec    -->
-    <string name="string_datum_ry">RY, сек</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:252. Original value:Scale    -->
-    <string name="string_scale_xml">Scale</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel    -->
-    <string name="button_cancel">Отменить</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:229. Original value:Rotation    -->
-    <string name="string_rotation_xml">Rotation</string>
-    <!-- Used in file activity_save_localization_parameters.xml:55. Original value:Latitude Orig.    -->
-    <string name="string_latitude_origin_xml">Latitude Orig.</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:205. Original value:East Ground    -->
-    <string name="string_east_ground_xml">East Ground</string>
-    <!-- Used in file user_cs.xml:33. Original value:DY, m    -->
-    <string name="string_datum_dy">DY, м</string>
-    <!-- Used in file identical_points.xml:20. Original value:Setup    -->
-    <string name="action_parameters">Установить</string>
-    <!-- Used in file user_cs.xml:25. Original value:DX, m    -->
-    <string name="string_datum_dx">DX, м</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:83. Original value:Longitude    -->
-    <string name="string_longitude_xml">Longitude</string>
-    <!-- Used in file user_cs.xml:41. Original value:DZ, m    -->
-    <string name="string_datum_dz">DZ, м</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset    -->
-    <string name="string_height_offset_xml">Height Offset</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Press to add to cs favorites and finish-->
+  <string name="add_to_favorites_description">Нажмите для добавки СК в список избранных ск</string>
+  <!--Original value: Geoid-->
+  <string name="string_geoid">Геоид</string>
+  <!--Original value: Longitude Orig.-->
+  <string name="string_longitude_origin">Нач.долгота</string>
+  <!--Original value: File javad/geodata/CoordinateSystemDB.db3 is corrupted!-->
+  <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
+  <!--Original value: Scale Difference, ppm-->
+  <string name="string_datum_scale_difference">Разница масш-ба, ppm</string>
+  <!--Original value: Transformation-->
+  <string name="string_transformation">Преобразование</string>
+  <!--Original value: Delete Localization-->
+  <string name="action_delete_localization">Удалить локализацию</string>
+  <!--Original value: North Ground-->
+  <string name="string_north_ground_xml">Север на местности</string>
+  <!--Original value: East Inclination-->
+  <string name="string_east_inclination_xml">Наклон на восток</string>
+  <!--Original value: Filter-->
+  <string name="action_filter">Фильтр</string>
+  <!--Original value: North origin-->
+  <string name="string_origin_north">Сдвиг на север</string>
+  <!--Original value: Survey-->
+  <string name="string_survey">Съемочные</string>
+  <!--Original value: North Origing-->
+  <string name="string_north_origin_xml">Начало север</string>
+  <!--Original value: Type-->
+  <string name="identical_point_type">Тип</string>
+  <!--Original value: No GeoData!-->
+  <string name="no_geodata_error">Нет GeoData!</string>
+  <!--Original value: Vertical treshold-->
+  <string name="string_vertical_treshold">Вертикальный порог</string>
+  <!--Original value: Design-->
+  <string name="string_design">Выносные</string>
+  <!--Original value: Projection-->
+  <string name="category_projection">Проекция</string>
+  <!--Original value: Latitude-->
+  <string name="string_latitude_xml">Широта</string>
+  <!--Original value: Apply-->
+  <string name="button_apply">Применить</string>
+  <!--Original value: CS Name-->
+  <string name="string_cs_name">Имя СК</string>
+  <!--Original value: Cur.Epoch-->
+  <string name="current_epoch">Тек.эпоха</string>
+  <!--Original value: Add to favorites-->
+  <string name="add_to_favorites">Добавить СК в список</string>
+  <!--Original value: Origin-->
+  <string name="string_origin">Начало</string>
+  <!--Original value: Datum-->
+  <string name="category_datum">Датум</string>
+  <!--Original value: Type-->
+  <string name="string_type">Тип</string>
+  <!--Original value: –-->
+  <string name="string_action_button">–</string>
+  <!--Original value: North Inclination-->
+  <string name="string_north_inclination_xml">Наклон на север</string>
+  <!--Original value: East Origing-->
+  <string name="string_east_origin_xml">Начало восток</string>
+  <!--Original value: Horizontal treshold-->
+  <string name="string_horizontal_treshold">Плановый порог</string>
+  <!--Original value: East origin-->
+  <string name="string_origin_east">Сдвиг на восток</string>
+  <!--Original value: It wll be removed. Please redownload it.-->
+  <string name="do_you_want_to_remove_it">Он будет удален и перезагружен.</string>
+  <!--Original value: Datum direction-->
+  <string name="datum_direction">Направление датума</string>
+  <!--Original value: RZ, sec-->
+  <string name="string_datum_rz">RZ, сек</string>
+  <!--Original value: csgui-->
+  <string name="app_name">csgui</string>
+  <!--Original value: RX, sec-->
+  <string name="string_datum_rx">RX, сек</string>
+  <!--Original value: RY, sec-->
+  <string name="string_datum_ry">RY, сек</string>
+  <!--Original value: Scale-->
+  <string name="string_scale_xml">Масштаб</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">Отменить</string>
+  <!--Original value: Rotation-->
+  <string name="string_rotation_xml">Поворот</string>
+  <!--Original value: Latitude Orig.-->
+  <string name="string_latitude_origin_xml">Нач.широта</string>
+  <!--Original value: East Ground-->
+  <string name="string_east_ground_xml">Восток на местности</string>
+  <!--Original value: DY, m-->
+  <string name="string_datum_dy">DY, м</string>
+  <!--Original value: DX, m-->
+  <string name="string_datum_dx">DX, м</string>
+  <!--Original value: Setup-->
+  <string name="action_parameters">Установить</string>
+  <!--Original value: Longitude-->
+  <string name="string_longitude_xml">Долгота</string>
+  <!--Original value: DZ, m-->
+  <string name="string_datum_dz">DZ, м</string>
+  <!--Original value: Height Offset-->
+  <string name="string_height_offset_xml">Сдвиг высоты</string>
 </resources>
