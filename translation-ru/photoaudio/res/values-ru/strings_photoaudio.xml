@@ -1,90 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Used in file DrawOnBitmapActivity.java:106  -->
-    <string name="string_brush_size_">Размер кисти:</string>
-    <!--  Used in file DrawOnBitmapActivity.java:195  -->
-    <string name="string_yes">Да</string>
-    <!--  Used in file PhotoImageAdapter.java:440  -->
-    <string name="string_delete_image">Удалить файл</string>
-    <!--  Used in file DrawOnBitmapActivity.java:193  -->
-    <string name="string_save_drawing">Сохранить</string>
-    <!--  Used in file DrawOnBitmapActivity.java:143  -->
-    <string name="string_eraser_size_">Размер ластика:</string>
-    <!--  Used in file DrawOnBitmapActivity.java:176  -->
-    <string name="string_new_drawing">Заново</string>
-    <!--  Used in file TakePhotoActivity2.java:414  -->
-    <string name="string_permission_denied_to_access_to_camera">Для доступа к камере нужно разрешение</string>
-    <!--  Used in file DrawOnBitmapActivity.java:214  -->
-    <string name="string_saved_">Сохранено</string>
-    <!--  Used in file PhotoImageAdapter.java:448  -->
-    <string name="string_can_t_remove_the_file_">Не удалось удалить файл!</string>
-    <!--  Used in file DrawOnBitmapActivity.java:194  -->
-    <string name="string_save_drawing_to_device_gallery_">Сохранить рисунок в галлерею? </string>
-    <!--  Used in file PhotoImageAdapter.java:440  -->
-    <string name="string_delete_audio">Удалить файл</string>
-    <!--  Used in file PhotoImageAdapter.java:441  -->
-    <string name="string_do_you_want_to_delete_file_">Хотите удалить файл?</string>
-    <!--  Used in file PhotoImageAdapter.java:442  -->
-    <string name="string_delete">Удалить</string>
-    <!--  Used in file PhotoImageAdapter.java:446  -->
-    <string name="string_file_has_removed">Файл удален</string>
-    <!--  Used in file DrawOnBitmapActivity.java:177  -->
-    <string name="string_start_new_drawing__you_will_lose_the_current_drawing__">Начать новое рисование (все нарисованное будет утеряно)?</string>
-    <!--  Used in file DrawOnBitmapActivity.java:227  -->
-    <string name="string_cancel">Отменить</string>
-    <!--  Used in file TakePhotoActivity.java:278  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file TakePhotoActivity.java:276  -->
-    <string name="string_take_photo_failed">Не удалось снять фото</string>
-    <!-- Used in file brush_chooser.xml:20    -->
+    <!-- Used in file brush_chooser.xml:20. Original value:Medium    -->
     <string name="med">Средне</string>
-    <!-- Used in file activity_audio_recording.xml:34    -->
+    <!-- Used in file activity_audio_recording.xml:34. Original value:Stop    -->
     <string name="button_stop_audio">Стоп</string>
-    <!-- Used in file activity_edit_image.xml:41    -->
+    <!-- Used in file activity_edit_image.xml:41. Original value:Save    -->
     <string name="save">Сохранить</string>
-    <!-- Used in file activity_edit_image.xml:34    -->
+    <!-- Used in file activity_edit_image.xml:34. Original value:Erase    -->
     <string name="erase">Стереть</string>
-    <!-- Used in file brush_chooser.xml:28    -->
+    <!-- Used in file brush_chooser.xml:28. Original value:Large    -->
     <string name="lrg">Большая</string>
-    <!-- Used in file activity_draw_on_bitmap.xml:10    -->
+    <!-- Used in file activity_draw_on_bitmap.xml:10. Original value:Save Picture    -->
     <string name="save_picture">Сохранить изображение</string>
-    <!-- Used in file AndroidManifest.xml:13    -->
+    <!-- Used in file AndroidManifest.xml:13. Original value:photoaudio    -->
     <string name="app_name">photoaudio</string>
-    <!-- Used in file dialog_full_screen_image.xml:11    -->
+    <!-- Used in file dialog_full_screen_image.xml:11. Original value:Close    -->
     <string name="close">Закрыть</string>
-    <!-- Used in file activity_audio_recording.xml:24    -->
+    <!-- Used in file activity_audio_recording.xml:24. Original value:Record    -->
     <string name="button_record_audio">Запись</string>
-    <!-- Used in file brush_chooser.xml:12    -->
+    <!-- Used in file brush_chooser.xml:12. Original value:Small    -->
     <string name="sml">Малая</string>
-    <!-- Used in file activity_draw_on_bitmap.xml:43    -->
+    <!-- Used in file activity_draw_on_bitmap.xml:43. Original value:Choose Picture    -->
     <string name="choose_picture">Выбор картинки</string>
-    <!-- Used in file activity_edit_image.xml:195    -->
+    <!-- Used in file activity_edit_image.xml:195. Original value:Paint    -->
     <string name="paint">Рисовать</string>
-    <!-- Used in file activity_edit_image.xml:20    -->
+    <!-- Used in file activity_edit_image.xml:20. Original value:New    -->
     <string name="start_new">Создать</string>
-    <!-- Used in file activity_draw_on_bitmap.xml:33    -->
+    <!-- Used in file activity_draw_on_bitmap.xml:33. Original value:Reset    -->
     <string name="reset_picture_string">Заново</string>
-    <!-- Used in file activity_edit_image.xml:27    -->
+    <!-- Used in file activity_edit_image.xml:27. Original value:Brush    -->
     <string name="brush">Кисть</string>
-    <!-- Used in file activity_audio_recording.xml:14    -->
+    <!-- Used in file activity_audio_recording.xml:14. Original value:Play    -->
     <string name="button_play_audio">Прослушать</string>
+
 </resources>

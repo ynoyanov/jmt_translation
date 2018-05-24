@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
-    <!-- Used in file activity_process_dpos2.xml:177 -->
-    <string-array name="height_type_array_opus">
-         <item>Verical</item>
-         <item>Slant</item>
-    </string-array>
 
     <!-- Used in file activity_process_dpos2.xml:139 -->
     <string-array name="antenna_ids2_array">
@@ -14,10 +8,23 @@
          <item>JAVGISMORE      NONE</item>
     </string-array>
 
+    <!-- Used in file activity_process_dpos2.xml:177 -->
+    <string-array name="height_type_array_opus">
+         <item>Verical</item>
+         <item>Slant</item>
+    </string-array>
+
     <!-- Used in file activity_process_dpos.xml:151 -->
     <string-array name="dpos_server_array">
          <item>app.javad.com</item>
          <item>dpos-dev.javad.com</item>
+    </string-array>
+
+    <!-- Used in file activity_process_opus.xml:169 -->
+    <string-array name="opus_formats_array">
+         <item>Standard</item>
+         <item>Standard + XML(draft)</item>
+         <item>Extended</item>
     </string-array>
 
     <!-- Used in file activity_process_dpos2.xml:101 -->
@@ -26,13 +33,6 @@
          <item>USA Network</item>
          <item>Moscow Network</item>
          <item>Giodis Network</item>
-    </string-array>
-
-    <!-- Used in file activity_process_opus.xml:169 -->
-    <string-array name="opus_formats_array">
-         <item>Standard</item>
-         <item>Standard + XML(draft)</item>
-         <item>Extended</item>
     </string-array>
 
     <!-- Used in file activity_process_dpos2.xml:215 -->
@@ -49,6 +49,4 @@
     </string-array>
 
 
-
-    
 </resources>

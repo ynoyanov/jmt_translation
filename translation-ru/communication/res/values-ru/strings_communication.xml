@@ -1,155 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <!--  Used in file ConnectionBluetoothActivity.java:180  -->
-    <string name="string_wifi_ssid_is_">WiFi SSID - </string>
-    <!--  Used in file MainCommunicationActivity.java:582  -->
-    <string name="string_network_port_">Сетевой порт:</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:135  -->
-    <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">Это действие настроит WiFi приеника на теже настройки? что и у этого Android усройства.</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:177  -->
-    <string name="string_reprogram_wifi_for_iphone_ipad">Настроить для iPhone/iPad</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:101  -->
-    <string name="string_and_reprogram_your_receiver_to_connect_to_it_with_wifi_">и перенастроить приемник для подключения по WiFi.</string>
-    <!--  Used in file ConnectionConfigurationsActivity.java:92  -->
-    <string name="string_delete_entry">Удалить элемент</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:102  -->
-    <string name="string_mobile_hotspot_is_">Переносная точка - </string>
-    <!--  Used in file MainCommunicationActivity.java:584  -->
-    <string name="string_password">Пароль</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:134  -->
-    <string name="string_reconnect_with_wifi_using_ap">Подключить WiFi через AP</string>
-    <!--  Used in file MainCommunicationActivity.java:74  -->
-    <string name="string_wifi_nmobile">Моб.\nWiFi</string>
-    <!--  Used in file MainCommunicationActivity.java:850  -->
-    <string name="string_wait__">Подождите!</string>
-    <!--  Used in file MainCommunicationActivity.java:940  -->
-    <string name="string_exit_application">Выход из программы</string>
-    <!--  Used in file MainCommunicationActivity.java:583  -->
-    <string name="string_login">Логин</string>
-    <!--  Used in file ConnectionConfigurationsActivity.java:71  -->
-    <string name="string_are_you_sure_you_want_to_delete__d_configurations_">Удалить %d конфигураций?</string>
-    <!--  Used in file MainCommunicationActivity.java:1040  -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Нет разрешения для получения списка устройств!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:178  -->
-    <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">Это перенастроит WiFi выбранного приемника в режим AdHoc.</string>
-    <!--  Used in file ConnectionConfigurationsActivity.java:74  -->
-    <string name="string_are_you_sure_you_want_to_delete_configuration___">Are you sure you want to delete configuration \&quot;</string>
-    <!--  Used in file MainCommunicationActivity.java:581  -->
-    <string name="string_ip_address">IP-адрес</string>
-    <!--  Used in file MainCommunicationActivity.java:179  -->
-    <string name="string_configuration_could_not_be_read">Не удалось прочесть конфигурацию</string>
-    <!--  Used in file MainCommunicationActivity.java:941  -->
-    <string name="string_do_you_want_to_exit_the_application_">Хотите завершить приложение?</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:99  -->
-    <string name="string_reconnect_with_wifi_using_android">Переподключить по WiFi используя Android</string>
-    <!--  Used in file MainCommunicationActivity.java:171  -->
-    <string name="string_connnected_to_">Подключенно к </string>
-    <!--  Used in file MainCommunicationActivity.java:72  -->
-    <string name="string_blt">Blt</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:179  -->
-    <string name="string_that_allows_iphone_ipad_to_be_connected_to_this_receiver_with_wifi_">Это позволит устройствам iPhone/iPad подключаться к выбранному приемнику через WiFi.</string>
-    <!--  Used in file ConnectionConfigurationRenameActivity.java:70  -->
-    <string name="string_rename_error_">Ошибка переименования!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:136  -->
-    <string name="string_the_same_ap_will_be_used_">Будет использованна та же точка доступа</string>
-    <!--  Used in file MainCommunicationActivity.java:697  -->
-    <string name="string_wifi_ap_is_disabled____making_it_enabled">WiFi отключен. включется…</string>
-    <!--  Used in file MainCommunicationActivity.java:849  -->
-    <string name="string_please_wait__">Подождите!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:182  -->
-    <string name="string_do_you_want_ot_continue_">Продолжить?</string>
-    <!--  Used in file MainCommunicationActivity.java:304  -->
-    <string name="string_configuration__s_could_not_be_read">Не удалось прочесть конфигурацию %s</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:100  -->
-    <string name="string_this_will_switch_your_android_device_into_mobile_hotspot_mode">Переключить сматрфон с Android в режим переносной точки доступа (Mobile HotSpot)?</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:166  -->
-    <string name="string_password_length_must_be_8_chars_">Длина пароля должна быть 8 символов!</string>
-    <!--  Used in file ConnectionConfigurationsActivity.java:68  -->
-    <string name="string_are_you_sure_you_want_to_delete_this_entry_">Хотите удалить этот элемент?</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:136  -->
-    <string name="string_ap_">AP</string>
-    <!--  Used in file ConnectionConfigurationRenameActivity.java:63  -->
-    <string name="string_configuration_with_name__s_already_exist_">Конфигурация с именем %s уже существует!</string>
-    <!--  Used in file MainCommunicationActivity.java:73  -->
-    <string name="string_wifi">WiFi</string>
-    <!--  Used in file ConnectionConfigurationsActivity.java:76  -->
-    <string name="string_are_you_sure_you_want_to_delete_configurations__n">Удалить конфигурации:\n</string>
-    <!--  Used in file MainCommunicationActivity.java:786  -->
-    <string name="string_wifi_is_disabled____making_it_enabled">WiFi отключен. включается…</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:181  -->
-    <string name="string_wifi_password_is__s_">Пароль WiFi - %s</string>
-    <!--  Used in file MainCommunicationActivity.java:75  -->
-    <string name="string_net">Сеть</string>
-    <!--  Used in file MainCommunicationActivity.java:585  -->
-    <string name="string_connect">СВЯЗЬ</string>
-    <!-- Used in file ReceiverModel.java:2160    -->
+
+    <!-- Used in file ReceiverModel.java:2160. Original value:RTK Base antenna height error!    -->
     <string name="set_rtkbase_error_antenna_height">Ошибка высоты антенны!</string>
-    <!-- Used in file activity_connection.xml:79    -->
+    <!-- Used in file activity_connection.xml:79. Original value:Password    -->
     <string name="password">Пароль</string>
-    <!-- Used in file activity_connection.xml:60    -->
+    <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
     <string name="login_netgear">Приемник в NetGear</string>
-    <!-- Used in file ReceiverModel.java:2158    -->
+    <!-- Used in file ReceiverModel.java:2158. Original value:RTK Base antenna type error!    -->
     <string name="set_rtkbase_error_antenna_type">Ошибка ввода типа антенны!</string>
-    <!-- Used in file activity_connection.xml:50    -->
+    <!-- Used in file activity_connection.xml:50. Original value:Login    -->
     <string name="login">Логин</string>
-    <!-- Used in file ReceiverModel.java:2089    -->
+    <!-- Used in file ReceiverModel.java:2089. Original value:RTK Base parameters is not pass!    -->
     <string name="set_rtkbase_error_null">Не переданны параметры RTK базы!</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:23    -->
+    <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
     <string name="setting_name">Имя настройки</string>
-    <!-- Used in file activity_main_communication.xml:74    -->
+    <!-- Used in file activity_main_communication.xml:74. Original value:Network    -->
     <string name="ethernet_radio">Сеть</string>
-    <!-- Used in file ReceiverModel.java:2156    -->
+    <!-- Used in file ReceiverModel.java:2156. Original value:RTK Base antenna Id error!    -->
     <string name="set_rtkbase_error_antenna_id">Ошибка модели антены!</string>
-    <!-- Used in file ReceiverModel.java:2154    -->
+    <!-- Used in file ReceiverModel.java:2154. Original value:RTK Base position error!    -->
     <string name="set_rtkbase_error_position">Ошибка установки положения RTK базы!</string>
-    <!-- Used in file ConfigurationManager.java:191    -->
+    <!-- Used in file ConfigurationManager.java:191. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
     <string name="string_without_receiver"> &#x002d;&#x002d;&#x002d;без приемника&#x002d;&#x002d;&#x002d; </string>
-    <!-- Used in file activity_connection_bluetooth.xml:95    -->
+    <!-- Used in file activity_connection_bluetooth.xml:95. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
     <string name="button_wifi_iphone_reconnect">Настроить приемник для подключения iPhone</string>
-    <!-- Used in file activity_main_communication.xml:67    -->
+    <!-- Used in file activity_main_communication.xml:67. Original value:WiFi\n(Mob.AP)    -->
     <string name="wifi_ap_radio">WiFi\n(моб.точка)</string>
-    <!-- Used in file activity_main_communication.xml:53    -->
+    <!-- Used in file activity_main_communication.xml:53. Original value:Bluetooth    -->
     <string name="bluetooth_radio">Bluetooth</string>
-    <!-- Used in file activity_connection_bluetooth.xml:75    -->
+    <!-- Used in file activity_connection_bluetooth.xml:75. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
     <string name="button_wifi_ap_reconnect">Подключить по WiFi,используя этот телефон как мобильную точку доступа</string>
-    <!-- Used in file activity_connection_bluetooth.xml:61    -->
+    <!-- Used in file activity_connection_bluetooth.xml:61. Original value:WiFi Password    -->
     <string name="string_wifi_password">Пароль WiFi</string>
-    <!-- Used in file list_items_button.xml:13    -->
+    <!-- Used in file list_items_button.xml:13. Original value:Connect    -->
     <string name="button_connect">Связь</string>
-    <!-- Used in file ConfigurationManager.java:168    -->
+    <!-- Used in file ConfigurationManager.java:168. Original value:- select a configuration    -->
     <string name="string_select_configuration_small">- выберите</string>
-    <!-- Used in file main_communication.xml:7    -->
+    <!-- Used in file main_communication.xml:7. Original value:Refresh    -->
     <string name="action_refresh">Обновить</string>
-    <!-- Used in file ReceiverModel.java:2164    -->
+    <!-- Used in file ReceiverModel.java:2164. Original value:RTK Base base id error!    -->
     <string name="set_rtkbase_error_base_id">Неверный идентификатор базы!</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:61    -->
+    <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
     <string name="button_cancel">Отменить</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:46    -->
+    <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
     <string name="string_rename">Переименовать</string>
-    <!-- Used in file activity_connection_configurations.xml:19    -->
+    <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
     <string name="string_new">Новая</string>
-    <!-- Used in file connection.xml:7    -->
+    <!-- Used in file connection.xml:7. Original value:Settings    -->
     <string name="action_settings">Настройки</string>
-    <!-- Used in file activity_main_communication.xml:60    -->
+    <!-- Used in file activity_main_communication.xml:60. Original value:WiFi    -->
     <string name="wifi_radio">WiFi</string>
-    <!-- Used in file activity_connection_configurations.xml:36    -->
+    <!-- Used in file activity_connection_configurations.xml:36. Original value:Delete    -->
     <string name="string_delete">Удалить</string>
-    <!-- Used in file main_communication.xml:12    -->
+    <!-- Used in file main_communication.xml:12. Original value:About    -->
     <string name="action_about">О программе</string>
-    <!-- Used in file ConfigurationManager.java:170    -->
+    <!-- Used in file ConfigurationManager.java:170. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
     <string name="string_select_configuration">&#x002d;&#x002d;&#x002d; выберите конфигурацию &#x002d;&#x002d;&#x002d; </string>
-    <!-- Used in file ReceiverModel.java:2162    -->
+    <!-- Used in file ReceiverModel.java:2162. Original value:RTK Base cannot enable corrections    -->
     <string name="set_rtkbase_error_enable_corrections">Не удалось запустить поправки на RTK базе!</string>
-    <!-- Used in file activity_connection_bluetooth.xml:85    -->
+    <!-- Used in file activity_connection_bluetooth.xml:85. Original value:Reconnect with WiFi using external AP    -->
     <string name="button_wifi_network_reconnect">Подключить к WiFi используя внешнюю точку доступа</string>
-    <!-- Used in file activity_main_communication.xml:36    -->
+    <!-- Used in file activity_main_communication.xml:36. Original value:Connection to receiver:    -->
     <string name="text_connection">Связь с приемником:</string>
-
-
-
-
-
-    
 
 </resources>

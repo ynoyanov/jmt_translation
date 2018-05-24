@@ -1,416 +1,251 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Used in file CoGoLineOffsetActivity.java:273  -->
-    <string name="string_wrong_track_increment_">Неверная прибавка м/у треками!</string>
-    <!--  Used in file CoGoBaseActivity.java:376  -->
-    <string name="string_h__abs_">Н, абсол.</string>
-    <!--  Used in file CoGoDiagonalsActivity.java:115  -->
-    <string name="string_select_p3_">Выберите Р3!</string>
-    <!--  Used in file CoGoDirectActivity.java:164  -->
-    <string name="string_wrong_height_difference_">Неправильная высота!</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:161  -->
-    <string name="string_wrong_angle_">Неверный угол!</string>
-    <!--  Used in file CoGoResultActivity.java:161  -->
-    <string name="string_points">точек</string>
-    <!--  Used in file CoGoBaseActivity.java:378  -->
-    <string name="string_h__p1">H, P1</string>
-    <!--  Used in file CoGoBaseActivity.java:380  -->
-    <string name="string_h__p2">H, P2</string>
-    <!--  Used in file CoGoBaseActivity.java:902  -->
-    <string name="string_point__s_successfully_created">Точка %s успешно создана</string>
-    <!--  Used in file CoGoTriangleActivity.java:54  -->
-    <string name="string_choose_action">Выбор действия</string>
-    <!--  Used in file CoGoLineOffsetActivity.java:268  -->
-    <string name="string_wrong_number_of_tracks_">Неверное число треков!</string>
-    <!--  Used in file CoGoDiagonalsActivity.java:113  -->
-    <string name="string_select_p2_">Выберите Р2!</string>
-    <!--  Used in file CoGoBaseActivity.java:259  -->
-    <string name="string_d2__slant">D2, наклон.</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:190  -->
-    <string name="string_wrong_height_">Неверная высота!</string>
-    <!--  Used in file CoGoBaseActivity.java:340  -->
-    <string name="string_dh__slope___u0025">dH, наклон</string>
-    <!--  Used in file CoGoPoints3ArcActivity.java:125  -->
-    <string name="string_can_t_compute_parameters_">Не удалось вычислить параметры! </string>
-    <!--  Used in file CoGoBaseActivity.java:899  -->
-    <string name="string__d_points_were_successfully_created">%d точек были успешно созданны</string>
-    <!--  Used in file CoGoHingeActivity.java:204  -->
-    <string name="string_wrong_area_percent_">Неверный процент площади!</string>
-    <!--  Used in file CoGoDiagonalsActivity.java:117  -->
-    <string name="string_select_p4_">Выберите Р4!</string>
-    <!--  Used in file CoGoBaseActivity.java:342  -->
-    <string name="string_dh__angle">DH, угол</string>
-    <!--  Used in file CoGoOffsetActivity.java:164  -->
-    <string name="string_wrong_offset_distance_">Неверный отступ!</string>
-    <!--  Used in file CoGoLineOffsetActivity.java:112  -->
-    <string name="string_number_of_points">Число точек</string>
-    <!--  Used in file CoGoBaseActivity.java:382  -->
-    <string name="string_h__avg_">Н, сред.</string>
-    <!--  Used in file CoGoLineOffsetActivity.java:333  -->
-    <string name="string__d_points_successfully_created">Создано %d точек</string>
-    <!--  Used in file CoGoTriangleActivity.java:55  -->
-    <string name="string_swap_points">Поменять точки</string>
-    <!--  Used in file CoGoDirectActivity.java:220  -->
-    <string name="string_can_t_convert_coordinates_to_currect_coordinate_system_">Не удалось перевести координаты в текущую систему координат</string>
-    <!--  Used in file CoGoBaseActivity.java:1426  -->
-    <string name="string_left">ВЛЕВО</string>
-    <!--  Used in file CoGoBaseActivity.java:286  -->
-    <string name="string_d3__slant">D3, наклон.</string>
-    <!--  Used in file CoGoTriangleActivity.java:53  -->
-    <string name="string_actions">Действия</string>
-    <!--  Used in file CoGoBaseActivity.java:232  -->
-    <string name="string_d__slant">D, наклонная</string>
-    <!--  Used in file CoGoBaseActivity.java:905  -->
-    <string name="string_can_t_create_point_">Не удалось создать точку</string>
-    <!--  Used in file CoGoBaseActivity.java:206  -->
-    <string name="string_b__grid">B, плоск.</string>
-    <!--  Used in file CoGoBaseActivity.java:208  -->
-    <string name="string_b__mag">В, магн.</string>
-    <!--  Used in file CoGoBaseActivity.java:1426  -->
-    <string name="string_right">ВПРАВО</string>
-    <!--  Used in file CoGoBaseActivity.java:510  -->
-    <string name="string_select_p2">Выбор Р2</string>
-    <!--  Used in file CoGoBaseActivity.java:494  -->
-    <string name="string_select_p1">Выбор Р1</string>
-    <!--  Used in file CoGoDirectActivity.java:154  -->
-    <string name="string_wrong_distance_">Неверное расстояние!</string>
-    <!--  Used in file CoGoBaseActivity.java:542  -->
-    <string name="string_select_p4">Выбор Р4</string>
-    <!--  Used in file CoGoBaseActivity.java:526  -->
-    <string name="string_select_p3">Выбор P3</string>
-    <!--  Used in file CoGoHingeActivity.java:210  -->
-    <string name="string_can_t_cut__1__3fm2_from_all__2__4fm2">Нельзя вырезать %1$.3fm2 из общей площади %2$.4fm2</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:156  -->
-    <string name="string_wrong_number_of_points_">Неправильное число точек!</string>
-    <!--  Used in file CoGoResultActivity.java:156  -->
-    <string name="string_point">точка</string>
-    <!--  Used in file CoGoLineOffsetActivity.java:290  -->
-    <string name="string_wrong_segment_length_">Неверная длина сегмента!</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:213  -->
-    <string name="string_can_t_compute_coordinates_">Не удалось вычислить координаты!</string>
-    <!--  Used in file CoGoBaseActivity.java:288  -->
-    <string name="string_d3__horizontal">D3, горизонт.</string>
-    <!--  Used in file CoGoIntersectionDDActivity.java:161  -->
-    <string name="string_wrong_distance_d2_">Неправильное расстояние D2!</string>
-    <!--  Used in file CoGoHingeActivity.java:201  -->
-    <string name="string_wrong_area_">Неверная площадь!</string>
-    <!--  Used in file CoGoTriangleActivity.java:64  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file CoGoIntersectionDDActivity.java:155  -->
-    <string name="string_wrong_distance_d1_">Неверное расстояние D1!</string>
-    <!--  Used in file CoGoResultActivity.java:49  -->
-    <string name="string_export">Экспорт</string>
-    <!--  Used in file CoGoBaseActivity.java:1799  -->
-    <string name="string_please_manually_open_result_file_in_the_job_cogoreport_subfolder_">Файл результатов помещен в подпапку проекта!</string>
-    <!--  Used in file CoGoRotateActivity.java:99  -->
-    <string name="string_wrong_bearing_increase_">Неверное приращение направления!</string>
-    <!--  Used in file CoGoHomeActivity.java:171  -->
-    <string name="string_basic">Базовые</string>
-    <!--  Used in file CoGoBaseActivity.java:374  -->
-    <string name="string__u0394h">dH</string>
-    <!--  Used in file CoGoBaseActivity.java:130  -->
-    <string name="string_map">Карта</string>
-    <!--  Used in file CoGoBaseActivity.java:626  -->
-    <string name="string_can_t_convert_coordinates_">Не удалось преобразовать координаты</string>
-    <!--  Used in file CoGoBaseActivity.java:261  -->
-    <string name="string_d2__horizontal">D2, горизонт.</string>
-    <!--  Used in file CoGoBaseActivity.java:1765  -->
-    <string name="string_share_file_with___">Отправить файл по…</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:172  -->
-    <string name="string_wrong_offset_">Неверный отступ!</string>
-    <!--  Used in file CoGoTriangleActivity.java:116  -->
-    <string name="string_can_t_convert_point_1_coordinates_to_currect_coordinate_system_">Не удалось перевести координаты точки 1 в текущую систему координат</string>
-    <!--  Used in file CoGoHingeActivity.java:157  -->
-    <string name="string_selected_points_are_not_a_convex_hull_">Выбранные точки не образуют выпусклую поверхность!</string>
-    <!--  Used in file CoGoBaseActivity.java:234  -->
-    <string name="string_d__horizontal">D, горизонтальная</string>
-    <!--  Used in file CoGoTriangleActivity.java:119  -->
-    <string name="string_can_t_convert_point_2_coordinates_to_currect_coordinate_system_">Не удалось перевести координаты точки 2 в текущую систему координат</string>
-    <!--  Used in file CoGoAreaPerimeterActivity.java:63  -->
-    <string name="string_select_points">Выбор точек</string>
-    <!--  Used in file CoGoLineOffsetActivity.java:114  -->
-    <string name="string_segment_length">Длина сегмента</string>
-    <!--  Used in file CoGoStakeoutCurveActivity.java:167  -->
-    <string name="string_wrong_radius_">Неверный радиус!</string>
-    <!--  Used in file CoGoTriangleActivity.java:108  -->
-    <string name="string_select_point_2">Выбор точки 2</string>
-    <!--  Used in file CoGoTriangleActivity.java:110  -->
-    <string name="string_select_point_3">Выбор точки 3</string>
-    <!--  Used in file CoGoBaseActivity.java:344  -->
-    <string name="string_h__abs">Н, абс.</string>
-    <!--  Used in file CoGoTriangleActivity.java:106  -->
-    <string name="string_select_point_1">Выбор точки 1</string>
-    <!--  Used in file CoGoTriangleActivity.java:122  -->
-    <string name="string_can_t_convert_point_3_coordinates_to_currect_coordinate_system_">Не удалось перевести координаты точки 3 в текущую систему координат!</string>
-    <!--  Used in file CoGoDirectActivity.java:203  -->
-    <string name="string_wrong_slope_distance_and_height_">Неверные расстояния и высота!</string>
-    <!--  Used in file CoGoDiagonalsActivity.java:111  -->
-    <string name="string_select_p1_">Выберите Р1!</string>
-    <!--  Used in file CoGoRotateActivity.java:101  -->
-    <string name="string_wrong_bearing_">Неверное направление</string>
-    <!-- Used in file activity_cogo_along_line.xml:64    -->
+    <!-- Used in file activity_cogo_along_line.xml:64. Original value:D    -->
     <string name="text_d">D</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:166    -->
-    <string name="text_e">Внешняя (e)</string>
-    <!-- Used in file CoGoHomeActivity2.java:82    -->
+    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Triangle    -->
     <string name="title_triangle">Треугольник</string>
-    <!-- Used in file activity_cogo_inverse.xml:62    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:166. Original value:External (e)    -->
+    <string name="text_e">Внешняя (e)</string>
+    <!-- Used in file activity_cogo_inverse.xml:62. Original value:B, grid    -->
     <string name="text_b">B, плоск.</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:136    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:136. Original value:Chord ( c)    -->
     <string name="text_c">Хорда ( c)</string>
-    <!-- Used in file activity_cogo_offset.xml:110    -->
+    <!-- Used in file activity_cogo_offset.xml:110. Original value:&#x394;H, abs    -->
     <string name="text_h">dH, абс.</string>
-    <!-- Used in file CoGoHomeActivity2.java:80    -->
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:Recompute area by moving hinge    -->
     <string name="description_hinge">Пересчитать площадь сдвинув сторону</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:106    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:106. Original value:Arc Length (L)    -->
     <string name="text_l">Длина дуги (L)</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:151    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:151. Original value:Middle Ordinate (m)    -->
     <string name="text_m">Средняя ордината (m)</string>
-    <!-- Used in file CoGoHomeActivity2.java:79    -->
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:Volume    -->
     <string name="title_volume">Объем</string>
-    <!-- Used in file CoGoHomeActivity2.java:95    -->
+    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Tasks for several points\n like Shift, Rotate, Average\n    -->
     <string name="description_transform">Задачи для нескольких точек\nСдвиг, Поворот, Усреднение и т.п.</string>
-    <!-- Used in file activity_cogo_offset.xml:100    -->
+    <!-- Used in file activity_cogo_offset.xml:100. Original value:Right    -->
     <string name="text_right">Вправо</string>
-    <!-- Used in file activity_cogo_shift.xml:42    -->
-    <string name="text_dn">ΔN</string>
-    <!-- Used in file CoGoHomeActivity2.java:91    -->
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Offset tasks by two points.\nOffset along line, to line and standard offset\n    -->
     <string name="description_offsets">Задачи промеров с двух точек\nПромер вдоль линии, Промер к линии и др. промеры</string>
-    <!-- Used in file activity_cogo_hinge.xml:90    -->
+    <!-- Used in file activity_cogo_shift.xml:42. Original value:&#x394;N    -->
+    <string name="text_dn">ΔN</string>
+    <!-- Used in file activity_cogo_hinge.xml:90. Original value:Keep Area, m&#178;    -->
     <string name="text_keep_area_m2">Оставить площадь, м2</string>
-    <!-- Used in file list_selected_points_header.xml:36    -->
-    <string name="string_name">Имя</string>
-    <!-- Used in file activity_cogo_hinge.xml:111    -->
-    <string name="create_new_points">Новые точки</string>
-    <!-- Used in file activity_cogo_shift.xml:72    -->
+    <!-- Used in file activity_cogo_shift.xml:72. Original value:&#x394;H    -->
     <string name="text_dh">ΔH</string>
-    <!-- Used in file activity_cogo_shift.xml:57    -->
-    <string name="text_de">ΔE</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:76    -->
+    <!-- Used in file activity_cogo_hinge.xml:111. Original value:Create New Points    -->
+    <string name="create_new_points">Новые точки</string>
+    <!-- Used in file list_selected_points_header.xml:36. Original value:Name    -->
+    <string name="string_name">Имя</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:76. Original value:Angle (A)    -->
     <string name="text_a">Угол (A)</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:65    -->
-    <string name="text_num_points">Число точек</string>
-    <!-- Used in file CoGoHomeActivity2.java:69    -->
+    <!-- Used in file activity_cogo_shift.xml:57. Original value:&#x394;E    -->
+    <string name="text_de">ΔE</string>
+    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.    -->
     <string name="description_resection">Вычисляется точка Р4 по трем данным точкам и трем расстояниям от них.</string>
-    <!-- Used in file activity_cogo_volume.xml:41    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:65. Original value:Number of points    -->
+    <string name="text_num_points">Число точек</string>
+    <!-- Used in file activity_cogo_volume.xml:41. Original value:Reference Height    -->
     <string name="text_refheight">Отчетная высота</string>
-    <!-- Used in file CoGoBaseActivity.java:435    -->
+    <!-- Used in file CoGoBaseActivity.java:435. Original value:Keep Area, &#37;    -->
     <string name="text_keep_area_percent">Оставить площадь, %</string>
-    <!-- Used in file list_selected_points_header.xml:54    -->
+    <!-- Used in file list_selected_points_header.xml:54. Original value:East    -->
     <string name="string_east">Восток</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:91    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:91. Original value:Radius (R)    -->
     <string name="text_r">Радиус (R)</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:121    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:121. Original value:Tangent (T)    -->
     <string name="text_t">Тангенс (T)</string>
-    <!-- Used in file list_selected_points_header.xml:45    -->
+    <!-- Used in file list_selected_points_header.xml:45. Original value:North    -->
     <string name="string_north">Север</string>
-    <!-- Used in file CoGoHomeActivity2.java:72    -->
+    <!-- Used in file CoGoHomeActivity2.java:72. Original value:Divide Line    -->
     <string name="title_divide_line">Разбить линию</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:21    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:21. Original value:Select Points    -->
     <string name="text_points">Выбор точек</string>
-    <!-- Used in file CoGoPoints3ArcActivity.java:256    -->
+    <!-- Used in file CoGoPoints3ArcActivity.java:256. Original value:Degree of Curvature, chord    -->
     <string name="text_d_chord">Угол кривизны, хорда</string>
-    <!-- Used in file CoGoHomeActivity2.java:94    -->
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Area/Perimiter/Volume computations, Area change tasks\n    -->
     <string name="description_areas">Задачи вычисления Площади, Перимера, Объема и задачи изменения площади</string>
-    <!-- Used in file CoGoHomeActivity2.java:60    -->
+    <!-- Used in file CoGoHomeActivity2.java:60. Original value:Traverse    -->
     <string name="title_traverse">Ход</string>
-    <!-- Used in file activity_cogo_along_line.xml:48    -->
+    <!-- Used in file activity_cogo_along_line.xml:48. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n    -->
     <string name="text_coordinate">С: &#x002d;&#x002d;&#x002d;\nВ: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:87    -->
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:Rotate    -->
     <string name="title_rotate">Повернуть</string>
-    <!-- Used in file CoGoHomeActivity2.java:85    -->
+    <!-- Used in file CoGoHomeActivity2.java:85. Original value:The task shifts existing points by deltas north, east and up.    -->
     <string name="description_shift">Задача сдвигает точки на север, восток, вверх.</string>
-    <!-- Used in file info_2point_list_items.xml:13    -->
+    <!-- Used in file info_2point_list_items.xml:13. Original value:Bearing    -->
     <string name="text_bearing">Направление</string>
-    <!-- Used in file activity_cogo_resection.xml:130    -->
+    <!-- Used in file activity_cogo_resection.xml:130. Original value:D2    -->
     <string name="text_d2">D2</string>
-    <!-- Used in file activity_cogo_resection.xml:162    -->
+    <!-- Used in file activity_cogo_resection.xml:162. Original value:D3    -->
     <string name="text_d3">D3</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:56    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:56. Original value:Area    -->
     <string name="text_area">Площадь</string>
-    <!-- Used in file activity_cogo_line_offset.xml:81    -->
+    <!-- Used in file activity_cogo_line_offset.xml:81. Original value:Number of Tracks    -->
     <string name="text_num_tracks">Число треков</string>
-    <!-- Used in file list_selected_points_header.xml:63    -->
+    <!-- Used in file list_selected_points_header.xml:63. Original value:Height    -->
     <string name="string_height">Высота</string>
-    <!-- Used in file CoGoHomeActivity2.java:93    -->
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n    -->
     <string name="description_stakes">Задачи выноса\nРазбить линию, Разбивка Линий с отступом, Вынос Кривых и др. задачи</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:41    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:41. Original value:Perimeter    -->
     <string name="text_perimeter">Периметр</string>
-    <!-- Used in file CoGoHomeActivity2.java:59    -->
+    <!-- Used in file CoGoHomeActivity2.java:59. Original value:Inverse    -->
     <string name="title_inverse">Обратная</string>
-    <!-- Used in file CoGoHomeActivity2.java:92    -->
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Intersections    -->
     <string name="title_intersections">Пересечения</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:97    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:97. Original value:Report    -->
     <string name="button_report">Отчет</string>
-    <!-- Used in file activity_cogo_resection.xml:145    -->
+    <!-- Used in file activity_cogo_resection.xml:145. Original value:R2    -->
     <string name="text_r2">R2</string>
-    <!-- Used in file activity_cogo_resection.xml:177    -->
+    <!-- Used in file activity_cogo_resection.xml:177. Original value:R3    -->
     <string name="text_r3">R3</string>
-    <!-- Used in file activity_cogo_resection.xml:113    -->
+    <!-- Used in file activity_cogo_resection.xml:113. Original value:R1    -->
     <string name="text_r1">R1</string>
-    <!-- Used in file CoGoHomeActivity2.java:86    -->
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:The task moves existing points by given distance and angle.    -->
     <string name="description_move">Задача сдвигает выбранные точки на заданное растояние и угол</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:181    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:181. Original value:Degree of Curvature, arc    -->
     <string name="text_d_arc">Уог кривизны, дуга</string>
-    <!-- Used in file CoGoHomeActivity2.java:81    -->
+    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Recompute area by parallel moving edge    -->
     <string name="description_parallel">Пересчитать площадь сдвинув сторону параллельно</string>
-    <!-- Used in file activity_cogo_line_offset.xml:97    -->
+    <!-- Used in file activity_cogo_line_offset.xml:97. Original value:Track Incremenet    -->
     <string name="text_track_increment">Сдвиг треков</string>
-    <!-- Used in file info_2point_list_items.xml:21    -->
+    <!-- Used in file info_2point_list_items.xml:21. Original value:Distance    -->
     <string name="text_distance">Расстояние</string>
-    <!-- Used in file CoGoHomeActivity2.java:63    -->
+    <!-- Used in file CoGoHomeActivity2.java:63. Original value:Offset    -->
     <string name="title_offset">Отступ</string>
-    <!-- Used in file AndroidManifest.xml:13    -->
+    <!-- Used in file AndroidManifest.xml:13. Original value:cogo    -->
     <string name="app_name">cogo</string>
-    <!-- Used in file CoGoHomeActivity2.java:92    -->
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Diagonals and Resection tasks\n    -->
     <string name="description_intersections">Задачи расчета Пересечения с двух точек.\nЗадачи Расстояние-Расстояние, Направление-Направление, Диагонали и др.</string>
-    <!-- Used in file info_2point_list_header.xml:29    -->
+    <!-- Used in file info_2point_list_header.xml:29. Original value:&#x394;N    -->
     <string name="text_delta_n">ΔN</string>
-    <!-- Used in file info_2point_list_header.xml:45    -->
+    <!-- Used in file info_2point_list_header.xml:45. Original value:&#x394;H    -->
     <string name="text_delta_h">ΔH</string>
-    <!-- Used in file info_2point_list_header.xml:37    -->
+    <!-- Used in file info_2point_list_header.xml:37. Original value:&#x394;E    -->
     <string name="text_delta_e">ΔE</string>
-    <!-- Used in file CoGoHomeActivity2.java:74    -->
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.    -->
     <string name="description_stakeout_curve">Задача сходна с разбивкой линии, но она выполняется по кривой дуге. Дуга имееет отступ </string>
-    <!-- Used in file activity_cogo_hinge.xml:41    -->
+    <!-- Used in file activity_cogo_hinge.xml:41. Original value:1st nodal point    -->
     <string name="text_first_nodal_point">1-я точка стороны</string>
-    <!-- Used in file CoGoHomeActivity2.java:78    -->
+    <!-- Used in file CoGoHomeActivity2.java:78. Original value:The task computes area and perimeter of the area defined by selected points.    -->
     <string name="description_area_perimeter">Вычисляет площадь и периметр полигона, заданного выбранными точками</string>
-    <!-- Used in file activity_cogo_diagonals.xml:77    -->
+    <!-- Used in file activity_cogo_diagonals.xml:77. Original value:P4\npoint4\n    -->
     <string name="text_p4">P4\nточка4\n</string>
-    <!-- Used in file activity_cogo_along_line.xml:39    -->
+    <!-- Used in file activity_cogo_along_line.xml:39. Original value:P2\npoint2\n    -->
     <string name="text_p2">P2\nточка2\n</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:56    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:56. Original value:P3\npoint3\n    -->
     <string name="text_p3">P3\nточка3\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:73    -->
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:Line Offsets    -->
     <string name="title_line_offsets">Сдвиг линий</string>
-    <!-- Used in file activity_cogo_along_line.xml:20    -->
+    <!-- Used in file activity_cogo_along_line.xml:20. Original value:P1\npoint1\n    -->
     <string name="text_p1">P1\nточка1\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:63    -->
+    <!-- Used in file CoGoHomeActivity2.java:63. Original value:The task computes position by two offsets along and across line from a line given by two points.    -->
     <string name="description_offset">Задача вычисляет положение по двум отступам вдоль и поперек линии, заданной двумя точками.</string>
-    <!-- Used in file CoGoHomeActivity2.java:73    -->
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.    -->
     <string name="description_line_offsets">Задача разбивает линию, заданную двумя точками, на равные отрезки, заданные длиной отрезка или числом точек. Так же будут созданны дополниьельные трэки паралельным сдвигом на заданное растояние.</string>
-    <!-- Used in file CoGoHomeActivity2.java:72    -->
+    <!-- Used in file CoGoHomeActivity2.java:72. Original value:The task divides line defined by two known points to given number of points.    -->
     <string name="description_divide_line">Эта задача разбивает линию, заданную двумя точками, на заданное число точек</string>
-    <!-- Used in file CoGoHomeActivity2.java:91    -->
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Offsets    -->
     <string name="title_offsets">Промеры</string>
-    <!-- Used in file CoGoHomeActivity2.java:75    -->
+    <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc    -->
     <string name="title_points3_arc">Дуга по 3-м точкам</string>
-    <!-- Used in file activity_cogo_triangle.xml:108    -->
+    <!-- Used in file activity_cogo_triangle.xml:108. Original value:C    -->
     <string name="text_side_c">Сторона С</string>
-    <!-- Used in file activity_cogo_triangle.xml:93    -->
+    <!-- Used in file activity_cogo_triangle.xml:93. Original value:B    -->
     <string name="text_side_b">Сторона B</string>
-    <!-- Used in file activity_cogo_triangle.xml:78    -->
+    <!-- Used in file activity_cogo_triangle.xml:78. Original value:A    -->
     <string name="text_side_a">Сторона А</string>
-    <!-- Used in file CoGoHomeActivity2.java:68    -->
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.    -->
     <string name="description_diagonals">Вычисление пересечения двух линий, заданных точками P1-P3 и P2-P4.</string>
-    <!-- Used in file CoGoHomeActivity2.java:86    -->
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:Move    -->
     <string name="title_move">Переместить</string>
-    <!-- Used in file CoGoHomeActivity2.java:87    -->
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:The task moves existing points by given angle related to given point.    -->
     <string name="description_rotate">Задача перемещает точки на заданный угол относительно выбранной точки.</string>
-    <!-- Used in file activity_cogo_area_perimeter.xml:30    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:30. Original value:&#x002d;&#x002d;&#x002d;     -->
     <string name="text_point_coords">&#x002d;&#x002d;&#x002d; </string>
-    <!-- Used in file CoGoHomeActivity2.java:93    -->
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Stakes    -->
     <string name="title_stakes">Вынос</string>
-    <!-- Used in file CoGoHomeActivity2.java:74    -->
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve    -->
     <string name="title_stakeout_curve">Разбить кривую</string>
-    <!-- Used in file CoGoHomeActivity2.java:69    -->
+    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Resection    -->
     <string name="title_resection">Пересечение</string>
-    <!-- Used in file CoGoBaseActivity.java:437    -->
+    <!-- Used in file CoGoBaseActivity.java:437. Original value:Cut Area, m&#178;    -->
     <string name="text_cut_area_m2">Убрать площадь, м2</string>
-    <!-- Used in file CoGoHomeActivity2.java:67    -->
+    <!-- Used in file CoGoHomeActivity2.java:67. Original value:Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.    -->
     <string name="description_intersection_d_d">Две заданные точки и два расстояния от них задаются для вычисления новой точки. Для можно выбрать точку слева или справа.</string>
-    <!-- Used in file CoGoHomeActivity2.java:78    -->
+    <!-- Used in file CoGoHomeActivity2.java:78. Original value:Area/Perimeter    -->
     <string name="title_area_perimeter">Площадь/Периметр</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:97    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:97. Original value:Radius    -->
     <string name="text_radius">Радиус</string>
-    <!-- Used in file CoGoHomeActivity2.java:58    -->
+    <!-- Used in file CoGoHomeActivity2.java:58. Original value:Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points    -->
     <string name="description_direct">Вычислить положение точки относительно другой точки, задав направление (азимут) и расстояние от данной точки</string>
-    <!-- Used in file CoGoHomeActivity2.java:68    -->
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Diagonals    -->
     <string name="title_diagonals">Диагонали</string>
-    <!-- Used in file activity_cogo_volume.xml:57    -->
+    <!-- Used in file activity_cogo_volume.xml:57. Original value:Volume    -->
     <string name="text_volume">Объем</string>
-    <!-- Used in file CoGoHomeActivity2.java:60    -->
+    <!-- Used in file CoGoHomeActivity2.java:60. Original value:Traverse geodetic task computes the geodetic position of a Point P3 by given two known points P1 and P2 and an angle(bearing) and distance.    -->
     <string name="description_traverse">Задача расчета участка хода с двух заданных точек (передней и задней) и направления/расстояния до следующей точки</string>
-    <!-- Used in file CoGoHomeActivity2.java:94    -->
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Area/Perimeter    -->
     <string name="title_areas">Площадь/Периметр</string>
-    <!-- Used in file CoGoHomeActivity2.java:80    -->
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:Hinge    -->
     <string name="title_hinge">Шарнир</string>
-    <!-- Used in file CoGoHomeActivity2.java:82    -->
+    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.    -->
     <string name="description_triangle">Вычисляет параметры треугольника, заданного 3 точками - длины сторон и углы</string>
-    <!-- Used in file CoGoHomeActivity2.java:67    -->
+    <!-- Used in file CoGoHomeActivity2.java:67. Original value:Distance-Distance    -->
     <string name="title_intersection_d_d">Расстояние-Расстояние</string>
-    <!-- Used in file CoGoHomeActivity2.java:95    -->
+    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Transform    -->
     <string name="title_transform">Трансформация</string>
-    <!-- Used in file CoGoHomeActivity2.java:85    -->
+    <!-- Used in file CoGoHomeActivity2.java:85. Original value:Shift    -->
     <string name="title_shift">Сдвиг</string>
-    <!-- Used in file cogo_grid_item.xml:14    -->
+    <!-- Used in file cogo_grid_item.xml:14. Original value:Image    -->
     <string name="image_view2">Картинка</string>
-    <!-- Used in file CoGoHomeActivity2.java:75    -->
+    <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)    -->
     <string name="description_points3_arc">Задача вычисляет параметры дуги, вычисляемой по 3-м точкам. Вычисляются параметры - Радиус (R), Угол (A), Длина дуги (L), Хорда ( c), Тангенс (T), Сдернюю ординанту (m), Угол кривизны (D)</string>
-    <!-- Used in file activity_cogo_along_line.xml:93    -->
+    <!-- Used in file activity_cogo_along_line.xml:93. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nName:    -->
     <string name="text_coordinate_result">С: &#x002d;&#x002d;&#x002d;\nВ: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:79    -->
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:The task computes volume of the convex hall defined by selected points.    -->
     <string name="description_volume">Задача вычисляет объем тела, заданного точками</string>
-    <!-- Used in file activity_cogo_hinge.xml:56    -->
+    <!-- Used in file activity_cogo_hinge.xml:56. Original value:2nd nodal point    -->
     <string name="text_second_nodal_point">2-я точка стороны</string>
-    <!-- Used in file activity_cogo_result.xml:19    -->
+    <!-- Used in file activity_cogo_result.xml:19. Original value:Save Report to file    -->
     <string name="string_save_report_to_file">Save Report to file</string>
-    <!-- Used in file cogo_result.xml:4    -->
+    <!-- Used in file cogo_result.xml:4. Original value:Store    -->
     <string name="action_store">Сохранить</string>
-    <!-- Used in file cogo_grid_item.xml:29    -->
+    <!-- Used in file cogo_grid_item.xml:29. Original value:Text    -->
     <string name="text_view2">Текст</string>
-    <!-- Used in file CoGoHomeActivity2.java:64    -->
+    <!-- Used in file CoGoHomeActivity2.java:64. Original value:Along Line    -->
     <string name="title_along_line">Вдоль линии</string>
-    <!-- Used in file CoGoBaseActivity.java:439    -->
+    <!-- Used in file CoGoBaseActivity.java:439. Original value:Cut Area, &#37;    -->
     <string name="text_cut_area_percent">Убрать площадь, %</string>
-    <!-- Used in file activity_cogo_hinge.xml:106    -->
+    <!-- Used in file activity_cogo_hinge.xml:106. Original value:Move Existing Points    -->
     <string name="move_existing_points">Существующие точки</string>
-    <!-- Used in file CoGoHomeActivity2.java:64    -->
+    <!-- Used in file CoGoHomeActivity2.java:64. Original value:The task computes position by two distance along line given by two points.    -->
     <string name="description_along_line">Задача вычисляет положение точки задав расстоние вдоль линии, заданной двумя точками.</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:81    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:81. Original value:Angle    -->
     <string name="text_angle">Угол</string>
-    <!-- Used in file CoGoHomeActivity2.java:58    -->
+    <!-- Used in file CoGoHomeActivity2.java:58. Original value:Direct    -->
     <string name="title_direct">Прямая</string>
-    <!-- Used in file CoGoHomeActivity2.java:59    -->
+    <!-- Used in file CoGoHomeActivity2.java:59. Original value:Inverse geodetic task computes the bearing (azimuth) and distance between two known points.    -->
     <string name="description_inverse">Обратная геодезическая задача расчета направления (азимута) и расстояния между двумя заданными точками</string>
-    <!-- Used in file activity_cogo_along_line.xml:103    -->
+    <!-- Used in file activity_cogo_along_line.xml:103. Original value:Create    -->
     <string name="button_create">Создать</string>
-    <!-- Used in file activity_cogo_offset.xml:80    -->
+    <!-- Used in file activity_cogo_offset.xml:80. Original value:Offset    -->
     <string name="text_offset">Отступ</string>
-    <!-- Used in file list_selected_points_header.xml:27    -->
+    <!-- Used in file list_selected_points_header.xml:27. Original value:N    -->
     <string name="string_number">N</string>
-    <!-- Used in file CoGoHomeActivity2.java:90    -->
+    <!-- Used in file CoGoHomeActivity2.java:90. Original value:Basic    -->
     <string name="title_basic">Основные</string>
-    <!-- Used in file activity_cogo_triangle.xml:154    -->
+    <!-- Used in file activity_cogo_triangle.xml:154. Original value:&#947;    -->
     <string name="text_angle_c">γ</string>
-    <!-- Used in file activity_cogo_triangle.xml:139    -->
+    <!-- Used in file activity_cogo_triangle.xml:139. Original value:&#946;    -->
     <string name="text_angle_b">β</string>
-    <!-- Used in file activity_cogo_triangle.xml:124    -->
+    <!-- Used in file activity_cogo_triangle.xml:124. Original value: &#945;    -->
     <string name="text_angle_a">α</string>
-    <!-- Used in file activity_cogo_offset.xml:95    -->
+    <!-- Used in file activity_cogo_offset.xml:95. Original value:Left    -->
     <string name="text_left">Влево</string>
-    <!-- Used in file CoGoHomeActivity2.java:81    -->
+    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Parallel    -->
     <string name="title_parallel">Параллельный сдвиг</string>
-    <!-- Used in file CoGoHomeActivity2.java:90    -->
+    <!-- Used in file CoGoHomeActivity2.java:90. Original value:Basic functions as\nDirect, Inverse, Offset and Shifts\n    -->
     <string name="description_basic">Основные задачи\nПрямая, Обратная, Ход и др.</string>
+
 </resources>
