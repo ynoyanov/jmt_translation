@@ -1,68 +1,51 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file HomeActivity.java:981. Original value:Job:  -->
+    <string name="string_job_">Проект:</string>
+    <!--  Used in file HomeActivity.java:719. Original value:Option has purchased. App is licensed to work with any JAVAD GNSS receiver.  -->
+    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Опции приобретены. Программа теперь будет работать с любым приемником JAVAD GNSS.</string>
+    <!--  Used in file HomeActivity.java:174. Original value:Wrong device  -->
+    <string name="string_wrong_device">Неверное устройство</string>
+    <!--  Used in file HomeActivity.java:1244. Original value:Exit application  -->
+    <string name="string_exit_application">Выйти из программы?</string>
+    <!--  Used in file HomeActivity.java:1056. Original value:Russian  -->
+    <string name="string_russian">Русский</string>
+    <!--  Used in file HomeActivity.java:1034. Original value:English  -->
+    <string name="string_english">Английский</string>
+    <!--  Used in file HomeActivity.java:1031. Original value:Language  -->
+    <string name="string_language">Язык</string>
+    <!--  Used in file HomeActivity.java:2014. Original value:Select Last Job (%s)  -->
+    <string name="string_select_last_job___s_">Открыть прошлый проект (%s)</string>
+    <!--  Used in file HomeActivity.java:1058. Original value:Turkish  -->
+    <string name="string_turkish">Турецкий</string>
+    <!--  Used in file HomeActivity.java:2091. Original value:Connected to : %s  -->
+    <string name="string_connected_to____s">Подключенно к : %s</string>
+    <!--  Used in file HomeActivity.java:1025. Original value:Settings  -->
+    <string name="string_settings">Настройки</string>
+    <!--  Used in file HomeActivity.java:2015. Original value:Select Other Job&#8230;  -->
+    <string name="string_select_other_job___">Выбрать другой проект</string>
+    <!--  Used in file HomeActivity.java:681. Original value:Error purchasing:   -->
+    <string name="string_error_purchasing__">Ошибка покупки:</string>
+    <!--  Used in file HomeActivity.java:953. Original value:Version %1$s%2$s Build %3$s  -->
+    <string name="string_version__1_s_2_s_build__3_s">Версия %1$s%2$s Сборка %3$s</string>
+    <!--  Used in file HomeActivity.java:837. Original value:Permission denied to read from your External storage  -->
+    <string name="string_permission_denied_to_read_from_your_external_storage">Настройки программы запрещают доступ к внешним файлам!</string>
+    <!--  Used in file HomeActivity.java:2012. Original value:Select Project  -->
+    <string name="string_select_project">Выбор точек</string>
+    <!--  Used in file HomeActivity.java:1009. Original value:License the application before connection to receiver  -->
+    <string name="string_license_the_application_before_connection_to_receiver">Приобретите программу перед подключением к приемнику</string>
+    <!--  Used in file HomeActivity.java:1245. Original value:Do you want to exit the application?  -->
+    <string name="string_do_you_want_to_exit_the_application_">Вы хотите выйти из программы?</string>
+    <!--  Used in file HomeActivity.java:1057. Original value:Taiwan  -->
+    <string name="string_taiwan">Китайский</string>
+    <!--  Used in file HomeActivity.java:175. Original value:The application is designed to be ran on Nautiz X8 device only.  -->
+    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Это приложение может быть запущенно только на Nautiz X8!</string>
+    <!--  Used in file HomeActivity.java:1200. Original value:Connection in progress&#8230;!  -->
+    <string name="string_connection_in_progress____">Подключение уже идет…!</string>
+    <!--  Used in file HomeActivity.java:847. Original value:Permission denied to write to your External storage  -->
+    <string name="string_permission_denied_to_write_to_your_external_storage">Настройки программы запрещают доступ к файлам!</string>
+    <!--  Used in file HomeActivity.java:641. Original value:Problem setting up In-app Billing:   -->
+    <string name="string_problem_setting_up_in_app_billing__">Проблема встроенной покупки:</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Job:-->
-  <string name="string_job_">Проект:</string>
-  <!--Original value: Option has purchased. App is licensed to work with any JAVAD GNSS receiver.-->
-  <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Опции приобретены. Программа теперь будет работать с любым приемником JAVAD GNSS.</string>
-  <!--Original value: Wrong device-->
-  <string name="string_wrong_device">Неверное устройство</string>
-  <!--Original value: Russian-->
-  <string name="string_russian">Русский</string>
-  <!--Original value: Exit application-->
-  <string name="string_exit_application">Выйти из программы?</string>
-  <!--Original value: English-->
-  <string name="string_english">Английский</string>
-  <!--Original value: Language-->
-  <string name="string_language">Язык</string>
-  <!--Original value: Turkish-->
-  <string name="string_turkish">Турецкий</string>
-  <!--Original value: Select Last Job (%s)-->
-  <string name="string_select_last_job___s_">Открыть прошлый проект (%s)</string>
-  <!--Original value: Connected to : %s-->
-  <string name="string_connected_to____s">Подключенно к : %s</string>
-  <!--Original value: Settings-->
-  <string name="string_settings">Настройки</string>
-  <!--Original value: Select Other Job…-->
-  <string name="string_select_other_job___">Выбрать другой проект</string>
-  <!--Original value: Error purchasing: -->
-  <string name="string_error_purchasing__">Ошибка покупки:</string>
-  <!--Original value: Version %1$s%2$s Build %3$s-->
-  <string name="string_version__1_s_2_s_build__3_s">Версия %1$s%2$s Сборка %3$s</string>
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="string_permission_denied_to_read_from_your_external_storage">Настройки программы запрещают доступ к внешним файлам!</string>
-  <!--Original value: Select Project-->
-  <string name="string_select_project">Выбор точек</string>
-  <!--Original value: License the application before connection to receiver-->
-  <string name="string_license_the_application_before_connection_to_receiver">Приобретите программу перед подключением к приемнику</string>
-  <!--Original value: Do you want to exit the application?-->
-  <string name="string_do_you_want_to_exit_the_application_">Вы хотите выйти из программы?</string>
-  <!--Original value: Taiwan-->
-  <string name="string_taiwan">Китайский</string>
-  <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
-  <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Это приложение может быть запущенно только на Nautiz X8!</string>
-  <!--Original value: Connection in progress…!-->
-  <string name="string_connection_in_progress____">Подключение уже идет…!</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="string_permission_denied_to_write_to_your_external_storage">Настройки программы запрещают доступ к файлам!</string>
-  <!--Original value: Problem setting up In-app Billing: -->
-  <string name="string_problem_setting_up_in_app_billing__">Проблема встроенной покупки:</string>
 </resources>

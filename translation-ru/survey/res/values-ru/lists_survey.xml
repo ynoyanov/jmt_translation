@@ -117,18 +117,18 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_rcv_base.xml:135 -->
-    <string-array name="dhcp_array">
-         <item>Выкл</item>
-         <item>Клиент</item>
-         <item>Сервер</item>
-    </string-array>
-
     <!-- Used in file rtk_base.xml:122 -->
     <string-array name="radioarray">
          <item>Не настраивать</item>
          <item>FH модем</item>
          <item>UHF модем</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_rcv_base.xml:135 -->
+    <string-array name="dhcp_array">
+         <item>Выкл</item>
+         <item>Клиент</item>
+         <item>Сервер</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:14 -->
@@ -146,14 +146,14 @@
          <item>jps</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:140 -->
-    <string-array name="tt450shw_modulations">
-         <item>gmsk</item>
-    </string-array>
-
     <!-- Used in file rtk_base_rcv.xml:16 -->
     <string-array name="connected_to_array_internet">
          <item>через смартфон с Android</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:140 -->
+    <string-array name="tt450shw_modulations">
+         <item>gmsk</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:185 -->
@@ -466,13 +466,6 @@
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
-    <string-array name="wifi_mode_array">
-         <item>off</item>
-         <item>on</item>
-         <item>adhoc</item>
-    </string-array>
-
     <!-- Used in file activity_configure_rcv.xml:128 -->
     <string-array name="rcv_login_array">
          <item>Default</item>
@@ -483,12 +476,11 @@
          <item>e</item>
     </string-array>
 
-    <!-- Used in file activity_configure_ntrip.xml:243 -->
-    <string-array name="aux_port_array">
-         <item>dev/ser/a</item>
-         <item>dev/ser/b</item>
-         <item>dev/ser/c</item>
-         <item>dev/ser/d</item>
+    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
+    <string-array name="wifi_mode_array">
+         <item>off</item>
+         <item>on</item>
+         <item>adhoc</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:109 -->
@@ -496,6 +488,14 @@
          <item>метры</item>
          <item>амер.футы</item>
          <item>межд.футы</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_ntrip.xml:243 -->
+    <string-array name="aux_port_array">
+         <item>dev/ser/a</item>
+         <item>dev/ser/b</item>
+         <item>dev/ser/c</item>
+         <item>dev/ser/d</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:19 -->
@@ -509,14 +509,6 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file activity_configure_gprs.xml:90 -->
-    <string-array name="registration_mode_array">
-         <item>auto</item>
-         <item>2g</item>
-         <item>3g</item>
-         <item>4g</item>
-    </string-array>
-
     <!-- Used in file stakeout_settings.xml:186 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
@@ -526,6 +518,14 @@
          <item>NAD83(MA11)</item>
          <item>ETRS89</item>
          <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_gprs.xml:90 -->
+    <string-array name="registration_mode_array">
+         <item>auto</item>
+         <item>2g</item>
+         <item>3g</item>
+         <item>4g</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:74 -->
@@ -543,15 +543,15 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio_triumph2">
-         <item>Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
     <string-array name="connected_to_array_internet_gismore">
          <item>через смартфон с Android</item>
          <item>WiFi</item>
          <item>3G GISMORE</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="connected_to_array_radio_triumph2">
+         <item>Bluetooth B</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -575,15 +575,15 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
+    <string-array name="connected_to_array_csd_sigma">
+         <item>Internal GSM</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
     <string-array name="connected_to_array_radio_sigma">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_csd_sigma">
-         <item>Internal GSM</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
