@@ -1,52 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file activity_process_dpos2.xml:139 -->
-    <string-array name="antenna_ids2_array">
-         <item>JAV_TRIUMPH-1   NONE</item>
-         <item>JAVTRIUMPH_2A   NONE</item>
-         <item>JAVGISMORE      NONE</item>
-    </string-array>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-    <!-- Used in file activity_process_dpos2.xml:177 -->
-    <string-array name="height_type_array_opus">
-         <item>Pionowa</item>
-         <item>Skośna</item>
-    </string-array>
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    <!-- Used in file activity_process_dpos.xml:151 -->
-    <string-array name="dpos_server_array">
-         <item>app.javad.com</item>
-         <item>dpos-dev.javad.com</item>
-    </string-array>
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
-    <!-- Used in file activity_process_opus.xml:169 -->
-    <string-array name="opus_formats_array">
-         <item>Standard</item>
-         <item>Standard + XML(draft)</item>
-         <item>Extended</item>
-    </string-array>
-
-    <!-- Used in file activity_process_dpos2.xml:101 -->
-    <string-array name="dpos_network_array">
-         <item>Automatic</item>
-         <item>USA Server</item>
-         <item>Moscow Server</item>
-         <item>Giodis Server</item>
-    </string-array>
-
-    <!-- Used in file activity_process_dpos2.xml:215 -->
-    <string-array name="dpos_mode_array">
-         <item>Unchanged</item>
-         <item>Static</item>
-         <item>Kinematic</item>
-    </string-array>
-
-    <!-- Used in file activity_process_dpos2.xml:120 -->
-    <string-array name="dpos_engine_array">
-         <item>JUSTIN</item>
-         <item>GIODIS</item>
-    </string-array>
-
-
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="antenna_ids2_array">
+    <!--Original value: JAV_TRIUMPH-1   NONE-->
+    <item>JAV_TRIUMPH-1   NONE</item>
+    <!--Original value: JAVTRIUMPH_2A   NONE-->
+    <item>JAVTRIUMPH_2A   NONE</item>
+    <!--Original value: JAVGISMORE      NONE-->
+    <item>JAVGISMORE      NONE</item>
+  </string-array>
+  <string-array name="height_type_array_opus">
+    <!--Original value: Verical-->
+    <item>Pionowa</item>
+    <!--Original value: Slant-->
+    <item>Skośna</item>
+  </string-array>
+  <string-array name="dpos_server_array">
+    <!--Original value: app.javad.com-->
+    <item>app.javad.com</item>
+    <!--Original value: dpos-dev.javad.com-->
+    <item>dpos-dev.javad.com</item>
+  </string-array>
+  <string-array name="opus_formats_array">
+    <!--Original value: Standard-->
+    <item>Standard</item>
+    <!--Original value: Standard + XML(draft)-->
+    <item>Standard + XML(draft)</item>
+    <!--Original value: Extended-->
+    <item>Extended</item>
+  </string-array>
+  <string-array name="dpos_network_array">
+    <!--Original value: Automatic-->
+    <item>Automatycznie</item>
+    <!--Original value: USA Network-->
+    <item>USA Server</item>
+    <!--Original value: Moscow Network-->
+    <item>Moscow Server</item>
+    <!--Original value: Giodis Network-->
+    <item>Giodis Server</item>
+  </string-array>
+  <string-array name="dpos_mode_array">
+    <!--Original value: Unchanged-->
+    <item>Domyślnie</item>
+    <!--Original value: Static-->
+    <item>Static</item>
+    <!--Original value: Kinematic-->
+    <item>Kinematic</item>
+  </string-array>
+  <string-array name="dpos_engine_array">
+    <!--Original value: JUSTIN-->
+    <item>JUSTIN</item>
+    <!--Original value: GIODIS-->
+    <item>GIODIS</item>
+  </string-array>
 </resources>
