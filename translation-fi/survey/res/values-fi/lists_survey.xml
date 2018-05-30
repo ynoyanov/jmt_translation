@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Used in file activity_surveying_sng.xml:133 -->
+    <string-array name="occupation_time_array">
+         <item>1 min</item>
+         <item>2 min</item>
+         <item>3 min</item>
+         <item>5 min</item>
+         <item>10 min</item>
+         <item>15 min</item>
+         <item>20 min</item>
+         <item>30 min</item>
+         <item>45 min</item>
+         <item>1 tunti</item>
+         <item>2 tuntia</item>
+         <item>3 tuntia</item>
+         <item>4 tuntia</item>
+         <item>5 tuntia</item>
+         <item>6 tuntia</item>
+         <item>10 tuntia</item>
+    </string-array>
+
+    <!-- Used in file survey_settings.xml:63 -->
+    <string-array name="antenna_ids_array">
+         <item>Triumph-2 sisäinen</item>
+         <item>Triumph-1 sisäinen</item>
+         <item>GISMore sisäinen</item>
+         <item>Grant external</item>
+    </string-array>
+
+    <!-- Used in file rtk_rover_start.xml:12 -->
+    <string-array name="logging_rate_array">
+         <item>1 sec</item>
+         <item>5 sec</item>
+         <item>10 sec</item>
+         <item>15 sec</item>
+         <item>30 sec</item>
+         <item>60 sec</item>
+    </string-array>
+
+    <!-- Used in file survey_settings.xml:91 -->
+    <string-array name="units_array">
+         <item>metriä</item>
+         <item>US Jalka</item>
+         <item>Jalka</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_rcv.xml:166 -->
+    <string-array name="correction_type_array">
+         <item>cmd</item>
+         <item>rtcm3</item>
+         <item>rtcm</item>
+         <item>cmr</item>
+         <item>jps</item>
+    </string-array>
+
+    <!-- Used in file activity_rtk_setup.xml:121 -->
+    <string-array name="correction_source_array">
+         <item>off</item>
+         <item>ntrip</item>
+         <item>rcv</item>
+    </string-array>
+
+    <!-- Used in file survey_settings.xml:77 -->
+    <string-array name="height_type_array">
+         <item>pystysuuntainen</item>
+         <item>Vino</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="rover_mode_array">
+         <item>pd</item>
+         <item>pf</item>
+         <item>cd</item>
+         <item>wd</item>
+         <item>sp</item>
+    </string-array>
+
+
+</resources>
