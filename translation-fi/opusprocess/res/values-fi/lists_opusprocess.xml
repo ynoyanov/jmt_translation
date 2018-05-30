@@ -1,34 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<string-array name="antenna_ids2_array">
-        <item>JAV_TRIUMPH-1   NONE</item>
-        <item>JAVTRIUMPH_2A   NONE</item>
-        <item>JAVGISMORE      NONE</item>
-    </string-array>
-    
-<string-array name="opus_formats_array">
-        <item>Standardi</item>
-        <item>Standardi + XML(draft)</item>
-        <item>Laajennettu</item>
+    <!-- Used in file activity_process_hybrid_rtk.xml:69 -->
+    <string-array name="dpos_network_array">
+         <item>Automaattinen</item>
+         <item>USA Serveri</item>
+         <item>Moskova Serveri</item>
+         <item>Giodis Serveri</item>
     </string-array>
 
-<string-array name="dpos_mode_array">
-        <item>Ennallaan</item>
-        <item>Staattinen</item>
-        <item>Kinemaattinen</item>
+    <!-- Used in file activity_process_opus.xml:207 -->
+    <string-array name="dpos_server_array">
+         <item>app.javad.com</item>
+         <item>dpos-dev.javad.com</item>
     </string-array>
 
-<string-array name="dpos_server_array">
-        <item>Automaattinen</item>
-    	<item>USA Serveri</item>
-        <item>Moskova Serveri</item>
-        <item>Giodis Serveri</item>
-        </string-array>
+    <!-- Used in file list_hybrid_rtk_item.xml:88 -->
+    <string-array name="dpos_mode_array">
+         <item>Ennallaan</item>
+         <item>Staattinen</item>
+         <item>Kinemaattinen</item>
+    </string-array>
 
-<string-array name="height_type_array_opus">
-        <item>Pysty</item>
-    	<item>Vino</item>
-        </string-array>
+    <!-- Used in file activity_process_hybrid_rtk.xml:88 -->
+    <string-array name="dpos_engine_array">
+         <item>JUSTIN</item>
+         <item>GIODIS</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:48 -->
+    <string-array name="antenna_ids2_array">
+         <item>JAV_TRIUMPH-1   NONE</item>
+         <item>JAVTRIUMPH_2A   NONE</item>
+         <item>JAVGISMORE      NONE</item>
+    </string-array>
+
+    <!-- Used in file activity_process_opus.xml:169 -->
+    <string-array name="opus_formats_array">
+         <item>Standardi</item>
+         <item>Standardi + XML(draft)</item>
+         <item>Laajennettu</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:71 -->
+    <string-array name="height_type_array_opus">
+         <item>Pysty</item>
+         <item>Vino</item>
+    </string-array>
+
 
 </resources>

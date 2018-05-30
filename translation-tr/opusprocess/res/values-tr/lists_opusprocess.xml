@@ -1,28 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string-array name="antenna_ids2_array">
-<item>JAV_TRIUMPH-1  NONE</item>
-<item>JAVTRIUMPH_2A  NONE</item>
-<item>JAVGISMORE    NONE</item>
-</string-array>
-<string-array name="opus_formats_array">
-<item>Standart</item>
-<item>Standart + XML(draft)</item>
-<item>Genişletilmiş</item>
-</string-array>
-<string-array name="dpos_mode_array">
-<item>Değişmemiş</item>
-<item>Statik</item>
-<item>Kinematik</item>
-</string-array>
-<string-array name="dpos_server_array">
-<item>Otomatik</item>
-<item>USA Server</item>
-<item>Moscow Server</item>
-<item>Giodis Server</item>
-</string-array>
-<string-array name="height_type_array_opus">
-<item>Düşey</item>
-<item>Eğik</item>
-</string-array>
+
+    <!-- Used in file activity_process_opus.xml:207 -->
+    <string-array name="dpos_server_array">
+         <item>app.javad.com</item>
+         <item>dpos-dev.javad.com</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:88 -->
+    <string-array name="dpos_mode_array">
+         <item>Değişmemiş</item>
+         <item>Statik</item>
+         <item>Kinematik</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:48 -->
+    <string-array name="antenna_ids2_array">
+         <item>JAV_TRIUMPH-1  NONE</item>
+         <item>JAVTRIUMPH_2A  NONE</item>
+         <item>JAVGISMORE    NONE</item>
+    </string-array>
+
+    <!-- Used in file activity_process_opus.xml:169 -->
+    <string-array name="opus_formats_array">
+         <item>Standart</item>
+         <item>Standart + XML(draft)</item>
+         <item>Genişletilmiş</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:71 -->
+    <string-array name="height_type_array_opus">
+         <item>Düşey</item>
+         <item>Eğik</item>
+    </string-array>
+
+
 </resources>

@@ -1,225 +1,158 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Used in file HomeActivity.java:981. Original value:Job:  -->
-    <string name="string_job_">工作:</string>
-    <!--  Used in file HomeActivity.java:719. Original value:Option has purchased. App is licensed to work with any JAVAD GNSS receiver.  -->
-    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">選項已購買,應用程序被許可使用任何JAVAD GNSS接收器</string>
-    <!--  Used in file HomeActivity.java:174. Original value:Wrong device  -->
-    <string name="string_wrong_device">錯誤的設備</string>
-    <!--  Used in file HomeActivity.java:1056. Original value:Russian  -->
-    <string name="string_russian">俄語</string>
-    <!--  Used in file HomeActivity.java:1244. Original value:Exit application  -->
-    <string name="string_exit_application">退出應用程式</string>
-    <!--  Used in file HomeActivity.java:1034. Original value:English  -->
-    <string name="string_english">英文</string>
-    <!--  Used in file HomeActivity.java:1031. Original value:Language  -->
-    <string name="string_language">語言</string>
-    <!--  Used in file HomeActivity.java:2014. Original value:Select Last Job (%s)  -->
-    <string name="string_select_last_job___s_">選擇上次工作 (%s)</string>
-    <!--  Used in file HomeActivity.java:1058. Original value:Turkish  -->
-    <string name="string_turkish">土耳其</string>
-    <!--  Used in file HomeActivity.java:2091. Original value:Connected to : %s  -->
-    <string name="string_connected_to____s">連接至 : %s</string>
-    <!--  Used in file HomeActivity.java:1025. Original value:Settings  -->
-    <string name="string_settings">設定</string>
-    <!--  Used in file HomeActivity.java:2015. Original value:Select Other Job&#8230;  -->
-    <string name="string_select_other_job___">選擇其他工作…</string>
-    <!--  Used in file HomeActivity.java:681. Original value:Error purchasing:   -->
-    <string name="string_error_purchasing__">購買錯誤: </string>
-    <!--  Used in file HomeActivity.java:953. Original value:Version %1$s%2$s Build %3$s  -->
-    <string name="string_version__1_s_2_s_build__3_s">版本%1$s%2$s  建立  %3$s</string>
-    <!--  Used in file HomeActivity.java:837. Original value:Permission denied to read from your External storage  -->
-    <string name="string_permission_denied_to_read_from_your_external_storage">權限被拒絕從您的外部存儲中讀取</string>
-    <!--  Used in file HomeActivity.java:2012. Original value:Select Project  -->
-    <string name="string_select_project">選擇投影</string>
-    <!--  Used in file HomeActivity.java:1009. Original value:License the application before connection to receiver  -->
-    <string name="string_license_the_application_before_connection_to_receiver">在連接到接收器之前授權應用程序</string>
-    <!--  Used in file HomeActivity.java:1245. Original value:Do you want to exit the application?  -->
-    <string name="string_do_you_want_to_exit_the_application_">你想退出應用程式嗎?</string>
-    <!--  Used in file HomeActivity.java:1057. Original value:Taiwan  -->
-    <string name="string_taiwan">台灣</string>
-    <!--  Used in file HomeActivity.java:175. Original value:The application is designed to be ran on Nautiz X8 device only.  -->
-    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">該應用程式只在Nautiz X8設備上運行</string>
-    <!--  Used in file HomeActivity.java:1200. Original value:Connection in progress&#8230;!  -->
-    <string name="string_connection_in_progress____">Connection in progress&#8230;!</string>
-    <!--  Used in file HomeActivity.java:847. Original value:Permission denied to write to your External storage  -->
-    <string name="string_permission_denied_to_write_to_your_external_storage">拒絕寫入您的外部存儲的權限</string>
-    <!--  Used in file HomeActivity.java:641. Original value:Problem setting up In-app Billing:   -->
-    <string name="string_problem_setting_up_in_app_billing__">設置應用內結算時出現問題: </string>
-    <!-- Used in file HomeActivity.java:603. Original value:Purchase Option    -->
-    <string name="string_purchase_jmt">購買選項</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:73. Original value:Application is not purchased. Please go to Google Play Market to purchase it.    -->
-    <string name="dont_allow_licence">應用程序無購買,請前往Google Play市場購買。</string>
-    <!-- Used in file HomeActivity.java:1491. Original value:J-Community    -->
-    <string name="home_title_jcommunity">J-群體</string>
-    <!-- Used in file HomeActivity.java:1480. Original value:Map    -->
-    <string name="home_title_map">地圖</string>
-    <!-- Used in file activity_home.xml:17. Original value:Javad Mobile Tools for Android    -->
-    <string name="version_number">Javad Mobile Tools for Android</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:45. Original value:RTK Stakeout    -->
-    <string name="radio_rtk_stakeout">RTK 放樣</string>
-    <!-- Used in file HomeActivity.java:1487. Original value:Terminal    -->
-    <string name="home_title_terminal">終端機</string>
-    <!-- Used in file HomeActivity.java:1482. Original value:Process    -->
-    <string name="home_title_process">處理</string>
-    <!-- Used in file HomeActivity.java:1487. Original value:Control    -->
-    <string name="home_title_resets">控制器</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:29. Original value:Post-Processing data collection    -->
-    <string name="radio_post_processing">後處理數據收集</string>
-    <!-- Used in file HomeActivity.java:1484. Original value:Catalog    -->
-    <string name="home_title_catalog">目錄</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:55. Original value:Next &gt;&gt;    -->
-    <string name="button_next">下一步 &gt;&gt;</string>
-    <!-- Used in file HomeActivity.java:1489. Original value:Exit    -->
-    <string name="home_title_exit">離開</string>
-    <!-- Used in file grid_item.xml:10. Original value:image_view    -->
-    <string name="image_view">相片查看</string>
-    <!-- Used in file HomeActivity.java:1481. Original value:TS Points    -->
-    <string name="home_title_ts_points">全測站點位</string>
-    <!-- Used in file HomeActivity.java:1488. Original value:Reconnect WiFi    -->
-    <string name="home_title_reconnectwifi">重新連線 WiFi</string>
-    <!-- Used in file HomeActivity.java:1479. Original value:RTK Base    -->
-    <string name="home_title_rtkbase">RTK 基站</string>
-    <!-- Used in file activity_exit.xml:50. Original value:Turn Off Controller    -->
-    <string name="check_turn_off_controller">關閉控制器</string>
-    <!-- Used in file activity_splash.xml:13. Original value:&#169; JAVAD GNSS 2018    -->
-    <string name="string_splash">© JAVAD GNSS 2018</string>
-    <!-- Used in file HomeActivity.java:1488. Original value:Wizard    -->
-    <string name="home_title_wizard">指導</string>
-    <!-- Used in file translate.xml:38. Original value:China    -->
-    <string name="translation_china">中文</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:83. Original value:No Internet connection to check License    -->
-    <string name="no_internet_to_check_license">沒有互聯網連接來檢查許可證</string>
-    <!-- Used in file AboutActivity.java:44. Original value:Version     -->
-    <string name="string_ver">版本</string>
-    <!-- Used in file activity_wizard_03_base.xml:29. Original value:GNSS Receiver with radio (GSM, UHF/FH)    -->
-    <string name="radio_receiver_with_radio">GNSS 接收儀包含(GSM, UHF/FH)</string>
-    <!-- Used in file HomeActivity.java:1480. Original value:RTK Survey    -->
-    <string name="home_title_survey_rtk">RTK 測量</string>
-    <!-- Used in file HomeActivity.java:1482. Original value:Receiver Files    -->
-    <string name="home_title_filemanager">接收儀檔案</string>
-    <!-- Used in file HomeActivity.java:1488. Original value:User Manual    -->
-    <string name="home_title_usermanual">使用手冊</string>
-    <!-- Used in file HomeActivity.java:1483. Original value:Job    -->
-    <string name="home_title_jobs">工作</string>
-    <!-- Used in file HomeActivity.java:1485. Original value:Corrections    -->
-    <string name="home_title_corrections">改正</string>
-    <!-- Used in file HomeActivity.java:1481. Original value:Design Points    -->
-    <string name="home_title_design_points">設計點位</string>
     <!-- Used in file HomeActivity.java:1486. Original value:Rangefinder    -->
     <string name="home_title_rangefinder">測距儀</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:37. Original value:RTK Survey    -->
-    <string name="radio_rtk_survey">RTK 測量</string>
-    <!-- Used in file translate.xml:44. Original value:Turkish    -->
-    <string name="translation_turkish">土耳其</string>
-    <!-- Used in file activity_wizard_03_base.xml:45. Original value:Receiver connected via NetHub    -->
-    <string name="radio_receiver_via_nethub">接收儀連接經由NetHub</string>
-    <!-- Used in file activity_wizard_03_base.xml:15. Original value:RTK Base    -->
-    <string name="string_rtk_base_title">RTK 基站</string>
-    <!-- Used in file HomeActivity.java:1485. Original value:Satellites    -->
-    <string name="home_title_satellites">衛星</string>
-    <!-- Used in file activity_exit.xml:29. Original value:Turn Off Receiver    -->
-    <string name="check_turn_off">關閉接收儀</string>
-    <!-- Used in file HomeActivity.java:1491. Original value:Spoofing    -->
-    <string name="home_title_spoofing">欺騙</string>
-    <!-- Used in file HomeActivity.java:1487. Original value:Calibrate    -->
-    <string name="home_title_calibrate">校準</string>
-    <!-- Used in file HomeActivity.java:1486. Original value:Radio    -->
-    <string name="home_title_radio">數據機</string>
+    <!-- Used in file HomeActivity.java:1481. Original value:TS Points    -->
+    <string name="home_title_ts_points">全測站點位</string>
+    <!-- Used in file HomeActivity.java:1488. Original value:Wizard    -->
+    <string name="home_title_wizard">指導</string>
     <!-- Used in file RadioHomeActivity.java:149. Original value:Radio Firmware Loader    -->
     <string name="home_title_radio_firmware">數據機韌體載入
 </string>
-    <!-- Used in file HomeActivity.java:1490. Original value:J-Tip    -->
-    <string name="home_title_smart_tips">J-Tip</string>
-    <!-- Used in file grid_item.xml:18. Original value:text_view    -->
-    <string name="text_view">text_查看</string>
-    <!-- Used in file AboutActivity.java:44. Original value:Build    -->
-    <string name="string_build">建立</string>
-    <!-- Used in file activity_about.xml:12. Original value: (;&#169;) Copyright JAVAD GNSS 2018    -->
-    <string name="string_copyright"> (;©) 版權 JAVAD GNSS 2018</string>
-    <!-- Used in file activity_exit.xml:43. Original value:Stop Mobile Data    -->
-    <string name="check_stop_mobile_data">停止移動數據</string>
-    <!-- Used in file HomeActivity.java:1482. Original value:Services    -->
-    <string name="home_title_justinlink_server">伺服器</string>
-    <!-- Used in file null:0. Original value:;&#169; JAVAD GNSS 2018    -->
-    <string name="hello_world">;© JAVAD GNSS 2018</string>
-    <!-- Used in file HomeActivity.java:1999. Original value:Disconnect    -->
-    <string name="string_disconnect">斷線</string>
-    <!-- Used in file null:0. Original value:Select Job    -->
-    <string name="string_select_job">選擇工作</string>
-    <!-- Used in file activity_exit.xml:36. Original value:Exit J-Mobile application    -->
-    <string name="check_exit_app">離開 J-Mobile 應用程式</string>
-    <!-- Used in file HomeActivity.java:1479. Original value:RTK Rover    -->
-    <string name="home_title_rtkrover">RTK 移動站</string>
-    <!-- Used in file activity_about.xml:20. Original value:Version 1.0.9 build 25 June 2014    -->
-    <string name="string_version">版本 1.0.9 建立 25 June 2014</string>
-    <!-- Used in file HomeActivity.java:1485. Original value:Power    -->
-    <string name="home_title_power">電源</string>
-    <!-- Used in file RadioHomeActivity.java:149. Original value:Pair Modem    -->
-    <string name="home_title_pairmodem">配對數據機</string>
-    <!-- Used in file activity_wizard_03_base.xml:37. Original value:VRS (no base required)    -->
-    <string name="radio_vrs_no_base">VRS (無需基站)</string>
-    <!-- Used in file RadioHomeActivity.java:149. Original value:Repeater    -->
-    <string name="home_title_repeater">中繼站</string>
-    <!-- Used in file activity_exit.xml:22. Original value:Stop RTK and Radio    -->
-    <string name="check_stop_rtk_radio">停止 RTK 及數據機</string>
-    <!-- Used in file HomeActivity.java:1483. Original value:Localize    -->
-    <string name="home_title_localize">地方化</string>
-    <!-- Used in file HomeActivity.java:1481. Original value:Survey Points    -->
-    <string name="home_title_survey_points">測量點位</string>
-    <!-- Used in file HomeActivity.java:1484. Original value:RTK Bases    -->
-    <string name="home_title_rtkbases">RTK 基站資訊</string>
-    <!-- Used in file HomeActivity.java:1479. Original value:Static Survey    -->
-    <string name="home_title_survey_pp">靜態測量</string>
-    <!-- Used in file translate.xml:7. Original value:English    -->
-    <string name="translation_english">英文</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:63. Original value:License is OK    -->
-    <string name="allow_license">授權確認</string>
-    <!-- Used in file translate.xml:19. Original value:Language 2    -->
-    <string name="translation_2">語言 2</string>
-    <!-- Used in file translate.xml:25. Original value:Language 3    -->
-    <string name="translation_3">語言 3</string>
-    <!-- Used in file HomeActivity.java:1486. Original value:Total Station    -->
-    <string name="home_title_ts_exchange">全測站</string>
-    <!-- Used in file translate.xml:13. Original value:Language 1    -->
-    <string name="translation_1">語言 1</string>
-    <!-- Used in file main_bosch.xml:13. Original value:Settings    -->
-    <string name="action_settings">設定</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:15. Original value:Work type    -->
-    <string name="string_work_type_title">工作類型</string>
-    <!-- Used in file HomeActivity.java:1484. Original value:CoGo    -->
-    <string name="home_title_cogo">幾何計算</string>
-    <!-- Used in file HomeActivity.java:1483. Original value:Coord.Sys    -->
-    <string name="home_title_cs">座標系統</string>
-    <!-- Used in file translate.xml:32. Original value:Russian    -->
-    <string name="translation_russian">俄文</string>
+    <!-- Used in file grid_item.xml:10. Original value:image_view    -->
+    <string name="image_view">相片查看</string>
+    <!-- Used in file activity_splash.xml:13. Original value:&#169; JAVAD GNSS 2018    -->
+    <string name="string_splash">© JAVAD GNSS 2018</string>
     <!-- Used in file home.xml:6. Original value:About    -->
     <string name="action_about">關於</string>
-    <!-- Used in file HomeActivity.java:1480. Original value:Stakeout    -->
-    <string name="home_title_stakeout">放樣</string>
+    <!-- Used in file HomeActivity.java:1487. Original value:Terminal    -->
+    <string name="home_title_terminal">終端機</string>
     <!-- Used in file activity_exit.xml:57. Original value:Exit    -->
     <string name="button_exit">離開</string>
+    <!-- Used in file HomeActivity.java:1491. Original value:J-Community    -->
+    <string name="home_title_jcommunity">J-群體</string>
+    <!-- Used in file activity_wizard_01_work_type.xml:15. Original value:Work type    -->
+    <string name="string_work_type_title">工作類型</string>
+    <!-- Used in file HomeActivity.java:1479. Original value:Static Survey    -->
+    <string name="home_title_survey_pp">靜態測量</string>
+    <!-- Used in file activity_about.xml:20. Original value:Version 1.0.9 build 25 June 2014    -->
+    <string name="string_version">版本 1.0.9 建立 25 June 2014</string>
+    <!-- Used in file activity_wizard_01_work_type.xml:37. Original value:RTK Survey    -->
+    <string name="radio_rtk_survey">RTK 測量</string>
+    <!-- Used in file translate.xml:38. Original value:China    -->
+    <string name="translation_china">中文</string>
+    <!-- Used in file AboutActivity.java:44. Original value:Version     -->
+    <string name="string_ver">版本</string>
+    <!-- Used in file HomeActivity.java:1490. Original value:J-Tip    -->
+    <string name="home_title_smart_tips">J-Tip</string>
+    <!-- Used in file activity_wizard_03_base.xml:15. Original value:RTK Base    -->
+    <string name="string_rtk_base_title">RTK 基站</string>
+    <!-- Used in file activity_wizard_03_base.xml:37. Original value:VRS (no base required)    -->
+    <string name="radio_vrs_no_base">VRS (無需基站)</string>
+    <!-- Used in file HomeActivity.java:1485. Original value:Satellites    -->
+    <string name="home_title_satellites">衛星</string>
+    <!-- Used in file HomeActivity.java:1481. Original value:Design Points    -->
+    <string name="home_title_design_points">設計點位</string>
+    <!-- Used in file HomeActivity.java:1491. Original value:Spoofing    -->
+    <string name="home_title_spoofing">欺騙</string>
+    <!-- Used in file HomeActivity.java:1489. Original value:Exit    -->
+    <string name="home_title_exit">離開</string>
+    <!-- Used in file HomeActivity.java:1480. Original value:Map    -->
+    <string name="home_title_map">地圖</string>
+    <!-- Used in file grid_item.xml:18. Original value:text_view    -->
+    <string name="text_view">text_查看</string>
+    <!-- Used in file activity_exit.xml:43. Original value:Stop Mobile Data    -->
+    <string name="check_stop_mobile_data">停止移動數據</string>
+    <!-- Used in file translate.xml:7. Original value:English    -->
+    <string name="translation_english">英文</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:73. Original value:Application is not purchased. Please go to Google Play Market to purchase it.    -->
+    <string name="dont_allow_licence">應用程序無購買,請前往Google Play市場購買。</string>
+    <!-- Used in file HomeActivity.java:1483. Original value:Job    -->
+    <string name="home_title_jobs">工作</string>
+    <!-- Used in file HomeActivity.java:1484. Original value:CoGo    -->
+    <string name="home_title_cogo">幾何計算</string>
+    <!-- Used in file HomeActivity.java:1486. Original value:Radio    -->
+    <string name="home_title_radio">數據機</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:63. Original value:License is OK    -->
+    <string name="allow_license">授權確認</string>
+    <!-- Used in file HomeActivity.java:1485. Original value:Power    -->
+    <string name="home_title_power">電源</string>
+    <!-- Used in file HomeActivity.java:1484. Original value:RTK Bases    -->
+    <string name="home_title_rtkbases">RTK 基站資訊</string>
+    <!-- Used in file HomeActivity.java:1488. Original value:User Manual    -->
+    <string name="home_title_usermanual">使用手冊</string>
+    <!-- Used in file HomeActivity.java:1487. Original value:Calibrate    -->
+    <string name="home_title_calibrate">校準</string>
+    <!-- Used in file RadioHomeActivity.java:149. Original value:Pair Modem    -->
+    <string name="home_title_pairmodem">配對數據機</string>
+    <!-- Used in file activity_home.xml:17. Original value:Javad Mobile Tools for Android    -->
+    <string name="version_number">Javad Mobile Tools for Android</string>
+    <!-- Used in file activity_exit.xml:50. Original value:Turn Off Controller    -->
+    <string name="check_turn_off_controller">關閉控制器</string>
+    <!-- Used in file AboutActivity.java:44. Original value:Build    -->
+    <string name="string_build">建立</string>
+    <!-- Used in file HomeActivity.java:1481. Original value:Survey Points    -->
+    <string name="home_title_survey_points">測量點位</string>
+    <!-- Used in file activity_wizard_01_work_type.xml:45. Original value:RTK Stakeout    -->
+    <string name="radio_rtk_stakeout">RTK 放樣</string>
+    <!-- Used in file HomeActivity.java:1480. Original value:Stakeout    -->
+    <string name="home_title_stakeout">放樣</string>
+    <!-- Used in file HomeActivity.java:603. Original value:Purchase Option    -->
+    <string name="string_purchase_jmt">購買選項</string>
+    <!-- Used in file HomeActivity.java:1483. Original value:Coord.Sys    -->
+    <string name="home_title_cs">座標系統</string>
+    <!-- Used in file HomeActivity.java:1479. Original value:RTK Base    -->
+    <string name="home_title_rtkbase">RTK 基站</string>
+    <!-- Used in file activity_exit.xml:29. Original value:Turn Off Receiver    -->
+    <string name="check_turn_off">關閉接收儀</string>
     <!-- Used in file activity_exit.xml:15. Original value:Stop Logging    -->
     <string name="check_stop_logging">停止紀錄</string>
+    <!-- Used in file activity_exit.xml:22. Original value:Stop RTK and Radio    -->
+    <string name="check_stop_rtk_radio">停止 RTK 及數據機</string>
+    <!-- Used in file HomeActivity.java:1480. Original value:RTK Survey    -->
+    <string name="home_title_survey_rtk">RTK 測量</string>
+    <!-- Used in file translate.xml:13. Original value:Language 1    -->
+    <string name="translation_1">語言 1</string>
+    <!-- Used in file translate.xml:44. Original value:Turkish    -->
+    <string name="translation_turkish">土耳其</string>
+    <!-- Used in file translate.xml:19. Original value:Language 2    -->
+    <string name="translation_2">語言 2</string>
+    <!-- Used in file HomeActivity.java:1485. Original value:Corrections    -->
+    <string name="home_title_corrections">改正</string>
+    <!-- Used in file RadioHomeActivity.java:149. Original value:Repeater    -->
+    <string name="home_title_repeater">中繼站</string>
+    <!-- Used in file translate.xml:25. Original value:Language 3    -->
+    <string name="translation_3">語言 3</string>
+    <!-- Used in file HomeActivity.java:1484. Original value:Catalog    -->
+    <string name="home_title_catalog">目錄</string>
+    <!-- Used in file HomeActivity.java:1488. Original value:Reconnect WiFi    -->
+    <string name="home_title_reconnectwifi">重新連線 WiFi</string>
+    <!-- Used in file HomeActivity.java:1482. Original value:Services    -->
+    <string name="home_title_justinlink_server">伺服器</string>
+    <!-- Used in file main_bosch.xml:13. Original value:Settings    -->
+    <string name="action_settings">設定</string>
+    <!-- Used in file activity_about.xml:12. Original value: (;&#169;) Copyright JAVAD GNSS 2018    -->
+    <string name="string_copyright"> (;©) 版權 JAVAD GNSS 2018</string>
+    <!-- Used in file activity_exit.xml:36. Original value:Exit J-Mobile application    -->
+    <string name="check_exit_app">離開 J-Mobile 應用程式</string>
+    <!-- Used in file activity_wizard_03_base.xml:29. Original value:GNSS Receiver with radio (GSM, UHF/FH)    -->
+    <string name="radio_receiver_with_radio">GNSS 接收儀包含(GSM, UHF/FH)</string>
+    <!-- Used in file translate.xml:32. Original value:Russian    -->
+    <string name="translation_russian">俄文</string>
+    <!-- Used in file HomeActivity.java:1483. Original value:Localize    -->
+    <string name="home_title_localize">地方化</string>
+    <!-- Used in file HomeActivity.java:1999. Original value:Disconnect    -->
+    <string name="string_disconnect">斷線</string>
+    <!-- Used in file HomeActivity.java:1479. Original value:RTK Rover    -->
+    <string name="home_title_rtkrover">RTK 移動站</string>
+    <!-- Used in file HomeActivity.java:1482. Original value:Receiver Files    -->
+    <string name="home_title_filemanager">接收儀檔案</string>
+    <!-- Used in file activity_wizard_01_work_type.xml:29. Original value:Post-Processing data collection    -->
+    <string name="radio_post_processing">後處理數據收集</string>
+    <!-- Used in file HomeActivity.java:1482. Original value:Process    -->
+    <string name="home_title_process">處理</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:83. Original value:No Internet connection to check License    -->
+    <string name="no_internet_to_check_license">沒有互聯網連接來檢查許可證</string>
+    <!-- Used in file HomeActivity.java:1486. Original value:Total Station    -->
+    <string name="home_title_ts_exchange">全測站</string>
     <!-- Used in file HomeActivity.java:2001. Original value:Connect    -->
     <string name="string_connect">連線</string>
+    <!-- Used in file activity_wizard_03_base.xml:45. Original value:Receiver connected via NetHub    -->
+    <string name="radio_receiver_via_nethub">接收儀連接經由NetHub</string>
+    <!-- Used in file activity_wizard_03_base.xml:55. Original value:Next &gt;&gt;    -->
+    <string name="button_next">下一步 &gt;&gt;</string>
+    <!-- Used in file HomeActivity.java:1487. Original value:Control    -->
+    <string name="home_title_resets">控制器</string>
+
 </resources>

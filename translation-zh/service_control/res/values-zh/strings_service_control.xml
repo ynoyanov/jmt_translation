@@ -1,76 +1,69 @@
-﻿<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server works on %s  -->
-    <string name="string_wsdd_server_works_on__s">WSDD 伺服器開 %s</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server works on %s  -->
-    <string name="string_justinlink_exchange_server_works_on__s">JustinLink 交換伺服器工作開 %s</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:299. Original value:WSDD Server is stopped  -->
-    <string name="string_wsdd_server_is_stopped">WSDD 伺服器已停止</string>
-    <!--  Used in file BackgroundServicesSetupActivity.java:301. Original value:JustinLink Exchange Server is stopped  -->
-    <string name="string_justinlink_exchange_server_is_stopped">JustinLink 交換伺服器已停止</string>
+    <!-- Used in file activity_background_services_opus.xml:15. Original value:OPUS Mail Reader    -->
+    <string name="text_opusmail_server">OPUS 郵件閱讀</string>
+    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
+    <string name="check_bosch_g100_thread">Bosch GLM100C 讀取主題</string>
+    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
+    <string name="check_status_bar_update_threads">狀態欄更新線程</string>
+    <!-- Used in file activity_threads.xml:68. Original value:JustinLink exchange threads    -->
+    <string name="check_justinlink_threads">JustinLink 交換主題</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:13. Original value:Ntrip/RCV/Nethub    -->
     <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
-    <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
-    <string name="check_ringtone_manager_thread">鈴聲管理器線程</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:justinlink_exchange    -->
-    <string name="app_name">justinlink_交換</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:21. Original value:Ntrip/RCV client on    -->
-    <string name="ntrip_client_on">Ntrip/RCV 客戶端開</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:12. Original value:J-Community    -->
-    <string name="text_j_community">J-群體</string>
-    <!-- Used in file background_services.xml:6. Original value:Threads    -->
-    <string name="action_threads">主題</string>
-    <!-- Used in file activity_threads.xml:74. Original value:OPUS Mail Read thread    -->
-    <string name="check_opus_mail_read_thread">OPUS 郵件閱讀主題</string>
+    <!-- Used in file activity_background_services_justinlink.xml:28. Original value:Log    -->
+    <string name="justinlink_server_log">紀錄</string>
     <!-- Used in file activity_background_services_justinlink.xml:21. Original value:On    -->
     <string name="justinlink_server_on">開</string>
-    <!-- Used in file activity_background_services_2.xml:198. Original value:Mock Location Provider    -->
+    <!-- Used in file activity_threads.xml:14. Original value:GNSS Receiver threads    -->
+    <string name="check_receiver_threads">GNSS 接收儀主題</string>
+    <!-- Used in file activity_threads.xml:20. Original value:Survey Model thread    -->
+    <string name="check_survey_model_threads">調查模型主題</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:12. Original value:J-Community    -->
+    <string name="text_j_community">J-群體</string>
+    <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
+    <string name="check_ringtone_manager_thread">鈴聲管理器線程</string>
+    <!-- Used in file activity_background_services_opus.xml:23. Original value:On    -->
+    <string name="opusmail_server_on">開</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:27. Original value:Log    -->
+    <string name="j_community_log">紀錄</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
+    <string name="nethub_server_on">NetHub 伺服器開</string>
+    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
+    <string name="check_jcommunity_thread">J群體線程</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:21. Original value:Ntrip/RCV client on    -->
+    <string name="ntrip_client_on">Ntrip/RCV 客戶端開</string>
+    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
+    <string name="check_rcv_server_threads">RCV 伺服器主題</string>
+    <!-- Used in file activity_background_services_mockprovider.xml:13. Original value:Mock Location Provider    -->
     <string name="text_mock_location_provider">模擬位置提供商</string>
-    <!-- Used in file activity_background_services_2.xml:206. Original value:On    -->
-    <string name="mock_location_provider_on">開</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:55. Original value:WSDD Server    -->
+    <string name="text_wsdd_server">WSDD 伺服器</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:justinlink_exchange    -->
+    <string name="app_name">justinlink_交換</string>
+    <!-- Used in file background_services.xml:6. Original value:Threads    -->
+    <string name="action_threads">主題</string>
     <!-- Used in file activity_background_services_jcommunity.xml:20. Original value:On    -->
     <string name="j_community_on">開</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:77. Original value:JCommunity    -->
+    <string name="text_jcommunity">J群體</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
+    <string name="ntripnethub_log">Ntrip/RCV/Nethub 紀錄</string>
+    <!-- Used in file activity_threads.xml:74. Original value:OPUS Mail Read thread    -->
+    <string name="check_opus_mail_read_thread">OPUS 郵件閱讀主題</string>
+    <!-- Used in file activity_background_services_mockprovider.xml:21. Original value:On    -->
+    <string name="mock_location_provider_on">開</string>
+    <!-- Used in file activity_background_services_mockprovider.xml:28. Original value:Log    -->
+    <string name="mock_location_provider_log">紀錄</string>
     <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
     <string name="check_ntrip_client_threads">Ntrip/RCV 客戶主題</string>
     <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
     <string name="check_nethub_client_threads">NetHub 客戶主題</string>
-    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
-    <string name="check_jcommunity_thread">J群體線程</string>
     <!-- Used in file activity_threads.xml:56. Original value:SmartTip threads    -->
     <string name="check_smarttip_thread">SmartTip 主題</string>
-    <!-- Used in file activity_background_services_2.xml:213. Original value:Log    -->
-    <string name="mock_location_provider_log">紀錄</string>
-    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
-    <string name="check_status_bar_update_threads">狀態欄更新線程</string>
-    <!-- Used in file activity_background_services_justinlink.xml:28. Original value:Log    -->
-    <string name="justinlink_server_log">紀錄</string>
-    <!-- Used in file activity_threads.xml:20. Original value:Survey Model thread    -->
-    <string name="check_survey_model_threads">調查模型主題</string>
-    <!-- Used in file activity_background_services_2.xml:91. Original value:Log    -->
+    <!-- Used in file activity_background_services_opus.xml:30. Original value:Log    -->
     <string name="opusmail_server_log">紀錄</string>
-    <!-- Used in file activity_background_services_2.xml:76. Original value:OPUS Mail Reader    -->
-    <string name="text_opusmail_server">OPUS 郵件閱讀</string>
     <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
     <string name="text_justinlink_server">JustinLink 交換伺服器</string>
-    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
-    <string name="check_rcv_server_threads">RCV 伺服器主題</string>
-    <!-- Used in file activity_background_services_2.xml:84. Original value:On    -->
-    <string name="opusmail_server_on">開</string>
-    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
-    <string name="check_bosch_g100_thread">Bosch GLM100C 讀取主題</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:27. Original value:Log    -->
-    <string name="j_community_log">紀錄</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:77. Original value:JCommunity    -->
-    <string name="text_jcommunity">J群體</string>
-    <!-- Used in file activity_threads.xml:14. Original value:GNSS Receiver threads    -->
-    <string name="check_receiver_threads">GNSS 接收儀主題</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
-    <string name="nethub_server_on">NetHub 伺服器開</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:55. Original value:WSDD Server    -->
-    <string name="text_wsdd_server">WSDD 伺服器</string>
-    <!-- Used in file activity_threads.xml:68. Original value:JustinLink exchange threads    -->
-    <string name="check_justinlink_threads">JustinLink 交換主題</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
-    <string name="ntripnethub_log">Ntrip/RCV/Nethub 紀錄</string>
-    
+
 </resources>

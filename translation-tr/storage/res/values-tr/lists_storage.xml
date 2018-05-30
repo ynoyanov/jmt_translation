@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string-array name="coordinate_system_array">
-<item>WGS 84</item>
-<item>Lokal</item>
-</string-array>
-<string-array name="measure_units_array">
-<item>Metre</item>
-<item>US Feet</item>
-<item>Int.Feet</item>
-</string-array>
+
+    <!-- Used in file activity_job.xml:179 -->
+    <string-array name="measure_units_array">
+         <item>Metre</item>
+         <item>US Feet</item>
+         <item>Int.Feet</item>
+    </string-array>
+
+    <!-- Used in file activity_rtkbase.xml:163 -->
+    <string-array name="coordinate_system_array">
+         <item>WGS 84</item>
+         <item>Lokal</item>
+    </string-array>
+
+
 </resources>

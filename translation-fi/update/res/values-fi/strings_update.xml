@@ -1,70 +1,55 @@
-﻿<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-    <!-- Used in file OAFUpdateActivity.java:155 -->
-    <string name="string_options_are_permanent">Asetukset ovat pysyvät</string>
-    <!-- Used in file activity_update_firmware.xml:37 -->
+    <!-- Used in file activity_update_firmware.xml:37. Original value:Update from Internet to Stable    -->
     <string name="update_from_internet_stable">Päivitä internetistä vakaaseen</string>
-    <!-- Used in file OAFUpdateActivity.java:220 -->
-    <string name="string_checking_oaf___">Tarkistetaan OAF…</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">Päivitys</string>
-    <!-- Used in file OAFUpdateActivity.java:271 -->
-    <string name="string_option_update_error_">Asetuksen päivitysvirhe!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339 -->
-    <string name="string_firmware_have_successfully_updated">Firmwaret ovat onnistuneesti päivittyneet</string>
-    <!-- Used in file OAFUpdateActivity.java:366 -->
-    <string name="string_oaf_update_error">OAF päivitysvirhe</string>
-    <!-- Used in file activity_update_oaf.xml:27 -->
-    <string name="update_from_file">Päivitys tiedostosta</string>
-    <!-- Used in file OAFUpdateActivity.java:417 -->
-    <string name="string_please_wait__">Odota, ole hyvä!!</string>
-    <!-- Used in file OAFUpdateActivity.java:246 -->
-    <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Tiedosto on korruptoitunut tai väärä OAF-tiedosto!</string>
-    <!-- Used in file OAFUpdateActivity.java:151 -->
-    <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Vastaanottimen asetukset erääntyvät %1$s.\n(%2$d päivän jälkeen)</string>
-    <!-- Used in file FirmwareUpdateActivity.java:541 -->
-    <string name="string_restarting___">Käynnistää uudelleen…</string>
-    <!-- Used in file FirmwareUpdateActivity.java:144 -->
-    <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Viimeisin Firmware versio sivulla on %1$s %2$s</string>
-    <!-- Used in file FirmwareUpdateActivity.java:492 -->
-    <string name="string_radio_firmware">radio firmware</string>
-    <!-- Used in file OAFUpdateActivity.java:236 -->
-    <string name="string_loading_oaf___">Ladataan OAF…</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339 -->
-    <string name="string_firmware_update_error_">Firmwaren päivitysvirhe!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:488 -->
-    <string name="string_main_firmware">pääfirmware</string>
-    <!-- Used in file FirmwareUpdateActivity.java:143 -->
-    <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Stable Firmwaren versio tällä sivulla on %1$s %2$s</string>
-    <!-- Used in file activity_update_oaf.xml:16 -->
-    <string name="oaf_info">Asetukset ovat OK</string>
-    <!-- Used in file FirmwareUpdateActivity.java:142 -->
-    <string name="string_receiver_firmware_version_is__s">Vastaanottimen firmwaren versio on %s</string>
-    <!-- Used in file FirmwareUpdateActivity.java:361 -->
-    <string name="string_unpacking___">Puretaan…</string>
-    <!-- Used in file OAFUpdateActivity.java:362 -->
-    <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Vastaanotin purettiin joten se ehkä täytyy uudelleenasentaa</string>
-    <!-- Used in file OAFUpdateActivity.java:362 -->
-    <string name="string_oaf_successfully_updated_">OAF onnistuneesti päivitetty.</string>
-    <!-- Used in file OAFUpdateActivity.java:365 -->
-    <string name="string_oaf_update">OAF päivitys</string>
-    <!-- Used in file FirmwareUpdateActivity.java:490 -->
-    <string name="string_firmware_loader">firmwaren lataaja</string>
-    <!-- Used in file activity_update_firmware.xml:47 -->
-    <string name="update_from_internet_latest">Päivitä internetistä viimeisimpään</string>
-    <!-- Used in file OAFUpdateActivity.java:271 -->
-    <string name="string_options_have_successfully_updated">Asetukset on onnistuneesti päivitetty</string>
-    <!-- Used in file activity_update_oaf.xml:37 -->
+    <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web    -->
+    <string name="update_oaf_summary">Upfate receiver options(OAF) from file or from Web</string>
+    <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file    -->
+    <string name="restore_settings_summary">Restore  all receiver settings from setting file</string>
+    <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web    -->
+    <string name="update_firmware_summary">Upfate receiver firmware from file or from Web</string>
+    <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver    -->
+    <string name="reset_receiver">Reset Receiver</string>
+    <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet    -->
     <string name="update_from_internet">Päivitys internetistä</string>
-    <!-- Used in file OAFUpdateActivity.java:422 -->
-    <string name="string_cancel">Peruuta</string>
-    <!-- Used in file FirmwareUpdateActivity.java:502 -->
-    <string name="string_uploading__s____">Lähetetään %s …</string>
-    <!-- Used in file OAFUpdateActivity.java:153 -->
-    <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Vastaanottimen asetukset ovat vanhentuneet %1$s.\n(%2$d päivää sitten)</string>
-    <!-- Used in file activity_update_oaf.xml:45 -->
+    <!-- Used in file fragment_resets.xml:50. Original value:Update OAF    -->
+    <string name="update_oaf">Update OAF</string>
+    <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM    -->
+    <string name="clear_nvram">Clear NVRAM</string>
+    <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters    -->
+    <string name="init_parameters">Init Parameters</string>
+    <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver    -->
+    <string name="reset_receiver_summary">Reset turns off and on the receiver</string>
+    <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware    -->
+    <string name="update_firmware">Update Firmware</string>
+    <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver    -->
+    <string name="clear_file_system_summary">Clear file system removes all jps files on the receiver</string>
+    <!-- Used in file activity_update_oaf.xml:27. Original value:Update from File    -->
+    <string name="update_from_file">Päivitys tiedostosta</string>
+    <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings    -->
+    <string name="save_settings">Save Receiver Settings</string>
+    <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values    -->
+    <string name="clear_nvram_summary">Crear all receiver settings to default values</string>
+    <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK    -->
+    <string name="reset_rtk">Reset RTK</string>
+    <!-- Used in file activity_update_oaf.xml:16. Original value:Options are OK    -->
+    <string name="oaf_info">Asetukset ovat OK</string>
+    <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values    -->
+    <string name="init_parameters_summary">Crear all receiver settings to default values</string>
+    <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file    -->
+    <string name="save_settings_summary">Save all receiver settings into text file</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:update    -->
+    <string name="app_name">Päivitys</string>
+    <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings    -->
+    <string name="restore_settings">Restore Receiver Settings</string>
+    <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection    -->
     <string name="check_oaf_at_every_connection">Tarkista OAF kaikissa yhteyksissä</string>
-    <!-- Used in file OAFUpdateActivity.java:373 -->
-    <string name="string_close">Sulje</string>
-    
+    <!-- Used in file fragment_resets.xml:26. Original value:Clear File System    -->
+    <string name="clear_file_system">Clear File System</string>
+    <!-- Used in file activity_update_firmware.xml:47. Original value:Update from Internet to Lattest    -->
+    <string name="update_from_internet_latest">Päivitä internetistä viimeisimpään</string>
+    <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution    -->
+    <string name="reset_rtk_summary">Turn RTK off and on to refix solution</string>
+
 </resources>

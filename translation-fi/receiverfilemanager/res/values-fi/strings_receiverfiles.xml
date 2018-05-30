@@ -1,45 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file FileManagerActivity.java:269 -->
+    <!--  Used in file FileManagerActivity.java:391. Original value:Resume  -->
     <string name="string_resume">Palaa</string>
-    <!-- Used in file FileManagerActivity.java:257 -->
-    <string name="string_rewrite">Uudelleenkirjoita</string>
-    <!-- Used in file FileManagerActivity.java:251 -->
-    <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Tiedosto %s on jo olemassa.\nHaluatko uudelleenkirjoittaa sen vai palata?</string>
-    <!-- Used in file FileManagerActivity.java:389 -->
+    <!--  Used in file FileManagerActivity.java:689. Original value:Delete %1$d filtered files (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_files__of__2_d_">Delete %1$d filtered files (of %2$d)</string>
+    <!--  Used in file FileManagerActivity.java:839. Original value:Delete file result  -->
+    <string name="string_delete_file_result">Delete file result</string>
+    <!--  Used in file FileManagerActivity.java:590. Original value:Downloading&#8230;  -->
     <string name="string_downloading___">Ladataan…</string>
-    <!-- Used in file main.xml:7 -->
-    <string name="action_settings">Asetukset</string>
-    <!-- Used in file FileManagerActivity.java:238 -->
-    <string name="string_loaded">ladattu</string>
-    <!-- Used in file activity_actions.xml:12 -->
-    <string name="button_download">Lataa</string>
-    <!-- Used in file AndroidManifest.xml:35 -->
-    <string name="title_activity_file_manager">Tiedostohallinta</string>
-    <!-- Used in file AndroidManifest.xml:26 -->
-    <string name="app_name">Vastaanottimen tiedostot</string>
-    <!-- Used in file activity_file_manager.xml:46 -->
-    <string name="search_hint">Etsi tiedostoja…</string>
-    <!-- Used in file activity_actions.xml:19 -->
-    <string name="button_delete">Poista</string>
-    <!-- Used in file activity_actions.xml:26 -->
-    <string name="button_delete_all">Poista kaikki tiedostot</string>
-    <!-- Used in file activity_file_manager.xml:22 -->
-    <string name="text_folder">Kansio\nto säilytys:</string>
-    <!-- Used in file activity_file_manager.xml:38 -->
-    <string name="button_select">. . .</string>
-    <!-- Used in file FileManagerActivity.java:479 -->
-    <string name="button_cancel">Peruuta</string>
-    <!-- Used in file AndroidManifest.xml:59 -->
-    <string name="title_activity_connection">Yhteys</string>
-    <!-- Used in file FileManagerActivity.java:277 -->
-    <string name="string_cancel">Peruuta</string>
-    <!-- Used in file FileManagerActivity.java:404 -->
+    <!--  Used in file FileManagerActivity.java:775. Original value:DELETE ALL FILES  -->
+    <string name="string_delete_all_files">DELETE ALL FILES</string>
+    <!--  Used in file FileManagerActivity.java:533. Original value:Removing&#8230;  -->
+    <string name="string_removing___">Removing&#8230;</string>
+    <!--  Used in file FileManagerActivity.java:831. Original value:Successfully deleted all %d files  -->
+    <string name="string_successfully_deleted_all__d_files">Successfully deleted all %d files</string>
+    <!--  Used in file FileManagerActivity.java:220. Original value:Switch to Process  -->
+    <string name="string_switch_to_process">Switch to Process</string>
+    <!--  Used in file FileManagerActivity.java:285. Original value:Memory  -->
+    <string name="string_memory">Memory</string>
+    <!--  Used in file FileManagerActivity.java:605. Original value:Downloading file %s  -->
     <string name="string_downloading_file__s">Ladataan tiedostoa %s</string>
-    <!-- Used in file FileManagerActivity.java:250 -->
+    <!--  Used in file FileManagerActivity.java:372. Original value:Download file  -->
     <string name="string_download_file">Lataa tiedosto</string>
-    <!-- Used in file activity_main.xml:14 -->
+    <!--  Used in file FileManagerActivity.java:835. Original value:All %d files will be deleted  -->
+    <string name="string_all__d_files_will_be_deleted">All %d files will be deleted</string>
+    <!--  Used in file FileManagerActivity.java:755. Original value:Delete file  -->
+    <string name="string_delete_file">Delete file</string>
+    <!--  Used in file FileManagerActivity.java:836. Original value:Wait several minutes till receiver flashing is over!  -->
+    <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Wait several minutes till receiver flashing is over!</string>
+    <!--  Used in file FileManagerActivity.java:756. Original value:Do you want to delete file \'%s\'?  -->
+    <string name="string_do_you_want_to_delete_file___s__">Do you want to delete file \'%s\'?</string>
+    <!--  Used in file FileManagerActivity.java:284. Original value:Files:  -->
+    <string name="string_files_">Files:</string>
+    <!--  Used in file FileManagerActivity.java:810. Original value:Removed file %s  -->
+    <string name="string_removed_file__s">Removed file %s</string>
+    <!--  Used in file FileManagerActivity.java:840. Original value:Close  -->
+    <string name="string_close">Close</string>
+    <!--  Used in file FileManagerActivity.java:695. Original value:Delete %1$d selected files (of %2$d)  -->
+    <string name="string_delete__1_d_selected_files__of__2_d_">Delete %1$d selected files (of %2$d)</string>
+    <!--  Used in file FileManagerActivity.java:379. Original value:Rewrite  -->
+    <string name="string_rewrite">Uudelleenkirjoita</string>
+    <!--  Used in file FileManagerActivity.java:373. Original value:File %s already exist.\nDo you want to Rewrite it or Resume?  -->
+    <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Tiedosto %s on jo olemassa.\nHaluatko uudelleenkirjoittaa sen vai palata?</string>
+    <!--  Used in file FileManagerActivity.java:360. Original value:loaded  -->
+    <string name="string_loaded">ladattu</string>
+    <!--  Used in file FileManagerActivity.java:774. Original value:DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?  -->
+    <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?</string>
+    <!--  Used in file FileManagerActivity.java:218. Original value:HybridRTK download  -->
+    <string name="string_hybridrtk_download">HybridRTK download</string>
+    <!--  Used in file FileManagerActivity.java:895. Original value:No new Hybrid RTK files found!  -->
+    <string name="string_no_new_hybrid_rtk_files_found_">No new Hybrid RTK files found!</string>
+    <!--  Used in file FileManagerActivity.java:285. Original value:Free:  -->
+    <string name="string_free_">Free:</string>
+    <!--  Used in file FileManagerActivity.java:219. Original value:Download of HybridRTK is over!  -->
+    <string name="string_download_of_hybridrtk_is_over_">Download of HybridRTK is over!</string>
+    <!--  Used in file FileManagerActivity.java:757. Original value:Delete  -->
+    <string name="string_delete">Delete</string>
+    <!--  Used in file FileManagerActivity.java:834. Original value:File system init started.  -->
+    <string name="string_file_system_init_started_">File system init started.</string>
+    <!--  Used in file FileManagerActivity.java:830. Original value:Deleted %1$d files (from %2$d)  -->
+    <string name="string_deleted__1_d_files__from__2_d_">Deleted %1$d files (from %2$d)</string>
+    <!--  Used in file FileManagerActivity.java:856. Original value:Cancel  -->
+    <string name="string_cancel">Peruuta</string>
+    <!--  Used in file FileManagerActivity.java:285. Original value:Total:  -->
+    <string name="string_total_">Total:</string>
+    <!-- Used in file file_manager.xml:47. Original value:Download Block Size    -->
+    <string name="action_download_block_size">Download Block Size</string>
+    <!-- Used in file activity_actions.xml:12. Original value:Download    -->
+    <string name="button_download">Lataa</string>
+    <!-- Used in file file_manager.xml:41. Original value:Download HybridRTK files    -->
+    <string name="action_download_hybrid_rtk">Download HybridRTK files</string>
+    <!-- Used in file activity_file_manager.xml:55. Original value:Search files&#8230;    -->
+    <string name="search_hint">Etsi tiedostoja…</string>
+    <!-- Used in file activity_actions.xml:19. Original value:Delete    -->
+    <string name="button_delete">Poista</string>
+    <!-- Used in file activity_file_manager.xml:22. Original value:Folder\nto Store:    -->
+    <string name="text_folder">Kansio\nto säilytys:</string>
+    <!-- Used in file activity_block_size.xml:20. Original value:Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.    -->
+    <string name="block_size_description">Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.</string>
+    <!-- Used in file activity_main.xml:14. Original value:Hello World    -->
     <string name="hello_world">Hei maailma</string>
+    <!-- Used in file activity_block_size.xml:34. Original value:Block Size, bytes    -->
+    <string name="block_size">Block Size, bytes</string>
+    <!-- Used in file AndroidManifest.xml:35. Original value:File Manager    -->
+    <string name="title_activity_file_manager">Tiedostohallinta</string>
+    <!-- Used in file AndroidManifest.xml:26. Original value:Receiver Files    -->
+    <string name="app_name">Vastaanottimen tiedostot</string>
+    <!-- Used in file FileManagerActivity.java:119. Original value:Switch back to receiver files    -->
+    <string name="action_hide_deleted">Switch back to receiver files</string>
+    <!-- Used in file file_manager.xml:52. Original value:Delete All Files    -->
+    <string name="button_delete_all">Poista kaikki tiedostot</string>
+    <!-- Used in file activity_file_manager.xml:39. Original value:. . .    -->
+    <string name="button_select">. . .</string>
+    <!-- Used in file activity_block_size.xml:60. Original value:Cancel    -->
+    <string name="button_cancel">Peruuta</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Asetukset</string>
+    <!-- Used in file activity_block_size.xml:69. Original value:Apply&quot;    -->
+    <string name="button_apply">Apply&quot;</string>
+    <!-- Used in file file_manager.xml:28. Original value:Switch to Deleted files    -->
+    <string name="action_show_deleted">Switch to Deleted files</string>
+    <!-- Used in file AndroidManifest.xml:59. Original value:Connection    -->
+    <string name="title_activity_connection">Yhteys</string>
     
 </resources>

@@ -1,375 +1,141 @@
-﻿<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-
-    <!-- Used in file SurveyPointListAdapter.java:125 -->
-    <string name="string__d_vertices">%d navat</string>
-    <!-- Used in file ts_points.xml:10 -->
-    <string name="action_search">Etsi</string>
-    <!-- Used in file IdenticalPointsActivity.java:92 -->
-    <string name="string_can_t_save_the_settings_">Asetuksia ei voida tallentaa!</string>
-    <!-- Used in file PointsActivity.java:267 -->
-    <string name="string_points">pisteet</string>
-    <!-- Used in file IdenticalPointListAdapter.java:1599 -->
-    <string name="string_problem_with_transformation">ongelma transformoitumisen kanssa</string>
-    <!-- Used in file PointActivity.java:205 -->
-    <string name="string_h_rms_">H.RMS:</string>
-    <!-- Used in file PointActivity.java:313 -->
-    <string name="string_point_name_is_empty_">Pisteen nimikenttä on tyhjä!</string>
-    <!-- Used in file IdenticalPointsActivity.java:311 -->
-    <string name="string_delete_points__s">Poista pisteet %s</string>
-    <!-- Used in file PointActivity.java:203 -->
-    <string name="string_solution_">Ratkaisu:</string>
-    <!-- Used in file identical_points.xml:25 -->
-    <string name="action_delete_localization">Poista paikallistaminen</string>
-    <!-- Used in file JobActivity.java:392 -->
-    <string name="string_no_localization">Ei paikallistamista</string>
-    <!-- Used in file CoordinateSystemsActivity.java:193 -->
-    <string name="string_delete__1_d_filtered_cses__of__2_d_">Poista %1$d suodatetut CSes (of %2$d)</string>
-    <!-- Used in file activity_job.xml:70 -->
-    <string name="job_organization">Järjestys</string>
-    <!-- Used in file PointActivity.java:204 -->
-    <string name="string_epochs">epokit</string>
-    <!-- Used in file TSPointsActivity.java:290 -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">Poista %1$d valitut pisteet (of %2$d)</string>
-    <!-- Used in file SelectPoint2Activity.java:127 -->
-    <string name="string_design_points">Suunnittelupisteet</string>
-    <!-- Used in file IdenticalPointListAdapter.java:1597 -->
-    <string name="string_nothing_to_compute">Ei laskettavaa</string>
-    <!-- Used in file IdenticalPointListAdapter.java:183 -->
-    <string name="string_height_offset">h offset</string>
-    <!-- Used in file CoordinateSystemsActivity.java:179 -->
-    <string name="string_select_cs">Valitse CS</string>
-    <!-- Used in file activity_point_antenna.xml:75 -->
-    <string name="height_vertical">Pystysuuntainen</string>
-    <!-- Used in file UserCSPreferenceFragment.java:231 -->
-    <string name="string_datum_">Tieto:</string>
-    <!-- Used in file TSPointsActivity.java:84 -->
-    <string name="string_check_all">Tarkista kaikki</string>
-    <!-- Used in file activity_point_antenna.xml:28 -->
-    <string name="antenna_type">Antennin tyyppi</string>
-    <!-- Used in file IdenticalPointListAdapter.java:189 -->
-    <string name="string_east_inclination">Itäinen kaltevuus</string>
-    <!-- Used in file CSListActivity.java:129 -->
-    <string name="string_can_t_read_coordinate_system_from_the_receiver_">Koordinaattilaitteistoa ei voida lukea vastaanottimesta!</string>
-    <!-- Used in file activity_audio_recording.xml:24 -->
-    <string name="button_record_audio">Ennätys</string>
-    <!-- Used in file PointActivity.java:315 -->
-    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Pisteen nimi on liian pitkä!\nRajoita pituus 40 merkkiin</string>
-    <!-- Used in file SetupLocalizationParametersActivity.java:124 -->
-    <string name="string_center">Keskusta</string>
-    <!-- Used in file TSPointsActivity.java:275 -->
-    <string name="string_delete_point__s">Poista piste %s</string>
-    <!-- Used in file ts_points.xml:5 -->
-    <string name="action_map">Kartta</string>
-    <!-- Used in file UserCSPreferenceFragment.java:71 -->
-    <string name="string_push_to_choose_from_list">Paina valitaksesi listasta</string>
-    <!-- Used in file SurveyPointListAdapter.java:146 -->
-    <string name="string_hrms_">HRMS:</string>
-    <!-- Used in file TSPointsActivity.java:357 -->
-    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Piste %1$s on onnistuneesti lisätty pisteluetteloon %2$s</string>
-    <!-- Used in file CSListActivity.java:130 -->
-    <string name="string_error">Virhe</string>
-    <!-- Used in file PointAntennaActivity.java:108 -->
-    <string name="string_antenna_id_is_not_selected_">Antennin Id:tä ei ole valittu!</string>
-    <!-- Used in file PointActivity.java:207 -->
-    <string name="string_sats_">Sats:</string>
-    <!-- Used in file list_identical_point.xml:37 -->
-    <string name="design_point">Suunnittelupiste</string>
-    <!-- Used in file JobActivity.java:359 -->
-    <string name="string_job__s_already_exists_">Työ %s on jo olemassa!</string>
-    <!-- Used in file CoordinateSystemsActivity.java:135 -->
-    <string name="string_cs">CS</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:113 -->
-    <string name="string_origin">Alkuperä</string>
-    <!-- Used in file PointAntennaActivity.java:114 -->
-    <string name="string_wrong_antenna_height_">Väärä antennin korkeus!</string>
-    <!-- Used in file activity_select_point.xml:22 -->
-    <string name="data_source">Tietolähde</string>
-    <!-- Used in file activity_point.xml:30 -->
-    <string name="point_name">Nimi</string>
-    <!-- Used in file PointsActivity.java:69 -->
-    <string name="string_exportdxf">ExportDxf</string>
-    <!-- Used in file DesignPointsActivity.java:321 -->
-    <string name="string_no_points_to_delete_">Ei ole pisteitä mitä poistaa!</string>
-    <!-- Used in file JobActivity.java:406 -->
-    <string name="string_scale___6f">Koko:%.6f</string>
-    <!-- Used in file IdenticalPointsActivity.java:268 -->
-    <string name="string_identical_point">Identtinen piste</string>
-    <!-- Used in file UserCSPreferenceFragment.java:87 -->
-    <string name="string_name_">Nimi:</string>
-    <!-- Used in file activity_point_antenna.xml:80 -->
-    <string name="height_slant">Rinne</string>
-    <!-- Used in file activity_point.xml:144 -->
-    <string name="height">Korkeus</string>
-    <!-- Used in file activity_point.xml:51 -->
-    <string name="description">Kuvaus</string>
-    <!-- Used in file PointAntennaActivity.java:118 -->
-    <string name="string_wrong_slant_height_">Väärä rinteen korkeus!</string>
-    <!-- Used in file user_cs.xml:13 -->
-    <string name="category_datum">Tieto</string>
-    <!-- Used in file IdenticalPointListAdapter.java:186 -->
-    <string name="string_north_inclination">Pohjoinen kaltevuus</string>
-    <!-- Used in file activity_identical_points.xml:57 -->
-    <string name="string_type">Tyyppi</string>
-    <!-- Used in file IdenticalPointsActivity.java:101 -->
-    <string name="string_delete_localization">Poista paikallistaminen</string>
-    <!-- Used in file DesignPointsActivity.java:209 -->
-    <string name="string_add_new_point">Lisää uusi piste</string>
-    <!-- Used in file list_points.xml:93 -->
-    <string name="string_descriptionhint">Kuvaus</string>
-    <!-- Used in file IdenticalPointListAdapter.java:1598 -->
-    <string name="string_something_wrong_with_params">Jotakin vikana parametreissä</string>
-    <!-- Used in file activity_job.xml:133 -->
-    <string name="localization">Paikallistaminen</string>
-    <!-- Used in file IdenticalPointsActivity.java:119 -->
-    <string name="string_can_t_delete_the_localization_">Paikallistamista ei voida poistaa!</string>
-    <!-- Used in file activity_point.xml:72 -->
-    <string name="code">Koodi</string>
-    <!-- Used in file points.xml:20 -->
-    <string name="action_calendar">Kalenteri</string>
-    <!-- Used in file PointActivity.java:175 -->
-    <string name="string_vert_">Pysty</string>
-    <!-- Used in file TSPointsActivity.java:359 -->
-    <string name="string_can_t_add_point__s_to_catalog_">Ei voida lisätä pistettä %s pisteluetteloon!</string>
-    <!-- Used in file CoordinateSystemsActivity.java:182 -->
-    <string name="string_view_cs_info">Näytä CS Info</string>
-    <!-- Used in file JobActivity.java:412 -->
-    <string name="string_dn___3f">dN:%.3f</string>
-    <!-- Used in file IdenticalPointsActivity.java:108 -->
-    <string name="string_can_t_delete_localization">Paikallistamista ei voida poistaa</string>
-    <!-- Used in file CoordinateSystemsActivity.java:187 -->
-    <string name="string_delete_cs__s">Poista CS %s</string>
-    <!-- Used in file PointActivity.java:204 -->
-    <string name="string_occ_time_">Kulunut aika:</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">Varastotila</string>
-    <!-- Used in file design_points.xml:39 -->
-    <string name="string_import">Import</string>
-    <!-- Used in file TSPointsActivity.java:72 -->
-    <string name="string_time">Aika</string>
-    <!-- Used in file JobsActivity.java:700 -->
-    <string name="string_job">Työ</string>
-    <!-- Used in file list_points.xml:66 -->
-    <string name="string_codehint">Koodi</string>
-    <!-- Used in file CoordinateSystemsActivity.java:199 -->
-    <string name="string_delete__1_d_selected_cses__of__2_d_">Poista %1$d valitut CSes (of %2$d)</string>
-    <!-- Used in file PointActivity.java:322 -->
-    <string name="string_point__s_already_exists_">Piste %s on jo olemassa!</string>
-    <!-- Used in file IdenticalPointsActivity.java:128 -->
-    <string name="string_localization_was_changed_and_not_saved_">Lokalisaatio on vaihdettu ja sitä ei tallennettu!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:400 -->
-    <string name="button_cancel">Peruuta</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:127 -->
-    <string name="string_5">5</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:125 -->
-    <string name="string_4">4</string>
-    <!-- Used in file UserCSPreferenceFragment.java:418 -->
-    <string name="string_ellipsoidal_height">Elliptinen korkeus</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:123 -->
-    <string name="string_3">3</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:121 -->
-    <string name="string_2">2</string>
-    <!-- Used in file TSPointsActivity.java:278 -->
-    <string name="string_view_on_map">Näkymä kartalla</string>
-    <!-- Used in file JobsActivity.java:426 -->
-    <string name="string_edit_job">Muokkaa työtä</string>
-    <!-- Used in file PointsActivity.java:322 -->
-    <string name="string_delete__1_s__2_s">Poista %1$s %2$s</string>
-    <!-- Used in file JobActivity.java:418 -->
-    <string name="string_ah___3f">AH:%.3f</string>
-    <!-- Used in file PointActivity.java:211 -->
-    <string name="string_time_">Aika:</string>
-    <!-- Used in file JobActivity.java:430 -->
-    <string name="string_vrms___3f">VRMS:%.3f</string>
-    <!-- Used in file PointsActivity.java:262 -->
-    <string name="string_point">piste</string>
-    <!-- Used in file TSPointsActivity.java:297 -->
-    <string name="string_add_to_catalog__s">Lisää pisteluetteloon %s</string>
-    <!-- Used in file IdenticalPointListAdapter.java:180 -->
-    <string name="string_east_ground">Itäinen piste</string>
-    <!-- Used in file IdenticalPointsActivity.java:127 -->
-    <string name="string_localization_changed">Paikallistaminen vaihtunut</string>
-    <!-- Used in file IdenticalPointListAdapter.java:195 -->
-    <string name="string_longitude_origin">Korkeusaste alkup.</string>
-    <!-- Used in file SelectPoint2Activity.java:120 -->
-    <string name="string_surveyed_points">Mitatut pisteet</string>
-    <!-- Used in file DesignPointsActivity.java:338 -->
-    <string name="string_all__s_were_deleted">Kaikki %s on poistettu</string>
-    <!-- Used in file user_cs.xml:73 -->
-    <string name="string_datum_scale_difference">Kokoero, ppm</string>
-    <!-- Used in file TSPointsActivity.java:284 -->
-    <string name="string_delete__1_d_filtered_points__of__2_d_">Poista %1$d suodatetut pisteet (of %2$d)</string>
-    <!-- Used in file DxfExportPreferenceFragment.java:106 -->
-    <string name="string_export_failed">Export epäonnistui</string>
-    <!-- Used in file JobActivity.java:349 -->
-    <string name="string_job_name_is_empty_">Työn nimikenttä on tyhjä!</string>
-    <!-- Used in file JobsActivity.java:428 -->
-    <string name="string_delete_job">Poista työ</string>
-    <!-- Used in file ts_points.xml:15 -->
-    <string name="action_sort">Järjestä</string>
-    <!-- Used in file activity_job.xml:177 -->
-    <string name="write_to_text_files">Kirjoita tekstitiedostoihin</string>
-    <!-- Used in file TSPointsActivity.java:240 -->
-    <string name="string_ts_points">TS Pisteet</string>
-    <!-- Used in file JobActivity.java:424 -->
-    <string name="string_ch___3f">CH:%.3f</string>
-    <!-- Used in file activity_identical_points.xml:48 -->
-    <string name="string_survey">Mittaus</string>
-    <!-- Used in file TSPointsActivity.java:300 -->
-    <string name="string_close">Sulje</string>
-    <!-- Used in file activity_job.xml:163 -->
-    <string name="measure_units">Mittaa yksiköt</string>
-    <!-- Used in file list_identical_point.xml:145 -->
-    <string name="identical_point_type">Identtinen pistetyyppi</string>
-    <!-- Used in file activity_audio_recording.xml:14 -->
-    <string name="button_play_audio">Soita</string>
-    <!-- Used in file SelectPoint2Activity.java:421 -->
-    <string name="string_select_point__s">Valitse piste %s</string>
-    <!-- Used in file activity_identical_points.xml:39 -->
-    <string name="string_design">Suunnittelu</string>
-    <!-- Used in file TSPointsActivity.java:44 -->
-    <string name="string_export">Export</string>
-    <!-- Used in file IdenticalPointsActivity.java:129 -->
-    <string name="string_return_and_lost">Palannut ja kadonnut</string>
-    <!-- Used in file JobActivity.java:163 -->
-    <string name="string_the_job_is_empty">Työ on tyhjä</string>
-    <!-- Used in file IdenticalPointListAdapter.java:177 -->
-    <string name="string_north_ground">Pohjoinen piste</string>
-    <!-- Used in file JobActivity.java:166 -->
-    <string name="string__d_points_in_the_job">%d pistettä työssä</string>
-    <!-- Used in file user_cs.xml:6 -->
-    <string name="category_projection">Projektio</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:410 -->
-    <string name="button_apply">Aseta</string>
-    <!-- Used in file activity_point_antenna.xml:92 -->
+    <!-- Used in file jobs.xml:45. Original value:Archieve Folder    -->
+    <string name="action_arhieve_folder">Archieve Folder</string>
+    <!-- Used in file activity_point_antenna.xml:107. Original value:Recalculate    -->
     <string name="button_recalculaye">Uudelleenlaske</string>
-    <!-- Used in file JobsActivity.java:705 -->
-    <string name="string_jobs">työt</string>
-    <!-- Used in file PointActivity.java:222 -->
-    <string name="string_base_dist_">Tukiasema etäisyys:</string>
-    <!-- Used in file DesignPointsActivity.java:329 -->
-    <string name="string_do_you_want_to_delete_all__1_d__2_s_">Haluatko poistaa kaikki %1$d %2$s?</string>
-    <!-- Used in file DesignPointsActivity.java:327 -->
-    <string name="string_delete_all__s">Poista kaikki %s</string>
-    <!-- Used in file CoordinateSystemsActivity.java:140 -->
-    <string name="string_cses">CSes</string>
-    <!-- Used in file JobActivity.java:409 -->
-    <string name="string_rotation__s">Rotaatio:%s</string>
-    <!-- Used in file JobActivity.java:415 -->
-    <string name="string_de___3f">dE:%.3f</string>
-    <!-- Used in file design_points.xml:36 -->
-    <string name="action_delete_all">Poista kaikki suunnittelu</string>
-    <!-- Used in file IdenticalPointsActivity.java:100 -->
-    <string name="string_do_you_want_to_delete_localization_">Haluatko poistaa lokalisaation?</string>
-    <!-- Used in file JobActivity.java:427 -->
-    <string name="string_hrms___3f">HRMS:%.3f</string>
-    <!-- Used in file UserCSPreferenceFragment.java:394 -->
-    <string name="string_user_to_wgs84">Käyttäjä WGS84:jään</string>
-    <!-- Used in file IdenticalPointListAdapter.java:1600 -->
-    <string name="string_points_are_to_close_each_other">pisteet ovat lähellä toisiaan</string>
-    <!-- Used in file TSPointsActivity.java:235 -->
-    <string name="string_ts_point">TS piste</string>
-    <!-- Used in file activity_point.xml:211 -->
-    <string name="survey_info">Mittausinfo:\n\n</string>
-    <!-- Used in file activity_ts_points.xml:15 -->
-    <string name="search_hint">Etsi</string>
-    <!-- Used in file SelectPoint2Activity.java:146 -->
-    <string name="string_all_points">Kaikki pisteet</string>
-    <!-- Used in file JobActivity.java:421 -->
-    <string name="string_bh___3f">BH:%.3f</string>
-    <!-- Used in file IdenticalPointListAdapter.java:173 -->
-    <string name="string_scale">Koko</string>
-    <!-- Used in file activity_point.xml:178 -->
-    <string name="coordinate_system">Koordinaattilaitteisto</string>
-    <!-- Used in file IdenticalPointsActivity.java:128 -->
-    <string name="string_returning_back_losts_your_changes_">Palaamalla takaisin menetät tehdyt muutokset..</string>
-    <!-- Used in file IdenticalPointsActivity.java:82 -->
-    <string name="string_can_t_show_the_settings_">Asetuksia ei voida näyttää!</string>
-    <!-- Used in file JobsActivity.java:424 -->
-    <string name="string_select_job">Valitse työ</string>
-    <!-- Used in file PointActivity.java:206 -->
-    <string name="string_v_rms_">V.RMS:</string>
-    <!-- Used in file JobActivity.java:437 -->
-    <string name="string_no_identical_points">ei identtisiä pisteitä</string>
-    <!-- Used in file JobActivity.java:351 -->
-    <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Työn nimi on liian pitkä! Rajoita nimen pituus 40 merkkiin</string>
-    <!-- Used in file activity_audio_recording.xml:34 -->
-    <string name="button_stop_audio">Pysäytä</string>
-    <!-- Used in file UserCSPreferenceFragment.java:394 -->
-    <string name="string_wgs84_to_user">WGS84 käyttäjälle </string>
-    <!-- Used in file activity_point_antenna.xml:65 -->
-    <string name="height_type">Korkeustyypi</string>
-    <!-- Used in file activity_point.xml:93 -->
-    <string name="north">Pohjoinen</string>
-    <!-- Used in file user_cs.xml:65 -->
-    <string name="string_datum_rz">RZ, sec</string>
-    <!-- Used in file user_cs.xml:49 -->
-    <string name="string_datum_rx">RX, sec</string>
-    <!-- Used in file SelectPoint2Activity.java:121 -->
-    <string name="string_rtk_bases">RTK tukiasemat</string>
-    <!-- Used in file user_cs.xml:57 -->
-    <string name="string_datum_ry">RY, sec</string>
-    <!-- Used in file jobs.xml:5 -->
-    <string name="action_add">Lisää</string>
-    <!-- Used in file PointActivity.java:222 -->
-    <string name="string_base_">Tukiasema:</string>
-    <!-- Used in file IdenticalPointListAdapter.java:170 -->
-    <string name="string_rotation">Rotaatio</string>
-    <!-- Used in file activity_point.xml:119 -->
-    <string name="east">Itä</string>
-    <!-- Used in file activity_job.xml:50 -->
+    <!-- Used in file points_from_survey.xml:36. Original value:Contouring    -->
+    <string name="action_contouring">Contouring</string>
+    <!-- Used in file activity_archieve_folder.xml:54. Original value:Authorize Dropbox    -->
+    <string name="button_authorize_dropbox">Authorize Dropbox</string>
+    <!-- Used in file activity_rtkbase.xml:115. Original value:Height    -->
+    <string name="height">Korkeus</string>
+    <!-- Used in file activity_job.xml:70. Original value:Organization    -->
+    <string name="job_organization">Järjestys</string>
+    <!-- Used in file activity_archieve_folder.xml:85. Original value:Sync Jobs with GoogleDrive    -->
+    <string name="button_sync_jobs_googledrive">Sync Jobs with GoogleDrive</string>
+    <!-- Used in file activity_job.xml:50. Original value:Surveyor    -->
     <string name="job_surveyor">Mittaaja</string>
-    <!-- Used in file IdenticalPointsActivity.java:273 -->
-    <string name="string_identical_points">Identtiset pisteet</string>
-    <!-- Used in file IdenticalPointsActivity.java:39 -->
-    <string name="string_save">Tallenna</string>
-    <!-- Used in file SurveyPointListAdapter.java:151 -->
-    <string name="string_slant">vinomitta</string>
-    <!-- Used in file DesignPointsActivity.java:332 -->
-    <string name="string_delete">Poista</string>
-    <!-- Used in file UserCSPreferenceFragment.java:217 -->
-    <string name="string_ellipsoid_">Ellipsoidi:</string>
-    <!-- Used in file user_cs.xml:33 -->
-    <string name="string_datum_dy">DY, m</string>
-    <!-- Used in file user_cs.xml:25 -->
-    <string name="string_datum_dx">DX, m</string>
-    <!-- Used in file identical_points.xml:20 -->
-    <string name="action_parameters">Määäritä</string>
-    <!-- Used in file activity_point.xml:198 -->
+    <!-- Used in file activity_job.xml:90. Original value:Comment    -->
+    <string name="job_comment">Comment</string>
+    <!-- Used in file TSPointsActivity.java:77. Original value:Comment    -->
+    <string name="string_comment_sort">Comment</string>
+    <!-- Used in file activity_archieve_folder.xml:49. Original value:Archieve to Dropbox    -->
+    <string name="archive_dropbox">Archieve to Dropbox</string>
+    <!-- Used in file activity_archieve_folder.xml:25. Original value:Auto Archieve Jobs to Folder    -->
+    <string name="check_archieve_folder">Auto Archieve Jobs to Folder</string>
+    <!-- Used in file activity_rtkbase.xml:184. Original value:Antenna    -->
     <string name="button_antenna">Antenni</string>
-    <!-- Used in file activity_job.xml:30 -->
+    <!-- Used in file activity_rtkbase.xml:136. Original value:Ref.Frame    -->
+    <string name="string_reference_frame">Ref.Frame</string>
+    <!-- Used in file ts_points.xml:15. Original value:Sort    -->
+    <string name="action_sort">Järjestä</string>
+    <!-- Used in file activity_archieve_folder.xml:62. Original value:Sync Jobs with Dropbox    -->
+    <string name="button_sync_jobs_dropbox">Sync Jobs with Dropbox</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:storage    -->
+    <string name="app_name">Varastotila</string>
+    <!-- Used in file activity_job.xml:30. Original value:Name    -->
     <string name="job_name">Nimi</string>
-    <!-- Used in file user_cs.xml:41 -->
-    <string name="string_datum_dz">DZ, m</string>
-    <!-- Used in file CSListActivity.java:131 -->
-    <string name="string_cancel">Peruuta</string>
-    <!-- Used in file IdenticalPointListAdapter.java:192 -->
-    <string name="string_latitude_origin">Leveysaste alkup.</string>
-    <!-- Used in file PointsActivity.java:335 -->
-    <string name="string_listen_audio">Kuuntele ääni</string>
-    <!-- Used in file ts_points.xml:20 -->
+    <!-- Used in file rtkbases.xml:22. Original value:Calendar    -->
+    <string name="action_calendar">Kalenteri</string>
+    <!-- Used in file ts_points.xml:20. Original value:Delete    -->
     <string name="action_delete">Poista</string>
-    <!-- Used in file SurveyPointListAdapter.java:148 -->
-    <string name="string_trajectory">lentorata</string>
-
-    
-<string-array name="coordinate_system_array">
-    <item>WGS 84</item>
-    <item>Paikallinen</item>
-</string-array>
-
-<string-array name="measure_units_array">
-    <item>Metriä</item>
-    <item>US Jalka</item>
-    <item>Jalkaa</item>
-</string-array>
-
-<string-array name="identical_point_types_array">
-    <item>H+V</item>
-    <item>Vain H</item>
-    <item>Vain V</item>
-    <item>Tarkasta</item>
-    <item>Pois</item>
-</string-array>
+    <!-- Used in file RTKBasesActivity.java:89. Original value:Process    -->
+    <string name="string_dpos_sort">Process</string>
+    <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
+    <string name="height_vertical">Pystysuuntainen</string>
+    <!-- Used in file activity_rtkbase.xml:30. Original value:Name    -->
+    <string name="point_name">Nimi</string>
+    <!-- Used in file activity_rtkbase.xml:197. Original value:Jps file    -->
+    <string name="string_filename_xml">Jps file</string>
+    <!-- Used in file activity_point.xml:51. Original value:Descr.    -->
+    <string name="description">Kuvaus</string>
+    <!-- Used in file activity_archieve_folder.xml:18. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
+    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <!-- Used in file JobActivity.java:87. Original value:New Job    -->
+    <string name="string_new_job">New Job</string>
+    <!-- Used in file TSPointsActivity.java:76. Original value:Code    -->
+    <string name="string_code_sort">Code</string>
+    <!-- Used in file activity_job.xml:180. Original value:Measure Units    -->
+    <string name="measure_units">Mittaa yksiköt</string>
+    <!-- Used in file design_points.xml:41. Original value:Delete All Design    -->
+    <string name="action_delete_all">Poista kaikki suunnittelu</string>
+    <!-- Used in file activity_job.xml:192. Original value:Write to text files    -->
+    <string name="write_to_text_files">Kirjoita tekstitiedostoihin</string>
+    <!-- Used in file RTKBasesActivity.java:88. Original value:Filename    -->
+    <string name="string_filename_sort">Filename</string>
+    <!-- Used in file activity_point_antenna.xml:28. Original value:Antenna Type    -->
+    <string name="antenna_type">Antennin tyyppi</string>
+    <!-- Used in file activity_job.xml:151. Original value:Localization    -->
+    <string name="localization">Paikallistaminen</string>
+    <!-- Used in file RTKBasesActivity.java:86. Original value:Id    -->
+    <string name="string_id_sort">Id</string>
+    <!-- Used in file activity_rtkbase.xml:250. Original value:Modify    -->
+    <string name="button_modify">Modify</string>
+    <!-- Used in file points_from_survey.xml:40. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Zoom All</string>
+    <!-- Used in file list_points.xml:93. Original value:Description    -->
+    <string name="string_descriptionhint">Kuvaus</string>
+    <!-- Used in file TSPointsActivity.java:75. Original value:Time    -->
+    <string name="string_time_sort">Time</string>
+    <!-- Used in file ts_points.xml:10. Original value:Search    -->
+    <string name="action_search">Etsi</string>
+    <!-- Used in file activity_point_antenna.xml:64. Original value:Height Type    -->
+    <string name="height_type">Korkeustyypi</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:104. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
+    <!-- Used in file activity_point.xml:196. Original value:Wgs84    -->
+    <string name="coordinate_wgs84">Wgs84</string>
+    <!-- Used in file JobActivity.java:89. Original value:Duplicate Job    -->
+    <string name="string_duplicate_job_xml">Duplicate Job</string>
+    <!-- Used in file activity_point.xml:241. Original value:SurveyInfo:\n\n    -->
+    <string name="survey_info">Mittausinfo:\n\n</string>
+    <!-- Used in file activity_rtkbase.xml:72. Original value:North    -->
+    <string name="north">Pohjoinen</string>
+    <!-- Used in file activity_archieve_folder.xml:72. Original value:Archieve GoogleDrive    -->
+    <string name="archive_googledrive">Archieve GoogleDrive</string>
+    <!-- Used in file JobActivity.java:91. Original value:Edit Job    -->
+    <string name="string_edit_job_xml">Muokkaa työtä</string>
+    <!-- Used in file activity_ts_points.xml:15. Original value:Search    -->
+    <string name="search_hint">Etsi</string>
+    <!-- Used in file activity_job.xml:211. Original value:Show antenna vertical offset    -->
+    <string name="show_antenna_offsets">Show antenna vertical offset</string>
+    <!-- Used in file jobs.xml:5. Original value:Add    -->
+    <string name="action_add">Lisää</string>
+    <!-- Used in file jobs.xml:40. Original value:Receive    -->
+    <string name="action_receive">Receive</string>
+    <!-- Used in file activity_point_antenna.xml:44. Original value:Antenna Height    -->
+    <string name="antenna_height_storage">Antenna Height</string>
+    <!-- Used in file activity_rtkbase.xml:241. Original value:Restore    -->
+    <string name="button_reset_vb_rtk">Restore</string>
+    <!-- Used in file jobs.xml:35. Original value:Import    -->
+    <string name="action_import">Import</string>
+    <!-- Used in file activity_rtkbase.xml:51. Original value:Base Id    -->
+    <string name="string_base_id">Base Id</string>
+    <!-- Used in file activity_point_antenna.xml:79. Original value:Slant    -->
+    <string name="height_slant">Rinne</string>
+    <!-- Used in file activity_archieve_folder.xml:37. Original value:Select folder    -->
+    <string name="button_select_folder">Select folder</string>
+    <!-- Used in file activity_point.xml:210. Original value:VRS(NEH)    -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file list_points.xml:66. Original value:Code    -->
+    <string name="string_codehint">Koodi</string>
+    <!-- Used in file ts_points.xml:5. Original value:Map    -->
+    <string name="action_map">Kartta</string>
+    <!-- Used in file activity_rtkbase.xml:164. Original value:Coordinate System    -->
+    <string name="coordinate_system">Koordinaattilaitteisto</string>
+    <!-- Used in file TSPointsActivity.java:73. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_point.xml:72. Original value:Code    -->
+    <string name="code">Koodi</string>
+    <!-- Used in file activity_point_antenna.xml:88. Original value:Vertical Offset    -->
+    <string name="antenna_vertical_offset">Vertical Offset</string>
+    <!-- Used in file activity_rtkbase.xml:94. Original value:East    -->
+    <string name="east">Itä</string>
+    <!-- Used in file activity_archieve_folder.xml:77. Original value:Authorize GoogleDrive    -->
+    <string name="button_authorize_googledrive">Authorize GoogleDrive</string>
+    <!-- Used in file activity_point.xml:203. Original value:Origin    -->
+    <string name="coordinate_origin">Origin</string>
 
 </resources>

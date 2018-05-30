@@ -1,177 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Used in file OAFUpdateActivity.java:352. Original value:Installing&#8230; -->
-    <string name="string_installing___">Yükleniyor…</string>
-    <!-- Used in file OAFUpdateActivity.java:352. Original value:OAF downloaded. -->
-    <string name="string_oaf_downloaded_">OAF İndirildi.</string>
-    <!-- Used in file ResetFragment.java:414. Original value:Restore receiver settings -->
-    <string name="string_restore_receiver_settings">Alıcı Ayarlarını Yenile</string>
-    <!-- Used in file ResetFragment.java:139. Original value:Receiver reset -->
-    <string name="string_receiver_reset">Alıcı Reset</string>
-    <!-- Used in file ResetFragment.java:309. Original value:Receiver settings successfully saved to file %s -->
-    <string name="string_receiver_settings_successfully_saved_to_file__s">Alıcı ayarları dosyaya saklandı %s</string>
-    <!-- Used in file ResetFragment.java:134. Original value:This will turn it off and on -->
-    <string name="string_this_will_turn_it_off_and_on">Bu işlem Kapatacak ve Açacak</string>
-    <!-- Used in file OAFUpdateActivity.java:271. Original value:Option update error! -->
-    <string name="string_option_update_error_">OAF Güncelleme Hatası!</string>
-    <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK -->
-    <string name="reset_rtk">RTK Reset</string>
-    <!-- Used in file ResetFragment.java:60. Original value:Cleared NVRAM! -->
-    <string name="string_cleared_nvram_">NVRAM Temizlendi!</string>
-    <!-- Used in file ResetFragment.java:160. Original value:Do you want to reset RTK? -->
-    <string name="string_do_you_want_to_reset_rtk_">RTK Resetlensin mi?</string>
-    <!-- Used in file activity_update_oaf.xml:27. Original value:Update from File -->
-    <string name="update_from_file">Dosyadan Güncelle</string>
-    <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution -->
-    <string name="reset_rtk_summary">Fix Çözüm için RTK Kapatın ve Tekrar Açın</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters -->
-    <string name="init_parameters">Parametreler init</string>
-    <!-- Used in file OAFUpdateActivity.java:246. Original value:The file is corrupted or not a correct option OAF file! -->
-    <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Dosya bozuk veya doğru OAF dosyası değil!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:543. Original value:Restarting&#8230; -->
-    <string name="string_restarting___">Tekrar Başlatıyor…</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings -->
-    <string name="save_settings">Alıcı Ayarlarını Sakla</string>
-    <!-- Used in file FirmwareUpdateActivity.java:145. Original value:Latest Firmware version on site is %1$s %2$s -->
-    <string name="string_latest_firmware_version_on_site_is__1_s__2_s">WEB deki En Güncel Sürüm %1$s %2$s</string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file -->
-    <string name="restore_settings_summary">Tüm Alıcı ayarlarını Yaralananla değiştir</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339. Original value:Firmware update error! -->
-    <string name="string_firmware_update_error_">Firmware güncelleme Hatası!</string>
-    <!-- Used in file ResetFragment.java:159. Original value:Reset RTK -->
-    <string name="string_reset_rtk">RTK Reset</string>
-    <!-- Used in file ResetFragment.java:113. Original value:File System Cleared! -->
-    <string name="string_file_system_cleared_">Dosya Sistemi Temizlendi!</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values -->
-    <string name="clear_nvram_summary">Alıcının Tüm Ayar ve Değerlerini temizle</string>
-    <!-- Used in file ResetFragment.java:165. Original value:RTK reset! -->
-    <string name="string_rtk_reset_">RTK Reset!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:143. Original value:Receiver Firmware version is %s -->
-    <string name="string_receiver_firmware_version_is__s">Alıcı Firmware Versionu %s</string>
-    <!-- Used in file ResetFragment.java:160. Original value:This will drop RTK solution -->
-    <string name="string_this_will_drop_rtk_solution">RTK Bağlantısı kesilecektir</string>
-    <!-- Used in file ResetFragment.java:439. Original value:Can\'t open template! -->
-    <string name="string_can_t_open_template_">Tablo Açılamaz!</string>
-    <!-- Used in file ResetFragment.java:108. Original value:This will delete all receiver jps files. -->
-    <string name="string_this_will_delete_all_receiver_jps_files_">Tüm alıcı jps dosyalarını silecek.</string>
-    <!-- Used in file ResetFragment.java:468. Original value:The file is for different board (%s)! -->
-    <string name="string_the_file_is_for_different_board___s__">Dosyalar Farklı Board içindir (%s)!</string>
-    <!-- Used in file FirmwareUpdateActivity.java:361. Original value:Unpacking&#8230; -->
-    <string name="string_unpacking___">PaketAçılıyor…</string>
-    <!-- Used in file ResetFragment.java:134. Original value:Do you want to reset receiver? -->
-    <string name="string_do_you_want_to_reset_receiver_">Alıcı Resetlenecek Eminmisiniz?</string>
-    <!-- Used in file ResetFragment.java:87. Original value:Init Parameters! -->
-    <string name="string_init_parameters_">İnit.Parametreler!</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web -->
-    <string name="update_firmware_summary">Alıcı Firm.Dosyadan veya Web den güncelle</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM -->
-    <string name="clear_nvram">NVRAM Temizle</string>
-    <!-- Used in file OAFUpdateActivity.java:395. Original value:OAF Update -->
-    <string name="string_oaf_update">OAF Güncelle</string>
-    <!-- Used in file FirmwareUpdateActivity.java:492. Original value:firmware loader -->
-    <string name="string_firmware_loader">Firmware Yükleme</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware -->
-    <string name="update_firmware">Firmware Güncelle</string>
-    <!-- Used in file ResetFragment.java:278. Original value:Saving setting&#8230; -->
-    <string name="string_saving_setting___">Ayarları Saklıyor…</string>
-    <!-- Used in file ResetFragment.java:81. Original value:Init Parameters -->
-    <string name="string_init_parameters">Parametreleri Sil</string>
-    <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet -->
-    <string name="update_from_internet">İnternet den Güncelle</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file -->
-    <string name="save_settings_summary">Alıcı ayarlarını TXT Dosyada Sakla</string>
-    <!-- Used in file FirmwareUpdateActivity.java:504. Original value:Uploading %s &#8230; -->
-    <string name="string_uploading__s____">Yüklüyor %s …</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values -->
-    <string name="init_parameters_summary">Alıcı ayarlarının tümünü Fabrikasyon değerlere getirin</string>
-    <!-- Used in file OAFUpdateActivity.java:403. Original value:Close -->
-    <string name="string_close">Kapat</string>
-    <!-- Used in file OAFUpdateActivity.java:155. Original value:Options are permanent -->
-    <string name="string_options_are_permanent">OAF Kalıcıdır</string>
-    <!-- Used in file activity_update_firmware.xml:37. Original value:Update from Internet to Stable -->
+
+    <!-- Used in file activity_update_firmware.xml:37. Original value:Update from Internet to Stable    -->
     <string name="update_from_internet_stable">İnternetde Stabil Olanla Güncelle</string>
-    <!-- Used in file ResetFragment.java:82. Original value:Do you want to init receiver parameters? -->
-    <string name="string_do_you_want_to_init_receiver_parameters_">Alıcı Parametreleri temizlensinmi?</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web -->
+    <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web    -->
     <string name="update_oaf_summary">Alıcı OAF ları Webden veya Dosyadan güncelle</string>
-    <!-- Used in file ResetActivity.java:96. Original value:Connected to receiver -->
-    <string name="string_connected_to_receiver">Alıcıya Bağlandı</string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings -->
-    <string name="restore_settings">Alıcı Ayarları Yenileniyor</string>
-    <!-- Used in file ResetFragment.java:107. Original value:Clear File System -->
-    <string name="string_clear_file_system">Dosya Sistemini Temizle</string>
-    <!-- Used in file OAFUpdateActivity.java:220. Original value:Checking OAF&#8230; -->
-    <string name="string_checking_oaf___">OAF Kontrol…</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:update -->
-    <string name="app_name">Güncelle</string>
-    <!-- Used in file ResetFragment.java:82. Original value:This will reset all parameters to default values. -->
-    <string name="string_this_will_reset_all_parameters_to_default_values_">Tüm değerleri Fabrikasyon ayarla.</string>
-    <!-- Used in file FirmwareUpdateActivity.java:339. Original value:Firmware have successfully updated -->
-    <string name="string_firmware_have_successfully_updated">Firmware Güncellendi</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver -->
-    <string name="reset_receiver_summary">Alıcıyı Aç - Kapat</string>
-    <!-- Used in file OAFUpdateActivity.java:396. Original value:OAF Update Error -->
-    <string name="string_oaf_update_error">OAF Güncelleme Hatası</string>
-    <!-- Used in file OAFUpdateActivity.java:447. Original value:Please Wait!! -->
-    <string name="string_please_wait__">Lütfen Bekleyin!!</string>
-    <!-- Used in file OAFUpdateActivity.java:151. Original value:Receiver Options Expires on %1$s.\n(After %2$d days) -->
-    <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Alıcı OAF Süresi Geçmiş %1$s.\n(After %2$d gün)</string>
-    <!-- Used in file ResetFragment.java:82. Original value:Reconfiguration of the receiver will required -->
-    <string name="string_reconfiguration_of_the_receiver_will_required">Alıcı Yeniden Yapılandırma Gerekli</string>
-    <!-- Used in file ResetFragment.java:285. Original value:Restoring setting&#8230; -->
-    <string name="string_restoring_setting___">Ayarlar Yenileniyor…</string>
-    <!-- Used in file FirmwareUpdateActivity.java:494. Original value:radio firmware -->
-    <string name="string_radio_firmware">radyo firmware</string>
-    <!-- Used in file OAFUpdateActivity.java:236. Original value:Loading OAF&#8230; -->
-    <string name="string_loading_oaf___">OAF Yüklüyor…</string>
-    <!-- Used in file FirmwareUpdateActivity.java:490. Original value:main firmware -->
-    <string name="string_main_firmware">main firmware</string>
-    <!-- Used in file FirmwareUpdateActivity.java:144. Original value:Stable Firmware version on site is %1$s %2$s -->
-    <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Stabil Firmware %1$s %2$s</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver -->
-    <string name="clear_file_system_summary">Dosya sistemi Temizleme, alıcıdaki tüm jps dosyalarını kaldırır</string>
-    <!-- Used in file ResetFragment.java:54. Original value:Clear NVRAM -->
-    <string name="string_clear_nvram">NVRAM Temizle</string>
-    <!-- Used in file activity_update_oaf.xml:16. Original value:Options are OK -->
-    <string name="oaf_info">OAF Tamam</string>
-    <!-- Used in file ResetFragment.java:133. Original value:Reset Receiver -->
-    <string name="string_reset_receiver">Alıcı Reset</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear File System -->
-    <string name="clear_file_system">Dosya Sistemi Temizle</string>
-    <!-- Used in file OAFUpdateActivity.java:368. Original value:Installed -->
-    <string name="string_installed">Yüklendi</string>
-    <!-- Used in file OAFUpdateActivity.java:368. Original value:CleanNVRAM&#8230; -->
-    <string name="string_cleannvram___">NVRAMTemiz…</string>
-    <!-- Used in file ResetFragment.java:55. Original value:Do you want to Clear NVRAM? -->
-    <string name="string_do_you_want_to_clear_nvram_">NVRAM Temizlensin mi?</string>
-    <!-- Used in file ResetFragment.java:477. Original value:Error in command(s): -->
-    <string name="string_error_in_command_s__">Komut Hatası(s):</string>
-    <!-- Used in file OAFUpdateActivity.java:392. Original value:Receiver was cleared so it may need to be reconfigured -->
-    <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Alıcı temizlendi, yeniden yapılandırılması gerekebilir</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Update OAF -->
-    <string name="update_oaf">OAF Güncelle</string>
-    <!-- Used in file OAFUpdateActivity.java:392. Original value:OAF Successfully Updated. -->
-    <string name="string_oaf_successfully_updated_">OAF Güncellendi.</string>
-    <!-- Used in file ResetFragment.java:108. Original value:Do you want to clear receiver file system? -->
-    <string name="string_do_you_want_to_clear_receiver_file_system_">Alıcı Dosya Sistemi Temizlensin mi?</string>
-    <!-- Used in file ResetFragment.java:139. Original value:Reconnection to receiver&#8230; -->
-    <string name="string_reconnection_to_receiver___">Alıcıya Tekrar Bağlanıyor…</string>
-    <!-- Used in file activity_update_firmware.xml:47. Original value:Update from Internet to Lattest -->
-    <string name="update_from_internet_latest">İnternet den En Günceliyle</string>
-    <!-- Used in file OAFUpdateActivity.java:271. Original value:Options have successfully updated -->
-    <string name="string_options_have_successfully_updated">OAF Güncellendi</string>
-    <!-- Used in file ResetFragment.java:108. Original value:Please check that you have downlaoded all required files -->
-    <string name="string_please_check_that_you_have_downlaoded_all_required_files">Lütfen gerekli tüm dosyaları indirdiğinizden emin olun</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver -->
+    <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file    -->
+    <string name="restore_settings_summary">Tüm Alıcı ayarlarını Yaralananla değiştir</string>
+    <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web    -->
+    <string name="update_firmware_summary">Alıcı Firm.Dosyadan veya Web den güncelle</string>
+    <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver    -->
     <string name="reset_receiver">Alıcı Reset</string>
-    <!-- Used in file ResetFragment.java:415. Original value:Receiver settings successfully restored from file %s -->
-    <string name="string_receiver_settings_successfully_restored_from_file__s">Ayarlar Alıcıdan Başarıyla Alındı %s</string>
-    <!-- Used in file OAFUpdateActivity.java:452. Original value:Cancel -->
-    <string name="string_cancel">İptal</string>
-    <!-- Used in file OAFUpdateActivity.java:153. Original value:Receiver Options have Expired on %1$s.\n(%2$d days ago) -->
-    <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Alıcı OAF Süresi Geçmiş %1$s.\n(%2$d gün önce)</string>
-    <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection -->
+    <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet    -->
+    <string name="update_from_internet">İnternet den Güncelle</string>
+    <!-- Used in file fragment_resets.xml:50. Original value:Update OAF    -->
+    <string name="update_oaf">OAF Güncelle</string>
+    <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM    -->
+    <string name="clear_nvram">NVRAM Temizle</string>
+    <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters    -->
+    <string name="init_parameters">Parametreler init</string>
+    <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver    -->
+    <string name="reset_receiver_summary">Alıcıyı Aç - Kapat</string>
+    <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware    -->
+    <string name="update_firmware">Firmware Güncelle</string>
+    <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver    -->
+    <string name="clear_file_system_summary">Dosya sistemi Temizleme, alıcıdaki tüm jps dosyalarını kaldırır</string>
+    <!-- Used in file activity_update_oaf.xml:27. Original value:Update from File    -->
+    <string name="update_from_file">Dosyadan Güncelle</string>
+    <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings    -->
+    <string name="save_settings">Alıcı Ayarlarını Sakla</string>
+    <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values    -->
+    <string name="clear_nvram_summary">Alıcının Tüm Ayar ve Değerlerini temizle</string>
+    <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK    -->
+    <string name="reset_rtk">RTK Reset</string>
+    <!-- Used in file activity_update_oaf.xml:16. Original value:Options are OK    -->
+    <string name="oaf_info">OAF Tamam</string>
+    <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values    -->
+    <string name="init_parameters_summary">Alıcı ayarlarının tümünü Fabrikasyon değerlere getirin</string>
+    <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file    -->
+    <string name="save_settings_summary">Alıcı ayarlarını TXT Dosyada Sakla</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:update    -->
+    <string name="app_name">Güncelle</string>
+    <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings    -->
+    <string name="restore_settings">Alıcı Ayarları Yenileniyor</string>
+    <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection    -->
     <string name="check_oaf_at_every_connection">Her Bağlanışta OAF Kontrolet</string>
-    <!-- Used in file ResetFragment.java:308. Original value:Save receiver settings -->
-    <string name="string_save_receiver_settings">Alıcı Ayarlarını Sakla</string>
+    <!-- Used in file fragment_resets.xml:26. Original value:Clear File System    -->
+    <string name="clear_file_system">Dosya Sistemi Temizle</string>
+    <!-- Used in file activity_update_firmware.xml:47. Original value:Update from Internet to Lattest    -->
+    <string name="update_from_internet_latest">İnternet den En Günceliyle</string>
+    <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution    -->
+    <string name="reset_rtk_summary">Fix Çözüm için RTK Kapatın ve Tekrar Açın</string>
+
 </resources>

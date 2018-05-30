@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_process_dpos2.xml:139 -->
-    <string-array name="antenna_ids2_array">
-         <item>JAV_TRIUMPH-1   NONE</item>
-         <item>JAVTRIUMPH_2A   NONE</item>
-         <item>JAVGISMORE      NONE</item>
-    </string-array>
-
-    <!-- Used in file activity_process_dpos.xml:151 -->
+    <!-- Used in file activity_process_opus.xml:207 -->
     <string-array name="dpos_server_array">
          <item>app.javad.com</item>
          <item>dpos-dev.javad.com</item>
     </string-array>
 
-    <!-- Used in file activity_process_opus.xml:169 -->
-    <string-array name="opus_formats_array">
-         <item>Standard</item>
-         <item>Standard + XML(draft)</item>
-         <item>Extended</item>
-    </string-array>
-
-    <!-- Used in file activity_process_dpos2.xml:101 -->
+    <!-- Used in file activity_process_hybrid_rtk.xml:69 -->
     <string-array name="dpos_network_array">
          <item>Автовыбор</item>
          <item>Сервер в США</item>
@@ -29,17 +15,31 @@
          <item>Сервер Giodis</item>
     </string-array>
 
-    <!-- Used in file activity_process_dpos2.xml:215 -->
+    <!-- Used in file list_hybrid_rtk_item.xml:88 -->
     <string-array name="dpos_mode_array">
          <item>Как есть</item>
          <item>Статика</item>
          <item>Кинематика</item>
     </string-array>
 
-    <!-- Used in file activity_process_dpos2.xml:120 -->
+    <!-- Used in file activity_process_hybrid_rtk.xml:88 -->
     <string-array name="dpos_engine_array">
          <item>JUSTIN</item>
          <item>GIODIS</item>
+    </string-array>
+
+    <!-- Used in file list_hybrid_rtk_item.xml:48 -->
+    <string-array name="antenna_ids2_array">
+         <item>JAV_TRIUMPH-1   NONE</item>
+         <item>JAVTRIUMPH_2A   NONE</item>
+         <item>JAVGISMORE      NONE</item>
+    </string-array>
+
+    <!-- Used in file activity_process_opus.xml:169 -->
+    <string-array name="opus_formats_array">
+         <item>Standard</item>
+         <item>Standard + XML(draft)</item>
+         <item>Extended</item>
     </string-array>
 
 

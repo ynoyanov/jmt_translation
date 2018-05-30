@@ -1,56 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   
-    <string-array name="file_extension_entries">
-        <item>.dwg</item>
-        <item>.dxf</item>
-        <item>.dwf</item>
-        <item>.dae</item>
-        <item>.bmp</item>
-        <item>.jpg</item>
-        <item>.png</item>
-        <item>.tiff</item>
-    </string-array>
 
+    <!-- Used in file preferences.xml:12 -->
     <string-array name="file_extension_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+         <item>7</item>
     </string-array>
-    
+
+    <!-- Used in file preferences.xml:13 -->
     <string-array name="file_extension_default">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
     </string-array>
 
-    <string-array name="file_extension_entriesA">
-        <item>.dwg</item>
-        <item>.dxf</item>
-        <item>.bmp</item>
-        <item>.jpg</item>
-        <item>.png</item>
-        <item>.tiff</item>
+    <!-- Used in file preferences.xml:11 -->
+    <string-array name="file_extension_entries">
+         <item>.dwg</item>
+         <item>.dxf</item>
+         <item>.dwf</item>
+         <item>.dae</item>
+         <item>.bmp</item>
+         <item>.jpg</item>
+         <item>.png</item>
+         <item>.tiff</item>
     </string-array>
 
-    <string-array name="file_extension_valuesA">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+    <!-- Used in file preferences_a.xml:11 -->
+    <string-array name="file_extension_entriesa">
+         <item>.dwg</item>
+         <item>.dxf</item>
+         <item>.bmp</item>
+         <item>.jpg</item>
+         <item>.png</item>
+         <item>.tiff</item>
     </string-array>
-    
-    <string-array name="file_extension_defaultA">
-        <item>0</item>
-        <item>1</item>
+
+    <!-- Used in file preferences_a.xml:12 -->
+    <string-array name="file_extension_valuesa">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
     </string-array>
-    
+
+    <!-- Used in file preferences_a.xml:13 -->
+    <string-array name="file_extension_defaulta">
+         <item>0</item>
+         <item>1</item>
+    </string-array>
+
+
 </resources>

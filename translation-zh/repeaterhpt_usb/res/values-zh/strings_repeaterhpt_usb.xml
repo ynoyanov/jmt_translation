@@ -1,66 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Used in file RepeaterActivity.java:238. Original value:Reading setting&#8230;  -->
-    <string name="string_reading_setting___">讀取設定…</string>
-    <!-- Used in file activity_main.xml:81. Original value:RX Frequency, Hz    -->
-    <string name="rx_frequency_hz">RX 頻率, Hz</string>
-    <!-- Used in file activity_main.xml:125. Original value:Protocol    -->
-    <string name="protocol">調製</string>
-    <!-- Used in file activity_main.xml:174. Original value:Channel Spacing    -->
-    <string name="channel_spacing">頻道間隔</string>
-    <!-- Used in file activity_main.xml:155. Original value:Modulation    -->
-    <string name="modulation">調製</string>
-    <!-- Used in file activity_main.xml:63. Original value:TX Frequency, Hz    -->
-    <string name="tx_frequency_hz">TX 頻率, Hz</string>
-    <!-- Used in file activity_main.xml:213. Original value:RTR Echo    -->
-    <string name="rtr_echo">RTR Echo</string>
-    <!-- Used in file AndroidManifest.xml:48. Original value:Repeater    -->
-    <string name="title_activity_repeater">中繼站</string>
-    <!-- Used in file activity_main.xml:241. Original value:Apply    -->
-    <string name="button_apply">套用</string>
-    <!-- Used in file activity_main.xml:117. Original value:Output power, W    -->
+    <!-- Used in file activity_repeater.xml:90. Original value:Output power, W    -->
     <string name="output_power_w">輸出功率, W</string>
-    <!-- Used in file AndroidManifest.xml:76. Original value:Connection Configuration    -->
-    <string name="title_activity_connection_configurations">連接配置</string>
-    <!-- Used in file AndroidManifest.xml:30. Original value:Set HPT Repeater    -->
-    <string name="app_name">設定 HPT 中繼站</string>
-    <!-- Used in file AndroidManifest.xml:100. Original value:About    -->
-    <string name="title_activity_about">關於</string>
-    <!-- Used in file activity_main.xml:99. Original value:Call Sign    -->
-    <string name="call_sign">呼號</string>
-    <!-- Used in file activity_about.xml:20. Original value:Version 1.2 build 25 March 2018    -->
-    <string name="string_version">版本 1.2 建立 25 March 2018</string>
-    <!-- Used in file activity_main.xml:195. Original value:FEC    -->
+    <!-- Used in file activity_repeater.xml:128. Original value:Modulation    -->
+    <string name="modulation">調製</string>
+    <!-- Used in file activity_repeater.xml:168. Original value:FEC    -->
     <string name="fec">FEC</string>
+    <!-- Used in file activity_repeater.xml:158. Original value:Scrambling    -->
+    <string name="scrambling">干擾</string>
+    <!-- Used in file activity_repeater.xml:109. Original value:Simplex parameters    -->
+    <string name="simplex_protocol_parameters">Simplex 參數</string>
+    <!-- Used in file activity_repeater.xml:223. Original value:Apply    -->
+    <string name="button_apply">套用</string>
     <!-- Used in file activity_about.xml:12. Original value:(;©) Copyright JAVAD GNSS 2018    -->
     <string name="string_copyright">(;©) 版權 JAVAD GNSS 2018</string>
+    <!-- Used in file activity_repeater.xml:147. Original value:Channel Spacing    -->
+    <string name="channel_spacing">頻道間隔</string>
     <!-- Used in file activity_main.xml:20. Original value:HPTxxxBT Radio\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n    -->
     <string name="modem_info">HPTxxxBT 數據機\ns/n . . . id . . . \nf/w . . . . s/w . . . .\n</string>
     <!-- Used in file AndroidManifest.xml:92. Original value:Connection    -->
     <string name="title_activity_connection">連線</string>
-    <!-- Used in file activity_main.xml:232. Original value:Read Radio    -->
+    <!-- Used in file activity_about.xml:20. Original value:Version 1.2 build 25 March 2018    -->
+    <string name="string_version">版本 1.2 建立 25 March 2018</string>
+    <!-- Used in file AndroidManifest.xml:30. Original value:Set HPT Repeater    -->
+    <string name="app_name">設定 HPT 中繼站</string>
+    <!-- Used in file activity_repeater.xml:98. Original value:Protocol    -->
+    <string name="protocol">調製</string>
+    <!-- Used in file AndroidManifest.xml:48. Original value:Repeater    -->
+    <string name="title_activity_repeater">中繼站</string>
+    <!-- Used in file AndroidManifest.xml:76. Original value:Connection Configuration    -->
+    <string name="title_activity_connection_configurations">連接配置</string>
+    <!-- Used in file activity_repeater.xml:214. Original value:Read Radio    -->
     <string name="button_read_from_radio">讀取數據機</string>
-    <!-- Used in file activity_main.xml:136. Original value:Simplex parameters    -->
-    <string name="simplex_protocol_parameters">Simplex 參數</string>
-    <!-- Used in file activity_main.xml:185. Original value:Scrambling    -->
-    <string name="scrambling">干擾</string>
+    <!-- Used in file activity_repeater.xml:54. Original value:RX Frequency, Hz    -->
+    <string name="rx_frequency_hz">RX 頻率, Hz</string>
+    <!-- Used in file AndroidManifest.xml:100. Original value:About    -->
+    <string name="title_activity_about">關於</string>
+    <!-- Used in file activity_repeater.xml:72. Original value:Call Sign    -->
+    <string name="call_sign">呼號</string>
+    <!-- Used in file activity_repeater.xml:36. Original value:TX Frequency, Hz    -->
+    <string name="tx_frequency_hz">TX 頻率, Hz</string>
+    <!-- Used in file activity_repeater.xml:186. Original value:RTR Echo    -->
+    <string name="rtr_echo">RTR Echo</string>
+
 </resources>

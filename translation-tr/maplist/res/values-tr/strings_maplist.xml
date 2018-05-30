@@ -1,111 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Used in file calendar2.xml:96. Original value:MON -->
-    <string name="monday_short">PZTS</string>
-    <!-- Used in file activity_sort_4.xml:31. Original value:CS -->
-    <string name="string_cs">CS</string>
-    <!-- Used in file calendar2.xml:138. Original value:THU -->
-    <string name="thursday_short">PERŞ</string>
-    <!-- Used in file sort_2.xml:8. Original value:Search -->
-    <string name="action_search">Ara</string>
-    <!-- Used in file map_calendar_menu.xml:65. Original value:Zoom All -->
-    <string name="action_map_zoomall">Zoom All</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:765. Original value:What to do with %1$s %2$s? -->
-    <string name="string_what_to_do_with__1_s__2_s_">Ne ile yapılmalı %1$s %2$s?</string>
-    <!-- Used in file activity_map_provider.xml:18. Original value:Google Maps -->
-    <string name="google_maps">Google Haritalar</string>
-    <!-- Used in file calendar2.xml:110. Original value:TUE -->
-    <string name="tuesday_short">SALI</string>
-    <!-- Used in file BaseProviderMapActivity.java:30. Original value:Points -->
-    <string name="string_points">Noktalar</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:216. Original value:Hide Selection -->
-    <string name="action_unselect">Seçimi Sakla</string>
-    <!-- Used in file calendar_main.xml:13. Original value:Open -->
-    <string name="open">Aç</string>
-    <!-- Used in file activity_sort_3.xml:31. Original value:Code -->
-    <string name="string_code">Kod</string>
-    <!-- Used in file activity_sort_3.xml:38. Original value:Desc -->
-    <string name="string_desc">Açıkl</string>
-    <!-- Used in file activity_sort_2.xml:66. Original value:Comment -->
-    <string name="string_comment">Yorum</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:609. Original value:file -->
-    <string name="string_file">dosya</string>
-    <!-- Used in file map_calendar_menu.xml:56. Original value:UnSelect All -->
-    <string name="action_unselect_all">Seçilmeyenlerin Tümü</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:642. Original value:Do you want to delete %s: -->
-    <string name="string_do_you_want_to_delete__s_">Silmek İstiyormusunuz %s:</string>
-    <!-- Used in file unused.xml:6. Original value:Sort -->
-    <string name="action_sort">Sırala</string>
-    <!-- Used in file ListWithMapSortAndSearchActivity.java:301. Original value:Zoom All -->
-    <string name="string_zoom_all">Zoom All</string>
-    <!-- Used in file map_calendar_menu.xml:15. Original value:Calendar -->
+
+    <!-- Used in file map_calendar_menu.xml:15. Original value:Calendar    -->
     <string name="action_calendar">Takvim</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:365. Original value:Sort by -->
-    <string name="string_sort_by">Sırala..</string>
-    <!-- Used in file calendar2.xml:180. Original value:SUN -->
-    <string name="sunday_short">PAZR</string>
-    <!-- Used in file calendar2.xml:152. Original value:FRI -->
-    <string name="friday_short">CUMA</string>
-    <!-- Used in file activity_map_provider.xml:32. Original value:Open Street Map -->
-    <string name="open_street_maps">Open Street Haritaları</string>
-    <!-- Used in file map_calendar_menu.xml:30. Original value:Select -->
-    <string name="action_select">Seçim</string>
-    <!-- Used in file calendar2.xml:166. Original value:SAT -->
-    <string name="saturday_short">CMTS</string>
-    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing -->
-    <string name="user_cad_drawing">Kullanıcı CAD Drawing</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:509. Original value:Reading list of %s&#8230; -->
-    <string name="string_reading_list_of__s___">Liste Okunuyor %s…</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:maplist -->
-    <string name="app_name">HaritaListe</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:651. Original value:Do you want to delete %1$d %2$s? -->
-    <string name="string_do_you_want_to_delete__1_d__2_s_">Silmek istiyormusunuz %1$d %2$s?</string>
-    <!-- Used in file activity_sort_4.xml:45. Original value:Time -->
-    <string name="string_time">Zaman</string>
-    <!-- Used in file map_calendar_menu.xml:51. Original value:Select All -->
-    <string name="action_select_all">Tümünü Seç</string>
-    <!-- Used in file map_calendar_menu.xml:5. Original value:Dialog -->
-    <string name="action_dialog">Dialog</string>
-    <!-- Used in file sort_2.xml:16. Original value:Refresh -->
-    <string name="action_refresh">Refresh</string>
-    <!-- Used in file activity_map_provider.xml:25. Original value:Yandex Maps -->
-    <string name="yandex_maps">Yandex Haritalar</string>
-    <!-- Used in file BaseProviderMapActivity.java:26. Original value:MapProvider -->
-    <string name="string_mapprovider">Harita Sağlayıcı</string>
-    <!-- Used in file activity_map_provider.xml:94. Original value:[ . . . ] -->
-    <string name="button_select">[ . . . ]</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:691. Original value:Do you want to delete %1$s %2$s? -->
-    <string name="string_do_you_want_to_delete__1_s__2_s_">Silmek İstiyormusunuz %1$s %2$s?</string>
-    <!-- Used in file activity_map_provider.xml:111. Original value:Cancel -->
-    <string name="button_cancel">İptal</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:690. Original value:Delete %s -->
-    <string name="string_delete__s">Sil %s</string>
-    <!-- Used in file activity_sort_4.xml:38. Original value:Size -->
-    <string name="string_size">Boyut</string>
-    <!-- Used in file activity_sort.xml:31. Original value:Type -->
-    <string name="string_type_sort">Tip</string>
-    <!-- Used in file sort_2.xml:22. Original value:Settings -->
-    <string name="action_settings">Ayarlar</string>
-    <!-- Used in file calendar2.xml:124. Original value:WED -->
-    <string name="wednesday_short">ÇARŞ</string>
-    <!-- Used in file activity_map_provider.xml:121. Original value:Apply -->
-    <string name="button_apply">Uygula</string>
-    <!-- Used in file map_calendar_menu.xml:61. Original value:Inverse Selection -->
-    <string name="action_inverse_all">Seçimin Tersi</string>
-    <!-- Used in file map_calendar_menu.xml:10. Original value:Map -->
-    <string name="action_map">Harita</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:693. Original value:Delete -->
-    <string name="string_delete">Sil</string>
-    <!-- Used in file calendar_main.xml:10. Original value:Open calendar -->
-    <string name="hello">Takvim Aç</string>
-    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map -->
-    <string name="user_tiled_map">Kullanıcı Harita</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:699. Original value:Cancel -->
-    <string name="string_cancel">İptal</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:613. Original value:files -->
-    <string name="string_files">dosyalar</string>
-    <!-- Used in file sort_2.xml:12. Original value:Delete -->
+    <!-- Used in file sort_2.xml:12. Original value:Delete    -->
     <string name="action_delete">Sil</string>
-    <!-- Used in file ListWithMapSortAndSearchActivity.java:269. Original value:Connect -->
-    <string name="string_connect">Bağlantı</string>
+    <!-- Used in file map_calendar_menu.xml:65. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Zoom All</string>
+    <!-- Used in file calendar2.xml:138. Original value:THU    -->
+    <string name="thursday_short">PERŞ</string>
+    <!-- Used in file activity_sort_4.xml:31. Original value:CS    -->
+    <string name="string_cs_sort">CS</string>
+    <!-- Used in file activity_sort_4.xml:45. Original value:Time    -->
+    <string name="string_time_sort">Time</string>
+    <!-- Used in file sort_2.xml:8. Original value:Search    -->
+    <string name="action_search">Ara</string>
+    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing    -->
+    <string name="user_cad_drawing">Kullanıcı CAD Drawing</string>
+    <!-- Used in file map_calendar_menu.xml:61. Original value:Inverse Selection    -->
+    <string name="action_inverse_all">Seçimin Tersi</string>
+    <!-- Used in file ListWithSortAndSearchActivity.java:221. Original value:Hide Selection    -->
+    <string name="action_unselect">Seçimi Sakla</string>
+    <!-- Used in file activity_map_provider.xml:121. Original value:Apply    -->
+    <string name="button_apply">Uygula</string>
+    <!-- Used in file calendar2.xml:180. Original value:SUN    -->
+    <string name="sunday_short">PAZR</string>
+    <!-- Used in file activity_sort_3.xml:38. Original value:Desc    -->
+    <string name="string_desc_sort">Desc</string>
+    <!-- Used in file activity_map_provider.xml:94. Original value:[ . . . ]    -->
+    <string name="button_select">[ . . . ]</string>
+    <!-- Used in file map_calendar_menu.xml:10. Original value:Map    -->
+    <string name="action_map">Harita</string>
+    <!-- Used in file map_calendar_menu.xml:56. Original value:UnSelect All    -->
+    <string name="action_unselect_all">Seçilmeyenlerin Tümü</string>
+    <!-- Used in file calendar_main.xml:10. Original value:Open calendar    -->
+    <string name="hello">Takvim Aç</string>
+    <!-- Used in file activity_sort_4.xml:24. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_map_provider.xml:111. Original value:Cancel    -->
+    <string name="button_cancel">İptal</string>
+    <!-- Used in file activity_sort_2.xml:66. Original value:Comment    -->
+    <string name="string_comment_sort">Comment</string>
+    <!-- Used in file calendar2.xml:110. Original value:TUE    -->
+    <string name="tuesday_short">SALI</string>
+    <!-- Used in file activity_sort_4.xml:38. Original value:Size    -->
+    <string name="string_size_sort">Size</string>
+    <!-- Used in file sort_2.xml:22. Original value:Settings    -->
+    <string name="action_settings">Ayarlar</string>
+    <!-- Used in file map_calendar_menu.xml:30. Original value:Select    -->
+    <string name="action_select">Seçim</string>
+    <!-- Used in file calendar2.xml:96. Original value:MON    -->
+    <string name="monday_short">PZTS</string>
+    <!-- Used in file sort_2.xml:16. Original value:Refresh    -->
+    <string name="action_refresh">Refresh</string>
+    <!-- Used in file activity_map_provider.xml:18. Original value:Google Maps    -->
+    <string name="google_maps">Google Haritalar</string>
+    <!-- Used in file activity_sort.xml:31. Original value:Type    -->
+    <string name="string_type_sort">Tip</string>
+    <!-- Used in file calendar2.xml:152. Original value:FRI    -->
+    <string name="friday_short">CUMA</string>
+    <!-- Used in file activity_map_provider.xml:32. Original value:Open Street Map    -->
+    <string name="open_street_maps">Open Street Haritaları</string>
+    <!-- Used in file map_calendar_menu.xml:5. Original value:Dialog    -->
+    <string name="action_dialog">Dialog</string>
+    <!-- Used in file unused.xml:6. Original value:Sort    -->
+    <string name="action_sort">Sırala</string>
+    <!-- Used in file activity_sort_3.xml:31. Original value:Code    -->
+    <string name="string_code_sort">Code</string>
+    <!-- Used in file calendar2.xml:124. Original value:WED    -->
+    <string name="wednesday_short">ÇARŞ</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:maplist    -->
+    <string name="app_name">HaritaListe</string>
+    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map    -->
+    <string name="user_tiled_map">Kullanıcı Harita</string>
+    <!-- Used in file calendar2.xml:166. Original value:SAT    -->
+    <string name="saturday_short">CMTS</string>
+    <!-- Used in file activity_map_provider.xml:25. Original value:Yandex Maps    -->
+    <string name="yandex_maps">Yandex Haritalar</string>
+    <!-- Used in file map_calendar_menu.xml:51. Original value:Select All    -->
+    <string name="action_select_all">Tümünü Seç</string>
+    <!-- Used in file calendar_main.xml:13. Original value:Open    -->
+    <string name="open">Aç</string>
+
 </resources>
