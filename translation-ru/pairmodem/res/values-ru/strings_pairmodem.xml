@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file item_device.xml:13. Original value:None    -->
-    <string name="none">Нет</string>
-    <!-- Used in file AndroidManifest.xml:60. Original value:Connection    -->
-    <string name="title_activity_connection">Подключение</string>
-    <!-- Used in file activity_repeater.xml:55. Original value:RX Frequency, Hz    -->
-    <string name="rx_frequency_hz">Частота приема, Гц</string>
+    <!-- Used in file main_bosch_2.xml:14. Original value:Refresh    -->
+    <string name="refresh_bluetooth">Обновить</string>
+    <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair    -->
+    <string name="text_select_modem">Выберите HPT-модем для спаривания</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio    -->
+    <string name="string_bluetooth_radio">Bluetooth модем</string>
     <!-- Used in file pair_modem.xml:13. Original value:WiFi    -->
     <string name="action_wifi">WiFi</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:35. Original value:Internal Radio    -->
-    <string name="string_internal_radio">Внутренний модем</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware    -->
+    <string name="text_select_modem_2">Выберите модем для обновления встроенного ПО</string>
+    <!-- Used in file AndroidManifest.xml:35. Original value:Pair HPT Modem    -->
+    <string name="title_activity_pair_modem">Спарить HPT модем</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:15. Original value:Connected to receiver    -->
+    <string name="text_receiver_info">Подключено к приемнику</string>
+    <!-- Used in file item_device.xml:13. Original value:None    -->
+    <string name="none">Нет</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio    -->
+    <string name="string_paired_radio">Подключенный по Bluetooth</string>
+    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
+    <string name="simplex_protocol_parameters">Параметры протокола Simplex</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:563. Original value:Load firmware anyway    -->
+    <string name="string_load_firmware_anyway">Все равно загрузить</string>
+    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
+    <string name="hello_world">Hello world!</string>
+    <!-- Used in file activity_repeater.xml:55. Original value:RX Frequency, Hz    -->
+    <string name="rx_frequency_hz">Частота приема, Гц</string>
+    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
+    <string name="fec">Корр.ошибок (FEC)</string>
+    <!-- Used in file activity_find_rangefinder.xml:16. Original value:Select a Rangefinder    -->
+    <string name="text_select_rangefinder">Выберите лаз.рулетку</string>
+    <!-- Used in file activity_repeater.xml:159. Original value:Scrambling    -->
+    <string name="scrambling">Шифрование</string>
+    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
+    <string name="modulation">Модуляция</string>
+    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
+    <string name="tx_frequency_hz">Частота передачи, Гц</string>
+    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
+    <string name="action_bluetooth">Bluetooh</string>
+    <!-- Used in file AndroidManifest.xml:25. Original value:Pair HPT Modem    -->
+    <string name="app_name">Pair HPT Modem</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:150. Original value:No connection to a Javad receiver    -->
+    <string name="no_connection">Не подключено к приемнику JAVAD GNSS</string>
+    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
+    <string name="call_sign">Позывной</string>
+    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
+    <string name="channel_spacing">Ширина канала</string>
+    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
+    <string name="protocol">Протокол</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Настройки</string>
     <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo    -->
     <string name="rtr_echo">RTR Echo</string>
     <!-- Used in file activity_repeater.xml:224. Original value:Apply    -->
     <string name="button_apply">Применить</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio    -->
-    <string name="string_paired_radio">Подключенный по Bluetooth</string>
-    <!-- Used in file main_bosch_2.xml:14. Original value:Refresh    -->
-    <string name="refresh_bluetooth">Обновить</string>
-    <!-- Used in file PairModemActivity.java:274. Original value:Select JLink radio to pair with    -->
-    <string name="text_select_jlink">Выберите JLink модем чтобы спарить</string>
-    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
-    <string name="call_sign">Позывной</string>
-    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
-    <string name="tx_frequency_hz">Частота передачи, Гц</string>
-    <!-- Used in file AndroidManifest.xml:35. Original value:Pair HPT Modem    -->
-    <string name="title_activity_pair_modem">Спарить HPT модем</string>
-    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
-    <string name="simplex_protocol_parameters">Параметры протокола Simplex</string>
-    <!-- Used in file AndroidManifest.xml:25. Original value:Pair HPT Modem    -->
-    <string name="app_name">Pair HPT Modem</string>
-    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
-    <string name="button_read_from_radio">С радио</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:563. Original value:Load firmware anyway    -->
-    <string name="string_load_firmware_anyway">Все равно загрузить</string>
-    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
-    <string name="modulation">Модуляция</string>
-    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
-    <string name="fec">Корр.ошибок (FEC)</string>
-    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
-    <string name="protocol">Протокол</string>
-    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
-    <string name="hello_world">Hello world!</string>
-    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
-    <string name="action_bluetooth">Bluetooh</string>
-    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
-    <string name="channel_spacing">Ширина канала</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio    -->
-    <string name="string_bluetooth_radio">Bluetooth модем</string>
-    <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair    -->
-    <string name="text_select_modem">Выберите HPT-модем для спаривания</string>
-    <!-- Used in file activity_repeater.xml:159. Original value:Scrambling    -->
-    <string name="scrambling">Шифрование</string>
-    <!-- Used in file pair_modem.xml:18. Original value:Settings    -->
-    <string name="action_settings">Настройки</string>
-    <!-- Used in file activity_pair_modem.xml:16. Original value:Connected to receiver    -->
-    <string name="text_receiver_info">Подключено к приемнику</string>
     <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup    -->
     <string name="text_select_repeater">Выберите HPT повторитель для настройки</string>
     <!-- Used in file activity_repeater.xml:91. Original value:Output Power    -->
     <string name="output_power_w">Выходная мощность</string>
-    <!-- Used in file PairModemActivity.java:174. Original value:No connection to a Javad receiver    -->
-    <string name="no_connection">Не подключено к приемнику JAVAD GNSS</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware    -->
-    <string name="text_select_modem_2">Выберите модем для обновления встроенного ПО</string>
-    <!-- Used in file activity_find_rangefinder.xml:16. Original value:Select a Rangefinder    -->
-    <string name="text_select_rangefinder">Выберите лаз.рулетку</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:35. Original value:Internal Radio    -->
+    <string name="string_internal_radio">Внутренний модем</string>
+    <!-- Used in file PairModemActivity.java:274. Original value:Select JLink radio to pair with    -->
+    <string name="text_select_jlink">Выберите JLink модем чтобы спарить</string>
+    <!-- Used in file AndroidManifest.xml:60. Original value:Connection    -->
+    <string name="title_activity_connection">Подключение</string>
+    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
+    <string name="button_read_from_radio">С радио</string>
 
 </resources>
