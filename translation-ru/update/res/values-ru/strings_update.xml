@@ -1,55 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK    -->
-    <string name="reset_rtk">Перезапуск RTK</string>
-    <!-- Used in file activity_update_firmware.xml:27. Original value:Update from File    -->
-    <string name="update_from_file">Обновить из файла</string>
-    <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution    -->
-    <string name="reset_rtk_summary">Перезапуск RTK</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters    -->
-    <string name="init_parameters">Инициализировать параметры</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings    -->
-    <string name="save_settings">Сохранить настройки приемника </string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file    -->
-    <string name="restore_settings_summary">Восстановить настройки приемника из файла</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values    -->
-    <string name="clear_nvram_summary">Сбросить все настройки приемника к значениям по умолчанию</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web    -->
-    <string name="update_firmware_summary">Обновить встроенное ПО приемника (firmware) из файла или Интернета</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM    -->
-    <string name="clear_nvram">Очистить NVRAM</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware    -->
-    <string name="update_firmware">Обновить встроенное ПО (firmware)</string>
-    <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet    -->
-    <string name="update_from_internet">Обновить из Internet</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values    -->
-    <string name="init_parameters_summary">Стереть все настройки приемника в значения по умолчанию</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file    -->
-    <string name="save_settings_summary">Сохранить все настройки приемника в текстовый файл</string>
-    <!-- Used in file activity_update_firmware.xml:37. Original value:Update from Internet to Stable    -->
-    <string name="update_from_internet_stable">Обновить из Internet до Стабильной</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web    -->
-    <string name="update_oaf_summary">Обновить опции приемника (OAF) из файла из Интернета</string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings    -->
-    <string name="restore_settings">Восстановить настройки приемника</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:update    -->
-    <string name="app_name">update</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver    -->
-    <string name="reset_receiver_summary">Перезапуаск выключит и включит приемник</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver    -->
-    <string name="clear_file_system_summary">Очистка удалит все jps файлы на приемнике</string>
-    <!-- Used in file activity_update_firmware.xml:16. Original value:Options are OK    -->
-    <string name="oaf_info">Options в порядке</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear File System    -->
-    <string name="clear_file_system">Clear File System</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Update OAF    -->
-    <string name="update_oaf">Обновить OAF</string>
-    <!-- Used in file activity_update_firmware.xml:47. Original value:Update from Internet to Lattest    -->
-    <string name="update_from_internet_latest">Обновить из Internet до Последней</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver    -->
-    <string name="reset_receiver">Перезапуск приемника</string>
-    <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection    -->
-    <string name="check_oaf_at_every_connection">Проверять опции при каждом подключении</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Reset RTK-->
+  <string name="reset_rtk">Перезапуск RTK</string>
+  <!--Original value: Update from File-->
+  <string name="update_from_file">Обновить из файла</string>
+  <!--Original value: Turn RTK off and on to refix solution-->
+  <string name="reset_rtk_summary">Перезапуск RTK</string>
+  <!--Original value: Init Parameters-->
+  <string name="init_parameters">Инициализировать параметры</string>
+  <!--Original value: Save Receiver Settings-->
+  <string name="save_settings">Сохранить настройки приемника </string>
+  <!--Original value: Restore  all receiver settings from setting file-->
+  <string name="restore_settings_summary">Восстановить настройки приемника из файла</string>
+  <!--Original value: Crear all receiver settings to default values-->
+  <string name="clear_nvram_summary">Сбросить все настройки приемника к значениям по умолчанию</string>
+  <!--Original value: Upfate receiver firmware from file or from Web-->
+  <string name="update_firmware_summary">Обновить встроенное ПО приемника (firmware) из файла или Интернета</string>
+  <!--Original value: Clear NVRAM-->
+  <string name="clear_nvram">Очистить NVRAM</string>
+  <!--Original value: Update Firmware-->
+  <string name="update_firmware">Обновить встроенное ПО (firmware)</string>
+  <!--Original value: Update from Internet-->
+  <string name="update_from_internet">Обновить из Internet</string>
+  <!--Original value: Save all receiver settings into text file-->
+  <string name="save_settings_summary">Сохранить все настройки приемника в текстовый файл</string>
+  <!--Original value: Crear all receiver settings to default values-->
+  <string name="init_parameters_summary">Стереть все настройки приемника в значения по умолчанию</string>
+  <!--Original value: Update from Internet to Stable-->
+  <string name="update_from_internet_stable">Обновить из Internet до Стабильной</string>
+  <!--Original value: Upfate receiver options(OAF) from file or from Web-->
+  <string name="update_oaf_summary">Обновить опции приемника (OAF) из файла из Интернета</string>
+  <!--Original value: Restore Receiver Settings-->
+  <string name="restore_settings">Восстановить настройки приемника</string>
+  <!--Original value: update-->
+  <string name="app_name">update</string>
+  <!--Original value: Reset turns off and on the receiver-->
+  <string name="reset_receiver_summary">Перезапуаск выключит и включит приемник</string>
+  <!--Original value: Clear file system removes all jps files on the receiver-->
+  <string name="clear_file_system_summary">Очистка удалит все jps файлы на приемнике</string>
+  <!--Original value: Options are OK-->
+  <string name="oaf_info">Options в порядке</string>
+  <!--Original value: Clear File System-->
+  <string name="clear_file_system">Очистить файловую систему приемника</string>
+  <!--Original value: Update OAF-->
+  <string name="update_oaf">Обновить OAF</string>
+  <!--Original value: Update from Internet to Lattest-->
+  <string name="update_from_internet_latest">Обновить из Internet до Последней</string>
+  <!--Original value: Reset Receiver-->
+  <string name="reset_receiver">Перезапуск приемника</string>
+  <!--Original value: Check OAF at every connection-->
+  <string name="check_oaf_at_every_connection">Проверять опции при каждом подключении</string>
 </resources>
