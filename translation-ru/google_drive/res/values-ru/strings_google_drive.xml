@@ -1,40 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file GoogleDriveHomeActivity.java:135. Original value:An error occoured while trying to connect.    -->
+    <string name="msg_errconnect">An error occoured while trying to connect.</string>
+    <!-- Used in file GoogleDriveHomeActivity.java:265. Original value:An error occoured while saving.    -->
+    <string name="msg_errsaving">An error occoured while saving.</string>
+    <!-- Used in file activity_google_drive_main.xml:23. Original value:Enter text here    -->
+    <string name="editor_contentshint">Enter text here</string>
+    <!-- Used in file activity_google_drive_main.xml:13. Original value:Title    -->
+    <string name="editor_titlehint">Title</string>
+    <!-- Used in file activity_google_drive_main.xml:13. Original value:Open    -->
+    <string name="menu_open">Open</string>
+    <!-- Used in file activity_google_drive_main.xml:29. Original value:Save changes    -->
+    <string name="editor_save">Save changes</string>
+    <!-- Used in file AndroidManifest.xml:34. Original value:Text Editor    -->
+    <string name="app_name">Text Editor</string>
+    <!-- Used in file GoogleDriveHomeActivity.java:268. Original value:Successfully saved.    -->
+    <string name="msg_saved">Successfully saved.</string>
+    <!-- Used in file activity_google_drive_main.xml:7. Original value:Create    -->
+    <string name="menu_new">Create</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: An error occoured while trying to connect.-->
-  <string name="msg_errconnect">При подключение случилась ошибка!</string>
-  <!--Original value: Enter text here-->
-  <string name="editor_contentshint">Введите здесь текст</string>
-  <!--Original value: An error occoured while saving.-->
-  <string name="msg_errsaving">Ошибка при сохранении</string>
-  <!--Original value: Title-->
-  <string name="editor_titlehint">Заголовок</string>
-  <!--Original value: Open-->
-  <string name="menu_open">Открыть</string>
-  <!--Original value: Save changes-->
-  <string name="editor_save">Сохранить изменения</string>
-  <!--Original value: Text Editor-->
-  <string name="app_name">Текстовый редактор</string>
-  <!--Original value: Create-->
-  <string name="menu_new">Создать</string>
-  <!--Original value: Successfully saved.-->
-  <string name="msg_saved">Успешно сохранено.</string>
 </resources>
