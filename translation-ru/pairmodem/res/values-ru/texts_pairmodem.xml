@@ -1,50 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file RepeaterActivity.java:461. Original value:Setup failed!  -->
-    <string name="string_setup_failed_">Сбой установки!</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:527. Original value:File doesn\'t exist!  -->
     <string name="string_file_doesn_t_exist_">Файл не найден!</string>
     <!--  Used in file PairModemActivity.java:467. Original value:Modem is paired ok. Rebooting modem&#8230;  -->
     <string name="string_modem_is_paired_ok__rebooting_modem___">Модем успешно спарен. Идем перезагрузка модема</string>
-    <!--  Used in file PairModemActivity.java:509. Original value:Pairing has done.  -->
-    <string name="string_pairing_has_done_">Создание пары успешно выполнено.</string>
     <!--  Used in file RepeaterActivity.java:323. Original value:Wrong TX frequency!  -->
     <string name="string_wrong_tx_frequency_">Неверная частота передачи!</string>
+    <!--  Used in file PairModemActivity.java:509. Original value:Pairing has done.  -->
+    <string name="string_pairing_has_done_">Создание пары успешно выполнено.</string>
     <!--  Used in file PairModemActivity.java:428. Original value:Connected. Starting to pair&#8230;  -->
     <string name="string_connected__starting_to_pair___">Подключено. Начато создание пары</string>
     <!--  Used in file PairModemActivity.java:436. Original value:Can\'t set modem to command mode  -->
     <string name="string_can_t_set_modem_to_command_mode">Не удалось ввести модем в командный режим</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:609. Original value:Firmware successfully loaded  -->
-    <string name="string_firmware_successfully_loaded">Встроенное ПО успешно загруженно</string>
-    <!--  Used in file PairModemActivity.java:106. Original value:Successfully paired to radio.  -->
-    <string name="string_successfully_paired_to_radio_">Successfully paired to radio.</string>
-    <!--  Used in file PairModemActivity.java:533. Original value:Unpairing error  -->
-    <string name="string_unpairing_error">Ошибка распаривания</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Connected to radio  -->
-    <string name="string_connected_to_radio">Подключенно к модему</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:576. Original value:Wrong firmware file!  -->
     <string name="string_wrong_firmware_file_">Неверный файл встроенного ПО!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Connected to radio  -->
+    <string name="string_connected_to_radio">Подключенно к модему</string>
     <!--  Used in file PairModemActivity.java:445. Original value:Modem info received&#8230;  -->
     <string name="string_modem_info_received___">Идет чтение информации с модема</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:643. Original value:Can\'t initiate firmware loading  -->
-    <string name="string_can_t_initiate_firmware_loading">Не удалось запустить загрузку</string>
     <!--  Used in file PairModemActivity.java:184. Original value:Do you want to unpair the receiver and the modem?  -->
     <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Хотите разорвать пару приемника и модема?</string>
-    <!--  Used in file PairModemActivity.java:384. Original value:Wait!!  -->
-    <string name="string_wait__">Подождите</string>
-    <!--  Used in file PairModemActivity.java:409. Original value:Receiver is not connected!  -->
-    <string name="string_receiver_is_not_connected_">Приемник не подключен</string>
-    <!--  Used in file FindRangefinderActivity.java:496. Original value:Please wait  -->
-    <string name="string_please_wait">Подождите</string>
-    <!--  Used in file PairModemActivity.java:125. Original value:Turn the radio off and on to finish.  -->
-    <string name="string_turn_the_radio_off_and_on_to_finish_">Выключите и включите модем для завершения</string>
-    <!--  Used in file PairModemActivity.java:100. Original value:Paired to:)  -->
-    <string name="string_paired_to__">Спарено</string>
-    <!--  Used in file PairModemActivity.java:125. Original value:Unpaired.  -->
-    <string name="string_unpaired_">Распарено</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:535. Original value:Load firmware  -->
-    <string name="string_load_firmware">Загрузить ПО</string>
     <!--  Used in file PairModemActivity.java:982. Original value:Permission denied to obtain list of Bluetooth devices around  -->
     <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
     <!--  Used in file PairModemActivity.java:471. Original value:Can\'t save modem settings!  -->
@@ -55,12 +31,8 @@
     <string name="string_close">Закрыть</string>
     <!--  Used in file RepeaterActivity.java:446. Original value:Applying setting&#8230;  -->
     <string name="string_applying_setting___">Применение настроек&#8230;</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:308. Original value:Can\'t connect to internal radio!  -->
-    <string name="string_can_t_connect_to_internal_radio_">Не удалось подключиться к внутреннему модему!</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:537. Original value:Write firmware  -->
     <string name="string_write_firmware">Обновить встр.ПО</string>
-    <!--  Used in file FindRangefinderActivity.java:495. Original value:Conecting&#8230;  -->
-    <string name="string_conecting___">Подключение&#8230;</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:587. Original value:Your radio is  -->
     <string name="string_your_radio_is">Ваш модем </string>
     <!--  Used in file RepeaterActivity.java:332. Original value:Frequency should be from %1$dHz to %2$dHz  -->
@@ -75,32 +47,20 @@
     <string name="string_can_t_read_version_from_from_the_file_">Не удалось прочесть версию из файла!</string>
     <!--  Used in file RepeaterActivity.java:343. Original value:Wrong call sign (only numbers and capital chars are avaibale!)  -->
     <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Неверный позывной (допускаются только заглавные буквы и цифры)</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:587. Original value:This firmware is  -->
-    <string name="string_this_firmware_is">Встроенное ПО </string>
-    <!--  Used in file RepeaterActivity.java:149. Original value:Reading setting&#8230;  -->
-    <string name="string_reading_setting___">Идет чтение настроек</string>
     <!--  Used in file PairModemActivity.java:383. Original value:Please Wait!!  -->
     <string name="string_please_wait__">Пожалуйста подождите!</string>
     <!--  Used in file PairModemActivity.java:484. Original value:Exit from data mode&#8230;  -->
     <string name="string_exit_from_data_mode___">Выход из режима данных</string>
     <!--  Used in file RepeaterActivity.java:355. Original value:Wrong power!  -->
     <string name="string_wrong_power_">Неверная мощность!</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:750. Original value:Reset  -->
-    <string name="string_reset">Перезапуск</string>
     <!--  Used in file PairModemActivity.java:413. Original value:Receiver Bluetooth address is not obtained!  -->
     <string name="string_receiver_bluetooth_address_is_not_obtained_">Не удалось определить Bluetooth адрес приемника</string>
-    <!--  Used in file RepeaterActivity.java:301. Original value:Wrong RX frequecy!  -->
-    <string name="string_wrong_rx_frequecy_">Неверная частота приема(RX)!</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:633. Original value:Can\'t start firmware load  -->
-    <string name="string_can_t_start_firmware_load">Не удалось начать загрузку</string>
     <!--  Used in file RepeaterActivity.java:466. Original value:Setup OK  -->
     <string name="string_setup_ok">Успешно установлено</string>
     <!--  Used in file PairModemActivity.java:130. Original value:Successfully unpared with radio.\nTurn the radio off and on to disconnect.  -->
     <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Successfully unpared with radio.\nTurn the radio off and on to disconnect.</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:684. Original value:Loaded %1$.1f %% (block #%2$d from %3$d)  -->
     <string name="string_loaded___1f_____block___d_from__d_">Загружено %1$.1f %% (блок #%2$d из %3$d)</string>
-    <!--  Used in file PairModemActivity.java:129. Original value:Unparing  -->
-    <string name="string_unparing">Unparing</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:446. Original value:Can\'t read radio info  -->
     <string name="string_can_t_read_radio_info">Не удалось прочесть информацию о модеме</string>
     <!--  Used in file PairModemActivity.java:105. Original value:Paired  -->
@@ -113,6 +73,46 @@
     <string name="string_pairing_gnss_receiver___">Идет спаривание с GNSS приемником</string>
     <!--  Used in file PairModemActivity.java:503. Original value:Can\'t pair GNSS receiver  -->
     <string name="string_can_t_pair_gnss_receiver">Не удалось спарить с GNSS приемником</string>
+    <!--  Used in file RepeaterActivity.java:461. Original value:Setup failed!  -->
+    <string name="string_setup_failed_">Сбой установки!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:609. Original value:Firmware successfully loaded  -->
+    <string name="string_firmware_successfully_loaded">Встроенное ПО успешно загруженно</string>
+    <!--  Used in file PairModemActivity.java:106. Original value:Successfully paired to radio.  -->
+    <string name="string_successfully_paired_to_radio_">Successfully paired to radio.</string>
+    <!--  Used in file PairModemActivity.java:533. Original value:Unpairing error  -->
+    <string name="string_unpairing_error">Ошибка распаривания</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:643. Original value:Can\'t initiate firmware loading  -->
+    <string name="string_can_t_initiate_firmware_loading">Не удалось запустить загрузку</string>
+    <!--  Used in file PairModemActivity.java:384. Original value:Wait!!  -->
+    <string name="string_wait__">Подождите</string>
+    <!--  Used in file PairModemActivity.java:409. Original value:Receiver is not connected!  -->
+    <string name="string_receiver_is_not_connected_">Приемник не подключен</string>
+    <!--  Used in file FindRangefinderActivity.java:496. Original value:Please wait  -->
+    <string name="string_please_wait">Подождите</string>
+    <!--  Used in file PairModemActivity.java:125. Original value:Turn the radio off and on to finish.  -->
+    <string name="string_turn_the_radio_off_and_on_to_finish_">Выключите и включите модем для завершения</string>
+    <!--  Used in file PairModemActivity.java:100. Original value:Paired to:)  -->
+    <string name="string_paired_to__">Спарено</string>
+    <!--  Used in file PairModemActivity.java:125. Original value:Unpaired.  -->
+    <string name="string_unpaired_">Распарено</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:535. Original value:Load firmware  -->
+    <string name="string_load_firmware">Загрузить ПО</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:308. Original value:Can\'t connect to internal radio!  -->
+    <string name="string_can_t_connect_to_internal_radio_">Не удалось подключиться к внутреннему модему!</string>
+    <!--  Used in file FindRangefinderActivity.java:495. Original value:Conecting&#8230;  -->
+    <string name="string_conecting___">Подключение&#8230;</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:587. Original value:This firmware is  -->
+    <string name="string_this_firmware_is">Встроенное ПО </string>
+    <!--  Used in file RepeaterActivity.java:149. Original value:Reading setting&#8230;  -->
+    <string name="string_reading_setting___">Идет чтение настроек</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:750. Original value:Reset  -->
+    <string name="string_reset">Перезапуск</string>
+    <!--  Used in file RepeaterActivity.java:301. Original value:Wrong RX frequecy!  -->
+    <string name="string_wrong_rx_frequecy_">Неверная частота приема(RX)!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:633. Original value:Can\'t start firmware load  -->
+    <string name="string_can_t_start_firmware_load">Не удалось начать загрузку</string>
+    <!--  Used in file PairModemActivity.java:129. Original value:Unparing  -->
+    <string name="string_unparing">Unparing</string>
     <!--  Used in file RepeaterActivity.java:332. Original value:Wrong RX frequency!  -->
     <string name="string_wrong_rx_frequency_">Неверная частота приема (RX)!</string>
     <!--  Used in file FindRangefinderActivity.java:346. Original value:Successfully connected to %s  -->
@@ -125,10 +125,10 @@
     <string name="string_successfully_unpaired_">Распарен успешно</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:780. Original value:Rebooting %.1f  -->
     <string name="string_rebooting___1f">Перезагрузка %.1f</string>
-    <!--  Used in file FindRangefinderActivity.java:498. Original value:Cancel  -->
-    <string name="string_cancel">Отменить</string>
     <!--  Used in file PairModemActivity.java:480. Original value:Modem Bluetooth address is not obtained!  -->
     <string name="string_modem_bluetooth_address_is_not_obtained_">Не определен Bluetooth адрес модема!</string>
+    <!--  Used in file FindRangefinderActivity.java:498. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
     <!--  Used in file RepeaterActivity.java:294. Original value:Wrong TX frequecy!  -->
     <string name="string_wrong_tx_frequecy_">Неверная частота передачи (TX)!</string>
 

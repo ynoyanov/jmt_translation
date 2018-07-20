@@ -7,7 +7,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:984 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1109 -->
     <string-array name="connected_to_array_internet_maxor">
          <item>the Android device</item>
          <item>Internal GSM</item>
@@ -106,7 +106,7 @@
          <item>Until stopped manually</item>
     </string-array>
 
-    <!-- Used in file rtk_base.xml:106 -->
+    <!-- Used in file rtk_base.xml:107 -->
     <string-array name="logging_rate_array">
          <item>1 sec</item>
          <item>5 sec</item>
@@ -116,26 +116,26 @@
          <item>60 sec</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:560 -->
+    <!-- Used in file RTKSetupActivity.java:570 -->
     <string-array name="connected_to_array_radio_triumph2">
          <item>Bluetooth B</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:552 -->
+    <!-- Used in file RTKSetupActivity.java:562 -->
     <string-array name="connected_to_array_internet_gismore">
          <item>the Android device</item>
          <item>WiFi</item>
          <item>3G GISMORE</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:558 -->
+    <!-- Used in file RTKSetupActivity.java:568 -->
     <string-array name="connected_to_array_radio_triumph1">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:554 -->
+    <!-- Used in file RTKSetupActivity.java:564 -->
     <string-array name="connected_to_array_internet_sigma">
          <item>the Android device</item>
          <item>WiFi</item>
@@ -152,17 +152,17 @@
          <item>simplex</item>
     </string-array>
 
-    <!-- Used in file activity_configure_gprs.xml:53 -->
-    <string-array name="hot_start_array">
-         <item>on</item>
-         <item>off</item>
-    </string-array>
-
     <!-- Used in file rtk_base_fh.xml:22 -->
     <string-array name="fh_zones">
          <item>usa</item>
          <item>aus</item>
          <item>eu</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_gprs.xml:53 -->
+    <string-array name="hot_start_array">
+         <item>on</item>
+         <item>off</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:145 -->
@@ -171,16 +171,11 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:564 -->
-    <string-array name="connected_to_array_radio_sigma">
-         <item>Bluetooth B</item>
-         <item>Serial B</item>
-         <item>Internal radio</item>
-    </string-array>
-
-    <!-- Used in file RTKBaseSettingsFragment.java:999 -->
-    <string-array name="connected_to_array_csd_sigma">
-         <item>Internal GSM</item>
+    <!-- Used in file rtk_base.xml:123 -->
+    <string-array name="radioarray">
+         <item>Do Not Setup</item>
+         <item>FH Radio</item>
+         <item>UHF Radio</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv_base.xml:135 -->
@@ -190,11 +185,16 @@
          <item>Server</item>
     </string-array>
 
-    <!-- Used in file rtk_base.xml:122 -->
-    <string-array name="radioarray">
-         <item>Do Not Setup</item>
-         <item>FH Radio</item>
-         <item>UHF Radio</item>
+    <!-- Used in file RTKBaseSettingsFragment.java:1124 -->
+    <string-array name="connected_to_array_csd_sigma">
+         <item>Internal GSM</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:574 -->
+    <string-array name="connected_to_array_radio_sigma">
+         <item>Bluetooth B</item>
+         <item>Serial B</item>
+         <item>Internal radio</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:14 -->
@@ -203,7 +203,7 @@
          <item>Course Up</item>
     </string-array>
 
-    <!-- Used in file activity_configure_ntrip.xml:205 -->
+    <!-- Used in file activity_configure_ntrip.xml:223 -->
     <string-array name="correction_type_array">
          <item>cmd</item>
          <item>rtcm3</item>
@@ -212,12 +212,12 @@
          <item>jps</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:562 -->
+    <!-- Used in file RTKSetupActivity.java:572 -->
     <string-array name="connected_to_array_radio_gismore">
          <item>Bluetooth B</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:994 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1119 -->
     <string-array name="connected_to_array_radio_maxor">
          <item>Bluetooth B</item>
          <item>Serial A</item>
@@ -238,7 +238,9 @@
     <string-array name="base_correction_type_array">
          <item>RTCM 3.x full</item>
          <item>RTCM 3.x min</item>
-         <item>RTCM 3.x MSM</item>
+         <item>RTCM 3.x MSM full</item>
+         <item>RTCM 3.x MSM short</item>
+         <item>RTCM 3.x MSM min(GPS+GLO only)</item>
          <item>CMR</item>
          <item>CMR+</item>
          <item>JPS max</item>
@@ -254,13 +256,13 @@
          <item>easy</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:550 -->
+    <!-- Used in file RTKSetupActivity.java:560 -->
     <string-array name="connected_to_array_internet_triumph2">
          <item>the Android device</item>
          <item>WiFi Triumph-2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:548 -->
+    <!-- Used in file RTKSetupActivity.java:558 -->
     <string-array name="connected_to_array_internet_triumph1">
          <item>the Android device</item>
          <item>WiFi Triumph-1</item>
@@ -268,7 +270,7 @@
          <item>LAN Triumph-1</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1001 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1126 -->
     <string-array name="connected_to_array_csd_maxor">
          <item>Internal GSM</item>
     </string-array>
@@ -283,7 +285,7 @@
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:997 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1122 -->
     <string-array name="connected_to_array_csd_triumph1">
          <item>Internal GSM</item>
     </string-array>
@@ -357,13 +359,13 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTKActivity.java:2217 -->
+    <!-- Used in file SurveyingRTKActivity.java:2292 -->
     <string-array name="left_right_array">
          <item>Left</item>
          <item>Right</item>
     </string-array>
 
-    <!-- Used in file rtk_base.xml:123 -->
+    <!-- Used in file rtk_base.xml:124 -->
     <string-array name="radiovalues">
          <item>1</item>
          <item>2</item>
@@ -391,6 +393,11 @@
          <item>Off</item>
     </string-array>
 
+    <!-- Used in file activity_configure_fh.xml:179 -->
+    <string-array name="fh_modulcations">
+         <item>gmsk</item>
+    </string-array>
+
     <!-- Used in file activity_rtk_setup.xml:121 -->
     <string-array name="correction_source_array">
          <item>Off (no corrections)</item>
@@ -398,9 +405,10 @@
          <item>RCV server</item>
     </string-array>
 
-    <!-- Used in file activity_configure_fh.xml:179 -->
-    <string-array name="fh_modulcations">
-         <item>gmsk</item>
+    <!-- Used in file activity_stakeout_line_target.xml:21 -->
+    <string-array name="stakeout_line_mode_array">
+         <item>2 points</item>
+         <item>1 point and azimuth</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:49 -->
@@ -427,30 +435,6 @@
          <item>30.0</item>
     </string-array>
 
-    <!-- Used in file activity_stakeout_line_target.xml:21 -->
-    <string-array name="stakeout_line_mode_array">
-         <item>2 points</item>
-         <item>1 point and azimuth</item>
-    </string-array>
-
-    <!-- Used in file activity_descriptions.xml:13 -->
-    <string-array name="description_sort_array">
-         <item>sort Alphabetically</item>
-         <item>sort by Date</item>
-         <item>sort by Usage</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:190 -->
-    <string-array name="reference_frame_values_array">
-         <item>CSG_WGS_84</item>
-         <item>CSG_NAD83_2011</item>
-         <item>CSG_NAD83_PA11</item>
-         <item>CSG_NAD83_CSRS</item>
-         <item>CSG_NAD83_MA11</item>
-         <item>CSG_ETRS89</item>
-         <item>RTCM3</item>
-    </string-array>
-
     <!-- Used in file stakeout_settings.xml:65 -->
     <string-array name="occupation_time_rtk_array">
          <item>Until stopped manually</item>
@@ -472,10 +456,22 @@
          <item>500 epochs</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:177 -->
-    <string-array name="trimmark3_spacings">
-         <item>12500</item>
-         <item>25000</item>
+    <!-- Used in file stakeout_settings.xml:190 -->
+    <string-array name="reference_frame_values_array">
+         <item>CSG_WGS_84</item>
+         <item>CSG_NAD83_2011</item>
+         <item>CSG_NAD83_PA11</item>
+         <item>CSG_NAD83_CSRS</item>
+         <item>CSG_NAD83_MA11</item>
+         <item>CSG_ETRS89</item>
+         <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file activity_descriptions.xml:13 -->
+    <string-array name="description_sort_array">
+         <item>sort Alphabetically</item>
+         <item>sort by Date</item>
+         <item>sort by Usage</item>
     </string-array>
 
     <!-- Used in file activity_configure_uhf.xml:116 -->
@@ -515,6 +511,12 @@
          <item>35.00W / 45dBm</item>
     </string-array>
 
+    <!-- Used in file rtk_base_uhf.xml:177 -->
+    <string-array name="trimmark3_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
     <!-- Used in file stakeout_settings.xml:157 -->
     <string-array name="minimal_rtk_array">
          <item>0</item>
@@ -530,6 +532,28 @@
     <string-array name="wifi_security_array">
          <item>wep</item>
          <item>wap</item>
+    </string-array>
+
+    <!-- Used in file ConfigureUHFActivity.java:811 -->
+    <string-array name="uhf_output_power_1w">
+         <item>0.020W / 13dBm</item>
+         <item>0.025W / 14dBm</item>
+         <item>0.030W / 15dBm</item>
+         <item>0.040W / 16dBm</item>
+         <item>0.050W / 17dBm</item>
+         <item>0.060W / 18dBm</item>
+         <item>0.080W / 19dBm</item>
+         <item>0.100W / 20dBm</item>
+         <item>0.120W / 21dBm</item>
+         <item>0.160W / 22dBm</item>
+         <item>0.200W / 23dBm</item>
+         <item>0.250W / 24dBm</item>
+         <item>0.320W / 25dBm</item>
+         <item>0.400W / 26dBm</item>
+         <item>0.500W / 27dBm</item>
+         <item>0.630W / 28dBm</item>
+         <item>0.800W / 29dBm</item>
+         <item>1.000W / 30dBm</item>
     </string-array>
 
     <!-- Used in file offset_survey.xml:98 -->
@@ -555,25 +579,18 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:47 -->
-    <string-array name="simplex_modulations">
-         <item>dbpsk</item>
-         <item>dqpsk</item>
-         <item>d8psk</item>
-         <item>d16qam</item>
-    </string-array>
-
     <!-- Used in file rtk_base_uhf.xml:96 -->
     <string-array name="satel_spacings">
          <item>12500</item>
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:556 -->
-    <string-array name="connected_to_array_radio">
-         <item>Bluetooth B</item>
-         <item>Serial B</item>
-         <item>Internal radio</item>
+    <!-- Used in file rtk_base_uhf.xml:47 -->
+    <string-array name="simplex_modulations">
+         <item>dbpsk</item>
+         <item>dqpsk</item>
+         <item>d8psk</item>
+         <item>d16qam</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:190 -->
@@ -585,16 +602,11 @@
          <item>5 sec</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:127 -->
-    <string-array name="logging_rate_rtk_array">
-         <item>0.2 sec (5Hz)</item>
-         <item>0.5 sec (2Hz)</item>
-         <item>1 sec</item>
-         <item>5 sec</item>
-         <item>10 sec</item>
-         <item>15 sec</item>
-         <item>30 sec</item>
-         <item>60 sec</item>
+    <!-- Used in file RTKSetupActivity.java:566 -->
+    <string-array name="connected_to_array_radio">
+         <item>Bluetooth B</item>
+         <item>Serial B</item>
+         <item>Internal radio</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:28 -->
@@ -634,10 +646,39 @@
          <item>35.00W / 45dBm</item>
     </string-array>
 
+    <!-- Used in file stakeout_settings.xml:127 -->
+    <string-array name="logging_rate_rtk_array">
+         <item>0.2 sec (5Hz)</item>
+         <item>0.5 sec (2Hz)</item>
+         <item>1 sec</item>
+         <item>5 sec</item>
+         <item>10 sec</item>
+         <item>15 sec</item>
+         <item>30 sec</item>
+         <item>60 sec</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:69 -->
     <string-array name="transparent_modulations">
          <item>gmsk</item>
          <item>4fsk</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_rcv.xml:128 -->
+    <string-array name="rcv_login_array">
+         <item>Default</item>
+         <item>a</item>
+         <item>b</item>
+         <item>c</item>
+         <item>d</item>
+         <item>e</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
+    <string-array name="wifi_mode_array">
+         <item>off</item>
+         <item>on</item>
+         <item>adhoc</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:44 -->
@@ -662,36 +703,19 @@
          <item>10 m</item>
     </string-array>
 
-    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
-    <string-array name="wifi_mode_array">
-         <item>off</item>
-         <item>on</item>
-         <item>adhoc</item>
+    <!-- Used in file stakeout_settings.xml:112 -->
+    <string-array name="units_array">
+         <item>meters</item>
+         <item>US feet</item>
+         <item>Int.feet</item>
     </string-array>
 
-    <!-- Used in file activity_configure_rcv.xml:128 -->
-    <string-array name="rcv_login_array">
-         <item>Default</item>
-         <item>a</item>
-         <item>b</item>
-         <item>c</item>
-         <item>d</item>
-         <item>e</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_ntrip.xml:243 -->
+    <!-- Used in file activity_configure_ntrip.xml:261 -->
     <string-array name="aux_port_array">
          <item>dev/ser/a</item>
          <item>dev/ser/b</item>
          <item>dev/ser/c</item>
          <item>dev/ser/d</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:109 -->
-    <string-array name="units_array">
-         <item>meters</item>
-         <item>US feet</item>
-         <item>Int.feet</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:19 -->
@@ -700,23 +724,15 @@
          <item>Magnetic</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTKActivity.java:2217 -->
-    <string-array name="p1_p2_array">
-         <item>from P2</item>
-         <item>from P1</item>
-    </string-array>
-
     <!-- Used in file rtk_base_uhf.xml:156 -->
     <string-array name="trimmarkii_modulations">
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file activity_configure_gprs.xml:90 -->
-    <string-array name="registration_mode_array">
-         <item>auto</item>
-         <item>2g</item>
-         <item>3g</item>
-         <item>4g</item>
+    <!-- Used in file SurveyingRTKActivity.java:2292 -->
+    <string-array name="p1_p2_array">
+         <item>from P2</item>
+         <item>from P1</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:189 -->
@@ -730,9 +746,39 @@
          <item>RTCM3</item>
     </string-array>
 
+    <!-- Used in file activity_configure_gprs.xml:90 -->
+    <string-array name="registration_mode_array">
+         <item>auto</item>
+         <item>2g</item>
+         <item>3g</item>
+         <item>4g</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:74 -->
     <string-array name="transparent_spacings">
          <item>25000</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="fh_output_power_1w">
+         <item>0.020W / 13dBm</item>
+         <item>0.025W / 14dBm</item>
+         <item>0.030W / 15dBm</item>
+         <item>0.040W / 16dBm</item>
+         <item>0.050W / 17dBm</item>
+         <item>0.060W / 18dBm</item>
+         <item>0.080W / 19dBm</item>
+         <item>0.100W / 20dBm</item>
+         <item>0.120W / 21dBm</item>
+         <item>0.160W / 22dBm</item>
+         <item>0.200W / 23dBm</item>
+         <item>0.250W / 24dBm</item>
+         <item>0.320W / 25dBm</item>
+         <item>0.400W / 26dBm</item>
+         <item>0.500W / 27dBm</item>
+         <item>0.630W / 28dBm</item>
+         <item>0.800W / 29dBm</item>
+         <item>1.000W / 30dBm</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->

@@ -1,69 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file FileManagerActivity.java:411. Original value:Resume  -->
-    <string name="string_resume">Продолжить</string>
-    <!--  Used in file FileManagerActivity.java:709. Original value:Delete %1$d filtered files (of %2$d)  -->
-    <string name="string_delete__1_d_filtered_files__of__2_d_">Удалить %1$d отобранных файлов (из %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:859. Original value:Delete file result  -->
-    <string name="string_delete_file_result">Удаление файлов</string>
-    <!--  Used in file FileManagerActivity.java:610. Original value:Downloading&#8230;  -->
-    <string name="string_downloading___">Загрузка…</string>
-    <!--  Used in file FileManagerActivity.java:795. Original value:DELETE ALL FILES  -->
-    <string name="string_delete_all_files">УДАЛИТЬ ВСЕ ФАЙЛЫ</string>
-    <!--  Used in file FileManagerActivity.java:553. Original value:Removing&#8230;  -->
-    <string name="string_removing___">Удаление…</string>
-    <!--  Used in file FileManagerActivity.java:851. Original value:Successfully deleted all %d files  -->
-    <string name="string_successfully_deleted_all__d_files">Удалено %d файлов</string>
-    <!--  Used in file FileManagerActivity.java:228. Original value:Switch to Process  -->
-    <string name="string_switch_to_process">Перейти в Обработку</string>
-    <!--  Used in file FileManagerActivity.java:305. Original value:Memory  -->
-    <string name="string_memory">Memory</string>
-    <!--  Used in file FileManagerActivity.java:625. Original value:Downloading file %s  -->
-    <string name="string_downloading_file__s">Загружается файл %s</string>
-    <!--  Used in file FileManagerActivity.java:392. Original value:Download file  -->
-    <string name="string_download_file">Загрузить файла</string>
-    <!--  Used in file FileManagerActivity.java:855. Original value:All %d files will be deleted  -->
-    <string name="string_all__d_files_will_be_deleted">Все %d файлов удалены</string>
-    <!--  Used in file FileManagerActivity.java:775. Original value:Delete file  -->
-    <string name="string_delete_file">Удалить файл</string>
-    <!--  Used in file FileManagerActivity.java:856. Original value:Wait several minutes till receiver flashing is over!  -->
-    <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Подождите несколько минут, пока приемник перестанет моргать </string>
-    <!--  Used in file FileManagerActivity.java:776. Original value:Do you want to delete file \'%s\'?  -->
-    <string name="string_do_you_want_to_delete_file___s__">Удалить файл %s?</string>
-    <!--  Used in file FileManagerActivity.java:304. Original value:Files:  -->
-    <string name="string_files_">Files:</string>
-    <!--  Used in file FileManagerActivity.java:830. Original value:Removed file %s  -->
-    <string name="string_removed_file__s">Удален файл %s</string>
-    <!--  Used in file FileManagerActivity.java:860. Original value:Close  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file FileManagerActivity.java:715. Original value:Delete %1$d selected files (of %2$d)  -->
-    <string name="string_delete__1_d_selected_files__of__2_d_">Удалить %1$d выбранных файлов (из %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:399. Original value:Rewrite  -->
-    <string name="string_rewrite">Заново</string>
-    <!--  Used in file FileManagerActivity.java:380. Original value:loaded  -->
-    <string name="string_loaded">загружен</string>
-    <!--  Used in file FileManagerActivity.java:393. Original value:File %s already exist.\nDo you want to Rewrite it or Resume?  -->
-    <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Файл %s уже существует.\nХотите Перезаписать Заново или Продолжить?</string>
-    <!--  Used in file FileManagerActivity.java:794. Original value:DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?  -->
-    <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">ВЫ ДЕЙСТВИТЕЛЬНО ХОТИТЕ УДАЛИТЬ ВСЕ ФАЙЛЫ В ПРИЕМНИКЕ?</string>
-    <!--  Used in file FileManagerActivity.java:226. Original value:HybridRTK download  -->
-    <string name="string_hybridrtk_download">Загрузка ГибридRTK</string>
-    <!--  Used in file FileManagerActivity.java:915. Original value:No new Hybrid RTK files found!  -->
-    <string name="string_no_new_hybrid_rtk_files_found_">Не найдены файлы для HybridRTK!</string>
-    <!--  Used in file FileManagerActivity.java:305. Original value:Free:  -->
-    <string name="string_free_">Free:</string>
-    <!--  Used in file FileManagerActivity.java:227. Original value:Download of HybridRTK is over!  -->
-    <string name="string_download_of_hybridrtk_is_over_">Загрузка файлов ГибридногоRTK выполнена</string>
-    <!--  Used in file FileManagerActivity.java:777. Original value:Delete  -->
-    <string name="string_delete">Удалить</string>
-    <!--  Used in file FileManagerActivity.java:854. Original value:File system init started.  -->
-    <string name="string_file_system_init_started_">Начато форматирование файловой системы.</string>
-    <!--  Used in file FileManagerActivity.java:850. Original value:Deleted %1$d files (from %2$d)  -->
-    <string name="string_deleted__1_d_files__from__2_d_">Удалено %1$d файлов (из %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:876. Original value:Cancel  -->
-    <string name="string_cancel">Отмена</string>
-    <!--  Used in file FileManagerActivity.java:305. Original value:Total:  -->
-    <string name="string_total_">Total:</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Resume-->
+  <string name="string_resume">Продолжить</string>
+  <!--Original value: Rewrite-->
+  <string name="string_rewrite">Заново</string>
+  <!--Original value: Delete %1$d filtered files (of %2$d)-->
+  <string name="string_delete__1_d_filtered_files__of__2_d_">Удалить %1$d отобранных файлов (из %2$d)</string>
+  <!--Original value: Delete file result-->
+  <string name="string_delete_file_result">Удаление файлов</string>
+  <!--Original value: loaded-->
+  <string name="string_loaded">загружен</string>
+  <!--Original value: File %s already exist.\nDo you want to Rewrite it or Resume?-->
+  <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Файл %s уже существует.\nХотите Перезаписать Заново или Продолжить?</string>
+  <!--Original value: Downloading…-->
+  <string name="string_downloading___">Загрузка…</string>
+  <!--Original value: DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?-->
+  <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">ВЫ ДЕЙСТВИТЕЛЬНО ХОТИТЕ УДАЛИТЬ ВСЕ ФАЙЛЫ В ПРИЕМНИКЕ?</string>
+  <!--Original value: DELETE ALL FILES-->
+  <string name="string_delete_all_files">УДАЛИТЬ ВСЕ ФАЙЛЫ</string>
+  <!--Original value: Removing…-->
+  <string name="string_removing___">Удаление…</string>
+  <!--Original value: Successfully deleted all %d files-->
+  <string name="string_successfully_deleted_all__d_files">Удалено %d файлов</string>
+  <!--Original value: Switch to Process-->
+  <string name="string_switch_to_process">Перейти в Обработку</string>
+  <!--Original value: Memory-->
+  <string name="string_memory">Память</string>
+  <!--Original value: HybridRTK download-->
+  <string name="string_hybridrtk_download">Загрузка ГибридRTK</string>
+  <!--Original value: Downloading file %s-->
+  <string name="string_downloading_file__s">Загружается файл %s</string>
+  <!--Original value: No new Hybrid RTK files found!-->
+  <string name="string_no_new_hybrid_rtk_files_found_">Не найдены файлы для HybridRTK!</string>
+  <!--Original value: Download file-->
+  <string name="string_download_file">Загрузить файла</string>
+  <!--Original value: All %d files will be deleted-->
+  <string name="string_all__d_files_will_be_deleted">Все %d файлов удалены</string>
+  <!--Original value: Delete file-->
+  <string name="string_delete_file">Удалить файл</string>
+  <!--Original value: Free:-->
+  <string name="string_free_">Свободно:</string>
+  <!--Original value: Download of HybridRTK is over!-->
+  <string name="string_download_of_hybridrtk_is_over_">Загрузка файлов ГибридногоRTK выполнена</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Удалить</string>
+  <!--Original value: Wait several minutes till receiver flashing is over!-->
+  <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Подождите несколько минут, пока приемник перестанет моргать </string>
+  <!--Original value: Do you want to delete file \'%s\'?-->
+  <string name="string_do_you_want_to_delete_file___s__">Удалить файл %s?</string>
+  <!--Original value: File system init started.-->
+  <string name="string_file_system_init_started_">Начато форматирование файловой системы.</string>
+  <!--Original value: Files:-->
+  <string name="string_files_">Файлов:</string>
+  <!--Original value: Removed file %s-->
+  <string name="string_removed_file__s">Удален файл %s</string>
+  <!--Original value: Deleted %1$d files (from %2$d)-->
+  <string name="string_deleted__1_d_files__from__2_d_">Удалено %1$d файлов (из %2$d)</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отмена</string>
+  <!--Original value: Close-->
+  <string name="string_close">Закрыть</string>
+  <!--Original value: Total:-->
+  <string name="string_total_">Всего:</string>
+  <!--Original value: Delete %1$d selected files (of %2$d)-->
+  <string name="string_delete__1_d_selected_files__of__2_d_">Удалить %1$d выбранных файлов (из %2$d)</string>
 </resources>
