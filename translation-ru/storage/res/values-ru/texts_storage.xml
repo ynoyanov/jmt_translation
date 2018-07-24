@@ -137,8 +137,6 @@
   <string name="string_rtkbase">rtkбаза</string>
   <!--Original value: Scale:%.6f-->
   <string name="string_scale___6f">Масштаб:%.6f</string>
-  <!--Original value: %d survey, %d design-->
-  <string name="string__d_survey___d_design">%d снятых, %d выносных</string>
   <!--Original value: And-->
   <string name="string_and">и</string>
   <!--Original value: Inclination Martix-->
@@ -163,6 +161,8 @@
   <string name="string_use_any_epoches">Исп-ть все эпохи</string>
   <!--Original value: Manual Stop-->
   <string name="string_manual_stop">Остановка вручную</string>
+  <!--Original value: %1$d survey, %2$d design, %3$d TS-->
+  <string name="string__1_d_survey___2_d_design___3_d_ts">%1$d съемочных, %2$d выносных, %3$d тах.</string>
   <!--Original value: Wrong vertical offset!-->
   <string name="string_wrong_vertical_offset_">Неверный отступ антенны!</string>
   <!--Original value: Hybrid RTK:-->
@@ -183,8 +183,8 @@
   <string name="string_do_you_want_to_modify_antenna_and_correct_height_for_all_the_points_">Хотите изменить антенну и откоректировать высоты для всех точек?</string>
   <!--Original value: Antenna Info-->
   <string name="string_antenna_info">Антенна - полная инф.</string>
-  <!--Original value: Do you want to set description \'%s\' for all %d points?-->
-  <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Установить описание \'%s\' для всех %d точек?</string>
+  <!--Original value: Do you want to set description \'%1$s\' for all %2$d points?-->
+  <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Установить описание \'%1$s\' для всех %2$d точек?</string>
   <!--Original value: MapInfo *.mif, *.tab-->
   <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
   <!--Original value: %d points-->
@@ -293,6 +293,8 @@
   <string name="string_ascii_file___txt____sdr____">Текст.файл *.txt, *.sdr и др.</string>
   <!--Original value: Survey Points-->
   <string name="string_survey_points">Снятые точки</string>
+  <!--Original value: %1$d survey, %2$d design-->
+  <string name="string__1_d_survey___2_d_design">%1$d снятых, %2$d выносных</string>
   <!--Original value: Hybrid RTK-->
   <string name="string_hybrid_rtk">Гибридный RTK</string>
   <!--Original value: Close-->
@@ -399,10 +401,10 @@
   <string name="string_select_job">Выбрать работу</string>
   <!--Original value: All your jobs will be MOVED from javad/jobs folder to SD card.-->
   <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">Все проекты будут ПЕРЕНЕСЕНЫ из папки javad/jobs на SD-карточку и удалены из основной памяти!</string>
-  <!--Original value: Modify-->
-  <string name="string_modify">Изменить</string>
   <!--Original value: V.RMS:-->
   <string name="string_v_rms_">СКО Верт.:</string>
+  <!--Original value: Modify-->
+  <string name="string_modify">Изменить</string>
   <!--Original value: Edit %d points-->
   <string name="string_edit__d_points">Изменить %d точек</string>
   <!--Original value: Begin time-->
@@ -453,8 +455,6 @@
   <string name="string_survey_info">Информация о снятом</string>
   <!--Original value: Google KML *.kml-->
   <string name="string_google_kml___kml">Google KML *.kml</string>
-  <!--Original value: %d survey, %d design, %d TS-->
-  <string name="string__d_survey___d_design___d_ts">%1$d снятых, %2$d выносных, %3$d тах.</string>
   <!--Original value: End Time-->
   <string name="string_end_time">Время конца</string>
   <!--Original value: Inclination X-->
@@ -494,7 +494,7 @@
   <!--Original value: trajectory-->
   <string name="string_trajectory">траект.</string>
   <!--Original value: -->
-  <string name="">%d снятых, %d выносных, %d TS</string>
+  <string name="">%d снятых, %d выносных</string>
   <!--Original value: -->
-  <string name="">в работе %d точек</string>
+  <string name="">%1$d снятых, %2$d выносных, %3$d тах.</string>
 </resources>

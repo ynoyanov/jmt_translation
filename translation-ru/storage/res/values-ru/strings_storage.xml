@@ -5,7 +5,7 @@
     <string name="coordinate_wgs84">wgs84</string>
     <!-- Used in file rtkbases.xml:10. Original value:Search    -->
     <string name="action_search">Поиск</string>
-    <!-- Used in file JobActivity.java:92. Original value:Duplicate Job    -->
+    <!-- Used in file JobActivity.java:94. Original value:Duplicate Job    -->
     <string name="string_duplicate_job_xml">Создать копию проекта</string>
     <!-- Used in file RTKBasesActivity.java:87. Original value:Process    -->
     <string name="string_dpos_sort">Обработка</string>
@@ -21,13 +21,13 @@
     <string name="action_arhieve_folder">Архивация проектов</string>
     <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
     <string name="height_vertical">Верт.</string>
-    <!-- Used in file activity_job.xml:211. Original value:Show antenna vertical offset    -->
+    <!-- Used in file activity_job.xml:190. Original value:Show antenna vertical offset    -->
     <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
     <!-- Used in file activity_point_antenna.xml:88. Original value:Vertical Offset    -->
     <string name="antenna_vertical_offset">Вертикальный отступ</string>
     <!-- Used in file activity_point_antenna.xml:28. Original value:Antenna Type    -->
     <string name="antenna_type">Антенна</string>
-    <!-- Used in file JobActivity.java:94. Original value:Edit Job    -->
+    <!-- Used in file JobActivity.java:96. Original value:Edit Job    -->
     <string name="string_edit_job_xml">Правка проекта</string>
     <!-- Used in file rtkbases.xml:5. Original value:Map    -->
     <string name="action_map">Карта</string>
@@ -49,7 +49,7 @@
     <string name="string_menu_import">Импорт</string>
     <!-- Used in file list_points.xml:93. Original value:Description    -->
     <string name="string_descriptionhint">Описание</string>
-    <!-- Used in file activity_job.xml:151. Original value:Localization    -->
+    <!-- Used in file activity_job.xml:130. Original value:Localization    -->
     <string name="localization">Локализация</string>
     <!-- Used in file activity_design_point.xml:70. Original value:Code    -->
     <string name="code">Код</string>
@@ -65,6 +65,8 @@
     <string name="string_codehint">Код</string>
     <!-- Used in file TSPointsActivity.java:76. Original value:Comment    -->
     <string name="string_comment_sort">Комментарий</string>
+    <!-- Used in file null:0. Original value:%d survey, %d design, % d ts    -->
+    <string name="string__d_survey___d_design____d_ts">%1$d снятых, %2$d выносных, %3$d TS</string>
     <!-- Used in file points.xml:39. Original value:Zoom All    -->
     <string name="action_map_zoomall">Показать все</string>
     <!-- Used in file activity_archieve_folder.xml:79. Original value:Archieve to Dropbox    -->
@@ -81,20 +83,22 @@
     <string name="button_select_folder">Выбор папки</string>
     <!-- Used in file rtkbases.xml:16. Original value:Sort    -->
     <string name="action_sort">Сортировка</string>
-    <!-- Used in file activity_job.xml:192. Original value:Write to text files    -->
+    <!-- Used in file activity_job.xml:171. Original value:Write to text files    -->
     <string name="write_to_text_files">Писать в текстовые файлы</string>
     <!-- Used in file activity_point_antenna.xml:44. Original value:Antenna Height    -->
     <string name="antenna_height_storage">Высота антенны</string>
-    <!-- Used in file activity_archieve_folder.xml:25. Original value:Auto Archieve Jobs to Folder    -->
-    <string name="check_archieve_folder">Автоархивация проектов в папку</string>
     <!-- Used in file activity_archieve_folder.xml:160. Original value:Authorize OneDrive    -->
     <string name="button_authorize_onedrive">Авторизовать OneDrive</string>
-    <!-- Used in file activity_job.xml:180. Original value:Measure Units    -->
+    <!-- Used in file activity_archieve_folder.xml:25. Original value:Auto Archieve Jobs to Folder    -->
+    <string name="check_archieve_folder">Автоархивация проектов в папку</string>
+    <!-- Used in file activity_job.xml:159. Original value:Measure Units    -->
     <string name="measure_units">Единицы измерения</string>
     <!-- Used in file activity_archieve_folder.xml:168. Original value:Sync Jobs to OneDrive    -->
     <string name="button_sync_jobs_onedrive">Синхронизовать проект с OneDrive</string>
     <!-- Used in file points.xml:34. Original value:Contouring    -->
     <string name="action_contouring">Изолинии</string>
+    <!-- Used in file null:0. Original value:%d points in the job    -->
+    <string name="string__d_points_in_the_job">в работе %d точек</string>
     <!-- Used in file RTKBasesActivity.java:84. Original value:Id    -->
     <string name="string_id_sort">Id</string>
     <!-- Used in file activity_rtkbase.xml:51. Original value:Base Id    -->
@@ -107,21 +111,21 @@
     <string name="button_recalculaye">Пересчитать</string>
     <!-- Used in file design_points.xml:41. Original value:Delete All Design    -->
     <string name="action_delete_all">Удалить все выносные</string>
-    <!-- Used in file activity_archieve_folder.xml:131. Original value:Sync Jobs with GoogleDrive    -->
-    <string name="button_sync_jobs_googledrive">Синхринизовать проекты с GoogleDrive</string>
     <!-- Used in file activity_archieve_folder.xml:45. Original value:Jobs are located in folder    -->
     <string name="jobs_are_located">Файлы проектов находятся в папке</string>
+    <!-- Used in file activity_archieve_folder.xml:131. Original value:Sync Jobs with GoogleDrive    -->
+    <string name="button_sync_jobs_googledrive">Синхринизовать проекты с GoogleDrive</string>
     <!-- Used in file design_points.xml:53. Original value:Export    -->
     <string name="string_menu_export">Экспорт</string>
     <!-- Used in file activity_archieve_folder.xml:123. Original value:Authorize GoogleDrive    -->
     <string name="button_authorize_googledrive">Авторизация GoogleDrive</string>
-    <!-- Used in file JobActivity.java:90. Original value:New Job    -->
+    <!-- Used in file JobActivity.java:92. Original value:New Job    -->
     <string name="string_new_job">Новый проект</string>
     <!-- Used in file activity_point.xml:242. Original value:SurveyInfo:\n\n    -->
     <string name="survey_info">Съем.Информация:\n\n</string>
     <!-- Used in file activity_design_points.xml:16. Original value:Search    -->
     <string name="search_hint">Поиск</string>
-    <!-- Used in file activity_job.xml:130. Original value:Coordinate System    -->
+    <!-- Used in file activity_job.xml:109. Original value:Coordinate System    -->
     <string name="coordinate_system">Система координат</string>
     <!-- Used in file activity_archieve_folder.xml:85. Original value:Authorize Dropbox    -->
     <string name="button_authorize_dropbox">Авторизация в Dropbox</string>
@@ -141,10 +145,10 @@
     <string name="job_surveyor">Съемщик</string>
     <!-- Used in file activity_archieve_folder.xml:18. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
     <string name="archieve_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
-    <!-- Used in file activity_rtkbase.xml:184. Original value:Antenna    -->
-    <string name="button_antenna">Антенна</string>
     <!-- Used in file activity_archieve_folder.xml:117. Original value:Archieve GoogleDrive    -->
     <string name="archive_googledrive">Архивировать в GoogleDrive</string>
+    <!-- Used in file activity_rtkbase.xml:184. Original value:Antenna    -->
+    <string name="button_antenna">Антенна</string>
     <!-- Used in file activity_job.xml:30. Original value:Name    -->
     <string name="job_name">Имя</string>
     <!-- Used in file jobs.xml:50. Original value:Delete    -->
