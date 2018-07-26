@@ -25,8 +25,6 @@
     <string name="string_h_rms_">H.RMS:</string>
     <!--  Used in file SurveyPointsActivity.java:348  -->
     <string name="string_view_images_audios">View Images/Audios</string>
-    <!--  Used in file SurveyPointActivity.java:877  -->
-    <string name="string__d_changed_ok_n_d_can_t_be_changed_">%d changed ok\n%d can\'t be changed!</string>
     <!--  Used in file DesignPointActivity.java:234  -->
     <string name="string_point_name_is_empty_">Point name is empty!</string>
     <!--  Used in file SurveyPointActivity.java:336  -->
@@ -61,6 +59,8 @@
     <string name="string_satellites">Satellites</string>
     <!--  Used in file ExportAndReport.java:2460  -->
     <string name="string_share_file_with">Share file with</string>
+    <!--  Used in file SurveyPointActivity.java:877  -->
+    <string name="string__1_d_changed_ok_n_2_d_can_t_be_changed_">%1$d changed ok\n%2$d can\'t be changed!</string>
     <!--  Used in file JavadImport.java:233  -->
     <string name="string_imported_ok">Imported OK</string>
     <!--  Used in file ArchieveJobFolderActivity.java:982  -->
@@ -95,8 +95,6 @@
     <string name="string_satellite_count">Satellite Count</string>
     <!--  Used in file SurveyPointAntennaActivity.java:111  -->
     <string name="string_error">Error</string>
-    <!--  Used in file TSPointsActivity.java:362  -->
-    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Point %1$s was successfully added into catalog %2$s</string>
     <!--  Used in file SurveyPointAntennaActivity.java:149  -->
     <string name="string_antenna_id_is_not_selected_">Antenna Id is not selected!</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:133  -->
@@ -123,12 +121,12 @@
     <string name="string_and">And</string>
     <!--  Used in file SurveyPoint.java:211  -->
     <string name="string_inclination_martix">Inclination Martix</string>
-    <!--  Used in file SurveyPointActivity.java:840  -->
-    <string name="string_do_you_want_to_set_description___s__and_code___s__for_all__d_points_">Do you want to set description \'%s\' and code \'%s\' for all %d points?</string>
     <!--  Used in file ExportAndReport.java:146  -->
     <string name="string_mapinfo___tab">MapInfo *.tab</string>
     <!--  Used in file SurveyPointAntennaActivity.java:162  -->
     <string name="string_wrong_slant_height_">Wrong slant height!</string>
+    <!--  Used in file SurveyPointActivity.java:836  -->
+    <string name="string_do_you_want_to_set_code___1_s__for_all__2_d_points_">Do you want to set code \'%1%s\' for all %2$d points?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:64  -->
     <string name="string_pdop">PDOP</string>
     <!--  Used in file ArchieveJobFolderActivity.java:950  -->
@@ -147,6 +145,8 @@
     <string name="string__1_d_survey___2_d_design___3_d_ts">%1$d survey, %2$d design, %3$d TS</string>
     <!--  Used in file SurveyPointAntennaActivity.java:169  -->
     <string name="string_wrong_vertical_offset_">Wrong vertical offset!</string>
+    <!--  Used in file SurveyPointActivity.java:840  -->
+    <string name="string_do_you_want_to_set_description___1_s__and_code___2_s__for_all__3_d_points_">Do you want to set description \'%1$s\' and code \'%2$s\' for all %3$d points?</string>
     <!--  Used in file SurveyPointActivity.java:358  -->
     <string name="string_hybrid_rtk_">Hybrid RTK:</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:97  -->
@@ -165,8 +165,6 @@
     <string name="string_do_you_want_to_modify_antenna_and_correct_height_for_all_the_points_">Do you want to modify antenna and correct height for all the points?</string>
     <!--  Used in file SurveyObject.java:205  -->
     <string name="string_antenna_info">Antenna Info</string>
-    <!--  Used in file SurveyPointActivity.java:838  -->
-    <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Do you want to set description \'%1$s\' for all %2$d points?</string>
     <!--  Used in file DesignPointsActivity.java:122  -->
     <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!--  Used in file SurveyPointActivity.java:466  -->
@@ -221,7 +219,7 @@
     <string name="string_engine_count">Engine Count</string>
     <!--  Used in file JobActivity.java:489  -->
     <string name="string_ah___3f">AH:%.3f</string>
-    <!--  Used in file DesignPointsActivity.java:366  -->
+    <!--  Used in file TSPointsActivity.java:362  -->
     <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Point %1$s was successfully added into catalog %2$s</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:74  -->
     <string name="string_unprocessed">Unprocessed</string>
@@ -229,8 +227,6 @@
     <string name="string_time_">Time:</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:152  -->
     <string name="string_sn">SN</string>
-    <!--  Used in file SurveyPointActivity.java:836  -->
-    <string name="string_do_you_want_to_set_code___s__for_all__d_points_">Do you want to set code \'%s\' for all %d points?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:73  -->
     <string name="string_filename">Jps file</string>
     <!--  Used in file JobActivity.java:501  -->
@@ -301,6 +297,8 @@
     <string name="string_auth_with_">Auth.with </string>
     <!--  Used in file ArchieveJobFolderActivity.java:947  -->
     <string name="string_warning_">Warning!</string>
+    <!--  Used in file SurveyPointsCoordinateAdapter.java:67  -->
+    <string name="string_aver__s">Aver.%s</string>
     <!--  Used in file DesignPointsActivity.java:126  -->
     <string name="string_credo___top">Credo *.top</string>
     <!--  Used in file ArchieveJobFolderActivity.java:1046  -->
@@ -391,6 +389,8 @@
     <string name="string_edit__d_points">Edit %d points</string>
     <!--  Used in file JobActivity.java:186  -->
     <string name="string_begin_time">Begin time</string>
+    <!--  Used in file SurveyPointActivity.java:838  -->
+    <string name="string_do_you_want_to_set_description___1_s__for_all__2_d_points_">Do you want to set description \'%1$s\' for all %2$d points?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:151  -->
     <string name="string_id">Base Id</string>
     <!--  Used in file JobActivity.java:508  -->
@@ -473,7 +473,7 @@
     <string name="string_stakeout_dh">Stakeout dH</string>
     <!--  Used in file TSPointsActivity.java:279  -->
     <string name="string_view_edit_point">View/Edit point</string>
-    <!--  Used in file SurveyPointsActivity.java:264  -->
+    <!--  Used in file SurveyPointsCoordinateAdapter.java:93  -->
     <string name="string_trajectory">trajectory</string>
 
 </resources>

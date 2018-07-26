@@ -1,170 +1,153 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file activity_point.xml:203. Original value:Wgs84    -->
+    <string name="coordinate_wgs84">Wgs84</string>
+    <!-- Used in file rtkbases.xml:10. Original value:Search    -->
+    <string name="action_search">Szukaj</string>
+    <!-- Used in file JobActivity.java:96. Original value:Duplicate Job    -->
+    <string name="string_duplicate_job_xml">Duplikuj Projekt</string>
+    <!-- Used in file RTKBasesActivity.java:87. Original value:Process    -->
+    <string name="string_dpos_sort">Przetwarzaj</string>
+    <!-- Used in file activity_archieve_folder.xml:93. Original value:Sync Jobs with Dropbox    -->
+    <string name="button_sync_jobs_dropbox">Synchronizuj z DropBox</string>
+    <!-- Used in file activity_job.xml:70. Original value:Organization    -->
+    <string name="job_organization">Organizacja</string>
+    <!-- Used in file TSPointsActivity.java:72. Original value:Name    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_rtkbase.xml:241. Original value:Restore    -->
+    <string name="button_reset_vb_rtk">Przywróć</string>
+    <!-- Used in file jobs.xml:45. Original value:Archieve Folder    -->
+    <string name="action_arhieve_folder">Archiwizuj katalog</string>
+    <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
+    <string name="height_vertical">Pionowo</string>
+    <!-- Used in file activity_job.xml:190. Original value:Show antenna vertical offset    -->
+    <string name="show_antenna_offsets">Pokaż offset anteny</string>
+    <!-- Used in file activity_point_antenna.xml:88. Original value:Vertical Offset    -->
+    <string name="antenna_vertical_offset">Offset pionowy</string>
+    <!-- Used in file activity_point_antenna.xml:28. Original value:Antenna Type    -->
+    <string name="antenna_type">Typ anteny</string>
+    <!-- Used in file JobActivity.java:98. Original value:Edit Job    -->
+    <string name="string_edit_job_xml">Edycja projektu</string>
+    <!-- Used in file rtkbases.xml:5. Original value:Map    -->
+    <string name="action_map">Mapa</string>
+    <!-- Used in file TSPointsActivity.java:75. Original value:Code    -->
+    <string name="string_code_sort">Kod</string>
+    <!-- Used in file jobs.xml:35. Original value:Import    -->
+    <string name="action_import">Import</string>
+    <!-- Used in file activity_archieve_folder.xml:154. Original value:Archieve to OneDrive    -->
+    <string name="archive_onedrive">Archiwizuj na OneDrive</string>
+    <!-- Used in file activity_design_point.xml:30. Original value:Name    -->
+    <string name="point_name">Nazwa</string>
+    <!-- Used in file activity_point_antenna.xml:79. Original value:Slant    -->
+    <string name="height_slant">Skos</string>
+    <!-- Used in file activity_design_point.xml:130. Original value:Height    -->
+    <string name="height">Wys.</string>
+    <!-- Used in file activity_design_point.xml:50. Original value:Descr.    -->
+    <string name="description">Opis.</string>
+    <!-- Used in file design_points.xml:45. Original value:Import    -->
+    <string name="string_menu_import">Import</string>
+    <!-- Used in file list_points.xml:93. Original value:Description    -->
+    <string name="string_descriptionhint">Opis</string>
+    <!-- Used in file activity_job.xml:130. Original value:Localization    -->
+    <string name="localization">Lokalizacja</string>
+    <!-- Used in file activity_design_point.xml:70. Original value:Code    -->
+    <string name="code">Kod</string>
+    <!-- Used in file rtkbases.xml:22. Original value:Calendar    -->
+    <string name="action_calendar">Kalendarz</string>
+    <!-- Used in file activity_rtkbase.xml:136. Original value:Ref.Frame    -->
+    <string name="string_reference_frame">Ref.Frame</string>
+    <!-- Used in file activity_rtkbase.xml:197. Original value:Jps file    -->
+    <string name="string_filename_xml">Jps file</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:storage    -->
+    <string name="app_name">pamięć</string>
+    <!-- Used in file list_points.xml:66. Original value:Code    -->
+    <string name="string_codehint">Kod</string>
+    <!-- Used in file TSPointsActivity.java:76. Original value:Comment    -->
+    <string name="string_comment_sort">Notatka</string>
+    <!-- Used in file points.xml:39. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Powiększ wszystko</string>
+    <!-- Used in file activity_archieve_folder.xml:79. Original value:Archieve to Dropbox    -->
+    <string name="archive_dropbox">Archiwizuj na Dropbox</string>
+    <!-- Used in file activity_point.xml:210. Original value:Origin    -->
+    <string name="coordinate_origin">Punkt główny</string>
+    <!-- Used in file activity_rtkbase.xml:250. Original value:Modify    -->
+    <string name="button_modify">Zmień</string>
+    <!-- Used in file TSPointsActivity.java:74. Original value:Time    -->
+    <string name="string_time_sort">Czas</string>
+    <!-- Used in file RTKBasesActivity.java:86. Original value:Filename    -->
+    <string name="string_filename_sort">Nazwa</string>
+    <!-- Used in file activity_archieve_folder.xml:37. Original value:Select folder    -->
+    <string name="button_select_folder">Wybierz katalog</string>
+    <!-- Used in file rtkbases.xml:16. Original value:Sort    -->
+    <string name="action_sort">Sortuj</string>
+    <!-- Used in file activity_job.xml:171. Original value:Write to text files    -->
+    <string name="write_to_text_files">Zapis do pliku txt</string>
+    <!-- Used in file activity_point_antenna.xml:44. Original value:Antenna Height    -->
+    <string name="antenna_height_storage">Wys anteny</string>
+    <!-- Used in file activity_archieve_folder.xml:160. Original value:Authorize OneDrive    -->
+    <string name="button_authorize_onedrive">Autoryzacja OneDrive</string>
+    <!-- Used in file activity_archieve_folder.xml:25. Original value:Auto Archieve Jobs to Folder    -->
+    <string name="check_archieve_folder">Automatyczna archiwizacja do katalogu</string>
+    <!-- Used in file activity_job.xml:159. Original value:Measure Units    -->
+    <string name="measure_units">Jednostki</string>
+    <!-- Used in file activity_archieve_folder.xml:168. Original value:Sync Jobs to OneDrive    -->
+    <string name="button_sync_jobs_onedrive">Synchronizuj z OneDrive</string>
+    <!-- Used in file points.xml:34. Original value:Contouring    -->
+    <string name="action_contouring">Warstwice</string>
+    <!-- Used in file RTKBasesActivity.java:84. Original value:Id    -->
+    <string name="string_id_sort">Id</string>
+    <!-- Used in file activity_rtkbase.xml:51. Original value:Base Id    -->
+    <string name="string_base_id">ID Bazy</string>
+    <!-- Used in file activity_point.xml:217. Original value:VRS(NEH)    -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file jobs.xml:40. Original value:Receive    -->
+    <string name="action_receive">Odbierz</string>
+    <!-- Used in file activity_point_antenna.xml:107. Original value:Recalculate    -->
+    <string name="button_recalculaye">Przelicz</string>
+    <!-- Used in file design_points.xml:41. Original value:Delete All Design    -->
+    <string name="action_delete_all">Usuń wszystkie</string>
+    <!-- Used in file activity_archieve_folder.xml:45. Original value:Jobs are located in folder    -->
+    <string name="jobs_are_located">Projekty znajdują się w katalogu</string>
+    <!-- Used in file activity_archieve_folder.xml:131. Original value:Sync Jobs with GoogleDrive    -->
+    <string name="button_sync_jobs_googledrive">Synchronizuj z GoogleDrive</string>
+    <!-- Used in file design_points.xml:53. Original value:Export    -->
+    <string name="string_menu_export">Eksport</string>
+    <!-- Used in file activity_archieve_folder.xml:123. Original value:Authorize GoogleDrive    -->
+    <string name="button_authorize_googledrive">Autoryzacja GoogleDrive</string>
+    <!-- Used in file JobActivity.java:94. Original value:New Job    -->
+    <string name="string_new_job">Nowy Projekt</string>
+    <!-- Used in file activity_point.xml:248. Original value:SurveyInfo:\n\n    -->
+    <string name="survey_info">SurveyInfo:\n\n</string>
+    <!-- Used in file activity_design_points.xml:16. Original value:Search    -->
+    <string name="search_hint">Szukaj</string>
+    <!-- Used in file activity_job.xml:109. Original value:Coordinate System    -->
+    <string name="coordinate_system">Układ współrzędnych</string>
+    <!-- Used in file activity_archieve_folder.xml:85. Original value:Authorize Dropbox    -->
+    <string name="button_authorize_dropbox">Autoryzacja Dropbox</string>
+    <!-- Used in file activity_point_antenna.xml:64. Original value:Height Type    -->
+    <string name="height_type">Typ wysokości</string>
+    <!-- Used in file activity_design_point.xml:90. Original value:North    -->
+    <string name="north">Północ</string>
+    <!-- Used in file activity_job.xml:90. Original value:Comment    -->
+    <string name="job_comment">Notatka</string>
+    <!-- Used in file jobs.xml:5. Original value:Add    -->
+    <string name="action_add">Dodaj</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:104. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey">Lift&amp;Tilt</string>
+    <!-- Used in file activity_design_point.xml:110. Original value:East    -->
+    <string name="east">Wschód</string>
+    <!-- Used in file activity_job.xml:50. Original value:Surveyor    -->
+    <string name="job_surveyor">Operator</string>
+    <!-- Used in file activity_archieve_folder.xml:18. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
+    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <!-- Used in file activity_archieve_folder.xml:117. Original value:Archieve GoogleDrive    -->
+    <string name="archive_googledrive">Archiwizuj na GoogleDrive</string>
+    <!-- Used in file activity_rtkbase.xml:184. Original value:Antenna    -->
+    <string name="button_antenna">Antena</string>
+    <!-- Used in file activity_job.xml:30. Original value:Name    -->
+    <string name="job_name">Nazwa</string>
+    <!-- Used in file jobs.xml:50. Original value:Delete    -->
+    <string name="action_delete">Usuń</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Wgs84-->
-  <string name="coordinate_wgs84">Wgs84</string>
-  <!--Original value: Search-->
-  <string name="action_search">Szukaj</string>
-  <!--Original value: Duplicate Job-->
-  <string name="string_duplicate_job_xml">Duplikuj Projekt</string>
-  <!--Original value: Process-->
-  <string name="string_dpos_sort">Przetwarzaj</string>
-  <!--Original value: Sync Jobs with Dropbox-->
-  <string name="button_sync_jobs_dropbox">Synchronizuj z DropBox</string>
-  <!--Original value: Organization-->
-  <string name="job_organization">Organizacja</string>
-  <!--Original value: Name-->
-  <string name="string_name_sort">Name</string>
-  <!--Original value: Restore-->
-  <string name="button_reset_vb_rtk">Przywróć</string>
-  <!--Original value: Archieve Folder-->
-  <string name="action_arhieve_folder">Archiwizuj katalog</string>
-  <!--Original value: Vertical-->
-  <string name="height_vertical">Pionowo</string>
-  <!--Original value: Show antenna vertical offset-->
-  <string name="show_antenna_offsets">Pokaż offset anteny</string>
-  <!--Original value: Vertical Offset-->
-  <string name="antenna_vertical_offset">Offset pionowy</string>
-  <!--Original value: Antenna Type-->
-  <string name="antenna_type">Typ anteny</string>
-  <!--Original value: Edit Job-->
-  <string name="string_edit_job_xml">Edycja projektu</string>
-  <!--Original value: Map-->
-  <string name="action_map">Mapa</string>
-  <!--Original value: Code-->
-  <string name="string_code_sort">Kod</string>
-  <!--Original value: Import-->
-  <string name="action_import">Import</string>
-  <!--Original value: Archieve to OneDrive-->
-  <string name="archive_onedrive">Archiwizuj na OneDrive</string>
-  <!--Original value: Name-->
-  <string name="point_name">Nazwa</string>
-  <!--Original value: Slant-->
-  <string name="height_slant">Skos</string>
-  <!--Original value: Height-->
-  <string name="height">Wys.</string>
-  <!--Original value: Descr.-->
-  <string name="description">Opis.</string>
-  <!--Original value: Import-->
-  <string name="string_menu_import">Import</string>
-  <!--Original value: Description-->
-  <string name="string_descriptionhint">Opis</string>
-  <!--Original value: Localization-->
-  <string name="localization">Lokalizacja</string>
-  <!--Original value: Code-->
-  <string name="code">Kod</string>
-  <!--Original value: Calendar-->
-  <string name="action_calendar">Kalendarz</string>
-  <!--Original value: Ref.Frame-->
-  <string name="string_reference_frame">Ref.Frame</string>
-  <!--Original value: Jps file-->
-  <string name="string_filename_xml">Jps file</string>
-  <!--Original value: storage-->
-  <string name="app_name">pamięć</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Kod</string>
-  <!--Original value: Comment-->
-  <string name="string_comment_sort">Notatka</string>
-  <!--Original value: Zoom All-->
-  <string name="action_map_zoomall">Powiększ wszystko</string>
-  <!--Original value: Archieve to Dropbox-->
-  <string name="archive_dropbox">Archiwizuj na Dropbox</string>
-  <!--Original value: Origin-->
-  <string name="coordinate_origin">Punkt główny</string>
-  <!--Original value: Modify-->
-  <string name="button_modify">Zmień</string>
-  <!--Original value: Time-->
-  <string name="string_time_sort">Czas</string>
-  <!--Original value: Filename-->
-  <string name="string_filename_sort">Nazwa</string>
-  <!--Original value: Select folder-->
-  <string name="button_select_folder">Wybierz katalog</string>
-  <!--Original value: Sort-->
-  <string name="action_sort">Sortuj</string>
-  <!--Original value: Write to text files-->
-  <string name="write_to_text_files">Zapis do pliku txt</string>
-  <!--Original value: Antenna Height-->
-  <string name="antenna_height_storage">Wys anteny</string>
-  <!--Original value: Auto Archieve Jobs to Folder-->
-  <string name="check_archieve_folder">Automatyczna archiwizacja do katalogu</string>
-  <!--Original value: Authorize OneDrive-->
-  <string name="button_authorize_onedrive">Autoryzacja OneDrive</string>
-  <!--Original value: Measure Units-->
-  <string name="measure_units">Jednostki</string>
-  <!--Original value: Sync Jobs to OneDrive-->
-  <string name="button_sync_jobs_onedrive">Synchronizuj z OneDrive</string>
-  <!--Original value: Contouring-->
-  <string name="action_contouring">Warstwice</string>
-  <!--Original value: Id-->
-  <string name="string_id_sort">Id</string>
-  <!--Original value: Base Id-->
-  <string name="string_base_id">ID Bazy</string>
-  <!--Original value: VRS(NEH)-->
-  <string name="coordinate_neh">VRS(NEH)</string>
-  <!--Original value: Receive-->
-  <string name="action_receive">Odbierz</string>
-  <!--Original value: Recalculate-->
-  <string name="button_recalculaye">Przelicz</string>
-  <!--Original value: Delete All Design-->
-  <string name="action_delete_all">Usuń wszystkie</string>
-  <!--Original value: Sync Jobs with GoogleDrive-->
-  <string name="button_sync_jobs_googledrive">Synchronizuj z GoogleDrive</string>
-  <!--Original value: Jobs are located in folder-->
-  <string name="jobs_are_located">Projekty znajdują się w katalogu</string>
-  <!--Original value: Export-->
-  <string name="string_menu_export">Eksport</string>
-  <!--Original value: Authorize GoogleDrive-->
-  <string name="button_authorize_googledrive">Autoryzacja GoogleDrive</string>
-  <!--Original value: New Job-->
-  <string name="string_new_job">Nowy Projekt</string>
-  <!--Original value: SurveyInfo:\n\n-->
-  <string name="survey_info">SurveyInfo:\n\n</string>
-  <!--Original value: Search-->
-  <string name="search_hint">Szukaj</string>
-  <!--Original value: Coordinate System-->
-  <string name="coordinate_system">Układ współrzędnych</string>
-  <!--Original value: Authorize Dropbox-->
-  <string name="button_authorize_dropbox">Autoryzacja Dropbox</string>
-  <!--Original value: Height Type-->
-  <string name="height_type">Typ wysokości</string>
-  <!--Original value: North-->
-  <string name="north">Północ</string>
-  <!--Original value: Comment-->
-  <string name="job_comment">Notatka</string>
-  <!--Original value: Add-->
-  <string name="action_add">Dodaj</string>
-  <!--Original value: Lift&Tilt Survey-->
-  <string name="string_lift_tilt_survey">Lift&amp;Tilt</string>
-  <!--Original value: East-->
-  <string name="east">Wschód</string>
-  <!--Original value: Surveyor-->
-  <string name="job_surveyor">Operator</string>
-  <!--Original value: Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.-->
-  <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
-  <!--Original value: Antenna-->
-  <string name="button_antenna">Antena</string>
-  <!--Original value: Archieve GoogleDrive-->
-  <string name="archive_googledrive">Archiwizuj na GoogleDrive</string>
-  <!--Original value: Name-->
-  <string name="job_name">Nazwa</string>
-  <!--Original value: Delete-->
-  <string name="action_delete">Usuń</string>
 </resources>
