@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file SaveLocalizationParametersActivity.java:223. Original value:Rewrite CS  -->
+    <!--  Used in file SaveLocalizationParametersActivity.java:235. Original value:Rewrite CS  -->
     <string name="string_rewrite_cs">Перезаписать СК</string>
     <!--  Used in file IdenticalPointListAdapter.java:185. Original value:East Ground  -->
     <string name="string_east_ground">Восток на местности</string>
@@ -11,7 +11,7 @@
     <string name="string_localization_changed">Локализация изменена</string>
     <!--  Used in file IdenticalPointListAdapter.java:1303. Original value:problem with transformation  -->
     <string name="string_problem_with_transformation">проблема с транфсормацией</string>
-    <!--  Used in file CoordinateSystemsActivity.java:134. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?  -->
+    <!--  Used in file CoordinateSystemsActivity.java:141. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?  -->
     <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Хотите установить новую СК \'%1$s\' для текущего проекта \'%2$s\'?</string>
     <!--  Used in file CSListActivity.java:148. Original value:Redownload  -->
     <string name="string_redownload">Загрузить</string>
@@ -19,25 +19,25 @@
     <string name="string_delete_points__s">Удалить точку %s</string>
     <!--  Used in file IdenticalPointsActivity.java:342. Original value:Delete %1$d filtered Points (of %2$d)  -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">Удалить %1$d отобранных точке (из %2$d)</string>
-    <!--  Used in file CoordinateSystemsActivity.java:141. Original value:Can\'t create coordinate system!  -->
+    <!--  Used in file CoordinateSystemsActivity.java:148. Original value:Can\'t create coordinate system!  -->
     <string name="string_can_t_create_coordinate_system_">Не удалось создать систему координат!</string>
     <!--  Used in file UserCSPreferenceFragment.java:326. Original value:Name is empty!  -->
     <string name="string_name_is_empty_">Имя пустое!</string>
-    <!--  Used in file CoordinateSystemsActivity.java:284. Original value:Delete %1$d filtered CSes (of %2$d)  -->
+    <!--  Used in file CoordinateSystemsActivity.java:291. Original value:Delete %1$d filtered CSes (of %2$d)  -->
     <string name="string_delete__1_d_filtered_cses__of__2_d_">Удалить %1$d отобранных СК (из %2$d)</string>
-    <!--  Used in file CoordinateSystemsActivity.java:295. Original value:Close  -->
+    <!--  Used in file CoordinateSystemsActivity.java:302. Original value:Close  -->
     <string name="string_close">Закрыть</string>
     <!--  Used in file IdenticalPointListAdapter.java:1301. Original value:nothing to compute  -->
     <string name="string_nothing_to_compute">нет данных для вычислений</string>
     <!--  Used in file IdenticalPointListAdapter.java:188. Original value:Height Offset  -->
     <string name="string_height_offset">Отступ по высоте</string>
-    <!--  Used in file CoordinateSystemsActivity.java:268. Original value:Select CS  -->
+    <!--  Used in file CoordinateSystemsActivity.java:275. Original value:Select CS  -->
     <string name="string_select_cs">Выбор СК</string>
     <!--  Used in file IdenticalPointsActivity.java:149. Original value:Return and lost  -->
     <string name="string_return_and_lost">Вернуться и отменить изменения</string>
     <!--  Used in file IdenticalPointListAdapter.java:182. Original value:North Ground  -->
     <string name="string_north_ground">Север наземный</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:220. Original value:CS with such name already exist!  -->
+    <!--  Used in file SaveLocalizationParametersActivity.java:232. Original value:CS with such name already exist!  -->
     <string name="string_cs_with_such_name_already_exist_">СК с таким именем уже существует!</string>
     <!--  Used in file UserCSPreferenceFragment.java:258. Original value:Datum:  -->
     <string name="string_datum_">Датум:</string>
@@ -51,7 +51,7 @@
     <string name="string_center">Центр</string>
     <!--  Used in file CSPreferenceFragment.java:309. Original value:Push to choose from list  -->
     <string name="string_push_to_choose_from_list">Нажмите для выбора из списка</string>
-    <!--  Used in file CoordinateSystemsActivity.java:222. Original value:CSes  -->
+    <!--  Used in file CoordinateSystemsActivity.java:229. Original value:CSes  -->
     <string name="string_cses">СК</string>
     <!--  Used in file CSPreferenceFragment.java:107. Original value:Elipsoidal Height  -->
     <string name="string_elipsoidal_height">Эллипоидальная высота</string>
@@ -59,13 +59,13 @@
     <string name="string_error">Ошибка</string>
     <!--  Used in file IdenticalPointsActivity.java:110. Original value:Do you want to delete localization?  -->
     <string name="string_do_you_want_to_delete_localization_">Удалить локализацию?</string>
-    <!--  Used in file CoordinateSystemsActivity.java:217. Original value:CS  -->
+    <!--  Used in file CoordinateSystemsActivity.java:224. Original value:CS  -->
     <string name="string_cs">СК</string>
     <!--  Used in file UserCSPreferenceFragment.java:452. Original value:User-to-WGS84  -->
     <string name="string_user_to_wgs84">Пользов.-к-WGS84</string>
     <!--  Used in file IdenticalPointListAdapter.java:1304. Original value:points are to close each other  -->
     <string name="string_points_are_to_close_each_other">точки слишком близко друг к другу</string>
-    <!--  Used in file CoordinateSystemsActivity.java:133. Original value:Confirm  -->
+    <!--  Used in file CoordinateSystemsActivity.java:140. Original value:Confirm  -->
     <string name="string_confirm">Подтверждение</string>
     <!--  Used in file IdenticalPointsActivity.java:294. Original value:Identical Point  -->
     <string name="string_identical_point">Идентичная точка</string>
@@ -87,43 +87,49 @@
     <string name="string_can_t_show_the_settings_">Не удалось показать настройки!</string>
     <!--  Used in file IdenticalPointsActivity.java:129. Original value:Can\'t delete the localization!  -->
     <string name="string_can_t_delete_the_localization_">Не удалось удалить локализацию!</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:211. Original value:Wrong vertical offset!  -->
+    <string name="string_wrong_vertical_offset_">Wrong vertical offset!</string>
     <!--  Used in file IdenticalPointListAdapter.java:1312. Original value:wrong parameters were computed  -->
     <string name="string_wrong_parameters_were_computed">получены неверные парамметры</string>
-    <!--  Used in file CoordinateSystemsActivity.java:273. Original value:View CS Info  -->
+    <!--  Used in file CoordinateSystemsActivity.java:280. Original value:View CS Info  -->
     <string name="string_view_cs_info">Просмотр СК</string>
     <!--  Used in file IdenticalPointsActivity.java:436. Original value:Localization successfully imported  -->
     <string name="string_localization_successfully_imported">Локализация успешно загружена</string>
     <!--  Used in file IdenticalPointsActivity.java:118. Original value:Can\'t delete localization  -->
     <string name="string_can_t_delete_localization">Не удалось удалить локализацию!</string>
-    <!--  Used in file CoordinateSystemsActivity.java:278. Original value:Delete CS %s  -->
+    <!--  Used in file CoordinateSystemsActivity.java:285. Original value:Delete CS %s  -->
     <string name="string_delete_cs__s">Удалить СК %s</string>
     <!--  Used in file UserCSPreferenceFragment.java:452. Original value:WGS84-to-User  -->
     <string name="string_wgs84_to_user">WGS84-к-Пользов.</string>
-    <!--  Used in file CoordinateSystemsActivity.java:290. Original value:Delete %1$d selected CSes (of %2$d)  -->
+    <!--  Used in file CoordinateSystemsActivity.java:297. Original value:Delete %1$d selected CSes (of %2$d)  -->
     <string name="string_delete__1_d_selected_cses__of__2_d_">Удалить %1$d выбранных СК (из %2$d)</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:203. Original value:Wrong scale difference!  -->
+    <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
     <!--  Used in file IdenticalPointListAdapter.java:175. Original value:Rotation  -->
     <string name="string_rotation">Поворот</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:195. Original value:Wrong scale difference!  -->
-    <string name="string_wrong_scale_difference_">Неверный масштаб!</string>
     <!--  Used in file IdenticalPointsActivity.java:148. Original value:Localization was changed and not saved!  -->
     <string name="string_localization_was_changed_and_not_saved_">Локализаця была изменена, но не сохранена!</string>
     <!--  Used in file UserCSPreferenceFragment.java:482. Original value:Ellipsoidal Height  -->
     <string name="string_ellipsoidal_height">Эллипсоидальная высота</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:185. Original value:Wrong east!  -->
+    <string name="string_wrong_east_">Wrong east!</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:179. Original value:Wrong north!  -->
+    <string name="string_wrong_north_">Wrong north!</string>
     <!--  Used in file IdenticalPointsActivity.java:299. Original value:Identical Points  -->
     <string name="string_identical_points">Локализация</string>
-    <!--  Used in file CoordinateSystemsActivity.java:271. Original value:Edit user CS  -->
+    <!--  Used in file CoordinateSystemsActivity.java:278. Original value:Edit user CS  -->
     <string name="string_edit_user_cs">Правка СК пользователя</string>
     <!--  Used in file IdenticalPointsActivity.java:48. Original value:Save  -->
     <string name="string_save">Сохранить</string>
+    <!--  Used in file CoordinateSystemsActivity.java:271. Original value:Change job CS  -->
+    <string name="string_change_job_cs">Изменить СК проекта</string>
     <!--  Used in file UserCSPreferenceFragment.java:241. Original value:Ellipsoid:  -->
     <string name="string_ellipsoid_">Эллипсоид:</string>
-    <!--  Used in file CoordinateSystemsActivity.java:264. Original value:Change job CS  -->
-    <string name="string_change_job_cs">Изменить СК проекта</string>
     <!--  Used in file CSListActivity.java:314. Original value:Cancel  -->
     <string name="string_cancel">Отменить</string>
     <!--  Used in file IdenticalPointListAdapter.java:209. Original value:Latitude Orig.  -->
     <string name="string_latitude_origin">Нач.широта</string>
-    <!--  Used in file CoordinateSystemsActivity.java:352. Original value:CS %s is not user CS!  -->
+    <!--  Used in file CoordinateSystemsActivity.java:359. Original value:CS %s is not user CS!  -->
     <string name="string_cs__s_is_not_user_cs_">Система %s не является СК пользователя!</string>
 
 </resources>

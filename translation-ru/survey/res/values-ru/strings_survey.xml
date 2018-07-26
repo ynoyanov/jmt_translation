@@ -79,10 +79,6 @@
     <string name="hour">1 час</string>
     <!-- Used in file activity_configure_wifi_from_style.xml:108. Original value:DHCP    -->
     <string name="dhcp_mode">DHCP</string>
-    <!-- Used in file null:0. Original value:Show vertical offsets    -->
-    <string name="antenna_show_vertical_offset">Отображать верт.отступы</string>
-    <!-- Used in file null:0. Original value:Show Vertical Offsets    -->
-    <string name="show_vertical_offsets">Отображать вертикальные отступы</string>
     <!-- Used in file SurveyModel.java:1264. Original value:days    -->
     <string name="days">дней</string>
     <!-- Used in file SurveyModel.java:2478. Original value:Epochs: %1$d (Rejected:%2$d)    -->
@@ -159,7 +155,7 @@
     <string name="string_p1">P1</string>
     <!-- Used in file stakeout_settings.xml:78. Original value:ANTENNA    -->
     <string name="antenna_up">АНТЕННА</string>
-    <!-- Used in file NtripClient.java:534. Original value:Ntrip client runs    -->
+    <!-- Used in file NtripClient.java:535. Original value:Ntrip client runs    -->
     <string name="ntrip_client_runs">Ntrip клиент запущен</string>
     <!-- Used in file SurveyingRTKActivity.java:1252. Original value:Verify in not finished. Do you want to store an intermidiate position?    -->
     <string name="verify_in_not_finished">Проверка не завершена. Хотите сохранить непроверенные координаты?</string>
@@ -281,7 +277,7 @@
     <string name="text_height">H\n</string>
     <!-- Used in file activity_file_logging.xml:146. Original value:Hybrid RTK stores raw data for each point as a separate file to process then on DPOS if no RTK fix for given time    -->
     <string name="hibrid_rtk_description">В режиме Hybrid RTK для каждой снимаемой точки сохраняется отдельный файл сырых измерений для последующей обработки на DPOS если RTK решение не удалось получить </string>
-    <!-- Used in file NtripClient.java:536. Original value:RCV client runs    -->
+    <!-- Used in file NtripClient.java:537. Original value:RCV client runs    -->
     <string name="rcv_client_runs">RCV клиент запущен</string>
     <!-- Used in file RTKSetupActivity.java:913. Original value:3G Mode:%1$s Sim:%2$s\nAPN:%3$s    -->
     <string name="setup_internet_3g_format">3G режим:%1$s Сим:%2$s\nAPN:%3$s</string>
@@ -345,18 +341,18 @@
     <string name="string_interval">Интервал</string>
     <!-- Used in file rtk_base_rcv_base.xml:142. Original value:APN    -->
     <string name="gprs_apn">Имя точки доступа (APN)</string>
-    <!-- Used in file MapStakeoutActivity.java:1197. Original value:Right    -->
+    <!-- Used in file MapStakeoutActivity.java:1196. Original value:Right    -->
     <string name="text_right">Вправо</string>
-    <!-- Used in file offset_survey.xml:34. Original value:Survey P1    -->
-    <string name="button_survey_p1">Снять P1</string>
     <!-- Used in file rtk_base.xml:129. Original value:Connected To    -->
     <string name="connected_to_2">Подключенно к</string>
+    <!-- Used in file offset_survey.xml:34. Original value:Survey P1    -->
+    <string name="button_survey_p1">Снять P1</string>
     <!-- Used in file activity_calibrate.xml:120. Original value:Start\nLevels\nCalibration    -->
     <string name="start_levels_calibration">Начать\nКалибровку\nУровней</string>
-    <!-- Used in file offset_survey.xml:51. Original value:Survey P2    -->
-    <string name="button_survey_p2">Снять P2</string>
     <!-- Used in file SurveyingRTKActivity.java:956. Original value:Traj.Name    -->
     <string name="trajectory_name">Имя траект.</string>
+    <!-- Used in file offset_survey.xml:51. Original value:Survey P2    -->
+    <string name="button_survey_p2">Снять P2</string>
     <!-- Used in file receiver_info.xml:16. Original value:Time Since Last Reboot    -->
     <string name="receiver_time_since_reboot">Время с последней перезагрузки</string>
     <!-- Used in file quattro_info.xml:9. Original value:Angle Determinatioin    -->
@@ -369,14 +365,14 @@
     <string name="survey_radio_settings">Настройки модема</string>
     <!-- Used in file activity_configure_uhf.xml:544. Original value:Trimtalk 3 params.    -->
     <string name="trimmark3_protocol_parameters">Пар-ры Trimtalk 3</string>
-    <!-- Used in file jmt_info.xml:9. Original value:Controller    -->
-    <string name="jmt_controller">Контролер</string>
     <!-- Used in file SurveyModel.java:535. Original value:Can\'t program auto-close file!    -->
     <string name="cant_program_session">Не удалось запрограммировать автоматическую остановку записи!</string>
-    <!-- Used in file CalibrationActivity.java:658. Original value:Compass calibration is required!    -->
-    <string name="compass_status_error">Требуется калибровка компаса!</string>
+    <!-- Used in file jmt_info.xml:9. Original value:Controller    -->
+    <string name="jmt_controller">Контролер</string>
     <!-- Used in file SurveyingRTKActivity.java:789. Original value:ReSurvey    -->
     <string name="resurvey">ПереСнять</string>
+    <!-- Used in file CalibrationActivity.java:658. Original value:Compass calibration is required!    -->
+    <string name="compass_status_error">Требуется калибровка компаса!</string>
     <!-- Used in file activity_rtk_setup.xml:170. Original value:Internet Settings    -->
     <string name="button_configure_internet">Настройки доступа Internet</string>
     <!-- Used in file receiver_info.xml:9. Original value:Firmware Version    -->
@@ -387,7 +383,7 @@
     <string name="antenna_type">Тип антенны</string>
     <!-- Used in file surveying_rtk.xml:15. Original value:Points    -->
     <string name="action_list">Точки</string>
-    <!-- Used in file map_survey.xml:35. Original value:Black    -->
+    <!-- Used in file map_survey.xml:36. Original value:Black    -->
     <string name="color_black">Черный</string>
     <!-- Used in file activity_survey_styles.xml:41. Original value:Duplicate    -->
     <string name="string_duplicate">Сделать копию</string>
@@ -405,10 +401,10 @@
     <string name="string_noise">Шум</string>
     <!-- Used in file activity_configure_fh.xml:114. Original value:Output Power    -->
     <string name="output_power_w">Вых.мощность, Вт</string>
-    <!-- Used in file activity_surveying_rtk.xml:151. Original value:Site Name    -->
-    <string name="site_name">Имя пункта</string>
     <!-- Used in file StakeoutActivity.java:753. Original value:Line Target    -->
     <string name="target_line_small">Линия</string>
+    <!-- Used in file activity_surveying_rtk.xml:151. Original value:Site Name    -->
+    <string name="site_name">Имя пункта</string>
     <!-- Used in file activity_configure_uhf.xml:288. Original value:Satel protocol settings    -->
     <string name="satel_protocol_parameters">Настройки Satel</string>
     <!-- Used in file stakeout_settings.xml:57. Original value:Trajectory Length Filter    -->
@@ -441,8 +437,6 @@
     <string name="title_advanced">ДОПОЛНИТЕЛЬНО</string>
     <!-- Used in file spoofing_row_header.xml:56. Original value:Range 2    -->
     <string name="string_range2">Диапазон 2</string>
-    <!-- Used in file null:0. Original value:Ellapsed time %d sec    -->
-    <string name="string_ellapsed_time__d_sec">Прошло %d сек</string>
     <!-- Used in file spoofing_row_header.xml:35. Original value:Range 1    -->
     <string name="string_range1">Диапазон 1</string>
     <!-- Used in file settings_general.xml:123. Original value:Point store error    -->
@@ -453,7 +447,7 @@
     <string name="compass_and_levels">Компас и уровни</string>
     <!-- Used in file activity_calibrate.xml:117. Original value:Levels are calibrated OK    -->
     <string name="levels_status">Уровни откалиброваны</string>
-    <!-- Used in file map_survey.xml:32. Original value:Modelspace Color    -->
+    <!-- Used in file map_survey.xml:33. Original value:Modelspace Color    -->
     <string name="action_back_color">Цвет фона</string>
     <!-- Used in file quattro_info.xml:17. Original value:Baseline AC    -->
     <string name="quattro_baseline2">Базис AC</string>
@@ -463,10 +457,10 @@
     <string name="string_list_menu">Список</string>
     <!-- Used in file RCVBasePreferenceFragment.java:667. Original value:Mask    -->
     <string name="lan_mask">Маска</string>
-    <!-- Used in file quattro_info.xml:11. Original value:Baseline AB    -->
-    <string name="quattro_baseline1">Базис AB</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:Javad Survey    -->
     <string name="app_name">Javad Survey</string>
+    <!-- Used in file quattro_info.xml:11. Original value:Baseline AB    -->
+    <string name="quattro_baseline1">Базис AB</string>
     <!-- Used in file activity_map_stakeout.xml:174. Original value:NTT    -->
     <string name="text_ntt_map">NTT</string>
     <!-- Used in file stakeout_settings.xml:42. Original value:Accept VRMS    -->
@@ -485,24 +479,24 @@
     <string name="verify_number_epochs_in_group_summary">Число эпох в каждой группе</string>
     <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:139. Original value:Wrong maximum corrected tilt angle!    -->
     <string name="wrong_maximum_corrected_tilt_angle">Неверный максимальный принимаемый угол наклона!</string>
-    <!-- Used in file MapStakeoutActivity.java:1195. Original value:Back    -->
+    <!-- Used in file MapStakeoutActivity.java:1194. Original value:Back    -->
     <string name="text_backward">Назад</string>
     <!-- Used in file survey_button.xml:11. Original value:Confirm Point    -->
     <string name="menu_confirm">Подтверждение</string>
-    <!-- Used in file SurveyingActivity.java:57. Original value:Trajectory    -->
-    <string name="trajectory">Кинематика</string>
-    <!-- Used in file source_table_row_dark.xml:132. Original value:Authentication    -->
-    <string name="authentication">Подтверждение</string>
     <!-- Used in file activity_stakeout.xml:341. Original value:Minus    -->
     <string name="text_zoom_minus">Минус</string>
+    <!-- Used in file source_table_row_dark.xml:132. Original value:Authentication    -->
+    <string name="authentication">Подтверждение</string>
+    <!-- Used in file SurveyingActivity.java:57. Original value:Trajectory    -->
+    <string name="trajectory">Кинематика</string>
     <!-- Used in file SurveyModel.java:2480. Original value:rejected    -->
     <string name="epochs_rejected">отклонено</string>
     <!-- Used in file activity_confirm_point_survey.xml:171. Original value:Antenna Hgt.    -->
     <string name="text_point_antenna_height">Выс.антенны</string>
-    <!-- Used in file activity_satellite_types.xml:54. Original value:GPS    -->
-    <string name="check_gps">GPS</string>
     <!-- Used in file CalibrationActivity.java:224. Original value:L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
     <string name="start_levels_calibration_land_small">К\nа\nл\nи\nб\nр\n.\n\nУ\nр\nо\nв\nн\nи</string>
+    <!-- Used in file activity_satellite_types.xml:54. Original value:GPS    -->
+    <string name="check_gps">GPS</string>
     <!-- Used in file rtk_base_uhf.xml:36. Original value:Use Repeater    -->
     <string name="use_repeater">Использовать повторитель</string>
     <!-- Used in file activity_survey_style.xml:22. Original value:Select    -->
@@ -515,10 +509,10 @@
     <string name="menu_close">Закрыть</string>
     <!-- Used in file settings_general.xml:25. Original value:Connection    -->
     <string name="connecttion">Подключение</string>
-    <!-- Used in file rtk_base_csd.xml:7. Original value:Name    -->
-    <string name="csd_settings_name_summary">Имя</string>
     <!-- Used in file rtk_base_rcv_base.xml:153. Original value:Password    -->
     <string name="gprs_password_summary">Пароль</string>
+    <!-- Used in file rtk_base_csd.xml:7. Original value:Name    -->
+    <string name="csd_settings_name_summary">Имя</string>
     <!-- Used in file rtk_base_csd.xml:11. Original value:Phone    -->
     <string name="csd_phone">Тел.Номер</string>
     <!-- Used in file verify_settings.xml:35. Original value:Tolerance in group    -->
@@ -527,22 +521,22 @@
     <string name="epoch_rejected_solution_type">Эпоха отвергнута по типу решения</string>
     <!-- Used in file SurveyModel.java:1283. Original value:hours    -->
     <string name="hours">часов</string>
-    <!-- Used in file rtk_base_rcv_base.xml:115. Original value:NetHub Login    -->
-    <string name="nethub_login">Логин NetHub</string>
     <!-- Used in file activity_configure_gprs.xml:101. Original value:Dialup Number    -->
     <string name="dialup_number">Номер</string>
-    <!-- Used in file spoofing_row_header.xml:21. Original value:SAT    -->
-    <string name="string_satsys">СПУТ</string>
+    <!-- Used in file rtk_base_rcv_base.xml:115. Original value:NetHub Login    -->
+    <string name="nethub_login">Логин NetHub</string>
     <!-- Used in file rtk_base_uhf.xml:111. Original value:Trimtalk 450S    -->
     <string name="trimtalk450s">Trimtalk 450S</string>
+    <!-- Used in file spoofing_row_header.xml:21. Original value:SAT    -->
+    <string name="string_satsys">СПУТ</string>
     <!-- Used in file SurveyingRTKActivity.java:1940. Original value:Object name already exists in the job!    -->
     <string name="site_name_already_exist">Имя объекта уже используется в работе!</string>
-    <!-- Used in file MapStakeoutActivity.java:1205. Original value:Fill    -->
+    <!-- Used in file MapStakeoutActivity.java:1204. Original value:Fill    -->
     <string name="text_fill">Досыпать</string>
-    <!-- Used in file rtk_base.xml:122. Original value:Radio Setup    -->
-    <string name="radio_setup">Настройки модема</string>
     <!-- Used in file rtk_base_rcv.xml:25. Original value:Port    -->
     <string name="port">Порт</string>
+    <!-- Used in file rtk_base.xml:122. Original value:Radio Setup    -->
+    <string name="radio_setup">Настройки модема</string>
     <!-- Used in file SurveyingRTKActivity.java:2650. Original value:Select Antenna    -->
     <string name="select_antenna">Выбрать антенну</string>
     <!-- Used in file activity_configure_ntrip.xml:105. Original value:Mount Point    -->
@@ -555,46 +549,46 @@
     <string name="survey_complete">Съемка завершена</string>
     <!-- Used in file stakeout_settings.xml:71. Original value:Confirm Point    -->
     <string name="confirm_point_survey">Подтверждение</string>
-    <!-- Used in file settings_general.xml:130. Original value:Hybrid RTK Saved    -->
-    <string name="survey_point_stored_hybrid_rtk">Гибридный RTK сохранено</string>
     <!-- Used in file activity_calibrate.xml:45. Original value:Start\nCompass\nCalibration    -->
     <string name="start_compass_calibration">Начать\nКалибровку\nКомпаса</string>
+    <!-- Used in file settings_general.xml:130. Original value:Hybrid RTK Saved    -->
+    <string name="survey_point_stored_hybrid_rtk">Гибридный RTK сохранено</string>
+    <!-- Used in file MapStakeoutActivity.java:1194. Original value:Fwrd    -->
+    <string name="text_forward">Вперед</string>
     <!-- Used in file stakeout_settings.xml:92. Original value:Antenna Height    -->
     <string name="base_antenna_height">Высота антенны</string>
-    <!-- Used in file MapStakeoutActivity.java:1195. Original value:Fwrd    -->
-    <string name="text_forward">Вперед</string>
     <!-- Used in file job_info.xml:5. Original value:Surveyed Points    -->
     <string name="job_surveypoints">Съем.точки</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:79. Original value:HRMS\n    -->
-    <string name="text_hrms">Пл.СКО\n</string>
     <!-- Used in file RTKBaseSettingsFragment.java:2458. Original value:Wrong antenna id!    -->
     <string name="string_wrong_antenna_id">Неверный идентификатор антенны!</string>
-    <!-- Used in file SurveyStyleInformationActivity.java:140. Original value:Fixed Only    -->
-    <string name="string_fixed_only_xml">только Фикс</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:79. Original value:HRMS\n    -->
+    <string name="text_hrms">Пл.СКО\n</string>
     <!-- Used in file stakeout_settings.xml:98. Original value:Height Type    -->
     <string name="antenna_height_type_2">Тип высоты</string>
+    <!-- Used in file SurveyStyleInformationActivity.java:140. Original value:Fixed Only    -->
+    <string name="string_fixed_only_xml">только Фикс</string>
     <!-- Used in file activity_confirm_point_survey.xml:99. Original value:VRMS\n    -->
     <string name="text_vrms">ВСКО\n</string>
     <!-- Used in file activity_calibrate.xml:51. Original value:Compass is calibrated OK    -->
     <string name="compass_status">Компас откалиброван</string>
-    <!-- Used in file rtk_base.xml:76. Original value:Get From Receiver    -->
-    <string name="get_from_receiver">Из приемника</string>
     <!-- Used in file status_bar.xml:119. Original value:LQ    -->
     <string name="link_quality">&#x002d;&#x002d;&gt;</string>
+    <!-- Used in file rtk_base.xml:76. Original value:Get From Receiver    -->
+    <string name="get_from_receiver">Из приемника</string>
     <!-- Used in file offset_survey.xml:113. Original value:Store Offset    -->
     <string name="button_store_offset">Выполнить промер</string>
-    <!-- Used in file status_bar.xml:47. Original value:radio    -->
-    <string name="radio">модем</string>
     <!-- Used in file StartSurveyActivity.java:386. Original value:Receiver is not connected!    -->
     <string name="receiver_is_not_connected">Приемник не подключен!</string>
+    <!-- Used in file status_bar.xml:47. Original value:radio    -->
+    <string name="radio">модем</string>
     <!-- Used in file map_survey.xml:28. Original value:Show Clusters    -->
     <string name="action_show_clusters">Вкл.группировку</string>
     <!-- Used in file rtk_rover_start.xml:10. Original value:Enable Recording    -->
     <string name="survey_enable_recording">Вкл. запись</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:137. Original value:Mask    -->
-    <string name="mask">Маска сети</string>
     <!-- Used in file rtk_base_fh.xml:27. Original value:Frequency Rule    -->
     <string name="frequency_rule">Частотное правило</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:137. Original value:Mask    -->
+    <string name="mask">Маска сети</string>
     <!-- Used in file stakeout_settings.xml:197. Original value:Show Compass/Levels    -->
     <string name="show_compass_and_levels">Показать уровни и компас</string>
     <!-- Used in file activity_satellite_types.xml:75. Original value:GLONASS    -->
@@ -611,30 +605,30 @@
     <string name="job_sd_memory">Объем архива</string>
     <!-- Used in file settings_general.xml:151. Original value:Lift&amp;Tilt Starting    -->
     <string name="lift_and_tilt_starting">Начало Lift-Tilt</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:209. Original value:Deltas\n    -->
-    <string name="string_deltas">Разницы\n</string>
-    <!-- Used in file satellite_row_header.xml:98. Original value:Status    -->
-    <string name="status">Статус</string>
     <!-- Used in file stakeout_settings.xml:167. Original value:Detect Base movement during survey    -->
     <string name="string_detect_base_move">Обнаруживать сдвиг базы во время съемки</string>
+    <!-- Used in file satellite_row_header.xml:98. Original value:Status    -->
+    <string name="status">Статус</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:209. Original value:Deltas\n    -->
+    <string name="string_deltas">Разницы\n</string>
     <!-- Used in file rtk_base_uhf.xml:84. Original value:Satel protocol settings    -->
     <string name="satel">Настройки Satel</string>
-    <!-- Used in file source_table_row_dark.xml:28. Original value:Format    -->
-    <string name="format">Формат</string>
-    <!-- Used in file activity_confirm_point_survey.xml:117. Original value:Epochs    -->
-    <string name="text_point_epochs">Эпохи</string>
     <!-- Used in file activity_satellite_types.xml:26. Original value:Use    -->
     <string name="string_use_sats">Исп.</string>
-    <!-- Used in file stakeout_settings.xml:153. Original value:Multi RTK    -->
-    <string name="string_multirtk">Мульти RTK</string>
+    <!-- Used in file activity_confirm_point_survey.xml:117. Original value:Epochs    -->
+    <string name="text_point_epochs">Эпохи</string>
+    <!-- Used in file source_table_row_dark.xml:28. Original value:Format    -->
+    <string name="format">Формат</string>
     <!-- Used in file SurveyingRTKActivity.java:1938. Original value:Site name is empty!    -->
     <string name="site_name_is_empty">Имя точки не введено!</string>
+    <!-- Used in file stakeout_settings.xml:153. Original value:Multi RTK    -->
+    <string name="string_multirtk">Мульти RTK</string>
     <!-- Used in file SurveySettingsPreferenceFragment.java:672. Original value:Wrong Trajectory Length Filter!    -->
     <string name="wrong_trajectory_length_filter">Фильтр длины траектории</string>
-    <!-- Used in file rtk_base_uhf.xml:7. Original value:Name of This Setting    -->
-    <string name="settings_name_summary">Имя настройки</string>
     <!-- Used in file rtk_rover_start.xml:12. Original value:Record Rate    -->
     <string name="survey_record_rate">Частота записи</string>
+    <!-- Used in file rtk_base_uhf.xml:7. Original value:Name of This Setting    -->
+    <string name="settings_name_summary">Имя настройки</string>
     <!-- Used in file activity_confirm_point_survey.xml:135. Original value:Occ.Time    -->
     <string name="text_point_time">Время стояния</string>
     <!-- Used in file activity_surveying_rtk.xml:102. Original value:Static    -->
@@ -653,10 +647,10 @@
     <string name="tcpo_port">Порт TCPO</string>
     <!-- Used in file StakeoutSettingsActivity.java:218. Original value:Can\'t setup elevation mask!    -->
     <string name="cant_setup_elevation_mask">Не удалось установить маску угла возвышения!</string>
-    <!-- Used in file activity_stakeout.xml:169. Original value:NTT    -->
-    <string name="text_ntt">NTT</string>
     <!-- Used in file stakeout_settings.xml:123. Original value:File Name    -->
     <string name="file_name">Файл</string>
+    <!-- Used in file activity_stakeout.xml:169. Original value:NTT    -->
+    <string name="text_ntt">NTT</string>
     <!-- Used in file rtk_base.xml:110. Original value:File Manager    -->
     <string name="receiver_files">Файлы приемника</string>
     <!-- Used in file StakeoutActivity.java:504. Original value:Averaging\n\n    -->
@@ -687,10 +681,10 @@
     <string name="base_positionup">ПОЛОЖЕНИЕ БАЗЫ</string>
     <!-- Used in file offsets.xml:19. Original value:Intersection    -->
     <string name="string_menu_offset_intersection">Пересечение</string>
-    <!-- Used in file rtk_base_rcv.xml:21. Original value:IP Address    -->
-    <string name="address">IP адрес</string>
     <!-- Used in file activity_confirm_point_survey.xml:46. Original value:Description    -->
     <string name="text_point_description">Описание</string>
+    <!-- Used in file rtk_base_rcv.xml:21. Original value:IP Address    -->
+    <string name="address">IP адрес</string>
     <!-- Used in file stakeout_settings.xml:115. Original value:Height Unit    -->
     <string name="antenna_height_unit">Единицы высоты</string>
     <!-- Used in file stakeout_settings.xml:91. Original value:This allows you to enter a string    -->
@@ -699,24 +693,24 @@
     <string name="nav_system">Нав.Система</string>
     <!-- Used in file rtk_base_uhf.xml:210. Original value:Check and save settings    -->
     <string name="check_and_save_settings_summary">Проверить и сохранить настройки</string>
-    <!-- Used in file map_survey.xml:36. Original value:Gray    -->
+    <!-- Used in file map_survey.xml:37. Original value:Gray    -->
     <string name="color_gray">Серый</string>
     <!-- Used in file activity_rtk_setup.xml:49. Original value:Start    -->
     <string name="button_start">Запуск</string>
     <!-- Used in file activity_surveying_rtk.xml:277. Original value:epochs collected    -->
     <string name="epochs_collected">собрано эпох</string>
-    <!-- Used in file stakeout_settings.xml:58. Original value:Traj.Min.Length    -->
-    <string name="trajector_length_filter">Мин.шаг траектории</string>
     <!-- Used in file compasslevels_settings.xml:12. Original value:Reject epochs with tilt more than    -->
     <string name="reject_epochs_by_tilt">Отбраковывать эпохи с наклоном больше чем</string>
+    <!-- Used in file stakeout_settings.xml:58. Original value:Traj.Min.Length    -->
+    <string name="trajector_length_filter">Мин.шаг траектории</string>
     <!-- Used in file spoofing_row_header.xml:63. Original value:Doppl 2    -->
     <string name="string_doppl2">Допл.2</string>
-    <!-- Used in file spoofing_row_header.xml:42. Original value:Doppl 1    -->
-    <string name="string_doppl1">Допл.1</string>
-    <!-- Used in file rtk_base_fh.xml:17. Original value:FH    -->
-    <string name="fh">FH</string>
     <!-- Used in file activity_map_stakeout.xml:29. Original value:X    -->
     <string name="text_x_map">X</string>
+    <!-- Used in file rtk_base_fh.xml:17. Original value:FH    -->
+    <string name="fh">FH</string>
+    <!-- Used in file spoofing_row_header.xml:42. Original value:Doppl 1    -->
+    <string name="string_doppl1">Допл.1</string>
     <!-- Used in file stakeout_settings.xml:5. Original value:Current Style    -->
     <string name="current_style">Выбранный стиль</string>
     <!-- Used in file offsets2.xml:5. Original value:Points    -->
@@ -737,38 +731,38 @@
     <string name="error_no_data_collected">Данных не собрано!</string>
     <!-- Used in file activity_rtk_setup.xml:141. Original value:Radio is connected to    -->
     <string name="connected_to">Модем подключен к</string>
-    <!-- Used in file stakeout_settings.xml:114. Original value:Switch between antenna input    -->
-    <string name="antenna_height_unit_summary">Переключить между входами антенны</string>
     <!-- Used in file activity_map_stakeout.xml:155. Original value:CTT    -->
     <string name="text_ctt_map">Направ.</string>
+    <!-- Used in file stakeout_settings.xml:114. Original value:Switch between antenna input    -->
+    <string name="antenna_height_unit_summary">Переключить между входами антенны</string>
     <!-- Used in file SourceTableActivity.java:537. Original value:Country    -->
     <string name="string_country_sort">Страна</string>
     <!-- Used in file settings_general.xml:39. Original value:Epoch Accepted    -->
     <string name="epoch_accepted">Эпоха принята</string>
-    <!-- Used in file verify_settings.xml:8. Original value:Verify settings    -->
-    <string name="string_verify_settings">Настройки верификации</string>
     <!-- Used in file activity_rtk_setup.xml:122. Original value:Correction Source    -->
     <string name="correction_source">Тип поправок</string>
-    <!-- Used in file activity_confirm_point_survey.xml:240. Original value:Base    -->
-    <string name="text_base">База</string>
+    <!-- Used in file verify_settings.xml:8. Original value:Verify settings    -->
+    <string name="string_verify_settings">Настройки верификации</string>
     <!-- Used in file activity_wizard_05_corrections.xml:15. Original value:New Correction Source    -->
     <string name="string_correction_source_xml">Новый источник поправок</string>
+    <!-- Used in file activity_confirm_point_survey.xml:240. Original value:Base    -->
+    <string name="text_base">База</string>
     <!-- Used in file SurveySettingsPreferenceFragment.java:584. Original value:Sounds are off    -->
     <string name="sounds_off">Звуки выключены</string>
-    <!-- Used in file rtk_base_uhf.xml:22. Original value:Call Sign    -->
-    <string name="call_sign">Позывной</string>
     <!-- Used in file rtk_base_uhf.xml:208. Original value:Check Settings    -->
     <string name="check_settings">Проверить настройки</string>
+    <!-- Used in file rtk_base_uhf.xml:22. Original value:Call Sign    -->
+    <string name="call_sign">Позывной</string>
     <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
     <string name="level_offsets">Отклон.</string>
     <!-- Used in file activity_stakeout.xml:29. Original value:Point\nTarget    -->
     <string name="target_point">Вынос\nТочки</string>
     <!-- Used in file status_bar.xml:67. Original value:battery    -->
     <string name="battery">батарея</string>
-    <!-- Used in file activity_stakeout.xml:128. Original value:DTT    -->
-    <string name="text_dtt">Раст.</string>
     <!-- Used in file activity_configure_uhf.xml:377. Original value:Trimtalk 450S params.    -->
     <string name="trimtalk450s_protocol_parameters">Пар-ры Trimtalk 450S</string>
+    <!-- Used in file activity_stakeout.xml:128. Original value:DTT    -->
+    <string name="text_dtt">Раст.</string>
     <!-- Used in file rtk_base_csd.xml:28. Original value:SIM Card    -->
     <string name="csd_sim">SIM карта</string>
     <!-- Used in file rtk_base_rcv.xml:30. Original value:RAW Mode    -->
@@ -783,16 +777,16 @@
     <string name="text_compatibility">Совместимость</string>
     <!-- Used in file settings_general.xml:116. Original value:Point stored OK    -->
     <string name="survey_point_stored_ok">Точка сохранена</string>
-    <!-- Used in file activity_surveying_settings.xml:260. Original value:Correct Inclination    -->
-    <string name="correct_inclination">Использовать Уровни</string>
     <!-- Used in file offsets.xml:14. Original value:Along Line    -->
     <string name="string_menu_offset_along_line">Створ</string>
+    <!-- Used in file activity_surveying_settings.xml:260. Original value:Correct Inclination    -->
+    <string name="correct_inclination">Использовать Уровни</string>
     <!-- Used in file ConfigureRCVActivity.java:181. Original value:Setup\nWiFi    -->
     <string name="setup_internet_wifi">Настройки\nWiFi</string>
-    <!-- Used in file settings_general.xml:102. Original value:Stakeout Epoch Rejected    -->
-    <string name="stakeout_epoch_rejected">Эпоха отверхнута в выноске</string>
     <!-- Used in file offsets.xml:29. Original value:Perpendicular    -->
     <string name="string_menu_offset_perpendicular">Перпендикуляр</string>
+    <!-- Used in file settings_general.xml:102. Original value:Stakeout Epoch Rejected    -->
+    <string name="stakeout_epoch_rejected">Эпоха отверхнута в выноске</string>
     <!-- Used in file receiver_info.xml:19. Original value:LAN IP    -->
     <string name="receiver_lan_ip">LAN IP</string>
     <!-- Used in file source_table_row_dark.xml:100. Original value:GGA    -->
@@ -803,10 +797,10 @@
     <string name="csd_acbst_rate">Скорость</string>
     <!-- Used in file stakeout_settings.xml:133. Original value:Elevation Mask    -->
     <string name="elevation_mask">Маска угла</string>
-    <!-- Used in file quattro_info.xml:4. Original value:Pitch    -->
-    <string name="quattro_pitch">Pitch</string>
     <!-- Used in file stakeout_settings.xml:63. Original value:Occupation Time    -->
     <string name="occupation_time">Время стояния</string>
+    <!-- Used in file quattro_info.xml:4. Original value:Pitch    -->
+    <string name="quattro_pitch">Pitch</string>
     <!-- Used in file activity_configure_ntrip.xml:130. Original value:Source Table    -->
     <string name="source_table">Таблица источников</string>
     <!-- Used in file rtk_base_rcv_base.xml:38. Original value:TCP A    -->
@@ -817,26 +811,26 @@
     <string name="maximum_uncorrected_tilt_angle">Макс.угол наклона при откл.коррекции</string>
     <!-- Used in file receiver_info.xml:15. Original value:Receiver Board Temperature,\u00b0C    -->
     <string name="receiver_board_temp">Температура платы,\u00b0C</string>
-    <!-- Used in file SurveyingRTKActivity.java:796. Original value:Cancel Survey    -->
-    <string name="cancel_survey">Отменить съемку</string>
-    <!-- Used in file activity_configure_uhf.xml:73. Original value:Frequency, Hz    -->
-    <string name="frequency_hz">Частота, Гц</string>
     <!-- Used in file SurveyingActivity.java:56. Original value:Static    -->
     <string name="static_t">Статика</string>
-    <!-- Used in file SurveyingRTKActivity.java:2659. Original value:Ignore Antenna    -->
-    <string name="ignore_antenna">Игнорировать</string>
+    <!-- Used in file activity_configure_uhf.xml:73. Original value:Frequency, Hz    -->
+    <string name="frequency_hz">Частота, Гц</string>
+    <!-- Used in file SurveyingRTKActivity.java:796. Original value:Cancel Survey    -->
+    <string name="cancel_survey">Отменить съемку</string>
     <!-- Used in file jmt_info.xml:6. Original value:Version    -->
     <string name="jmt_version">Версия</string>
+    <!-- Used in file SurveyingRTKActivity.java:2659. Original value:Ignore Antenna    -->
+    <string name="ignore_antenna">Игнорировать</string>
     <!-- Used in file settings_general.xml:12. Original value:Sound Scheme    -->
     <string name="sound_scheme">Звуковая схема</string>
     <!-- Used in file stakeout_settings.xml:188. Original value:VRS RTCM3 Coordinate System    -->
     <string name="rtcm3_summary">Система координат для RTCM3</string>
     <!-- Used in file rtk_rover_start.xml:5. Original value:Setup Radio    -->
     <string name="survey_setup_radio">Настройки модема</string>
-    <!-- Used in file rtk_base_rcv_base.xml:124. Original value:Set 3G/GPRS    -->
-    <string name="gprs_on">Настройки 3G/GPRS</string>
     <!-- Used in file map_stakeout.xml:5. Original value:Eye    -->
     <string name="string_eye_xml">Круг</string>
+    <!-- Used in file rtk_base_rcv_base.xml:124. Original value:Set 3G/GPRS    -->
+    <string name="gprs_on">Настройки 3G/GPRS</string>
     <!-- Used in file activity_power.xml:170. Original value:Sleep Mode    -->
     <string name="sleep_mode">Режим сна</string>
     <!-- Used in file rtk_base_uhf.xml:17. Original value:Frequency, Hz    -->
@@ -857,22 +851,22 @@
     <string name="receiver_power_board">Напряжение на плате, В</string>
     <!-- Used in file offset_survey.xml:83. Original value:Distance2    -->
     <string name="string_distance2_xml">Расстояние2</string>
-    <!-- Used in file activity_stakeout_line_target.xml:74. Original value:Azimuth    -->
-    <string name="string_azimuth">Азимут</string>
     <!-- Used in file activity_rtk_setup.xml:181. Original value:File Logging    -->
     <string name="button_logging">Запись в файл</string>
+    <!-- Used in file activity_stakeout_line_target.xml:74. Original value:Azimuth    -->
+    <string name="string_azimuth">Азимут</string>
     <!-- Used in file verify_settings.xml:43. Original value:Number of Groups    -->
     <string name="verify_number_of_groups_summary">Число групп</string>
     <!-- Used in file rtk_base_rcv_base.xml:58. Original value:TCP E    -->
     <string name="correction_type_tcp_e">TCP E</string>
     <!-- Used in file rtk_base_rcv_base.xml:53. Original value:TCP D    -->
     <string name="correction_type_tcp_d">TCP D</string>
-    <!-- Used in file rtk_base_rcv_base.xml:48. Original value:TCP C    -->
-    <string name="correction_type_tcp_c">TCP C</string>
-    <!-- Used in file activity_stakeout.xml:232. Original value:Course    -->
-    <string name="text_course">Курс</string>
     <!-- Used in file activity_rtk_setup.xml:159. Original value:Configure    -->
     <string name="button_configure">Настроить</string>
+    <!-- Used in file activity_stakeout.xml:232. Original value:Course    -->
+    <string name="text_course">Курс</string>
+    <!-- Used in file rtk_base_rcv_base.xml:48. Original value:TCP C    -->
+    <string name="correction_type_tcp_c">TCP C</string>
     <!-- Used in file rtk_base_rcv_base.xml:43. Original value:TCP B    -->
     <string name="correction_type_tcp_b">TCP B</string>
     <!-- Used in file quattro_info.xml:6. Original value:RMS Heading    -->
@@ -881,10 +875,10 @@
     <string name="nethub_on">Режим NetHub</string>
     <!-- Used in file CalibrationActivity.java:658. Original value:Compass is calibrated OK    -->
     <string name="compass_status_ok">Компас успешно\nоткалиброван</string>
-    <!-- Used in file CalibrationActivity.java:587. Original value:Andr.Azimuth    -->
-    <string name="android_azimuth">Android Азимут</string>
     <!-- Used in file rtk_base_rcv_base.xml:143. Original value:Access Point Name (APN)    -->
     <string name="gprs_apn_summary">Имя точки подключения (APN)</string>
+    <!-- Used in file CalibrationActivity.java:587. Original value:Andr.Azimuth    -->
+    <string name="android_azimuth">Android Азимут</string>
     <!-- Used in file map_survey.xml:14. Original value:Zoom All    -->
     <string name="action_map_zoomall">Все</string>
     <!-- Used in file rtk_base_rcv_base.xml:121. Original value:3G/GPRS    -->
@@ -907,10 +901,10 @@
     <string name="string_design_cf">Проект\n</string>
     <!-- Used in file verify_settings.xml:36. Original value:Tolerance in group    -->
     <string name="verify_tolerance_in_group">Допуск в группе</string>
-    <!-- Used in file StakeoutSettingsActivity.java:125. Original value:are OK    -->
-    <string name="are_ok">в порядке</string>
     <!-- Used in file RCVBasePreferenceFragment.java:651. Original value:LAN    -->
     <string name="lan_settings">LAN</string>
+    <!-- Used in file StakeoutSettingsActivity.java:125. Original value:are OK    -->
+    <string name="are_ok">в порядке</string>
     <!-- Used in file SurveyingActivity.java:111. Original value:Elapsed time    -->
     <string name="elapsed_time">Прошло времени</string>
     <!-- Used in file rtk_base.xml:146. Original value:START STATION    -->
@@ -927,16 +921,16 @@
     <string name="target_line">Вынос\nЛинии</string>
     <!-- Used in file rtk_base_uhf.xml:198. Original value:Get Receiver Settings    -->
     <string name="get_receiver_setting">Получить настройки приемника</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:818. Original value:Wrong antenna vertical offset!    -->
-    <string name="wrong_antenna_vertical_offset">Неверный вертикальный отступ антенны!</string>
     <!-- Used in file settings_general.xml:165. Original value:Any epoch is collected at Lift/Titl survey    -->
     <string name="lift_and_tilt_any_epoch_collected">Собрана первая эпоха в Lift/Tilt съемке</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:818. Original value:Wrong antenna vertical offset!    -->
+    <string name="wrong_antenna_vertical_offset">Неверный вертикальный отступ антенны!</string>
     <!-- Used in file rtk_base.xml:153. Original value:Stop Station    -->
     <string name="stop_station">Остановить станцию</string>
-    <!-- Used in file quattro_info.xml:3. Original value:Heading    -->
-    <string name="quattro_heading">Направление</string>
     <!-- Used in file rtk_base_uhf.xml:187. Original value:Correction Period    -->
     <string name="correction_period">Период поправок</string>
+    <!-- Used in file quattro_info.xml:3. Original value:Heading    -->
+    <string name="quattro_heading">Направление</string>
     <!-- Used in file activity_stakeout_line_target.xml:107. Original value:Offsets    -->
     <string name="check_offset">Промеры</string>
     <!-- Used in file activity_survey_style.xml:31. Original value:Reset    -->
@@ -951,16 +945,14 @@
     <string name="cant_setup_gsps_mode">Сбой настройки DGPS</string>
     <!-- Used in file activity_wizard_05_corrections.xml:29. Original value:UHF Radio    -->
     <string name="radio_uhf_radio">УВЧ модем</string>
-    <!-- Used in file null:0. Original value:%1$d / %2$d epoch collected (%3$d rejected)    -->
-    <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d эпох собрано (%3$d отклонено)</string>
     <!-- Used in file rtk_base_csd.xml:21. Original value:ACBST    -->
     <string name="csd_acbst">ACBST</string>
     <!-- Used in file stakeout_settings.xml:118. Original value:RAW FILE    -->
     <string name="title_raw_file">ФАЙЛ ПРИЕМНИКА</string>
-    <!-- Used in file rtk_base_rcv_base.xml:35. Original value:TCP Password    -->
-    <string name="tcp_password">Пароль TCP</string>
     <!-- Used in file receiver_info.xml:13. Original value:Free File Memory    -->
     <string name="receiver_free_file_memory">Свободное место для файлов</string>
+    <!-- Used in file rtk_base_rcv_base.xml:35. Original value:TCP Password    -->
+    <string name="tcp_password">Пароль TCP</string>
     <!-- Used in file map_stakeout.xml:25. Original value:Line    -->
     <string name="string_line_xml">Линия</string>
     <!-- Used in file stakeout_settings.xml:187. Original value:RTCM3 CS    -->
@@ -969,20 +961,20 @@
     <string name="maximum_corrected_tilt_angle_summary">Макс.угол наклона при вкл.коррекции</string>
     <!-- Used in file rtk_rover_start.xml:9. Original value:FILE RECORDING    -->
     <string name="survey_file_recording">ЗАПИСЬ В ФАЙЛ</string>
-    <!-- Used in file StakeoutActivity.java:504. Original value:Averaging\n\n    -->
-    <string name="text_averaging">Усреднение\n\n</string>
     <!-- Used in file activity_calibrate.xml:24. Original value:Mag.Azimuth    -->
     <string name="magnetic_azimuth">Маг.Азимут</string>
+    <!-- Used in file StakeoutActivity.java:504. Original value:Averaging\n\n    -->
+    <string name="text_averaging">Усреднение\n\n</string>
     <!-- Used in file satellite_row_header.xml:84. Original value:L5\nE5a\nG3    -->
     <string name="l5">L5</string>
     <!-- Used in file SurveyingRTKActivity.java:1217. Original value:No data RTK collected, and HybridRTK file exists    -->
     <string name="hibrid_rtk_data_collected">Данные RTK не собраны, но есть файл Гибридного RTK</string>
     <!-- Used in file RCVBasePreferenceFragment.java:617. Original value:Set WLAN    -->
     <string name="wlan_on">Настройки WLAN</string>
-    <!-- Used in file rtk_base.xml:12. Original value:Station Name    -->
-    <string name="station_name">Имя станции</string>
     <!-- Used in file receiver_info.xml:20. Original value:WLAN IP    -->
     <string name="receiver_wlan_ip">WLAN IP</string>
+    <!-- Used in file rtk_base.xml:12. Original value:Station Name    -->
+    <string name="station_name">Имя станции</string>
     <!-- Used in file activity_rtk_setup.xml:229. Original value:Coordinate System    -->
     <string name="coordinate_system">Система координат</string>
     <!-- Used in file activity_calibrate.xml:70. Original value:S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
@@ -1013,26 +1005,26 @@
     <string name="jmt_license_error">приобретите программу в официальном магазине Google Play Market или приобретите опцию (OAF) для вашего приемника!</string>
     <!-- Used in file status_bar.xml:131. Original value:0MB    -->
     <string name="free_memory">0MB</string>
-    <!-- Used in file source_table_row_dark.xml:60. Original value:Network    -->
-    <string name="network">Сеть</string>
     <!-- Used in file rtk_base_rcv_base.xml:118. Original value:NetHub Password    -->
     <string name="nethub_password">Пароль NetHub</string>
-    <!-- Used in file stakeout_settings.xml:97. Original value:Switch between antenna input    -->
-    <string name="antenna_height_type_summary">Переключение между антенными входами</string>
-    <!-- Used in file ConfigureRCVActivity.java:185. Original value:Setup\nLAN    -->
-    <string name="setup_internet_lan">Настройки\nLAN</string>
-    <!-- Used in file rtk_base.xml:96. Original value:Enable Recording    -->
-    <string name="enable_recording">Включить запись</string>
+    <!-- Used in file source_table_row_dark.xml:60. Original value:Network    -->
+    <string name="network">Сеть</string>
     <!-- Used in file activity_satellite_types.xml:117. Original value:BeiDou    -->
     <string name="check_bdu">BeiDou</string>
+    <!-- Used in file rtk_base.xml:96. Original value:Enable Recording    -->
+    <string name="enable_recording">Включить запись</string>
+    <!-- Used in file ConfigureRCVActivity.java:185. Original value:Setup\nLAN    -->
+    <string name="setup_internet_lan">Настройки\nLAN</string>
+    <!-- Used in file stakeout_settings.xml:97. Original value:Switch between antenna input    -->
+    <string name="antenna_height_type_summary">Переключение между антенными входами</string>
     <!-- Used in file activity_stakeout_line_target.xml:22. Original value:Method    -->
     <string name="string_method">Метод</string>
-    <!-- Used in file source_table_row_dark.xml:116. Original value:Generator    -->
-    <string name="generator">Генератор</string>
-    <!-- Used in file jmt_info.xml:4. Original value:Copyright    -->
-    <string name="jmt_copyright">Copyright</string>
     <!-- Used in file SurveyModel.java:268. Original value:Can\'t create receiver file!    -->
     <string name="cant_create_file">Не удалось создать файл!</string>
+    <!-- Used in file jmt_info.xml:4. Original value:Copyright    -->
+    <string name="jmt_copyright">Copyright</string>
+    <!-- Used in file source_table_row_dark.xml:116. Original value:Generator    -->
+    <string name="generator">Генератор</string>
     <!-- Used in file activity_survey_styles.xml:32. Original value:Rename    -->
     <string name="string_rename">Переименовать</string>
     <!-- Used in file map_stakeout.xml:20. Original value:Options    -->
@@ -1055,12 +1047,12 @@
     <string name="gprs_user_summary">Имя пользователя</string>
     <!-- Used in file source_table_row_dark.xml:148. Original value:Bitrate    -->
     <string name="bitrate">Частота</string>
-    <!-- Used in file map_survey.xml:42. Original value:List    -->
+    <!-- Used in file map_survey.xml:44. Original value:List    -->
     <string name="action_select_list">Список</string>
-    <!-- Used in file CalibrationActivity.java:721. Original value:Levels error    -->
-    <string name="levels_status_error_small">Ошибка уровней</string>
     <!-- Used in file receiver_info.xml:21. Original value:GPRS IP    -->
     <string name="receiver_gprs_ip">GPRS IP</string>
+    <!-- Used in file CalibrationActivity.java:721. Original value:Levels error    -->
+    <string name="levels_status_error_small">Ошибка уровней</string>
     <!-- Used in file rtk_base_rcv_base.xml:132. Original value:DHCP    -->
     <string name="gprs_dhcp">DHCP</string>
     <!-- Used in file receiver_info.xml:4. Original value:Receiver    -->
@@ -1073,10 +1065,10 @@
     <string name="text_dist_plane">План.раст\n</string>
     <!-- Used in file stakeout_settings.xml:170. Original value:Keep descriptions after survey    -->
     <string name="string_keep_desription_after_survey">Сохранять описания после съемки точки</string>
-    <!-- Used in file map_survey.xml:37. Original value:White    -->
-    <string name="color_white">Белый</string>
     <!-- Used in file SourceTableActivity.java:538. Original value:Format    -->
     <string name="string_format_sort">Формат</string>
+    <!-- Used in file map_survey.xml:38. Original value:White    -->
+    <string name="color_white">Белый</string>
     <!-- Used in file activity_file_logging.xml:135. Original value:Use Hybrid RTK    -->
     <string name="check_hibrid_rtk">Использовать Гибридный RTK</string>
     <!-- Used in file stakeout_settings.xml:156. Original value:Minimal RTK Engines to accept    -->
@@ -1097,16 +1089,16 @@
     <string name="vrs">VRS</string>
     <!-- Used in file source_table_row_dark.xml:84. Original value:Latitude    -->
     <string name="latitude">Широта</string>
-    <!-- Used in file receiver_info.xml:6. Original value:Receiver ID    -->
-    <string name="receiver_id">Ид.приемника</string>
     <!-- Used in file activity_stakeout_line_target.xml:147. Original value:Along    -->
     <string name="string_along_xml">Вдоль</string>
+    <!-- Used in file receiver_info.xml:6. Original value:Receiver ID    -->
+    <string name="receiver_id">Ид.приемника</string>
     <!-- Used in file map_stakeout.xml:10. Original value:Point    -->
     <string name="string_new_point">Точка</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:72. Original value:WiFi Security    -->
-    <string name="wifi_security">Защита WiFi</string>
     <!-- Used in file activity_map_stakeout.xml:92. Original value:Along    -->
     <string name="text_along_map">Вдоль</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:72. Original value:WiFi Security    -->
+    <string name="wifi_security">Защита WiFi</string>
     <!-- Used in file stakeout_settings.xml:100. Original value:Use vertical offset    -->
     <string name="use_vertical_offsets">Исп.вертикальный отступ</string>
     <!-- Used in file quattro_attitude.xml:12. Original value:Distance CD    -->
@@ -1117,10 +1109,10 @@
     <string name="solution_type">Авт.</string>
     <!-- Used in file settings_general.xml:144. Original value:RTK Fix Lost    -->
     <string name="fix_lost">Потеря RTK Fix</string>
-    <!-- Used in file quattro_attitude.xml:10. Original value:Distance BC    -->
-    <string name="quattro_distance_bc">Расстояние BC</string>
     <!-- Used in file stakeout_settings.xml:17. Original value:Azimuth Type    -->
     <string name="text_azimuth">Тип азимута</string>
+    <!-- Used in file quattro_attitude.xml:10. Original value:Distance BC    -->
+    <string name="quattro_distance_bc">Расстояние BC</string>
     <!-- Used in file quattro_attitude.xml:11. Original value:Distance BD    -->
     <string name="quattro_distance_bd">Расстояние BD</string>
     <!-- Used in file SurveyModel.java:1288. Original value:secs    -->
@@ -1135,10 +1127,10 @@
     <string name="trimmarkii_protocol_parameters">Пар-ры Trimmark II/IIe</string>
     <!-- Used in file rtk_base_rcv.xml:35. Original value:Login    -->
     <string name="login">Логин</string>
-    <!-- Used in file offsets2.xml:15. Original value:Fast Trajectory    -->
-    <string name="string_menu_offset_fast_trajectory">Быстрая траектория</string>
     <!-- Used in file rtk_base.xml:105. Original value:Record Rate    -->
     <string name="record_rate">Частота записи</string>
+    <!-- Used in file offsets2.xml:15. Original value:Fast Trajectory    -->
+    <string name="string_menu_offset_fast_trajectory">Быстрая траектория</string>
     <!-- Used in file StatusBarUpdater.java:386. Original value:Std    -->
     <string name="std">Авт</string>
     <!-- Used in file compasslevels_settings.xml:8. Original value:Accept epochs with tilt    -->
@@ -1159,20 +1151,20 @@
     <string name="compass">Компас</string>
     <!-- Used in file activity_map_stakeout.xml:212. Original value:Cut    -->
     <string name="text_cut_map">Срезать</string>
-    <!-- Used in file survey_button.xml:15. Original value:Cancel Point    -->
-    <string name="menu_cancel">Отменить точку</string>
     <!-- Used in file AntennaActivity.java:217. Original value:Cannot set slant for unknown antenna!    -->
     <string name="cant_slant_for_unknown_antenna">Нельзя устанавливать наклонную высоту для неизвестной антены!</string>
+    <!-- Used in file survey_button.xml:15. Original value:Cancel Point    -->
+    <string name="menu_cancel">Отменить точку</string>
     <!-- Used in file activity_file_logging.xml:124. Original value:Write additional antenna height info, including height type and offset    -->
     <string name="check_event_format">Писать расширенную информацию о высоте антенны, включая отступ и тип высоты</string>
     <!-- Used in file activity_stakeout_cutfill.xml:195. Original value:Survey\n    -->
     <string name="string_survey_cf">Снятое\n</string>
     <!-- Used in file survey_button.xml:7. Original value:Accept Point    -->
     <string name="menu_accept">Принять точку</string>
-    <!-- Used in file SurveyModel.java:2344. Original value:reject.    -->
-    <string name="epochs_reject_shorter">отклон.</string>
     <!-- Used in file rtk_base.xml:9. Original value:BASE STATION    -->
     <string name="base_station">БАЗОВАЯ СТАНЦИЯ</string>
+    <!-- Used in file SurveyModel.java:2344. Original value:reject.    -->
+    <string name="epochs_reject_shorter">отклон.</string>
     <!-- Used in file RTKSetupActivity.java:920. Original value:IP:%1$s\nDHCP:%2$s    -->
     <string name="setup_internet_lan_format">IP:%1$s\nDHCP:%2$s</string>
     <!-- Used in file activity_antenna.xml:141. Original value:Measure Units    -->
@@ -1207,10 +1199,10 @@
     <string name="position">Положение</string>
     <!-- Used in file SurveyModel.java:556. Original value:Can\'t start surveying!    -->
     <string name="cant_start_surveying">Не удалось запустить запись!</string>
-    <!-- Used in file rtk_base.xml:66. Original value:X:\nY:\nZ:    -->
-    <string name="x_y_z">X:\nY:\nZ:</string>
     <!-- Used in file satellite_row_header.xml:28. Original value:SatSys    -->
     <string name="satsys">Система</string>
+    <!-- Used in file rtk_base.xml:66. Original value:X:\nY:\nZ:    -->
+    <string name="x_y_z">X:\nY:\nZ:</string>
     <!-- Used in file activity_stakeout.xml:48. Original value:Next    -->
     <string name="text_next">Следующая</string>
     <!-- Used in file rtk_base.xml:118. Original value:CORRECTIONS    -->
@@ -1231,10 +1223,10 @@
     <string name="button_apply">Применить</string>
     <!-- Used in file rtk_base_rcv_base.xml:112. Original value:NetHub Port    -->
     <string name="nethub_port">Порт NetHub</string>
-    <!-- Used in file stakeout_settings.xml:22. Original value:Audio Stakeout    -->
-    <string name="audio_stakeout">Аудио-выноска</string>
     <!-- Used in file activity_satellite_types.xml:96. Original value:Gallileo    -->
     <string name="check_gal">Gallileo</string>
+    <!-- Used in file stakeout_settings.xml:22. Original value:Audio Stakeout    -->
+    <string name="audio_stakeout">Аудио-выноска</string>
     <!-- Used in file activity_stakeout.xml:86. Original value:Along    -->
     <string name="text_along">Вдоль</string>
     <!-- Used in file activity_confirm_point_survey.xml:153. Original value:Antenna    -->
@@ -1245,20 +1237,20 @@
     <string name="tcp_on">Режим TCP</string>
     <!-- Used in file activity_power.xml:159. Original value:Enable Low Power Mode    -->
     <string name="enable_low_power_mode">Режим низкого энергопотребления</string>
-    <!-- Used in file activity_stakeout.xml:211. Original value:Cut    -->
-    <string name="text_cut">Срезать</string>
     <!-- Used in file rtk_base_rcv_base.xml:157. Original value:WiFi SSID    -->
     <string name="wlan_ssid">WiFi SSID</string>
+    <!-- Used in file activity_stakeout.xml:211. Original value:Cut    -->
+    <string name="text_cut">Срезать</string>
     <!-- Used in file RTKBaseSettingsActivity.java:364. Original value:The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).    -->
     <string name="jmtr_oaf_message">Этот GNSS приемник не авторизован для работы с JAVAD Mobile Tools для Авторизованных приемников (J-Mobile-R)!\nПожалуйста, свяжитесь с JAVAD GNSS или вашим дилером для приобретения этой OAF опции!\nВы можете либо загрузить в приемник OAF опцию, либо приобрести программу Javad Mobile Tools (J-Mobile) без ограничений.</string>
     <!-- Used in file rtk_base_rcv.xml:39. Original value:Password    -->
     <string name="password">Пароль</string>
     <!-- Used in file rtk_base_uhf.xml:192. Original value:True 5Hz RTK    -->
     <string name="true_5_hz">True 5Hz RTK</string>
-    <!-- Used in file quattro_attitude.xml:8. Original value:Distance AC    -->
-    <string name="quattro_distance_ac">Расстояние AC</string>
     <!-- Used in file activity_wizard_05_corrections.xml:53. Original value:RCV Base    -->
     <string name="radio_rcv_base">RCV база</string>
+    <!-- Used in file quattro_attitude.xml:8. Original value:Distance AC    -->
+    <string name="quattro_distance_ac">Расстояние AC</string>
     <!-- Used in file duo_attitude.xml:5. Original value:Distance AB    -->
     <string name="quattro_distance_ab">Расстояние AB</string>
     <!-- Used in file quattro_attitude.xml:9. Original value:Distance AD    -->
@@ -1277,10 +1269,10 @@
     <string name="verify_mode">Верификация</string>
     <!-- Used in file rtk_base_rcv_base.xml:97. Original value:TCPO E    -->
     <string name="correction_type_tcpo_e">TCPO E</string>
-    <!-- Used in file activity_antenna.xml:92. Original value:Use vertical offset    -->
-    <string name="antenna_use_vertical_offset">Исп.верт.отступ</string>
     <!-- Used in file stakeout_settings.xml:12. Original value:Orientation    -->
     <string name="text_orientation">Ориентация</string>
+    <!-- Used in file activity_antenna.xml:92. Original value:Use vertical offset    -->
+    <string name="antenna_use_vertical_offset">Исп.верт.отступ</string>
     <!-- Used in file rtk_base_rcv_base.xml:87. Original value:TCPO C    -->
     <string name="correction_type_tcpo_c">TCPO C</string>
     <!-- Used in file rtk_base_rcv_base.xml:92. Original value:TCPO D    -->
@@ -1291,35 +1283,47 @@
     <string name="correction_type_tcpo_b">TCPO B</string>
     <!-- Used in file stakeout_settings.xml:177. Original value:RTK Computation mode    -->
     <string name="rtk_computation_mode">Режим вычисления RTK</string>
-    <!-- Used in file activity_configure_ntrip.xml:262. Original value:AIM aux Port    -->
-    <string name="string_aux_port">Пром.порт AIM</string>
     <!-- Used in file satellite_row_header.xml:49. Original value:Azimuth    -->
     <string name="azimuth">Азимут</string>
+    <!-- Used in file activity_configure_ntrip.xml:262. Original value:AIM aux Port    -->
+    <string name="string_aux_port">Пром.порт AIM</string>
     <!-- Used in file StakeoutActivity.java:753. Original value:Pnt.Target    -->
     <string name="target_point_small">Цель</string>
     <!-- Used in file SurveyModel.java:1285. Original value:1 minute    -->
     <string name="minute">1 минута</string>
     <!-- Used in file activity_configure_gprs.xml:91. Original value:Registration    -->
     <string name="registration_mode">Регистрация</string>
-    <!-- Used in file rtk_rover_start.xml:3. Original value:RECEIVER SETUP    -->
-    <string name="survey_receiver_setup">НАСТРОЙКА ПРИЕМНИКА</string>
     <!-- Used in file SurveyModel.java:522. Original value:Can\'t obtain current receiver time!    -->
     <string name="cant_read_receivertime_to_program">Не удалось прочесть время приемника!</string>
+    <!-- Used in file rtk_rover_start.xml:3. Original value:RECEIVER SETUP    -->
+    <string name="survey_receiver_setup">НАСТРОЙКА ПРИЕМНИКА</string>
     <!-- Used in file activity_antenna.xml:79. Original value:Height type    -->
     <string name="antenna_height_type">Тип высоты</string>
-    <!-- Used in file activity_stakeout.xml:333. Original value:Target    -->
-    <string name="text_zoom_target">Цель</string>
     <!-- Used in file activity_stakeout.xml:300. Original value::    -->
     <string name="text_comma">:</string>
+    <!-- Used in file activity_stakeout.xml:333. Original value:Target    -->
+    <string name="text_zoom_target">Цель</string>
     <!-- Used in file settings_general.xml:18. Original value:Low Bluetooth/WiFi connection    -->
     <string name="bluetooth_quality">Слабый сигнал Bluetooth или WiFi</string>
     <!-- Used in file activity_stakeout_cutfill.xml:28. Original value:Point\n    -->
     <string name="text_point_name">Точка\n</string>
     <!-- Used in file job_info.xml:4. Original value:Job Name    -->
     <string name="job_name">Имя проекта</string>
-    <!-- Used in file MapStakeoutActivity.java:1197. Original value:Left    -->
+    <!-- Used in file MapStakeoutActivity.java:1196. Original value:Left    -->
     <string name="text_left">Влево</string>
     <!-- Used in file activity_map_stakeout.xml:41. Original value:Y    -->
     <string name="text_y_map">Y</string>
+    <!-- UNUSED STRING 
+    <string name="antenna_show_vertical_offset">Отображать верт.отступы</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="show_vertical_offsets">Отображать вертикальные отступы</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_ellapsed_time__d_sec">Прошло %d сек</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d эпох собрано (%3$d отклонено)</string>
+    -->
 
 </resources>
