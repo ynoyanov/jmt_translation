@@ -1,52 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file ListWithSortAndSearchActivity.java:783. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
+    <!--  Used in file BaseProviderMapActivity.java:28. Original value:Points  -->
+    <string name="string_points">Punkty</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:627. Original value:file  -->
+    <string name="string_file">plik</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:660. Original value:Do you want to delete %s:  -->
+    <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:300. Original value:Zoom All  -->
+    <string name="string_zoom_all">Pokaż wszystko</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:370. Original value:Sort by  -->
+    <string name="string_sort_by">Sortuj z</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:527. Original value:Reading list of %s&#8230;  -->
+    <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:669. Original value:Do you want to delete %1$d %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:295. Original value:MapProvider  -->
+    <string name="string_mapprovider">Dostawca Map</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:709. Original value:Do you want to delete %1$s %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:708. Original value:Delete %s  -->
+    <string name="string_delete__s">Usuń %s</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:711. Original value:Delete  -->
+    <string name="string_delete">Usuń</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:717. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:631. Original value:files  -->
+    <string name="string_files">pliki</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:268. Original value:Connect  -->
+    <string name="string_connect">Połącz</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
-  <!--Original value: Points-->
-  <string name="string_points">Punkty</string>
-  <!--Original value: file-->
-  <string name="string_file">plik</string>
-  <!--Original value: Do you want to delete %s:-->
-  <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
-  <!--Original value: Zoom All-->
-  <string name="string_zoom_all">Pokaż wszystko</string>
-  <!--Original value: Sort by-->
-  <string name="string_sort_by">Sortuj z</string>
-  <!--Original value: Reading list of %s…-->
-  <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
-  <!--Original value: Do you want to delete %1$d %2$s?-->
-  <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Dostawca Map</string>
-  <!--Original value: Do you want to delete %1$s %2$s?-->
-  <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
-  <!--Original value: Delete %s-->
-  <string name="string_delete__s">Usuń %s</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: files-->
-  <string name="string_files">pliki</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Połącz</string>
 </resources>

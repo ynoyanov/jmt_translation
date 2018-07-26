@@ -124,7 +124,7 @@
     <!--  Used in file SurveyPoint.java:211. Original value:Inclination Martix  -->
     <string name="string_inclination_martix">Matryca inklinacji</string>
     <!--  Used in file SurveyPointActivity.java:840. Original value:Do you want to set description \'%s\' and code \'%s\' for all %d points?  -->
-    <string name="string_do_you_want_to_set_description___s__and_code___s__for_all__d_points_">Czy chcesz ustawić opis \'%1$s\' i kod \'%2$s\' dla punktów %d?</string>
+    <string name="string_do_you_want_to_set_description___s__and_code___s__for_all__d_points_">Czy chcesz ustawić opis \'%1$s\' i kod \'%2$s\' dla punktów %3$d?</string>
     <!--  Used in file ExportAndReport.java:146. Original value:MapInfo *.tab  -->
     <string name="string_mapinfo___tab">MapInfo *.tab</string>
     <!--  Used in file SurveyPointAntennaActivity.java:162. Original value:Wrong slant height!  -->
@@ -165,8 +165,8 @@
     <string name="string_do_you_want_to_modify_antenna_and_correct_height_for_all_the_points_">Czy chcesz zmodyfikować antenę i skorygować wysokość dla wszystkich punktów?</string>
     <!--  Used in file SurveyObject.java:205. Original value:Antenna Info  -->
     <string name="string_antenna_info">Antenna Info</string>
-    <!--  Used in file SurveyPointActivity.java:838. Original value:Do you want to set description \'%s\' for all %d points?  -->
-    <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Czy chcesz ustawić opis \'%s\' dla wszystkich punktów?</string>
+    <!--  Used in file SurveyPointActivity.java:838. Original value:Do you want to set description \'%1$s\' for all %2$d points?  -->
+    <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Czy chcesz ustawić opis \'%1$s\' dla wszystkich %2%d punktów?</string>
     <!--  Used in file DesignPointsActivity.java:122. Original value:MapInfo *.mif, *.tab  -->
     <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!--  Used in file SurveyPointActivity.java:466. Original value:%d points  -->
@@ -301,6 +301,8 @@
     <string name="string_auth_with_">Auth.with </string>
     <!--  Used in file ArchieveJobFolderActivity.java:947. Original value:Warning!  -->
     <string name="string_warning_">Uwaga!</string>
+    <!--  Used in file SurveyPointsCoordinateAdapter.java:67. Original value:Aver.%s  -->
+    <string name="string_aver__s">Aver.%s</string>
     <!--  Used in file DesignPointsActivity.java:126. Original value:Credo *.top  -->
     <string name="string_credo___top">Credo *.top</string>
     <!--  Used in file ArchieveJobFolderActivity.java:1046. Original value:Job Archieving is turned OFF  -->
@@ -474,7 +476,7 @@
     <string name="string_stakeout_dh">dH</string>
     <!--  Used in file TSPointsActivity.java:279. Original value:View/Edit point  -->
     <string name="string_view_edit_point">Podgląd/Edycja punktu</string>
-    <!--  Used in file SurveyPointsActivity.java:264. Original value:trajectory  -->
+    <!--  Used in file SurveyPointsCoordinateAdapter.java:93. Original value:trajectory  -->
     <string name="string_trajectory">krzywa</string>
 
 </resources>
