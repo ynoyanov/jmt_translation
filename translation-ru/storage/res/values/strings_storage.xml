@@ -7,7 +7,7 @@
     <string name="action_search">Search</string>
     <!-- Used in file JobActivity.java:96    -->
     <string name="string_duplicate_job_xml">Duplicate Job</string>
-    <!-- Used in file RTKBasesActivity.java:87    -->
+    <!-- Used in file RTKBasesActivity.java:100    -->
     <string name="string_dpos_sort">Process</string>
     <!-- Used in file activity_archieve_folder.xml:93    -->
     <string name="button_sync_jobs_dropbox">Sync Jobs with Dropbox</string>
@@ -15,7 +15,7 @@
     <string name="job_organization">Organization</string>
     <!-- Used in file TSPointsActivity.java:72    -->
     <string name="string_name_sort">Name</string>
-    <!-- Used in file activity_rtkbase.xml:241    -->
+    <!-- Used in file activity_rtkbase.xml:245    -->
     <string name="button_reset_vb_rtk">Restore</string>
     <!-- Used in file jobs.xml:45    -->
     <string name="action_arhieve_folder">Archieve Folder</string>
@@ -47,7 +47,7 @@
     <string name="description">Descr.</string>
     <!-- Used in file design_points.xml:45    -->
     <string name="string_menu_import">Import</string>
-    <!-- Used in file list_points.xml:93    -->
+    <!-- Used in file list_points.xml:103    -->
     <string name="string_descriptionhint">Description</string>
     <!-- Used in file activity_job.xml:130    -->
     <string name="localization">Localization</string>
@@ -55,6 +55,8 @@
     <string name="code">Code</string>
     <!-- Used in file rtkbases.xml:22    -->
     <string name="action_calendar">Calendar</string>
+    <!-- Used in file rtkbases.xml:34    -->
+    <string name="action_export">Export</string>
     <!-- Used in file activity_rtkbase.xml:136    -->
     <string name="string_reference_frame">Ref.Frame</string>
     <!-- Used in file activity_rtkbase.xml:197    -->
@@ -71,11 +73,11 @@
     <string name="archive_dropbox">Archieve to Dropbox</string>
     <!-- Used in file activity_point.xml:210    -->
     <string name="coordinate_origin">Origin</string>
-    <!-- Used in file activity_rtkbase.xml:250    -->
+    <!-- Used in file activity_rtkbase.xml:254    -->
     <string name="button_modify">Modify</string>
     <!-- Used in file TSPointsActivity.java:74    -->
     <string name="string_time_sort">Time</string>
-    <!-- Used in file RTKBasesActivity.java:86    -->
+    <!-- Used in file RTKBasesActivity.java:99    -->
     <string name="string_filename_sort">Filename</string>
     <!-- Used in file activity_archieve_folder.xml:37    -->
     <string name="button_select_folder">Select folder</string>
@@ -95,10 +97,8 @@
     <string name="button_sync_jobs_onedrive">Sync Jobs to OneDrive</string>
     <!-- Used in file points.xml:34    -->
     <string name="action_contouring">Contouring</string>
-    <!-- Used in file RTKBasesActivity.java:84    -->
+    <!-- Used in file RTKBasesActivity.java:97    -->
     <string name="string_id_sort">Id</string>
-    <!-- Used in file activity_rtkbase.xml:51    -->
-    <string name="string_base_id">Base Id</string>
     <!-- Used in file activity_point.xml:217    -->
     <string name="coordinate_neh">VRS(NEH)</string>
     <!-- Used in file jobs.xml:40    -->
@@ -119,7 +119,7 @@
     <string name="string_new_job">New Job</string>
     <!-- Used in file activity_point.xml:248    -->
     <string name="survey_info">SurveyInfo:\n\n</string>
-    <!-- Used in file activity_design_points.xml:16    -->
+    <!-- Used in file activity_rover_points_from_base.xml:16    -->
     <string name="search_hint">Search</string>
     <!-- Used in file activity_job.xml:109    -->
     <string name="coordinate_system">Coordinate System</string>
@@ -149,20 +149,5 @@
     <string name="job_name">Name</string>
     <!-- Used in file jobs.xml:50    -->
     <string name="action_delete">Delete</string>
-    <!-- UNUSED STRING 
-    <string name="string__d_changed_ok_n_d_can_t_be_changed_">%d changed ok\n%d can\'t be changed!</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">Point %1$s was successfully added into catalog %2$s</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_do_you_want_to_set_description___s__and_code___s__for_all__d_points_">Do you want to set description \'%s\' and code \'%s\' for all %d points?</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_do_you_want_to_set_description___s__for_all__d_points_">Do you want to set description \'%1$s\' for all %2$d points?</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_do_you_want_to_set_code___s__for_all__d_points_">Do you want to set code \'%s\' for all %d points?</string>
-    -->
 
 </resources>
