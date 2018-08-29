@@ -485,8 +485,6 @@
 
     <!-- Used in file activity_configure_uhf.xml:116 -->
     <string-array name="uhf_output_power">
-         <item>0.020W / 13dBm</item>
-         <item>0.025W / 14dBm</item>
          <item>0.030W / 15dBm</item>
          <item>0.040W / 16dBm</item>
          <item>0.050W / 17dBm</item>
@@ -519,6 +517,28 @@
          <item>25.00W / 44dBm</item>
          <item>35.00W / 45dBm</item>
     </string-array>
+    
+    <!-- Used in file ConfigureUHFActivity.java:844 -->
+    <string-array name="uhf_output_power_1w">
+         <item>0.030W / 15dBm</item>
+         <item>0.040W / 16dBm</item>
+         <item>0.050W / 17dBm</item>
+         <item>0.060W / 18dBm</item>
+         <item>0.080W / 19dBm</item>
+         <item>0.100W / 20dBm</item>
+         <item>0.120W / 21dBm</item>
+         <item>0.160W / 22dBm</item>
+         <item>0.200W / 23dBm</item>
+         <item>0.250W / 24dBm</item>
+         <item>0.320W / 25dBm</item>
+         <item>0.400W / 26dBm</item>
+         <item>0.500W / 27dBm</item>
+         <item>0.630W / 28dBm</item>
+         <item>0.800W / 29dBm</item>
+         <item>1.000W / 30dBm</item>
+    </string-array>
+
+    
 
     <!-- Used in file rtk_base_uhf.xml:177 -->
     <string-array name="trimmark3_spacings">
@@ -541,28 +561,6 @@
     <string-array name="wifi_security_array">
          <item>wep</item>
          <item>wap</item>
-    </string-array>
-
-    <!-- Used in file ConfigureUHFActivity.java:844 -->
-    <string-array name="uhf_output_power_1w">
-         <item>0.020W / 13dBm</item>
-         <item>0.025W / 14dBm</item>
-         <item>0.030W / 15dBm</item>
-         <item>0.040W / 16dBm</item>
-         <item>0.050W / 17dBm</item>
-         <item>0.060W / 18dBm</item>
-         <item>0.080W / 19dBm</item>
-         <item>0.100W / 20dBm</item>
-         <item>0.120W / 21dBm</item>
-         <item>0.160W / 22dBm</item>
-         <item>0.200W / 23dBm</item>
-         <item>0.250W / 24dBm</item>
-         <item>0.320W / 25dBm</item>
-         <item>0.400W / 26dBm</item>
-         <item>0.500W / 27dBm</item>
-         <item>0.630W / 28dBm</item>
-         <item>0.800W / 29dBm</item>
-         <item>1.000W / 30dBm</item>
     </string-array>
 
     <!-- Used in file offset_survey.xml:98 -->

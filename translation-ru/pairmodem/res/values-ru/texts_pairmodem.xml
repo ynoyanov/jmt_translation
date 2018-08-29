@@ -5,18 +5,18 @@
     <string name="string_file_doesn_t_exist_">Файл не найден!</string>
     <!--  Used in file PairModemActivity.java:467. Original value:Modem is paired ok. Rebooting modem&#8230;  -->
     <string name="string_modem_is_paired_ok__rebooting_modem___">Модем успешно спарен. Идем перезагрузка модема</string>
-    <!--  Used in file RepeaterActivity.java:323. Original value:Wrong TX frequency!  -->
-    <string name="string_wrong_tx_frequency_">Неверная частота передачи!</string>
     <!--  Used in file PairModemActivity.java:509. Original value:Pairing has done.  -->
     <string name="string_pairing_has_done_">Создание пары успешно выполнено.</string>
+    <!--  Used in file RepeaterActivity.java:323. Original value:Wrong TX frequency!  -->
+    <string name="string_wrong_tx_frequency_">Неверная частота передачи!</string>
     <!--  Used in file PairModemActivity.java:428. Original value:Connected. Starting to pair&#8230;  -->
     <string name="string_connected__starting_to_pair___">Подключено. Начато создание пары</string>
     <!--  Used in file PairModemActivity.java:436. Original value:Can\'t set modem to command mode  -->
     <string name="string_can_t_set_modem_to_command_mode">Не удалось ввести модем в командный режим</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:576. Original value:Wrong firmware file!  -->
-    <string name="string_wrong_firmware_file_">Неверный файл встроенного ПО!</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Connected to radio  -->
     <string name="string_connected_to_radio">Подключенно к модему</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:576. Original value:Wrong firmware file!  -->
+    <string name="string_wrong_firmware_file_">Неверный файл встроенного ПО!</string>
     <!--  Used in file PairModemActivity.java:445. Original value:Modem info received&#8230;  -->
     <string name="string_modem_info_received___">Идет чтение информации с модема</string>
     <!--  Used in file PairModemActivity.java:184. Original value:Do you want to unpair the receiver and the modem?  -->
@@ -27,7 +27,7 @@
     <string name="string_can_t_save_modem_settings_">Не удалось сохранить настройки модема</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Do you want to update its firmware?  -->
     <string name="string_do_you_want_to_update_its_firmware_">Хотите обновить встроенное ПО модема?</string>
-    <!--  Used in file FindRangefinderActivity.java:347. Original value:Close  -->
+    <!--  Used in file FindRangefinderActivity.java:368. Original value:Close  -->
     <string name="string_close">Закрыть</string>
     <!--  Used in file RepeaterActivity.java:446. Original value:Applying setting&#8230;  -->
     <string name="string_applying_setting___">Применение настроек&#8230;</string>
@@ -39,7 +39,7 @@
     <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Частота должна быть от %1$dГц до %2$dГц</string>
     <!--  Used in file PairModemActivity.java:183. Original value:Modem already paired  -->
     <string name="string_modem_already_paired">Модем уже спарен</string>
-    <!--  Used in file FindRangefinderActivity.java:345. Original value:Connected to Rangefinder  -->
+    <!--  Used in file FindRangefinderActivity.java:366. Original value:Connected to Rangefinder  -->
     <string name="string_connected_to_rangefinder">Подключено к лаз.рулетке</string>
     <!--  Used in file PairModemActivity.java:498. Original value:Reseting GNSS receiver&#8230;  -->
     <string name="string_reseting_gnss_receiver___">Перезагрузка приемника</string>
@@ -87,7 +87,7 @@
     <string name="string_wait__">Подождите</string>
     <!--  Used in file PairModemActivity.java:409. Original value:Receiver is not connected!  -->
     <string name="string_receiver_is_not_connected_">Приемник не подключен</string>
-    <!--  Used in file FindRangefinderActivity.java:496. Original value:Please wait  -->
+    <!--  Used in file FindRangefinderActivity.java:670. Original value:Please wait  -->
     <string name="string_please_wait">Подождите</string>
     <!--  Used in file PairModemActivity.java:125. Original value:Turn the radio off and on to finish.  -->
     <string name="string_turn_the_radio_off_and_on_to_finish_">Выключите и включите модем для завершения</string>
@@ -99,7 +99,7 @@
     <string name="string_load_firmware">Загрузить ПО</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:308. Original value:Can\'t connect to internal radio!  -->
     <string name="string_can_t_connect_to_internal_radio_">Не удалось подключиться к внутреннему модему!</string>
-    <!--  Used in file FindRangefinderActivity.java:495. Original value:Conecting&#8230;  -->
+    <!--  Used in file FindRangefinderActivity.java:669. Original value:Conecting&#8230;  -->
     <string name="string_conecting___">Подключение&#8230;</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:587. Original value:This firmware is  -->
     <string name="string_this_firmware_is">Встроенное ПО </string>
@@ -115,7 +115,7 @@
     <string name="string_unparing">Unparing</string>
     <!--  Used in file RepeaterActivity.java:332. Original value:Wrong RX frequency!  -->
     <string name="string_wrong_rx_frequency_">Неверная частота приема (RX)!</string>
-    <!--  Used in file FindRangefinderActivity.java:346. Original value:Successfully connected to %s  -->
+    <!--  Used in file FindRangefinderActivity.java:367. Original value:Successfully connected to %s  -->
     <string name="string_successfully_connected_to__s">Подключенно к %s</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:536. Original value:Do you want to load the firmware?  -->
     <string name="string_do_you_want_to_load_the_firmware_">Загрузить встроенное ПО?</string>
@@ -125,10 +125,10 @@
     <string name="string_successfully_unpaired_">Распарен успешно</string>
     <!--  Used in file LoadFirmwareModemSelectActivity.java:780. Original value:Rebooting %.1f  -->
     <string name="string_rebooting___1f">Перезагрузка %.1f</string>
+    <!--  Used in file FindRangefinderActivity.java:672. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
     <!--  Used in file PairModemActivity.java:480. Original value:Modem Bluetooth address is not obtained!  -->
     <string name="string_modem_bluetooth_address_is_not_obtained_">Не определен Bluetooth адрес модема!</string>
-    <!--  Used in file FindRangefinderActivity.java:498. Original value:Cancel  -->
-    <string name="string_cancel">Отменить</string>
     <!--  Used in file RepeaterActivity.java:294. Original value:Wrong TX frequecy!  -->
     <string name="string_wrong_tx_frequecy_">Неверная частота передачи (TX)!</string>
 
