@@ -7,7 +7,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1139 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1152 -->
     <string-array name="connected_to_array_internet_maxor">
          <item>the Android device</item>
          <item>Internal GSM</item>
@@ -116,26 +116,26 @@
          <item>60 sec</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:587 -->
+    <!-- Used in file RTKSetupActivity.java:609 -->
     <string-array name="connected_to_array_radio_triumph2">
          <item>Bluetooth B</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:579 -->
+    <!-- Used in file RTKSetupActivity.java:601 -->
     <string-array name="connected_to_array_internet_gismore">
          <item>the Android device</item>
          <item>WiFi</item>
          <item>3G GISMORE</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:585 -->
+    <!-- Used in file RTKSetupActivity.java:607 -->
     <string-array name="connected_to_array_radio_triumph1">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:581 -->
+    <!-- Used in file RTKSetupActivity.java:603 -->
     <string-array name="connected_to_array_internet_sigma">
          <item>the Android device</item>
          <item>WiFi</item>
@@ -172,14 +172,14 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:591 -->
+    <!-- Used in file RTKSetupActivity.java:613 -->
     <string-array name="connected_to_array_radio_sigma">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1154 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1167 -->
     <string-array name="connected_to_array_csd_sigma">
          <item>Internal GSM</item>
     </string-array>
@@ -219,12 +219,12 @@
          <item>jps</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:589 -->
+    <!-- Used in file RTKSetupActivity.java:611 -->
     <string-array name="connected_to_array_radio_gismore">
          <item>Bluetooth B</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1149 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1162 -->
     <string-array name="connected_to_array_radio_maxor">
          <item>Bluetooth B</item>
          <item>Serial A</item>
@@ -263,13 +263,13 @@
          <item>easy</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:577 -->
+    <!-- Used in file RTKSetupActivity.java:599 -->
     <string-array name="connected_to_array_internet_triumph2">
          <item>the Android device</item>
          <item>WiFi Triumph-2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:575 -->
+    <!-- Used in file RTKSetupActivity.java:597 -->
     <string-array name="connected_to_array_internet_triumph1">
          <item>the Android device</item>
          <item>WiFi Triumph-1</item>
@@ -277,7 +277,7 @@
          <item>LAN Triumph-1</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1156 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1169 -->
     <string-array name="connected_to_array_csd_maxor">
          <item>Internal GSM</item>
     </string-array>
@@ -292,7 +292,7 @@
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1152 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1165 -->
     <string-array name="connected_to_array_csd_triumph1">
          <item>Internal GSM</item>
     </string-array>
@@ -301,6 +301,16 @@
     <string-array name="rtk_computation_mode">
          <item>Extrapolation</item>
          <item>Delay</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_generic_radio.xml:20 -->
+    <string-array name="baud_rate">
+         <item>do not modify</item>
+         <item>115200</item>
+         <item>57600</item>
+         <item>38400</item>
+         <item>19200</item>
+         <item>9600</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv_base.xml:100 -->
@@ -368,7 +378,7 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTKActivity.java:2337 -->
+    <!-- Used in file SurveyingRTKActivity.java:2338 -->
     <string-array name="left_right_array">
          <item>Left</item>
          <item>Right</item>
@@ -517,7 +527,24 @@
          <item>25.00W / 44dBm</item>
          <item>35.00W / 45dBm</item>
     </string-array>
-    
+
+    <!-- Used in file rtk_base_uhf.xml:177 -->
+    <string-array name="trimmark3_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:162 -->
+    <string-array name="minimal_rtk_array">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
     <!-- Used in file ConfigureUHFActivity.java:844 -->
     <string-array name="uhf_output_power_1w">
          <item>0.030W / 15dBm</item>
@@ -536,25 +563,6 @@
          <item>0.630W / 28dBm</item>
          <item>0.800W / 29dBm</item>
          <item>1.000W / 30dBm</item>
-    </string-array>
-
-    
-
-    <!-- Used in file rtk_base_uhf.xml:177 -->
-    <string-array name="trimmark3_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:162 -->
-    <string-array name="minimal_rtk_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
     </string-array>
 
     <!-- Used in file activity_configure_wifi_from_style.xml:71 -->
@@ -600,7 +608,7 @@
          <item>d16qam</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:583 -->
+    <!-- Used in file RTKSetupActivity.java:605 -->
     <string-array name="connected_to_array_radio">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -736,7 +744,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTKActivity.java:2337 -->
+    <!-- Used in file SurveyingRTKActivity.java:2338 -->
     <string-array name="p1_p2_array">
          <item>from P2</item>
          <item>from P1</item>
