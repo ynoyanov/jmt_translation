@@ -1,87 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file ConnectionBluetoothActivity.java:180. Original value:WiFi SSID is   -->
+    <!--  Used in file ConnectionBluetoothActivity.java:187. Original value:WiFi SSID is   -->
     <string name="string_wifi_ssid_is_">WiFi SSID - </string>
-    <!--  Used in file MainCommunicationActivity.java:582. Original value:Network Port:  -->
+    <!--  Used in file MainCommunicationActivity.java:585. Original value:Network Port:  -->
     <string name="string_network_port_">Сетевой порт:</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:177. Original value:Reprogram WiFi for iPhone/iPad  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:184. Original value:Reprogram WiFi for iPhone/iPad  -->
     <string name="string_reprogram_wifi_for_iphone_ipad">Настроить для iPhone/iPad</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:135. Original value:This will use your WiFi settings to reprogram your receiver for WiFi connection.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:142. Original value:This will use your WiFi settings to reprogram your receiver for WiFi connection.  -->
     <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">Это действие настроит WiFi приеника на теже настройки? что и у этого Android усройства.</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:101. Original value:and reprogram your receiver to connect to it with WiFi.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:108. Original value:and reprogram your receiver to connect to it with WiFi.  -->
     <string name="string_and_reprogram_your_receiver_to_connect_to_it_with_wifi_">и перенастроить приемник для подключения по WiFi.</string>
     <!--  Used in file ConnectionConfigurationsActivity.java:92. Original value:Delete entry  -->
     <string name="string_delete_entry">Удалить элемент</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:102. Original value:Mobile HotSpot is   -->
+    <!--  Used in file ConnectionBluetoothActivity.java:378. Original value:Receiver is programmed OK. Resettings it.  -->
+    <string name="string_receiver_is_programmed_ok__resettings_it_">Приемник успешно настроен. Перезагружаем его.</string>
+    <!--  Used in file ConnectionBluetoothActivity.java:109. Original value:Mobile HotSpot is   -->
     <string name="string_mobile_hotspot_is_">Переносная точка - </string>
-    <!--  Used in file MainCommunicationActivity.java:584. Original value:Password  -->
+    <!--  Used in file MainCommunicationActivity.java:587. Original value:Password  -->
     <string name="string_password">Пароль</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:134. Original value:Reconnect with WiFi using AP  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:141. Original value:Reconnect with WiFi using AP  -->
     <string name="string_reconnect_with_wifi_using_ap">Подключить WiFi через AP</string>
-    <!--  Used in file MainCommunicationActivity.java:75. Original value:WiFi\nMobile  -->
+    <!--  Used in file MainCommunicationActivity.java:76. Original value:WiFi\nMobile  -->
     <string name="string_wifi_nmobile">Моб.\nWiFi</string>
-    <!--  Used in file MainCommunicationActivity.java:850. Original value:Wait!!  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:352. Original value:WiFi settings couldn\'t be detected!  -->
+    <string name="string_wifi_settings_couldn_t_be_detected_">Настройки WiFi не могут быть определены!</string>
+    <!--  Used in file MainCommunicationActivity.java:853. Original value:Wait!!  -->
     <string name="string_wait__">Подождите!</string>
-    <!--  Used in file MainCommunicationActivity.java:953. Original value:Exit application  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:292. Original value:WiFi Mobile AP is disabled. Making it enabled&#8230;  -->
+    <string name="string_wifi_mobile_ap_is_disabled__making_it_enabled___">Мобильная точка доступа откючена.Включение&#8230;</string>
+    <!--  Used in file ConnectionBluetoothActivity.java:511. Original value:Permission denied to configure WiFi  -->
+    <string name="string_permission_denied_to_configure_wifi">Разрешения запрещают настройку WiFi!</string>
+    <!--  Used in file MainCommunicationActivity.java:959. Original value:Exit application  -->
     <string name="string_exit_application">Выход из программы</string>
-    <!--  Used in file MainCommunicationActivity.java:583. Original value:Login  -->
+    <!--  Used in file MainCommunicationActivity.java:586. Original value:Login  -->
     <string name="string_login">Логин</string>
+    <!--  Used in file ConnectionBluetoothActivity.java:296. Original value:Check that the application has WRITE_SETTINS permission!  -->
+    <string name="string_check_that_the_application_has_write_settins_permission_">Проверьте, что у программы есть разрешение WRITE_SETTINGS!</string>
     <!--  Used in file ConnectionConfigurationsActivity.java:71. Original value:Are you sure you want to delete %d configurations?  -->
     <string name="string_are_you_sure_you_want_to_delete__d_configurations_">Удалить %d конфигураций?</string>
-    <!--  Used in file MainCommunicationActivity.java:1053. Original value:Permission denied to obtain list of Bluetooth devices around  -->
+    <!--  Used in file MainCommunicationActivity.java:1059. Original value:Permission denied to obtain list of Bluetooth devices around  -->
     <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Нет разрешения для получения списка устройств!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:178. Original value:This will switch your JAVAD GNSS receiver WiFi into AdHoc mode.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:504. Original value:Permission denied to setup WiFi  -->
+    <string name="string_permission_denied_to_setup_wifi">Не установлены разрешения для настройки WiFi!</string>
+    <!--  Used in file ConnectionBluetoothActivity.java:185. Original value:This will switch your JAVAD GNSS receiver WiFi into AdHoc mode.  -->
     <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">Это перенастроит WiFi выбранного приемника в режим AdHoc.</string>
     <!--  Used in file ConnectionConfigurationsActivity.java:74. Original value:Are you sure you want to delete configuration \&quot;  -->
     <string name="string_are_you_sure_you_want_to_delete_configuration___">Удалить конфигурацию \&quot;</string>
-    <!--  Used in file MainCommunicationActivity.java:581. Original value:IP Address  -->
+    <!--  Used in file MainCommunicationActivity.java:584. Original value:IP Address  -->
     <string name="string_ip_address">IP-адрес</string>
-    <!--  Used in file MainCommunicationActivity.java:179. Original value:Configuration could not be read  -->
+    <!--  Used in file MainCommunicationActivity.java:180. Original value:Configuration could not be read  -->
     <string name="string_configuration_could_not_be_read">Не удалось прочесть конфигурацию</string>
-    <!--  Used in file MainCommunicationActivity.java:954. Original value:Do you want to exit the application?  -->
+    <!--  Used in file MainCommunicationActivity.java:960. Original value:Do you want to exit the application?  -->
     <string name="string_do_you_want_to_exit_the_application_">Хотите завершить приложение?</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:99. Original value:Reconnect with WiFi using Android  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:106. Original value:Reconnect with WiFi using Android  -->
     <string name="string_reconnect_with_wifi_using_android">Переподключить по WiFi используя Android</string>
-    <!--  Used in file MainCommunicationActivity.java:171. Original value:Connnected to   -->
+    <!--  Used in file MainCommunicationActivity.java:172. Original value:Connnected to   -->
     <string name="string_connnected_to_">Подключенно к </string>
-    <!--  Used in file MainCommunicationActivity.java:73. Original value:Blt  -->
+    <!--  Used in file MainCommunicationActivity.java:74. Original value:Blt  -->
     <string name="string_blt">Blt</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:179. Original value:That allows iPhone/iPad to be connected to this receiver with WiFi.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:186. Original value:That allows iPhone/iPad to be connected to this receiver with WiFi.  -->
     <string name="string_that_allows_iphone_ipad_to_be_connected_to_this_receiver_with_wifi_">Это позволит устройствам iPhone/iPad подключаться к выбранному приемнику через WiFi.</string>
     <!--  Used in file ConnectionConfigurationRenameActivity.java:70. Original value:Rename Error!  -->
     <string name="string_rename_error_">Ошибка переименования!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:136. Original value:The same AP will be used.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:143. Original value:The same AP will be used.  -->
     <string name="string_the_same_ap_will_be_used_">Будет использованна та же точка доступа</string>
-    <!--  Used in file MainCommunicationActivity.java:697. Original value:wifi AP is disabled&#8230; making it enabled  -->
+    <!--  Used in file MainCommunicationActivity.java:700. Original value:wifi AP is disabled&#8230; making it enabled  -->
     <string name="string_wifi_ap_is_disabled____making_it_enabled">WiFi отключен. включется…</string>
-    <!--  Used in file MainCommunicationActivity.java:849. Original value:Please Wait!!  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:383. Original value:Error in programming the receiver for the WiFi!  -->
+    <string name="string_error_in_programming_the_receiver_for_the_wifi_">Ошибка программирования приемника дял подключения к WiFi!</string>
+    <!--  Used in file MainCommunicationActivity.java:852. Original value:Please Wait!!  -->
     <string name="string_please_wait__">Подождите!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:182. Original value:Do you want ot continue?  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:189. Original value:Do you want ot continue?  -->
     <string name="string_do_you_want_ot_continue_">Продолжить?</string>
-    <!--  Used in file MainCommunicationActivity.java:304. Original value:Configuration %s could not be read  -->
+    <!--  Used in file MainCommunicationActivity.java:305. Original value:Configuration %s could not be read  -->
     <string name="string_configuration__s_could_not_be_read">Не удалось прочесть конфигурацию %s</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:100. Original value:This will switch your Android device into Mobile HotSpot mode  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:107. Original value:This will switch your Android device into Mobile HotSpot mode  -->
     <string name="string_this_will_switch_your_android_device_into_mobile_hotspot_mode">Переключить сматрфон с Android в режим переносной точки доступа (Mobile HotSpot)?</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:166. Original value:Password length must be 8 chars!  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:173. Original value:Password length must be 8 chars!  -->
     <string name="string_password_length_must_be_8_chars_">Длина пароля должна быть 8 символов!</string>
     <!--  Used in file ConnectionConfigurationsActivity.java:68. Original value:Are you sure you want to delete this entry?  -->
     <string name="string_are_you_sure_you_want_to_delete_this_entry_">Хотите удалить этот элемент?</string>
     <!--  Used in file ConnectionConfigurationRenameActivity.java:63. Original value:Configuration with name %s already exist!  -->
     <string name="string_configuration_with_name__s_already_exist_">Конфигурация с именем %s уже существует!</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:136. Original value:AP   -->
+    <!--  Used in file ConnectionBluetoothActivity.java:143. Original value:AP   -->
     <string name="string_ap_">AP</string>
-    <!--  Used in file MainCommunicationActivity.java:74. Original value:WiFi  -->
+    <!--  Used in file MainCommunicationActivity.java:75. Original value:WiFi  -->
     <string name="string_wifi">WiFi</string>
     <!--  Used in file ConnectionConfigurationsActivity.java:76. Original value:Are you sure you want to delete configurations:\n  -->
     <string name="string_are_you_sure_you_want_to_delete_configurations__n">Удалить конфигурации:\n</string>
-    <!--  Used in file MainCommunicationActivity.java:786. Original value:wifi is disabled&#8230; making it enabled  -->
+    <!--  Used in file MainCommunicationActivity.java:789. Original value:wifi is disabled&#8230; making it enabled  -->
     <string name="string_wifi_is_disabled____making_it_enabled">WiFi отключен. включается…</string>
-    <!--  Used in file ConnectionBluetoothActivity.java:181. Original value:WiFi password is %s.  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:188. Original value:WiFi password is %s.  -->
     <string name="string_wifi_password_is__s_">Пароль WiFi - %s</string>
-    <!--  Used in file MainCommunicationActivity.java:76. Original value:Net  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:296. Original value:Can\'t activate WiFi Mobile AP!  -->
+    <string name="string_can_t_activate_wifi_mobile_ap_">Не удалось включить моибльную точку доступа!</string>
+    <!--  Used in file ConnectionBluetoothActivity.java:333. Original value:WiFi is disabled. Making it enabled&#8230;  -->
+    <string name="string_wifi_is_disabled__making_it_enabled___">WiFi откючен.Включение&#8230;</string>
+    <!--  Used in file MainCommunicationActivity.java:77. Original value:Net  -->
     <string name="string_net">Сеть</string>
-    <!--  Used in file MainCommunicationActivity.java:585. Original value:CONNECT  -->
+    <!--  Used in file ConnectionBluetoothActivity.java:310. Original value:Mobile AP address/name couldn\'t be detected!  -->
+    <string name="string_mobile_ap_address_name_couldn_t_be_detected_">Не удается определить адрес/имя мобильной точки!</string>
+    <!--  Used in file MainCommunicationActivity.java:588. Original value:CONNECT  -->
     <string name="string_connect">СВЯЗЬ</string>
 
 </resources>

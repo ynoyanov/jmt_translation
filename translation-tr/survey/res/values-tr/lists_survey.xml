@@ -1,6 +1,500 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file rtk_base_uhf.xml:161 -->
+    <string-array name="trimmarkii_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file activity_power.xml:142 -->
+    <string-array name="charging_mode_array">
+         <item>Auto</item>
+         <item>Off</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:86 -->
+    <string-array name="antenna_ids_array">
+         <item>Triumph-1 Dahili</item>
+         <item>Triumph-2 Dahili</item>
+         <item>GISMore Dahili</item>
+         <item>Grant external</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:33 -->
+    <string-array name="uhf_protocols">
+         <item>simplex</item>
+         <item>transparent</item>
+         <item>satel</item>
+         <item>trimtalk450s</item>
+         <item>tt450shw</item>
+         <item>trimmarkII</item>
+         <item>trimmark3</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:147 -->
+    <string-array name="hybrid_rtk_array">
+         <item>Asla</item>
+         <item>5 Dak</item>
+         <item>7 Dak</item>
+         <item>10 Dak</item>
+         <item>15 Dak</item>
+         <item>20 Dak</item>
+         <item>25 Dak</item>
+         <item>30 Dak</item>
+         <item>45 Dak</item>
+         <item>1 Saat</item>
+         <item>2 Saat</item>
+         <item>10 Sny</item>
+         <item>30 Sny</item>
+         <item>1 Dak</item>
+    </string-array>
+
+    <!-- Used in file activity_surveying_sng.xml:133 -->
+    <string-array name="occupation_time_array">
+         <item>1 Dak</item>
+         <item>2 Dak</item>
+         <item>3 Dak</item>
+         <item>5 Dak</item>
+         <item>10 Dak</item>
+         <item>15 Dak</item>
+         <item>20 Dak</item>
+         <item>30 Dak</item>
+         <item>45 Sak</item>
+         <item>1 Saat</item>
+         <item>2 Saat</item>
+         <item>3 Saat</item>
+         <item>4 Saat</item>
+         <item>5 Saat</item>
+         <item>6 Saat</item>
+         <item>8 Saat</item>
+         <item>10 Saat</item>
+         <item>12 Saat</item>
+         <item>15 Saat</item>
+         <item>18 Saat</item>
+         <item>24 Saat</item>
+         <item>36 Saat</item>
+         <item>48 Saat</item>
+         <item>Manuel olarak durdur</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:107 -->
+    <string-array name="logging_rate_array">
+         <item>1 Sny</item>
+         <item>5 Sny</item>
+         <item>10 Sny</item>
+         <item>15 Sny</item>
+         <item>30 Sny</item>
+         <item>60 Sny</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:656 -->
+    <string-array name="connected_to_array_radio_triumph2">
+         <item>Bluetooth B</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:648 -->
+    <string-array name="connected_to_array_internet_gismore">
+         <item>Android Kontr.Ünitesi</item>
+         <item>WiFi</item>
+         <item>3G GISMORE</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:654 -->
+    <string-array name="connected_to_array_radio_triumph1">
+         <item>Bluetooth B</item>
+         <item>Seri B</item>
+         <item>Dahili radyo</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:650 -->
+    <string-array name="connected_to_array_internet_sigma">
+         <item>Android Kontr.Ünitesi</item>
+         <item>WiFi</item>
+         <item>3G Sigma</item>
+         <item>LAN Sigma</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:172 -->
+    <string-array name="trimmark3_modulations">
+         <item>gmsk</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_fh.xml:40 -->
+    <string-array name="fh_protocols">
+         <item>simplex</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_gprs.xml:53 -->
+    <string-array name="hot_start_array">
+         <item>on</item>
+         <item>off</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_fh.xml:22 -->
+    <string-array name="fh_zones">
+         <item>usa</item>
+         <item>aus</item>
+         <item>eu</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:145 -->
+    <string-array name="tt450shw_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file RTKBaseSettingsFragment.java:1188 -->
+    <string-array name="connected_to_array_csd_sigma">
+         <item>Dahili GSM</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:660 -->
+    <string-array name="connected_to_array_radio_sigma">
+         <item>Bluetooth B</item>
+         <item>Seri B</item>
+         <item>Dahili radyo</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_rcv_base.xml:135 -->
+    <string-array name="dhcp_array">
+         <item>Off</item>
+         <item>Client</item>
+         <item>Server</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:123 -->
+    <string-array name="radioarray">
+         <item>Kurulum Yok</item>
+         <item>FH Radyo</item>
+         <item>UHF Radyo</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:14 -->
+    <string-array name="orientation_array">
+         <item>Kuzey Üst</item>
+         <item>Course Üst</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_ntrip.xml:205 -->
+    <string-array name="correction_type_array">
+         <item>cmd</item>
+         <item>rtcm3</item>
+         <item>rtcm</item>
+         <item>cmr</item>
+         <item>jps</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:658 -->
+    <string-array name="connected_to_array_radio_gismore">
+         <item>Bluetooth B</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_rcv.xml:16 -->
+    <string-array name="connected_to_array_internet">
+         <item>Android Kontr.Ünitesi</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:140 -->
+    <string-array name="tt450shw_modulations">
+         <item>gmsk</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:185 -->
+    <string-array name="base_correction_type_array">
+         <item>RTCM 3.x full</item>
+         <item>RTCM 3.x min</item>
+         <item>RTCM 3.x MSM</item>
+         <item>CMR</item>
+         <item>CMR+</item>
+         <item>JPS max</item>
+         <item>JPS min</item>
+         <item>RTCM 2.x full</item>
+         <item>RTCM 2.x min</item>
+         <item>RTCM 2.x DGPS</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:101 -->
+    <string-array name="satel_compatibility">
+         <item>3as</item>
+         <item>easy</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:646 -->
+    <string-array name="connected_to_array_internet_triumph2">
+         <item>Android Kontr.Ünitesi</item>
+         <item>WiFi Triumph-2</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:644 -->
+    <string-array name="connected_to_array_internet_triumph1">
+         <item>Android Kontr.Ünitesi</item>
+         <item>WiFi Triumph-1</item>
+         <item>3G Triumph-1</item>
+         <item>LAN Triumph-1</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:118 -->
+    <string-array name="trimtalk450s_modulations">
+         <item>gmsk</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:91 -->
+    <string-array name="satel_modulations">
+         <item>4fsk</item>
+    </string-array>
+
+    <!-- Used in file RTKBaseSettingsFragment.java:1186 -->
+    <string-array name="connected_to_array_csd_triumph1">
+         <item>Dahili GSM</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_rcv_base.xml:100 -->
+    <string-array name="base_correction_type_array_rcv">
+         <item>Düzeltme yok</item>
+         <item>RTCM 3.x full</item>
+         <item>RTCM 3.x min</item>
+         <item>RTCM 3.x MSM full</item>
+         <item>RTCM 3.x MSM short</item>
+         <item>RTCM 3.x MSM min(GPS+GLO only)</item>
+         <item>CMR</item>
+         <item>CMR+</item>
+         <item>JPS max</item>
+         <item>JPS min</item>
+         <item>RTCM 2.x full</item>
+         <item>RTCM 2.x min</item>
+         <item>RTCM 2.x DGPS</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:100 -->
+    <string-array name="height_type_array">
+         <item>Düşey</item>
+         <item>Eğik</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:52 -->
+    <string-array name="simplex_spacings">
+         <item>6250</item>
+         <item>12500</item>
+         <item>20000</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_csd.xml:34 -->
+    <string-array name="sim_card_to_array">
+         <item>SIM 1</item>
+         <item>SIM 2</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:13 -->
+    <string-array name="connected_to_array">
+         <item>Radyo Bluetooth B</item>
+         <item>Radyo Seri B</item>
+         <item>Dahili Radyo</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:39 -->
+    <string-array name="use_epoch_array">
+         <item>Yalnız RTK Fix</item>
+         <item>Fix, Float veya DGPS</item>
+         <item>Tümü</item>
+    </string-array>
+
+    <!-- Used in file SurveyingRTKActivity.java:2352 -->
+    <string-array name="left_right_array">
+         <item>Sol</item>
+         <item>Sağ</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:124 -->
+    <string-array name="radiovalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+    </string-array>
+
+    <!-- Used in file FHPreferenceFragment.java:330 -->
+    <string-array name="freqruleusaarray">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+         <item>7</item>
+         <item>8</item>
+         <item>9</item>
+    </string-array>
+
+    <!-- Used in file activity_rtk_setup.xml:116 -->
+    <string-array name="correction_source_array">
+         <item>Kapalı (Düzeltmesiz)</item>
+         <item>Ntrip server</item>
+         <item>RCV server</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_fh.xml:179 -->
+    <string-array name="fh_modulcations">
+         <item>gmsk</item>
+    </string-array>
+
+    <!-- Used in file activity_stakeout_line_target.xml:21 -->
+    <string-array name="stakeout_line_mode_array">
+         <item>2 Nokta</item>
+         <item>1 Nokta ve Semt</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:195 -->
+    <string-array name="reference_frame_values_array">
+         <item>CSG_WGS_84</item>
+         <item>CSG_NAD83_2011</item>
+         <item>CSG_NAD83_PA11</item>
+         <item>CSG_NAD83_CSRS</item>
+         <item>CSG_NAD83_MA11</item>
+         <item>CSG_ETRS89</item>
+         <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:70 -->
+    <string-array name="occupation_time_rtk_array">
+         <item>Manuel olarak durdur</item>
+         <item>1 epoch</item>
+         <item>2 epochs</item>
+         <item>3 epochs</item>
+         <item>5 epochs</item>
+         <item>10 epochs</item>
+         <item>15 epochs</item>
+         <item>20 epochs</item>
+         <item>30 epochs</item>
+         <item>45 epochs</item>
+         <item>60 epochs</item>
+         <item>100 epochs</item>
+         <item>120 epochs</item>
+         <item>180 epochs</item>
+         <item>200 epochs</item>
+         <item>300 epochs</item>
+         <item>500 epochs</item>
+    </string-array>
+
+    <!-- Used in file activity_descriptions.xml:13 -->
+    <string-array name="description_sort_array">
+         <item>Sırala Alfabetik</item>
+         <item>Sırala Tarih</item>
+         <item>Sırala Kullanıcı</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:177 -->
+    <string-array name="trimmark3_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_uhf.xml:116 -->
+    <string-array name="uhf_output_power">
+         <item>0.030W / 15dBm</item>
+         <item>0.040W / 16dBm</item>
+         <item>0.050W / 17dBm</item>
+         <item>0.060W / 18dBm</item>
+         <item>0.080W / 19dBm</item>
+         <item>0.100W / 20dBm</item>
+         <item>0.120W / 21dBm</item>
+         <item>0.160W / 22dBm</item>
+         <item>0.200W / 23dBm</item>
+         <item>0.250W / 24dBm</item>
+         <item>0.320W / 25dBm</item>
+         <item>0.400W / 26dBm</item>
+         <item>0.500W / 27dBm</item>
+         <item>0.630W / 28dBm</item>
+         <item>0.800W / 29dBm</item>
+         <item>1.000W / 30dBm</item>
+         <item>1.300W / 31dBm</item>
+         <item>1.600W / 32dBm</item>
+         <item>2.000W / 33dBm</item>
+         <item>2.500W / 34dBm</item>
+         <item>3.200W / 35dBm</item>
+         <item>4.000W / 36dBm</item>
+         <item>5.000W / 37dBm</item>
+         <item>6.300W / 38dBm</item>
+         <item>8.000W / 39dBm</item>
+         <item>10.00W / 40dBm</item>
+         <item>14.00W / 41dBm</item>
+         <item>15.00W / 42dBm</item>
+         <item>20.00W / 43dBm</item>
+         <item>25.00W / 44dBm</item>
+         <item>35.00W / 45dBm</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:162 -->
+    <string-array name="minimal_rtk_array">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_wifi_from_style.xml:71 -->
+    <string-array name="wifi_security_array">
+         <item>wep</item>
+         <item>wap</item>
+    </string-array>
+
+    <!-- Used in file offset_survey.xml:98 -->
+    <string-array name="stakeout_line_offset_rl">
+         <item>Sag</item>
+         <item>Sol</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:163 -->
+    <string-array name="minial_rtk_values_array">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:123 -->
+    <string-array name="trimtalk450s_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:96 -->
+    <string-array name="satel_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:47 -->
+    <string-array name="simplex_modulations">
+         <item>dbpsk</item>
+         <item>dqpsk</item>
+         <item>d8psk</item>
+         <item>d16qam</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:652 -->
+    <string-array name="connected_to_array_radio">
+         <item>Bluetooth B</item>
+         <item>Seri B</item>
+         <item>Dahili radyo</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:190 -->
+    <string-array name="base_correction_period_5_array">
+         <item>1 Hz</item>
+         <item>2 Hz</item>
+         <item>5 Hz</item>
+         <item>2 Sny</item>
+         <item>5 Sny</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:28 -->
     <string-array name="fh_output_power">
          <item>0.020W / 13dBm</item>
@@ -38,208 +532,22 @@
          <item>35.00W / 45dBm</item>
     </string-array>
 
-    <!-- Used in file activity_configure_gprs.xml:53 -->
-    <string-array name="hot_start_array">
-         <item>on</item>
-         <item>off</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:156 -->
-    <string-array name="trimmarkii_modulations">
-         <item>gmsk</item>
-    </string-array>
-
-    <!-- Used in file activity_power.xml:142 -->
-    <string-array name="charging_mode_array">
-         <item>Auto</item>
-         <item>Off</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_rcv.xml:166 -->
-    <string-array name="correction_type_array">
-         <item>cmd</item>
-         <item>rtcm3</item>
-         <item>rtcm</item>
-         <item>cmr</item>
-         <item>jps</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:14 -->
-    <string-array name="orientation_array">
-         <item>Kuzey Üst</item>
-         <item>Course Üst</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:140 -->
-    <string-array name="tt450shw_modulations">
-         <item>gmsk</item>
-    </string-array>
-
-    <!-- Used in file rtk_rover_start.xml:6 -->
-    <string-array name="connected_to_array">
-         <item>Radyo Bluetooth B</item>
-         <item>Radyo Seri B</item>
-         <item>Dahili Radyo</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:91 -->
-    <string-array name="satel_modulations">
-         <item>4fsk</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:124 -->
-    <string-array name="hybrid_rtk_array">
-         <item>Asla</item>
-         <item>5 Dak</item>
-         <item>7 Dak</item>
-         <item>10 Dak</item>
-         <item>15 Dak</item>
-         <item>20 Dak</item>
-         <item>25 Dak</item>
-         <item>30 Dak</item>
-         <item>45 Dak</item>
-         <item>1 Saat</item>
-         <item>2 Saat</item>
+    <!-- Used in file stakeout_settings.xml:132 -->
+    <string-array name="logging_rate_rtk_array">
+         <item>0.2 Sny (5Hz)</item>
+         <item>0.5 Sny (2Hz)</item>
+         <item>1 Sny</item>
+         <item>5 Sny</item>
          <item>10 Sny</item>
+         <item>15 Sny</item>
          <item>30 Sny</item>
-         <item>1 Dak</item>
+         <item>60 Sny</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:177 -->
-    <string-array name="trimmark3_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_uhf.xml:116 -->
-    <string-array name="uhf_output_power">
-         <item>0.020W / 13dBm</item>
-         <item>0.025W / 14dBm</item>
-         <item>0.030W / 15dBm</item>
-         <item>0.040W / 16dBm</item>
-         <item>0.050W / 17dBm</item>
-         <item>0.060W / 18dBm</item>
-         <item>0.080W / 19dBm</item>
-         <item>0.100W / 20dBm</item>
-         <item>0.120W / 21dBm</item>
-         <item>0.160W / 22dBm</item>
-         <item>0.200W / 23dBm</item>
-         <item>0.250W / 24dBm</item>
-         <item>0.320W / 25dBm</item>
-         <item>0.400W / 26dBm</item>
-         <item>0.500W / 27dBm</item>
-         <item>0.630W / 28dBm</item>
-         <item>0.800W / 29dBm</item>
-         <item>1.000W / 30dBm</item>
-         <item>1.300W / 31dBm</item>
-         <item>1.600W / 32dBm</item>
-         <item>2.000W / 33dBm</item>
-         <item>2.500W / 34dBm</item>
-         <item>3.200W / 35dBm</item>
-         <item>4.000W / 36dBm</item>
-         <item>5.000W / 37dBm</item>
-         <item>6.300W / 38dBm</item>
-         <item>8.000W / 39dBm</item>
-         <item>10.00W / 40dBm</item>
-         <item>14.00W / 41dBm</item>
-         <item>15.00W / 42dBm</item>
-         <item>20.00W / 43dBm</item>
-         <item>25.00W / 44dBm</item>
-         <item>35.00W / 45dBm</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_rcv_base.xml:100 -->
-    <string-array name="base_correction_type_array_rcv">
-         <item>Düzeltme yok</item>
-         <item>RTCM 3.x full</item>
-         <item>RTCM 3.x min</item>
-         <item>RTCM 3.x MSM</item>
-         <item>CMR</item>
-         <item>CMR+</item>
-         <item>JPS max</item>
-         <item>JPS min</item>
-         <item>RTCM 2.x full</item>
-         <item>RTCM 2.x min</item>
-         <item>RTCM 2.x DGPS</item>
-    </string-array>
-
-    <!-- Used in file activity_rtk_setup.xml:121 -->
-    <string-array name="correction_source_array">
-         <item>Kapalı (Düzeltmesiz)</item>
-         <item>Ntrip server</item>
-         <item>RCV server</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_gprs.xml:90 -->
-    <string-array name="registration_mode_array">
-         <item>auto</item>
-         <item>2g</item>
-         <item>3g</item>
-         <item>4g</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:185 -->
-    <string-array name="base_correction_type_array">
-         <item>RTCM 3.x full</item>
-         <item>RTCM 3.x min</item>
-         <item>RTCM 3.x MSM</item>
-         <item>CMR</item>
-         <item>CMR+</item>
-         <item>JPS max</item>
-         <item>JPS min</item>
-         <item>RTCM 2.x full</item>
-         <item>RTCM 2.x min</item>
-         <item>RTCM 2.x DGPS</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_fh.xml:40 -->
-    <string-array name="fh_protocols">
-         <item>simplex</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:19 -->
-    <string-array name="azimuth_array">
-         <item>Geodetic</item>
-         <item>Manyetik</item>
-    </string-array>
-
-    <!-- Used in file rtk_base.xml:123 -->
-    <string-array name="radiovalues">
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:47 -->
-    <string-array name="occupation_time_rtk_array">
-         <item>Manuel olarak durdur</item>
-         <item>1 epoch</item>
-         <item>2 epochs</item>
-         <item>3 epochs</item>
-         <item>5 epochs</item>
-         <item>10 epochs</item>
-         <item>15 epochs</item>
-         <item>20 epochs</item>
-         <item>30 epochs</item>
-         <item>45 epochs</item>
-         <item>60 epochs</item>
-         <item>100 epochs</item>
-         <item>120 epochs</item>
-         <item>180 epochs</item>
-         <item>200 epochs</item>
-         <item>300 epochs</item>
-         <item>500 epochs</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:77 -->
-    <string-array name="height_type_array">
-         <item>Düşey</item>
-         <item>Eğik</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:74 -->
-    <string-array name="transparent_spacings">
-         <item>25000</item>
+    <!-- Used in file rtk_base_uhf.xml:69 -->
+    <string-array name="transparent_modulations">
+         <item>gmsk</item>
+         <item>4fsk</item>
     </string-array>
 
     <!-- Used in file activity_configure_rcv.xml:128 -->
@@ -252,176 +560,6 @@
          <item>e</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:118 -->
-    <string-array name="trimtalk450s_modulations">
-         <item>gmsk</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_rcv_base.xml:130 -->
-    <string-array name="sim_card_to_array">
-         <item>SIM 1</item>
-         <item>SIM 2</item>
-    </string-array>
-
-    <!-- Used in file offset_survey.xml:98 -->
-    <string-array name="stakeout_line_offset_rl">
-         <item>Sag</item>
-         <item>Sol</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:47 -->
-    <string-array name="simplex_modulations">
-         <item>dbpsk</item>
-         <item>dqpsk</item>
-         <item>d8psk</item>
-         <item>d16qam</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:101 -->
-    <string-array name="satel_compatibility">
-         <item>3as</item>
-         <item>easy</item>
-    </string-array>
-
-    <!-- Used in file verify_settings.xml:13 -->
-    <string-array name="use_epoch_array">
-         <item>Yalnız RTK Fix</item>
-         <item>Fix, Float veya DGPS</item>
-         <item>Tümü</item>
-    </string-array>
-
-    <!-- Used in file rtk_rover_start.xml:3 -->
-    <string-array name="radioarray">
-         <item>Kurulum Yok</item>
-         <item>FH Radyo</item>
-         <item>UHF Radyo</item>
-    </string-array>
-
-    <!-- Used in file verify_settings.xml:18 -->
-    <string-array name="minimal_rtk_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:63 -->
-    <string-array name="antenna_ids_array">
-         <item>Triumph-1 Dahili</item>
-         <item>Triumph-2 Dahili</item>
-         <item>GISMore Dahili</item>
-         <item>Grant external</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_wifi_from_style.xml:71 -->
-    <string-array name="wifi_security_array">
-         <item>wep</item>
-         <item>wap</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:91 -->
-    <string-array name="units_array">
-         <item>metre</item>
-         <item>US feet</item>
-         <item>Int.feet</item>
-    </string-array>
-
-    <!-- Used in file activity_stakeout_line_target.xml:21 -->
-    <string-array name="stakeout_line_mode_array">
-         <item>2 Nokta</item>
-         <item>1 Nokta ve Semt</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:123 -->
-    <string-array name="trimtalk450s_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_fh.xml:22 -->
-    <string-array name="fh_zones">
-         <item>usa</item>
-         <item>aus</item>
-         <item>eu</item>
-    </string-array>
-
-    <!-- Used in file verify_settings.xml:19 -->
-    <string-array name="minial_rtk_values_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:190 -->
-    <string-array name="base_correction_period_5_array">
-         <item>1 Hz</item>
-         <item>2 Hz</item>
-         <item>5 Hz</item>
-         <item>2 Sny</item>
-         <item>5 Sny</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:145 -->
-    <string-array name="tt450shw_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:172 -->
-    <string-array name="trimmark3_modulations">
-         <item>gmsk</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:161 -->
-    <string-array name="trimmarkii_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:109 -->
-    <string-array name="logging_rate_rtk_array">
-         <item>0.2 Sny (5Hz)</item>
-         <item>0.5 Sny (2Hz)</item>
-         <item>1 Sny</item>
-         <item>5 Sny</item>
-         <item>10 Sny</item>
-         <item>15 Sny</item>
-         <item>30 Sny</item>
-         <item>60 Sny</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_rcv.xml:204 -->
-    <string-array name="aux_port_array">
-         <item>dev/ser/a</item>
-         <item>dev/ser/b</item>
-         <item>dev/ser/c</item>
-         <item>dev/ser/d</item>
-    </string-array>
-
-    <!-- Used in file activity_descriptions.xml:13 -->
-    <string-array name="description_sort_array">
-         <item>Sırala Alfabetik</item>
-         <item>Sırala Tarih</item>
-         <item>Sırala Kullanıcı</item>
-    </string-array>
-
-    <!-- Used in file rtk_rover_start.xml:12 -->
-    <string-array name="logging_rate_array">
-         <item>1 Sny</item>
-         <item>5 Sny</item>
-         <item>10 Sny</item>
-         <item>15 Sny</item>
-         <item>30 Sny</item>
-         <item>60 Sny</item>
-    </string-array>
-
     <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
     <string-array name="wifi_mode_array">
          <item>off</item>
@@ -429,18 +567,39 @@
          <item>adhoc</item>
     </string-array>
 
-    <!-- Used in file activity_configure_fh.xml:179 -->
-    <string-array name="fh_modulcations">
+    <!-- Used in file stakeout_settings.xml:117 -->
+    <string-array name="units_array">
+         <item>metre</item>
+         <item>US feet</item>
+         <item>Int.feet</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_ntrip.xml:243 -->
+    <string-array name="aux_port_array">
+         <item>dev/ser/a</item>
+         <item>dev/ser/b</item>
+         <item>dev/ser/c</item>
+         <item>dev/ser/d</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:19 -->
+    <string-array name="azimuth_array">
+         <item>Geodetic</item>
+         <item>Manyetik</item>
+    </string-array>
+
+    <!-- Used in file SurveyingRTKActivity.java:2352 -->
+    <string-array name="p1_p2_array">
+         <item>P2 den</item>
+         <item>P1 den</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:156 -->
+    <string-array name="trimmarkii_modulations">
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:96 -->
-    <string-array name="satel_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:168 -->
+    <!-- Used in file stakeout_settings.xml:194 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
          <item>NAD83(2011)</item>
@@ -451,163 +610,17 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file activity_surveying_sng.xml:133 -->
-    <string-array name="occupation_time_array">
-         <item>1 Dak</item>
-         <item>2 Dak</item>
-         <item>3 Dak</item>
-         <item>5 Dak</item>
-         <item>10 Dak</item>
-         <item>15 Dak</item>
-         <item>20 Dak</item>
-         <item>30 Dak</item>
-         <item>45 Sak</item>
-         <item>1 Saat</item>
-         <item>2 Saat</item>
-         <item>3 Saat</item>
-         <item>4 Saat</item>
-         <item>5 Saat</item>
-         <item>6 Saat</item>
-         <item>8 Saat</item>
-         <item>10 Saat</item>
-         <item>12 Saat</item>
-         <item>15 Saat</item>
-         <item>18 Saat</item>
-         <item>24 Saat</item>
-         <item>36 Saat</item>
-         <item>48 Saat</item>
-         <item>Manuel olarak durdur</item>
+    <!-- Used in file activity_configure_gprs.xml:90 -->
+    <string-array name="registration_mode_array">
+         <item>auto</item>
+         <item>2g</item>
+         <item>3g</item>
+         <item>4g</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:52 -->
-    <string-array name="simplex_spacings">
-         <item>6250</item>
-         <item>12500</item>
-         <item>20000</item>
+    <!-- Used in file rtk_base_uhf.xml:74 -->
+    <string-array name="transparent_spacings">
          <item>25000</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:33 -->
-    <string-array name="uhf_protocols">
-         <item>simplex</item>
-         <item>transparent</item>
-         <item>satel</item>
-         <item>trimtalk450s</item>
-         <item>tt450shw</item>
-         <item>trimmarkII</item>
-         <item>trimmark3</item>
-    </string-array>
-
-    <!-- Used in file survey_settings.xml:169 -->
-    <string-array name="reference_frame_values_array">
-         <item>CSG_WGS_84</item>
-         <item>CSG_NAD83_2011</item>
-         <item>CSG_NAD83_PA11</item>
-         <item>CSG_NAD83_CSRS</item>
-         <item>CSG_NAD83_MA11</item>
-         <item>CSG_ETRS89</item>
-         <item>RTCM3</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_rcv_base.xml:15 -->
-    <string-array name="connected_to_array_internet">
-         <item>Android Kontr.Ünitesi</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:69 -->
-    <string-array name="transparent_modulations">
-         <item>gmsk</item>
-         <item>4fsk</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_rcv_base.xml:135 -->
-    <string-array name="dhcp_array">
-         <item>Off</item>
-         <item>Client</item>
-         <item>Server</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_internet_sigma">
-         <item>Android Kontr.Ünitesi</item>
-         <item>WiFi</item>
-         <item>3G Sigma</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="freqruleusaarray">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-         <item>7</item>
-         <item>8</item>
-         <item>9</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="base_correction_source_for_triumph_2_array">
-         <item>Bilinmeyen(Kapalı)</item>
-         <item>FH radyo Bluetooh B</item>
-         <item>UHF radyo Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="left_right_array">
-         <item>Sol</item>
-         <item>Sağ</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="base_correction_destination_array">
-         <item>FH Bluetooth B</item>
-         <item>UHF Bluetooth B</item>
-         <item>FH Seri B</item>
-         <item>UHF Seri B</item>
-         <item>Dahili FH</item>
-         <item>Dahili UHF</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio">
-         <item>Bluetooth B</item>
-         <item>Seri B</item>
-         <item>Dahili radyo</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio_sigma">
-         <item>Bluetooth B</item>
-         <item>Seri B</item>
-         <item>Dahili radyo</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="correction_source_for_triumph_1_array">
-         <item>Kapalı (Düzeltmesiz)</item>
-         <item>Ntrip server</item>
-         <item>RCV server</item>
-         <item>FH Bluetooth B</item>
-         <item>UHF Bluetooth B</item>
-         <item>Dahili FH</item>
-         <item>Dahili UHF</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="correction_source_for_gismore_array">
-         <item>Kapalı (Düzeltmesiz)</item>
-         <item>Ntrip server</item>
-         <item>RCV server</item>
-         <item>FH Bluetooth B</item>
-         <item>UHF Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_csd_sigma">
-         <item>Dahili GSM</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -620,32 +633,41 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio_gismore">
-         <item>Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
     <string-array name="stakeout_modes_array">
          <item>Nokta Aplik.</item>
          <item>Hat Aplik.</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_internet_gismore">
-         <item>Android Kontr.Ünitesi</item>
-         <item>WiFi</item>
-         <item>3G GISMORE</item>
+    <string-array name="offset_types_array">
+         <item>OfLine</item>
+         <item>Yalnız Hat</item>
+         <item>Kesişim</item>
+         <item>Poligon</item>
+         <item>Dik</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_csd_triumph1">
-         <item>Dahili GSM</item>
+    <string-array name="correction_source_for_gismore_array">
+         <item>Kapalı (Düzeltmesiz)</item>
+         <item>Ntrip server</item>
+         <item>RCV server</item>
+         <item>FH Bluetooth B</item>
+         <item>UHF Bluetooth B</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_internet_triumph2">
-         <item>Android Kontr.Ünitesi</item>
-         <item>WiFi Triumph-2</item>
+    <string-array name="base_correction_period_1_array">
+         <item>1 Hz</item>
+         <item>2 Sny</item>
+         <item>5 Sny</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="base_correction_source_for_triumph_2_array">
+         <item>Bilinmeyen(Kapalı)</item>
+         <item>FH radyo Bluetooh B</item>
+         <item>UHF radyo Bluetooth B</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -660,11 +682,12 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_internet_triumph1">
-         <item>Android Kontr.Ünitesi</item>
-         <item>WiFi Triumph-1</item>
-         <item>3G Triumph-1</item>
-         <item>LAN Triumph-1</item>
+    <string-array name="correction_source_for_triumph_2_array">
+         <item>Kapalı (Düzeltmesiz)</item>
+         <item>Ntrip server</item>
+         <item>RCV server</item>
+         <item>FH Bluetooth B</item>
+         <item>UHF Bluetooth B</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -674,18 +697,6 @@
          <item>UHF radyo Bluetooth B</item>
          <item>FH radyo Seri B</item>
          <item>UHF radyo Seri B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio_triumph2">
-         <item>Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="connected_to_array_radio_triumph1">
-         <item>Bluetooth B</item>
-         <item>Seri B</item>
-         <item>Dahili radyo</item>
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
@@ -703,34 +714,24 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="correction_source_for_triumph_2_array">
+    <string-array name="base_correction_destination_array">
+         <item>FH Bluetooth B</item>
+         <item>UHF Bluetooth B</item>
+         <item>FH Seri B</item>
+         <item>UHF Seri B</item>
+         <item>Dahili FH</item>
+         <item>Dahili UHF</item>
+    </string-array>
+
+    <!-- UNUSED STRING ARRAY-->
+    <string-array name="correction_source_for_triumph_1_array">
          <item>Kapalı (Düzeltmesiz)</item>
          <item>Ntrip server</item>
          <item>RCV server</item>
          <item>FH Bluetooth B</item>
          <item>UHF Bluetooth B</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="offset_types_array">
-         <item>OfLine</item>
-         <item>Yalnız Hat</item>
-         <item>Kesişim</item>
-         <item>Poligon</item>
-         <item>Dik</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="p1_p2_array">
-         <item>P2 den</item>
-         <item>P1 den</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
-    <string-array name="base_correction_period_1_array">
-         <item>1 Hz</item>
-         <item>2 Sny</item>
-         <item>5 Sny</item>
+         <item>Dahili FH</item>
+         <item>Dahili UHF</item>
     </string-array>
 
 

@@ -15,7 +15,7 @@
     <string name="tuesday_short">ВТ</string>
     <!-- Used in file activity_sort_4.xml:31. Original value:CS    -->
     <string name="string_cs_sort">СК</string>
-    <!-- Used in file ListWithSortAndSearchActivity.java:221. Original value:Hide Selection    -->
+    <!-- Used in file ListWithSortAndSearchActivity.java:239. Original value:Hide Selection    -->
     <string name="action_unselect">Отменить выбор</string>
     <!-- Used in file calendar_main.xml:13. Original value:Open    -->
     <string name="open">Открыть</string>
@@ -45,8 +45,8 @@
     <string name="action_select">Выбрать</string>
     <!-- Used in file activity_map_provider.xml:104. Original value:User CAD Background color    -->
     <string name="dwg_backgroubnd_color">Цвет подложки</string>
-    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing    -->
-    <string name="user_cad_drawing">CAD-файл пользователя</string>
+    <!-- Used in file activity_map_provider.xml:72. Original value:User CAD Drawing (*.dwg, *.dxf)    -->
+    <string name="user_cad_drawing">CAD-файл пользователя (*.dwg, *.dxf)</string>
     <!-- Used in file calendar2.xml:166. Original value:SAT    -->
     <string name="saturday_short">СБ</string>
     <!-- Used in file AndroidManifest.xml:13. Original value:maplist    -->
@@ -83,11 +83,13 @@
     <string name="hello">Открыть календарь</string>
     <!-- Used in file activity_sort_4.xml:38. Original value:Size    -->
     <string name="string_size_sort">Размер</string>
-    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map    -->
-    <string name="user_tiled_map">Карта пользователя</string>
+    <!-- Used in file activity_map_provider.xml:39. Original value:User Tiled Map (*.sqlite, *.mbtiles)    -->
+    <string name="user_tiled_map">Карта пользователя (*.sqlite, *.mbtiles)</string>
     <!-- Used in file activity_sort_2.xml:59. Original value:Code    -->
     <string name="string_code_sort">Код</string>
     <!-- Used in file sort.xml:16. Original value:Delete    -->
     <string name="action_delete">Удалить</string>
-
+    <string name="string_address_sort">Адрес</string>
+    <string name="string_count_sort">Использованиие</string>
+    
 </resources>

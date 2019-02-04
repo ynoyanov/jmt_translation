@@ -1,1249 +1,1360 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file rtk_base_uhf.xml:36. Original value:Use Repeater    -->
-    <string name="use_repeater">Kullanıcı Repeater</string>
-    <!-- Used in file offsets2.xml:10. Original value:Trajectories    -->
-    <string name="string_menu_offset_trajectory">Trajectoriler</string>
-    <!-- Used in file activity_stakeout.xml:232. Original value:Course    -->
-    <string name="text_course">Course</string>
-    <!-- Used in file offset_survey.xml:44. Original value:P2    -->
-    <string name="string_p2">P2</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:28. Original value:Point\n    -->
-    <string name="text_point_name">Nokta\n</string>
-    <!-- Used in file RTKSetupActivity.java:896. Original value:WiFi Mode:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s    -->
-    <string name="setup_internet_wifi_format">WiFi Modu:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s</string>
-    <!-- Used in file rtk_base_rcv_base.xml:142. Original value:APN    -->
-    <string name="gprs_apn">APN</string>
-    <!-- Used in file spoofing_row_header_dark.xml:77. Original value:dDoppl    -->
-    <string name="string_ddoppl">dDoppl</string>
-    <!-- Used in file survey_settings.xml:179. Original value:Correct by Tilt    -->
-    <string name="correct_by_compass_and_levels">Düzece Göre Ayarla</string>
-    <!-- Used in file SurveyModel.java:510. Original value:Can\'t obtain current receiver time!    -->
-    <string name="cant_read_receivertime_to_program">Mevcut alıcı zamanı elde edemiyor!</string>
-    <!-- Used in file offset_survey.xml:27. Original value:P1    -->
-    <string name="string_p1">P1</string>
-    <!-- Used in file SurveyModel.java:1468. Original value:Verify in not finished. Do you want to store an intermidiate position?    -->
-    <string name="verify_in_not_finished">İşlem bitirilmedi. Bir ara pozisyon saklamak istiyor musunuz??</string>
-    <!-- Used in file activity_configure_uhf.xml:495. Original value:Trimmark II/IIe params.    -->
-    <string name="trimmarkii_protocol_parameters">Trimmark II/IIe params.</string>
-    <!-- Used in file receiver_info.xml:9. Original value:Firmware Version    -->
-    <string name="receiver_firmware_version">Firmware Version</string>
-    <!-- Used in file activity_map_stakeout.xml:41. Original value:Y    -->
-    <string name="text_y_map">Y</string>
-    <!-- Used in file rtk_rover_start.xml:11. Original value:File Name    -->
-    <string name="survey_file_name">Dosya Adı</string>
-    <!-- Used in file map_stakeout.xml:20. Original value:Options    -->
-    <string name="string_options_menu">Options</string>
-    <!-- Used in file CalibrationActivity.java:554. Original value:Andr.Azimuth    -->
-    <string name="android_azimuth">Andr.Semt</string>
-    <!-- Used in file settings_general.xml:25. Original value:Connection    -->
-    <string name="connecttion">Bağlantı</string>
-    <!-- Used in file activity_power.xml:154. Original value:Enable Power Output    -->
-    <string name="enable_power_output">Güç Çıkışı Etkinleştir</string>
-    <!-- Used in file SurveyModel.java:2437. Original value:rejected    -->
-    <string name="epochs_rejected">Reddedildi</string>
-    <!-- Used in file CalibrationActivity.java:625. Original value:Compass is calibrated OK    -->
-    <string name="compass_status_ok">Pusula Kalibrasyonu OK</string>
-    <!-- Used in file activity_configure_uhf.xml:37. Original value:Configuration Name    -->
-    <string name="configuration_name">Yapılandırma Adı</string>
-    <!-- Used in file activity_confirm_point_survey.xml:135. Original value:Occ.Time    -->
-    <string name="text_point_time">Otr.Süresi</string>
-    <!-- Used in file rtk_base_rcv_base.xml:147. Original value:User    -->
-    <string name="gprs_user">Kullanıcı</string>
-    <!-- Used in file activity_map_stakeout.xml:134. Original value:DTT    -->
-    <string name="text_dtt_map">ΔS</string>
-    <!-- Used in file settings_general.xml:95. Original value:Epoch too close in trajectory    -->
-    <string name="epoch_distance_rejected">Epoch too close in trajectory</string>
-    <!-- Used in file rtk_base_uhf.xml:11. Original value:Base radio connected to    -->
-    <string name="base_connected_to_2">Sabit Radyo Bağlandı</string>
-    <!-- Used in file job_info.xml:5. Original value:Surveyed Points    -->
-    <string name="job_surveypoints">Ölçülen Noktalar</string>
-    <!-- Used in file activity_rtk_setup.xml:181. Original value:File Logging    -->
-    <string name="button_logging">Dosya Toplama</string>
-    <!-- Used in file CalibrationActivity.java:552. Original value:Grd.Azimuth    -->
-    <string name="grid_azimuth">Grd.Semt</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:662. Original value:IP    -->
-    <string name="lan_ip">IP</string>
-    <!-- Used in file SurveyingRTKActivity.java:882. Original value:Traj.Name    -->
-    <string name="trajectory_name">Traj.Adı</string>
-    <!-- Used in file rtk_base_uhf.xml:208. Original value:Check Settings    -->
-    <string name="check_settings">Ayarları KontrolEt</string>
-    <!-- Used in file rtk_base_rcv_base.xml:20. Original value:IP Address    -->
-    <string name="address">IP Adres</string>
-    <!-- Used in file rtk_base_csd.xml:11. Original value:Phone    -->
-    <string name="csd_phone">Telefon</string>
-    <!-- Used in file SurveyingActivity.java:55. Original value:Static    -->
-    <string name="static_t">Statik</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:Javad Survey    -->
-    <string name="app_name">Javad Ölçüm</string>
-    <!-- Used in file SurveyModel.java:259. Original value:Can\'t create receiver file!    -->
-    <string name="cant_create_file">Alıcı dosyası oluşturulamaz!</string>
-    <!-- Used in file rtk_base_uhf.xml:111. Original value:Trimtalk 450S    -->
-    <string name="trimtalk450s">Trimtalk 450S</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:63. Original value:RCV Base    -->
-    <string name="rcv_base">RCV Sabit</string>
-    <!-- Used in file SurveyModel.java:1252. Original value:days    -->
-    <string name="days">günler</string>
-    <!-- Used in file activity_confirm_point_survey.xml:117. Original value:Epochs    -->
-    <string name="text_point_epochs">Epochs</string>
-    <!-- Used in file RTKBaseSettingsFragment.java:413. Original value:RTK Base    -->
-    <string name="rtk_base">RTK Sabit</string>
-    <!-- Used in file map_stakeout.xml:30. Original value:Next    -->
-    <string name="string_next_target">ileri</string>
-    <!-- Used in file receiver_info.xml:10. Original value:Boot Loader Version    -->
-    <string name="receiver_bootloader_version">Boot Loader Version</string>
-    <!-- Used in file activity_calibrate.xml:51. Original value:Compass is calibrated OK    -->
-    <string name="compass_status">Pusula Kalibrasyonu OK</string>
-    <!-- Used in file activity_configure_uhf.xml:288. Original value:Satel protocol settings    -->
-    <string name="satel_protocol_parameters">Satel protocol ayarları</string>
-    <!-- Used in file activity_stakeout.xml:107. Original value:Across    -->
-    <string name="text_across">Across</string>
-    <!-- Used in file SurveyModel.java:2446. Original value:epochs collected    -->
-    <string name="epochs_collected2">epoch lar Toplandı</string>
-    <!-- Used in file activity_map_stakeout.xml:29. Original value:X    -->
-    <string name="text_x_map">X</string>
-    <!-- Used in file ConfigureRCVActivity.java:183. Original value:Setup\n3G    -->
-    <string name="setup_internet_3g">Kur\n3G</string>
-    <!-- Used in file activity_configure_uhf.xml:544. Original value:Trimtalk 3 params.    -->
-    <string name="trimmark3_protocol_parameters">Trimtalk 3 params.</string>
-    <!-- Used in file activity_rtk_setup.xml:159. Original value:Configure    -->
-    <string name="button_configure">Yapılandır</string>
-    <!-- Used in file activity_configure_fh.xml:94. Original value:USA zone parameters    -->
-    <string name="usa_zone_parameters">USA zone parametreleri</string>
-    <!-- Used in file survey_settings.xml:156. Original value:RTK Computation mode    -->
-    <string name="rtk_computation_mode">RTK Hesap Modu</string>
-    <!-- Used in file map_stakeout.xml:15. Original value:List    -->
-    <string name="string_list_menu">List</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:37. Original value:FH Radio    -->
-    <string name="radio_fh_radio">FH Radyo</string>
-    <!-- Used in file settings_general.xml:172. Original value:All epochs are collected at Lift/Titl survey    -->
-    <string name="lift_and_tilt_all_epochs_collected">Tüm epoch lar Lift &amp; Titl Ölçümde Toplanır</string>
-    <!-- Used in file rtk_base_rcv_base.xml:66. Original value:TCPO Mode    -->
-    <string name="tcpo_on">TCPO Modu</string>
-    <!-- Used in file activity_surveying_sng.xml:48. Original value:Site Name    -->
-    <string name="site_name">Nokta No</string>
-    <!-- Used in file activity_rtk_setup.xml:238. Original value:Read CS from Receiver    -->
-    <string name="button_read_cs">CS Alıcıdan Okunsun</string>
-    <!-- Used in file SurveyingRTKActivity.java:755. Original value:ReSurvey    -->
-    <string name="resurvey">Tekrar Ölçüm</string>
-    <!-- Used in file rtk_base_rcv.xml:25. Original value:Port    -->
-    <string name="port">Port</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:194. Original value:From receiver    -->
-    <string name="button_read_from_receiver">Alıcıdan</string>
-    <!-- Used in file settings_general.xml:109. Original value:Survey Completed    -->
-    <string name="survey_complete">Ölçüm Tamamlandı</string>
-    <!-- Used in file settings_general.xml:88. Original value:Epoch Rejected in Verify    -->
-    <string name="epoch_rejected_verify">Epoch Reddedildi Verify</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:53. Original value:RCV Base    -->
-    <string name="radio_rcv_base">RCV Sabit</string>
-    <!-- Used in file rtk_base_uhf.xml:128. Original value:Scrambling    -->
-    <string name="scrambling">Karıştırma</string>
-    <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:139. Original value:Wrong maximum corrected tilt angle!    -->
-    <string name="wrong_maximum_corrected_tilt_angle">Wrong maximum corrected tilt angle!</string>
-    <!-- Used in file RTKBaseSettingsActivity.java:363. Original value:JAVAD J-Mobile-R works only with athorized GNSS Receivers!    -->
-    <string name="jmtr_oaf_title">JAVAD J-Mobile-R works only with athorized GNSS Receivers!</string>
-    <!-- Used in file survey_button.xml:15. Original value:Cancel Point    -->
-    <string name="menu_cancel">Nokta İptal</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:72. Original value:WiFi Security    -->
-    <string name="wifi_security">WiFi Güvenlik</string>
-    <!-- Used in file rtk_rover_start.xml:5. Original value:Setup Radio    -->
-    <string name="survey_setup_radio">Radyo Kurulum</string>
-    <!-- Used in file activity_satellite_types.xml:96. Original value:Gallileo    -->
-    <string name="check_gal">Gallileo</string>
-    <!-- Used in file CalibrationActivity.java:686. Original value:Levels calibration is required!    -->
-    <string name="levels_status_error">Düzeç Kalibrasyonu Gerekli!</string>
-    <!-- Used in file activity_stakeout.xml:48. Original value:Next    -->
-    <string name="text_next">İleri</string>
-    <!-- Used in file activity_calibrate.xml:120. Original value:Start\nLevels\nCalibration    -->
-    <string name="start_levels_calibration">Düzeç\nKalibrasyon\nBaşlat</string>
-    <!-- Used in file status_bar.xml:143. Original value:log    -->
-    <string name="cur_log_file">log</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:195. Original value:Survey\n    -->
-    <string name="string_survey_cf">Ölçüm\n</string>
-    <!-- Used in file activity_confirm_point_survey.xml:171. Original value:Antenna Hgt.    -->
-    <string name="text_point_antenna_height">AntenYüks.</string>
-    <!-- Used in file survey_settings.xml:167. Original value:VRS RTCM3 Coordinate System    -->
-    <string name="rtcm3_summary">VRS RTCM3 Koordinat Sistemi</string>
-    <!-- Used in file rtk_base_rcv_base.xml:157. Original value:WiFi SSID    -->
-    <string name="wlan_ssid">WiFi SSID</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:118. Original value:IP Address    -->
-    <string name="ip_address">IP Adres</string>
-    <!-- Used in file satsystem_row_header_dark.xml:21. Original value:SatSys    -->
-    <string name="satsys">UydSys</string>
-    <!-- Used in file spoofing_row_header_dark.xml:49. Original value:SNR 2    -->
-    <string name="string_snr2">SNR 2</string>
-    <!-- Used in file spoofing_row_header_dark.xml:28. Original value:SNR 1    -->
-    <string name="string_snr1">SNR 1</string>
-    <!-- Used in file rtk_base_rcv_base.xml:13. Original value:Internet from    -->
-    <string name="string_internet_from_xml">Internet from</string>
-    <!-- Used in file rtk_base_uhf.xml:106. Original value:Clock Correction    -->
-    <string name="clock_correction">Zaman Düzeltmesi</string>
-    <!-- Used in file activity_stakeout.xml:86. Original value:Along    -->
-    <string name="text_along">Boyunca</string>
-    <!-- Used in file RTKBaseSettingsActivity.java:364. Original value:The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).    -->
-    <string name="jmtr_oaf_message">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).</string>
-    <!-- Used in file map_survey.xml:14. Original value:Zoom All    -->
-    <string name="action_map_zoomall">Zoom All</string>
-    <!-- Used in file map_survey.xml:10. Original value:Map Provider    -->
-    <string name="action_map_provider">Harita Sağlayıcı</string>
-    <!-- Used in file survey_button.xml:19. Original value:Close    -->
-    <string name="menu_close">Kapat</string>
-    <!-- Used in file rtk_base.xml:110. Original value:Receiver File Manager    -->
-    <string name="receiver_files_summury">Alıcı Dosya Yönetici</string>
-    <!-- Used in file activity_surveying_sng.xml:293. Original value:Close File    -->
-    <string name="button_close_file">Dosya Kapat</string>
-    <!-- Used in file rtk_rover_start.xml:3. Original value:JOB NAME    -->
-    <string name="survey_job_name">İŞİN ADI</string>
-    <!-- Used in file activity_survey_style.xml:22. Original value:Select    -->
-    <string name="string_select">Select</string>
-    <!-- Used in file source_table_row_header_dark.xml:99. Original value:VRS    -->
-    <string name="vrs">VRS</string>
-    <!-- Used in file activity_rtk_setup.xml:170. Original value:Internet Settings    -->
-    <string name="button_configure_internet">Internet Ayarları</string>
-    <!-- Used in file verify_settings.xml:5. Original value:Verify Mode    -->
-    <string name="string_verify_mode">Mod Doğrula</string>
-    <!-- Used in file activity_calibrate.xml:24. Original value:Mag.Azimuth    -->
-    <string name="magnetic_azimuth">Mag.Semt</string>
-    <!-- Used in file spoofing_row_header_dark.xml:84. Original value:N    -->
-    <string name="string_n">X</string>
-    <!-- Used in file rtk_base_uhf.xml:125. Original value:Error Correction(FEC)    -->
-    <string name="error_correction">Hata Düzeltme(FEC)</string>
-    <!-- Used in file map_stakeout.xml:5. Original value:Eye    -->
-    <string name="string_eye_xml">Eye</string>
-    <!-- Used in file rtk_base.xml:6. Original value:Connected to    -->
-    <string name="text_connection">Bağlandı</string>
-    <!-- Used in file rtk_base_rcv.xml:35. Original value:Login    -->
-    <string name="login">Login</string>
-    <!-- Used in file activity_map_stakeout.xml:92. Original value:Along    -->
-    <string name="text_along_map">Boyunca</string>
-    <!-- Used in file map_stakeout.xml:10. Original value:Point    -->
-    <string name="string_new_point">Nokta</string>
-    <!-- Used in file CalibrationActivity.java:249. Original value:L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
-    <string name="start_levels_calibration_land_small">L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
-    <!-- Used in file rtk_base_rcv_base.xml:115. Original value:NetHub Login    -->
-    <string name="nethub_login">NetHub Login</string>
-    <!-- Used in file activity_power.xml:164. Original value:Power Off    -->
-    <string name="power_off">Gücü Kapat</string>
-    <!-- Used in file activity_surveying_rtk.xml:49. Original value:&#x2B07;    -->
-    <string name="button_menu">⬇</string>
-    <!-- Used in file receiver_info.xml:20. Original value:WLAN IP    -->
-    <string name="receiver_wlan_ip">WLAN IP</string>
-    <!-- Used in file settings_general.xml:144. Original value:RTK Fix Lost    -->
-    <string name="fix_lost">RTK Fix Kayıp</string>
-    <!-- Used in file settings_general.xml:74. Original value:Reject by VRMS    -->
-    <string name="epoch_rejected_vrms">Reject by VRMS</string>
-    <!-- Used in file rtk_base_rcv_base.xml:27. Original value:TCP Mode    -->
-    <string name="tcp_on">TCP Modu</string>
-    <!-- Used in file activity_surveying_sng.xml:245. Original value:BLH    -->
-    <string name="lat_lon_hgt">BLH</string>
-    <!-- Used in file verify_settings.xml:28. Original value:Number Epochs in group    -->
-    <string name="verify_number_epochs_in_group">Number Epochs in group</string>
-    <!-- Used in file ConfigureFHActivity.java:192. Original value:EU zone parameters    -->
-    <string name="eu_zone_parameters">EU zone paramreleri</string>
-    <!-- Used in file survey_settings.xml:40. Original value:Trajectory Length Filter    -->
-    <string name="trajector_length_filter_summary">Trajectory Uzunluk Filtresi</string>
-    <!-- Used in file verify_settings.xml:36. Original value:Tolerance in group    -->
-    <string name="verify_tolerance_in_group">Tecviz Grubu</string>
-    <!-- Used in file satellite_row_dark.xml:11. Original value:sats    -->
-    <string name="sats">Uydlr</string>
-    <!-- Used in file survey_settings.xml:119. Original value:Hybrid RTK    -->
-    <string name="title_hybrid_rtk">Hybrid RTK</string>
-    <!-- Used in file map_survey.xml:28. Original value:Show Clusters    -->
-    <string name="action_show_clusters">Kümeleri Göster</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:45. Original value:GSM DirectCall    -->
-    <string name="radio_gsm_radio">GSM DirectCall</string>
-    <!-- Used in file rtk_rover_start.xml:10. Original value:Enable Recording    -->
-    <string name="survey_enable_recording">Kaydı Etkinleştir</string>
-    <!-- Used in file rtk_rover_start.xml:12. Original value:Record Rate    -->
-    <string name="survey_record_rate">Kayıt Hızı</string>
-    <!-- Used in file rtk_base_uhf.xml:84. Original value:Satel protocol settings    -->
-    <string name="satel">Satel protokol Ayarları</string>
-    <!-- Used in file receiver_info.xml:16. Original value:Time Since Last Reboot    -->
-    <string name="receiver_time_since_reboot">Son Reboot Zamanı</string>
-    <!-- Used in file spoofing_row.xml:84. Original value:Noise    -->
-    <string name="string_noise">Noise</string>
-    <!-- Used in file VerifySettingsPreferenceFragment.java:166. Original value:Wrong number epochs in group!    -->
-    <string name="wrong_number_epochs_in_group">Wrong number epochs in group!</string>
-    <!-- Used in file source_table_row_header_dark.xml:85. Original value:Longitude    -->
-    <string name="longitude">Boylam</string>
-    <!-- Used in file SurveyModel.java:1536. Original value:Data storing error!    -->
-    <string name="error_store_point">Data Kayıt Hatası!</string>
-    <!-- Used in file activity_map_stakeout.xml:53. Original value:Z    -->
-    <string name="text_z_map">Z</string>
-    <!-- Used in file SurveyingRTKActivity.java:869. Original value:Point    -->
-    <string name="point_point">Point</string>
-    <!-- Used in file activity_configure_uhf.xml:447. Original value:TT450S(HW) params.    -->
-    <string name="tt450hsw_protocol_parameters">TT450S(HW) params.</string>
-    <!-- Used in file survey_button.xml:7. Original value:Accept Point    -->
-    <string name="menu_accept">Kabul Noktası</string>
-    <!-- Used in file rtk_base_uhf.xml:174. Original value:Channel Spacing    -->
-    <string name="channel_spacing">Kanal Aralığı</string>
-    <!-- Used in file survey_settings.xml:43. Original value:Surveying    -->
-    <string name="string_survey_settings">Ölçüm</string>
-    <!-- Used in file activity_confirm_point_survey.xml:46. Original value:Description    -->
-    <string name="text_point_description">Açıklama</string>
-    <!-- Used in file SurveyModel.java:1487. Original value:No data collected!    -->
-    <string name="error_no_data_collected">Data Toplanamadı</string>
-    <!-- Used in file activity_configure_gprs.xml:101. Original value:Dialup Number    -->
-    <string name="dialup_number">Cevirme Numarası</string>
-    <!-- Used in file rtk_base_uhf.xml:40. Original value:Simplex protocol settings    -->
-    <string name="simplex">Simplex protocol ayarları</string>
-    <!-- Used in file activity_antenna.xml:140. Original value:Measure Units    -->
-    <string name="units">Mesafe Birimi</string>
-    <!-- Used in file satsystem_row_header_dark.xml:35. Original value:Elevation    -->
-    <string name="elevation">Yüks</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:46. Original value:WiFi SSID    -->
-    <string name="wifi_ssid">WiFi SSID</string>
-    <!-- Used in file receiver_info.xml:17. Original value:Power Of Board, V    -->
-    <string name="receiver_power_board">MainBoard Gücü, V</string>
-    <!-- Used in file rtk_base.xml:9. Original value:BASE STATION    -->
-    <string name="base_station">SABİT İSYASYON</string>
-    <!-- Used in file SurveyModel.java:591. Original value:Can\'t read RTK Base Info!    -->
-    <string name="cant_read_rtk_base">RTK Sabit Bilgisi okunamaz!</string>
-    <!-- Used in file activity_stakeout.xml:274. Original value:E\n    -->
-    <string name="text_east">Y\n</string>
-    <!-- Used in file StakeoutActivity.java:690. Original value:Line Target    -->
-    <string name="target_line_small">Hedef Hat</string>
-    <!-- Used in file StakeoutActivity.java:1257. Original value:Fwrd    -->
-    <string name="text_forward">İleri</string>
-    <!-- Used in file activity_satellite_types.xml:26. Original value:Use    -->
-    <string name="string_use_sats">Kullanıcı</string>
-    <!-- Used in file SurveyModel.java:1273. Original value:1 minute    -->
-    <string name="minute">1 Dakika</string>
-    <!-- Used in file status_bar.xml:119. Original value:LQ    -->
-    <string name="link_quality">LQ</string>
-    <!-- Used in file rtk_base_rcv_base.xml:143. Original value:Access Point Name (APN)    -->
-    <string name="gprs_apn_summary">Access Point Adı(APN)</string>
-    <!-- Used in file activity_start_survey.xml:193. Original value:Write additional antenna height info, including height type and offset    -->
-    <string name="check_event_format">Yüks.Tipi ve ofset dahil olmak üzere ilave anten yüks.bilgileri yazın</string>
-    <!-- Used in file activity_antenna.xml:112. Original value:Show vertical offsets    -->
-    <string name="antenna_show_vertical_offset">Düşey Ofset Göster</string>
-    <!-- Used in file activity_stakeout.xml:254. Original value:N\n    -->
-    <string name="text_north">X\n</string>
-    <!-- Used in file compasslevels_settings.xml:8. Original value:Accept epochs with tilt    -->
-    <string name="string_accept_title_settings">Epochları Eğim ile kabulet</string>
-    <!-- Used in file job_info.xml:7. Original value:Save Log    -->
-    <string name="save_log">Log Sakla</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:15. Original value:New Correction Source    -->
-    <string name="string_correction_source_xml">New Correction Source</string>
-    <!-- Used in file StakeoutActivity.java:471. Original value:Averaging\n\n    -->
-    <string name="text_averaging">Averaging\n\n</string>
-    <!-- Used in file SurveyingRTKActivity.java:1180. Original value:Verify is not finily finished    -->
-    <string name="verify_no_data_data_collected">Hassas Doğrulama bitmemiş</string>
-    <!-- Used in file status_bar.xml:93. Original value:Std    -->
-    <string name="solution_type">Std</string>
-    <!-- Used in file settings_general.xml:165. Original value:Any epoch is collected at Lift/Titl survey    -->
-    <string name="lift_and_tilt_any_epoch_collected">Tüm Epochlar Lift &amp; Titl Ölçümünde Toplanır</string>
-    <!-- Used in file survey_settings.xml:149. Original value:Detect Base movement during survey    -->
-    <string name="string_detect_base_move">Ölçümde Sabit Hareketini Algıla</string>
-    <!-- Used in file jmt_info.xml:4. Original value:Copyright    -->
-    <string name="jmt_copyright">Copyright</string>
-    <!-- Used in file rtk_base_rcv.xml:39. Original value:Password    -->
-    <string name="password">Şifre</string>
-    <!-- Used in file settings_general.xml:53. Original value:Epoch Rejected by MultiRTK    -->
-    <string name="epoch_rejected_multi_rtk">MultiRTK Epoch Reddedildi</string>
-    <!-- Used in file activity_file_logging.xml:28. Original value:Receiver File Logging    -->
-    <string name="check_logging">Alıcı Dosya Loglanıyor</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:79. Original value:HRMS\n    -->
-    <string name="text_hrms">HRMS\n</string>
-    <!-- Used in file compasslevels_settings.xml:26. Original value:Max.Uncorrected tilt angle    -->
-    <string name="maximum_uncorrected_tilt_angle_summary">Max.Uncorrected tilt angle</string>
-    <!-- Used in file map_survey.xml:24. Original value:Import    -->
-    <string name="action_map_import">Import</string>
-    <!-- Used in file SurveyModel.java:2444. Original value:Remain     -->
-    <string name="remain">Kalan</string>
-    <!-- Used in file rtk_base_rcv_base.xml:118. Original value:NetHub Password    -->
-    <string name="nethub_password">NetHub Sifre</string>
-    <!-- Used in file activity_map_stakeout.xml:113. Original value:Across    -->
-    <string name="text_across_map">Across</string>
-    <!-- Used in file NtripClient.java:534. Original value:Ntrip client runs    -->
-    <string name="ntrip_client_runs">Ntrip Tanımlama Çalışıyor</string>
-    <!-- Used in file ConfigureRCVActivity.java:181. Original value:Setup\nWiFi    -->
-    <string name="setup_internet_wifi">Kurulum\nWiFi</string>
-    <!-- Used in file offset_survey.xml:68. Original value:Distance1    -->
-    <string name="string_distance1_xml">Distance1</string>
-    <!-- Used in file activity_calibrate.xml:45. Original value:Start\nCompass\nCalibration    -->
-    <string name="start_compass_calibration">Pusula\nKalibrasyon\nBaşlat</string>
-    <!-- Used in file status_bar.xml:67. Original value:battery    -->
-    <string name="battery">Batarya</string>
-    <!-- Used in file activity_calibrate.xml:62. Original value:S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
-    <string name="start_compass_calibration_land">S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
-    <!-- Used in file receiver_info.xml:3. Original value:Vendor    -->
-    <string name="vendor">Satıcı</string>
-    <!-- Used in file job_info.xml:13. Original value:Arhieve memory    -->
-    <string name="job_sd_memory">Arşiv Hafızası</string>
-    <!-- Used in file survey_settings.xml:74. Original value:Antenna Height    -->
-    <string name="base_antenna_height">Anten Yüks.</string>
-    <!-- Used in file StakeoutActivity.java:692. Original value:Line\nTarget    -->
-    <string name="target_line">Hedef\nHat</string>
-    <!-- Used in file activity_configure_uhf.xml:148. Original value:Simplex Protocol Parameters    -->
-    <string name="simplex_protocol_parameters">Simplex Protokol Ayarları</string>
-    <!-- Used in file SurveyingSnGActivity.java:160. Original value:RTK    -->
-    <string name="rtk">RTK</string>
-    <!-- Used in file rtk_base.xml:109. Original value:File Manager    -->
-    <string name="receiver_files">Dosya Yönetici</string>
-    <!-- Used in file survey_settings.xml:176. Original value:Show Compass/Levels    -->
-    <string name="show_compass_and_levels">Pusula/Düzeç Göster</string>
-    <!-- Used in file job_info.xml:4. Original value:Job Name    -->
-    <string name="job_name">İş Adı</string>
-    <!-- Used in file activity_configure_uhf.xml:594. Original value:Use Repeater    -->
-    <string name="repeater">Repeater Kullan</string>
-    <!-- Used in file offsets2.xml:35. Original value:Traverse    -->
-    <string name="string_menu_offset_traverse">Traverse</string>
-    <!-- Used in file activity_satellite_types.xml:159. Original value:SBAS    -->
-    <string name="check_sbas">SBAS</string>
-    <!-- Used in file descriptions.xml:6. Original value:Del    -->
-    <string name="action_delete">Sil</string>
-    <!-- Used in file rtk_base_rcv_base.xml:153. Original value:Password    -->
-    <string name="gprs_password_summary">Şifre</string>
-    <!-- Used in file source_table_row_header_dark.xml:134. Original value:Bitrate    -->
-    <string name="bitrate">Bitrate</string>
-    <!-- Used in file source_table_row_header_dark.xml:22. Original value:Source    -->
-    <string name="source">Kaynak</string>
-    <!-- Used in file rtk_base.xml:104. Original value:Record Rate    -->
-    <string name="record_rate">Kayıt Aralığı</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:667. Original value:Mask    -->
-    <string name="lan_mask">Mask</string>
-    <!-- Used in file StakeoutActivity.java:471. Original value:Averaging\n\n    -->
-    <string name="text_averaging_small">Averaging\n\n</string>
-    <!-- Used in file activity_rtk_setup.xml:84. Original value:Job Name    -->
-    <string name="text_job_name">İş Adı</string>
-    <!-- Used in file StartSurveyActivity.java:474. Original value:Receiver is not connected!    -->
-    <string name="receiver_is_not_connected">Alıcı Bağlı Değil!</string>
-    <!-- Used in file activity_surveying_sng.xml:237. Original value:epochs collected    -->
-    <string name="epochs_collected">epoch lar Toplandı</string>
-    <!-- Used in file activity_configure_gprs.xml:54. Original value:Hot Start    -->
-    <string name="hot_start">Sıcak Başlangıç</string>
-    <!-- Used in file offsets2.xml:20. Original value:OffLine    -->
-    <string name="string_menu_offset_general">OfLine</string>
-    <!-- Used in file rtk_base.xml:100. Original value:This allows you to enter a string    -->
-    <string name="file_name_summary">Bu, bir Satır girmenizi sağlar</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:672. Original value:Gateway    -->
-    <string name="lan_gateway">Gateway</string>
-    <!-- Used in file activity_configure_gprs.xml:91. Original value:Registration    -->
-    <string name="registration_mode">Kayıt</string>
-    <!-- Used in file RTKBaseSettingsActivity.java:365. Original value:Switch to PlayMarket for J-Mobile    -->
-    <string name="string_load_jmt">Switch to PlayMarket for J-Mobile</string>
-    <!-- Used in file activity_configure_gprs.xml:137. Original value:Login    -->
-    <string name="gprs_login">Login</string>
-    <!-- Used in file SurveyModel.java:248. Original value:Not enough memory in the receiver!    -->
-    <string name="not_enough_memory">Alıcı Hafızası Yetersiz!</string>
-    <!-- Used in file compasslevels_settings.xml:20. Original value:Max.Corrected tilt angle    -->
-    <string name="maximum_corrected_tilt_angle">Max.Düzeltirlmi Eğim Açısı</string>
-    <!-- Used in file activity_map_stakeout.xml:237. Original value:TextView    -->
-    <string name="text_textview">TextGör</string>
-    <!-- Used in file source_table_row_header_dark.xml:15. Original value:Mount Point    -->
-    <string name="name">Mount Point</string>
-    <!-- Used in file settings_general.xml:60. Original value:Epoch Rejected by Tilt    -->
-    <string name="epoch_rejected_tilt">Epoch Reddedildi by Tilt</string>
-    <!-- Used in file compasslevels_settings.xml:19. Original value:Max.Corrected tilt angle    -->
-    <string name="maximum_corrected_tilt_angle_summary">Max.Düzeltilen Eğim Açısı</string>
-    <!-- Used in file StatusBarUpdater.java:383. Original value:Fixed    -->
-    <string name="fixed">Fix OK</string>
-    <!-- Used in file activity_map_stakeout.xml:231. Original value:Course    -->
-    <string name="text_course_map">Course</string>
-    <!-- Used in file source_table_row_header_dark.xml:71. Original value:Distance    -->
-    <string name="distance">Mesafe</string>
-    <!-- Used in file activity_calibrate.xml:117. Original value:Levels are calibrated OK    -->
-    <string name="levels_status">Düzeç Kalibrasyonu OK</string>
-    <!-- Used in file activity_surveying_sng.xml:75. Original value:Description    -->
-    <string name="description">Açıklama</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:202. Original value:Design\n    -->
-    <string name="string_design_cf">Aplikasyon\n</string>
-    <!-- Used in file receiver_info.xml:21. Original value:GPRS IP    -->
-    <string name="receiver_gprs_ip">GPRS IP</string>
-    <!-- Used in file satellites.xml:5. Original value:Table    -->
-    <string name="action_table">Tablo</string>
-    <!-- Used in file SurveyModel.java:2310. Original value: rejec.    -->
-    <string name="epochs_reject">Reddet.</string>
-    <!-- Used in file activity_satellite_types.xml:33. Original value:Track    -->
-    <string name="string_track">Track</string>
-    <!-- Used in file offsets.xml:5. Original value:No offset    -->
-    <string name="string_menu_offset_none">Ofset Yok</string>
-    <!-- Used in file RTKSetupActivity.java:910. Original value:IP:%1$s\nDHCP:%2$s    -->
-    <string name="setup_internet_lan_format">IP:%1$s\nDHCP:%2$s</string>
-    <!-- Used in file survey_settings.xml:30. Original value:Accept PDOP    -->
-    <string name="accept_pdop">Accept PDOP</string>
-    <!-- Used in file offset_survey.xml:83. Original value:Distance2    -->
-    <string name="string_distance2_xml">Distance2</string>
-    <!-- Used in file SurveyModel.java:1271. Original value:hours    -->
-    <string name="hours">saat</string>
-    <!-- Used in file SurveyModel.java:544. Original value:Can\'t start surveying!    -->
-    <string name="cant_start_surveying">Ölçüme Başlayamazsınız!</string>
-    <!-- Used in file survey_settings.xml:105. Original value:File Name    -->
-    <string name="file_name">Dosya Adı</string>
-    <!-- Used in file jmt_info.xml:8. Original value:Registration Status    -->
-    <string name="jmt_license">Kayıt Durumu</string>
-    <!-- Used in file activity_confirm_point_survey.xml:258. Original value:Base Distance    -->
-    <string name="text_base_distance">Sabite Mesafe</string>
-    <!-- Used in file survey_settings.xml:182. Original value:Lift&amp;Tilt Survey    -->
-    <string name="lift_and_tilt_survey_mode">Lift &amp; Tilt Ölçüm</string>
-    <!-- Used in file survey_settings.xml:66. Original value:Antenna Type    -->
-    <string name="antenna_type">Anten Tipi</string>
-    <!-- Used in file rtk_base_csd.xml:28. Original value:SIM Card    -->
-    <string name="csd_sim">SIM Kart</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:156. Original value:Gateway    -->
-    <string name="gateway">Gateway</string>
-    <!-- Used in file survey_settings.xml:115. Original value:Elevation Mask    -->
-    <string name="elevation_mask">Açıklık Açısı</string>
-    <!-- Used in file map_survey.xml:5. Original value:Points    -->
-    <string name="action_map_layers">Noktalar</string>
-    <!-- Used in file jmt_info.xml:7. Original value:Build    -->
-    <string name="jmt_build">Yapı</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:36. Original value:WiFi Mode    -->
-    <string name="wifi_mode">WiFi Modu</string>
-    <!-- Used in file activity_surveying_sng.xml:303. Original value:Event    -->
-    <string name="button_event">Event</string>
-    <!-- Used in file activity_stakeout.xml:341. Original value:Minus    -->
-    <string name="text_zoom_minus">Minus</string>
-    <!-- Used in file settings_general.xml:6. Original value:Enable Sounds    -->
-    <string name="turn_on_sounds">Sesleri Kullan</string>
-    <!-- Used in file source_table_row_header_dark.xml:50. Original value:Nav.System    -->
-    <string name="nav_system">Nav.Sistemi</string>
-    <!-- Used in file activity_surveying_sng.xml:228. Original value:Remain time:    -->
-    <string name="remain_time">Kalan Zaman:</string>
-    <!-- Used in file survey_settings.xml:96. Original value:Show Vertical Offsets    -->
-    <string name="show_vertical_offsets">Düşey Ofset Göster</string>
-    <!-- Used in file activity_power.xml:170. Original value:Sleep Mode    -->
-    <string name="sleep_mode">Uyku Modu</string>
-    <!-- Used in file activity_survey_styles.xml:32. Original value:Rename    -->
-    <string name="string_rename">Rename</string>
-    <!-- Used in file VerifySettingsPreferenceFragment.java:177. Original value:Wrong tolerance in group!    -->
-    <string name="wrong_tolerance_in_group">Tecviz grubu yanlış!</string>
-    <!-- Used in file rtk_base.xml:65. Original value:X:\nY:\nZ:    -->
-    <string name="x_y_z">X:\nY:\nZ:</string>
-    <!-- Used in file rtk_base_csd.xml:8. Original value:Name    -->
-    <string name="csd_settings_name">İsim</string>
-    <!-- Used in file rtk_base.xml:91. Original value:FILE RECORDING    -->
-    <string name="file_recording">DOSYA KAYDI</string>
-    <!-- Used in file survey_settings.xml:25. Original value:Accept VRMS    -->
-    <string name="accept_vrms">Accept VRMS</string>
-    <!-- Used in file activity_stakeout_line_target.xml:22. Original value:Method    -->
-    <string name="string_method">Metod</string>
-    <!-- Used in file survey_settings.xml:173. Original value:Compass and Levels    -->
-    <string name="compass_and_levels">Pusula ve Düzeç</string>
-    <!-- Used in file CalibrationActivity.java:187. Original value:C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
-    <string name="start_compass_calibration_land_small">C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
-    <!-- Used in file rtk_base.xml:145. Original value:START STATION    -->
-    <string name="start_station_up">BAŞLANGIÇ İSTASYONU</string>
-    <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
-    <string name="level_offsets">Ofsetler</string>
-    <!-- Used in file rtk_base.xml:80. Original value:Get From Catalog    -->
-    <string name="get_from_catalog">Katalog dan</string>
-    <!-- Used in file rtk_base_rcv_base.xml:152. Original value:Password    -->
-    <string name="gprs_password">Şifre</string>
-    <!-- Used in file surveying_rtk.xml:15. Original value:Points    -->
-    <string name="action_list">Noktalar</string>
-    <!-- Used in file rtk_base_rcv_base.xml:124. Original value:Set 3G/GPRS    -->
-    <string name="gprs_on">3G/GPRS Ayarla</string>
-    <!-- Used in file activity_start_survey.xml:244. Original value:Stop and Go    -->
-    <string name="button_stop_and_go">Stop and Go</string>
-    <!-- Used in file SurveyStyleInformationActivity.java:141. Original value:Fix, Float or DGPS    -->
-    <string name="string_fix__float_or_dgps_xml">Fix, Float or DGPS</string>
-    <!-- Used in file activity_satellite_types.xml:117. Original value:BeiDou    -->
-    <string name="check_bdu">BeiDou</string>
-    <!-- Used in file StakeoutSettingsActivity.java:130. Original value:Levels    -->
-    <string name="levels">Düzeçler</string>
-    <!-- Used in file survey_settings.xml:94. Original value:Height Unit    -->
-    <string name="antenna_height_unit">Yüks.Birimi</string>
-    <!-- Used in file activity_configure_uhf.xml:425. Original value:Error Correction (FEC)    -->
-    <string name="fec">Hata Düzeltme (FEC)</string>
-    <!-- Used in file source_table_row_header_dark.xml:127. Original value:Fee    -->
-    <string name="fee">Fee</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:652. Original value:Set LAN    -->
-    <string name="lan_on">Set LAN</string>
-    <!-- Used in file rtk_base_uhf.xml:30. Original value:Protocol    -->
-    <string name="protocol">Protokol</string>
-    <!-- Used in file activity_configure_fh.xml:83. Original value:Zone    -->
-    <string name="zone">Zon</string>
-    <!-- Used in file SurveyingRTKActivity.java:880. Original value:Survey    -->
-    <string name="string_survey_action">Ölçüm</string>
-    <!-- Used in file compasslevels_settings.xml:27. Original value:Max.Uncorrected tilt angle    -->
-    <string name="maximum_uncorrected_tilt_angle">Max.Düzeltilmemiş  Eğim Açısı</string>
-    <!-- Used in file settings_general.xml:158. Original value:Lift&amp;Tilt Started    -->
-    <string name="lift_and_tilt_started">Lift &amp; Tilt Başladı</string>
-    <!-- Used in file rtk_rover_start.xml:9. Original value:FILE RECORDING    -->
-    <string name="survey_file_recording">DOSYA KAYDI</string>
-    <!-- Used in file spoofing_row_header_dark.xml:70. Original value:dRange    -->
-    <string name="string_drange">dSınır</string>
-    <!-- Used in file rtk_base.xml:95. Original value:Enable Recording    -->
-    <string name="enable_recording">Kaydı Etkinleştir</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:130. Original value:dN\n    -->
-    <string name="text_dn">ΔX\n</string>
-    <!-- Used in file activity_stakeout.xml:190. Original value:ETT    -->
-    <string name="text_ett">ΔY</string>
-    <!-- Used in file activity_power.xml:159. Original value:Enable Low Power Mode    -->
-    <string name="enable_low_power_mode">Düşük Güç Modu Uygula</string>
-    <!-- Used in file SurveyModel.java:1275. Original value:mins    -->
-    <string name="minutes">Dak</string>
-    <!-- Used in file source_table_row_header_dark.xml:29. Original value:Format    -->
-    <string name="format">Format</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:164. Original value:dH\n    -->
-    <string name="text_dh">ΔZ\n</string>
-    <!-- Used in file activity_surveying.xml:24. Original value:Survey Type    -->
-    <string name="survey_type">Ölçüm Tipi</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:147. Original value:dE\n    -->
-    <string name="text_de">ΔY\n</string>
-    <!-- Used in file rtk_base_uhf.xml:180. Original value:CORRECTIONS    -->
-    <string name="corrections">DÜZELTMELER</string>
-    <!-- Used in file survey_settings.xml:87. Original value:Antenna Vertical Offset    -->
-    <string name="antenna_vertical_offset_summary">Anten Düşey Ofset</string>
-    <!-- Used in file activity_stakeout_line_target.xml:163. Original value:Offset    -->
-    <string name="string_offset_xml">Offset</string>
-    <!-- Used in file source_table_row_header_dark.xml:106. Original value:Generator    -->
-    <string name="generator">Generator</string>
-    <!-- Used in file satsystem_row_header_dark.xml:56. Original value:L1P    -->
-    <string name="l1p">L1P</string>
-    <!-- Used in file survey_settings.xml:88. Original value:Vertical Offset    -->
-    <string name="antenna_vertical_offset">Düşey Ofset</string>
-    <!-- Used in file survey_settings.xml:197. Original value:Sounds    -->
-    <string name="sounds">Sesler</string>
-    <!-- Used in file rtk_base_uhf.xml:98. Original value:Compatibility    -->
-    <string name="text_compatibility">Uygunluk</string>
-    <!-- Used in file rtk_base_rcv_base.xml:70. Original value:TCPO Port    -->
-    <string name="tcpo_port">TCPO Port</string>
-    <!-- Used in file satsystem_row_header_dark.xml:70. Original value:L2C    -->
-    <string name="l2c">L2C</string>
-    <!-- Used in file source_table_row_header_dark.xml:120. Original value:Authentication    -->
-    <string name="authentication">Doğrulama</string>
-    <!-- Used in file activity_satellite_types.xml:168. Original value:Show invisible    -->
-    <string name="check_invisible">invisible Göster</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:823. Original value:Cannot configure DGPS    -->
-    <string name="cant_setup_gsps_mode">DGPS yapılandırılamıyor</string>
-    <!-- Used in file activity_satellite_types.xml:19. Original value:View    -->
-    <string name="string_view">Gör</string>
-    <!-- Used in file SurveyingRTKActivity.java:770. Original value:Ignore the movement    -->
-    <string name="ignore_movement">Hareketi yoksay</string>
-    <!-- Used in file satsystem_row_header_dark.xml:63. Original value:L2P    -->
-    <string name="l2p">L2P</string>
-    <!-- Used in file SourceTableActivity.java:538. Original value:Format    -->
-    <string name="string_format_sort">Format</string>
-    <!-- Used in file activity_surveying_sng.xml:270. Original value:Static    -->
-    <string name="button_static">Statik</string>
-    <!-- Used in file activity_stakeout.xml:211. Original value:Cut    -->
-    <string name="text_cut">Kazı</string>
-    <!-- Used in file ConfigureRCVActivity.java:185. Original value:Setup\nLAN    -->
-    <string name="setup_internet_lan">Kurulum\nLAN</string>
-    <!-- Used in file survey_settings.xml:143. Original value:Debug Survey    -->
-    <string name="string_debug_survey">Ölçüm Ayıklama</string>
-    <!-- Used in file receiver_info.xml:5. Original value:Receiver S/N    -->
-    <string name="receiver_sn">Alıcı S/N</string>
-    <!-- Used in file satsystem_row_header_dark.xml:42. Original value:Azimuth    -->
-    <string name="azimuth">Semt</string>
-    <!-- Used in file activity_rtk_setup.xml:49. Original value:Start    -->
-    <string name="button_start">Başlat</string>
-    <!-- Used in file satellites.xml:14. Original value:Satellites    -->
-    <string name="action_sat_types">Uydular</string>
-    <!-- Used in file settings_general.xml:67. Original value:Reject by HRMS    -->
-    <string name="epoch_rejected_hrms">Reject by HRMS</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:651. Original value:LAN    -->
-    <string name="lan_settings">LAN</string>
-    <!-- Used in file rtk_base_rcv_base.xml:132. Original value:DHCP    -->
-    <string name="gprs_dhcp">DHCP</string>
-    <!-- Used in file activity_stakeout.xml:148. Original value:CTT    -->
-    <string name="text_ctt">Δa</string>
-    <!-- Used in file job_info.xml:7. Original value:Surveyor Name    -->
-    <string name="job_surveyorname">Ölçümü Yapan</string>
-    <!-- Used in file activity_surveying_settings.xml:36. Original value:Apply    -->
-    <string name="button_apply">Onay</string>
-    <!-- Used in file rtk_base_uhf.xml:15. Original value:UHF    -->
-    <string name="uhf">UHF</string>
-    <!-- Used in file activity_descriptions.xml:14. Original value:Sort by    -->
-    <string name="sort_description">Sırala</string>
-    <!-- Used in file survey_settings.xml:53. Original value:Confirm Point    -->
-    <string name="confirm_point_survey">Nokta Onayı</string>
-    <!-- Used in file rtk_base_uhf.xml:25. Original value:Output Power    -->
-    <string name="output_power">Çıkış Gücü</string>
-    <!-- Used in file source_table_row_header_dark.xml:113. Original value:Compression    -->
-    <string name="compression">Sıkıştırma</string>
-    <!-- Used in file map_survey.xml:32. Original value:List    -->
-    <string name="action_select_list">Liste</string>
-    <!-- Used in file VerifySettingsPreferenceFragment.java:200. Original value:Wrong Tolerance!    -->
-    <string name="wrong_tolerance">Tecviz Hatası!</string>
-    <!-- Used in file rtk_base.xml:151. Original value:Stop Station    -->
-    <string name="stop_station">İstasyonu Durdur</string>
-    <!-- Used in file activity_configure_gprs.xml:65. Original value:Pin Code    -->
-    <string name="pin_code">Pin Kodu</string>
-    <!-- Used in file activity_configure_fh.xml:125. Original value:Freq.Rule    -->
-    <string name="f_rule">Freq.Rule</string>
-    <!-- Used in file rtk_base_uhf.xml:62. Original value:Transparent protocol settings    -->
-    <string name="transparent">Transparent protokol ayarları</string>
-    <!-- Used in file satsystem_row_header_dark.xml:49. Original value:L1CA    -->
-    <string name="l1ca">L1CA</string>
-    <!-- Used in file jmt_info.xml:6. Original value:Version    -->
-    <string name="jmt_version">Version</string>
-    <!-- Used in file rtk_base.xml:117. Original value:CORRECTIONS    -->
-    <string name="corrections_up">DÜZELTMELER</string>
-    <!-- Used in file StakeoutSettingsActivity.java:125. Original value:are OK    -->
-    <string name="are_ok">Yapılmış</string>
-    <!-- Used in file rtk_base_rcv_base.xml:137. Original value:Dialup Number    -->
-    <string name="gprs_dialup_number">Dialup Number</string>
-    <!-- Used in file survey_settings.xml:20. Original value:Accept HRMS    -->
-    <string name="accept_hrms">Accept HRMS</string>
-    <!-- Used in file activity_stakeout_line_target.xml:122. Original value:Station    -->
-    <string name="string_station">İstasyon</string>
-    <!-- Used in file activity_calibrate.xml:88. Original value:Use Levels    -->
-    <string name="use_levels">Düzeç Kullan</string>
-    <!-- Used in file StakeoutSettingsActivity.java:131. Original value:calibration required    -->
-    <string name="calibration_required">Kalibrasyon gerekli</string>
-    <!-- Used in file SurveyModel.java:2301. Original value:reject.    -->
-    <string name="epochs_reject_shorter">redd.</string>
-    <!-- Used in file rtk_rover_start.xml:3. Original value:RECEIVER SETUP    -->
-    <string name="survey_receiver_setup">ALICI KURULUM</string>
-    <!-- Used in file receiver_info.xml:14. Original value:Processor Frequency, MHz    -->
-    <string name="receiver_processor_freq">Processor Freq, MHz</string>
-    <!-- Used in file SurveyModel.java:2428. Original value:Epochs: %1$d / %2$d (Rejected:%3$d)    -->
-    <string name="string_epochs_format">Epochs: %1$d / %2$d (Rejected:%3$d)</string>
-    <!-- Used in file spoofing_row_header_dark.xml:21. Original value:SAT    -->
-    <string name="string_satsys">UYDU</string>
-    <!-- Used in file stakeout_settings.xml:10. Original value:Navigation    -->
-    <string name="string_stakeout_settings">Navigasyon</string>
-    <!-- Used in file rtk_base_uhf.xml:196. Original value:INFO    -->
-    <string name="info">BILGI</string>
-    <!-- Used in file status_bar.xml:37. Original value:satellites    -->
-    <string name="satellites">uydular</string>
-    <!-- Used in file settings_general.xml:9. Original value:On/Off Sounds    -->
-    <string name="on_off_sounds">Sesleri Aç/Kapat</string>
-    <!-- Used in file RTKBaseSettingsActivity.java:395. Original value:License the application before use the receiver or purchase authorization OAF option!    -->
-    <string name="jmt_license_error">License the application before use the receiver or purchase authorization OAF option!</string>
-    <!-- Used in file activity_stakeout.xml:300. Original value::    -->
-    <string name="text_comma">:</string>
-    <!-- Used in file survey_settings.xml:79. Original value:Switch between antenna input    -->
-    <string name="antenna_height_type_summary">Antenler arasında geçiş yap</string>
-    <!-- Used in file survey_settings.xml:100. Original value:RAW FILE    -->
-    <string name="title_raw_file">RAW DOSYA</string>
-    <!-- Used in file SurveyModel.java:630. Original value:Can not stop receiver file!    -->
-    <string name="string_cant_stop_receiver_file">Alıcı dosyası durdurulamaz!</string>
-    <!-- Used in file activity_configure_rcv.xml:205. Original value:AIM aux Port    -->
-    <string name="string_aux_port">AIM aux Port</string>
-    <!-- Used in file SurveyModel.java:2435. Original value:Epochs: %1$d (Rejected:%2$d)    -->
-    <string name="string_epochs_without_limit">Epoclar%1$d (Rejected:%2$d)</string>
-    <!-- Used in file activity_confirm_point_survey.xml:240. Original value:Base    -->
-    <string name="text_base">Sabit</string>
-    <!-- Used in file rtk_base_rcv_base.xml:109. Original value:NetHub Address    -->
-    <string name="nethub_address">NetHub Adres</string>
-    <!-- Used in file activity_surveying_sng.xml:280. Original value:Trajectory    -->
-    <string name="button_trajectory">Trajectory</string>
-    <!-- Used in file rtk_base_fh.xml:17. Original value:FH    -->
-    <string name="fh">FH</string>
-    <!-- Used in file StakeoutActivity.java:690. Original value:Pnt.Target    -->
-    <string name="target_point_small">Hedef Nokta</string>
-    <!-- Used in file activity_survey_style.xml:31. Original value:Reset    -->
-    <string name="string_reset_to_default">Reset</string>
-    <!-- Used in file survey_settings.xml:122. Original value:Activate Post-Processing after    -->
-    <string name="save_post_processing_after">Post-Processing Sonrası Aktifleştir</string>
-    <!-- Used in file receiver_info.xml:7. Original value:Mainboard    -->
-    <string name="receiver_mainboard">AnaKart</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:45. Original value:Solution\n    -->
-    <string name="text_solution_type">Çözümleme\n</string>
-    <!-- Used in file survey_settings.xml:80. Original value:Height Type    -->
-    <string name="antenna_height_type_2">Yüks.Tipi</string>
-    <!-- Used in file rtk_base.xml:81. Original value:Read Coordinates From Catalog    -->
-    <string name="get_from_catalog_summary">Koord.Katalog dan Okunuyor</string>
-    <!-- Used in file activity_stakeout_line_target.xml:147. Original value:Along    -->
-    <string name="string_along_xml">Along</string>
-    <!-- Used in file map_survey.xml:19. Original value:Export    -->
-    <string name="action_map_export">Export</string>
-    <!-- Used in file source_table_row_header_dark.xml:141. Original value:Misc.    -->
-    <string name="misc">Misc.</string>
-    <!-- Used in file settings_general.xml:12. Original value:Sound Scheme    -->
-    <string name="sound_scheme">Sound Scheme</string>
-    <!-- Used in file rtk_base_rcv_base.xml:105. Original value:NetHub Mode    -->
-    <string name="nethub_on">NetHub Modu</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:757. Original value:Wrong slant height!    -->
-    <string name="wrong_slant_height">Yanlış Eğik Yüks.!</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:29. Original value:UHF Radio    -->
-    <string name="radio_uhf_radio">UHF Radyo</string>
-    <!-- Used in file SurveyingActivity.java:56. Original value:Trajectory    -->
-    <string name="trajectory">Trajectory</string>
-    <!-- Used in file settings_general.xml:130. Original value:Hybrid RTK Saved    -->
-    <string name="survey_point_stored_hybrid_rtk">Hybrid RTK Saklandı</string>
-    <!-- Used in file job_info.xml:10. Original value:Data Path    -->
-    <string name="job_data_path">Data Path</string>
-    <!-- Used in file rtk_base_rcv_base.xml:158. Original value:WiFi SSID    -->
-    <string name="wlan_ssid_summary">WiFi SSID</string>
-    <!-- Used in file RCVBasePreferenceFragment.java:616. Original value:WLAN    -->
-    <string name="wlan_settings">WLAN</string>
-    <!-- Used in file rtk_base_fh.xml:27. Original value:Frequency Rule    -->
-    <string name="frequency_rule">Frekans Kural</string>
-    <!-- Used in file activity_calibrate.xml:70. Original value:S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
-    <string name="start_levels_calibration_land">S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
-    <!-- Used in file rtk_base.xml:85. Original value:Set Coordinates    -->
-    <string name="set_coordinate">Koord.Ayarla</string>
-    <!-- Used in file activity_wizard_05_corrections.xml:64. Original value:Next    -->
-    <string name="button_next">İleri</string>
-    <!-- Used in file SurveyModel.java:1464. Original value:No data RTK collected, and HybridRTK file exists    -->
-    <string name="hibrid_rtk_data_collected">RTK Verisi toplanmadı ve HybridRTK dosyası mevcut</string>
-    <!-- Used in file activity_file_logging.xml:113. Original value:Store Base Corrections    -->
-    <string name="check_base_info">Sabit Düzeltmelerini Sakla</string>
-    <!-- Used in file verify_settings.xml:44. Original value:Number of Groups    -->
-    <string name="verify_number_of_groups">Rakam Grupları</string>
-    <!-- Used in file survey_settings.xml:65. Original value:Switch between antenna input    -->
-    <string name="antenna_type_summary">Anten girişleri arasında Geçiş</string>
-    <!-- Used in file settings_general.xml:39. Original value:Epoch Accepted    -->
-    <string name="epoch_accepted">Epoch Uygulandı</string>
-    <!-- Used in file rtk_base_uhf.xml:133. Original value:TT 450SHW    -->
-    <string name="tt450shw">TT 450SHW</string>
-    <!-- Used in file verify_settings.xml:52. Original value:Tolerance between groups    -->
-    <string name="verify_tolerance_between_groups">Tecviz aralığı grupları</string>
-    <!-- Used in file SurveyingSnGActivity.java:1013. Original value:Can\'t setup elevation mask!    -->
-    <string name="cant_setup_elevation_mask">Açıklık Açısı Ayarlayamazsınız!</string>
-    <!-- Used in file satsystem_row_header_dark.xml:28. Original value:H/U    -->
-    <string name="hu">H/U</string>
-    <!-- Used in file rtk_base.xml:121. Original value:Radio Setup    -->
-    <string name="radio_setup">Radyo Ayarları</string>
-    <!-- Used in file activity_rtk_setup.xml:141. Original value:Radio is connected to    -->
-    <string name="connected_to">Radyo Bağlandı</string>
-    <!-- Used in file SurveyingRTKActivity.java:1863. Original value:Site name is empty!    -->
-    <string name="site_name_is_empty">Nokta Adı Boş!</string>
-    <!-- Used in file rtk_base_rcv_base.xml:38. Original value:TCP A    -->
-    <string name="correction_type_tcp_a">TCP A</string>
-    <!-- Used in file rtk_base.xml:12. Original value:Station Name    -->
-    <string name="station_name">İstasyon Adı</string>
-    <!-- Used in file rtk_base_rcv_base.xml:148. Original value:User Name    -->
-    <string name="gprs_user_summary">Kullanıcı Adı</string>
-    <!-- Used in file settings_general.xml:18. Original value:Low Bluetooth/WiFi connection    -->
-    <string name="bluetooth_quality">Düşük Bluetooth/WiFi Bağlantı</string>
-    <!-- Used in file rtk_base.xml:75. Original value:Get From Receiver    -->
-    <string name="get_from_receiver">Alıcıdan Getir</string>
-    <!-- Used in file activity_configure_uhf.xml:73. Original value:Frequency, Hz    -->
-    <string name="frequency_hz">Frekans, Hz</string>
+    <!-- Used in file CalibrationActivity.java:492. Original value:Take device into your hand rotate it in all directions    -->
+    <string name="compass_calibration_prepared">Take device into your hand rotate it in all directions</string>
     <!-- Used in file stakeout.xml:8. Original value:Average    -->
     <string name="action_average">Average</string>
-    <!-- Used in file activity_configure_ntrip.xml:130. Original value:Source Table    -->
-    <string name="source_table">Kaynak Tablo</string>
-    <!-- Used in file satsystem_row_header_dark.xml:84. Original value:Status    -->
-    <string name="status">Durum</string>
-    <!-- Used in file StartSurveyActivity.java:454. Original value:Wrong antenna height!    -->
-    <string name="wrong_antenna_height">Anten Yüks.Yanlış!</string>
-    <!-- Used in file offsets2.xml:40. Original value:Perpendicular    -->
-    <string name="string_menu_offset_perpendicular">Dik</string>
-    <!-- Used in file rtk_base_uhf.xml:192. Original value:True 5Hz RTK    -->
-    <string name="true_5_hz">Gerçek 5Hz RTK</string>
-    <!-- Used in file rtk_rover_start.xml:6. Original value:Connected To    -->
-    <string name="survey_connected_to">Bağlandı</string>
-    <!-- Used in file survey_settings.xml:5. Original value:Current Style    -->
-    <string name="current_style">Current Style</string>
-    <!-- Used in file satsystem_row_header_dark.xml:77. Original value:L5    -->
-    <string name="l5">L5</string>
-    <!-- Used in file activity_stakeout.xml:333. Original value:Target    -->
-    <string name="text_zoom_target">Hedef</string>
-    <!-- Used in file verify_settings.xml:43. Original value:Number of Groups    -->
-    <string name="verify_number_of_groups_summary">Grup Sayısı</string>
-    <!-- Used in file spoofing_row_header_dark.xml:56. Original value:Range 2    -->
-    <string name="string_range2">Sınır 2</string>
-    <!-- Used in file spoofing_row_header_dark.xml:35. Original value:Range 1    -->
-    <string name="string_range1">Sınır 1</string>
-    <!-- Used in file rtk_base_rcv.xml:30. Original value:RAW Mode    -->
-    <string name="raw_mode">RAW Modu</string>
-    <!-- Used in file StatusBarUpdater.java:378. Original value:Float    -->
-    <string name="float2">Float</string>
-    <!-- Used in file verify_settings.xml:27. Original value:Number Epochs in each group    -->
-    <string name="verify_number_epochs_in_group_summary">Her grupta Epoch Sayıları</string>
-    <!-- Used in file rtk_base_rcv_base.xml:43. Original value:TCP B    -->
-    <string name="correction_type_tcp_b">TCP B</string>
-    <!-- Used in file activity_stakeout.xml:29. Original value:Point\nTarget    -->
-    <string name="target_point">Hedef\nNokta</string>
-    <!-- Used in file rtk_base_rcv_base.xml:48. Original value:TCP C    -->
-    <string name="correction_type_tcp_c">TCP C</string>
-    <!-- Used in file rtk_base_rcv_base.xml:53. Original value:TCP D    -->
-    <string name="correction_type_tcp_d">TCP D</string>
-    <!-- Used in file rtk_base_rcv_base.xml:58. Original value:TCP E    -->
-    <string name="correction_type_tcp_e">TCP E</string>
-    <!-- Used in file map_stakeout.xml:40. Original value:Points    -->
-    <string name="action_points">Noktalar</string>
-    <!-- Used in file activity_stakeout.xml:169. Original value:NTT    -->
-    <string name="text_ntt">ΔX</string>
-    <!-- Used in file verify_settings.xml:17. Original value:Minimal RTK Engines to accept    -->
-    <string name="minimal_rtk_engines">Kabul Edilecek Min.RTK Motorları</string>
-    <!-- Used in file rtk_base_rcv_base.xml:31. Original value:TCP Port    -->
-    <string name="tcp_port">TCP Port</string>
-    <!-- Used in file activity_file_logging.xml:146. Original value:Hybrid RTK stores raw data for each point as a separate file to process then on DPOS if no RTK fix for given time    -->
-    <string name="hibrid_rtk_description">Hibrit RTK, her bir nokta için ham veriyi ayrı bir dosya olarak saklar; böylece verilen zaman için herhangi bir RTK düzeltmesi yoksa DPOS\'da işlem yapılır</string>
-    <!-- Used in file rtk_base_rcv_base.xml:97. Original value:TCPO E    -->
-    <string name="correction_type_tcpo_e">TCPO E</string>
-    <!-- Used in file SurveyingSnGActivity.java:1009. Original value:Wrong elevation mask!    -->
-    <string name="wrong_elevation_mask">Açıklık Açısı Yanlış!</string>
-    <!-- Used in file rtk_base_rcv_base.xml:72. Original value:TCPO A    -->
-    <string name="correction_type_tcpo_a">TCPO A</string>
-    <!-- Used in file survey_settings.xml:166. Original value:RTCM3 CS    -->
-    <string name="rtcm3_cs">RTCM3 CS</string>
-    <!-- Used in file rtk_base_rcv_base.xml:82. Original value:TCPO B    -->
-    <string name="correction_type_tcpo_b">TCPO B</string>
-    <!-- Used in file rtk_base_rcv_base.xml:87. Original value:TCPO C    -->
-    <string name="correction_type_tcpo_c">TCPO C</string>
-    <!-- Used in file rtk_base_rcv_base.xml:92. Original value:TCPO D    -->
-    <string name="correction_type_tcpo_d">TCPO D</string>
-    <!-- Used in file rtk_base_uhf.xml:187. Original value:Correction Period    -->
-    <string name="correction_period">Düzeltme Periodu</string>
-    <!-- Used in file job_info.xml:12. Original value:Archieve path    -->
-    <string name="job_archieve">Arsiy yolu</string>
-    <!-- Used in file status_bar.xml:47. Original value:radio    -->
-    <string name="radio">radyo</string>
+    <!-- Used in file activity_power.xml:143. Original value:Battery Charging Mode    -->
+    <string name="text_battery_charging_mode">Batarya Şarj Modu</string>
+    <!-- Used in file SurveyModel.java:262. Original value:Not enough memory in the receiver!    -->
+    <string name="not_enough_memory">Alıcı Hafızası Yetersiz!</string>
+    <!-- Used in file activity_map_stakeout.xml:53. Original value:Z    -->
+    <string name="text_z_map">Z</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:130. Original value:dN\n    -->
+    <string name="text_dn">ΔX\n</string>
+    <!-- Used in file StakeoutSettingsActivity.java:130. Original value:Levels    -->
+    <string name="levels">Düzeçler</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:164. Original value:dH\n    -->
+    <string name="text_dh">ΔZ\n</string>
+    <!-- Used in file status_bar.xml:37. Original value:satellites    -->
+    <string name="satellites">uydular</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:147. Original value:dE\n    -->
+    <string name="text_de">ΔY\n</string>
+    <!-- Used in file receiver_info.xml:14. Original value:Processor Frequency, MHz    -->
+    <string name="receiver_processor_freq">Processor Freq, MHz</string>
+    <!-- Used in file settings_general.xml:158. Original value:Lift&amp;Tilt Started    -->
+    <string name="lift_and_tilt_started">Lift &amp; Tilt Başladı</string>
+    <!-- Used in file activity_surveying_rtk.xml:204. Original value:BLH    -->
+    <string name="lat_lon_hgt">BLH</string>
+    <!-- Used in file activity_map_stakeout.xml:134. Original value:DTT    -->
+    <string name="text_dtt_map">ΔS</string>
+    <!-- Used in file satellites.xml:10. Original value:Skyplot    -->
+    <string name="action_skyplot">Skyplot</string>
+    <!-- Used in file rtk_base_csd.xml:32. Original value:SIM Card    -->
+    <string name="sim_card">SIM Kart</string>
+    <!-- Used in file SurveyingActivity.java:59. Original value:Stop and Go    -->
+    <string name="stop_and_go">Stop and Go</string>
+    <!-- Used in file rtk_base_csd.xml:3. Original value:Direct Call (CSD)    -->
+    <string name="csd_phone_number">Direct Call (CSD)</string>
+    <!-- Used in file source_table_row_dark.xml:140. Original value:Fee    -->
+    <string name="fee">Fee</string>
+    <!-- Used in file map_survey.xml:5. Original value:Points    -->
+    <string name="action_map_layers">Noktalar</string>
+    <!-- Used in file activity_configure_fh.xml:201. Original value:Error Correction (FEC)    -->
+    <string name="fec">Hata Düzeltme (FEC)</string>
+    <!-- Used in file rtk_base_uhf.xml:165. Original value:Trimmark3    -->
+    <string name="trimmark3">Trimmark3</string>
+    <!-- Used in file activity_satellite_types.xml:152. Original value:QZSS    -->
+    <string name="check_qzss">QZSS</string>
+    <!-- Used in file activity_stakeout_line_target.xml:163. Original value:Offset    -->
+    <string name="string_offset_xml">Offset</string>
+    <!-- Used in file receiver_info.xml:8. Original value:Hardware Version    -->
+    <string name="receiver_hardware_version">Hardware Version</string>
+    <!-- Used in file RTKSetupActivity.java:997. Original value:WiFi Mode:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s    -->
+    <string name="setup_internet_wifi_format">WiFi Modu:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:36. Original value:WiFi Mode    -->
+    <string name="wifi_mode">WiFi Modu</string>
+    <!-- Used in file activity_stakeout.xml:194. Original value:ETT    -->
+    <string name="text_ett">ΔY</string>
+    <!-- Used in file verify_settings.xml:51. Original value:Tolerance between groups    -->
+    <string name="verify_tolerance_between_groups_summary">Tecviz Aralığı Grupları</string>
+    <!-- Used in file jmt_info.xml:7. Original value:Build    -->
+    <string name="jmt_build">Yapı</string>
+    <!-- Used in file activity_surveying_rtk.xml:47. Original value:Event    -->
+    <string name="button_event">Event</string>
+    <!-- Used in file receiver_info.xml:24. Original value:Status of External Antenna    -->
+    <string name="receiver_antenna_dc">Status of External Antenna</string>
+    <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:151. Original value:Wrong maximum uncorrected tilt angle!    -->
+    <string name="wrong_maximum_uncorrected_tilt_angle">Düzeltilmeyen maksimum eğim açısı yanlış!</string>
+    <!-- Used in file rtk_base.xml:87. Original value:Set Coordinates To Receiver Without Radio Setup    -->
+    <string name="set_coordinate_summary">Koordinatları Radyoyu Kurmadan Ayarla</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:63. Original value:RCV Base    -->
+    <string name="rcv_base">RCV Sabit</string>
+    <!-- Used in file activity_surveying.xml:100. Original value:Ant.Height    -->
+    <string name="survey_antenna_height">Ant.Yüks.</string>
     <!-- Used in file jmt_info.xml:11. Original value:RAM    -->
     <string name="jmt_ram">RAM</string>
+    <!-- Used in file verify_settings.xml:44. Original value:Number of Groups    -->
+    <string name="verify_number_of_groups">Rakam Grupları</string>
+    <!-- Used in file SurveyModel.java:1340. Original value:1 hour    -->
+    <string name="hour">1 Saat</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:108. Original value:DHCP    -->
+    <string name="dhcp_mode">DHCP</string>
+    <!-- Used in file SurveyModel.java:1323. Original value:days    -->
+    <string name="days">günler</string>
+    <!-- Used in file SurveyModel.java:2568. Original value:Epochs: %1$d (Rejected:%2$d)    -->
+    <string name="string_epochs_without_limit">Epoclar%1$d (Rejected:%2$d)</string>
+    <!-- Used in file activity_configure_fh.xml:83. Original value:Zone    -->
+    <string name="zone">Zon</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:156. Original value:Gateway    -->
+    <string name="gateway">Gateway</string>
+    <!-- Used in file settings_general.xml:3. Original value:SOUNDS    -->
+    <string name="sounds_up">SESLER</string>
+    <!-- Used in file activity_surveying_rtk.xml:98. Original value:Description    -->
+    <string name="description">Açıklama</string>
+    <!-- Used in file activity_file_logging.xml:28. Original value:Receiver File Logging    -->
+    <string name="check_logging">Alıcı Dosya Loglanıyor</string>
+    <!-- Used in file activity_satellite_types.xml:16. Original value:View    -->
+    <string name="string_view">Gör</string>
+    <!-- Used in file stakeout_settings.xml:52. Original value:Accept PDOP    -->
+    <string name="accept_pdop">Accept PDOP</string>
+    <!-- Used in file offset_survey.xml:68. Original value:Distance1    -->
+    <string name="string_distance1_xml">Distance1</string>
+    <!-- Used in file lastnames_row_header.xml:15. Original value:Last Point Names    -->
+    <string name="last_point_names">Son Nokta Adı</string>
+    <!-- Used in file activity_satellite_types.xml:187. Original value:Show invisible    -->
+    <string name="check_invisible">invisible Göster</string>
+    <!-- Used in file map_stakeout.xml:40. Original value:Points    -->
+    <string name="action_points">Noktalar</string>
+    <!-- Used in file offset_survey.xml:99. Original value:Left/Right    -->
+    <string name="string_left_right">Sol/Sağ</string>
+    <!-- Used in file receiver_info.xml:19. Original value:External Power, V    -->
+    <string name="receiver_external_power">Harici Güç, V</string>
+    <!-- Used in file source_table_row_dark.xml:68. Original value:Country    -->
+    <string name="country">Ülke</string>
+    <!-- Used in file rtk_base_uhf.xml:125. Original value:Error Correction(FEC)    -->
+    <string name="error_correction">Hata Düzeltme(FEC)</string>
+    <!-- Used in file spoofing_row_header.xml:28. Original value:SNR 1    -->
+    <string name="string_snr1">SNR 1</string>
+    <!-- Used in file settings_general.xml:9. Original value:On/Off Sounds    -->
+    <string name="on_off_sounds">Sesleri Aç/Kapat</string>
+    <!-- Used in file spoofing_row_header.xml:49. Original value:SNR 2    -->
+    <string name="string_snr2">SNR 2</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:118. Original value:IP Address    -->
+    <string name="ip_address">IP Adres</string>
+    <!-- Used in file rtk_base_rcv_base.xml:158. Original value:WiFi SSID    -->
+    <string name="wlan_ssid_summary">WiFi SSID</string>
+    <!-- Used in file SurveyingRTKActivity.java:2709. Original value:Antenna mismatch    -->
+    <string name="antenna_mismatch">Antenna mismatch</string>
+    <!-- Used in file SurveyingRTKActivity.java:956. Original value:Point    -->
+    <string name="point_point">Point</string>
+    <!-- Used in file stakeout_settings.xml:33. Original value:Accept Epochs    -->
+    <string name="accept_epochs">Accept Epochs</string>
+    <!-- Used in file rtk_base.xml:86. Original value:Set Coordinates    -->
+    <string name="set_coordinate">Koord.Ayarla</string>
+    <!-- Used in file activity_rtk_setup.xml:41. Original value:Stop RTK    -->
+    <string name="button_stop">RTK Durdur</string>
+    <!-- Used in file source_table_row_dark.xml:14. Original value:Mount Point    -->
+    <string name="name">Mount Point</string>
+    <!-- Used in file ConfigureFHActivity.java:214. Original value:EU zone parameters    -->
+    <string name="eu_zone_parameters">EU zone paramreleri</string>
+    <!-- Used in file stakeout_settings.xml:169. Original value:Detect Rover movement during survey    -->
+    <string name="string_detect_rover_move">Ölçerken Gezici Hareketini Algıla</string>
+    <!-- Used in file verify_settings.xml:52. Original value:Tolerance between groups    -->
+    <string name="verify_tolerance_between_groups">Tecviz aralığı grupları</string>
+    <!-- Used in file CalibrationActivity.java:719. Original value:Levels OK    -->
+    <string name="levels_status_ok_small">Levels OK</string>
+    <!-- Used in file source_table_row_dark.xml:20. Original value:Source    -->
+    <string name="source">Kaynak</string>
+    <!-- Used in file SurveyingRTKActivity.java:967. Original value:Survey    -->
+    <string name="string_survey_action">Ölçüm</string>
+    <!-- Used in file stakeout_settings.xml:209. Original value:Lift&amp;Tilt Survey    -->
+    <string name="lift_and_tilt_survey_mode">Lift &amp; Tilt Ölçüm</string>
+    <!-- Used in file rtk_base.xml:6. Original value:Connected to    -->
+    <string name="text_connection">Bağlandı</string>
+    <!-- Used in file offset_survey.xml:27. Original value:P1    -->
+    <string name="string_p1">P1</string>
+    <!-- Used in file stakeout_settings.xml:83. Original value:ANTENNA    -->
+    <string name="antenna_up">ANTEN</string>
+    <!-- Used in file NtripClient.java:535. Original value:Ntrip client runs    -->
+    <string name="ntrip_client_runs">Ntrip Tanımlama Çalışıyor</string>
+    <!-- Used in file SurveyingRTKActivity.java:1274. Original value:Verify in not finished. Do you want to store an intermidiate position?    -->
+    <string name="verify_in_not_finished">İşlem bitirilmedi. Bir ara pozisyon saklamak istiyor musunuz??</string>
+    <!-- Used in file activity_file_logging.xml:113. Original value:Store Base Corrections    -->
+    <string name="check_base_info">Sabit Düzeltmelerini Sakla</string>
+    <!-- Used in file rtk_base_rcv_base.xml:137. Original value:Dialup Number    -->
+    <string name="gprs_dialup_number">Dialup Number</string>
+    <!-- Used in file satellites.xml:5. Original value:Table    -->
+    <string name="action_table">Tablo</string>
+    <!-- Used in file activity_descriptions.xml:14. Original value:Sort by    -->
+    <string name="sort_description">Sırala</string>
+    <!-- Used in file settings_general.xml:88. Original value:Epoch Rejected in Verify    -->
+    <string name="epoch_rejected_verify">Epoch Reddedildi Verify</string>
+    <!-- Used in file settings_general.xml:95. Original value:Epoch too close in trajectory    -->
+    <string name="epoch_distance_rejected">Epoch too close in trajectory</string>
+    <!-- Used in file source_table_row_dark.xml:44. Original value:Carrier    -->
+    <string name="carrier">Taşıyıcı</string>
+    <!-- Used in file SurveyStyleInformationActivity.java:141. Original value:Fix, Float or DGPS    -->
+    <string name="string_fix__float_or_dgps_xml">Fix, Float or DGPS</string>
+    <!-- Used in file job_info.xml:11. Original value:Data memory    -->
+    <string name="job_main_memory">Data Hafıza</string>
+    <!-- Used in file rtk_base.xml:139. Original value:Radio Settings    -->
+    <string name="radio_settings">Radyo Ayarları</string>
+    <!-- Used in file offset_survey.xml:44. Original value:P2    -->
+    <string name="string_p2">P2</string>
+    <!-- Used in file quattro_info.xml:7. Original value:RMS Pitch    -->
+    <string name="quattro_rms_pitch">RMS Pitch</string>
+    <!-- Used in file offsets2.xml:10. Original value:Trajectories    -->
+    <string name="string_menu_offset_trajectory">Trajectoriler</string>
+    <!-- Used in file satellite_row_header.xml:91. Original value:L1C    -->
+    <string name="l1c">L1C</string>
+    <!-- Used in file stakeout_settings.xml:25. Original value:Text information    -->
+    <string name="info_details">Text information</string>
+    <!-- Used in file activity_surveying_sng.xml:105. Original value:Antenna    -->
+    <string name="antenna">Anten</string>
+    <!-- Used in file spoofing_row_header.xml:77. Original value:dDoppl    -->
+    <string name="string_ddoppl">dDoppl</string>
+    <!-- Used in file SurveyingRTKActivity.java:815. Original value:Ignore the movement    -->
+    <string name="ignore_movement">Hareketi yoksay</string>
+    <!-- Used in file RTKSetupActivity.java:1158. Original value:Can\'t read RTK Base Info!    -->
+    <string name="cant_read_rtk_base">RTK Sabit Bilgisi okunamaz!</string>
+    <!-- Used in file activity_map_stakeout.xml:113. Original value:Across    -->
+    <string name="text_across_map">Across</string>
+    <!-- Used in file satellite_row_header.xml:56. Original value:L1CA    -->
+    <string name="l1ca">L1CA</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:194. Original value:From receiver    -->
+    <string name="button_read_from_receiver">Alıcıdan</string>
+    <!-- Used in file settings_general.xml:53. Original value:Epoch Rejected by MultiRTK    -->
+    <string name="epoch_rejected_multi_rtk">MultiRTK Epoch Reddedildi</string>
+    <!-- Used in file activity_rtk_setup.xml:237. Original value:Read CS from Receiver    -->
+    <string name="button_read_cs">CS Alıcıdan Okunsun</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:617. Original value:Sounds are on    -->
+    <string name="sounds_on">Sesler açık</string>
+    <!-- Used in file rtk_base.xml:81. Original value:Get From Catalog    -->
+    <string name="get_from_catalog">Katalog dan</string>
+    <!-- Used in file activity_stakeout.xml:329. Original value:Plus    -->
+    <string name="text_zoom_plus">Plus</string>
+    <!-- Used in file stakeout_settings.xml:178. Original value:Use CS from VRS    -->
+    <string name="string_use_cs_from_vrs">CS VRS den Kullan</string>
+    <!-- Used in file StatusBarUpdater.java:388. Original value:DGPS    -->
+    <string name="dgps">DGPS</string>
+    <!-- Used in file settings_general.xml:137. Original value:RTK Fix Ready    -->
+    <string name="fix_ready">RTK Fix Hazır</string>
+    <!-- Used in file satellites.xml:14. Original value:Satellites    -->
+    <string name="action_sat_types">Uydular</string>
+    <!-- Used in file satellite_row_header.xml:77. Original value:L2C    -->
+    <string name="l2c">L2C</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:166. Original value:Wrong number epochs in group!    -->
+    <string name="wrong_number_epochs_in_group">Wrong number epochs in group!</string>
+    <!-- Used in file offsets.xml:9. Original value:OffLine    -->
+    <string name="string_menu_offset_general">OfLine</string>
+    <!-- Used in file source_table_row_dark.xml:76. Original value:Distance    -->
+    <string name="distance">Mesafe</string>
+    <!-- Used in file rtk_base_uhf.xml:40. Original value:Simplex protocol settings    -->
+    <string name="simplex">Simplex protocol ayarları</string>
+    <!-- Used in file satellite_row_header.xml:63. Original value:L1P    -->
+    <string name="l1p">L1P</string>
+    <!-- Used in file compasslevels_settings.xml:20. Original value:Max.Corrected tilt angle    -->
+    <string name="maximum_corrected_tilt_angle">Max.Düzeltirlmi Eğim Açısı</string>
+    <!-- Used in file rtk_base_rcv_base.xml:138. Original value:Dialup Number    -->
+    <string name="gprs_dialup_number_summary">Dialup Numarası</string>
+    <!-- Used in file activity_surveying.xml:81. Original value:Antenna    -->
+    <string name="survey_antenna_id">Anten</string>
+    <!-- Used in file receiver_info.xml:3. Original value:Vendor    -->
+    <string name="vendor">Satıcı</string>
+    <!-- Used in file activity_map_stakeout.xml:193. Original value:ETT    -->
+    <string name="text_ett_map">ΔY</string>
+    <!-- Used in file SurveyModel.java:2561. Original value:Epochs: %1$d / %2$d (Rejected:%3$d)    -->
+    <string name="string_epochs_format">Epochs: %1$d / %2$d (Rejected:%3$d)</string>
+    <!-- Used in file rtk_base_uhf.xml:11. Original value:Base radio connected to    -->
+    <string name="base_connected_to_2">Sabit Radyo Bağlandı</string>
+    <!-- Used in file activity_configure_gprs.xml:65. Original value:Pin Code    -->
+    <string name="pin_code">Pin Kodu</string>
+    <!-- Used in file ConfigureRCVActivity.java:204. Original value:Setup\n3G    -->
+    <string name="setup_internet_3g">Kur\n3G</string>
+    <!-- Used in file activity_map_stakeout.xml:231. Original value:Course    -->
+    <string name="text_course_map">Course</string>
+    <!-- Used in file activity_configure_uhf.xml:447. Original value:TT450S(HW) params.    -->
+    <string name="tt450hsw_protocol_parameters">TT450S(HW) params.</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:662. Original value:IP    -->
+    <string name="lan_ip">IP</string>
+    <!-- Used in file map_survey.xml:10. Original value:Map Provider    -->
+    <string name="action_map_provider">Harita Sağlayıcı</string>
+    <!-- Used in file stakeout_settings.xml:88. Original value:Switch between antenna input    -->
+    <string name="antenna_type_summary">Anten girişleri arasında Geçiş</string>
+    <!-- Used in file rtk_base_csd.xml:8. Original value:Name    -->
+    <string name="csd_settings_name">İsim</string>
+    <!-- Used in file satellite_row_header.xml:70. Original value:L2P\nE5b\nB2    -->
+    <string name="l2p">L2P</string>
+    <!-- Used in file RTKBaseSettingsFragment.java:479. Original value:RTK Base    -->
+    <string name="rtk_base">RTK Sabit</string>
+    <!-- Used in file StatusBarUpdater.java:389. Original value:Float    -->
+    <string name="float2">Float</string>
+    <!-- Used in file activity_stakeout_line_target.xml:122. Original value:Station    -->
+    <string name="string_station">İstasyon</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:200. Original value:Wrong Tolerance!    -->
+    <string name="wrong_tolerance">Tecviz Hatası!</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:45. Original value:GSM DirectCall    -->
+    <string name="radio_gsm_radio">GSM DirectCall</string>
+    <!-- Used in file activity_stakeout.xml:298. Original value:H\n    -->
+    <string name="text_height">H\n</string>
+    <!-- Used in file activity_file_logging.xml:146. Original value:Hybrid RTK stores raw data for each point as a separate file to process then on DPOS if no RTK fix for given time    -->
+    <string name="hibrid_rtk_description">Hibrit RTK, her bir nokta için ham veriyi ayrı bir dosya olarak saklar; böylece verilen zaman için herhangi bir RTK düzeltmesi yoksa DPOS\'da işlem yapılır</string>
+    <!-- Used in file NtripClient.java:537. Original value:RCV client runs    -->
+    <string name="rcv_client_runs">RCV kullanıcı çalışıyor</string>
+    <!-- Used in file rtk_base_generic_radio.xml:15. Original value:Generic radio    -->
+    <string name="generic_radio">Generic radio</string>
+    <!-- Used in file RTKSetupActivity.java:1004. Original value:3G Mode:%1$s Sim:%2$s\nAPN:%3$s    -->
+    <string name="setup_internet_3g_format">3G Mod:%1$s Sim:%2$s\nAPN:%3$s</string>
+    <!-- Used in file activity_rtk_setup.xml:98. Original value:Reconfigure Receiver    -->
+    <string name="reconfigure_receiver">AlıcıyıYeniden Yapılandır</string>
+    <!-- Used in file settings_general.xml:81. Original value:Reject by PDOP    -->
+    <string name="epoch_rejected_pdop">Reject by PDOP</string>
+    <!-- Used in file receiver_info.xml:10. Original value:Boot Loader Version    -->
+    <string name="receiver_bootloader_version">Boot Loader Version</string>
+    <!-- Used in file rtk_base.xml:17. Original value:Station ID    -->
+    <string name="station_id">İstasyon Adı</string>
+    <!-- Used in file RTKBaseSettingsActivity.java:377. Original value:Switch to PlayMarket for J-Mobile    -->
+    <string name="string_load_jmt">Switch to PlayMarket for J-Mobile</string>
+    <!-- Used in file activity_stakeout_line_target.xml:89. Original value:dH    -->
+    <string name="string_slope">ΔH</string>
+    <!-- Used in file stakeout_settings.xml:187. Original value:Ref.Frame    -->
+    <string name="reference_frame">Ref.Frame</string>
+    <!-- Used in file activity_satellite_types.xml:32. Original value:Track    -->
+    <string name="string_track">Track</string>
+    <!-- Used in file StakeoutSettingsActivity.java:214. Original value:Wrong elevation mask!    -->
+    <string name="wrong_elevation_mask">Açıklık Açısı Yanlış!</string>
+    <!-- Used in file rtk_base_uhf.xml:128. Original value:Scrambling    -->
+    <string name="scrambling">Karıştırma</string>
+    <!-- Used in file rtk_base.xml:77. Original value:Read Coordinates From Receiver    -->
+    <string name="get_from_receiver_summary">Koordinatları Alıcıdan Oku</string>
+    <!-- Used in file activity_stakeout.xml:107. Original value:Across    -->
+    <string name="text_across">Across</string>
+    <!-- Used in file settings_general.xml:6. Original value:Enable Sounds    -->
+    <string name="turn_on_sounds">Sesleri Kullan</string>
+    <!-- Used in file job_info.xml:7. Original value:Save Log    -->
+    <string name="save_log">Log Sakla</string>
+    <!-- Used in file rtk_rover_start.xml:6. Original value:Connected To    -->
+    <string name="survey_connected_to">Bağlandı</string>
+    <!-- Used in file rtk_base_uhf.xml:174. Original value:Channel Spacing    -->
+    <string name="channel_spacing">Kanal Aralığı</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Ayarlar</string>
+    <!-- Used in file jmt_info.xml:5. Original value:Application    -->
+    <string name="jmt_name">Uygulama</string>
+    <!-- Used in file rtk_base_rcv_base.xml:66. Original value:TCPO Mode    -->
+    <string name="tcpo_on">TCPO Modu</string>
+    <!-- Used in file activity_surveying_sng.xml:280. Original value:Trajectory    -->
+    <string name="button_trajectory">Trajectory</string>
+    <!-- Used in file stakeout_settings.xml:206. Original value:Correct by Tilt    -->
+    <string name="correct_by_compass_and_levels">Düzece Göre Ayarla</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:307. Original value:Dist 3D\n    -->
+    <string name="text_dist_3d">Mesf 3D\n</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:206. Original value:%1$d epochs in %2$d groups with %3$s    -->
+    <string name="verify_description">%1$d epochs in %2$d groups with %3$s</string>
+    <!-- Used in file rtk_rover_start.xml:3. Original value:Job Name    -->
+    <string name="survey_job_name2">İş Adı</string>
+    <!-- Used in file settings_general.xml:60. Original value:Epoch Rejected by Tilt    -->
+    <string name="epoch_rejected_tilt">Epoch Reddedildi by Tilt</string>
+    <!-- Used in file duo_attitude.xml:3. Original value:HD Mode    -->
+    <string name="duo_hd_mode">HD Mode</string>
+    <!-- Used in file descriptions.xml:6. Original value:Del    -->
+    <string name="action_delete">Sil</string>
+    <!-- Used in file verify_settings.xml:28. Original value:Number Epochs in group    -->
+    <string name="verify_number_epochs_in_group">Number Epochs in group</string>
+    <!-- Used in file activity_stakeout_line_target.xml:197. Original value:Interval    -->
+    <string name="string_interval">Aralık</string>
+    <!-- Used in file rtk_base_rcv_base.xml:142. Original value:APN    -->
+    <string name="gprs_apn">APN</string>
+    <!-- Used in file MapStakeoutActivity.java:1236. Original value:Right    -->
+    <string name="text_right">Sağ</string>
+    <!-- Used in file offset_survey.xml:34. Original value:Survey P1    -->
+    <string name="button_survey_p1">P1 Ölçüm</string>
+    <!-- Used in file rtk_base.xml:129. Original value:Connected To    -->
+    <string name="connected_to_2">Bağlandı</string>
+    <!-- Used in file activity_calibrate.xml:120. Original value:Start\nLevels\nCalibration    -->
+    <string name="start_levels_calibration">Düzeç\nKalibrasyon\nBaşlat</string>
+    <!-- Used in file offset_survey.xml:51. Original value:Survey P2    -->
+    <string name="button_survey_p2">P2 Ölçüm</string>
+    <!-- Used in file SurveyingRTKActivity.java:969. Original value:Traj.Name    -->
+    <string name="trajectory_name">Traj.Adı</string>
+    <!-- Used in file receiver_info.xml:16. Original value:Time Since Last Reboot    -->
+    <string name="receiver_time_since_reboot">Son Reboot Zamanı</string>
+    <!-- Used in file quattro_info.xml:9. Original value:Angle Determinatioin    -->
+    <string name="quattro_angle_determination">Angle Determinatioin</string>
+    <!-- Used in file rtk_base_rcv_base.xml:31. Original value:TCP Port    -->
+    <string name="tcp_port">TCP Port</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:177. Original value:Wrong tolerance in group!    -->
+    <string name="wrong_tolerance_in_group">Tecviz grubu yanlış!</string>
+    <!-- Used in file rtk_rover_start.xml:7. Original value:Radio Settings    -->
+    <string name="survey_radio_settings">Radyo Ayarları</string>
+    <!-- Used in file activity_configure_uhf.xml:544. Original value:Trimtalk 3 params.    -->
+    <string name="trimmark3_protocol_parameters">Trimtalk 3 params.</string>
+    <!-- Used in file jmt_info.xml:9. Original value:Controller    -->
+    <string name="jmt_controller">Kont.Ünitesi</string>
+    <!-- Used in file SurveyModel.java:580. Original value:Can\'t program auto-close file!    -->
+    <string name="cant_program_session">Dosya Oto Kapat  programlayamazsınız!</string>
+    <!-- Used in file CalibrationActivity.java:657. Original value:Compass calibration is required!    -->
+    <string name="compass_status_error">Pusula Kalibrasyonu Gerekli!</string>
+    <!-- Used in file SurveyingRTKActivity.java:800. Original value:ReSurvey    -->
+    <string name="resurvey">Tekrar Ölçüm</string>
+    <!-- Used in file receiver_info.xml:17. Original value:Last CleanNVRAM Time    -->
+    <string name="receiver_time_clean_nvram">Last CleanNVRAM Time</string>
+    <!-- Used in file activity_rtk_setup.xml:167. Original value:Internet Settings    -->
+    <string name="button_configure_internet">Internet Ayarları</string>
+    <!-- Used in file receiver_info.xml:9. Original value:Firmware Version    -->
+    <string name="receiver_firmware_version">Firmware Version</string>
+    <!-- Used in file stakeout_settings.xml:114. Original value:Vertical Offset    -->
+    <string name="antenna_vertical_offset">Düşey Ofset</string>
+    <!-- Used in file stakeout_settings.xml:89. Original value:Antenna Type    -->
+    <string name="antenna_type">Anten Tipi</string>
+    <!-- Used in file surveying_rtk.xml:15. Original value:Points    -->
+    <string name="action_list">Noktalar</string>
+    <!-- Used in file map_survey.xml:37. Original value:Black    -->
+    <string name="color_black">Black</string>
+    <!-- Used in file activity_survey_styles.xml:41. Original value:Duplicate    -->
+    <string name="string_duplicate">Duplicate</string>
+    <!-- Used in file rtk_rover_start.xml:15. Original value:Start Station    -->
+    <string name="survey_start_station2">İstasyon Başlat</string>
+    <!-- Used in file job_info.xml:10. Original value:Data Path    -->
+    <string name="job_data_path">Data Path</string>
+    <!-- Used in file map_stakeout.xml:30. Original value:Next    -->
+    <string name="string_next_target">ileri</string>
+    <!-- Used in file satellite_row_header.xml:42. Original value:Elevation    -->
+    <string name="elevation">Yüks</string>
+    <!-- Used in file activity_surveying_rtk.xml:38. Original value:&#x25BC;    -->
+    <string name="button_menu">⬇</string>
+    <!-- Used in file spoofing_row.xml:84. Original value:Noise    -->
+    <string name="string_noise">Noise</string>
+    <!-- Used in file activity_configure_fh.xml:114. Original value:Output Power    -->
+    <string name="output_power_w">Çıkış Gücü</string>
+    <!-- Used in file activity_surveying_rtk.xml:66. Original value:Site Name    -->
+    <string name="site_name">Nokta No</string>
+    <!-- Used in file StakeoutActivity.java:755. Original value:Line Target    -->
+    <string name="target_line_small">Hedef Hat</string>
+    <!-- Used in file activity_configure_uhf.xml:288. Original value:Satel protocol settings    -->
+    <string name="satel_protocol_parameters">Satel protocol ayarları</string>
+    <!-- Used in file stakeout_settings.xml:62. Original value:Trajectory Length Filter    -->
+    <string name="trajector_length_filter_summary">Trajectory Uzunluk Filtresi</string>
+    <!-- Used in file SurveyingActivity.java:119. Original value:Remain     -->
+    <string name="remain">Kalan</string>
+    <!-- Used in file activity_power.xml:154. Original value:Enable Power Output    -->
+    <string name="enable_power_output">Güç Çıkışı Etkinleştir</string>
+    <!-- Used in file RTKBaseSettingsFragment.java:237. Original value:Download    -->
+    <string name="download">Download</string>
+    <!-- Used in file quattro_attitude.xml:36. Original value:Use Constraints    -->
+    <string name="quattro_use_constraints">Use Constraints</string>
+    <!-- Used in file activity_configure_fh.xml:125. Original value:Freq.Rule    -->
+    <string name="f_rule">Freq.Rule</string>
+    <!-- Used in file activity_configure_uhf.xml:594. Original value:Use Repeater    -->
+    <string name="repeater">Repeater Kullan</string>
+    <!-- Used in file SurveyModel.java:1552. Original value:Survey already stopped!    -->
+    <string name="error_survey_already_stopped">Ölçüm Tamamlandı!</string>
+    <!-- Used in file stakeout_settings.xml:214. Original value:Calibrate    -->
+    <string name="calibrate">Kalibrasyon</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:652. Original value:Set LAN    -->
+    <string name="lan_on">Set LAN</string>
+    <!-- Used in file SurveyingSnGActivity.java:162. Original value:RTK    -->
+    <string name="rtk">RTK</string>
+    <!-- Used in file source_table_row_dark.xml:36. Original value:Messages    -->
+    <string name="format_messages">Mesaj</string>
+    <!-- Used in file activity_satellite_types.xml:176. Original value:SBAS    -->
+    <string name="check_sbas">SBAS</string>
+    <!-- Used in file stakeout_settings.xml:152. Original value:ADVANCED    -->
+    <string name="title_advanced">GELİŞMİŞ</string>
+    <!-- Used in file spoofing_row_header.xml:56. Original value:Range 2    -->
+    <string name="string_range2">Sınır 2</string>
+    <!-- Used in file spoofing_row_header.xml:35. Original value:Range 1    -->
+    <string name="string_range1">Sınır 1</string>
+    <!-- Used in file settings_general.xml:123. Original value:Point store error    -->
+    <string name="survey_point_stored_error">Nokta Saklama Hatası</string>
+    <!-- Used in file verify_settings.xml:5. Original value:Verify Mode    -->
+    <string name="string_verify_mode">Mod Doğrula</string>
+    <!-- Used in file stakeout_settings.xml:200. Original value:Compass and Levels    -->
+    <string name="compass_and_levels">Pusula ve Düzeç</string>
+    <!-- Used in file activity_calibrate.xml:117. Original value:Levels are calibrated OK    -->
+    <string name="levels_status">Düzeç Kalibrasyonu OK</string>
+    <!-- Used in file map_survey.xml:34. Original value:Modelspace Color    -->
+    <string name="action_back_color">Modelspace Color</string>
+    <!-- Used in file quattro_info.xml:17. Original value:Baseline AC    -->
+    <string name="quattro_baseline2">Baseline AC</string>
+    <!-- Used in file quattro_info.xml:24. Original value:Baseline AD    -->
+    <string name="quattro_baseline3">Baseline AD</string>
+    <!-- Used in file map_stakeout.xml:15. Original value:List    -->
+    <string name="string_list_menu">List</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:667. Original value:Mask    -->
+    <string name="lan_mask">Mask</string>
+    <!-- Used in file quattro_info.xml:11. Original value:Baseline AB    -->
+    <string name="quattro_baseline1">Baseline AB</string>
+    <!-- Used in file AndroidManifest.xml:13. Original value:Javad Survey    -->
+    <string name="app_name">Javad Ölçüm</string>
+    <!-- Used in file activity_map_stakeout.xml:174. Original value:NTT    -->
+    <string name="text_ntt_map">ΔX</string>
+    <!-- Used in file stakeout_settings.xml:47. Original value:Accept VRMS    -->
+    <string name="accept_vrms">Accept VRMS</string>
+    <!-- Used in file RTKBaseSettingsActivity.java:375. Original value:JAVAD J-Mobile-R works only with athorized GNSS Receivers!    -->
+    <string name="jmtr_oaf_title">JAVAD J-Mobile-R works only with athorized GNSS Receivers!</string>
+    <!-- Used in file rtk_base_uhf.xml:62. Original value:Transparent protocol settings    -->
+    <string name="transparent">Transparent protokol ayarları</string>
+    <!-- Used in file stakeout_settings.xml:224. Original value:Sounds    -->
+    <string name="sounds">Sesler</string>
+    <!-- Used in file rtk_base_uhf.xml:30. Original value:Protocol    -->
+    <string name="protocol">Protokol</string>
+    <!-- Used in file status_bar.xml:106. Original value:00+00    -->
+    <string name="number_of_sats">00+00</string>
+    <!-- Used in file verify_settings.xml:27. Original value:Number Epochs in each group    -->
+    <string name="verify_number_epochs_in_group_summary">Her grupta Epoch Sayıları</string>
+    <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:139. Original value:Wrong maximum corrected tilt angle!    -->
+    <string name="wrong_maximum_corrected_tilt_angle">Wrong maximum corrected tilt angle!</string>
+    <!-- Used in file MapStakeoutActivity.java:1234. Original value:Back    -->
+    <string name="text_backward">Geri</string>
+    <!-- Used in file survey_button.xml:11. Original value:Confirm Point    -->
+    <string name="menu_confirm">Nokta Onayı</string>
+    <!-- Used in file SurveyingActivity.java:57. Original value:Trajectory    -->
+    <string name="trajectory">Trajectory</string>
+    <!-- Used in file source_table_row_dark.xml:132. Original value:Authentication    -->
+    <string name="authentication">Doğrulama</string>
+    <!-- Used in file activity_stakeout.xml:345. Original value:Minus    -->
+    <string name="text_zoom_minus">Minus</string>
+    <!-- Used in file SurveyModel.java:2570. Original value:rejected    -->
+    <string name="epochs_rejected">Reddedildi</string>
+    <!-- Used in file activity_confirm_point_survey.xml:171. Original value:Antenna Hgt.    -->
+    <string name="text_point_antenna_height">AntenYüks.</string>
+    <!-- Used in file activity_satellite_types.xml:56. Original value:GPS    -->
+    <string name="check_gps">GPS</string>
+    <!-- Used in file CalibrationActivity.java:223. Original value:L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
+    <string name="start_levels_calibration_land_small">L\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
+    <!-- Used in file rtk_base_uhf.xml:36. Original value:Use Repeater    -->
+    <string name="use_repeater">Kullanıcı Repeater</string>
+    <!-- Used in file activity_survey_style.xml:22. Original value:Select    -->
+    <string name="string_select">Select</string>
+    <!-- Used in file rtk_base_uhf.xml:5. Original value:Settings Name    -->
+    <string name="settings_name">Ayarların İsmi</string>
+    <!-- Used in file rtk_base_uhf.xml:196. Original value:INFO    -->
+    <string name="info">BILGI</string>
+    <!-- Used in file survey_button.xml:19. Original value:Close    -->
+    <string name="menu_close">Kapat</string>
+    <!-- Used in file settings_general.xml:25. Original value:Connection    -->
+    <string name="connecttion">Bağlantı</string>
+    <!-- Used in file SurveyingRTKActivity.java:1137. Original value:Error of taking photo!    -->
+    <string name="error_take_photo">Error of taking photo!</string>
+    <!-- Used in file rtk_base_csd.xml:7. Original value:Name    -->
+    <string name="csd_settings_name_summary">İsim</string>
+    <!-- Used in file rtk_base_rcv_base.xml:153. Original value:Password    -->
+    <string name="gprs_password_summary">Şifre</string>
+    <!-- Used in file rtk_base_csd.xml:11. Original value:Phone    -->
+    <string name="csd_phone">Telefon</string>
+    <!-- Used in file verify_settings.xml:35. Original value:Tolerance in group    -->
+    <string name="verify_tolerance_in_group_summary">Gruptaki Tecviz</string>
+    <!-- Used in file settings_general.xml:46. Original value:Epoch Rejected by Solution Type    -->
+    <string name="epoch_rejected_solution_type">Reddedildi by Solution Type</string>
+    <!-- Used in file SurveyModel.java:1342. Original value:hours    -->
+    <string name="hours">saat</string>
+    <!-- Used in file rtk_base_rcv_base.xml:115. Original value:NetHub Login    -->
+    <string name="nethub_login">NetHub Login</string>
+    <!-- Used in file activity_configure_gprs.xml:101. Original value:Dialup Number    -->
+    <string name="dialup_number">Cevirme Numarası</string>
+    <!-- Used in file spoofing_row_header.xml:21. Original value:SAT    -->
+    <string name="string_satsys">UYDU</string>
+    <!-- Used in file rtk_base_uhf.xml:111. Original value:Trimtalk 450S    -->
+    <string name="trimtalk450s">Trimtalk 450S</string>
+    <!-- Used in file SurveyingRTKActivity.java:1145. Original value:Error of saving photo!    -->
+    <string name="error_save_photo">Error of saving photo!</string>
+    <!-- Used in file SurveyingRTKActivity.java:2000. Original value:Object name already exists in the job!    -->
+    <string name="site_name_already_exist">İşin içinde nesne adı zaten var!</string>
+    <!-- Used in file MapStakeoutActivity.java:1250. Original value:Fill    -->
+    <string name="text_fill">Dolgu</string>
+    <!-- Used in file rtk_base.xml:122. Original value:Radio Setup    -->
+    <string name="radio_setup">Radyo Ayarları</string>
+    <!-- Used in file rtk_base_rcv.xml:25. Original value:Port    -->
+    <string name="port">Port</string>
+    <!-- Used in file SurveyingRTKActivity.java:2711. Original value:Select Antenna    -->
+    <string name="select_antenna">Select Antenna</string>
+    <!-- Used in file activity_configure_ntrip.xml:105. Original value:Mount Point    -->
+    <string name="mount_point">Mount Point</string>
+    <!-- Used in file VerifySettingsPreferenceFragment.java:189. Original value:Wrong number of groups    -->
+    <string name="wrong_number_of_groups">Yanlış Grup Numarası</string>
+    <!-- Used in file activity_configure_fh.xml:94. Original value:USA zone parameters    -->
+    <string name="usa_zone_parameters">USA zone parametreleri</string>
+    <!-- Used in file settings_general.xml:109. Original value:Survey Completed    -->
+    <string name="survey_complete">Ölçüm Tamamlandı</string>
+    <!-- Used in file stakeout_settings.xml:76. Original value:Confirm Point    -->
+    <string name="confirm_point_survey">Nokta Onayı</string>
+    <!-- Used in file settings_general.xml:130. Original value:Hybrid RTK Saved    -->
+    <string name="survey_point_stored_hybrid_rtk">Hybrid RTK Saklandı</string>
+    <!-- Used in file activity_calibrate.xml:45. Original value:Start\nCompass\nCalibration    -->
+    <string name="start_compass_calibration">Pusula\nKalibrasyon\nBaşlat</string>
+    <!-- Used in file stakeout_settings.xml:97. Original value:Antenna Height    -->
+    <string name="base_antenna_height">Anten Yüks.</string>
+    <!-- Used in file MapStakeoutActivity.java:1234. Original value:Fwrd    -->
+    <string name="text_forward">İleri</string>
+    <!-- Used in file job_info.xml:5. Original value:Surveyed Points    -->
+    <string name="job_surveypoints">Ölçülen Noktalar</string>
+    <!-- Used in file RTKBaseSettingsFragment.java:2565. Original value:Wrong antenna id!    -->
+    <string name="string_wrong_antenna_id">Wrong antenna id!</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:79. Original value:HRMS\n    -->
+    <string name="text_hrms">HRMS\n</string>
+    <!-- Used in file SurveyStyleInformationActivity.java:140. Original value:Fixed Only    -->
+    <string name="string_fixed_only_xml">Fixed Only</string>
+    <!-- Used in file stakeout_settings.xml:103. Original value:Height Type    -->
+    <string name="antenna_height_type_2">Yüks.Tipi</string>
+    <!-- Used in file activity_confirm_point_survey.xml:99. Original value:VRMS\n    -->
+    <string name="text_vrms">VRMS\n</string>
+    <!-- Used in file activity_calibrate.xml:51. Original value:Compass is calibrated OK    -->
+    <string name="compass_status">Pusula Kalibrasyonu OK</string>
+    <!-- Used in file rtk_base.xml:76. Original value:Get From Receiver    -->
+    <string name="get_from_receiver">Alıcıdan Getir</string>
+    <!-- Used in file status_bar.xml:119. Original value:LQ    -->
+    <string name="link_quality">LQ</string>
+    <!-- Used in file offset_survey.xml:113. Original value:Store Offset    -->
+    <string name="button_store_offset">Ofset Sakla</string>
+    <!-- Used in file status_bar.xml:47. Original value:radio    -->
+    <string name="radio">radyo</string>
+    <!-- Used in file StartSurveyActivity.java:401. Original value:Receiver is not connected!    -->
+    <string name="receiver_is_not_connected">Alıcı Bağlı Değil!</string>
+    <!-- Used in file map_survey.xml:29. Original value:Show Clusters    -->
+    <string name="action_show_clusters">Kümeleri Göster</string>
+    <!-- Used in file rtk_rover_start.xml:10. Original value:Enable Recording    -->
+    <string name="survey_enable_recording">Kaydı Etkinleştir</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:137. Original value:Mask    -->
+    <string name="mask">Mask</string>
+    <!-- Used in file rtk_base_fh.xml:27. Original value:Frequency Rule    -->
+    <string name="frequency_rule">Frekans Kural</string>
+    <!-- Used in file stakeout_settings.xml:203. Original value:Show Compass/Levels    -->
+    <string name="show_compass_and_levels">Pusula/Düzeç Göster</string>
+    <!-- Used in file activity_satellite_types.xml:80. Original value:GLONASS    -->
+    <string name="check_glo">GLONASS</string>
+    <!-- Used in file status_bar.xml:27. Original value:pdop    -->
+    <string name="pdop">pdop</string>
+    <!-- Used in file rtk_base_rcv_base.xml:152. Original value:Password    -->
+    <string name="gprs_password">Şifre</string>
+    <!-- Used in file source_table_row_dark.xml:92. Original value:Longitude    -->
+    <string name="longitude">Boylam</string>
+    <!-- Used in file activity_configure_fh.xml:161. Original value:Simplex Protocol Parameters    -->
+    <string name="simplex_protocol_parameters">Simplex Protokol Ayarları</string>
+    <!-- Used in file job_info.xml:13. Original value:Arhieve memory    -->
+    <string name="job_sd_memory">Arşiv Hafızası</string>
+    <!-- Used in file settings_general.xml:151. Original value:Lift&amp;Tilt Starting    -->
+    <string name="lift_and_tilt_starting">Lift &amp; Tilt Başlıyor</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:209. Original value:Deltas\n    -->
+    <string name="string_deltas">Deltalar\n</string>
+    <!-- Used in file satellite_row_header.xml:98. Original value:Status    -->
+    <string name="status">Durum</string>
+    <!-- Used in file stakeout_settings.xml:172. Original value:Detect Base movement during survey    -->
+    <string name="string_detect_base_move">Ölçümde Sabit Hareketini Algıla</string>
+    <!-- Used in file rtk_base_uhf.xml:84. Original value:Satel protocol settings    -->
+    <string name="satel">Satel protokol Ayarları</string>
+    <!-- Used in file source_table_row_dark.xml:28. Original value:Format    -->
+    <string name="format">Format</string>
+    <!-- Used in file activity_confirm_point_survey.xml:117. Original value:Epochs    -->
+    <string name="text_point_epochs">Epochs</string>
+    <!-- Used in file activity_satellite_types.xml:24. Original value:Use    -->
+    <string name="string_use_sats">Kullanıcı</string>
+    <!-- Used in file stakeout_settings.xml:158. Original value:Multi RTK    -->
+    <string name="string_multirtk">Multi RTK</string>
+    <!-- Used in file SurveyingRTKActivity.java:1998. Original value:Site name is empty!    -->
+    <string name="site_name_is_empty">Nokta Adı Boş!</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:705. Original value:Wrong Trajectory Length Filter!    -->
+    <string name="wrong_trajectory_length_filter">Yanlış Trajectory Filtre Uzunluğu</string>
+    <!-- Used in file rtk_base_uhf.xml:7. Original value:Name of This Setting    -->
+    <string name="settings_name_summary">Bu Ayarların Adı</string>
+    <!-- Used in file rtk_rover_start.xml:12. Original value:Record Rate    -->
+    <string name="survey_record_rate">Kayıt Hızı</string>
+    <!-- Used in file activity_confirm_point_survey.xml:135. Original value:Occ.Time    -->
+    <string name="text_point_time">Otr.Süresi</string>
+    <!-- Used in file activity_surveying_rtk.xml:30. Original value:Static    -->
+    <string name="button_static">Statik</string>
+    <!-- Used in file quattro_info.xml:8. Original value:RMS Roll    -->
+    <string name="quattro_rms_roll">RMS Roll</string>
+    <!-- Used in file settings_general.xml:67. Original value:Reject by HRMS    -->
+    <string name="epoch_rejected_hrms">Reject by HRMS</string>
+    <!-- Used in file receiver_info.xml:11. Original value:Size Of RAM    -->
+    <string name="receiver_sizeof_ram">RAM Boyutu</string>
+    <!-- Used in file activity_stakeout.xml:258. Original value:N\n    -->
+    <string name="text_north">X\n</string>
+    <!-- Used in file activity_stakeout.xml:271. Original value:\t    -->
+    <string name="text_empty">\t</string>
+    <!-- Used in file rtk_base_rcv_base.xml:70. Original value:TCPO Port    -->
+    <string name="tcpo_port">TCPO Port</string>
+    <!-- Used in file receiver_info.xml:23. Original value:Antenna Input    -->
+    <string name="receiver_antenna_curinp">Antenna Input</string>
+    <!-- Used in file StakeoutSettingsActivity.java:218. Original value:Can\'t setup elevation mask!    -->
+    <string name="cant_setup_elevation_mask">Açıklık Açısı Ayarlayamazsınız!</string>
+    <!-- Used in file activity_stakeout.xml:172. Original value:NTT    -->
+    <string name="text_ntt">ΔX</string>
+    <!-- Used in file stakeout_settings.xml:128. Original value:File Name    -->
+    <string name="file_name">Dosya Adı</string>
+    <!-- Used in file rtk_base.xml:110. Original value:File Manager    -->
+    <string name="receiver_files">Dosya Yönetici</string>
+    <!-- Used in file StakeoutActivity.java:505. Original value:Averaging\n\n    -->
+    <string name="text_averaging_small">Averaging\n\n</string>
+    <!-- Used in file SurveyingRTKActivity.java:1812. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey">Lift &amp; Tilt Ölçüm</string>
+    <!-- Used in file rtk_base.xml:148. Original value:Start Station    -->
+    <string name="start_station2">İstasyon Başlat</string>
+    <!-- Used in file quattro_info.xml:5. Original value:Roll    -->
+    <string name="quattro_roll">Roll</string>
+    <!-- Used in file receiver_info.xml:7. Original value:Mainboard    -->
+    <string name="receiver_mainboard">AnaKart</string>
+    <!-- Used in file stakeout_settings.xml:66. Original value:Surveying    -->
+    <string name="string_survey_settings">Ölçüm</string>
+    <!-- Used in file SurveyModel.java:1346. Original value:mins    -->
+    <string name="minutes">Dak</string>
+    <!-- Used in file rtk_base_uhf.xml:15. Original value:UHF    -->
+    <string name="uhf">UHF</string>
+    <!-- Used in file StakeoutSettingsActivity.java:131. Original value:calibration required    -->
+    <string name="calibration_required">Kalibrasyon gerekli</string>
+    <!-- Used in file activity_calibrate.xml:88. Original value:Use Levels    -->
+    <string name="use_levels">Düzeç Kullan</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:357. Original value:ReSurvey    -->
+    <string name="button_resurvey">TekrarÖlç</string>
+    <!-- Used in file source_table_row_dark.xml:156. Original value:Misc.    -->
+    <string name="misc">Misc.</string>
+    <!-- Used in file rtk_base.xml:62. Original value:BASE POSITION    -->
+    <string name="base_positionup">SABİTİN KONUMU</string>
+    <!-- Used in file offsets.xml:19. Original value:Intersection    -->
+    <string name="string_menu_offset_intersection">Kesişim</string>
+    <!-- Used in file rtk_base_rcv.xml:21. Original value:IP Address    -->
+    <string name="address">IP Adres</string>
+    <!-- Used in file activity_confirm_point_survey.xml:46. Original value:Description    -->
+    <string name="text_point_description">Açıklama</string>
+    <!-- Used in file stakeout_settings.xml:120. Original value:Height Unit    -->
+    <string name="antenna_height_unit">Yüks.Birimi</string>
+    <!-- Used in file stakeout_settings.xml:96. Original value:This allows you to enter a string    -->
+    <string name="antenna_height_summary">Bu, bir dize girmenizi sağlar</string>
+    <!-- Used in file source_table_row_dark.xml:52. Original value:Nav.System    -->
+    <string name="nav_system">Nav.Sistemi</string>
+    <!-- Used in file RTKBaseSettingsFragment.java:816. Original value:Error with antenna height!    -->
+    <string name="error_with_antenna_height">Error with antenna height!</string>
+    <!-- Used in file rtk_base_uhf.xml:210. Original value:Check and save settings    -->
+    <string name="check_and_save_settings_summary">Ayarları Kontrol et ve Sakla</string>
+    <!-- Used in file map_survey.xml:38. Original value:Gray    -->
+    <string name="color_gray">Gray</string>
+    <!-- Used in file activity_rtk_setup.xml:51. Original value:Start    -->
+    <string name="button_start">Başlat</string>
+    <!-- Used in file activity_surveying_rtk.xml:197. Original value:epochs collected    -->
+    <string name="epochs_collected">epoch lar Toplandı</string>
+    <!-- Used in file stakeout_settings.xml:63. Original value:Traj.Min.Length    -->
+    <string name="trajector_length_filter">Min.Traj.Uzunluğu</string>
+    <!-- Used in file compasslevels_settings.xml:12. Original value:Reject epochs with tilt more than    -->
+    <string name="reject_epochs_by_tilt">Reject epochs with tilt more than</string>
+    <!-- Used in file spoofing_row_header.xml:63. Original value:Doppl 2    -->
+    <string name="string_doppl2">Doppl 2</string>
+    <!-- Used in file spoofing_row_header.xml:42. Original value:Doppl 1    -->
+    <string name="string_doppl1">Doppl 1</string>
+    <!-- Used in file rtk_base_fh.xml:17. Original value:FH    -->
+    <string name="fh">FH</string>
+    <!-- Used in file activity_map_stakeout.xml:29. Original value:X    -->
+    <string name="text_x_map">X</string>
+    <!-- Used in file stakeout_settings.xml:5. Original value:Current Style    -->
+    <string name="current_style">Current Style</string>
+    <!-- Used in file offsets2.xml:5. Original value:Points    -->
+    <string name="string_menu_offset_point">Noktalar</string>
+    <!-- Used in file stakeout_settings.xml:145. Original value:Activate Post-Processing after    -->
+    <string name="save_post_processing_after">Post-Processing Sonrası Aktifleştir</string>
+    <!-- Used in file job_info.xml:12. Original value:Archieve path    -->
+    <string name="job_archieve">Arsiy yolu</string>
+    <!-- Used in file satellite_row_header.xml:21. Original value:Ant    -->
+    <string name="antenna_short">Ant</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:836. Original value:Wrong slant height!    -->
+    <string name="wrong_slant_height">Yanlış Eğik Yüks.!</string>
+    <!-- Used in file stakeout_settings.xml:10. Original value:Navigation    -->
+    <string name="string_stakeout_settings">Navigasyon</string>
+    <!-- Used in file rtk_base_rcv_base.xml:147. Original value:User    -->
+    <string name="gprs_user">Kullanıcı</string>
+    <!-- Used in file SurveyModel.java:1592. Original value:No data collected!    -->
+    <string name="error_no_data_collected">Data Toplanamadı</string>
+    <!-- Used in file activity_rtk_setup.xml:136. Original value:Radio is connected to    -->
+    <string name="connected_to">Radyo Bağlandı</string>
+    <!-- Used in file stakeout_settings.xml:119. Original value:Switch between antenna input    -->
+    <string name="antenna_height_unit_summary">Anten girişler arası geçişyap</string>
+    <!-- Used in file activity_map_stakeout.xml:155. Original value:CTT    -->
+    <string name="text_ctt_map">Δa</string>
+    <!-- Used in file SourceTableActivity.java:537. Original value:Country    -->
+    <string name="string_country_sort">Ülke</string>
+    <!-- Used in file settings_general.xml:39. Original value:Epoch Accepted    -->
+    <string name="epoch_accepted">Epoch Uygulandı</string>
+    <!-- Used in file verify_settings.xml:8. Original value:Verify settings    -->
+    <string name="string_verify_settings">Doğrulama Ayarları</string>
+    <!-- Used in file activity_rtk_setup.xml:117. Original value:Correction Source    -->
+    <string name="correction_source">Düzeltme Kaynağı</string>
+    <!-- Used in file activity_confirm_point_survey.xml:240. Original value:Base    -->
+    <string name="text_base">Sabit</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:15. Original value:New Correction Source    -->
+    <string name="string_correction_source_xml">New Correction Source</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:617. Original value:Sounds are off    -->
+    <string name="sounds_off">Sesler Kapalı</string>
+    <!-- Used in file rtk_base_uhf.xml:22. Original value:Call Sign    -->
+    <string name="call_sign">Çağrı İşareti</string>
+    <!-- Used in file rtk_base_uhf.xml:208. Original value:Check Settings    -->
+    <string name="check_settings">Ayarları KontrolEt</string>
+    <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
+    <string name="level_offsets">Ofsetler</string>
+    <!-- Used in file activity_stakeout.xml:29. Original value:Point\nTarget    -->
+    <string name="target_point">Hedef\nNokta</string>
+    <!-- Used in file status_bar.xml:67. Original value:battery    -->
+    <string name="battery">Batarya</string>
+    <!-- Used in file activity_stakeout.xml:129. Original value:DTT    -->
+    <string name="text_dtt">Δs</string>
+    <!-- Used in file activity_configure_uhf.xml:377. Original value:Trimtalk 450S params.    -->
+    <string name="trimtalk450s_protocol_parameters">Trimtalk 450S params.</string>
+    <!-- Used in file rtk_base_csd.xml:28. Original value:SIM Card    -->
+    <string name="csd_sim">SIM Kart</string>
+    <!-- Used in file rtk_base_rcv.xml:30. Original value:RAW Mode    -->
+    <string name="raw_mode">RAW Modu</string>
+    <!-- Used in file activity_configure_fh.xml:64. Original value:Rover radio connected to    -->
+    <string name="rover_connected_to_2">Gezici Radyo Bağlı</string>
+    <!-- Used in file jmt_info.xml:10. Original value:Android    -->
+    <string name="jmt_android">Android</string>
+    <!-- Used in file stakeout_settings.xml:113. Original value:Antenna Vertical Offset    -->
+    <string name="antenna_vertical_offset_summary">Anten Düşey Ofset</string>
+    <!-- Used in file rtk_base_uhf.xml:98. Original value:Compatibility    -->
+    <string name="text_compatibility">Uygunluk</string>
+    <!-- Used in file settings_general.xml:116. Original value:Point stored OK    -->
+    <string name="survey_point_stored_ok">Nokta Saklandı OK</string>
+    <!-- Used in file activity_surveying_settings.xml:260. Original value:Correct Inclination    -->
+    <string name="correct_inclination">Eğim Doğru</string>
+    <!-- Used in file offsets.xml:14. Original value:Along Line    -->
+    <string name="string_menu_offset_along_line">Hat Boyunca</string>
+    <!-- Used in file ConfigureRCVActivity.java:202. Original value:Setup\nWiFi    -->
+    <string name="setup_internet_wifi">Kurulum\nWiFi</string>
+    <!-- Used in file settings_general.xml:102. Original value:Stakeout Epoch Rejected    -->
+    <string name="stakeout_epoch_rejected">Reddedilen Aplikasyon Epoch</string>
+    <!-- Used in file offsets.xml:29. Original value:Perpendicular    -->
+    <string name="string_menu_offset_perpendicular">Dik</string>
+    <!-- Used in file receiver_info.xml:20. Original value:LAN IP    -->
+    <string name="receiver_lan_ip">LAN IP</string>
+    <!-- Used in file source_table_row_dark.xml:100. Original value:GGA    -->
+    <string name="gga">GGA</string>
+    <!-- Used in file settings_general.xml:74. Original value:Reject by VRMS    -->
+    <string name="epoch_rejected_vrms">Reject by VRMS</string>
+    <!-- Used in file rtk_base_csd.xml:24. Original value:Rate    -->
+    <string name="csd_acbst_rate">Rate</string>
+    <!-- Used in file stakeout_settings.xml:138. Original value:Elevation Mask    -->
+    <string name="elevation_mask">Açıklık Açısı</string>
+    <!-- Used in file quattro_info.xml:4. Original value:Pitch    -->
+    <string name="quattro_pitch">Pitch</string>
+    <!-- Used in file stakeout_settings.xml:68. Original value:Occupation Time    -->
+    <string name="occupation_time">Oturum(Ölçüm)Süresi</string>
+    <!-- Used in file activity_configure_ntrip.xml:130. Original value:Source Table    -->
+    <string name="source_table">Kaynak Tablo</string>
+    <!-- Used in file rtk_base_rcv_base.xml:38. Original value:TCP A    -->
+    <string name="correction_type_tcp_a">TCP A</string>
+    <!-- Used in file spoofing_row_header.xml:84. Original value:N    -->
+    <string name="string_n">X</string>
+    <!-- Used in file compasslevels_settings.xml:27. Original value:Max.Uncorrected tilt angle    -->
+    <string name="maximum_uncorrected_tilt_angle">Max.Düzeltilmemiş  Eğim Açısı</string>
+    <!-- Used in file receiver_info.xml:15. Original value:Receiver Board Temperature,\u00b0C    -->
+    <string name="receiver_board_temp">Alıcı Board Isısı,\u00b0C</string>
+    <!-- Used in file SurveyingRTKActivity.java:807. Original value:Cancel Survey    -->
+    <string name="cancel_survey">Ölçüm İptal</string>
+    <!-- Used in file activity_configure_uhf.xml:73. Original value:Frequency, Hz    -->
+    <string name="frequency_hz">Frekans, Hz</string>
+    <!-- Used in file SurveyingActivity.java:56. Original value:Static    -->
+    <string name="static_t">Statik</string>
+    <!-- Used in file SurveyingRTKActivity.java:2720. Original value:Ignore Antenna    -->
+    <string name="ignore_antenna">Ignore Antenna</string>
+    <!-- Used in file jmt_info.xml:6. Original value:Version    -->
+    <string name="jmt_version">Version</string>
+    <!-- Used in file settings_general.xml:12. Original value:Sound Scheme    -->
+    <string name="sound_scheme">Sound Scheme</string>
+    <!-- Used in file stakeout_settings.xml:193. Original value:VRS RTCM3 Coordinate System    -->
+    <string name="rtcm3_summary">VRS RTCM3 Koordinat Sistemi</string>
+    <!-- Used in file rtk_rover_start.xml:5. Original value:Setup Radio    -->
+    <string name="survey_setup_radio">Radyo Kurulum</string>
+    <!-- Used in file rtk_base_rcv_base.xml:124. Original value:Set 3G/GPRS    -->
+    <string name="gprs_on">3G/GPRS Ayarla</string>
+    <!-- Used in file map_stakeout.xml:5. Original value:Eye    -->
+    <string name="string_eye_xml">Eye</string>
+    <!-- Used in file activity_power.xml:170. Original value:Sleep Mode    -->
+    <string name="sleep_mode">Uyku Modu</string>
+    <!-- Used in file rtk_base_uhf.xml:17. Original value:Frequency, Hz    -->
+    <string name="frequency">Frekans, Hz</string>
+    <!-- Used in file stakeout_settings.xml:42. Original value:Accept HRMS    -->
+    <string name="accept_hrms">Accept HRMS</string>
+    <!-- Used in file SurveyModel.java:1650. Original value:Data storing error!    -->
+    <string name="error_store_point">Data Kayıt Hatası!</string>
+    <!-- Used in file rtk_base_uhf.xml:133. Original value:TT 450SHW    -->
+    <string name="tt450shw">TT 450SHW</string>
+    <!-- Used in file CalibrationActivity.java:584. Original value:Grd.Azimuth    -->
+    <string name="grid_azimuth">Grd.Semt</string>
+    <!-- Used in file SurveyingRTKActivity.java:1276. Original value:Verify is not finily finished    -->
+    <string name="verify_no_data_data_collected">Hassas Doğrulama bitmemiş</string>
+    <!-- Used in file settings_general.xml:32. Original value:Disconnection    -->
+    <string name="disconnection">Bağlantı Yok</string>
+    <!-- Used in file receiver_info.xml:18. Original value:Power Of Board, V    -->
+    <string name="receiver_power_board">MainBoard Gücü, V</string>
+    <!-- Used in file offset_survey.xml:83. Original value:Distance2    -->
+    <string name="string_distance2_xml">Distance2</string>
+    <!-- Used in file activity_stakeout_line_target.xml:74. Original value:Azimuth    -->
+    <string name="string_azimuth">Semt</string>
+    <!-- Used in file activity_rtk_setup.xml:179. Original value:File Logging    -->
+    <string name="button_logging">Dosya Toplama</string>
+    <!-- Used in file verify_settings.xml:43. Original value:Number of Groups    -->
+    <string name="verify_number_of_groups_summary">Grup Sayısı</string>
+    <!-- Used in file rtk_base_rcv_base.xml:58. Original value:TCP E    -->
+    <string name="correction_type_tcp_e">TCP E</string>
+    <!-- Used in file rtk_base_rcv_base.xml:53. Original value:TCP D    -->
+    <string name="correction_type_tcp_d">TCP D</string>
+    <!-- Used in file rtk_base_rcv_base.xml:48. Original value:TCP C    -->
+    <string name="correction_type_tcp_c">TCP C</string>
+    <!-- Used in file activity_stakeout.xml:236. Original value:Course    -->
+    <string name="text_course">Course</string>
+    <!-- Used in file activity_rtk_setup.xml:158. Original value:Configure    -->
+    <string name="button_configure">Yapılandır</string>
+    <!-- Used in file rtk_base_rcv_base.xml:43. Original value:TCP B    -->
+    <string name="correction_type_tcp_b">TCP B</string>
+    <!-- Used in file quattro_info.xml:6. Original value:RMS Heading    -->
+    <string name="quattro_rms_heading">RMS Heading</string>
+    <!-- Used in file rtk_base_rcv_base.xml:105. Original value:NetHub Mode    -->
+    <string name="nethub_on">NetHub Modu</string>
+    <!-- Used in file CalibrationActivity.java:657. Original value:Compass is calibrated OK    -->
+    <string name="compass_status_ok">Pusula Kalibrasyonu OK</string>
+    <!-- Used in file CalibrationActivity.java:586. Original value:Andr.Azimuth    -->
+    <string name="android_azimuth">Andr.Semt</string>
+    <!-- Used in file rtk_base_rcv_base.xml:143. Original value:Access Point Name (APN)    -->
+    <string name="gprs_apn_summary">Access Point Adı(APN)</string>
+    <!-- Used in file map_survey.xml:15. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Zoom All</string>
+    <!-- Used in file rtk_base_rcv_base.xml:121. Original value:3G/GPRS    -->
+    <string name="gprs_settings">3G/GPRS</string>
+    <!-- Used in file StatusBarUpdater.java:394. Original value:Fixed    -->
+    <string name="fixed">Fix OK</string>
+    <!-- Used in file rtk_base.xml:82. Original value:Read Coordinates From Catalog    -->
+    <string name="get_from_catalog_summary">Koord.Katalog dan Okunuyor</string>
+    <!-- Used in file settings_general.xml:172. Original value:All epochs are collected at Lift/Titl survey    -->
+    <string name="lift_and_tilt_all_epochs_collected">Tüm epoch lar Lift &amp; Titl Ölçümde Toplanır</string>
+    <!-- Used in file activity_surveying_sng.xml:293. Original value:Close File    -->
+    <string name="button_close_file">Dosya Kapat</string>
+    <!-- Used in file rtk_base.xml:92. Original value:FILE RECORDING    -->
+    <string name="file_recording">DOSYA KAYDI</string>
+    <!-- Used in file CalibrationActivity.java:720. Original value:Levels calibration is required!    -->
+    <string name="levels_status_error">Düzeç Kalibrasyonu Gerekli!</string>
+    <!-- Used in file rtk_base.xml:101. Original value:This allows you to enter a string    -->
+    <string name="file_name_summary">Bu, bir Satır girmenizi sağlar</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:202. Original value:Design\n    -->
+    <string name="string_design_cf">Aplikasyon\n</string>
+    <!-- Used in file verify_settings.xml:36. Original value:Tolerance in group    -->
+    <string name="verify_tolerance_in_group">Tecviz Grubu</string>
+    <!-- Used in file StakeoutSettingsActivity.java:125. Original value:are OK    -->
+    <string name="are_ok">Yapılmış</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:651. Original value:LAN    -->
+    <string name="lan_settings">LAN</string>
+    <!-- Used in file SurveyingActivity.java:111. Original value:Elapsed time    -->
+    <string name="elapsed_time">Geçen Süre</string>
+    <!-- Used in file rtk_base.xml:146. Original value:START STATION    -->
+    <string name="start_station_up">BAŞLANGIÇ İSTASYONU</string>
+    <!-- Used in file rtk_base_uhf.xml:180. Original value:CORRECTIONS    -->
+    <string name="corrections">DÜZELTMELER</string>
+    <!-- Used in file activity_stakeout.xml:371. Original value:Survey\n\n    -->
+    <string name="text_survey">Ölçüm\n\n</string>
+    <!-- Used in file rtk_base_uhf.xml:169. Original value:Modulation    -->
+    <string name="modulation">Modulasyon</string>
+    <!-- Used in file activity_calibrate.xml:62. Original value:S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
+    <string name="start_compass_calibration_land">S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
+    <!-- Used in file StakeoutActivity.java:757. Original value:Line\nTarget    -->
+    <string name="target_line">Hedef\nHat</string>
+    <!-- Used in file rtk_base_uhf.xml:198. Original value:Get Receiver Settings    -->
+    <string name="get_receiver_setting">Ayarları Alıcıdan Al</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:851. Original value:Wrong antenna vertical offset!    -->
+    <string name="wrong_antenna_vertical_offset">Anten Düşey Ofset Yanlış!</string>
+    <!-- Used in file settings_general.xml:165. Original value:Any epoch is collected at Lift/Titl survey    -->
+    <string name="lift_and_tilt_any_epoch_collected">Tüm Epochlar Lift &amp; Titl Ölçümünde Toplanır</string>
+    <!-- Used in file rtk_base.xml:153. Original value:Stop Station    -->
+    <string name="stop_station">İstasyonu Durdur</string>
+    <!-- Used in file quattro_info.xml:3. Original value:Heading    -->
+    <string name="quattro_heading">Heading</string>
+    <!-- Used in file rtk_base_uhf.xml:187. Original value:Correction Period    -->
+    <string name="correction_period">Düzeltme Periodu</string>
+    <!-- Used in file activity_stakeout_line_target.xml:107. Original value:Offsets    -->
+    <string name="check_offset">Offsets</string>
+    <!-- Used in file activity_survey_style.xml:31. Original value:Reset    -->
+    <string name="string_reset_to_default">Reset</string>
+    <!-- Used in file SurveyModel.java:693. Original value:Can not stop receiver file!    -->
+    <string name="string_cant_stop_receiver_file">Alıcı dosyası durdurulamaz!</string>
+    <!-- Used in file rtk_base_rcv_base.xml:109. Original value:NetHub Address    -->
+    <string name="nethub_address">NetHub Adres</string>
+    <!-- Used in file activity_power.xml:164. Original value:Power Off    -->
+    <string name="power_off">Gücü Kapat</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:921. Original value:Cannot configure DGPS    -->
+    <string name="cant_setup_gsps_mode">DGPS yapılandırılamıyor</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:29. Original value:UHF Radio    -->
+    <string name="radio_uhf_radio">UHF Radyo</string>
+    <!-- Used in file rtk_base_csd.xml:21. Original value:ACBST    -->
+    <string name="csd_acbst">ACBST</string>
+    <!-- Used in file stakeout_settings.xml:123. Original value:RAW FILE    -->
+    <string name="title_raw_file">RAW DOSYA</string>
+    <!-- Used in file rtk_base_rcv_base.xml:35. Original value:TCP Password    -->
+    <string name="tcp_password">TCP Sifre</string>
     <!-- Used in file receiver_info.xml:13. Original value:Free File Memory    -->
     <string name="receiver_free_file_memory">Serbest Dosya Hafızası</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:636. Original value:Wrong Trajectory Length Filter!    -->
-    <string name="wrong_trajectory_length_filter">Yanlış Trajectory Filtre Uzunluğu</string>
-    <!-- Used in file activity_stakeout.xml:367. Original value:Survey\n\n    -->
-    <string name="text_survey">Ölçüm\n\n</string>
-    <!-- Used in file rtk_base.xml:86. Original value:Set Coordinates To Receiver Without Radio Setup    -->
-    <string name="set_coordinate_summary">Koordinatları Radyoyu Kurmadan Ayarla</string>
+    <!-- Used in file map_stakeout.xml:25. Original value:Line    -->
+    <string name="string_line_xml">Line</string>
+    <!-- Used in file stakeout_settings.xml:192. Original value:RTCM3 CS    -->
+    <string name="rtcm3_cs">RTCM3 CS</string>
+    <!-- Used in file compasslevels_settings.xml:19. Original value:Max.Corrected tilt angle    -->
+    <string name="maximum_corrected_tilt_angle_summary">Max.Düzeltilen Eğim Açısı</string>
+    <!-- Used in file rtk_rover_start.xml:9. Original value:FILE RECORDING    -->
+    <string name="survey_file_recording">DOSYA KAYDI</string>
+    <!-- Used in file StakeoutActivity.java:505. Original value:Averaging\n\n    -->
+    <string name="text_averaging">Averaging\n\n</string>
+    <!-- Used in file activity_calibrate.xml:24. Original value:Mag.Azimuth    -->
+    <string name="magnetic_azimuth">Mag.Semt</string>
+    <!-- Used in file satellite_row_header.xml:84. Original value:L5\nE5a\nG3    -->
+    <string name="l5">L5</string>
+    <!-- Used in file SurveyingRTKActivity.java:1239. Original value:No data RTK collected, and HybridRTK file exists    -->
+    <string name="hibrid_rtk_data_collected">RTK Verisi toplanmadı ve HybridRTK dosyası mevcut</string>
     <!-- Used in file RCVBasePreferenceFragment.java:617. Original value:Set WLAN    -->
     <string name="wlan_on">WLAN Ayarla</string>
+    <!-- Used in file rtk_base.xml:12. Original value:Station Name    -->
+    <string name="station_name">İstasyon Adı</string>
+    <!-- Used in file receiver_info.xml:21. Original value:WLAN IP    -->
+    <string name="receiver_wlan_ip">WLAN IP</string>
+    <!-- Used in file activity_configure_ntrip.xml:282. Original value:Coordinate System    -->
+    <string name="coordinate_system">Koordinat Sistemi</string>
+    <!-- Used in file surveying_rtk.xml:20. Original value:Delete last surveyed point    -->
+    <string name="action_delete_last_surveyed_point">Delete last surveyed point</string>
+    <!-- Used in file activity_calibrate.xml:70. Original value:S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
+    <string name="start_levels_calibration_land">S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
+    <!-- Used in file activity_configure_gprs.xml:54. Original value:Hot Start    -->
+    <string name="hot_start">Sıcak Başlangıç</string>
+    <!-- Used in file activity_map_stakeout.xml:237. Original value:TextView    -->
+    <string name="text_textview">TextGör</string>
+    <!-- Used in file map_survey.xml:25. Original value:Import    -->
+    <string name="action_map_import">Import</string>
+    <!-- Used in file activity_start_survey.xml:231. Original value:Stop and Go    -->
+    <string name="button_stop_and_go">Stop and Go</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:616. Original value:WLAN    -->
+    <string name="wlan_settings">WLAN</string>
+    <!-- Used in file satellite_row_dark.xml:11. Original value:sats    -->
+    <string name="sats">Uydlr</string>
+    <!-- Used in file activity_rtk_setup.xml:228. Original value:RTCM3 CS    -->
+    <string name="rtcm3_coordinate_system">RTCM3 KS</string>
+    <!-- Used in file rtk_base.xml:111. Original value:Receiver File Manager    -->
+    <string name="receiver_files_summury">Alıcı Dosya Yönetici</string>
+    <!-- Used in file receiver_info.xml:5. Original value:Receiver S/N    -->
+    <string name="receiver_sn">Alıcı S/N</string>
+    <!-- Used in file rtk_base_uhf.xml:25. Original value:Output Power    -->
+    <string name="output_power">Çıkış Gücü</string>
+    <!-- Used in file satellite_row_header.xml:35. Original value:H/U    -->
+    <string name="hu">H/U</string>
+    <!-- Used in file SurveyModel.java:2551. Original value:Epochs: RTK reset    -->
+    <string name="string_epochs_reset">Epochs: RTK reset</string>
+    <!-- Used in file RTKBaseSettingsActivity.java:407. Original value:License the application before use the receiver or purchase authorization OAF option!    -->
+    <string name="jmt_license_error">License the application before use the receiver or purchase authorization OAF option!</string>
+    <!-- Used in file status_bar.xml:131. Original value:0MB    -->
+    <string name="free_memory">0MB</string>
+    <!-- Used in file source_table_row_dark.xml:60. Original value:Network    -->
+    <string name="network">Network</string>
+    <!-- Used in file rtk_base_rcv_base.xml:118. Original value:NetHub Password    -->
+    <string name="nethub_password">NetHub Sifre</string>
+    <!-- Used in file stakeout_settings.xml:102. Original value:Switch between antenna input    -->
+    <string name="antenna_height_type_summary">Antenler arasında geçiş yap</string>
+    <!-- Used in file ConfigureRCVActivity.java:206. Original value:Setup\nLAN    -->
+    <string name="setup_internet_lan">Kurulum\nLAN</string>
+    <!-- Used in file rtk_base.xml:96. Original value:Enable Recording    -->
+    <string name="enable_recording">Kaydı Etkinleştir</string>
+    <!-- Used in file activity_satellite_types.xml:128. Original value:BeiDou    -->
+    <string name="check_bdu">BeiDou</string>
+    <!-- Used in file activity_stakeout_line_target.xml:22. Original value:Method    -->
+    <string name="string_method">Metod</string>
+    <!-- Used in file source_table_row_dark.xml:116. Original value:Generator    -->
+    <string name="generator">Generator</string>
+    <!-- Used in file jmt_info.xml:4. Original value:Copyright    -->
+    <string name="jmt_copyright">Copyright</string>
+    <!-- Used in file SurveyModel.java:273. Original value:Can\'t create receiver file!    -->
+    <string name="cant_create_file">Alıcı dosyası oluşturulamaz!</string>
+    <!-- Used in file activity_survey_styles.xml:32. Original value:Rename    -->
+    <string name="string_rename">Rename</string>
+    <!-- Used in file map_stakeout.xml:20. Original value:Options    -->
+    <string name="string_options_menu">Options</string>
+    <!-- Used in file activity_stakeout.xml:278. Original value:E\n    -->
+    <string name="text_east">Y\n</string>
+    <!-- Used in file activity_configure_fh.xml:37. Original value:Configuration Name    -->
+    <string name="configuration_name">Yapılandırma Adı</string>
+    <!-- Used in file job_info.xml:7. Original value:Surveyor Name    -->
+    <string name="job_surveyorname">Ölçümü Yapan</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:46. Original value:WiFi SSID    -->
+    <string name="wifi_ssid">WiFi SSID</string>
+    <!-- Used in file activity_stakeout.xml:38. Original value:JAV_TRIUMPH-1   NONE\n1.25m vert.    -->
+    <string name="button_antenna">JAV_TRIUMPH-1   NONE\n1.25m vert.</string>
+    <!-- Used in file rtk_base_uhf.xml:182. Original value:Correction Type    -->
+    <string name="correction_type">Düzeltme Tipi</string>
+    <!-- Used in file stakeout_settings.xml:166. Original value:Debug Survey    -->
+    <string name="string_debug_survey">Ölçüm Ayıklama</string>
+    <!-- Used in file rtk_base_rcv_base.xml:148. Original value:User Name    -->
+    <string name="gprs_user_summary">Kullanıcı Adı</string>
+    <!-- Used in file source_table_row_dark.xml:148. Original value:Bitrate    -->
+    <string name="bitrate">Bitrate</string>
+    <!-- Used in file map_survey.xml:45. Original value:List    -->
+    <string name="action_select_list">Liste</string>
+    <!-- Used in file CalibrationActivity.java:720. Original value:Levels error    -->
+    <string name="levels_status_error_small">Levels error</string>
+    <!-- Used in file receiver_info.xml:22. Original value:GPRS IP    -->
+    <string name="receiver_gprs_ip">GPRS IP</string>
+    <!-- Used in file rtk_base_rcv_base.xml:132. Original value:DHCP    -->
+    <string name="gprs_dhcp">DHCP</string>
+    <!-- Used in file receiver_info.xml:4. Original value:Receiver    -->
+    <string name="receiver">Alıcı</string>
+    <!-- Used in file CalibrationActivity.java:719. Original value:Levels are calibrated OK    -->
+    <string name="levels_status_ok">Düzeç Kalibrasyonu OK</string>
+    <!-- Used in file StakeoutActivity.java:1243. Original value:Average\n\n    -->
+    <string name="text_average">Average\n\n</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:320. Original value:Dist Horz\n    -->
+    <string name="text_dist_plane">Yat Mesf\n</string>
+    <!-- Used in file stakeout_settings.xml:175. Original value:Keep descriptions after survey    -->
+    <string name="string_keep_desription_after_survey">Keep descriptions after survey</string>
+    <!-- Used in file map_survey.xml:39. Original value:White    -->
+    <string name="color_white">White</string>
+    <!-- Used in file SourceTableActivity.java:538. Original value:Format    -->
+    <string name="string_format_sort">Format</string>
+    <!-- Used in file activity_file_logging.xml:135. Original value:Use Hybrid RTK    -->
+    <string name="check_hibrid_rtk">Hybrid RTK Kullan</string>
+    <!-- Used in file stakeout_settings.xml:161. Original value:Minimal RTK Engines to accept    -->
+    <string name="minimal_rtk_engines">Kabul Edilecek Min.RTK Motorları</string>
+    <!-- Used in file activity_survey_style.xml:40. Original value:Delete    -->
+    <string name="string_delete_style_xml">Delete</string>
+    <!-- Used in file RCVBasePreferenceFragment.java:672. Original value:Gateway    -->
+    <string name="lan_gateway">Gateway</string>
+    <!-- Used in file job_info.xml:6. Original value:Working CS    -->
+    <string name="job_workingcs">Çalışılan CS</string>
+    <!-- Used in file map_survey.xml:20. Original value:Export    -->
+    <string name="action_map_export">Export</string>
+    <!-- Used in file compasslevels_settings.xml:26. Original value:Max.Uncorrected tilt angle    -->
+    <string name="maximum_uncorrected_tilt_angle_summary">Max.Uncorrected tilt angle</string>
+    <!-- Used in file activity_surveying.xml:30. Original value:Survey Type    -->
+    <string name="survey_type">Ölçüm Tipi</string>
+    <!-- Used in file source_table_row_dark.xml:108. Original value:VRS    -->
+    <string name="vrs">VRS</string>
+    <!-- Used in file source_table_row_dark.xml:84. Original value:Latitude    -->
+    <string name="latitude">Enlem</string>
+    <!-- Used in file receiver_info.xml:6. Original value:Receiver ID    -->
+    <string name="receiver_id">Alıcı Adı</string>
+    <!-- Used in file activity_stakeout_line_target.xml:147. Original value:Along    -->
+    <string name="string_along_xml">Along</string>
+    <!-- Used in file map_stakeout.xml:10. Original value:Point    -->
+    <string name="string_new_point">Nokta</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:72. Original value:WiFi Security    -->
+    <string name="wifi_security">WiFi Güvenlik</string>
+    <!-- Used in file activity_map_stakeout.xml:92. Original value:Along    -->
+    <string name="text_along_map">Boyunca</string>
+    <!-- Used in file stakeout_settings.xml:105. Original value:Use vertical offset    -->
+    <string name="use_vertical_offsets">Use vertical offset</string>
+    <!-- Used in file quattro_attitude.xml:12. Original value:Distance CD    -->
+    <string name="quattro_distance_cd">Distance CD</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:37. Original value:FH Radio    -->
+    <string name="radio_fh_radio">FH Radyo</string>
+    <!-- Used in file status_bar.xml:93. Original value:Std    -->
+    <string name="solution_type">Std</string>
+    <!-- Used in file settings_general.xml:144. Original value:RTK Fix Lost    -->
+    <string name="fix_lost">RTK Fix Kayıp</string>
+    <!-- Used in file quattro_attitude.xml:10. Original value:Distance BC    -->
+    <string name="quattro_distance_bc">Distance BC</string>
+    <!-- Used in file stakeout_settings.xml:17. Original value:Azimuth Type    -->
+    <string name="text_azimuth">Semt Tipi</string>
+    <!-- Used in file quattro_attitude.xml:11. Original value:Distance BD    -->
+    <string name="quattro_distance_bd">Distance BD</string>
+    <!-- Used in file SurveyModel.java:1347. Original value:secs    -->
+    <string name="seconds">sny</string>
+    <!-- Used in file status_bar.xml:57. Original value:recording    -->
+    <string name="recording">kayıt</string>
+    <!-- Used in file activity_rtk_setup.xml:72. Original value:Job Name    -->
+    <string name="text_job_name">İş Adı</string>
+    <!-- Used in file activity_configure_gprs.xml:137. Original value:Login    -->
+    <string name="gprs_login">Login</string>
+    <!-- Used in file activity_configure_uhf.xml:495. Original value:Trimmark II/IIe params.    -->
+    <string name="trimmarkii_protocol_parameters">Trimmark II/IIe params.</string>
+    <!-- Used in file rtk_base_rcv.xml:35. Original value:Login    -->
+    <string name="login">Login</string>
+    <!-- Used in file offsets2.xml:15. Original value:Fast Trajectory    -->
+    <string name="string_menu_offset_fast_trajectory">Hızlı Trajectory</string>
+    <!-- Used in file rtk_base.xml:105. Original value:Record Rate    -->
+    <string name="record_rate">Kayıt Aralığı</string>
+    <!-- Used in file StatusBarUpdater.java:387. Original value:Std    -->
+    <string name="std">Std</string>
+    <!-- Used in file compasslevels_settings.xml:8. Original value:Accept epochs with tilt    -->
+    <string name="string_accept_title_settings">Epochları Eğim ile kabulet</string>
+    <!-- Used in file rtk_base_uhf.xml:106. Original value:Clock Correction    -->
+    <string name="clock_correction">Zaman Düzeltmesi</string>
+    <!-- Used in file rtk_base_uhf.xml:149. Original value:Trimmark II/IIe    -->
+    <string name="trimmarkii">Trimmark II/IIe</string>
+    <!-- Used in file rtk_base_rcv.xml:14. Original value:Internet from    -->
+    <string name="string_internet_from_xml">Internet from</string>
+    <!-- Used in file rtk_base_generic_radio.xml:17. Original value:Baud rate    -->
+    <string name="baud_rate">Baud rate</string>
+    <!-- Used in file offsets.xml:5. Original value:No offset    -->
+    <string name="string_menu_offset_none">Ofset Yok</string>
+    <!-- Used in file rtk_base_uhf.xml:203. Original value:Read Modem Info    -->
+    <string name="read_modem_info">Modem Bilgisi Oku</string>
     <!-- Used in file rtk_rover_start.xml:14. Original value:START STATION    -->
     <string name="survey_start_station">BAŞLANGIÇ İSTASYONU</string>
     <!-- Used in file StakeoutSettingsActivity.java:127. Original value:Compass    -->
     <string name="compass">Pusula</string>
-    <!-- Used in file offsets2.xml:5. Original value:Points    -->
-    <string name="string_menu_offset_point">Noktalar</string>
-    <!-- Used in file activity_rtk_setup.xml:229. Original value:Coordinate System    -->
-    <string name="coordinate_system">Koordinat Sistemi</string>
-    <!-- Used in file rtk_base_rcv_base.xml:112. Original value:NetHub Port    -->
-    <string name="nethub_port">NetHub Port</string>
-    <!-- Used in file rtk_base_csd.xml:7. Original value:Name    -->
-    <string name="csd_settings_name_summary">İsim</string>
-    <!-- Used in file receiver_info.xml:8. Original value:Hardware Version    -->
-    <string name="receiver_hardware_version">Hardware Version</string>
-    <!-- Used in file rtk_base.xml:64. Original value:Position    -->
-    <string name="position">Konum</string>
-    <!-- Used in file rtk_base.xml:138. Original value:Radio Settings    -->
-    <string name="radio_settings">Radyo Ayarları</string>
-    <!-- Used in file activity_stakeout.xml:269. Original value:\t    -->
-    <string name="text_empty">\t</string>
-    <!-- Used in file offsets2.xml:30. Original value:Intersection    -->
-    <string name="string_menu_offset_intersection">Kesişim</string>
-    <!-- Used in file job_info.xml:6. Original value:Working CS    -->
-    <string name="job_workingcs">Çalışılan CS</string>
-    <!-- Used in file rtk_setup.xml:7. Original value:Settings    -->
-    <string name="action_settings">Ayarlar</string>
-    <!-- Used in file SurveyModel.java:1269. Original value:1 hour    -->
-    <string name="hour">1 Saat</string>
-    <!-- Used in file rtk_base_uhf.xml:198. Original value:Get Receiver Settings    -->
-    <string name="get_receiver_setting">Ayarları Alıcıdan Al</string>
-    <!-- Used in file RTKSetupActivity.java:903. Original value:3G Mode:%1$s Sim:%2$s\nAPN:%3$s    -->
-    <string name="setup_internet_3g_format">3G Mod:%1$s Sim:%2$s\nAPN:%3$s</string>
-    <!-- Used in file activity_survey_style.xml:40. Original value:Delete    -->
-    <string name="string_delete_style_xml">Delete</string>
-    <!-- Used in file survey_settings.xml:60. Original value:ANTENNA    -->
-    <string name="antenna_up">ANTEN</string>
-    <!-- Used in file map_stakeout.xml:25. Original value:Line    -->
-    <string name="string_line_xml">Line</string>
-    <!-- Used in file activity_configure_uhf.xml:109. Original value:Output Power    -->
-    <string name="output_power_w">Çıkış Gücü</string>
-    <!-- Used in file rtk_rover_start.xml:7. Original value:Radio Settings    -->
-    <string name="survey_radio_settings">Radyo Ayarları</string>
-    <!-- Used in file activity_configure_ntrip.xml:105. Original value:Mount Point    -->
-    <string name="mount_point">Mount Point</string>
-    <!-- Used in file activity_rtk_setup.xml:122. Original value:Correction Source    -->
-    <string name="correction_source">Düzeltme Kaynağı</string>
-    <!-- Used in file survey_settings.xml:132. Original value:Enable DGPS if no fixed/float    -->
-    <string name="string_enable_dgps">Fix/Float Değilse DGPS Etkin</string>
-    <!-- Used in file status_bar.xml:131. Original value:0MB    -->
-    <string name="free_memory">0MB</string>
-    <!-- Used in file StatusBarUpdater.java:377. Original value:DGPS    -->
-    <string name="dgps">DGPS</string>
-    <!-- Used in file activity_confirm_point_survey.xml:296. Original value:ReSurvey    -->
-    <string name="button_resurvey">TekrarÖlç</string>
-    <!-- Used in file jmt_info.xml:10. Original value:Android    -->
-    <string name="jmt_android">Android</string>
-    <!-- Used in file rtk_base_rcv_base.xml:121. Original value:3G/GPRS    -->
-    <string name="gprs_settings">3G/GPRS</string>
-    <!-- Used in file receiver_info.xml:12. Original value:File Memory Size    -->
-    <string name="receiver_file_memory_size">Dosya Hafıza Boyutu</string>
-    <!-- Used in file activity_antenna.xml:79. Original value:Height type    -->
-    <string name="antenna_height_type">Yüks.Tipi</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:764. Original value:Wrong antenna vertical offset!    -->
-    <string name="wrong_antenna_vertical_offset">Anten Düşey Ofset Yanlış!</string>
-    <!-- Used in file StakeoutActivity.java:1259. Original value:Left    -->
-    <string name="text_left">Sol</string>
-    <!-- Used in file activity_configure_uhf.xml:218. Original value:Transparent protocol settings    -->
-    <string name="transparent_protocol_parameters">Transparent Protocol Ayarları</string>
-    <!-- Used in file CalibrationActivity.java:625. Original value:Compass calibration is required!    -->
-    <string name="compass_status_error">Pusula Kalibrasyonu Gerekli!</string>
-    <!-- Used in file verify_settings.xml:51. Original value:Tolerance between groups    -->
-    <string name="verify_tolerance_between_groups_summary">Tecviz Aralığı Grupları</string>
-    <!-- Used in file survey_settings.xml:146. Original value:Detect Rover movement during survey    -->
-    <string name="string_detect_rover_move">Ölçerken Gezici Hareketini Algıla</string>
-    <!-- Used in file SurveyModel.java:1446. Original value:Survey already stopped!    -->
-    <string name="error_survey_already_stopped">Ölçüm Tamamlandı!</string>
-    <!-- Used in file rtk_base_csd.xml:3. Original value:Direct Call (CSD)    -->
-    <string name="csd_phone_number">Direct Call (CSD)</string>
-    <!-- Used in file StakeoutActivity.java:1161. Original value:Average\n\n    -->
-    <string name="text_average">Average\n\n</string>
-    <!-- Used in file StatusBarUpdater.java:376. Original value:Std    -->
-    <string name="std">Std</string>
-    <!-- Used in file receiver_info.xml:4. Original value:Receiver    -->
-    <string name="receiver">Alıcı</string>
-    <!-- Used in file rtk_base.xml:17. Original value:Station ID    -->
-    <string name="station_id">İstasyon Adı</string>
-    <!-- Used in file StakeoutActivity.java:1259. Original value:Right    -->
-    <string name="text_right">Sağ</string>
-    <!-- Used in file activity_satellite_types.xml:138. Original value:QZSS    -->
-    <string name="check_qzss">QZSS</string>
-    <!-- Used in file rtk_base_rcv_base.xml:35. Original value:TCP Password    -->
-    <string name="tcp_password">TCP Sifre</string>
-    <!-- Used in file stakeout_settings.xml:17. Original value:Azimuth Type    -->
-    <string name="text_azimuth">Semt Tipi</string>
-    <!-- Used in file source_table_row_header_dark.xml:78. Original value:Latitude    -->
-    <string name="latitude">Enlem</string>
-    <!-- Used in file activity_stakeout.xml:38. Original value:JAV_TRIUMPH-1   NONE\n1.25m vert.    -->
-    <string name="button_antenna">JAV_TRIUMPH-1   NONE\n1.25m vert.</string>
-    <!-- Used in file SurveyingSnGActivity.java:165. Original value:Stop and Go    -->
-    <string name="stop_and_go">Stop and Go</string>
-    <!-- Used in file lastnames_row_header.xml:15. Original value:Last Point Names    -->
-    <string name="last_point_names">Son Nokta Adı</string>
-    <!-- Used in file activity_stakeout_line_target.xml:197. Original value:Interval    -->
-    <string name="string_interval">Aralık</string>
-    <!-- Used in file verify_settings.xml:35. Original value:Tolerance in group    -->
-    <string name="verify_tolerance_in_group_summary">Gruptaki Tecviz</string>
-    <!-- Used in file rtk_base_uhf.xml:7. Original value:Name of This Setting    -->
-    <string name="settings_name_summary">Bu Ayarların Adı</string>
-    <!-- Used in file SurveyStyleInformationActivity.java:140. Original value:Fixed Only    -->
-    <string name="string_fixed_only_xml">Fixed Only</string>
-    <!-- Used in file settings_general.xml:32. Original value:Disconnection    -->
-    <string name="disconnection">Bağlantı Yok</string>
-    <!-- Used in file StakeoutActivity.java:1257. Original value:Back    -->
-    <string name="text_backward">Geri</string>
-    <!-- Used in file activity_map_stakeout.xml:155. Original value:CTT    -->
-    <string name="text_ctt_map">Δa</string>
-    <!-- Used in file survey_settings.xml:50. Original value:Verify    -->
-    <string name="verify_mode">Doğrulama</string>
-    <!-- Used in file rtk_base_csd.xml:17. Original value:Connected To    -->
-    <string name="connected_to_2">Bağlandı</string>
-    <!-- Used in file survey_settings.xml:187. Original value:Calibrate    -->
-    <string name="calibrate">Kalibrasyon</string>
-    <!-- Used in file activity_stakeout_line_target.xml:107. Original value:Offsets    -->
-    <string name="check_offset">Offsets</string>
-    <!-- Used in file activity_file_logging.xml:135. Original value:Use Hybrid RTK    -->
-    <string name="check_hibrid_rtk">Hybrid RTK Kullan</string>
-    <!-- Used in file offset_survey.xml:99. Original value:Left/Right    -->
-    <string name="string_left_right">Sol/Sağ</string>
-    <!-- Used in file source_table_row_header_dark.xml:64. Original value:Country    -->
-    <string name="country">Ülke</string>
-    <!-- Used in file rtk_base_uhf.xml:169. Original value:Modulation    -->
-    <string name="modulation">Modulasyon</string>
-    <!-- Used in file survey_settings.xml:152. Original value:Use CS from VRS    -->
-    <string name="string_use_cs_from_vrs">CS VRS den Kullan</string>
-    <!-- Used in file rtk_base_rcv_base.xml:127. Original value:SIM Card    -->
-    <string name="sim_card">SIM Kart</string>
-    <!-- Used in file spoofing_row_header_dark.xml:42. Original value:Doppl 1    -->
-    <string name="string_doppl1">Doppl 1</string>
-    <!-- Used in file spoofing_row_header_dark.xml:63. Original value:Doppl 2    -->
-    <string name="string_doppl2">Doppl 2</string>
-    <!-- Used in file survey_settings.xml:135. Original value:Multi RTK    -->
-    <string name="string_multirtk">Multi RTK</string>
-    <!-- Used in file CalibrationActivity.java:686. Original value:Levels error    -->
-    <string name="levels_status_error_small">Levels error</string>
-    <!-- Used in file verify_settings.xml:11. Original value:Position accuracy    -->
-    <string name="use_epochs">Konum Hassasiyeti</string>
-    <!-- Used in file rtk_base_uhf.xml:17. Original value:Frequency, Hz    -->
-    <string name="frequency">Frekans, Hz</string>
-    <!-- Used in file survey_settings.xml:129. Original value:ADVANCED    -->
-    <string name="title_advanced">GELİŞMİŞ</string>
-    <!-- Used in file job_info.xml:11. Original value:Data memory    -->
-    <string name="job_main_memory">Data Hafıza</string>
-    <!-- Used in file receiver_info.xml:15. Original value:Receiver Board Temperature,\u00b0C    -->
-    <string name="receiver_board_temp">Alıcı Board Isısı,\u00b0C</string>
-    <!-- Used in file stakeout_settings.xml:22. Original value:Audio Stakeout    -->
-    <string name="audio_stakeout">Sesli Aplikasyon</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:320. Original value:Dist Horz\n    -->
-    <string name="text_dist_plane">Yat Mesf\n</string>
-    <!-- Used in file activity_configure_uhf.xml:377. Original value:Trimtalk 450S params.    -->
-    <string name="trimtalk450s_protocol_parameters">Trimtalk 450S params.</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:548. Original value:Sounds are on    -->
-    <string name="sounds_on">Sesler açık</string>
-    <!-- Used in file activity_map_stakeout.xml:193. Original value:ETT    -->
-    <string name="text_ett_map">ΔY</string>
-    <!-- Used in file survey_settings.xml:11. Original value:Accept Epochs    -->
-    <string name="accept_epochs">Accept Epochs</string>
-    <!-- Used in file activity_stakeout_line_target.xml:89. Original value:dH    -->
-    <string name="string_slope">ΔH</string>
-    <!-- Used in file satellites.xml:10. Original value:Skyplot    -->
-    <string name="action_skyplot">Skyplot</string>
-    <!-- Used in file activity_stakeout_line_target.xml:74. Original value:Azimuth    -->
-    <string name="string_azimuth">Semt</string>
-    <!-- Used in file status_bar.xml:57. Original value:recording    -->
-    <string name="recording">kayıt</string>
-    <!-- Used in file settings_general.xml:81. Original value:Reject by PDOP    -->
-    <string name="epoch_rejected_pdop">Reject by PDOP</string>
-    <!-- Used in file compasslevels_settings.xml:12. Original value:Reject epochs with tilt more than    -->
-    <string name="reject_epochs_by_tilt">Reject epochs with tilt more than</string>
-    <!-- Used in file activity_configure_uhf.xml:63. Original value:Rover radio connected to    -->
-    <string name="rover_connected_to_2">Gezici Radyo Bağlı</string>
-    <!-- Used in file jmt_info.xml:5. Original value:Application    -->
-    <string name="jmt_name">Uygulama</string>
-    <!-- Used in file rtk_base_uhf.xml:5. Original value:Settings Name    -->
-    <string name="settings_name">Ayarların İsmi</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:137. Original value:Mask    -->
-    <string name="mask">Mask</string>
-    <!-- Used in file status_bar.xml:27. Original value:pdop    -->
-    <string name="pdop">pdop</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:307. Original value:Dist 3D\n    -->
-    <string name="text_dist_3d">Mesf 3D\n</string>
-    <!-- Used in file CalibrationActivity.java:685. Original value:Levels are calibrated OK    -->
-    <string name="levels_status_ok">Düzeç Kalibrasyonu OK</string>
-    <!-- Used in file offsets2.xml:15. Original value:Fast Trajectory    -->
-    <string name="string_menu_offset_fast_trajectory">Hızlı Trajectory</string>
-    <!-- Used in file CalibrationActivity.java:685. Original value:Levels OK    -->
-    <string name="levels_status_ok_small">Levels OK</string>
-    <!-- Used in file rtk_base_csd.xml:21. Original value:ACBST    -->
-    <string name="csd_acbst">ACBST</string>
-    <!-- Used in file activity_configure_wifi_from_style.xml:108. Original value:DHCP    -->
-    <string name="dhcp_mode">DHCP</string>
-    <!-- Used in file activity_surveying_sng.xml:105. Original value:Antenna    -->
-    <string name="antenna">Anten</string>
-    <!-- Used in file survey_settings.xml:56. Original value:5 Hz Mode    -->
-    <string name="five_hz_mode">5 Hz Modu</string>
-    <!-- Used in file rtk_base_uhf.xml:182. Original value:Correction Type    -->
-    <string name="correction_type">Düzeltme Tipi</string>
-    <!-- Used in file status_bar.xml:106. Original value:00+00    -->
-    <string name="number_of_sats">00+00</string>
-    <!-- Used in file settings_general.xml:151. Original value:Lift&amp;Tilt Starting    -->
-    <string name="lift_and_tilt_starting">Lift &amp; Tilt Başlıyor</string>
-    <!-- Used in file NtripClient.java:536. Original value:RCV client runs    -->
-    <string name="rcv_client_runs">RCV kullanıcı çalışıyor</string>
-    <!-- Used in file SurveyModel.java:1276. Original value:secs    -->
-    <string name="seconds">sny</string>
-    <!-- Used in file survey_button.xml:11. Original value:Confirm Point    -->
-    <string name="menu_confirm">Nokta Onayı</string>
-    <!-- Used in file SurveyingRTKActivity.java:1865. Original value:Object name already exists in the job!    -->
-    <string name="site_name_already_exist">İşin içinde nesne adı zaten var!</string>
-    <!-- Used in file offsets2.xml:25. Original value:Along Line    -->
-    <string name="string_menu_offset_along_line">Hat Boyunca</string>
-    <!-- Used in file activity_confirm_point_survey.xml:99. Original value:VRMS\n    -->
-    <string name="text_vrms">VRMS\n</string>
-    <!-- Used in file offset_survey.xml:51. Original value:Survey P2    -->
-    <string name="button_survey_p2">P2 Ölçüm</string>
-    <!-- Used in file rtk_base_rcv_base.xml:138. Original value:Dialup Number    -->
-    <string name="gprs_dialup_number_summary">Dialup Numarası</string>
-    <!-- Used in file offset_survey.xml:34. Original value:Survey P1    -->
-    <string name="button_survey_p1">P1 Ölçüm</string>
-    <!-- Used in file settings_general.xml:102. Original value:Stakeout Epoch Rejected    -->
-    <string name="stakeout_epoch_rejected">Reddedilen Aplikasyon Epoch</string>
-    <!-- Used in file activity_surveying.xml:75. Original value:Antenna    -->
-    <string name="survey_antenna_id">Anten</string>
-    <!-- Used in file activity_stakeout.xml:294. Original value:H\n    -->
-    <string name="text_height">H\n</string>
-    <!-- Used in file VerifySettingsPreferenceFragment.java:189. Original value:Wrong number of groups    -->
-    <string name="wrong_number_of_groups">Yanlış Grup Numarası</string>
-    <!-- Used in file SurveyingRTKActivity.java:1712. Original value:Lift&amp;Tilt Survey    -->
-    <string name="string_lift_tilt_survey">Lift &amp; Tilt Ölçüm</string>
-    <!-- Used in file activity_stakeout.xml:325. Original value:Plus    -->
-    <string name="text_zoom_plus">Plus</string>
-    <!-- Used in file activity_satellite_types.xml:54. Original value:GPS    -->
-    <string name="check_gps">GPS</string>
     <!-- Used in file activity_map_stakeout.xml:212. Original value:Cut    -->
     <string name="text_cut_map">Kazı</string>
-    <!-- Used in file rtk_base_uhf.xml:210. Original value:Check and save settings    -->
-    <string name="check_and_save_settings_summary">Ayarları Kontrol et ve Sakla</string>
-    <!-- Used in file SurveyingRTKActivity.java:762. Original value:Cancel Survey    -->
-    <string name="cancel_survey">Ölçüm İptal</string>
+    <!-- Used in file SurveyModel.java:507. Original value:RTCM3 coordinate system is different!    -->
+    <string name="rtcm3cs_mismatch">RTCM3 coordinate system is different!</string>
+    <!-- Used in file AntennaActivity.java:218. Original value:Cannot set slant for unknown antenna!    -->
+    <string name="cant_slant_for_unknown_antenna">Cannot set slant for unknown antenna!</string>
+    <!-- Used in file survey_button.xml:15. Original value:Cancel Point    -->
+    <string name="menu_cancel">Nokta İptal</string>
+    <!-- Used in file activity_file_logging.xml:124. Original value:Write additional antenna height info, including height type and offset    -->
+    <string name="check_event_format">Yüks.Tipi ve ofset dahil olmak üzere ilave anten yüks.bilgileri yazın</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:195. Original value:Survey\n    -->
+    <string name="string_survey_cf">Ölçüm\n</string>
+    <!-- Used in file survey_button.xml:7. Original value:Accept Point    -->
+    <string name="menu_accept">Kabul Noktası</string>
+    <!-- Used in file SurveyModel.java:2430. Original value:reject.    -->
+    <string name="epochs_reject_shorter">redd.</string>
+    <!-- Used in file rtk_base.xml:9. Original value:BASE STATION    -->
+    <string name="base_station">SABİT İSYASYON</string>
+    <!-- Used in file RTKSetupActivity.java:1011. Original value:IP:%1$s\nDHCP:%2$s    -->
+    <string name="setup_internet_lan_format">IP:%1$s\nDHCP:%2$s</string>
+    <!-- Used in file activity_antenna.xml:141. Original value:Measure Units    -->
+    <string name="units">Mesafe Birimi</string>
+    <!-- Used in file CalibrationActivity.java:481. Original value:C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
+    <string name="start_compass_calibration_land_small">C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
+    <!-- Used in file receiver_info.xml:12. Original value:File Memory Size    -->
+    <string name="receiver_file_memory_size">Dosya Hafıza Boyutu</string>
+    <!-- Used in file activity_confirm_point_survey.xml:258. Original value:Base Distance    -->
+    <string name="text_base_distance">Sabite Mesafe</string>
+    <!-- Used in file duo_attitude.xml:4. Original value:HD Length    -->
+    <string name="duo_hd_length">HD Length</string>
+    <!-- Used in file jmt_info.xml:8. Original value:Registration Status    -->
+    <string name="jmt_license">Kayıt Durumu</string>
+    <!-- Used in file source_table_row_dark.xml:124. Original value:Compression    -->
+    <string name="compression">Sıkıştırma</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:45. Original value:Solution\n    -->
+    <string name="text_solution_type">Çözümleme\n</string>
+    <!-- Used in file activity_surveying_rtk.xml:190. Original value:Remain time:    -->
+    <string name="remain_time">Kalan Zaman:</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:64. Original value:Next    -->
+    <string name="button_next">İleri</string>
+    <!-- Used in file rtk_rover_start.xml:3. Original value:JOB NAME    -->
+    <string name="survey_job_name">İŞİN ADI</string>
+    <!-- Used in file SurveyModel.java:2439. Original value: rejec.    -->
+    <string name="epochs_reject">Reddet.</string>
+    <!-- Used in file spoofing_row_header.xml:70. Original value:dRange    -->
+    <string name="string_drange">dSınır</string>
+    <!-- Used in file rtk_base.xml:65. Original value:Position    -->
+    <string name="position">Konum</string>
+    <!-- Used in file SurveyModel.java:603. Original value:Can\'t start surveying!    -->
+    <string name="cant_start_surveying">Ölçüme Başlayamazsınız!</string>
+    <!-- Used in file rtk_base.xml:66. Original value:X:\nY:\nZ:    -->
+    <string name="x_y_z">X:\nY:\nZ:</string>
+    <!-- Used in file satellite_row_header.xml:28. Original value:SatSys    -->
+    <string name="satsys">UydSys</string>
+    <!-- Used in file activity_stakeout.xml:48. Original value:Next    -->
+    <string name="text_next">İleri</string>
+    <!-- Used in file rtk_base.xml:118. Original value:CORRECTIONS    -->
+    <string name="corrections_up">DÜZELTMELER</string>
+    <!-- Used in file stakeout_settings.xml:37. Original value:Position accuracy    -->
+    <string name="use_epochs">Konum Hassasiyeti</string>
+    <!-- Used in file SurveySettingsPreferenceFragment.java:825. Original value:Wrong antenna height!    -->
+    <string name="wrong_antenna_height">Anten Yüks.Yanlış!</string>
+    <!-- Used in file stakeout_settings.xml:79. Original value:5 Hz Mode    -->
+    <string name="five_hz_mode">5 Hz Modu</string>
+    <!-- Used in file status_bar.xml:143. Original value:log    -->
+    <string name="cur_log_file">log</string>
+    <!-- Used in file activity_configure_uhf.xml:218. Original value:Transparent protocol settings    -->
+    <string name="transparent_protocol_parameters">Transparent Protocol Ayarları</string>
+    <!-- Used in file stakeout_settings.xml:142. Original value:Hybrid RTK    -->
+    <string name="title_hybrid_rtk">Hybrid RTK</string>
+    <!-- Used in file activity_configure_wifi_from_style.xml:203. Original value:Apply    -->
+    <string name="button_apply">Onay</string>
+    <!-- Used in file rtk_base_rcv_base.xml:112. Original value:NetHub Port    -->
+    <string name="nethub_port">NetHub Port</string>
+    <!-- Used in file stakeout_settings.xml:22. Original value:Audio Stakeout    -->
+    <string name="audio_stakeout">Sesli Aplikasyon</string>
+    <!-- Used in file activity_satellite_types.xml:104. Original value:Gallileo    -->
+    <string name="check_gal">Gallileo</string>
+    <!-- Used in file activity_stakeout.xml:86. Original value:Along    -->
+    <string name="text_along">Boyunca</string>
     <!-- Used in file activity_confirm_point_survey.xml:153. Original value:Antenna    -->
     <string name="text_point_antenna">Anten</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:548. Original value:Sounds are off    -->
-    <string name="sounds_off">Sesler Kapalı</string>
-    <!-- Used in file survey_settings.xml:41. Original value:Traj.Min.Length    -->
-    <string name="trajector_length_filter">Min.Traj.Uzunluğu</string>
-    <!-- Used in file rtk_base_uhf.xml:22. Original value:Call Sign    -->
-    <string name="call_sign">Çağrı İşareti</string>
-    <!-- Used in file survey_settings.xml:73. Original value:This allows you to enter a string    -->
-    <string name="antenna_height_summary">Bu, bir dize girmenizi sağlar</string>
-    <!-- Used in file SurveyModel.java:2418. Original value:Epochs: RTK reset    -->
-    <string name="string_epochs_reset">Epochs: RTK reset</string>
-    <!-- Used in file survey_settings.xml:107. Original value:Logging Rate    -->
+    <!-- Used in file rtk_rover_start.xml:11. Original value:File Name    -->
+    <string name="survey_file_name">Dosya Adı</string>
+    <!-- Used in file rtk_base_rcv_base.xml:27. Original value:TCP Mode    -->
+    <string name="tcp_on">TCP Modu</string>
+    <!-- Used in file activity_power.xml:159. Original value:Enable Low Power Mode    -->
+    <string name="enable_low_power_mode">Düşük Güç Modu Uygula</string>
+    <!-- Used in file activity_stakeout.xml:215. Original value:Cut    -->
+    <string name="text_cut">Kazı</string>
+    <!-- Used in file rtk_base_rcv_base.xml:157. Original value:WiFi SSID    -->
+    <string name="wlan_ssid">WiFi SSID</string>
+    <!-- Used in file RTKBaseSettingsActivity.java:376. Original value:The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).    -->
+    <string name="jmtr_oaf_message">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).</string>
+    <!-- Used in file rtk_base_rcv.xml:39. Original value:Password    -->
+    <string name="password">Şifre</string>
+    <!-- Used in file rtk_base_uhf.xml:192. Original value:True 5Hz RTK    -->
+    <string name="true_5_hz">Gerçek 5Hz RTK</string>
+    <!-- Used in file quattro_attitude.xml:8. Original value:Distance AC    -->
+    <string name="quattro_distance_ac">Distance AC</string>
+    <!-- Used in file activity_wizard_05_corrections.xml:53. Original value:RCV Base    -->
+    <string name="radio_rcv_base">RCV Sabit</string>
+    <!-- Used in file duo_attitude.xml:5. Original value:Distance AB    -->
+    <string name="quattro_distance_ab">Distance AB</string>
+    <!-- Used in file quattro_attitude.xml:9. Original value:Distance AD    -->
+    <string name="quattro_distance_ad">Distance AD</string>
+    <!-- Used in file stakeout_settings.xml:155. Original value:Enable DGPS if no fixed/float    -->
+    <string name="string_enable_dgps">Fix/Float Değilse DGPS Etkin</string>
+    <!-- Used in file stakeout_settings.xml:130. Original value:Logging Rate    -->
     <string name="logging_rate">Logging Rate</string>
-    <!-- Used in file activity_surveying_settings.xml:260. Original value:Correct Inclination    -->
-    <string name="correct_inclination">Eğim Doğru</string>
-    <!-- Used in file settings_general.xml:3. Original value:SOUNDS    -->
-    <string name="sounds_up">SESLER</string>
-    <!-- Used in file survey_settings.xml:93. Original value:Switch between antenna input    -->
-    <string name="antenna_height_unit_summary">Anten girişler arası geçişyap</string>
-    <!-- Used in file StakeoutActivity.java:1246. Original value:Fill    -->
-    <string name="text_fill">Dolgu</string>
-    <!-- Used in file activity_stakeout_cutfill.xml:209. Original value:Deltas\n    -->
-    <string name="string_deltas">Deltalar\n</string>
-    <!-- Used in file source_table_row_header_dark.xml:92. Original value:GGA    -->
-    <string name="gga">GGA</string>
-    <!-- Used in file settings_general.xml:46. Original value:Epoch Rejected by Solution Type    -->
-    <string name="epoch_rejected_solution_type">Reddedildi by Solution Type</string>
-    <!-- Used in file settings_general.xml:123. Original value:Point store error    -->
-    <string name="survey_point_stored_error">Nokta Saklama Hatası</string>
-    <!-- Used in file SurveySettingsPreferenceFragment.java:199. Original value:%1$d epochs in %2$d groups with %3$s    -->
-    <string name="verify_description">%1$d epochs in %2$d groups with %3$s</string>
-    <!-- Used in file rtk_base_csd.xml:24. Original value:Rate    -->
-    <string name="csd_acbst_rate">Rate</string>
-    <!-- Used in file SourceTableActivity.java:537. Original value:Country    -->
-    <string name="string_country_sort">Ülke</string>
-    <!-- Used in file rtk_base.xml:61. Original value:BASE POSITION    -->
-    <string name="base_positionup">SABİTİN KONUMU</string>
-    <!-- Used in file rtk_base.xml:76. Original value:Read Coordinates From Receiver    -->
-    <string name="get_from_receiver_summary">Koordinatları Alıcıdan Oku</string>
+    <!-- Used in file SurveyingActivity.java:126. Original value:epochs collected    -->
+    <string name="epochs_collected2">epoch lar Toplandı</string>
+    <!-- Used in file activity_stakeout.xml:150. Original value:CTT    -->
+    <string name="text_ctt">Δa</string>
+    <!-- Used in file offsets.xml:24. Original value:Traverse    -->
+    <string name="string_menu_offset_traverse">Traverse</string>
+    <!-- Used in file stakeout_settings.xml:73. Original value:Verify    -->
+    <string name="verify_mode">Doğrulama</string>
+    <!-- Used in file rtk_base_rcv_base.xml:97. Original value:TCPO E    -->
+    <string name="correction_type_tcpo_e">TCPO E</string>
+    <!-- Used in file activity_antenna.xml:92. Original value:Use vertical offset    -->
+    <string name="antenna_use_vertical_offset">Use vertical offset</string>
     <!-- Used in file stakeout_settings.xml:12. Original value:Orientation    -->
     <string name="text_orientation">Oryantasyon</string>
-    <!-- Used in file settings_general.xml:116. Original value:Point stored OK    -->
-    <string name="survey_point_stored_ok">Nokta Saklandı OK</string>
-    <!-- Used in file rtk_base_uhf.xml:203. Original value:Read Modem Info    -->
-    <string name="read_modem_info">Modem Bilgisi Oku</string>
-    <!-- Used in file activity_satellite_types.xml:75. Original value:GLONASS    -->
-    <string name="check_glo">GLONASS</string>
-    <!-- Used in file rtk_rover_start.xml:3. Original value:Job Name    -->
-    <string name="survey_job_name2">İş Adı</string>
-    <!-- Used in file survey_settings.xml:45. Original value:Occupation Time    -->
-    <string name="occupation_time">Oturum(Ölçüm)Süresi</string>
-    <!-- Used in file receiver_info.xml:11. Original value:Size Of RAM    -->
-    <string name="receiver_sizeof_ram">RAM Boyutu</string>
-    <!-- Used in file rtk_base_uhf.xml:165. Original value:Trimmark3    -->
-    <string name="trimmark3">Trimmark3</string>
-    <!-- Used in file activity_surveying.xml:94. Original value:Ant.Height    -->
-    <string name="survey_antenna_height">Ant.Yüks.</string>
-    <!-- Used in file receiver_info.xml:6. Original value:Receiver ID    -->
-    <string name="receiver_id">Alıcı Adı</string>
-    <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:151. Original value:Wrong maximum uncorrected tilt angle!    -->
-    <string name="wrong_maximum_uncorrected_tilt_angle">Düzeltilmeyen maksimum eğim açısı yanlış!</string>
-    <!-- Used in file source_table_row_header_dark.xml:36. Original value:Messages    -->
-    <string name="format_messages">Mesaj</string>
-    <!-- Used in file activity_rtk_setup.xml:103. Original value:Reconfigure Receiver    -->
-    <string name="reconfigure_receiver">AlıcıyıYeniden Yapılandır</string>
-    <!-- Used in file activity_rtk_setup.xml:39. Original value:Stop RTK    -->
-    <string name="button_stop">RTK Durdur</string>
-    <!-- Used in file source_table_row_header_dark.xml:57. Original value:Network    -->
-    <string name="network">Network</string>
-    <!-- Used in file activity_power.xml:143. Original value:Battery Charging Mode    -->
-    <string name="text_battery_charging_mode">Batarya Şarj Modu</string>
-    <!-- Used in file rtk_base.xml:147. Original value:Start Station    -->
-    <string name="start_station2">İstasyon Başlat</string>
-    <!-- Used in file rtk_rover_start.xml:15. Original value:Start Station    -->
-    <string name="survey_start_station2">İstasyon Başlat</string>
-    <!-- Used in file SurveyModel.java:2408. Original value:Elapsed time    -->
-    <string name="elapsed_time">Geçen Süre</string>
-    <!-- Used in file offset_survey.xml:113. Original value:Store Offset    -->
-    <string name="button_store_offset">Ofset Sakla</string>
-    <!-- Used in file activity_map_stakeout.xml:174. Original value:NTT    -->
-    <string name="text_ntt_map">ΔX</string>
-    <!-- Used in file activity_stakeout.xml:128. Original value:DTT    -->
-    <string name="text_dtt">Δs</string>
-    <!-- Used in file rtk_base_uhf.xml:149. Original value:Trimmark II/IIe    -->
-    <string name="trimmarkii">Trimmark II/IIe</string>
-    <!-- Used in file settings_general.xml:137. Original value:RTK Fix Ready    -->
-    <string name="fix_ready">RTK Fix Hazır</string>
-    <!-- Used in file SurveyModel.java:523. Original value:Can\'t program auto-close file!    -->
-    <string name="cant_program_session">Dosya Oto Kapat  programlayamazsınız!</string>
-    <!-- Used in file survey_settings.xml:161. Original value:Ref.Frame    -->
-    <string name="reference_frame">Ref.Frame</string>
-    <!-- Used in file verify_settings.xml:8. Original value:Verify settings    -->
-    <string name="string_verify_settings">Doğrulama Ayarları</string>
-    <!-- Used in file receiver_info.xml:18. Original value:External Power, V    -->
-    <string name="receiver_external_power">Harici Güç, V</string>
-    <!-- Used in file jmt_info.xml:9. Original value:Controller    -->
-    <string name="jmt_controller">Kont.Ünitesi</string>
-    <!-- Used in file source_table_row_header_dark.xml:43. Original value:Carrier    -->
-    <string name="carrier">Taşıyıcı</string>
-    <!-- Used in file activity_survey_styles.xml:41. Original value:Duplicate    -->
-    <string name="string_duplicate">Duplicate</string>
-    <!-- Used in file receiver_info.xml:19. Original value:LAN IP    -->
-    <string name="receiver_lan_ip">LAN IP</string>
+    <!-- Used in file rtk_base_rcv_base.xml:87. Original value:TCPO C    -->
+    <string name="correction_type_tcpo_c">TCPO C</string>
+    <!-- Used in file rtk_base_rcv_base.xml:92. Original value:TCPO D    -->
+    <string name="correction_type_tcpo_d">TCPO D</string>
+    <!-- Used in file rtk_base_rcv_base.xml:72. Original value:TCPO A    -->
+    <string name="correction_type_tcpo_a">TCPO A</string>
+    <!-- Used in file rtk_base_rcv_base.xml:82. Original value:TCPO B    -->
+    <string name="correction_type_tcpo_b">TCPO B</string>
+    <!-- Used in file stakeout_settings.xml:182. Original value:RTK Computation mode    -->
+    <string name="rtk_computation_mode">RTK Hesap Modu</string>
+    <!-- Used in file activity_configure_ntrip.xml:244. Original value:AIM aux Port    -->
+    <string name="string_aux_port">AIM aux Port</string>
+    <!-- Used in file satellite_row_header.xml:49. Original value:Azimuth    -->
+    <string name="azimuth">Semt</string>
+    <!-- Used in file StakeoutActivity.java:755. Original value:Pnt.Target    -->
+    <string name="target_point_small">Hedef Nokta</string>
+    <!-- Used in file SurveyModel.java:1344. Original value:1 minute    -->
+    <string name="minute">1 Dakika</string>
+    <!-- Used in file activity_configure_gprs.xml:91. Original value:Registration    -->
+    <string name="registration_mode">Kayıt</string>
+    <!-- Used in file rtk_rover_start.xml:3. Original value:RECEIVER SETUP    -->
+    <string name="survey_receiver_setup">ALICI KURULUM</string>
+    <!-- Used in file SurveyModel.java:566. Original value:Can\'t obtain current receiver time!    -->
+    <string name="cant_read_receivertime_to_program">Mevcut alıcı zamanı elde edemiyor!</string>
+    <!-- Used in file activity_antenna.xml:79. Original value:Height type    -->
+    <string name="antenna_height_type">Yüks.Tipi</string>
+    <!-- Used in file activity_stakeout.xml:337. Original value:Target    -->
+    <string name="text_zoom_target">Hedef</string>
+    <!-- Used in file activity_stakeout.xml:304. Original value::    -->
+    <string name="text_comma">:</string>
+    <!-- Used in file settings_general.xml:18. Original value:Low Bluetooth/WiFi connection    -->
+    <string name="bluetooth_quality">Düşük Bluetooth/WiFi Bağlantı</string>
+    <!-- Used in file activity_stakeout_cutfill.xml:28. Original value:Point\n    -->
+    <string name="text_point_name">Nokta\n</string>
+    <!-- Used in file job_info.xml:4. Original value:Job Name    -->
+    <string name="job_name">İş Adı</string>
+    <!-- Used in file MapStakeoutActivity.java:1236. Original value:Left    -->
+    <string name="text_left">Sol</string>
+    <!-- Used in file activity_map_stakeout.xml:41. Original value:Y    -->
+    <string name="text_y_map">Y</string>
+    <!-- UNUSED STRING 
+    <string name="antenna_show_vertical_offset">Düşey Ofset Göster</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="show_vertical_offsets">Düşey Ofset Göster</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_can_t_setup_rcv_base">RCV Sabit kurulamaz</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_directcall_csd_">DirectCall(CSD)</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_ellapsed_time__d_sec">Tahmini Süre %d sec</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_receiver_file_name_is_incorrect_">Alıcı Dosya Adı Hatalı!</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string__d____d_epoch_collected___d_rejected_">%1$d / %2$d epoch toplandı (%3$d rejected)</string>
+    -->
 
 </resources>

@@ -1,142 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_process_hybrid_rtk.xml:51. Original value:Authenticate as    -->
-    <string name="authenticate_as_device">Kimlik Doğrulama</string>
-    <!-- Used in file activity_process_opus_result.xml:32. Original value:Catalog    -->
-    <string name="catalog">Katalok</string>
-    <!-- Used in file file_list.xml:16. Original value:Do HybridRTK    -->
-    <string name="do_hybrid_rtk">HybridRTK Yap</string>
-    <!-- Used in file list_hybrid_rtk_result_header.xml:40. Original value:Antenna    -->
-    <string name="string_antenna3">Anten</string>
-    <!-- Used in file dpos_process2.xml:7. Original value:Use Debug server    -->
-    <string name="use_debug_server">Kullanım ayıklama sunucusu</string>
-    <!-- Used in file activity_dpos_rtk_base.xml:52. Original value:Point    -->
-    <string name="button_point_name">Nokta</string>
-    <!-- Used in file activity_process_opus.xml:170. Original value:Out.Format    -->
-    <string name="output_format">Çıktı Formatı</string>
-    <!-- Used in file OpusProcessResultActivity.java:123. Original value:DPOS Process Result    -->
-    <string name="title_dpos_result">DPOS Proses Sonucu</string>
-    <!-- Used in file list_hybrid_rtk_header.xml:34. Original value:Antenna    -->
-    <string name="string_antenna_hrtk">Anten</string>
-    <!-- Used in file AndroidManifest.xml:42. Original value:OPUS Process Result    -->
-    <string name="title_activity_opus_result_process">OPUS Proses Sonuç</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:45. Original value:Coordinates    -->
+    <string name="text_coordinates">Koordinatlar</string>
+    <!-- Used in file activity_process_opus_result.xml:53. Original value:VBRTK    -->
+    <string name="vbrtk">VBRTK</string>
     <!-- Used in file list_hybrid_rtk_header.xml:64. Original value:V.Offset    -->
     <string name="string_antenna_vertical_offset">V.Ofset</string>
-    <!-- Used in file activity_process_opus.xml:114. Original value:Height Type    -->
+    <!-- Used in file list_hybrid_rtk_header2.xml:22. Original value:Point Name  /  File Name    -->
+    <string name="string_point_file">Nokta Adı / Dosya Adı</string>
+    <!-- Used in file list_vbrtk_point.xml:67. Original value:-&gt;    -->
+    <string name="arrow">-&gt;</string>
+    <!-- Used in file activity_process_opus.xml:170. Original value:Out.Format    -->
+    <string name="output_format">Çıktı Formatı</string>
+    <!-- Used in file activity_process_opus_result.xml:26. Original value:Add to Catalog    -->
+    <string name="add_to_catalog">Katalog a ekle</string>
+    <!-- Used in file list_hybrid_rtk_header.xml:54. Original value:Type    -->
+    <string name="string_antenna_height_type">Tip</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:42. Original value:Mode    -->
+    <string name="string_process_mode">Mod</string>
+    <!-- Used in file activity_process_dpos2.xml:178. Original value:Height Type    -->
     <string name="antenna_height_type_opus">Yüks.Tipi</string>
-    <!-- Used in file activity_process_hybrid_rtk.xml:70. Original value:Network    -->
-    <string name="dpos_network">Network</string>
-    <!-- Used in file activity_file_list.xml:37. Original value:Process OPUS    -->
-    <string name="button_process_opus">OPUS Proses</string>
-    <!-- Used in file list_hybrid_rtk_header2.xml:32. Original value:Antenna Height    -->
-    <string name="string_antenna_all">Anten Yüks.</string>
-    <!-- Used in file activity_process_hybrid_rtk.xml:108. Original value:No base    -->
-    <string name="string_no_base">Sabit Yok</string>
-    <!-- Used in file list_hybrid_rtk_result_header.xml:30. Original value:Coordinates    -->
-    <string name="string_coordinates">Koordinatlar</string>
-    <!-- Used in file activity_process_opus.xml:151. Original value:Rapid Static    -->
-    <string name="rapid_static">Hızlı Statik</string>
-    <!-- Used in file AndroidManifest.xml:25. Original value:File List    -->
-    <string name="title_activity_file_list">Dosya Liste</string>
-    <!-- Used in file AndroidManifest.xml:34. Original value:OPUS Process    -->
-    <string name="title_activity_opus_process">OPUS Proses</string>
-    <!-- Used in file activity_process_hybrid_rtk_result.xml:29. Original value:Save Results    -->
-    <string name="button_save">Sonuçları Sakla</string>
-    <!-- Used in file activity_process_opus.xml:208. Original value:Server    -->
-    <string name="dpos_server">DPOS Server</string>
-    <!-- Used in file activity_process_opus.xml:47. Original value:e-mail    -->
-    <string name="email">e-mail</string>
-    <!-- Used in file AttachDeviceActivity.java:169. Original value:Revoke Connection    -->
-    <string name="button_revoke">Bağlantı Gerial</string>
-    <!-- Used in file activity_process_opus_result.xml:46. Original value:Update HybridRTK coordinate for point    -->
-    <string name="hybrid_rtk">Nokta Koordinatlarını HybridRTK ile Güncelle</string>
+    <!-- Used in file activity_attach_device.xml:31. Original value:Establish Connection    -->
+    <string name="button_handshake">Bağlantı Kur</string>
+    <!-- Used in file activity_process_opus_result.xml:14. Original value:Save Report    -->
+    <string name="save_result">Rapor Sakla</string>
+    <!-- Used in file activity_process_opus_result.xml:32. Original value:Catalog    -->
+    <string name="catalog">Katalok</string>
     <!-- Used in file OpusProcessResultActivity.java:123. Original value:OPUS Process Result    -->
     <string name="title_opus_result">OPUS Proses Sonuç</string>
-    <!-- Used in file AttachDeviceActivity.java:175. Original value:
+    <!-- Used in file OpusProcessResultActivity.java:269. Original value:Update HybridRTK coordinate for point %s    -->
+    <string name="hybrid_rtk_format">Nokta Koordinatları HybridRTK ile Güncellendi %s</string>
+    <!-- Used in file activity_process_dpos2.xml:102. Original value:Network    -->
+    <string name="dpos_network">Network</string>
+    <!-- Used in file activity_file_list.xml:44. Original value:Process DPOS    -->
+    <string name="button_process_jopus">Proses DPOS</string>
+    <!-- Used in file activity_file_list.xml:76. Original value:. . .    -->
+    <string name="button_select">. . .</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:32. Original value:Antenna Height    -->
+    <string name="string_antenna_all">Anten Yüks.</string>
+    <!-- Used in file AndroidManifest.xml:42. Original value:OPUS Process Result    -->
+    <string name="title_activity_opus_result_process">OPUS Proses Sonuç</string>
+    <!-- Used in file file_list.xml:16. Original value:Do HybridRTK    -->
+    <string name="do_hybrid_rtk">HybridRTK Yap</string>
+    <!-- Used in file activity_process_dpos2.xml:236. Original value:No base    -->
+    <string name="string_no_base">Sabit Yok</string>
+    <!-- Used in file activity_process_hybrid_rtk_result.xml:29. Original value:Save Results    -->
+    <string name="button_save">Sonuçları Sakla</string>
+    <!-- Used in file activity_process_opus_result.xml:46. Original value:Update HybridRTK coordinate for point    -->
+    <string name="hybrid_rtk">Nokta Koordinatlarını HybridRTK ile Güncelle</string>
+    <!-- Used in file activity_process_dpos.xml:181. Original value:Process as Device    -->
+    <string name="process_as_device">Proses  Cihaz</string>
+    <!-- Used in file activity_process_dpos2.xml:264. Original value:Send to OPUS    -->
+    <string name="button_start_process">OPUS a gönder</string>
+    <!-- Used in file activity_file_list.xml:30. Original value:Delete    -->
+    <string name="button_delete">Sil</string>
+    <!-- Used in file activity_process_opus.xml:85. Original value:Antenna Height\n(vert. in meters)    -->
+    <string name="antenna_height_opus">Anten Yüks\n(düşy. metre)</string>
+    <!-- Used in file activity_process_dpos2.xml:63. Original value:Server    -->
+    <string name="dpos_server">DPOS Server</string>
+    <!-- Used in file AttachDeviceActivity.java:182. Original value:
         &lt;h1&gt;Attach Device to DPOS&lt;/h1&gt;
         Please visit out &lt;b&gt;JAVAD Customer Area&lt;b&gt; at &lt;b&gt;app.javad.com&lt;b&gt; and navigate to J-FieldAssistant/&lt;b&gt;Devices&lt;b&gt; section.&lt;br&gt; &lt;/br&gt;
            Follow to instructions in &lt;b&gt;Connect device&lt;b&gt; widget on the page to generate a new handshake key.&lt;br&gt;&lt;/br&gt;
            Enter this key into field below and click &lt;b&gt;Establish Connection&lt;/b&gt; button to complete the procedure.
         -->
     <string name="html_handshake">&lt;h1&gt;Attach Device to DPOS&lt;/h1&gt;         Please visit out &lt;b&gt;JAVAD Customer Area&lt;b&gt; at &lt;b&gt;app.javad.com&lt;b&gt; and navigate to J-FieldAssistant/&lt;b&gt;Devices&lt;b&gt; section.&lt;br&gt; &lt;/br&gt;            Follow to instructions in &lt;b&gt;Connect device&lt;b&gt; widget on the page to generate a new handshake key.&lt;br&gt;&lt;/br&gt;            Enter this key into field below and click &lt;b&gt;Establish Connection&lt;/b&gt; button to complete the procedure.</string>
-    <!-- Used in file AndroidManifest.xml:20. Original value:OPUS Process    -->
-    <string name="app_name">OPUS Proses</string>
-    <!-- Used in file opus_process.xml:6. Original value:Attach Device    -->
-    <string name="action_attach_device">Cihaz ekle</string>
-    <!-- Used in file list_vbrtk_point.xml:67. Original value:-&gt;    -->
-    <string name="arrow">-&gt;</string>
-    <!-- Used in file list_hybrid_rtk_header.xml:44. Original value:Antenna Height    -->
-    <string name="string_antenna_height">Antenna Height</string>
-    <!-- Used in file AttachDeviceActivity.java:166. Original value:
+    <!-- Used in file OpusProcessResultActivity.java:123. Original value:DPOS Process Result    -->
+    <string name="title_dpos_result">DPOS Proses Sonucu</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:32. Original value:Base file    -->
+    <string name="base_file">Sabit Dosya</string>
+    <!-- Used in file list_hybrid_rtk_result_header.xml:40. Original value:Antenna    -->
+    <string name="string_antenna3">Anten</string>
+    <!-- Used in file activity_process_opus.xml:151. Original value:Rapid Static    -->
+    <string name="rapid_static">Hızlı Statik</string>
+    <!-- Used in file FileListActivity.java:96. Original value:DPOS HybridRTK    -->
+    <string name="action_hybrid_rtk">DPOS HybridRTK</string>
+    <!-- Used in file AttachDeviceActivity.java:173. Original value:
         &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
         Connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt; is established!&lt;br&gt; 
         Please check for the available services at &lt;b&gt;app.javad.com&lt;b&gt;
         -->
     <string name="html_revoke">&lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;         Connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt; is established!&lt;br&gt;          Please check for the available services at &lt;b&gt;app.javad.com&lt;b&gt;</string>
-    <!-- Used in file activity_file_list.xml:60. Original value:Folder\nof files:    -->
-    <string name="text_folder2">Klasör\nDosyalar:</string>
-    <!-- Used in file activity_process_opus_result.xml:53. Original value:VBRTK    -->
-    <string name="vbrtk">VBRTK</string>
-    <!-- Used in file list_hybrid_rtk_result_header.xml:20. Original value:Point Name  /  File Name    -->
-    <string name="string_point_file">Nokta Adı / Dosya Adı</string>
-    <!-- Used in file activity_attach_device.xml:31. Original value:Establish Connection    -->
-    <string name="button_handshake">Bağlantı Kur</string>
+    <!-- Used in file DPOSProcessHybridRTKActivity.java:194. Original value:%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s    -->
+    <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
+    <!-- Used in file list_hybrid_rtk_header2.xml:12. Original value:Use    -->
+    <string name="string_use_header">Kullan</string>
+    <!-- Used in file activity_process_opus.xml:47. Original value:e-mail    -->
+    <string name="email">e-mail</string>
     <!-- Used in file activity_process_opus.xml:181. Original value:Project Id    -->
     <string name="project_id">Proje Adı</string>
-    <!-- Used in file list_hybrid_rtk_header.xml:54. Original value:Type    -->
-    <string name="string_antenna_height_type">Tip</string>
-    <!-- Used in file activity_process_dpos2.xml:151. Original value:Antenna Height    -->
-    <string name="antenna_height_dpos">Anten Yüks. metre</string>
-    <!-- Used in file activity_dpos_rtk_base.xml:45. Original value:Coordinates    -->
-    <string name="text_coordinates">Koordinatlar</string>
-    <!-- Used in file activity_dpos_rtk_base.xml:32. Original value:Base file    -->
-    <string name="base_file">Sabit Dosya</string>
-    <!-- Used in file activity_process_opus.xml:74. Original value:Antenna Id    -->
+    <!-- Used in file list_hybrid_rtk_header.xml:34. Original value:Antenna    -->
+    <string name="string_antenna_hrtk">Anten</string>
+    <!-- Used in file activity_process_dpos2.xml:140. Original value:Antenna Id    -->
     <string name="antenna_id_opus">Anten Adı</string>
-    <!-- Used in file FileListActivity.java:96. Original value:DPOS HybridRTK    -->
-    <string name="action_hybrid_rtk">DPOS HybridRTK</string>
-    <!-- Used in file activity_process_hybrid_rtk.xml:89. Original value:Engine    -->
-    <string name="dpos_engine">HesapMotoru</string>
-    <!-- Used in file activity_process_dpos.xml:181. Original value:Process as Device    -->
-    <string name="process_as_device">Proses  Cihaz</string>
-    <!-- Used in file activity_process_opus_result.xml:26. Original value:Add to Catalog    -->
-    <string name="add_to_catalog">Katalog a ekle</string>
-    <!-- Used in file activity_process_opus_result.xml:14. Original value:Save Report    -->
-    <string name="save_result">Rapor Sakla</string>
-    <!-- Used in file list_hybrid_rtk_result_header.xml:10. Original value:Use    -->
-    <string name="string_use_header">Kullan</string>
-    <!-- Used in file activity_file_list.xml:23. Original value:View    -->
-    <string name="button_view">Gör</string>
-    <!-- Used in file activity_file_list.xml:76. Original value:. . .    -->
-    <string name="button_select">. . .</string>
-    <!-- Used in file AttachDeviceActivity.java:182. Original value:
+    <!-- Used in file activity_process_dpos2.xml:216. Original value:Process Mode    -->
+    <string name="process_mode">Proses Modu</string>
+    <!-- Used in file activity_process_dpos2.xml:82. Original value:Authenticate as    -->
+    <string name="authenticate_as_device">Kimlik Doğrulama</string>
+    <!-- Used in file AttachDeviceActivity.java:189. Original value:
         &lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;
         No connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt;!&lt;br&gt; 
         Please check Internet connection on your device!
         -->
     <string name="html_no_internet">&lt;h1&gt;Device to DPOS Connection&lt;/h1&gt;         No connection to &lt;b&gt;JAVAD Customer Area&lt;b&gt;!&lt;br&gt;          Please check Internet connection on your device!</string>
-    <!-- Used in file activity_process_dpos2.xml:216. Original value:Process Mode    -->
-    <string name="process_mode">Proses Modu</string>
-    <!-- Used in file activity_process_hybrid_rtk.xml:100. Original value:Base file    -->
+    <!-- Used in file activity_file_list.xml:23. Original value:View    -->
+    <string name="button_view">Gör</string>
+    <!-- Used in file activity_file_list.xml:37. Original value:Process OPUS    -->
+    <string name="button_process_opus">OPUS Proses</string>
+    <!-- Used in file AndroidManifest.xml:25. Original value:File List    -->
+    <string name="title_activity_file_list">Dosya Liste</string>
+    <!-- Used in file activity_process_dpos2.xml:36. Original value:File Name    -->
+    <string name="file_name">Dosya Adı</string>
+    <!-- Used in file activity_dpos_rtk_base.xml:52. Original value:Point    -->
+    <string name="button_point_name">Nokta</string>
+    <!-- Used in file AndroidManifest.xml:20. Original value:OPUS Process    -->
+    <string name="app_name">OPUS Proses</string>
+    <!-- Used in file activity_process_dpos2.xml:121. Original value:Engine    -->
+    <string name="dpos_engine">HesapMotoru</string>
+    <!-- Used in file activity_process_dpos2.xml:229. Original value:Base file    -->
     <string name="string_base_file">Sabit Dosya</string>
-    <!-- Used in file activity_process_opus.xml:85. Original value:Antenna Height\n(vert. in meters)    -->
-    <string name="antenna_height_opus">Anten Yüks\n(düşy. metre)</string>
+    <!-- Used in file list_hybrid_rtk_result_header.xml:30. Original value:Coordinates    -->
+    <string name="string_coordinates">Koordinatlar</string>
+    <!-- Used in file activity_process_dpos2.xml:151. Original value:Antenna Height    -->
+    <string name="antenna_height_dpos">Anten Yüks. metre</string>
+    <!-- Used in file activity_file_list.xml:60. Original value:Folder\nof files:    -->
+    <string name="text_folder2">Klasör\nDosyalar:</string>
     <!-- Used in file file_list.xml:6. Original value:Settings    -->
     <string name="action_settings">Ayarlar</string>
-    <!-- Used in file activity_process_opus.xml:235. Original value:Send to OPUS    -->
-    <string name="button_start_process">OPUS a gönder</string>
-    <!-- Used in file activity_file_list.xml:30. Original value:Delete    -->
-    <string name="button_delete">Sil</string>
-    <!-- Used in file DPOSProcessHybridRTKActivity.java:194. Original value:%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s    -->
-    <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
-    <!-- Used in file activity_process_opus.xml:35. Original value:File Name    -->
-    <string name="file_name">Dosya Adı</string>
-    <!-- Used in file OpusProcessResultActivity.java:269. Original value:Update HybridRTK coordinate for point %s    -->
-    <string name="hybrid_rtk_format">Nokta Koordinatları HybridRTK ile Güncellendi %s</string>
-    <!-- Used in file list_hybrid_rtk_header2.xml:42. Original value:Mode    -->
-    <string name="string_process_mode">Mod</string>
-    <!-- Used in file activity_file_list.xml:44. Original value:Process DPOS    -->
-    <string name="button_process_jopus">Proses DPOS</string>
+    <!-- Used in file opus_process.xml:6. Original value:Attach Device    -->
+    <string name="action_attach_device">Cihaz ekle</string>
+    <!-- Used in file AndroidManifest.xml:34. Original value:OPUS Process    -->
+    <string name="title_activity_opus_process">OPUS Proses</string>
+    <!-- Used in file AttachDeviceActivity.java:176. Original value:Revoke Connection    -->
+    <string name="button_revoke">Bağlantı Gerial</string>
+    <!-- Used in file attach_device.xml:7. Original value:Use Debug server    -->
+    <string name="use_debug_server">Kullanım ayıklama sunucusu</string>
+    <!-- Used in file list_hybrid_rtk_header.xml:44. Original value:Antenna Height    -->
+    <string name="string_antenna_height">Antenna Height</string>
 
 </resources>
