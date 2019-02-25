@@ -125,17 +125,17 @@
          <item>simplex</item>
     </string-array>
 
+    <!-- Used in file activity_configure_gprs.xml:53 -->
+    <string-array name="hot_start_array">
+         <item>on</item>
+         <item>off</item>
+    </string-array>
+
     <!-- Used in file rtk_base_fh.xml:22 -->
     <string-array name="fh_zones">
          <item>usa</item>
          <item>aus</item>
          <item>eu</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_gprs.xml:53 -->
-    <string-array name="hot_start_array">
-         <item>on</item>
-         <item>off</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:145 -->
@@ -144,16 +144,11 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base.xml:123 -->
-    <string-array name="radioarray">
-         <item>Не настраивать</item>
-         <item>FH модем</item>
-         <item>UHF модем</item>
-    </string-array>
-
-    <!-- Used in file RTKBaseSettingsFragment.java:1190 -->
-    <string-array name="connected_to_array_csd_sigma">
-         <item>Internal GSM</item>
+    <!-- Used in file rtk_base_rcv_base.xml:135 -->
+    <string-array name="dhcp_array">
+         <item>Выкл</item>
+         <item>Клиент</item>
+         <item>Сервер</item>
     </string-array>
 
     <!-- Used in file RTKSetupActivity.java:685 -->
@@ -163,11 +158,16 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file rtk_base_rcv_base.xml:135 -->
-    <string-array name="dhcp_array">
-         <item>Выкл</item>
-         <item>Клиент</item>
-         <item>Сервер</item>
+    <!-- Used in file RTKBaseSettingsFragment.java:1190 -->
+    <string-array name="connected_to_array_csd_sigma">
+         <item>Internal GSM</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:123 -->
+    <string-array name="radioarray">
+         <item>Не настраивать</item>
+         <item>FH модем</item>
+         <item>UHF модем</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:14 -->
@@ -185,14 +185,14 @@
          <item>jps</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:140 -->
-    <string-array name="tt450shw_modulations">
-         <item>gmsk</item>
-    </string-array>
-
     <!-- Used in file rtk_base_rcv.xml:16 -->
     <string-array name="connected_to_array_internet">
          <item>через смартфон с Android</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:140 -->
+    <string-array name="tt450shw_modulations">
+         <item>gmsk</item>
     </string-array>
 
     <!-- Used in file RTKSetupActivity.java:683 -->
@@ -399,12 +399,6 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:177 -->
-    <string-array name="trimmark3_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
     <!-- Used in file activity_configure_uhf.xml:116 -->
     <string-array name="uhf_output_power">
          <item>0.030W / 15dBm</item>
@@ -438,6 +432,12 @@
          <item>20.00W / 43dBm</item>
          <item>25.00W / 44dBm</item>
          <item>35.00W / 45dBm</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:177 -->
+    <string-array name="trimmark3_spacings">
+         <item>12500</item>
+         <item>25000</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:165 -->
@@ -480,6 +480,12 @@
          <item>25000</item>
     </string-array>
 
+    <!-- Used in file rtk_base_uhf.xml:96 -->
+    <string-array name="satel_spacings">
+         <item>12500</item>
+         <item>25000</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:47 -->
     <string-array name="simplex_modulations">
          <item>dbpsk</item>
@@ -488,10 +494,11 @@
          <item>d16qam</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:96 -->
-    <string-array name="satel_spacings">
-         <item>12500</item>
-         <item>25000</item>
+    <!-- Used in file RTKSetupActivity.java:677 -->
+    <string-array name="connected_to_array_radio">
+         <item>Bluetooth B</item>
+         <item>Serial B</item>
+         <item>Внутренний модем</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:190 -->
@@ -503,11 +510,16 @@
          <item>5 сек</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:677 -->
-    <string-array name="connected_to_array_radio">
-         <item>Bluetooth B</item>
-         <item>Serial B</item>
-         <item>Внутренний модем</item>
+    <!-- Used in file stakeout_settings.xml:135 -->
+    <string-array name="logging_rate_rtk_array">
+         <item>0.2 сек (5Гц)</item>
+         <item>0.5 сек (2Гц)</item>
+         <item>1 сек</item>
+         <item>5 сек</item>
+         <item>10 сек</item>
+         <item>15 сек</item>
+         <item>30 сек</item>
+         <item>60 сек</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:28 -->
@@ -547,22 +559,17 @@
          <item>35.00W / 45dBm</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:135 -->
-    <string-array name="logging_rate_rtk_array">
-         <item>0.2 сек (5Гц)</item>
-         <item>0.5 сек (2Гц)</item>
-         <item>1 сек</item>
-         <item>5 сек</item>
-         <item>10 сек</item>
-         <item>15 сек</item>
-         <item>30 сек</item>
-         <item>60 сек</item>
-    </string-array>
-
     <!-- Used in file rtk_base_uhf.xml:69 -->
     <string-array name="transparent_modulations">
          <item>gmsk</item>
          <item>4fsk</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
+    <string-array name="wifi_mode_array">
+         <item>off</item>
+         <item>on</item>
+         <item>adhoc</item>
     </string-array>
 
     <!-- Used in file activity_configure_rcv.xml:128 -->
@@ -575,11 +582,12 @@
          <item>e</item>
     </string-array>
 
-    <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
-    <string-array name="wifi_mode_array">
-         <item>off</item>
-         <item>on</item>
-         <item>adhoc</item>
+    <!-- Used in file activity_configure_ntrip.xml:243 -->
+    <string-array name="aux_port_array">
+         <item>dev/ser/a</item>
+         <item>dev/ser/b</item>
+         <item>dev/ser/c</item>
+         <item>dev/ser/d</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:120 -->
@@ -589,23 +597,10 @@
          <item>межд.футы</item>
     </string-array>
 
-    <!-- Used in file activity_configure_ntrip.xml:243 -->
-    <string-array name="aux_port_array">
-         <item>dev/ser/a</item>
-         <item>dev/ser/b</item>
-         <item>dev/ser/c</item>
-         <item>dev/ser/d</item>
-    </string-array>
-
     <!-- Used in file stakeout_settings.xml:19 -->
     <string-array name="azimuth_array">
          <item>Геодезический</item>
          <item>Магнитный</item>
-    </string-array>
-
-    <!-- Used in file rtk_base_uhf.xml:156 -->
-    <string-array name="trimmarkii_modulations">
-         <item>gmsk</item>
     </string-array>
 
     <!-- Used in file SurveyingRTKActivity.java:2415 -->
@@ -614,12 +609,9 @@
          <item>из P1</item>
     </string-array>
 
-    <!-- Used in file activity_configure_gprs.xml:90 -->
-    <string-array name="registration_mode_array">
-         <item>auto</item>
-         <item>2g</item>
-         <item>3g</item>
-         <item>4g</item>
+    <!-- Used in file rtk_base_uhf.xml:156 -->
+    <string-array name="trimmarkii_modulations">
+         <item>gmsk</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:197 -->
@@ -631,6 +623,14 @@
          <item>NAD83(MA11)</item>
          <item>ETRS89</item>
          <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_gprs.xml:90 -->
+    <string-array name="registration_mode_array">
+         <item>auto</item>
+         <item>2g</item>
+         <item>3g</item>
+         <item>4g</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:74 -->
