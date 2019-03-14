@@ -1,135 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file OAFUpdateActivity.java:351. Original value:Installing&#8230;  -->
-    <string name="string_installing___">Instalowanie…</string>
-    <!--  Used in file OAFUpdateActivity.java:351. Original value:OAF downloaded.  -->
-    <string name="string_oaf_downloaded_">Pobrano OAF</string>
-    <!--  Used in file ResetFragment.java:475. Original value:Restore receiver settings  -->
-    <string name="string_restore_receiver_settings">Przywróć ustawienia odbiornika</string>
-    <!--  Used in file ResetFragment.java:139. Original value:Receiver reset  -->
-    <string name="string_receiver_reset">Resetuj odbiornik</string>
-    <!--  Used in file ResetFragment.java:331. Original value:Receiver settings successfully saved to file %s  -->
-    <string name="string_receiver_settings_successfully_saved_to_file__s">Ustawienia odbiornika zapisano do pliku %s</string>
-    <!--  Used in file ResetFragment.java:134. Original value:This will turn it off and on  -->
-    <string name="string_this_will_turn_it_off_and_on">Wyłączenie i włączenie odbiornika</string>
-    <!--  Used in file OAFUpdateActivity.java:270. Original value:Option update error!  -->
-    <string name="string_option_update_error_">Błąd aktualizacji opcji!</string>
-    <!--  Used in file ResetFragment.java:60. Original value:Cleared NVRAM!  -->
-    <string name="string_cleared_nvram_">Wyczyszczono NVRAM!</string>
-    <!--  Used in file ResetFragment.java:284. Original value:File exist  -->
-    <string name="string_file_exist">File exist</string>
-    <!--  Used in file ResetFragment.java:160. Original value:Do you want to reset RTK?  -->
-    <string name="string_do_you_want_to_reset_rtk_">Czy chcesz zresetować RTK?</string>
-    <!--  Used in file OAFUpdateActivity.java:245. Original value:The file is corrupted or not a correct option OAF file!  -->
-    <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Plik uszkodzony lub niewłaściwy!</string>
-    <!--  Used in file FirmwareUpdateActivity.java:548. Original value:Restarting&#8230;  -->
-    <string name="string_restarting___">Restartowanie…</string>
-    <!--  Used in file FirmwareUpdateActivity.java:144. Original value:Latest Firmware version on site is %1$s %2$s  -->
-    <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Ostatnia wersja FW na stronie to %1$s %2$s</string>
-    <!--  Used in file ResetFragment.java:159. Original value:Reset RTK  -->
-    <string name="string_reset_rtk">Reset RTK</string>
-    <!--  Used in file FirmwareUpdateActivity.java:344. Original value:Firmware update error!  -->
-    <string name="string_firmware_update_error_">Błąd aktualizacji FW!</string>
-    <!--  Used in file ResetFragment.java:113. Original value:File System Cleared!  -->
-    <string name="string_file_system_cleared_">Wyczyszczono system plików!</string>
-    <!--  Used in file ResetFragment.java:165. Original value:RTK reset!  -->
-    <string name="string_rtk_reset_">Reset RTK!</string>
-    <!--  Used in file ResetFragment.java:160. Original value:This will drop RTK solution  -->
-    <string name="string_this_will_drop_rtk_solution">Porzucenie aktualnego rozwiązania</string>
-    <!--  Used in file FirmwareUpdateActivity.java:142. Original value:Receiver Firmware version is %s  -->
-    <string name="string_receiver_firmware_version_is__s">Wersja FW odbiornika to %s</string>
-    <!--  Used in file ResetFragment.java:369. Original value:Can\'t open template!  -->
-    <string name="string_can_t_open_template_">Nie można otworzyć szablonu!</string>
-    <!--  Used in file ResetFragment.java:108. Original value:This will delete all receiver jps files.  -->
-    <string name="string_this_will_delete_all_receiver_jps_files_">Usunięcie wszystkich sesji z pamięci odbiornika.</string>
-    <!--  Used in file FirmwareUpdateActivity.java:366. Original value:Unpacking&#8230;  -->
-    <string name="string_unpacking___">Rozpakowywanie…</string>
-    <!--  Used in file ResetFragment.java:550. Original value:The file is for different board (%s)!  -->
-    <string name="string_the_file_is_for_different_board___s__">Plik przeznaczony dla innego typu odbiorników (%s)!</string>
-    <!--  Used in file FirmwareUpdateActivity.java:344. Original value:Firmware has successfully updated  -->
-    <string name="string_firmware_has_successfully_updated">Załadowano oprogramowanie</string>
-    <!--  Used in file ResetFragment.java:134. Original value:Do you want to reset receiver?  -->
-    <string name="string_do_you_want_to_reset_receiver_">Czy chcesz zresetować odbiornik?</string>
-    <!--  Used in file ResetFragment.java:87. Original value:Init Parameters!  -->
-    <string name="string_init_parameters_">Parametry początkowe!</string>
-    <!--  Used in file ResetFragment.java:514. Original value:Can\'t open file!  -->
-    <string name="string_can_t_open_file_">Can\'t open file!</string>
-    <!--  Used in file OAFUpdateActivity.java:394. Original value:OAF Update  -->
-    <string name="string_oaf_update">Aktualizuj OAF</string>
-    <!--  Used in file FirmwareUpdateActivity.java:497. Original value:firmware loader  -->
-    <string name="string_firmware_loader">FW loader</string>
-    <!--  Used in file ResetFragment.java:299. Original value:Saving setting&#8230;  -->
-    <string name="string_saving_setting___">Zapisywanie ustawienia…</string>
-    <!--  Used in file ResetFragment.java:81. Original value:Init Parameters  -->
-    <string name="string_init_parameters">Parametry początkowe</string>
-    <!--  Used in file FirmwareUpdateActivity.java:509. Original value:Uploading %s &#8230;  -->
-    <string name="string_uploading__s____">Ładowanie %s …</string>
-    <!--  Used in file OAFUpdateActivity.java:402. Original value:Close  -->
-    <string name="string_close">Zamknij</string>
-    <!--  Used in file OAFUpdateActivity.java:154. Original value:Options are permanent  -->
-    <string name="string_options_are_permanent">Opcje są stałe</string>
-    <!--  Used in file ResetFragment.java:82. Original value:Do you want to init receiver parameters?  -->
-    <string name="string_do_you_want_to_init_receiver_parameters_">Czy chcesz przywrócić parametry początkowe odbiornika?</string>
-    <!--  Used in file ResetActivity.java:97. Original value:Connected to receiver  -->
-    <string name="string_connected_to_receiver">Połączono z odbiornikiem</string>
-    <!--  Used in file ResetFragment.java:107. Original value:Clear File System  -->
-    <string name="string_clear_file_system">Wyczyść system plików</string>
-    <!--  Used in file OAFUpdateActivity.java:219. Original value:Checking OAF&#8230;  -->
-    <string name="string_checking_oaf___">Sprawdzanie OAF…</string>
-    <!--  Used in file ResetFragment.java:82. Original value:This will reset all parameters to default values.  -->
-    <string name="string_this_will_reset_all_parameters_to_default_values_">Przywrócenie parametrów do wartości domyślnych.</string>
-    <!--  Used in file ResetFragment.java:285. Original value:Do you want rewrite file %s ?  -->
-    <string name="string_do_you_want_rewrite_file__s__">Do you want rewrite file %s ?</string>
-    <!--  Used in file OAFUpdateActivity.java:395. Original value:OAF Update Error  -->
-    <string name="string_oaf_update_error">Błąd aktualizacji OAF</string>
-    <!--  Used in file OAFUpdateActivity.java:446. Original value:Please Wait!!  -->
-    <string name="string_please_wait__">Proszę czekać!!</string>
-    <!--  Used in file OAFUpdateActivity.java:150. Original value:Receiver Options Expires on %1$s.\n(After %2$d days)  -->
-    <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Opcje odbiornika wygasną %1$s.\n(Po %2$d dni/ach)</string>
-    <!--  Used in file ResetFragment.java:82. Original value:Reconfiguration of the receiver will required  -->
-    <string name="string_reconfiguration_of_the_receiver_will_required">Wymagana rekonfiguracja odbiornika</string>
-    <!--  Used in file FirmwareUpdateActivity.java:499. Original value:radio firmware  -->
-    <string name="string_radio_firmware">FW radia</string>
-    <!--  Used in file ResetFragment.java:307. Original value:Restoring setting&#8230;  -->
-    <string name="string_restoring_setting___">Przywracanie ustawień</string>
-    <!--  Used in file OAFUpdateActivity.java:235. Original value:Loading OAF&#8230;  -->
-    <string name="string_loading_oaf___">Ładowanie OAF…</string>
-    <!--  Used in file FirmwareUpdateActivity.java:495. Original value:main firmware  -->
-    <string name="string_main_firmware">główne FW</string>
-    <!--  Used in file FirmwareUpdateActivity.java:143. Original value:Stable Firmware version on site is %1$s %2$s  -->
-    <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Wersja Stable FW na stronie to %1$s %2$s</string>
-    <!--  Used in file ResetFragment.java:54. Original value:Clear NVRAM  -->
-    <string name="string_clear_nvram">Wyczyść NVRAM</string>
-    <!--  Used in file ResetFragment.java:133. Original value:Reset Receiver  -->
-    <string name="string_reset_receiver">Reset odbiornika</string>
-    <!--  Used in file OAFUpdateActivity.java:367. Original value:Installed  -->
-    <string name="string_installed">Zainstalowano</string>
-    <!--  Used in file OAFUpdateActivity.java:367. Original value:CleanNVRAM&#8230;  -->
-    <string name="string_cleannvram___">Czyść NVRAM</string>
-    <!--  Used in file ResetFragment.java:55. Original value:Do you want to Clear NVRAM?  -->
-    <string name="string_do_you_want_to_clear_nvram_">Czy chcesz wyczyścić NVRAM?</string>
-    <!--  Used in file ResetFragment.java:562. Original value:Error in command(s):  -->
-    <string name="string_error_in_command_s__">Błąd komendy:</string>
-    <!--  Used in file OAFUpdateActivity.java:391. Original value:Receiver was cleared so it may need to be reconfigured  -->
-    <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Odbiornik został zresetowany i może wymgać rekonfiguracji</string>
-    <!--  Used in file OAFUpdateActivity.java:391. Original value:OAF Successfully Updated.  -->
-    <string name="string_oaf_successfully_updated_">Załadowano OAF!</string>
-    <!--  Used in file ResetFragment.java:108. Original value:Do you want to clear receiver file system?  -->
-    <string name="string_do_you_want_to_clear_receiver_file_system_">Czy chcesz wyczyścić system plików odbiornika?</string>
-    <!--  Used in file ResetFragment.java:139. Original value:Reconnection to receiver&#8230;  -->
-    <string name="string_reconnection_to_receiver___">Łączenie z odbiornikiem…</string>
-    <!--  Used in file OAFUpdateActivity.java:270. Original value:Options have successfully updated  -->
-    <string name="string_options_have_successfully_updated">Uaktualniono opcje</string>
-    <!--  Used in file ResetFragment.java:108. Original value:Please check that you have downlaoded all required files  -->
-    <string name="string_please_check_that_you_have_downlaoded_all_required_files">Proszę sprawdzić, czy udało się pobrać wszystkie wymagane pliki</string>
-    <!--  Used in file ResetFragment.java:476. Original value:Receiver settings successfully restored from file %s  -->
-    <string name="string_receiver_settings_successfully_restored_from_file__s">Przywracanie ustawień odbiornika z pliku %s zakończono powodzeniem</string>
-    <!--  Used in file OAFUpdateActivity.java:451. Original value:Cancel  -->
-    <string name="string_cancel">Anuluj</string>
-    <!--  Used in file OAFUpdateActivity.java:152. Original value:Receiver Options have Expired on %1$s.\n(%2$d days ago)  -->
-    <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Opcje odbiornika wygasły %1$s.\n(%2$d dni temu)</string>
-    <!--  Used in file ResetFragment.java:330. Original value:Save receiver settings  -->
-    <string name="string_save_receiver_settings">Zapis ustawień odbiornika</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Installing…-->
+  <string name="string_installing___">Instalowanie…</string>
+  <!--Original value: OAF downloaded.-->
+  <string name="string_oaf_downloaded_">Pobrano OAF</string>
+  <!--Original value: Restore receiver settings-->
+  <string name="string_restore_receiver_settings">Przywróć ustawienia odbiornika</string>
+  <!--Original value: Receiver reset-->
+  <string name="string_receiver_reset">Resetuj odbiornik</string>
+  <!--Original value: Receiver settings successfully saved to file %s-->
+  <string name="string_receiver_settings_successfully_saved_to_file__s">Ustawienia odbiornika zapisano do pliku %s</string>
+  <!--Original value: This will turn it off and on-->
+  <string name="string_this_will_turn_it_off_and_on">Wyłączenie i włączenie odbiornika</string>
+  <!--Original value: Option update error!-->
+  <string name="string_option_update_error_">Błąd aktualizacji opcji!</string>
+  <!--Original value: Cleared NVRAM!-->
+  <string name="string_cleared_nvram_">Wyczyszczono NVRAM!</string>
+  <!--Original value: File exist-->
+  <string name="string_file_exist">Plik istnieje</string>
+  <!--Original value: Do you want to reset RTK?-->
+  <string name="string_do_you_want_to_reset_rtk_">Czy chcesz zresetować RTK?</string>
+  <!--Original value: The file is corrupted or not a correct option OAF file!-->
+  <string name="string_the_file_is_corrupted_or_not_a_correct_option_oaf_file_">Plik uszkodzony lub niewłaściwy!</string>
+  <!--Original value: Restarting…-->
+  <string name="string_restarting___">Restartowanie…</string>
+  <!--Original value: Latest Firmware version on site is %1$s %2$s-->
+  <string name="string_latest_firmware_version_on_site_is__1_s__2_s">Ostatnia wersja FW na stronie to %1$s %2$s</string>
+  <!--Original value: Reset RTK-->
+  <string name="string_reset_rtk">Reset RTK</string>
+  <!--Original value: Firmware update error!-->
+  <string name="string_firmware_update_error_">Błąd aktualizacji FW!</string>
+  <!--Original value: File System Cleared!-->
+  <string name="string_file_system_cleared_">Wyczyszczono system plików!</string>
+  <!--Original value: RTK reset!-->
+  <string name="string_rtk_reset_">Reset RTK!</string>
+  <!--Original value: Receiver Firmware version is %s-->
+  <string name="string_receiver_firmware_version_is__s">Wersja FW odbiornika to %s</string>
+  <!--Original value: This will drop RTK solution-->
+  <string name="string_this_will_drop_rtk_solution">Porzucenie aktualnego rozwiązania</string>
+  <!--Original value: Can\'t open template!-->
+  <string name="string_can_t_open_template_">Nie można otworzyć szablonu!</string>
+  <!--Original value: This will delete all receiver jps files.-->
+  <string name="string_this_will_delete_all_receiver_jps_files_">Usunięcie wszystkich sesji z pamięci odbiornika.</string>
+  <!--Original value: Unpacking…-->
+  <string name="string_unpacking___">Rozpakowywanie…</string>
+  <!--Original value: The file is for different board (%s)!-->
+  <string name="string_the_file_is_for_different_board___s__">Plik przeznaczony dla innego typu odbiorników (%s)!</string>
+  <!--Original value: Firmware has successfully updated-->
+  <string name="string_firmware_has_successfully_updated">Załadowano oprogramowanie</string>
+  <!--Original value: Do you want to reset receiver?-->
+  <string name="string_do_you_want_to_reset_receiver_">Czy chcesz zresetować odbiornik?</string>
+  <!--Original value: Init Parameters!-->
+  <string name="string_init_parameters_">Parametry początkowe!</string>
+  <!--Original value: Can\'t open file!-->
+  <string name="string_can_t_open_file_">Nie można otworzyć pliku!</string>
+  <!--Original value: OAF Update-->
+  <string name="string_oaf_update">Aktualizuj OAF</string>
+  <!--Original value: firmware loader-->
+  <string name="string_firmware_loader">FW loader</string>
+  <!--Original value: Saving setting…-->
+  <string name="string_saving_setting___">Zapisywanie ustawienia…</string>
+  <!--Original value: Init Parameters-->
+  <string name="string_init_parameters">Parametry początkowe</string>
+  <!--Original value: Uploading %s …-->
+  <string name="string_uploading__s____">Ładowanie %s …</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Options are permanent-->
+  <string name="string_options_are_permanent">Opcje są stałe</string>
+  <!--Original value: Do you want to init receiver parameters?-->
+  <string name="string_do_you_want_to_init_receiver_parameters_">Czy chcesz przywrócić parametry początkowe odbiornika?</string>
+  <!--Original value: Connected to receiver-->
+  <string name="string_connected_to_receiver">Połączono z odbiornikiem</string>
+  <!--Original value: Checking OAF…-->
+  <string name="string_checking_oaf___">Sprawdzanie OAF…</string>
+  <!--Original value: Clear File System-->
+  <string name="string_clear_file_system">Wyczyść system plików</string>
+  <!--Original value: This will reset all parameters to default values.-->
+  <string name="string_this_will_reset_all_parameters_to_default_values_">Przywrócenie parametrów do wartości domyślnych.</string>
+  <!--Original value: OAF Update Error-->
+  <string name="string_oaf_update_error">Błąd aktualizacji OAF</string>
+  <!--Original value: Do you want rewrite file %s ?-->
+  <string name="string_do_you_want_rewrite_file__s__">Czy chcesz nadpisać plik %s ?</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Proszę czekać!!</string>
+  <!--Original value: Receiver Options Expires on %1$s.\n(After %2$d days)-->
+  <string name="string_receiver_options_expires_on__1_s__n_after__2_d_days_">Opcje odbiornika wygasną %1$s.\n(Po %2$d dni/ach)</string>
+  <!--Original value: Reconfiguration of the receiver will required-->
+  <string name="string_reconfiguration_of_the_receiver_will_required">Wymagana rekonfiguracja odbiornika</string>
+  <!--Original value: Restoring setting…-->
+  <string name="string_restoring_setting___">Przywracanie ustawień</string>
+  <!--Original value: radio firmware-->
+  <string name="string_radio_firmware">FW radia</string>
+  <!--Original value: Loading OAF…-->
+  <string name="string_loading_oaf___">Ładowanie OAF…</string>
+  <!--Original value: main firmware-->
+  <string name="string_main_firmware">główne FW</string>
+  <!--Original value: Stable Firmware version on site is %1$s %2$s-->
+  <string name="string_stable_firmware_version_on_site_is__1_s__2_s">Wersja Stable FW na stronie to %1$s %2$s</string>
+  <!--Original value: Clear NVRAM-->
+  <string name="string_clear_nvram">Wyczyść NVRAM</string>
+  <!--Original value: Reset Receiver-->
+  <string name="string_reset_receiver">Reset odbiornika</string>
+  <!--Original value: Installed-->
+  <string name="string_installed">Zainstalowano</string>
+  <!--Original value: CleanNVRAM…-->
+  <string name="string_cleannvram___">Czyść NVRAM</string>
+  <!--Original value: Do you want to Clear NVRAM?-->
+  <string name="string_do_you_want_to_clear_nvram_">Czy chcesz wyczyścić NVRAM?</string>
+  <!--Original value: Error in command(s):-->
+  <string name="string_error_in_command_s__">Błąd komendy:</string>
+  <!--Original value: Receiver was cleared so it may need to be reconfigured-->
+  <string name="string_receiver_was_cleared_so_it_may_need_to_be_reconfigured">Odbiornik został zresetowany i może wymgać rekonfiguracji</string>
+  <!--Original value: OAF Successfully Updated.-->
+  <string name="string_oaf_successfully_updated_">Załadowano OAF!</string>
+  <!--Original value: Do you want to clear receiver file system?-->
+  <string name="string_do_you_want_to_clear_receiver_file_system_">Czy chcesz wyczyścić system plików odbiornika?</string>
+  <!--Original value: Reconnection to receiver…-->
+  <string name="string_reconnection_to_receiver___">Łączenie z odbiornikiem…</string>
+  <!--Original value: Options have successfully updated-->
+  <string name="string_options_have_successfully_updated">Uaktualniono opcje</string>
+  <!--Original value: Please check that you have downlaoded all required files-->
+  <string name="string_please_check_that_you_have_downlaoded_all_required_files">Proszę sprawdzić, czy udało się pobrać wszystkie wymagane pliki</string>
+  <!--Original value: Receiver settings successfully restored from file %s-->
+  <string name="string_receiver_settings_successfully_restored_from_file__s">Przywracanie ustawień odbiornika z pliku %s zakończono powodzeniem</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: Receiver Options have Expired on %1$s.\n(%2$d days ago)-->
+  <string name="string_receiver_options_have_expired_on__1_s__n__2_d_days_ago_">Opcje odbiornika wygasły %1$s.\n(%2$d dni temu)</string>
+  <!--Original value: Save receiver settings-->
+  <string name="string_save_receiver_settings">Zapis ustawień odbiornika</string>
 </resources>
