@@ -27,7 +27,7 @@
     <string name="string_descriptionhint">Description</string>
     <!-- Used in file activity_design_point.xml:70    -->
     <string name="code">Code</string>
-    <!-- Used in file activity_rtkbase.xml:197    -->
+    <!-- Used in file activity_rtkbase.xml:200    -->
     <string name="string_filename_xml">Jps file</string>
     <!-- Used in file list_points.xml:66    -->
     <string name="string_codehint">Code</string>
@@ -67,7 +67,7 @@
     <string name="search_hint">Search</string>
     <!-- Used in file activity_job.xml:109    -->
     <string name="coordinate_system">Coordinate System</string>
-    <!-- Used in file codes.xml:32    -->
+    <!-- Used in file codes.xml:37    -->
     <string name="action_map_import">Import</string>
     <!-- Used in file activity_code.xml:194    -->
     <string name="code_type">Type</string>
@@ -81,7 +81,7 @@
     <string name="job_surveyor">Surveyor</string>
     <!-- Used in file activity_archieve_folder.xml:18    -->
     <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
-    <!-- Used in file activity_rtkbase.xml:184    -->
+    <!-- Used in file activity_rtkbase.xml:187    -->
     <string name="button_antenna">Antenna</string>
     <!-- Used in file jobs.xml:50    -->
     <string name="action_delete">Delete</string>
@@ -91,7 +91,7 @@
     <string name="code_fields"> ___ Fields ___</string>
     <!-- Used in file JobActivity.java:96    -->
     <string name="string_duplicate_job_xml">Duplicate Job</string>
-    <!-- Used in file codes.xml:38    -->
+    <!-- Used in file codes.xml:43    -->
     <string name="action_map_export">Export</string>
     <!-- Used in file RTKBasesActivity.java:100    -->
     <string name="string_dpos_sort">Process</string>
@@ -101,7 +101,7 @@
     <string name="job_organization">Organization</string>
     <!-- Used in file TSPointsActivity.java:72    -->
     <string name="string_name_sort">Name</string>
-    <!-- Used in file activity_rtkbase.xml:245    -->
+    <!-- Used in file activity_rtkbase.xml:248    -->
     <string name="button_reset_vb_rtk">Restore</string>
     <!-- Used in file activity_point_antenna.xml:88    -->
     <string name="antenna_vertical_offset">Vertical Offset</string>
@@ -125,7 +125,7 @@
     <string name="action_calendar">Calendar</string>
     <!-- Used in file rtkbases.xml:34    -->
     <string name="action_export">Export</string>
-    <!-- Used in file activity_rtkbase.xml:136    -->
+    <!-- Used in file activity_rtkbase.xml:139    -->
     <string name="string_reference_frame">Ref.Frame</string>
     <!-- Used in file AndroidManifest.xml:13    -->
     <string name="app_name">storage</string>
@@ -137,7 +137,7 @@
     <string name="archive_dropbox">Archieve to Dropbox</string>
     <!-- Used in file activity_point.xml:210    -->
     <string name="coordinate_origin">Origin</string>
-    <!-- Used in file activity_rtkbase.xml:254    -->
+    <!-- Used in file activity_rtkbase.xml:257    -->
     <string name="button_modify">Modify</string>
     <!-- Used in file activity_code.xml:102    -->
     <string name="code_comment">Description</string>
@@ -167,6 +167,8 @@
     <string name="button_delete">Del</string>
     <!-- Used in file activity_archieve_folder.xml:85    -->
     <string name="button_authorize_dropbox">Authorize Dropbox</string>
+    <!-- Used in file codes.xml:31    -->
+    <string name="string_delete_all_codes">Delete All Codes</string>
     <!-- Used in file activity_point_antenna.xml:64    -->
     <string name="height_type">Height Type</string>
     <!-- Used in file activity_code.xml:241    -->
@@ -179,7 +181,6 @@
     <string name="archive_googledrive">Archieve GoogleDrive</string>
     <!-- Used in file activity_job.xml:30    -->
     <string name="job_name">Name</string>
-    <string name="string_delete_all_codes">Delete All Codes</string>
     <!-- UNUSED STRING 
     <string name="action_show_design_off">dp</string>
     -->
@@ -196,7 +197,16 @@
     <string name="action_show_design_on">DP</string>
     -->
     <!-- UNUSED STRING 
+    <string name="string_cs">CS</string>
+    -->
+    <!-- UNUSED STRING 
     <string name="action_show_ts_off">tp</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_cses">CSes</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_text_file__comma_delimited____txt">Text file (comma delimited) *.txt</string>
     -->
 
 </resources>
