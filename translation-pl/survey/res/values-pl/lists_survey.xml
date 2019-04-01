@@ -172,6 +172,18 @@
          <item>25000</item>
     </string-array>
 
+    <!-- Used in file RTKSetupActivity.java:689 -->
+    <string-array name="connected_to_array_radio_sigma">
+         <item>Bluetooth B</item>
+         <item>Szeregowy B</item>
+         <item>Radio wewn.</item>
+    </string-array>
+    
+    <!-- Used in file RTKBaseSettingsFragment.java:1190 -->
+    <string-array name="connected_to_array_csd_sigma">
+         <item>Internal GSM</item>
+    </string-array>
+
     <!-- Used in file rtk_base.xml:123 -->
     <string-array name="radioarray">
          <item>Nie ustawiaj</item>
@@ -186,16 +198,10 @@
          <item>Serwer</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1190 -->
-    <string-array name="connected_to_array_csd_sigma">
-         <item>Internal GSM</item>
-    </string-array>
-
-    <!-- Used in file RTKSetupActivity.java:689 -->
-    <string-array name="connected_to_array_radio_sigma">
-         <item>Bluetooth B</item>
-         <item>Szeregowy B</item>
-         <item>Radio wewn.</item>
+    <!-- Used in file stakeout_settings.xml:27 -->
+    <string-array name="info_detail_types">
+         <item>All texts</item>
+         <item>Along/Across only</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:14 -->
@@ -213,16 +219,16 @@
          <item>jps</item>
     </string-array>
 
+    <!-- Used in file RTKSetupActivity.java:687 -->
+    <string-array name="connected_to_array_radio_gismore">
+         <item>Bluetooth B</item>
+    </string-array>
+
     <!-- Used in file RTKBaseSettingsFragment.java:1185 -->
     <string-array name="connected_to_array_radio_maxor">
          <item>Bluetooth B</item>
          <item>Szeregowy A</item>
          <item>Radio wewn.</item>
-    </string-array>
-
-    <!-- Used in file RTKSetupActivity.java:687 -->
-    <string-array name="connected_to_array_radio_gismore">
-         <item>Bluetooth B</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:140 -->
@@ -295,6 +301,16 @@
     <string-array name="rtk_computation_mode">
          <item>Extrapolacja</item>
          <item>Ostatnia znana epoka</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_generic_radio.xml:20 -->
+    <string-array name="baud_rate">
+         <item>do not modify</item>
+         <item>115200</item>
+         <item>57600</item>
+         <item>38400</item>
+         <item>19200</item>
+         <item>9600</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv_base.xml:100 -->
@@ -396,16 +412,16 @@
          <item>Wył.</item>
     </string-array>
 
+    <!-- Used in file activity_configure_fh.xml:179 -->
+    <string-array name="fh_modulcations">
+         <item>gmsk</item>
+    </string-array>
+
     <!-- Used in file activity_rtk_setup.xml:116 -->
     <string-array name="correction_source_array">
          <item>Wył (bez poprawek)</item>
          <item>Serwer Ntrip</item>
          <item>Serwer RCV</item>
-    </string-array>
-
-    <!-- Used in file activity_configure_fh.xml:179 -->
-    <string-array name="fh_modulcations">
-         <item>gmsk</item>
     </string-array>
 
     <!-- Used in file activity_stakeout_line_target.xml:21 -->
@@ -436,13 +452,6 @@
          <item>20.0</item>
          <item>25.0</item>
          <item>30.0</item>
-    </string-array>
-
-    <!-- Used in file activity_descriptions.xml:13 -->
-    <string-array name="description_sort_array">
-         <item>sortuj alfabetycznie</item>
-         <item>sortuj po dacie</item>
-         <item>sortuj po ilości użyć</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:78 -->
@@ -592,6 +601,13 @@
          <item>d16qam</item>
     </string-array>
 
+    <!-- Used in file RTKSetupActivity.java:681 -->
+    <string-array name="connected_to_array_radio">
+         <item>Bluetooth B</item>
+         <item>Szeregowy B</item>
+         <item>Radio wewn.</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:190 -->
     <string-array name="base_correction_period_5_array">
          <item>1 Hz</item>
@@ -599,13 +615,6 @@
          <item>5 Hz</item>
          <item>2 sek</item>
          <item>5 sek</item>
-    </string-array>
-
-    <!-- Used in file RTKSetupActivity.java:681 -->
-    <string-array name="connected_to_array_radio">
-         <item>Bluetooth B</item>
-         <item>Szeregowy B</item>
-         <item>Radio wewn.</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:28 -->
@@ -826,13 +835,6 @@
     </string-array>
 
     <!-- UNUSED STRING ARRAY-->
-    <string-array name="base_correction_port_array">
-         <item>dev/blt/b</item>
-         <item>dev/blt/a</item>
-         <item>dev/ser/b</item>
-    </string-array>
-
-    <!-- UNUSED STRING ARRAY-->
     <string-array name="base_correction_source_array">
          <item>Brak(wył)</item>
          <item>Radio FH przez Bluetooh B</item>
@@ -861,6 +863,5 @@
          <item>Wewnętrzny FH</item>
          <item>Wewnętrzny UHF</item>
     </string-array>
-
 
 </resources>
