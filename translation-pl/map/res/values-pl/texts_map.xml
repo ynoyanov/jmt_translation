@@ -1,108 +1,91 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file JavadCMapFragment.java:2025. Original value:Descr.  -->
+    <string name="string_descr_">Opis</string>
+    <!--  Used in file JavadTeighaMapFragment.java:195. Original value:Loading %s file&#8230;  -->
+    <string name="string_loading__s_file___">Ładuję plik %s …</string>
+    <!--  Used in file BaseMapActivity.java:78. Original value:Create  -->
+    <string name="string_create">Utwórz</string>
+    <!--  Used in file BaseMapActivity.java:165. Original value:Design Points  -->
+    <string name="string_design_points">Punkty projektowane</string>
+    <!--  Used in file JavadTeighaMapFragment.java:195. Original value:Please wait  -->
+    <string name="string_please_wait">Proszę czekać</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2113. Original value:Length: %s  -->
+    <string name="string_length___s">Długość: %s</string>
+    <!--  Used in file BaseMapActivity.java:165. Original value:RTK Bases  -->
+    <string name="string_rtk_bases">Bazy RTK</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:181. Original value:Bearing Geo  -->
+    <string name="string_bearing_geo">Kierunek geodezyjny</string>
+    <!--  Used in file BaseMapActivity.java:688. Original value:Pick point on map..  -->
+    <string name="string_pick_point_on_map__">Wybierz punkt z mapy…</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:238. Original value:Distance  -->
+    <string name="string_distance">Odległość</string>
+    <!--  Used in file JavadCMapFragment.java:2062. Original value:Pick points on map to measure distance  -->
+    <string name="string_pick_points_on_map_to_measure_distance">Wybierz punkty z mapy aby zmierzyć odległość</string>
+    <!--  Used in file BaseMapActivity.java:883. Original value:Close  -->
+    <string name="string_close">Zamknij</string>
+    <!--  Used in file JavadCMapFragment.java:3333. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2084. Original value:Trajectory  -->
+    <string name="string_trajectory">Krzywa</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:198. Original value:Bearing  -->
+    <string name="string_bearing">Kierunek</string>
+    <!--  Used in file BaseMapActivity.java:471. Original value:Selected Area: %s  -->
+    <string name="string_selected_area___s">Wybrany obszar: %s</string>
+    <!--  Used in file BaseMapActivity.java:199. Original value:AutoCad Drawing *.dwg  -->
+    <string name="string_autocad_drawing___dwg">Rysunek AutoCad *.dwg</string>
+    <!--  Used in file JavadCMapFragment.java:2085. Original value:Pick points on map to add line  -->
+    <string name="string_pick_points_on_map_to_add_line">Wybierz punkty z mapy aby utworzyć linię</string>
+    <!--  Used in file JavadCMapFragment.java:2095. Original value:Pick points on map to add text  -->
+    <string name="string_pick_points_on_map_to_add_text">Wybierz punkty z mapy aby dodać tekst</string>
+    <!--  Used in file JavadCMapFragment.java:3089. Original value:Angle:  -->
+    <string name="string_angle_">Kąt</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:255. Original value:Distance Slant  -->
+    <string name="string_distance_slant">Odl. skośna</string>
+    <!--  Used in file BaseMapActivity.java:165. Original value:TS Points  -->
+    <string name="string_ts_points">Punkty TS</string>
+    <!--  Used in file BaseMapActivity.java:881. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
+    <!--  Used in file BaseMapActivity.java:915. Original value:Do you want to delete %1$s?  -->
+    <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
+    <!--  Used in file JavadCMapFragment.java:3089. Original value:Move:  -->
+    <string name="string_move_">Przesunięcie:</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2087. Original value:Contains %d points  -->
+    <string name="string_contains__d_points">Zawiera %d punkty/ów</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:221. Original value:Distance Geo  -->
+    <string name="string_distance_geo">Odl. geodezyjna</string>
+    <!--  Used in file JavadCMapFragment.java:2018. Original value:Code  -->
+    <string name="string_code">Kod</string>
+    <!--  Used in file JavadCMapFragment.java:3048. Original value:Line:  -->
+    <string name="string_line_">Linia:</string>
+    <!--  Used in file JavadCMapFragment.java:2075. Original value:Pick points on map to measure area  -->
+    <string name="string_pick_points_on_map_to_measure_area">Wybierz punkty z mapy aby policzyć powierzchnię</string>
+    <!--  Used in file BaseMapActivity.java:165. Original value:Survey Points  -->
+    <string name="string_survey_points">Punkty GPS</string>
+    <!--  Used in file BaseMapActivity.java:917. Original value:Delete  -->
+    <string name="string_delete">Usuń</string>
+    <!--  Used in file BaseMapActivity.java:90. Original value:MapProvider  -->
+    <string name="string_mapprovider">Dostawca map</string>
+    <!--  Used in file JavadCMapFragment.java:2879. Original value:Paralel Move:  -->
+    <string name="string_paralel_move_">Przes. równoległe:</string>
+    <!--  Used in file BaseMapActivity.java:200. Original value:Import  -->
+    <string name="string_import">Import</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:305. Original value:Height Average  -->
+    <string name="string_height_average">Średnia wysokości</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:276. Original value:Height Diff  -->
+    <string name="string_height_diff">Różnica wysokości</string>
+    <!--  Used in file BaseMapActivity.java:199. Original value:ASCII file *.txt  -->
+    <string name="string_ascii_file___txt">Plik ASCII *.txt</string>
+    <!--  Used in file JavadCMapFragment.java:3089. Original value:Area:  -->
+    <string name="string_area_">Obszar:</string>
+    <!--  Used in file JavadCMapFragment.java:3320. Original value:OK  -->
+    <string name="string_ok">OK</string>
+    <!--  Used in file BaseMapActivity.java:165. Original value:Catalog Points  -->
+    <string name="string_catalog_points">Punkty Katalogowe</string>
+    <!--  Used in file BaseMapActivity.java:95. Original value:Points  -->
+    <string name="string_points">Punkty</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:293. Original value:Height Slope  -->
+    <string name="string_height_slope">Wys. skośna</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Descr.-->
-  <string name="string_descr_">Opis</string>
-  <!--Original value: Loading %s file…-->
-  <string name="string_loading__s_file___">Ładuję plik %s …</string>
-  <!--Original value: Create-->
-  <string name="string_create">Utwórz</string>
-  <!--Original value: Design Points-->
-  <string name="string_design_points">Punkty projektowane</string>
-  <!--Original value: Please wait-->
-  <string name="string_please_wait">Proszę czekać</string>
-  <!--Original value: Length: %s-->
-  <string name="string_length___s">Długość: %s</string>
-  <!--Original value: RTK Bases-->
-  <string name="string_rtk_bases">Bazy RTK</string>
-  <!--Original value: Bearing Geo-->
-  <string name="string_bearing_geo">Kierunek geodezyjny</string>
-  <!--Original value: Pick point on map..-->
-  <string name="string_pick_point_on_map__">Wybierz punkt z mapy…</string>
-  <!--Original value: Distance-->
-  <string name="string_distance">Odległość</string>
-  <!--Original value: Pick points on map to measure distance-->
-  <string name="string_pick_points_on_map_to_measure_distance">Wybierz punkty z mapy aby zmierzyć odległość</string>
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: Trajectory-->
-  <string name="string_trajectory">Krzywa</string>
-  <!--Original value: Bearing-->
-  <string name="string_bearing">Kierunek</string>
-  <!--Original value: Selected Area: %s-->
-  <string name="string_selected_area___s">Wybrany obszar: %s</string>
-  <!--Original value: AutoCad Drawing *.dwg-->
-  <string name="string_autocad_drawing___dwg">Rysunek AutoCad *.dwg</string>
-  <!--Original value: Pick points on map to add line-->
-  <string name="string_pick_points_on_map_to_add_line">Wybierz punkty z mapy aby utworzyć linię</string>
-  <!--Original value: Pick points on map to add text-->
-  <string name="string_pick_points_on_map_to_add_text">Wybierz punkty z mapy aby dodać tekst</string>
-  <!--Original value: Angle:-->
-  <string name="string_angle_">Kąt</string>
-  <!--Original value: Distance Slant-->
-  <string name="string_distance_slant">Odl. skośna</string>
-  <!--Original value: TS Points-->
-  <string name="string_ts_points">Punkty TS</string>
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
-  <!--Original value: Do you want to delete %1$s?-->
-  <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
-  <!--Original value: Move:-->
-  <string name="string_move_">Przesunięcie:</string>
-  <!--Original value: Contains %d points-->
-  <string name="string_contains__d_points">Zawiera %d punkty/ów</string>
-  <!--Original value: Distance Geo-->
-  <string name="string_distance_geo">Odl. geodezyjna</string>
-  <!--Original value: Code-->
-  <string name="string_code">Kod</string>
-  <!--Original value: Line:-->
-  <string name="string_line_">Linia:</string>
-  <!--Original value: Pick points on map to measure area-->
-  <string name="string_pick_points_on_map_to_measure_area">Wybierz punkty z mapy aby policzyć powierzchnię</string>
-  <!--Original value: Survey Points-->
-  <string name="string_survey_points">Punkty GPS</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Dostawca map</string>
-  <!--Original value: Paralel Move:-->
-  <string name="string_paralel_move_">Przes. równoległe:</string>
-  <!--Original value: Import-->
-  <string name="string_import">Import</string>
-  <!--Original value: Height Average-->
-  <string name="string_height_average">Średnia wysokości</string>
-  <!--Original value: Height Diff-->
-  <string name="string_height_diff">Różnica wysokości</string>
-  <!--Original value: ASCII file *.txt-->
-  <string name="string_ascii_file___txt">Plik ASCII *.txt</string>
-  <!--Original value: Area:-->
-  <string name="string_area_">Obszar:</string>
-  <!--Original value: OK-->
-  <string name="string_ok">OK</string>
-  <!--Original value: Catalog Points-->
-  <string name="string_catalog_points">Punkty Katalogowe</string>
-  <!--Original value: Points-->
-  <string name="string_points">Punkty</string>
-  <!--Original value: Height Slope-->
-  <string name="string_height_slope">Wys. skośna</string>
 </resources>
