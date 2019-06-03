@@ -1,165 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file HomeActivity.java:628    -->
-    <string name="string_purchase_jmt">Purchase Option</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:73    -->
-    <string name="dont_allow_licence">Application is not purchased. Please go to Google Play Market to purchase it.</string>
-    <!-- Used in file HomeActivity.java:1557    -->
-    <string name="home_title_jcommunity">J-Community</string>
-    <!-- Used in file HomeActivity.java:1547    -->
-    <string name="home_title_map">Map</string>
-    <!-- Used in file activity_home.xml:17    -->
-    <string name="version_number">Javad Mobile Tools for Android</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:45    -->
-    <string name="radio_rtk_stakeout">RTK Stakeout</string>
-    <!-- Used in file HomeActivity.java:1554    -->
-    <string name="home_title_terminal">Terminal</string>
-    <!-- Used in file HomeActivity.java:1549    -->
-    <string name="home_title_process">Process</string>
-    <!-- Used in file HomeActivity.java:1554    -->
-    <string name="home_title_resets">Control</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:29    -->
-    <string name="radio_post_processing">Post-Processing data collection</string>
-    <!-- Used in file HomeActivity.java:1551    -->
-    <string name="home_title_catalog">Catalog</string>
-    <!-- Used in file HomeActivity.java:1495    -->
-    <string name="home_title_duo">Duo</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:55    -->
-    <string name="button_next">Next &gt;&gt;</string>
-    <!-- Used in file HomeActivity.java:1556    -->
-    <string name="home_title_exit">Exit</string>
-    <!-- Used in file grid_item.xml:52    -->
-    <string name="image_view">image_view</string>
-    <!-- Used in file HomeActivity.java:1548    -->
+    <!-- Used in file drawer_view.xml:134    -->
+    <string name="home_title_rangefinder">Rangefinder</string>
+    <!-- Used in file HomeActivity.java:339    -->
     <string name="home_title_ts_points">TS Points</string>
-    <!-- Used in file HomeActivity.java:1555    -->
-    <string name="home_title_reconnectwifi">Reconnect WiFi</string>
-    <!-- Used in file HomeActivity.java:1546    -->
-    <string name="home_title_rtkbase">RTK Base</string>
-    <!-- Used in file activity_exit.xml:50    -->
-    <string name="check_turn_off_controller">Turn Off Controller</string>
+    <!-- Used in file drawer_view.xml:9    -->
+    <string name="home_title_wizard">Wizard</string>
+    <!-- Used in file RadioHomeActivity.java:148    -->
+    <string name="home_title_radio_firmware">Radio Firmware Loader</string>
+    <!-- Used in file grid_item.xml:16    -->
+    <string name="image_view">image_view</string>
+    <!-- Used in file activity_orginize_view.xml:38    -->
+    <string name="survey_button_location">Location of Survey Button</string>
     <!-- Used in file activity_splash.xml:13    -->
-    <string name="string_splash">&#169; JAVAD GNSS 2019</string>
+    <string name="string_splash">&#169; JAVAD GNSS 2018</string>
+    <!-- Used in file activity_orginize_view.xml:123    -->
+    <string name="view_compass_levels">View Levels/Compass</string>
+    <!-- Used in file home.xml:10    -->
+    <string name="action_about">About</string>
+    <!-- Used in file drawer_view.xml:111    -->
+    <string name="home_title_terminal">Terminal</string>
+    <!-- Used in file activity_exit.xml:59    -->
+    <string name="button_exit">Exit</string>
+    <!-- Used in file HomeActivity.java:479    -->
+    <string name="home_title_jcommunity">J-Community</string>
+    <!-- Used in file drawer_view.xml:71    -->
+    <string name="home_title_survey_pp">Static Survey</string>
+    <!-- Used in file activity_startup_ui.xml:14    -->
+    <string name="startup_title">Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.</string>
+    <!-- Used in file activity_startup_ui.xml:81    -->
+    <string name="show_intro">Show Introduction screen at startup</string>
+    <!-- Used in file activity_about.xml:20    -->
+    <string name="string_version">Version 1.0.9 build 25 June 2014</string>
     <!-- Used in file translate.xml:38    -->
     <string name="translation_china">China</string>
-    <!-- Used in file HomeActivity.java:1555    -->
-    <string name="home_title_wizard">Wizard</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:83    -->
-    <string name="no_internet_to_check_license">No Internet connection to check License</string>
     <!-- Used in file AboutActivity.java:44    -->
     <string name="string_ver">Version </string>
-    <!-- Used in file activity_wizard_03_base.xml:29    -->
-    <string name="radio_receiver_with_radio">GNSS Receiver with radio (GSM, UHF/FH)</string>
-    <!-- Used in file HomeActivity.java:1547    -->
-    <string name="home_title_survey_rtk">RTK Survey</string>
-    <!-- Used in file HomeActivity.java:1549    -->
-    <string name="home_title_filemanager">Receiver Files</string>
-    <!-- Used in file HomeActivity.java:1555    -->
-    <string name="home_title_usermanual">User Manual</string>
-    <!-- Used in file HomeActivity.java:1550    -->
-    <string name="home_title_jobs">Job</string>
-    <!-- Used in file HomeActivity.java:1552    -->
-    <string name="home_title_corrections">Corrections</string>
-    <!-- Used in file HomeActivity.java:1548    -->
-    <string name="home_title_design_points">Design Points</string>
-    <!-- Used in file HomeActivity.java:1553    -->
-    <string name="home_title_rangefinder">Rangefinder</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:37    -->
-    <string name="radio_rtk_survey">RTK Survey</string>
-    <!-- Used in file translate.xml:44    -->
-    <string name="translation_turkish">Turkish</string>
-    <!-- Used in file activity_wizard_03_base.xml:45    -->
-    <string name="radio_receiver_via_nethub">Receiver connected via NetHub</string>
-    <!-- Used in file activity_wizard_03_base.xml:15    -->
-    <string name="string_rtk_base_title">RTK Base</string>
-    <!-- Used in file HomeActivity.java:1552    -->
-    <string name="home_title_satellites">Satellites</string>
-    <!-- Used in file activity_exit.xml:29    -->
-    <string name="check_turn_off">Turn Off Receiver</string>
-    <!-- Used in file HomeActivity.java:1557    -->
-    <string name="home_title_spoofing">Spoofing</string>
-    <!-- Used in file HomeActivity.java:1553    -->
-    <string name="home_title_radio">Radio</string>
-    <!-- Used in file HomeActivity.java:1554    -->
-    <string name="home_title_calibrate">Calibrate</string>
-    <!-- Used in file HomeActivity.java:1556    -->
+    <!-- Used in file HomeActivity.java:478    -->
     <string name="home_title_smart_tips">J-Tip</string>
-    <!-- Used in file RadioHomeActivity.java:149    -->
-    <string name="home_title_radio_firmware">Radio Firmware Loader</string>
-    <!-- Used in file grid_item.xml:64    -->
+    <!-- Used in file drawer_view.xml:91    -->
+    <string name="home_title_satellites">Satellites</string>
+    <!-- Used in file drawer_view.xml:143    -->
+    <string name="home_title_jmate">J-Mate</string>
+    <!-- Used in file HomeActivity.java:339    -->
+    <string name="home_title_design_points">Design Points</string>
+    <!-- Used in file HomeActivity.java:479    -->
+    <string name="home_title_spoofing">Spoofing</string>
+    <!-- Used in file drawer_view.xml:163    -->
+    <string name="home_title_exit">Exit</string>
+    <!-- Used in file HomeActivity.java:334    -->
+    <string name="home_title_map">Map</string>
+    <!-- Used in file grid_item.xml:34    -->
     <string name="text_view">text_view</string>
-    <!-- Used in file AboutActivity.java:44    -->
-    <string name="string_build">Build</string>
-    <!-- Used in file activity_about.xml:12    -->
-    <string name="string_copyright"> (;&#169;) Copyright JAVAD GNSS 2019</string>
-    <!-- Used in file activity_exit.xml:43    -->
+    <!-- Used in file activity_exit.xml:45    -->
     <string name="check_stop_mobile_data">Stop Mobile Data</string>
-    <!-- Used in file HomeActivity.java:1549    -->
-    <string name="home_title_justinlink_server">Services</string>
-    <!-- Used in file HomeActivity.java:2082    -->
-    <string name="string_disconnect">Disconnect</string>
-    <!-- Used in file activity_exit.xml:36    -->
-    <string name="check_exit_app">Exit J-Mobile application</string>
-    <!-- Used in file HomeActivity.java:1546    -->
-    <string name="home_title_rtkrover">RTK Rover</string>
-    <!-- Used in file HomeActivity.java:1557    -->
-    <string name="home_title_quattro">Quattro</string>
-    <!-- Used in file activity_about.xml:20    -->
-    <string name="string_version">Version 1.0.9 build 25 June 2019</string>
-    <!-- Used in file HomeActivity.java:1552    -->
-    <string name="home_title_power">Power</string>
-    <!-- Used in file RadioHomeActivity.java:149    -->
-    <string name="home_title_pairmodem">Pair Modem</string>
-    <!-- Used in file activity_wizard_03_base.xml:37    -->
-    <string name="radio_vrs_no_base">VRS (no base required)</string>
-    <!-- Used in file RadioHomeActivity.java:149    -->
-    <string name="home_title_repeater">Repeater</string>
-    <!-- Used in file activity_exit.xml:22    -->
-    <string name="check_stop_rtk_radio">Stop RTK and Radio</string>
-    <!-- Used in file HomeActivity.java:1551    -->
-    <string name="home_title_codes">Codes</string>
-    <!-- Used in file HomeActivity.java:1550    -->
-    <string name="home_title_localize">Localize</string>
-    <!-- Used in file HomeActivity.java:1548    -->
-    <string name="home_title_survey_points">Survey Points</string>
-    <!-- Used in file HomeActivity.java:1556    -->
-    <string name="home_title_rtkbases">RTK Bases</string>
-    <!-- Used in file HomeActivity.java:1546    -->
-    <string name="home_title_survey_pp">Static Survey</string>
-    <!-- Used in file HomeActivity.java:2244    -->
-    <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
     <!-- Used in file translate.xml:7    -->
     <string name="translation_english">English</string>
+    <!-- Used in file activity_startup_ui.xml:69    -->
+    <string name="start_with_map">Start with Map</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:73    -->
+    <string name="dont_allow_licence">Application is not purchased. Please go to Google Play Market to purchase it.</string>
+    <!-- Used in file drawer_view.xml:17    -->
+    <string name="home_title_jobs">Job</string>
+    <!-- Used in file drawer_view.xml:37    -->
+    <string name="home_title_cogo">CoGo</string>
+    <!-- Used in file drawer_view.xml:126    -->
+    <string name="home_title_radio">Radio</string>
+    <!-- Used in file activity_orginize_view.xml:141    -->
+    <string name="additional_views">Additional Views</string>
     <!-- Used in file JavadLicenseCheckerCallback.java:63    -->
     <string name="allow_license">License is OK</string>
-    <!-- Used in file translate.xml:19    -->
-    <string name="translation_2">Language 2</string>
-    <!-- Used in file translate.xml:25    -->
-    <string name="translation_3">Language 3</string>
-    <!-- Used in file HomeActivity.java:1553    -->
-    <string name="home_title_ts_exchange">Total Station</string>
+    <!-- Used in file activity_orginize_view.xml:87    -->
+    <string name="view_code">View Code</string>
+    <!-- Used in file HomeActivity.java:468    -->
+    <string name="home_title_rtk_work">RTK Works</string>
+    <!-- Used in file drawer_view.xml:103    -->
+    <string name="home_title_calibrate_compass">Calibrate Levels</string>
+    <!-- Used in file drawer_view.xml:99    -->
+    <string name="home_title_power">Power</string>
+    <!-- Used in file HomeActivity.java:480    -->
+    <string name="home_title_rtkbases">RTK Bases</string>
+    <!-- Used in file drawer_view.xml:159    -->
+    <string name="home_title_usermanual">User Manual</string>
+    <!-- Used in file HomeActivity.java:475    -->
+    <string name="home_title_calibrate">Calibrate</string>
+    <!-- Used in file RadioHomeActivity.java:148    -->
+    <string name="home_title_pairmodem">Pair Modem</string>
+    <!-- Used in file activity_home.xml:16    -->
+    <string name="version_number">Javad Mobile Tools for Android</string>
+    <!-- Used in file drawer_view.xml:138    -->
+    <string name="home_title_jtip">J-Tip</string>
+    <!-- Used in file activity_startup_ui.xml:91    -->
+    <string name="start_with_menu">Start with Menu</string>
+    <!-- Used in file activity_exit.xml:52    -->
+    <string name="check_turn_off_controller">Turn Off Controller</string>
+    <!-- Used in file AboutActivity.java:44    -->
+    <string name="string_build">Build</string>
+    <!-- Used in file HomeActivity.java:339    -->
+    <string name="home_title_survey_points">Survey Points</string>
+    <!-- Used in file HomeActivity.java:479    -->
+    <string name="home_title_quattro">Quattro</string>
+    <!-- Used in file activity_orginize_view.xml:105    -->
+    <string name="view_more_survey_controls">View antenna and settings</string>
+    <!-- Used in file drawer_view.xml:60    -->
+    <string name="home_title_stakeout">Stakeout</string>
+    <!-- Used in file BaseHomeActivity.java:607    -->
+    <string name="string_purchase_jmt">Purchase Option</string>
+    <!-- Used in file drawer_view.xml:21    -->
+    <string name="home_title_cs">Coord.Sys</string>
+    <!-- Used in file drawer_view.xml:52    -->
+    <string name="home_title_rtkbase">RTK Base</string>
+    <!-- Used in file BaseHomeActivity.java:2038    -->
+    <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
+    <!-- Used in file activity_exit.xml:31    -->
+    <string name="check_turn_off">Turn Off Receiver</string>
+    <!-- Used in file activity_orginize_view.xml:69    -->
+    <string name="view_description">View Description</string>
+    <!-- Used in file activity_exit.xml:17    -->
+    <string name="check_stop_logging">Stop Logging</string>
+    <!-- Used in file activity_exit.xml:24    -->
+    <string name="check_stop_rtk_radio">Stop RTK and Radio</string>
+    <!-- Used in file drawer_view.xml:56    -->
+    <string name="home_title_survey_rtk">RTK Survey</string>
+    <!-- Used in file empty.xml:9    -->
+    <string name="string_show_menu_at_startup">Show Menu at startup</string>
     <!-- Used in file translate.xml:13    -->
     <string name="translation_1">Language 1</string>
+    <!-- Used in file translate.xml:44    -->
+    <string name="translation_turkish">Turkish</string>
+    <!-- Used in file translate.xml:19    -->
+    <string name="translation_2">Language 2</string>
+    <!-- Used in file drawer_view.xml:95    -->
+    <string name="home_title_corrections">Corrections</string>
+    <!-- Used in file RadioHomeActivity.java:148    -->
+    <string name="home_title_repeater">Repeater</string>
+    <!-- Used in file translate.xml:25    -->
+    <string name="translation_3">Language 3</string>
+    <!-- Used in file drawer_view.xml:29    -->
+    <string name="home_title_catalog">Catalog</string>
+    <!-- Used in file drawer_view.xml:115    -->
+    <string name="home_title_reconnectwifi">Reconnect WiFi</string>
+    <!-- Used in file drawer_view.xml:155    -->
+    <string name="home_title_justinlink_server">Services</string>
     <!-- Used in file main_bosch.xml:13    -->
     <string name="action_settings">Settings</string>
-    <!-- Used in file activity_wizard_01_work_type.xml:15    -->
-    <string name="string_work_type_title">Work type</string>
-    <!-- Used in file HomeActivity.java:1551    -->
-    <string name="home_title_cogo">CoGo</string>
-    <!-- Used in file HomeActivity.java:1550    -->
-    <string name="home_title_cs">Coord.Sys</string>
+    <!-- Used in file activity_about.xml:12    -->
+    <string name="string_copyright"> (;&#169;) Copyright JAVAD GNSS 2018</string>
+    <!-- Used in file activity_exit.xml:38    -->
+    <string name="check_exit_app">Exit J-Mobile application</string>
+    <!-- Used in file HomeMapActivity.java:198    -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <!-- Used in file drawer_view.xml:33    -->
+    <string name="home_title_codes">Codes</string>
     <!-- Used in file translate.xml:32    -->
     <string name="translation_russian">Russian</string>
-    <!-- Used in file home.xml:6    -->
-    <string name="action_about">About</string>
-    <!-- Used in file HomeActivity.java:1547    -->
-    <string name="home_title_stakeout">Stakeout</string>
-    <!-- Used in file activity_exit.xml:15    -->
-    <string name="check_stop_logging">Stop Logging</string>
-    <!-- Used in file activity_exit.xml:57    -->
-    <string name="button_exit">Exit</string>
-    <!-- Used in file HomeActivity.java:2084    -->
+    <!-- Used in file drawer_view.xml:25    -->
+    <string name="home_title_localize">Localize</string>
+    <!-- Used in file BaseHomeActivity.java:1887    -->
+    <string name="string_disconnect">Disconnect</string>
+    <!-- Used in file activity_orginize_view.xml:51    -->
+    <string name="view_name">View Name</string>
+    <!-- Used in file drawer_view.xml:48    -->
+    <string name="home_title_rtkrover">RTK Rover</string>
+    <!-- Used in file drawer_view.xml:76    -->
+    <string name="home_title_filemanager">Receiver Files</string>
+    <!-- Used in file drawer_view.xml:80    -->
+    <string name="home_title_process">Process</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:83    -->
+    <string name="no_internet_to_check_license">No Internet connection to check License</string>
+    <!-- Used in file drawer_view.xml:130    -->
+    <string name="home_title_ts_exchange">Total Station</string>
+    <!-- Used in file HomeActivity.java:398    -->
+    <string name="home_title_duo">Duo</string>
+    <!-- Used in file BaseHomeActivity.java:1889    -->
     <string name="string_connect">Connect</string>
+    <!-- Used in file HomeActivity.java:470    -->
+    <string name="home_title_points">Points</string>
+    <!-- Used in file HomeMapActivity.java:198    -->
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Used in file drawer_view.xml:107    -->
+    <string name="home_title_resets">Control</string>
 
 </resources>

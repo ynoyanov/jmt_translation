@@ -1,55 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file HomeActivity.java:1034  -->
-    <string name="string_job_">Job:</string>
-    <!--  Used in file HomeActivity.java:744  -->
-    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Option has purchased. App is licensed to work with any JAVAD GNSS receiver.</string>
-    <!--  Used in file HomeActivity.java:179  -->
-    <string name="string_wrong_device">Wrong device</string>
-    <!--  Used in file HomeActivity.java:1107  -->
-    <string name="string_russian">Russian</string>
-    <!--  Used in file HomeActivity.java:1296  -->
-    <string name="string_exit_application">Exit application</string>
-    <!--  Used in file HomeActivity.java:1085  -->
-    <string name="string_english">English</string>
-    <!--  Used in file HomeActivity.java:900  -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
-    <!--  Used in file HomeActivity.java:1082  -->
-    <string name="string_language">Language</string>
-    <!--  Used in file HomeActivity.java:1109  -->
-    <string name="string_turkish">Turkish</string>
-    <!--  Used in file HomeActivity.java:2097  -->
-    <string name="string_select_last_job___s_">Select Last Job (%s)</string>
-    <!--  Used in file HomeActivity.java:2179  -->
-    <string name="string_connected_to____s">Connected to : %s</string>
-    <!--  Used in file HomeActivity.java:2231  -->
-    <string name="string_error_">Error!</string>
-    <!--  Used in file HomeActivity.java:2098  -->
-    <string name="string_select_other_job___">Select Other Job&#8230;</string>
-    <!--  Used in file HomeActivity.java:706  -->
-    <string name="string_error_purchasing__">Error purchasing: </string>
-    <!--  Used in file HomeActivity.java:1006  -->
-    <string name="string_version__1_s_2_s_build__3_s">Version %1$s%2$s Build %3$s</string>
-    <!--  Used in file HomeActivity.java:876  -->
+    <!--  Used in file BaseHomeActivity.java:858  -->
     <string name="string_permission_denied_to_read_from_your_external_storage">Permission denied to read from your External storage</string>
-    <!--  Used in file HomeActivity.java:2095  -->
-    <string name="string_select_project">Select Project</string>
-    <!--  Used in file HomeActivity.java:1077  -->
-    <string name="string_sounds">Sounds</string>
-    <!--  Used in file HomeActivity.java:1062  -->
-    <string name="string_license_the_application_before_connection_to_receiver">License the application before connection to receiver</string>
-    <!--  Used in file HomeActivity.java:1297  -->
-    <string name="string_do_you_want_to_exit_the_application_">Do you want to exit the application?</string>
-    <!--  Used in file HomeActivity.java:1108  -->
-    <string name="string_taiwan">Taiwan</string>
-    <!--  Used in file HomeActivity.java:180  -->
-    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">The application is designed to be ran on Nautiz X8 device only.</string>
-    <!--  Used in file HomeActivity.java:1252  -->
+    <!--  Used in file HomeMapActivity.java:1813  -->
+    <string name="string_close">Close</string>
+    <!--  Used in file BaseHomeActivity.java:1225  -->
     <string name="string_connection_in_progress____">Connection in progress&#8230;!</string>
-    <!--  Used in file HomeActivity.java:886  -->
-    <string name="string_permission_denied_to_write_to_your_external_storage">Permission denied to write to your External storage</string>
-    <!--  Used in file HomeActivity.java:666  -->
+    <!--  Used in file BaseHomeActivity.java:1905  -->
+    <string name="string_select_project">Select Project</string>
+    <!--  Used in file BaseHomeActivity.java:1073  -->
+    <string name="string_russian">Russian</string>
+    <!--  Used in file BaseHomeActivity.java:1319  -->
+    <string name="string_do_you_want_to_exit_the_application_">Do you want to exit the application?</string>
+    <!--  Used in file BaseHomeActivity.java:730  -->
+    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Option has purchased. App is licensed to work with any JAVAD GNSS receiver.</string>
+    <!--  Used in file BaseHomeActivity.java:998  -->
+    <string name="string_job_">Job:</string>
+    <!--  Used in file HomeMapActivity.java:1956  -->
+    <string name="string_permission_denied_to_access_to_camera">Permission denied to access to camera</string>
+    <!--  Used in file HomeMapActivity.java:1839  -->
+    <string name="string_surveyed_points">Surveyed Points</string>
+    <!--  Used in file BaseHomeActivity.java:1907  -->
+    <string name="string_select_last_job___s_">Select Last Job (%s)</string>
+    <!--  Used in file BaseHomeActivity.java:667  -->
     <string name="string_problem_setting_up_in_app_billing__">Problem setting up In-app Billing: </string>
+    <!--  Used in file BaseHomeActivity.java:1044  -->
+    <string name="string_sounds">Sounds</string>
+    <!--  Used in file BaseHomeActivity.java:882  -->
+    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
+    <!--  Used in file BaseHomeActivity.java:966  -->
+    <string name="string_version__1_s_2_s__3_s">Version:%1$s%2$s %3$s</string>
+    <!--  Used in file HomeMapActivity.java:1399  -->
+    <string name="string_rerceiver_is_not_connected_">Rerceiver is not connected!</string>
+    <!--  Used in file BaseHomeActivity.java:1318  -->
+    <string name="string_exit_application">Exit application</string>
+    <!--  Used in file BaseHomeActivity.java:1048  -->
+    <string name="string_language">Language</string>
+    <!--  Used in file BaseHomeActivity.java:1074  -->
+    <string name="string_taiwan">Taiwan</string>
+    <!--  Used in file BaseHomeActivity.java:1075  -->
+    <string name="string_turkish">Turkish</string>
+    <!--  Used in file BaseHomeActivity.java:510  -->
+    <string name="string_connected_to____s">Connected to : %s</string>
+    <!--  Used in file HomeMapActivity.java:1401  -->
+    <string name="string_rerceiver_is_not_licensed_">Rerceiver is not licensed!</string>
+    <!--  Used in file BaseHomeActivity.java:1908  -->
+    <string name="string_select_other_job___">Select Other Job&#8230;</string>
+    <!--  Used in file HomeMapActivity.java:1804  -->
+    <string name="string_what_to_do_with_point__1_s_">What to do with point %1$s?</string>
+    <!--  Used in file BaseHomeActivity.java:868  -->
+    <string name="string_permission_denied_to_write_to_your_external_storage">Permission denied to write to your External storage</string>
+    <!--  Used in file BaseHomeActivity.java:1051  -->
+    <string name="string_english">English</string>
+    <!--  Used in file HomeMapActivity.java:1837  -->
+    <string name="string_design_points">Design Points</string>
+    <!--  Used in file BaseHomeActivity.java:985  -->
+    <string name="string_rec_">Rec:</string>
+    <!--  Used in file BaseHomeActivity.java:171  -->
+    <string name="string_wrong_device">Wrong device</string>
+    <!--  Used in file BaseHomeActivity.java:703  -->
+    <string name="string_error_purchasing__">Error purchasing: </string>
+    <!--  Used in file BaseHomeActivity.java:172  -->
+    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">The application is designed to be ran on Nautiz X8 device only.</string>
+    <!--  Used in file HomeMapActivity.java:1868  -->
+    <string name="string_n__1__3f_e__2__3f">N:%1$.3f_E:%2$.3f</string>
+    <!--  Used in file BaseHomeActivity.java:2023  -->
+    <string name="string_error_">Error!</string>
+    <!--  Used in file BaseHomeActivity.java:964  -->
+    <string name="string_build__s">Build:%s</string>
+    <!--  Used in file HomeMapActivity.java:1809  -->
+    <string name="string_stake">Stake</string>
+    <!--  Used in file BaseHomeActivity.java:305  -->
+    <string name="string_points">Points</string>
 
 </resources>

@@ -1,75 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file UserManualUpdater.java:399. Original value:Can\'t find user manual  -->
-    <string name="string_can_t_find_user_manual">Nie można odnaleźć Podręcznika</string>
-    <!--  Used in file GeoDataUpdater.java:172. Original value:Do you want to update GeoData?  -->
-    <string name="string_do_you_want_to_update_geodata_">Czy chcesz zaktualizować definicje UW?</string>
-    <!--  Used in file GeoDataUpdater.java:384. Original value:Yes  -->
-    <string name="string_yes">Tak</string>
-    <!--  Used in file CSRepository.java:105. Original value:All  -->
-    <string name="string_all">Wszystko</string>
-    <!--  Used in file CSRepository.java:437. Original value:Local  -->
-    <string name="string_local">Lokalny</string>
-    <!--  Used in file CSRepository.java:460. Original value:Ellipsoid  -->
-    <string name="string_ellipsoid">Elipsoida</string>
-    <!--  Used in file GeoDataUpdater.java:510. Original value:File %1$s was successfully loaded. Now suplemental file %2$s will be loaded  -->
-    <string name="string_file__1_s_was_successfully_loaded__now_suplemental_file__2_s_will_be_loaded">Plik %1$s został załadowany. Teraz uzupełniający plik %2$s zostanie załadowany.</string>
-    <!--  Used in file UserManualUpdater.java:142. Original value:User Manual has updated.\nDo you want to downlaod the updated User Manual?  -->
-    <string name="string_user_manual_has_updated__ndo_you_want_to_downlaod_the_updated_user_manual_">Zaktualizowano Podręcznik.\nCzy chcesz go pobrać?</string>
-    <!--  Used in file UserManualUpdater.java:200. Original value:Can\'t open help file. Please manually open it in the javad subfolder.  -->
-    <string name="string_can_t_open_help_file__please_manually_open_it_in_the_javad_subfolder_">Nie można otworzyć pliku pomocy. Spróbuj otworzyć go ręcznie z poziomu katalogu.</string>
-    <!--  Used in file CSRepository.java:441. Original value:Type  -->
-    <string name="string_type">Typ</string>
-    <!--  Used in file CSRepository.java:97. Original value:en-US  -->
-    <string name="string_en_us">en-US</string>
-    <!--  Used in file GeoDataUpdater.java:352. Original value:GeoData was successfully updated!  -->
-    <string name="string_geodata_was_successfully_updated_">Zaktualizowano definicje UW!</string>
-    <!--  Used in file CSRepository.java:147. Original value:New Local CS  -->
-    <string name="string_new_local_cs">Nowy Lokalny UW</string>
-    <!--  Used in file GeoDataUpdater.java:513. Original value:File %s was successfully loaded!  -->
-    <string name="string_file__s_was_successfully_loaded_">Plik %s został załadowany!</string>
-    <!--  Used in file CSRepository.java:137. Original value:Read CS from Receiver  -->
-    <string name="string_read_cs_from_receiver">Odczyt UW z Odbiornika</string>
-    <!--  Used in file CSRepository.java:430. Original value:Name  -->
-    <string name="string_name">Nazwa</string>
-    <!--  Used in file GeoDataUpdater.java:168. Original value:GeoData has updated to %1$s (your is %2$s).  -->
-    <string name="string_geodata_has_updated_to__1_s__your_is__2_s__">Aktualizacja definicji UW do %1$s (obecnie: %2$s).</string>
-    <!--  Used in file GeoDataUpdater.java:489. Original value:GeoData update error!  -->
-    <string name="string_geodata_update_error_">Błąd aktualizacji definicji UW!</string>
-    <!--  Used in file GeoDataUpdater.java:528. Original value:Binary file %s is required for the transformation.\nDo you want to download it.  -->
-    <string name="string_binary_file__s_is_required_for_the_transformation__ndo_you_want_to_download_it_">Do transformacji wymagany wymagany jest plik binarny %s.\nCzy chcesz go pobrać?</string>
-    <!--  Used in file GeoDataUpdater.java:142. Original value:GeoData is missing\nDo you want to download GeoData?  -->
-    <string name="string_geodata_is_missing_ndo_you_want_to_download_geodata_">Brak definicji układów współrzędnych\nCzy pobrać ją z internetu?</string>
-    <!--  Used in file CSRepository.java:607. Original value:m  -->
-    <string name="string_m">m</string>
-    <!--  Used in file CSRepository.java:434. Original value:ECEF  -->
-    <string name="string_ecef">ECEF</string>
-    <!--  Used in file CSRepository.java:435. Original value:Geodetic  -->
-    <string name="string_geodetic">Geodezyjny</string>
-    <!--  Used in file CSRepository.java:157. Original value:New User-Defined Grid  -->
-    <string name="string_new_user_defined_grid">Nowa Siatka użytkownika</string>
-    <!--  Used in file UserManualUpdater.java:394. Original value:User manual loaded  -->
-    <string name="string_user_manual_loaded">Pobrano Podręcznik użytkownika</string>
-    <!--  Used in file GeoDataUpdater.java:385. Original value:Ask Me Later  -->
-    <string name="string_ask_me_later">Zapytaj później</string>
-    <!--  Used in file CSRepository.java:438. Original value:Vertical  -->
-    <string name="string_vertical">Pionowo</string>
-    <!--  Used in file GeoDataUpdater.java:386. Original value:Skip This Version  -->
-    <string name="string_skip_this_version">Pomiń tę wersję</string>
-    <!--  Used in file CSRepository.java:436. Original value:Grid  -->
-    <string name="string_grid">Siatka</string>
-    <!--  Used in file CSRepository.java:445. Original value:Base system  -->
-    <string name="string_base_system">System bazowy</string>
-    <!--  Used in file CSRepository.java:450. Original value:Projection  -->
-    <string name="string_projection">Odwzorowanie</string>
-    <!--  Used in file CSRepository.java:116. Original value:World  -->
-    <string name="string_world">Świat</string>
-    <!--  Used in file UserManualUpdater.java:396. Original value:User manual loaded with error  -->
-    <string name="string_user_manual_loaded_with_error">Podręcznik załadowany z błędem</string>
-    <!--  Used in file UserManualUpdater.java:146. Original value:Do you want to download the User Manual?  -->
-    <string name="string_do_you_want_to_download_the_user_manual_">Czy chcesz pobrać Podręcznik?</string>
-    <!--  Used in file CSRepository.java:127. Original value:Continents  -->
-    <string name="string_continents">Kontynenty</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Grid-->
+  <string name="string_grid">Siatka</string>
+  <!--Original value: Binary file %s is required for the transformation.\nDo you want to download it.-->
+  <string name="string_binary_file__s_is_required_for_the_transformation__ndo_you_want_to_download_it_">Do transformacji wymagany wymagany jest plik binarny %s.\nCzy chcesz go pobrać?</string>
+  <!--Original value: m-->
+  <string name="string_m">m</string>
+  <!--Original value: Do you want to download the User Manual?-->
+  <string name="string_do_you_want_to_download_the_user_manual_">Czy chcesz pobrać Podręcznik?</string>
+  <!--Original value: GeoData has updated to %1$s (your is %2$s).-->
+  <string name="string_geodata_has_updated_to__1_s__your_is__2_s__">Aktualizacja definicji UW do %1$s (obecnie: %2$s).</string>
+  <!--Original value: User Manual has updated.\nDo you want to downlaod the updated User Manual?-->
+  <string name="string_user_manual_has_updated__ndo_you_want_to_downlaod_the_updated_user_manual_">Zaktualizowano Podręcznik.\nCzy chcesz go pobrać?</string>
+  <!--Original value: Base system-->
+  <string name="string_base_system">System bazowy</string>
+  <!--Original value: Read CS from Receiver-->
+  <string name="string_read_cs_from_receiver">Odczyt UW z Odbiornika</string>
+  <!--Original value: User manual loaded-->
+  <string name="string_user_manual_loaded">Pobrano Podręcznik użytkownika</string>
+  <!--Original value: Ask Me Later-->
+  <string name="string_ask_me_later">Zapytaj później</string>
+  <!--Original value: Name-->
+  <string name="string_name">Nazwa</string>
+  <!--Original value: Can\'t open help file. Please manually open it in the javad subfolder.-->
+  <string name="string_can_t_open_help_file__please_manually_open_it_in_the_javad_subfolder_">Nie można otworzyć pliku pomocy. Spróbuj otworzyć go ręcznie z poziomu katalogu.</string>
+  <!--Original value: World-->
+  <string name="string_world">Świat</string>
+  <!--Original value: Type-->
+  <string name="string_type">Typ</string>
+  <!--Original value: New Local CS-->
+  <string name="string_new_local_cs">Nowy Lokalny UW</string>
+  <!--Original value: User manual loaded with error-->
+  <string name="string_user_manual_loaded_with_error">Podręcznik załadowany z błędem</string>
+  <!--Original value: GeoData update error!-->
+  <string name="string_geodata_update_error_">Błąd aktualizacji definicji UW!</string>
+  <!--Original value: Vertical-->
+  <string name="string_vertical">Pionowo</string>
+  <!--Original value: ECEF-->
+  <string name="string_ecef">ECEF</string>
+  <!--Original value: Can\'t find user manual-->
+  <string name="string_can_t_find_user_manual">Nie można odnaleźć Podręcznika</string>
+  <!--Original value: Local-->
+  <string name="string_local">Lokalny</string>
+  <!--Original value: Download of %s-->
+  <string name="string_download_of__s">Pobieranie %s</string>
+  <!--Original value: Continents-->
+  <string name="string_continents">Kontynenty</string>
+  <!--Original value: File %s was successfully loaded!-->
+  <string name="string_file__s_was_successfully_loaded_">Plik %s został załadowany!</string>
+  <!--Original value: Ellipsoid-->
+  <string name="string_ellipsoid">Elipsoida</string>
+  <!--Original value: GeoData is missing\nDo you want to download GeoData?-->
+  <string name="string_geodata_is_missing_ndo_you_want_to_download_geodata_">Brak definicji układów współrzędnych\nCzy pobrać ją z internetu?</string>
+  <!--Original value: Skip This Version-->
+  <string name="string_skip_this_version">Pomiń tę wersję</string>
+  <!--Original value: Geodetic-->
+  <string name="string_geodetic">Geodezyjny</string>
+  <!--Original value: en-US-->
+  <string name="string_en_us">en-US</string>
+  <!--Original value: Projection-->
+  <string name="string_projection">Odwzorowanie</string>
+  <!--Original value: All-->
+  <string name="string_all">Wszystko</string>
+  <!--Original value: GeoData was successfully updated!-->
+  <string name="string_geodata_was_successfully_updated_">Zaktualizowano definicje UW!</string>
+  <!--Original value: Do you want to update GeoData?-->
+  <string name="string_do_you_want_to_update_geodata_">Czy chcesz zaktualizować definicje UW?</string>
+  <!--Original value: File %1$s was successfully loaded. Now suplemental file %2$s will be loaded-->
+  <string name="string_file__1_s_was_successfully_loaded__now_suplemental_file__2_s_will_be_loaded">Plik %1$s został załadowany. Teraz uzupełniający plik %2$s zostanie załadowany.</string>
+  <!--Original value: Yes-->
+  <string name="string_yes">Tak</string>
+  <!--Original value: New User-Defined Grid-->
+  <string name="string_new_user_defined_grid">Nowa Siatka użytkownika</string>
 </resources>
