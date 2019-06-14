@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file pref_mapinfo.xml:12 -->
+    <string-array name="report_to_do_values">
+         <item>Отправить результат</item>
+         <item>Открыть результат</item>
+         <item>Ничего</item>
+    </string-array>
+
+    <!-- Used in file pref_import_dwg.xml:11 -->
+    <string-array name="importobjectsvalues">
+         <item>0</item>
+         <item>1</item>
+    </string-array>
+
+    <!-- Used in file pref_import_dwg.xml:10 -->
+    <string-array name="importobjectsarray">
+         <item>только точки</item>
+         <item>точки, линии, поверхности</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:18 -->
+    <string-array name="exportobjectsarray">
+         <item>только снятые объекты</item>
+         <item>снятые объекты + чертеж</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:12 -->
+    <string-array name="listvalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+
     <!-- Used in file activity_report_stimulsoft.xml:49 -->
     <string-array name="report_output_format">
          <item>PDF</item>
@@ -24,44 +58,10 @@
          <item>Высота</item>
     </string-array>
 
-    <!-- Used in file pref_dxf.xml:18 -->
-    <string-array name="exportobjectsarray">
-         <item>только снятые объекты</item>
-         <item>снятые объекты + чертеж</item>
-    </string-array>
-
-    <!-- Used in file pref_report.xml:10 -->
-    <string-array name="report_to_do_values">
-         <item>Отправить результат</item>
-         <item>Открыть результат</item>
-         <item>Ничего</item>
-    </string-array>
-
     <!-- Used in file pref_dxf.xml:19 -->
     <string-array name="exportobjectsvalues">
          <item>1</item>
          <item>2</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:12 -->
-    <string-array name="listvalues">
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-    </string-array>
-
-    <!-- Used in file pref_import_dwg.xml:11 -->
-    <string-array name="importobjectsvalues">
-         <item>0</item>
-         <item>1</item>
-    </string-array>
-
-    <!-- Used in file pref_import_dwg.xml:10 -->
-    <string-array name="importobjectsarray">
-         <item>только точки</item>
-         <item>точки и линии</item>
     </string-array>
 
 

@@ -1,212 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file rtkbases.xml:10    -->
-    <string name="action_search">Search</string>
-    <!-- Used in file jobs.xml:45    -->
+    <!-- Used in file jobs.xml:56    -->
     <string name="action_arhieve_folder">Archieve Folder</string>
-    <!-- Used in file activity_point_antenna.xml:74    -->
-    <string name="height_vertical">Vertical</string>
-    <!-- Used in file activity_job.xml:192    -->
-    <string name="show_antenna_offsets">Show antenna vertical offset</string>
-    <!-- Used in file rtkbases.xml:5    -->
-    <string name="action_map">Map</string>
-    <!-- Used in file TSPointsActivity.java:75    -->
-    <string name="string_code_sort">Code</string>
-    <!-- Used in file activity_code.xml:174    -->
-    <string name="feature_name">Name</string>
-    <!-- Used in file activity_point_antenna.xml:79    -->
-    <string name="height_slant">Slant</string>
-    <!-- Used in file activity_design_point.xml:130    -->
-    <string name="height">Height</string>
-    <!-- Used in file activity_design_point.xml:50    -->
-    <string name="description">Descr.</string>
-    <!-- Used in file activity_code.xml:228    -->
-    <string name="code_min_value">Min.Value</string>
-    <!-- Used in file list_points.xml:103    -->
-    <string name="string_descriptionhint">Description</string>
-    <!-- Used in file activity_design_point.xml:70    -->
-    <string name="code">Code</string>
-    <!-- Used in file activity_rtkbase.xml:197    -->
-    <string name="string_filename_xml">Jps file</string>
-    <!-- Used in file list_points.xml:66    -->
-    <string name="string_codehint">Code</string>
-    <!-- Used in file TSPointsActivity.java:76    -->
-    <string name="string_comment_sort">Comment</string>
-    <!-- Used in file activity_code.xml:215    -->
-    <string name="code_max_length">Max.Length</string>
-    <!-- Used in file points.xml:40    -->
-    <string name="action_map_zoomall">Zoom All</string>
-    <!-- Used in file activity_code_values.xml:20    -->
-    <string name="sort_description">Sort by</string>
-    <!-- Used in file activity_archieve_folder.xml:37    -->
-    <string name="button_select_folder">Select folder</string>
-    <!-- Used in file rtkbases.xml:16    -->
-    <string name="action_sort">Sort</string>
-    <!-- Used in file activity_point_antenna.xml:44    -->
-    <string name="antenna_height_storage">Antenna Height</string>
-    <!-- Used in file activity_archieve_folder.xml:25    -->
-    <string name="check_archieve_folder">Auto Archieve Jobs to Folder</string>
-    <!-- Used in file activity_archieve_folder.xml:168    -->
-    <string name="button_sync_jobs_onedrive">Sync Jobs to OneDrive</string>
-    <!-- Used in file points.xml:34    -->
-    <string name="action_contouring">Contouring</string>
-    <!-- Used in file RTKBasesActivity.java:97    -->
-    <string name="string_id_sort">Id</string>
-    <!-- Used in file jobs.xml:40    -->
-    <string name="action_receive">Receive</string>
-    <!-- Used in file activity_archieve_folder.xml:131    -->
-    <string name="button_sync_jobs_googledrive">Sync Jobs with GoogleDrive</string>
-    <!-- Used in file activity_archieve_folder.xml:123    -->
-    <string name="button_authorize_googledrive">Authorize GoogleDrive</string>
-    <!-- Used in file JobActivity.java:94    -->
-    <string name="string_new_job">New Job</string>
-    <!-- Used in file activity_point.xml:248    -->
-    <string name="survey_info">SurveyInfo:\n\n</string>
-    <!-- Used in file activity_rover_points_from_base.xml:16    -->
-    <string name="search_hint">Search</string>
-    <!-- Used in file activity_job.xml:109    -->
-    <string name="coordinate_system">Coordinate System</string>
-    <!-- Used in file codes.xml:37    -->
-    <string name="action_map_import">Import</string>
-    <!-- Used in file activity_code.xml:194    -->
-    <string name="code_type">Type</string>
-    <!-- Used in file activity_job.xml:90    -->
-    <string name="job_comment">Comment</string>
-    <!-- Used in file jobs.xml:5    -->
-    <string name="action_add">Add</string>
-    <!-- Used in file activity_design_point.xml:110    -->
-    <string name="east">East</string>
     <!-- Used in file activity_job.xml:50    -->
     <string name="job_surveyor">Surveyor</string>
-    <!-- Used in file activity_archieve_folder.xml:18    -->
-    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
-    <!-- Used in file activity_rtkbase.xml:184    -->
-    <string name="button_antenna">Antenna</string>
-    <!-- Used in file jobs.xml:50    -->
-    <string name="action_delete">Delete</string>
-    <!-- Used in file activity_point.xml:203    -->
-    <string name="coordinate_wgs84">Wgs84</string>
-    <!-- Used in file activity_code.xml:121    -->
-    <string name="code_fields"> ___ Fields ___</string>
-    <!-- Used in file JobActivity.java:96    -->
-    <string name="string_duplicate_job_xml">Duplicate Job</string>
-    <!-- Used in file codes.xml:43    -->
-    <string name="action_map_export">Export</string>
-    <!-- Used in file RTKBasesActivity.java:100    -->
-    <string name="string_dpos_sort">Process</string>
-    <!-- Used in file activity_archieve_folder.xml:93    -->
-    <string name="button_sync_jobs_dropbox">Sync Jobs with Dropbox</string>
-    <!-- Used in file activity_job.xml:70    -->
-    <string name="job_organization">Organization</string>
-    <!-- Used in file TSPointsActivity.java:72    -->
-    <string name="string_name_sort">Name</string>
-    <!-- Used in file activity_rtkbase.xml:245    -->
-    <string name="button_reset_vb_rtk">Restore</string>
-    <!-- Used in file activity_point_antenna.xml:88    -->
-    <string name="antenna_vertical_offset">Vertical Offset</string>
-    <!-- Used in file activity_point_antenna.xml:28    -->
-    <string name="antenna_type">Antenna Type</string>
-    <!-- Used in file JobActivity.java:98    -->
-    <string name="string_edit_job_xml">Edit Job</string>
-    <!-- Used in file activity_code.xml:64    -->
-    <string name="code_name_number">Name / Number</string>
-    <!-- Used in file jobs.xml:35    -->
-    <string name="action_import">Import</string>
+    <!-- Used in file activity_code_values.xml:20    -->
+    <string name="sort_description">Sort by</string>
+    <!-- Used in file TSPointsActivity.java:76    -->
+    <string name="string_comment_sort">Comment</string>
+    <!-- Used in file activity_archieve_folder.xml:25    -->
+    <string name="check_archieve_folder">Auto Archieve Jobs to Folder</string>
+    <!-- Used in file home_map_points.xml:23    -->
+    <string name="action_show_survey_on">Survey Points</string>
+    <!-- Used in file rtkbases.xml:23    -->
+    <string name="action_sort">Sort</string>
+    <!-- Used in file AndroidManifest.xml:5    -->
+    <string name="app_name">storage</string>
     <!-- Used in file activity_archieve_folder.xml:154    -->
     <string name="archive_onedrive">Archieve to OneDrive</string>
+    <!-- Used in file activity_point_antenna.xml:74    -->
+    <string name="height_vertical">Vertical</string>
     <!-- Used in file activity_design_point.xml:30    -->
     <string name="point_name">Name</string>
-    <!-- Used in file design_points.xml:45    -->
+    <!-- Used in file design_points.xml:42    -->
     <string name="string_menu_import">Import</string>
-    <!-- Used in file activity_job.xml:132    -->
+    <!-- Used in file activity_rtkbase.xml:197    -->
+    <string name="string_filename_xml">Jps file</string>
+    <!-- Used in file activity_archieve_folder.xml:18    -->
+    <string name="archieve_description">Volume of your Android device main memory is limited. To save space, you can activate Archieving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <!-- Used in file codes.xml:42    -->
+    <string name="action_map_export">Export</string>
+    <!-- Used in file JobActivity.java:94    -->
+    <string name="string_new_job">New Job</string>
+    <!-- Used in file TSPointsActivity.java:75    -->
+    <string name="string_code_sort">Code</string>
+    <!-- Used in file design_points.xml:61    -->
+    <string name="action_delete_all">Delete All Design</string>
+    <!-- Used in file activity_job.xml:175    -->
+    <string name="write_to_text_files">Write to text files</string>
+    <!-- Used in file RTKBasesActivity.java:102    -->
+    <string name="string_filename_sort">Filename</string>
+    <!-- Used in file activity_job.xml:133    -->
     <string name="localization">Localization</string>
-    <!-- Used in file rtkbases.xml:22    -->
-    <string name="action_calendar">Calendar</string>
-    <!-- Used in file rtkbases.xml:34    -->
-    <string name="action_export">Export</string>
-    <!-- Used in file activity_rtkbase.xml:136    -->
-    <string name="string_reference_frame">Ref.Frame</string>
-    <!-- Used in file AndroidManifest.xml:13    -->
-    <string name="app_name">storage</string>
-    <!-- Used in file code_values.xml:11    -->
-    <string name="action_list_grid">List/Grid</string>
-    <!-- Used in file activity_code.xml:154    -->
-    <string name="button_add">Add</string>
-    <!-- Used in file activity_archieve_folder.xml:79    -->
-    <string name="archive_dropbox">Archieve to Dropbox</string>
-    <!-- Used in file activity_point.xml:210    -->
-    <string name="coordinate_origin">Origin</string>
-    <!-- Used in file activity_rtkbase.xml:254    -->
-    <string name="button_modify">Modify</string>
-    <!-- Used in file activity_code.xml:102    -->
-    <string name="code_comment">Description</string>
+    <!-- Used in file points.xml:55    -->
+    <string name="action_map_zoomall">Zoom All</string>
+    <!-- Used in file activity_code.xml:121    -->
+    <string name="code_fields"> ___ Fields ___</string>
     <!-- Used in file TSPointsActivity.java:74    -->
     <string name="string_time_sort">Time</string>
-    <!-- Used in file RTKBasesActivity.java:99    -->
-    <string name="string_filename_sort">Filename</string>
-    <!-- Used in file activity_job.xml:173    -->
-    <string name="write_to_text_files">Write to text files</string>
+    <!-- Used in file rtkbases.xml:15    -->
+    <string name="action_search">Search</string>
+    <!-- Used in file activity_point_antenna.xml:64    -->
+    <string name="height_type">Height Type</string>
+    <!-- Used in file activity_point.xml:203    -->
+    <string name="coordinate_wgs84">Wgs84</string>
+    <!-- Used in file JobActivity.java:96    -->
+    <string name="string_duplicate_job_xml">Duplicate Job</string>
+    <!-- Used in file activity_point.xml:252    -->
+    <string name="survey_info">SurveyInfo:\n\n</string>
+    <!-- Used in file activity_archieve_folder.xml:117    -->
+    <string name="archive_googledrive">Archieve GoogleDrive</string>
+    <!-- Used in file activity_rover_points_from_base.xml:16    -->
+    <string name="search_hint">Search</string>
     <!-- Used in file activity_code.xml:202    -->
     <string name="code_def_value">Def.Value</string>
-    <!-- Used in file activity_archieve_folder.xml:160    -->
-    <string name="button_authorize_onedrive">Authorize OneDrive</string>
-    <!-- Used in file activity_job.xml:161    -->
-    <string name="measure_units">Measure Units</string>
-    <!-- Used in file activity_point.xml:217    -->
-    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file jobs.xml:8    -->
+    <string name="action_add">Add</string>
+    <!-- Used in file activity_point_antenna.xml:44    -->
+    <string name="antenna_height_storage">Antenna Height</string>
+    <!-- Used in file code_values.xml:11    -->
+    <string name="action_list_grid">Grid</string>
+    <!-- Used in file activity_archieve_folder.xml:37    -->
+    <string name="button_select_folder">Select folder</string>
+    <!-- Used in file home_map_points.xml:29    -->
+    <string name="action_show_design_on">Design Points</string>
+    <!-- Used in file rtkbases.xml:8    -->
+    <string name="action_map">Map</string>
+    <!-- Used in file activity_job.xml:109    -->
+    <string name="coordinate_system">Coordinate System</string>
+    <!-- Used in file rtkbases.xml:47    -->
+    <string name="action_export">Export</string>
+    <!-- Used in file activity_design_point.xml:70    -->
+    <string name="code">Code</string>
+    <!-- Used in file home_map_points.xml:35    -->
+    <string name="action_show_ts_on">TS Points</string>
+    <!-- Used in file activity_code.xml:215    -->
+    <string name="code_max_length">Max.Length</string>
+    <!-- Used in file home_map_points.xml:41    -->
+    <string name="action_show_base_on">RTK Bases</string>
+    <!-- Used in file activity_archieve_folder.xml:123    -->
+    <string name="button_authorize_googledrive">Authorize GoogleDrive</string>
     <!-- Used in file activity_point_antenna.xml:107    -->
     <string name="button_recalculaye">Recalculate</string>
-    <!-- Used in file design_points.xml:41    -->
-    <string name="action_delete_all">Delete All Design</string>
-    <!-- Used in file activity_archieve_folder.xml:45    -->
-    <string name="jobs_are_located">Jobs are located in folder</string>
-    <!-- Used in file design_points.xml:53    -->
+    <!-- Used in file points.xml:47    -->
+    <string name="action_contouring">Contouring</string>
+    <!-- Used in file activity_archieve_folder.xml:85    -->
+    <string name="button_authorize_dropbox">Authorize Dropbox</string>
+    <!-- Used in file activity_design_point.xml:130    -->
+    <string name="height">Height</string>
+    <!-- Used in file activity_job.xml:70    -->
+    <string name="job_organization">Organization</string>
+    <!-- Used in file codes.xml:35    -->
+    <string name="action_map_import">Import</string>
+    <!-- Used in file activity_code.xml:174    -->
+    <string name="feature_name">Name</string>
+    <!-- Used in file activity_archieve_folder.xml:131    -->
+    <string name="button_sync_jobs_googledrive">Sync Jobs with GoogleDrive</string>
+    <!-- Used in file activity_job.xml:90    -->
+    <string name="job_comment">Comment</string>
+    <!-- Used in file codes.xml:48    -->
+    <string name="action_delete_all_codes">Delete All Codes</string>
+    <!-- Used in file activity_archieve_folder.xml:79    -->
+    <string name="archive_dropbox">Archieve to Dropbox</string>
+    <!-- Used in file activity_rtkbase.xml:51    -->
+    <string name="string_base_id_string">Base Id</string>
+    <!-- Used in file activity_rtkbase.xml:184    -->
+    <string name="button_antenna">Antenna</string>
+    <!-- Used in file activity_rtkbase.xml:136    -->
+    <string name="string_reference_frame">Ref.Frame</string>
+    <!-- Used in file activity_archieve_folder.xml:93    -->
+    <string name="button_sync_jobs_dropbox">Sync Jobs with Dropbox</string>
+    <!-- Used in file activity_job.xml:30    -->
+    <string name="job_name">Name</string>
+    <!-- Used in file activity_archieve_folder.xml:160    -->
+    <string name="button_authorize_onedrive">Authorize OneDrive</string>
+    <!-- Used in file rtkbases.xml:31    -->
+    <string name="action_calendar">Calendar</string>
+    <!-- Used in file jobs.xml:62    -->
+    <string name="action_delete">Delete</string>
+    <!-- Used in file RTKBasesActivity.java:103    -->
+    <string name="string_dpos_sort">Process</string>
+    <!-- Used in file activity_code.xml:194    -->
+    <string name="code_type">Type</string>
+    <!-- Used in file activity_design_point.xml:50    -->
+    <string name="description">Descr.</string>
+    <!-- Used in file design_points.xml:48    -->
     <string name="string_menu_export">Export</string>
     <!-- Used in file activity_code.xml:163    -->
     <string name="button_delete">Del</string>
-    <!-- Used in file activity_archieve_folder.xml:85    -->
-    <string name="button_authorize_dropbox">Authorize Dropbox</string>
-    <!-- Used in file codes.xml:31    -->
-    <string name="string_delete_all_codes">Delete All Codes</string>
-    <!-- Used in file activity_point_antenna.xml:64    -->
-    <string name="height_type">Height Type</string>
-    <!-- Used in file activity_code.xml:241    -->
-    <string name="code_max_value">Max.Value</string>
-    <!-- Used in file activity_design_point.xml:90    -->
-    <string name="north">North</string>
+    <!-- Used in file activity_job.xml:163    -->
+    <string name="measure_units">Measure Units</string>
+    <!-- Used in file activity_point_antenna.xml:28    -->
+    <string name="antenna_type">Antenna Type</string>
+    <!-- Used in file RTKBasesActivity.java:100    -->
+    <string name="string_id_sort">Id</string>
+    <!-- Used in file activity_rtkbase.xml:254    -->
+    <string name="button_modify">Modify</string>
+    <!-- Used in file list_points.xml:105    -->
+    <string name="string_descriptionhint">Description</string>
     <!-- Used in file SurveyPointSurveyInfoActivity.java:104    -->
     <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
-    <!-- Used in file activity_archieve_folder.xml:117    -->
-    <string name="archive_googledrive">Archieve GoogleDrive</string>
-    <!-- Used in file activity_job.xml:30    -->
-    <string name="job_name">Name</string>
-    <!-- UNUSED STRING 
-    <string name="action_show_design_off">dp</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="action_show_ts_on">TP</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="action_show_survey_off">sp</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="action_show_survey_on">SP</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="action_show_design_on">DP</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_cs">CS</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="action_show_ts_off">tp</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_cses">CSes</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_text_file__comma_delimited____txt">Text file (comma delimited) *.txt</string>
-    -->
+    <!-- Used in file activity_design_point.xml:90    -->
+    <string name="north">North</string>
+    <!-- Used in file JobActivity.java:98    -->
+    <string name="string_edit_job_xml">Edit Job</string>
+    <!-- Used in file activity_job.xml:194    -->
+    <string name="show_antenna_offsets">Show antenna vertical offset</string>
+    <!-- Used in file activity_code.xml:154    -->
+    <string name="button_add">Add</string>
+    <!-- Used in file activity_code.xml:64    -->
+    <string name="code_name_number">Name / Number</string>
+    <!-- Used in file jobs.xml:50    -->
+    <string name="action_receive">Receive</string>
+    <!-- Used in file activity_rtkbase.xml:245    -->
+    <string name="button_reset_vb_rtk">Restore</string>
+    <!-- Used in file jobs.xml:44    -->
+    <string name="action_import">Import</string>
+    <!-- Used in file activity_code.xml:241    -->
+    <string name="code_max_value">Max.Value</string>
+    <!-- Used in file activity_point_antenna.xml:79    -->
+    <string name="height_slant">Slant</string>
+    <!-- Used in file activity_point.xml:219    -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file list_points.xml:68    -->
+    <string name="string_codehint">Code</string>
+    <!-- Used in file activity_archieve_folder.xml:45    -->
+    <string name="jobs_are_located">Jobs are located in folder</string>
+    <!-- Used in file TSPointsActivity.java:72    -->
+    <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_code.xml:102    -->
+    <string name="code_comment">Description</string>
+    <!-- Used in file activity_point_antenna.xml:88    -->
+    <string name="antenna_vertical_offset">Vertical Offset</string>
+    <!-- Used in file activity_design_point.xml:110    -->
+    <string name="east">East</string>
+    <!-- Used in file activity_code.xml:228    -->
+    <string name="code_min_value">Min.Value</string>
+    <!-- Used in file activity_point.xml:211    -->
+    <string name="coordinate_origin">Origin</string>
+    <!-- Used in file activity_archieve_folder.xml:168    -->
+    <string name="button_sync_jobs_onedrive">Sync Jobs to OneDrive</string>
+    <!-- Used in file home_map_points.xml:9    -->
+    <string name="string_connect">Connect</string>
 
 </resources>

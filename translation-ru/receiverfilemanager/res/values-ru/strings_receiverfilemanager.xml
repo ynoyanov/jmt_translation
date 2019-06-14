@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file file_manager.xml:47. Original value:Download Block Size    -->
-    <string name="action_download_block_size">Размер блока загрузки</string>
     <!-- Used in file activity_actions.xml:12. Original value:Download    -->
     <string name="button_download">Загрузить</string>
-    <!-- Used in file file_manager.xml:41. Original value:Download HybridRTK files    -->
+    <!-- Used in file file_manager.xml:55. Original value:Download HybridRTK files    -->
     <string name="action_download_hybrid_rtk">Загрузить файлы HybridRTK</string>
-    <!-- Used in file AndroidManifest.xml:26. Original value:Receiver Files    -->
-    <string name="app_name">Файлы приёмника</string>
-    <!-- Used in file activity_file_manager.xml:55. Original value:Search files&#8230;    -->
-    <string name="search_hint">Поиск файлов…</string>
-    <!-- Used in file FileManagerActivity.java:127. Original value:Switch back to receiver files    -->
-    <string name="action_hide_deleted">Переключить в нормальный режим</string>
-    <!-- Used in file activity_actions.xml:19. Original value:Delete    -->
-    <string name="button_delete">Удалить</string>
-    <!-- Used in file file_manager.xml:52. Original value:Delete All Files    -->
-    <string name="button_delete_all">Удалить все файлы</string>
-    <!-- Used in file activity_file_manager.xml:39. Original value:. . .    -->
-    <string name="button_select">. . .</string>
-    <!-- Used in file activity_file_manager.xml:22. Original value:Folder\nto Store:    -->
-    <string name="text_folder">Папка\nхранения:</string>
-    <!-- Used in file activity_block_size.xml:60. Original value:Cancel    -->
-    <string name="button_cancel">Отменить</string>
-    <!-- Used in file activity_block_size.xml:20. Original value:Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.    -->
-    <string name="block_size_description">Размер блока при загрузке задает определяет передаваемый объем данных за одну команду.\nЧем больше блок, тем меньше команд нужно для передачи файла.\nНекие ошибки Bluetooth протокола вызывают перезагрузку приемника при блоке больше 256 байт.\nРазмер блока по умолчанию - 4096 байт.</string>
     <!-- Used in file activity_main.xml:14. Original value:Hello World    -->
     <string name="hello_world">Привет</string>
-    <!-- Used in file activity_block_size.xml:34. Original value:Block Size, bytes    -->
-    <string name="block_size">Размер блока, байт</string>
-    <!-- Used in file main.xml:7. Original value:Settings    -->
-    <string name="action_settings">Настройки</string>
-    <!-- Used in file AndroidManifest.xml:35. Original value:File Manager    -->
-    <string name="title_activity_file_manager">Файлы</string>
+    <!-- Used in file file_manager.xml:63. Original value:Download Block Size    -->
+    <string name="action_download_block_size">Размер блока загрузки</string>
     <!-- Used in file activity_block_size.xml:69. Original value:Apply&quot;    -->
     <string name="button_apply">Применить</string>
-    <!-- Used in file file_manager.xml:28. Original value:Switch to Deleted files    -->
+    <!-- Used in file activity_file_manager.xml:39. Original value:. . .    -->
+    <string name="button_select">. . .</string>
+    <!-- Used in file activity_block_size.xml:60. Original value:Cancel    -->
+    <string name="button_cancel">Отменить</string>
+    <!-- Used in file activity_file_manager.xml:22. Original value:Folder\nto Store:    -->
+    <string name="text_folder">Папка\nхранения:</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Настройки</string>
+    <!-- Used in file activity_actions.xml:19. Original value:Delete    -->
+    <string name="button_delete">Удалить</string>
+    <!-- Used in file activity_block_size.xml:34. Original value:Block Size, bytes    -->
+    <string name="block_size">Размер блока, байт</string>
+    <!-- Used in file activity_block_size.xml:20. Original value:Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.    -->
+    <string name="block_size_description">Размер блока при загрузке задает определяет передаваемый объем данных за одну команду.\nЧем больше блок, тем меньше команд нужно для передачи файла.\nНекие ошибки Bluetooth протокола вызывают перезагрузку приемника при блоке больше 256 байт.\nРазмер блока по умолчанию - 4096 байт.</string>
+    <!-- Used in file activity_file_manager.xml:55. Original value:Search files&#8230;    -->
+    <string name="search_hint">Поиск файлов…</string>
+    <!-- Used in file file_manager.xml:69. Original value:Delete All Files    -->
+    <string name="button_delete_all">Удалить все файлы</string>
+    <!-- Used in file file_manager.xml:37. Original value:Switch to Deleted files    -->
     <string name="action_show_deleted">Перейти в режим удаленных файлов</string>
-    <!-- Used in file AndroidManifest.xml:59. Original value:Connection    -->
+    <!-- Used in file AndroidManifest.xml:5. Original value:Receiver Files    -->
+    <string name="app_name">Файлы приёмника</string>
+    <!-- Used in file FileManagerActivity.java:127. Original value:Switch back to receiver files    -->
+    <string name="action_hide_deleted">Переключить в нормальный режим</string>
+    <!-- UNUSED STRING 
     <string name="title_activity_connection">Подключение</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="title_activity_file_manager">Файлы</string>
+    -->
 
 </resources>
