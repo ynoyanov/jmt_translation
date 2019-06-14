@@ -1,102 +1,87 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file BaseHomeActivity.java:859. Original value:Permission denied to read from your External storage  -->
+    <string name="string_permission_denied_to_read_from_your_external_storage">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
+    <!--  Used in file HomeMapActivity.java:2183. Original value:Close  -->
+    <string name="string_close">Zamknij</string>
+    <!--  Used in file BaseHomeActivity.java:1233. Original value:Connection in progress&#8230;!  -->
+    <string name="string_connection_in_progress____">Połączenie w toku…!</string>
+    <!--  Used in file HomeMapActivity.java:2267. Original value:Do you want to delete %1$s?  -->
+    <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
+    <!--  Used in file BaseHomeActivity.java:1923. Original value:Select Project  -->
+    <string name="string_select_project">Wybierz Projekt</string>
+    <!--  Used in file BaseHomeActivity.java:1079. Original value:Russian  -->
+    <string name="string_russian">Rosyjski</string>
+    <!--  Used in file BaseHomeActivity.java:1327. Original value:Do you want to exit the application?  -->
+    <string name="string_do_you_want_to_exit_the_application_">Czy chcesz wyjść z programu?</string>
+    <!--  Used in file BaseHomeActivity.java:731. Original value:Option has purchased. App is licensed to work with any JAVAD GNSS receiver.  -->
+    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Opcja zakupiona. Aplikacja ma aktywną licencję , pozwalającą na prace z dowolnym odbiornikiem JAVAD GNSS.</string>
+    <!--  Used in file BaseHomeActivity.java:999. Original value:Job:  -->
+    <string name="string_job_">Proj:</string>
+    <!--  Used in file HomeMapActivity.java:2402. Original value:Permission denied to access to camera  -->
+    <string name="string_permission_denied_to_access_to_camera">Brak dostępu do Aparatu!</string>
+    <!--  Used in file HomeMapActivity.java:2242. Original value:Surveyed Points  -->
+    <string name="string_surveyed_points">Punkty z pomiaru</string>
+    <!--  Used in file HomeMapActivity.java:2288. Original value:Cancel  -->
+    <string name="string_cancel">Cancel</string>
+    <!--  Used in file BaseHomeActivity.java:1925. Original value:Select Last Job (%s)  -->
+    <string name="string_select_last_job___s_">Poprzedni projekt: %s</string>
+    <!--  Used in file BaseHomeActivity.java:668. Original value:Problem setting up In-app Billing:   -->
+    <string name="string_problem_setting_up_in_app_billing__">Problem z ustawieniem zakupów w aplikacji:</string>
+    <!--  Used in file BaseHomeActivity.java:1050. Original value:Sounds  -->
+    <string name="string_sounds">Dźwięki</string>
+    <!--  Used in file BaseHomeActivity.java:883. Original value:Permission denied to obtain list of Bluetooth devices around  -->
+    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Brak uprawnień do wyświetlenia urządzeń BT w pobliżu!</string>
+    <!--  Used in file BaseHomeActivity.java:967. Original value:Version:%1$s%2$s %3$s  -->
+    <string name="string_version__1_s_2_s__3_s">Wersja:%1$s%2$s %3$s</string>
+    <!--  Used in file HomeMapActivity.java:1694. Original value:Rerceiver is not connected!  -->
+    <string name="string_rerceiver_is_not_connected_">Odbiornik nie jest połączony!</string>
+    <!--  Used in file BaseHomeActivity.java:1326. Original value:Exit application  -->
+    <string name="string_exit_application">Zamknij program</string>
+    <!--  Used in file BaseHomeActivity.java:1054. Original value:Language  -->
+    <string name="string_language">Język</string>
+    <!--  Used in file BaseHomeActivity.java:1080. Original value:Taiwan  -->
+    <string name="string_taiwan">Taiwan</string>
+    <!--  Used in file BaseHomeActivity.java:1081. Original value:Turkish  -->
+    <string name="string_turkish">Turkish</string>
+    <!--  Used in file BaseHomeActivity.java:511. Original value:Connected to : %s  -->
+    <string name="string_connected_to____s">Połączono z : %s</string>
+    <!--  Used in file HomeMapActivity.java:1696. Original value:Rerceiver is not licensed!  -->
+    <string name="string_rerceiver_is_not_licensed_">Brak licencji dla odbiornika!</string>
+    <!--  Used in file BaseHomeActivity.java:1926. Original value:Select Other Job&#8230;  -->
+    <string name="string_select_other_job___">Inny projekt…</string>
+    <!--  Used in file HomeMapActivity.java:2170. Original value:What to do with point %1$s?  -->
+    <string name="string_what_to_do_with_point__1_s_">Wybierz akcję dla punktu %1$s</string>
+    <!--  Used in file BaseHomeActivity.java:869. Original value:Permission denied to write to your External storage  -->
+    <string name="string_permission_denied_to_write_to_your_external_storage">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
+    <!--  Used in file HomeMapActivity.java:2269. Original value:Delete  -->
+    <string name="string_delete">Delete</string>
+    <!--  Used in file BaseHomeActivity.java:1057. Original value:English  -->
+    <string name="string_english">English</string>
+    <!--  Used in file HomeMapActivity.java:2240. Original value:Design Points  -->
+    <string name="string_design_points">Punkty Wpisane</string>
+    <!--  Used in file BaseHomeActivity.java:986. Original value:Rec:  -->
+    <string name="string_rec_">Rec:</string>
+    <!--  Used in file BaseHomeActivity.java:166. Original value:Wrong device  -->
+    <string name="string_wrong_device">Niewłaśćiwe urządz.</string>
+    <!--  Used in file BaseHomeActivity.java:704. Original value:Error purchasing:   -->
+    <string name="string_error_purchasing__">Błąd zakupu:</string>
+    <!--  Used in file BaseHomeActivity.java:167. Original value:The application is designed to be ran on Nautiz X8 device only.  -->
+    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Aplikacja jest przeznaczona tylko na urządzenie Nautiz X8.</string>
+    <!--  Used in file HomeMapActivity.java:2314. Original value:N:%1$.3f_E:%2$.3f  -->
+    <string name="string_n__1__3f_e__2__3f">X:%1$.3f_Y:%2$.3f</string>
+    <!--  Used in file HomeMapActivity.java:688. Original value:You can\'t import Survey points!  -->
+    <string name="string_you_can_t_import_survey_points_">You can\'t import Survey points!</string>
+    <!--  Used in file BaseHomeActivity.java:2041. Original value:Error!  -->
+    <string name="string_error_">Błąd!</string>
+    <!--  Used in file BaseHomeActivity.java:965. Original value:Build:%s  -->
+    <string name="string_build__s">Build:%s</string>
+    <!--  Used in file HomeMapActivity.java:2181. Original value:Stake  -->
+    <string name="string_stake">Tyczenie</string>
+    <!--  Used in file HomeMapActivity.java:2180. Original value:View/Edit  -->
+    <string name="string_view_edit">Podgląd/Edycja</string>
+    <!--  Used in file BaseHomeActivity.java:306. Original value:Points  -->
+    <string name="string_points">Punkty</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="string_permission_denied_to_read_from_your_external_storage">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
-  <!--Original value: Connection in progress…!-->
-  <string name="string_connection_in_progress____">Połączenie w toku…!</string>
-  <!--Original value: Do you want to delete %1$s?-->
-  <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
-  <!--Original value: Select Project-->
-  <string name="string_select_project">Wybierz Projekt</string>
-  <!--Original value: Russian-->
-  <string name="string_russian">Rosyjski</string>
-  <!--Original value: Do you want to exit the application?-->
-  <string name="string_do_you_want_to_exit_the_application_">Czy chcesz wyjść z programu?</string>
-  <!--Original value: Option has purchased. App is licensed to work with any JAVAD GNSS receiver.-->
-  <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Opcja zakupiona. Aplikacja ma aktywną licencję , pozwalającą na prace z dowolnym odbiornikiem JAVAD GNSS.</string>
-  <!--Original value: Job:-->
-  <string name="string_job_">Proj:</string>
-  <!--Original value: Permission denied to access to camera-->
-  <string name="string_permission_denied_to_access_to_camera">Brak dostępu do Aparatu!</string>
-  <!--Original value: Surveyed Points-->
-  <string name="string_surveyed_points">Punkty z pomiaru</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Cancel</string>
-  <!--Original value: Select Last Job (%s)-->
-  <string name="string_select_last_job___s_">Poprzedni projekt: %s</string>
-  <!--Original value: Problem setting up In-app Billing: -->
-  <string name="string_problem_setting_up_in_app_billing__">Problem z ustawieniem zakupów w aplikacji:</string>
-  <!--Original value: Sounds-->
-  <string name="string_sounds">Dźwięki</string>
-  <!--Original value: Permission denied to obtain list of Bluetooth devices around-->
-  <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Brak uprawnień do wyświetlenia urządzeń BT w pobliżu!</string>
-  <!--Original value: Version:%1$s%2$s %3$s-->
-  <string name="string_version__1_s_2_s__3_s">Wersja:%1$s%2$s %3$s</string>
-  <!--Original value: Rerceiver is not connected!-->
-  <string name="string_rerceiver_is_not_connected_">Odbiornik nie jest połączony!</string>
-  <!--Original value: Exit application-->
-  <string name="string_exit_application">Zamknij program</string>
-  <!--Original value: Language-->
-  <string name="string_language">Język</string>
-  <!--Original value: Taiwan-->
-  <string name="string_taiwan">Taiwan</string>
-  <!--Original value: Turkish-->
-  <string name="string_turkish">Turkish</string>
-  <!--Original value: Connected to : %s-->
-  <string name="string_connected_to____s">Połączono z : %s</string>
-  <!--Original value: Rerceiver is not licensed!-->
-  <string name="string_rerceiver_is_not_licensed_">Brak licencji dla odbiornika!</string>
-  <!--Original value: Select Other Job…-->
-  <string name="string_select_other_job___">Inny projekt…</string>
-  <!--Original value: What to do with point %1$s?-->
-  <string name="string_what_to_do_with_point__1_s_">Wybierz akcję dla punktu %1$s</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="string_permission_denied_to_write_to_your_external_storage">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Delete</string>
-  <!--Original value: English-->
-  <string name="string_english">English</string>
-  <!--Original value: Design Points-->
-  <string name="string_design_points">Punkty Wpisane</string>
-  <!--Original value: Rec:-->
-  <string name="string_rec_">Rec:</string>
-  <!--Original value: Wrong device-->
-  <string name="string_wrong_device">Niewłaśćiwe urządz.</string>
-  <!--Original value: Error purchasing: -->
-  <string name="string_error_purchasing__">Błąd zakupu:</string>
-  <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
-  <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Aplikacja jest przeznaczona tylko na urządzenie Nautiz X8.</string>
-  <!--Original value: N:%1$.3f_E:%2$.3f-->
-  <string name="string_n__1__3f_e__2__3f">X:%1$.3f_Y:%2$.3f</string>
-  <!--Original value: Error!-->
-  <string name="string_error_">Błąd!</string>
-  <!--Original value: Build:%s-->
-  <string name="string_build__s">Build:%s</string>
-  <!--Original value: Stake-->
-  <string name="string_stake">Tyczenie</string>
-  <!--Original value: View/Edit-->
-  <string name="string_view_edit">Podgląd/Edycja</string>
-  <!--Original value: Points-->
-  <string name="string_points">Punkty</string>
 </resources>
