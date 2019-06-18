@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_connection_bluetooth.xml:95. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
+    <!-- Used in file activity_connection_bluetooth.xml:92. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
     <string name="button_wifi_iphone_reconnect">設定接收儀 WiFi AdHoc 模式由 iPhone</string>
     <!-- Used in file activity_main_communication.xml:74. Original value:Network    -->
     <string name="ethernet_radio">網路</string>
@@ -11,31 +11,33 @@
     <string name="password">密碼</string>
     <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
     <string name="login_netgear">NetGear 登錄</string>
-    <!-- Used in file activity_connection_bluetooth.xml:85. Original value:Reconnect with WiFi using external AP    -->
+    <!-- Used in file activity_connection_bluetooth.xml:81. Original value:Reconnect with WiFi using external AP    -->
     <string name="button_wifi_network_reconnect">使用外部AP無線網絡重新連接</string>
     <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
     <string name="string_rename">更名</string>
-    <!-- Used in file ReceiverModel.java:2154. Original value:RTK Base antenna Id error!    -->
-    <string name="set_rtkbase_error_antenna_id">RTK Base antenna Id error!</string>
-    <!-- Used in file ConfigurationManager.java:191. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
+    <!-- Used in file ReceiverModel.java:2079. Original value:RTK Base antenna Id error!    -->
+    <string name="set_rtkbase_error_antenna_id">RTK 基站天線Id 錯誤!</string>
+    <!-- Used in file MainCommunicationActivity.java:949. Original value:Connection error!Please try to reconnect latter or select another device!    -->
+    <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
+    <!-- Used in file ConfigurationManager.java:212. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
     <string name="string_without_receiver">&#x002d;&#x002d;&#x002d;不使用接收儀&#x002d;&#x002d;&#x002d; </string>
-    <!-- Used in file activity_connection_configurations.xml:36. Original value:Delete    -->
+    <!-- Used in file activity_connection_configurations.xml:40. Original value:Delete    -->
     <string name="string_delete">刪除</string>
     <!-- Used in file list_items_button.xml:13. Original value:Connect    -->
     <string name="button_connect">連線</string>
     <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
     <string name="string_new">新的</string>
-    <!-- Used in file ReceiverModel.java:2158. Original value:RTK Base antenna height error!    -->
-    <string name="set_rtkbase_error_antenna_height">RTK Base antenna height error!</string>
-    <!-- Used in file ReceiverModel.java:2156. Original value:RTK Base antenna type error!    -->
-    <string name="set_rtkbase_error_antenna_type">RTK Base antenna type error!</string>
+    <!-- Used in file ReceiverModel.java:2083. Original value:RTK Base antenna height error!    -->
+    <string name="set_rtkbase_error_antenna_height">RTK 基站天線高錯誤!</string>
+    <!-- Used in file ReceiverModel.java:2081. Original value:RTK Base antenna type error!    -->
+    <string name="set_rtkbase_error_antenna_type">RTK 基站天線形式錯誤!</string>
     <!-- Used in file activity_main_communication.xml:60. Original value:WiFi    -->
     <string name="wifi_radio">WiFi</string>
-    <!-- Used in file ReceiverModel.java:2087. Original value:RTK Base parameters is not pass!    -->
-    <string name="set_rtkbase_error_null">RTK Base parameters is not pass!</string>
+    <!-- Used in file ReceiverModel.java:2011. Original value:RTK Base parameters is not pass!    -->
+    <string name="set_rtkbase_error_null">RTK 基本參數未通過!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
     <string name="button_cancel">取消</string>
-    <!-- Used in file activity_connection_bluetooth.xml:75. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
+    <!-- Used in file activity_connection_bluetooth.xml:70. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
     <string name="button_wifi_ap_reconnect">重新連線WiFi使用Android移動熱點</string>
     <!-- Used in file connection.xml:7. Original value:Settings    -->
     <string name="action_settings">設定</string>
@@ -43,25 +45,25 @@
     <string name="text_connection">連接到接收儀:</string>
     <!-- Used in file activity_connection.xml:50. Original value:Login    -->
     <string name="login">登錄</string>
-    <!-- Used in file ReceiverModel.java:2160. Original value:RTK Base cannot enable corrections    -->
-    <string name="set_rtkbase_error_enable_corrections">RTK Base cannot enable corrections</string>
+    <!-- Used in file ReceiverModel.java:2085. Original value:RTK Base cannot enable corrections    -->
+    <string name="set_rtkbase_error_enable_corrections">RTK 基站無法啟動改正</string>
     <!-- Used in file activity_main_communication.xml:67. Original value:WiFi\n(Mob.AP)    -->
     <string name="wifi_ap_radio">WiFi\n(移動熱點)</string>
-    <!-- Used in file ReceiverModel.java:2162. Original value:RTK Base base id error!    -->
-    <string name="set_rtkbase_error_base_id">RTK Base base id error!</string>
+    <!-- Used in file ReceiverModel.java:2087. Original value:RTK Base base id error!    -->
+    <string name="set_rtkbase_error_base_id">RTK Base 基站 id 錯誤!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
     <string name="setting_name">設定名稱</string>
     <!-- Used in file main_communication.xml:7. Original value:Refresh    -->
     <string name="action_refresh">更新</string>
-    <!-- Used in file ConfigurationManager.java:168. Original value:- select a configuration    -->
+    <!-- Used in file ConfigurationManager.java:189. Original value:- select a configuration    -->
     <string name="string_select_configuration_small">- 選擇一個配置</string>
-    <!-- Used in file ConfigurationManager.java:170. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
+    <!-- Used in file ConfigurationManager.java:191. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
     <string name="string_select_configuration">&#x002d;&#x002d;&#x002d; 選擇配置 &#x002d;&#x002d;&#x002d; </string>
     <!-- Used in file activity_main_communication.xml:53. Original value:Bluetooth    -->
     <string name="bluetooth_radio">藍芽</string>
-    <!-- Used in file activity_connection_bluetooth.xml:61. Original value:WiFi Password    -->
+    <!-- Used in file activity_connection_bluetooth.xml:54. Original value:WiFi Password    -->
     <string name="string_wifi_password">WiFi 密碼</string>
-    <!-- Used in file ReceiverModel.java:2152. Original value:RTK Base position error!    -->
-    <string name="set_rtkbase_error_position">RTK Base position error!</string>
+    <!-- Used in file ReceiverModel.java:2077. Original value:RTK Base position error!    -->
+    <string name="set_rtkbase_error_position">RTK 基站位置錯誤!</string>
 
 </resources>

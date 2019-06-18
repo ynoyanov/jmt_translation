@@ -1,437 +1,629 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file JobActivity.java:492. Original value:No Localization  -->
-    <string name="string_no_localization">無地方化</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:103. Original value:off  -->
-    <string name="string_off">關閉</string>
-    <!--  Used in file TSPointsActivity.java:285. Original value:View on Map  -->
-    <string name="string_view_on_map">查看由地圖</string>
-    <!--  Used in file SurveyPoint.java:228. Original value:3DRMS  -->
-    <string name="string_3drms">3DRMS</string>
-    <!--  Used in file TSPoint.java:48. Original value:Name  -->
-    <string name="string_name">Name</string>
-    <!--  Used in file JobActivity.java:465. Original value:Job %s already exists!  -->
-    <string name="string_job__s_already_exists_">工作檔%s 已經存在!</string>
-    <!--  Used in file TSPointsActivity.java:307. Original value:Close  -->
+    <!--  Used in file DesignPoint.java:200. Original value:Name  -->
+    <string name="string_name">名稱</string>
+    <!--  Used in file TSPointsActivity.java:306. Original value:Close  -->
     <string name="string_close">關閉</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:94. Original value:5 Hz mode  -->
     <string name="string_5_hz_mode">5 Hz 模式</string>
-    <!--  Used in file ExportAndReport.java:135. Original value:MapInfo *.tab  -->
-    <string name="string_mapinfo___tab">MapInfo *.tab</string>
-    <!--  Used in file DesignPointsActivity.java:119. Original value:ASCII file *.txt, *.sdr &#8230;  -->
+    <!--  Used in file DesignPointsActivity.java:120. Original value:ASCII file *.txt, *.sdr &#8230;  -->
     <string name="string_ascii_file___txt____sdr____">ASCII file *.txt, *.sdr …</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:196. Original value:Don\'t use Job Archieving  -->
-    <string name="string_don_t_use_job_archieving">不要使用工作歸檔</string>
-    <!--  Used in file SurveyPointAntennaActivity.java:111. Original value:Error  -->
+    <!--  Used in file SurveyPointAntennaActivity.java:105. Original value:Error  -->
     <string name="string_error">錯誤</string>
-    <!--  Used in file JobActivity.java:227. Original value:Last time  -->
-    <string name="string_last_time">最後時間</string>
-    <!--  Used in file DesignPointsActivity.java:125. Original value:LandXML *.xml  -->
-    <string name="string_landxml___xml">LandXML *.xml</string>
-    <!--  Used in file RTKBaseActivity.java:146. Original value:%d RTK points from this base  -->
-    <string name="string__d_rtk_points_from_this_base">%d RTK points from this base</string>
-    <!--  Used in file DesignPointsActivity.java:123. Original value:ESRI ArcGis *.shp  -->
+    <!--  Used in file CodesActivity.java:741. Original value:Exporting&#8230;  -->
+    <string name="string_exporting___">Exporting&#8230;</string>
+    <!--  Used in file JavadImport.java:92. Original value:ASCII file *.txt &#8230;  -->
+    <string name="string_ascii_file___txt____">ASCII file *.txt &#8230;</string>
+    <!--  Used in file CodeActivity.java:257. Original value:Field name is too long!  -->
+    <string name="string_field_name_is_too_long_">Field name is too long!</string>
+    <!--  Used in file DesignPointsActivity.java:124. Original value:ESRI ArcGis *.shp  -->
     <string name="string_esri_arcgis___shp">ESRI ArcGis *.shp</string>
-    <!--  Used in file SurveyObject.java:124. Original value:BaseDistance  -->
-    <string name="string_basedistance">BaseDistance</string>
-    <!--  Used in file TSPointsActivity.java:282. Original value:Delete point %s  -->
+    <!--  Used in file SurveyObject.java:140. Original value:BaseDistance  -->
+    <string name="string_basedistance">基站距離</string>
+    <!--  Used in file TSPointsActivity.java:281. Original value:Delete point %s  -->
     <string name="string_delete_point__s">刪除點位 %s</string>
-    <!--  Used in file JobsActivity.java:798. Original value:jobs  -->
-    <string name="string_jobs">工作</string>
-    <!--  Used in file SurveyPointActivity.java:230. Original value:Sats:  -->
-    <string name="string_sats_">衛星:</string>
-    <!--  Used in file SurveyPoint.java:354. Original value:Stakeout CutFill  -->
-    <string name="string_stakeout_cutfill">Stakeout CutFill</string>
+    <!--  Used in file CodeActivity.java:370. Original value:Wrong code number!  -->
+    <string name="string_wrong_code_number_">Wrong code number!</string>
+    <!--  Used in file SurveyPoint.java:404. Original value:Stakeout CutFill  -->
+    <string name="string_stakeout_cutfill">放樣挖填方</string>
     <!--  Used in file DatabaseMapActivity.java:58. Original value:Catalog Points  -->
     <string name="string_catalog_points">目錄點位</string>
-    <!--  Used in file SurveyPoint.java:311. Original value:TDOP  -->
-    <string name="string_tdop">TDOP</string>
-    <!--  Used in file SurveyPointActivity.java:245. Original value:Base:  -->
-    <string name="string_base_">基站:</string>
-    <!--  Used in file SurveyObject.java:256. Original value:End Time  -->
+    <!--  Used in file SurveyPointActivity.java:874. Original value:Do you want to modify antenna and correct height for all the points?  -->
+    <string name="string_do_you_want_to_modify_antenna_and_correct_height_for_all_the_points_">Do you want to modify antenna and correct height for all the points?</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:70. Original value:End Time  -->
     <string name="string_end_time">結束時間  </string>
-    <!--  Used in file SurveyPointsActivity.java:90. Original value:ExportDxf  -->
+    <!--  Used in file PointsFragment.java:291. Original value:ExportDxf  -->
     <string name="string_exportdxf">輸出 Dxf</string>
-    <!--  Used in file DesignPointsActivity.java:399. Original value:All %s were deleted  -->
+    <!--  Used in file DesignPointsActivity.java:401. Original value:All %s were deleted  -->
     <string name="string_all__s_were_deleted">所有 %s 已被刪除</string>
-    <!--  Used in file ExportAndReport.java:138. Original value:Select Export Type  -->
-    <string name="string_select_export_type">選擇輸出形式</string>
-    <!--  Used in file DesignPointsActivity.java:405. Original value:Cancel  -->
+    <!--  Used in file JavadImport.java:281. Original value:Cancel  -->
     <string name="string_cancel">取消</string>
-    <!--  Used in file DesignPoint.java:198. Original value:Description  -->
-    <string name="string_description">Description</string>
+    <!--  Used in file DesignPoint.java:186. Original value:Description  -->
+    <string name="string_description">描述</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Fix Only  -->
     <string name="string_use_fix_only">唯一使用Fix</string>
-    <!--  Used in file SurveyPointActivity.java:513. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
-    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">點位名稱太長!\n請不要超過40字元</string>
-    <!--  Used in file SurveyPoint.java:437. Original value:Stakeout Direction  -->
-    <string name="string_stakeout_direction">Stakeout Direction</string>
-    <!--  Used in file SurveyPoint.java:238. Original value:Base Distance  -->
-    <string name="string_base_distance">Base Distance</string>
-    <!--  Used in file SurveyPoint.java:208. Original value:HRMS  -->
-    <string name="string_hrms">HRMS</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:91. Original value:Correction by Levels  -->
-    <string name="string_correction_by_levels">水準校正</string>
-    <!--  Used in file RTKBaseActivity.java:350. Original value:Modify RTK Base  -->
-    <string name="string_modify_rtk_base">修改 RTK 基站</string>
-    <!--  Used in file SurveyPoint.java:259. Original value:Occupation Time  -->
-    <string name="string_occupation_time">紀錄時間</string>
-    <!--  Used in file SurveyPoint.java:270. Original value:Satellites  -->
-    <string name="string_satellites">衛星</string>
+    <!--  Used in file ExportAndReport.java:165. Original value:ASCII file (*.txt)  -->
+    <string name="string_ascii_file____txt_">ASCII file (*.txt)</string>
+    <!--  Used in file SurveyPoint.java:476. Original value:Stakeout Direction  -->
+    <string name="string_stakeout_direction">放樣方向</string>
+    <!--  Used in file SurveyPoint.java:315. Original value:Base Distance  -->
+    <string name="string_base_distance">基站距離</string>
+    <!--  Used in file CodesActivity.java:654. Original value:Select Format  -->
+    <string name="string_select_format">Select Format</string>
+    <!--  Used in file CodesActivity.java:648. Original value:Text (code only) *.txt  -->
+    <string name="string_text__code_only____txt">Text (code only) *.txt</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:103. Original value:on  -->
     <string name="string_on">開</string>
-    <!--  Used in file SurveyPointListAdapter.java:163. Original value:slant  -->
-    <string name="string_slant">斜高</string>
-    <!--  Used in file JavadImport.java:353. Original value:Data loaded. Parsing&#8230;  -->
-    <string name="string_data_loaded__parsing___">Data loaded. Parsing&#8230;</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:87. Original value:epochs  -->
-    <string name="string_epochs">曆元</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:883. Original value:Applying setting&#8230;  -->
-    <string name="string_applying_setting___">套用設定…</string>
-    <!--  Used in file SurveyPoint.java:182. Original value:Inclination Martix  -->
-    <string name="string_inclination_martix">Inclination Martix</string>
-    <!--  Used in file SurveyPoint.java:401. Original value:Stakeout dE  -->
-    <string name="string_stakeout_de">Stakeout dE</string>
-    <!--  Used in file SurveyObject.java:237. Original value:Antenna ID  -->
-    <string name="string_antenna_id">Antenna ID</string>
-    <!--  Used in file JavadImport.java:253. Original value:Imported OK  -->
-    <string name="string_imported_ok">Imported OK</string>
-    <!--  Used in file JobsActivity.java:262. Original value:Edit Job  -->
+    <!--  Used in file SurveyObject.java:747. Original value:Correction Source Id  -->
+    <string name="string_correction_source_id">Correction Source Id</string>
+    <!--  Used in file CodesActivity.java:645. Original value:CSV file *.csv  -->
+    <string name="string_csv_file___csv">CSV file *.csv</string>
+    <!--  Used in file SurveyPoint.java:440. Original value:Stakeout dE  -->
+    <string name="string_stakeout_de">放樣 dE</string>
+    <!--  Used in file JobsActivity.java:261. Original value:Edit Job  -->
     <string name="string_edit_job">編輯工作</string>
-    <!--  Used in file SurveyPointActivity.java:511. Original value:Point name is empty!  -->
-    <string name="string_point_name_is_empty_">點位名稱是空的!</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:134. Original value:FH Freq  -->
-    <string name="string_fh_freq">FH 頻率</string>
-    <!--  Used in file SurveyObject.java:243. Original value:Antenna Height  -->
-    <string name="string_antenna_height">Antenna Height</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:927. Original value:Job Archieving is activated to folder \'%s\'!  -->
+    <!--  Used in file SurveyObject.java:308. Original value:Antenna Height  -->
+    <string name="string_antenna_height">天線高</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:1036. Original value:Job Archieving is activated to folder \'%s\'!  -->
     <string name="string_job_archieving_is_activated_to_folder___s__">作業紀錄被開啟到檔案夾 \'%s\'!</string>
-    <!--  Used in file SurveyObject.java:250. Original value:Start Time  -->
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:69. Original value:Start Time  -->
     <string name="string_start_time">開始時間</string>
-    <!--  Used in file RTKBaseActivity.java:172. Original value:Do you want to restore RTK base before modification?  -->
-    <string name="string_do_you_want_to_restore_rtk_base_before_modification_">Do you want to restore RTK base before modification?</string>
-    <!--  Used in file DesignPointsActivity.java:559. Original value:Can\'t load importexport library!  -->
+    <!--  Used in file PointsFragment.java:777. Original value:Edit only point\n%s  -->
+    <string name="string_edit_only_point_n_s">Edit only point\n%s</string>
+    <!--  Used in file RTKBaseActivity.java:186. Original value:Do you want to restore RTK base before modification?  -->
+    <string name="string_do_you_want_to_restore_rtk_base_before_modification_">您想在修改之前恢復RTK基站嗎？</string>
+    <!--  Used in file JavadImport.java:363. Original value:Can\'t load importexport library!  -->
     <string name="string_can_t_load_importexport_library_">無法加載導入導出庫!</string>
-    <!--  Used in file SurveyPointsActivity.java:329. Original value:Delete %1$s %2$s  -->
-    <string name="string_delete__1_s__2_s">刪除 %1$s %2$s</string>
-    <!--  Used in file SurveyPointAntennaActivity.java:169. Original value:Wrong vertical offset!  -->
+    <!--  Used in file CodeActivity.java:328. Original value:Empty name!  -->
+    <string name="string_empty_name_">Empty name!</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:164. Original value:Wrong vertical offset!  -->
     <string name="string_wrong_vertical_offset_">錯誤的垂直偏移!</string>
-    <!--  Used in file DesignPointsActivity.java:564. Original value:Import error  -->
+    <!--  Used in file JavadImport.java:388. Original value:Import error  -->
     <string name="string_import_error">輸入錯誤 </string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:100. Original value:on (  -->
     <string name="string_on__">開 (</string>
-    <!--  Used in file JobsActivity.java:264. Original value:Duplicate Job  -->
-    <string name="string_duplicate_job">重複的工作</string>
-    <!--  Used in file DesignPointsActivity.java:646. Original value:Import error #  -->
-    <string name="string_import_error__">輸入錯誤 #</string>
-    <!--  Used in file DesignPointsActivity.java:503. Original value:Dwg import is unsuppurted  -->
+    <!--  Used in file CodesActivity.java:425. Original value:File doesn\'t exist!  -->
+    <string name="string_file_doesn_t_exist_">File doesn\'t exist!</string>
+    <!--  Used in file JobActivity.java:161. Original value:%d design points in the job  -->
+    <string name="string__d_design_points_in_the_job">%d design points in the job</string>
+    <!--  Used in file JavadImport.java:561. Original value:Dwg import is unsuppurted  -->
     <string name="string_dwg_import_is_unsuppurted">Dwg 導入不受支援</string>
-    <!--  Used in file SurveyPointsActivity.java:342. Original value:Listen Audio  -->
+    <!--  Used in file PointsFragment.java:568. Original value:Listen Audio  -->
     <string name="string_listen_audio">聽音頻</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:314. Original value:%1$s free from %2$s total  -->
-    <string name="string__1_s_free_from__2_s_total">%1$s free from %2$s total</string>
-    <!--  Used in file RTKBaseActivity.java:139. Original value:File name:  -->
+    <!--  Used in file ArchieveJobFolderActivity.java:386. Original value:%1$s free from %2$s total  -->
+    <string name="string__1_s_free_from__2_s_total">%1$s 可用%2$s 總和</string>
+    <!--  Used in file RTKBaseActivity.java:144. Original value:File name:  -->
     <string name="string_file_name_">檔案名稱:</string>
-    <!--  Used in file SurveyPointAntennaActivity.java:162. Original value:Wrong slant height!  -->
+    <!--  Used in file SurveyPointActivity.java:880. Original value:Modify  -->
+    <string name="string_modify">Modify</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:157. Original value:Wrong slant height!  -->
     <string name="string_wrong_slant_height_">錯誤的斜高!</string>
-    <!--  Used in file TSPoint.java:141. Original value:Code  -->
-    <string name="string_code">Code</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:779. Original value:Permission denied to write to your External storage  -->
+    <!--  Used in file CodesActivity.java:205. Original value:Code  -->
+    <string name="string_code">編碼</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:878. Original value:Permission denied to write to your External storage  -->
     <string name="string_permission_denied_to_write_to_your_external_storage">權限被拒絕寫入您的外部存儲</string>
     <!--  Used in file DatabaseMapActivity.java:35. Original value:Layers  -->
     <string name="string_layers">圖層</string>
-    <!--  Used in file design_points.xml:45. Original value:Import  -->
-    <string name="string_import">輸入</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:139. Original value:Hz  -->
     <string name="string_hz">Hz</string>
-    <!--  Used in file RTKBasesActivity.java:271. Original value:RTK base %1$s was successfully added into catalog %2$s  -->
-    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK 基站 %1$s 已成功添加到目錄中 %2$s</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:849. Original value:Please backup the jobs manually before the action!  -->
-    <string name="string_please_backup_the_jobs_manually_before_the_action_">Please backup the jobs manually before the action!</string>
-    <!--  Used in file SurveyPoint.java:419. Original value:Stakeout dH  -->
-    <string name="string_stakeout_dh">Stakeout dH</string>
-    <!--  Used in file SurveyPoint.java:383. Original value:Stakeout dN  -->
-    <string name="string_stakeout_dn">Stakeout dN</string>
+    <!--  Used in file SurveyPoint.java:458. Original value:Stakeout dH  -->
+    <string name="string_stakeout_dh">放樣  dH</string>
+    <!--  Used in file SurveyPoint.java:422. Original value:Stakeout dN  -->
+    <string name="string_stakeout_dn">放樣 dN</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:151. Original value:Base Id  -->
     <string name="string_id">基站 Id</string>
-    <!--  Used in file SurveyPoint.java:291. Original value:HDOP  -->
-    <string name="string_hdop">HDOP</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:849. Original value:All your jobs will be MOVED from javad/jobs folder to SD card.  -->
-    <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">All your jobs will be MOVED from javad/jobs folder to SD card.</string>
-    <!--  Used in file SurveyPointActivity.java:199. Original value:vert.  -->
-    <string name="string_vert_">垂直.</string>
-    <!--  Used in file DesignPointsActivity.java:388. Original value:Delete all %s  -->
+    <!--  Used in file ArchieveJobFolderActivity.java:948. Original value:All your jobs will be MOVED from javad/jobs folder to SD card.  -->
+    <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">你的所有工作都將從中移除javad/jobs 文件夾到SD卡</string>
+    <!--  Used in file DesignPointsActivity.java:390. Original value:Delete all %s  -->
     <string name="string_delete_all__s">刪除全部 %s</string>
-    <!--  Used in file SurveyPointActivity.java:234. Original value:Time:  -->
+    <!--  Used in file SurveyPointActivity.java:354. Original value:Time:  -->
     <string name="string_time_">時間:</string>
-    <!--  Used in file RTKBaseActivity.java:354. Original value:Move  -->
-    <string name="string_move">移動</string>
-    <!--  Used in file JobsActivity.java:793. Original value:job  -->
+    <!--  Used in file CodesActivity.java:475. Original value:Successfully imported %d code  -->
+    <string name="string_successfully_imported__d_code">Successfully imported %d code</string>
+    <!--  Used in file ExportAndReport.java:171. Original value:to Total Station (*.gsi;*.sdr;*.raw)  -->
+    <string name="string_to_total_station____gsi___sdr___raw_">to Total Station (*.gsi;*.sdr;*.raw)</string>
+    <!--  Used in file JobsActivity.java:897. Original value:job  -->
     <string name="string_job">工作</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:281. Original value:Auth.with   -->
+    <!--  Used in file ArchieveJobFolderActivity.java:358. Original value:Auth.with   -->
     <string name="string_auth_with_">Auth.with </string>
-    <!--  Used in file JavadImport.java:229. Original value:Importing  -->
-    <string name="string_importing">輸入中</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Any Epoches  -->
-    <string name="string_use_any_epoches">Use Any Epoches</string>
-    <!--  Used in file SurveyPointActivity.java:227. Original value:Occ.time:  -->
+    <string name="string_use_any_epoches">使用任何Epoches</string>
+    <!--  Used in file SurveyPointActivity.java:347. Original value:Occ.time:  -->
     <string name="string_occ_time_">紀錄時間:</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:59. Original value:Epochs collected  -->
     <string name="string_epochs_collected">資料收集</string>
-    <!--  Used in file SurveyObject.java:206. Original value:Antenna Info  -->
-    <string name="string_antenna_info">Antenna Info</string>
-    <!--  Used in file SurveyPoint.java:169. Original value:Inclination Y  -->
-    <string name="string_inclination_y">Inclination Y</string>
-    <!--  Used in file SurveyPoint.java:156. Original value:Inclination X  -->
-    <string name="string_inclination_x">Inclination X</string>
-    <!--  Used in file ExportAndReport.java:2108. Original value:Share file with  -->
-    <string name="string_share_file_with">Share file with</string>
-    <!--  Used in file TSPointsActivity.java:87. Original value:Check All  -->
-    <string name="string_check_all">檢查全部</string>
-    <!--  Used in file TSPointsActivity.java:291. Original value:Delete %1$d filtered points (of %2$d)  -->
+    <!--  Used in file CodeActivity.java:297. Original value:Wrong max value length!  -->
+    <string name="string_wrong_max_value_length_">Wrong max value length!</string>
+    <!--  Used in file SurveyObject.java:247. Original value:Antenna Info  -->
+    <string name="string_antenna_info">天線資訊</string>
+    <!--  Used in file TSPointsActivity.java:290. Original value:Delete %1$d filtered points (of %2$d)  -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">刪除 %1$d 個過濾點  (of %2$d)</string>
-    <!--  Used in file SurveyPointsActivity.java:260. Original value:point  -->
-    <string name="string_point">點位</string>
-    <!--  Used in file RTKBasesActivity.java:273. Original value:Can\'t add rtk base %s to catalog!  -->
+    <!--  Used in file RTKBasesActivity.java:279. Original value:Can\'t add rtk base %s to catalog!  -->
     <string name="string_can_t_add_rtk_base__s_to_catalog_">無法增加 RTK 基站 %s 到目錄!</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:84. Original value:Epoch Filter  -->
     <string name="string_epoch_filter">資料過濾</string>
-    <!--  Used in file JobsActivity.java:259. Original value:Delete Job  -->
+    <!--  Used in file JobsActivity.java:258. Original value:Delete Job  -->
     <string name="string_delete_job">刪除工作</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:769. Original value:Permission denied to read from your External storage  -->
+    <!--  Used in file ArchieveJobFolderActivity.java:868. Original value:Permission denied to read from your External storage  -->
     <string name="string_permission_denied_to_read_from_your_external_storage">拒絕從您的外部存儲器讀取權限</string>
-    <!--  Used in file JobActivity.java:515. Original value:dE:%.3f  -->
+    <!--  Used in file JobActivity.java:487. Original value:dE:%.3f  -->
     <string name="string_de___3f">dE:%.3f</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:281. Original value:Auth.Token=  -->
-    <string name="string_auth_token_">Auth.Token=</string>
-    <!--  Used in file TSPoint.java:148. Original value:Comment  -->
-    <string name="string_comment">Comment</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:60. Original value:H.RMS  -->
-    <string name="string_h_rms">H.RMS</string>
-    <!--  Used in file JobActivity.java:530. Original value:VRMS:%.3f  -->
-    <string name="string_vrms___3f">VRMS:%.3f</string>
-    <!--  Used in file JobActivity.java:521. Original value:BH:%.3f  -->
-    <string name="string_bh___3f">BH:%.3f</string>
-    <!--  Used in file SurveyObject.java:113. Original value:BaseID  -->
-    <string name="string_baseid">BaseID</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:139. Original value:UHF Freq  -->
-    <string name="string_uhf_freq">UHF 頻率</string>
+    <!--  Used in file DesignPoint.java:150. Original value:Comment  -->
+    <string name="string_comment">評論</string>
+    <!--  Used in file PointsFragment.java:94. Original value:Points from base %1$s id:%2$d  -->
+    <string name="string_points_from_base__1_s_id__2_d">Points from base %1$s id:%2$d</string>
+    <!--  Used in file PointsFragment.java:772. Original value:Edit %d points  -->
+    <string name="string_edit__d_points">Edit %d points</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:140. Original value:UHF Prot.  -->
     <string name="string_uhf_prot_">UHF 埠.</string>
-    <!--  Used in file SurveyPoint.java:321. Original value:GDOP  -->
-    <string name="string_gdop">GDOP</string>
-    <!--  Used in file SurveyObject.java:223. Original value:Antenna Vertical Offset  -->
-    <string name="string_antenna_vertical_offset">Antenna Vertical Offset</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:133. Original value:FH EU  -->
-    <string name="string_fh_eu">FH EU</string>
-    <!--  Used in file JobActivity.java:509. Original value:Rotation:%s  -->
-    <string name="string_rotation__s">旋轉:%s</string>
-    <!--  Used in file JobActivity.java:457. Original value:Job name is too long!\nLimit it up to 40 chars, please  -->
+    <!--  Used in file JobsActivity.java:327. Original value:Error while sharing job!  -->
+    <string name="string_error_while_sharing_job_">Error while sharing job!</string>
+    <!--  Used in file SurveyObject.java:289. Original value:Antenna Vertical Offset  -->
+    <string name="string_antenna_vertical_offset">天線垂直偏移</string>
+    <!--  Used in file CodesActivity.java:649. Original value:Carlson FCL *.fcl  -->
+    <string name="string_carlson_fcl___fcl">Carlson FCL *.fcl</string>
+    <!--  Used in file JobActivity.java:429. Original value:Job name is too long!\nLimit it up to 40 chars, please  -->
     <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">工作檔名太長!\n請不要超過 40字元</string>
-    <!--  Used in file JobsActivity.java:556. Original value:No file selected!  -->
+    <!--  Used in file SurveyObject.java:698. Original value:RTCM3 Geoid Undulation  -->
+    <string name="string_rtcm3_geoid_undulation">RTCM3 Geoid Undulation</string>
+    <!--  Used in file JobsActivity.java:552. Original value:No file selected!  -->
     <string name="string_no_file_selected_">未選擇檔案!</string>
-    <!--  Used in file SurveyPoint.java:218. Original value:VRMS  -->
+    <!--  Used in file SurveyObject.java:676. Original value:VRMS  -->
     <string name="string_vrms">VRMS</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:121. Original value:Ntrip Server  -->
     <string name="string_ntrip_server">Ntrip 伺服器</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Fix or Float  -->
-    <string name="string_use_fix_or_float">使用 Fix 或 Float</string>
-    <!--  Used in file JobActivity.java:535. Original value:Identical Points  -->
-    <string name="string_identical_points">相同點</string>
-    <!--  Used in file ExportAndReport.java:135. Original value:ASCII file *.txt  -->
-    <string name="string_ascii_file___txt">ASCII 檔案 *.txt</string>
+    <!--  Used in file CodesActivity.java:262. Original value:Delete %1$d selected Codes (of %2$d)  -->
+    <string name="string_delete__1_d_selected_codes__of__2_d_">Delete %1$d selected Codes (of %2$d)</string>
+    <!--  Used in file ExportAndReport.java:167. Original value:MapInfo (*.mif;*.tab)  -->
+    <string name="string_mapinfo____mif___tab_">MapInfo (*.mif;*.tab)</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:97. Original value:Verify Mode  -->
     <string name="string_verify_mode">驗證模式</string>
-    <!--  Used in file ExportAndReport.java:135. Original value:AutoCad Drawing *.dxf  -->
-    <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
-    <!--  Used in file JobActivity.java:197. Original value:The job is empty  -->
-    <string name="string_the_job_is_empty">此工作是空的</string>
-    <!--  Used in file DesignPointsActivity.java:122. Original value:MapInfo *.mif, *.tab  -->
-    <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:150. Original value:GNSS Receiver  -->
     <string name="string_gnss_receiver">GNSS 接收儀</string>
-    <!--  Used in file ExportAndReport.java:135. Original value:Report *.*  -->
-    <string name="string_report____">報告 *.*</string>
-    <!--  Used in file JobActivity.java:512. Original value:dN:%.3f  -->
+    <!--  Used in file ExportAndReport.java:169. Original value:NetCAD (*.ncn)  -->
+    <string name="string_netcad____ncn_">NetCAD (*.ncn)</string>
+    <!--  Used in file JobActivity.java:484. Original value:dN:%.3f  -->
     <string name="string_dn___3f">dN:%.3f</string>
-    <!--  Used in file DesignPointsActivity.java:266. Original value:Add new point  -->
+    <!--  Used in file CodeActivity.java:248. Original value:Field already exist!  -->
+    <string name="string_field_already_exist_">Field already exist!</string>
+    <!--  Used in file DesignPointsActivity.java:268. Original value:Add new point  -->
     <string name="string_add_new_point">增加新點位</string>
-    <!--  Used in file design_points.xml:53. Original value:Export  -->
+    <!--  Used in file ExportAndReport.java:210. Original value:Export  -->
     <string name="string_export">輸出</string>
-    <!--  Used in file RTKBaseActivity.java:171. Original value:Restore RTK Base  -->
-    <string name="string_restore_rtk_base">Restore RTK Base</string>
+    <!--  Used in file SurveyPointActivity.java:915. Original value:Don\'t modify  -->
+    <string name="string_don_t_modify">Don\'t modify</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:87. Original value:Manual Stop  -->
     <string name="string_manual_stop">手動停止</string>
-    <!--  Used in file SurveyPointActivity.java:229. Original value:V.RMS:  -->
+    <!--  Used in file SurveyPointActivity.java:349. Original value:V.RMS:  -->
     <string name="string_v_rms_">V.RMS:</string>
-    <!--  Used in file TSPointsActivity.java:242. Original value:TS point  -->
-    <string name="string_ts_point">全測站點位</string>
-    <!--  Used in file SurveyPointsActivity.java:259. Original value:trajectory  -->
-    <string name="string_trajectory">軌跡</string>
-    <!--  Used in file TSPointsActivity.java:365. Original value:Can\'t add point %s to catalog!  -->
-    <string name="string_can_t_add_point__s_to_catalog_">無法增加點位 %s 到目錄!</string>
-    <!--  Used in file RTKBasesActivity.java:110. Original value:rtkbases  -->
-    <string name="string_rtkbases">rtk基站</string>
-    <!--  Used in file DesignPointsActivity.java:120. Original value:AutoCad Drawing *.dwg  -->
+    <!--  Used in file CodeActivity.java:341. Original value:Can\'t find field!  -->
+    <string name="string_can_t_find_field_">Can\'t find field!</string>
+    <!--  Used in file JavadImport.java:93. Original value:AutoCad Drawing *.dwg  -->
     <string name="string_autocad_drawing___dwg">AutoCad Drawing *.dwg</string>
-    <!--  Used in file TSPointsActivity.java:280. Original value:View/Edit point  -->
+    <!--  Used in file TSPointsActivity.java:279. Original value:View/Edit point  -->
     <string name="string_view_edit_point">查看/編輯點位</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:145. Original value:SimCard  -->
-    <string name="string_simcard">Sim卡</string>
-    <!--  Used in file JobActivity.java:455. Original value:Job name is empty!  -->
-    <string name="string_job_name_is_empty_">工作名稱是空的!</string>
-    <!--  Used in file DesignPointsActivity.java:121. Original value:NetCAD *.ncn  -->
-    <string name="string_netcad___ncn">NetCAD *.ncn</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:934. Original value:All Jobs have successfully archieved to folder \'%s\'!  -->
-    <string name="string_all_jobs_have_successfully_archieved_to_folder___s__">所有工作已經成功地歸檔到資料夾 \'%s\'!</string>
-    <!--  Used in file JobsActivity.java:271. Original value:Share Job  -->
-    <string name="string_share_job">分享工作</string>
+    <!--  Used in file CodeActivity.java:271. Original value:Wrong max.length!  -->
+    <string name="string_wrong_max_length_">Wrong max.length!</string>
+    <!--  Used in file PointsFragment.java:549. Original value:View/Edit %1$d %2$s  -->
+    <string name="string_view_edit__1_d__2_s">View/Edit %1$d %2$s</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:116. Original value:RCV Server  -->
     <string name="string_rcv_server">RCV 伺服器</string>
-    <!--  Used in file SurveyPoint.java:280. Original value:Satellite Count  -->
-    <string name="string_satellite_count">Satellite Count</string>
-    <!--  Used in file JobActivity.java:200. Original value:%d points in the job  -->
-    <string name="string__d_points_in_the_job">%d 工作點</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:851. Original value:Archive  -->
-    <string name="string_archive">Archive</string>
-    <!--  Used in file DatabaseMapActivity.java:58. Original value:Survey Points  -->
-    <string name="string_survey_points">測量點位</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:950. Original value:Archive  -->
+    <string name="string_archive">檔案</string>
+    <!--  Used in file SurveyPointsCoordinateAdapter.java:67. Original value:Aver.%s  -->
+    <string name="string_aver__s">Aver.%s</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Status  -->
     <string name="string_status">狀態</string>
-    <!--  Used in file RTKBaseActivity.java:348. Original value:And move all %d rover points from it  -->
-    <string name="string_and_move_all__d_rover_points_from_it">並移動所有 %d 移動站點位</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:101. Original value:MultiRTK Mode  -->
-    <string name="string_multirtk_mode">多引擎模式</string>
+    <!--  Used in file CodesActivity.java:715. Original value:Overwrite  -->
+    <string name="string_overwrite">Overwrite</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:112. Original value:Protocol  -->
     <string name="string_protocol">協議</string>
-    <!--  Used in file SurveyPoint.java:341. Original value:Solution Type  -->
-    <string name="string_solution_type">Solution Type</string>
+    <!--  Used in file SurveyObject.java:504. Original value:Solution Type  -->
+    <string name="string_solution_type">解決方案類型</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:100. Original value:engines)  -->
     <string name="string_engines_">英文)</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Processed OK  -->
-    <string name="string_processed_ok">Processed OK</string>
-    <!--  Used in file SurveyPointActivity.java:228. Original value:H.RMS:  -->
+    <string name="string_processed_ok">處理好了</string>
+    <!--  Used in file SurveyPointActivity.java:348. Original value:H.RMS:  -->
     <string name="string_h_rms_">H.RMS:</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:937. Original value:Job Archieving is turned OFF  -->
-    <string name="string_job_archieving_is_turned_off">工作紀錄已關閉</string>
-    <!--  Used in file SurveyPoint.java:301. Original value:VDOP  -->
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:66. Original value:VDOP  -->
     <string name="string_vdop">VDOP</string>
-    <!--  Used in file TSPointsActivity.java:297. Original value:Delete %1$d selected points (of %2$d)  -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">刪除 %1$d 選擇點位 (of %2$d)</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:49. Original value:Solution  -->
-    <string name="string_solution">來源</string>
-    <!--  Used in file DesignPointsActivity.java:124. Original value:Google KML *.kml  -->
-    <string name="string_google_kml___kml">Google KML *.kml</string>
-    <!--  Used in file SurveyPointActivity.java:224. Original value:Solution:  -->
+    <!--  Used in file SurveyPointActivity.java:474. Original value:%d points  -->
+    <string name="string__d_points">%d points</string>
+    <!--  Used in file SurveyObject.java:709. Original value:Stakeout  -->
+    <string name="string_stakeout">Stakeout</string>
+    <!--  Used in file SurveyPointActivity.java:344. Original value:Solution:  -->
     <string name="string_solution_">來源:</string>
-    <!--  Used in file JobActivity.java:225. Original value:Begin time  -->
-    <string name="string_begin_time">開始時間</string>
-    <!--  Used in file JobsActivity.java:256. Original value:Download Job  -->
-    <string name="string_download_job">Download Job</string>
-    <!--  Used in file RTKBasesActivity.java:105. Original value:rtkbase  -->
+    <!--  Used in file RTKBasesActivity.java:119. Original value:rtkbase  -->
     <string name="string_rtkbase">rtk基站</string>
-    <!--  Used in file RTKBaseActivity.java:348. Original value:Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)  -->
-    <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">要移動RTK基站嗎 %1$s (dn:%2$s de:%3$s dh:%4$s)</string>
-    <!--  Used in file SurveyObject.java:214. Original value:Antenna Height Type  -->
-    <string name="string_antenna_height_type">Antenna Height Type</string>
-    <!--  Used in file RTKBaseActivity.java:175. Original value:Restore  -->
-    <string name="string_restore">Restore</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:848. Original value:Warning!  -->
-    <string name="string_warning_">Warning!</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Unprocessed  -->
-    <string name="string_unprocessed">未處理的</string>
-    <!--  Used in file SurveyPointAntennaActivity.java:157. Original value:Wrong antenna height!  -->
+    <!--  Used in file SurveyObject.java:280. Original value:Antenna Height Type  -->
+    <string name="string_antenna_height_type">天線高形式</string>
+    <!--  Used in file ExportAndReport.java:164. Original value:PNEZ comma text file (*.txt)  -->
+    <string name="string_pnez_comma_text_file____txt_">PNEZ comma text file (*.txt)</string>
+    <!--  Used in file RTKBaseActivity.java:189. Original value:Restore  -->
+    <string name="string_restore">重新儲存</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:152. Original value:Wrong antenna height!  -->
     <string name="string_wrong_antenna_height_">錯誤的天線高!</string>
-    <!--  Used in file SurveyPointsActivity.java:444. Original value:Point %1$s was successfully added into catalog %2$s  -->
-    <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">點位 %1$s 已成功添加到目錄中 %2$s</string>
-    <!--  Used in file SurveyPointsActivity.java:337. Original value:View Images/Audios  -->
-    <string name="string_view_images_audios">查看影像/聲音</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:144. Original value:CSD Phone  -->
     <string name="string_csd_phone">CSD 電話</string>
-    <!--  Used in file TSPointsActivity.java:363. Original value:Point %1$s was successfully added into catalog %2$s  -->
-    <string name="string_point__1_s_was_cuccessfully_added_into_catalog__2_s">點位 %1$s 已成功加入目錄 %2$s</string>
-    <!--  Used in file DesignPointsActivity.java:127. Original value:RossReestr *.xml  -->
-    <string name="string_rossreestr___xml">RossReestr *.xml</string>
-    <!--  Used in file JobActivity.java:524. Original value:CH:%.3f  -->
-    <string name="string_ch___3f">CH:%.3f</string>
-    <!--  Used in file JobsActivity.java:400. Original value:Downloading&#8230;  -->
-    <string name="string_downloading___">Downloading&#8230;</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:834. Original value:Folder %s doesn\'t exist!  -->
-    <string name="string_folder__s_doesn_t_exist_">資料匣 %s 不存在!</string>
-    <!--  Used in file DesignPointsActivity.java:390. Original value:Do you want to delete all %1$d %2$s?  -->
+    <!--  Used in file SurveyObject.java:753. Original value:Correction Source Mount Point  -->
+    <string name="string_correction_source_mount_point">Correction Source Mount Point</string>
+    <!--  Used in file DesignPointsActivity.java:392. Original value:Do you want to delete all %1$d %2$s?  -->
     <string name="string_do_you_want_to_delete_all__1_d__2_s_">要全部刪除嗎 %1$d %2$s?</string>
-    <!--  Used in file DesignPointsActivity.java:393. Original value:Delete  -->
+    <!--  Used in file DesignPointsActivity.java:395. Original value:Delete  -->
     <string name="string_delete">刪除</string>
-    <!--  Used in file SurveyPointActivity.java:246. Original value:Hybrid RTK:  -->
-    <string name="string_hybrid_rtk_">Hybrid RTK:</string>
+    <!--  Used in file SurveyPointActivity.java:366. Original value:Hybrid RTK:  -->
+    <string name="string_hybrid_rtk_">複合 RTK:</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:129. Original value:FH FRule  -->
     <string name="string_fh_frule">FH FRule</string>
-    <!--  Used in file JobActivity.java:527. Original value:HRMS:%.3f  -->
+    <!--  Used in file CodesActivity.java:256. Original value:Delete %1$d filtered Codes (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_codes__of__2_d_">Delete %1$d filtered Codes (of %2$d)</string>
+    <!--  Used in file JobActivity.java:499. Original value:HRMS:%.3f  -->
     <string name="string_hrms___3f">HRMS:%.3f</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:79. Original value:Survey Settings  -->
     <string name="string_survey_settings">測量設定</string>
-    <!--  Used in file SurveyPoint.java:331. Original value:PDOP  -->
-    <string name="string_pdop">PDOP</string>
-    <!--  Used in file DesignPointsActivity.java:126. Original value:Credo *.top  -->
-    <string name="string_credo___top">Credo *.top</string>
-    <!--  Used in file DatabaseMapActivity.java:58. Original value:Design Points  -->
-    <string name="string_design_points">設計點位</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:110. Original value:Correction Source  -->
-    <string name="string_correction_source">改正來源</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:128. Original value:FH USA  -->
-    <string name="string_fh_usa">FH USA</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:73. Original value:Jps file  -->
-    <string name="string_filename">Jps 檔案</string>
+    <!--  Used in file CodesActivity.java:829. Original value:Canceled by user  -->
+    <string name="string_canceled_by_user">Canceled by user</string>
     <!--  Used in file DatabaseMapActivity.java:58. Original value:RTK Bases  -->
     <string name="string_rtk_bases">RTK 基站</string>
-    <!--  Used in file ExportAndReport.java:135. Original value:MapInfo *.mif  -->
-    <string name="string_mapinfo___mif">MapInfo *.mif</string>
-    <!--  Used in file SurveyPointAntennaActivity.java:149. Original value:Antenna Id is not selected!  -->
-    <string name="string_antenna_id_is_not_selected_">天線沒有選擇!</string>
+    <!--  Used in file CodesActivity.java:826. Original value:Imported with errors  -->
+    <string name="string_imported_with_errors">Imported with errors</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:122. Original value:Mount point  -->
     <string name="string_mount_point">登錄點</string>
-    <!--  Used in file JobActivity.java:537. Original value:no identical points  -->
+    <!--  Used in file CodesActivity.java:355. Original value:Text file *.txt  -->
+    <string name="string_text_file___txt">Text file *.txt</string>
+    <!--  Used in file JavadImport.java:91. Original value:PNEZ comma delimited text file *.txt &#8230;  -->
+    <string name="string_pnez_comma_delimited_text_file___txt____">PNEZ comma delimited text file *.txt &#8230;</string>
+    <!--  Used in file JobActivity.java:509. Original value:no identical points  -->
     <string name="string_no_identical_points">無相同點</string>
-    <!--  Used in file TSPointsActivity.java:304. Original value:Add to catalog %s  -->
+    <!--  Used in file CodesActivity.java:642. Original value:XML file *.xml  -->
+    <string name="string_xml_file___xml">XML file *.xml</string>
+    <!--  Used in file CodesActivity.java:651. Original value:DBF File *.dbf  -->
+    <string name="string_dbf_file___dbf">DBF File *.dbf</string>
+    <!--  Used in file TSPointsActivity.java:303. Original value:Add to catalog %s  -->
     <string name="string_add_to_catalog__s">增加至目錄 %s</string>
-    <!--  Used in file SurveyPoint.java:195. Original value:Compass  -->
-    <string name="string_compass">Compass</string>
-    <!--  Used in file SurveyPoint.java:373. Original value:Engine Count  -->
-    <string name="string_engine_count">Engine Count</string>
-    <!--  Used in file DesignPointsActivity.java:382. Original value:No points to delete!  -->
+    <!--  Used in file SurveyObject.java:516. Original value:Engine Count  -->
+    <string name="string_engine_count">引擎數量</string>
+    <!--  Used in file DesignPointsActivity.java:384. Original value:No points to delete!  -->
     <string name="string_no_points_to_delete_">沒有點位刪除!</string>
-    <!--  Used in file ArchieveJobFolderActivity.java:838. Original value:%s is not a folder!  -->
+    <!--  Used in file ArchieveJobFolderActivity.java:937. Original value:%s is not a folder!  -->
     <string name="string__s_is_not_a_folder_">%s 不是一個文件夾!</string>
-    <!--  Used in file SurveyPointsActivity.java:327. Original value:View/Edit %s  -->
-    <string name="string_view_edit__s">查看/編輯 %s</string>
-    <!--  Used in file TSPointsActivity.java:247. Original value:TS Points  -->
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:TS Points  -->
     <string name="string_ts_points">全測站點位</string>
-    <!--  Used in file JobsActivity.java:253. Original value:Select Job  -->
-    <string name="string_select_job">選擇工作</string>
-    <!--  Used in file JobsActivity.java:785. Original value:Archieve SD card is unavailable!  -->
-    <string name="string_archieve_sd_card_is_unavailable_">Archieve SD card is unavailable!</string>
-    <!--  Used in file SurveyPointSurveyInfoActivity.java:72. Original value:Hybrid RTK  -->
-    <string name="string_hybrid_rtk">混合 RTK</string>
-    <!--  Used in file SurveyPointListAdapter.java:133. Original value:%d vertices  -->
-    <string name="string__d_vertices">%d 垂直</string>
-    <!--  Used in file JobActivity.java:518. Original value:AH:%.3f  -->
-    <string name="string_ah___3f">AH:%.3f</string>
-    <!--  Used in file JobActivity.java:506. Original value:Scale:%.6f  -->
-    <string name="string_scale___6f">比例尺:%.6f</string>
-    <!--  Used in file SurveyPointActivity.java:245. Original value:Base dist:  -->
-    <string name="string_base_dist_">基站距離:</string>
+    <!--  Used in file JobsActivity.java:889. Original value:Archieve SD card is unavailable!  -->
+    <string name="string_archieve_sd_card_is_unavailable_">存檔SD卡不可用！</string>
+    <!--  Used in file RTKBase.java:258. Original value:Coordinate  -->
+    <string name="string_coordinate">Coordinate</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:45. Original value:Survey Info  -->
     <string name="string_survey_info">測量資訊</string>
-    <!--  Used in file SurveyPointsActivity.java:88. Original value:Test  -->
+    <!--  Used in file PointsFragment.java:289. Original value:Test  -->
     <string name="string_test">測試</string>
-    <!--  Used in file SurveyPointActivity.java:520. Original value:Point %s already exists!  -->
-    <string name="string_point__s_already_exists_">點位 %s 已存在!</string>
+    <!--  Used in file SurveyObject.java:759. Original value:Correction Source Name  -->
+    <string name="string_correction_source_name">Correction Source Name</string>
+    <!--  Used in file ExportAndReport.java:170. Original value:Google KML (*.kml)  -->
+    <string name="string_google_kml____kml_">Google KML (*.kml)</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:152. Original value:SN  -->
     <string name="string_sn">SN</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:61. Original value:V.RMS  -->
     <string name="string_v_rms">V.RMS</string>
-    <!--  Used in file SurveyPointsActivity.java:265. Original value:points  -->
+    <!--  Used in file DesignPointsActivity.java:205. Original value:points  -->
     <string name="string_points">點位</string>
+    <!--  Used in file JobActivity.java:464. Original value:No Localization  -->
+    <string name="string_no_localization">無地方化</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:103. Original value:off  -->
+    <string name="string_off">關閉</string>
+    <!--  Used in file TSPointsActivity.java:284. Original value:View on Map  -->
+    <string name="string_view_on_map">查看由地圖</string>
+    <!--  Used in file SurveyObject.java:687. Original value:3DRMS  -->
+    <string name="string_3drms">3DRMS</string>
+    <!--  Used in file JobActivity.java:437. Original value:Job %s already exists!  -->
+    <string name="string_job__s_already_exists_">工作檔%s 已經存在!</string>
+    <!--  Used in file ExportAndReport.java:172. Original value:Leica GSI *.gsi  -->
+    <string name="string_leica_gsi___gsi">Leica GSI *.gsi</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:236. Original value:Don\'t use Job Archieving  -->
+    <string name="string_don_t_use_job_archieving">不要使用工作歸檔</string>
+    <!--  Used in file CodesActivity.java:210. Original value:Codes  -->
+    <string name="string_codes">Codes</string>
+    <!--  Used in file JobActivity.java:188. Original value:Last time  -->
+    <string name="string_last_time">最後時間</string>
+    <!--  Used in file DesignPointsActivity.java:126. Original value:LandXML *.xml  -->
+    <string name="string_landxml___xml">LandXML *.xml</string>
+    <!--  Used in file ExportAndReport.java:174. Original value:Raw Data RW5 *.rw5  -->
+    <string name="string_raw_data_rw5___rw5">Raw Data RW5 *.rw5</string>
+    <!--  Used in file RTKBaseActivity.java:151. Original value:%d RTK points from this base  -->
+    <string name="string__d_rtk_points_from_this_base">%d RTK 從這個基站點</string>
+    <!--  Used in file JobsActivity.java:902. Original value:jobs  -->
+    <string name="string_jobs">工作</string>
+    <!--  Used in file SurveyPointActivity.java:350. Original value:Sats:  -->
+    <string name="string_sats_">衛星:</string>
+    <!--  Used in file CodesActivity.java:643. Original value:XML JustinLink classificator *.xml  -->
+    <string name="string_xml_justinlink_classificator___xml">XML JustinLink classificator *.xml</string>
+    <!--  Used in file SurveyPointActivity.java:903. Original value:%d survey objects changed ok  -->
+    <string name="string__d_survey_objects_changed_ok">%d survey objects changed ok</string>
+    <!--  Used in file CodesActivity.java:248. Original value:Edit Code %s  -->
+    <string name="string_edit_code__s">Edit Code %s</string>
+    <!--  Used in file SurveyPointActivity.java:870. Original value:Do you want to set description \'%1$s\' and code \'%2$s\' for all %3$d points?  -->
+    <string name="string_do_you_want_to_set_description___1_s__and_code___2_s__for_all__3_d_points_">Do you want to set description \'%1$s\' and code \'%2$s\' for all %3$d points?</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:67. Original value:TDOP  -->
+    <string name="string_tdop">TDOP</string>
+    <!--  Used in file SurveyPointActivity.java:365. Original value:Base:  -->
+    <string name="string_base_">基站:</string>
+    <!--  Used in file CodeActivity.java:361. Original value:Code name already exist!  -->
+    <string name="string_code_name_already_exist_">Code name already exist!</string>
+    <!--  Used in file ExportAndReport.java:918. Original value:%1$s%2$s %3$s  -->
+    <string name="string__1_s_2_s__3_s">%1$s%2$s %3$s</string>
+    <!--  Used in file ExportAndReport.java:179. Original value:Select Export Type  -->
+    <string name="string_select_export_type">選擇輸出形式</string>
+    <!--  Used in file ExportAndReport.java:933. Original value:%s  -->
+    <string name="string__s">%s</string>
+    <!--  Used in file CodesActivity.java:714. Original value:File %s exist. Overwrite?  -->
+    <string name="string_file__s_exist__overwrite_">File %s exist. Overwrite?</string>
+    <!--  Used in file JobsActivity.java:190. Original value:From your Camera  -->
+    <string name="string_from_your_camera">From your Camera</string>
+    <!--  Used in file DesignPointActivity.java:236. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">點位名稱太長!\n請不要超過40字元</string>
+    <!--  Used in file ExportAndReport.java:964. Original value:Version:%1$s%2$s %3$s  -->
+    <string name="string_version__1_s_2_s__3_s">Version:%1$s%2$s %3$s</string>
+    <!--  Used in file SurveyPointListAdapter.java:254. Original value:HRMS  -->
+    <string name="string_hrms">HRMS</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:91. Original value:Correction by Levels  -->
+    <string name="string_correction_by_levels">水準校正</string>
+    <!--  Used in file RTKBaseActivity.java:372. Original value:Modify RTK Base  -->
+    <string name="string_modify_rtk_base">修改 RTK 基站</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:88. Original value:Occupation Time  -->
+    <string name="string_occupation_time">紀錄時間</string>
+    <!--  Used in file SurveyPointActivity.java:868. Original value:Do you want to set description \'%1$s\' for all %2$d points?  -->
+    <string name="string_do_you_want_to_set_description___1_s__for_all__2_d_points_">Do you want to set description \'%1$s\' for all %2$d points?</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:62. Original value:Satellites  -->
+    <string name="string_satellites">衛星</string>
+    <!--  Used in file RTKBaseListAdapter.java:161. Original value:slant  -->
+    <string name="string_slant">斜高</string>
+    <!--  Used in file SurveyPointActivity.java:905. Original value:can\'t change %d survey objects!  -->
+    <string name="string_can_t_change__d_survey_objects_">can\'t change %d survey objects!</string>
+    <!--  Used in file JavadImport.java:373. Original value:Data loaded. Parsing&#8230;  -->
+    <string name="string_data_loaded__parsing___">數據已載入. 解析…</string>
+    <!--  Used in file SurveyPointActivity.java:347. Original value:epochs  -->
+    <string name="string_epochs">曆元</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:982. Original value:Applying setting&#8230;  -->
+    <string name="string_applying_setting___">套用設定…</string>
+    <!--  Used in file SurveyObject.java:643. Original value:Inclination Martix  -->
+    <string name="string_inclination_martix">Inclination Martix</string>
+    <!--  Used in file CodesActivity.java:80. Original value:All Codes  -->
+    <string name="string_all_codes">All Codes</string>
+    <!--  Used in file SurveyPointActivity.java:907. Original value:%1$d changed ok\n%2$d can\'t be changed!  -->
+    <string name="string__1_d_changed_ok_n_2_d_can_t_be_changed_">%1$d changed ok\n%2$d can\'t be changed!</string>
+    <!--  Used in file SurveyObject.java:302. Original value:Antenna ID  -->
+    <string name="string_antenna_id">天線ID</string>
+    <!--  Used in file JavadImport.java:269. Original value:Imported OK  -->
+    <string name="string_imported_ok">輸入確定</string>
+    <!--  Used in file DesignPointActivity.java:234. Original value:Point name is empty!  -->
+    <string name="string_point_name_is_empty_">點位名稱是空的!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:134. Original value:FH Freq  -->
+    <string name="string_fh_freq">FH 頻率</string>
+    <!--  Used in file PointsFragment.java:555. Original value:Delete %1$s %2$s  -->
+    <string name="string_delete__1_s__2_s">刪除 %1$s %2$s</string>
+    <!--  Used in file CodeActivity.java:291. Original value:Wrong min value length!  -->
+    <string name="string_wrong_min_value_length_">Wrong min value length!</string>
+    <!--  Used in file JobsActivity.java:263. Original value:Duplicate Job  -->
+    <string name="string_duplicate_job">重複的工作</string>
+    <!--  Used in file JavadImport.java:530. Original value:Import error #  -->
+    <string name="string_import_error__">輸入錯誤 #</string>
+    <!--  Used in file JobsActivity.java:189. Original value:New Picture  -->
+    <string name="string_new_picture">New Picture</string>
+    <!--  Used in file ExportAndReport.java:2924. Original value:Please manually open result file in the job subfolder.  -->
+    <string name="string_please_manually_open_result_file_in_the_job_subfolder_">Please manually open result file in the job subfolder.</string>
+    <!--  Used in file JavadImport.java:244. Original value:Import  -->
+    <string name="string_import">輸入</string>
+    <!--  Used in file RTKBasesActivity.java:277. Original value:RTK base %1$s was successfully added into catalog %2$s  -->
+    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK 基站 %1$s 已成功添加到目錄中 %2$s</string>
+    <!--  Used in file JobActivity.java:160. Original value:%d survey points in the job  -->
+    <string name="string__d_survey_points_in_the_job">%d survey points in the job</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:948. Original value:Please backup the jobs manually before the action!  -->
+    <string name="string_please_backup_the_jobs_manually_before_the_action_">請在操作前手動備份作業！</string>
+    <!--  Used in file CodesActivity.java:646. Original value:Text (N,code,description) *.txt  -->
+    <string name="string_text__n_code_description____txt">Text (N,code,description) *.txt</string>
+    <!--  Used in file CodesActivity.java:647. Original value:Text (code,description) *.txt  -->
+    <string name="string_text__code_description____txt">Text (code,description) *.txt</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:65. Original value:HDOP  -->
+    <string name="string_hdop">HDOP</string>
+    <!--  Used in file SurveyPointActivity.java:608. Original value:vert.  -->
+    <string name="string_vert_">垂直.</string>
+    <!--  Used in file RTKBaseActivity.java:376. Original value:Move  -->
+    <string name="string_move">移動</string>
+    <!--  Used in file JavadImport.java:245. Original value:Importing  -->
+    <string name="string_importing">輸入中</string>
+    <!--  Used in file ExportAndReport.java:168. Original value:MapInfo (*.tab)  -->
+    <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
+    <!--  Used in file SurveyObject.java:632. Original value:Inclination Y  -->
+    <string name="string_inclination_y">傾角 Y</string>
+    <!--  Used in file SurveyObject.java:621. Original value:Inclination X  -->
+    <string name="string_inclination_x">傾角 X</string>
+    <!--  Used in file SurveyPointActivity.java:873. Original value:And  -->
+    <string name="string_and">And</string>
+    <!--  Used in file SurveyPointActivity.java:878. Original value:Modify many points  -->
+    <string name="string_modify_many_points">Modify many points</string>
+    <!--  Used in file ExportAndReport.java:2882. Original value:Share file with  -->
+    <string name="string_share_file_with">共享檔案</string>
+    <!--  Used in file TSPointsActivity.java:86. Original value:Check All  -->
+    <string name="string_check_all">檢查全部</string>
+    <!--  Used in file DesignPointsActivity.java:200. Original value:point  -->
+    <string name="string_point">點位</string>
+    <!--  Used in file CodesActivity.java:650. Original value:Trimble FXL *.fxl  -->
+    <string name="string_trimble_fxl___fxl">Trimble FXL *.fxl</string>
+    <!--  Used in file CodesActivity.java:712. Original value:Warning  -->
+    <string name="string_warning">Warning</string>
+    <!--  Used in file JobListAdapter.java:233. Original value:%1$d survey, %2$d design, %3$d TS  -->
+    <string name="string__1_d_survey___2_d_design___3_d_ts">%1$d survey, %2$d design, %3$d TS</string>
+    <!--  Used in file CodesActivity.java:432. Original value:Importing&#8230;  -->
+    <string name="string_importing___">Importing&#8230;</string>
+    <!--  Used in file SurveyObject.java:771. Original value:Correction Source Corrections  -->
+    <string name="string_correction_source_corrections">Correction Source Corrections</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:322. Original value:Auth.Token=  -->
+    <string name="string_auth_token_">Auth.Token=</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:60. Original value:H.RMS  -->
+    <string name="string_h_rms">H.RMS</string>
+    <!--  Used in file JobActivity.java:502. Original value:VRMS:%.3f  -->
+    <string name="string_vrms___3f">VRMS:%.3f</string>
+    <!--  Used in file JobActivity.java:493. Original value:BH:%.3f  -->
+    <string name="string_bh___3f">BH:%.3f</string>
+    <!--  Used in file CodesActivity.java:311. Original value:No codes to delete!  -->
+    <string name="string_no_codes_to_delete_">No codes to delete!</string>
+    <!--  Used in file SurveyObject.java:129. Original value:BaseID  -->
+    <string name="string_baseid">基站ID</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:139. Original value:UHF Freq  -->
+    <string name="string_uhf_freq">UHF 頻率</string>
+    <!--  Used in file JobListAdapter.java:231. Original value:%1$d survey, %2$d design  -->
+    <string name="string__1_d_survey___2_d_design">%1$d survey, %2$d design</string>
+    <!--  Used in file SurveyObject.java:598. Original value:GDOP  -->
+    <string name="string_gdop">GDOP</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:133. Original value:FH EU  -->
+    <string name="string_fh_eu">FH EU</string>
+    <!--  Used in file JobActivity.java:481. Original value:Rotation:%s  -->
+    <string name="string_rotation__s">旋轉:%s</string>
+    <!--  Used in file CodeActivity.java:253. Original value:Field name is empty!  -->
+    <string name="string_field_name_is_empty_">Field name is empty!</string>
+    <!--  Used in file PointsFragment.java:771. Original value:Do you want to edit %d points simultinuously?  -->
+    <string name="string_do_you_want_to_edit__d_points_simultinuously_">Do you want to edit %d points simultinuously?</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:83. Original value:Use Fix or Float  -->
+    <string name="string_use_fix_or_float">使用 Fix 或 Float</string>
+    <!--  Used in file SurveyPointListAdapter.java:265. Original value:id:  -->
+    <string name="string_id_">id:</string>
+    <!--  Used in file CodeValuesActivity.java:536. Original value:&lt;none&gt;  -->
+    <string name="string__none_">&lt;none&gt;</string>
+    <!--  Used in file JobActivity.java:507. Original value:Identical Points  -->
+    <string name="string_identical_points">相同點</string>
+    <!--  Used in file JobActivity.java:157. Original value:The job is empty  -->
+    <string name="string_the_job_is_empty">此工作是空的</string>
+    <!--  Used in file DesignPointsActivity.java:123. Original value:MapInfo *.mif, *.tab  -->
+    <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
+    <!--  Used in file PointsFragment.java:466. Original value:RTK Base  -->
+    <string name="string_rtk_base">RTK Base</string>
+    <!--  Used in file PointsFragment.java:94. Original value:Point from base  -->
+    <string name="string_point_from_base">Point from base</string>
+    <!--  Used in file RTKBaseActivity.java:185. Original value:Restore RTK Base  -->
+    <string name="string_restore_rtk_base">重新儲存 RTK 基站</string>
+    <!--  Used in file CodesActivity.java:359. Original value:Text file group *.*  -->
+    <string name="string_text_file_group____">Text file group *.*</string>
+    <!--  Used in file CodeValuesActivity.java:378. Original value:None  -->
+    <string name="string_none">None</string>
+    <!--  Used in file TSPointsActivity.java:241. Original value:TS point  -->
+    <string name="string_ts_point">全測站點位</string>
+    <!--  Used in file PointsFragment.java:463. Original value:trajectory  -->
+    <string name="string_trajectory">軌跡</string>
+    <!--  Used in file TSPointsActivity.java:364. Original value:Can\'t add point %s to catalog!  -->
+    <string name="string_can_t_add_point__s_to_catalog_">無法增加點位 %s 到目錄!</string>
+    <!--  Used in file RTKBasesActivity.java:124. Original value:rtkbases  -->
+    <string name="string_rtkbases">rtk基站</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:145. Original value:SimCard  -->
+    <string name="string_simcard">Sim卡</string>
+    <!--  Used in file JobActivity.java:427. Original value:Job name is empty!  -->
+    <string name="string_job_name_is_empty_">工作名稱是空的!</string>
+    <!--  Used in file DesignPointsActivity.java:122. Original value:NetCAD *.ncn  -->
+    <string name="string_netcad___ncn">NetCAD *.ncn</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:1043. Original value:All Jobs have successfully archieved to folder \'%s\'!  -->
+    <string name="string_all_jobs_have_successfully_archieved_to_folder___s__">所有工作已經成功地歸檔到資料夾 \'%s\'!</string>
+    <!--  Used in file JobsActivity.java:270. Original value:Share Job  -->
+    <string name="string_share_job">分享工作</string>
+    <!--  Used in file SurveyObject.java:552. Original value:Satellite Count  -->
+    <string name="string_satellite_count">衛星計數</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:Survey Points  -->
+    <string name="string_survey_points">測量點位</string>
+    <!--  Used in file JobsActivity.java:324. Original value:Share file with&#8230;  -->
+    <string name="string_share_file_with___">Share file with&#8230;</string>
+    <!--  Used in file RTKBaseActivity.java:370. Original value:And move all %d rover points from it  -->
+    <string name="string_and_move_all__d_rover_points_from_it">並移動所有 %d 移動站點位</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:101. Original value:MultiRTK Mode  -->
+    <string name="string_multirtk_mode">多引擎模式</string>
+    <!--  Used in file JobListAdapter.java:225. Original value:%d survey points  -->
+    <string name="string__d_survey_points">%d survey points</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:1046. Original value:Job Archieving is turned OFF  -->
+    <string name="string_job_archieving_is_turned_off">工作紀錄已關閉</string>
+    <!--  Used in file TSPointsActivity.java:296. Original value:Delete %1$d selected points (of %2$d)  -->
+    <string name="string_delete__1_d_selected_points__of__2_d_">刪除 %1$d 選擇點位 (of %2$d)</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:49. Original value:Solution  -->
+    <string name="string_solution">來源</string>
+    <!--  Used in file DesignPointsActivity.java:125. Original value:Google KML *.kml  -->
+    <string name="string_google_kml___kml">Google KML *.kml</string>
+    <!--  Used in file JobActivity.java:186. Original value:Begin time  -->
+    <string name="string_begin_time">開始時間</string>
+    <!--  Used in file JobsActivity.java:255. Original value:Download Job  -->
+    <string name="string_download_job">下載工作</string>
+    <!--  Used in file RTKBaseActivity.java:370. Original value:Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)  -->
+    <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">要移動RTK基站嗎 %1$s (dn:%2$s de:%3$s dh:%4$s)</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:947. Original value:Warning!  -->
+    <string name="string_warning_">警告!</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:74. Original value:Unprocessed  -->
+    <string name="string_unprocessed">未處理的</string>
+    <!--  Used in file CodeActivity.java:375. Original value:Code number already exist!  -->
+    <string name="string_code_number_already_exist_">Code number already exist!</string>
+    <!--  Used in file JobListAdapter.java:229. Original value:%d design points  -->
+    <string name="string__d_design_points">%d design points</string>
+    <!--  Used in file TSPointsActivity.java:362. Original value:Point %1$s was successfully added into catalog %2$s  -->
+    <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">點位 %1$s 已成功添加到目錄中 %2$s</string>
+    <!--  Used in file PointsFragment.java:563. Original value:View Images/Audios  -->
+    <string name="string_view_images_audios">查看影像/聲音</string>
+    <!--  Used in file RTKBase.java:146. Original value:Base ID #  -->
+    <string name="string_base_id">基站 Id</string>
+    <!--  Used in file DesignPointsActivity.java:128. Original value:RossReestr *.xml  -->
+    <string name="string_rossreestr___xml">RossReestr *.xml</string>
+    <!--  Used in file JobActivity.java:496. Original value:CH:%.3f  -->
+    <string name="string_ch___3f">CH:%.3f</string>
+    <!--  Used in file JobsActivity.java:396. Original value:Downloading&#8230;  -->
+    <string name="string_downloading___">下載中…</string>
+    <!--  Used in file ArchieveJobFolderActivity.java:933. Original value:Folder %s doesn\'t exist!  -->
+    <string name="string_folder__s_doesn_t_exist_">資料匣 %s 不存在!</string>
+    <!--  Used in file CodesActivity.java:644. Original value:JustinLink classificator *.jlc  -->
+    <string name="string_justinlink_classificator___jlc">JustinLink classificator *.jlc</string>
+    <!--  Used in file CodesActivity.java:251. Original value:Delete Code %s  -->
+    <string name="string_delete_code__s">Delete Code %s</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:64. Original value:PDOP  -->
+    <string name="string_pdop">PDOP</string>
+    <!--  Used in file SurveyPointActivity.java:866. Original value:Do you want to set code \'%1$s\' for all %2$d points?  -->
+    <string name="string_do_you_want_to_set_code___1_s__for_all__2_d_points_">Do you want to set code \'%1$s\' for all %2$d points?</string>
+    <!--  Used in file DesignPointsActivity.java:127. Original value:Credo *.top  -->
+    <string name="string_credo___top">Credo *.top</string>
+    <!--  Used in file RTKBase.java:134. Original value:Time  -->
+    <string name="string_time">Time</string>
+    <!--  Used in file DatabaseMapActivity.java:58. Original value:Design Points  -->
+    <string name="string_design_points">設計點位</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:110. Original value:Correction Source  -->
+    <string name="string_correction_source">改正來源</string>
+    <!--  Used in file ExportAndReport.java:175. Original value:Report (*.*)  -->
+    <string name="string_report______">Report (*.*)</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:128. Original value:FH USA  -->
+    <string name="string_fh_usa">FH USA</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:73. Original value:Jps file  -->
+    <string name="string_filename">Jps 檔案</string>
+    <!--  Used in file SurveyPointAntennaActivity.java:144. Original value:Antenna Id is not selected!  -->
+    <string name="string_antenna_id_is_not_selected_">天線沒有選擇!</string>
+    <!--  Used in file SurveyObject.java:654. Original value:Compass  -->
+    <string name="string_compass">電子羅盤</string>
+    <!--  Used in file ExportAndReport.java:166. Original value:AutoCad Drawing (*.dxf)  -->
+    <string name="string_autocad_drawing____dxf_">AutoCad Drawing (*.dxf)</string>
+    <!--  Used in file SurveyObject.java:765. Original value:Correction Source Protocol  -->
+    <string name="string_correction_source_protocol">Correction Source Protocol</string>
+    <!--  Used in file ExportAndReport.java:2886. Original value:Can\'t share file!  -->
+    <string name="string_can_t_share_file_">Can\'t share file!</string>
+    <!--  Used in file PointsFragment.java:552. Original value:View/Edit %s  -->
+    <string name="string_view_edit__s">查看/編輯 %s</string>
+    <!--  Used in file JobsActivity.java:252. Original value:Select Job  -->
+    <string name="string_select_job">選擇工作</string>
+    <!--  Used in file ExportAndReport.java:962. Original value:Build:%s  -->
+    <string name="string_build__s">Build:%s</string>
+    <!--  Used in file SurveyPointSurveyInfoActivity.java:72. Original value:Hybrid RTK  -->
+    <string name="string_hybrid_rtk">混合 RTK</string>
+    <!--  Used in file SurveyPointListAdapter.java:222. Original value:%d vertices  -->
+    <string name="string__d_vertices">%d 垂直</string>
+    <!--  Used in file JobActivity.java:490. Original value:AH:%.3f  -->
+    <string name="string_ah___3f">AH:%.3f</string>
+    <!--  Used in file JobActivity.java:478. Original value:Scale:%.6f  -->
+    <string name="string_scale___6f">比例尺:%.6f</string>
+    <!--  Used in file ExportAndReport.java:173. Original value:Sokkia SDR33 *.sdr  -->
+    <string name="string_sokkia_sdr33___sdr">Sokkia SDR33 *.sdr</string>
+    <!--  Used in file SurveyPointActivity.java:365. Original value:Base dist:  -->
+    <string name="string_base_dist_">基站距離:</string>
+    <!--  Used in file DesignPointActivity.java:243. Original value:Point %s already exists!  -->
+    <string name="string_point__s_already_exists_">點位 %s 已存在!</string>
 
 </resources>

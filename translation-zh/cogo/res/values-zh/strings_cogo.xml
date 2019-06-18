@@ -1,251 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file CoGoHomeActivity2.java:86. Original value:The task moves existing points by given distance and angle.    -->
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:The task moves existing points by given distance and angle.    -->
     <string name="description_move">該任務給予的距離和角度移動現有點位.</string>
     <!-- Used in file list_selected_points_header.xml:36. Original value:Name    -->
     <string name="string_name">名稱</string>
-    <!-- Used in file CoGoHomeActivity2.java:80. Original value:Hinge    -->
+    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Hinge    -->
     <string name="title_hinge">關鍵</string>
-    <!-- Used in file CoGoListAdapter.java:24. Original value:Inverse geodetic task computes the bearing (azimuth) and distance between two known points.    -->
+    <!-- Used in file CoGoHomeActivity2.java:59. Original value:Inverse geodetic task computes the bearing (azimuth) and distance between two known points.    -->
     <string name="description_inverse">反向大地測量任務計算方位 (方位) 和兩個已知點之間的距離.</string>
-    <!-- Used in file activity_cogo_traverse.xml:133. Original value:Create    -->
+    <!-- Used in file activity_cogo_along_line.xml:107. Original value:Create    -->
     <string name="button_create">建立</string>
-    <!-- Used in file activity_cogo_shift.xml:93. Original value:Create New Points    -->
+    <!-- Used in file activity_cogo_hinge.xml:123. Original value:Create New Points    -->
     <string name="create_new_points">建立新點位</string>
-    <!-- Used in file activity_cogo_offset.xml:100. Original value:Right    -->
+    <!-- Used in file activity_cogo_offset.xml:110. Original value:Right    -->
     <string name="text_right">右邊</string>
-    <!-- Used in file CoGoHomeActivity2.java:90. Original value:Basic functions as\nDirect, Inverse, Offset and Shifts\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Basic functions as\nDirect, Inverse, Offset and Shifts\n    -->
     <string name="description_basic">基本功能為\n直接, 反向, 偏移和轉移\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:72. Original value:The task divides line defined by two known points to given number of points.    -->
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:The task divides line defined by two known points to given number of points.    -->
     <string name="description_divide_line">任務將由兩個已知點定義線分割點數.</string>
-    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Recompute area by parallel moving edge    -->
+    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Recompute area by parallel moving edge    -->
     <string name="description_parallel">通過平行移動邊緣重新計算面積</string>
-    <!-- Used in file activity_cogo_triangle.xml:184. Original value:Area    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:62. Original value:Area    -->
     <string name="text_area">面積</string>
-    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.    -->
+    <!-- Used in file CoGoHomeActivity2.java:70. Original value:Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.    -->
     <string name="description_resection">計算點數 P4 給定點數 P1, P2, P3 距離 D1, D2, D3 由他們.</string>
-    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Offsets    -->
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Offsets    -->
     <string name="title_offsets">偏移</string>
-    <!-- Used in file CoGoBaseActivity.java:437. Original value:Cut Area, m&#178;    -->
+    <!-- Used in file CoGoBaseActivity.java:445. Original value:Cut Area, m&#178;    -->
     <string name="text_cut_area_m2">分割面積, m&#178;</string>
     <!-- Used in file CoGoHomeActivity2.java:67. Original value:Distance-Distance    -->
     <string name="title_intersection_d_d">距離-距離</string>
-    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Offset tasks by two points.\nOffset along line, to line and standard offset\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Offset tasks by two points.\nOffset along line, to line and standard offset\n    -->
     <string name="description_offsets">兩點偏移任務.\n沿線偏移, 到線和標準偏移\n</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:91. Original value:Radius (R)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:102. Original value:Radius (R)    -->
     <string name="text_r">半徑 (R)</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:121. Original value:Tangent (T)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:136. Original value:Tangent (T)    -->
     <string name="text_t">切線 (T)</string>
     <!-- Used in file info_2point_list_items.xml:13. Original value:Bearing    -->
     <string name="text_bearing">方位</string>
-    <!-- Used in file CoGoHomeActivity2.java:73. Original value:Line Offsets    -->
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Line Offsets    -->
     <string name="title_line_offsets">線偏移</string>
-    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.    -->
+    <!-- Used in file CoGoHomeActivity2.java:75. Original value:Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.    -->
     <string name="description_stakeout_curve">放樣曲線任務類似於線樁號, 但它的作用是循環曲線而不是直線. 它根據點數將相等的細分區分成弧. 弧長已經從基弧具有給定半徑和旋轉A的角偏移.</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:151. Original value:Middle Ordinate (m)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:170. Original value:Middle Ordinate (m)    -->
     <string name="text_m">中央縱座標 (m)</string>
-    <!-- Used in file CoGoBaseActivity.java:439. Original value:Cut Area, &#37;    -->
+    <!-- Used in file CoGoBaseActivity.java:447. Original value:Cut Area, &#37;    -->
     <string name="text_cut_area_percent">分割面積, &#37;</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:106. Original value:Arc Length (L)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:119. Original value:Arc Length (L)    -->
     <string name="text_l">弧長 (L)</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:136. Original value:Chord ( c)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:153. Original value:Chord ( c)    -->
     <string name="text_c">弦長 ( c)</string>
-    <!-- Used in file cogo_list_item.xml:28. Original value:Text    -->
+    <!-- Used in file cogo_grid_item.xml:29. Original value:Text    -->
     <string name="text_view2">Text</string>
-    <!-- Used in file activity_cogo_traverse.xml:64. Original value:B, grid    -->
+    <!-- Used in file activity_cogo_inverse.xml:69. Original value:B, grid    -->
     <string name="text_b">B, 方格</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:166. Original value:External (e)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:187. Original value:External (e)    -->
     <string name="text_e">外部 (e)</string>
-    <!-- Used in file activity_cogo_traverse.xml:79. Original value:D    -->
+    <!-- Used in file activity_cogo_along_line.xml:69. Original value:D    -->
     <string name="text_d">D</string>
-    <!-- Used in file CoGoBaseActivity.java:435. Original value:Keep Area, &#37;    -->
+    <!-- Used in file CoGoBaseActivity.java:443. Original value:Keep Area, &#37;    -->
     <string name="text_keep_area_percent">保留面積, &#37;</string>
-    <!-- Used in file activity_cogo_traverse.xml:94. Original value:&#x394;H, abs    -->
+    <!-- Used in file activity_cogo_offset.xml:120. Original value:&#x394;H, abs    -->
     <string name="text_h">&#x394;H, abs</string>
-    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.    -->
+    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.    -->
     <string name="description_diagonals">已知 4 點位 - P1, P2, P3, P4. 幾何計算點位 P5 作為交點由 P1-P3 及 P2-P4.</string>
-    <!-- Used in file CoGoListAdapter.java:24. Original value:Inverse    -->
+    <!-- Used in file CoGoHomeActivity2.java:59. Original value:Inverse    -->
     <string name="title_inverse">反向</string>
-    <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc    -->
+    <!-- Used in file CoGoHomeActivity2.java:76. Original value:3-Points Arc    -->
     <string name="title_points3_arc">3-點弧</string>
-    <!-- Used in file AndroidManifest.xml:13. Original value:cogo    -->
+    <!-- Used in file AndroidManifest.xml:5. Original value:cogo    -->
     <string name="app_name">幾何計算</string>
-    <!-- Used in file cogo_list_item.xml:22. Original value:Image    -->
+    <!-- Used in file cogo_grid_item.xml:14. Original value:Image    -->
     <string name="image_view2">影像</string>
-    <!-- Used in file activity_cogo_shift.xml:88. Original value:Move Existing Points    -->
+    <!-- Used in file activity_cogo_hinge.xml:118. Original value:Move Existing Points    -->
     <string name="move_existing_points">移動現有點位</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:76. Original value:Angle (A)    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:85. Original value:Angle (A)    -->
     <string name="text_a">角度 (A)</string>
-    <!-- Used in file activity_cogo_traverse.xml:123. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nName:    -->
+    <!-- Used in file activity_cogo_along_line.xml:97. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nName:    -->
     <string name="text_coordinate_result">北: &#x002d;&#x002d;&#x002d;\n東: &#x002d;&#x002d;&#x002d;\n高: &#x002d;&#x002d;&#x002d;\n名稱:</string>
-    <!-- Used in file CoGoListAdapter.java:26. Original value:Stakes    -->
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Stakes    -->
     <string name="title_stakes">放樣</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:81. Original value:Angle    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:89. Original value:Angle    -->
     <string name="text_angle">角度</string>
-    <!-- Used in file activity_cogo_parallel.xml:41. Original value:1st nodal point    -->
+    <!-- Used in file activity_cogo_hinge.xml:45. Original value:1st nodal point    -->
     <string name="text_first_nodal_point">第一個截點</string>
-    <!-- Used in file activity_cogo_triangle.xml:78. Original value:A    -->
+    <!-- Used in file activity_cogo_triangle.xml:86. Original value:A    -->
     <string name="text_side_a">A</string>
-    <!-- Used in file activity_cogo_triangle.xml:93. Original value:B    -->
+    <!-- Used in file activity_cogo_triangle.xml:103. Original value:B    -->
     <string name="text_side_b">B</string>
-    <!-- Used in file activity_cogo_triangle.xml:108. Original value:C    -->
+    <!-- Used in file activity_cogo_triangle.xml:120. Original value:C    -->
     <string name="text_side_c">C</string>
     <!-- Used in file list_selected_points_header.xml:54. Original value:East    -->
     <string name="string_east">東</string>
     <!-- Used in file CoGoHomeActivity2.java:64. Original value:Along Line    -->
     <string name="title_along_line">沿著線</string>
-    <!-- Used in file activity_cogo_parallel.xml:90. Original value:Keep Area, m&#178;    -->
+    <!-- Used in file activity_cogo_hinge.xml:100. Original value:Keep Area, m&#178;    -->
     <string name="text_keep_area_m2">保留面積, m&#178;</string>
     <!-- Used in file CoGoHomeActivity2.java:63. Original value:Offset    -->
     <string name="title_offset">偏移</string>
-    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.    -->
+    <!-- Used in file CoGoHomeActivity2.java:83. Original value:Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.    -->
     <string name="description_triangle">導線大地測量任務計算三角形的參數 (邊長及角度) 通過3個以支點 P1, P2 及P3.</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:113. Original value:Offset    -->
+    <!-- Used in file activity_cogo_offset.xml:88. Original value:Offset    -->
     <string name="text_offset">偏移</string>
-    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Diagonals and Resection tasks\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Two Line intersection, Diagonals and Resection tasks\n    -->
     <string name="description_intersections">交點任務兩點.\n距離-距離, 方位-方位, 方位-距離, 對角線和切線任務\n</string>
     <!-- Used in file CoGoHomeActivity2.java:64. Original value:The task computes position by two distance along line given by two points.    -->
     <string name="description_along_line">任務通過兩點計算沿著線的距離兩個距離.</string>
-    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Resection    -->
+    <!-- Used in file CoGoHomeActivity2.java:70. Original value:Resection    -->
     <string name="title_resection">切除</string>
-    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Stakeout Curve    -->
+    <!-- Used in file CoGoHomeActivity2.java:75. Original value:Stakeout Curve    -->
     <string name="title_stakeout_curve">放樣弧</string>
-    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Triangle    -->
+    <!-- Used in file CoGoHomeActivity2.java:83. Original value:Triangle    -->
     <string name="title_triangle">三角形</string>
-    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n    -->
     <string name="description_stakes">放樣任務\n劃分線, 線偏移, 放樣曲線任務\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Area/Perimeter    -->
+    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Area/Perimeter    -->
     <string name="title_areas">面積/周長</string>
-    <!-- Used in file CoGoHomeActivity2.java:85. Original value:Shift    -->
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:Shift    -->
     <string name="title_shift">移動</string>
-    <!-- Used in file activity_cogo_line_offset.xml:97. Original value:Track Incremenet    -->
+    <!-- Used in file activity_cogo_line_offset.xml:107. Original value:Track Incremenet    -->
     <string name="text_track_increment">軌跡遞增</string>
     <!-- Used in file activity_cogo_result.xml:19. Original value:Save Report to file    -->
     <string name="string_save_report_to_file">Save Report to file</string>
     <!-- Used in file CoGoHomeActivity2.java:67. Original value:Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.    -->
     <string name="description_intersection_d_d">已知2點 P1及 P2 和兩個半徑- 距離由 P1 及 P2 到新的計算點位 P3. 要解決結果點的歧義，請選擇左側或右側 P1-P2.</string>
-    <!-- Used in file CoGoHomeActivity2.java:86. Original value:Move    -->
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:Move    -->
     <string name="title_move">移動</string>
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Two Line Intersection    -->
+    <string name="title_intersection_lines">Two Line Intersection</string>
     <!-- Used in file CoGoHomeActivity2.java:60. Original value:Traverse    -->
     <string name="title_traverse">Traverse</string>
-    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Diagonals    -->
+    <!-- Used in file CoGoHomeActivity2.java:69. Original value:Diagonals    -->
     <string name="title_diagonals">對角線</string>
-    <!-- Used in file activity_cogo_resection.xml:113. Original value:R1    -->
+    <!-- Used in file activity_cogo_resection.xml:123. Original value:R1    -->
     <string name="text_r1">R1</string>
     <!-- Used in file list_selected_points_header.xml:27. Original value:N    -->
     <string name="string_number">北</string>
-    <!-- Used in file activity_cogo_resection.xml:177. Original value:R3    -->
+    <!-- Used in file activity_cogo_resection.xml:191. Original value:R3    -->
     <string name="text_r3">R3</string>
-    <!-- Used in file activity_cogo_resection.xml:145. Original value:R2    -->
+    <!-- Used in file activity_cogo_resection.xml:157. Original value:R2    -->
     <string name="text_r2">R2</string>
     <!-- Used in file info_2point_list_items.xml:21. Original value:Distance    -->
     <string name="text_distance">距離</string>
     <!-- Used in file CoGoHomeActivity2.java:63. Original value:The task computes position by two offsets along and across line from a line given by two points.    -->
     <string name="description_offset">任務通過兩點給出的線計算位置，並沿著兩條線對準線.</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:65. Original value:Number of points    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:71. Original value:Number of points    -->
     <string name="text_num_points">點位數量</string>
-    <!-- Used in file CoGoHomeActivity2.java:78. Original value:The task computes area and perimeter of the area defined by selected points.    -->
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:The task computes area and perimeter of the area defined by selected points.    -->
     <string name="description_area_perimeter">任務計算由選定點計算面積和周長.</string>
-    <!-- Used in file CoGoHomeActivity2.java:78. Original value:Area/Perimeter    -->
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:Area/Perimeter    -->
     <string name="title_area_perimeter">面積/周長</string>
-    <!-- Used in file CoGoListAdapter.java:23. Original value:Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points    -->
+    <!-- Used in file CoGoHomeActivity2.java:58. Original value:Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points    -->
     <string name="description_direct">通過已知起始點和交點的已知位置計算點的位置 (方位) 和兩點之間的距離</string>
-    <!-- Used in file CoGoHomeActivity2.java:80. Original value:Recompute area by moving hinge    -->
+    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Recompute area by moving hinge    -->
     <string name="description_hinge">重新計算面積由移動關鍵</string>
-    <!-- Used in file CoGoHomeActivity2.java:79. Original value:The task computes volume of the convex hall defined by selected points.    -->
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:The task computes volume of the convex hall defined by selected points.    -->
     <string name="description_volume">此任務計算此頂點定義由選擇點位.</string>
-    <!-- Used in file activity_cogo_triangle.xml:68. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n    -->
+    <!-- Used in file activity_cogo_along_line.xml:53. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n    -->
     <string name="text_coordinate">北: &#x002d;&#x002d;&#x002d;\n東: &#x002d;&#x002d;&#x002d;\n高: &#x002d;&#x002d;&#x002d;\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Tasks for several points\n like Shift, Rotate, Average\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.    -->
+    <string name="description_intersection_lines">Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.</string>
+    <!-- Used in file CoGoHomeActivity2.java:96. Original value:Tasks for several points\n like Shift, Rotate, Average\n    -->
     <string name="description_transform">幾個點任務\n 移動, 旋轉, 平均\n</string>
-    <!-- Used in file CoGoHomeActivity2.java:81. Original value:Parallel    -->
+    <!-- Used in file CoGoHomeActivity2.java:82. Original value:Parallel    -->
     <string name="title_parallel">平行</string>
-    <!-- Used in file activity_cogo_triangle.xml:59. Original value:P3\npoint3\n    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:63. Original value:P3\npoint3\n    -->
     <string name="text_p3">P3\n點位3\n</string>
-    <!-- Used in file activity_cogo_triangle.xml:40. Original value:P2\npoint2\n    -->
+    <!-- Used in file activity_cogo_along_line.xml:42. Original value:P2\npoint2\n    -->
     <string name="text_p2">P2\n點位2\n</string>
-    <!-- Used in file activity_cogo_diagonals.xml:77. Original value:P4\npoint4\n    -->
+    <!-- Used in file activity_cogo_intersection_lines.xml:85. Original value:P4\npoint4\n    -->
     <string name="text_p4">P4\n點位4\n</string>
-    <!-- Used in file activity_cogo_triangle.xml:124. Original value: &#945;    -->
+    <!-- Used in file activity_cogo_triangle.xml:138. Original value: &#945;    -->
     <string name="text_angle_a"> &#945;</string>
-    <!-- Used in file activity_cogo_triangle.xml:139. Original value:&#946;    -->
+    <!-- Used in file activity_cogo_triangle.xml:155. Original value:&#946;    -->
     <string name="text_angle_b">&#946;</string>
-    <!-- Used in file activity_cogo_triangle.xml:154. Original value:&#947;    -->
+    <!-- Used in file activity_cogo_triangle.xml:172. Original value:&#947;    -->
     <string name="text_angle_c">&#947;</string>
-    <!-- Used in file activity_cogo_triangle.xml:21. Original value:P1\npoint1\n    -->
+    <!-- Used in file activity_cogo_along_line.xml:21. Original value:P1\npoint1\n    -->
     <string name="text_p1">P1\n點位1\n</string>
-    <!-- Used in file CoGoListAdapter.java:25. Original value:Intersections    -->
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Intersections    -->
     <string name="title_intersections">交會</string>
-    <!-- Used in file activity_cogo_volume.xml:41. Original value:Reference Height    -->
+    <!-- Used in file activity_cogo_volume.xml:45. Original value:Reference Height    -->
     <string name="text_refheight">參考高度</string>
-    <!-- Used in file CoGoHomeActivity2.java:85. Original value:The task shifts existing points by deltas north, east and up.    -->
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:The task shifts existing points by deltas north, east and up.    -->
     <string name="description_shift">此任務由北邊三角移動點位, 北及高.</string>
-    <!-- Used in file CoGoHomeActivity2.java:79. Original value:Volume    -->
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:Volume    -->
     <string name="title_volume">體積</string>
-    <!-- Used in file activity_cogo_parallel.xml:56. Original value:2nd nodal point    -->
+    <!-- Used in file activity_cogo_hinge.xml:62. Original value:2nd nodal point    -->
     <string name="text_second_nodal_point">第二截點</string>
-    <!-- Used in file activity_cogo_triangle.xml:169. Original value:Perimeter    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:45. Original value:Perimeter    -->
     <string name="text_perimeter">周長</string>
-    <!-- Used in file activity_cogo_volume.xml:98. Original value:Report    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:102. Original value:Report    -->
     <string name="button_report">報告</string>
-    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Area/Perimiter/Volume computations, Area change tasks\n    -->
+    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Area/Perimiter/Volume computations, Area change tasks\n    -->
     <string name="description_areas">面積/周長/體積計算, 面積變更任務\n</string>
-    <!-- Used in file activity_cogo_points3_arc.xml:181. Original value:Degree of Curvature, arc    -->
+    <!-- Used in file activity_cogo_points3_arc.xml:204. Original value:Degree of Curvature, arc    -->
     <string name="text_d_arc">曲率度, 弧長</string>
     <!-- Used in file CoGoHomeActivity2.java:60. Original value:Traverse geodetic task computes the geodetic position of a Point P3 by given two known points P1 and P2 and an angle(bearing) and distance.    -->
     <string name="description_traverse">導線大地測量任務通過給定兩個已知點P1和P2以及角度（方位）和距離來計算點P3的大地測量位置.</string>
-    <!-- Used in file info_2point_list_items.xml:29. Original value:&#x394;N    -->
+    <!-- Used in file activity_cogo_shift.xml:46. Original value:&#x394;N    -->
     <string name="text_dn">&#x394;北</string>
     <!-- Used in file list_selected_points_header.xml:45. Original value:North    -->
     <string name="string_north">北</string>
     <!-- Used in file info_2point_list_header.xml:37. Original value:&#x394;E    -->
     <string name="text_delta_e">&#x394;東</string>
-    <!-- Used in file activity_cogo_volume.xml:21. Original value:Select Points    -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:23. Original value:Select Points    -->
     <string name="text_points">選擇點位</string>
     <!-- Used in file info_2point_list_header.xml:45. Original value:&#x394;H    -->
     <string name="text_delta_h">&#x394;高</string>
-    <!-- Used in file info_2point_list_items.xml:45. Original value:&#x394;H    -->
+    <!-- Used in file activity_cogo_shift.xml:80. Original value:&#x394;H    -->
     <string name="text_dh">&#x394;高</string>
-    <!-- Used in file CoGoHomeActivity2.java:95. Original value:Transform    -->
+    <!-- Used in file CoGoHomeActivity2.java:96. Original value:Transform    -->
     <string name="title_transform">轉換</string>
-    <!-- Used in file info_2point_list_items.xml:37. Original value:&#x394;E    -->
+    <!-- Used in file activity_cogo_shift.xml:63. Original value:&#x394;E    -->
     <string name="text_de">&#x394;東</string>
-    <!-- Used in file CoGoHomeActivity2.java:87. Original value:Rotate    -->
+    <!-- Used in file CoGoHomeActivity2.java:88. Original value:Rotate    -->
     <string name="title_rotate">旋轉</string>
-    <!-- Used in file CoGoHomeActivity2.java:75. Original value:3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)    -->
+    <!-- Used in file CoGoHomeActivity2.java:76. Original value:3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)    -->
     <string name="description_points3_arc">3-點弧任務計算參數 基於弧由 3 點以知點. 以下是弧參數列表 - 半徑 (R), 角度 (A), 弧長 (L), 弦長 (c ), 切線 (T), 中間縱坐標(m), 曲率度 (D)</string>
     <!-- Used in file info_2point_list_header.xml:29. Original value:&#x394;N    -->
     <string name="text_delta_n">&#x394;北</string>
-    <!-- Used in file activity_cogo_volume.xml:57. Original value:Volume    -->
+    <!-- Used in file activity_cogo_volume.xml:63. Original value:Volume    -->
     <string name="text_volume">體積</string>
-    <!-- Used in file CoGoHomeActivity2.java:90. Original value:Basic    -->
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Basic    -->
     <string name="title_basic">基本</string>
-    <!-- Used in file CoGoHomeActivity2.java:73. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.    -->
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.    -->
     <string name="description_line_offsets">該任務根據增量值的點數，通過相等的分段在兩個已知點之間劃分線。 此外，它還會以給定的增量距離值並行創建附加數量的軌跡.</string>
-    <!-- Used in file CoGoPoints3ArcActivity.java:256. Original value:Degree of Curvature, chord    -->
+    <!-- Used in file CoGoPoints3ArcActivity.java:251. Original value:Degree of Curvature, chord    -->
     <string name="text_d_chord">曲率度, 弦長</string>
-    <!-- Used in file cogo_result.xml:4. Original value:Store    -->
+    <!-- Used in file cogo_result.xml:7. Original value:Store    -->
     <string name="action_store">儲存</string>
-    <!-- Used in file activity_cogo_stakeout_curve.xml:97. Original value:Radius    -->
+    <!-- Used in file activity_cogo_stakeout_curve.xml:107. Original value:Radius    -->
     <string name="text_radius">半徑</string>
-    <!-- Used in file activity_cogo_resection.xml:162. Original value:D3    -->
+    <!-- Used in file activity_cogo_resection.xml:174. Original value:D3    -->
     <string name="text_d3">D3</string>
-    <!-- Used in file activity_cogo_resection.xml:130. Original value:D2    -->
+    <!-- Used in file activity_cogo_resection.xml:140. Original value:D2    -->
     <string name="text_d2">D2</string>
-    <!-- Used in file activity_cogo_volume.xml:30. Original value:&#x002d;&#x002d;&#x002d;     -->
+    <!-- Used in file activity_cogo_area_perimeter.xml:34. Original value:&#x002d;&#x002d;&#x002d;     -->
     <string name="text_point_coords">&#x002d;&#x002d;&#x002d; </string>
-    <!-- Used in file CoGoHomeActivity2.java:72. Original value:Divide Line    -->
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:Divide Line    -->
     <string name="title_divide_line">分界線</string>
-    <!-- Used in file CoGoHomeActivity2.java:87. Original value:The task moves existing points by given angle related to given point.    -->
+    <!-- Used in file CoGoHomeActivity2.java:88. Original value:The task moves existing points by given angle related to given point.    -->
     <string name="description_rotate">任務通過與給定點相關的給定角度移動現有點位.</string>
-    <!-- Used in file CoGoListAdapter.java:23. Original value:Direct    -->
+    <!-- Used in file CoGoHomeActivity2.java:58. Original value:Direct    -->
     <string name="title_direct">直接</string>
     <!-- Used in file list_selected_points_header.xml:63. Original value:Height    -->
     <string name="string_height">高度</string>
-    <!-- Used in file activity_cogo_line_offset.xml:81. Original value:Number of Tracks    -->
+    <!-- Used in file activity_cogo_line_offset.xml:89. Original value:Number of Tracks    -->
     <string name="text_num_tracks">軌跡數量</string>
-    <!-- Used in file activity_cogo_offset.xml:95. Original value:Left    -->
+    <!-- Used in file activity_cogo_offset.xml:105. Original value:Left    -->
     <string name="text_left">左邊</string>
 
 </resources>
