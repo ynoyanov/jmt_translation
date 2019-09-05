@@ -117,7 +117,7 @@
          <item>500 epochs</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1186 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1191 -->
     <string-array name="connected_to_array_radio_maxor">
          <item>Bluetooth B</item>
          <item>Serial A</item>
@@ -130,7 +130,7 @@
          <item>slant</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:655 -->
+    <!-- Used in file RTKSetupActivity.java:642 -->
     <string-array name="connected_to_array_internet_omega">
          <item>the Android device</item>
          <item>WiFi Omega</item>
@@ -211,7 +211,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:663 -->
+    <!-- Used in file RTKSetupActivity.java:650 -->
     <string-array name="connected_to_array_radio_triumph2">
          <item>Bluetooth B</item>
     </string-array>
@@ -234,7 +234,7 @@
          <item>60 sec</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:661 -->
+    <!-- Used in file RTKSetupActivity.java:648 -->
     <string-array name="connected_to_array_radio_triumph1">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -247,6 +247,7 @@
          <item>dev/ser/b</item>
          <item>dev/ser/c</item>
          <item>dev/ser/d</item>
+         <item>dev/tcpcl/a</item>
     </string-array>
 
     <!-- Used in file activity_configure_wifi_from_style.xml:35 -->
@@ -261,7 +262,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:208 -->
+    <!-- Used in file stakeout_settings.xml:211 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
          <item>NAD83(2011)</item>
@@ -286,7 +287,7 @@
          <item>19</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:671 -->
+    <!-- Used in file RTKSetupActivity.java:658 -->
     <string-array name="connected_to_array_radio_triumph3">
          <item>Bluetooth B</item>
          <item>USB B</item>
@@ -317,7 +318,25 @@
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:653 -->
+    <!-- Used in file activity_rtk_setup.xml:251 -->
+    <string-array name="max_working_time_array">
+         <item>Unlimited</item>
+         <item>5 min</item>
+         <item>10 min</item>
+         <item>15 min</item>
+         <item>20 min</item>
+         <item>30 min</item>
+         <item>1 hour</item>
+         <item>1.5 hour</item>
+         <item>2 hour</item>
+         <item>3 hour</item>
+         <item>5 hour</item>
+         <item>6 hour</item>
+         <item>12 hour</item>
+         <item>24 hour</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:640 -->
     <string-array name="connected_to_array_internet_sigma">
          <item>the Android device</item>
          <item>WiFi</item>
@@ -331,7 +350,7 @@
          <item>off</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2463 -->
+    <!-- Used in file SurveyingRTK.java:2581 -->
     <string-array name="left_right_array">
          <item>Left</item>
          <item>Right</item>
@@ -379,21 +398,21 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:659 -->
+    <!-- Used in file RTKSetupActivity.java:646 -->
     <string-array name="connected_to_array_radio">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:667 -->
+    <!-- Used in file RTKSetupActivity.java:654 -->
     <string-array name="connected_to_array_radio_sigma">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file activity_configure_uhf.xml:116 -->
+    <!-- Used in file activity_configure_uhf2.xml:769 -->
     <string-array name="uhf_output_power">
          <item>0.030W / 15dBm</item>
          <item>0.040W / 16dBm</item>
@@ -445,7 +464,7 @@
          <item>RTCM 2.x DGPS</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:198 -->
+    <!-- Used in file stakeout_settings.xml:201 -->
     <string-array name="rtk_computation_mode">
          <item>Extrapolation</item>
          <item>Delay</item>
@@ -494,7 +513,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1191 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1196 -->
     <string-array name="connected_to_array_csd_sigma">
          <item>Internal GSM</item>
     </string-array>
@@ -538,7 +557,7 @@
          <item>30.0</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:665 -->
+    <!-- Used in file RTKSetupActivity.java:652 -->
     <string-array name="connected_to_array_radio_gismore">
          <item>Bluetooth B</item>
     </string-array>
@@ -550,7 +569,7 @@
          <item>Off</item>
     </string-array>
 
-    <!-- Used in file ConfigureUHFActivity.java:723 -->
+    <!-- Used in file ConfigureUHFActivity.java:821 -->
     <string-array name="uhf_output_power_1w">
          <item>0.030W / 15dBm</item>
          <item>0.040W / 16dBm</item>
@@ -655,7 +674,7 @@
          <item>eu</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:651 -->
+    <!-- Used in file RTKSetupActivity.java:638 -->
     <string-array name="connected_to_array_internet_gismore">
          <item>the Android device</item>
          <item>WiFi</item>
@@ -671,7 +690,7 @@
          <item>5 sec</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1189 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1194 -->
     <string-array name="connected_to_array_csd_triumph1">
          <item>Internal GSM</item>
     </string-array>
@@ -682,13 +701,13 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:649 -->
+    <!-- Used in file RTKSetupActivity.java:636 -->
     <string-array name="connected_to_array_internet_triumph2">
          <item>the Android device</item>
          <item>WiFi Triumph-2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:647 -->
+    <!-- Used in file RTKSetupActivity.java:634 -->
     <string-array name="connected_to_array_internet_triumph1">
          <item>the Android device</item>
          <item>WiFi Triumph-1</item>
@@ -696,7 +715,7 @@
          <item>LAN Triumph-1</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:657 -->
+    <!-- Used in file RTKSetupActivity.java:644 -->
     <string-array name="connected_to_array_internet_triumph3">
          <item>the Android device</item>
          <item>WiFi Triumph-3</item>
@@ -714,7 +733,7 @@
          <item>60 sec</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:669 -->
+    <!-- Used in file RTKSetupActivity.java:656 -->
     <string-array name="connected_to_array_radio_omega">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -755,6 +774,14 @@
          <item>Until stopped manually</item>
     </string-array>
 
+    <!-- Used in file activity_stakeout_line_target.xml:119 -->
+    <string-array name="stakeout_line_height_mode_array">
+         <item>P1-P2 Interpolation</item>
+         <item>P1 (first point)</item>
+         <item>P2 (second point)</item>
+         <item>Average height</item>
+    </string-array>
+
     <!-- Used in file rtk_base_uhf.xml:52 -->
     <string-array name="simplex_spacings">
          <item>6250</item>
@@ -763,12 +790,12 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1193 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1198 -->
     <string-array name="connected_to_array_csd_maxor">
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:209 -->
+    <!-- Used in file stakeout_settings.xml:212 -->
     <string-array name="reference_frame_values_array">
          <item>CSG_WGS_84</item>
          <item>CSG_NAD83_2011</item>
@@ -779,13 +806,13 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1174 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1179 -->
     <string-array name="connected_to_array_internet_maxor">
          <item>the Android device</item>
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2463 -->
+    <!-- Used in file SurveyingRTK.java:2581 -->
     <string-array name="p1_p2_array">
          <item>from P2</item>
          <item>from P1</item>
