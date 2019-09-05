@@ -1,69 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file activity_background_services_2.xml:82. Original value:OPUS Mail Reader    -->
-    <string name="text_opusmail_server">Почтовый сервер для OPUS</string>
-    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
-    <string name="check_bosch_g100_thread">Поток чтения с Bosch GLM100C</string>
-    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
-    <string name="check_status_bar_update_threads">Поток обновления инф.панели</string>
-    <!-- Used in file activity_threads.xml:68. Original value:JustinLink exchange threads    -->
-    <string name="check_justinlink_threads">Поток обмена JustinLink</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:13. Original value:Ntrip/RCV/Nethub    -->
-    <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
-    <!-- Used in file activity_background_services_justinlink.xml:28. Original value:Log    -->
-    <string name="justinlink_server_log">Лог</string>
-    <!-- Used in file activity_background_services_justinlink.xml:21. Original value:On    -->
-    <string name="justinlink_server_on">Вкл</string>
-    <!-- Used in file activity_threads.xml:14. Original value:GNSS Receiver threads    -->
-    <string name="check_receiver_threads">Потоки GNSS приемника</string>
-    <!-- Used in file activity_threads.xml:20. Original value:Survey Model thread    -->
-    <string name="check_survey_model_threads">Поток съемки</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:12. Original value:J-Community    -->
-    <string name="text_j_community">J-Community</string>
-    <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
-    <string name="check_ringtone_manager_thread">Поток управления звуком</string>
-    <!-- Used in file activity_background_services_2.xml:90. Original value:On    -->
-    <string name="opusmail_server_on">Вкл</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:27. Original value:Log    -->
-    <string name="j_community_log">Лог</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
-    <string name="nethub_server_on">Вкл.NetHub сервер</string>
-    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
-    <string name="check_jcommunity_thread">Поток JCommunity</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:21. Original value:Ntrip/RCV client on    -->
-    <string name="ntrip_client_on">Вкл.Ntrip/RCV клиент</string>
-    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
-    <string name="check_rcv_server_threads">Поток RCV сервера</string>
-    <!-- Used in file activity_background_services_2.xml:204. Original value:Mock Location Provider    -->
-    <string name="text_mock_location_provider">Поставщик фиктивного положения</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:63. Original value:WSDD Server    -->
-    <string name="text_wsdd_server">сервер WSDD</string>
-    <!-- Used in file AndroidManifest.xml:5. Original value:justinlink_exchange    -->
-    <string name="app_name">justinlink_exchange</string>
-    <!-- Used in file background_services.xml:6. Original value:Threads    -->
-    <string name="action_threads">Потоки</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:20. Original value:On    -->
-    <string name="j_community_on">Вкл</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:85. Original value:JCommunity    -->
-    <string name="text_jcommunity">JCommunity</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
-    <string name="ntripnethub_log">Ntrip/RCV/Nethub логи</string>
-    <!-- Used in file activity_threads.xml:74. Original value:OPUS Mail Read thread    -->
-    <string name="check_opus_mail_read_thread">Поток чтения OPUS</string>
-    <!-- Used in file activity_background_services_2.xml:212. Original value:On    -->
-    <string name="mock_location_provider_on">Вкл</string>
-    <!-- Used in file activity_background_services_2.xml:219. Original value:Log    -->
-    <string name="mock_location_provider_log">Лог</string>
-    <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
-    <string name="check_ntrip_client_threads">Поток Ntrip/RCV клиента</string>
-    <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
-    <string name="check_nethub_client_threads">Поток NetHub клиент</string>
-    <!-- Used in file activity_threads.xml:56. Original value:SmartTip threads    -->
-    <string name="check_smarttip_thread">Поток JTip</string>
-    <!-- Used in file activity_background_services_2.xml:97. Original value:Log    -->
-    <string name="opusmail_server_log">Лог</string>
-    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
-    <string name="text_justinlink_server">Обмен данными с JustinLin</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: OPUS Mail Reader-->
+  <string name="text_opusmail_server">Почтовый сервер для OPUS</string>
+  <!--Original value: Bosch GLM100C reading thread-->
+  <string name="check_bosch_g100_thread">Поток чтения с Bosch GLM100C</string>
+  <!--Original value: Status Bar Update thread-->
+  <string name="check_status_bar_update_threads">Поток обновления инф.панели</string>
+  <!--Original value: JustinLink exchange threads-->
+  <string name="check_justinlink_threads">Поток обмена JustinLink</string>
+  <!--Original value: Replace-->
+  <string name="text_mock_location_provider_replace">Заменить</string>
+  <!--Original value: Ntrip/RCV/Nethub-->
+  <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
+  <!--Original value: Log-->
+  <string name="justinlink_server_log">Лог</string>
+  <!--Original value: On-->
+  <string name="justinlink_server_on">Вкл</string>
+  <!--Original value: GNSS Receiver threads-->
+  <string name="check_receiver_threads">Потоки GNSS приемника</string>
+  <!--Original value: Replace Receiver Position with followng coordinates:-->
+  <string name="mock_location_provider_receiver">Заменить положение приемника на следующие координаты</string>
+  <!--Original value: Survey Model thread-->
+  <string name="check_survey_model_threads">Поток съемки</string>
+  <!--Original value: Select Point-->
+  <string name="text_mock_location_provider_select_point">Выбор точки</string>
+  <!--Original value: J-Community-->
+  <string name="text_j_community">J-Community</string>
+  <!--Original value: Ringtone Manager thread-->
+  <string name="check_ringtone_manager_thread">Поток управления звуком</string>
+  <!--Original value: On-->
+  <string name="opusmail_server_on">Вкл</string>
+  <!--Original value: Log-->
+  <string name="j_community_log">Лог</string>
+  <!--Original value: NetHub Server on-->
+  <string name="nethub_server_on">Вкл.NetHub сервер</string>
+  <!--Original value: \nReplace Receiver Coordinate-->
+  <string name="text_mock_location_provider_receiver">\nПодменить координаты приемника</string>
+  <!--Original value: JCommunity thread-->
+  <string name="check_jcommunity_thread">Поток JCommunity</string>
+  <!--Original value: Ntrip/RCV client on-->
+  <string name="ntrip_client_on">Вкл.Ntrip/RCV клиент</string>
+  <!--Original value: RCV Server thread-->
+  <string name="check_rcv_server_threads">Поток RCV сервера</string>
+  <!--Original value: Mock Location Provider-->
+  <string name="text_mock_location_provider">Поставщик фиктивного положения</string>
+  <!--Original value: WSDD Server-->
+  <string name="text_wsdd_server">сервер WSDD</string>
+  <!--Original value: Threads-->
+  <string name="action_threads">Потоки</string>
+  <!--Original value: On-->
+  <string name="j_community_on">Вкл</string>
+  <!--Original value: JCommunity-->
+  <string name="text_jcommunity">JCommunity</string>
+  <!--Original value: Ntrip/RCV/Nethub Log-->
+  <string name="ntripnethub_log">Ntrip/RCV/Nethub логи</string>
+  <!--Original value: OPUS Mail Read thread-->
+  <string name="check_opus_mail_read_thread">Поток чтения OPUS</string>
+  <!--Original value: On-->
+  <string name="mock_location_provider_on">Вкл</string>
+  <!--Original value: Log-->
+  <string name="mock_location_provider_log">Лог</string>
+  <!--Original value: Ntrip/RCV Client thread-->
+  <string name="check_ntrip_client_threads">Поток Ntrip/RCV клиента</string>
+  <!--Original value: NetHub Client thread-->
+  <string name="check_nethub_client_threads">Поток NetHub клиент</string>
+  <!--Original value: SmartTip threads-->
+  <string name="check_smarttip_thread">Поток JTip</string>
+  <!--Original value: Log-->
+  <string name="opusmail_server_log">Лог</string>
+  <!--Original value: JustinLink Exchange Server-->
+  <string name="text_justinlink_server">Обмен данными с JustinLin</string>
 </resources>

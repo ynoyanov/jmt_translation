@@ -394,6 +394,14 @@
          <item>по точке и азимуту</item>
     </string-array>
 
+    <string-array name="stakeout_line_height_mode_array">
+        <item>P1-P2 Интерполяция</item>
+        <item>P1 (первая точка)</item>
+        <item>P2 (вторая точка)</item>
+        <item>Средняя высота</item>
+    </string-array>
+
+
     <!-- Used in file rtk_base_uhf.xml:123 -->
     <string-array name="trimtalk450s_spacings">
          <item>12500</item>
@@ -506,6 +514,7 @@
          <item>dev/ser/b</item>
          <item>dev/ser/c</item>
          <item>dev/ser/d</item>
+        <item>dev/tcpcl/a</item>
     </string-array>
 
     <!-- Used in file rtk_base.xml:107 -->
