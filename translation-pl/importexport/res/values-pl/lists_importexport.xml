@@ -1,76 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file pref_mapinfo.xml:12 -->
-    <string-array name="report_to_do_values">
-         <item>Udostępnij plik wynikowy</item>
-         <item>Otwórz plik wynikowy</item>
-         <item>Nie rób nic</item>
-    </string-array>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-    <!-- Used in file pref_import_dwg.xml:11 -->
-    <string-array name="importobjectsvalues">
-         <item>0</item>
-         <item>1</item>
-    </string-array>
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    <!-- Used in file pref_import_dwg.xml:10 -->
-    <string-array name="importobjectsarray">
-         <item>tylko punkty</item>
-         <item>punkty, linie, nawiązania</item>
-    </string-array>
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
-    <!-- Used in file pref_tots.xml:23 -->
-    <string-array name="tots_to_do_values">
-         <item>Wyślij do Tachimetru</item>
-         <item>Udostępnij plik wynikowy</item>
-         <item>Otwór plik wynikowy</item>
-         <item>Nie rób nic</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:18 -->
-    <string-array name="exportobjectsarray">
-         <item>tylko obiekty z pomiaru</item>
-         <item>obiekty z pomiaru + rysunek</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:12 -->
-    <string-array name="listvalues">
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-    </string-array>
-
-    <!-- Used in file activity_report_stimulsoft.xml:49 -->
-    <string-array name="report_output_format">
-         <item>PDF</item>
-         <item>HTML</item>
-         <item>Word DOCX</item>
-         <item>Word RTF</item>
-         <item>Excel XLS</item>
-         <item>Excel XLSX</item>
-         <item>Excel CSV</item>
-         <item>PowerPoint PPT</item>
-         <item>Text</item>
-         <item>XML</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:11 -->
-    <string-array name="listarray">
-         <item>Brak</item>
-         <item>Nazwa</item>
-         <item>Kod</item>
-         <item>Opis</item>
-         <item>Wysokość</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:19 -->
-    <string-array name="exportobjectsvalues">
-         <item>1</item>
-         <item>2</item>
-    </string-array>
-
-
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="report_to_do_values">
+    <!--Original value: Share result file-->
+    <item>Udostępnij plik wynikowy</item>
+    <!--Original value: Open result file-->
+    <item>Otwórz plik wynikowy</item>
+    <!--Original value: Nothing-->
+    <item>Nie rób nic</item>
+  </string-array>
+  <string-array name="importobjectsvalues">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 1-->
+    <item>1</item>
+  </string-array>
+  <string-array name="exporttrajectoriessarray">
+    <!--Original value: trajectories to 2d-->
+    <item>krzywe do 2D</item>
+    <!--Original value: trajectories To 3d-->
+    <item>krzywe do 3D</item>
+    <!--Original value: trajectories To 3d With Points-->
+    <item>krzywe do 3D + punkty</item>
+  </string-array>
+  <string-array name="exporttrajectoriesvalues">
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+  </string-array>
+  <string-array name="tots_to_do_values">
+    <!--Original value: Send to TotalStation-->
+    <item>Wyślij do Tachimetru</item>
+    <!--Original value: Share result file-->
+    <item>Udostępnij plik wynikowy</item>
+    <!--Original value: Open result file-->
+    <item>Otwór plik wynikowy</item>
+    <!--Original value: Nothing-->
+    <item>Nie rób nic</item>
+  </string-array>
+  <string-array name="importobjectsarray">
+    <!--Original value: points only-->
+    <item>tylko punkty</item>
+    <!--Original value: points, lines, faces-->
+    <item>punkty, linie, nawiązania</item>
+  </string-array>
+  <string-array name="exportobjectsarray">
+    <!--Original value: survey objects only-->
+    <item>tylko obiekty z pomiaru</item>
+    <!--Original value: survey objects + drawing-->
+    <item>obiekty z pomiaru + rysunek</item>
+  </string-array>
+  <string-array name="listvalues">
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+    <!--Original value: 4-->
+    <item>4</item>
+    <!--Original value: 5-->
+    <item>5</item>
+  </string-array>
+  <string-array name="report_output_format">
+    <!--Original value: PDF-->
+    <item>PDF</item>
+    <!--Original value: HTML-->
+    <item>HTML</item>
+    <!--Original value: Word DOCX-->
+    <item>Word DOCX</item>
+    <!--Original value: Word RTF-->
+    <item>Word RTF</item>
+    <!--Original value: Excel XLS-->
+    <item>Excel XLS</item>
+    <!--Original value: Excel XLSX-->
+    <item>Excel XLSX</item>
+    <!--Original value: Excel CSV-->
+    <item>Excel CSV</item>
+    <!--Original value: PowerPoint PPT-->
+    <item>PowerPoint PPT</item>
+    <!--Original value: Text-->
+    <item>Text</item>
+    <!--Original value: XML-->
+    <item>XML</item>
+  </string-array>
+  <string-array name="listarray">
+    <!--Original value: None-->
+    <item>Brak</item>
+    <!--Original value: Name-->
+    <item>Nazwa</item>
+    <!--Original value: Code-->
+    <item>Kod</item>
+    <!--Original value: Description-->
+    <item>Opis</item>
+    <!--Original value: Height-->
+    <item>Wysokość</item>
+  </string-array>
+  <string-array name="exportobjectsvalues">
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+  </string-array>
 </resources>
