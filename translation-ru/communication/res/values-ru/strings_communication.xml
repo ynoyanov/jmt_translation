@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_connection_bluetooth.xml:92. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
+    <!-- Used in file main_communication.xml:8. Original value:only Javad devices    -->
+    <string name="action_filter_javad">только устройства Javad</string>
+    <!-- Used in file activity_connection_bluetooth.xml:94. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
     <string name="button_wifi_iphone_reconnect">Настроить приемник для подключения iPhone</string>
     <!-- Used in file activity_main_communication.xml:74. Original value:Network    -->
     <string name="ethernet_radio">Сеть</string>
-    <!-- Used in file main_communication.xml:12. Original value:About    -->
+    <!-- Used in file main_communication.xml:14. Original value:About    -->
     <string name="action_about">О программе</string>
     <!-- Used in file activity_connection.xml:79. Original value:Password    -->
     <string name="password">Пароль</string>
     <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
     <string name="login_netgear">Приемник в NetGear</string>
-    <!-- Used in file activity_connection_bluetooth.xml:81. Original value:Reconnect with WiFi using external AP    -->
+    <!-- Used in file activity_connection_bluetooth.xml:82. Original value:Reconnect with WiFi using external AP    -->
     <string name="button_wifi_network_reconnect">Подключить к WiFi используя внешнюю точку доступа</string>
     <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
     <string name="string_rename">Переименовать</string>
-    <!-- Used in file ReceiverModel.java:2080. Original value:RTK Base antenna Id error!    -->
+    <!-- Used in file ReceiverModel.java:2114. Original value:RTK Base antenna Id error!    -->
     <string name="set_rtkbase_error_antenna_id">Ошибка модели антены!</string>
-    <!-- Used in file MainCommunicationActivity.java:949. Original value:Connection error!Please try to reconnect latter or select another device!    -->
+    <!-- Used in file MainCommunicationActivity.java:993. Original value:Connection error!Please try to reconnect latter or select another device!    -->
     <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
     <!-- Used in file ConfigurationManager.java:212. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
     <string name="string_without_receiver"> &#x002d;&#x002d;&#x002d;без приемника&#x002d;&#x002d;&#x002d; </string>
@@ -27,13 +29,13 @@
     <string name="button_connect">Связь</string>
     <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
     <string name="string_new">Новая</string>
-    <!-- Used in file ReceiverModel.java:2084. Original value:RTK Base antenna height error!    -->
+    <!-- Used in file ReceiverModel.java:2118. Original value:RTK Base antenna height error!    -->
     <string name="set_rtkbase_error_antenna_height">Ошибка высоты антенны!</string>
-    <!-- Used in file ReceiverModel.java:2082. Original value:RTK Base antenna type error!    -->
+    <!-- Used in file ReceiverModel.java:2116. Original value:RTK Base antenna type error!    -->
     <string name="set_rtkbase_error_antenna_type">Ошибка ввода типа антенны!</string>
     <!-- Used in file activity_main_communication.xml:60. Original value:WiFi    -->
     <string name="wifi_radio">WiFi</string>
-    <!-- Used in file ReceiverModel.java:2012. Original value:RTK Base parameters is not pass!    -->
+    <!-- Used in file ReceiverModel.java:2046. Original value:RTK Base parameters is not pass!    -->
     <string name="set_rtkbase_error_null">Не переданны параметры RTK базы!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
     <string name="button_cancel">Отменить</string>
@@ -45,15 +47,15 @@
     <string name="text_connection">Связь с приемником:</string>
     <!-- Used in file activity_connection.xml:50. Original value:Login    -->
     <string name="login">Логин</string>
-    <!-- Used in file ReceiverModel.java:2086. Original value:RTK Base cannot enable corrections    -->
+    <!-- Used in file ReceiverModel.java:2120. Original value:RTK Base cannot enable corrections    -->
     <string name="set_rtkbase_error_enable_corrections">Не удалось запустить поправки на RTK базе!</string>
     <!-- Used in file activity_main_communication.xml:67. Original value:WiFi\n(Mob.AP)    -->
     <string name="wifi_ap_radio">WiFi\n(моб.точка)</string>
-    <!-- Used in file ReceiverModel.java:2088. Original value:RTK Base base id error!    -->
+    <!-- Used in file ReceiverModel.java:2122. Original value:RTK Base base id error!    -->
     <string name="set_rtkbase_error_base_id">Неверный идентификатор базы!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
     <string name="setting_name">Имя настройки</string>
-    <!-- Used in file main_communication.xml:7. Original value:Refresh    -->
+    <!-- Used in file main_communication.xml:5. Original value:Refresh    -->
     <string name="action_refresh">Обновить</string>
     <!-- Used in file ConfigurationManager.java:189. Original value:- select a configuration    -->
     <string name="string_select_configuration_small">- выберите</string>
@@ -63,7 +65,7 @@
     <string name="bluetooth_radio">Bluetooth</string>
     <!-- Used in file activity_connection_bluetooth.xml:54. Original value:WiFi Password    -->
     <string name="string_wifi_password">Пароль WiFi</string>
-    <!-- Used in file ReceiverModel.java:2078. Original value:RTK Base position error!    -->
+    <!-- Used in file ReceiverModel.java:2112. Original value:RTK Base position error!    -->
     <string name="set_rtkbase_error_position">Ошибка установки положения RTK базы!</string>
 
 </resources>
