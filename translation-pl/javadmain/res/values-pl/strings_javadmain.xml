@@ -1,241 +1,270 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file drawer_view.xml:134. Original value:Rangefinder    -->
-    <string name="home_title_rangefinder">Dalmierz</string>
-    <!-- Used in file fragment_settings.xml:14. Original value:Job    -->
-    <string name="job_name_title">Job</string>
-    <!-- Used in file HomeActivity.java:339. Original value:TS Points    -->
-    <string name="home_title_ts_points">Punkty TS</string>
-    <!-- Used in file RadioHomeActivity.java:148. Original value:Radio Firmware Loader    -->
-    <string name="home_title_radio_firmware">Radio Firmware Loader</string>
-    <!-- Used in file drawer_view.xml:9. Original value:Wizard    -->
-    <string name="home_title_wizard">Kreator</string>
-    <!-- Used in file fragment_settings.xml:35. Original value:Correction Source    -->
-    <string name="correction_source_title">Correction Source</string>
-    <!-- Used in file grid_item.xml:16. Original value:image_view    -->
-    <string name="image_view">image_view</string>
-    <!-- Used in file activity_orginize_view.xml:38. Original value:Location of Survey Button    -->
-    <string name="survey_button_location">Pozycja Przycisku Pomiaru</string>
-    <!-- Used in file activity_splash.xml:13. Original value:&#169; JAVAD GNSS 2018    -->
-    <string name="string_splash">© JAVAD GNSS, 2018</string>
-    <!-- Used in file activity_orginize_view.xml:141. Original value:View Levels/Compass    -->
-    <string name="view_compass_levels">Libella/Kompas</string>
-    <!-- Used in file home.xml:24. Original value:About    -->
-    <string name="action_about">O programie</string>
-    <!-- Used in file drawer_view.xml:11. Original value:Project    -->
-    <string name="home_title_project">Project</string>
-    <!-- Used in file drawer_view.xml:111. Original value:Terminal    -->
-    <string name="home_title_terminal">Terminal</string>
-    <!-- Used in file activity_exit.xml:59. Original value:Exit    -->
-    <string name="button_exit">Wyjście</string>
-    <!-- Used in file activity_orginize_view.xml:51. Original value:Translucency of controls    -->
-    <string name="translucency">Przezroczystość</string>
-    <!-- Used in file fragment_settings.xml:15. Original value:Job    -->
-    <string name="job_name_summary">Job</string>
-    <!-- Used in file HomeActivity.java:481. Original value:J-Community    -->
-    <string name="home_title_jcommunity">J-Community</string>
-    <!-- Used in file fragment_settings.xml:55. Original value:Map Settings    -->
-    <string name="map_settings_title">Map Settings</string>
-    <!-- Used in file drawer_view.xml:71. Original value:Static Survey    -->
-    <string name="home_title_survey_pp">Pomiar Stat.</string>
-    <!-- Used in file activity_startup_ui.xml:14. Original value:Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.    -->
-    <string name="startup_title">Ustaw okno startowe Programu.</string>
-    <!-- Used in file fragment_settings.xml:9. Original value:Receiver    -->
-    <string name="receiver_name_summary">Receiver</string>
-    <!-- Used in file fragment_settings.xml:29. Original value:Survey Settings    -->
-    <string name="survey_settings_title">Survey Settings</string>
-    <!-- Used in file activity_startup_ui.xml:75. Original value:Show Introduction screen at startup    -->
-    <string name="show_intro">Pokazuj Wprowadzenie na starcie.</string>
-    <!-- Used in file activity_about.xml:20. Original value:Version 1.0.9 build 25 June 2014    -->
-    <string name="string_version">Version 1.0.9 build 25 June 2018</string>
-    <!-- Used in file translate.xml:38. Original value:China    -->
-    <string name="translation_china">China</string>
-    <!-- Used in file AboutActivity.java:44. Original value:Version     -->
-    <string name="string_ver">Wersja  </string>
-    <!-- Used in file HomeActivity.java:477. Original value:J-Tip    -->
-    <string name="home_title_smart_tips">SmartTip</string>
-    <!-- Used in file fragment_settings.xml:23. Original value:Antenna    -->
-    <string name="antenna_title">Antenna</string>
-    <!-- Used in file fragment_settings.xml:49. Original value:Sound Settings    -->
-    <string name="sound_settings_title">Sound Settings</string>
-    <!-- Used in file drawer_view.xml:91. Original value:Satellites    -->
-    <string name="home_title_satellites">Satelity</string>
-    <!-- Used in file fragment_settings.xml:30. Original value:Survey Settings    -->
-    <string name="survey_settings_summary">Survey Settings</string>
-    <!-- Used in file drawer_view.xml:147. Original value:J-Mate    -->
-    <string name="home_title_jmate">J-Mate</string>
-    <!-- Used in file HomeActivity.java:339. Original value:Design Points    -->
-    <string name="home_title_design_points">Punkty wpisane</string>
-    <!-- Used in file HomeActivity.java:481. Original value:Spoofing    -->
-    <string name="home_title_spoofing">Spoofing</string>
-    <!-- Used in file drawer_view.xml:167. Original value:Exit    -->
-    <string name="home_title_exit">Wyjście</string>
-    <!-- Used in file HomeActivity.java:334. Original value:Map    -->
-    <string name="home_title_map">Mapa</string>
-    <!-- Used in file grid_item.xml:34. Original value:text_view    -->
-    <string name="text_view">text_view</string>
-    <!-- Used in file activity_exit.xml:45. Original value:Stop Mobile Data    -->
-    <string name="check_stop_mobile_data">Zatrzymaj dane mobilne</string>
-    <!-- Used in file translate.xml:7. Original value:English    -->
-    <string name="translation_english">English</string>
-    <!-- Used in file drawer_view.xml:42. Original value:RTK    -->
-    <string name="home_title_rtk">RTK</string>
-    <!-- Used in file activity_startup_ui.xml:63. Original value:Start with Map    -->
-    <string name="start_with_map">Pokazuj Podgląd Mapy na starcie.</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:73. Original value:Application is not purchased. Please go to Google Play Market to purchase it.    -->
-    <string name="dont_allow_licence">Nie dokonano zakupu aplikacji. Odwiedź Google Play i zakup licencję.</string>
-    <!-- Used in file drawer_view.xml:17. Original value:Job    -->
-    <string name="home_title_jobs">Projekt</string>
-    <!-- Used in file fragment_settings.xml:21. Original value:Survey Settings    -->
-    <string name="survey_settings">Survey Settings</string>
-    <!-- Used in file fragment_settings.xml:50. Original value:Sound Settings    -->
-    <string name="sound_settings_summary">Sound Settings</string>
-    <!-- Used in file drawer_view.xml:37. Original value:CoGo    -->
-    <string name="home_title_cogo">COGO</string>
-    <!-- Used in file drawer_view.xml:126. Original value:Radio    -->
-    <string name="home_title_radio">Radio</string>
-    <!-- Used in file activity_orginize_view.xml:159. Original value:View Additional Views    -->
-    <string name="additional_views">Dodatkowe Widoki</string>
-    <!-- Used in file fragment_settings.xml:41. Original value:Internet from    -->
-    <string name="correction_internet_title">Internet from</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:63. Original value:License is OK    -->
-    <string name="allow_license">Licencja OK</string>
-    <!-- Used in file activity_orginize_view.xml:105. Original value:View Code    -->
-    <string name="view_code">Pokaż Kod</string>
-    <!-- Used in file drawer_view.xml:85. Original value:Receiver    -->
-    <string name="home_title_receiver">Receiver</string>
-    <!-- Used in file fragment_settings.xml:63. Original value:Orginize View    -->
-    <string name="orginize_view_title">Orginize View</string>
-    <!-- Used in file HomeActivity.java:469. Original value:RTK Works    -->
-    <string name="home_title_rtk_work">Pomiary RTK</string>
-    <!-- Used in file drawer_view.xml:103. Original value:Calibrate Levels    -->
-    <string name="home_title_calibrate_compass">Kalibruj Libellę</string>
-    <!-- Used in file drawer_view.xml:99. Original value:Power    -->
-    <string name="home_title_power">Zasilanie</string>
-    <!-- Used in file HomeActivity.java:482. Original value:RTK Bases    -->
-    <string name="home_title_rtkbases">Bazy RTK</string>
-    <!-- Used in file drawer_view.xml:163. Original value:User Manual    -->
-    <string name="home_title_usermanual">Podręcznik</string>
-    <!-- Used in file HomeActivity.java:477. Original value:Calibrate    -->
-    <string name="home_title_calibrate">Kalibruj</string>
-    <!-- Used in file fragment_settings.xml:8. Original value:Receiver    -->
-    <string name="receiver_name_title">Receiver</string>
-    <!-- Used in file fragment_settings.xml:56. Original value:Map Settings    -->
-    <string name="map_settings_summary">Map Settings</string>
-    <!-- Used in file RadioHomeActivity.java:148. Original value:Pair Modem    -->
-    <string name="home_title_pairmodem">Paruj z modemem</string>
-    <!-- Used in file activity_home.xml:16. Original value:Javad Mobile Tools for Android    -->
-    <string name="version_number">Javad Mobile Tools dla Android</string>
-    <!-- Used in file drawer_view.xml:142. Original value:J-Tip    -->
-    <string name="home_title_jtip">J-Tip</string>
-    <!-- Used in file fragment_settings.xml:70. Original value:Start with Menu    -->
-    <string name="start_with_menu">Rozpocznij w Menu</string>
-    <!-- Used in file activity_exit.xml:52. Original value:Turn Off Controller    -->
-    <string name="check_turn_off_controller">Wyłącz kontroler</string>
-    <!-- Used in file AboutActivity.java:44. Original value:Build    -->
-    <string name="string_build">Kompilacja</string>
-    <!-- Used in file HomeActivity.java:339. Original value:Survey Points    -->
-    <string name="home_title_survey_points">Punkty GPS</string>
-    <!-- Used in file HomeActivity.java:477. Original value:Quattro    -->
-    <string name="home_title_quattro">Quattro</string>
-    <!-- Used in file activity_orginize_view.xml:123. Original value:View antenna and settings    -->
-    <string name="view_more_survey_controls">Pokaż Konfigurację i Ust. Anteny</string>
-    <!-- Used in file drawer_view.xml:60. Original value:Stakeout    -->
-    <string name="home_title_stakeout">Tyczenie</string>
-    <!-- Used in file fragment_settings.xml:24. Original value:Antenna    -->
-    <string name="antenna_summary">Antenna</string>
-    <!-- Used in file BaseHomeActivity.java:610. Original value:Purchase Option    -->
-    <string name="string_purchase_jmt">Wykup opcję</string>
-    <!-- Used in file drawer_view.xml:21. Original value:Coord.Sys    -->
-    <string name="home_title_cs">Ukł.Wsp.</string>
-    <!-- Used in file fragment_settings.xml:47. Original value:Map / Sounds    -->
-    <string name="map_sound_settings">Map / Sounds</string>
-    <!-- Used in file drawer_view.xml:52. Original value:RTK Base    -->
-    <string name="home_title_rtkbase">Baza RTK</string>
-    <!-- Used in file BaseHomeActivity.java:2064. Original value:Connection error!Please try to reconnect latter or select another device!    -->
-    <string name="connection_error_str">Błąd połączenia! Spróbuj później lub wybierz inne urządzenie!</string>
-    <!-- Used in file activity_exit.xml:31. Original value:Turn Off Receiver    -->
-    <string name="check_turn_off">Wyłącz odbiornik</string>
-    <!-- Used in file activity_orginize_view.xml:87. Original value:View Description    -->
-    <string name="view_description">Pokaż Opis</string>
-    <!-- Used in file activity_exit.xml:17. Original value:Stop Logging    -->
-    <string name="check_stop_logging">Zatrzymaj zapis</string>
-    <!-- Used in file activity_exit.xml:24. Original value:Stop RTK and Radio    -->
-    <string name="check_stop_rtk_radio">Zatrzymaj RTK i modem</string>
-    <!-- Used in file fragment_settings.xml:42. Original value:Internet from    -->
-    <string name="correction_internet_summary">Internet from</string>
-    <!-- Used in file drawer_view.xml:56. Original value:RTK Survey    -->
-    <string name="home_title_survey_rtk">Pomiar RTK</string>
-    <!-- Used in file empty.xml:9. Original value:Show Menu at startup    -->
-    <string name="string_show_menu_at_startup">Pokaż Menu na starcie</string>
-    <!-- Used in file fragment_settings.xml:64. Original value:Orginize View    -->
-    <string name="orginize_view_summary">Orginize View</string>
-    <!-- Used in file translate.xml:13. Original value:Language 1    -->
-    <string name="translation_1">Język 1</string>
-    <!-- Used in file translate.xml:44. Original value:Turkish    -->
-    <string name="translation_turkish">Turkish</string>
-    <!-- Used in file translate.xml:19. Original value:Language 2    -->
-    <string name="translation_2">Język 2</string>
-    <!-- Used in file drawer_view.xml:95. Original value:Corrections    -->
-    <string name="home_title_corrections">Poprawki</string>
-    <!-- Used in file RadioHomeActivity.java:148. Original value:Repeater    -->
-    <string name="home_title_repeater">Repeater</string>
-    <!-- Used in file translate.xml:25. Original value:Language 3    -->
-    <string name="translation_3">Język 3</string>
-    <!-- Used in file drawer_view.xml:29. Original value:Catalogs    -->
-    <string name="home_title_catalog">Katalog</string>
-    <!-- Used in file drawer_view.xml:115. Original value:Reconnect WiFi    -->
-    <string name="home_title_reconnectwifi">Połącz WiFi</string>
-    <!-- Used in file drawer_view.xml:159. Original value:Services    -->
-    <string name="home_title_justinlink_server">Serwisy</string>
-    <!-- Used in file main_bosch.xml:13. Original value:Settings    -->
-    <string name="action_settings">Ustawienia</string>
-    <!-- Used in file activity_about.xml:12. Original value: (;&#169;) Copyright JAVAD GNSS 2018    -->
-    <string name="string_copyright"> (;©) Copyright JAVAD GNSS 2020</string>
-    <!-- Used in file activity_exit.xml:38. Original value:Exit J-Mobile application    -->
-    <string name="check_exit_app">Zamknij program J-Mobile</string>
-    <!-- Used in file HomeMapActivity.java:254. Original value:Open navigation drawer    -->
-    <string name="navigation_drawer_open">Otwórz Nawigatora</string>
-    <!-- Used in file drawer_view.xml:33. Original value:Codes    -->
-    <string name="home_title_codes">Kody</string>
-    <!-- Used in file drawer_view.xml:120. Original value:Devices    -->
-    <string name="home_title_devices">Devices</string>
-    <!-- Used in file translate.xml:32. Original value:Russian    -->
-    <string name="translation_russian">Russian</string>
-    <!-- Used in file drawer_view.xml:138. Original value:Quattro/Duo    -->
-    <string name="home_title_quatro_duo">Quattro/Duo</string>
-    <!-- Used in file drawer_view.xml:25. Original value:Localize    -->
-    <string name="home_title_localize">Lokalizacja</string>
-    <!-- Used in file BaseHomeActivity.java:1913. Original value:Disconnect    -->
-    <string name="string_disconnect">Rozłącz</string>
-    <!-- Used in file activity_orginize_view.xml:69. Original value:View Name    -->
-    <string name="view_name">Pokaż Nazwę</string>
-    <!-- Used in file drawer_view.xml:48. Original value:RTK Rover    -->
-    <string name="home_title_rtkrover">Rover RTK</string>
-    <!-- Used in file fragment_settings.xml:61. Original value:User Interface Settings    -->
-    <string name="ui_settings">User Interface Settings</string>
-    <!-- Used in file drawer_view.xml:76. Original value:Receiver Files    -->
-    <string name="home_title_filemanager">Pliki odbiornika</string>
-    <!-- Used in file fragment_settings.xml:36. Original value:Correction Source    -->
-    <string name="correction_source_summary">Correction Source</string>
-    <!-- Used in file drawer_view.xml:80. Original value:Process    -->
-    <string name="home_title_process">Przetwarzaj</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:83. Original value:No Internet connection to check License    -->
-    <string name="no_internet_to_check_license">Brak połączenia internetowego. Nie można sprawdzić licencji!</string>
-    <!-- Used in file drawer_view.xml:130. Original value:Total Station    -->
-    <string name="home_title_ts_exchange">Total Station</string>
-    <!-- Used in file drawer_view.xml:65. Original value:post-Processing    -->
-    <string name="home_title_post_processing">post-Processing</string>
-    <!-- Used in file HomeActivity.java:398. Original value:Duo    -->
-    <string name="home_title_duo">Duo</string>
-    <!-- Used in file home.xml:8. Original value:Connect    -->
-    <string name="string_connect">Połącz</string>
-    <!-- Used in file HomeActivity.java:472. Original value:Points    -->
-    <string name="home_title_points">Punkty</string>
-    <!-- Used in file HomeMapActivity.java:254. Original value:Close navigation drawer    -->
-    <string name="navigation_drawer_close">Zamknij Nawigatora</string>
-    <!-- Used in file drawer_view.xml:107. Original value:Control    -->
-    <string name="home_title_resets">Narzędzia</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Rangefinder-->
+  <string name="home_title_rangefinder">Dalmierz</string>
+  <!--Original value: Job-->
+  <string name="job_name_title">Job</string>
+  <!--Original value: TS Points-->
+  <string name="home_title_ts_points">Punkty TS</string>
+  <!--Original value: Wizard-->
+  <string name="home_title_wizard">Kreator</string>
+  <!--Original value: Radio Firmware Loader-->
+  <string name="home_title_radio_firmware">Radio Firmware Loader</string>
+  <!--Original value: Correction Source-->
+  <string name="correction_source_title">Źródło Poprawek</string>
+  <!--Original value: image_view-->
+  <string name="image_view">image_view</string>
+  <!--Original value: Location of Survey Button-->
+  <string name="survey_button_location">Pozycja Przycisku Pomiaru</string>
+  <!--Original value: © JAVAD GNSS 2018-->
+  <string name="string_splash">© JAVAD GNSS, 2018</string>
+  <!--Original value: View Levels/Compass-->
+  <string name="view_compass_levels">Libella/Kompas</string>
+  <!--Original value: About-->
+  <string name="action_about">O programie</string>
+  <!--Original value: Project-->
+  <string name="home_title_project">Projekt</string>
+  <!--Original value: Terminal-->
+  <string name="home_title_terminal">Terminal</string>
+  <!--Original value: Exit-->
+  <string name="button_exit">Wyjście</string>
+  <!--Original value: Translucency of controls-->
+  <string name="translucency">Przezroczystość</string>
+  <!--Original value: Job-->
+  <string name="job_name_summary">Job</string>
+  <!--Original value: J-Community-->
+  <string name="home_title_jcommunity">J-Community</string>
+  <!--Original value: Map Settings-->
+  <string name="map_settings_title">Ustawienia Mapy</string>
+  <!--Original value: Static Survey-->
+  <string name="home_title_survey_pp">Pomiar Stat.</string>
+  <!--Original value: Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.-->
+  <string name="startup_title">Ustaw okno startowe Programu.</string>
+  <!--Original value: Receiver-->
+  <string name="receiver_name_summary">Odbiornik</string>
+  <!--Original value: Survey Settings-->
+  <string name="survey_settings_title">Ustawienia Pomiaru</string>
+  <!--Original value: Show Introduction screen at startup-->
+  <string name="show_intro">Pokazuj Wprowadzenie na starcie.</string>
+  <!--Original value: Import-->
+  <string name="home_title_import">Import</string>
+  <!--Original value: Version 1.0.9 build 25 June 2014-->
+  <string name="string_version">Version 1.0.9 build 25 June 2018</string>
+  <!--Original value: China-->
+  <string name="translation_china">China</string>
+  <!--Original value: Version -->
+  <string name="string_ver">Wersja  </string>
+  <!--Original value: J-Tip-->
+  <string name="home_title_smart_tips">SmartTip</string>
+  <!--Original value: Antenna-->
+  <string name="antenna_title">Antena</string>
+  <!--Original value: Sound Settings-->
+  <string name="sound_settings_title">Sound Settings</string>
+  <!--Original value: Satellites-->
+  <string name="home_title_satellites">Satelity</string>
+  <!--Original value: Survey Settings-->
+  <string name="survey_settings_summary">Ustawienia Pomiaru</string>
+  <!--Original value: J-Mate-->
+  <string name="home_title_jmate">J-Mate</string>
+  <!--Original value: Design Points-->
+  <string name="home_title_design_points">Punkty wpisane</string>
+  <!--Original value: Spoofing-->
+  <string name="home_title_spoofing">Spoofing</string>
+  <!--Original value: Turn Off-->
+  <string name="home_title_exit">Wyjście</string>
+  <!--Original value: Settings-->
+  <string name="home_title_settings">Ustawienia</string>
+  <!--Original value: Map-->
+  <string name="home_title_map">Mapa</string>
+  <!--Original value: text_view-->
+  <string name="text_view">text_view</string>
+  <!--Original value: Stop Mobile Data-->
+  <string name="check_stop_mobile_data">Zatrzymaj dane mobilne</string>
+  <!--Original value: English-->
+  <string name="translation_english">English</string>
+  <!--Original value: RTK-->
+  <string name="home_title_rtk">RTK</string>
+  <!--Original value: Start with Map-->
+  <string name="start_with_map">Pokazuj Podgląd Mapy na starcie.</string>
+  <!--Original value: Application is not purchased. Please go to Google Play Market to purchase it.-->
+  <string name="dont_allow_licence">Nie dokonano zakupu aplikacji. Odwiedź Google Play i zakup licencję.</string>
+  <!--Original value: Job-->
+  <string name="home_title_jobs">Projekt</string>
+  <!--Original value: Survey Settings-->
+  <string name="survey_settings">Survey Settings</string>
+  <!--Original value: Survey/Stakeout without Map-->
+  <string name="radio_without_map">Pomiar/Tyczenie bez mapy</string>
+  <!--Original value: Sound Settings-->
+  <string name="sound_settings_summary">Ustawienia Dźwieków</string>
+  <!--Original value: CoGo-->
+  <string name="home_title_cogo">COGO</string>
+  <!--Original value: Radio-->
+  <string name="home_title_radio">Radio</string>
+  <!--Original value: View Additional Views-->
+  <string name="additional_views">Dodatkowe Widoki</string>
+  <!--Original value: Internet from-->
+  <string name="correction_internet_title">Internet z</string>
+  <!--Original value: License is OK-->
+  <string name="allow_license">Licencja OK</string>
+  <!--Original value: View Code-->
+  <string name="view_code">Pokaż Kod</string>
+  <!--Original value: Receiver-->
+  <string name="home_title_receiver">Odbiornik</string>
+  <!--Original value: Orginize View-->
+  <string name="orginize_view_title">Oragnizuj Widok</string>
+  <!--Original value: RTK Works-->
+  <string name="home_title_rtk_work">Pomiary RTK</string>
+  <!--Original value: Export-->
+  <string name="home_title_export">Eksport</string>
+  <!--Original value: Calibrate Levels-->
+  <string name="home_title_calibrate_compass">Kalibruj Libellę</string>
+  <!--Original value: Power-->
+  <string name="home_title_power">Zasilanie</string>
+  <!--Original value: RTK Bases-->
+  <string name="home_title_rtkbases">Bazy RTK</string>
+  <!--Original value: User Manual-->
+  <string name="home_title_usermanual">Podręcznik</string>
+  <!--Original value: Calibrate-->
+  <string name="home_title_calibrate">Kalibruj</string>
+  <!--Original value: Receiver-->
+  <string name="receiver_name_title">Odbiornik</string>
+  <!--Original value: Map Settings-->
+  <string name="map_settings_summary">Ustawienia Mapy</string>
+  <!--Original value: Pair Modem-->
+  <string name="home_title_pairmodem">Paruj z modemem</string>
+  <!--Original value: Javad Mobile Tools for Android-->
+  <string name="version_number">Javad Mobile Tools dla Android</string>
+  <!--Original value: J-Tip-->
+  <string name="home_title_jtip">J-Tip</string>
+  <!--Original value: Start with Menu-->
+  <string name="start_with_menu">Rozpocznij w Menu</string>
+  <!--Original value: Turn Off Controller-->
+  <string name="check_turn_off_controller">Wyłącz kontroler</string>
+  <!--Original value: Build-->
+  <string name="string_build">Kompilacja</string>
+  <!--Original value: Survey Points-->
+  <string name="home_title_survey_points">Punkty GPS</string>
+  <!--Original value: Quattro-->
+  <string name="home_title_quattro">Quattro</string>
+  <!--Original value: View antenna and settings-->
+  <string name="view_more_survey_controls">Pokaż Konfigurację i Ust. Anteny</string>
+  <!--Original value: Stakeout-->
+  <string name="home_title_stakeout">Tyczenie</string>
+  <!--Original value: Antenna-->
+  <string name="antenna_summary">Antenna</string>
+  <!--Original value: Purchase Option-->
+  <string name="string_purchase_jmt">Wykup opcję</string>
+  <!--Original value: Color of Survey Button-->
+  <string name="survey_button_color">Kolor przyciksu pomiaru</string>
+  <!--Original value: Coord.Sys-->
+  <string name="home_title_cs">Ukł.Wsp.</string>
+  <!--Original value: Map / Sounds-->
+  <string name="map_sound_settings">Mapa / Dźwięki</string>
+  <!--Original value: RTK Base-->
+  <string name="home_title_rtkbase">Baza RTK</string>
+  <!--Original value: Connection error!Please try to reconnect latter or select another device!-->
+  <string name="connection_error_str">Błąd połączenia! Spróbuj później lub wybierz inne urządzenie!</string>
+  <!--Original value: Turn Off Receiver-->
+  <string name="check_turn_off">Wyłącz odbiornik</string>
+  <!--Original value: View Description-->
+  <string name="view_description">Pokaż Opis</string>
+  <!--Original value: Stop Logging-->
+  <string name="check_stop_logging">Zatrzymaj zapis</string>
+  <!--Original value: Stop RTK and Radio-->
+  <string name="check_stop_rtk_radio">Zatrzymaj RTK i modem</string>
+  <!--Original value: Internet from-->
+  <string name="correction_internet_summary">Internet z</string>
+  <!--Original value: RTK Survey-->
+  <string name="home_title_survey_rtk">Pomiar RTK</string>
+  <!--Original value: Show Menu at startup-->
+  <string name="string_show_menu_at_startup">Pokaż Menu na starcie</string>
+  <!--Original value: Orginize View-->
+  <string name="orginize_view_summary">Organizuj Widok</string>
+  <!--Original value: Language 1-->
+  <string name="translation_1">Język 1</string>
+  <!--Original value: Turkish-->
+  <string name="translation_turkish">Turkish</string>
+  <!--Original value: Language 2-->
+  <string name="translation_2">Język 2</string>
+  <!--Original value: Corrections-->
+  <string name="home_title_corrections">Poprawki</string>
+  <!--Original value: Repeater-->
+  <string name="home_title_repeater">Repeater</string>
+  <!--Original value: Language 3-->
+  <string name="translation_3">Język 3</string>
+  <!--Original value: Catalogs-->
+  <string name="home_title_catalog">Katalog</string>
+  <!--Original value: Reconnect WiFi-->
+  <string name="home_title_reconnectwifi">Połącz WiFi</string>
+  <!--Original value: Services-->
+  <string name="home_title_justinlink_server">Serwisy</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Ustawienia</string>
+  <!--Original value:  (;©) Copyright JAVAD GNSS 2018-->
+  <string name="string_copyright"> (;©) Copyright JAVAD GNSS 2018</string>
+  <!--Original value: Exit J-Mobile application-->
+  <string name="check_exit_app">Zamknij program J-Mobile</string>
+  <!--Original value: Open navigation drawer-->
+  <string name="navigation_drawer_open">Otwórz Nawigator</string>
+  <!--Original value: Codes-->
+  <string name="home_title_codes">Kody</string>
+  <!--Original value: Devices-->
+  <string name="home_title_devices">Urządzenia</string>
+  <!--Original value: Russian-->
+  <string name="translation_russian">Russian</string>
+  <!--Original value: Quattro/Duo-->
+  <string name="home_title_quatro_duo">Quattro/Duo</string>
+  <!--Original value: Localize-->
+  <string name="home_title_localize">Lokalizacja</string>
+  <!--Original value: Disconnect-->
+  <string name="string_disconnect">Rozłącz</string>
+  <!--Original value: View Name-->
+  <string name="view_name">Pokaż Nazwę</string>
+  <!--Original value: RTK Rover-->
+  <string name="home_title_rtkrover">Rover RTK</string>
+  <!--Original value: User Interface Settings-->
+  <string name="ui_settings">Ustawienia Interfejsu</string>
+  <!--Original value: Receiver Files-->
+  <string name="home_title_filemanager">Pliki odbiornika</string>
+  <!--Original value: Survey/Stakeout on Map-->
+  <string name="radio_with_map">Pomiar/Tyczenie na mapie</string>
+  <!--Original value: Correction Source-->
+  <string name="correction_source_summary">Źródło Poprawek</string>
+  <!--Original value: Process-->
+  <string name="home_title_process">Przetwarzaj</string>
+  <!--Original value: No Internet connection to check License-->
+  <string name="no_internet_to_check_license">Brak połączenia internetowego. Nie można sprawdzić licencji!</string>
+  <!--Original value: Total Station-->
+  <string name="home_title_ts_exchange">Total Station</string>
+  <!--Original value: post-Processing-->
+  <string name="home_title_post_processing">post-Processing</string>
+  <!--Original value: Duo-->
+  <string name="home_title_duo">Duo</string>
+  <!--Original value: Connect-->
+  <string name="string_connect">Połącz</string>
+  <!--Original value: Points-->
+  <string name="home_title_points">Punkty</string>
+  <!--Original value: Close navigation drawer-->
+  <string name="navigation_drawer_close">Zamknij Nawigator</string>
+  <!--Original value: Control-->
+  <string name="home_title_resets">Narzędzia</string>
 </resources>
