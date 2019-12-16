@@ -1,137 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file CoordinateSystemsActivity.java:278. Original value:Edit user CS  -->
+    <!--  Used in file LocalizationReport.java:378. Original value:Plain Residual  -->
+    <string name="string_plain_residual">Plain Residual</string>
+    <!--  Used in file CoordinateSystemsActivity.java:329. Original value:Edit user CS  -->
     <string name="string_edit_user_cs">Edytuj UW użytkownika</string>
-    <!--  Used in file IdenticalPointListAdapter.java:189. Original value:Height Offset  -->
+    <!--  Used in file LocalizationReport.java:217. Original value:East Offset  -->
+    <string name="string_east_offset">East Offset</string>
+    <!--  Used in file IdenticalPointListAdapter.java:198. Original value:Height Offset  -->
     <string name="string_height_offset">Offset H</string>
-    <!--  Used in file CoordinateSystemsActivity.java:280. Original value:View CS Info  -->
+    <!--  Used in file CoordinateSystemsActivity.java:331. Original value:View CS Info  -->
     <string name="string_view_cs_info">Wyświetl Info</string>
-    <!--  Used in file UserCSPreferenceFragment.java:249. Original value:Ellipsoid:  -->
+    <!--  Used in file UserCSPreferenceFragment.java:308. Original value:Ellipsoid:  -->
     <string name="string_ellipsoid_">Elipsoida:</string>
-    <!--  Used in file CoordinateSystemsActivity.java:141. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?  -->
+    <!--  Used in file LocalizationReport.java:95. Original value:Name  -->
+    <string name="string_name">Name</string>
+    <!--  Used in file CoordinateSystemsActivity.java:186. Original value:Do you want to set the new CS \'%1$s\' for current job \'%2$s\'?  -->
     <string name="string_do_you_want_to_set_the_new_cs___1_s__for_current_job___2_s__">Czy chcesz ustawić nowy układ \'%1$s\' dla aktualnego projektu\'%2$s\'?</string>
-    <!--  Used in file IdenticalPointsActivity.java:48. Original value:Save  -->
+    <!--  Used in file IdenticalPointsActivity.java:71. Original value:Save  -->
     <string name="string_save">Zapisz</string>
-    <!--  Used in file CoordinateSystemsActivity.java:302. Original value:Close  -->
+    <!--  Used in file CoordinateSystemsActivity.java:353. Original value:Close  -->
     <string name="string_close">Zamknij</string>
-    <!--  Used in file CSPreferenceFragment.java:123. Original value:Elipsoidal Height  -->
+    <!--  Used in file CSPreferenceFragment.java:122. Original value:Elipsoidal Height  -->
     <string name="string_elipsoidal_height">H elipsoidalna</string>
-    <!--  Used in file IdenticalPointsActivity.java:297. Original value:Identical Point  -->
+    <!--  Used in file IdenticalPointsActivity.java:365. Original value:Identical Point  -->
     <string name="string_identical_point">Identyczne punkty</string>
-    <!--  Used in file IdenticalPointsActivity.java:111. Original value:Do you want to delete localization?  -->
+    <!--  Used in file LocalizationReport.java:299. Original value:Maximum Residuals  -->
+    <string name="string_maximum_residuals">Maximum Residuals</string>
+    <!--  Used in file IdenticalPointsActivity.java:185. Original value:Trimble *.dc format  -->
+    <string name="string_trimble___dc_format">Trimble *.dc format</string>
+    <!--  Used in file IdenticalPointsActivity.java:128. Original value:Do you want to delete localization?  -->
     <string name="string_do_you_want_to_delete_localization_">Czy usunąć lokalizację?</string>
-    <!--  Used in file UserCSPreferenceFragment.java:501. Original value:Ellipsoidal Height  -->
+    <!--  Used in file UserCSPreferenceFragment.java:570. Original value:Ellipsoidal Height  -->
     <string name="string_ellipsoidal_height">H elipsoidalna</string>
-    <!--  Used in file CSListActivity.java:340. Original value:Error  -->
+    <!--  Used in file CSListActivity.java:343. Original value:Error  -->
     <string name="string_error">Błąd</string>
-    <!--  Used in file CoordinateSystemsActivity.java:275. Original value:Select CS  -->
+    <!--  Used in file CoordinateSystemsActivity.java:326. Original value:Select CS  -->
     <string name="string_select_cs">Ustaw UW</string>
-    <!--  Used in file CoordinateSystemsActivity.java:271. Original value:Change job CS  -->
+    <!--  Used in file LocalizationReport.java:250. Original value:Origin Parameters  -->
+    <string name="string_origin_parameters">Origin Parameters</string>
+    <!--  Used in file CoordinateSystemsActivity.java:322. Original value:Change job CS  -->
     <string name="string_change_job_cs">Zmień UW projektu</string>
-    <!--  Used in file CSListActivity.java:184. Original value:Redownload  -->
+    <!--  Used in file CSListActivity.java:187. Original value:Redownload  -->
     <string name="string_redownload">Pobierz ponownie</string>
-    <!--  Used in file IdenticalPointListAdapter.java:192. Original value:North Inclination  -->
+    <!--  Used in file LocalizationReport.java:451. Original value:Control Point Residuals  -->
+    <string name="string_control_point_residuals">Control Point Residuals</string>
+    <!--  Used in file LocalizationReport.java:323. Original value:Survey Point  -->
+    <string name="string_survey_point">Survey Point</string>
+    <!--  Used in file IdenticalPointListAdapter.java:201. Original value:North Inclination  -->
     <string name="string_north_inclination">Inklinacja N</string>
     <!--  Used in file SetupLocalizationParametersActivity.java:130. Original value:Center  -->
     <string name="string_center">Centruj</string>
-    <!--  Used in file IdenticalPointsActivity.java:302. Original value:Identical Points  -->
+    <!--  Used in file IdenticalPointsActivity.java:370. Original value:Identical Points  -->
     <string name="string_identical_points">Punkty dostosowania</string>
-    <!--  Used in file CSListActivity.java:339. Original value:Can\'t read coordinate system from the receiver!  -->
+    <!--  Used in file CSListActivity.java:342. Original value:Can\'t read coordinate system from the receiver!  -->
     <string name="string_can_t_read_coordinate_system_from_the_receiver_">Nie można odczytać UW z odbiornika!</string>
-    <!--  Used in file IdenticalPointListAdapter.java:186. Original value:East Ground  -->
+    <!--  Used in file LocalizationReport.java:65. Original value:Coordinate System  -->
+    <string name="string_coordinate_system">Coordinate System</string>
+    <!--  Used in file IdenticalPointListAdapter.java:195. Original value:East Ground  -->
     <string name="string_east_ground">Y teren</string>
-    <!--  Used in file CoordinateSystemsActivity.java:359. Original value:CS %s is not user CS!  -->
+    <!--  Used in file LocalizationReport.java:227. Original value:Height Parameters  -->
+    <string name="string_height_parameters">Height Parameters</string>
+    <!--  Used in file CoordinateSystemsActivity.java:410. Original value:CS %s is not user CS!  -->
     <string name="string_cs__s_is_not_user_cs_">%s nie jest ukł. współrzędnych użytkownika!</string>
-    <!--  Used in file IdenticalPointListAdapter.java:210. Original value:Latitude Orig.  -->
+    <!--  Used in file LocalizationReport.java:349. Original value:Longitude  -->
+    <string name="string_longitude">Longitude</string>
+    <!--  Used in file LocalizationReport.java:256. Original value:Latitude Orig.  -->
     <string name="string_latitude_origin">B punktu głównego</string>
-    <!--  Used in file UserCSPreferenceFragment.java:266. Original value:Datum:  -->
+    <!--  Used in file UserCSPreferenceFragment.java:325. Original value:Datum:  -->
     <string name="string_datum_">Odwz.:</string>
-    <!--  Used in file IdenticalPointsActivity.java:439. Original value:Localization successfully imported  -->
+    <!--  Used in file IdenticalPointsActivity.java:333. Original value:Can\'t open help file. Please manually open it in the javad/csfavorites subfolder.  -->
+    <string name="string_can_t_open_help_file__please_manually_open_it_in_the_javad_csfavorites_subfolder_">Can\'t open help file. Please manually open it in the javad/csfavorites subfolder.</string>
+    <!--  Used in file IdenticalPointsActivity.java:507. Original value:Localization successfully imported  -->
     <string name="string_localization_successfully_imported">Import lokalizacji zakończony powodzeniem</string>
-    <!--  Used in file IdenticalPointListAdapter.java:199. Original value:North Origing  -->
+    <!--  Used in file LocalizationReport.java:264. Original value:North Origing  -->
     <string name="string_north_origin">X punktu głównego</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:205. Original value:Wrong scale difference!  -->
+    <!--  Used in file SaveLocalizationParametersActivity.java:210. Original value:Wrong scale difference!  -->
     <string name="string_wrong_scale_difference_">Błędny współczynnik skali!</string>
-    <!--  Used in file CSListActivity.java:341. Original value:Cancel  -->
+    <!--  Used in file LocalizationReport.java:411. Original value:Type  -->
+    <string name="string_type">Type</string>
+    <!--  Used in file CSListActivity.java:344. Original value:Cancel  -->
     <string name="string_cancel">Anuluj</string>
-    <!--  Used in file IdenticalPointListAdapter.java:1313. Original value:something wrong with params  -->
+    <!--  Used in file LocalizationReport.java:87. Original value:Description  -->
+    <string name="string_description">Description</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1324. Original value:something wrong with params  -->
     <string name="string_something_wrong_with_params">błędne parametry</string>
-    <!--  Used in file IdenticalPointListAdapter.java:195. Original value:East Inclination  -->
+    <!--  Used in file IdenticalPointListAdapter.java:204. Original value:East Inclination  -->
     <string name="string_east_inclination">Inklinacja E</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:234. Original value:CS with such name already exist!  -->
+    <!--  Used in file SaveLocalizationParametersActivity.java:239. Original value:CS with such name already exist!  -->
     <string name="string_cs_with_such_name_already_exist_">Układ o takiej nazwie już istnieje!</string>
-    <!--  Used in file CSPreferenceFragment.java:351. Original value:Name:  -->
+    <!--  Used in file CSPreferenceFragment.java:386. Original value:Name:  -->
     <string name="string_name_">Nazwa:</string>
-    <!--  Used in file CoordinateSystemsActivity.java:291. Original value:Delete %1$d filtered CSes (of %2$d)  -->
+    <!--  Used in file LocalizationReport.java:519. Original value:Version:%1$s%2$s %3$s  -->
+    <string name="string_version__1_s_2_s__3_s">Version:%1$s%2$s %3$s</string>
+    <!--  Used in file CoordinateSystemsActivity.java:342. Original value:Delete %1$d filtered CSes (of %2$d)  -->
     <string name="string_delete__1_d_filtered_cses__of__2_d_">Usuń %1$d (z %2$d)</string>
-    <!--  Used in file IdenticalPointsActivity.java:112. Original value:Delete localization  -->
+    <!--  Used in file IdenticalPointsActivity.java:129. Original value:Delete localization  -->
     <string name="string_delete_localization">Usuń lokalizację</string>
-    <!--  Used in file IdenticalPointsActivity.java:103. Original value:Can\'t save the settings!  -->
+    <!--  Used in file LocalizationReport.java:240. Original value:Vertical Inclination East  -->
+    <string name="string_vertical_inclination_east">Vertical Inclination East</string>
+    <!--  Used in file IdenticalPointsActivity.java:120. Original value:Can\'t save the settings!  -->
     <string name="string_can_t_save_the_settings_">Nie można zapisać ustawień!</string>
-    <!--  Used in file IdenticalPointsActivity.java:149. Original value:Localization was changed and not saved!  -->
+    <!--  Used in file LocalizationReport.java:119. Original value:Fix Local CS Parameters  -->
+    <string name="string_fix_local_cs_parameters">Fix Local CS Parameters</string>
+    <!--  Used in file LocalizationReport.java:83. Original value:Time Zone  -->
+    <string name="string_time_zone">Time Zone</string>
+    <!--  Used in file IdenticalPointsActivity.java:534. Original value:Localization was changed and not saved!  -->
     <string name="string_localization_was_changed_and_not_saved_">Lokalizację zmieniono lecz nie zapisano!</string>
-    <!--  Used in file IdenticalPointsActivity.java:149. Original value:Returning back losts your changes.  -->
+    <!--  Used in file LocalizationReport.java:345. Original value:Latitude  -->
+    <string name="string_latitude">Latitude</string>
+    <!--  Used in file LocalizationReport.java:386. Original value:Residual 3D  -->
+    <string name="string_residual_3d">Residual 3D</string>
+    <!--  Used in file IdenticalPointsActivity.java:534. Original value:Returning back losts your changes.  -->
     <string name="string_returning_back_losts_your_changes_">Powrót spowoduje utratę zmian.</string>
-    <!--  Used in file IdenticalPointListAdapter.java:1314. Original value:problem with transformation  -->
+    <!--  Used in file IdenticalPointListAdapter.java:1325. Original value:problem with transformation  -->
     <string name="string_problem_with_transformation">problem z transformacją</string>
-    <!--  Used in file IdenticalPointsActivity.java:119. Original value:Can\'t delete localization  -->
+    <!--  Used in file IdenticalPointsActivity.java:136. Original value:Can\'t delete localization  -->
     <string name="string_can_t_delete_localization">Nie można usunąć lokalizacji</string>
-    <!--  Used in file CoordinateSystemsActivity.java:229. Original value:CSes  -->
+    <!--  Used in file CoordinateSystemsActivity.java:280. Original value:CSes  -->
     <string name="string_cses">UW</string>
-    <!--  Used in file CoordinateSystemsActivity.java:285. Original value:Delete CS %s  -->
+    <!--  Used in file CoordinateSystemsActivity.java:336. Original value:Delete CS %s  -->
     <string name="string_delete_cs__s">Usuń UW %s</string>
-    <!--  Used in file UserCSPreferenceFragment.java:334. Original value:Name is empty!  -->
+    <!--  Used in file LocalizationReport.java:64. Original value:Project file data  -->
+    <string name="string_project_file_data">Project file data</string>
+    <!--  Used in file UserCSPreferenceFragment.java:406. Original value:Name is empty!  -->
     <string name="string_name_is_empty_">Nazwa jest pusta!</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:187. Original value:Wrong east!  -->
+    <!--  Used in file LocalizationReport.java:488. Original value:Horizontal only  -->
+    <string name="string_horizontal_only">Horizontal only</string>
+    <!--  Used in file LocalizationReport.java:236. Original value:Vertical Inclination North  -->
+    <string name="string_vertical_inclination_north">Vertical Inclination North</string>
+    <!--  Used in file LocalizationReport.java:448. Original value:Localization Report  -->
+    <string name="string_localization_report">Localization Report</string>
+    <!--  Used in file LocalizationReport.java:232. Original value:Vertical Offset  -->
+    <string name="string_vertical_offset">Vertical Offset</string>
+    <!--  Used in file LocalizationReport.java:382. Original value:Height Residual  -->
+    <string name="string_height_residual">Height Residual</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:192. Original value:Wrong east!  -->
     <string name="string_wrong_east_">Błąd Y!</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:213. Original value:Wrong vertical offset!  -->
+    <!--  Used in file LocalizationReport.java:75. Original value:Size  -->
+    <string name="string_size">Size</string>
+    <!--  Used in file LocalizationReport.java:403. Original value:East  -->
+    <string name="string_east">East</string>
+    <!--  Used in file LocalizationReport.java:454. Original value:Residual List  -->
+    <string name="string_residual_list">Residual List</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:218. Original value:Wrong vertical offset!  -->
     <string name="string_wrong_vertical_offset_">Błędny offset pionowy!</string>
-    <!--  Used in file IdenticalPointsActivity.java:148. Original value:Localization changed  -->
+    <!--  Used in file IdenticalPointsActivity.java:533. Original value:Localization changed  -->
     <string name="string_localization_changed">Lokalizacja zmieniona</string>
-    <!--  Used in file UserCSPreferenceFragment.java:471. Original value:WGS84-to-User  -->
+    <!--  Used in file LocalizationReport.java:303. Original value:in plain  -->
+    <string name="string_in_plain">in plain</string>
+    <!--  Used in file LocalizationReport.java:490. Original value:Check only  -->
+    <string name="string_check_only">Check only</string>
+    <!--  Used in file UserCSPreferenceFragment.java:540. Original value:WGS84-to-User  -->
     <string name="string_wgs84_to_user">WGS84-do-Użytkownika</string>
-    <!--  Used in file IdenticalPointListAdapter.java:179. Original value:Scale  -->
+    <!--  Used in file LocalizationReport.java:399. Original value:North  -->
+    <string name="string_north">North</string>
+    <!--  Used in file LocalizationReport.java:489. Original value:Vertical only  -->
+    <string name="string_vertical_only">Vertical only</string>
+    <!--  Used in file IdenticalPointsActivity.java:317. Original value:Localization is ready  -->
+    <string name="string_localization_is_ready">Localization is ready</string>
+    <!--  Used in file LocalizationReport.java:209. Original value:Scale  -->
     <string name="string_scale">Współczynnik skali</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:237. Original value:Rewrite CS  -->
+    <!--  Used in file SaveLocalizationParametersActivity.java:242. Original value:Rewrite CS  -->
     <string name="string_rewrite_cs">Przepisz UW</string>
-    <!--  Used in file CoordinateSystemsActivity.java:148. Original value:Can\'t create coordinate system!  -->
+    <!--  Used in file LocalizationReport.java:452. Original value:Summary  -->
+    <string name="string_summary">Summary</string>
+    <!--  Used in file LocalizationReport.java:186. Original value:No contrains  -->
+    <string name="string_no_contrains">No contrains</string>
+    <!--  Used in file CoordinateSystemsActivity.java:237. Original value:Can\'t create coordinate system!  -->
     <string name="string_can_t_create_coordinate_system_">Nie można utworzyć układu współrzędnych!</string>
-    <!--  Used in file SaveLocalizationParametersActivity.java:181. Original value:Wrong north!  -->
+    <!--  Used in file LocalizationReport.java:487. Original value:Plain + Height  -->
+    <string name="string_plain___height">Plain + Height</string>
+    <!--  Used in file LocalizationReport.java:324. Original value:Computed  -->
+    <string name="string_computed">Computed</string>
+    <!--  Used in file SaveLocalizationParametersActivity.java:186. Original value:Wrong north!  -->
     <string name="string_wrong_north_">Błąd X!</string>
-    <!--  Used in file CSPreferenceFragment.java:49. Original value:Name preference is absent  -->
+    <!--  Used in file CSPreferenceFragment.java:48. Original value:Name preference is absent  -->
     <string name="string_name_preference_is_absent">Name preference is absent</string>
-    <!--  Used in file IdenticalPointsActivity.java:92. Original value:Can\'t show the settings!  -->
+    <!--  Used in file LocalizationReport.java:99. Original value:System  -->
+    <string name="string_system">System</string>
+    <!--  Used in file IdenticalPointsActivity.java:109. Original value:Can\'t show the settings!  -->
     <string name="string_can_t_show_the_settings_">Nie można wyświetlić ustawień!</string>
-    <!--  Used in file IdenticalPointsActivity.java:340. Original value:Delete Points %s  -->
+    <!--  Used in file LocalizationReport.java:313. Original value:3D  -->
+    <string name="string_3d">3D</string>
+    <!--  Used in file LocalizationReport.java:444. Original value:Localization Constrains  -->
+    <string name="string_localization_constrains">Localization Constrains</string>
+    <!--  Used in file IdenticalPointsActivity.java:408. Original value:Delete Points %s  -->
     <string name="string_delete_points__s">Usuń Punkty %s</string>
-    <!--  Used in file IdenticalPointListAdapter.java:1312. Original value:nothing to compute  -->
+    <!--  Used in file LocalizationReport.java:325. Original value:Design Point  -->
+    <string name="string_design_point">Design Point</string>
+    <!--  Used in file LocalizationReport.java:353. Original value:Altitude  -->
+    <string name="string_altitude">Altitude</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1323. Original value:nothing to compute  -->
     <string name="string_nothing_to_compute">brak możliwości wykonania obliczeń</string>
-    <!--  Used in file CoordinateSystemsActivity.java:140. Original value:Confirm  -->
+    <!--  Used in file CoordinateSystemsActivity.java:185. Original value:Confirm  -->
     <string name="string_confirm">Potwierdź</string>
-    <!--  Used in file CoordinateSystemsActivity.java:297. Original value:Delete %1$d selected CSes (of %2$d)  -->
+    <!--  Used in file CoordinateSystemsActivity.java:348. Original value:Delete %1$d selected CSes (of %2$d)  -->
     <string name="string_delete__1_d_selected_cses__of__2_d_">Usuń %1$d (z %2$d)</string>
-    <!--  Used in file IdenticalPointListAdapter.java:1315. Original value:points are to close each other  -->
+    <!--  Used in file LocalizationReport.java:260. Original value:Longitude Orig.  -->
+    <string name="string_longitude_origin">Longitude Origin</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1326. Original value:points are to close each other  -->
     <string name="string_points_are_to_close_each_other">punkty znajdują się zbyt blisko siebie</string>
-    <!--  Used in file UserCSPreferenceFragment.java:471. Original value:User-to-WGS84  -->
+    <!--  Used in file LocalizationReport.java:517. Original value:Build:%s  -->
+    <string name="string_build__s">Build:%s</string>
+    <!--  Used in file LocalizationReport.java:103. Original value:Zone  -->
+    <string name="string_zone">Zone</string>
+    <!--  Used in file UserCSPreferenceFragment.java:540. Original value:User-to-WGS84  -->
     <string name="string_user_to_wgs84">Użytkownika-do-WGS84</string>
-    <!--  Used in file CoordinateSystemsActivity.java:224. Original value:CS  -->
+    <!--  Used in file CoordinateSystemsActivity.java:275. Original value:CS  -->
     <string name="string_cs">Ukł. Wsp.</string>
-    <!--  Used in file IdenticalPointsActivity.java:345. Original value:Delete %1$d filtered Points (of %2$d)  -->
+    <!--  Used in file LocalizationReport.java:199. Original value:Plain Parameters  -->
+    <string name="string_plain_parameters">Plain Parameters</string>
+    <!--  Used in file IdenticalPointsActivity.java:413. Original value:Delete %1$d filtered Points (of %2$d)  -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d (z %2$d)</string>
-    <!--  Used in file IdenticalPointsActivity.java:130. Original value:Can\'t delete the localization!  -->
+    <!--  Used in file IdenticalPointsActivity.java:147. Original value:Can\'t delete the localization!  -->
     <string name="string_can_t_delete_the_localization_">Nie można usunąć lokalizacji!</string>
-    <!--  Used in file IdenticalPointsActivity.java:150. Original value:Return and lost  -->
+    <!--  Used in file LocalizationReport.java:213. Original value:North Offset  -->
+    <string name="string_north_offset">North Offset</string>
+    <!--  Used in file IdenticalPointsActivity.java:535. Original value:Return and lost  -->
     <string name="string_return_and_lost">Powrót i porzucenie zmian</string>
-    <!--  Used in file CSPreferenceFragment.java:331. Original value:Push to choose from list  -->
+    <!--  Used in file LocalizationReport.java:79. Original value:Date  -->
+    <string name="string_date">Date</string>
+    <!--  Used in file LocalizationReport.java:407. Original value:height  -->
+    <string name="string_height">height</string>
+    <!--  Used in file LocalizationReport.java:107. Original value:Geoid  -->
+    <string name="string_geoid">Geoid</string>
+    <!--  Used in file LocalizationReport.java:395. Original value:Point  -->
+    <string name="string_point">Point</string>
+    <!--  Used in file CSPreferenceFragment.java:366. Original value:Push to choose from list  -->
     <string name="string_push_to_choose_from_list">Naciśnij aby wybrać z listy</string>
-    <!--  Used in file IdenticalPointListAdapter.java:207. Original value:East Origing  -->
+    <!--  Used in file LocalizationReport.java:268. Original value:East Origing  -->
     <string name="string_east_origin">Y punktu głównego</string>
-    <!--  Used in file IdenticalPointListAdapter.java:183. Original value:North Ground  -->
+    <!--  Used in file IdenticalPointListAdapter.java:192. Original value:North Ground  -->
     <string name="string_north_ground">X teren</string>
-    <!--  Used in file IdenticalPointListAdapter.java:1323. Original value:wrong parameters were computed  -->
+    <!--  Used in file LocalizationReport.java:491. Original value:No control  -->
+    <string name="string_no_control">No control</string>
+    <!--  Used in file IdenticalPointListAdapter.java:1334. Original value:wrong parameters were computed  -->
     <string name="string_wrong_parameters_were_computed">wyliczono błędne parametry</string>
-    <!--  Used in file IdenticalPointListAdapter.java:176. Original value:Rotation  -->
+    <!--  Used in file LocalizationReport.java:205. Original value:Rotation  -->
     <string name="string_rotation">Skręcenie</string>
 
 </resources>
