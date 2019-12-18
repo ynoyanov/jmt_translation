@@ -1,71 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file activity_update_firmware.xml:43. Original value:Update from Internet to Stable    -->
-    <string name="update_from_internet_stable">Aktualizuj przez internet do wersji Stable</string>
-    <!-- Used in file list_oaf_header.xml:51. Original value:Date    -->
-    <string name="string_date_header">Date</string>
-    <!-- Used in file list_oaf_header.xml:42. Original value:Leased    -->
-    <string name="string_leased_header">Leased</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver    -->
-    <string name="reset_receiver">Reset odbiornika</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Update OAF    -->
-    <string name="update_oaf">Aktualizacja OAF</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM    -->
-    <string name="clear_nvram">Wyczyść NVRAM</string>
-    <!-- Used in file activity_update_firmware.xml:77. Original value:Update GSM (Verizon) firmware    -->
-    <string name="update_gsm_verizon_from_internet_latest">Update GSM (Verizon) firmware</string>
-    <!-- Used in file activity_update_firmware.xml:32. Original value:Update from File    -->
-    <string name="update_from_file">Aktualizuj z pliku</string>
-    <!-- Used in file activity_update_firmware.xml:21. Original value:Options are OK    -->
-    <string name="oaf_info">Opcje OK</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values    -->
-    <string name="init_parameters_summary">Przywróć ustawienia domyślne</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file    -->
-    <string name="save_settings_summary">Zapisz ustawienia odbiornika do pliku</string>
-    <!-- Used in file oaf_update.xml:8. Original value:Save OAF Report    -->
-    <string name="action_save_oaf_report">Save OAF Report</string>
-    <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection    -->
-    <string name="check_oaf_at_every_connection">Sprawdź OAF przy każdym połączeniu</string>
-    <!-- Used in file activity_update_firmware.xml:54. Original value:Update from Internet to Lattest    -->
-    <string name="update_from_internet_latest">Aktualizuj przez internet do wersji Latest</string>
-    <!-- Used in file list_oaf_header.xml:33. Original value:Purch.    -->
-    <string name="string_purchase_header">Purch.</string>
-    <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web    -->
-    <string name="update_oaf_summary">Aktualizuj OAF z pliku lub poprzez sieć</string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file    -->
-    <string name="restore_settings_summary">Przywróć ustawienia</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web    -->
-    <string name="update_firmware_summary">Aktualizuj FW z pliku lub poprzez sieć</string>
-    <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet    -->
-    <string name="update_from_internet">Aktualizacja przez internet</string>
-    <!-- Used in file list_oaf_header.xml:15. Original value:Option    -->
-    <string name="string_option_header">Option</string>
-    <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters    -->
-    <string name="init_parameters">Parametry poczatkowe</string>
-    <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver    -->
-    <string name="reset_receiver_summary">Wyłączenie i włączenie odbiornika</string>
-    <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware    -->
-    <string name="update_firmware">Aktualizacja FW</string>
-    <!-- Used in file list_oaf_header.xml:24. Original value:Cur.    -->
-    <string name="string_curr_header">Cur.</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver    -->
-    <string name="clear_file_system_summary">Wyczyść system plików</string>
-    <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings    -->
-    <string name="save_settings">Zapisz ustawienia</string>
-    <!-- Used in file activity_update_firmware.xml:65. Original value:Update GSM (Generic) firmware    -->
-    <string name="update_gsm_generic_from_internet_latest">Update GSM (Generic) firmware</string>
-    <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values    -->
-    <string name="clear_nvram_summary">Przywróć ustawienia domyślne</string>
-    <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK    -->
-    <string name="reset_rtk">Reset RTK</string>
-    <!-- Used in file activity_update_firmware.xml:89. Original value:Update UHF firmware    -->
-    <string name="update_uhf_from_internet_latest">Update UHF firmware</string>
-    <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings    -->
-    <string name="restore_settings">Przywróć ustawienia</string>
-    <!-- Used in file fragment_resets.xml:26. Original value:Clear File System    -->
-    <string name="clear_file_system">Czyść system plików</string>
-    <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution    -->
-    <string name="reset_rtk_summary">Resetuje rozwiązanie RTK oraz śledzone sygnały</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Update from Internet to Stable-->
+  <string name="update_from_internet_stable">Aktualizuj przez internet do wersji Stable</string>
+  <!--Original value: Date-->
+  <string name="string_date_header">Data</string>
+  <!--Original value: Leased-->
+  <string name="string_leased_header">Leased</string>
+  <!--Original value: Reset Receiver-->
+  <string name="reset_receiver">Reset odbiornika</string>
+  <!--Original value: Update OAF-->
+  <string name="update_oaf">Aktualizacja OAF</string>
+  <!--Original value: Clear NVRAM-->
+  <string name="clear_nvram">Wyczyść NVRAM</string>
+  <!--Original value: Update GSM (Verizon) firmware-->
+  <string name="update_gsm_verizon_from_internet_latest">Update GSM (Verizon) firmware</string>
+  <!--Original value: Update from File-->
+  <string name="update_from_file">Aktualizuj z pliku</string>
+  <!--Original value: Options are OK-->
+  <string name="oaf_info">Opcje OK</string>
+  <!--Original value: Crear all receiver settings to default values-->
+  <string name="init_parameters_summary">Przywróć ustawienia domyślne</string>
+  <!--Original value: Save all receiver settings into text file-->
+  <string name="save_settings_summary">Zapisz ustawienia odbiornika do pliku</string>
+  <!--Original value: Save OAF Report-->
+  <string name="action_save_oaf_report">Save OAF Report</string>
+  <!--Original value: Check OAF at every connection-->
+  <string name="check_oaf_at_every_connection">Sprawdź OAF przy każdym połączeniu</string>
+  <!--Original value: Update from Internet to Lattest-->
+  <string name="update_from_internet_latest">Aktualizuj przez internet do wersji Latest</string>
+  <!--Original value: Purch.-->
+  <string name="string_purchase_header">Purch.</string>
+  <!--Original value: Upfate receiver options(OAF) from file or from Web-->
+  <string name="update_oaf_summary">Aktualizuj OAF z pliku lub poprzez sieć</string>
+  <!--Original value: Restore  all receiver settings from setting file-->
+  <string name="restore_settings_summary">Przywróć ustawienia</string>
+  <!--Original value: Upfate receiver firmware from file or from Web-->
+  <string name="update_firmware_summary">Aktualizuj FW z pliku lub poprzez sieć</string>
+  <!--Original value: Update from Internet-->
+  <string name="update_from_internet">Aktualizacja przez internet</string>
+  <!--Original value: Option-->
+  <string name="string_option_header">Option</string>
+  <!--Original value: Init Parameters-->
+  <string name="init_parameters">Parametry poczatkowe</string>
+  <!--Original value: Reset turns off and on the receiver-->
+  <string name="reset_receiver_summary">Wyłączenie i włączenie odbiornika</string>
+  <!--Original value: Update Firmware-->
+  <string name="update_firmware">Aktualizacja FW</string>
+  <!--Original value: Cur.-->
+  <string name="string_curr_header">Cur.</string>
+  <!--Original value: Clear file system removes all jps files on the receiver-->
+  <string name="clear_file_system_summary">Wyczyść system plików</string>
+  <!--Original value: Save Receiver Settings-->
+  <string name="save_settings">Zapisz ustawienia</string>
+  <!--Original value: Update GSM (Generic) firmware-->
+  <string name="update_gsm_generic_from_internet_latest">Aktualizuj FW modemu GSM</string>
+  <!--Original value: Crear all receiver settings to default values-->
+  <string name="clear_nvram_summary">Przywróć ustawienia domyślne</string>
+  <!--Original value: Reset RTK-->
+  <string name="reset_rtk">Reset RTK</string>
+  <!--Original value: Update UHF firmware-->
+  <string name="update_uhf_from_internet_latest">Aktualizuj FW UHF</string>
+  <!--Original value: Restore Receiver Settings-->
+  <string name="restore_settings">Przywróć ustawienia</string>
+  <!--Original value: Clear File System-->
+  <string name="clear_file_system">Czyść system plików</string>
+  <!--Original value: Turn RTK off and on to refix solution-->
+  <string name="reset_rtk_summary">Resetuje rozwiązanie RTK oraz śledzone sygnały</string>
 </resources>
