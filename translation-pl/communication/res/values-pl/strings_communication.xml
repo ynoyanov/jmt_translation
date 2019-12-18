@@ -1,88 +1,71 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file main_communication.xml:8. Original value:only Javad devices    -->
+    <string name="action_filter_javad">tylko urządzenia Javad</string>
+    <!-- Used in file activity_connection_bluetooth.xml:94. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
+    <string name="button_wifi_iphone_reconnect">Ustaw odbiornik w trybie WiFi AdHoc</string>
+    <!-- Used in file activity_main_communication.xml:75. Original value:Network    -->
+    <string name="ethernet_radio">Sieć</string>
+    <!-- Used in file main_communication.xml:14. Original value:About    -->
+    <string name="action_about">About</string>
+    <!-- Used in file activity_connection.xml:79. Original value:Password    -->
+    <string name="password">Hasło</string>
+    <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
+    <string name="login_netgear">Login NetGear</string>
+    <!-- Used in file activity_connection_bluetooth.xml:82. Original value:Reconnect with WiFi using external AP    -->
+    <string name="button_wifi_network_reconnect">Połącz z WiFi używając zewnętrznego AP</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
+    <string name="string_rename">Zmiana nazwy</string>
+    <!-- Used in file ReceiverModel.java:2114. Original value:RTK Base antenna Id error!    -->
+    <string name="set_rtkbase_error_antenna_id">Błąd Id anteny bazy RTK!</string>
+    <!-- Used in file MainCommunicationActivity.java:993. Original value:Connection error!Please try to reconnect latter or select another device!    -->
+    <string name="connection_error_str">Błąd połączenia! Spróbuj później lub wybierz inne urzadzenie!</string>
+    <!-- Used in file ConfigurationManager.java:212. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
+    <string name="string_without_receiver">&#x002d;&#x002d;&#x002d;bez odbiornika&#x002d;&#x002d;&#x002d;</string>
+    <!-- Used in file activity_connection_configurations.xml:40. Original value:Delete    -->
+    <string name="string_delete">Usuń</string>
+    <!-- Used in file list_items_button.xml:13. Original value:Connect    -->
+    <string name="button_connect">Połącz</string>
+    <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
+    <string name="string_new">Nowy</string>
+    <!-- Used in file ReceiverModel.java:2118. Original value:RTK Base antenna height error!    -->
+    <string name="set_rtkbase_error_antenna_height">Błąd wysokości anteny bazowej!</string>
+    <!-- Used in file ReceiverModel.java:2116. Original value:RTK Base antenna type error!    -->
+    <string name="set_rtkbase_error_antenna_type">Błąd typu anteny bazowej!</string>
+    <!-- Used in file activity_main_communication.xml:61. Original value:WiFi    -->
+    <string name="wifi_radio">WiFi</string>
+    <!-- Used in file ReceiverModel.java:2046. Original value:RTK Base parameters is not pass!    -->
+    <string name="set_rtkbase_error_null">Błędne parametry bazy RTK!</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
+    <string name="button_cancel">Anuluj</string>
+    <!-- Used in file activity_connection_bluetooth.xml:70. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
+    <string name="button_wifi_ap_reconnect">Połącz z WiFi używając Androida jako HotSpotu</string>
+    <!-- Used in file connection.xml:7. Original value:Settings    -->
+    <string name="action_settings">Ustawienia</string>
+    <!-- Used in file activity_main_communication.xml:37. Original value:Connection to receiver:    -->
+    <string name="text_connection">Połączenie z odbiornikiem:</string>
+    <!-- Used in file activity_connection.xml:50. Original value:Login    -->
+    <string name="login">Login</string>
+    <!-- Used in file ReceiverModel.java:2120. Original value:RTK Base cannot enable corrections    -->
+    <string name="set_rtkbase_error_enable_corrections">Baza RTK nie może przesyłać poprawek</string>
+    <!-- Used in file activity_main_communication.xml:68. Original value:WiFi\n(Mob.AP)    -->
+    <string name="wifi_ap_radio">WiFi (Mobile AP)</string>
+    <!-- Used in file ReceiverModel.java:2122. Original value:RTK Base base id error!    -->
+    <string name="set_rtkbase_error_base_id">Błąd ID bazy RTK!</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
+    <string name="setting_name">Nazwa ustawień</string>
+    <!-- Used in file main_communication.xml:5. Original value:Refresh    -->
+    <string name="action_refresh">Odśwież</string>
+    <!-- Used in file ConfigurationManager.java:189. Original value:- select a configuration    -->
+    <string name="string_select_configuration_small">- wybierz konfigurację</string>
+    <!-- Used in file ConfigurationManager.java:191. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
+    <string name="string_select_configuration">&#x002d;&#x002d;&#x002d; wybierz konfigurację &#x002d;&#x002d;&#x002d; </string>
+    <!-- Used in file activity_main_communication.xml:54. Original value:Bluetooth    -->
+    <string name="bluetooth_radio">Bluetooth</string>
+    <!-- Used in file activity_connection_bluetooth.xml:54. Original value:WiFi Password    -->
+    <string name="string_wifi_password">Hasło WiFi</string>
+    <!-- Used in file ReceiverModel.java:2112. Original value:RTK Base position error!    -->
+    <string name="set_rtkbase_error_position">Błąd pozycji bazy RTK!</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: only Javad devices-->
-  <string name="action_filter_javad">tylko urządzenia Javad</string>
-  <!--Original value: Set receiver WiFi AdHoc mode for iPhone-->
-  <string name="button_wifi_iphone_reconnect">Ustaw odbiornik w trybie WiFi AdHoc</string>
-  <!--Original value: Network-->
-  <string name="ethernet_radio">Sieć</string>
-  <!--Original value: About-->
-  <string name="action_about">About</string>
-  <!--Original value: Password-->
-  <string name="password">Hasło</string>
-  <!--Original value: NetGear Login-->
-  <string name="login_netgear">Login NetGear</string>
-  <!--Original value: Reconnect with WiFi using external AP-->
-  <string name="button_wifi_network_reconnect">Połącz z WiFi używając zewnętrznego AP</string>
-  <!--Original value: Rename-->
-  <string name="string_rename">Zmiana nazwy</string>
-  <!--Original value: RTK Base antenna Id error!-->
-  <string name="set_rtkbase_error_antenna_id">Błąd Id anteny bazy RTK!</string>
-  <!--Original value: Connection error!Please try to reconnect latter or select another device!-->
-  <string name="connection_error_str">Błąd połączenia! Spróbuj później lub wybierz inne urzadzenie!</string>
-  <!--Original value: - - -without receiver- - - -->
-  <string name="string_without_receiver">---bez odbiornika---</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: Connect-->
-  <string name="button_connect">Połącz</string>
-  <!--Original value: New-->
-  <string name="string_new">Nowy</string>
-  <!--Original value: RTK Base antenna height error!-->
-  <string name="set_rtkbase_error_antenna_height">Błąd wysokości anteny bazowej!</string>
-  <!--Original value: RTK Base antenna type error!-->
-  <string name="set_rtkbase_error_antenna_type">Błąd typu anteny bazowej!</string>
-  <!--Original value: WiFi-->
-  <string name="wifi_radio">WiFi</string>
-  <!--Original value: RTK Base parameters is not pass!-->
-  <string name="set_rtkbase_error_null">Błędne parametry bazy RTK!</string>
-  <!--Original value: Cancel-->
-  <string name="button_cancel">Anuluj</string>
-  <!--Original value: Reconnect with WiFi using the Android as Mobile Hotspot-->
-  <string name="button_wifi_ap_reconnect">Połącz z WiFi używając Androida jako HotSpotu</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Ustawienia</string>
-  <!--Original value: Connection to receiver:-->
-  <string name="text_connection">Połączenie z odbiornikiem:</string>
-  <!--Original value: Login-->
-  <string name="login">Login</string>
-  <!--Original value: RTK Base cannot enable corrections-->
-  <string name="set_rtkbase_error_enable_corrections">Baza RTK nie może przesyłać poprawek</string>
-  <!--Original value: WiFi\n(Mob.AP)-->
-  <string name="wifi_ap_radio">WiFi (Mobile AP)</string>
-  <!--Original value: RTK Base base id error!-->
-  <string name="set_rtkbase_error_base_id">Błąd ID bazy RTK!</string>
-  <!--Original value: Settings Name-->
-  <string name="setting_name">Nazwa ustawień</string>
-  <!--Original value: Refresh-->
-  <string name="action_refresh">Odśwież</string>
-  <!--Original value: - select a configuration-->
-  <string name="string_select_configuration_small">- wybierz konfigurację</string>
-  <!--Original value: - - - select a configuration - - - -->
-  <string name="string_select_configuration">--- wybierz konfigurację --- </string>
-  <!--Original value: Bluetooth-->
-  <string name="bluetooth_radio">Bluetooth</string>
-  <!--Original value: WiFi Password-->
-  <string name="string_wifi_password">Hasło WiFi</string>
-  <!--Original value: RTK Base position error!-->
-  <string name="set_rtkbase_error_position">Błąd pozycji bazy RTK!</string>
 </resources>

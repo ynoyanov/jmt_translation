@@ -1,289 +1,272 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: The task moves existing points by given distance and angle.-->
-  <string name="description_move">Funkcja przesuwa istniejące punkty o zadaną odległość i kąt.</string>
-  <!--Original value: Name-->
-  <string name="string_name">Nazwa</string>
-  <!--Original value: Hinge-->
-  <string name="title_hinge">Załamanie</string>
-  <!--Original value: Inverse geodetic task computes the bearing (azimuth) and distance between two known points.-->
-  <string name="description_inverse">Zadanie odwrotne oblicza kierunek(azymut) i odległość między dwoma znanymi punktami.</string>
-  <!--Original value: Create-->
-  <string name="button_create">Utwórz</string>
-  <!--Original value: Create New Points-->
-  <string name="create_new_points">Utwórz nowe punkty</string>
-  <!--Original value: Right-->
-  <string name="text_right">Prawo</string>
-  <!--Original value: Basic functions as\nDirect, Inverse, Offset and Shifts\n-->
-  <string name="description_basic">Funkcje podstawowe, \njak Linia geodezyjna, Offset, Przesunięcie\n</string>
-  <!--Original value: The task divides line defined by two known points to given number of points.-->
-  <string name="description_divide_line">Funkcja pozwala wyznaczyć dowolną liczbę punktów na linii zdefiniowanej w oparciu o znane punkty P1-P2.</string>
-  <!--Original value: Recompute area by parallel moving edge-->
-  <string name="description_parallel">Przelicz przesuwając równolegle bok</string>
-  <!--Original value: Area-->
-  <string name="text_area">Powierzchnia</string>
-  <!--Original value: Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.-->
-  <string name="description_resection">Oblicza punkt P4 na podstawie odległości D1, D2, D3 od punktów P1, P2, P3.</string>
-  <!--Original value: Offsets-->
-  <string name="title_offsets">Offsety</string>
-  <!--Original value: Cut Area, m²-->
-  <string name="text_cut_area_m2">Obniżenie terenu, m²</string>
-  <!--Original value: Distance-Distance-->
-  <string name="title_intersection_d_d">Odległość-Odległość</string>
-  <!--Original value: Triangle-->
-  <string name="title_isolines">Trójkąt</string>
-  <!--Original value: Offset tasks by two points.\nOffset along line, to line and standard offset\n-->
-  <string name="description_offsets">Offsety(domiary) - Punkt na prostej, Domiar z linii\n</string>
-  <!--Original value: Radius (R)-->
-  <string name="text_r">Promień (R)</string>
-  <!--Original value: Tangent (T)-->
-  <string name="text_t">Styczna (T)</string>
-  <!--Original value: Bearing-->
-  <string name="text_bearing">Kierunek</string>
-  <!--Original value: Line Offsets-->
-  <string name="title_line_offsets">Offsety(Domiary)</string>
-  <!--Original value: Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.-->
-  <string name="description_stakeout_curve">Podział łuku - zadanie podobne do podziału linii. Funkcja pozwala podzielić łuk na równe segmenty, bazując na liczbie punktów.</string>
-  <!--Original value: Middle Ordinate (m)-->
-  <string name="text_m">Strzałka (m)</string>
-  <!--Original value: Cut Area, %-->
-  <string name="text_cut_area_percent">Obniżenie terenu, %</string>
-  <!--Original value: Arc Length (L)-->
-  <string name="text_l">Długość kątowa (L)</string>
-  <!--Original value: Chord ( c)-->
-  <string name="text_c">Cięciwa ( c)</string>
-  <!--Original value: Text-->
-  <string name="text_view2">Tekst</string>
-  <!--Original value: B, grid-->
-  <string name="text_b">Kierunek(B), siatka</string>
-  <!--Original value: Clear Previous Isolines-->
-  <string name="remove_previous_isolines">Wyczyść poprzednie warstwicowanie</string>
-  <!--Original value: External (e)-->
-  <string name="text_e">Zewnętrzna</string>
-  <!--Original value: D-->
-  <string name="text_d">D</string>
-  <!--Original value: Keep Area, %-->
-  <string name="text_keep_area_percent">Zachowaj powierzchnię, %</string>
-  <!--Original value: ΔH, abs-->
-  <string name="text_h">ΔH, abs</string>
-  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.-->
-  <string name="description_diagonals">Punkt na przecięciu. Punkt P5 obliczany jest na podstawie przecięcia linii tworzonych przez punkty o znanych współrzędnych, P1, P2, P3, P4.</string>
-  <!--Original value: Inverse-->
-  <string name="title_inverse">Linia geodezyjna - Zadanie odwrotne</string>
-  <!--Original value: 3-Points Arc-->
-  <string name="title_points3_arc">Łuk trzypunktowy</string>
-  <!--Original value: Image-->
-  <string name="image_view2">Obraz</string>
-  <!--Original value: Move Existing Points-->
-  <string name="move_existing_points">Przesuń istniejące punkty</string>
-  <!--Original value: Angle (A)-->
-  <string name="text_a">Kąt (A)</string>
-  <!--Original value: N: - - -\nE: - - -\nH: - - -\nName:-->
-  <string name="text_coordinate_result">N: ---\nE: ---\nH: ---\nNazwa:</string>
-  <!--Original value: Stakes-->
-  <string name="title_stakes">Wyznaczenia</string>
-  <!--Original value: Angle-->
-  <string name="text_angle">Kąt</string>
-  <!--Original value: 1st nodal point-->
-  <string name="text_first_nodal_point">1. punkt węzłowy</string>
-  <!--Original value: A-->
-  <string name="text_side_a">A</string>
-  <!--Original value: B-->
-  <string name="text_side_b">Kierunek(B)</string>
-  <!--Original value: C-->
-  <string name="text_side_c">C</string>
-  <!--Original value: East-->
-  <string name="string_east">Wschód</string>
-  <!--Original value: Along Line-->
-  <string name="title_along_line">Bieżąca</string>
-  <!--Original value: Keep Area, m²-->
-  <string name="text_keep_area_m2">Zachowaj powierzchnię, m²</string>
-  <!--Original value: Offset-->
-  <string name="title_offset">Offset</string>
-  <!--Original value: Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.-->
-  <string name="description_triangle">Funkcja pozwala obliczyć parametry trójkąta rozpiętego między trzema znanymi punktami, P1, P2 i P3.</string>
-  <!--Original value: Offset-->
-  <string name="text_offset">Offset</string>
-  <!--Original value: Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Two Line intersection, Diagonals and Resection tasks\n-->
-  <string name="description_intersections">Wcięcia. \nOdległość-Odległość, Kierunek-Kierunek, Kierunek-Odległość, Przecięcie i Wcięcie\n</string>
-  <!--Original value: The task computes position by two distance along line given by two points.-->
-  <string name="description_along_line">Funkcja pozwala na obliczenie współrzędnych punktu P3 na prostej, pomiędzy dwoma znanymi punktami, P1-P2.</string>
-  <!--Original value: Resection-->
-  <string name="title_resection">Wcięcie</string>
-  <!--Original value: Stakeout Curve-->
-  <string name="title_stakeout_curve">Wyznaczanie krzywej</string>
-  <!--Original value: Triangle-->
-  <string name="title_triangle">Trójkąt</string>
-  <!--Original value: Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n-->
-  <string name="description_stakes">Wyznaczenia - Podział linii, łóków i prostopadłych\n</string>
-  <!--Original value: Area/Perimeter-->
-  <string name="title_areas">Powierzchnia/Obwód</string>
-  <!--Original value: Shift-->
-  <string name="title_shift">Przesunięcie</string>
-  <!--Original value: Isoline Heights (space delimited)-->
-  <string name="text_isoline_heights">Wysokości Warstwic (rozdzielone spacją)</string>
-  <!--Original value: Average-->
-  <string name="title_average">Średnia</string>
-  <!--Original value: Track Incremenet-->
-  <string name="text_track_increment">Przesunięcie</string>
-  <!--Original value: Save Report to file-->
-  <string name="string_save_report_to_file">Zapisz Raport</string>
-  <!--Original value: Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.-->
-  <string name="description_intersection_d_d">Wcięcie liniowe - pozwala okreslić współrzędne punktu wcinanego P3, na podstawie dwóch odległości pomierzonych miedzy wyznaczanym punktem P3 a dwoma znanymi punktami P1 i P2.</string>
-  <!--Original value: Move-->
-  <string name="title_move">Przesuń</string>
-  <!--Original value: Two Line Intersection-->
-  <string name="title_intersection_lines">Przecięcie linii</string>
-  <!--Original value: Traverse-->
-  <string name="title_traverse">Bagnet</string>
-  <!--Original value: Diagonals-->
-  <string name="title_diagonals">Przecięcie</string>
-  <!--Original value: R1-->
-  <string name="text_r1">R1</string>
-  <!--Original value: N-->
-  <string name="string_number">N</string>
-  <!--Original value: R3-->
-  <string name="text_r3">R3</string>
-  <!--Original value: The task triangulates the selected points and and compute lines of equal heights with given values.-->
-  <string name="description_isolines">Funkcja wykonuje warstwicowanie metodą triangulacji na podstawie zadanych punktów.</string>
-  <!--Original value: R2-->
-  <string name="text_r2">R2</string>
-  <!--Original value: Distance-->
-  <string name="text_distance">Odległość</string>
-  <!--Original value: The task computes position by two offsets along and across line from a line given by two points.-->
-  <string name="description_offset">Funkcja pozwala na obliczenie współrzędnych punktu P3 na podstawie domiaru z lini tworzonej przez dwa znane punkty P1 i P2.</string>
-  <!--Original value: Number of points-->
-  <string name="text_num_points">Liczba punktów</string>
-  <!--Original value: The task computes area and perimeter of the area defined by selected points.-->
-  <string name="description_area_perimeter">Obliczenie powierzchni i obwodu na podstawie zdefiniowanych punktów załamań.</string>
-  <!--Original value: Area/Perimeter-->
-  <string name="title_area_perimeter">Powierzchnia/Obwód</string>
-  <!--Original value: Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points-->
-  <string name="description_direct">Obliczenie współrzędnych punktu na podstawie punktu odniesienia, kierunku(azytmut) i odległości</string>
-  <!--Original value: Recompute area by moving hinge-->
-  <string name="description_hinge">Przelicz przesuwając załamanie</string>
-  <!--Original value: The task computes volume of the convex hall defined by selected points.-->
-  <string name="description_volume">Faunkcja pozwala obliczyć objętość obrysu wypukłego, zdefiniowanego przez wybrane punkty.</string>
-  <!--Original value: N: - - -\nE: - - -\nH: - - -\n-->
-  <string name="text_coordinate">N: ---\nE: ---\nH: ---\n</string>
-  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.-->
-  <string name="description_intersection_lines">Znane 4 punkty - P1, P2, P3, P4. Punkt P5 na przecięciu linii P1-P2 i P3-P4.</string>
-  <!--Original value: Tasks for several points\n like Shift, Rotate, Average\n-->
-  <string name="description_transform">Zadania na punktach, takie jak Przesunięcie, Obrót, Uśrednienie\n</string>
-  <!--Original value: Parallel-->
-  <string name="title_parallel">Równoległa</string>
-  <!--Original value: P3\npoint3\n-->
-  <string name="text_p3">P3\npunkt3\n</string>
-  <!--Original value: P2\npoint2\n-->
-  <string name="text_p2">P2\npunkt2\n</string>
-  <!--Original value: P4\npoint4\n-->
-  <string name="text_p4">P4\npunkt4\n</string>
-  <!--Original value:  α-->
-  <string name="text_angle_a"> α</string>
-  <!--Original value: β-->
-  <string name="text_angle_b">β</string>
-  <!--Original value: γ-->
-  <string name="text_angle_c">γ</string>
-  <!--Original value: P1\npoint1\n-->
-  <string name="text_p1">P1\npunkt1\n</string>
-  <!--Original value: Intersections-->
-  <string name="title_intersections">Wcięcie</string>
-  <!--Original value: Reference Height-->
-  <string name="text_refheight">Wysokość referncyjna</string>
-  <!--Original value: The task shifts existing points by deltas north, east and up.-->
-  <string name="description_shift">Funkcja przesuwa istniejące punkty na osi X, Y i H o zadane wartości.</string>
-  <!--Original value: Result\nCoordinate\nDeltas-->
-  <string name="text_deltas">Wynik\nWspółrzędna\nDelty</string>
-  <!--Original value: Volume-->
-  <string name="title_volume">Objętość</string>
-  <!--Original value: 2nd nodal point-->
-  <string name="text_second_nodal_point">2. punkt węzłowy</string>
-  <!--Original value: Point Height Range-->
-  <string name="text_heights">Zasięg Wysokości Punktu</string>
-  <!--Original value: Perimeter-->
-  <string name="text_perimeter">Obwód</string>
-  <!--Original value: Report-->
-  <string name="button_report">Raport</string>
-  <!--Original value: Area/Perimiter/Volume computations, Area change tasks\n-->
-  <string name="description_areas">Obliczenia Powierzchni/Obwody/Objętości</string>
-  <!--Original value: Degree of Curvature, arc-->
-  <string name="text_d_arc">Kąt środkowy</string>
-  <!--Original value: Traverse geodetic task computes the geodetic position of a Point P3 by given two known points P1 and P2 and an angle(bearing) and distance.-->
-  <string name="description_traverse">Funkcja pozwala obliczyć współrzędne punktu P3  na podstawie dwóch znanych punktów, P1 i P2, kąta i odległości.</string>
-  <!--Original value: The task compute average coordinates of the selected points and store a point with the coordinates.-->
-  <string name="description_average">Funkcja dokonuje uśrednienia współrzędnych wybranych punktów i zapisuje nowy, uśredniony punkt.</string>
-  <!--Original value: Add New Isolines-->
-  <string name="add_new_isolines">Dodaj Nowe Warstwice</string>
-  <!--Original value: ΔN-->
-  <string name="text_dn">ΔN</string>
-  <!--Original value: North-->
-  <string name="string_north">Północ</string>
-  <!--Original value: ΔE-->
-  <string name="text_delta_e">ΔE</string>
-  <!--Original value: Select Points-->
-  <string name="text_points">Zaznacz punkty</string>
-  <!--Original value: ΔH-->
-  <string name="text_delta_h">ΔH</string>
-  <!--Original value: ΔH-->
-  <string name="text_dh">ΔH</string>
-  <!--Original value: Transform-->
-  <string name="title_transform">Transformuj</string>
-  <!--Original value: ΔE-->
-  <string name="text_de">ΔE</string>
-  <!--Original value: Rotate-->
-  <string name="title_rotate">Obróć</string>
-  <!--Original value: 3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)-->
-  <string name="description_points3_arc">Łuk trzypunktowy - funkcja pozwala na obliczenie następujących paramtrów łuku na podstawie trzech znanych punktów: Promień(R), Kąt(A), Długość łuku(L), Cięciwa(c), Styczna(T), Strzałka(m), Kąt łuku(D)</string>
-  <!--Original value: ΔN-->
-  <string name="text_delta_n">ΔN</string>
-  <!--Original value: Volume-->
-  <string name="text_volume">Objętość</string>
-  <!--Original value: Basic-->
-  <string name="title_basic">Podstawowe zadania geodezyjne</string>
-  <!--Original value: The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.-->
-  <string name="description_line_offsets">Funkcja ta pozwala podzielić linię tworzaną przez znane punkty P1-P2 na wybraną liczbę równych segmentów.
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:The task moves existing points by given distance and angle.    -->
+    <string name="description_move">Funkcja przesuwa istniejące punkty o zadaną odległość i kąt.</string>
+    <!-- Used in file list_selected_points_header.xml:36. Original value:Name    -->
+    <string name="string_name">Nazwa</string>
+    <!-- Used in file CoGoHomeActivity2.java:85. Original value:Hinge    -->
+    <string name="title_hinge">Załamanie</string>
+    <!-- Used in file CoGoHomeActivity2.java:63. Original value:Inverse geodetic task computes the bearing (azimuth) and distance between two known points.    -->
+    <string name="description_inverse">Zadanie odwrotne oblicza kierunek(azymut) i odległość między dwoma znanymi punktami.</string>
+    <!-- Used in file activity_cogo_along_line.xml:107. Original value:Create    -->
+    <string name="button_create">Utwórz</string>
+    <!-- Used in file activity_cogo_hinge.xml:123. Original value:Create New Points    -->
+    <string name="create_new_points">Utwórz nowe punkty</string>
+    <!-- Used in file activity_cogo_offset.xml:110. Original value:Right    -->
+    <string name="text_right">Prawo</string>
+    <!-- Used in file CoGoHomeActivity2.java:97. Original value:Basic functions as\nDirect, Inverse, Offset and Shifts\n    -->
+    <string name="description_basic">Funkcje podstawowe, \njak Linia geodezyjna, Offset, Przesunięcie\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:77. Original value:The task divides line defined by two known points to given number of points.    -->
+    <string name="description_divide_line">Funkcja pozwala wyznaczyć dowolną liczbę punktów na linii zdefiniowanej w oparciu o znane punkty P1-P2.</string>
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:Recompute area by parallel moving edge    -->
+    <string name="description_parallel">Przelicz przesuwając równolegle bok</string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:62. Original value:Area    -->
+    <string name="text_area">Powierzchnia</string>
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.    -->
+    <string name="description_resection">Oblicza punkt P4 na podstawie odległości D1, D2, D3 od punktów P1, P2, P3.</string>
+    <!-- Used in file CoGoHomeActivity2.java:98. Original value:Offsets    -->
+    <string name="title_offsets">Offsety</string>
+    <!-- Used in file CoGoBaseActivity.java:542. Original value:Cut Area, m&#178;    -->
+    <string name="text_cut_area_m2">Obniżenie terenu, m²</string>
+    <!-- Used in file CoGoHomeActivity2.java:71. Original value:Distance-Distance    -->
+    <string name="title_intersection_d_d">Odległość-Odległość</string>
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:Triangle    -->
+    <string name="title_isolines">Trójkąt</string>
+    <!-- Used in file CoGoHomeActivity2.java:98. Original value:Offset tasks by two points.\nOffset along line, to line and standard offset\n    -->
+    <string name="description_offsets">Offsety(domiary) - Punkt na prostej, Domiar z linii\n</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:102. Original value:Radius (R)    -->
+    <string name="text_r">Promień (R)</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:136. Original value:Tangent (T)    -->
+    <string name="text_t">Styczna (T)</string>
+    <!-- Used in file info_2point_list_items.xml:13. Original value:Bearing    -->
+    <string name="text_bearing">Kierunek</string>
+    <!-- Used in file CoGoHomeActivity2.java:78. Original value:Line Offsets    -->
+    <string name="title_line_offsets">Offsety(Domiary)</string>
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.    -->
+    <string name="description_stakeout_curve">Podział łuku - zadanie podobne do podziału linii. Funkcja pozwala podzielić łuk na równe segmenty, bazując na liczbie punktów.</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:170. Original value:Middle Ordinate (m)    -->
+    <string name="text_m">Strzałka (m)</string>
+    <!-- Used in file CoGoBaseActivity.java:544. Original value:Cut Area, &#37;    -->
+    <string name="text_cut_area_percent">Obniżenie terenu, %</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:119. Original value:Arc Length (L)    -->
+    <string name="text_l">Długość kątowa (L)</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:153. Original value:Chord ( c)    -->
+    <string name="text_c">Cięciwa ( c)</string>
+    <!-- Used in file cogo_grid_item.xml:29. Original value:Text    -->
+    <string name="text_view2">Tekst</string>
+    <!-- Used in file activity_cogo_inverse.xml:69. Original value:B, grid    -->
+    <string name="text_b">Kierunek(B), siatka</string>
+    <!-- Used in file activity_cogo_isolines.xml:89. Original value:Clear Previous Isolines    -->
+    <string name="remove_previous_isolines">Wyczyść poprzednie warstwicowanie</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:187. Original value:External (e)    -->
+    <string name="text_e">Zewnętrzna</string>
+    <!-- Used in file activity_cogo_along_line.xml:69. Original value:D    -->
+    <string name="text_d">D</string>
+    <!-- Used in file CoGoBaseActivity.java:540. Original value:Keep Area, &#37;    -->
+    <string name="text_keep_area_percent">Zachowaj powierzchnię, %</string>
+    <!-- Used in file activity_cogo_offset.xml:120. Original value:&#x394;H, abs    -->
+    <string name="text_h">ΔH, abs</string>
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.    -->
+    <string name="description_diagonals">Punkt na przecięciu. Punkt P5 obliczany jest na podstawie przecięcia linii tworzonych przez punkty o znanych współrzędnych, P1, P2, P3, P4.</string>
+    <!-- Used in file CoGoHomeActivity2.java:63. Original value:Inverse    -->
+    <string name="title_inverse">Linia geodezyjna - Zadanie odwrotne</string>
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:3-Points Arc    -->
+    <string name="title_points3_arc">Łuk trzypunktowy</string>
+    <!-- Used in file cogo_grid_item.xml:14. Original value:Image    -->
+    <string name="image_view2">Obraz</string>
+    <!-- Used in file activity_cogo_hinge.xml:118. Original value:Move Existing Points    -->
+    <string name="move_existing_points">Przesuń istniejące punkty</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:85. Original value:Angle (A)    -->
+    <string name="text_a">Kąt (A)</string>
+    <!-- Used in file activity_cogo_along_line.xml:97. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nName:    -->
+    <string name="text_coordinate_result">N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\nNazwa:</string>
+    <!-- Used in file CoGoHomeActivity2.java:100. Original value:Stakes    -->
+    <string name="title_stakes">Wyznaczenia</string>
+    <!-- Used in file activity_cogo_stakeout_curve.xml:89. Original value:Angle    -->
+    <string name="text_angle">Kąt</string>
+    <!-- Used in file activity_cogo_hinge.xml:45. Original value:1st nodal point    -->
+    <string name="text_first_nodal_point">1. punkt węzłowy</string>
+    <!-- Used in file activity_cogo_triangle.xml:86. Original value:A    -->
+    <string name="text_side_a">A</string>
+    <!-- Used in file activity_cogo_triangle.xml:103. Original value:B    -->
+    <string name="text_side_b">Kierunek(B)</string>
+    <!-- Used in file activity_cogo_triangle.xml:120. Original value:C    -->
+    <string name="text_side_c">C</string>
+    <!-- Used in file list_selected_points_header.xml:54. Original value:East    -->
+    <string name="string_east">Wschód</string>
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:Along Line    -->
+    <string name="title_along_line">Bieżąca</string>
+    <!-- Used in file activity_cogo_hinge.xml:100. Original value:Keep Area, m&#178;    -->
+    <string name="text_keep_area_m2">Zachowaj powierzchnię, m²</string>
+    <!-- Used in file CoGoHomeActivity2.java:67. Original value:Offset    -->
+    <string name="title_offset">Offset</string>
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.    -->
+    <string name="description_triangle">Funkcja pozwala obliczyć parametry trójkąta rozpiętego między trzema znanymi punktami, P1, P2 i P3.</string>
+    <!-- Used in file activity_cogo_offset.xml:88. Original value:Offset    -->
+    <string name="text_offset">Offset</string>
+    <!-- Used in file CoGoHomeActivity2.java:99. Original value:Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Two Line intersection, Diagonals and Resection tasks\n    -->
+    <string name="description_intersections">Wcięcia. \nOdległość-Odległość, Kierunek-Kierunek, Kierunek-Odległość, Przecięcie i Wcięcie\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:68. Original value:The task computes position by two distance along line given by two points.    -->
+    <string name="description_along_line">Funkcja pozwala na obliczenie współrzędnych punktu P3 na prostej, pomiędzy dwoma znanymi punktami, P1-P2.</string>
+    <!-- Used in file CoGoHomeActivity2.java:74. Original value:Resection    -->
+    <string name="title_resection">Wcięcie</string>
+    <!-- Used in file CoGoHomeActivity2.java:79. Original value:Stakeout Curve    -->
+    <string name="title_stakeout_curve">Wyznaczanie krzywej</string>
+    <!-- Used in file CoGoHomeActivity2.java:87. Original value:Triangle    -->
+    <string name="title_triangle">Trójkąt</string>
+    <!-- Used in file CoGoHomeActivity2.java:100. Original value:Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n    -->
+    <string name="description_stakes">Wyznaczenia - Podział linii, łóków i prostopadłych\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:101. Original value:Area/Perimeter    -->
+    <string name="title_areas">Powierzchnia/Obwód</string>
+    <!-- Used in file CoGoHomeActivity2.java:90. Original value:Shift    -->
+    <string name="title_shift">Przesunięcie</string>
+    <!-- Used in file activity_cogo_isolines.xml:67. Original value:Isoline Heights (space delimited)    -->
+    <string name="text_isoline_heights">Wysokości Warstwic (rozdzielone spacją)</string>
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:Average    -->
+    <string name="title_average">Średnia</string>
+    <!-- Used in file activity_cogo_line_offset.xml:107. Original value:Track Incremenet    -->
+    <string name="text_track_increment">Przesunięcie</string>
+    <!-- Used in file activity_cogo_result.xml:19. Original value:Save Report to file    -->
+    <string name="string_save_report_to_file">Zapisz Raport</string>
+    <!-- Used in file CoGoHomeActivity2.java:71. Original value:Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.    -->
+    <string name="description_intersection_d_d">Wcięcie liniowe - pozwala okreslić współrzędne punktu wcinanego P3, na podstawie dwóch odległości pomierzonych miedzy wyznaczanym punktem P3 a dwoma znanymi punktami P1 i P2.</string>
+    <!-- Used in file CoGoHomeActivity2.java:91. Original value:Move    -->
+    <string name="title_move">Przesuń</string>
+    <!-- Used in file CoGoHomeActivity2.java:72. Original value:Two Line Intersection    -->
+    <string name="title_intersection_lines">Przecięcie linii</string>
+    <!-- Used in file CoGoHomeActivity2.java:64. Original value:Traverse    -->
+    <string name="title_traverse">Bagnet</string>
+    <!-- Used in file CoGoHomeActivity2.java:73. Original value:Diagonals    -->
+    <string name="title_diagonals">Przecięcie</string>
+    <!-- Used in file activity_cogo_resection.xml:123. Original value:R1    -->
+    <string name="text_r1">R1</string>
+    <!-- Used in file list_selected_points_header.xml:27. Original value:N    -->
+    <string name="string_number">N</string>
+    <!-- Used in file activity_cogo_resection.xml:191. Original value:R3    -->
+    <string name="text_r3">R3</string>
+    <!-- Used in file CoGoHomeActivity2.java:94. Original value:The task triangulates the selected points and and compute lines of equal heights with given values.    -->
+    <string name="description_isolines">Funkcja wykonuje warstwicowanie metodą triangulacji na podstawie zadanych punktów.</string>
+    <!-- Used in file activity_cogo_resection.xml:157. Original value:R2    -->
+    <string name="text_r2">R2</string>
+    <!-- Used in file info_2point_list_items.xml:21. Original value:Distance    -->
+    <string name="text_distance">Odległość</string>
+    <!-- Used in file CoGoHomeActivity2.java:67. Original value:The task computes position by two offsets along and across line from a line given by two points.    -->
+    <string name="description_offset">Funkcja pozwala na obliczenie współrzędnych punktu P3 na podstawie domiaru z lini tworzonej przez dwa znane punkty P1 i P2.</string>
+    <!-- Used in file activity_cogo_stakeout_curve.xml:71. Original value:Number of points    -->
+    <string name="text_num_points">Liczba punktów</string>
+    <!-- Used in file CoGoHomeActivity2.java:83. Original value:The task computes area and perimeter of the area defined by selected points.    -->
+    <string name="description_area_perimeter">Obliczenie powierzchni i obwodu na podstawie zdefiniowanych punktów załamań.</string>
+    <!-- Used in file CoGoHomeActivity2.java:83. Original value:Area/Perimeter    -->
+    <string name="title_area_perimeter">Powierzchnia/Obwód</string>
+    <!-- Used in file CoGoHomeActivity2.java:62. Original value:Compute position of a point by given the known position of a beginning point and the bearing (azimuth) and distance between the two points    -->
+    <string name="description_direct">Obliczenie współrzędnych punktu na podstawie punktu odniesienia, kierunku(azytmut) i odległości</string>
+    <!-- Used in file CoGoHomeActivity2.java:85. Original value:Recompute area by moving hinge    -->
+    <string name="description_hinge">Przelicz przesuwając załamanie</string>
+    <!-- Used in file CoGoHomeActivity2.java:84. Original value:The task computes volume of the convex hall defined by selected points.    -->
+    <string name="description_volume">Faunkcja pozwala obliczyć objętość obrysu wypukłego, zdefiniowanego przez wybrane punkty.</string>
+    <!-- Used in file activity_cogo_along_line.xml:53. Original value:N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n    -->
+    <string name="text_coordinate">N: &#x002d;&#x002d;&#x002d;\nE: &#x002d;&#x002d;&#x002d;\nH: &#x002d;&#x002d;&#x002d;\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:72. Original value:Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.    -->
+    <string name="description_intersection_lines">Znane 4 punkty - P1, P2, P3, P4. Punkt P5 na przecięciu linii P1-P2 i P3-P4.</string>
+    <!-- Used in file CoGoHomeActivity2.java:102. Original value:Tasks for several points\n like Shift, Rotate, Average\n    -->
+    <string name="description_transform">Zadania na punktach, takie jak Przesunięcie, Obrót, Uśrednienie\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:86. Original value:Parallel    -->
+    <string name="title_parallel">Równoległa</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:63. Original value:P3\npoint3\n    -->
+    <string name="text_p3">P3\npunkt3\n</string>
+    <!-- Used in file activity_cogo_along_line.xml:42. Original value:P2\npoint2\n    -->
+    <string name="text_p2">P2\npunkt2\n</string>
+    <!-- Used in file activity_cogo_intersection_lines.xml:85. Original value:P4\npoint4\n    -->
+    <string name="text_p4">P4\npunkt4\n</string>
+    <!-- Used in file activity_cogo_triangle.xml:138. Original value: &#945;    -->
+    <string name="text_angle_a"> α</string>
+    <!-- Used in file activity_cogo_triangle.xml:155. Original value:&#946;    -->
+    <string name="text_angle_b">β</string>
+    <!-- Used in file activity_cogo_triangle.xml:172. Original value:&#947;    -->
+    <string name="text_angle_c">γ</string>
+    <!-- Used in file activity_cogo_along_line.xml:21. Original value:P1\npoint1\n    -->
+    <string name="text_p1">P1\npunkt1\n</string>
+    <!-- Used in file CoGoHomeActivity2.java:99. Original value:Intersections    -->
+    <string name="title_intersections">Wcięcie</string>
+    <!-- Used in file activity_cogo_volume.xml:45. Original value:Reference Height    -->
+    <string name="text_refheight">Wysokość referncyjna</string>
+    <!-- Used in file CoGoHomeActivity2.java:90. Original value:The task shifts existing points by deltas north, east and up.    -->
+    <string name="description_shift">Funkcja przesuwa istniejące punkty na osi X, Y i H o zadane wartości.</string>
+    <!-- Used in file activity_cogo_average.xml:56. Original value:Result\nCoordinate\nDeltas    -->
+    <string name="text_deltas">Wynik\nWspółrzędna\nDelty</string>
+    <!-- Used in file CoGoHomeActivity2.java:84. Original value:Volume    -->
+    <string name="title_volume">Objętość</string>
+    <!-- Used in file activity_cogo_hinge.xml:62. Original value:2nd nodal point    -->
+    <string name="text_second_nodal_point">2. punkt węzłowy</string>
+    <!-- Used in file activity_cogo_isolines.xml:57. Original value:Point Height Range    -->
+    <string name="text_heights">Zasięg Wysokości Punktu</string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:45. Original value:Perimeter    -->
+    <string name="text_perimeter">Obwód</string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:102. Original value:Report    -->
+    <string name="button_report">Raport</string>
+    <!-- Used in file CoGoHomeActivity2.java:101. Original value:Area/Perimiter/Volume computations, Area change tasks\n    -->
+    <string name="description_areas">Obliczenia Powierzchni/Obwody/Objętości</string>
+    <!-- Used in file activity_cogo_points3_arc.xml:204. Original value:Degree of Curvature, arc    -->
+    <string name="text_d_arc">Kąt środkowy</string>
+    <!-- Used in file CoGoHomeActivity2.java:64. Original value:Traverse geodetic task computes the geodetic position of a Point P3 by given two known points P1 and P2 and an angle(bearing) and distance.    -->
+    <string name="description_traverse">Funkcja pozwala obliczyć współrzędne punktu P3  na podstawie dwóch znanych punktów, P1 i P2, kąta i odległości.</string>
+    <!-- Used in file CoGoHomeActivity2.java:93. Original value:The task compute average coordinates of the selected points and store a point with the coordinates.    -->
+    <string name="description_average">Funkcja dokonuje uśrednienia współrzędnych wybranych punktów i zapisuje nowy, uśredniony punkt.</string>
+    <!-- Used in file activity_cogo_isolines.xml:94. Original value:Add New Isolines    -->
+    <string name="add_new_isolines">Dodaj Nowe Warstwice</string>
+    <!-- Used in file activity_cogo_shift.xml:46. Original value:&#x394;N    -->
+    <string name="text_dn">ΔN</string>
+    <!-- Used in file list_selected_points_header.xml:45. Original value:North    -->
+    <string name="string_north">Północ</string>
+    <!-- Used in file info_2point_list_header.xml:37. Original value:&#x394;E    -->
+    <string name="text_delta_e">ΔE</string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:23. Original value:Select Points    -->
+    <string name="text_points">Zaznacz punkty</string>
+    <!-- Used in file info_2point_list_header.xml:45. Original value:&#x394;H    -->
+    <string name="text_delta_h">ΔH</string>
+    <!-- Used in file activity_cogo_shift.xml:80. Original value:&#x394;H    -->
+    <string name="text_dh">ΔH</string>
+    <!-- Used in file CoGoHomeActivity2.java:102. Original value:Transform    -->
+    <string name="title_transform">Transformuj</string>
+    <!-- Used in file activity_cogo_shift.xml:63. Original value:&#x394;E    -->
+    <string name="text_de">ΔE</string>
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:Rotate    -->
+    <string name="title_rotate">Obróć</string>
+    <!-- Used in file CoGoHomeActivity2.java:80. Original value:3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)    -->
+    <string name="description_points3_arc">Łuk trzypunktowy - funkcja pozwala na obliczenie następujących paramtrów łuku na podstawie trzech znanych punktów: Promień(R), Kąt(A), Długość łuku(L), Cięciwa(c), Styczna(T), Strzałka(m), Kąt łuku(D)</string>
+    <!-- Used in file info_2point_list_header.xml:29. Original value:&#x394;N    -->
+    <string name="text_delta_n">ΔN</string>
+    <!-- Used in file activity_cogo_volume.xml:63. Original value:Volume    -->
+    <string name="text_volume">Objętość</string>
+    <!-- Used in file CoGoHomeActivity2.java:97. Original value:Basic    -->
+    <string name="title_basic">Podstawowe zadania geodezyjne</string>
+    <!-- Used in file CoGoHomeActivity2.java:78. Original value:The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.    -->
+    <string name="description_line_offsets">Funkcja ta pozwala podzielić linię tworzaną przez znane punkty P1-P2 na wybraną liczbę równych segmentów.
 Dodatkowo, możliwe jest także wyznaczenie dowolnej liczby linii równoległych przez podanie przesunięcia.</string>
-  <!--Original value: Degree of Curvature, chord-->
-  <string name="text_d_chord">Cięciwa</string>
-  <!--Original value: Store-->
-  <string name="action_store">Zapisz</string>
-  <!--Original value: Radius-->
-  <string name="text_radius">Promień</string>
-  <!--Original value: D3-->
-  <string name="text_d3">D3</string>
-  <!--Original value: D2-->
-  <string name="text_d2">D2</string>
-  <!--Original value: - - - -->
-  <string name="text_point_coords">--- </string>
-  <!--Original value: Divide Line-->
-  <string name="title_divide_line">Podział linii</string>
-  <!--Original value: The task moves existing points by given angle related to given point.-->
-  <string name="description_rotate">Faunkcja przesuwa istniejące punkty o zadany kąt w odniesieniu do znanego punktu PB.</string>
-  <!--Original value: Direct-->
-  <string name="title_direct">Linia geodezyjna - Zadanie wprost</string>
-  <!--Original value: Height-->
-  <string name="string_height">Wysokość</string>
-  <!--Original value: Number of Tracks-->
-  <string name="text_num_tracks">Liczba równoległych</string>
-  <!--Original value: Left-->
-  <string name="text_left">Lewo</string>
+    <!-- Used in file CoGoPoints3ArcActivity.java:251. Original value:Degree of Curvature, chord    -->
+    <string name="text_d_chord">Cięciwa</string>
+    <!-- Used in file cogo_result.xml:7. Original value:Store    -->
+    <string name="action_store">Zapisz</string>
+    <!-- Used in file activity_cogo_stakeout_curve.xml:107. Original value:Radius    -->
+    <string name="text_radius">Promień</string>
+    <!-- Used in file activity_cogo_resection.xml:174. Original value:D3    -->
+    <string name="text_d3">D3</string>
+    <!-- Used in file activity_cogo_resection.xml:140. Original value:D2    -->
+    <string name="text_d2">D2</string>
+    <!-- Used in file activity_cogo_area_perimeter.xml:34. Original value:&#x002d;&#x002d;&#x002d;     -->
+    <string name="text_point_coords">&#x002d;&#x002d;&#x002d; </string>
+    <!-- Used in file CoGoHomeActivity2.java:77. Original value:Divide Line    -->
+    <string name="title_divide_line">Podział linii</string>
+    <!-- Used in file CoGoHomeActivity2.java:92. Original value:The task moves existing points by given angle related to given point.    -->
+    <string name="description_rotate">Faunkcja przesuwa istniejące punkty o zadany kąt w odniesieniu do znanego punktu PB.</string>
+    <!-- Used in file CoGoHomeActivity2.java:62. Original value:Direct    -->
+    <string name="title_direct">Linia geodezyjna - Zadanie wprost</string>
+    <!-- Used in file list_selected_points_header.xml:63. Original value:Height    -->
+    <string name="string_height">Wysokość</string>
+    <!-- Used in file activity_cogo_line_offset.xml:89. Original value:Number of Tracks    -->
+    <string name="text_num_tracks">Liczba równoległych</string>
+    <!-- Used in file activity_cogo_offset.xml:105. Original value:Left    -->
+    <string name="text_left">Lewo</string>
+
 </resources>
