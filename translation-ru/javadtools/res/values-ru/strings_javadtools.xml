@@ -1,283 +1,308 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file AndroidManifest.xml:1179. Original value:CS Favorites    -->
-    <string name="title_activity_cses">Выбранные СК</string>
-    <!-- Used in file AndroidManifest.xml:693. Original value:Survey Style    -->
-    <string name="title_activity_survey_style">Стиль съемки</string>
-    <!-- Used in file AndroidManifest.xml:1582. Original value:Select Data Type    -->
-    <string name="title_select_type">Выберите тип данных</string>
-    <!-- Used in file AndroidManifest.xml:1552. Original value:Connect J-Tip    -->
-    <string name="title_activity_find_smarttip">Подключить J-Tip</string>
-    <!-- Used in file AndroidManifest.xml:1820. Original value:Direct    -->
-    <string name="title_activity_cogo_direct">Прямая</string>
-    <!-- Used in file AndroidManifest.xml:2137. Original value:Connection    -->
-    <string name="title_activity_connection">Подключение</string>
-    <!-- Used in file AndroidManifest.xml:145. Original value:Splash    -->
-    <string name="title_activity_splash">Javad Mobile Tools</string>
-    <!-- Used in file AndroidManifest.xml:2088. Original value:OneDrive    -->
-    <string name="title_one_drive">OneDrive</string>
-    <!-- Used in file AndroidManifest.xml:1284. Original value:Point    -->
-    <string name="title_activity_point">Точка</string>
-    <!-- Used in file AndroidManifest.xml:1341. Original value:Survey Points    -->
-    <string name="title_activity_survey_points">Снятые точки</string>
-    <!-- Used in file AndroidManifest.xml:1673. Original value:JMobile    -->
-    <string name="string_intro">JMobile</string>
-    <!-- Used in file AndroidManifest.xml:1769. Original value:Map    -->
-    <string name="title_activity_map">Карта</string>
-    <!-- Used in file AndroidManifest.xml:1051. Original value:Process Result    -->
-    <string name="title_activity_opus_result_process">Результаты обработки</string>
-    <!-- Used in file AndroidManifest.xml:783. Original value:Setup LAN    -->
-    <string name="title_activity_configure_lan">Настройки сети</string>
-    <!-- Used in file AndroidManifest.xml:822. Original value:Last Names    -->
-    <string name="title_activity_last_point_names">Последние имена</string>
-    <!-- Used in file AndroidManifest.xml:595. Original value:Stakeout    -->
-    <string name="title_activity_stakeout_cutfill">Вынос</string>
-    <!-- Used in file AndroidManifest.xml:347. Original value:Survey    -->
-    <string name="title_activity_start_survey">Съемка</string>
-    <!-- Used in file AndroidManifest.xml:838. Original value:Descriptions    -->
-    <string name="title_activity_descriptions">Описания</string>
-    <!-- Used in file AndroidManifest.xml:1367. Original value:RTK Bases    -->
-    <string name="title_activity_rtkbases">Базы RTK</string>
-    <!-- Used in file AndroidManifest.xml:1638. Original value:Update Firmware    -->
-    <string name="title_activity_update_firmware">Обновить firmware</string>
-    <!-- Used in file AndroidManifest.xml:356. Original value:Surveying    -->
-    <string name="title_activity_surveying">Съемка</string>
-    <!-- Used in file AndroidManifest.xml:1314. Original value:Details    -->
-    <string name="title_activity_details">Детали</string>
-    <!-- Used in file AndroidManifest.xml:197. Original value:Settings    -->
-    <string name="title_settings">Настройки</string>
-    <!-- Used in file AndroidManifest.xml:1387. Original value:RTK Base Antenna    -->
-    <string name="title_activity_antena">Антенна RTK базы</string>
-    <!-- Used in file AndroidManifest.xml:310. Original value:To TotalStation    -->
-    <string name="title_activity_to_ts">В Тахеометр</string>
-    <!-- Used in file AndroidManifest.xml:897. Original value:Tilt settings    -->
-    <string name="title_compasslevels_settings">Настройки комп.наклона</string>
-    <!-- Used in file AndroidManifest.xml:1354. Original value:Design Points    -->
-    <string name="title_activity_design_points">Выносные точки</string>
-    <!-- Used in file AndroidManifest.xml:734. Original value:Configure Ntrip    -->
-    <string name="title_activity_configure_ntrip">Настроить Ntrip</string>
-    <!-- Used in file AndroidManifest.xml:1649. Original value:Actions    -->
-    <string name="title_activity_resets">Действия</string>
-    <!-- Used in file AndroidManifest.xml:290. Original value:Teigha    -->
-    <string name="app_name_teigha">Teigha(C)</string>
-    <!-- Used in file AndroidManifest.xml:1026. Original value:File List    -->
-    <string name="title_activity_file_list">Список файлов</string>
-    <!-- Used in file AndroidManifest.xml:1573. Original value:Select File    -->
-    <string name="title_select_file">Выбор файла</string>
-    <!-- Used in file AndroidManifest.xml:933. Original value:Spoofing    -->
-    <string name="title_activity_spoofing">Подмена сигнала</string>
-    <!-- Used in file AndroidManifest.xml:2118. Original value:Select Item    -->
-    <string name="title_select_white_box">Выбор элементов</string>
-    <!-- Used in file AndroidManifest.xml:1083. Original value:Process HybridRTK    -->
-    <string name="title_activity_dpos_process_hybrid_rtk">Обработать HybridRTK</string>
-    <!-- Used in file AndroidManifest.xml:1043. Original value:OPUS Process    -->
-    <string name="title_activity_opus_process">Обработать OPUS</string>
-    <!-- Used in file AndroidManifest.xml:1701. Original value:RTK Base    -->
-    <string name="string_rtk_base_wizard">RTK База</string>
-    <!-- Used in file AndroidManifest.xml:2045. Original value:Achieve Folder    -->
-    <string name="title_activity_archive_job_folder">Архивация проектов</string>
-    <!-- Used in file AndroidManifest.xml:943. Original value:Corrections    -->
-    <string name="title_activity_corrections">Поправки</string>
-    <!-- Used in file AndroidManifest.xml:1092. Original value:VB-RTK    -->
-    <string name="title_activity_vbrtk">VB-RTK</string>
-    <!-- Used in file AndroidManifest.xml:915. Original value:Satellites    -->
-    <string name="title_activity_satellite">Спутники</string>
-    <!-- Used in file AndroidManifest.xml:1515. Original value:Bluetooth Search    -->
-    <string name="title_find_ts">Поиск Bluetooth</string>
-    <!-- Used in file AndroidManifest.xml:1035. Original value:JPS2Rinex    -->
-    <string name="jps2rin_activity">JPS2Rinex</string>
-    <!-- Used in file AndroidManifest.xml:1132. Original value:Receive    -->
-    <string name="title_activity_receive">Получить проект с устройства</string>
-    <!-- Used in file AndroidManifest.xml:1220. Original value:Current Catalog    -->
-    <string name="title_activity_catalog_info">Текущий каталог</string>
-    <!-- Used in file AndroidManifest.xml:1590. Original value:Select Job    -->
-    <string name="title_select_job">Выберите проект</string>
-    <!-- Used in file AndroidManifest.xml:532. Original value:Options    -->
-    <string name="string_options">Опции</string>
-    <!-- Used in file AndroidManifest.xml:988. Original value:Pair HPT Modem    -->
-    <string name="title_activity_pair_modem">Сопрячь HPT Модем</string>
-    <!-- Used in file AndroidManifest.xml:1996. Original value:Inverse    -->
-    <string name="title_activity_cogo_inverse">Обратная</string>
-    <!-- Used in file AndroidManifest.xml:961. Original value:Receiver Files    -->
-    <string name="title_activity_file_manager">Файлы Прием-ка</string>
-    <!-- Used in file AndroidManifest.xml:481. Original value:RTK Rover    -->
-    <string name="title_activity_rtk">RTK Ровер</string>
-    <!-- Used in file AndroidManifest.xml:1779. Original value:Map Provider    -->
-    <string name="title_activity_provider">Выбор карт.подложки</string>
-    <!-- Used in file AndroidManifest.xml:1618. Original value:Threads    -->
-    <string name="title_threads">Потоки</string>
-    <!-- Used in file AndroidManifest.xml:759. Original value:Configure RCV    -->
-    <string name="title_activity_configure_rcv">Настроить RCV</string>
-    <!-- Used in file AndroidManifest.xml:1459. Original value:Import    -->
-    <string name="title_activity_import">Импорт</string>
-    <!-- Used in file AndroidManifest.xml:1101. Original value:Attach Device    -->
-    <string name="title_activity_attach_device">Подключить приемник</string>
-    <!-- Used in file AndroidManifest.xml:881. Original value:Verify    -->
-    <string name="title_verify_settings">Режим Проверки (verify)</string>
-    <!-- Used in file AndroidManifest.xml:539. Original value:Settings    -->
-    <string name="string_settings">Настройки</string>
-    <!-- Used in file AndroidManifest.xml:1629. Original value:Update OAF    -->
-    <string name="title_activity_update_oaf">Обновить OAF</string>
-    <!-- Used in file AndroidManifest.xml:568. Original value:Settings    -->
-    <string name="title_activity_stakeout_settings">Настройки</string>
-    <!-- Used in file AndroidManifest.xml:791. Original value:Generic Radio    -->
-    <string name="title_activity_configure_generic_radio">Нестандартный модем</string>
-    <!-- Used in file AndroidManifest.xml:521. Original value:J-CORS    -->
-    <string name="title_activity_jcors">J-CORS</string>
-    <!-- Used in file AndroidManifest.xml:996. Original value:Load Firmware    -->
-    <string name="title_load_firmware_modem">Загрузка встроенного ПО</string>
-    <!-- Used in file AndroidManifest.xml:1230. Original value:Catalog Point    -->
-    <string name="title_activity_catalog_point">Точки каталога</string>
-    <!-- Used in file AndroidManifest.xml:1542. Original value:RangeFinder    -->
-    <string name="title_activity_rangefinder">Лаз.рулетка</string>
-    <!-- Used in file AndroidManifest.xml:889. Original value:Height Filter    -->
-    <string name="title_height_filter_settings">Фильтр высоты</string>
-    <!-- Used in file AndroidManifest.xml:336. Original value:About    -->
-    <string name="title_activity_about">О программе</string>
-    <!-- Used in file AndroidManifest.xml:1377. Original value:RTK Base    -->
-    <string name="title_activity_rtkbase">RTK База</string>
-    <!-- Used in file AndroidManifest.xml:1123. Original value:Jobs    -->
-    <string name="title_activity_jobs">Проекты</string>
-    <!-- Used in file AndroidManifest.xml:2009. Original value:Devices    -->
-    <string name="title_activity_jcommunity_devices">Устройства</string>
-    <!-- Used in file AndroidManifest.xml:435. Original value:Record Audio    -->
-    <string name="title_activity_audio_recording">Запись звука</string>
-    <!-- Used in file AndroidManifest.xml:1067. Original value:DPOS Process    -->
-    <string name="title_activity_dpos_process">Обработка DPOS</string>
-    <!-- Used in file AndroidManifest.xml:577. Original value:Line Target    -->
-    <string name="title_activity_stakeout_line_target">Вынос линии</string>
-    <!-- Used in file AndroidManifest.xml:226. Original value:Configurations    -->
-    <string name="title_activity_connection_configurations_title">Конфигурация</string>
-    <!-- Used in file AndroidManifest.xml:427. Original value:Surveying    -->
-    <string name="title_activity_surveying_sng">Съемка</string>
-    <!-- Used in file AndroidManifest.xml:977. Original value:Terminal    -->
-    <string name="title_activity_terminal">Терминал</string>
-    <!-- Used in file AndroidManifest.xml:2017. Original value:Settings    -->
-    <string name="title_activity_jcommunity_settings">J-Сообщество</string>
-    <!-- Used in file AndroidManifest.xml:391. Original value:Surveying    -->
-    <string name="title_activity_surveying_rtk">Съемка</string>
-    <!-- Used in file AndroidManifest.xml:677. Original value:Survey Settings    -->
-    <string name="title_activity_survey_settings">Настройки съемки</string>
-    <!-- Used in file AndroidManifest.xml:2030. Original value:Select date    -->
-    <string name="title_activity_calendar">Выбор даты</string>
-    <!-- Used in file AndroidManifest.xml:1811. Original value:Result    -->
-    <string name="title_activity_cogo_result">Результаты</string>
-    <!-- Used in file AndroidManifest.xml:1200. Original value:Catalogs    -->
-    <string name="title_activity_catalog">Каталоги</string>
-    <!-- Used in file AndroidManifest.xml:2128. Original value:J-Mate    -->
-    <string name="title_activity_jmate_main">J-Mate</string>
-    <!-- Used in file AndroidManifest.xml:1110. Original value:DPOS Base    -->
-    <string name="title_activity_dpos_base">База DPOS</string>
-    <!-- Used in file AndroidManifest.xml:235. Original value:Rename    -->
-    <string name="title_activity_connection_configuration_rename">Переименовать</string>
-    <!-- Used in file AndroidManifest.xml:905. Original value:File Logging    -->
-    <string name="title_activity_file_logging">Запись файлов</string>
-    <!-- Used in file AndroidManifest.xml:923. Original value:Satellites    -->
-    <string name="title_activity_satellite_types">Спутники</string>
-    <!-- Used in file AndroidManifest.xml:1500. Original value:TS Points    -->
-    <string name="title_activity_ts_points">Тах.точки</string>
-    <!-- Used in file AndroidManifest.xml:188. Original value:Start with    -->
-    <string name="title_startup_ui">Начинать с</string>
-    <!-- Used in file AndroidManifest.xml:2146. Original value:Survey    -->
-    <string name="title_activity_survey">Съемка</string>
-    <!-- Used in file AndroidManifest.xml:1506. Original value:TS Exchange    -->
-    <string name="title_activity_ts_exchange">Обмен с Тах.</string>
-    <!-- Used in file AndroidManifest.xml:1562. Original value:J-Tip    -->
-    <string name="title_activity_smarttip">J-Tip</string>
-    <!-- Used in file AndroidManifest.xml:1189. Original value:Identical Points    -->
-    <string name="title_activity_localization_ip">Локализация</string>
-    <!-- Used in file AndroidManifest.xml:504. Original value:Download Block Size    -->
-    <string name="title_activity_block_size">Размер блока загрузки</string>
-    <!-- Used in file AndroidManifest.xml:952. Original value:Power    -->
-    <string name="title_activity_power">Питание</string>
-    <!-- Used in file AndroidManifest.xml:701. Original value:Confirm    -->
-    <string name="title_activity_confirm_survey_point">Подтверждение</string>
-    <!-- Used in file AndroidManifest.xml:1005. Original value:Find Repeater    -->
-    <string name="title_activity_find_repeater">Найти повторитель</string>
-    <!-- Used in file AndroidManifest.xml:1720. Original value:CS Info    -->
-    <string name="string_cs_info">Инф.о СК</string>
-    <!-- Used in file AndroidManifest.xml:207. Original value:Radio    -->
-    <string name="title_activity_radio_home">Модем</string>
-    <!-- Used in file AndroidManifest.xml:1803. Original value:CoGo    -->
-    <string name="title_activity_cogo_home">КоГо</string>
-    <!-- Used in file AndroidManifest.xml:2071. Original value:GoogleDrive    -->
-    <string name="title_google_drive">GoogleDrive</string>
-    <!-- Used in file AndroidManifest.xml:1331. Original value:Point    -->
-    <string name="title_activity_design_point">Точка</string>
-    <!-- Used in file AndroidManifest.xml:669. Original value:Antenna    -->
-    <string name="title_activity_antenna">Антенна</string>
-    <!-- Used in file AndroidManifest.xml:718. Original value:Configure UHF    -->
-    <string name="title_activity_configure_uhf">Настроить UHF</string>
-    <!-- Used in file AndroidManifest.xml:1210. Original value:Catalogs    -->
-    <string name="title_activity_catalogs">Каталоги</string>
-    <!-- Used in file AndroidManifest.xml:643. Original value:Info    -->
-    <string name="title_receiver_info">Информация</string>
-    <!-- Used in file AndroidManifest.xml:1483. Original value:Points    -->
-    <string name="title_activity_points">Точки</string>
-    <!-- Used in file AndroidManifest.xml:710. Original value:Configure FH    -->
-    <string name="title_activity_configure_fh">Настроить FH</string>
-    <!-- Used in file AndroidManifest.xml:1141. Original value:Job    -->
-    <string name="title_activity_job">Проект</string>
-    <!-- Used in file AndroidManifest.xml:1710. Original value:Correction Source    -->
-    <string name="string_correction_source">Источник поправок</string>
-    <!-- Used in file AndroidManifest.xml:1242. Original value:Codes    -->
-    <string name="title_activity_codes">Коды</string>
-    <!-- Used in file AndroidManifest.xml:767. Original value:Setup WiFi    -->
-    <string name="title_activity_configure_wifi">Настроить WiFi</string>
-    <!-- Used in file AndroidManifest.xml:1598. Original value:Select Format    -->
-    <string name="title_select_format">Выберите формат</string>
-    <!-- Used in file AndroidManifest.xml:2109. Original value:Orginize View    -->
-    <string name="title_orginize_view">Организовать окна</string>
-    <!-- Used in file AndroidManifest.xml:2054. Original value:Authorize DropBox    -->
-    <string name="title_activity_authorize_dropbox">Авторизовать DropBox</string>
-    <!-- Used in file AndroidManifest.xml:1252. Original value:Code    -->
-    <string name="title_activity_code">Код</string>
-    <!-- Used in file AndroidManifest.xml:1494. Original value:Explorer    -->
-    <string name="title_explorer">Проводник</string>
-    <!-- Used in file AndroidManifest.xml:633. Original value:Stakeout    -->
-    <string name="title_activity_stakeout">Вынос</string>
-    <!-- Used in file AndroidManifest.xml:586. Original value:Surface Target    -->
-    <string name="title_activity_stakeout_surface_target">Выносимая поверхность</string>
-    <!-- Used in file AndroidManifest.xml:1660. Original value:Exit    -->
-    <string name="title_exit">Выход</string>
-    <!-- Used in file AndroidManifest.xml:1320. Original value:Contouring    -->
-    <string name="title_activity_contouring_heights">Изолинии</string>
-    <!-- Used in file AndroidManifest.xml:2100. Original value:Quattro    -->
-    <string name="title_activity_quattro">Quattro</string>
-    <!-- Used in file AndroidManifest.xml:1294. Original value:Survey Info    -->
-    <string name="title_activity_point_survey_info">Съемочная информация</string>
-    <!-- Used in file AndroidManifest.xml:513. Original value:Points from base    -->
-    <string name="title_activity_points_from_base">Точки с базы</string>
-    <!-- Used in file AndroidManifest.xml:1410. Original value:Localization Setup    -->
-    <string name="title_activity_localization_parameters">Настройка локализации</string>
-    <!-- Used in file AndroidManifest.xml:470. Original value:RTK V6    -->
-    <string name="title_activity_v6_info">RTK V6</string>
-    <!-- Used in file AndroidManifest.xml:775. Original value:Setup 3G/GPRS    -->
-    <string name="title_activity_configure_3g">Настройки 3G/GPRS</string>
-    <!-- Used in file AndroidManifest.xml:604. Original value:Compare Point    -->
-    <string name="title_activity_compare_points">Сравнить точки</string>
-    <!-- Used in file AndroidManifest.xml:1013. Original value:Repeater    -->
-    <string name="title_activity_repeater">Повторитель</string>
-    <!-- Used in file AndroidManifest.xml:1608. Original value:Services    -->
-    <string name="title_justinlink_server_settings">Службы</string>
-    <!-- Used in file AndroidManifest.xml:489. Original value:RTK Base    -->
-    <string name="title_activity_rtk_base">RTK База</string>
-    <!-- Used in file AndroidManifest.xml:751. Original value:Source Table    -->
-    <string name="title_activity_source_table">Таблица точек</string>
-    <!-- Used in file AndroidManifest.xml:1692. Original value:Work Type    -->
-    <string name="string_work_type">Тип работы</string>
-    <!-- Used in file AndroidManifest.xml:872. Original value:Calibration    -->
-    <string name="title_activity_calibration">Калибровка</string>
-    <!-- Used in file AndroidManifest.xml:79. Original value:Lat/Lon    -->
-    <string name="latlon_ime">Шир/Долг.</string>
-    <!-- Used in file AndroidManifest.xml:726. Original value:Direct Call    -->
-    <string name="title_activity_configure_csd">Прямой звонок</string>
-    <!-- Used in file AndroidManifest.xml:1523. Original value:Exchange Progress    -->
-    <string name="title_ts_echange_progress">Обмен</string>
-    <!-- Used in file AndroidManifest.xml:799. Original value:JCors Server Style    -->
-    <string name="title_activity_configure_jcors">JCors</string>
-    <!-- Used in file null:0. Original value:Duo    -->
-    <string name="title_activity_duo">Duo</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: CS Favorites-->
+  <string name="title_activity_cses">Выбранные СК</string>
+  <!--Original value: Survey Style-->
+  <string name="title_activity_survey_style">Стиль съемки</string>
+  <!--Original value: Select Data Type-->
+  <string name="title_select_type">Выберите тип данных</string>
+  <!--Original value: Connect J-Tip-->
+  <string name="title_activity_find_smarttip">Подключить J-Tip</string>
+  <!--Original value: Direct-->
+  <string name="title_activity_cogo_direct">Прямая</string>
+  <!--Original value: Connection-->
+  <string name="title_activity_connection">Подключение</string>
+  <!--Original value: Splash-->
+  <string name="title_activity_splash">Javad Mobile Tools</string>
+  <!--Original value: OneDrive-->
+  <string name="title_one_drive">OneDrive</string>
+  <!--Original value: Point-->
+  <string name="title_activity_point">Точка</string>
+  <!--Original value: Survey Points-->
+  <string name="title_activity_survey_points">Снятые точки</string>
+  <!--Original value: JMobile-->
+  <string name="string_intro">JMobile</string>
+  <!--Original value: Connect to TS-->
+  <string name="title_activity_connect_ts">Подкл.к тах.</string>
+  <!--Original value: Map-->
+  <string name="title_activity_map">Карта</string>
+  <!--Original value: Process Result-->
+  <string name="title_activity_opus_result_process">Результаты обработки</string>
+  <!--Original value: Setup LAN-->
+  <string name="title_activity_configure_lan">Настройки сети</string>
+  <!--Original value: Last Names-->
+  <string name="title_activity_last_point_names">Последние имена</string>
+  <!--Original value: Stakeout-->
+  <string name="title_activity_stakeout_cutfill">Вынос</string>
+  <!--Original value: Survey-->
+  <string name="title_activity_start_survey">Съемка</string>
+  <!--Original value: Descriptions-->
+  <string name="title_activity_descriptions">Описания</string>
+  <!--Original value: RTK Bases-->
+  <string name="title_activity_rtkbases">Базы RTK</string>
+  <!--Original value: Update Firmware-->
+  <string name="title_activity_update_firmware">Обновить firmware</string>
+  <!--Original value: Surveying-->
+  <string name="title_activity_surveying">Съемка</string>
+  <!--Original value: Details-->
+  <string name="title_activity_details">Детали</string>
+  <!--Original value: Settings-->
+  <string name="title_settings">Настройки</string>
+  <!--Original value: RTK Base Antenna-->
+  <string name="title_activity_antena">Антенна RTK базы</string>
+  <!--Original value: To TotalStation-->
+  <string name="title_activity_to_ts">В Тахеометр</string>
+  <!--Original value: Tilt settings-->
+  <string name="title_compasslevels_settings">Настройки комп.наклона</string>
+  <!--Original value: Design Points-->
+  <string name="title_activity_design_points">Выносные точки</string>
+  <!--Original value: Configure Ntrip-->
+  <string name="title_activity_configure_ntrip">Настроить Ntrip</string>
+  <!--Original value: Actions-->
+  <string name="title_activity_resets">Действия</string>
+  <!--Original value: Teigha-->
+  <string name="app_name_teigha">Teigha ©</string>
+  <!--Original value: File List-->
+  <string name="title_activity_file_list">Список файлов</string>
+  <!--Original value: Select File-->
+  <string name="title_select_file">Выбор файла</string>
+  <!--Original value: Spoofing-->
+  <string name="title_activity_spoofing">Подмена сигнала</string>
+  <!--Original value: Select Item-->
+  <string name="title_select_white_box">Выбор элементов</string>
+  <!--Original value: Process HybridRTK-->
+  <string name="title_activity_dpos_process_hybrid_rtk">Обработать HybridRTK</string>
+  <!--Original value: OPUS Process-->
+  <string name="title_activity_opus_process">Обработать OPUS</string>
+  <!--Original value: RTK Base-->
+  <string name="string_rtk_base_wizard">RTK База</string>
+  <!--Original value: Achieve Folder-->
+  <string name="title_activity_archive_job_folder">Архивация проектов</string>
+  <!--Original value: Resection-->
+  <string name="title_activity_start_station_resection">Гор.засечка</string>
+  <!--Original value: Corrections-->
+  <string name="title_activity_corrections">Поправки</string>
+  <!--Original value: VB-RTK-->
+  <string name="title_activity_vbrtk">VB-RTK</string>
+  <!--Original value: Satellites-->
+  <string name="title_activity_satellite">Спутники</string>
+  <!--Original value: Bluetooth Search-->
+  <string name="title_find_ts">Поиск Bluetooth</string>
+  <!--Original value: JPS2Rinex-->
+  <string name="jps2rin_activity">JPS2Rinex</string>
+  <!--Original value: Receive-->
+  <string name="title_activity_receive">Получить проект с устройства</string>
+  <!--Original value: Current Catalog-->
+  <string name="title_activity_catalog_info">Текущий каталог</string>
+  <!--Original value: Debug-->
+  <string name="title_activity_debug">Отладка</string>
+  <!--Original value: Select Job-->
+  <string name="title_select_job">Выберите проект</string>
+  <!--Original value: Options-->
+  <string name="string_options">Опции</string>
+  <!--Original value: Pair HPT Modem-->
+  <string name="title_activity_pair_modem">Сопрячь HPT Модем</string>
+  <!--Original value: Inverse-->
+  <string name="title_activity_cogo_inverse">Обратная</string>
+  <!--Original value: Receiver Files-->
+  <string name="title_activity_file_manager">Файлы Прием-ка</string>
+  <!--Original value: RTK Rover-->
+  <string name="title_activity_rtk">RTK Ровер</string>
+  <!--Original value: Map Provider-->
+  <string name="title_activity_provider">Выбор карт.подложки</string>
+  <!--Original value: Threads-->
+  <string name="title_threads">Потоки</string>
+  <!--Original value: Configure RCV-->
+  <string name="title_activity_configure_rcv">Настроить RCV</string>
+  <!--Original value: Import-->
+  <string name="title_activity_import">Импорт</string>
+  <!--Original value: Attach Device-->
+  <string name="title_activity_attach_device">Подключить приемник</string>
+  <!--Original value: Verify-->
+  <string name="title_verify_settings">Режим Проверки (verify)</string>
+  <!--Original value: Settings-->
+  <string name="string_settings">Настройки</string>
+  <!--Original value: Update OAF-->
+  <string name="title_activity_update_oaf">Обновить OAF</string>
+  <!--Original value: Settings-->
+  <string name="title_activity_stakeout_settings">Настройки</string>
+  <!--Original value: Generic Radio-->
+  <string name="title_activity_configure_generic_radio">Нестандартный модем</string>
+  <!--Original value: J-CORS-->
+  <string name="title_activity_jcors">J-CORS</string>
+  <!--Original value: Load Firmware-->
+  <string name="title_load_firmware_modem">Загрузка встроенного ПО</string>
+  <!--Original value: Catalog Point-->
+  <string name="title_activity_catalog_point">Точки каталога</string>
+  <!--Original value: RangeFinder-->
+  <string name="title_activity_rangefinder">Лаз.рулетка</string>
+  <!--Original value: Height Filter-->
+  <string name="title_height_filter_settings">Фильтр высоты</string>
+  <!--Original value: About-->
+  <string name="title_activity_about">О программе</string>
+  <!--Original value: RTK Base-->
+  <string name="title_activity_rtkbase">RTK База</string>
+  <!--Original value: Jobs-->
+  <string name="title_activity_jobs">Проекты</string>
+  <!--Original value: Devices-->
+  <string name="title_activity_jcommunity_devices">Устройства</string>
+  <!--Original value: Record Audio-->
+  <string name="title_activity_audio_recording">Запись звука</string>
+  <!--Original value: DPOS Process-->
+  <string name="title_activity_dpos_process">Обработка DPOS</string>
+  <!--Original value: Line Target-->
+  <string name="title_activity_stakeout_line_target">Вынос линии</string>
+  <!--Original value: Configurations-->
+  <string name="title_activity_connection_configurations_title">Конфигурация</string>
+  <!--Original value: Surveying-->
+  <string name="title_activity_surveying_sng">Съемка</string>
+  <!--Original value: TS Point-->
+  <string name="title_activity_ts_point">Тах.точку</string>
+  <!--Original value: Terminal-->
+  <string name="title_activity_terminal">Терминал</string>
+  <!--Original value: Settings-->
+  <string name="title_activity_jcommunity_settings">J-Сообщество</string>
+  <!--Original value: Surveying-->
+  <string name="title_activity_surveying_rtk">Съемка</string>
+  <!--Original value: Survey Settings-->
+  <string name="title_activity_survey_settings">Настройки съемки</string>
+  <!--Original value: Select date-->
+  <string name="title_activity_calendar">Выбор даты</string>
+  <!--Original value: Result-->
+  <string name="title_activity_cogo_result">Результаты</string>
+  <!--Original value: Catalogs-->
+  <string name="title_activity_catalog">Каталоги</string>
+  <!--Original value: J-Mate-->
+  <string name="title_activity_jmate_main">J-Mate</string>
+  <!--Original value: DPOS Base-->
+  <string name="title_activity_dpos_base">База DPOS</string>
+  <!--Original value: Rename-->
+  <string name="title_activity_connection_configuration_rename">Переименовать</string>
+  <!--Original value: File Logging-->
+  <string name="title_activity_file_logging">Запись файлов</string>
+  <!--Original value: Satellites-->
+  <string name="title_activity_satellite_types">Спутники</string>
+  <!--Original value: TS Points-->
+  <string name="title_activity_ts_points">Тах.точки</string>
+  <!--Original value: Start with-->
+  <string name="title_startup_ui">Начинать с</string>
+  <!--Original value: Survey-->
+  <string name="title_activity_survey">Съемка</string>
+  <!--Original value: TS Exchange-->
+  <string name="title_activity_ts_exchange">Обмен с Тах.</string>
+  <!--Original value: J-Tip-->
+  <string name="title_activity_smarttip">J-Tip</string>
+  <!--Original value: Identical Points-->
+  <string name="title_activity_localization_ip">Локализация</string>
+  <!--Original value: Download Block Size-->
+  <string name="title_activity_block_size">Размер блока загрузки</string>
+  <!--Original value: Power-->
+  <string name="title_activity_power">Питание</string>
+  <!--Original value: Confirm-->
+  <string name="title_activity_confirm_survey_point">Подтверждение</string>
+  <!--Original value: Find Repeater-->
+  <string name="title_activity_find_repeater">Найти повторитель</string>
+  <!--Original value: CS Info-->
+  <string name="string_cs_info">Инф.о СК</string>
+  <!--Original value: Radio-->
+  <string name="title_activity_radio_home">Модем</string>
+  <!--Original value: CoGo-->
+  <string name="title_activity_cogo_home">КоГо</string>
+  <!--Original value: GoogleDrive-->
+  <string name="title_google_drive">GoogleDrive</string>
+  <!--Original value: Point-->
+  <string name="title_activity_design_point">Точка</string>
+  <!--Original value: Antenna-->
+  <string name="title_activity_antenna">Антенна</string>
+  <!--Original value: Configure UHF-->
+  <string name="title_activity_configure_uhf">Настроить UHF</string>
+  <!--Original value: Catalogs-->
+  <string name="title_activity_catalogs">Каталоги</string>
+  <!--Original value: Info-->
+  <string name="title_receiver_info">Информация</string>
+  <!--Original value: Points-->
+  <string name="title_activity_points">Точки</string>
+  <!--Original value: Configure FH-->
+  <string name="title_activity_configure_fh">Настроить FH</string>
+  <!--Original value: Job-->
+  <string name="title_activity_job">Проект</string>
+  <!--Original value: Correction Source-->
+  <string name="string_correction_source">Источник поправок</string>
+  <!--Original value: Codes-->
+  <string name="title_activity_codes">Коды</string>
+  <!--Original value: Setup WiFi-->
+  <string name="title_activity_configure_wifi">Настроить WiFi</string>
+  <!--Original value: Select Format-->
+  <string name="title_select_format">Выберите формат</string>
+  <!--Original value: Orginize View-->
+  <string name="title_orginize_view">Организовать окна</string>
+  <!--Original value: Authorize DropBox-->
+  <string name="title_activity_authorize_dropbox">Авторизовать DropBox</string>
+  <!--Original value: Code-->
+  <string name="title_activity_code">Код</string>
+  <!--Original value: Explorer-->
+  <string name="title_explorer">Проводник</string>
+  <!--Original value: Stakeout-->
+  <string name="title_activity_stakeout">Вынос</string>
+  <!--Original value: Surface Target-->
+  <string name="title_activity_stakeout_surface_target">Выносимая поверхность</string>
+  <!--Original value: Exit-->
+  <string name="title_exit">Выход</string>
+  <!--Original value: Contouring-->
+  <string name="title_activity_contouring_heights">Изолинии</string>
+  <!--Original value: Quattro-->
+  <string name="title_activity_quattro">Quattro</string>
+  <!--Original value: Survey Info-->
+  <string name="title_activity_point_survey_info">Съемочная информация</string>
+  <!--Original value: Points from base-->
+  <string name="title_activity_points_from_base">Точки с базы</string>
+  <!--Original value: Localization Setup-->
+  <string name="title_activity_localization_parameters">Настройка локализации</string>
+  <!--Original value: RTK V6-->
+  <string name="title_activity_v6_info">RTK V6</string>
+  <!--Original value: Setup 3G/GPRS-->
+  <string name="title_activity_configure_3g">Настройки 3G/GPRS</string>
+  <!--Original value: Compare Point-->
+  <string name="title_activity_compare_points">Сравнить точки</string>
+  <!--Original value: Repeater-->
+  <string name="title_activity_repeater">Повторитель</string>
+  <!--Original value: Services-->
+  <string name="title_justinlink_server_settings">Службы</string>
+  <!--Original value: RTK Base-->
+  <string name="title_activity_rtk_base">RTK База</string>
+  <!--Original value: Source Table-->
+  <string name="title_activity_source_table">Таблица точек</string>
+  <!--Original value: Work Type-->
+  <string name="string_work_type">Тип работы</string>
+  <!--Original value: Start Station-->
+  <string name="title_activity_start_station">Зап.Станцию</string>
+  <!--Original value: Calibration-->
+  <string name="title_activity_calibration">Калибровка</string>
+  <!--Original value: Lat/Lon-->
+  <string name="latlon_ime">Шир/Долг.</string>
+  <!--Original value: Direct Call-->
+  <string name="title_activity_configure_csd">Прямой звонок</string>
+  <!--Original value: Exchange Progress-->
+  <string name="title_ts_echange_progress">Обмен</string>
+  <!--Original value: JCors Server Style-->
+  <string name="title_activity_configure_jcors">JCors</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_identical_points.xml:47. Original value:&#8211;    -->
+    <!-- Used in file activity_identical_points.xml:52. Original value:&#8211;    -->
     <string name="string_action_button">–</string>
     <!-- Used in file list_identical_point.xml:150. Original value:Type    -->
     <string name="identical_point_type">Тип</string>
@@ -23,6 +23,8 @@
     <string name="string_origin_east">Сдвиг на восток</string>
     <!-- Used in file activity_save_localization_parameters.xml:56. Original value:Height System    -->
     <string name="string_height_system">Система высот</string>
+    <!-- Used in file activity_identical_points.xml:79. Original value:Type    -->
+    <string name="string_type_string">Тип</string>
     <!-- Used in file activity_setup_localization_parameters.xml:83. Original value:Longitude    -->
     <string name="string_longitude_xml">Долгота</string>
     <!-- Used in file cslist.xml:8. Original value:Filter    -->
@@ -35,7 +37,7 @@
     <string name="string_horizontal_treshold">Плановый порог</string>
     <!-- Used in file activity_setup_localization_parameters.xml:131. Original value:North origin    -->
     <string name="string_origin_north">Сдвиг на север</string>
-    <!-- Used in file activity_identical_points.xml:56. Original value:Design    -->
+    <!-- Used in file activity_identical_points.xml:61. Original value:Design    -->
     <string name="string_design">Выносные</string>
     <!-- Used in file pref_cs.xml:3. Original value:CS Name    -->
     <string name="string_cs_name">Имя СК</string>
@@ -51,6 +53,8 @@
     <string name="string_north_inclination_xml">Наклон на север</string>
     <!-- Used in file CSListActivity.java:174. Original value:No GeoData!    -->
     <string name="no_geodata_error">Нет GeoData!</string>
+    <!-- Used in file activity_save_localization_parameters.xml:100. Original value:Longitude Orig.    -->
+    <string name="string_longitude_origin_string">Нач.долгота</string>
     <!-- Used in file activity_setup_localization_parameters.xml:113. Original value:Origin    -->
     <string name="string_origin">Начало</string>
     <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel    -->
@@ -87,13 +91,15 @@
     <string name="geodata_error_illegal_state">Ошибка чтения файла CoordinateSystemDB.db3!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:58. Original value:Latitude    -->
     <string name="string_latitude_xml">Широта</string>
-    <!-- Used in file activity_identical_points.xml:65. Original value:Survey    -->
+    <!-- Used in file pref_cs.xml:5. Original value:Geoid    -->
+    <string name="string_geoid_string">Геоид</string>
+    <!-- Used in file activity_identical_points.xml:70. Original value:Survey    -->
     <string name="string_survey">Съемочные</string>
     <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset    -->
     <string name="string_height_offset_xml">Сдвиг высоты</string>
     <!-- Used in file CSListActivity.java:153. Original value:File javad/geodata/CoordinateSystemDB.db3 is corrupted!    -->
     <string name="geodata_error">Файл /javad/geodata/CoordinateSystemDB.db3 поврежден!</string>
-    <!-- Used in file IdenticalPointsActivity.java:343. Original value:View Report    -->
+    <!-- Used in file IdenticalPointsActivity.java:319. Original value:View Report    -->
     <string name="view_report">Вывести Отчет</string>
 
 </resources>
