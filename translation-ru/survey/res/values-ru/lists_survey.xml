@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file RTKSetupActivity.java:583 -->
+    <!-- Used in file RTKSetupActivity.java:564 -->
     <string-array name="connected_to_array_internet_sigma">
          <item>the Android device</item>
          <item>WiFi</item>
@@ -66,7 +66,7 @@
          <item>off</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2446 -->
+    <!-- Used in file SurveyingRTK.java:2196 -->
     <string-array name="left_right_array">
          <item>Влево</item>
          <item>Вправо</item>
@@ -87,6 +87,7 @@
     <string-array name="orientation_array">
          <item>Север вверху</item>
          <item>По курсу</item>
+         <item>По солнцу</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:140 -->
@@ -124,7 +125,7 @@
          <item>1 минута</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:597 -->
+    <!-- Used in file RTKSetupActivity.java:578 -->
     <string-array name="connected_to_array_radio_sigma">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -137,7 +138,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:589 -->
+    <!-- Used in file RTKSetupActivity.java:570 -->
     <string-array name="connected_to_array_radio">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -179,7 +180,7 @@
          <item>35.0W / 45dBm</item>
     </string-array>
 
-    <!-- Used in file rtk_base_rcv_base.xml:127 -->
+    <!-- Used in file rtk_base_rcv_base.xml:160 -->
     <string-array name="base_correction_type_array_rcv">
          <item>нет поправок</item>
          <item>RTCM 3.x MSM3</item>
@@ -212,12 +213,12 @@
          <item>4g</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:203 -->
+    <!-- Used in file stakeout_settings.xml:200 -->
     <string-array name="rtk_computation_mode">
-        <item>delay</item>
-        <item>extrap 30 сек</item>
-        <item>extrap 10 сек</item>
-        <item>extrap 5 сек</item>
+         <item>delay</item>
+         <item>extrap 30 сек</item>
+         <item>extrap 10 сек</item>
+         <item>extrap 5 сек</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:190 -->
@@ -287,7 +288,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1237 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1253 -->
     <string-array name="connected_to_array_csd_sigma">
          <item>Internal GSM</item>
     </string-array>
@@ -313,7 +314,14 @@
          <item>SIM 2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:595 -->
+    <!-- Used in file ts_survey_settings.xml:95 -->
+    <string-array name="ts_survey_data_array">
+         <item>Все измерения</item>
+         <item>только Углы/Растояние</item>
+         <item>только Координаты</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:576 -->
     <string-array name="connected_to_array_radio_gismore">
          <item>Bluetooth B</item>
     </string-array>
@@ -359,17 +367,6 @@
          <item>UHF модем</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:178 -->
-    <string-array name="minimal_rtk_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
     <!-- Used in file stakeout_settings.xml:96 -->
     <string-array name="antenna_ids_array">
          <item>Triumph-1</item>
@@ -411,18 +408,7 @@
          <item>eu</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:179 -->
-    <string-array name="minial_rtk_values_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
-    <!-- Used in file RTKSetupActivity.java:581 -->
+    <!-- Used in file RTKSetupActivity.java:562 -->
     <string-array name="connected_to_array_internet_gismore">
          <item>через смартфон с Android</item>
          <item>WiFi</item>
@@ -438,7 +424,7 @@
          <item>5 сек</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1235 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1251 -->
     <string-array name="connected_to_array_csd_triumph1">
          <item>Внутренний GSM</item>
     </string-array>
@@ -460,13 +446,13 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:579 -->
+    <!-- Used in file RTKSetupActivity.java:560 -->
     <string-array name="connected_to_array_internet_triumph2">
          <item>через смартфон с Android</item>
          <item>WiFi Triumph-2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:577 -->
+    <!-- Used in file RTKSetupActivity.java:558 -->
     <string-array name="connected_to_array_internet_triumph1">
          <item>через смартфон с Android</item>
          <item>WiFi Triumph-1</item>
@@ -474,17 +460,9 @@
          <item>LAN Triumph-1</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:593 -->
+    <!-- Used in file RTKSetupActivity.java:574 -->
     <string-array name="connected_to_array_radio_triumph2">
          <item>Bluetooth B</item>
-    </string-array>
-
-    <!-- Used in file stakeout_settings.xml:28 -->
-    <string-array name="stakeout_info_array">
-        <item>Все тексты</item>
-        <item>Все тексты +/-</item>
-        <item>Только вдоль/поперек</item>
-        <item>Только вдоль/поперек +/-</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:148 -->
@@ -499,7 +477,7 @@
          <item>60 сек</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:591 -->
+    <!-- Used in file RTKSetupActivity.java:572 -->
     <string-array name="connected_to_array_radio_triumph1">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -543,7 +521,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:213 -->
+    <!-- Used in file stakeout_settings.xml:210 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
          <item>NAD83(2011)</item>
@@ -623,7 +601,7 @@
          <item>trimmark3</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:214 -->
+    <!-- Used in file stakeout_settings.xml:211 -->
     <string-array name="reference_frame_values_array">
          <item>CSG_WGS_84</item>
          <item>CSG_NAD83_2011</item>
@@ -634,10 +612,10 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2446 -->
+    <!-- Used in file SurveyingRTK.java:2196 -->
     <string-array name="p1_p2_array">
-         <item>из P2</item>
-         <item>из P1</item>
+         <item>от P1</item>
+         <item>от P2</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
@@ -645,7 +623,7 @@
          <item>через смартфон с Android</item>
     </string-array>
 
-    <!-- Used in file rtk_base_rcv_base.xml:144 -->
+    <!-- Used in file rtk_base_rcv_base.xml:177 -->
     <string-array name="dhcp_array">
          <item>Выкл</item>
          <item>Клиент</item>
@@ -719,6 +697,36 @@
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="stakeout_info_array">
+         <item>Все тексты</item>
+         <item>Все тексты +/-</item>
+         <item>Только вдоль/поперек</item>
+         <item>Только вдоль/поперек +/-</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="minimal_rtk_array">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="minial_rtk_values_array">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="correction_type_array_rcv">
          <item>cmd</item>
          <item>rtcm3</item>
@@ -772,10 +780,5 @@
          <item>5 сек</item>
     </string-array>
 
-    <string-array name="ts_survey_data_array">
-        <item>Все измерения</item>
-        <item>только Углы/Растояние</item>
-        <item>только Координаты</item>
-    </string-array>
 
 </resources>

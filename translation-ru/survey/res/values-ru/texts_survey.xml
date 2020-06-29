@@ -105,6 +105,8 @@
   <string name="string_stop_survey">Остановить съемку</string>
   <!--Original value: Unhealthy SV-->
   <string name="string_unhealthy_sv">Неиспользуемый спутник</string>
+  <!--Original value: Wrong RCV Client Port!-->
+  <string name="string_wrong_rcv_client_port_">Неверный порт RCV клиента!</string>
   <!--Original value: Charging mode is set to -->
   <string name="string_charging_mode_is_set_to_">Режим зарядки установлен в </string>
   <!--Original value: View/Edit-->
@@ -187,6 +189,8 @@
   <string name="string_dist_">Раст.</string>
   <!--Original value: Base Station: -->
   <string name="string_base_station__">База:</string>
+  <!--Original value: NtripCaster:-->
+  <string name="string_ntripcaster_">NtripCaster:</string>
   <!--Original value: Radio is connected to-->
   <string name="string_radio_is_connected_to">Модем подключен к </string>
   <!--Original value: Coords. only-->
@@ -343,6 +347,8 @@
   <string name="string__1_s__2_dbs_fec__3_s_scr__4_s">%1$s %2$dbs FEC:%3$s Шиф:%4$s</string>
   <!--Original value: This SV is excluded from solution since its system number is unknown-->
   <string name="string_this_sv_is_excluded_from_solution_since_its_system_number_is_unknown">Спутник исключен из решения из-за ошибки его нумерации</string>
+  <!--Original value: Can\'t start spectrum!-->
+  <string name="string_can_t_start_spectrum_">Не удалось запустить спектры!</string>
   <!--Original value: Store Offset-->
   <string name="string_store_offset">Сохранить Промер</string>
   <!--Original value: Ephemeris data is too old-->
@@ -429,6 +435,8 @@
   <string name="string_new_jcors_style">новый стиль JCors</string>
   <!--Original value: Channel Rate is not enough for the corrections!-->
   <string name="string_channel_rate_is_not_enough_for_the_corrections_">УВЧ канал недостаточен для передачи выбранных поправок!</string>
+  <!--Original value: Systerms-->
+  <string name="string_systerms">Системы</string>
   <!--Original value: Reading setting…-->
   <string name="string_reading_setting___">Читаются настройки…</string>
   <!--Original value: Can\'t turn on use L5/E5a!-->
@@ -559,6 +567,8 @@
   <string name="string_epoch_nfilter">Эпохи\nФильтр</string>
   <!--Original value: Can\'t send base corrections into receiver file!-->
   <string name="string_can_t_send_base_corrections_into_receiver_file_">Не удалось отправить поправки базы в файл приемника!</string>
+  <!--Original value: Wrong RCV Client Address!-->
+  <string name="string_wrong_rcv_client_address_">Неверный адрес RCV клиента!</string>
   <!--Original value: %d meas.-->
   <string name="string__d_meas_">%d изм.</string>
   <!--Original value: Height=%1$.3f\u00b1%2$.2f-->
@@ -566,7 +576,7 @@
   <!--Original value: Radio Link-->
   <string name="string_radio_link">Качество связи</string>
   <!--Original value: By Distances\nN:\nE:\nH:-->
-  <string name="string_by_distances">По растояниям\nN:\nE:\H:</string>
+  <string name="string_by_distances">По расстояниям\nN:\nE:\nH:</string>
   <!--Original value: Almanac SV health indicator is not available for this satellite-->
   <string name="string_almanac_sv_health_indicator_is_not_available_for_this_satellite">Статус состояния недоступен для этого спутника</string>
   <!--Original value: Sent/Receive-->
@@ -651,6 +661,8 @@
   <string name="string_wrong_tpc_ip_port_">Неправильный порт TCP!</string>
   <!--Original value: TS Points-->
   <string name="string_ts_points">Тах.точки</string>
+  <!--Original value: Message Group is not selected!-->
+  <string name="string_message_group_is_not_selected_">Не выбрана группа сообщений!</string>
   <!--Original value: Can\'t store position-->
   <string name="string_can_t_store_position">Не удалось сохранить положение!</string>
   <!--Original value: P L1 slot is used in RTK processing-->
@@ -709,6 +721,8 @@
   <string name="string_confirm_and_start">Подтвердить и начать</string>
   <!--Original value: Can\'t compute coordinates!-->
   <string name="string_can_t_compute_coordinates_">Не удалось вычислить координаты!</string>
+  <!--Original value: Can\'t change L1 center frequency!-->
+  <string name="string_can_t_change_l1_center_frequency_">Не удалось сменить центр частоты L1!</string>
   <!--Original value: %1$dminutes %2$dseconds-->
   <string name="string__1_dminutes__2_dseconds">%1$dминут %2$dсекунд</string>
   <!--Original value: Wrong selected position!-->
@@ -802,7 +816,7 @@
   <!--Original value: Can\'t convert selected point coordinate into WGS84!-->
   <string name="string_can_t_convert_selected_point_coordinate_into_wgs84_">Не удалось преобразовать выбранные точки в WGS84!</string>
   <!--Original value: %.0f Hz-->
-  <string name="string___0f_hz">%.0f Hz</string>
+  <string name="string___0f_hz">%.0f Гц</string>
   <!--Original value: Solution\nType-->
   <string name="string_solution_ntype">Тип\nРешения</string>
   <!--Original value: connected to Bluetooth B-->
@@ -878,7 +892,9 @@
   <!--Original value: new Direct Call (CSD)-->
   <string name="string_new_direct_call__csd_">новый прямой звонок (CSD)</string>
   <!--Original value: Measuring…-->
-  <string name="string_measuring___">Измерение...</string>
+  <string name="string_measuring___">Измерение…</string>
+  <!--Original value: No receiver connected!-->
+  <string name="string_no_receiver_connected_">Приемник не подключен!</string>
   <!--Original value: Receiver File %s already exist!-->
   <string name="string_receiver_file__s_already_exist_">Файл приемника %s уже существует!</string>
   <!--Original value: Internet via LAN-->
@@ -913,6 +929,8 @@
   <string name="string_cll_is_not_settled">CLL не установлено</string>
   <!--Original value: Current IP-->
   <string name="string_current_ip">Текущий IP</string>
+  <!--Original value: Starting…-->
+  <string name="string_starting___">Запускается...</string>
   <!--Original value: Log file creation error!-->
   <string name="string_log_file_creation_error_">Ошибка создания файла!</string>
   <!--Original value: V6 Engines-->
@@ -960,7 +978,7 @@
   <!--Original value: Stay for %dsec-->
   <string name="string_stay_for__dsec">Стоять %dсек</string>
   <!--Original value: Start Station-->
-  <string name="string_start_station">Запуск станции</string>
+  <string name="string_start_station">Запуск Станции</string>
   <!--Original value: Hz-->
   <string name="string_hz">Гц</string>
   <!--Original value: Firmware:-->
@@ -1400,7 +1418,7 @@
   <!--Original value: Last\nDescriptions-->
   <string name="string_last_ndescriptions">Посл.\nОписания</string>
   <!--Original value: %.0f Sec-->
-  <string name="string___0f_sec">%.0f Sec</string>
+  <string name="string___0f_sec">%.0f сек</string>
   <!--Original value: Wrong IP Port!-->
   <string name="string_wrong_ip_port_">Неправильный IP адрес!</string>
   <!--Original value: new FH radio-->
@@ -1431,6 +1449,8 @@
   <string name="string_can_t_turn_off_sbas_tracking_">Не удалось выключить прием SBAS!</string>
   <!--Original value: sec.-->
   <string name="string_sec_">сек.</string>
+  <!--Original value: No Receiver info!-->
+  <string name="string_no_receiver_info_">Нет информации о приемнике!</string>
   <!--Original value: Can\'t store RTK Base information into job!-->
   <string name="string_can_t_store_rtk_base_information_into_job_">Не удалось сохранить информацию о РТК базе в проект!</string>
   <!--Original value: Can\'t connect to NetHub!-->
@@ -1520,7 +1540,9 @@
   <!--Original value: Stop Calibration-->
   <string name="string_stop_calibration">Остановить калибровку</string>
   <!--Original value: Connecting to Ntrip Caster…-->
-  <string name="string_connecting_to_ntrip_caster___">Подключение к Ntrip Caster...</string>
+  <string name="string_connecting_to_ntrip_caster___">Подключение к Ntrip Caster…</string>
+  <!--Original value: Modem mode %1$s (%2$s)-->
+  <string name="string_modem_mode__1_s___2_s_">Режим радио %1$s (%2$s)</string>
   <!--Original value: Can\'t turn off GLO tracking!-->
   <string name="string_can_t_turn_off_glo_tracking_">Не удалось выключить прием Глонасс</string>
   <!--Original value: MPoint-->
@@ -1589,6 +1611,8 @@
   <string name="string_temporary_point_p1_is_not_surveyed_yet_">Не снята промежуточная точка P1!</string>
   <!--Original value: P/L1 and L5 slots are used in RTK processing-->
   <string name="string_p_l1_and_l5_slots_are_used_in_rtk_processing">P/L1 и L5 используются в RTK обработке</string>
+  <!--Original value: Can\'t start spectrum scan!-->
+  <string name="string_can_t_start_spectrum_scan_">Не удалось запустить сканирование спектра!</string>
   <!--Original value: Wrong TCPO IP Port!-->
   <string name="string_wrong_tcpo_ip_port_">Неверный порт TCPO!</string>
   <!--Original value: Magnetic Az.-->
@@ -1647,6 +1671,8 @@
   <string name="string__1_dmin___2_dsec_">%1$dмин. %2$dсек.</string>
   <!--Original value: without radio setup-->
   <string name="string_without_radio_setup">без настройки радио</string>
+  <!--Original value: Sat.\nSystems-->
+  <string name="string_sat__nsystems">Спутн.\nСистемы</string>
   <!--Original value: Points-->
   <string name="string_points">Точки</string>
   <!--Original value: off-->
@@ -1688,7 +1714,7 @@
   <!--Original value: Survey already started!-->
   <string name="string_survey_already_started_">Съемка уже запущена!</string>
   <!--Original value: At least %d-->
-  <string name="string_at_least__d">По крайне мере %d</string>
+  <string name="string_at_least__d">По крайней мере %d</string>
   <!--Original value: Can\'t turn on GAL tracking!-->
   <string name="string_can_t_turn_on_gal_tracking_">Не удалось включить прием Галлилео!</string>
   <!--Original value: Reset Style-->
@@ -1885,8 +1911,4 @@
   <string name="string__1_ddays__2_dhours__3_dminutes">%1$ddays %2$dhours %3$dminutes</string>
   <!--Original value: Can\'t turn off use CA/L2!-->
   <string name="string_can_t_turn_off_use_ca_l2_">Не удалось выключить CA/L2!</string>
-  <!--Original value: -->
-  <string name="">Ошибка сервера!</string>
-  <!--Original value: -->
-  <string name="">новый стиль RCV базы</string>
 </resources>

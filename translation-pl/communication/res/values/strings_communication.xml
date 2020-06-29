@@ -7,7 +7,7 @@
     <string name="button_wifi_iphone_reconnect">Set receiver WiFi AdHoc mode for iPhone</string>
     <!-- Used in file activity_main_communication.xml:75    -->
     <string name="ethernet_radio">Network</string>
-    <!-- Used in file main_communication.xml:14    -->
+    <!-- Used in file main_communication.xml:16    -->
     <string name="action_about">About</string>
     <!-- Used in file activity_connection.xml:79    -->
     <string name="password">Password</string>
@@ -17,9 +17,9 @@
     <string name="button_wifi_network_reconnect">Reconnect with WiFi using external AP</string>
     <!-- Used in file activity_rename_connection_configurations.xml:46    -->
     <string name="string_rename">Rename</string>
-    <!-- Used in file ReceiverModel.java:2114    -->
+    <!-- Used in file ReceiverModel.java:2259    -->
     <string name="set_rtkbase_error_antenna_id">RTK Base antenna Id error!</string>
-    <!-- Used in file MainCommunicationActivity.java:993    -->
+    <!-- Used in file MainCommunicationActivity.java:1022    -->
     <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
     <!-- Used in file ConfigurationManager.java:212    -->
     <string name="string_without_receiver">&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d; </string>
@@ -29,13 +29,15 @@
     <string name="button_connect">Connect</string>
     <!-- Used in file activity_connection_configurations.xml:19    -->
     <string name="string_new">New</string>
-    <!-- Used in file ReceiverModel.java:2118    -->
+    <!-- Used in file ReceiverModel.java:2263    -->
     <string name="set_rtkbase_error_antenna_height">RTK Base antenna height error!</string>
-    <!-- Used in file ReceiverModel.java:2116    -->
+    <!-- Used in file ReceiverModel.java:2261    -->
     <string name="set_rtkbase_error_antenna_type">RTK Base antenna type error!</string>
     <!-- Used in file activity_main_communication.xml:61    -->
     <string name="wifi_radio">WiFi</string>
-    <!-- Used in file ReceiverModel.java:2046    -->
+    <!-- Used in file activity_connect_ts_name.xml:43    -->
+    <string name="button_connect_to_ts">Connect</string>
+    <!-- Used in file ReceiverModel.java:2191    -->
     <string name="set_rtkbase_error_null">RTK Base parameters is not pass!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:61    -->
     <string name="button_cancel">Cancel</string>
@@ -47,16 +49,18 @@
     <string name="text_connection">Connection to receiver:</string>
     <!-- Used in file activity_connection.xml:50    -->
     <string name="login">Login</string>
-    <!-- Used in file ReceiverModel.java:2120    -->
+    <!-- Used in file ReceiverModel.java:2265    -->
     <string name="set_rtkbase_error_enable_corrections">RTK Base cannot enable corrections</string>
     <!-- Used in file activity_main_communication.xml:68    -->
     <string name="wifi_ap_radio">WiFi\n(Mob.AP)</string>
-    <!-- Used in file ReceiverModel.java:2122    -->
+    <!-- Used in file ReceiverModel.java:2267    -->
     <string name="set_rtkbase_error_base_id">RTK Base base id error!</string>
     <!-- Used in file activity_rename_connection_configurations.xml:23    -->
     <string name="setting_name">Settings Name</string>
     <!-- Used in file main_communication.xml:5    -->
     <string name="action_refresh">Refresh</string>
+    <!-- Used in file activity_connect_ts_name.xml:52    -->
+    <string name="text_select_ts_title">Select CS to Connect</string>
     <!-- Used in file ConfigurationManager.java:189    -->
     <string name="string_select_configuration_small">- select a configuration</string>
     <!-- Used in file ConfigurationManager.java:191    -->
@@ -65,7 +69,9 @@
     <string name="bluetooth_radio">Bluetooth</string>
     <!-- Used in file activity_connection_bluetooth.xml:54    -->
     <string name="string_wifi_password">WiFi Password</string>
-    <!-- Used in file ReceiverModel.java:2112    -->
+    <!-- Used in file activity_connect_ts_name.xml:27    -->
+    <string name="connect_to_ts_name">Connect to TS</string>
+    <!-- Used in file ReceiverModel.java:2257    -->
     <string name="set_rtkbase_error_position">RTK Base position error!</string>
 
 </resources>

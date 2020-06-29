@@ -7,7 +7,7 @@
     <string name="job_surveyor">Surveyor</string>
     <!-- Used in file activity_code_values.xml:21    -->
     <string name="sort_description">Sort by</string>
-    <!-- Used in file TSPointsActivity.java:69    -->
+    <!-- Used in file TSPointsActivity.java:72    -->
     <string name="string_comment_sort">Comment</string>
     <!-- Used in file home_map_points.xml:23    -->
     <string name="action_show_survey_on">Survey Points</string>
@@ -25,15 +25,15 @@
     <string name="string_filename_xml">Jps file</string>
     <!-- Used in file codes.xml:43    -->
     <string name="action_map_export">Export</string>
-    <!-- Used in file JobActivity.java:94    -->
+    <!-- Used in file JobActivity.java:95    -->
     <string name="string_new_job">New Job</string>
-    <!-- Used in file TSPointsActivity.java:68    -->
+    <!-- Used in file TSPointsActivity.java:71    -->
     <string name="string_code_sort">Code</string>
     <!-- Used in file design_points.xml:61    -->
     <string name="action_delete_all">Delete All Design</string>
     <!-- Used in file activity_job.xml:175    -->
     <string name="write_to_text_files">Write to text files</string>
-    <!-- Used in file RTKBasesActivity.java:100    -->
+    <!-- Used in file RTKBasesActivity.java:102    -->
     <string name="string_filename_sort">Filename</string>
     <!-- Used in file activity_job.xml:133    -->
     <string name="localization">Localization</string>
@@ -41,7 +41,7 @@
     <string name="action_map_zoomall">Zoom All</string>
     <!-- Used in file activity_code.xml:121    -->
     <string name="code_fields"> ___ Fields ___</string>
-    <!-- Used in file TSPointsActivity.java:67    -->
+    <!-- Used in file TSPointsActivity.java:70    -->
     <string name="string_time_sort">Time</string>
     <!-- Used in file rtkbases.xml:15    -->
     <string name="action_search">Search</string>
@@ -49,10 +49,10 @@
     <string name="height_type">Height Type</string>
     <!-- Used in file activity_point.xml:203    -->
     <string name="coordinate_wgs84">Wgs84</string>
-    <!-- Used in file JobActivity.java:96    -->
+    <!-- Used in file JobActivity.java:97    -->
     <string name="string_duplicate_job_xml">Duplicate Job</string>
-    <!-- Used in file activity_point.xml:252    -->
-    <string name="survey_info">SurveyInfo:\n\n</string>
+    <!-- Used in file activity_ts_point.xml:200    -->
+    <string name="survey_info">SurveyInfo:\n\n\n</string>
     <!-- Used in file activity_archive_folder.xml:118    -->
     <string name="archive_googledrive">Archive GoogleDrive</string>
     <!-- Used in file activity_rover_points_from_base.xml:16    -->
@@ -65,6 +65,8 @@
     <string name="antenna_height_storage">Antenna Height</string>
     <!-- Used in file code_values.xml:11    -->
     <string name="action_list_grid">Grid</string>
+    <!-- Used in file activity_ts_point_antenna.xml:50    -->
+    <string name="storage_mark_height">Mark Height</string>
     <!-- Used in file activity_archive_folder.xml:38    -->
     <string name="button_select_folder">Select folder</string>
     <!-- Used in file home_map_points.xml:29    -->
@@ -77,6 +79,8 @@
     <string name="action_export">Export</string>
     <!-- Used in file activity_design_point.xml:70    -->
     <string name="code">Code</string>
+    <!-- Used in file activity_ts_point_antenna.xml:37    -->
+    <string name="storage_mark_id">Mark</string>
     <!-- Used in file home_map_points.xml:35    -->
     <string name="action_show_ts_on">TS Points</string>
     <!-- Used in file activity_code.xml:215    -->
@@ -109,7 +113,7 @@
     <string name="archive_dropbox">Archive to Dropbox</string>
     <!-- Used in file activity_rtkbase.xml:51    -->
     <string name="string_base_id_string">Base Id</string>
-    <!-- Used in file activity_rtkbase.xml:221    -->
+    <!-- Used in file activity_ts_point.xml:188    -->
     <string name="button_antenna">Antenna</string>
     <!-- Used in file activity_rtkbase.xml:173    -->
     <string name="string_reference_frame">Ref.Frame</string>
@@ -121,11 +125,13 @@
     <string name="job_name">Name</string>
     <!-- Used in file activity_archive_folder.xml:161    -->
     <string name="button_authorize_onedrive">Authorize OneDrive</string>
+    <!-- Used in file activity_ts_point_antenna.xml:71    -->
+    <string name="storage_antenna_use_vertical_offset">Mark Offset</string>
     <!-- Used in file rtkbases.xml:31    -->
     <string name="action_calendar">Calendar</string>
     <!-- Used in file jobs.xml:62    -->
     <string name="action_delete">Delete</string>
-    <!-- Used in file RTKBasesActivity.java:101    -->
+    <!-- Used in file RTKBasesActivity.java:103    -->
     <string name="string_dpos_sort">Process</string>
     <!-- Used in file activity_code.xml:194    -->
     <string name="code_type">Type</string>
@@ -139,7 +145,7 @@
     <string name="measure_units">Measure Units</string>
     <!-- Used in file activity_point_antenna.xml:28    -->
     <string name="antenna_type">Antenna Type</string>
-    <!-- Used in file RTKBasesActivity.java:98    -->
+    <!-- Used in file RTKBasesActivity.java:100    -->
     <string name="string_id_sort">Id</string>
     <!-- Used in file activity_rtkbase.xml:291    -->
     <string name="button_modify">Modify</string>
@@ -147,11 +153,11 @@
     <string name="check_archive_folder">Auto Archive Jobs to Folder</string>
     <!-- Used in file list_points.xml:105    -->
     <string name="string_descriptionhint">Description</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:104    -->
+    <!-- Used in file TSPointSurveyInfoActivity.java:101    -->
     <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
     <!-- Used in file activity_design_point.xml:90    -->
     <string name="north">North</string>
-    <!-- Used in file JobActivity.java:98    -->
+    <!-- Used in file JobActivity.java:99    -->
     <string name="string_edit_job_xml">Edit Job</string>
     <!-- Used in file activity_job.xml:194    -->
     <string name="show_antenna_offsets">Show antenna vertical offset</string>
@@ -177,7 +183,7 @@
     <string name="string_codehint">Code</string>
     <!-- Used in file activity_archive_folder.xml:46    -->
     <string name="jobs_are_located">Jobs are located in folder</string>
-    <!-- Used in file TSPointsActivity.java:65    -->
+    <!-- Used in file TSPointsActivity.java:68    -->
     <string name="string_name_sort">Name</string>
     <!-- Used in file activity_code.xml:102    -->
     <string name="code_comment">Description</string>
@@ -187,11 +193,22 @@
     <string name="east">East</string>
     <!-- Used in file activity_code.xml:228    -->
     <string name="code_min_value">Min.Value</string>
+    <!-- Used in file activity_ts_point_antenna.xml:120    -->
+    <string name="units_storage">Units</string>
     <!-- Used in file activity_point.xml:211    -->
     <string name="coordinate_origin">Origin</string>
     <!-- Used in file activity_archive_folder.xml:169    -->
     <string name="button_sync_jobs_onedrive">Sync Jobs to OneDrive</string>
     <!-- Used in file home_map_points.xml:9    -->
     <string name="string_connect">Connect</string>
+    <!-- UNUSED STRING 
+    <string name="string_inclination_martix">Inclination Martix</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_inclination_y">Inclination Y</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_compass">Compass</string>
+    -->
 
 </resources>

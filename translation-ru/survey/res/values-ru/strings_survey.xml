@@ -47,6 +47,8 @@
   <string name="text_y_map">Y</string>
   <!--Original value: Connection-->
   <string name="connecttion">Подключение</string>
+  <!--Original value: RCV Client IP/Address-->
+  <string name="rcvclient_address">IP/Адрес RCV клиента</string>
   <!--Original value: Enable Power Output-->
   <string name="enable_power_output">Включить подачу питания</string>
   <!--Original value: Receiver Id-->
@@ -73,6 +75,8 @@
   <string name="check_settings">Проверить настройки</string>
   <!--Original value: \u2194-->
   <string name="text_across_sign">\u2194</string>
+  <!--Original value: Frequency is Empty-->
+  <string name="frequency_empty">Частота не задана</string>
   <!--Original value: IP Address/DNS-->
   <string name="address">IP адрес</string>
   <!--Original value: This is list of last names used in the job. Click to an item to set name with next index-->
@@ -93,12 +97,14 @@
   <string name="epochs_collected2">собрано эпох</string>
   <!--Original value: Configure-->
   <string name="button_configure">Настроить</string>
-  <!--Original value: Ntrip Client config.-->
-  <string name="ntripclient_on">Настройки Ntrip клиент</string>
   <!--Original value: USA zone parameters-->
   <string name="usa_zone_parameters">Парамтеры зоны USA</string>
+  <!--Original value: Base Corrections-->
+  <string name="rtk_base_corrections">Поправки базы</string>
   <!--Original value: Stop RTK-->
   <string name="string_rtk_stop">Стоп RTK</string>
+  <!--Original value: Sat.System-->
+  <string name="title_sat_systems">Спутн.системы</string>
   <!--Original value: List-->
   <string name="string_list_menu">Список</string>
   <!--Original value: All epochs are collected at Lift/Titl survey-->
@@ -129,6 +135,8 @@
   <string name="text_along">Вдоль</string>
   <!--Original value: The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).-->
   <string name="jmtr_oaf_message">Этот GNSS приемник не авторизован для работы с JAVAD Mobile Tools для Авторизованных приемников (J-Mobile-R)!\nПожалуйста, свяжитесь с JAVAD GNSS или вашим дилером для приобретения этой OAF опции!\nВы можете либо загрузить в приемник OAF опцию, либо приобрести программу Javad Mobile Tools (J-Mobile) без ограничений.</string>
+  <!--Original value: Client-->
+  <string name="client_client_type">Клиент</string>
   <!--Original value: Zoom All-->
   <string name="action_map_zoomall">Масштаб</string>
   <!--Original value: Instrument Height-->
@@ -163,6 +171,8 @@
   <string name="receiver_wlan_ip">WLAN IP</string>
   <!--Original value: RTK Fix Lost-->
   <string name="fix_lost">Потеря RTK Fix</string>
+  <!--Original value: RCV Client Login-->
+  <string name="rcvclient_login">Логин RCV клиента</string>
   <!--Original value: Reject by VRMS-->
   <string name="epoch_rejected_vrms">Отброшено по Верт.СКО</string>
   <!--Original value: TCP Mode-->
@@ -179,12 +189,16 @@
   <string name="verify_tolerance_in_group">Допуск в группе</string>
   <!--Original value: sats-->
   <string name="sats">спутн.</string>
+  <!--Original value: Stop-->
+  <string name="button_stop_spectrum">Стоп</string>
   <!--Original value: Pause Corrections-->
   <string name="string_corrections_stop">Остановить Поправки</string>
   <!--Original value: Satel protocol settings-->
   <string name="satel">Настройки Satel</string>
   <!--Original value: IP Port of NTRIP Caster-->
   <string name="ntripserver_port">IP-порт Ntrip Caster</string>
+  <!--Original value: Course Source-->
+  <string name="text_course_source">Источник курса</string>
   <!--Original value: Noise-->
   <string name="string_noise">Шум</string>
   <!--Original value: Wrong number epochs in group!-->
@@ -241,6 +255,8 @@
   <string name="start_compass_calibration">Начать\nКалибровку\nКомпаса</string>
   <!--Original value: battery-->
   <string name="battery">батарея</string>
+  <!--Original value: Code is required! But did not set!-->
+  <string name="code_is_required">Требуется код!</string>
   <!--Original value: S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
   <string name="start_compass_calibration_land">Н\nа\nч\nа\nт\nь\n \nК\nа\nл\nи\nб\nр\nо\nв\nк\nу\n \nК\nо\nм\nп\nа\nс\nс\nа</string>
   <!--Original value: Average Off-->
@@ -263,6 +279,8 @@
   <string name="oc_is_not_selected">Точка стояния не выбрана!</string>
   <!--Original value: Refresh Token-->
   <string name="string_refresh_token">Обновить Token</string>
+  <!--Original value: Scan UHF-->
+  <string name="button_scan_uhf">Скан.УВЧ</string>
   <!--Original value: Receiver is not connected!-->
   <string name="receiver_is_not_connected">Приемник не подключен!</string>
   <!--Original value: epochs collected-->
@@ -313,7 +331,7 @@
   <string name="antenna_type">Тип антенны</string>
   <!--Original value: Gateway-->
   <string name="gateway">Маршрутизатор</string>
-  <!--Original value: Elevation Mask-->
+  <!--Original value: Elevation Mask, degs-->
   <string name="elevation_mask">Маска угла</string>
   <!--Original value: Layers-->
   <string name="action_map_layers">Слои</string>
@@ -351,6 +369,8 @@
   <string name="compass_and_levels">Компас и уровни</string>
   <!--Original value: C\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn-->
   <string name="start_compass_calibration_land_small">К\nа\nл\nи\nб\nр\n.\nК\nо\nм\nп\nа\nс</string>
+  <!--Original value: Frequency In Use-->
+  <string name="frequency_in_use">Частота занята</string>
   <!--Original value: Get From Catalog-->
   <string name="get_from_catalog">Из каталога</string>
   <!--Original value: Password-->
@@ -369,6 +389,8 @@
   <string name="antenna_height_unit">Единицы высоты</string>
   <!--Original value: No next target!-->
   <string name="no_next_target">Нет следующей цели!</string>
+  <!--Original value: Frequency is Overloaded-->
+  <string name="frequency_overload">Частота перегружена</string>
   <!--Original value: Set LAN-->
   <string name="lan_on">Настройки LAN</string>
   <!--Original value: Stop Corrs.-->
@@ -413,6 +435,8 @@
   <string name="cant_setup_gsps_mode">Сбой настройки DGPS</string>
   <!--Original value: View-->
   <string name="string_view">Вид</string>
+  <!--Original value: Processor Load-->
+  <string name="processor_load">Загрузка процессора</string>
   <!--Original value: RTCM 3.x MSM4 Short-->
   <string name="rtcm3x_msm4_short">RTCM 3.x MSM4 короткие</string>
   <!--Original value: Stakeout Point-->
@@ -499,6 +523,8 @@
   <string name="quattro_distance_ac">Расстояние AC</string>
   <!--Original value: WiFi SSID-->
   <string name="wlan_ssid_summary">WiFi SSID</string>
+  <!--Original value: Start-->
+  <string name="button_start_spectrum">Запуск</string>
   <!--Original value: WLAN-->
   <string name="wlan_settings">WLAN</string>
   <!--Original value: Frequency Rule-->
@@ -633,8 +659,6 @@
   <string name="info_details">Текст</string>
   <!--Original value: 1 hour-->
   <string name="hour">1 час</string>
-  <!--Original value: Ntrip Client Host-->
-  <string name="ntripclient_host">Host Ntrip клиента</string>
   <!--Original value: Delete-->
   <string name="string_delete_style_xml">Удалить</string>
   <!--Original value: Surface Stk.-->
@@ -745,6 +769,8 @@
   <string name="epoch_rejected_pdop">Отброшено по PDOP</string>
   <!--Original value: Reject epochs with tilt more than-->
   <string name="reject_epochs_by_tilt">Отбраковывать эпохи с наклоном больше чем</string>
+  <!--Original value: Check Frequency-->
+  <string name="button_check_frequency">Проверить частоту</string>
   <!--Original value: Mask-->
   <string name="mask">Маска сети</string>
   <!--Original value: Levels are calibrated OK-->
@@ -855,6 +881,8 @@
   <string name="epoch_rejected_height_filter">Отклонено по фильтру высоты</string>
   <!--Original value: LAN IP-->
   <string name="receiver_lan_ip">LAN IP</string>
+  <!--Original value: RCV Client Port-->
+  <string name="rcvclient_port">Порт RCV клиента</string>
   <!--Original value: P2-->
   <string name="string_p2">P2</string>
   <!--Original value: WiFi Mode:%1$s\nSSID:%2$s\nSec:%3$s DHCP:%4$s-->
@@ -975,6 +1003,8 @@
   <string name="text_point_antenna_height">Выс.антенны</string>
   <!--Original value: VRS RTCM3 Coordinate System-->
   <string name="rtcm3_summary">Система координат для RTCM3</string>
+  <!--Original value: Raw Mode-->
+  <string name="rcvclient_raw">Режим raw</string>
   <!--Original value: SatSys-->
   <string name="satsys">Система</string>
   <!--Original value: SNR 2-->
@@ -987,6 +1017,8 @@
   <string name="clock_correction">Коррекция часов</string>
   <!--Original value: View Sats. count-->
   <string name="view_satellite_numbers_as">Показ числа спутников</string>
+  <!--Original value: Receiver can compensate tilt with internal levels/compass.\nBut the position accuracy degrades to 0.2 meters-->
+  <string name="compensate_degradate_message">Приемник может компенсировать наклон при помощи встроенного уровня/компаса.\nНо точность положения упадет до 0.2м!</string>
   <!--Original value: From Receiver-->
   <string name="radio_from_receiver">Из приемника</string>
   <!--Original value: Map Provider-->
@@ -1037,6 +1069,8 @@
   <string name="verify_number_epochs_in_group">Число эпох в группе</string>
   <!--Original value: Trajectory Length Filter-->
   <string name="trajector_length_filter_summary">Фильтр длины траектории</string>
+  <!--Original value: Can not setup antenna input type!-->
+  <string name="cant_setup_antenna_input_type">Не удалось установить вход антенны!</string>
   <!--Original value: Hybrid RTK-->
   <string name="title_hybrid_rtk">Гибридный RTK</string>
   <!--Original value: Ntrip User Name-->
@@ -1285,6 +1319,8 @@
   <string name="rtcm2x_dgps_full">RTCM 2.x DGPS Полн.</string>
   <!--Original value: Compatibility-->
   <string name="text_compatibility">Совместимость</string>
+  <!--Original value: Code for point survey-->
+  <string name="string_code_is_required_values">Код для съемки точек</string>
   <!--Original value: L2C-->
   <string name="l2c">L2C</string>
   <!--Original value: Authent.-->
@@ -1427,12 +1463,12 @@
   <string name="string_baud_rate">Скорость:</string>
   <!--Original value: Rate Info-->
   <string name="correction_rate_info">Информация о канале</string>
-  <!--Original value: Ntrip Client Protocol Version-->
-  <string name="ntripclient_protocol_version">Версия протокола Ntrip клиента</string>
   <!--Original value: User Name-->
   <string name="gprs_user_summary">Имя пользователя</string>
   <!--Original value: Low Bluetooth/WiFi connection-->
   <string name="bluetooth_quality">Слабый сигнал Bluetooth или WiFi</string>
+  <!--Original value: Scan UHF Frequencies-->
+  <string name="button_scan_uhf_summary">Сканировать частоты УВЧ</string>
   <!--Original value: Get From Receiver-->
   <string name="get_from_receiver">Из приемника</string>
   <!--Original value: Wrong antenna height!-->
@@ -1459,6 +1495,8 @@
   <string name="serial_number">С/№:</string>
   <!--Original value: Minimal RTK Engines to accept-->
   <string name="minimal_rtk_engines">Мин.допустимое число движков RTK</string>
+  <!--Original value: Move L1 center to 1571Mhz for better track Beidou B1-->
+  <string name="check_l1center_beidou">Сдвинуть центр L1 на 1571МГц для более хорошего приема Beidou B1 </string>
   <!--Original value: TCP Port-->
   <string name="tcp_port">Порт TCP</string>
   <!--Original value: Max. Working Time-->
@@ -1531,6 +1569,8 @@
   <string name="compass_status_error">Требуется калибровка компаса!</string>
   <!--Original value: Tolerance between groups-->
   <string name="verify_tolerance_between_groups_summary">Допустимый разброс между группами</string>
+  <!--Original value: RCV Client Password-->
+  <string name="rcvclient_password">Пароль RCV клиента</string>
   <!--Original value: Survey already stopped!-->
   <string name="error_survey_already_stopped">Съемка уже остановлена!</string>
   <!--Original value: Average\n\n-->
@@ -1582,7 +1622,7 @@
   <!--Original value: Data memory-->
   <string name="job_main_memory">Объем памяти</string>
   <!--Original value: Use Volume Down button to lock screen touch-->
-  <string name="string_use_volume_button_to_lock_screen_touch">Использовать кнопку Громкости + для блокировки экрана</string>
+  <string name="string_use_volume_button_to_lock_screen_touch">Использовать кнопку Громкости - для блокировки экрана</string>
   <!--Original value: Audio Stakeout-->
   <string name="audio_stakeout">Аудио-выноска</string>
   <!--Original value: This graph shows logging history. For each tracked satellite it shows green line then the satellite was tracked and white gaps then the sat. was not traked.\nThus you can see continuous uninterrupted time for each satellite and estimate your occupation time depends on quality of the tracking.\nThe graph summarises the data with large texts of max continuous time for 6 and 10 simultaneous satellites, and the total measurements collected in the file.-->
@@ -1592,7 +1632,7 @@
   <!--Original value: 0 points-->
   <string name="string_points_count">0 точек</string>
   <!--Original value: dH Slope, %%-->
-  <string name="string_slope">dH</string>
+  <string name="string_slope">dH наклон, %%</string>
   <!--Original value: Skyplot-->
   <string name="action_skyplot">Рисунок</string>
   <!--Original value: no corrections-->
@@ -1613,6 +1653,8 @@
   <string name="string_menu_offset_fast_trajectory">Быстрая траектория</string>
   <!--Original value: Levels OK-->
   <string name="levels_status_ok_small">Уровни OK</string>
+  <!--Original value: RCV Corrections-->
+  <string name="rcvserver_message_set">Поправки RCV</string>
   <!--Original value: DHCP-->
   <string name="dhcp_mode">DHCP</string>
   <!--Original value: Cannot set slant for unknown antenna!-->
@@ -1734,31 +1776,37 @@
   <!--Original value: JPS Min-->
   <string name="jps_min">JPS Min.</string>
   <!--Original value: -->
-  <string name="">P L1 и P L2 измерения используются в РТК</string>
+  <string name="">Настройки Ntrip клиент</string>
   <!--Original value: -->
-  <string name="">Недостаточно точности спутника по URA</string>
+  <string name="">Ошибка сервера!</string>
   <!--Original value: -->
-  <string name="">Нет дифференциальных данных с базы для этого спутника</string>
+  <string name="">\u27AA</string>
   <!--Original value: -->
-  <string name="">C/A не используется для РТК</string>
+  <string name="">JMATE не подключен!</string>
   <!--Original value: -->
-  <string name="">Р1 данные используются для вычислений</string>
+  <string name="">Запуск Засечкой</string>
   <!--Original value: -->
-  <string name="">1ГЦ</string>
+  <string name="">Исп.компас/уровень приемника</string>
   <!--Original value: -->
-  <string name="">Частота:%dГц</string>
+  <string name="">\u2B07</string>
   <!--Original value: -->
-  <string name="">P2 используется для вычисления положения</string>
+  <string name="">Host Ntrip клиента</string>
   <!--Original value: -->
-  <string name="">%1$dдней %2$dчасов %3$dминут</string>
+  <string name="">Подписи выноса</string>
   <!--Original value: -->
-  <string name="">Показать уровни и компас</string>
+  <string name="">\u2195</string>
   <!--Original value: -->
-  <string name="">Эфемериды недоступны, как и в 05</string>
+  <string name="">\u2194</string>
   <!--Original value: -->
-  <string name="">C/A и P L2 используются для RTK вычислений</string>
+  <string name="">\u2B06</string>
   <!--Original value: -->
-  <string name="">DLL не установлено</string>
+  <string name="">Размер текста выноса</string>
   <!--Original value: -->
-  <string name="">Спутник не используется в RTK обработке</string>
+  <string name="">новая RCV база</string>
+  <!--Original value: -->
+  <string name="">Версия протокола Ntrip клиента</string>
+  <!--Original value: -->
+  <string name="">В приемнике нет компаса и уровней!</string>
+  <!--Original value: -->
+  <string name="">\u2B05</string>
 </resources>
