@@ -68,6 +68,7 @@
     <string-array name="orientation_array">
          <item>Względem północy</item>
          <item>Względem kierunku</item>
+        <item>Słońce powyżej</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:140 -->
@@ -229,10 +230,13 @@
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:28 -->
-    <string-array name="info_detail_types">
+    <string-array name="stakeout_info_array">
          <item>Wszystko</item>
+         <item>Wszystko +/-</item>
          <item>Bieżąca/Domiar</item>
+         <item>Bieżąca/Domiar +/-</item>
     </string-array>
+
 
     <!-- Used in file RTKSetupActivity.java:591 -->
     <string-array name="connected_to_array_radio_triumph1">
@@ -467,9 +471,12 @@
 
     <!-- Used in file stakeout_settings.xml:203 -->
     <string-array name="rtk_computation_mode">
-         <item>Extrapolacja</item>
-         <item>Ostatnia znana epoka</item>
+        <item>Ostatnia znana epoka</item>
+        <item>extrap 30 sec</item>
+        <item>extrap 10 sec</item>
+        <item>extrap 5 sec</item>
     </string-array>
+
 
     <!-- Used in file rtk_base_generic_radio.xml:20 -->
     <string-array name="baud_rate">
@@ -816,8 +823,8 @@
 
     <!-- Used in file SurveyingRTK.java:2436 -->
     <string-array name="p1_p2_array">
-         <item>od P2</item>
          <item>od P1</item>
+         <item>od P2</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
