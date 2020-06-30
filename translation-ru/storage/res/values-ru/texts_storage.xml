@@ -21,8 +21,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: Name-->
   <string name="string_name">Имя</string>
-  <!--Original value: HI:-->
-  <string name="string_hi_">ВИ:</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
   <!--Original value: 5 Hz mode-->
@@ -43,8 +41,6 @@
   <string name="string_esri_arcgis___shp">ESRI ArcGIS *.shp</string>
   <!--Original value: Delete point %s-->
   <string name="string_delete_point__s">Удалить точку %s</string>
-  <!--Original value: Compass Receiver-->
-  <string name="string_compass_receiver">Компас приемника</string>
   <!--Original value: Wrong code number!-->
   <string name="string_wrong_code_number_">Неверный номер кода!</string>
   <!--Original value: Stakeout CutFill-->
@@ -85,8 +81,6 @@
   <string name="string_text__code_only____txt">Текст (только код) *.txt</string>
   <!--Original value: on-->
   <string name="string_on">вкл.</string>
-  <!--Original value: Station-->
-  <string name="string_station">Станция</string>
   <!--Original value: Correction Source Id-->
   <string name="string_correction_source_id">Ид.источника</string>
   <!--Original value: CSV file *.csv-->
@@ -153,8 +147,6 @@
   <string name="string_meas_">изм.</string>
   <!--Original value: Successfully imported %d code-->
   <string name="string_successfully_imported__d_code">Успешно загружено %d кодов</string>
-  <!--Original value: RMS:-->
-  <string name="string_rms_">СКО:</string>
   <!--Original value: job-->
   <string name="string_job">проект</string>
   <!--Original value: Auth.with -->
@@ -263,8 +255,6 @@
   <string name="string_aver__s">Сред.%s</string>
   <!--Original value: Status-->
   <string name="string_status">Статус</string>
-  <!--Original value: Mark Height-->
-  <string name="string_mark_height">Высота марки</string>
   <!--Original value: Overwrite-->
   <string name="string_overwrite">Перезаписать</string>
   <!--Original value: Protocol-->
@@ -279,8 +269,6 @@
   <string name="string_h_rms_">СКО План.:</string>
   <!--Original value: VDOP-->
   <string name="string_vdop">VDOP</string>
-  <!--Original value: SD-->
-  <string name="string_sd">SD</string>
   <!--Original value: %d points-->
   <string name="string__d_points">%d точек</string>
   <!--Original value: Stakeout-->
@@ -345,16 +333,12 @@
   <string name="string_autostop">автостоп</string>
   <!--Original value: No points to delete!-->
   <string name="string_no_points_to_delete_">Нет точек для удаления</string>
-  <!--Original value: Mark Id is not selected!-->
-  <string name="string_mark_id_is_not_selected_">Марка не выбрана!</string>
   <!--Original value: %s is not a folder!-->
   <string name="string__s_is_not_a_folder_">%s - не папка!</string>
   <!--Original value: TS Points-->
   <string name="string_ts_points">Тах.точки</string>
   <!--Original value: Coordinate-->
   <string name="string_coordinate">Координата</string>
-  <!--Original value: Compass Controller-->
-  <string name="string_compass_controller">Компас контролера</string>
   <!--Original value: Survey Info-->
   <string name="string_survey_info">Информация о снятом</string>
   <!--Original value: Test-->
@@ -437,8 +421,6 @@
   <string name="string_modify_rtk_base">Изменить RTK базу</string>
   <!--Original value: Occupation Time-->
   <string name="string_occupation_time">Время стояния</string>
-  <!--Original value: Inclination Y Receiver-->
-  <string name="string_inclination_y_receiver">Наклон Y приемника</string>
   <!--Original value: Do you want to set description \'%1$s\' for all %2$d points?-->
   <string name="string_do_you_want_to_set_description___1_s__for_all__2_d_points_">Установить описание %1$s для всех %2$d точек?</string>
   <!--Original value: Satellites-->
@@ -453,6 +435,8 @@
   <string name="string_epochs">эпох</string>
   <!--Original value: Applying setting…-->
   <string name="string_applying_setting___">Настройки применяются…</string>
+  <!--Original value: Inclination Martix-->
+  <string name="string_inclination_martix">Матрица наклонов</string>
   <!--Original value: All Codes-->
   <string name="string_all_codes">Все коды</string>
   <!--Original value: %1$d changed ok\n%2$d can\'t be changed!-->
@@ -465,8 +449,6 @@
   <string name="string_point_name_is_empty_">Имя точки пустое!</string>
   <!--Original value: FH Freq-->
   <string name="string_fh_freq">Част.FH</string>
-  <!--Original value: Inclination X Receiver-->
-  <string name="string_inclination_x_receiver">Наклон X приемника</string>
   <!--Original value: Delete %1$s %2$s-->
   <string name="string_delete__1_s__2_s">Удалить %1$s %2$s</string>
   <!--Original value: Wrong min value length!-->
@@ -477,8 +459,6 @@
   <string name="string_import_error__">Ошибка импорта №</string>
   <!--Original value: New Picture-->
   <string name="string_new_picture">Новое фото</string>
-  <!--Original value: ZA-->
-  <string name="string_za">ЗР</string>
   <!--Original value: Please check free space in the main memory before the action!-->
   <string name="string_please_check_free_space_in_the_main_memory_before_the_action_">Пожалуйста, проверьте свободное место в основной памяти перед выполнением!</string>
   <!--Original value: %d design point changed ok-->
@@ -507,12 +487,12 @@
   <string name="string_importing">Импорт</string>
   <!--Original value: Dst-->
   <string name="string_dst">Раст</string>
-  <!--Original value: Inclination Y Controller-->
-  <string name="string_inclination_y_controller">Наклон Y контролера</string>
   <!--Original value: Moving job %s-->
   <string name="string_moving_job__s">перемещение проекта %s</string>
   <!--Original value: MapInfo (*.tab)-->
   <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
+  <!--Original value: Inclination Y-->
+  <string name="string_inclination_y">Наклон Y</string>
   <!--Original value: Inclination X-->
   <string name="string_inclination_x">Наклон Х</string>
   <!--Original value: And-->
@@ -525,8 +505,6 @@
   <string name="string_check_all">Отметить все</string>
   <!--Original value: %1$d points were added into catalog %2$s-->
   <string name="string__1_d_points_were_added_into_catalog__2_s">%1$d точек были добавлены в каталог %2$s</string>
-  <!--Original value: BackSite-->
-  <string name="string_backsite">Зад.точка</string>
   <!--Original value: point-->
   <string name="string_point">точка</string>
   <!--Original value: Add %1$d selected points to catalog %2$s-->
@@ -571,10 +549,6 @@
   <string name="string_field_name_is_empty_">Имя файла не задано!</string>
   <!--Original value: Do you want to edit %d points simultinuously?-->
   <string name="string_do_you_want_to_edit__d_points_simultinuously_">Хотите изменить сразу %d точек?</string>
-  <!--Original value: Inclination Martix Receiver-->
-  <string name="string_inclination_martix_receiver">Матрица наклона приемника</string>
-  <!--Original value: Inclination X Controller-->
-  <string name="string_inclination_x_controller">Наклон X приемника</string>
   <!--Original value: Use Fix or Float-->
   <string name="string_use_fix_or_float">Исп-ть Fix или Float</string>
   <!--Original value: id:-->
@@ -661,8 +635,6 @@
   <string name="string__d_design_points">%d выносных точек </string>
   <!--Original value: Point %1$s was successfully added into catalog %2$s-->
   <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Точка %1$s добавлена в каталог %2$s</string>
-  <!--Original value: Wrong mark height!-->
-  <string name="string_wrong_mark_height_">Неверная высота марки!</string>
   <!--Original value: View Images/Audios-->
   <string name="string_view_images_audios">Просмотр Фото/Аудио</string>
   <!--Original value: Base ID #-->
@@ -699,12 +671,12 @@
   <string name="string_fh_usa">FH USA</string>
   <!--Original value: Jps file-->
   <string name="string_filename">Файл jps</string>
-  <!--Original value: Instrument Height-->
-  <string name="string_instrument_height">Высота инструмена</string>
   <!--Original value: Antenna Id is not selected!-->
   <string name="string_antenna_id_is_not_selected_">Антенна не выбрана!</string>
   <!--Original value: Mark-->
   <string name="string_mark">Марка</string>
+  <!--Original value: Compass-->
+  <string name="string_compass">Компас</string>
   <!--Original value: AutoCad Drawing (*.dxf)-->
   <string name="string_autocad_drawing____dxf_">AutoCAD (*.dxf)</string>
   <!--Original value: Correction Source Protocol-->
@@ -715,8 +687,6 @@
   <string name="string_view_edit__s">Просмотр/Правка %s</string>
   <!--Original value: Select Job-->
   <string name="string_select_job">Выбрать проект</string>
-  <!--Original value: Inclination Martix Controller-->
-  <string name="string_inclination_martix_controller">Матрица наклона контролера</string>
   <!--Original value: Hybrid RTK-->
   <string name="string_hybrid_rtk">Гибридный RTK</string>
   <!--Original value: %d vertices-->
@@ -734,9 +704,39 @@
   <!--Original value: Point %s already exists!-->
   <string name="string_point__s_already_exists_">Точка с именем %s уже существует!</string>
   <!--Original value: -->
-  <string name="">Матрица наклонов</string>
+  <string name="">ВИ:</string>
   <!--Original value: -->
-  <string name="">Наклон Y</string>
+  <string name="">Компас приемника</string>
   <!--Original value: -->
-  <string name="">Компас</string>
+  <string name="">Станция</string>
+  <!--Original value: -->
+  <string name="">СКО:</string>
+  <!--Original value: -->
+  <string name="">Высота марки</string>
+  <!--Original value: -->
+  <string name="">SD</string>
+  <!--Original value: -->
+  <string name="">Марка не выбрана!</string>
+  <!--Original value: -->
+  <string name="">Компас контролера</string>
+  <!--Original value: -->
+  <string name="">Наклон Y приемника</string>
+  <!--Original value: -->
+  <string name="">Наклон X приемника</string>
+  <!--Original value: -->
+  <string name="">ЗР</string>
+  <!--Original value: -->
+  <string name="">Наклон Y контролера</string>
+  <!--Original value: -->
+  <string name="">Зад.точка</string>
+  <!--Original value: -->
+  <string name="">Матрица наклона приемника</string>
+  <!--Original value: -->
+  <string name="">Наклон X приемника</string>
+  <!--Original value: -->
+  <string name="">Неверная высота марки!</string>
+  <!--Original value: -->
+  <string name="">Высота инструмена</string>
+  <!--Original value: -->
+  <string name="">Матрица наклона контролера</string>
 </resources>

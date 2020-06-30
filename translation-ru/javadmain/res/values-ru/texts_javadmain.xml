@@ -1,194 +1,151 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file SettingsFragment.java:672. Original value:Debug Survey  -->
+    <string name="string_debug_survey">Отладка Съемка</string>
+    <!--  Used in file HomeMapActivity.java:1981. Original value:Receiver is not licensed!  -->
+    <string name="string_receiver_is_not_licensed_">Приемник не имеет OAF лицензии!</string>
+    <!--  Used in file BaseHomeActivity.java:1152. Original value:Close  -->
+    <string name="string_close">Закрыть</string>
+    <!--  Used in file SettingsFragment.java:157. Original value:Use  -->
+    <string name="string_use">Исп.</string>
+    <!--  Used in file SettingsFragment.java:113. Original value:This is dangerous setting  -->
+    <string name="string_this_is_dangerous_setting">Это опасная настройка</string>
+    <!--  Used in file BaseHomeActivity.java:858. Original value:Russian  -->
+    <string name="string_russian">Русский</string>
+    <!--  Used in file SettingsFragment.java:273. Original value:Scheme  -->
+    <string name="string_scheme">Схема</string>
+    <!--  Used in file SettingsFragment.java:293. Original value:Survey/Stakeout without Map  -->
+    <string name="string_survey_stakeout_without_map">Съемка/Вынос без карты</string>
+    <!--  Used in file BaseHomeActivity.java:524. Original value:Option has purchased. App is licensed to work with any JAVAD GNSS receiver.  -->
+    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Опции приобретены. Программа теперь будет работать с любым приемником JAVAD GNSS.</string>
+    <!--  Used in file BaseHomeActivity.java:785. Original value:Job:  -->
+    <string name="string_job_">Проект:</string>
+    <!--  Used in file HomeMapActivity.java:2599. Original value:Permission denied to access to camera  -->
+    <string name="string_permission_denied_to_access_to_camera">Для доступа к камере нужно системное разрешение!</string>
+    <!--  Used in file BaseHomeActivity.java:462. Original value:Problem setting up In-app Billing:   -->
+    <string name="string_problem_setting_up_in_app_billing__">Проблема встроенной покупки:</string>
+    <!--  Used in file BaseHomeActivity.java:1146. Original value:Start Corrections  -->
+    <string name="string_start_corrections">Запустить поправки</string>
+    <!--  Used in file SettingsFragment.java:655. Original value:Archive jobs to GoogleDrive  -->
+    <string name="string_archive_jobs_to_googledrive">Архивация в GoogleDrive</string>
+    <!--  Used in file SettingsFragment.java:660. Original value:Archive jobs to Microsoft OneDrive  -->
+    <string name="string_archive_jobs_to_microsoft_onedrive">Архивация в Microsoft OneDrive</string>
+    <!--  Used in file BaseHomeActivity.java:754. Original value:Version:%1$s%2$s %3$s  -->
+    <string name="string_version__1_s_2_s__3_s">Версия:%1$s%2$s %3$s</string>
+    <!--  Used in file SettingsFragment.java:298. Original value:Survey on bottom  -->
+    <string name="string_survey_on_bottom">Съемка внизу экрана</string>
+    <!--  Used in file SettingsFragment.java:301. Original value:Antenna/Settings button  -->
+    <string name="string_antenna_settings_button">Кнопки Антена и Настройки</string>
+    <!--  Used in file BaseHomeActivity.java:833. Original value:Language  -->
+    <string name="string_language">Язык</string>
+    <!--  Used in file BaseHomeActivity.java:1147. Original value:Stop Corrections  -->
+    <string name="string_stop_corrections">Остановить поправки</string>
+    <!--  Used in file BaseHomeActivity.java:859. Original value:Taiwan  -->
+    <string name="string_taiwan">Китайский</string>
+    <!--  Used in file BaseHomeActivity.java:860. Original value:Turkish  -->
+    <string name="string_turkish">Турецкий</string>
+    <!--  Used in file SettingsFragment.java:159. Original value:5Hz  -->
+    <string name="string_5hz">5Гц</string>
+    <!--  Used in file BaseHomeActivity.java:1144. Original value:Start RTK Rover  -->
+    <string name="string_start_rtk_rover">Запустить RTK ровер</string>
+    <!--  Used in file SettingsFragment.java:153. Original value:Stay for %dsec  -->
+    <string name="string_stay_for__dsec">Стоять %d сек</string>
+    <!--  Used in file BaseHomeActivity.java:660. Original value:Permission denied to write to your External storage  -->
+    <string name="string_permission_denied_to_write_to_your_external_storage">Настройки программы запрещают доступ к файлам!</string>
+    <!--  Used in file SettingsFragment.java:650. Original value:Archive jobs to DropBox  -->
+    <string name="string_archive_jobs_to_dropbox">Архивация в DropBox</string>
+    <!--  Used in file BaseHomeActivity.java:836. Original value:English  -->
+    <string name="string_english">Английский</string>
+    <!--  Used in file BaseHomeActivity.java:2239. Original value:Id  -->
+    <string name="string_id">Ид.</string>
+    <!--  Used in file SettingsFragment.java:296. Original value:Survey on top  -->
+    <string name="string_survey_on_top">Вверху экрана</string>
+    <!--  Used in file BaseHomeActivity.java:772. Original value:Rec:  -->
+    <string name="string_rec_">П-к:</string>
+    <!--  Used in file SettingsFragment.java:113. Original value:Changing archive settings will move all your job files!  -->
+    <string name="string_changing_archive_settings_will_move_all_your_job_files_">Изменение настроек архивации переместит ВСЕ ваши проекты!</string>
+    <!--  Used in file BaseHomeActivity.java:498. Original value:Error purchasing:   -->
+    <string name="string_error_purchasing__">Ошибка покупки:</string>
+    <!--  Used in file SettingsFragment.java:157. Original value:Fix, Float or DGPS  -->
+    <string name="string_fix__float_or_dgps">Фикс,Плав или DGPS</string>
+    <!--  Used in file BaseHomeActivity.java:1152. Original value:Disconnect  -->
+    <string name="string_disconnect">Разорвать</string>
+    <!--  Used in file SettingsFragment.java:646. Original value:Archive jobs to SD folder %s  -->
+    <string name="string_archive_jobs_to_sd_folder__s">Проекты архивируются в папку %s</string>
+    <!--  Used in file SettingsFragment.java:112. Original value:Warning  -->
+    <string name="string_warning">Внимание</string>
+    <!--  Used in file SettingsFragment.java:199. Original value:no correction source  -->
+    <string name="string_no_correction_source">нет источника поправок</string>
+    <!--  Used in file BaseHomeActivity.java:650. Original value:Permission denied to read from your External storage  -->
+    <string name="string_permission_denied_to_read_from_your_external_storage">Настройки программы запрещают доступ к внешним файлам!</string>
+    <!--  Used in file SettingsFragment.java:157. Original value:Fixed Only  -->
+    <string name="string_fixed_only">Фикс.только</string>
+    <!--  Used in file SettingsFragment.java:113. Original value:Do you want to continue anyway?  -->
+    <string name="string_do_you_want_to_continue_anyway_">Хотите все равно продолжить?</string>
+    <!--  Used in file BaseHomeActivity.java:2239. Original value:Receiver  -->
+    <string name="string_receiver">Приемник</string>
+    <!--  Used in file SettingsFragment.java:672. Original value:No debug  -->
+    <string name="string_no_debug">Без отладки</string>
+    <!--  Used in file BaseHomeActivity.java:1203. Original value:Connection in progress&#8230;!  -->
+    <string name="string_connection_in_progress____">Подключение уже идет…!</string>
+    <!--  Used in file BaseHomeActivity.java:1939. Original value:Select Project  -->
+    <string name="string_select_project">Выбор точек</string>
+    <!--  Used in file BaseHomeActivity.java:1314. Original value:Do you want to exit the application?  -->
+    <string name="string_do_you_want_to_exit_the_application_">Вы хотите выйти из программы?</string>
+    <!--  Used in file SettingsFragment.java:677. Original value:No file logging  -->
+    <string name="string_no_file_logging">Нет записи в файл</string>
+    <!--  Used in file BaseHomeActivity.java:1941. Original value:Select Last Job (%s)  -->
+    <string name="string_select_last_job___s_">Открыть прошлый проект (%s)</string>
+    <!--  Used in file SettingsFragment.java:249. Original value:RTKBases  -->
+    <string name="string_rtkbases">RTK базы</string>
+    <!--  Used in file BaseHomeActivity.java:829. Original value:Sounds  -->
+    <string name="string_sounds">Звуки</string>
+    <!--  Used in file BaseHomeActivity.java:1145. Original value:Stop RTK Rover  -->
+    <string name="string_stop_rtk_rover">Остановить RTK ровер</string>
+    <!--  Used in file BaseHomeActivity.java:674. Original value:Permission denied to obtain list of Bluetooth devices around  -->
+    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Нет разрешения в системе для получения списка Bluetooth устройств вокруг</string>
+    <!--  Used in file SettingsFragment.java:155. Original value:Stay till Stop  -->
+    <string name="string_stay_till_stop">До нажатия вручную</string>
+    <!--  Used in file SettingsFragment.java:675. Original value:Log to file  -->
+    <string name="string_log_to_file">Запись в файл</string>
+    <!--  Used in file BaseHomeActivity.java:1313. Original value:Exit application  -->
+    <string name="string_exit_application">Выйти из программы?</string>
+    <!--  Used in file SettingsFragment.java:245. Original value:Design  -->
+    <string name="string_design">Выносные</string>
+    <!--  Used in file SettingsFragment.java:199. Original value:Corrections:  -->
+    <string name="string_corrections_">Поправки:</string>
+    <!--  Used in file SettingsFragment.java:291. Original value:Survey/Stakeout on Map  -->
+    <string name="string_survey_stakeout_on_map">Съемка/Вынос на Карте</string>
+    <!--  Used in file BaseHomeActivity.java:1942. Original value:Select Other Job&#8230;  -->
+    <string name="string_select_other_job___">Выбрать другой проект</string>
+    <!--  Used in file SettingsFragment.java:162. Original value:North Up  -->
+    <string name="string_north_up">На север</string>
+    <!--  Used in file SettingsFragment.java:303. Original value:Additional views  -->
+    <string name="string_additional_views">Доп.окна</string>
+    <!--  Used in file SettingsFragment.java:157. Original value:All Epochs  -->
+    <string name="string_all_epochs">Все эпохи</string>
+    <!--  Used in file BaseHomeActivity.java:208. Original value:Wrong device  -->
+    <string name="string_wrong_device">Неверное устройство</string>
+    <!--  Used in file SettingsFragment.java:299. Original value:View:  -->
+    <string name="string_view_">Показывать:</string>
+    <!--  Used in file SettingsFragment.java:663. Original value:Job Arhiving is off  -->
+    <string name="string_job_arhiving_is_off">Архивация проектов отключена</string>
+    <!--  Used in file BaseHomeActivity.java:209. Original value:The application is designed to be ran on Nautiz X8 device only.  -->
+    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Это приложение может быть запущенно только на Nautiz X8!</string>
+    <!--  Used in file HomeMapActivity.java:2722. Original value:You can\'t import Survey points!  -->
+    <string name="string_you_can_t_import_survey_points_">Нельзя испортировать снятые точки!</string>
+    <!--  Used in file SettingsFragment.java:247. Original value:TS  -->
+    <string name="string_ts">Тах.</string>
+    <!--  Used in file BaseHomeActivity.java:2339. Original value:Error!  -->
+    <string name="string_error_">Ошибка!</string>
+    <!--  Used in file BaseHomeActivity.java:752. Original value:Build:%s  -->
+    <string name="string_build__s">Сборка:%s</string>
+    <!--  Used in file SettingsFragment.java:243. Original value:Survey  -->
+    <string name="string_survey">Снятые</string>
+    <!--  Used in file SettingsFragment.java:162. Original value:Course Up  -->
+    <string name="string_course_up">По движению</string>
+    <!--  Used in file BaseHomeActivity.java:370. Original value:Points  -->
+    <string name="string_points">Точки</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Debug Survey-->
-  <string name="string_debug_survey">Отладка Съемка</string>
-  <!--Original value: Receiver is not licensed!-->
-  <string name="string_receiver_is_not_licensed_">Приемник не имеет OAF лицензии!</string>
-  <!--Original value: Close-->
-  <string name="string_close">Закрыть</string>
-  <!--Original value: Use-->
-  <string name="string_use">Исп.</string>
-  <!--Original value: This is dangerous setting-->
-  <string name="string_this_is_dangerous_setting">Это опасная настройка</string>
-  <!--Original value: Russian-->
-  <string name="string_russian">Русский</string>
-  <!--Original value: Scheme-->
-  <string name="string_scheme">Схема</string>
-  <!--Original value: Survey/Stakeout without Map-->
-  <string name="string_survey_stakeout_without_map">Съемка/Вынос без карты</string>
-  <!--Original value: Option has purchased. App is licensed to work with any JAVAD GNSS receiver.-->
-  <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Опции приобретены. Программа теперь будет работать с любым приемником JAVAD GNSS.</string>
-  <!--Original value: Job:-->
-  <string name="string_job_">Проект:</string>
-  <!--Original value: Permission denied to access to camera-->
-  <string name="string_permission_denied_to_access_to_camera">Для доступа к камере нужно системное разрешение!</string>
-  <!--Original value: Problem setting up In-app Billing: -->
-  <string name="string_problem_setting_up_in_app_billing__">Проблема встроенной покупки:</string>
-  <!--Original value: Start Corrections-->
-  <string name="string_start_corrections">Запустить поправки</string>
-  <!--Original value: Archive jobs to GoogleDrive-->
-  <string name="string_archive_jobs_to_googledrive">Архивация в GoogleDrive</string>
-  <!--Original value: Archive jobs to Microsoft OneDrive-->
-  <string name="string_archive_jobs_to_microsoft_onedrive">Архивация в Microsoft OneDrive</string>
-  <!--Original value: Version:%1$s%2$s %3$s-->
-  <string name="string_version__1_s_2_s__3_s">Версия:%1$s%2$s %3$s</string>
-  <!--Original value: Survey on bottom-->
-  <string name="string_survey_on_bottom">Съемка внизу экрана</string>
-  <!--Original value: Antenna/Settings button-->
-  <string name="string_antenna_settings_button">Кнопки Антена и Настройки</string>
-  <!--Original value: Language-->
-  <string name="string_language">Язык</string>
-  <!--Original value: Stop Corrections-->
-  <string name="string_stop_corrections">Остановить поправки</string>
-  <!--Original value: Taiwan-->
-  <string name="string_taiwan">Китайский</string>
-  <!--Original value: Turkish-->
-  <string name="string_turkish">Турецкий</string>
-  <!--Original value: 5Hz-->
-  <string name="string_5hz">5Гц</string>
-  <!--Original value: Start RTK Rover-->
-  <string name="string_start_rtk_rover">Запустить RTK ровер</string>
-  <!--Original value: Stay for %dsec-->
-  <string name="string_stay_for__dsec">Стоять %d сек</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="string_permission_denied_to_write_to_your_external_storage">Настройки программы запрещают доступ к файлам!</string>
-  <!--Original value: Archive jobs to DropBox-->
-  <string name="string_archive_jobs_to_dropbox">Архивация в DropBox</string>
-  <!--Original value: English-->
-  <string name="string_english">Английский</string>
-  <!--Original value: Id-->
-  <string name="string_id">Ид.</string>
-  <!--Original value: Survey on top-->
-  <string name="string_survey_on_top">Вверху экрана</string>
-  <!--Original value: Rec:-->
-  <string name="string_rec_">П-к:</string>
-  <!--Original value: Changing archive settings will move all your job files!-->
-  <string name="string_changing_archive_settings_will_move_all_your_job_files_">Изменение настроек архивации переместит ВСЕ ваши проекты!</string>
-  <!--Original value: Error purchasing: -->
-  <string name="string_error_purchasing__">Ошибка покупки:</string>
-  <!--Original value: Fix, Float or DGPS-->
-  <string name="string_fix__float_or_dgps">Фикс,Плав или DGPS</string>
-  <!--Original value: Disconnect-->
-  <string name="string_disconnect">Разорвать</string>
-  <!--Original value: Archive jobs to SD folder %s-->
-  <string name="string_archive_jobs_to_sd_folder__s">Проекты архивируются в папку %s</string>
-  <!--Original value: Warning-->
-  <string name="string_warning">Внимание</string>
-  <!--Original value: no correction source-->
-  <string name="string_no_correction_source">нет источника поправок</string>
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="string_permission_denied_to_read_from_your_external_storage">Настройки программы запрещают доступ к внешним файлам!</string>
-  <!--Original value: Fixed Only-->
-  <string name="string_fixed_only">Фикс.только</string>
-  <!--Original value: Do you want to continue anyway?-->
-  <string name="string_do_you_want_to_continue_anyway_">Хотите все равно продолжить?</string>
-  <!--Original value: Receiver-->
-  <string name="string_receiver">Приемник</string>
-  <!--Original value: No debug-->
-  <string name="string_no_debug">Без отладки</string>
-  <!--Original value: Connection in progress…!-->
-  <string name="string_connection_in_progress____">Подключение уже идет…!</string>
-  <!--Original value: Select Project-->
-  <string name="string_select_project">Выбор точек</string>
-  <!--Original value: Do you want to exit the application?-->
-  <string name="string_do_you_want_to_exit_the_application_">Вы хотите выйти из программы?</string>
-  <!--Original value: No file logging-->
-  <string name="string_no_file_logging">Нет записи в файл</string>
-  <!--Original value: Select Last Job (%s)-->
-  <string name="string_select_last_job___s_">Открыть прошлый проект (%s)</string>
-  <!--Original value: RTKBases-->
-  <string name="string_rtkbases">RTK базы</string>
-  <!--Original value: Sounds-->
-  <string name="string_sounds">Звуки</string>
-  <!--Original value: Stop RTK Rover-->
-  <string name="string_stop_rtk_rover">Остановить RTK ровер</string>
-  <!--Original value: Permission denied to obtain list of Bluetooth devices around-->
-  <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Нет разрешения в системе для получения списка Bluetooth устройств вокруг</string>
-  <!--Original value: Stay till Stop-->
-  <string name="string_stay_till_stop">До нажатия вручную</string>
-  <!--Original value: Log to file-->
-  <string name="string_log_to_file">Запись в файл</string>
-  <!--Original value: Exit application-->
-  <string name="string_exit_application">Выйти из программы?</string>
-  <!--Original value: Design-->
-  <string name="string_design">Выносные</string>
-  <!--Original value: Corrections:-->
-  <string name="string_corrections_">Поправки:</string>
-  <!--Original value: Survey/Stakeout on Map-->
-  <string name="string_survey_stakeout_on_map">Съемка/Вынос на Карте</string>
-  <!--Original value: Select Other Job…-->
-  <string name="string_select_other_job___">Выбрать другой проект</string>
-  <!--Original value: North Up-->
-  <string name="string_north_up">На север</string>
-  <!--Original value: Additional views-->
-  <string name="string_additional_views">Доп.окна</string>
-  <!--Original value: All Epochs-->
-  <string name="string_all_epochs">Все эпохи</string>
-  <!--Original value: Wrong device-->
-  <string name="string_wrong_device">Неверное устройство</string>
-  <!--Original value: View:-->
-  <string name="string_view_">Показывать:</string>
-  <!--Original value: Job Arhiving is off-->
-  <string name="string_job_arhiving_is_off">Архивация проектов отключена</string>
-  <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
-  <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Это приложение может быть запущенно только на Nautiz X8!</string>
-  <!--Original value: You can\'t import Survey points!-->
-  <string name="string_you_can_t_import_survey_points_">Нельзя испортировать снятые точки!</string>
-  <!--Original value: TS-->
-  <string name="string_ts">Тах.</string>
-  <!--Original value: Error!-->
-  <string name="string_error_">Ошибка!</string>
-  <!--Original value: Build:%s-->
-  <string name="string_build__s">Сборка:%s</string>
-  <!--Original value: Survey-->
-  <string name="string_survey">Снятые</string>
-  <!--Original value: Course Up-->
-  <string name="string_course_up">По движению</string>
-  <!--Original value: Points-->
-  <string name="string_points">Точки</string>
-  <!--Original value: -->
-  <string name="">Хотите удалить %1$s?</string>
-  <!--Original value: -->
-  <string name="">Отменить</string>
-  <!--Original value: -->
-  <string name="">Вынос линии</string>
-  <!--Original value: -->
-  <string name="">Вынос</string>
-  <!--Original value: -->
-  <string name="">Просмотр/Правка</string>
-  <!--Original value: -->
-  <string name="">Снятые точки</string>
-  <!--Original value: -->
-  <string name="">Приемник не подключен!</string>
-  <!--Original value: -->
-  <string name="">Проложить маршрут</string>
-  <!--Original value: -->
-  <string name="">Приемник не имеет лицензии (OAF)!</string>
-  <!--Original value: -->
-  <string name="">Что делать с точкой %1$s?</string>
-  <!--Original value: -->
-  <string name="">Удалить</string>
-  <!--Original value: -->
-  <string name="">Выносные точки</string>
-  <!--Original value: -->
-  <string name="">N:%1$.3f_E:%2$.3f</string>
 </resources>
