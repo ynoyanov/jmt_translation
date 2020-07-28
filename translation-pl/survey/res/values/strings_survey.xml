@@ -995,6 +995,8 @@
     <string name="string_snr1">SNR 1</string>
     <!-- Used in file rtk_base_rcv.xml:14    -->
     <string name="string_internet_from_xml">Internet from</string>
+    <string name="string_base_internet_from_xml">Internet on base from</string>
+    <string name="string_rover_internet_from_xml">Internet on rover from</string>
     <!-- Used in file rtk_base_uhf.xml:112    -->
     <string name="clock_correction">Clock Correction</string>
     <!-- Used in file activity_satellite_types.xml:329    -->
@@ -1029,6 +1031,8 @@
     <string name="error_correction">Error Correction(FEC)</string>
     <!-- Used in file map_stakeout.xml:8    -->
     <string name="string_eye_xml">Eye</string>
+    <!-- Used in file rtk_base_rcv.xml:35    -->
+    <string name="string_ar_xml">AR</string>
     <!-- Used in file rtk_base_rcv.xml:35    -->
     <string name="login">Login</string>
     <!-- Used in file content_home_map_stakeoutonmap_top.xml:36    -->
@@ -1757,65 +1761,14 @@
     <string name="carrier">Carrier</string>
     <!-- Used in file ConfigureCorrectionStyleBaseActivity.java:558    -->
     <string name="jps_min">JPS Min</string>
-    <!-- UNUSED STRING 
-    <string name="rcvclient_gga">Enable GGA</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="ntripclient_on">Ntrip Client config.</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_server_error_">Server error!</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_right_sign2">\u27AA</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="jmate_is_not_connected">JMATE is not connected!</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_resection_station">Start Resection</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="use_compass_and_levels">Use Compass/Levels from Receiver</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_backward_sign2">\u2B07</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="ntripclient_host">Ntrip Client Host</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="info_text_labels">Stakeout Labels</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_along_sign2">\u2195</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_across_sign2">\u2194</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_forward_sign2">\u2B06</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="info_text_size">Text Size of St.Info</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_new_rcv_base">new RCV Base</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="ntripclient_protocol_version">Ntrip Client Protocol Version</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_ar_xml">AR</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="receiver_has_no_compass_levels">Receiver has no compass/levels!</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_code_is_required">Code is required for each point</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="text_left_sign2">\u2B05</string>
-    -->
+    <string name="string_start_station_string">Start Station</string>
+    <string name="string_resection_station_string">Start Resection</string>
+    <string name="jmate_is_not_connected_string">JMATE is not connected!</string>
+    <string name="info_text_size_string">Stakeout text size</string>
+    <string name="info_text_labels_string">Stakeout labels</string>
+    <string name="string_by_distances_string">By Distances\nN:\nE:\nH:</string>
+    <string name="string_by_angles_string">By Angles\nN:\nE:\nH:</string>
+
+
 
 </resources>
