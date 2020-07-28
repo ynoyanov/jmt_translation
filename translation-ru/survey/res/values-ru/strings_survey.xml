@@ -217,6 +217,10 @@
   <string name="error_no_data_collected">Данных не собрано!</string>
   <!--Original value: Dialup Number-->
   <string name="dialup_number">Номер</string>
+  <!--Original value: Switched to extrap 5 sec-->
+  <string name="switched_to_extrap_5_sec">Сменить на extrap 5 сек</string>
+  <!--Original value: Internet on base from-->
+  <string name="string_base_internet_from_xml">Интернет на базе с</string>
   <!--Original value: Measure Units-->
   <string name="units">Единицы измерения</string>
   <!--Original value: Elevation-->
@@ -245,6 +249,8 @@
   <string name="check_logging">Запись в приемник</string>
   <!--Original value: IRNSS-->
   <string name="check_irnss">IRNSS</string>
+  <!--Original value: By Angles\nN:\nE:\nH:-->
+  <string name="string_by_angles_string">По углам\nN:\nE:\nH:</string>
   <!--Original value: Black-->
   <string name="color_black">Черный</string>
   <!--Original value: Lock style from modifications-->
@@ -477,6 +483,8 @@
   <string name="antenna_input_type">Антенный вход</string>
   <!--Original value: SAT-->
   <string name="string_satsys">СПУТ</string>
+  <!--Original value: Reading from receiver will replace your settings with current settings written to GNSS receiver.\nDo you want to continue?-->
+  <string name="read_from_receiver_warning">Чтение с приемника заменит текущие настройки данными из приемника \nХотите выполнить?</string>
   <!--Original value: Navigation-->
   <string name="string_stakeout_settings">Навигация</string>
   <!--Original value: INFO-->
@@ -498,7 +506,7 @@
   <!--Original value: Reset-->
   <string name="string_reset_to_default">Перезапуск</string>
   <!--Original value: RMS Roll-->
-  <string name="quattro_rms_roll">СКО тангажа</string>
+  <string name="quattro_rms_roll">СКО крена</string>
   <!--Original value: Activate Post-Processing after-->
   <string name="save_post_processing_after">Оставлять для пост.обработки после </string>
   <!--Original value: Mainboard-->
@@ -809,6 +817,8 @@
   <string name="text_zoom_plus">Плюс</string>
   <!--Original value: Start RTK-->
   <string name="string_rtk_start">Старт RTK</string>
+  <!--Original value: Switch to extrap 5 sec"-->
+  <string name="switch_to_extrap_5_sec">Сменить на extrap 5 сек</string>
   <!--Original value: GPS-->
   <string name="check_gps">GPS</string>
   <!--Original value: Back Site is not Selected!-->
@@ -835,6 +845,8 @@
   <string name="logging_rate">Частота записи</string>
   <!--Original value: SOUNDS-->
   <string name="sounds_up">ЗВУКИ</string>
+  <!--Original value: Remain in delay mode-->
+  <string name="remain_in_delay">Оставить delay</string>
   <!--Original value: \u2192-->
   <string name="string_next_arrow">\u2192</string>
   <!--Original value: Deltas\n-->
@@ -853,6 +865,8 @@
   <string name="string_use_voice_commands_control_for_survey">Голосовые команды для начала/конца съемки</string>
   <!--Original value: Point stored OK-->
   <string name="survey_point_stored_ok">Точка сохранена</string>
+  <!--Original value: Code-->
+  <string name="text_point_code">Код</string>
   <!--Original value: GLONASS-->
   <string name="check_glo">ГЛОНАСС</string>
   <!--Original value: Occupation Time-->
@@ -935,6 +949,8 @@
   <string name="string_disconnect_2">Разрыв</string>
   <!--Original value: Reference Height-->
   <string name="height_filter_height_summary">Отчетная высота</string>
+  <!--Original value: Debug Survey Level-->
+  <string name="string_debug_survey_level">Уровень отладки</string>
   <!--Original value: Phone-->
   <string name="csd_phone">Тел.Номер</string>
   <!--Original value: Static-->
@@ -1135,6 +1151,8 @@
   <string name="string_detect_base_move">Обнаруживать сдвиг базы во время съемки</string>
   <!--Original value: \u0394N-->
   <string name="text_ntt_sign">\u0394С</string>
+  <!--Original value: Error!-->
+  <string name="switched_to_extrap_5_sec_error">Ошибка!</string>
   <!--Original value: Copyright-->
   <string name="jmt_copyright">Авт.права</string>
   <!--Original value: HRMS\n-->
@@ -1239,6 +1257,8 @@
   <string name="text_base_distance">Раст.до базы</string>
   <!--Original value: Lift&Tilt Survey-->
   <string name="lift_and_tilt_survey_mode">Съемка Lift-Tilt</string>
+  <!--Original value: Restart IMU to fix-->
+  <string name="reset_imu_summary">В случае сбоев IMU</string>
   <!--Original value: Apply LAN settings\n(Receiver reset is required!)-->
   <string name="button_apply_lan_reset">Применит настройки сети (приемник будет перезагружен!)</string>
   <!--Original value: SIM Card-->
@@ -1265,11 +1285,13 @@
   <string name="sleep_mode">Режим сна</string>
   <!--Original value: Wrong tolerance in group!-->
   <string name="wrong_tolerance_in_group">Неверный разброс в группе!</string>
+  <!--Original value: By Distances\nN:\nE:\nH:-->
+  <string name="string_by_distances_string">По растояним\nN:\nE:\nH:</string>
   <!--Original value: Method-->
   <string name="string_method">Метод</string>
-  <!--Original value: START STATION-->
+  <!--Original value: STATION START-->
   <string name="start_station_up">ЗАПУСК СТАНЦИИ</string>
-  <!--Original value: Waring-->
+  <!--Original value: Warning-->
   <string name="string_warning_string">Внимание</string>
   <!--Original value: More >>-->
   <string name="button_more">Больше &gt;&gt;</string>
@@ -1371,6 +1393,8 @@
   <string name="action_select_list">Список</string>
   <!--Original value: Wrong Tolerance!-->
   <string name="wrong_tolerance">Неверный разброс!</string>
+  <!--Original value: Reset IMU-->
+  <string name="reset_imu">Перезапуск IMU</string>
   <!--Original value: Stop Station-->
   <string name="stop_station">Остановить станцию</string>
   <!--Original value: Pin Code-->
@@ -1400,7 +1424,7 @@
   <!--Original value: RECEIVER SETUP-->
   <string name="survey_receiver_setup">НАСТРОЙКА ПРИЕМНИКА</string>
   <!--Original value: Roll-->
-  <string name="quattro_roll">Рысканье</string>
+  <string name="quattro_roll">Крен</string>
   <!--Original value: Epochs: %1$d / %2$d (Rejected:%3$d)-->
   <string name="string_epochs_format">Эпох: %1$d / %2$d (Отверг.:%3$d)</string>
   <!--Original value: On/Off Sounds-->
@@ -1477,8 +1501,8 @@
   <string name="string_menu_average_off">Усреднение выкл.</string>
   <!--Original value: L5\nE5a\nG3-->
   <string name="l5">L5</string>
-  <!--Original value: Reading from receiver will replace your settings with current settings written to GNSS receiver.\nDo you want to continue?-->
-  <string name="read_from_receiver_waring">Чтение с приемника заменит текущие настройки данными из приемника \nХотите выполнить?</string>
+  <!--Original value: AR-->
+  <string name="string_ar_xml">AR</string>
   <!--Original value: Range 2-->
   <string name="string_range2">Диапазон 2</string>
   <!--Original value: Range 1-->
@@ -1582,7 +1606,7 @@
   <!--Original value: Station ID-->
   <string name="station_id">Ид. станции</string>
   <!--Original value: Pitch-->
-  <string name="quattro_pitch">Pitch</string>
+  <string name="quattro_pitch">Тангаж</string>
   <!--Original value: QZSS-->
   <string name="check_qzss">QZSS</string>
   <!--Original value: Average-->
@@ -1633,6 +1657,8 @@
   <string name="string_points_count">0 точек</string>
   <!--Original value: dH Slope, %%-->
   <string name="string_slope">dH наклон, %%</string>
+  <!--Original value: Internet on rover from-->
+  <string name="string_rover_internet_from_xml">Интернет на ровере с</string>
   <!--Original value: Skyplot-->
   <string name="action_skyplot">Рисунок</string>
   <!--Original value: no corrections-->
@@ -1713,6 +1739,8 @@
   <string name="gga">GGA</string>
   <!--Original value: Point store error-->
   <string name="survey_point_stored_error">Ошибка сохранения точки</string>
+  <!--Original value: Mode delay has been changed to extrap\nto support 5Hz-->
+  <string name="delay_mode_changed_to_extrapolation">Режим delay был изменен на extrap\nдля поддержки 5Гц</string>
   <!--Original value: CBST Rate-->
   <string name="csd_acbst_rate">CBST</string>
   <!--Original value: Country-->
@@ -1736,7 +1764,7 @@
   <!--Original value: Job Name-->
   <string name="survey_job_name2">Имя проекта</string>
   <!--Original value: RMS Pitch-->
-  <string name="quattro_rms_pitch">СКО рысканья</string>
+  <string name="quattro_rms_pitch">СКО тангажа</string>
   <!--Original value: Size Of RAM-->
   <string name="receiver_sizeof_ram">Размер ОЗУ</string>
   <!--Original value: Receiver ID-->
@@ -1775,38 +1803,4 @@
   <string name="carrier">Оператор</string>
   <!--Original value: JPS Min-->
   <string name="jps_min">JPS Min.</string>
-  <!--Original value: -->
-  <string name="">Настройки Ntrip клиент</string>
-  <!--Original value: -->
-  <string name="">Ошибка сервера!</string>
-  <!--Original value: -->
-  <string name="">\u27AA</string>
-  <!--Original value: -->
-  <string name="">JMATE не подключен!</string>
-  <!--Original value: -->
-  <string name="">Запуск Засечкой</string>
-  <!--Original value: -->
-  <string name="">Исп.компас/уровень приемника</string>
-  <!--Original value: -->
-  <string name="">\u2B07</string>
-  <!--Original value: -->
-  <string name="">Host Ntrip клиента</string>
-  <!--Original value: -->
-  <string name="">Подписи выноса</string>
-  <!--Original value: -->
-  <string name="">\u2195</string>
-  <!--Original value: -->
-  <string name="">\u2194</string>
-  <!--Original value: -->
-  <string name="">\u2B06</string>
-  <!--Original value: -->
-  <string name="">Размер текста выноса</string>
-  <!--Original value: -->
-  <string name="">новая RCV база</string>
-  <!--Original value: -->
-  <string name="">Версия протокола Ntrip клиента</string>
-  <!--Original value: -->
-  <string name="">В приемнике нет компаса и уровней!</string>
-  <!--Original value: -->
-  <string name="">\u2B05</string>
 </resources>
