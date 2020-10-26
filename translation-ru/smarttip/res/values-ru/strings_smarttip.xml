@@ -1,44 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file activity_jtip.xml:81. Original value:Calibrate    -->
+    <string name="button_calibrate">Калибровка</string>
+    <!-- Used in file activity_jtip.xml:181. Original value:Mag. Source    -->
+    <string name="string_data_source">Источник данных</string>
+    <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip    -->
+    <string name="text_select_smarttip">Выберите J-Tip</string>
+    <!-- Used in file activity_jtip.xml:56. Original value:Clear Range    -->
+    <string name="button_clear_range">Сброс предела</string>
+    <!-- Used in file JTipActivity.java:1036. Original value:Hold Range    -->
+    <string name="button_hold_range">Не менять предел</string>
+    <!-- Used in file JTipActivity.java:1105. Original value:Calibration Required!    -->
+    <string name="jtip_calibration_required">Требуется калибровка!</string>
+    <!-- Used in file activity_jtip.xml:383. Original value:Max Value    -->
+    <string name="string_max_value">Макс.значение</string>
+    <!-- Used in file activity_jtip.xml:64. Original value:Set Range    -->
+    <string name="button_set_range">Уст.предел</string>
+    <!-- Used in file activity_jtip.xml:369. Original value:Min Value    -->
+    <string name="string_min_value">Мин.значение</string>
+    <!-- Used in file jtip.xml:9. Original value:Upload Firmware    -->
+    <string name="button_firmware">Обновить встроенное ПО</string>
+    <!-- Used in file activity_jtip.xml:147. Original value:Sound type    -->
+    <string name="string_sound_type">Тип вычисления звука</string>
+    <!-- Used in file activity_jtip.xml:355. Original value:Gain    -->
+    <string name="string_gain">Усиление 0</string>
+    <!-- Used in file activity_jtip.xml:376. Original value:Gain Value    -->
+    <string name="string_gain_value">Усиление</string>
+    <!-- Used in file JTipActivity.java:1942. Original value:Manual    -->
+    <string name="button_manual">Ручной</string>
+    <!-- Used in file JTipActivity.java:1942. Original value:Auto    -->
+    <string name="button_full_auto">Авто</string>
+    <!-- Used in file JTipActivity.java:1941. Original value:Set Mode    -->
+    <string name="string_set_mode_jtip">Уст.режим</string>
+    <!-- Used in file activity_jtip.xml:189. Original value:Source    -->
+    <string name="string_magnetic_source">Источник</string>
+    <!-- Used in file activity_jtip.xml:27. Original value:Volume    -->
+    <string name="string_volume">Громкость</string>
+    <!-- Used in file activity_jtip.xml:439. Original value:Set Course to 0    -->
+    <string name="button_course">Установить курс на 0</string>
+    <!-- Used in file JTipActivity.java:1942. Original value:SemiAuto    -->
+    <string name="button_semi_auto">ПолуАвто</string>
+    <!-- Used in file find_jtip.xml:7. Original value:Refresh    -->
+    <string name="refresh_jtip">Обновить</string>
+    <!-- Used in file activity_jtip.xml:168. Original value:Sensivity    -->
+    <string name="string_sensivity">Чувствительность</string>
+    <!-- Used in file activity_jtip.xml:269. Original value:0 Value    -->
+    <string name="string_0_value">Значение нуля</string>
+    <!-- Used in file jtip.xml:16. Original value:Auto\\Manual    -->
+    <string name="button_auto_manual">Авто\\Ручной</string>
+    <!-- Used in file activity_jtip.xml:72. Original value:Auto Range    -->
+    <string name="button_auto_range">Авто предел</string>
+    <!-- Used in file activity_jtip.xml:139. Original value:Sound algorithm    -->
+    <string name="string_algorithm">Алгоритм звука</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Calibrate-->
-  <string name="button_calibrate">Калибровка</string>
-  <!--Original value: Select J-Tip-->
-  <string name="text_select_smarttip">Выберите J-Tip</string>
-  <!--Original value: Max Value-->
-  <string name="string_max_value">Макс.значение</string>
-  <!--Original value: Min Value-->
-  <string name="string_min_value">Мин.значение</string>
-  <!--Original value: Upload Firmware-->
-  <string name="button_firmware">Обновить встроенное ПО</string>
-  <!--Original value: Sound type-->
-  <string name="string_sound_type">Тип вычисления звука</string>
-  <!--Original value: Gain-->
-  <string name="string_gain">Усиление 0</string>
-  <!--Original value: Gain Value-->
-  <string name="string_gain_value">Усиление</string>
-  <!--Original value: Set Course to 0-->
-  <string name="button_course">Установить курс на 0</string>
-  <!--Original value: Refresh-->
-  <string name="refresh_jtip">Обновить</string>
-  <!--Original value: Sensivity-->
-  <string name="string_sensivity">Чувствительность</string>
 </resources>

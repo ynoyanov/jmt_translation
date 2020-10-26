@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_jtip.xml:101 -->
+    <!-- Used in file activity_jtip.xml:188 -->
+    <string-array name="magnetic_source_array">
+         <item>Mag1</item>
+         <item>Mag2</item>
+         <item>Mag1+Mag2</item>
+         <item>Mag2-Mag1</item>
+    </string-array>
+
+    <!-- Used in file activity_jtip.xml:167 -->
     <string-array name="sensivity_array">
          <item>1</item>
          <item>2</item>
@@ -11,7 +19,7 @@
          <item>6</item>
     </string-array>
 
-    <!-- Used in file activity_jtip.xml:78 -->
+    <!-- Used in file activity_jtip.xml:146 -->
     <string-array name="sound_type_array">
          <item>Sound by value</item>
          <item>Sound by change value</item>
