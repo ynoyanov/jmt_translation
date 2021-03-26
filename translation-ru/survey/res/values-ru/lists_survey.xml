@@ -66,7 +66,7 @@
          <item>off</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2307 -->
+    <!-- Used in file SurveyingRTK.java:2318 -->
     <string-array name="left_right_array">
          <item>Влево</item>
          <item>Вправо</item>
@@ -320,6 +320,13 @@
          <item>только Углы/Растояние</item>
          <item>только Координаты</item>
     </string-array>
+
+    <string-array name="imu_modes">
+        <item>Выкл.</item>
+        <item>Качание (Подвижный конец вешки выкл.)</item>
+        <item>Наклон (Подвижный конец вешки вкл.)</item>
+    </string-array>
+
 
     <!-- Used in file RTKSetupActivity.java:578 -->
     <string-array name="connected_to_array_radio_gismore">
@@ -655,7 +662,7 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2307 -->
+    <!-- Used in file SurveyingRTK.java:2318 -->
     <string-array name="p1_p2_array">
          <item>от P1</item>
          <item>от P2</item>
@@ -670,7 +677,7 @@
          <item>Все системы</item>
     </string-array>
 
-    <!-- Used in file SurveySettingsPreferenceFragment.java:1532 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:1559 -->
     <string-array name="occupation_time_imu_array">
          <item>Остановка вручную</item>
          <item>Остановка по IMU</item>

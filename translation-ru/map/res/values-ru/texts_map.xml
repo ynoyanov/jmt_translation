@@ -1,102 +1,85 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file JavadCMapFragment.java:2566. Original value:Descr.  -->
+    <string name="string_descr_">Опис.</string>
+    <!--  Used in file JavadTeighaMapFragment.java:207. Original value:Loading %s file&#8230;  -->
+    <string name="string_loading__s_file___">Загружается файл %s</string>
+    <!--  Used in file BaseMapActivity.java:80. Original value:Create  -->
+    <string name="string_create">Создать</string>
+    <!--  Used in file JavadTeighaMapFragment.java:207. Original value:Please wait  -->
+    <string name="string_please_wait">Подождите</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2300. Original value:Length: %s  -->
+    <string name="string_length___s">Длина: %s</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:190. Original value:Bearing Geo  -->
+    <string name="string_bearing_geo">Направление Geo</string>
+    <!--  Used in file BaseMapActivity.java:332. Original value:Pick point on map..  -->
+    <string name="string_pick_point_on_map__">Выберите точку на карте</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2366. Original value:Zoom All With Location  -->
+    <string name="string_zoom_all_with_location">Масштаб все с положением</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:252. Original value:Distance  -->
+    <string name="string_distance">Расстояние</string>
+    <!--  Used in file JavadCMapFragment.java:2603. Original value:Pick points on map to measure distance  -->
+    <string name="string_pick_points_on_map_to_measure_distance">Нажмите точки на карте для измерения расстояния</string>
+    <!--  Used in file BaseMapActivity.java:489. Original value:Close  -->
+    <string name="string_close">Закрыть</string>
+    <!--  Used in file JavadOpenGLMapFragment.java:322. Original value:Cancel  -->
+    <string name="string_cancel">Отменить</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2272. Original value:Trajectory  -->
+    <string name="string_trajectory">Траектория</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:208. Original value:Bearing  -->
+    <string name="string_bearing">Направление</string>
+    <!--  Used in file JavadOpenGLMapFragment.java:224. Original value:Pick points on map to add line  -->
+    <string name="string_pick_points_on_map_to_add_line">Нажмите точки на карте для соединения линией</string>
+    <!--  Used in file JavadOpenGLMapFragment.java:238. Original value:Pick points on map to add text  -->
+    <string name="string_pick_points_on_map_to_add_text">Нажмите на карту, чтобы добавить текст</string>
+    <!--  Used in file JavadCMapFragment.java:3852. Original value:Angle:  -->
+    <string name="string_angle_">Угол:</string>
+    <!--  Used in file DrawMapOpenGL.java:1455. Original value:Select point  -->
+    <string name="string_select_point">Выбор точки</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:270. Original value:Distance Slant  -->
+    <string name="string_distance_slant">Расстояние наклонное</string>
+    <!--  Used in file BaseMapActivity.java:487. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Что делать c %1$s %2$s?</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2366. Original value:Regen All  -->
+    <string name="string_regen_all">Обновить все</string>
+    <!--  Used in file BaseMapActivity.java:521. Original value:Do you want to delete %1$s?  -->
+    <string name="string_do_you_want_to_delete__1_s_">Хотите удалить %1$s?</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2366. Original value:Zoom All Points  -->
+    <string name="string_zoom_all_points">Масштаб все точки</string>
+    <!--  Used in file JavadCMapFragment.java:3852. Original value:Move:  -->
+    <string name="string_move_">Сдвиг:</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2275. Original value:Contains %d points  -->
+    <string name="string_contains__d_points">Содержит %d точек</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:233. Original value:Distance Geo  -->
+    <string name="string_distance_geo">Расстояние Geo</string>
+    <!--  Used in file JavadCMapFragment.java:2559. Original value:Code  -->
+    <string name="string_code">Код</string>
+    <!--  Used in file JavadCMapFragment.java:3811. Original value:Line:  -->
+    <string name="string_line_">Линия:</string>
+    <!--  Used in file JavadOpenGLMapFragment.java:210. Original value:Pick points on map to measure area  -->
+    <string name="string_pick_points_on_map_to_measure_area">Нажмите точки на карте для измерения площади</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2366. Original value:Zoom All CAD  -->
+    <string name="string_zoom_all_cad">Масштаб вся CAD-подложка</string>
+    <!--  Used in file BaseMapActivity.java:523. Original value:Delete  -->
+    <string name="string_delete">Удалить</string>
+    <!--  Used in file BaseMapActivity.java:92. Original value:MapProvider  -->
+    <string name="string_mapprovider">Карта от</string>
+    <!--  Used in file JavadCMapFragment.java:3641. Original value:Paralel Move:  -->
+    <string name="string_paralel_move_">Параллельный сдвиг:</string>
+    <!--  Used in file JavadTeighaMapFragment.java:2369. Original value:Select Zoom  -->
+    <string name="string_select_zoom">Выбрать масштаб</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:323. Original value:Height Average  -->
+    <string name="string_height_average">Средняя высота</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:292. Original value:Height Diff  -->
+    <string name="string_height_diff">Разница высот</string>
+    <!--  Used in file JavadCMapFragment.java:3852. Original value:Area:  -->
+    <string name="string_area_">Площадь:</string>
+    <!--  Used in file JavadOpenGLMapFragment.java:309. Original value:OK  -->
+    <string name="string_ok">ОК</string>
+    <!--  Used in file BaseMapActivity.java:97. Original value:Points  -->
+    <string name="string_points">Точки</string>
+    <!--  Used in file LineInfoPreferenceFragment.java:310. Original value:Height Slope  -->
+    <string name="string_height_slope">Наклон</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Descr.-->
-  <string name="string_descr_">Опис.</string>
-  <!--Original value: Loading %s file…-->
-  <string name="string_loading__s_file___">Загружается файл %s</string>
-  <!--Original value: Create-->
-  <string name="string_create">Создать</string>
-  <!--Original value: Please wait-->
-  <string name="string_please_wait">Подождите</string>
-  <!--Original value: Length: %s-->
-  <string name="string_length___s">Длина: %s</string>
-  <!--Original value: Bearing Geo-->
-  <string name="string_bearing_geo">Направление Geo</string>
-  <!--Original value: Pick point on map..-->
-  <string name="string_pick_point_on_map__">Выберите точку на карте</string>
-  <!--Original value: Zoom All With Location-->
-  <string name="string_zoom_all_with_location">Масштаб все с положением</string>
-  <!--Original value: Distance-->
-  <string name="string_distance">Расстояние</string>
-  <!--Original value: Pick points on map to measure distance-->
-  <string name="string_pick_points_on_map_to_measure_distance">Нажмите точки на карте для измерения расстояния</string>
-  <!--Original value: Close-->
-  <string name="string_close">Закрыть</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Отменить</string>
-  <!--Original value: Trajectory-->
-  <string name="string_trajectory">Траектория</string>
-  <!--Original value: Bearing-->
-  <string name="string_bearing">Направление</string>
-  <!--Original value: Pick points on map to add line-->
-  <string name="string_pick_points_on_map_to_add_line">Нажмите точки на карте для соединения линией</string>
-  <!--Original value: Pick points on map to add text-->
-  <string name="string_pick_points_on_map_to_add_text">Нажмите на карту, чтобы добавить текст</string>
-  <!--Original value: Angle:-->
-  <string name="string_angle_">Угол:</string>
-  <!--Original value: Select point-->
-  <string name="string_select_point">Выбор точки</string>
-  <!--Original value: Distance Slant-->
-  <string name="string_distance_slant">Расстояние наклонное</string>
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Что делать c %1$s %2$s?</string>
-  <!--Original value: Regen All-->
-  <string name="string_regen_all">Обновить все</string>
-  <!--Original value: Do you want to delete %1$s?-->
-  <string name="string_do_you_want_to_delete__1_s_">Хотите удалить %1$s?</string>
-  <!--Original value: Zoom All Points-->
-  <string name="string_zoom_all_points">Масштаб все точки</string>
-  <!--Original value: Move:-->
-  <string name="string_move_">Сдвиг:</string>
-  <!--Original value: Contains %d points-->
-  <string name="string_contains__d_points">Содержит %d точек</string>
-  <!--Original value: Distance Geo-->
-  <string name="string_distance_geo">Расстояние Geo</string>
-  <!--Original value: Code-->
-  <string name="string_code">Код</string>
-  <!--Original value: Line:-->
-  <string name="string_line_">Линия:</string>
-  <!--Original value: Pick points on map to measure area-->
-  <string name="string_pick_points_on_map_to_measure_area">Нажмите точки на карте для измерения площади</string>
-  <!--Original value: Zoom All CAD-->
-  <string name="string_zoom_all_cad">Масштаб вся CAD-подложка</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Удалить</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Карта от</string>
-  <!--Original value: Paralel Move:-->
-  <string name="string_paralel_move_">Параллельный сдвиг:</string>
-  <!--Original value: Select Zoom-->
-  <string name="string_select_zoom">Выбрать масштаб</string>
-  <!--Original value: Height Average-->
-  <string name="string_height_average">Средняя высота</string>
-  <!--Original value: Height Diff-->
-  <string name="string_height_diff">Разница высот</string>
-  <!--Original value: Area:-->
-  <string name="string_area_">Площадь:</string>
-  <!--Original value: OK-->
-  <string name="string_ok">ОК</string>
-  <!--Original value: Points-->
-  <string name="string_points">Точки</string>
-  <!--Original value: Height Slope-->
-  <string name="string_height_slope">Наклон</string>
 </resources>

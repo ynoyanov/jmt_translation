@@ -142,7 +142,7 @@
          <item>500 epochs</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1287 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1221 -->
     <string-array name="connected_to_array_radio_maxor">
          <item>Bluetooth B</item>
          <item>Serial A</item>
@@ -185,7 +185,7 @@
          <item>10 m</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:243 -->
+    <!-- Used in file stakeout_settings.xml:245 -->
     <string-array name="code_is_required_array">
          <item>Do not use code</item>
          <item>Code is optional</item>
@@ -205,10 +205,11 @@
          <item>Coordinates only</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:311 -->
+    <!-- Used in file stakeout_settings.xml:313 -->
     <string-array name="imu_modes">
          <item>Off</item>
-         <item>On</item>
+         <item>Swing (Moving Tip Off)</item>
+         <item>Tilt (Moving Tip On)</item>
     </string-array>
 
     <!-- Used in file activity_start_station_resection.xml:51 -->
@@ -305,7 +306,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:257 -->
+    <!-- Used in file stakeout_settings.xml:259 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
          <item>NAD83(2011)</item>
@@ -316,7 +317,7 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:192 -->
+    <!-- Used in file stakeout_settings.xml:196 -->
     <string-array name="rtpk_time_array">
          <item>Never</item>
          <item>10 seconds</item>
@@ -331,7 +332,7 @@
          <item>Custom</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:198 -->
+    <!-- Used in file stakeout_settings.xml:202 -->
     <string-array name="rtpk_mode_array">
          <item>First Fix</item>
          <item>Both Fix Compare</item>
@@ -422,7 +423,7 @@
          <item>GPS+GLO+GAL+BDU+Other</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2318 -->
+    <!-- Used in file SurveyingRTK.java:2325 -->
     <string-array name="left_right_array">
          <item>Left</item>
          <item>Right</item>
@@ -453,7 +454,7 @@
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:178 -->
+    <!-- Used in file stakeout_settings.xml:213 -->
     <string-array name="hybrid_rtk_array">
          <item>Never</item>
          <item>5 mins</item>
@@ -596,7 +597,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1292 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1226 -->
     <string-array name="connected_to_array_csd_sigma">
          <item>Internal GSM</item>
     </string-array>
@@ -699,7 +700,7 @@
          <item>All</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:229 -->
+    <!-- Used in file stakeout_settings.xml:231 -->
     <string-array name="debug_survey_level">
          <item>All</item>
          <item>Debug</item>
@@ -789,7 +790,7 @@
          <item>5 sec</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1290 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1224 -->
     <string-array name="connected_to_array_csd_triumph1">
          <item>Internal GSM</item>
     </string-array>
@@ -803,7 +804,7 @@
          <item>Android</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:212 -->
+    <!-- Used in file stakeout_settings.xml:183 -->
     <string-array name="minial_rtk_values_6_array">
          <item>at least 1</item>
          <item>at least 2</item>
@@ -817,6 +818,14 @@
     <string-array name="trimmarkii_spacings">
          <item>12500</item>
          <item>25000</item>
+    </string-array>
+
+    <!-- Used in file DrawWhiteBox.java:3081 -->
+    <string-array name="imu_mode_array">
+         <item>Off</item>
+         <item>On (fixed tip)</item>
+         <item>On (moving tip)</item>
+         <item>Lift and Tilt mode</item>
     </string-array>
 
     <!-- Used in file RTKSetupActivity.java:562 -->
@@ -916,12 +925,12 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1294 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1228 -->
     <string-array name="connected_to_array_csd_maxor">
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:258 -->
+    <!-- Used in file stakeout_settings.xml:260 -->
     <string-array name="reference_frame_values_array">
          <item>CSG_WGS_84</item>
          <item>CSG_NAD83_2011</item>
@@ -932,19 +941,19 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file RTKBaseSettingsFragment.java:1275 -->
+    <!-- Used in file RTKBaseSettingsFragment.java:1209 -->
     <string-array name="connected_to_array_internet_maxor">
          <item>the Android device</item>
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2318 -->
+    <!-- Used in file SurveyingRTK.java:2325 -->
     <string-array name="p1_p2_array">
          <item>from P1</item>
          <item>from P2</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3091 -->
+    <!-- Used in file DrawWhiteBox.java:3153 -->
     <string-array name="sat_systems_array">
          <item>GPS only</item>
          <item>GPS+GAL</item>
@@ -953,7 +962,7 @@
          <item>All Systems</item>
     </string-array>
 
-    <!-- Used in file SurveySettingsPreferenceFragment.java:1559 -->
+    <!-- Used in file SurveySettingsPreferenceFragment.java:1566 -->
     <string-array name="occupation_time_imu_array">
          <item>Stopped manually</item>
          <item>Stop by IMU</item>

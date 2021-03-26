@@ -11,6 +11,8 @@
     <string name="string_comment_sort">Комментарий</string>
     <!-- Used in file home_map_points.xml:23. Original value:Survey Points    -->
     <string name="action_show_survey_on">Снят.</string>
+    <!-- Used in file TSPointSurveyInfoActivity.java:101. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey_info">Съемка Lift-Tilt</string>
     <!-- Used in file rtkbases.xml:23. Original value:Sort    -->
     <string name="action_sort">Сортировка</string>
     <!-- Used in file activity_archive_folder.xml:155. Original value:Archive to OneDrive    -->
@@ -27,14 +29,16 @@
     <string name="string_filename_xml">Jps файл</string>
     <!-- Used in file ComplexObjectListAdapter.java:140. Original value:Radius    -->
     <string name="complex_object_radius">Радиус</string>
-    <!-- Used in file PointsFragment.java:1021. Original value:New Circle    -->
+    <!-- Used in file PointsFragment.java:1043. Original value:New Circle    -->
     <string name="new_circle">Новый Круг</string>
     <!-- Used in file codes.xml:43. Original value:Export    -->
     <string name="action_map_export">Экспорт</string>
-    <!-- Used in file JobActivity.java:95. Original value:New Job    -->
+    <!-- Used in file JobActivity.java:102. Original value:New Job    -->
     <string name="string_new_job">Новый проект</string>
     <!-- Used in file TSPointsActivity.java:71. Original value:Code    -->
     <string name="string_code_sort">Код</string>
+    <!-- Used in file JobActivity.java:284. Original value:Job CS Changed     -->
+    <string name="job_cs_changed">Смена СК проекта</string>
     <!-- Used in file design_points.xml:61. Original value:Delete All Design    -->
     <string name="action_delete_all">Удалить все выносные</string>
     <!-- Used in file activity_job.xml:175. Original value:Write to text files    -->
@@ -61,9 +65,9 @@
     <string name="height_type">Тип высоты</string>
     <!-- Used in file activity_point.xml:203. Original value:Wgs84    -->
     <string name="coordinate_wgs84">wgs84</string>
-    <!-- Used in file PointsFragment.java:1022. Original value:New Arc    -->
+    <!-- Used in file PointsFragment.java:1044. Original value:New Arc    -->
     <string name="new_arc">Новая дуга</string>
-    <!-- Used in file JobActivity.java:97. Original value:Duplicate Job    -->
+    <!-- Used in file JobActivity.java:104. Original value:Duplicate Job    -->
     <string name="string_duplicate_job_xml">Создать копию проекта</string>
     <!-- Used in file activity_ts_point.xml:200. Original value:SurveyInfo:\n\n\n    -->
     <string name="survey_info">Съем.Информация:\n\n</string>
@@ -107,6 +111,8 @@
     <string name="code_max_length">Макс.длина</string>
     <!-- Used in file home_map_points.xml:41. Original value:RTK Bases    -->
     <string name="action_show_base_on">RTK базы</string>
+    <!-- Used in file JobActivity.java:286. Original value:Recompute Design/TS coordinates    -->
+    <string name="recompute_job_coordinates">Пересчитать координаты выносные/тах.</string>
     <!-- Used in file activity_archive_folder.xml:124. Original value:Authorize GoogleDrive    -->
     <string name="button_authorize_googledrive">Авторизация GoogleDrive</string>
     <!-- Used in file activity_complex_object_polygon.xml:78. Original value:Color    -->
@@ -127,10 +133,14 @@
     <string name="action_map_import">Импорт</string>
     <!-- Used in file activity_code.xml:174. Original value:Name    -->
     <string name="feature_name">Имя</string>
+    <!-- Used in file null:0. Original value:Create Empty Drawing *.dwg    -->
+    <string name="string_create_empty_drawing___dwg">Создать пустой чертеж *.dwg</string>
     <!-- Used in file activity_archive_folder.xml:132. Original value:Sync Jobs with GoogleDrive    -->
     <string name="button_sync_jobs_googledrive">Синхринизовать проекты с GoogleDrive</string>
     <!-- Used in file activity_job.xml:90. Original value:Comment    -->
     <string name="job_comment">Комментарий</string>
+    <!-- Used in file JobActivity.java:286. Original value:Change CS Id only for Design/TS    -->
+    <string name="change_cs_id_only">Заменить СК для выносных/тах.</string>
     <!-- Used in file codes.xml:49. Original value:Delete All Codes    -->
     <string name="action_delete_all_codes">Удалить все коды</string>
     <!-- Used in file activity_archive_folder.xml:80. Original value:Archive to Dropbox    -->
@@ -147,15 +157,17 @@
     <string name="rtk_base_info">RTK База:\n</string>
     <!-- Used in file activity_archive_folder.xml:94. Original value:Sync Jobs with Dropbox    -->
     <string name="button_sync_jobs_dropbox">Синхронизовать проекты с Dropbox</string>
+    <!-- Used in file null:0. Original value:Drawing with ASCII data *.*    -->
+    <string name="string_drawing_with_ascii_data____">Подложка из ACII файла *.*</string>
     <!-- Used in file home_map_points.xml:116. Original value:Remove empty drawings    -->
     <string name="action_remove_empty_drawings">Удалить пустые примитивы</string>
     <!-- Used in file home_map_points.xml:123. Original value:Settings    -->
     <string name="string_settings">Настройки</string>
     <!-- Used in file activity_job.xml:30. Original value:Name    -->
     <string name="job_name">Имя</string>
-    <!-- Used in file PointsFragment.java:1020. Original value:New Text    -->
+    <!-- Used in file PointsFragment.java:1042. Original value:New Text    -->
     <string name="new_text">Новый текст</string>
-    <!-- Used in file PointsFragment.java:1019. Original value:New Polygon    -->
+    <!-- Used in file PointsFragment.java:1041. Original value:New Polygon    -->
     <string name="new_polygon">Новый полигон</string>
     <!-- Used in file activity_archive_folder.xml:161. Original value:Authorize OneDrive    -->
     <string name="button_authorize_onedrive">Авторизовать OneDrive</string>
@@ -169,6 +181,8 @@
     <string name="string_dpos_sort">Обработка</string>
     <!-- Used in file activity_code.xml:194. Original value:Type    -->
     <string name="code_type">Тип</string>
+    <!-- Used in file JobActivity.java:285. Original value:Do you want to just replace CS Id with new CS Id, or recompute coordinates    -->
+    <string name="cs_changed_what_to_do">Хотите просто заменить СК или пересчитать точки?</string>
     <!-- Used in file activity_design_point.xml:51. Original value:Descr.    -->
     <string name="description">Описание</string>
     <!-- Used in file activity_point.xml:265. Original value:RTPK:\n    -->
@@ -189,19 +203,17 @@
     <string name="check_archive_folder">Автоархивация проектов в папку</string>
     <!-- Used in file list_points.xml:126. Original value:Description    -->
     <string name="string_descriptionhint">Описание</string>
-    <!-- Used in file TSPointSurveyInfoActivity.java:101. Original value:Lift&amp;Tilt Survey    -->
-    <string name="string_lift_tilt_survey_info">Съемка Lift-Tilt</string>
     <!-- Used in file activity_design_point.xml:92. Original value:North    -->
     <string name="north">Север</string>
     <!-- Used in file activity_complex_object_circle.xml:86. Original value:Radius    -->
     <string name="string_radius">Радиус</string>
-    <!-- Used in file JobActivity.java:99. Original value:Edit Job    -->
+    <!-- Used in file JobActivity.java:106. Original value:Edit Job    -->
     <string name="string_edit_job_xml">Правка проекта</string>
     <!-- Used in file activity_job.xml:194. Original value:Show antenna vertical offset    -->
     <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
     <!-- Used in file activity_code.xml:154. Original value:Add    -->
     <string name="button_add">+</string>
-    <!-- Used in file activity_archive_folder.xml:19. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
+    <!-- Used in file activity_archive_folder.xml:19. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
     <string name="archive_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
     <!-- Used in file activity_code.xml:64. Original value:Name / Number    -->
     <string name="code_name_number">Имя / Число</string>
@@ -241,9 +253,8 @@
     <string name="vertex_count">Вершины</string>
     <!-- Used in file home_map_points.xml:9. Original value:Connect    -->
     <string name="string_connect">Связь</string>
-    <string name="job_cs_changed">Смена СК проекта</string>
-    <string name="cs_changed_what_to_do">Хотите просто заменить СК или пересчитать точки?</string>
-    <string name="change_cs_id_only">Заменить СК для выносных/тах.</string>
-    <string name="recompute_job_coordinates">Пересчитать координаты выносные/тах.</string>
+    <!-- UNUSED STRING 
+    <string name="">Подложка из ACII файла *.*</string>
+    -->
 
 </resources>
