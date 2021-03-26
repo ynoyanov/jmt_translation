@@ -1,70 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Used in file preferences_a.xml:10 -->
-    <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
-    <!-- Used in file preferences_a.xml:5 -->
-    <string name="folder_depth_summary">If enabled, all files found in subfolders will be shown</string>
-    <!-- Used in file preferences_a.xml:9 -->
-    <string name="file_extension_title">File Extensions</string>
-    <!-- Used in file TeighaDwgActivity.java:58 -->
-    <string name="string_loading__s_file___">Loading %s file&#8230;</string>
-    <!-- Used in file main_menu.xml:3 -->
+
+    <!-- Used in file main_menu.xml:3    -->
     <string name="settings">Settings</string>
-    <!-- Used in file TeighaDwgActivity.java:58 -->
-    <string name="string_please_wait">Please wait</string>
-    <!-- Used in file preferences_a.xml:4 -->
+    <!-- Used in file preferences.xml:9    -->
+    <string name="file_extension_title">File Extensions</string>
+    <!-- Used in file preferences.xml:5    -->
+    <string name="folder_depth_summary">If enabled, all files found in subfolders will be shown</string>
+    <!-- Used in file preferences.xml:10    -->
+    <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
+    <!-- Used in file preferences.xml:4    -->
     <string name="folder_depth_title">Read folders recursefly</string>
-    <!-- Used in file AndroidManifest.xml:23 -->
-    <string name="app_name">OdaAndroidApp</string>
+    <!-- UNUSED STRING 
+    <string name="string_loading__s_file___">Loading %s file&#8230;</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_please_wait">Please wait</string>
+    -->
 
-    
-    <string-array name="file_extension_entries">
-        <item>.dwg</item>
-        <item>.dxf</item>
-        <item>.dwf</item>
-        <item>.dae</item>
-        <item>.bmp</item>
-        <item>.jpg</item>
-        <item>.png</item>
-        <item>.tiff</item>
-    </string-array>
-
-    <string-array name="file_extension_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </string-array>
-    <string-array name="file_extension_default">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="file_extension_entriesA">
-        <item>.dwg</item>
-        <item>.dxf</item>
-        <item>.bmp</item>
-        <item>.jpg</item>
-        <item>.png</item>
-        <item>.tiff</item>
-    </string-array>
-
-    <string-array name="file_extension_valuesA">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="file_extension_defaultA">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
 </resources>

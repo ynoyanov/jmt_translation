@@ -66,7 +66,7 @@
          <item>off</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2306 -->
+    <!-- Used in file SurveyingRTK.java:2307 -->
     <string-array name="left_right_array">
          <item>Влево</item>
          <item>Вправо</item>
@@ -290,7 +290,7 @@
 
     <!-- Used in file RTKBaseSettingsFragment.java:1292 -->
     <string-array name="connected_to_array_csd_sigma">
-         <item>Internal GSM</item>
+         <item>Внутренний GSM</item>
     </string-array>
 
     <!-- Used in file activity_configure_rcv.xml:128 -->
@@ -360,6 +360,14 @@
          <item>Все</item>
     </string-array>
 
+    <!-- Used in file stakeout_settings.xml:229 -->
+    <string-array name="debug_survey_level">
+         <item>Все</item>
+         <item>Отладка</item>
+         <item>Нормальный</item>
+         <item>Только ошибки</item>
+    </string-array>
+
     <!-- Used in file rtk_base.xml:123 -->
     <string-array name="radioarray">
          <item>Не настраивать</item>
@@ -401,6 +409,14 @@
          <item>25000</item>
     </string-array>
 
+    <!-- Used in file ts_survey_settings.xml:61 -->
+    <string-array name="ts_mark_types_array">
+         <item>QR-code</item>
+         <item>Zebra-Pole</item>
+         <item>Reflectorless</item>
+         <item>Prism</item>
+    </string-array>
+
     <!-- Used in file rtk_base_fh.xml:22 -->
     <string-array name="fh_zones">
          <item>usa</item>
@@ -433,6 +449,25 @@
     <string-array name="tt450shw_spacings">
          <item>12500</item>
          <item>25000</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:24 -->
+    <string-array name="course_source_array">
+         <item>Ничего</item>
+         <item>Скорость</item>
+         <item>Компас</item>
+         <item>Скорость+Компас</item>
+         <item>Android</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:212 -->
+    <string-array name="minial_rtk_values_6_array">
+         <item>хотя бы 1</item>
+         <item>хотя бы 2</item>
+         <item>хотя бы 3</item>
+         <item>хотя бы 4</item>
+         <item>хотя бы 5</item>
+         <item>хотя бы 6</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:178 -->
@@ -532,6 +567,14 @@
          <item>RTCM3</item>
     </string-array>
 
+    <!-- Used in file rtk_base_uhf.xml:191 -->
+    <string-array name="simple_base_correction_type_array">
+         <item>RTCM 3.x MSM3</item>
+         <item>CMR+</item>
+         <item>RTCM 2.x DGPS част.</item>
+         <item>ЕЩЕ ВАРИАНТЫ &gt;&gt;</item>
+    </string-array>
+
     <!-- Used in file FHPreferenceFragment.java:378 -->
     <string-array name="freqruleausarray">
          <item>10</item>
@@ -612,10 +655,25 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2306 -->
+    <!-- Used in file SurveyingRTK.java:2307 -->
     <string-array name="p1_p2_array">
          <item>от P1</item>
          <item>от P2</item>
+    </string-array>
+
+    <!-- Used in file DrawWhiteBox.java:3091 -->
+    <string-array name="sat_systems_array">
+         <item>только GPS</item>
+         <item>GPS+GAL</item>
+         <item>GPS+GAL+BDU</item>
+         <item>GPS+GLO+GAL+BDU</item>
+         <item>Все системы</item>
+    </string-array>
+
+    <!-- Used in file SurveySettingsPreferenceFragment.java:1532 -->
+    <string-array name="occupation_time_imu_array">
+         <item>Остановка вручную</item>
+         <item>Остановка по IMU</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
@@ -682,6 +740,15 @@
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="info_stakeout_text_size">
+         <item>Нормальный</item>
+         <item>Большой</item>
+         <item>Малый</item>
+         <item>Очень большой</item>
+         <item>Очень малый</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="rover_mode_array">
          <item>pd</item>
          <item>pf</item>
@@ -720,17 +787,6 @@
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
-    <string-array name="minial_rtk_values_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
-    <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="correction_type_array_rcv">
          <item>cmd</item>
          <item>rtcm3</item>
@@ -757,6 +813,12 @@
          <item>UHF модем на Bluetooth B</item>
          <item>FH модем на serial B</item>
          <item>UHF модем на serial B</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="info_stakeout_text_labels">
+         <item>Тексты</item>
+         <item>Значки</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->

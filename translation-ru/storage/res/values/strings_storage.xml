@@ -11,6 +11,8 @@
     <string name="string_comment_sort">Comment</string>
     <!-- Used in file home_map_points.xml:23    -->
     <string name="action_show_survey_on">Survey Points</string>
+    <!-- Used in file TSPointSurveyInfoActivity.java:101    -->
+    <string name="string_lift_tilt_survey_info">Lift&amp;Tilt Survey</string>
     <!-- Used in file rtkbases.xml:23    -->
     <string name="action_sort">Sort</string>
     <!-- Used in file activity_archive_folder.xml:155    -->
@@ -27,14 +29,16 @@
     <string name="string_filename_xml">Jps file</string>
     <!-- Used in file ComplexObjectListAdapter.java:140    -->
     <string name="complex_object_radius">Radius</string>
-    <!-- Used in file PointsFragment.java:1021    -->
+    <!-- Used in file PointsFragment.java:1043    -->
     <string name="new_circle">New Circle</string>
     <!-- Used in file codes.xml:43    -->
     <string name="action_map_export">Export</string>
-    <!-- Used in file JobActivity.java:95    -->
+    <!-- Used in file JobActivity.java:102    -->
     <string name="string_new_job">New Job</string>
     <!-- Used in file TSPointsActivity.java:71    -->
     <string name="string_code_sort">Code</string>
+    <!-- Used in file JobActivity.java:284    -->
+    <string name="job_cs_changed">Job CS Changed </string>
     <!-- Used in file design_points.xml:61    -->
     <string name="action_delete_all">Delete All Design</string>
     <!-- Used in file activity_job.xml:175    -->
@@ -59,9 +63,9 @@
     <string name="height_type">Height Type</string>
     <!-- Used in file activity_point.xml:203    -->
     <string name="coordinate_wgs84">Wgs84</string>
-    <!-- Used in file PointsFragment.java:1022    -->
+    <!-- Used in file PointsFragment.java:1044    -->
     <string name="new_arc">New Arc</string>
-    <!-- Used in file JobActivity.java:97    -->
+    <!-- Used in file JobActivity.java:104    -->
     <string name="string_duplicate_job_xml">Duplicate Job</string>
     <!-- Used in file activity_ts_point.xml:200    -->
     <string name="survey_info">SurveyInfo:\n\n\n</string>
@@ -103,6 +107,8 @@
     <string name="code_max_length">Max.Length</string>
     <!-- Used in file home_map_points.xml:41    -->
     <string name="action_show_base_on">RTK Bases</string>
+    <!-- Used in file JobActivity.java:286    -->
+    <string name="recompute_job_coordinates">Recompute Design/TS coordinates</string>
     <!-- Used in file activity_archive_folder.xml:124    -->
     <string name="button_authorize_googledrive">Authorize GoogleDrive</string>
     <!-- Used in file activity_complex_object_polygon.xml:78    -->
@@ -127,6 +133,8 @@
     <string name="button_sync_jobs_googledrive">Sync Jobs with GoogleDrive</string>
     <!-- Used in file activity_job.xml:90    -->
     <string name="job_comment">Comment</string>
+    <!-- Used in file JobActivity.java:286    -->
+    <string name="change_cs_id_only">Change CS Id only for Design/TS</string>
     <!-- Used in file codes.xml:49    -->
     <string name="action_delete_all_codes">Delete All Codes</string>
     <!-- Used in file activity_archive_folder.xml:80    -->
@@ -149,9 +157,9 @@
     <string name="string_settings">Settings</string>
     <!-- Used in file activity_job.xml:30    -->
     <string name="job_name">Name</string>
-    <!-- Used in file PointsFragment.java:1020    -->
+    <!-- Used in file PointsFragment.java:1042    -->
     <string name="new_text">New Text</string>
-    <!-- Used in file PointsFragment.java:1019    -->
+    <!-- Used in file PointsFragment.java:1041    -->
     <string name="new_polygon">New Polygon</string>
     <!-- Used in file activity_archive_folder.xml:161    -->
     <string name="button_authorize_onedrive">Authorize OneDrive</string>
@@ -165,6 +173,8 @@
     <string name="string_dpos_sort">Process</string>
     <!-- Used in file activity_code.xml:194    -->
     <string name="code_type">Type</string>
+    <!-- Used in file JobActivity.java:285    -->
+    <string name="cs_changed_what_to_do">Do you want to just replace CS Id with new CS Id, or recompute coordinates</string>
     <!-- Used in file activity_design_point.xml:51    -->
     <string name="description">Descr.</string>
     <!-- Used in file activity_point.xml:265    -->
@@ -185,20 +195,18 @@
     <string name="check_archive_folder">Auto Archive Jobs to Folder</string>
     <!-- Used in file list_points.xml:126    -->
     <string name="string_descriptionhint">Description</string>
-    <!-- Used in file TSPointSurveyInfoActivity.java:101    -->
-    <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
     <!-- Used in file activity_design_point.xml:92    -->
     <string name="north">North</string>
     <!-- Used in file activity_complex_object_circle.xml:86    -->
     <string name="string_radius">Radius</string>
-    <!-- Used in file JobActivity.java:99    -->
+    <!-- Used in file JobActivity.java:106    -->
     <string name="string_edit_job_xml">Edit Job</string>
     <!-- Used in file activity_job.xml:194    -->
     <string name="show_antenna_offsets">Show antenna vertical offset</string>
     <!-- Used in file activity_code.xml:154    -->
     <string name="button_add">Add</string>
     <!-- Used in file activity_archive_folder.xml:19    -->
-    <string name="archive_description">Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <string name="archive_description">Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
     <!-- Used in file activity_code.xml:64    -->
     <string name="code_name_number">Name / Number</string>
     <!-- Used in file jobs.xml:50    -->
@@ -237,5 +245,17 @@
     <string name="vertex_count">Vertexes</string>
     <!-- Used in file home_map_points.xml:9    -->
     <string name="string_connect">Connect</string>
+    <!-- UNUSED STRING 
+    <string name="string_manual">manual</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_autostop">autostop</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_create_empty_drawing___dwg">Create Empty Drawing *.dwg</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_drawing_with_ascii_data____">Drawing with ASCII data *.*</string>
+    -->
 
 </resources>

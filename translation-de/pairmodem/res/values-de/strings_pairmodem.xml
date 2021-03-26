@@ -1,203 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:527 -->
-    <string name="string_file_doesn_t_exist_">File doesn\'t exist!</string>
-    <!-- Used in file main_bosch_2.xml:14 -->
-    <string name="refresh_bluetooth">Refresh</string>
-    <!-- Used in file PairModemActivity.java:467 -->
-    <string name="string_modem_is_paired_ok__rebooting_modem___">Modem is paired ok. Rebooting modem&#8230;</string>
-    <!-- Used in file RepeaterActivity.java:323 -->
-    <string name="string_wrong_tx_frequency_">Wrong TX frequency!</string>
-    <!-- Used in file PairModemActivity.java:509 -->
-    <string name="string_pairing_has_done_">Pairing has done.</string>
-    <!-- Used in file PairModemActivity.java:428 -->
-    <string name="string_connected__starting_to_pair___">Connected. Starting to pair&#8230;</string>
-    <!-- Used in file PairModemActivity.java:436 -->
-    <string name="string_can_t_set_modem_to_command_mode">Can\'t set modem to command mode</string>
-    <!-- Used in file pair_modem.xml:13 -->
-    <string name="action_wifi">WiFi</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:87 -->
-    <string name="string_connected_to_radio">Connected to radio</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:576 -->
-    <string name="string_wrong_firmware_file_">Wrong firmware file!</string>
-    <!-- Used in file AndroidManifest.xml:35 -->
-    <string name="title_activity_pair_modem">Pair HPT Modem</string>
-    <!-- Used in file activity_pair_modem.xml:16 -->
-    <string name="text_receiver_info">Connected to receiver</string>
-    <!-- Used in file PairModemActivity.java:445 -->
-    <string name="string_modem_info_received___">Modem info received&#8230;</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:41 -->
-    <string name="string_paired_radio">Paired to receiver Radio</string>
-    <!-- Used in file PairModemActivity.java:184 -->
-    <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Do you want to unpair the receiver and the modem?</string>
-    <!-- Used in file activity_repeater.xml:55 -->
-    <string name="rx_frequency_hz">RX Frequency, Hz</string>
-    <!-- Used in file activity_repeater.xml:169 -->
-    <string name="fec">Error Correction (FEC)</string>
-    <!-- Used in file activity_find_rangefinder.xml:16 -->
-    <string name="text_select_rangefinder">Select a Rangefinder</string>
-    <!-- Used in file PairModemActivity.java:982 -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
-    <!-- Used in file PairModemActivity.java:471 -->
-    <string name="string_can_t_save_modem_settings_">Can\'t save modem settings!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:87 -->
-    <string name="string_do_you_want_to_update_its_firmware_">Do you want to update its firmware?</string>
-    <!-- Used in file PairModemActivity.java:131 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file RepeaterActivity.java:446 -->
-    <string name="string_applying_setting___">Applying setting&#8230;</string>
-    <!-- Used in file activity_repeater.xml:129 -->
-    <string name="modulation">Modulation</string>
-    <!-- Used in file activity_repeater.xml:37 -->
-    <string name="tx_frequency_hz">TX Frequency, Hz</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:537 -->
-    <string name="string_write_firmware">Write firmware</string>
-    <!-- Used in file pair_modem.xml:7 -->
-    <string name="action_bluetooth">Bluetooth</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:587 -->
-    <string name="string_your_radio_is">Your radio is</string>
-    <!-- Used in file RepeaterActivity.java:332 -->
-    <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Frequency should be from %1$dHz to %2$dHz</string>
-    <!-- Used in file PairModemActivity.java:183 -->
-    <string name="string_modem_already_paired">Modem already paired</string>
-    <!-- Used in file PairModemActivity.java:174 -->
-    <string name="no_connection">No connection to a Javad receiver</string>
-    <!-- Used in file activity_repeater.xml:73 -->
-    <string name="call_sign">Call Sign</string>
-    <!-- Used in file PairModemActivity.java:498 -->
-    <string name="string_reseting_gnss_receiver___">Reseting GNSS receiver&#8230;</string>
-    <!-- Used in file FindRangefinderActivity.java:345 -->
-    <string name="string_connected_to_rangefinder">Connected to Rangefinder</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:562 -->
-    <string name="string_can_t_read_version_from_from_the_file_">Can\'t read version from from the file!</string>
-    <!-- Used in file RepeaterActivity.java:343 -->
-    <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Wrong call sign (only numbers and capital chars are avaibale!)</string>
-    <!-- Used in file PairModemActivity.java:383 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file PairModemActivity.java:484 -->
-    <string name="string_exit_from_data_mode___">Exit from data mode&#8230;</string>
-    <!-- Used in file RepeaterActivity.java:355 -->
-    <string name="string_wrong_power_">Wrong power!</string>
-    <!-- Used in file PairModemActivity.java:413 -->
-    <string name="string_receiver_bluetooth_address_is_not_obtained_">Receiver Bluetooth address is not obtained!</string>
-    <!-- Used in file RepeaterActivity.java:466 -->
-    <string name="string_setup_ok">Setup OK</string>
-    <!-- Used in file PairModemActivity.java:130 -->
-    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Successfully unpared with radio.\nTurn the radio off and on to disconnect.</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:684 -->
-    <string name="string_loaded___1f_____block___d_from__d_">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:446 -->
-    <string name="string_can_t_read_radio_info">Can\'t read radio info</string>
-    <!-- Used in file PairModemActivity.java:105 -->
-    <string name="string_paired">Paired</string>
-    <!-- Used in file RepeaterActivity.java:355 -->
-    <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
-    <!-- Used in file activity_repeater.xml:224 -->
-    <string name="button_apply">Apply</string>
-    <!-- Used in file activity_find_repeater.xml:16 -->
-    <string name="text_select_repeater">Select HPT Repeater to setup</string>
-    <!-- Used in file activity_repeater.xml:91 -->
-    <string name="output_power_w">Output Power</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:234 -->
-    <string name="string_radio_paired_by_bluetooth">Radio Paired by Bluetooth</string>
-    <!-- Used in file PairModemActivity.java:495 -->
-    <string name="string_pairing_gnss_receiver___">Pairing GNSS receiver&#8230;</string>
-    <!-- Used in file PairModemActivity.java:503 -->
-    <string name="string_can_t_pair_gnss_receiver">Can\'t pair GNSS receiver</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:35 -->
-    <string name="string_internal_radio">Internal Radio</string>
-    <!-- Used in file PairModemActivity.java:274 -->
-    <string name="text_select_jlink">Select JLink radio to pair with</string>
-    <!-- Used in file activity_repeater.xml:215 -->
-    <string name="button_read_from_radio">From Radio</string>
-    <!-- Used in file RepeaterActivity.java:461 -->
-    <string name="string_setup_failed_">Setup failed!</string>
-    <!-- Used in file activity_pair_modem.xml:24 -->
-    <string name="text_select_modem">Select HPT modem to pair</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:47 -->
-    <string name="string_bluetooth_radio">Bluetooth Radio</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:609 -->
-    <string name="string_firmware_successfully_loaded">Firmware successfully loaded</string>
-    <!-- Used in file PairModemActivity.java:106 -->
-    <string name="string_successfully_paired_to_radio_">Successfully paired to radio.</string>
-    <!-- Used in file PairModemActivity.java:533 -->
-    <string name="string_unpairing_error">Unpairing error</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:23 -->
-    <string name="text_select_modem_2">Select radio to update firmware</string>
-    <!-- Used in file item_device.xml:13 -->
+    <!-- Used in file item_device.xml:14    -->
     <string name="none">None</string>
-    <!-- Used in file activity_repeater.xml:110 -->
-    <string name="simplex_protocol_parameters">Simplex Protocol Parameters</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:563 -->
-    <string name="string_load_firmware_anyway">Load firmware anyway</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:643 -->
-    <string name="string_can_t_initiate_firmware_loading">Can\'t initiate firmware loading</string>
-    <!-- Used in file activity_main.xml:14 -->
-    <string name="hello_world">Hello world!</string>
-    <!-- Used in file PairModemActivity.java:384 -->
-    <string name="string_wait__">Wait!!</string>
-    <!-- Used in file PairModemActivity.java:409 -->
-    <string name="string_receiver_is_not_connected_">Receiver is not connected!</string>
-    <!-- Used in file FindRangefinderActivity.java:496 -->
-    <string name="string_please_wait">Please wait</string>
-    <!-- Used in file PairModemActivity.java:100 -->
-    <string name="string_paired_to__">Paired to:)</string>
-    <!-- Used in file PairModemActivity.java:125 -->
-    <string name="string_turn_the_radio_off_and_on_to_finish_">Turn the radio off and on to finish.</string>
-    <!-- Used in file PairModemActivity.java:125 -->
-    <string name="string_unpaired_">Unpaired.</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:535 -->
-    <string name="string_load_firmware">Load firmware</string>
-    <!-- Used in file activity_repeater.xml:159 -->
-    <string name="scrambling">Scrambling</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:308 -->
-    <string name="string_can_t_connect_to_internal_radio_">Can\'t connect to internal radio!</string>
-    <!-- Used in file FindRangefinderActivity.java:495 -->
-    <string name="string_conecting___">Conecting&#8230;</string>
-    <!-- Used in file AndroidManifest.xml:25 -->
-    <string name="app_name">Pair HPT Modem</string>
-    <!-- Used in file RepeaterActivity.java:149 -->
-    <string name="string_reading_setting___">Reading setting&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:587 -->
-    <string name="string_this_firmware_is">This firmware is</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:750 -->
-    <string name="string_reset">Reset</string>
-    <!-- Used in file RepeaterActivity.java:301 -->
-    <string name="string_wrong_rx_frequecy_">Wrong RX frequecy!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:633 -->
-    <string name="string_can_t_start_firmware_load">Can\'t start firmware load</string>
-    <!-- Used in file activity_repeater.xml:99 -->
-    <string name="protocol">Protocol</string>
-    <!-- Used in file activity_repeater.xml:148 -->
-    <string name="channel_spacing">Channel Spacing</string>
-    <!-- Used in file PairModemActivity.java:129 -->
-    <string name="string_unparing">Unparing</string>
-    <!-- Used in file pair_modem.xml:18 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file activity_repeater.xml:187 -->
+    <!-- Used in file activity_repeater.xml:55    -->
+    <string name="rx_frequency_hz">RX Frequency, Hz</string>
+    <!-- Used in file pair_modem.xml:13    -->
+    <string name="action_wifi">WiFi</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:35    -->
+    <string name="string_internal_radio">Internal Radio</string>
+    <!-- Used in file activity_repeater.xml:187    -->
     <string name="rtr_echo">RTR Echo</string>
-    <!-- Used in file RepeaterActivity.java:332 -->
-    <string name="string_wrong_rx_frequency_">Wrong RX frequency!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:536 -->
-    <string name="string_do_you_want_to_load_the_firmware_">Do you want to load the firmware?</string>
-    <!-- Used in file FindRangefinderActivity.java:346 -->
-    <string name="string_successfully_connected_to__s">Successfully connected to %s</string>
-    <!-- Used in file PairModemActivity.java:169 -->
-    <string name="string_connected_to_">Connected to </string>
-    <!-- Used in file PairModemActivity.java:530 -->
-    <string name="string_successfully_unpaired_">Successfully unpaired.</string>
-    <!-- Used in file AndroidManifest.xml:60 -->
-    <string name="title_activity_connection">Connection</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:780 -->
-    <string name="string_rebooting___1f">Rebooting %.1f</string>
-    <!-- Used in file PairModemActivity.java:480 -->
-    <string name="string_modem_bluetooth_address_is_not_obtained_">Modem Bluetooth address is not obtained!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:542 -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file RepeaterActivity.java:294 -->
-    <string name="string_wrong_tx_frequecy_">Wrong TX frequecy!</string>
-    <!-- UNUSED STRING -->
-    <string name="paired_devices">Devices</string>
+    <!-- Used in file activity_repeater.xml:226    -->
+    <string name="button_apply">Apply</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:41    -->
+    <string name="string_paired_radio">Paired to receiver Radio</string>
+    <!-- Used in file main_bosch_2.xml:7    -->
+    <string name="refresh_bluetooth">Refresh</string>
+    <!-- Used in file PairModemActivity.java:273    -->
+    <string name="text_select_jlink">Select JLink radio to pair with</string>
+    <!-- Used in file activity_repeater.xml:73    -->
+    <string name="call_sign">Call Sign</string>
+    <!-- Used in file activity_repeater.xml:37    -->
+    <string name="tx_frequency_hz">TX Frequency, Hz</string>
+    <!-- Used in file activity_repeater.xml:110    -->
+    <string name="simplex_protocol_parameters">Simplex Protocol Parameters</string>
+    <!-- Used in file activity_find_rangefinder.xml:15    -->
+    <string name="text_run_survey_with">Connect Rangefinder as TS</string>
+    <!-- Used in file activity_repeater.xml:215    -->
+    <string name="button_read_from_radio">From Radio</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:584    -->
+    <string name="string_load_firmware_anyway">Load firmware anyway</string>
+    <!-- Used in file activity_repeater.xml:129    -->
+    <string name="modulation">Modulation</string>
+    <!-- Used in file activity_repeater.xml:169    -->
+    <string name="fec">Error Correction (FEC)</string>
+    <!-- Used in file activity_repeater.xml:99    -->
+    <string name="protocol">Protocol</string>
+    <!-- Used in file activity_main.xml:14    -->
+    <string name="hello_world">Hello world!</string>
+    <!-- Used in file pair_modem.xml:7    -->
+    <string name="action_bluetooth">Bluetooth</string>
+    <!-- Used in file activity_repeater.xml:148    -->
+    <string name="channel_spacing">Channel Spacing</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:47    -->
+    <string name="string_bluetooth_radio">Bluetooth Radio</string>
+    <!-- Used in file activity_pair_modem.xml:24    -->
+    <string name="text_select_modem">Select HPT modem to pair</string>
+    <!-- Used in file activity_repeater.xml:159    -->
+    <string name="scrambling">Scrambling</string>
+    <!-- Used in file main.xml:7    -->
+    <string name="action_settings">Settings</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:15    -->
+    <string name="text_receiver_info">Connected to receiver</string>
+    <!-- Used in file activity_find_repeater.xml:16    -->
+    <string name="text_select_repeater">Select HPT Repeater to setup</string>
+    <!-- Used in file activity_repeater.xml:91    -->
+    <string name="output_power_w">Output Power</string>
+    <!-- Used in file main_bosch_2.xml:14    -->
+    <string name="bluetooth_resttings">Settings</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:158    -->
+    <string name="no_connection">No connection to a Javad receiver</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:23    -->
+    <string name="text_select_modem_2">Select radio to update firmware</string>
+    <!-- Used in file activity_find_rangefinder.xml:24    -->
+    <string name="text_select_rangefinder">Select a Rangefinder</string>
 
 </resources>
