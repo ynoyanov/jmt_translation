@@ -102,7 +102,7 @@
     <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:141. Original value:Wrong maximum corrected tilt angle!    -->
     <string name="wrong_maximum_corrected_tilt_angle">Błędny maks. kąt kompensacji</string>
     <!-- Used in file RTKBaseSettingsActivity.java:386. Original value:JAVAD J-Mobile-R works only with athorized GNSS Receivers!    -->
-    <string name="jmtr_oaf_title">JAVAD J-Mobile-R działa tylko z autoryzowanymi odbiornikami GNSS!</string>
+    <string name="jmtr_oaf_title">JAVAD JMT-R działa tylko z autoryzowanymi odbiornikami GNSS!</string>
     <!-- Used in file quattro_info.xml:9. Original value:Angle Determinatioin    -->
     <string name="quattro_angle_determination">Określenie kąta</string>
     <!-- Used in file activity_stakeout.xml:47. Original value:Next    -->
@@ -120,7 +120,7 @@
     <!-- Used in file activity_stakeout.xml:85. Original value:Along    -->
     <string name="text_along">Bieżąca</string>
     <!-- Used in file RTKBaseSettingsActivity.java:387. Original value:The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).    -->
-    <string name="jmtr_oaf_message">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (J-Mobile-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).</string>
+    <string name="jmtr_oaf_message">The GNSS receiver is not authorized to work with JAVAD Mobile Tools for Authorized Receiver (JMT-R)!\nPlease contact JAVAD GNSS or your dealer to purchase this authorization OAF option!\nYou can either load OAF option to the receiver or purchase and install full functional Javad Mobile Tools (J-Mobile).</string>
     <!-- Used in file rtk_base_nethub.xml:166. Original value:Client    -->
     <string name="client_client_type">Klient</string>
     <!-- Used in file map_survey.xml:22. Original value:Zoom All    -->
@@ -243,8 +243,6 @@
     <string name="color_black">Czarny</string>
     <!-- Used in file correction_source_actions.xml:15. Original value:Lock style from modifications    -->
     <string name="string_menu_lock_style">Chroń styl przed modyfikacjami</string>
-    <!-- Used in file null:0. Original value:Stakeout labels    -->
-    <string name="info_text_labels_string">Etykiety tyczenia</string>
     <!-- Used in file activity_satellite_types.xml:628. Original value:Group by Systems    -->
     <string name="check_group_by_systems">Grupuj Systemami</string>
     <!-- Used in file activity_calibrate.xml:67. Original value:Start\nCompass\nCalibration    -->
@@ -1116,8 +1114,6 @@
     <string name="string_file_surface">Plik Płaszczyzny</string>
     <!-- Used in file rtk_base_uhf.xml:46. Original value:Simplex protocol settings    -->
     <string name="simplex">Ustawienia Simplex</string>
-    <!-- Used in file null:0. Original value:JMATE is not connected!    -->
-    <string name="jmate_is_not_connected_string">JMATE is not connected!</string>
     <!-- Used in file ConfigureCorrectionStyleBaseActivity.java:560. Original value:RTCM 2.0 Corrs.only    -->
     <string name="rtcm20_corrs_only">RTCM 2.0 Corrs.only</string>
     <!-- Used in file rtk_base.xml:9. Original value:BASE STATION    -->
@@ -1186,8 +1182,6 @@
     <string name="string_distance1_xml">Odl1</string>
     <!-- Used in file StakeoutRTK.java:4019. Original value:\u21E6    -->
     <string name="text_left_sign">\u21E6</string>
-    <!-- Used in file null:0. Original value:Start Resection    -->
-    <string name="string_resection_station_string">Start Resection</string>
     <!-- Used in file receiver_info.xml:3. Original value:Vendor    -->
     <string name="vendor">Producent</string>
     <!-- Used in file stakeout_settings.xml:127. Original value:Antenna Height    -->
@@ -1226,14 +1220,12 @@
     <string name="hot_start">Ciepły start</string>
     <!-- Used in file StakeoutRTK.java:4013. Original value:\u2195    -->
     <string name="text_along_sign">\u2195</string>
-    <!-- Used in file null:0. Original value:Stakeout text size    -->
-    <string name="info_text_size_string">Rozmiar tekstów tyczenia</string>
     <!-- Used in file offsets2_with_stakeout_dark.xml:35. Original value:OffLine    -->
     <string name="string_menu_offset_general">Domiar</string>
     <!-- Used in file activity_configure_gprs.xml:91. Original value:Registration    -->
     <string name="registration_mode">Rejestracja</string>
     <!-- Used in file RTKBaseSettingsActivity.java:388. Original value:Switch to PlayMarket for J-Mobile    -->
-    <string name="string_load_jmt">Switch to PlayMarket for J-Mobile</string>
+    <string name="string_load_jmt">Switch to PlayMarket for JMT</string>
     <!-- Used in file activity_configure_gprs.xml:137. Original value:Login    -->
     <string name="gprs_login">Login</string>
     <!-- Used in file SurveyModel.java:320. Original value:Not enough memory in the receiver!    -->
@@ -1306,8 +1298,6 @@
     <string name="button_more">Więcej&gt;&gt;</string>
     <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
     <string name="level_offsets">Offsety</string>
-    <!-- Used in file null:0. Original value:Start Station    -->
-    <string name="string_start_station_string">Start Station</string>
     <!-- Used in file activity_satellite_types.xml:139. Original value:BeiDou    -->
     <string name="check_bdu">BeiDou</string>
     <!-- Used in file activity_survey_styles.xml:43. Original value:Duplicate    -->
@@ -1424,8 +1414,6 @@
     <string name="text_bearing">Kąt</string>
     <!-- Used in file DrawHeightFilter.java:62. Original value:Cannot read Fix position from receiver!    -->
     <string name="cant_read_fix_position">Nie można odczytać pozycji z odbiornika!</string>
-    <!-- Used in file null:0. Original value:Can\'t connect to NetHub!    -->
-    <string name="string_can_t_connect_to_nethub_">Nie można połączyć z NetHub!</string>
     <!-- Used in file stakeout_settings.xml:49. Original value:Accept HRMS    -->
     <string name="accept_hrms">Limit HRMS</string>
     <!-- Used in file activity_calibrate.xml:110. Original value:Use Levels    -->
@@ -1730,7 +1718,7 @@ Dzięki temu masz możliwość oceny jakości śledzenia i dostosowania czas pom
     <!-- Used in file VerifySettingsPreferenceFragment.java:191. Original value:Wrong number of groups    -->
     <string name="wrong_number_of_groups">Błędna ilość serii!</string>
     <!-- Used in file BaseSurveyStakeoutFromActivity.java:645. Original value:Lift&amp;Tilt Survey    -->
-    <string name="string_lift_tilt_survey">Pomiar L&amp;T</string>
+    <string name="string_lift_tilt_survey_title">L&amp;T</string>
     <!-- Used in file StakeoutRTK.java:4060. Original value:\u2316    -->
     <string name="text_ctt_sign">\u2316</string>
     <!-- Used in file content_home_map_stakeoutonmap_top.xml:143. Original value:Cut    -->
@@ -1761,8 +1749,6 @@ Dzięki temu masz możliwość oceny jakości śledzenia i dostosowania czas pom
     <string name="string_menu_duplicate_style">Kopiuj Styl</string>
     <!-- Used in file source_table_row_dark.xml:123. Original value:GGA    -->
     <string name="gga">Wysyłaj GGA</string>
-    <!-- Used in file null:0. Original value:NetHub Server error!    -->
-    <string name="string_nethub_server_error_">NetHub Server error!</string>
     <!-- Used in file settings_sounds.xml:137. Original value:Point store error    -->
     <string name="survey_point_stored_error">Błąd zapisu punktu</string>
     <!-- Used in file SurveySettingsPreferenceFragment.java:1034. Original value:Mode delay has been changed to extrap\nto support 5Hz    -->

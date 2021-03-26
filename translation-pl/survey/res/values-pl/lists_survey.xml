@@ -205,6 +205,13 @@
          <item>Coordinates only</item>
     </string-array>
 
+    <string-array name="imu_modes">
+        <item>Off</item>
+        <item>Swing (Moving Tip Off)</item>
+        <item>Tilt (Moving Tip On)</item>
+    </string-array>
+
+
     <!-- Used in file activity_start_station_resection.xml:51 -->
     <string-array name="array_measurement_type">
          <item>Distances and Angles</item>
@@ -392,6 +399,7 @@
          <item>GPS+GLO+Inne</item>
          <item>Wszystkie-Nieużywane</item>
          <item>Suma</item>
+        <item>GPS+GLO+GAL+BDU+Inne</item>
     </string-array>
 
     <!-- Used in file SurveyingRTK.java:2303 -->
