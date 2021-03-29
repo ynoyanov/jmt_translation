@@ -1,161 +1,188 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file SettingsFragment.java:664. Original value:Debug Survey  -->
-    <string name="string_debug_survey">Debug Survey</string>
-    <!--  Used in file HomeMapActivity.java:2033. Original value:Receiver is not licensed!  -->
-    <string name="string_receiver_is_not_licensed_">Brak wykupionej opcji!</string>
-    <!--  Used in file BaseHomeActivity.java:1177. Original value:Close  -->
-    <string name="string_close">Zamknij</string>
-    <!--  Used in file SettingsFragment.java:157. Original value:Use  -->
-    <string name="string_use">Użyj</string>
-    <!--  Used in file SettingsFragment.java:113. Original value:This is dangerous setting  -->
-    <string name="string_this_is_dangerous_setting">Niebezpieczne ustawienie</string>
-    <!--  Used in file BaseHomeActivity.java:883. Original value:Russian  -->
-    <string name="string_russian">Rosyjski</string>
-    <!--  Used in file SettingsFragment.java:259. Original value:Scheme  -->
-    <string name="string_scheme">Schemat</string>
-    <!--  Used in file SettingsFragment.java:279. Original value:Survey/Stakeout without Map  -->
-    <string name="string_survey_stakeout_without_map">Pomiar/Tyczenie bez Mapy</string>
-    <!--  Used in file BaseHomeActivity.java:545. Original value:Option has purchased. App is licensed to work with any JAVAD GNSS receiver.  -->
-    <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Opcja zakupiona. Aplikacja ma aktywną licencję , pozwalającą na prace z dowolnym odbiornikiem JAVAD GNSS.</string>
-    <!--  Used in file BaseHomeActivity.java:810. Original value:Job:  -->
-    <string name="string_job_">Proj:</string>
-    <!--  Used in file HomeMapActivity.java:2616. Original value:Permission denied to access to camera  -->
-    <string name="string_permission_denied_to_access_to_camera">Brak dostępu do Aparatu!</string>
-    <!--  Used in file BaseHomeActivity.java:483. Original value:Problem setting up In-app Billing:   -->
-    <string name="string_problem_setting_up_in_app_billing__">Problem z ustawieniem zakupów w aplikacji:</string>
-    <!--  Used in file BaseHomeActivity.java:1171. Original value:Start Corrections  -->
-    <string name="string_start_corrections">Start</string>
-    <!--  Used in file SettingsFragment.java:647. Original value:Archive jobs to GoogleDrive  -->
-    <string name="string_archive_jobs_to_googledrive">Archiwizuj do GoogleDrive</string>
-    <!--  Used in file SettingsFragment.java:652. Original value:Archive jobs to Microsoft OneDrive  -->
-    <string name="string_archive_jobs_to_microsoft_onedrive">Archiwizuj do Microsoft OneDrive</string>
-    <!--  Used in file BaseHomeActivity.java:779. Original value:Version:%1$s%2$s %3$s  -->
-    <string name="string_version__1_s_2_s__3_s">Wersja:%1$s%2$s %3$s</string>
-    <!--  Used in file SettingsFragment.java:284. Original value:Survey on bottom  -->
-    <string name="string_survey_on_bottom">Na dole</string>
-    <!--  Used in file SettingsFragment.java:287. Original value:Antenna/Settings button  -->
-    <string name="string_antenna_settings_button">Antena/Ustawienia</string>
-    <!--  Used in file BaseHomeActivity.java:858. Original value:Language  -->
-    <string name="string_language">Język</string>
-    <!--  Used in file BaseHomeActivity.java:1172. Original value:Stop Corrections  -->
-    <string name="string_stop_corrections">Stop</string>
-    <!--  Used in file BaseHomeActivity.java:884. Original value:Taiwan  -->
-    <string name="string_taiwan">Taiwan</string>
-    <!--  Used in file BaseHomeActivity.java:885. Original value:Turkish  -->
-    <string name="string_turkish">Turkish</string>
-    <!--  Used in file SettingsFragment.java:159. Original value:5Hz  -->
-    <string name="string_5hz">5Hz</string>
-    <!--  Used in file SettingsFragment.java:685. Original value:Open Street Maps  -->
-    <string name="string_open_street_maps">Open Street Maps</string>
-    <!--  Used in file BaseHomeActivity.java:1169. Original value:Start RTK Rover  -->
-    <string name="string_start_rtk_rover">Start RTK Rover</string>
-    <!--  Used in file SettingsFragment.java:153. Original value:Stay for %dsec  -->
-    <string name="string_stay_for__dsec">Zatrzymaj po %dsek</string>
-    <!--  Used in file BaseHomeActivity.java:685. Original value:Permission denied to write to your External storage  -->
-    <string name="string_permission_denied_to_write_to_your_external_storage">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
-    <!--  Used in file SettingsFragment.java:642. Original value:Archive jobs to DropBox  -->
-    <string name="string_archive_jobs_to_dropbox">Archiwizuj do DropBox</string>
-    <!--  Used in file BaseHomeActivity.java:861. Original value:English  -->
-    <string name="string_english">English</string>
-    <!--  Used in file BaseHomeActivity.java:2332. Original value:Id  -->
-    <string name="string_id">Id</string>
-    <!--  Used in file SettingsFragment.java:683. Original value:Google Maps  -->
-    <string name="string_google_maps">Google Maps</string>
-    <!--  Used in file SettingsFragment.java:282. Original value:Survey on top  -->
-    <string name="string_survey_on_top">Na górze</string>
-    <!--  Used in file BaseHomeActivity.java:797. Original value:Rec:  -->
-    <string name="string_rec_">Rec:</string>
-    <!--  Used in file SettingsFragment.java:113. Original value:Changing archive settings will move all your job files!  -->
-    <string name="string_changing_archive_settings_will_move_all_your_job_files_">Po zmianie ustawień wszystkie projekty zostaną przeniesione!</string>
-    <!--  Used in file BaseHomeActivity.java:519. Original value:Error purchasing:   -->
-    <string name="string_error_purchasing__">Błąd zakupu:</string>
-    <!--  Used in file SettingsFragment.java:157. Original value:Fix, Float or DGPS  -->
-    <string name="string_fix__float_or_dgps">Fix, Float lub DGPS</string>
-    <!--  Used in file BaseHomeActivity.java:1177. Original value:Disconnect  -->
-    <string name="string_disconnect">Rozłącz</string>
-    <!--  Used in file SettingsFragment.java:638. Original value:Archive jobs to SD folder %s  -->
-    <string name="string_archive_jobs_to_sd_folder__s">Archiwizuj na kartę SD, do folderu %s</string>
-    <!--  Used in file SettingsFragment.java:112. Original value:Warning  -->
-    <string name="string_warning">Ostrzeżenie</string>
-    <!--  Used in file SettingsFragment.java:203. Original value:no correction source  -->
-    <string name="string_no_correction_source">brak źródła poprawek</string>
-    <!--  Used in file BaseHomeActivity.java:675. Original value:Permission denied to read from your External storage  -->
-    <string name="string_permission_denied_to_read_from_your_external_storage">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
-    <!--  Used in file SettingsFragment.java:157. Original value:Fixed Only  -->
-    <string name="string_fixed_only">Tylko Fixed</string>
-    <!--  Used in file SettingsFragment.java:113. Original value:Do you want to continue anyway?  -->
-    <string name="string_do_you_want_to_continue_anyway_">Czy kontynuować mimo wszystko?</string>
-    <!--  Used in file BaseHomeActivity.java:2332. Original value:Receiver  -->
-    <string name="string_receiver">Odbiornik</string>
-    <!--  Used in file SettingsFragment.java:664. Original value:No debug  -->
-    <string name="string_no_debug">No debug</string>
-    <!--  Used in file BaseHomeActivity.java:1228. Original value:Connection in progress&#8230;!  -->
-    <string name="string_connection_in_progress____">Połączenie w toku…!</string>
-    <!--  Used in file BaseHomeActivity.java:1983. Original value:Select Project  -->
-    <string name="string_select_project">Wybierz Projekt</string>
-    <!--  Used in file BaseHomeActivity.java:1339. Original value:Do you want to exit the application?  -->
-    <string name="string_do_you_want_to_exit_the_application_">Czy chcesz wyjść z programu?</string>
-    <!--  Used in file SettingsFragment.java:669. Original value:No file logging  -->
-    <string name="string_no_file_logging">Bez logowania</string>
-    <!--  Used in file SettingsFragment.java:684. Original value:Yandex Maps  -->
-    <string name="string_yandex_maps">Yandex Maps</string>
-    <!--  Used in file BaseHomeActivity.java:1985. Original value:Select Last Job (%s)  -->
-    <string name="string_select_last_job___s_">Poprzedni projekt: %s</string>
-    <!--  Used in file SettingsFragment.java:698. Original value:RTKBases  -->
-    <string name="string_rtkbases">RTKBases</string>
-    <!--  Used in file BaseHomeActivity.java:854. Original value:Sounds  -->
-    <string name="string_sounds">Dźwięki</string>
-    <!--  Used in file BaseHomeActivity.java:1170. Original value:Stop RTK Rover  -->
-    <string name="string_stop_rtk_rover">Zatrzymaj Rover RTK</string>
-    <!--  Used in file BaseHomeActivity.java:699. Original value:Permission denied to obtain list of Bluetooth devices around  -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Brak uprawnień do wyświetlenia urządzeń BT w pobliżu!</string>
-    <!--  Used in file SettingsFragment.java:155. Original value:Stay till Stop  -->
-    <string name="string_stay_till_stop">Zatrzymaj ręcznie</string>
-    <!--  Used in file SettingsFragment.java:667. Original value:Log to file  -->
-    <string name="string_log_to_file">Zapis do pliku</string>
-    <!--  Used in file BaseHomeActivity.java:1338. Original value:Exit application  -->
-    <string name="string_exit_application">Zamknij program</string>
-    <!--  Used in file SettingsFragment.java:694. Original value:Design  -->
-    <string name="string_design">Projekt</string>
-    <!--  Used in file SettingsFragment.java:203. Original value:Corrections:  -->
-    <string name="string_corrections_">Poprawki:</string>
-    <!--  Used in file SettingsFragment.java:277. Original value:Survey/Stakeout on Map  -->
-    <string name="string_survey_stakeout_on_map">Pomiar/Tyczenie na Mapie</string>
-    <!--  Used in file BaseHomeActivity.java:1986. Original value:Select Other Job&#8230;  -->
-    <string name="string_select_other_job___">Inny projekt…</string>
-    <!--  Used in file SettingsFragment.java:163. Original value:North Up  -->
-    <string name="string_north_up">Na Północ</string>
-    <!--  Used in file SettingsFragment.java:289. Original value:Additional views  -->
-    <string name="string_additional_views">Dodatkowe Widoki</string>
-    <!--  Used in file SettingsFragment.java:157. Original value:All Epochs  -->
-    <string name="string_all_epochs">Wszystkie Epoki</string>
-    <!--  Used in file BaseHomeActivity.java:213. Original value:Wrong device  -->
-    <string name="string_wrong_device">Niewłaściwe urządz.</string>
-    <!--  Used in file SettingsFragment.java:687. Original value:DXF/DWG File  -->
-    <string name="string_dxf_dwg_file">DXF/DWG File</string>
-    <!--  Used in file SettingsFragment.java:689. Original value:View:  -->
-    <string name="string_view_">Widok:</string>
-    <!--  Used in file SettingsFragment.java:655. Original value:Job Arhiving is off  -->
-    <string name="string_job_arhiving_is_off">Archiwizacja wyłączona</string>
-    <!--  Used in file BaseHomeActivity.java:214. Original value:The application is designed to be ran on Nautiz X8 device only.  -->
-    <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Aplikacja jest przeznaczona tylko na urządzenie Nautiz X8.</string>
-    <!--  Used in file HomeMapActivity.java:2739. Original value:You can\'t import Survey points!  -->
-    <string name="string_you_can_t_import_survey_points_">Nie można importować punktów do pomiaru!</string>
-    <!--  Used in file SettingsFragment.java:696. Original value:TS  -->
-    <string name="string_ts">TS</string>
-    <!--  Used in file BaseHomeActivity.java:2434. Original value:Error!  -->
-    <string name="string_error_">Błąd!</string>
-    <!--  Used in file BaseHomeActivity.java:777. Original value:Build:%s  -->
-    <string name="string_build__s">Build:%s</string>
-    <!--  Used in file SettingsFragment.java:692. Original value:Survey  -->
-    <string name="string_survey">Pomiar</string>
-    <!--  Used in file SettingsFragment.java:165. Original value:Sun Up  -->
-    <string name="string_sun_up">Na Słońce</string>
-    <!--  Used in file SettingsFragment.java:164. Original value:Course Up  -->
-    <string name="string_course_up">Zgodnie z kursem</string>
-    <!--  Used in file BaseHomeActivity.java:375. Original value:Points  -->
-    <string name="string_points">Punkty</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Debug Survey-->
+  <string name="string_debug_survey">Debug Survey</string>
+  <!--Original value: Receiver is not licensed!-->
+  <string name="string_receiver_is_not_licensed_">Brak wykupionej opcji!</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Use-->
+  <string name="string_use">Użyj</string>
+  <!--Original value: This is dangerous setting-->
+  <string name="string_this_is_dangerous_setting">Niebezpieczne ustawienie</string>
+  <!--Original value: Russian-->
+  <string name="string_russian">Rosyjski</string>
+  <!--Original value: Scheme-->
+  <string name="string_scheme">Schemat</string>
+  <!--Original value: Survey/Stakeout without Map-->
+  <string name="string_survey_stakeout_without_map">Pomiar/Tyczenie bez Mapy</string>
+  <!--Original value: Option has purchased. App is licensed to work with any JAVAD GNSS receiver.-->
+  <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Opcja zakupiona. Aplikacja ma aktywną licencję , pozwalającą na prace z dowolnym odbiornikiem JAVAD GNSS.</string>
+  <!--Original value: Job:-->
+  <string name="string_job_">Proj:</string>
+  <!--Original value: Permission denied to access to camera-->
+  <string name="string_permission_denied_to_access_to_camera">Brak dostępu do Aparatu!</string>
+  <!--Original value: Problem setting up In-app Billing: -->
+  <string name="string_problem_setting_up_in_app_billing__">Problem z ustawieniem zakupów w aplikacji:</string>
+  <!--Original value: Start Corrections-->
+  <string name="string_start_corrections">Start</string>
+  <!--Original value: Archive jobs to GoogleDrive-->
+  <string name="string_archive_jobs_to_googledrive">Archiwizuj do GoogleDrive</string>
+  <!--Original value: Archive jobs to Microsoft OneDrive-->
+  <string name="string_archive_jobs_to_microsoft_onedrive">Archiwizuj do Microsoft OneDrive</string>
+  <!--Original value: Version:%1$s%2$s %3$s-->
+  <string name="string_version__1_s_2_s__3_s">Wersja:%1$s%2$s %3$s</string>
+  <!--Original value: Survey on bottom-->
+  <string name="string_survey_on_bottom">Na dole</string>
+  <!--Original value: Antenna/Settings button-->
+  <string name="string_antenna_settings_button">Antena/Ustawienia</string>
+  <!--Original value: Language-->
+  <string name="string_language">Język</string>
+  <!--Original value: Stop Corrections-->
+  <string name="string_stop_corrections">Stop</string>
+  <!--Original value: Taiwan-->
+  <string name="string_taiwan">Taiwan</string>
+  <!--Original value: Turkish-->
+  <string name="string_turkish">Turkish</string>
+  <!--Original value: Please, switch to design or TS points from top menu to import data!-->
+  <string name="string_please__switch_to_design_or_ts_points_from_top_menu_to_import_data_">Wybierz punkty projektowane [D] aby przeprowadzić import danych!</string>
+  <!--Original value: Compare RTK+RTPK-->
+  <string name="string_compare_rtk_rtpk">Porównaj RTK + RTPK</string>
+  <!--Original value: 5Hz-->
+  <string name="string_5hz">5Hz</string>
+  <!--Original value: Open Street Maps-->
+  <string name="string_open_street_maps">Open Street Maps</string>
+  <!--Original value: Start RTK Rover-->
+  <string name="string_start_rtk_rover">Start RTK Rover</string>
+  <!--Original value: Stay for %dsec-->
+  <string name="string_stay_for__dsec">Zatrzymaj po %dsek</string>
+  <!--Original value: Permission denied to write to your External storage-->
+  <string name="string_permission_denied_to_write_to_your_external_storage">Brak uprawnień do zapisu na nośniku zewnętrznym</string>
+  <!--Original value: Archive jobs to DropBox-->
+  <string name="string_archive_jobs_to_dropbox">Archiwizuj do DropBox</string>
+  <!--Original value: English-->
+  <string name="string_english">English</string>
+  <!--Original value: Id-->
+  <string name="string_id">Id</string>
+  <!--Original value: Google Maps-->
+  <string name="string_google_maps">Google Maps</string>
+  <!--Original value: Survey on top-->
+  <string name="string_survey_on_top">Na górze</string>
+  <!--Original value: Rec:-->
+  <string name="string_rec_">Rec:</string>
+  <!--Original value: Changing archive settings will move all your job files!-->
+  <string name="string_changing_archive_settings_will_move_all_your_job_files_">Po zmianie ustawień wszystkie projekty zostaną przeniesione!</string>
+  <!--Original value: Error purchasing: -->
+  <string name="string_error_purchasing__">Błąd zakupu:</string>
+  <!--Original value: Fix, Float or DGPS-->
+  <string name="string_fix__float_or_dgps">Fix, Float lub DGPS</string>
+  <!--Original value: Disconnect-->
+  <string name="string_disconnect">Rozłącz</string>
+  <!--Original value: Archive jobs to SD folder %s-->
+  <string name="string_archive_jobs_to_sd_folder__s">Archiwizuj na kartę SD, do folderu %s</string>
+  <!--Original value: Warning-->
+  <string name="string_warning">Ostrzeżenie</string>
+  <!--Original value: no correction source-->
+  <string name="string_no_correction_source">brak źródła poprawek</string>
+  <!--Original value: Permission denied to read from your External storage-->
+  <string name="string_permission_denied_to_read_from_your_external_storage">Brak uprawnień do odczytywania danych z pamięci zewnętrznej</string>
+  <!--Original value: Fixed Only-->
+  <string name="string_fixed_only">Tylko Fixed</string>
+  <!--Original value: Do you want to continue anyway?-->
+  <string name="string_do_you_want_to_continue_anyway_">Czy kontynuować mimo wszystko?</string>
+  <!--Original value: Receiver-->
+  <string name="string_receiver">Odbiornik</string>
+  <!--Original value: No debug-->
+  <string name="string_no_debug">No debug</string>
+  <!--Original value: Connection in progress…!-->
+  <string name="string_connection_in_progress____">Połączenie w toku…!</string>
+  <!--Original value: Select Project-->
+  <string name="string_select_project">Wybierz Projekt</string>
+  <!--Original value: Do you want to exit the application?-->
+  <string name="string_do_you_want_to_exit_the_application_">Czy chcesz wyjść z programu?</string>
+  <!--Original value: No file logging-->
+  <string name="string_no_file_logging">Bez logowania</string>
+  <!--Original value: Yandex Maps-->
+  <string name="string_yandex_maps">Yandex Maps</string>
+  <!--Original value: First Fix-->
+  <string name="string_first_fix">Pierwszy FIX</string>
+  <!--Original value: Select Last Job (%s)-->
+  <string name="string_select_last_job___s_">Poprzedni projekt: %s</string>
+  <!--Original value: RTKBases-->
+  <string name="string_rtkbases">RTKBases</string>
+  <!--Original value: Sounds-->
+  <string name="string_sounds">Dźwięki</string>
+  <!--Original value: Stop RTK Rover-->
+  <string name="string_stop_rtk_rover">Zatrzymaj Rover RTK</string>
+  <!--Original value: Permission denied to obtain list of Bluetooth devices around-->
+  <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Brak uprawnień do wyświetlenia urządzeń BT w pobliżu!</string>
+  <!--Original value: Stay till Stop-->
+  <string name="string_stay_till_stop">Zatrzymaj ręcznie</string>
+  <!--Original value: Log to file-->
+  <string name="string_log_to_file">Zapis do pliku</string>
+  <!--Original value: Exit application-->
+  <string name="string_exit_application">Zamknij program</string>
+  <!--Original value: Design-->
+  <string name="string_design">Projekt</string>
+  <!--Original value: Corrections:-->
+  <string name="string_corrections_">Poprawki:</string>
+  <!--Original value: Permission denied to manage to your External storage-->
+  <string name="string_permission_denied_to_manage_to_your_external_storage" />
+  <!--Original value: CAD layers-->
+  <string name="string_cad_layers">Warstwy CAD</string>
+  <!--Original value: Survey/Stakeout on Map-->
+  <string name="string_survey_stakeout_on_map">Pomiar/Tyczenie na Mapie</string>
+  <!--Original value: Select Other Job…-->
+  <string name="string_select_other_job___">Inny projekt…</string>
+  <!--Original value: North Up-->
+  <string name="string_north_up">Na Północ</string>
+  <!--Original value: Additional views-->
+  <string name="string_additional_views">Dodatkowe Widoki</string>
+  <!--Original value: All Epochs-->
+  <string name="string_all_epochs">Wszystkie Epoki</string>
+  <!--Original value: Wrong device-->
+  <string name="string_wrong_device">Niewłaściwe urządz.</string>
+  <!--Original value: DXF/DWG File-->
+  <string name="string_dxf_dwg_file">DXF/DWG File</string>
+  <!--Original value: View:-->
+  <string name="string_view_">Widok:</string>
+  <!--Original value: Job Arhiving is off-->
+  <string name="string_job_arhiving_is_off">Archiwizacja wyłączona</string>
+  <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
+  <string name="string_the_application_is_designed_to_be_ran_on_nautiz_x8_device_only_">Aplikacja jest przeznaczona tylko na urządzenie Nautiz X8.</string>
+  <!--Original value: You can\'t import Survey points!-->
+  <string name="string_you_can_t_import_survey_points_">Nie można importować punktów do pomiaru!</string>
+  <!--Original value: TS-->
+  <string name="string_ts">TS</string>
+  <!--Original value: Error!-->
+  <string name="string_error_">Błąd!</string>
+  <!--Original value: Build:%s-->
+  <string name="string_build__s">Build:%s</string>
+  <!--Original value: Survey-->
+  <string name="string_survey">Pomiar</string>
+  <!--Original value: Sun Up-->
+  <string name="string_sun_up">Na Słońce</string>
+  <!--Original value: Course Up-->
+  <string name="string_course_up">Zgodnie z kursem</string>
+  <!--Original value: Points-->
+  <string name="string_points">Punkty</string>
 </resources>

@@ -1,75 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file JavadCMapFragment.java:2547. Original value:Descr.  -->
-    <string name="string_descr_">Opis</string>
-    <!--  Used in file JavadTeighaMapFragment.java:203. Original value:Loading %s file&#8230;  -->
-    <string name="string_loading__s_file___">Ładuję plik %s …</string>
-    <!--  Used in file BaseMapActivity.java:80. Original value:Create  -->
-    <string name="string_create">Utwórz</string>
-    <!--  Used in file JavadTeighaMapFragment.java:203. Original value:Please wait  -->
-    <string name="string_please_wait">Proszę czekać</string>
-    <!--  Used in file JavadTeighaMapFragment.java:2296. Original value:Length: %s  -->
-    <string name="string_length___s">Długość: %s</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:190. Original value:Bearing Geo  -->
-    <string name="string_bearing_geo">Kierunek geodezyjny</string>
-    <!--  Used in file BaseMapActivity.java:332. Original value:Pick point on map..  -->
-    <string name="string_pick_point_on_map__">Wybierz punkt z mapy…</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:252. Original value:Distance  -->
-    <string name="string_distance">Odległość</string>
-    <!--  Used in file JavadCMapFragment.java:2584. Original value:Pick points on map to measure distance  -->
-    <string name="string_pick_points_on_map_to_measure_distance">Wybierz punkty z mapy aby zmierzyć odległość</string>
-    <!--  Used in file BaseMapActivity.java:489. Original value:Close  -->
-    <string name="string_close">Zamknij</string>
-    <!--  Used in file JavadCanvasMapFragment.java:315. Original value:Cancel  -->
-    <string name="string_cancel">Anuluj</string>
-    <!--  Used in file JavadTeighaMapFragment.java:2268. Original value:Trajectory  -->
-    <string name="string_trajectory">Krzywa</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:208. Original value:Bearing  -->
-    <string name="string_bearing">Kierunek</string>
-    <!--  Used in file JavadCanvasMapFragment.java:217. Original value:Pick points on map to add line  -->
-    <string name="string_pick_points_on_map_to_add_line">Wybierz punkty z mapy aby utworzyć linię</string>
-    <!--  Used in file JavadCanvasMapFragment.java:231. Original value:Pick points on map to add text  -->
-    <string name="string_pick_points_on_map_to_add_text">Wybierz punkty z mapy aby dodać tekst</string>
-    <!--  Used in file JavadCMapFragment.java:3628. Original value:Angle:  -->
-    <string name="string_angle_">Kąt</string>
-    <!--  Used in file DrawMap.java:1208. Original value:Select point  -->
-    <string name="string_select_point">Select point</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:270. Original value:Distance Slant  -->
-    <string name="string_distance_slant">Odl. skośna</string>
-    <!--  Used in file BaseMapActivity.java:487. Original value:What to do with %1$s %2$s?  -->
-    <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
-    <!--  Used in file BaseMapActivity.java:521. Original value:Do you want to delete %1$s?  -->
-    <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
-    <!--  Used in file JavadCMapFragment.java:3628. Original value:Move:  -->
-    <string name="string_move_">Przesunięcie:</string>
-    <!--  Used in file JavadTeighaMapFragment.java:2271. Original value:Contains %d points  -->
-    <string name="string_contains__d_points">Zawiera %d punkty/ów</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:233. Original value:Distance Geo  -->
-    <string name="string_distance_geo">Odl. geodezyjna</string>
-    <!--  Used in file JavadCMapFragment.java:2540. Original value:Code  -->
-    <string name="string_code">Kod</string>
-    <!--  Used in file JavadCMapFragment.java:3587. Original value:Line:  -->
-    <string name="string_line_">Linia:</string>
-    <!--  Used in file JavadCanvasMapFragment.java:203. Original value:Pick points on map to measure area  -->
-    <string name="string_pick_points_on_map_to_measure_area">Wybierz punkty z mapy aby policzyć powierzchnię</string>
-    <!--  Used in file BaseMapActivity.java:523. Original value:Delete  -->
-    <string name="string_delete">Usuń</string>
-    <!--  Used in file BaseMapActivity.java:92. Original value:MapProvider  -->
-    <string name="string_mapprovider">Konfiguracja mapy</string>
-    <!--  Used in file JavadCMapFragment.java:3417. Original value:Paralel Move:  -->
-    <string name="string_paralel_move_">Przes. równoległe:</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:323. Original value:Height Average  -->
-    <string name="string_height_average">Średnia wysokości</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:292. Original value:Height Diff  -->
-    <string name="string_height_diff">Różnica wysokości</string>
-    <!--  Used in file JavadCMapFragment.java:3628. Original value:Area:  -->
-    <string name="string_area_">Obszar:</string>
-    <!--  Used in file JavadCanvasMapFragment.java:302. Original value:OK  -->
-    <string name="string_ok">OK</string>
-    <!--  Used in file BaseMapActivity.java:97. Original value:Points  -->
-    <string name="string_points">Punkty</string>
-    <!--  Used in file LineInfoPreferenceFragment.java:310. Original value:Height Slope  -->
-    <string name="string_height_slope">Wys. skośna</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Descr.-->
+  <string name="string_descr_">Opis</string>
+  <!--Original value: Loading %s file…-->
+  <string name="string_loading__s_file___">Ładuję plik %s …</string>
+  <!--Original value: Create-->
+  <string name="string_create">Utwórz</string>
+  <!--Original value: Pan On-->
+  <string name="string_pan_on">Wł. Pan</string>
+  <!--Original value: Please wait-->
+  <string name="string_please_wait">Proszę czekać</string>
+  <!--Original value: Length: %s-->
+  <string name="string_length___s">Długość: %s</string>
+  <!--Original value: Bearing Geo-->
+  <string name="string_bearing_geo">Kierunek geodezyjny</string>
+  <!--Original value: Pick point on map..-->
+  <string name="string_pick_point_on_map__">Wybierz punkt z mapy…</string>
+  <!--Original value: Zoom All With Location-->
+  <string name="string_zoom_all_with_location">Powiększ wszystko</string>
+  <!--Original value: Distance-->
+  <string name="string_distance">Odległość</string>
+  <!--Original value: Pick points on map to measure distance-->
+  <string name="string_pick_points_on_map_to_measure_distance">Wybierz punkty z mapy aby zmierzyć odległość</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: Pan Off-->
+  <string name="string_pan_off">Wył. Pan</string>
+  <!--Original value: Trajectory-->
+  <string name="string_trajectory">Krzywa</string>
+  <!--Original value: Bearing-->
+  <string name="string_bearing">Kierunek</string>
+  <!--Original value: Pick points on map to add line-->
+  <string name="string_pick_points_on_map_to_add_line">Wybierz punkty z mapy aby utworzyć linię</string>
+  <!--Original value: Pick points on map to add text-->
+  <string name="string_pick_points_on_map_to_add_text">Wybierz punkty z mapy aby dodać tekst</string>
+  <!--Original value: Angle:-->
+  <string name="string_angle_">Kąt</string>
+  <!--Original value: Select point-->
+  <string name="string_select_point">Select point</string>
+  <!--Original value: Distance Slant-->
+  <string name="string_distance_slant">Odl. skośna</string>
+  <!--Original value: What to do with %1$s %2$s?-->
+  <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
+  <!--Original value: Regen All-->
+  <string name="string_regen_all" />
+  <!--Original value: Do you want to delete %1$s?-->
+  <string name="string_do_you_want_to_delete__1_s_">Czy chcesz usunąć %1$s?</string>
+  <!--Original value: Zoom All Points-->
+  <string name="string_zoom_all_points">Pokaż wszystko</string>
+  <!--Original value: Move:-->
+  <string name="string_move_">Przesunięcie:</string>
+  <!--Original value: Contains %d points-->
+  <string name="string_contains__d_points">Zawiera %d punkty/ów</string>
+  <!--Original value: Distance Geo-->
+  <string name="string_distance_geo">Odl. geodezyjna</string>
+  <!--Original value: Code-->
+  <string name="string_code">Kod</string>
+  <!--Original value: Line:-->
+  <string name="string_line_">Linia:</string>
+  <!--Original value: Pick points on map to measure area-->
+  <string name="string_pick_points_on_map_to_measure_area">Wybierz punkty z mapy aby policzyć powierzchnię</string>
+  <!--Original value: Zoom All CAD-->
+  <string name="string_zoom_all_cad">Pokaż cały rysunek</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Usuń</string>
+  <!--Original value: MapProvider-->
+  <string name="string_mapprovider">Konfiguracja mapy</string>
+  <!--Original value: Paralel Move:-->
+  <string name="string_paralel_move_">Przes. równoległe:</string>
+  <!--Original value: Select Zoom-->
+  <string name="string_select_zoom">Wybierz powiększenie</string>
+  <!--Original value: Height Average-->
+  <string name="string_height_average">Średnia wysokości</string>
+  <!--Original value: Height Diff-->
+  <string name="string_height_diff">Różnica wysokości</string>
+  <!--Original value: Area:-->
+  <string name="string_area_">Obszar:</string>
+  <!--Original value: OK-->
+  <string name="string_ok">OK</string>
+  <!--Original value: Points-->
+  <string name="string_points">Punkty</string>
+  <!--Original value: Height Slope-->
+  <string name="string_height_slope">Wys. skośna</string>
 </resources>
