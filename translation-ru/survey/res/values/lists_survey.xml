@@ -15,7 +15,7 @@
          <item>9</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:34 -->
+    <!-- Used in file rtk_base_uhf.xml:31 -->
     <string-array name="fh_output_power">
          <item>0.02W / 13dBm</item>
          <item>0.025W / 14dBm</item>
@@ -52,7 +52,7 @@
          <item>35.0W / 45dBm</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:162 -->
+    <!-- Used in file rtk_base_uhf.xml:167 -->
     <string-array name="trimmarkii_modulations">
          <item>gmsk</item>
     </string-array>
@@ -71,7 +71,7 @@
          <item>Sun Up</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:146 -->
+    <!-- Used in file rtk_base_uhf.xml:151 -->
     <string-array name="tt450shw_modulations">
          <item>gmsk</item>
     </string-array>
@@ -185,7 +185,7 @@
          <item>10 m</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:245 -->
+    <!-- Used in file stakeout_settings.xml:248 -->
     <string-array name="code_is_required_array">
          <item>Do not use code</item>
          <item>Code is optional</item>
@@ -205,11 +205,20 @@
          <item>Coordinates only</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:313 -->
+    <!-- Used in file stakeout_settings.xml:316 -->
     <string-array name="imu_modes">
          <item>Off</item>
          <item>Swing (Moving Tip Off)</item>
          <item>Tilt (Moving Tip On)</item>
+    </string-array>
+
+    <!-- Used in file activity_nmea.xml:51 -->
+    <string-array name="nmea_period_array">
+         <item>1 sec (1Hz)</item>
+         <item>0.5 sec (2Hz)</item>
+         <item>0.2 sec (5Hz)</item>
+         <item>5 sec</item>
+         <item>10 sec</item>
     </string-array>
 
     <!-- Used in file activity_start_station_resection.xml:51 -->
@@ -218,25 +227,32 @@
          <item>Angles only</item>
     </string-array>
 
+    <!-- Used in file rtk_base_uhf.xml:39 -->
+    <string-array name="uhf_antenna_control">
+         <item>ignore</item>
+         <item>auto</item>
+         <item>manual</item>
+    </string-array>
+
     <!-- Used in file activity_stakeout_line_target.xml:22 -->
     <string-array name="stakeout_line_mode_array">
          <item>2 points</item>
          <item>1 point and azimuth</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:129 -->
+    <!-- Used in file rtk_base_uhf.xml:134 -->
     <string-array name="trimtalk450s_spacings">
          <item>12500</item>
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:151 -->
+    <!-- Used in file rtk_base_uhf.xml:156 -->
     <string-array name="tt450shw_spacings">
          <item>12500</item>
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:178 -->
+    <!-- Used in file rtk_base_uhf.xml:183 -->
     <string-array name="trimmark3_modulations">
          <item>gmsk</item>
     </string-array>
@@ -306,7 +322,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:259 -->
+    <!-- Used in file stakeout_settings.xml:262 -->
     <string-array name="reference_frame_array">
          <item>WGS84(ITRF2008)</item>
          <item>NAD83(2011)</item>
@@ -332,7 +348,7 @@
          <item>Custom</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:202 -->
+    <!-- Used in file stakeout_settings.xml:205 -->
     <string-array name="rtpk_mode_array">
          <item>First Fix</item>
          <item>Both Fix Compare</item>
@@ -359,7 +375,7 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:39 -->
+    <!-- Used in file rtk_base_uhf.xml:44 -->
     <string-array name="uhf_protocols">
          <item>simplex</item>
          <item>transparent</item>
@@ -377,7 +393,7 @@
          <item>Server</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:75 -->
+    <!-- Used in file rtk_base_uhf.xml:80 -->
     <string-array name="transparent_modulations">
          <item>gmsk</item>
          <item>4fsk</item>
@@ -423,7 +439,7 @@
          <item>GPS+GLO+GAL+BDU+Other</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2325 -->
+    <!-- Used in file SurveyingRTK.java:2400 -->
     <string-array name="left_right_array">
          <item>Left</item>
          <item>Right</item>
@@ -437,7 +453,7 @@
 
     <!-- Used in file rtk_base_nethub.xml:168 -->
     <string-array name="rcvbase_client_type_array">
-         <item>Off</item>
+         <item>Откл.</item>
          <item>Ntrip</item>
          <item>RCV</item>
     </string-array>
@@ -449,12 +465,12 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:97 -->
+    <!-- Used in file rtk_base_uhf.xml:102 -->
     <string-array name="satel_modulations">
          <item>4fsk</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:213 -->
+    <!-- Used in file stakeout_settings.xml:216 -->
     <string-array name="hybrid_rtk_array">
          <item>Never</item>
          <item>5 mins</item>
@@ -472,12 +488,6 @@
          <item>1 min</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:183 -->
-    <string-array name="trimmark3_spacings">
-         <item>12500</item>
-         <item>25000</item>
-    </string-array>
-
     <!-- Used in file RTKSetupActivity.java:572 -->
     <string-array name="connected_to_array_radio">
          <item>Bluetooth B</item>
@@ -490,6 +500,12 @@
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Internal radio</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:188 -->
+    <string-array name="trimmark3_spacings">
+         <item>12500</item>
+         <item>25000</item>
     </string-array>
 
     <!-- Used in file activity_configure_uhf2.xml:794 -->
@@ -525,6 +541,26 @@
          <item>20.0W / 43dBm</item>
          <item>25.0W / 44dBm</item>
          <item>35.0W / 45dBm</item>
+    </string-array>
+
+    <!-- Used in file activity_nmea.xml:32 -->
+    <string-array name="nmea_port_array">
+         <item>dev/blt/a</item>
+         <item>dev/blt/b</item>
+         <item>dev/ser/a</item>
+         <item>dev/ser/b</item>
+         <item>dev/ser/c</item>
+         <item>dev/ser/d</item>
+         <item>dev/tcp/a</item>
+         <item>dev/tcp/b</item>
+         <item>dev/tcp/c</item>
+         <item>dev/tcp/d</item>
+         <item>dev/tcp/e</item>
+         <item>dev/tcpo/a</item>
+         <item>dev/tcpo/b</item>
+         <item>dev/tcpo/c</item>
+         <item>dev/tcpo/d</item>
+         <item>dev/tcpo/e</item>
     </string-array>
 
     <!-- Used in file rtk_base_nethub.xml:127 -->
@@ -563,7 +599,7 @@
          <item>9600</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:196 -->
+    <!-- Used in file rtk_base_uhf.xml:201 -->
     <string-array name="base_correction_type_array">
          <item>RTCM 3.x MSM3</item>
          <item>RTCM 3.x MSM4 Short</item>
@@ -592,7 +628,7 @@
          <item>3</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:80 -->
+    <!-- Used in file rtk_base_uhf.xml:85 -->
     <string-array name="transparent_spacings">
          <item>25000</item>
     </string-array>
@@ -612,7 +648,7 @@
          <item>e</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:124 -->
+    <!-- Used in file rtk_base_uhf.xml:129 -->
     <string-array name="trimtalk450s_modulations">
          <item>gmsk</item>
     </string-array>
@@ -679,7 +715,7 @@
          <item>L</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:53 -->
+    <!-- Used in file rtk_base_uhf.xml:58 -->
     <string-array name="simplex_modulations">
          <item>dbpsk</item>
          <item>dqpsk</item>
@@ -687,7 +723,7 @@
          <item>d16qam</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:107 -->
+    <!-- Used in file rtk_base_uhf.xml:112 -->
     <string-array name="satel_compatibility">
          <item>3as</item>
          <item>easy</item>
@@ -700,7 +736,7 @@
          <item>All</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:231 -->
+    <!-- Used in file stakeout_settings.xml:234 -->
     <string-array name="debug_survey_level">
          <item>All</item>
          <item>Debug</item>
@@ -781,7 +817,7 @@
          <item>3G GISMORE</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:201 -->
+    <!-- Used in file rtk_base_uhf.xml:206 -->
     <string-array name="base_correction_period_5_array">
          <item>1 Hz</item>
          <item>2 Hz</item>
@@ -814,13 +850,13 @@
          <item>at least 6</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:167 -->
+    <!-- Used in file rtk_base_uhf.xml:172 -->
     <string-array name="trimmarkii_spacings">
          <item>12500</item>
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3081 -->
+    <!-- Used in file DrawWhiteBox.java:3167 -->
     <string-array name="imu_mode_array">
          <item>Off</item>
          <item>On (fixed tip)</item>
@@ -867,13 +903,13 @@
          <item>Internal radio</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:102 -->
+    <!-- Used in file rtk_base_uhf.xml:107 -->
     <string-array name="satel_spacings">
          <item>12500</item>
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:191 -->
+    <!-- Used in file rtk_base_uhf.xml:196 -->
     <string-array name="simple_base_correction_type_array">
          <item>RTCM 3.x MSM3</item>
          <item>CMR+</item>
@@ -917,7 +953,7 @@
          <item>Average height</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:58 -->
+    <!-- Used in file rtk_base_uhf.xml:63 -->
     <string-array name="simplex_spacings">
          <item>6250</item>
          <item>12500</item>
@@ -930,7 +966,7 @@
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:260 -->
+    <!-- Used in file stakeout_settings.xml:263 -->
     <string-array name="reference_frame_values_array">
          <item>CSG_WGS_84</item>
          <item>CSG_NAD83_2011</item>
@@ -947,13 +983,13 @@
          <item>Internal GSM</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2325 -->
+    <!-- Used in file SurveyingRTK.java:2400 -->
     <string-array name="p1_p2_array">
          <item>from P1</item>
          <item>from P2</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3153 -->
+    <!-- Used in file DrawWhiteBox.java:3244 -->
     <string-array name="sat_systems_array">
          <item>GPS only</item>
          <item>GPS+GAL</item>
@@ -962,15 +998,15 @@
          <item>All Systems</item>
     </string-array>
 
-    <!-- Used in file SurveySettingsPreferenceFragment.java:1566 -->
-    <string-array name="occupation_time_imu_array">
-         <item>Stopped manually</item>
-         <item>Stop by IMU</item>
-    </string-array>
-
     <!-- Used in file rtk_base_rcv.xml:16 -->
     <string-array name="connected_to_array_internet">
          <item>the Android device</item>
+    </string-array>
+
+    <!-- Used in file SurveySettingsPreferenceFragment.java:1593 -->
+    <string-array name="occupation_time_imu_array">
+         <item>Stopped manually</item>
+         <item>Stop by IMU</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
@@ -1010,17 +1046,6 @@
     <string-array name="stakeout_modes_array">
          <item>Point Stakeout</item>
          <item>Line Stakeout</item>
-    </string-array>
-
-    <!-- UNUSED ARRAY OF STRINGS -->
-    <string-array name="minimal_rtk_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->

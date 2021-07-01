@@ -1,54 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_smarttip.xml:39 -->
-    <string name="button_firmware">Upload Firmware</string>
-    <!-- Used in file SmartTipActivity.java:171 -->
-    <string name="string_calibration_is_over">Calibration is over</string>
-    <!-- Used in file SmartTipActivity.java:454 -->
-    <string name="string_hw_version__1_d_____sw_version__2_d">HW version:%1$d     SW version:%2$d</string>
-    <!-- Used in file activity_smarttip.xml:86 -->
-    <string name="string_min_value">Min Value</string>
-    <!-- Used in file SmartTipActivity.java:1061 -->
-    <string name="string_please_wait">Please wait</string>
-    <!-- Used in file SmartTipActivity.java:1060 -->
-    <string name="string_conecting___">Conecting&#8230;</string>
-    <!-- Used in file activity_smarttip.xml:108 -->
-    <string name="string_max_value">Max Value</string>
-    <!-- Used in file activity_find_smarttip.xml:16 -->
-    <string name="text_select_smarttip">Select J-Tip</string>
-    <!-- Used in file SmartTipActivity.java:172 -->
-    <string name="string_do_you_want_to_save_the_calibration_">Do you want to save the calibration?</string>
-    <!-- Used in file activity_smarttip.xml:125 -->
-    <string name="string_gain">Gain 0</string>
-    <!-- Used in file activity_smarttip.xml:49 -->
+    <!-- Used in file JTipActivity.java:2359. Original value:Sensor S1    -->
+    <string name="source_sensor_s1">S1 szenzor</string>
+    <!-- Used in file activity_jtip.xml:56. Original value:Clear Range    -->
+    <string name="button_clear_range">Clear Range</string>
+    <!-- Used in file JTipActivity.java:2279. Original value:XYZ    -->
+    <string name="button_xyz2_direction">XYZ</string>
+    <!-- Used in file activity_jtip.xml:400. Original value:Max Value    -->
+    <string name="string_max_value">Max érték</string>
+    <!-- Used in file jtip.xml:30. Original value:Upload Firmware    -->
+    <string name="button_firmware">Firmware feltöltés</string>
+    <!-- Used in file activity_jtip.xml:147. Original value:Sound type    -->
+    <string name="string_sound_type">Hang típus</string>
+    <!-- Used in file activity_jtip.xml:371. Original value:Gain    -->
+    <string name="string_gain">Gain</string>
+    <!-- Used in file JTipActivity.java:2320. Original value:Auto    -->
+    <string name="button_full_auto">Auto</string>
+    <!-- Used in file activity_jtip.xml:189. Original value:Source    -->
+    <string name="string_magnetic_source">Forrás</string>
+    <!-- Used in file activity_jtip.xml:456. Original value:Set Course to 0    -->
     <string name="button_course">Set Course to 0</string>
-    <!-- Used in file SmartTipActivity.java:184 -->
-    <string name="string_stop_calibration">Stop Calibration</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">smarttip</string>
-    <!-- Used in file activity_smarttip.xml:31 -->
-    <string name="button_calibrate">Calibrate</string>
-    <!-- Used in file SmartTipActivity.java:983 -->
-    <string name="string_firmware_have_successfully_updated">Firmware have successfully updated</string>
-    <!-- Used in file SmartTipActivity.java:1011 -->
-    <string name="string_uploading_firmware___">Uploading firmware&#8230;</string>
-    <!-- Used in file SmartTipActivity.java:1078 -->
-    <string name="string_cancelled_by_user">Cancelled by user</string>
-    <!-- Used in file FindSmartTipActivity.java:111 -->
-    <string name="string_connected_to_smarttip">Connected to J-Tip</string>
-    <!-- Used in file SmartTipActivity.java:481 -->
-    <string name="string_successfully_connected_to__s">Successfully connected to %s</string>
-    <!-- Used in file SmartTipActivity.java:1010 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file activity_smarttip.xml:72 -->
-    <string name="string_sensivity">Sensivity</string>
-    <!-- Used in file SmartTipActivity.java:1063 -->
-    <string name="string_cancel">Cancel</string>
-    <!-- Used in file SmartTipActivity.java:985 -->
-    <string name="string_close">Close</string>
-    <!-- Used in file SmartTipActivity.java:983 -->
-    <string name="string_firmware_update_error_">Firmware update error!</string>
-    <!-- Used in file SmartTipActivity.java:163 -->
-    <string name="string_calibration">Calibration</string>
+    <!-- Used in file JTipActivity.java:2320. Original value:SemiAuto    -->
+    <string name="button_semi_auto">Félautom.</string>
+    <!-- Used in file jtip.xml:16. Original value:Z Dir    -->
+    <string name="button_z_direction">Z Dir</string>
+    <!-- Used in file activity_jtip.xml:168. Original value:Sensivity    -->
+    <string name="string_sensivity">Érzékenység</string>
+    <!-- Used in file JTipActivity.java:2358. Original value:Set Sensor Source    -->
+    <string name="string_set_sensor_source_jtip">Set Sensor Source</string>
+    <!-- Used in file activity_jtip.xml:139. Original value:Sound algorithm    -->
+    <string name="string_algorithm">Sound algorithm</string>
+    <!-- Used in file JTipActivity.java:2359. Original value:Sensor S2    -->
+    <string name="source_sensor_s2">S2 szenzor</string>
+    <!-- Used in file activity_jtip.xml:81. Original value:Calibrate    -->
+    <string name="button_calibrate">Kalibrálás</string>
+    <!-- Used in file activity_jtip.xml:353. Original value:No Tone less than    -->
+    <string name="string_no_tone_less_than">No Tone less than</string>
+    <!-- Used in file activity_jtip.xml:181. Original value:Mag. Source    -->
+    <string name="string_data_source">Mag. Source</string>
+    <!-- Used in file jtip.xml:23. Original value:Single    -->
+    <string name="button_s_d_s">Egyszerű</string>
+    <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip    -->
+    <string name="text_select_smarttip">Select J-Tip</string>
+    <!-- Used in file JTipActivity.java:1095. Original value:Hold Range    -->
+    <string name="button_hold_range">Hold Range</string>
+    <!-- Used in file JTipActivity.java:1173. Original value:Calibration Required!    -->
+    <string name="jtip_calibration_required">Calibration Required!</string>
+    <!-- Used in file activity_jtip.xml:64. Original value:Set Range    -->
+    <string name="button_set_range">Set Range</string>
+    <!-- Used in file activity_jtip.xml:386. Original value:Min Value    -->
+    <string name="string_min_value">Min Value</string>
+    <!-- Used in file activity_jtip.xml:393. Original value:Gain Value    -->
+    <string name="string_gain_value">Gain Value</string>
+    <!-- Used in file JTipActivity.java:2320. Original value:Manual    -->
+    <string name="button_manual">Manual</string>
+    <!-- Used in file JTipActivity.java:2319. Original value:Set Mode    -->
+    <string name="string_set_mode_jtip">Set Mode</string>
+    <!-- Used in file activity_jtip.xml:27. Original value:Volume    -->
+    <string name="string_volume">Volume</string>
+    <!-- Used in file JTipActivity.java:2359. Original value:Differential (S1-S2)    -->
+    <string name="source_s1_minus_s2">Differential (S1-S2)</string>
+    <!-- Used in file JTipActivity.java:2286. Original value:XY    -->
+    <string name="button_xy_direction">XY</string>
+    <!-- Used in file JTipActivity.java:2359. Original value:Both sensors - (S1+S2)/2    -->
+    <string name="source_s1_plus_s2">Both sensors - (S1+S2)/2</string>
+    <!-- Used in file find_jtip.xml:7. Original value:Refresh    -->
+    <string name="refresh_jtip">Refresh</string>
+    <!-- Used in file activity_jtip.xml:269. Original value:0 Value    -->
+    <string name="string_0_value">0 Value</string>
+    <!-- Used in file jtip.xml:9. Original value:Auto\\Manual    -->
+    <string name="button_auto_manual">Auto\\Manual</string>
+    <!-- Used in file activity_jtip.xml:72. Original value:Auto Range    -->
+    <string name="button_auto_range">Auto Range</string>
+
 </resources>
