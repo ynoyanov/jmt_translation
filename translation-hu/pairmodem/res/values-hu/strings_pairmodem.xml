@@ -1,186 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file RepeaterActivity.java:461. Original value:Setup failed! -->
-    <string name="string_setup_failed_">Setup failed!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:527. Original value:File doesn\'t exist! -->
-    <string name="string_file_doesn_t_exist_">A file nem létezik!</string>
-    <!-- Used in file PairModemActivity.java:467. Original value:Modem is paired ok. Rebooting modem&#8230; -->
-    <string name="string_modem_is_paired_ok__rebooting_modem___">Modem párosítva. Modem újraindítása&#8230;</string>
-    <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair -->
-    <string name="text_select_modem">Válasszon HPT modemet</string>
-    <!-- Used in file RepeaterActivity.java:323. Original value:Wrong TX frequency! -->
-    <string name="string_wrong_tx_frequency_">Wrong TX frequency!</string>
-    <!-- Used in file PairModemActivity.java:509. Original value:Pairing has done. -->
-    <string name="string_pairing_has_done_">A párosítás megtörtént.</string>
-    <!-- Used in file PairModemActivity.java:428. Original value:Connected. Starting to pair&#8230; -->
-    <string name="string_connected__starting_to_pair___">Csatlakozva. Párosítás indul&#8230;</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio -->
-    <string name="string_bluetooth_radio">Bluetooth Radio</string>
-    <!-- Used in file PairModemActivity.java:436. Original value:Can\'t set modem to command mode -->
-    <string name="string_can_t_set_modem_to_command_mode">Nem állítható a modem parancs módba</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:609. Original value:Firmware successfully loaded -->
-    <string name="string_firmware_successfully_loaded">Sikeres a firmware feltöltés</string>
-    <!-- Used in file PairModemActivity.java:106. Original value:Successfully paired to radio. -->
-    <string name="string_successfully_paired_to_radio_">Successfully paired to radio.</string>
-    <!-- Used in file PairModemActivity.java:533. Original value:Unpairing error -->
-    <string name="string_unpairing_error">Unpairing error</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware -->
-    <string name="text_select_modem_2">Válasszon rádiót a firmware feltöltéshez</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:576. Original value:Wrong firmware file! -->
-    <string name="string_wrong_firmware_file_">Rossz firmware file!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Connected to radio -->
-    <string name="string_connected_to_radio">Csatlakozva a rádióhoz</string>
-    <!-- Used in file AndroidManifest.xml:35. Original value:Pair HPT Modem -->
-    <string name="title_activity_pair_modem">HPT Modem párosítás</string>
-    <!-- Used in file activity_pair_modem.xml:16. Original value:Connected to receiver -->
-    <string name="text_receiver_info">Csatlakozva a vevőhöz</string>
-    <!-- Used in file PairModemActivity.java:445. Original value:Modem info received&#8230; -->
-    <string name="string_modem_info_received___">Modem info received&#8230;</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio -->
-    <string name="string_paired_radio">Párosítva a vevő rádióhoz</string>
-    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters -->
-    <string name="simplex_protocol_parameters">Simplex Protocol paraméterek</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:563. Original value:Load firmware anyway -->
-    <string name="string_load_firmware_anyway">Load firmware anyway</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:643. Original value:Can\'t initiate firmware loading -->
-    <string name="string_can_t_initiate_firmware_loading">Nem indítható a firmware töltés</string>
-    <!-- Used in file activity_main.xml:14. Original value:Hello world! -->
-    <string name="hello_world">Hello world!</string>
-    <!-- Used in file PairModemActivity.java:184. Original value:Do you want to unpair the receiver and the modem? -->
-    <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Megszünteti a modem és a vevő párosítását?</string>
-    <!-- Used in file PairModemActivity.java:384. Original value:Wait!! -->
-    <string name="string_wait__">Várjon!!</string>
-    <!-- Used in file PairModemActivity.java:409. Original value:Receiver is not connected! -->
-    <string name="string_receiver_is_not_connected_">A vevő nincs csatlakozva!</string>
-    <!-- Used in file FindRangefinderActivity.java:496. Original value:Please wait -->
-    <string name="string_please_wait">Kérem várjon</string>
-    <!-- Used in file PairModemActivity.java:125. Original value:Turn the radio off and on to finish. -->
-    <string name="string_turn_the_radio_off_and_on_to_finish_">A befejezéshez kapcsolja ki és be a rádiót.</string>
-    <!-- Used in file PairModemActivity.java:100. Original value:Paired to:) -->
-    <string name="string_paired_to__">Paired to:)</string>
-    <!-- Used in file PairModemActivity.java:125. Original value:Unpaired. -->
-    <string name="string_unpaired_">Unpaired.</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:535. Original value:Load firmware -->
-    <string name="string_load_firmware">Firmware töltés</string>
-    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC) -->
-    <string name="fec">Error Correction (FEC)</string>
-    <!-- Used in file activity_find_rangefinder.xml:16. Original value:Select a Rangefinder -->
-    <string name="text_select_rangefinder">Válasszon távmérőt</string>
-    <!-- Used in file PairModemActivity.java:982. Original value:Permission denied to obtain list of Bluetooth devices around -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
-    <!-- Used in file PairModemActivity.java:471. Original value:Can\'t save modem settings! -->
-    <string name="string_can_t_save_modem_settings_">Nem menthető a modem beállítás!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:87. Original value:Do you want to update its firmware? -->
-    <string name="string_do_you_want_to_update_its_firmware_">Frissítené a firmware-t?</string>
-    <!-- Used in file PairModemActivity.java:131. Original value:Close -->
-    <string name="string_close">Bezár</string>
-    <!-- Used in file activity_repeater.xml:159. Original value:Scrambling -->
-    <string name="scrambling">Titkosítás</string>
-    <!-- Used in file RepeaterActivity.java:446. Original value:Applying setting&#8230; -->
-    <string name="string_applying_setting___">Applying setting&#8230;</string>
-    <!-- Used in file activity_repeater.xml:129. Original value:Modulation -->
-    <string name="modulation">Moduláció</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:308. Original value:Can\'t connect to internal radio! -->
-    <string name="string_can_t_connect_to_internal_radio_">Nem lehet csatlakozni a belső rádióhoz!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:537. Original value:Write firmware -->
-    <string name="string_write_firmware">Firmware írás</string>
-    <!-- Used in file FindRangefinderActivity.java:495. Original value:Conecting&#8230; -->
-    <string name="string_conecting___">Csatlakozás&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:587. Original value:Your radio is -->
-    <string name="string_your_radio_is">Your radio is</string>
-    <!-- Used in file RepeaterActivity.java:332. Original value:Frequency should be from %1$dHz to %2$dHz -->
-    <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Frequency should be from %1$dHz to %2$dHz</string>
-    <!-- Used in file PairModemActivity.java:183. Original value:Modem already paired -->
-    <string name="string_modem_already_paired">A modem párosított</string>
-    <!-- Used in file AndroidManifest.xml:25. Original value:Pair HPT Modem -->
-    <string name="app_name">Pair HPT Modem</string>
-    <!-- Used in file PairModemActivity.java:174. Original value:No connection to a Javad receiver -->
-    <string name="no_connection">Nincs kapcsolat Javad vevővel</string>
-    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign -->
-    <string name="call_sign">Call Sign</string>
-    <!-- Used in file FindRangefinderActivity.java:345. Original value:Connected to Rangefinder -->
-    <string name="string_connected_to_rangefinder">Csatlakozva távmérőhöz</string>
-    <!-- Used in file PairModemActivity.java:498. Original value:Reseting GNSS receiver&#8230; -->
-    <string name="string_reseting_gnss_receiver___">GNSS vevő újraindítása&#8230;</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:562. Original value:Can\'t read version from from the file! -->
-    <string name="string_can_t_read_version_from_from_the_file_">Nem olvasható a verziószám a fájlból!</string>
-    <!-- Used in file RepeaterActivity.java:343. Original value:Wrong call sign (only numbers and capital chars are avaibale!) -->
-    <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Wrong call sign (only numbers and capital chars are avaibale!)</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:587. Original value:This firmware is -->
-    <string name="string_this_firmware_is">Ez a firmware</string>
-    <!-- Used in file RepeaterActivity.java:149. Original value:Reading setting&#8230; -->
-    <string name="string_reading_setting___">Beállítás olvasása&#8230;</string>
-    <!-- Used in file PairModemActivity.java:383. Original value:Please Wait!! -->
-    <string name="string_please_wait__">Kérem várjon!!</string>
-    <!-- Used in file PairModemActivity.java:484. Original value:Exit from data mode&#8230; -->
-    <string name="string_exit_from_data_mode___">Kilépés az adatmódból&#8230;</string>
-    <!-- Used in file RepeaterActivity.java:355. Original value:Wrong power! -->
-    <string name="string_wrong_power_">Wrong power!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:750. Original value:Reset -->
-    <string name="string_reset">Reset</string>
-    <!-- Used in file RepeaterActivity.java:301. Original value:Wrong RX frequecy! -->
-    <string name="string_wrong_rx_frequecy_">Wrong RX frequecy!</string>
-    <!-- Used in file PairModemActivity.java:413. Original value:Receiver Bluetooth address is not obtained! -->
-    <string name="string_receiver_bluetooth_address_is_not_obtained_">Receiver Bluetooth address is not obtained!</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:633. Original value:Can\'t start firmware load -->
-    <string name="string_can_t_start_firmware_load">Nem indul a firmware töltés</string>
-    <!-- Used in file RepeaterActivity.java:466. Original value:Setup OK -->
-    <string name="string_setup_ok">Setup OK</string>
-    <!-- Used in file PairModemActivity.java:130. Original value:Successfully unpared with radio.\nTurn the radio off and on to disconnect. -->
-    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Successfully unpared with radio.\nTurn the radio off and on to disconnect.</string>
-    <!-- Used in file activity_repeater.xml:99. Original value:Protocol -->
-    <string name="protocol">Protokol</string>
-    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing -->
-    <string name="channel_spacing">Csatorna lépésköz</string>
-    <!-- Used in file PairModemActivity.java:129. Original value:Unparing -->
-    <string name="string_unparing">Unparing</string>
-    <!-- Used in file pair_modem.xml:18. Original value:Settings -->
-    <string name="action_settings">Beállítások</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:684. Original value:Loaded %1$.1f %% (block #%2$d from %3$d) -->
-    <string name="string_loaded___1f_____block___d_from__d_">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
-    <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo -->
+    <!-- Used in file item_device.xml:14. Original value:None    -->
+    <string name="none">None</string>
+    <!-- Used in file activity_repeater.xml:55. Original value:RX Frequency, Hz    -->
+    <string name="rx_frequency_hz">Vételi frekv., Hz</string>
+    <!-- Used in file pair_modem.xml:13. Original value:WiFi    -->
+    <string name="action_wifi">WiFi</string>
+    <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo    -->
     <string name="rtr_echo">RTR Echo</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:446. Original value:Can\'t read radio info -->
-    <string name="string_can_t_read_radio_info">Nem olvasható a rádió infó</string>
-    <!-- Used in file RepeaterActivity.java:355. Original value:Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm) -->
-    <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
-    <!-- Used in file PairModemActivity.java:105. Original value:Paired -->
-    <string name="string_paired">Paired</string>
-    <!-- Used in file activity_repeater.xml:224. Original value:Apply -->
-    <string name="button_apply">Alkalmaz</string>
-    <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup -->
-    <string name="text_select_repeater">Select HPT Repeater to setup</string>
-    <!-- Used in file activity_repeater.xml:91. Original value:Output Power -->
-    <string name="output_power_w">Kimenő teljesítmény</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:234. Original value:Radio Paired by Bluetooth -->
-    <string name="string_radio_paired_by_bluetooth">A rádió Bluetooth-al párosítva</string>
-    <!-- Used in file PairModemActivity.java:495. Original value:Pairing GNSS receiver&#8230; -->
-    <string name="string_pairing_gnss_receiver___">GNSS vevő párosítása&#8230;</string>
-    <!-- Used in file PairModemActivity.java:503. Original value:Can\'t pair GNSS receiver -->
-    <string name="string_can_t_pair_gnss_receiver">Nem párosítható a GNSS vevő</string>
-    <!-- Used in file RepeaterActivity.java:332. Original value:Wrong RX frequency! -->
-    <string name="string_wrong_rx_frequency_">Wrong RX frequency!</string>
-    <!-- Used in file activity_load_firmware_modem_select.xml:35. Original value:Internal Radio -->
+    <!-- Used in file activity_load_firmware_modem_select.xml:35. Original value:Internal Radio    -->
     <string name="string_internal_radio">Belső rádió</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:536. Original value:Do you want to load the firmware? -->
-    <string name="string_do_you_want_to_load_the_firmware_">Szeretné feltölteni a firmwaret?</string>
-    <!-- Used in file FindRangefinderActivity.java:346. Original value:Successfully connected to %s -->
-    <string name="string_successfully_connected_to__s">Sikeresen csatlakozva ehhez:	%s</string>
-    <!-- Used in file PairModemActivity.java:169. Original value:Connected to  -->
-    <string name="string_connected_to_">Csatlakozva </string>
-    <!-- Used in file PairModemActivity.java:530. Original value:Successfully unpaired. -->
-    <string name="string_successfully_unpaired_">Sikeresen szétkapcsolva.</string>
-    <!-- Used in file AndroidManifest.xml:60. Original value:Connection -->
+    <!-- Used in file activity_repeater.xml:226. Original value:Apply    -->
+    <string name="button_apply">Alkalmaz</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio    -->
+    <string name="string_paired_radio">Párosítva a vevő rádióhoz</string>
+    <!-- Used in file main_bosch_2.xml:7. Original value:Refresh    -->
+    <string name="refresh_bluetooth">Frissít</string>
+    <!-- Used in file PairModemActivity.java:273. Original value:Select JLink radio to pair with    -->
+    <string name="text_select_jlink">Select JLink radio to pair with</string>
+    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
+    <string name="call_sign">Hívójel</string>
+    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
+    <string name="tx_frequency_hz">Adás frekv., Hz</string>
+    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
+    <string name="simplex_protocol_parameters">Simplex Protocol paraméterek</string>
+    <!-- Used in file activity_find_rangefinder.xml:15. Original value:Connect Rangefinder as TS    -->
+    <string name="text_run_survey_with">Távmérő csatlakoztatás mint m.á.</string>
+    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
+    <string name="button_read_from_radio">Rádióról</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:584. Original value:Load firmware anyway    -->
+    <string name="string_load_firmware_anyway">Load firmware anyway</string>
+    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
+    <string name="modulation">Moduláció</string>
+    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
+    <string name="fec">Error Correction (FEC)</string>
+    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
+    <string name="protocol">Protokol</string>
+    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
+    <string name="hello_world">Hello world!</string>
+    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
+    <string name="action_bluetooth">Bluetooth</string>
+    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
+    <string name="channel_spacing">Csatorna lépésköz</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio    -->
+    <string name="string_bluetooth_radio">Bluetooth Radio</string>
+    <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair    -->
+    <string name="text_select_modem">Válasszon HPT modemet</string>
+    <!-- Used in file activity_repeater.xml:159. Original value:Scrambling    -->
+    <string name="scrambling">Titkosítás</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Beállítások</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:15. Original value:Connected to receiver    -->
+    <string name="text_receiver_info">Csatlakozva a vevőhöz</string>
+    <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup    -->
+    <string name="text_select_repeater">Select HPT Repeater to setup</string>
+    <!-- Used in file activity_repeater.xml:91. Original value:Output Power    -->
+    <string name="output_power_w">Kimenő teljesítmény</string>
+    <!-- Used in file main_bosch_2.xml:14. Original value:Settings    -->
+    <string name="bluetooth_resttings">BEállítások</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:158. Original value:No connection to a Javad receiver    -->
+    <string name="no_connection">Nincs kapcsolat Javad vevővel</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware    -->
+    <string name="text_select_modem_2">Válasszon rádiót a firmware feltöltéshez</string>
+    <!-- Used in file activity_find_rangefinder.xml:24. Original value:Select a Rangefinder    -->
+    <string name="text_select_rangefinder">Válasszon távmérőt</string>
+    <!-- UNUSED STRING 
+    <string name="">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
+    -->
+    <!-- UNUSED STRING 
     <string name="title_activity_connection">Csatlakozás</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:780. Original value:Rebooting %.1f -->
-    <string name="string_rebooting___1f">Rebooting %.1f</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:542. Original value:Cancel -->
-    <string name="string_cancel">Mégsem</string>
-    <!-- Used in file PairModemActivity.java:480. Original value:Modem Bluetooth address is not obtained! -->
-    <string name="string_modem_bluetooth_address_is_not_obtained_">Modem Bluetooth address is not obtained!</string>
-    <!-- Used in file activity_repeater.xml:215. Original value:From Radio -->
-    <string name="button_read_from_radio">From Radio</string>
-    <!-- Used in file RepeaterActivity.java:294. Original value:Wrong TX frequecy! -->
-    <string name="string_wrong_tx_frequecy_">Wrong TX frequecy!</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="title_activity_pair_modem">HPT Modem párosítás</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_loaded___1f_____block___d_from__d_">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="app_name_pairmodem">Pair HPT Modem</string>
+    -->
+
 </resources>

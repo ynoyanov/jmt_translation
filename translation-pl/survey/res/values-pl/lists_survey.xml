@@ -322,16 +322,36 @@
   <string-array name="imu_modes">
     <!--Original value: Off-->
     <item>Wył</item>
-    <!--Original value: Swing (Moving Tip Off)-->
-    <item>Swing (Moving Tip Off)</item>
-    <!--Original value: Tilt (Moving Tip On)-->
-    <item>Tilt (Moving Tip On)</item>
+    <!--Original value: On (Fixed Tip)-->
+    <item>Włącz (nieruchomy grot)</item>
+    <!--Original value: On (Moving Tip)-->
+    <item>Włącz (ruchomy grot)</item>
+  </string-array>
+  <string-array name="nmea_period_array">
+    <!--Original value: 1 sec (1Hz)-->
+    <item>1 sek (1Hz)</item>
+    <!--Original value: 0.5 sec (2Hz)-->
+    <item>0.5 sek (2Hz)</item>
+    <!--Original value: 0.2 sec (5Hz)-->
+    <item>0.2 sek (5Hz)</item>
+    <!--Original value: 5 sec-->
+    <item>5 sek</item>
+    <!--Original value: 10 sec-->
+    <item>10 sek</item>
   </string-array>
   <string-array name="array_measurement_type">
     <!--Original value: Distances and Angles-->
     <item>Distances and Angles</item>
     <!--Original value: Angles only-->
     <item>Angles only</item>
+  </string-array>
+  <string-array name="uhf_antenna_control">
+    <!--Original value: ignore-->
+    <item />
+    <!--Original value: auto-->
+    <item />
+    <!--Original value: manual-->
+    <item />
   </string-array>
   <string-array name="stakeout_line_mode_array">
     <!--Original value: 2 points-->
@@ -463,31 +483,31 @@
     <!--Original value: Never-->
     <item>Nigdy</item>
     <!--Original value: 10 seconds-->
-    <item />
+    <item>10 seconds</item>
     <!--Original value: 20 seconds-->
-    <item />
+    <item>20 seconds</item>
     <!--Original value: 30 seconds-->
-    <item />
+    <item>30 seconds</item>
     <!--Original value: 60 seconds-->
-    <item />
+    <item>60 seconds</item>
     <!--Original value: 90 seconds-->
-    <item />
+    <item>90 seconds</item>
     <!--Original value: 120 seconds-->
-    <item />
+    <item>120 seconds</item>
     <!--Original value: 150 seconds-->
-    <item />
+    <item>150 seconds</item>
     <!--Original value: 180 seconds-->
-    <item />
+    <item>180 seconds</item>
     <!--Original value: 240 seconds-->
-    <item />
+    <item>240 seconds</item>
     <!--Original value: Custom-->
-    <item />
+    <item>Custom</item>
   </string-array>
   <string-array name="rtpk_mode_array">
     <!--Original value: First Fix-->
-    <item />
+    <item>First Fix</item>
     <!--Original value: Both Fix Compare-->
-    <item />
+    <item>Both Fix Compare</item>
   </string-array>
   <string-array name="freqruleausarray">
     <!--Original value: 10-->
@@ -618,7 +638,7 @@
     <item>Wył</item>
   </string-array>
   <string-array name="rcvbase_client_type_array">
-    <!--Original value: Off-->
+    <!--Original value: ????.-->
     <item>Off</item>
     <!--Original value: Ntrip-->
     <item>Ntrip</item>
@@ -667,12 +687,6 @@
     <!--Original value: 1 min-->
     <item>1 min</item>
   </string-array>
-  <string-array name="trimmark3_spacings">
-    <!--Original value: 12500-->
-    <item>12500</item>
-    <!--Original value: 25000-->
-    <item>25000</item>
-  </string-array>
   <string-array name="connected_to_array_radio">
     <!--Original value: Bluetooth B-->
     <item>Bluetooth B</item>
@@ -688,6 +702,12 @@
     <item>Szeregowy B</item>
     <!--Original value: Internal radio-->
     <item>Radio wewn.</item>
+  </string-array>
+  <string-array name="trimmark3_spacings">
+    <!--Original value: 12500-->
+    <item>12500</item>
+    <!--Original value: 25000-->
+    <item>25000</item>
   </string-array>
   <string-array name="uhf_output_power">
     <!--Original value: 0.03W / 15dBm-->
@@ -752,6 +772,40 @@
     <item>25.0W / 44dBm</item>
     <!--Original value: 35.0W / 45dBm-->
     <item>35.0W / 45dBm</item>
+  </string-array>
+  <string-array name="nmea_port_array">
+    <!--Original value: dev/blt/a-->
+    <item />
+    <!--Original value: dev/blt/b-->
+    <item />
+    <!--Original value: dev/ser/a-->
+    <item />
+    <!--Original value: dev/ser/b-->
+    <item />
+    <!--Original value: dev/ser/c-->
+    <item />
+    <!--Original value: dev/ser/d-->
+    <item />
+    <!--Original value: dev/tcp/a-->
+    <item />
+    <!--Original value: dev/tcp/b-->
+    <item />
+    <!--Original value: dev/tcp/c-->
+    <item />
+    <!--Original value: dev/tcp/d-->
+    <item />
+    <!--Original value: dev/tcp/e-->
+    <item />
+    <!--Original value: dev/tcpo/a-->
+    <item />
+    <!--Original value: dev/tcpo/b-->
+    <item />
+    <!--Original value: dev/tcpo/c-->
+    <item />
+    <!--Original value: dev/tcpo/d-->
+    <item />
+    <!--Original value: dev/tcpo/e-->
+    <item />
   </string-array>
   <string-array name="base_correction_type_array_rcv">
     <!--Original value: no corrections-->
@@ -993,13 +1047,13 @@
   </string-array>
   <string-array name="debug_survey_level">
     <!--Original value: All-->
-    <item />
+    <item>All</item>
     <!--Original value: Debug-->
-    <item />
+    <item>Debug</item>
     <!--Original value: Normal-->
-    <item />
+    <item>Normal</item>
     <!--Original value: Errors only-->
-    <item />
+    <item>Errors only</item>
   </string-array>
   <string-array name="radioarray">
     <!--Original value: Do Not Setup-->
@@ -1129,17 +1183,17 @@
   </string-array>
   <string-array name="minial_rtk_values_6_array">
     <!--Original value: at least 1-->
-    <item />
+    <item>at least 1</item>
     <!--Original value: at least 2-->
-    <item />
+    <item>at least 2</item>
     <!--Original value: at least 3-->
-    <item />
+    <item>at least 3</item>
     <!--Original value: at least 4-->
-    <item />
+    <item>at least 4</item>
     <!--Original value: at least 5-->
-    <item />
+    <item>at least 5</item>
     <!--Original value: at least 6-->
-    <item />
+    <item>at least 6</item>
   </string-array>
   <string-array name="trimmarkii_spacings">
     <!--Original value: 12500-->
@@ -1149,13 +1203,13 @@
   </string-array>
   <string-array name="imu_mode_array">
     <!--Original value: Off-->
-    <item />
+    <item>Wył.</item>
     <!--Original value: On (fixed tip)-->
-    <item />
+    <item>Włącz (nieruchomy grot)</item>
     <!--Original value: On (moving tip)-->
-    <item />
+    <item>Włącz (ruchomy grot)</item>
     <!--Original value: Lift and Tilt mode-->
-    <item />
+    <item>Tryb Lift and Tilt</item>
   </string-array>
   <string-array name="connected_to_array_internet_triumph2">
     <!--Original value: the Android device-->
@@ -1335,15 +1389,15 @@
     <!--Original value: All Systems-->
     <item>All Systems</item>
   </string-array>
-  <string-array name="occupation_time_imu_array">
-    <!--Original value: Stopped manually-->
-    <item>Stopped manually</item>
-    <!--Original value: Stop by IMU-->
-    <item>Stop by IMU</item>
-  </string-array>
   <string-array name="connected_to_array_internet">
     <!--Original value: the Android device-->
     <item>Android</item>
+  </string-array>
+  <string-array name="occupation_time_imu_array">
+    <!--Original value: Stop by IMU-->
+    <item>Stop by IMU</item>
+    <!--Original value: Stopped manually-->
+    <item>Stopped manually</item>
   </string-array>
   <string-array name="base_correction_source_for_triumph_2_array">
     <!--Original value: Unknown(off)-->
@@ -1392,22 +1446,6 @@
     <item>Tycz punkt</item>
     <!--Original value: Line Stakeout-->
     <item>Tycz linię</item>
-  </string-array>
-  <string-array name="minimal_rtk_array">
-    <!--Original value: 0-->
-    <item>0</item>
-    <!--Original value: 1-->
-    <item>1</item>
-    <!--Original value: 2-->
-    <item>2</item>
-    <!--Original value: 3-->
-    <item>3</item>
-    <!--Original value: 4-->
-    <item>4</item>
-    <!--Original value: 5-->
-    <item>5</item>
-    <!--Original value: 6-->
-    <item>6</item>
   </string-array>
   <string-array name="base_correction_source_array">
     <!--Original value: Unknown(off)-->
