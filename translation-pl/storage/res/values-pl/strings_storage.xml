@@ -29,7 +29,7 @@
     <string name="string_filename_xml">Plik JPS</string>
     <!-- Used in file ComplexObjectListAdapter.java:140. Original value:Radius    -->
     <string name="complex_object_radius">Radius</string>
-    <!-- Used in file PointsFragment.java:1050. Original value:New Circle    -->
+    <!-- Used in file PointsFragment.java:1056. Original value:New Circle    -->
     <string name="new_circle">New Circle</string>
     <!-- Used in file codes.xml:43. Original value:Export    -->
     <string name="action_map_export">EKSPORT</string>
@@ -45,11 +45,9 @@
     <string name="write_to_text_files">Zapis do pliku txt</string>
     <!-- Used in file RTKBasesActivity.java:102. Original value:Filename    -->
     <string name="string_filename_sort">Nazwa</string>
-    <!-- Used in file null:0. Original value:manual    -->
-    <string name="string_manual">manual</string>
     <!-- Used in file activity_job.xml:133. Original value:Localization    -->
     <string name="localization">Lokalizacja</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:121. Original value:RTPK    -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:123. Original value:RTPK    -->
     <string name="string_rtpk_survey">RTPK</string>
     <!-- Used in file points.xml:57. Original value:Zoom All    -->
     <string name="action_map_zoomall">Powiększ wszystko</string>
@@ -65,18 +63,22 @@
     <string name="height_type">Typ wysokości</string>
     <!-- Used in file activity_point.xml:203. Original value:Wgs84    -->
     <string name="coordinate_wgs84">WGS84</string>
-    <!-- Used in file PointsFragment.java:1051. Original value:New Arc    -->
+    <!-- Used in file PointsFragment.java:1057. Original value:New Arc    -->
     <string name="new_arc">New Arc</string>
     <!-- Used in file JobActivity.java:104. Original value:Duplicate Job    -->
     <string name="string_duplicate_job_xml">Duplikuj Projekt</string>
     <!-- Used in file activity_ts_point.xml:200. Original value:SurveyInfo:\n\n\n    -->
     <string name="survey_info">SurveyInfo:\n\n</string>
+    <!-- Used in file activity_data_location.xml:27. Original value:Data Location    -->
+    <string name="data_location_title">Data Location</string>
     <!-- Used in file activity_archive_folder.xml:118. Original value:Archive GoogleDrive    -->
     <string name="archive_googledrive">Archiwizuj na GoogleDrive</string>
     <!-- Used in file activity_complex_object_text.xml:86. Original value:Text    -->
     <string name="string_text">Text</string>
     <!-- Used in file activity_rover_points_from_base.xml:16. Original value:Search    -->
     <string name="search_hint">Szukaj</string>
+    <!-- Used in file activity_data_location.xml:48. Original value:User-defined Location    -->
+    <string name="user_storage_string">User-defined Location</string>
     <!-- Used in file activity_code.xml:202. Original value:Def.Value    -->
     <string name="code_def_value">Definicja</string>
     <!-- Used in file jobs.xml:8. Original value:Add    -->
@@ -105,8 +107,6 @@
     <string name="storage_mark_id">Oznacz</string>
     <!-- Used in file home_map_points.xml:35. Original value:TS Points    -->
     <string name="action_show_ts_on">Punkty TS</string>
-    <!-- Used in file null:0. Original value:autostop    -->
-    <string name="string_autostop">autostop</string>
     <!-- Used in file activity_code.xml:215. Original value:Max.Length    -->
     <string name="code_max_length">Długość MAX.</string>
     <!-- Used in file home_map_points.xml:41. Original value:RTK Bases    -->
@@ -116,6 +116,8 @@
   </string>
     <!-- Used in file activity_archive_folder.xml:124. Original value:Authorize GoogleDrive    -->
     <string name="button_authorize_googledrive">Autoryzacja GoogleDrive</string>
+    <!-- Used in file activity_data_location.xml:38. Original value:External Storage    -->
+    <string name="external_storage_string">External Storage</string>
     <!-- Used in file activity_complex_object_polygon.xml:78. Original value:Color    -->
     <string name="string_color">Color</string>
     <!-- Used in file list_complex_objects.xml:50. Original value:Area    -->
@@ -126,6 +128,8 @@
     <string name="action_contouring">Warstwice</string>
     <!-- Used in file activity_archive_folder.xml:86. Original value:Authorize Dropbox    -->
     <string name="button_authorize_dropbox">Autoryzacja Dropbox</string>
+    <!-- Used in file activity_data_location.xml:19. Original value:All data of JMT application are stored inside javad subfolder. And the location of the folder can be different. This dialog let you select the location. In this case JMT can move all data to new location.    -->
+    <string name="data_location_description">All data of JMT application are stored inside javad subfolder. And the location of the folder can be different. This dialog let you select the location. In this case JMT can move all data to new location.</string>
     <!-- Used in file activity_design_point.xml:134. Original value:Height    -->
     <string name="height">Wys.</string>
     <!-- Used in file activity_job.xml:70. Original value:Organization    -->
@@ -134,8 +138,6 @@
     <string name="action_map_import">Import</string>
     <!-- Used in file activity_code.xml:174. Original value:Name    -->
     <string name="feature_name">Nazwa</string>
-    <!-- Used in file null:0. Original value:Create Empty Drawing *.dwg    -->
-    <string name="string_create_empty_drawing___dwg">Utwórz pusty rysunek *.dwg</string>
     <!-- Used in file activity_archive_folder.xml:132. Original value:Sync Jobs with GoogleDrive    -->
     <string name="button_sync_jobs_googledrive">Synchronizuj z GoogleDrive</string>
     <!-- Used in file activity_job.xml:90. Original value:Comment    -->
@@ -159,17 +161,15 @@
     <string name="rtk_base_info">Baza RTK:\n</string>
     <!-- Used in file activity_archive_folder.xml:94. Original value:Sync Jobs with Dropbox    -->
     <string name="button_sync_jobs_dropbox">Synchronizuj z DropBox</string>
-    <!-- Used in file null:0. Original value:Drawing with ASCII data *.*    -->
-    <string name="string_drawing_with_ascii_data____">Rysunek ASCII *.*</string>
     <!-- Used in file home_map_points.xml:116. Original value:Remove empty drawings    -->
     <string name="action_remove_empty_drawings">Remove empty drawings</string>
     <!-- Used in file home_map_points.xml:123. Original value:Settings    -->
     <string name="string_settings">Ustawienia</string>
     <!-- Used in file activity_job.xml:30. Original value:Name    -->
     <string name="job_name">Nazwa</string>
-    <!-- Used in file PointsFragment.java:1049. Original value:New Text    -->
+    <!-- Used in file PointsFragment.java:1055. Original value:New Text    -->
     <string name="new_text">New Text</string>
-    <!-- Used in file PointsFragment.java:1048. Original value:New Polygon    -->
+    <!-- Used in file PointsFragment.java:1054. Original value:New Polygon    -->
     <string name="new_polygon">Nowy Poligon</string>
     <!-- Used in file activity_archive_folder.xml:161. Original value:Authorize OneDrive    -->
     <string name="button_authorize_onedrive">Autoryzacja OneDrive</string>
@@ -206,6 +206,8 @@
     <string name="check_archive_folder">Automatyczna archiwizacja do katalogu</string>
     <!-- Used in file list_points.xml:126. Original value:Description    -->
     <string name="string_descriptionhint">Opis</string>
+    <!-- Used in file activity_data_location.xml:43. Original value:Scoped Storage    -->
+    <string name="scoped_storage_string">Scoped Storage</string>
     <!-- Used in file activity_design_point.xml:92. Original value:North    -->
     <string name="north">Północ</string>
     <!-- Used in file activity_complex_object_circle.xml:86. Original value:Radius    -->
@@ -256,5 +258,17 @@
     <string name="vertex_count">Vertexes</string>
     <!-- Used in file home_map_points.xml:9. Original value:Connect    -->
     <string name="string_connect">Połącz</string>
+    <!-- UNUSED STRING 
+    <string name="string_manual">manual</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_autostop">autostop</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_create_empty_drawing___dwg">Utwórz pusty rysunek *.dwg</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_drawing_with_ascii_data____">Rysunek ASCII *.*</string>
+    -->
 
 </resources>
