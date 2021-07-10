@@ -1,315 +1,470 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file fragment_settings.xml:14    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_rangefinder">Entfernungsmesser</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="job_name_title">Job</string>
-    <!-- Used in file HomeActivity.java:384    -->
-    <string name="home_title_ts_points">TS Points</string>
-    <!-- Used in file RadioHomeActivity.java:148    -->
-    <string name="home_title_radio_firmware">Radio Firmware Loader</string>
-    <!-- Used in file activity_orginize_view.xml:57    -->
-    <string name="survey_button_location">Location of Survey Button</string>
-    <!-- Used in file activity_splash.xml:14    -->
-    <string name="string_splash">&#169; JAVAD GNSS 2021</string>
-    <!-- Used in file activity_orginize_view.xml:160    -->
-    <string name="translucency">Translucency of controls</string>
-    <!-- Used in file fragment_settings.xml:15    -->
-    <string name="job_name_summary">Job</string>
-    <!-- Used in file HomeActivity.java:521    -->
-    <string name="home_title_jcommunity">J-Community</string>
-    <!-- Used in file BaseHomeActivity.java:2396    -->
-    <string name="triumph3_oaf_message">This TRIUMPH-3 does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!</string>
-    <!-- Used in file fragment_settings.xml:61    -->
-    <string name="map_settings_title">Map Settings</string>
-    <!-- Used in file drawer_view.xml:79    -->
-    <string name="home_title_survey_pp">Static Survey</string>
-    <!-- Used in file fragment_settings.xml:9    -->
-    <string name="receiver_name_summary">Receiver</string>
-    <!-- Used in file activity_startup_ui.xml:75    -->
-    <string name="show_intro">Show Introduction screen at startup</string>
-    <!-- Used in file translate.xml:38    -->
-    <string name="translation_china">China</string>
-    <!-- Used in file fragment_settings.xml:89    -->
-    <string name="debug_view_summary">Debug Settings</string>
-    <!-- Used in file AboutActivity.java:44    -->
-    <string name="string_ver">Version </string>
-    <!-- Used in file fragment_settings.xml:27    -->
-    <string name="survey_settings_label">Survey/Stakeout Settings</string>
-    <!-- Used in file drawer_view.xml:118    -->
-    <string name="home_title_satellites">Satellites</string>
-    <!-- Used in file drawer_view.xml:178    -->
-    <string name="home_title_jmate">J-Mate</string>
-    <!-- Used in file HomeActivity.java:384    -->
-    <string name="home_title_design_points">Design Points</string>
-    <!-- Used in file HomeActivity.java:521    -->
-    <string name="home_title_spoofing">Spoofing</string>
-    <!-- Used in file BaseHomeActivity.java:1018    -->
-    <string name="string_resection_station_string">Start Resection</string>
-    <!-- Used in file drawer_view.xml:211    -->
-    <string name="home_title_exit">Turn Off</string>
-    <!-- Used in file HomeActivity.java:379    -->
-    <string name="home_title_map">Map</string>
-    <!-- Used in file grid_item.xml:34    -->
-    <string name="text_view">text_view</string>
-    <!-- Used in file activity_exit.xml:52    -->
-    <string name="check_stop_mobile_data">Stop Mobile Data</string>
-    <!-- Used in file translate.xml:7    -->
-    <string name="translation_english">English</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:78    -->
-    <string name="dont_allow_licence">Application is not purchased. Please go to Google Play Market to purchase it.</string>
-    <!-- Used in file activity_orginize_view.xml:214    -->
-    <string name="expand_description">Expand Description</string>
-    <!-- Used in file fragment_settings.xml:56    -->
-    <string name="sound_settings_summary">Sound Settings</string>
-    <!-- Used in file activity_orginize_view.xml:322    -->
-    <string name="additional_views">View Additional Views</string>
-    <!-- Used in file fragment_settings.xml:47    -->
-    <string name="correction_internet_title">Internet from</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:68    -->
-    <string name="allow_license">License is OK</string>
-    <!-- Used in file drawer_view.xml:112    -->
-    <string name="home_title_receiver">Receiver</string>
-    <!-- Used in file activity_orginize_view.xml:99    -->
-    <string name="info_text_size_string_main">Stakeout Text Size</string>
-    <!-- Used in file fragment_settings.xml:69    -->
-    <string name="orginize_view_title">Orginize View</string>
-    <!-- Used in file drawer_view.xml:126    -->
-    <string name="home_title_power">Power</string>
-    <!-- Used in file HomeActivity.java:522    -->
-    <string name="home_title_rtkbases">RTK Bases</string>
-    <!-- Used in file drawer_view.xml:207    -->
-    <string name="home_title_usermanual">User Manual</string>
-    <!-- Used in file HomeActivity.java:555    -->
-    <string name="home_title_calibrate">Calibrate</string>
-    <!-- Used in file BaseHomeActivity.java:2394    -->
-    <string name="triumph3_oaf_title">JAVAD TRIUMPH-3 works with JMT only with OAF option in the receiver!</string>
-    <!-- Used in file fragment_settings.xml:62    -->
-    <string name="map_settings_summary">Map Settings</string>
-    <!-- Used in file activity_home.xml:16    -->
-    <string name="version_number">Javad Mobile Tools for Android</string>
-    <!-- Used in file drawer_view.xml:170    -->
-    <string name="home_title_jtip">J-Tip</string>
-    <!-- Used in file AboutActivity.java:44    -->
-    <string name="string_build">Build</string>
-    <!-- Used in file HomeActivity.java:384    -->
-    <string name="home_title_survey_points">Survey Points</string>
-    <!-- Used in file fragment_settings.xml:30    -->
-    <string name="antenna_summary">Antenna</string>
-    <!-- Used in file drawer_view.xml:21    -->
-    <string name="home_title_cs">Coord.Sys</string>
-    <!-- Used in file fragment_settings.xml:53    -->
-    <string name="map_sound_settings">Map / Sounds</string>
-    <!-- Used in file drawer_view.xml:57    -->
-    <string name="home_title_rtkbase">RTK Base</string>
-    <!-- Used in file BaseHomeActivity.java:2514    -->
-    <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
-    <!-- Used in file activity_orginize_view.xml:196    -->
-    <string name="view_description">View Description</string>
-    <!-- Used in file activity_exit.xml:17    -->
-    <string name="check_stop_logging">Stop Logging</string>
-    <!-- Used in file drawer_view.xml:94    -->
-    <string name="home_title_ts">TS/JMate</string>
-    <!-- Used in file translate.xml:44    -->
-    <string name="translation_turkish">Turkish</string>
-    <!-- Used in file drawer_view.xml:33    -->
-    <string name="home_title_catalog">Catalogs</string>
-    <!-- Used in file fragment_settings.xml:76    -->
-    <string name="show_satellite_variants">Show Satellites Number as</string>
-    <!-- Used in file drawer_view.xml:142    -->
-    <string name="home_title_reconnectwifi">Reconnect WiFi</string>
-    <!-- Used in file HomeMapActivity.java:228    -->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <!-- Used in file translate.xml:32    -->
-    <string name="translation_russian">Russian</string>
-    <!-- Used in file fragment_settings.xml:67    -->
-    <string name="ui_settings">User Interface Settings</string>
-    <!-- Used in file drawer_view.xml:29    -->
-    <string name="home_title_geoids">Geoids</string>
-    <!-- Used in file activity_orginize_view.xml:32    -->
-    <string name="radio_with_map">Survey/Stakeout on Map</string>
-    <!-- Used in file activity_exit.xml:31    -->
-    <string name="check_enable_nmea">Enable NMEA messages on the port</string>
-    <!-- Used in file HomeMapActivity.java:228    -->
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <!-- Used in file drawer_view.xml:134    -->
-    <string name="home_title_resets">Control</string>
-    <!-- Used in file drawer_view.xml:162    -->
-    <string name="home_title_rangefinder">Rangefinder</string>
-    <!-- Used in file drawer_view.xml:9    -->
-    <string name="home_title_wizard">Wizard</string>
-    <!-- Used in file fragment_settings.xml:41    -->
-    <string name="correction_source_title">Correction Source</string>
-    <!-- Used in file drawer_view.xml:174    -->
-    <string name="home_title_spectrum">Spectrum</string>
-    <!-- Used in file grid_item.xml:16    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_ts_points">TS-Punkte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_radio_firmware">Funk-Firmware-Lader</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_wizard">Assistent</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="correction_source_title">Korrektur Quelle</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_spectrum">Spektrum</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_button_location">Position der Vermessungstaste</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="image_view">image_view</string>
-    <!-- Used in file activity_orginize_view.xml:286    -->
-    <string name="view_compass_levels">View Levels/Compass</string>
-    <!-- Used in file home.xml:46    -->
-    <string name="action_about">About</string>
-    <!-- Used in file drawer_view.xml:11    -->
-    <string name="home_title_project">Project</string>
-    <!-- Used in file drawer_view.xml:138    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_splash">&#169; JAVAD GNSS 2021</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_compass_levels">Ansicht Ebenen/Kompass</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="action_about">Über</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_project">Projekt</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_terminal">Terminal</string>
-    <!-- Used in file activity_exit.xml:66    -->
-    <string name="button_exit">Exit</string>
-    <!-- Used in file drawer_view.xml:106    -->
-    <string name="home_title_start_station_resection">Resection</string>
-    <!-- Used in file fragment_settings.xml:21    -->
-    <string name="job_archiving_summary">Job Archiving</string>
-    <!-- Used in file activity_startup_ui.xml:14    -->
-    <string name="startup_title">Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.</string>
-    <!-- Used in file fragment_settings.xml:35    -->
-    <string name="survey_settings_title">Survey Settings</string>
-    <!-- Used in file drawer_view.xml:199    -->
-    <string name="home_title_import">Import</string>
-    <!-- Used in file MainActivity.java:82    -->
-    <string name="permission_required_to_read_write">Please enable access to files permission in Android settings for the application.</string>
-    <!-- Used in file activity_about.xml:20    -->
-    <string name="string_version">Version 1.0.9 build 25 June 2014</string>
-    <!-- Used in file disconnect.xml:8    -->
-    <string name="string_disconnect_str">Disconnect</string>
-    <!-- Used in file HomeActivity.java:517    -->
-    <string name="home_title_smart_tips">J-Tip</string>
-    <!-- Used in file fragment_settings.xml:20    -->
-    <string name="job_archiving">Job Archiving</string>
-    <!-- Used in file fragment_settings.xml:29    -->
-    <string name="antenna_title">Antenna</string>
-    <!-- Used in file fragment_settings.xml:55    -->
-    <string name="sound_settings_title">Sound Settings</string>
-    <!-- Used in file fragment_settings.xml:36    -->
-    <string name="survey_settings_summary">Survey Settings</string>
-    <!-- Used in file drawer_view.xml:191    -->
-    <string name="home_title_settings">Settings</string>
-    <!-- Used in file BaseHomeActivity.java:2398    -->
-    <string name="string_update_oaf">Download and Update OAF</string>
-    <!-- Used in file drawer_view.xml:101    -->
-    <string name="home_title_start_station_quick">Start Station</string>
-    <!-- Used in file SettingsFragment.java:139    -->
-    <string name="string_stakeout_settings_menu">Stakeout Settings</string>
-    <!-- Used in file BaseHomeActivity.java:1012    -->
-    <string name="string_start_station_string">Start Station</string>
-    <!-- Used in file drawer_view.xml:47    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="button_exit">Beenden</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translucency">Transluzenz der Bedienelemente</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="job_name_summary">Arbeitsplatz</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_jcommunity">J-Gemeinschaft</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_start_station_resection">Resektion</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="triumph3_oaf_message">Diese TRIUMPH-3 funktioniert nicht mit JAVAD Mobile Tools ohne OAF-Option! Bitte wenden Sie sich an JAVAD GNSS oder Ihren Händler, um die OAF-Option zu erwerben!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="map_settings_title">Karteneinstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_survey_pp">Statische Vermessung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="job_archiving_summary">Job Archivierung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="startup_title">Wählen Sie das erste Fenster, aus dem Javad Mobile Tools startet.\nSie können die Arbeit aus dem Befehlsmenü starten oder direkt zur Karte mit dem Projekt gehen.\nDiese Einstellung kann jederzeit aus dem Dropdown-Menü im Hauptfenster geändert werden.</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="receiver_name_summary">Empfänger</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_settings_title">Vermessungseinstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="show_intro">Einführungsbildschirm beim Starten anzeigen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_import">Importieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="permission_required_to_read_write">Bitte aktivieren Sie die Zugriffsberechtigung auf Dateien in den Android-Einstellungen für die Anwendung.</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_version">Version 1.0.9 build 25. Juni 2014</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_china">China</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="debug_view_summary">Debug-Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_disconnect_str">Trennen Sie die Verbindung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_ver">Version </string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_settings_label">Umfrage-/Abmeldeeinstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_smart_tips">J-Tipp</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="job_archiving">Job-Archivierung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="antenna_title">Antenne</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="sound_settings_title">Ton-Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_satellites">Satelliten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_settings_summary">Vermessungs-Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_jmate">J-Mate</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_design_points">Design-Punkte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_spoofing">Spoofing</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_resection_station_string">Resektion starten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_exit">Ausschalten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_settings">Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_map">Karte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_update_oaf">OAF herunterladen und aktualisieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_start_station_quick">Station starten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_stakeout_settings_menu">Absteckung Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="text_view">text_ansicht</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_stop_mobile_data">Mobile Daten stoppen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_start_station_string">Station starten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_english">Englisch</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_rtk">RTK</string>
-    <!-- Used in file BaseHomeActivity.java:2396    -->
-    <string name="omega_oaf_message">This JAVAD OMEGA does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!</string>
-    <!-- Used in file activity_orginize_view.xml:119    -->
-    <string name="info_text_labels_string_main">Stakeout Labels</string>
-    <!-- Used in file activity_startup_ui.xml:63    -->
-    <string name="start_with_map">Start with Map</string>
-    <!-- Used in file drawer_view.xml:17    -->
-    <string name="home_title_jobs">Job</string>
-    <!-- Used in file SettingsFragment.java:141    -->
-    <string name="survey_settings">Survey Settings</string>
-    <!-- Used in file activity_orginize_view.xml:25    -->
-    <string name="radio_without_map">Survey/Stakeout without Map</string>
-    <!-- Used in file drawer_view.xml:41    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="omega_oaf_message">Dieser JAVAD OMEGA funktioniert nicht mit JAVAD Mobile Tools ohne OAF-Option!\nBitte wenden Sie sich an JAVAD GNSS oder Ihren Händler, um die OAF-Option zu erwerben!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="info_text_labels_string_main">Absteckung Etiketten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="start_with_map">Start mit Karte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="dont_allow_licence">Die Anwendung ist nicht gekauft. Bitte gehen Sie zum Google Play Market, um sie zu erwerben.</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="expand_description">Erweitern der Beschreibung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_jobs">Auftrag</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_settings">Umfrage-Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="radio_without_map">Umfrage/Auftrag ohne Karte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="sound_settings_summary">Sound-Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_cogo">CoGo</string>
-    <!-- Used in file drawer_view.xml:154    -->
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_radio">Radio</string>
-    <!-- Used in file activity_orginize_view.xml:232    -->
-    <string name="view_code">View Code</string>
-    <!-- Used in file HomeActivity.java:508    -->
-    <string name="home_title_rtk_work">RTK Works</string>
-    <!-- Used in file drawer_view.xml:195    -->
-    <string name="home_title_export">Export</string>
-    <!-- Used in file drawer_view.xml:130    -->
-    <string name="home_title_calibrate_compass">Calibrate Levels</string>
-    <!-- Used in file activity_orginize_view.xml:250    -->
-    <string name="handle_gestures">Handle swipe gestures</string>
-    <!-- Used in file BaseHomeActivity.java:1886    -->
-    <string name="spectrum_option_is_required">Spectrum OAF option is required!\nPlease contact with JAVAD GNSS</string>
-    <!-- Used in file fragment_settings.xml:8    -->
-    <string name="receiver_name_title">Receiver</string>
-    <!-- Used in file RadioHomeActivity.java:148    -->
-    <string name="home_title_pairmodem">Pair Modem</string>
-    <!-- Used in file fragment_settings.xml:82    -->
-    <string name="start_with_menu">Start with Menu</string>
-    <!-- Used in file activity_exit.xml:59    -->
-    <string name="check_turn_off_controller">Turn Off Controller</string>
-    <!-- Used in file fragment_settings.xml:88    -->
-    <string name="debug_view_title">Debug</string>
-    <!-- Used in file HomeActivity.java:567    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="additional_views">Ansicht Zusätzliche Ansichten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="correction_internet_title">Internet von</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="allow_license">Lizenz ist OK</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_receiver">Empfänger</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="info_text_size_string_main">Absteckung Textgröße</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_code">Code anzeigen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="orginize_view_title">Orginize Ansicht</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_rtk_work">RTK Arbeiten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_export">Exportieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_calibrate_compass">Ebenen kalibrieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="handle_gestures">Wischgesten handhaben</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_power">Leistung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_rtkbases">RTK-Basen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="spectrum_option_is_required">Spectrum OAF-Option ist erforderlich!\nBitte wenden Sie sich an JAVAD GNSS</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_usermanual">Benutzerhandbuch</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_calibrate">kalibrieren.</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="triumph3_oaf_title">JAVAD TRIUMPH-3 arbeitet mit JMT nur mit der OAF-Option im Empfänger!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="map_settings_summary">Karteneinstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="receiver_name_title">Empfänger</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_pairmodem">Modem koppeln</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="version_number">Javad Mobile Tools für Android</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_jtip">J-Tipp</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="start_with_menu">Start mit Menü</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_build">Bauen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_survey_points">Punkte vermessen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_turn_off_controller">Controller ausschalten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="debug_view_title">Debuggen</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_quattro">Quattro</string>
-    <!-- Used in file activity_orginize_view.xml:268    -->
-    <string name="view_more_survey_controls">View antenna and settings</string>
-    <!-- Used in file drawer_view.xml:66    -->
-    <string name="home_title_stakeout">Stakeout</string>
-    <!-- Used in file BaseHomeActivity.java:2364    -->
-    <string name="string_purchase_jmt">Purchase Option</string>
-    <!-- Used in file activity_orginize_view.xml:78    -->
-    <string name="survey_button_color">Color of Survey Button</string>
-    <!-- Used in file BaseHomeActivity.java:1194    -->
-    <string name="rtk_rover">RTK Rover</string>
-    <!-- Used in file activity_exit.xml:38    -->
-    <string name="check_turn_off">Turn Off Receiver</string>
-    <!-- Used in file activity_exit.xml:24    -->
-    <string name="check_stop_rtk_radio">Stop RTK and Radio</string>
-    <!-- Used in file BaseHomeActivity.java:1889    -->
-    <string name="only_t3_omega_has_spectrum_out">Only JAVAD TRIUMPH-3 and JAVAD OMEGA have Spectrum Output ability</string>
-    <!-- Used in file fragment_settings.xml:48    -->
-    <string name="correction_internet_summary">Internet from</string>
-    <!-- Used in file drawer_view.xml:62    -->
-    <string name="home_title_survey_rtk">RTK Survey</string>
-    <!-- Used in file empty.xml:9    -->
-    <string name="string_show_menu_at_startup">Show Menu at startup</string>
-    <!-- Used in file fragment_settings.xml:70    -->
-    <string name="orginize_view_summary">Orginize View</string>
-    <!-- Used in file translate.xml:13    -->
-    <string name="translation_1">Language 1</string>
-    <!-- Used in file translate.xml:19    -->
-    <string name="translation_2">Language 2</string>
-    <!-- Used in file drawer_view.xml:122    -->
-    <string name="home_title_corrections">Corrections</string>
-    <!-- Used in file RadioHomeActivity.java:148    -->
-    <string name="home_title_repeater">Repeater</string>
-    <!-- Used in file translate.xml:25    -->
-    <string name="translation_3">Language 3</string>
-    <!-- Used in file BaseHomeActivity.java:2394    -->
-    <string name="omega_oaf_title">JAVAD OMEGA works with JMT only with OAF option in the receiver!</string>
-    <!-- Used in file fragment_settings.xml:86    -->
-    <string name="debug_settings">Debug</string>
-    <!-- Used in file drawer_view.xml:203    -->
-    <string name="home_title_justinlink_server">Services</string>
-    <!-- Used in file main_bosch.xml:13    -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file activity_exit.xml:45    -->
-    <string name="check_exit_app">Exit JMT application</string>
-    <!-- Used in file HomeMapActivity.java:2161    -->
-    <string name="jmate_is_not_connected_string">JMATE is not connected!</string>
-    <!-- Used in file drawer_view.xml:37    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_more_survey_controls">Antenne und Einstellungen anzeigen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_stakeout">Abstecken</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="antenna_summary">Antenne</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_purchase_jmt">Kaufoption</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="survey_button_color">Farbe der Vermessungstaste</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_cs">Koordinatensysteme</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="map_sound_settings">Karte / Töne</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="rtk_rover">RTK-Rover</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_rtkbase">RTK-Basis</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="connection_error_str">Bitte versuchen Sie, die Verbindung erneut herzustellen oder wählen Sie ein anderes Gerät!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_description">Ansicht Beschreibung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_turn_off">Receiver ausschalten</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_stop_logging">Aufzeichnung stoppen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_stop_rtk_radio">RTK und Funk stoppen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="only_t3_omega_has_spectrum_out">Nur JAVAD TRIUMPH-3 und JAVAD OMEGA haben die Möglichkeit der Spektrumsausgabe</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_ts">TS/JMate</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="correction_internet_summary">Internet von</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_survey_rtk">RTK Vermessung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_show_menu_at_startup">Menü beim Starten anzeigen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="orginize_view_summary">Orginize Ansicht</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_1">Sprache 1</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_turkish">Türkisch</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_2">Sprache 2</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_corrections">Korrekturen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_repeater">Wiederholer</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_3">Sprache 3</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_catalog">Kataloge</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="show_satellite_variants">Satellitennummer anzeigen als</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="omega_oaf_title">JAVAD OMEGA arbeitet mit JMT nur mit OAF-Option im Empfänger!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="debug_settings">Debuggen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_reconnectwifi">WiFi-Verbindung wiederherstellen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_justinlink_server">Dienste</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="action_settings">Einstellungen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_exit_app">JMT-Anwendung beenden</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="jmate_is_not_connected_string">JMATE ist nicht verbunden!</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_codes">Codes</string>
-    <!-- Used in file drawer_view.xml:148    -->
-    <string name="home_title_devices">Devices</string>
-    <!-- Used in file drawer_view.xml:166    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_devices">Geräte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="translation_russian">Russisch</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_quatro_duo">Quattro/Duo</string>
-    <!-- Used in file drawer_view.xml:25    -->
-    <string name="home_title_localize">Localize</string>
-    <!-- Used in file activity_orginize_view.xml:178    -->
-    <string name="view_name">View Name</string>
-    <!-- Used in file drawer_view.xml:53    -->
-    <string name="home_title_rtkrover">RTK Rover</string>
-    <!-- Used in file drawer_view.xml:84    -->
-    <string name="home_title_filemanager">Receiver Files</string>
-    <!-- Used in file HomeActivity.java:582    -->
-    <string name="home_title_survey">Survey</string>
-    <!-- Used in file fragment_settings.xml:42    -->
-    <string name="correction_source_summary">Correction Source</string>
-    <!-- Used in file drawer_view.xml:88    -->
-    <string name="home_title_process">Process</string>
-    <!-- Used in file JavadLicenseCheckerCallback.java:88    -->
-    <string name="no_internet_to_check_license">No Internet connection to check License</string>
-    <!-- Used in file activity_orginize_view.xml:304    -->
-    <string name="view_v6_engines">View V6 Engines</string>
-    <!-- Used in file drawer_view.xml:158    -->
-    <string name="home_title_ts_exchange">Total Station</string>
-    <!-- Used in file drawer_view.xml:73    -->
-    <string name="home_title_post_processing">post-Processing</string>
-    <!-- Used in file HomeActivity.java:452    -->
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_localize">Lokalisieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_name">Ansicht Name</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_rtkrover">RTK-Rover</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="ui_settings">Einstellungen der Benutzeroberfläche</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_geoids">Geoids</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_filemanager">Empfänger-Dateien</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_survey">Vermessung</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="radio_with_map">Vermessung/Absteckung auf Karte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="check_enable_nmea">NMEA-Meldungen auf dem Anschluss aktivieren</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="correction_source_summary">Korrektur Quelle</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_process">Prozess</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="no_internet_to_check_license">Keine Internetverbindung zum Prüfen der Lizenz</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="view_v6_engines">V6-Motoren anzeigen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_ts_exchange">Totalstation</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_post_processing">Post-Processing</string>
+    -->
+    <!-- __( Used in file null:0 
     <string name="home_title_duo">Duo</string>
-    <!-- Used in file BaseHomeActivity.java:1213    -->
-    <string name="string_connect">Connect</string>
-    <!-- Used in file HomeActivity.java:586    -->
-    <string name="home_title_points">Points</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="string_connect">Verbinden</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_points">Punkte</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="navigation_drawer_close">Navigationsschublade schließen</string>
+    -->
+    <!-- __( Used in file null:0 
+    <string name="home_title_resets">Steuerung</string>
+    -->
 
 </resources>

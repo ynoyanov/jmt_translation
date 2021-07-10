@@ -208,8 +208,8 @@
     <!-- Used in file stakeout_settings.xml:313 -->
     <string-array name="imu_modes">
          <item>Off</item>
-         <item>Swing (Moving Tip Off)</item>
-         <item>Tilt (Moving Tip On)</item>
+         <item>On (Fixed Tip)</item>
+         <item>On (Moving Tip)</item>
     </string-array>
 
     <!-- Used in file activity_start_station_resection.xml:51 -->
@@ -964,8 +964,8 @@
 
     <!-- Used in file SurveySettingsPreferenceFragment.java:1566 -->
     <string-array name="occupation_time_imu_array">
-         <item>Stopped manually</item>
-         <item>Stop by IMU</item>
+        <item>Stop by IMU</item>
+        <item>Stopped manually</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
@@ -1010,17 +1010,6 @@
     <string-array name="stakeout_modes_array">
          <item>Point Stakeout</item>
          <item>Line Stakeout</item>
-    </string-array>
-
-    <!-- UNUSED ARRAY OF STRINGS -->
-    <string-array name="minimal_rtk_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
