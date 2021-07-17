@@ -1,101 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- __( Used in file null:0 
-    <string name="text_select_modem">Select HPT modem to pair</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="modulation">Modulation</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="fec">Error Correction (FEC)</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="scrambling">Scrambling</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="action_settings">Settings</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="none">None</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="protocol">Protocol</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="hello_world">Hello world!</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_receiver_info">Connected to receiver</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_select_repeater">Select HPT Repeater to setup</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="rx_frequency_hz">RX Frequency, Hz</string>
-    -->
-    <!-- __( Used in file null:0 
+    <!-- Used in file item_device.xml:14. Original value:None    -->
+    <string name="none">Keine</string>
+    <!-- Used in file activity_repeater.xml:55. Original value:RX Frequency, Hz    -->
+    <string name="rx_frequency_hz">RX Frequenz, Hz</string>
+    <!-- Used in file pair_modem.xml:13. Original value:WiFi    -->
     <string name="action_wifi">WiFi</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="call_sign">Call Sign</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="string_internal_radio">Internal Radio</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="rtr_echo">RTR Echo</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="tx_frequency_hz">TX Frequency, Hz</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="output_power_w">Output Power</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="bluetooth_resttings">Settings</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="simplex_protocol_parameters">Simplex Protocol Parameters</string>
-    -->
-    <!-- __( Used in file null:0 
+    <!-- Used in file activity_load_firmware_modem_select.xml:35. Original value:Internal Radio    -->
+    <string name="string_internal_radio">Interner Funk</string>
+    <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo    -->
+    <string name="rtr_echo">RTR-Echo</string>
+    <!-- Used in file activity_repeater.xml:226. Original value:Apply    -->
+    <string name="button_apply">Anwenden</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio    -->
+    <string name="string_paired_radio">Gekoppelt mit Empfänger Funk</string>
+    <!-- Used in file main_bosch_2.xml:7. Original value:Refresh    -->
+    <string name="refresh_bluetooth">Aktualisieren</string>
+    <!-- Used in file PairModemActivity.java:273. Original value:Select JLink radio to pair with    -->
+    <string name="text_select_jlink">JLink-Funkgerät zum Koppeln auswählen</string>
+    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
+    <string name="call_sign">Rufzeichen</string>
+    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
+    <string name="tx_frequency_hz">Sendefrequenz, Hz</string>
+    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
+    <string name="simplex_protocol_parameters">Simplex-Protokoll-Parameter</string>
+    <!-- Used in file activity_find_rangefinder.xml:15. Original value:Connect Rangefinder as TS    -->
+    <string name="text_run_survey_with">Entfernungsmesser als TS verbinden</string>
+    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
+    <string name="button_read_from_radio">Vom Funkgerät</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:584. Original value:Load firmware anyway    -->
+    <string name="string_load_firmware_anyway">Firmware trotzdem laden</string>
+    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
+    <string name="modulation">Modulation</string>
+    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
+    <string name="fec">Fehlerkorrektur (FEC)</string>
+    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
+    <string name="protocol">Protokoll</string>
+    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
+    <string name="hello_world">Hallo Welt!</string>
+    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
     <string name="action_bluetooth">Bluetooth</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="button_apply">Apply</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="no_connection">No connection to a Javad receiver</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="channel_spacing">Channel Spacing</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="string_paired_radio">Paired to receiver Radio</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_run_survey_with">Connect Rangefinder as TS</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_select_modem_2">Select radio to update firmware</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="refresh_bluetooth">Refresh</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="string_bluetooth_radio">Bluetooth Radio</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_select_rangefinder">Select a Rangefinder</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="button_read_from_radio">From Radio</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="string_load_firmware_anyway">Load firmware anyway</string>
-    -->
-    <!-- __( Used in file null:0 
-    <string name="text_select_jlink">Select JLink radio to pair with</string>
-    -->
+    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
+    <string name="channel_spacing">Kanalabstand</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio    -->
+    <string name="string_bluetooth_radio">Bluetooth-Funkgerät</string>
+    <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair    -->
+    <string name="text_select_modem">HPT-Modem zum Koppeln auswählen</string>
+    <!-- Used in file activity_repeater.xml:159. Original value:Scrambling    -->
+    <string name="scrambling">Scrambling</string>
+    <!-- Used in file main.xml:7. Original value:Settings    -->
+    <string name="action_settings">Einstellungen</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:15. Original value:Connected to receiver    -->
+    <string name="text_receiver_info">Verbunden mit dem Empfänger</string>
+    <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup    -->
+    <string name="text_select_repeater">HPT Repeater zum Einrichten auswählen</string>
+    <!-- Used in file activity_repeater.xml:91. Original value:Output Power    -->
+    <string name="output_power_w">Ausgangsleistung</string>
+    <!-- Used in file main_bosch_2.xml:14. Original value:Settings    -->
+    <string name="bluetooth_resttings">Einstellungen</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:158. Original value:No connection to a Javad receiver    -->
+    <string name="no_connection">Keine Verbindung zu einem Javad-Empfänger</string>
+    <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware    -->
+    <string name="text_select_modem_2">Funkgerät zum Aktualisieren der Firmware auswählen</string>
+    <!-- Used in file activity_find_rangefinder.xml:24. Original value:Select a Rangefinder    -->
+    <string name="text_select_rangefinder">Entfernungsmesser auswählen</string>
 
 </resources>
