@@ -1,142 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Used in file ConnectionBluetoothActivity.java:180 -->
-    <string name="string_wifi_ssid_is_">WiFi SSID is </string>
-    <!-- Used in file MainCommunicationActivity.java:587 -->
-    <string name="string_network_port_">Network Port:</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:135 -->
-    <string name="string_this_will_use_your_wifi_settings_to_reprogram_your_receiver_for_wifi_connection_">This will use your WiFi settings to reprogram your receiver for WiFi connection.</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:177 -->
-    <string name="string_reprogram_wifi_for_iphone_ipad">Reprogram WiFi for iPhone/iPad</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:101 -->
-    <string name="string_and_reprogram_your_receiver_to_connect_to_it_with_wifi_">and reprogram your receiver to connect to it with WiFi.</string>
-    <!-- Used in file activity_connection.xml:79 -->
-    <string name="password">Password</string>
-    <!-- Used in file activity_connection.xml:60 -->
+
+    <!-- Used in file main_communication.xml:8. Original value:only Javad devices    -->
+    <string name="action_filter_javad">Nur JAVAD Geräte</string>
+    <!-- Used in file activity_connection_bluetooth.xml:94. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
+    <string name="button_wifi_iphone_reconnect">Empfänger WLAN für iPhone auf AdHoc Modus setzen</string>
+    <!-- Used in file activity_main_communication.xml:75. Original value:Network    -->
+    <string name="ethernet_radio">Netzwerk</string>
+    <!-- Used in file main_communication.xml:16. Original value:About    -->
+    <string name="action_about">Über</string>
+    <!-- Used in file activity_connection.xml:79. Original value:Password    -->
+    <string name="password">Passwort</string>
+    <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
     <string name="login_netgear">NetGear Login</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:92 -->
-    <string name="string_delete_entry">Delete entry</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:102 -->
-    <string name="string_mobile_hotspot_is_">Mobile HotSpot is </string>
-    <!-- Used in file MainCommunicationActivity.java:589 -->
-    <string name="string_password">Password</string>
-    <!-- Used in file AboutActivity.java:45 -->
-    <string name="string_build">Build</string>
-    <!-- Used in file activity_about.xml:12 -->
-    <string name="string_copyright"> (;&#169;) Copyright JAVAD GNSS 2017</string>
-    <!-- Used in file activity_connection.xml:50 -->
+    <!-- Used in file activity_connection_bluetooth.xml:82. Original value:Reconnect with WiFi using external AP    -->
+    <string name="button_wifi_network_reconnect">WLAN Neuverbindung über externen AP</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
+    <string name="string_rename">Umbenennen</string>
+    <!-- Used in file ReceiverModel.java:2246. Original value:RTK Base antenna Id error!    -->
+    <string name="set_rtkbase_error_antenna_id">Fehler bei RTK-Base Antennen-ID!</string>
+    <!-- Used in file MainCommunicationActivity.java:1042. Original value:Connection error!Please try to reconnect latter or select another device!    -->
+    <string name="connection_error_str">Verbindungsfehler!Bitte später erneut versuchen oder anderes Gerät wählen!</string>
+    <!-- Used in file ConfigurationManager.java:212. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
+    <string name="string_without_receiver">&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d; </string>
+    <!-- Used in file activity_connection_configurations.xml:40. Original value:Delete    -->
+    <string name="string_delete">Löschen</string>
+    <!-- Used in file list_items_button.xml:13. Original value:Connect    -->
+    <string name="button_connect">Verbinden</string>
+    <!-- Used in file null:0. Original value:Check that the application has WRITE_SETTINS permission!    -->
+    <string name="string_check_that_the_application_has_write_settins_permission_">Schreibberechtigung der Anwendung überprüfen!</string>
+    <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
+    <string name="string_new">Neu</string>
+    <!-- Used in file ReceiverModel.java:2250. Original value:RTK Base antenna height error!    -->
+    <string name="set_rtkbase_error_antenna_height">Fehler bei der RTK-Base Antennenhöhe!</string>
+    <!-- Used in file ReceiverModel.java:2248. Original value:RTK Base antenna type error!    -->
+    <string name="set_rtkbase_error_antenna_type">Fehler beim RTK-Base Antennentyp!</string>
+    <!-- Used in file activity_main_communication.xml:61. Original value:WiFi    -->
+    <string name="wifi_radio">WLAN</string>
+    <!-- Used in file activity_connect_ts_name.xml:43. Original value:Connect    -->
+    <string name="button_connect_to_ts">Verbinden</string>
+    <!-- Used in file ReceiverModel.java:2185. Original value:RTK Base parameters is not pass!    -->
+    <string name="set_rtkbase_error_null">RTK-Base Einstellungen is not pass!</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
+    <string name="button_cancel">Abbrechen</string>
+    <!-- Used in file activity_connection_bluetooth.xml:70. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
+    <string name="button_wifi_ap_reconnect">WLAN Neuverbindung über Mobilen Hotspot des Android Gerätes</string>
+    <!-- Used in file connection.xml:7. Original value:Settings    -->
+    <string name="action_settings">Einstellungen</string>
+    <!-- Used in file activity_main_communication.xml:37. Original value:Connection to receiver:    -->
+    <string name="text_connection">Verbindung zum Empfänger:</string>
+    <!-- Used in file activity_connection.xml:50. Original value:Login    -->
     <string name="login">Login</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:134 -->
-    <string name="string_reconnect_with_wifi_using_ap">Reconnect with WiFi using AP</string>
-    <!-- Used in file MainCommunicationActivity.java:79 -->
-    <string name="string_wifi_nmobile">WiFi\nMobile</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:23 -->
-    <string name="setting_name">Settings Name</string>
-    <!-- Used in file MainCommunicationActivity.java:856 -->
-    <string name="string_wait__">Wait!!</string>
-    <!-- Used in file activity_main_communication.xml:74 -->
-    <string name="ethernet_radio">Network</string>
-    <!-- Used in file MainCommunicationActivity.java:946 -->
-    <string name="string_exit_application">Exit application</string>
-    <!-- Used in file MainCommunicationActivity.java:588 -->
-    <string name="string_login">Login</string>
-    <!-- Used in file ConfigurationManager.java:191 -->
-    <string name="string_without_receiver">---without receiver--- </string>
-    <!-- Used in file activity_about.xml:20 -->
-    <string name="string_version">Version 1.0.9 build 25 June 2014</string>
-    <!-- Used in file activity_connection_bluetooth.xml:95 -->
-    <string name="button_wifi_iphone_reconnect">Set receiver WiFi AdHoc mode for iPhone</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:71 -->
-    <string name="string_are_you_sure_you_want_to_delete__d_configurations_">Are you sure you want to delete %d configurations?</string>
-    <!-- Used in file MainCommunicationActivity.java:1046 -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Permission denied to obtain list of Bluetooth devices around</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:178 -->
-    <string name="string_this_will_switch_your_javad_gnss_receiver_wifi_into_adhoc_mode_">This will switch your JAVAD GNSS receiver WiFi into AdHoc mode.</string>
-    <!-- Used in file MainCommunicationActivity.java:586 -->
-    <string name="string_ip_address">IP Address</string>
-    <!-- Used in file activity_main_communication.xml:67 -->
-    <string name="wifi_ap_radio">WiFi\n(Mob.AP)</string>
-    <!-- Used in file MainCommunicationActivity.java:184 -->
-    <string name="string_configuration_could_not_be_read">Configuration could not be read</string>
-    <!-- Used in file MainCommunicationActivity.java:947 -->
-    <string name="string_do_you_want_to_exit_the_application_">Do you want to exit the application?</string>
-    <!-- Used in file activity_main_communication.xml:53 -->
+    <!-- Used in file ReceiverModel.java:2252. Original value:RTK Base cannot enable corrections    -->
+    <string name="set_rtkbase_error_enable_corrections">RTK-Base kann Korrekturdaten nicht aktivieren</string>
+    <!-- Used in file activity_main_communication.xml:68. Original value:WiFi\n(Mob.AP)    -->
+    <string name="wifi_ap_radio">WLAN\n(Mob.AP)</string>
+    <!-- Used in file ReceiverModel.java:2254. Original value:RTK Base base id error!    -->
+    <string name="set_rtkbase_error_base_id">Fehler bei der RTK-Base ID!</string>
+    <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
+    <string name="setting_name">Einstellungsname</string>
+    <!-- Used in file main_communication.xml:5. Original value:Refresh    -->
+    <string name="action_refresh">Aktualisieren</string>
+    <!-- Used in file activity_connect_ts_name.xml:52. Original value:Select CS to Connect    -->
+    <string name="text_select_ts_title">Wähle CS zum Verbinden</string>
+    <!-- Used in file ConfigurationManager.java:189. Original value:- select a configuration    -->
+    <string name="string_select_configuration_small">- wähle eine Konfiguration</string>
+    <!-- Used in file ConfigurationManager.java:191. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
+    <string name="string_select_configuration">&#x002d;&#x002d;&#x002d; wähle eine Konfiguration &#x002d;&#x002d;&#x002d; </string>
+    <!-- Used in file activity_main_communication.xml:54. Original value:Bluetooth    -->
     <string name="bluetooth_radio">Bluetooth</string>
-    <!-- Used in file activity_connection_bluetooth.xml:75 -->
-    <string name="button_wifi_ap_reconnect">Reconnect with WiFi using the Android as Mobile Hotspot</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:99 -->
-    <string name="string_reconnect_with_wifi_using_android">Reconnect with WiFi using Android</string>
-    <!-- Used in file MainCommunicationActivity.java:176 -->
-    <string name="string_connnected_to_">Connnected to </string>
-    <!-- Used in file MainCommunicationActivity.java:77 -->
-    <string name="string_blt">Blt</string>
-    <!-- Used in file activity_connection_bluetooth.xml:61 -->
-    <string name="string_wifi_password">WiFi Password</string>
-    <!-- Used in file list_items_button.xml:13 -->
-    <string name="button_connect">Connect</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:179 -->
-    <string name="string_that_allows_iphone_ipad_to_be_connected_to_this_receiver_with_wifi_">That allows iPhone/iPad to be connected to this receiver with WiFi.</string>
-    <!-- Used in file ConfigurationManager.java:168 -->
-    <string name="string_select_configuration_small">- select a configuration</string>
-    <!-- Used in file ConnectionConfigurationRenameActivity.java:70 -->
-    <string name="string_rename_error_">Rename Error!</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:136 -->
-    <string name="string_the_same_ap_will_be_used_">The same AP will be used.</string>
-    <!-- Used in file MainCommunicationActivity.java:702 -->
-    <string name="string_wifi_ap_is_disabled____making_it_enabled">wifi AP is disabled&#8230; making it enabled</string>
-    <!-- Used in file main_communication.xml:7 -->
-    <string name="action_refresh">Refresh</string>
-    <!-- Used in file MainCommunicationActivity.java:855 -->
-    <string name="string_please_wait__">Please Wait!!</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:182 -->
-    <string name="string_do_you_want_ot_continue_">Do you want ot continue?</string>
-    <!-- Used in file MainCommunicationActivity.java:309 -->
-    <string name="string_configuration__s_could_not_be_read">Configuration %s could not be read</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:61 -->
-    <string name="button_cancel">Cancel</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:100 -->
-    <string name="string_this_will_switch_your_android_device_into_mobile_hotspot_mode">This will switch your Android device into Mobile HotSpot mode</string>
-    <!-- Used in file AboutActivity.java:45 -->
-    <string name="string_ver">Version </string>
-    <!-- Used in file ConnectionBluetoothActivity.java:166 -->
-    <string name="string_password_length_must_be_8_chars_">Password length must be 8 chars!</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:74 -->
-    <string name="string_are_you_sure_you_want_to_delete_configuration__">Are you sure you want to delete configuration \</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:46 -->
-    <string name="string_rename">Rename</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:68 -->
-    <string name="string_are_you_sure_you_want_to_delete_this_entry_">Are you sure you want to delete this entry?</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:136 -->
-    <string name="string_ap_">AP </string>
-    <!-- Used in file ConnectionConfigurationRenameActivity.java:63 -->
-    <string name="string_configuration_with_name__s_already_exist_">Configuration with name %s already exist!</string>
-    <!-- Used in file activity_connection_configurations.xml:19 -->
-    <string name="string_new">New</string>
-    <!-- Used in file MainCommunicationActivity.java:78 -->
-    <string name="string_wifi">WiFi</string>
-    <!-- Used in file connection.xml:7 -->
-    <string name="action_settings">Settings</string>
-    <!-- Used in file ConnectionConfigurationsActivity.java:76 -->
-    <string name="string_are_you_sure_you_want_to_delete_configurations__n">Are you sure you want to delete configurations:\n</string>
-    <!-- Used in file activity_main_communication.xml:60 -->
-    <string name="wifi_radio">WiFi</string>
-    <!-- Used in file MainCommunicationActivity.java:792 -->
-    <string name="string_wifi_is_disabled____making_it_enabled">wifi is disabled&#8230; making it enabled</string>
-    <!-- Used in file main_communication.xml:12 -->
-    <string name="action_about">About</string>
-    <!-- Used in file activity_connection_configurations.xml:36 -->
-    <string name="string_delete">Delete</string>
-    <!-- Used in file ConnectionBluetoothActivity.java:181 -->
-    <string name="string_wifi_password_is__s_">WiFi password is %s.</string>
-    <!-- Used in file ConfigurationManager.java:170 -->
-    <string name="string_select_configuration">--- select a configuration --- </string>
-    <!-- Used in file activity_connection_bluetooth.xml:85 -->
-    <string name="button_wifi_network_reconnect">Reconnect with WiFi using external AP</string>
-    <!-- Used in file activity_main_communication.xml:36 -->
-    <string name="text_connection">Connection to receiver:</string>
-    <!-- Used in file MainCommunicationActivity.java:80 -->
-    <string name="string_net">Net</string>
-    <!-- Used in file MainCommunicationActivity.java:590 -->
-    <string name="string_connect">CONNECT</string>
-  
+    <!-- Used in file activity_connection_bluetooth.xml:54. Original value:WiFi Password    -->
+    <string name="string_wifi_password">WLAN Passwort</string>
+    <!-- Used in file activity_connect_ts_name.xml:27. Original value:Connect to TS    -->
+    <string name="connect_to_ts_name">Verbinde mit TS</string>
+    <!-- Used in file ReceiverModel.java:2244. Original value:RTK Base position error!    -->
+    <string name="set_rtkbase_error_position">Fehler bei der RTK-Base Position!</string>
+
 </resources>

@@ -1,157 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file FileListActivity.java:429. Original value:View on Map  -->
-    <string name="string_view_on_map">Показать на карте</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:604. Original value:Parsing server answer  -->
-    <string name="string_parsing_server_answer">Разбирается ответ сервера</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:281. Original value:Close  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file OpusProcessActivity.java:350. Original value:OPUS Project (with ProjectId) can\'t process Rapid-Static!  -->
-    <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">OPUS Project (с ProjectId) не может обрабатывать быструю статику!</string>
-    <!--  Used in file DPOS.java:1290. Original value:Processing&#8230;  -->
-    <string name="string_processing___">Обработка</string>
-    <!--  Used in file DPOSBaseActivity.java:271. Original value:Wrong file selected  -->
-    <string name="string_wrong_file_selected">Неверный файл</string>
-    <!--  Used in file OpusProcessActivity.java:163. Original value:OPUS Process  -->
-    <string name="string_opus_process">Обработка OPUS</string>
-    <!--  Used in file DPOS.java:790. Original value:Project deleted OK  -->
-    <string name="string_project_deleted_ok">Проект успешно закончен на сервере</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:619. Original value:Error  -->
-    <string name="string_error">Ошибка</string>
-    <!--  Used in file DPOSProcessActivity2.java:347. Original value:Get report  -->
-    <string name="string_get_report">Получение отчета</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:210. Original value:Send to DPOS  -->
-    <string name="string_send_to_dpos">Отправить на DPOS</string>
-    <!--  Used in file DPOSProcessHybridRTKResultActivity.java:108. Original value:HybridRTK is over  -->
-    <string name="string_hybridrtk_is_over">HybridRTK выполнен</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:477. Original value:DPOS network is not selected!  -->
-    <string name="string_dpos_network_is_not_selected_">Не выбрана сеть DPOS!</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:499. Original value:%1$s engine is not supported for network %2$s!  -->
-    <string name="string__1_s_engine_is_not_supported_for_network__2_s_">%1$s обработчик не поддерживается сетью %2$s!</string>
-    <!--  Used in file DPOSBaseActivity.java:88. Original value:No base file  -->
-    <string name="string_no_base_file">Без базы</string>
-    <!--  Used in file DPOS.java:1311. Original value:Processed. Reading result&#8230;  -->
-    <string name="string_processed__reading_result___">Обработка. Ожидание результатов…</string>
-    <!--  Used in file DPOS.java:1207. Original value:Sending to server&#8230;  -->
-    <string name="string_sending_to_server___">Отправка на сервер…</string>
-    <!--  Used in file DPOS.java:695. Original value:Project creation error!\n  -->
-    <string name="string_project_creation_error__n">Ошибка создания проекта!</string>
-    <!--  Used in file DPOSProcessActivity2.java:345. Original value:Import file  -->
-    <string name="string_import_file">Загрузить файл</string>
-    <!--  Used in file DPOS.java:790. Original value:Can\'t delete DPOS project  -->
-    <string name="string_can_t_delete_dpos_project">Не удалось закончить проект DPOS</string>
-    <!--  Used in file FileListActivity.java:153. Original value:Hide Log Files  -->
-    <string name="string_hide_log_files">Скрыть из папки Log</string>
-    <!--  Used in file DPOS.java:666. Original value:Can\'t create project.\n  -->
-    <string name="string_can_t_create_project__n">Не удалось создать проект!\n</string>
-    <!--  Used in file AttachDeviceActivity.java:234. Original value:Debug (dpos-dev.javad.com)  -->
-    <string name="string_debug__dpos_dev_javad_com_">Отладочный\n(dpos-dev.javad.com)</string>
-    <!--  Used in file FileListActivity.java:400. Original value:Convert to Rinex  -->
-    <string name="string_convert_to_rinex">В Rinex</string>
-    <!--  Used in file FileListActivity.java:394. Original value:View DPOS  -->
-    <string name="string_view_dpos">Результат DPOS</string>
-    <!--  Used in file FileListActivity.java:1032. Original value:Analyzing&#8230;  -->
-    <string name="string_analyzing___">Анализ…</string>
-    <!--  Used in file DPOS.java:1188. Original value:Process Starting&#8230;  -->
-    <string name="string_process_starting___">Начинается обработка…</string>
-    <!--  Used in file DPOS.java:1181. Original value:Unknown error!  -->
-    <string name="string_unknown_error_">Неизвестная ошибка!</string>
-    <!--  Used in file FileListActivity.java:110. Original value:Show Log Folder  -->
-    <string name="string_show_log_folder">Показывать из папки Log</string>
-    <!--  Used in file DPOSProcessActivity2.java:587. Original value:Empty Antenna height!  -->
-    <string name="string_empty_antenna_height_">Пустая высота антенны!</string>
-    <!--  Used in file OpusProcessActivity.java:163. Original value:DPOS Process  -->
-    <string name="string_dpos_process">Обработка DPOS</string>
-    <!--  Used in file DPOSProcessActivity2.java:343. Original value:Loading file  -->
-    <string name="string_loading_file">Загружается файл</string>
-    <!--  Used in file OpusProcessResultActivity.java:273. Original value:Correct base  -->
-    <string name="string_correct_base">Править базу</string>
-    <!--  Used in file FileListActivity.java:1047. Original value:Looking for antenna info in file %s  -->
-    <string name="string_looking_for_antenna_info_in_file__s">Поиск информации об антенне в файле %s…</string>
-    <!--  Used in file FileListActivity.java:110. Original value:Hide Log Folder  -->
-    <string name="string_hide_log_folder">Скрыть из папки Log</string>
-    <!--  Used in file FileListActivity.java:404. Original value:Process OPUS  -->
-    <string name="string_process_opus">Обработать OPUS</string>
-    <!--  Used in file OpusProcessActivity.java:209. Original value:Send to OPUS  -->
-    <string name="string_send_to_opus">Отправить на OPUS</string>
-    <!--  Used in file DPOS.java:571. Original value:Base File send error  -->
-    <string name="string_base_file_send_error">Ошибка посылка файла базы</string>
-    <!--  Used in file OpusProcessResultActivity.java:273. Original value:and all rover points from it (VBRTK)  -->
-    <string name="string_and_all_rover_points_from_it__vbrtk_">и все точки от него(VBRTK)</string>
-    <!--  Used in file DPOSProcessActivity.java:507. Original value:DPOS server is not selected!  -->
-    <string name="string_dpos_server_is_not_selected_">Сервер DPOS не выбран!</string>
-    <!--  Used in file DPOS.java:673. Original value:Creating project&#8230;  -->
-    <string name="string_creating_project___">Создается проект…</string>
-    <!--  Used in file DPOS.java:998. Original value:Authorization&#8230;  -->
-    <string name="string_authorization___">Авторизация</string>
-    <!--  Used in file DPOS.java:1370. Original value:Finishing&#8230;  -->
-    <string name="string_finishing___">Завершение…</string>
-    <!--  Used in file DPOS.java:1262. Original value:Reading answer&#8230;  -->
-    <string name="string_reading_answer___">Чтение ответа…</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:463. Original value:No file is selected!  -->
-    <string name="string_no_file_is_selected_">Выберите файл!</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:156. Original value:Anonymous  -->
-    <string name="string_anonymous">Анонимно</string>
-    <!--  Used in file DPOSProcessActivity2.java:594. Original value:Wrong Antenna height!  -->
-    <string name="string_wrong_antenna_height_">Неверная высота антенны!</string>
-    <!--  Used in file FileListActivity.java:390. Original value:View OPUS  -->
-    <string name="string_view_opus">Результат OPUS</string>
-    <!--  Used in file DPOSProcessActivity2.java:342. Original value:Navigation files loading  -->
-    <string name="string_navigation_files_loading">Загружаются навигационные файлы</string>
-    <!--  Used in file AttachDeviceActivity.java:234. Original value:Main (app.javad.com)  -->
-    <string name="string_main__app_javad_com_">Основной\n(app.javad.com)</string>
-    <!--  Used in file FileListActivity.java:408. Original value:Process DPOS  -->
-    <string name="string_process_dpos">Обработать DPOS</string>
-    <!--  Used in file DPOS.java:1055. Original value:Sending %s to server&#8230;  -->
-    <string name="string_sending__s_to_server___">Отправляет %s на сервер…</string>
-    <!--  Used in file DPOS.java:557. Original value:File send error  -->
-    <string name="string_file_send_error">Ошибка отправки файла</string>
-    <!--  Used in file FileListActivity.java:442. Original value:Share %1$d selected files (of %2$d)  -->
-    <string name="string_share__1_d_selected_files__of__2_d_">Отправить %1$d выбранных файлов (из %2$d)</string>
-    <!--  Used in file DPOSProcessActivity.java:177. Original value:Automatic  -->
-    <string name="string_automatic">Автоматически</string>
-    <!--  Used in file FileListActivity.java:417. Original value:Delete %1$d filtered files (of %2$d)  -->
-    <string name="string_delete__1_d_filtered_files__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
-    <!--  Used in file DPOSProcessActivity2.java:344. Original value:Loading  -->
-    <string name="string_loading">Загружается</string>
-    <!--  Used in file FileListActivity.java:423. Original value:Delete %1$d selected files (of %2$d)  -->
-    <string name="string_delete__1_d_selected_files__of__2_d_">Удалить %1$d выбранных файлов (из %2$d)</string>
-    <!--  Used in file FileListActivity.java:155. Original value:Show Log Files  -->
-    <string name="string_show_log_files">Показывать из папки Log</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:619. Original value:Finished  -->
-    <string name="string_finished">Окончено</string>
-    <!--  Used in file FileListActivity.java:436. Original value:Share %1$d filtered files (of %2$d)  -->
-    <string name="string_share__1_d_filtered_files__of__2_d_">Отправить %1$d выбранных файлов(из %2$d)</string>
-    <!--  Used in file DPOSProcessActivity2.java:339. Original value:Connection established  -->
-    <string name="string_connection_established">Связь установлена</string>
-    <!--  Used in file DPOSProcessActivity2.java:340. Original value:Sending  -->
-    <string name="string_sending">Отправляется</string>
-    <!--  Used in file DPOS.java:779. Original value:Canceled by user  -->
-    <string name="string_canceled_by_user">Прервано пользователем</string>
-    <!--  Used in file DPOSBaseActivity.java:229. Original value:Press to select  -->
-    <string name="string_press_to_select">Выберите</string>
-    <!--  Used in file FileListActivity.java:204. Original value:No files for Hybrid RTK found!  -->
-    <string name="string_no_files_for_hybrid_rtk_found_">Не найдено файлов ГиридногоRTK!</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:453. Original value:No files!  -->
-    <string name="string_no_files_">Нет файлов!</string>
-    <!--  Used in file FileListActivity.java:412. Original value:Delete file %s  -->
-    <string name="string_delete_file__s">Удалить файл %s</string>
-    <!--  Used in file DPOSProcessActivity2.java:346. Original value:Project has created  -->
-    <string name="string_project_has_created">Проект создан</string>
-    <!--  Used in file DPOSProcessActivity2.java:576. Original value:Antenna ID is not selected!  -->
-    <string name="string_antenna_id_is_not_selected_">Не выбран ID антенны!</string>
-    <!--  Used in file DPOS.java:1037. Original value:Authorization error!!!  -->
-    <string name="string_authorization_error___">Ошибка авторизации!</string>
-    <!--  Used in file DPOSProcessHybridRTKResultActivity.java:114. Original value:HybridRTK saved with errors  -->
-    <string name="string_hybridrtk_saved_with_errors">HybridRTK сохранен с ошибками</string>
-    <!--  Used in file FileListActivity.java:433. Original value:Share %s  -->
-    <string name="string_share__s">Отправить %s</string>
-    <!--  Used in file DPOSProcessHybridRTKActivity.java:961. Original value:Processing file %s  -->
-    <string name="string_processing_file__s">Обрабатывается файл %s</string>
-    <!--  Used in file DPOSProcessActivity2.java:341. Original value:to server  -->
-    <string name="string_to_server">на сервер</string>
-    <!--  Used in file DPOS.java:645. Original value:Sent  -->
-    <string name="string_sent">Послано</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: View on Map-->
+  <string name="string_view_on_map">Показать на карте</string>
+  <!--Original value: Share-->
+  <string name="string_share">Поделится</string>
+  <!--Original value: Parsing server answer-->
+  <string name="string_parsing_server_answer">Разбирается ответ сервера</string>
+  <!--Original value: Close-->
+  <string name="string_close">Закрыть</string>
+  <!--Original value: OPUS Project (with ProjectId) can\'t process Rapid-Static!-->
+  <string name="string_opus_project__with_projectid__can_t_process_rapid_static_">OPUS Project (с ProjectId) не может обрабатывать быструю статику!</string>
+  <!--Original value: Processing…-->
+  <string name="string_processing___">Обработка</string>
+  <!--Original value: Wrong file selected-->
+  <string name="string_wrong_file_selected">Неверный файл</string>
+  <!--Original value: OPUS Process-->
+  <string name="string_opus_process">Обработка OPUS</string>
+  <!--Original value: Submitted…-->
+  <string name="string_submitted___">Подтверждено…</string>
+  <!--Original value: Project deleted OK-->
+  <string name="string_project_deleted_ok">Проект успешно закончен на сервере</string>
+  <!--Original value: Error-->
+  <string name="string_error">Ошибка</string>
+  <!--Original value: Get report-->
+  <string name="string_get_report">Получение отчета</string>
+  <!--Original value: Send to DPOS-->
+  <string name="string_send_to_dpos">Отправить на DPOS</string>
+  <!--Original value: HybridRTK is over-->
+  <string name="string_hybridrtk_is_over">HybridRTK выполнен</string>
+  <!--Original value: DPOS network is not selected!-->
+  <string name="string_dpos_network_is_not_selected_">Не выбрана сеть DPOS!</string>
+  <!--Original value: %1$s engine is not supported for network %2$s!-->
+  <string name="string__1_s_engine_is_not_supported_for_network__2_s_">%1$s обработчик не поддерживается сетью %2$s!</string>
+  <!--Original value: DPOS-->
+  <string name="string_dpos">DPOS</string>
+  <!--Original value: No base file-->
+  <string name="string_no_base_file">Без базы</string>
+  <!--Original value: Project creation error!\n-->
+  <string name="string_project_creation_error__n">Ошибка создания проекта!</string>
+  <!--Original value: Import file-->
+  <string name="string_import_file">Загрузить файл</string>
+  <!--Original value: Can\'t delete DPOS project-->
+  <string name="string_can_t_delete_dpos_project">Не удалось закончить проект DPOS</string>
+  <!--Original value: Session upload started-->
+  <string name="string_session_upload_started">Начата сессия отправки</string>
+  <!--Original value: Hide Log Files-->
+  <string name="string_hide_log_files">Скрыть из папки Log</string>
+  <!--Original value: Can\'t create project.\n-->
+  <string name="string_can_t_create_project__n">Не удалось создать проект!\n</string>
+  <!--Original value: Debug (dpos-dev.javad.com)-->
+  <string name="string_debug__dpos_dev_javad_com_">Отладочный\n(dpos-dev.javad.com)</string>
+  <!--Original value: Convert to Rinex-->
+  <string name="string_convert_to_rinex">В Rinex</string>
+  <!--Original value: View DPOS-->
+  <string name="string_view_dpos">Результат DPOS</string>
+  <!--Original value: OPUS-->
+  <string name="string_opus">OPUS</string>
+  <!--Original value: Create Project started-->
+  <string name="string_create_project_started">Создание проекта</string>
+  <!--Original value: Process-->
+  <string name="string_process">Обработка</string>
+  <!--Original value: Analyzing…-->
+  <string name="string_analyzing___">Анализ…</string>
+  <!--Original value: Process Starting…-->
+  <string name="string_process_starting___">Начинается обработка…</string>
+  <!--Original value: Unknown error!-->
+  <string name="string_unknown_error_">Неизвестная ошибка!</string>
+  <!--Original value: Show Log Folder-->
+  <string name="string_show_log_folder">Показывать из папки Log</string>
+  <!--Original value: Empty Antenna height!-->
+  <string name="string_empty_antenna_height_">Пустая высота антенны!</string>
+  <!--Original value: DPOS Process-->
+  <string name="string_dpos_process">Обработка DPOS</string>
+  <!--Original value: Loading file-->
+  <string name="string_loading_file">Загружается файл</string>
+  <!--Original value: Map-->
+  <string name="string_map">Карта</string>
+  <!--Original value: Correct base-->
+  <string name="string_correct_base">Править базу</string>
+  <!--Original value: Looking for antenna info in file %s-->
+  <string name="string_looking_for_antenna_info_in_file__s">Поиск информации об антенне в файле %s…</string>
+  <!--Original value: Hide Log Folder-->
+  <string name="string_hide_log_folder">Скрыть из папки Log</string>
+  <!--Original value: Process OPUS-->
+  <string name="string_process_opus">Обработать OPUS</string>
+  <!--Original value: Send to OPUS-->
+  <string name="string_send_to_opus">Отправить на OPUS</string>
+  <!--Original value: Base File send error-->
+  <string name="string_base_file_send_error">Ошибка посылка файла базы</string>
+  <!--Original value: and all rover points from it (VBRTK)-->
+  <string name="string_and_all_rover_points_from_it__vbrtk_">и все точки от него(VBRTK)</string>
+  <!--Original value: DPOS server is not selected!-->
+  <string name="string_dpos_server_is_not_selected_">Сервер DPOS не выбран!</string>
+  <!--Original value: Creating project…-->
+  <string name="string_creating_project___">Создается проект…</string>
+  <!--Original value: Sending file -->
+  <string name="string_sending_file_">Данные отправляются</string>
+  <!--Original value: Authorization…-->
+  <string name="string_authorization___">Авторизация</string>
+  <!--Original value: Finishing…-->
+  <string name="string_finishing___">Завершение…</string>
+  <!--Original value: No file is selected!-->
+  <string name="string_no_file_is_selected_">Выберите файл!</string>
+  <!--Original value: Anonymous-->
+  <string name="string_anonymous">Анонимно</string>
+  <!--Original value: Wrong Antenna height!-->
+  <string name="string_wrong_antenna_height_">Неверная высота антенны!</string>
+  <!--Original value: View OPUS-->
+  <string name="string_view_opus">Результат OPUS</string>
+  <!--Original value: Navigation files loading-->
+  <string name="string_navigation_files_loading">Загружаются навигационные файлы</string>
+  <!--Original value: Main (app.javad.com)-->
+  <string name="string_main__app_javad_com_">Основной\n(app.javad.com)</string>
+  <!--Original value: Process DPOS-->
+  <string name="string_process_dpos">Обработать DPOS</string>
+  <!--Original value: Sending %s to server…-->
+  <string name="string_sending__s_to_server___">Отправляет %s на сервер…</string>
+  <!--Original value: File send error-->
+  <string name="string_file_send_error">Ошибка отправки файла</string>
+  <!--Original value: Share %1$d selected files (of %2$d)-->
+  <string name="string_share__1_d_selected_files__of__2_d_">Отправить %1$d выбранных файлов (из %2$d)</string>
+  <!--Original value: Automatic-->
+  <string name="string_automatic">Автоматически</string>
+  <!--Original value: Delete %1$d filtered files (of %2$d)-->
+  <string name="string_delete__1_d_filtered_files__of__2_d_">Удалить %1$d отобранных точек (из %2$d)</string>
+  <!--Original value: Loading-->
+  <string name="string_loading">Загружается</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Удалить</string>
+  <!--Original value: Delete %1$d selected files (of %2$d)-->
+  <string name="string_delete__1_d_selected_files__of__2_d_">Удалить %1$d выбранных файлов (из %2$d)</string>
+  <!--Original value: Show Log Files-->
+  <string name="string_show_log_files">Показывать из папки Log</string>
+  <!--Original value: Finished-->
+  <string name="string_finished">Окончено</string>
+  <!--Original value: Share %1$d filtered files (of %2$d)-->
+  <string name="string_share__1_d_filtered_files__of__2_d_">Отправить %1$d выбранных файлов(из %2$d)</string>
+  <!--Original value: Connection established-->
+  <string name="string_connection_established">Связь установлена</string>
+  <!--Original value: Sending-->
+  <string name="string_sending">Отправляется</string>
+  <!--Original value: Canceled by user-->
+  <string name="string_canceled_by_user">Прервано пользователем</string>
+  <!--Original value: Press to select-->
+  <string name="string_press_to_select">Выберите</string>
+  <!--Original value: No files for Hybrid RTK found!-->
+  <string name="string_no_files_for_hybrid_rtk_found_">Не найдено файлов ГиридногоRTK!</string>
+  <!--Original value: No files!-->
+  <string name="string_no_files_">Нет файлов!</string>
+  <!--Original value: Delete file %s-->
+  <string name="string_delete_file__s">Удалить файл %s</string>
+  <!--Original value: Project has created-->
+  <string name="string_project_has_created">Проект создан</string>
+  <!--Original value: Antenna ID is not selected!-->
+  <string name="string_antenna_id_is_not_selected_">Не выбран ID антенны!</string>
+  <!--Original value: Authorization error!!!-->
+  <string name="string_authorization_error___">Ошибка авторизации!</string>
+  <!--Original value: HybridRTK saved with errors-->
+  <string name="string_hybridrtk_saved_with_errors">HybridRTK сохранен с ошибками</string>
+  <!--Original value: Sending data-->
+  <string name="string_sending_data">Отправка данных</string>
+  <!--Original value: Share %s-->
+  <string name="string_share__s">Отправить %s</string>
+  <!--Original value: Process JCORS DPOS-->
+  <string name="string_process_jcors_dpos">JCORS DPOS</string>
+  <!--Original value: JCORS DPOS-->
+  <string name="string_jcors_dpos">JCORS DPOS</string>
+  <!--Original value: Processing file %s-->
+  <string name="string_processing_file__s">Обрабатывается файл %s</string>
+  <!--Original value: to server-->
+  <string name="string_to_server">на сервер</string>
+  <!--Original value: Sent-->
+  <string name="string_sent">Послано</string>
 </resources>

@@ -1,131 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_threads.xml:80 -->
-    <string name="check_ringtone_manager_thread">Ringtone Manager thread</string>
-    <!-- Used in file background_services.xml:6 -->
-    <string name="action_threads">Threads</string>
-    <!-- Used in file activity_threads.xml:74 -->
-    <string name="check_opus_mail_read_thread">OPUS Mail Read thread</string>
-    <!-- Used in file activity_background_services_justinlink.xml:21 -->
-    <string name="justinlink_server_on">On</string>
-    <!-- Used in file activity_background_services_mockprovider.xml:13 -->
-    <string name="text_mock_location_provider">Mock Location Provider</string>
-    <!-- Used in file activity_background_services_mockprovider.xml:21 -->
-    <string name="mock_location_provider_on">On</string>
-    <!-- Used in file activity_threads.xml:62 -->
-    <string name="check_jcommunity_thread">JCommunity thread</string>
-    <!-- Used in file activity_threads.xml:56 -->
-    <string name="check_smarttip_thread">SmartTip threads</string>
-    <!-- Used in file activity_threads.xml:26 -->
-    <string name="check_status_bar_update_threads">Status Bar Update thread</string>
-    <!-- Used in file activity_background_services_opus.xml:30 -->
-    <string name="opusmail_server_log">Log</string>
-    <!-- Used in file activity_background_services_opus.xml:15 -->
-    <string name="text_opusmail_server">OPUS Mail Reader</string>
-    <!-- Used in file activity_background_services_opus.xml:23 -->
-    <string name="opusmail_server_on">On</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:77 -->
-    <string name="text_jcommunity">JCommunity</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:28 -->
-    <string name="nethub_server_on">NetHub Server on</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:55 -->
-    <string name="text_wsdd_server">WSDD Server</string>
-    <!-- Used in file activity_threads.xml:68 -->
-    <string name="check_justinlink_threads">JustinLink exchange threads</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:13 -->
+    <!-- Used in file activity_background_services_2.xml:82. Original value:OPUS Mail Reader    -->
+    <string name="text_opusmail_server">OPUS Mail-Leser</string>
+    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
+    <string name="check_bosch_g100_thread">Bosch GLM100C Lese-Thread</string>
+    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
+    <string name="check_status_bar_update_threads">Statusleisten-Update-Thread</string>
+    <!-- Used in file activity_threads.xml:68. Original value:JustinLink exchange threads    -->
+    <string name="check_justinlink_threads">JustinLink Datenaustausch-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:261. Original value:Replace    -->
+    <string name="text_mock_location_provider_replace">Ersetzen</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:13. Original value:Ntrip/RCV/Nethub    -->
     <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
-    <!-- Used in file AndroidManifest.xml:13 -->
-    <string name="app_name">justinlink_exchange</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:21 -->
-    <string name="ntrip_client_on">Ntrip/RCV client on</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:12 -->
-    <string name="text_j_community">J-Community</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:299 -->
-    <string name="string_wsdd_server_works_on__s">WSDD Server works on %s</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:20 -->
-    <string name="j_community_on">On</string>
-    <!-- Used in file activity_threads.xml:32 -->
-    <string name="check_ntrip_client_threads">Ntrip/RCV Client thread</string>
-    <!-- Used in file activity_threads.xml:38 -->
-    <string name="check_nethub_client_threads">NetHub Client thread</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:301 -->
-    <string name="string_justinlink_exchange_server_works_on__s">JustinLink Exchange Server works on %s</string>
-    <!-- Used in file activity_background_services_mockprovider.xml:28 -->
-    <string name="mock_location_provider_log">Log</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:299 -->
-    <string name="string_wsdd_server_is_stopped">WSDD Server is stopped</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:301 -->
-    <string name="string_justinlink_exchange_server_is_stopped">JustinLink Exchange Server is stopped</string>
-    <!-- Used in file activity_background_services_justinlink.xml:28 -->
-    <string name="justinlink_server_log">Log</string>
-    <!-- Used in file activity_threads.xml:20 -->
-    <string name="check_survey_model_threads">Survey Model thread</string>
-    <!-- Used in file activity_threads.xml:44 -->
-    <string name="check_rcv_server_threads">RCV Server thread</string>
-    <!-- Used in file activity_background_services_justinlink.xml:13 -->
-    <string name="text_justinlink_server">JustinLink Exchange Server</string>
-    <!-- Used in file activity_threads.xml:50 -->
-    <string name="check_bosch_g100_thread">Bosch GLM100C reading thread</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:27 -->
-    <string name="j_community_log">Log</string>
-    <!-- Used in file activity_threads.xml:14 -->
-    <string name="check_receiver_threads">GNSS Receiver threads</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:35 -->
-    <string name="ntripnethub_log">Ntrip/RCV/Nethub Log</string>
-    <!-- UNUSED STRING -->
-    <string name="string_receiveing___">Receiveing&#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_do_you_want_to_receive_job__s">Do you want to receive job %s</string>
-    <!-- UNUSED STRING -->
-    <string name="string_the_receiver_options_are_going_to_be_expired_in__d_days_">The receiver options are going to be expired in %d days!</string>
-    <!-- UNUSED STRING -->
-    <string name="wsdd_server_log">Log</string>
-    <!-- UNUSED STRING -->
-    <string name="string_oaf_successfully_updated">OAF Successfully Updated</string>
-    <!-- UNUSED STRING -->
-    <string name="string_please_wait___">Please wait&#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_loaded___">Loaded&#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_firmware_update_error">Firmware Update Error</string>
-    <!-- UNUSED STRING -->
-    <string name="string_parsing_data___">Parsing data&#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_oaf_update">OAF Update</string>
-    <!-- UNUSED STRING -->
-    <string name="string_reading_file_list_for_job__s____">Reading file list for job %s &#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_receive">Receive</string>
-    <!-- UNUSED STRING -->
-    <string name="string_firmware_update">Firmware Update</string>
-    <!-- UNUSED STRING -->
-    <string name="string_reading_data___">Reading data&#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_close">Close</string>
-    <!-- UNUSED STRING -->
-    <string name="string_received_job__s_with_errors">Received job %s with errors</string>
-    <!-- UNUSED STRING -->
-    <string name="string_firmware_successfully_updated">Firmware Successfully Updated</string>
-    <!-- UNUSED STRING -->
-    <string name="string_download_and_update">Download and update</string>
-    <!-- UNUSED STRING -->
-    <string name="string_oaf_update_error">OAF Update Error</string>
-    <!-- UNUSED STRING -->
-    <string name="string_successfully_received_job__s">Successfully received job %s</string>
-    <!-- UNUSED STRING -->
-    <string name="string_the_receiver_options_have_expired_">The receiver options have expired!</string>
-    <!-- UNUSED STRING -->
-    <string name="wsdd_server_on">On</string>
-    <!-- UNUSED STRING -->
-    <string name="string_receiving_file__s____">Receiving file %s &#8230;</string>
-    <!-- UNUSED STRING -->
-    <string name="string_receive_job">Receive Job</string>
-    <!-- UNUSED STRING -->
-    <string name="title_threads">Threads</string>
-    <!-- UNUSED STRING -->
-    <string name="string_cancel">Cancel</string>
-    <!-- UNUSED STRING -->
-    <string name="string_reading_binary___">Reading binary&#8230;</string>
-    
-    
+    <!-- Used in file activity_background_services_justinlink.xml:28. Original value:Log    -->
+    <string name="justinlink_server_log">Protokollieren</string>
+    <!-- Used in file activity_background_services_justinlink.xml:21. Original value:On    -->
+    <string name="justinlink_server_on">An</string>
+    <!-- Used in file activity_threads.xml:14. Original value:GNSS Receiver threads    -->
+    <string name="check_receiver_threads">GNSS-Empfänger-Threads</string>
+    <!-- Used in file activity_background_services_2.xml:244. Original value:Replace Receiver Position with followng coordinates:    -->
+    <string name="mock_location_provider_receiver">Ersetzen Sie die Empfängerposition durch die folgenden Koordinaten:</string>
+    <!-- Used in file activity_threads.xml:20. Original value:Survey Model thread    -->
+    <string name="check_survey_model_threads">Vermessungsmodell-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:249. Original value:Select Point    -->
+    <string name="text_mock_location_provider_select_point">Punkt wählen</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:12. Original value:J-Community    -->
+    <string name="text_j_community">J-Gemeinschaft</string>
+    <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
+    <string name="check_ringtone_manager_thread">Rufton-Manager-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:90. Original value:On    -->
+    <string name="opusmail_server_on">An</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:27. Original value:Log    -->
+    <string name="j_community_log">Protokoll</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
+    <string name="nethub_server_on">NetHub Server ein</string>
+    <!-- Used in file activity_background_services_2.xml:238. Original value:\nReplace Receiver Coordinate    -->
+    <string name="text_mock_location_provider_receiver">\nEmpfangskoordinate ersetzen</string>
+    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
+    <string name="check_jcommunity_thread">JCommunity-Thread</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:21. Original value:Ntrip/RCV client on    -->
+    <string name="ntrip_client_on">Ntrip/RCV-Client ein</string>
+    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
+    <string name="check_rcv_server_threads">RCV-Server-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:204. Original value:Mock Location Provider    -->
+    <string name="text_mock_location_provider">Mock-Standort-Anbieter</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:81. Original value:WSDD Server    -->
+    <string name="text_wsdd_server">WSDD-Server</string>
+    <!-- Used in file background_services.xml:6. Original value:Threads    -->
+    <string name="action_threads">Threads</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:20. Original value:On    -->
+    <string name="j_community_on">An</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:109. Original value:J-Community    -->
+    <string name="text_jcommunity">J-Gemeinschaft</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
+    <string name="ntripnethub_log">Ntrip/RCV/Nethub Protokoll</string>
+    <!-- Used in file activity_threads.xml:74. Original value:OPUS Mail Read thread    -->
+    <string name="check_opus_mail_read_thread">OPUS Mail Lese-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:212. Original value:On    -->
+    <string name="mock_location_provider_on">An</string>
+    <!-- Used in file activity_background_services_2.xml:219. Original value:Log    -->
+    <string name="mock_location_provider_log">Loggen</string>
+    <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
+    <string name="check_ntrip_client_threads">Ntrip/RCV-Client-Thread</string>
+    <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
+    <string name="check_nethub_client_threads">NetHub-Client-Thread</string>
+    <!-- Used in file activity_threads.xml:56. Original value:SmartTip threads    -->
+    <string name="check_smarttip_thread">SmartTip-Thread</string>
+    <!-- Used in file activity_background_services_2.xml:97. Original value:Log    -->
+    <string name="opusmail_server_log">Protokoll</string>
+    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
+    <string name="text_justinlink_server">JustinLink Datenaustauschserver</string>
+
 </resources>

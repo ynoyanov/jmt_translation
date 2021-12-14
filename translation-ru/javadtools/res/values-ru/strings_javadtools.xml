@@ -19,18 +19,24 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: JAVAD JCORS Services-->
+  <string name="title_activity_jcors_select_type">Служба JAVAD JCORS</string>
   <!--Original value: CS Favorites-->
   <string name="title_activity_cses">Выбранные СК</string>
   <!--Original value: Survey Style-->
   <string name="title_activity_survey_style">Стиль съемки</string>
   <!--Original value: Select Data Type-->
   <string name="title_select_type">Выберите тип данных</string>
+  <!--Original value: TS Parameters-->
+  <string name="title_activity_ts_parameters">Параметры тах.</string>
   <!--Original value: Connect J-Tip-->
   <string name="title_activity_find_smarttip">Подключить J-Tip</string>
   <!--Original value: Direct-->
   <string name="title_activity_cogo_direct">Прямая</string>
   <!--Original value: Connection-->
   <string name="title_activity_connection">Подключение</string>
+  <!--Original value: Report-->
+  <string name="title_activity_report">Отчет</string>
   <!--Original value: Splash-->
   <string name="title_activity_splash">Javad Mobile Tools</string>
   <!--Original value: OneDrive-->
@@ -39,22 +45,32 @@
   <string name="title_activity_point">Точка</string>
   <!--Original value: Survey Points-->
   <string name="title_activity_survey_points">Снятые точки</string>
-  <!--Original value: JMobile-->
-  <string name="string_intro">JMobile</string>
+  <!--Original value: JMT-->
+  <string name="string_intro">JMT</string>
   <!--Original value: Connect to TS-->
   <string name="title_activity_connect_ts">Подкл.к тах.</string>
   <!--Original value: Map-->
   <string name="title_activity_map">Карта</string>
   <!--Original value: Process Result-->
   <string name="title_activity_opus_result_process">Результаты обработки</string>
+  <!--Original value: IMU Setup-->
+  <string name="title_imu_settings">Настройки IMU</string>
   <!--Original value: Setup LAN-->
   <string name="title_activity_configure_lan">Настройки сети</string>
+  <!--Original value: JAVAD JCORS Account-->
+  <string name="title_activity_jcors_login">Учетная запись JAVAD JCORS</string>
   <!--Original value: Last Names-->
   <string name="title_activity_last_point_names">Последние имена</string>
   <!--Original value: Stakeout-->
   <string name="title_activity_stakeout_cutfill">Вынос</string>
   <!--Original value: Survey-->
   <string name="title_activity_start_survey">Съемка</string>
+  <!--Original value: Dealer Map-->
+  <string name="title_activity_dealer_map">Карта дилеров</string>
+  <!--Original value: Export MapInfo-->
+  <string name="title_activity_export_mapinfo">Экспорт MapInfo</string>
+  <!--Original value: Data Exchange-->
+  <string name="title_activity_exchange">Обмен данными</string>
   <!--Original value: Descriptions-->
   <string name="title_activity_descriptions">Описания</string>
   <!--Original value: RTK Bases-->
@@ -80,7 +96,7 @@
   <!--Original value: Actions-->
   <string name="title_activity_resets">Действия</string>
   <!--Original value: Teigha-->
-  <string name="app_name_teigha">Teigha ©</string>
+  <string name="app_name_teigha">Teigha</string>
   <!--Original value: File List-->
   <string name="title_activity_file_list">Список файлов</string>
   <!--Original value: Select File-->
@@ -113,6 +129,8 @@
   <string name="title_activity_receive">Получить проект с устройства</string>
   <!--Original value: Current Catalog-->
   <string name="title_activity_catalog_info">Текущий каталог</string>
+  <!--Original value: QGrid Deltas-->
+  <string name="title_activity_quick_grid_deltas">Сдвиги СК</string>
   <!--Original value: Debug-->
   <string name="title_activity_debug">Отладка</string>
   <!--Original value: Select Job-->
@@ -149,6 +167,8 @@
   <string name="title_activity_configure_generic_radio">Нестандартный модем</string>
   <!--Original value: J-CORS-->
   <string name="title_activity_jcors">J-CORS</string>
+  <!--Original value: Export AutoCAD-->
+  <string name="title_activity_export_dxf">Экспорт AutoCAD</string>
   <!--Original value: Load Firmware-->
   <string name="title_load_firmware_modem">Загрузка встроенного ПО</string>
   <!--Original value: Catalog Point-->
@@ -173,6 +193,8 @@
   <string name="title_activity_stakeout_line_target">Вынос линии</string>
   <!--Original value: Configurations-->
   <string name="title_activity_connection_configurations_title">Конфигурация</string>
+  <!--Original value: NMEA-->
+  <string name="title_activity_nmea">NMEA</string>
   <!--Original value: Surveying-->
   <string name="title_activity_surveying_sng">Съемка</string>
   <!--Original value: TS Point-->
@@ -183,6 +205,8 @@
   <string name="title_activity_jcommunity_settings">J-Сообщество</string>
   <!--Original value: Surveying-->
   <string name="title_activity_surveying_rtk">Съемка</string>
+  <!--Original value: Spectrum-->
+  <string name="title_activity_spectrum">Спектры</string>
   <!--Original value: Survey Settings-->
   <string name="title_activity_survey_settings">Настройки съемки</string>
   <!--Original value: Select date-->
@@ -213,8 +237,14 @@
   <string name="title_activity_smarttip">J-Tip</string>
   <!--Original value: Identical Points-->
   <string name="title_activity_localization_ip">Локализация</string>
+  <!--Original value: Polygon-->
+  <string name="title_activity_complex_polygon_object">Полигон</string>
+  <!--Original value: RTPK-->
+  <string name="title_activity_point_survey_rtpk">RTPK</string>
   <!--Original value: Download Block Size-->
   <string name="title_activity_block_size">Размер блока загрузки</string>
+  <!--Original value: New File-->
+  <string name="new_file">Новый файл</string>
   <!--Original value: Power-->
   <string name="title_activity_power">Питание</string>
   <!--Original value: Confirm-->
@@ -229,6 +259,10 @@
   <string name="title_activity_cogo_home">КоГо</string>
   <!--Original value: GoogleDrive-->
   <string name="title_google_drive">GoogleDrive</string>
+  <!--Original value: Circle-->
+  <string name="title_activity_complex_circle_object">Круг</string>
+  <!--Original value: Text-->
+  <string name="title_activity_complex_text_object">Текст</string>
   <!--Original value: Point-->
   <string name="title_activity_design_point">Точка</string>
   <!--Original value: Antenna-->
@@ -237,6 +271,8 @@
   <string name="title_activity_configure_uhf">Настроить UHF</string>
   <!--Original value: Catalogs-->
   <string name="title_activity_catalogs">Каталоги</string>
+  <!--Original value: Geoids-->
+  <string name="title_activity_geoids">Геоиды</string>
   <!--Original value: Info-->
   <string name="title_receiver_info">Информация</string>
   <!--Original value: Points-->
@@ -251,6 +287,10 @@
   <string name="title_activity_codes">Коды</string>
   <!--Original value: Setup WiFi-->
   <string name="title_activity_configure_wifi">Настроить WiFi</string>
+  <!--Original value: Data Location-->
+  <string name="title_activity_data_location">Месторасположение данных</string>
+  <!--Original value: Cut Sheet-->
+  <string name="title_activity_stakeout_report">Отчет о выносе</string>
   <!--Original value: Select Format-->
   <string name="title_select_format">Выберите формат</string>
   <!--Original value: Orginize View-->
@@ -259,8 +299,12 @@
   <string name="title_activity_authorize_dropbox">Авторизовать DropBox</string>
   <!--Original value: Code-->
   <string name="title_activity_code">Код</string>
+  <!--Original value: Processor Load-->
+  <string name="title_activity_processor_load">Загрузка процессора приемника</string>
   <!--Original value: Explorer-->
   <string name="title_explorer">Проводник</string>
+  <!--Original value: Quick Grid-->
+  <string name="title_activity_quick_grid">Быстрая СК</string>
   <!--Original value: Stakeout-->
   <string name="title_activity_stakeout">Вынос</string>
   <!--Original value: Surface Target-->
@@ -271,6 +315,8 @@
   <string name="title_activity_contouring_heights">Изолинии</string>
   <!--Original value: Quattro-->
   <string name="title_activity_quattro">Quattro</string>
+  <!--Original value: Arc-->
+  <string name="title_activity_complex_arc_object">Дуга</string>
   <!--Original value: Survey Info-->
   <string name="title_activity_point_survey_info">Съемочная информация</string>
   <!--Original value: Points from base-->
@@ -283,6 +329,8 @@
   <string name="title_activity_configure_3g">Настройки 3G/GPRS</string>
   <!--Original value: Compare Point-->
   <string name="title_activity_compare_points">Сравнить точки</string>
+  <!--Original value: Base Coordinate-->
+  <string name="title_activity_quick_grid_base_coordinate">Координаты базы</string>
   <!--Original value: Repeater-->
   <string name="title_activity_repeater">Повторитель</string>
   <!--Original value: Services-->
@@ -299,10 +347,12 @@
   <string name="title_activity_calibration">Калибровка</string>
   <!--Original value: Lat/Lon-->
   <string name="latlon_ime">Шир/Долг.</string>
+  <!--Original value: QGrid Point-->
+  <string name="title_activity_quick_grid_identical_point">Точка СК</string>
   <!--Original value: Direct Call-->
   <string name="title_activity_configure_csd">Прямой звонок</string>
   <!--Original value: Exchange Progress-->
   <string name="title_ts_echange_progress">Обмен</string>
-  <!--Original value: JCors Server Style-->
-  <string name="title_activity_configure_jcors">JCors</string>
+  <!--Original value: -->
+  <string name="">JCORS</string>
 </resources>

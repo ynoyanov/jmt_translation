@@ -1,64 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file jobs.xml:56    -->
+    <!-- Used in file activity_data_location.xml:114    -->
+    <string name="check_copy_from_folder">Copy/Move data from folder</string>
+    <!-- Used in file jobs.xml:70    -->
     <string name="action_arhieve_folder">Archive Folder</string>
     <!-- Used in file activity_job.xml:50    -->
     <string name="job_surveyor">Surveyor</string>
     <!-- Used in file activity_code_values.xml:21    -->
     <string name="sort_description">Sort by</string>
-    <!-- Used in file TSPointsActivity.java:72    -->
+    <!-- Used in file CodesActivity.java:132    -->
     <string name="string_comment_sort">Comment</string>
-    <!-- Used in file home_map_points.xml:23    -->
+    <!-- Used in file home_map_points.xml:31    -->
     <string name="action_show_survey_on">Survey Points</string>
+    <!-- Used in file home_map_points.xml:61    -->
+    <string name="action_show_stakeout_report_on">Cut Sheet</string>
+    <!-- Used in file DataLocationActivity.java:847    -->
+    <string name="move_from_folder_is_equal_move_to_folder">Move from folder is equal to new(to) folder!</string>
+    <!-- Used in file TSPointSurveyInfoActivity.java:101    -->
+    <string name="string_lift_tilt_survey_info">Lift&amp;Tilt Survey</string>
     <!-- Used in file rtkbases.xml:23    -->
     <string name="action_sort">Sort</string>
     <!-- Used in file activity_archive_folder.xml:155    -->
     <string name="archive_onedrive">Archive to OneDrive</string>
+    <!-- Used in file ComplexObjectListAdapter.java:155    -->
+    <string name="complex_object_text">Text</string>
+    <!-- Used in file DataLocationActivity.java:807    -->
+    <string name="current_javad_folder_is_absent">Javad storage folder is not set</string>
+    <!-- Used in file activity_point.xml:227    -->
+    <string name="coordinate_qgrid">QGrid</string>
+    <!-- Used in file DataLocationActivity.java:434    -->
+    <string name="external_storage_access_error">External Storage access error!</string>
+    <!-- Used in file DataLocationActivity.java:271    -->
+    <string name="synch_synch_button">Synch.</string>
     <!-- Used in file activity_point_antenna.xml:74    -->
     <string name="height_vertical">Vertical</string>
     <!-- Used in file activity_design_point.xml:30    -->
     <string name="point_name">Name</string>
     <!-- Used in file design_points.xml:42    -->
     <string name="string_menu_import">Import</string>
+    <!-- Used in file DataLocationActivity.java:246    -->
+    <string name="string_copy_from_warning_text">Do you want to copy data from external folder to internal storage?</string>
     <!-- Used in file activity_rtkbase.xml:234    -->
     <string name="string_filename_xml">Jps file</string>
-    <!-- Used in file codes.xml:43    -->
+    <!-- Used in file activity_data_location.xml:174    -->
+    <string name="button_sync_both_directions">&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;</string>
+    <!-- Used in file ComplexObjectListAdapter.java:162    -->
+    <string name="complex_object_radius">Radius</string>
+    <!-- Used in file PointsFragment.java:1154    -->
+    <string name="new_circle">New Circle</string>
+    <!-- Used in file codes.xml:49    -->
     <string name="action_map_export">Export</string>
-    <!-- Used in file JobActivity.java:95    -->
+    <!-- Used in file JobActivity.java:102    -->
     <string name="string_new_job">New Job</string>
-    <!-- Used in file TSPointsActivity.java:71    -->
+    <!-- Used in file PointsFragment.java:384    -->
     <string name="string_code_sort">Code</string>
+    <!-- Used in file JobActivity.java:285    -->
+    <string name="job_cs_changed">Job CS Changed </string>
     <!-- Used in file design_points.xml:61    -->
     <string name="action_delete_all">Delete All Design</string>
     <!-- Used in file activity_job.xml:175    -->
     <string name="write_to_text_files">Write to text files</string>
-    <!-- Used in file RTKBasesActivity.java:102    -->
+    <!-- Used in file RTKBasesActivity.java:103    -->
     <string name="string_filename_sort">Filename</string>
     <!-- Used in file activity_job.xml:133    -->
     <string name="localization">Localization</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:124    -->
+    <string name="string_rtpk_survey">RTPK</string>
     <!-- Used in file points.xml:57    -->
     <string name="action_map_zoomall">Zoom All</string>
     <!-- Used in file activity_code.xml:121    -->
     <string name="code_fields"> ___ Fields ___</string>
-    <!-- Used in file TSPointsActivity.java:70    -->
+    <!-- Used in file CodesActivity.java:133    -->
     <string name="string_time_sort">Time</string>
     <!-- Used in file rtkbases.xml:15    -->
     <string name="action_search">Search</string>
+    <!-- Used in file activity_select_storage_location.xml:13    -->
+    <string name="android_11_issue_description">Android 11 requires store all data in internal application folder. JMT can store data in different locations.</string>
+    <!-- Used in file list_complex_objects_list_details.xml:59    -->
+    <string name="complex_object_perimeter">Perimeter</string>
     <!-- Used in file activity_point_antenna.xml:64    -->
     <string name="height_type">Height Type</string>
     <!-- Used in file activity_point.xml:203    -->
     <string name="coordinate_wgs84">Wgs84</string>
-    <!-- Used in file JobActivity.java:97    -->
+    <!-- Used in file PointsFragment.java:1155    -->
+    <string name="new_arc">New Arc</string>
+    <!-- Used in file JobActivity.java:104    -->
     <string name="string_duplicate_job_xml">Duplicate Job</string>
+    <!-- Used in file DataLocationActivity.java:758    -->
+    <string name="storage_permissions_are_not_granted">Permisisons for Storage folder are not granted!</string>
     <!-- Used in file activity_ts_point.xml:200    -->
     <string name="survey_info">SurveyInfo:\n\n\n</string>
+    <!-- Used in file activity_data_location.xml:42    -->
+    <string name="data_location_title">Data Location</string>
     <!-- Used in file activity_archive_folder.xml:118    -->
     <string name="archive_googledrive">Archive GoogleDrive</string>
+    <!-- Used in file activity_complex_object_text.xml:86    -->
+    <string name="string_text">Text</string>
     <!-- Used in file activity_rover_points_from_base.xml:16    -->
     <string name="search_hint">Search</string>
-    <!-- Used in file activity_code.xml:202    -->
+    <!-- Used in file home_map_points.xml:67    -->
+    <string name="action_view">View</string>
+    <!-- Used in file activity_data_location.xml:66    -->
+    <string name="user_storage_string">User-defined Location</string>
+    <!-- Used in file activity_code.xml:204    -->
     <string name="code_def_value">Def.Value</string>
+    <!-- Used in file DataLocationActivity.java:222    -->
+    <string name="string_copy_to_warning_text">Do you want to copy data from internal storage to external folder?</string>
+    <!-- Used in file code.xml:15    -->
+    <string name="action_apply">Apply</string>
+    <!-- Used in file JobsActivity.java:1055    -->
+    <string name="string_address_sort">Address</string>
     <!-- Used in file jobs.xml:8    -->
     <string name="action_add">Add</string>
     <!-- Used in file activity_point_antenna.xml:44    -->
@@ -69,45 +121,71 @@
     <string name="storage_mark_height">Mark Height</string>
     <!-- Used in file activity_archive_folder.xml:38    -->
     <string name="button_select_folder">Select folder</string>
-    <!-- Used in file home_map_points.xml:29    -->
+    <!-- Used in file survey_point.xml:8    -->
+    <string name="action_delete_point">Delete Point</string>
+    <!-- Used in file home_map_points.xml:37    -->
     <string name="action_show_design_on">Design Points</string>
     <!-- Used in file rtkbases.xml:8    -->
     <string name="action_map">Map</string>
     <!-- Used in file activity_job.xml:109    -->
     <string name="coordinate_system">Coordinate System</string>
+    <!-- Used in file CodesActivity.java:134    -->
+    <string name="string_count_sort">Count</string>
     <!-- Used in file rtkbases.xml:47    -->
     <string name="action_export">Export</string>
-    <!-- Used in file activity_design_point.xml:70    -->
+    <!-- Used in file activity_design_point.xml:71    -->
     <string name="code">Code</string>
+    <!-- Used in file ExportAndReport.java:240    -->
+    <string name="export_format_is_not_selected">Export Format is not selected!</string>
     <!-- Used in file activity_ts_point_antenna.xml:37    -->
     <string name="storage_mark_id">Mark</string>
-    <!-- Used in file home_map_points.xml:35    -->
+    <!-- Used in file home_map_points.xml:43    -->
     <string name="action_show_ts_on">TS Points</string>
-    <!-- Used in file activity_code.xml:215    -->
+    <!-- Used in file activity_code.xml:217    -->
     <string name="code_max_length">Max.Length</string>
-    <!-- Used in file home_map_points.xml:41    -->
+    <!-- Used in file home_map_points.xml:49    -->
     <string name="action_show_base_on">RTK Bases</string>
+    <!-- Used in file JobActivity.java:287    -->
+    <string name="recompute_job_coordinates">Recompute Design/TS coordinates</string>
     <!-- Used in file activity_archive_folder.xml:124    -->
     <string name="button_authorize_googledrive">Authorize GoogleDrive</string>
+    <!-- Used in file activity_data_location.xml:59    -->
+    <string name="external_storage_string">External Storage</string>
+    <!-- Used in file activity_complex_object_polygon.xml:78    -->
+    <string name="string_color">Color</string>
+    <!-- Used in file list_complex_objects_list_details.xml:52    -->
+    <string name="complex_object_area">Area</string>
+    <!-- Used in file DataLocationActivity.java:839    -->
+    <string name="move_from_folder_is_absent">From folder is absent!</string>
+    <!-- Used in file DataLocationActivity.java:811    -->
+    <string name="javad_folder_set_error">An error occured while set javad storage folder!</string>
     <!-- Used in file activity_point_antenna.xml:107    -->
     <string name="button_recalculaye">Recalculate</string>
     <!-- Used in file points.xml:48    -->
     <string name="action_contouring">Contouring</string>
     <!-- Used in file activity_archive_folder.xml:86    -->
     <string name="button_authorize_dropbox">Authorize Dropbox</string>
-    <!-- Used in file activity_design_point.xml:130    -->
+    <!-- Used in file activity_data_location.xml:19    -->
+    <string name="data_location_description">All data of JMT application are stored inside javad subfolder. And the location of the folder can be different. This dialog let you select the location. In this case JMT can move all data to new location.</string>
+    <!-- Used in file activity_design_point.xml:134    -->
     <string name="height">Height</string>
     <!-- Used in file activity_job.xml:70    -->
     <string name="job_organization">Organization</string>
-    <!-- Used in file codes.xml:36    -->
+    <!-- Used in file codes.xml:42    -->
     <string name="action_map_import">Import</string>
-    <!-- Used in file activity_code.xml:174    -->
+    <!-- Used in file activity_code.xml:176    -->
     <string name="feature_name">Name</string>
     <!-- Used in file activity_archive_folder.xml:132    -->
     <string name="button_sync_jobs_googledrive">Sync Jobs with GoogleDrive</string>
+    <!-- Used in file activity_data_location.xml:197    -->
+    <string name="button_select_sync_folder">Select Sync Folder</string>
     <!-- Used in file activity_job.xml:90    -->
     <string name="job_comment">Comment</string>
-    <!-- Used in file codes.xml:49    -->
+    <!-- Used in file JobActivity.java:287    -->
+    <string name="change_cs_id_only">Change CS Id only for Design/TS</string>
+    <!-- Used in file activity_select_storage_location.xml:18    -->
+    <string name="select_storage_location">Select JMT data location:</string>
+    <!-- Used in file codes.xml:55    -->
     <string name="action_delete_all_codes">Delete All Codes</string>
     <!-- Used in file activity_archive_folder.xml:80    -->
     <string name="archive_dropbox">Archive to Dropbox</string>
@@ -115,100 +193,164 @@
     <string name="string_base_id_string">Base Id</string>
     <!-- Used in file activity_ts_point.xml:188    -->
     <string name="button_antenna">Antenna</string>
+    <!-- Used in file home_map_points.xml:55    -->
+    <string name="action_show_complex_on">Drawings</string>
     <!-- Used in file activity_rtkbase.xml:173    -->
     <string name="string_reference_frame">Ref.Frame</string>
+    <!-- Used in file activity_point.xml:286    -->
+    <string name="rtk_base_info">RTK Base:\n</string>
+    <!-- Used in file DataLocationActivity.java:223    -->
+    <string name="synch_to_button">Copy To</string>
     <!-- Used in file activity_archive_folder.xml:94    -->
     <string name="button_sync_jobs_dropbox">Sync Jobs with Dropbox</string>
-    <!-- Used in file home_map_points.xml:111    -->
+    <!-- Used in file home_map_points.xml:138    -->
+    <string name="action_remove_empty_drawings">Remove empty drawings</string>
+    <!-- Used in file home_map_points.xml:145    -->
     <string name="string_settings">Settings</string>
+    <!-- Used in file DataLocationActivity.java:247    -->
+    <string name="synch_from_button">Copy From</string>
     <!-- Used in file activity_job.xml:30    -->
     <string name="job_name">Name</string>
+    <!-- Used in file PointsFragment.java:1153    -->
+    <string name="new_text">New Text</string>
+    <!-- Used in file PointsFragment.java:1152    -->
+    <string name="new_polygon">New Polygon</string>
     <!-- Used in file activity_archive_folder.xml:161    -->
     <string name="button_authorize_onedrive">Authorize OneDrive</string>
     <!-- Used in file activity_ts_point_antenna.xml:71    -->
     <string name="storage_antenna_use_vertical_offset">Mark Offset</string>
     <!-- Used in file rtkbases.xml:31    -->
     <string name="action_calendar">Calendar</string>
-    <!-- Used in file jobs.xml:62    -->
+    <!-- Used in file jobs.xml:76    -->
     <string name="action_delete">Delete</string>
-    <!-- Used in file RTKBasesActivity.java:103    -->
+    <!-- Used in file RTKBasesActivity.java:104    -->
     <string name="string_dpos_sort">Process</string>
-    <!-- Used in file activity_code.xml:194    -->
+    <!-- Used in file activity_code.xml:196    -->
     <string name="code_type">Type</string>
-    <!-- Used in file activity_design_point.xml:50    -->
+    <!-- Used in file PointsFragment.java:386    -->
+    <string name="string_distance_sort">Distance</string>
+    <!-- Used in file JobActivity.java:286    -->
+    <string name="cs_changed_what_to_do">Do you want to just replace CS Id with new CS Id, or recompute coordinates</string>
+    <!-- Used in file DataLocationActivity.java:268    -->
+    <string name="string_warning_copy">Confirmation</string>
+    <!-- Used in file activity_data_location.xml:154    -->
+    <string name="check_sync_in_background">Synch. with external folder in background</string>
+    <!-- Used in file activity_design_point.xml:51    -->
     <string name="description">Descr.</string>
+    <!-- Used in file activity_point.xml:273    -->
+    <string name="rtpk_info">RTPK:\n</string>
     <!-- Used in file design_points.xml:48    -->
     <string name="string_menu_export">Export</string>
-    <!-- Used in file activity_code.xml:163    -->
+    <!-- Used in file DataLocationActivity.java:817    -->
+    <string name="copy_from_folder_is_not_selected">Copy/Move folder is not selected!\nPlease click button to select the folder.</string>
+    <!-- Used in file activity_code.xml:164    -->
     <string name="button_delete">Del</string>
     <!-- Used in file activity_job.xml:163    -->
     <string name="measure_units">Measure Units</string>
     <!-- Used in file activity_point_antenna.xml:28    -->
     <string name="antenna_type">Antenna Type</string>
-    <!-- Used in file RTKBasesActivity.java:100    -->
+    <!-- Used in file RTKBasesActivity.java:101    -->
     <string name="string_id_sort">Id</string>
-    <!-- Used in file activity_rtkbase.xml:291    -->
+    <!-- Used in file activity_complex_object_polygon.xml:47    -->
     <string name="button_modify">Modify</string>
     <!-- Used in file activity_archive_folder.xml:26    -->
     <string name="check_archive_folder">Auto Archive Jobs to Folder</string>
-    <!-- Used in file list_points.xml:105    -->
+    <!-- Used in file list_points_list_short.xml:131    -->
     <string name="string_descriptionhint">Description</string>
-    <!-- Used in file TSPointSurveyInfoActivity.java:101    -->
-    <string name="string_lift_tilt_survey">Lift&amp;Tilt Survey</string>
-    <!-- Used in file activity_design_point.xml:90    -->
+    <!-- Used in file activity_data_location.xml:26    -->
+    <string name="data_location_description_android11">Android 11 requires to store all app data in the internal storage.\nJMT allows to work with external storage as previously, but this will degradate performance.</string>
+    <!-- Used in file activity_data_location.xml:53    -->
+    <string name="scoped_storage_string">Scoped Storage</string>
+    <!-- Used in file activity_data_location.xml:166    -->
+    <string name="button_sync_to_folder">&lt;&#x002d;&#x002d; Copy To folder</string>
+    <!-- Used in file activity_select_storage_location.xml:48    -->
+    <string name="string_user_defined">User Defined Location</string>
+    <!-- Used in file activity_design_point.xml:92    -->
     <string name="north">North</string>
-    <!-- Used in file JobActivity.java:99    -->
+    <!-- Used in file activity_select_storage_location.xml:40    -->
+    <string name="string_external_storage">External Storage</string>
+    <!-- Used in file activity_complex_object_circle.xml:86    -->
+    <string name="string_radius">Radius</string>
+    <!-- Used in file DataLocationActivity.java:270    -->
+    <string name="string_copy_sync_warning_text">Do you want to synchronize data between external folder and internal storage?</string>
+    <!-- Used in file JobActivity.java:106    -->
     <string name="string_edit_job_xml">Edit Job</string>
+    <!-- Used in file activity_data_location.xml:132    -->
+    <string name="button_select_copy_folder">Select From Folder</string>
     <!-- Used in file activity_job.xml:194    -->
     <string name="show_antenna_offsets">Show antenna vertical offset</string>
     <!-- Used in file activity_code.xml:154    -->
     <string name="button_add">Add</string>
     <!-- Used in file activity_archive_folder.xml:19    -->
-    <string name="archive_description">Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case J-Mobile moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
+    <string name="archive_description">Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.</string>
     <!-- Used in file activity_code.xml:64    -->
     <string name="code_name_number">Name / Number</string>
-    <!-- Used in file jobs.xml:50    -->
+    <!-- Used in file activity_select_storage_location.xml:32    -->
+    <string name="string_internal_storage">Internal Storage</string>
+    <!-- Used in file jobs.xml:64    -->
     <string name="action_receive">Receive</string>
-    <!-- Used in file activity_rtkbase.xml:282    -->
+    <!-- Used in file activity_complex_object_polygon.xml:38    -->
     <string name="button_reset_vb_rtk">Restore</string>
-    <!-- Used in file jobs.xml:44    -->
+    <!-- Used in file jobs.xml:58    -->
     <string name="action_import">Import</string>
-    <!-- Used in file activity_code.xml:241    -->
+    <!-- Used in file activity_code.xml:243    -->
     <string name="code_max_value">Max.Value</string>
+    <!-- Used in file DataLocationActivity.java:843    -->
+    <string name="move_to_folder_is_absent">New(to) folder is absent!</string>
     <!-- Used in file activity_point_antenna.xml:79    -->
     <string name="height_slant">Slant</string>
     <!-- Used in file activity_point.xml:219    -->
     <string name="coordinate_neh">VRS(NEH)</string>
-    <!-- Used in file list_points.xml:68    -->
+    <!-- Used in file list_points_list_short.xml:71    -->
     <string name="string_codehint">Code</string>
     <!-- Used in file activity_archive_folder.xml:46    -->
     <string name="jobs_are_located">Jobs are located in folder</string>
-    <!-- Used in file TSPointsActivity.java:68    -->
+    <!-- Used in file CodesActivity.java:131    -->
     <string name="string_name_sort">Name</string>
+    <!-- Used in file activity_data_location.xml:182    -->
+    <string name="button_sync_from_folder">Copy From folder &#x002d;&#x002d;&gt;</string>
     <!-- Used in file activity_code.xml:102    -->
     <string name="code_comment">Description</string>
     <!-- Used in file activity_point_antenna.xml:88    -->
     <string name="antenna_vertical_offset">Vertical Offset</string>
-    <!-- Used in file activity_design_point.xml:110    -->
+    <!-- Used in file activity_design_point.xml:113    -->
     <string name="east">East</string>
-    <!-- Used in file activity_code.xml:228    -->
+    <!-- Used in file code.xml:8    -->
+    <string name="action_cancel">Cancel</string>
+    <!-- Used in file activity_code.xml:230    -->
     <string name="code_min_value">Min.Value</string>
     <!-- Used in file activity_ts_point_antenna.xml:120    -->
     <string name="units_storage">Units</string>
+    <!-- Used in file DataLocationActivity.java:762    -->
+    <string name="user_path_is_not_selected">User Path folder is not selected!\nPlease click button to select the folder!</string>
     <!-- Used in file activity_point.xml:211    -->
     <string name="coordinate_origin">Origin</string>
     <!-- Used in file activity_archive_folder.xml:169    -->
     <string name="button_sync_jobs_onedrive">Sync Jobs to OneDrive</string>
+    <!-- Used in file list_complex_objects_list_details.xml:45    -->
+    <string name="vertex_count">Vertexes</string>
     <!-- Used in file home_map_points.xml:9    -->
     <string name="string_connect">Connect</string>
     <!-- UNUSED STRING 
-    <string name="string_inclination_martix">Inclination Martix</string>
+    <string name="action_view_icons">View/Icons</string>
     -->
     <!-- UNUSED STRING 
-    <string name="string_inclination_y">Inclination Y</string>
+    <string name="string_the_new_folder_is_not_empty">The new folder is not empty</string>
     -->
     <!-- UNUSED STRING 
-    <string name="string_compass">Compass</string>
+    <string name="action_view_list">View/View</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_can_not_copy_from_folder">Can not copy from folder</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_change_folder_only__do_not_move_data">Change folder only, do not move data</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="action_save">Save</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="action_view_grid">View/Grid</string>
     -->
 
 </resources>

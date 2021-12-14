@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<string-array name="rtr_echo_array">
-        <item>a</item>
-        <item>off</item>
-</string-array>
+    <!-- Used in file activity_repeater.xml:98 -->
+    <string-array name="uhf_output_power">
+         <item>0.03W / 15dBm</item>
+         <item>0.04W / 16dBm</item>
+         <item>0.05W / 17dBm</item>
+         <item>0.06W / 18dBm</item>
+         <item>0.08W / 19dBm</item>
+         <item>0.10W / 20dBm</item>
+         <item>0.12W / 21dBm</item>
+         <item>0.16W / 22dBm</item>
+         <item>0.20W / 23dBm</item>
+         <item>0.25W / 24dBm</item>
+         <item>0.32W / 25dBm</item>
+         <item>0.40W / 26dBm</item>
+         <item>0.50W / 27dBm</item>
+         <item>0.63W / 28dBm</item>
+         <item>0.80W / 29dBm</item>
+         <item>1.00W / 30dBm</item>
+         <item>1.30W / 31dBm</item>
+         <item>1.60W / 32dBm</item>
+         <item>2.00W / 33dBm</item>
+         <item>2.50W / 34dBm</item>
+         <item>3.20W / 35dBm</item>
+         <item>4.00W / 36dBm</item>
+         <item>5.00W / 37dBm</item>
+         <item>6.30W / 38dBm</item>
+         <item>8.00W / 39dBm</item>
+         <item>10.0W / 40dBm</item>
+         <item>14.0W / 41dBm</item>
+         <item>15.0W / 42dBm</item>
+         <item>20.0W / 43dBm</item>
+         <item>25.0W / 44dBm</item>
+         <item>35.0W / 45dBm</item>
+    </string-array>
 
- <string-array name="uhf_output_power">
-        <item>0.020W / 13dBm</item>
-        <item>0.025W / 14dBm</item>
-        <item>0.030W / 15dBm</item>
-        <item>0.040W / 16dBm</item>
-        <item>0.050W / 17dBm</item>
-        <item>0.060W / 18dBm</item>
-        <item>0.080W / 19dBm</item>
-        <item>0.100W / 20dBm</item>
-        <item>0.120W / 21dBm</item>
-        <item>0.160W / 22dBm</item>
-        <item>0.200W / 23dBm</item>
-        <item>0.250W / 24dBm</item>
-        <item>0.320W / 25dBm</item>
-        <item>0.400W / 26dBm</item>
-        <item>0.500W / 27dBm</item>
-        <item>0.630W / 28dBm</item>
-        <item>0.800W / 29dBm</item>
-        <item>1.000W / 30dBm</item>
-        <item>1.300W / 31dBm</item>
-        <item>1.600W / 32dBm</item>
-        <item>2.000W / 33dBm</item>
-        <item>2.500W / 34dBm</item>
-        <item>3.200W / 35dBm</item>
-        <item>4.000W / 36dBm</item>
-        <item>5.000W / 37dBm</item>
-        <item>6.300W / 38dBm</item>
-        <item>8.000W / 39dBm</item>
-        <item>10.00W / 40dBm</item>
-        <item>14.00W / 41dBm</item>
-        <item>15.00W / 42dBm</item>
-        <item>20.00W / 43dBm</item>
-        <item>25.00W / 44dBm</item>
-        <item>35.00W / 45dBm</item>
-        </string-array>
+    <!-- Used in file activity_repeater.xml:147 -->
+    <string-array name="simplex_spacings">
+         <item>6250</item>
+         <item>12500</item>
+         <item>20000</item>
+         <item>25000</item>
+    </string-array>
 
- <string-array name="simplex_modulations">
-        <item>dbpsk</item>
-        <item>dqpsk</item>
-        <item>d8psk</item>
-        <item>d16qam</item>
-        </string-array>
+    <!-- Used in file activity_repeater.xml:186 -->
+    <string-array name="rtr_echo_array">
+         <item>a</item>
+         <item>off</item>
+    </string-array>
 
-<string-array name="simplex_spacings">
-        <item>6250</item>
-        <item>12500</item>
-        <item>20000</item>
-        <item>25000</item>
-        </string-array>
- 
- 
+    <!-- Used in file activity_repeater.xml:128 -->
+    <string-array name="simplex_modulations">
+         <item>dbpsk</item>
+         <item>dqpsk</item>
+         <item>d8psk</item>
+         <item>d16qam</item>
+    </string-array>
+
+
 </resources>
