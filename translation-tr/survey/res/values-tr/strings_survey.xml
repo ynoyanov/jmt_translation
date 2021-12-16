@@ -25,12 +25,8 @@
     <string name="connecttion">Bağlantı</string>
     <!-- Used in file activity_power.xml:154. Original value:Enable Power Output    -->
     <string name="enable_power_output">Güç Çıkışı Etkinleştir</string>
-    <!-- Used in file activity_jcors.xml:51. Original value:Receiver Id    -->
-    <string name="string_receiver_id">Receiver Id</string>
     <!-- Used in file rtk_base_rcv_base.xml:150. Original value:User    -->
     <string name="gprs_user">Kullanıcı</string>
-    <!-- Used in file activity_jcors.xml:119. Original value:LogOut receiver JCORS    -->
-    <string name="button_unregister_jcors">LogOut receiver JCORS</string>
     <!-- Used in file CalibrationActivity.java:651. Original value:Grd.Azimuth    -->
     <string name="grid_azimuth">Grd.Semt</string>
     <!-- Used in file RCVBasePreferenceFragment.java:718. Original value:IP    -->
@@ -93,8 +89,6 @@
     <string name="survey_job_name">İŞİN ADI</string>
     <!-- Used in file activity_survey_style.xml:22. Original value:Select    -->
     <string name="string_select">Select</string>
-    <!-- Used in file activity_jcors.xml:13. Original value:JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.    -->
-    <string name="about_jcors">JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.</string>
     <!-- Used in file SurveyModel.java:548. Original value:RTCM3 coordinate system is different!    -->
     <string name="rtcm3cs_mismatch">RTCM3 coordinate system is different!</string>
     <!-- Used in file activity_rtk_setup.xml:132. Original value:Internet Settings    -->
@@ -197,8 +191,6 @@
     <string name="source">Kaynak</string>
     <!-- Used in file StakeoutRTK.java:1321. Original value:Averaging\n\n    -->
     <string name="text_averaging_small">Averaging\n\n</string>
-    <!-- Used in file activity_jcors.xml:99. Original value:Refresh Token    -->
-    <string name="string_refresh_token">Refresh Token</string>
     <!-- Used in file StartSurveyActivity.java:412. Original value:Receiver is not connected!    -->
     <string name="receiver_is_not_connected">Alıcı Bağlı Değil!</string>
     <!-- Used in file activity_surveying_rtk.xml:217. Original value:epochs collected    -->
@@ -431,8 +423,6 @@
     <string name="quattro_distance_cd">Distance CD</string>
     <!-- Used in file activity_configure_uhf2.xml:726. Original value:Frequency, Hz    -->
     <string name="frequency_hz">Frekans, Hz</string>
-    <!-- Used in file JCorsActivity.java:120. Original value:This receiver is not registered in JCors!\nDo you want to register the receiver in JCors?    -->
-    <string name="device_is_unregistered_warning">This receiver is not registered in JCors!\nDo you want to register the receiver in JCors?</string>
     <!-- Used in file stakeout.xml:10. Original value:Average    -->
     <string name="action_average">Average</string>
     <!-- Used in file activity_configure_ntrip.xml:130. Original value:Source Table    -->
@@ -451,8 +441,6 @@
     <string name="text_zoom_target">Hedef</string>
     <!-- Used in file verify_settings.xml:43. Original value:Number of Groups    -->
     <string name="verify_number_of_groups_summary">Grup Sayısı</string>
-    <!-- Used in file activity_jcors.xml:83. Original value:Access Token    -->
-    <string name="string_access_token">Access Token</string>
     <!-- Used in file rtk_base_rcv_base.xml:45. Original value:TCP B    -->
     <string name="correction_type_tcp_b">TCP B</string>
     <!-- Used in file rtk_base_rcv_base.xml:50. Original value:TCP C    -->
@@ -535,8 +523,6 @@
     <string name="wrong_antenna_vertical_offset">Anten Düşey Ofset Yanlış!</string>
     <!-- Used in file MapStakeoutActivity.java:1247. Original value:Left    -->
     <string name="text_left">Sol</string>
-    <!-- Used in file activity_jcors.xml:67. Original value:Tenate Id    -->
-    <string name="string_tenateid">Tenate Id</string>
     <!-- Used in file stakeout_settings.xml:185. Original value:Detect Rover movement during survey    -->
     <string name="string_detect_rover_move">Ölçerken Gezici Hareketini Algıla</string>
     <!-- Used in file rtk_base_csd.xml:3. Original value:Direct Call (CSD)    -->
@@ -587,8 +573,6 @@
     <string name="use_epochs">Konum Hassasiyeti</string>
     <!-- Used in file receiver_info.xml:24. Original value:Status of External Antenna    -->
     <string name="receiver_antenna_dc">Status of External Antenna</string>
-    <!-- Used in file activity_jcors.xml:127. Original value:Read RTK Rover Settings from JCORS    -->
-    <string name="button_read_rover_jcors">Read RTK Rover Settings from JCORS</string>
     <!-- Used in file receiver_info.xml:15. Original value:Receiver Board Temperature,\u00b0C    -->
     <string name="receiver_board_temp">Alıcı Board Isısı,\u00b0C</string>
     <!-- Used in file activity_configure_uhf2.xml:1030. Original value:Trimtalk 450S params.    -->
@@ -659,8 +643,6 @@
     <string name="string_deltas">Deltalar\n</string>
     <!-- Used in file duo_attitude.xml:4. Original value:HD Length    -->
     <string name="duo_hd_length">HD Length</string>
-    <!-- Used in file JCorsActivity.java:121. Original value:Register JCORS    -->
-    <string name="button_register_on_jcors">Register JCORS</string>
     <!-- Used in file settings_sounds.xml:46. Original value:Epoch Rejected by Solution Type Fix    -->
     <string name="epoch_rejected_solution_type">Reddedildi by Solution Type</string>
     <!-- Used in file SurveySettingsPreferenceFragment.java:243. Original value:%1$d epochs in %2$d groups with %3$s    -->
@@ -819,8 +801,6 @@
     <string name="menu_close">Kapat</string>
     <!-- Used in file rtk_base.xml:111. Original value:Receiver File Manager    -->
     <string name="receiver_files_summury">Alıcı Dosya Yönetici</string>
-    <!-- Used in file activity_jcors.xml:135. Original value:Create RTK Base in JCORS    -->
-    <string name="button_read_base_jcors">Create RTK Base in JCORS</string>
     <!-- Used in file source_table_row_dark.xml:133. Original value:VRS    -->
     <string name="vrs">VRS</string>
     <!-- Used in file verify_settings.xml:5. Original value:Verify Mode    -->
@@ -965,8 +945,6 @@
     <string name="record_rate">Kayıt Aralığı</string>
     <!-- Used in file RCVBasePreferenceFragment.java:723. Original value:Mask    -->
     <string name="lan_mask">Mask</string>
-    <!-- Used in file activity_jcors.xml:28. Original value:Receiver    -->
-    <string name="string_receiver_model_sn">Receiver</string>
     <!-- Used in file activity_configure_gprs.xml:54. Original value:Hot Start    -->
     <string name="hot_start">Sıcak Başlangıç</string>
     <!-- Used in file offsets.xml:9. Original value:OffLine    -->
@@ -1029,8 +1007,6 @@
     <string name="string_method">Metod</string>
     <!-- Used in file rtk_base.xml:146. Original value:START STATION    -->
     <string name="start_station_up">BAŞLANGIÇ İSTASYONU</string>
-    <!-- Used in file JCorsActivity.java:119. Original value:Warning    -->
-    <string name="string_warning_string">Ostrzeżenie</string>
     <!-- Used in file activity_configure_uhf2.xml:580. Original value:More &gt;&gt;    -->
     <string name="button_more">More &gt;&gt;</string>
     <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
@@ -1079,8 +1055,6 @@
     <string name="l2c">L2C</string>
     <!-- Used in file source_table_row_dark.xml:163. Original value:Authent.    -->
     <string name="authentication">Doğrulama</string>
-    <!-- Used in file activity_jcors.xml:111. Original value:Register receiver in JCORS    -->
-    <string name="button_register_jcors">Register receiver in JCORS</string>
     <!-- Used in file SurveyingRTK.java:1303. Original value:Ignore the movement    -->
     <string name="ignore_movement">Hareketi yoksay</string>
     <!-- Used in file satellite_row_header.xml:70. Original value:L2P\nE5b\nB2    -->
