@@ -3,14 +3,12 @@
 
     <!-- Used in file activity_background_services_2.xml:82    -->
     <string name="text_opusmail_server">OPUS Mail Reader</string>
-    <!-- Used in file activity_threads.xml:50    -->
-    <string name="check_bosch_g100_thread">Bosch GLM100C reading thread</string>
-    <!-- Used in file activity_threads.xml:26    -->
-    <string name="check_status_bar_update_threads">Status Bar Update thread</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:132    -->
+    <string name="text_remote_control">Remote Control</string>
+    <!-- Used in file activity_background_services_2.xml:337    -->
+    <string name="text_anydesk_remote_control">AnyDesk Remote Control</string>
     <!-- Used in file activity_threads.xml:68    -->
     <string name="check_justinlink_threads">JustinLink exchange threads</string>
-    <!-- Used in file activity_background_services_2.xml:261    -->
-    <string name="text_mock_location_provider_replace">Replace</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:13    -->
     <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
     <!-- Used in file activity_background_services_justinlink.xml:28    -->
@@ -19,50 +17,32 @@
     <string name="justinlink_server_on">On</string>
     <!-- Used in file activity_threads.xml:14    -->
     <string name="check_receiver_threads">GNSS Receiver threads</string>
-    <!-- Used in file activity_background_services_2.xml:244    -->
-    <string name="mock_location_provider_receiver">Replace Receiver Position with followng coordinates:</string>
     <!-- Used in file activity_threads.xml:20    -->
     <string name="check_survey_model_threads">Survey Model thread</string>
-    <!-- Used in file activity_background_services_2.xml:249    -->
+    <!-- Used in file activity_background_services_2.xml:245    -->
     <string name="text_mock_location_provider_select_point">Select Point</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:12    -->
-    <string name="text_j_community">J-Community</string>
-    <!-- Used in file activity_threads.xml:80    -->
-    <string name="check_ringtone_manager_thread">Ringtone Manager thread</string>
-    <!-- Used in file activity_background_services_2.xml:90    -->
-    <string name="opusmail_server_on">On</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:27    -->
-    <string name="j_community_log">Log</string>
+    <!-- Used in file activity_background_services_2.xml:352    -->
+    <string name="login_anydesk">Login AnyDesk</string>
+    <!-- Used in file activity_background_services_2.xml:273    -->
+    <string name="text_teamviewer_remote_control">TeamViewer Remote Control</string>
+    <!-- Used in file activity_background_services_2.xml:311    -->
+    <string name="install_team_viewer_qs">Install TeamViewer QS</string>
+    <!-- Used in file activity_background_services_2.xml:327    -->
+    <string name="run_team_viewer_qs">Run TeamViewer QS</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:28    -->
     <string name="nethub_server_on">NetHub Server on</string>
-    <!-- Used in file activity_background_services_2.xml:238    -->
-    <string name="text_mock_location_provider_receiver">\nReplace Receiver Coordinate</string>
     <!-- Used in file activity_threads.xml:62    -->
     <string name="check_jcommunity_thread">JCommunity thread</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:21    -->
-    <string name="ntrip_client_on">Ntrip/RCV client on</string>
+    <!-- Used in file activity_background_services_2.xml:288    -->
+    <string name="teamviewer_remote_control_log">Log</string>
     <!-- Used in file activity_threads.xml:44    -->
     <string name="check_rcv_server_threads">RCV Server thread</string>
     <!-- Used in file activity_background_services_2.xml:204    -->
     <string name="text_mock_location_provider">Mock Location Provider</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:81    -->
+    <!-- Used in file BackgroundServicesSetupActivity.java:92    -->
     <string name="text_wsdd_server">WSDD Server</string>
     <!-- Used in file background_services.xml:6    -->
     <string name="action_threads">Threads</string>
-    <!-- Used in file activity_background_services_jcommunity.xml:20    -->
-    <string name="j_community_on">On</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:109    -->
-    <string name="text_jcommunity">J-Community</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:35    -->
-    <string name="ntripnethub_log">Ntrip/RCV/Nethub Log</string>
-    <!-- Used in file activity_threads.xml:74    -->
-    <string name="check_opus_mail_read_thread">OPUS Mail Read thread</string>
-    <!-- Used in file activity_background_services_2.xml:212    -->
-    <string name="mock_location_provider_on">On</string>
-    <!-- Used in file activity_background_services_2.xml:219    -->
-    <string name="mock_location_provider_log">Log</string>
-    <!-- Used in file activity_threads.xml:32    -->
-    <string name="check_ntrip_client_threads">Ntrip/RCV Client thread</string>
     <!-- Used in file activity_threads.xml:38    -->
     <string name="check_nethub_client_threads">NetHub Client thread</string>
     <!-- Used in file activity_threads.xml:56    -->
@@ -71,5 +51,47 @@
     <string name="opusmail_server_log">Log</string>
     <!-- Used in file activity_background_services_justinlink.xml:13    -->
     <string name="text_justinlink_server">JustinLink Exchange Server</string>
+    <!-- Used in file activity_threads.xml:50    -->
+    <string name="check_bosch_g100_thread">Bosch GLM100C reading thread</string>
+    <!-- Used in file activity_threads.xml:26    -->
+    <string name="check_status_bar_update_threads">Status Bar Update thread</string>
+    <!-- Used in file activity_background_services_2.xml:257    -->
+    <string name="text_mock_location_provider_replace">Replace</string>
+    <!-- Used in file activity_background_services_2.xml:240    -->
+    <string name="mock_location_provider_receiver">Replace Receiver Position with followng coordinates:</string>
+    <!-- Used in file activity_background_services_2.xml:344    -->
+    <string name="install_anydesk">Install AnyDesk</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:12    -->
+    <string name="text_j_community">J-Community</string>
+    <!-- Used in file activity_threads.xml:80    -->
+    <string name="check_ringtone_manager_thread">Ringtone Manager thread</string>
+    <!-- Used in file activity_background_services_2.xml:90    -->
+    <string name="opusmail_server_on">On</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:27    -->
+    <string name="j_community_log">Log</string>
+    <!-- Used in file activity_background_services_2.xml:234    -->
+    <string name="text_mock_location_provider_receiver">\nReplace Receiver Coordinate</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:21    -->
+    <string name="ntrip_client_on">Ntrip/RCV client on</string>
+    <!-- Used in file activity_background_services_jcommunity.xml:20    -->
+    <string name="j_community_on">On</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:119    -->
+    <string name="text_jcommunity">J-Community</string>
+    <!-- Used in file activity_background_services_ntripnethub.xml:35    -->
+    <string name="ntripnethub_log">Ntrip/RCV/Nethub Log</string>
+    <!-- Used in file activity_background_services_2.xml:319    -->
+    <string name="login_team_viewer_qs">Login TeamViewer QS</string>
+    <!-- Used in file activity_threads.xml:74    -->
+    <string name="check_opus_mail_read_thread">OPUS Mail Read thread</string>
+    <!-- Used in file activity_background_services_2.xml:281    -->
+    <string name="teamviewer_remote_control_on">On</string>
+    <!-- Used in file activity_background_services_2.xml:212    -->
+    <string name="mock_location_provider_on">On</string>
+    <!-- Used in file activity_background_services_2.xml:219    -->
+    <string name="mock_location_provider_log">Log</string>
+    <!-- Used in file activity_background_services_2.xml:360    -->
+    <string name="run_anydesk">Run AnyDesk</string>
+    <!-- Used in file activity_threads.xml:32    -->
+    <string name="check_ntrip_client_threads">Ntrip/RCV Client thread</string>
 
 </resources>

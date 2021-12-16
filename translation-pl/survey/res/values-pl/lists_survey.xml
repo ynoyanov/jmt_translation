@@ -113,6 +113,7 @@
          <item>2g</item>
          <item>3g</item>
          <item>4g</item>
+        <item>best</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:19 -->
@@ -187,9 +188,9 @@
 
     <!-- Used in file stakeout_settings.xml:248 -->
     <string-array name="code_is_required_array">
-         <item>Nie używaj Kodu</item>
-         <item>Kod jest opcjonalny</item>
-         <item>Kod jest wymagany</item>
+         <item>Do not use code</item>
+         <item>Code is optional</item>
+         <item>Code is required</item>
     </string-array>
 
     <!-- Used in file rtk_base_csd.xml:34 -->
@@ -200,14 +201,14 @@
 
     <!-- Used in file ts_survey_settings.xml:98 -->
     <string-array name="ts_survey_data_array">
-         <item>Wszystko</item>
-         <item>Tylko Kąt/Odległość</item>
-         <item>Tylko Współrzędne</item>
+         <item>All Measurements</item>
+         <item>Angles/Distance only</item>
+         <item>Coordinates only</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:317 -->
     <string-array name="imu_modes">
-         <item>Wyłączony</item>
+         <item>Wył</item>
          <item>Włącz (nieruchomy grot)</item>
          <item>Włącz (ruchomy grot)</item>
     </string-array>
@@ -223,15 +224,15 @@
 
     <!-- Used in file activity_start_station_resection.xml:51 -->
     <string-array name="array_measurement_type">
-         <item>Odległości i Kąty</item>
-         <item>Tyko Kąty</item>
+         <item>Distances and Angles</item>
+         <item>Angles only</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:39 -->
     <string-array name="uhf_antenna_control">
-        <item>ignoruj</item>
+        <item>ignore</item>
         <item>auto</item>
-        <item>ręcznie</item>
+        <item>manual</item>
     </string-array>
 
     <!-- Used in file activity_stakeout_line_target.xml:22 -->
@@ -336,22 +337,22 @@
     <!-- Used in file stakeout_settings.xml:196 -->
     <string-array name="rtpk_time_array">
          <item>Nigdy</item>
-         <item>10 sek</item>
-         <item>20 sek</item>
-         <item>30 sek</item>
-         <item>60 sek</item>
-         <item>90 sek</item>
-         <item>120 sek</item>
-         <item>150 sek</item>
-         <item>180 sek</item>
-         <item>240 sek</item>
-         <item>Ust. własne</item>
+         <item>10 seconds</item>
+         <item>20 seconds</item>
+         <item>30 seconds</item>
+         <item>60 seconds</item>
+         <item>90 seconds</item>
+         <item>120 seconds</item>
+         <item>150 seconds</item>
+         <item>180 seconds</item>
+         <item>240 seconds</item>
+         <item>Custom</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:205 -->
     <string-array name="rtpk_mode_array">
-         <item>Pierwszy Fix</item>
-         <item>Pórównaj oba</item>
+         <item>First Fix</item>
+         <item>Both Fix Compare</item>
     </string-array>
 
     <!-- Used in file FHPreferenceFragment.java:378 -->
@@ -635,7 +636,7 @@
 
     <!-- Used in file RTKBaseSettingsFragment.java:1226 -->
     <string-array name="connected_to_array_csd_sigma">
-         <item>Wewnętrzny GSM</item>
+         <item>Internal GSM</item>
     </string-array>
 
     <!-- Used in file activity_configure_rcv.xml:128 -->
@@ -738,10 +739,10 @@
 
     <!-- Used in file stakeout_settings.xml:234 -->
     <string-array name="debug_survey_level">
-         <item>Wszystko</item>
+         <item>All</item>
          <item>Debug</item>
-         <item>Normalny</item>
-         <item>Tylko Błędy</item>
+         <item>Normal</item>
+         <item>Errors only</item>
     </string-array>
 
     <!-- Used in file rtk_base.xml:123 -->
@@ -796,11 +797,15 @@
     </string-array>
 
     <!-- Used in file ts_survey_settings.xml:61 -->
+    <!-- Used in file ts_survey_settings.xml:61 -->
     <string-array name="ts_mark_types_array">
-         <item>QR-code</item>
-         <item>Zebra-Pole</item>
-         <item>Reflectorless</item>
-         <item>Prism</item>
+        <item>Prism</item>
+        <item>Reflectorless</item>
+    </string-array>
+
+    <string-array name="jmate_mark_types_array">
+        <item>Code-Mark</item>
+        <item>Zebra-Pole</item>
     </string-array>
 
     <!-- Used in file rtk_base_fh.xml:22 -->
@@ -833,21 +838,21 @@
 
     <!-- Used in file stakeout_settings.xml:24 -->
     <string-array name="course_source_array">
-         <item>Do Półnoocy</item>
-         <item>Ruch</item>
-         <item>Kompas</item>
-         <item>Ruch+Kompas</item>
+         <item>Nothing</item>
+         <item>Velocity</item>
+         <item>Compass</item>
+         <item>Velocity+Compass</item>
          <item>Android</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:183 -->
     <string-array name="minial_rtk_values_6_array">
-         <item>min 1</item>
-         <item>min 2</item>
-         <item>min 3</item>
-         <item>min 4</item>
-         <item>min 5</item>
-         <item>min 6</item>
+         <item>at least 1</item>
+         <item>at least 2</item>
+         <item>at least 3</item>
+         <item>at least 4</item>
+         <item>at least 5</item>
+         <item>at least 6</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:172 -->
@@ -914,7 +919,7 @@
          <item>RTCM 3.x MSM3</item>
          <item>CMR+</item>
          <item>RTCM 2.x DGPS Part</item>
-         <item>Więcej Korekt &gt;&gt;</item>
+         <item>MORE CORRECTIONS &gt;&gt;</item>
     </string-array>
 
     <!-- Used in file activity_start_survey.xml:180 -->
@@ -991,11 +996,11 @@
 
     <!-- Used in file DrawWhiteBox.java:3267 -->
     <string-array name="sat_systems_array">
-         <item>Tylko GPS</item>
+         <item>GPS only</item>
          <item>GPS+GAL</item>
          <item>GPS+GAL+BDU</item>
          <item>GPS+GLO+GAL+BDU</item>
-         <item>Wszystkie Systemy</item>
+         <item>All Systems</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
@@ -1005,8 +1010,8 @@
 
     <!-- Used in file IMUSettingsPreferenceFragment.java:84 -->
     <string-array name="occupation_time_imu_array">
-         <item>Automatycznie</item>
-         <item>Ręcznie</item>
+         <item>Stop by IMU</item>
+         <item>Stopped manually</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
@@ -1044,8 +1049,8 @@
 
     <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="stakeout_modes_array">
-         <item>Tycz Punkt</item>
-         <item>Tycz Linię</item>
+         <item>Tycz punkt</item>
+         <item>Tycz linię</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
@@ -1082,10 +1087,10 @@
 
     <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="minial_rtk_values_4_array">
-         <item>min 1</item>
-         <item>min 2</item>
-         <item>min 3</item>
-         <item>min 4</item>
+         <item>at least 1</item>
+         <item>at least 2</item>
+         <item>at least 3</item>
+         <item>at least 4</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
