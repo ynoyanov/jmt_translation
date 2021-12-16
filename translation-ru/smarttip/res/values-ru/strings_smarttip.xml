@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file JTipActivity.java:2359. Original value:Sensor S1    -->
-    <string name="source_sensor_s1">Sensor S1</string>
+    <!-- Used in file JTipActivity.java:2384. Original value:Sensor S1    -->
+    <string name="source_sensor_s1">Сенсор S1</string>
     <!-- Used in file activity_jtip.xml:56. Original value:Clear Range    -->
     <string name="button_clear_range">Сброс предела</string>
-    <!-- Used in file JTipActivity.java:2279. Original value:XYZ    -->
+    <!-- Used in file JTipActivity.java:2300. Original value:XYZ    -->
     <string name="button_xyz2_direction">XYZ</string>
     <!-- Used in file activity_jtip.xml:400. Original value:Max Value    -->
     <string name="string_max_value">Макс.значение</string>
@@ -15,62 +15,78 @@
     <string name="string_sound_type">Тип вычисления звука</string>
     <!-- Used in file activity_jtip.xml:371. Original value:Gain    -->
     <string name="string_gain">Усиление 0</string>
-    <!-- Used in file JTipActivity.java:2320. Original value:Auto    -->
+    <!-- Used in file activity_jtip2.xml:70. Original value:PinPoint    -->
+    <string name="string_jtip_pinpoint">Узко</string>
+    <!-- Used in file JTipActivity.java:2343. Original value:Auto    -->
     <string name="button_full_auto">Авто</string>
     <!-- Used in file activity_jtip.xml:189. Original value:Source    -->
     <string name="string_magnetic_source">Источник</string>
     <!-- Used in file activity_jtip.xml:456. Original value:Set Course to 0    -->
     <string name="button_course">Установить курс на 0</string>
-    <!-- Used in file JTipActivity.java:2320. Original value:SemiAuto    -->
+    <!-- Used in file JTipActivity.java:2343. Original value:SemiAuto    -->
     <string name="button_semi_auto">ПолуАвто</string>
     <!-- Used in file jtip.xml:16. Original value:Z Dir    -->
-    <string name="button_z_direction">Z Dir</string>
+    <string name="button_z_direction">Z</string>
     <!-- Used in file activity_jtip.xml:168. Original value:Sensivity    -->
     <string name="string_sensivity">Чувствительность</string>
-    <!-- Used in file JTipActivity.java:2358. Original value:Set Sensor Source    -->
-    <string name="string_set_sensor_source_jtip">Set Sensor Source</string>
+    <!-- Used in file activity_jtip2.xml:159. Original value:Off    -->
+    <string name="jtip_off">Выкл.</string>
+    <!-- Used in file activity_jtip2.xml:166. Original value:Pair    -->
+    <string name="jtip_pair">Сопрячь</string>
+    <!-- Used in file activity_jtip2.xml:100. Original value:High    -->
+    <string name="sensivity_high">Сильно</string>
+    <!-- Used in file JTipActivity.java:2383. Original value:Set Sensor Source    -->
+    <string name="string_set_sensor_source_jtip">Выбор источника данных</string>
     <!-- Used in file activity_jtip.xml:139. Original value:Sound algorithm    -->
     <string name="string_algorithm">Алгоритм звука</string>
-    <!-- Used in file JTipActivity.java:2359. Original value:Sensor S2    -->
-    <string name="source_sensor_s2">Sensor S2</string>
+    <!-- Used in file JTipActivity.java:2384. Original value:Sensor S2    -->
+    <string name="source_sensor_s2">Сенсор S2</string>
     <!-- Used in file activity_jtip.xml:81. Original value:Calibrate    -->
     <string name="button_calibrate">Калибровка</string>
     <!-- Used in file activity_jtip.xml:353. Original value:No Tone less than    -->
-    <string name="string_no_tone_less_than">No Tone less than</string>
+    <string name="string_no_tone_less_than">Нет звука при значение меньше</string>
     <!-- Used in file activity_jtip.xml:181. Original value:Mag. Source    -->
     <string name="string_data_source">Источник данных</string>
     <!-- Used in file jtip.xml:23. Original value:Single    -->
-    <string name="button_s_d_s">Single</string>
+    <string name="button_s_d_s">Единичный</string>
     <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip    -->
     <string name="text_select_smarttip">Выберите J-Tip</string>
-    <!-- Used in file JTipActivity.java:1095. Original value:Hold Range    -->
+    <!-- Used in file JTipActivity.java:1114. Original value:Hold Range    -->
     <string name="button_hold_range">Не менять предел</string>
-    <!-- Used in file JTipActivity.java:1173. Original value:Calibration Required!    -->
+    <!-- Used in file JTipActivity.java:1192. Original value:Calibration Required!    -->
     <string name="jtip_calibration_required">Требуется калибровка!</string>
     <!-- Used in file activity_jtip.xml:64. Original value:Set Range    -->
     <string name="button_set_range">Уст.предел</string>
     <!-- Used in file activity_jtip.xml:386. Original value:Min Value    -->
     <string name="string_min_value">Мин.значение</string>
+    <!-- Used in file activity_jtip2.xml:84. Original value:Wide    -->
+    <string name="string_jtip_wide">Широкий</string>
     <!-- Used in file activity_jtip.xml:393. Original value:Gain Value    -->
     <string name="string_gain_value">Усиление</string>
-    <!-- Used in file JTipActivity.java:2320. Original value:Manual    -->
+    <!-- Used in file JTipActivity.java:2343. Original value:Manual    -->
     <string name="button_manual">Ручной</string>
-    <!-- Used in file JTipActivity.java:2319. Original value:Set Mode    -->
+    <!-- Used in file JTipActivity.java:2342. Original value:Set Mode    -->
     <string name="string_set_mode_jtip">Уст.режим</string>
     <!-- Used in file activity_jtip.xml:27. Original value:Volume    -->
     <string name="string_volume">Громкость</string>
-    <!-- Used in file JTipActivity.java:2359. Original value:Differential (S1-S2)    -->
-    <string name="source_s1_minus_s2">Differential (S1-S2)</string>
-    <!-- Used in file JTipActivity.java:2286. Original value:XY    -->
+    <!-- Used in file JTipActivity.java:2384. Original value:Differential (S1-S2)    -->
+    <string name="source_s1_minus_s2">Разница (S1-S2)</string>
+    <!-- Used in file activity_jtip2.xml:152. Original value:Calibrate    -->
+    <string name="jtip_calibrate">Калибровка</string>
+    <!-- Used in file JTipActivity.java:2309. Original value:XY    -->
     <string name="button_xy_direction">XY</string>
-    <!-- Used in file JTipActivity.java:2359. Original value:Both sensors - (S1+S2)/2    -->
-    <string name="source_s1_plus_s2">Both sensors - (S1+S2)/2</string>
+    <!-- Used in file JTipActivity.java:2384. Original value:Both sensors - (S1+S2)/2    -->
+    <string name="source_s1_plus_s2">Оба сенсора - (S1+S2)/2</string>
     <!-- Used in file find_jtip.xml:7. Original value:Refresh    -->
     <string name="refresh_jtip">Обновить</string>
+    <!-- Used in file activity_jtip2.xml:107. Original value:Medium    -->
+    <string name="sensivity_medium">Средне</string>
     <!-- Used in file activity_jtip.xml:269. Original value:0 Value    -->
     <string name="string_0_value">Значение нуля</string>
     <!-- Used in file jtip.xml:9. Original value:Auto\\Manual    -->
     <string name="button_auto_manual">Авто\\Ручной</string>
+    <!-- Used in file activity_jtip2.xml:114. Original value:Low    -->
+    <string name="sensivity_low">Слабо</string>
     <!-- Used in file activity_jtip.xml:72. Original value:Auto Range    -->
     <string name="button_auto_range">Авто предел</string>
 

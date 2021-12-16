@@ -1,40 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file JTipAppMainActivity.java:158. Original value:Permission denied to connect Bluetooth devices    -->
+    <string name="permission_error_bluetooth_connect">Разрешения программы ограничивают подключение к Bluetooth!</string>
+    <!-- Used in file JTipAppMainActivity.java:158. Original value:Permission denied to scan Bluetooth devices    -->
+    <string name="permission_error_bluetooth_scan">Разрешения программы ограничивают сканирование  Bluetooth!</string>
+    <!-- Used in file JTipAppMainActivity.java:158. Original value:Coarse Location permission is required to obtain list of Bluetooth Devices    -->
+    <string name="permission_error_coarse_location">Разрешения программы Неточное метопложение требуется для чтения списка Bluetooth устройст!</string>
+    <!-- Used in file JTipAppMainActivity.java:156. Original value:Permission denied to read from your External storage    -->
+    <string name="permission_error_read_external_storage">Разрешения программы ограничивают запись файлов!</string>
+    <!-- Used in file AndroidManifest.xml:42. Original value:Find J-Tip    -->
+    <string name="title_activity_find_jtip">Найти J-Tip</string>
+    <!-- Used in file JTipAppMainActivity.java:158. Original value:Permission denied to connect Bluetooth devices    -->
+    <string name="permission_error_bluetooth_admin">Разрешения программы ограничивают подключение к Bluetooth!</string>
+    <!-- Used in file JTipAppMainActivity.java:158. Original value:Permission denied to use Bluetooth    -->
+    <string name="permission_error_bluetooth">Разрешения программы ограничивают использование к Bluetooth!</string>
+    <!-- Used in file JTipAppMainActivity.java:156. Original value:Permission denied to write to your External storage    -->
+    <string name="permission_error_write_external_storage">Разрешения программы ограничивают запись файлов!</string>
+    <!-- Used in file AndroidManifest.xml:51. Original value:J-Tip    -->
+    <string name="title_activity_jtip">J-Tip</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Permission denied to connect Bluetooth devices-->
-  <string name="permission_error_bluetooth_connect">Разрешения программы ограничивают подключение к Bluetooth!</string>
-  <!--Original value: Permission denied to scan Bluetooth devices-->
-  <string name="permission_error_bluetooth_scan">Разрешения программы ограничивают сканирование  Bluetooth!</string>
-  <!--Original value: Coarse Location permission is required to obtain list of Bluetooth Devices-->
-  <string name="permission_error_coarse_location">Разрешения программы Неточное метопложение требуется для чтения списка Bluetooth устройст!</string>
-  <!--Original value: Permission denied to read from your External storage-->
-  <string name="permission_error_read_external_storage">Разрешения программы ограничивают запись файлов!</string>
-  <!--Original value: Find J-Tip-->
-  <string name="title_activity_find_jtip">Найти J-Tip</string>
-  <!--Original value: Permission denied to connect Bluetooth devices-->
-  <string name="permission_error_bluetooth_admin">Разрешения программы ограничивают подключение к Bluetooth!</string>
-  <!--Original value: Permission denied to use Bluetooth-->
-  <string name="permission_error_bluetooth">Разрешения программы ограничивают использование к Bluetooth!</string>
-  <!--Original value: Permission denied to write to your External storage-->
-  <string name="permission_error_write_external_storage">Разрешения программы ограничивают запись файлов!</string>
-  <!--Original value: J-Tip-->
-  <string name="title_activity_jtip">J-Tip</string>
 </resources>

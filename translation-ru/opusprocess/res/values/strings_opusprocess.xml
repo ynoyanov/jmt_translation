@@ -5,7 +5,7 @@
     <string name="authenticate_as_device">Authenticate as</string>
     <!-- Used in file activity_process_opus_result.xml:32    -->
     <string name="catalog">Catalog</string>
-    <!-- Used in file process.xml:85    -->
+    <!-- Used in file process.xml:101    -->
     <string name="do_hybrid_rtk">Do HybridRTK</string>
     <!-- Used in file list_hybrid_rtk_result_header.xml:40    -->
     <string name="string_antenna3">Antenna</string>
@@ -15,30 +15,38 @@
     <string name="button_point_name">Point</string>
     <!-- Used in file activity_process_opus.xml:170    -->
     <string name="output_format">Out.Format</string>
-    <!-- Used in file OpusProcessResultActivity.java:125    -->
+    <!-- Used in file OpusProcessResultActivity.java:126    -->
     <string name="title_dpos_result">DPOS Process Result</string>
     <!-- Used in file list_hybrid_rtk_header.xml:34    -->
     <string name="string_antenna_hrtk">Antenna</string>
-    <!-- Used in file activity_process_dpos2.xml:256    -->
+    <!-- Used in file activity_process_dpos2.xml:291    -->
     <string name="string_signal_r">Signal R Test</string>
     <!-- Used in file list_hybrid_rtk_header.xml:64    -->
     <string name="string_antenna_vertical_offset">V.Offset</string>
     <!-- Used in file activity_process_dpos2.xml:178    -->
     <string name="antenna_height_type_opus">Height Type</string>
+    <!-- Used in file activity_process_dpos2.xml:234    -->
+    <string name="tilt_compensation_check">Tilt compensation</string>
     <!-- Used in file activity_process_dpos2.xml:102    -->
     <string name="dpos_network">Network</string>
-    <!-- Used in file process.xml:74    -->
+    <!-- Used in file process.xml:90    -->
     <string name="action_show_log_folder">Show Log Folder</string>
     <!-- Used in file activity_file_list.xml:37    -->
     <string name="button_process_opus">Process OPUS</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:32    -->
     <string name="string_antenna_all">Antenna Height</string>
-    <!-- Used in file activity_process_dpos2.xml:236    -->
+    <!-- Used in file activity_process_dpos2.xml:269    -->
     <string name="string_no_base">No base</string>
     <!-- Used in file list_hybrid_rtk_result_header.xml:30    -->
     <string name="string_coordinates">Coordinates</string>
     <!-- Used in file activity_process_opus.xml:151    -->
     <string name="rapid_static">Rapid Static</string>
+    <!-- Used in file activity_process_dpos2.xml:251    -->
+    <string name="send_info_check">Send Alert</string>
+    <!-- Used in file DPOSProcessActivity2.java:116    -->
+    <string name="register_jcors">Register JCORS</string>
+    <!-- Used in file activity_process_dpos2.xml:227    -->
+    <string name="send_email_check">Send E-Mail</string>
     <!-- Used in file activity_process_hybrid_rtk_result.xml:29    -->
     <string name="button_save">Save Results</string>
     <!-- Used in file activity_process_dpos2.xml:63    -->
@@ -49,7 +57,7 @@
     <string name="button_revoke">Revoke Connection</string>
     <!-- Used in file activity_process_opus_result.xml:46    -->
     <string name="hybrid_rtk">Update HybridRTK coordinate for point</string>
-    <!-- Used in file OpusProcessResultActivity.java:125    -->
+    <!-- Used in file OpusProcessResultActivity.java:126    -->
     <string name="title_opus_result">OPUS Process Result</string>
     <!-- Used in file AttachDeviceActivity.java:188    -->
     <string name="html_handshake">
@@ -58,7 +66,7 @@
            Follow to instructions in &lt;b&gt;Connect device&lt;b&gt; widget on the page to generate a new handshake key.&lt;br&gt;&lt;/br&gt;
            Enter this key into field below and click &lt;b&gt;Establish Connection&lt;/b&gt; button to complete the procedure.
     </string>
-    <!-- Used in file process.xml:80    -->
+    <!-- Used in file process.xml:96    -->
     <string name="action_attach_device">Attach Device</string>
     <!-- Used in file list_vbrtk_point.xml:67    -->
     <string name="arrow">-&gt;</string>
@@ -72,6 +80,8 @@
     </string>
     <!-- Used in file activity_file_list.xml:60    -->
     <string name="text_folder2">Folder\nof files:</string>
+    <!-- Used in file activity_process_dpos2.xml:244    -->
+    <string name="mount_diagnostic">Diagnostic</string>
     <!-- Used in file activity_process_opus_result.xml:53    -->
     <string name="vbrtk">VBRTK</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:22    -->
@@ -90,7 +100,7 @@
     <string name="base_file">Base file</string>
     <!-- Used in file activity_process_dpos2.xml:140    -->
     <string name="antenna_id_opus">Antenna Id</string>
-    <!-- Used in file FileListActivity.java:101    -->
+    <!-- Used in file FileListActivity.java:106    -->
     <string name="action_hybrid_rtk">DPOS HybridRTK</string>
     <!-- Used in file activity_process_dpos2.xml:121    -->
     <string name="dpos_engine">Engine</string>
@@ -98,8 +108,12 @@
     <string name="text_compute_from_cors">Compute from CORS stations</string>
     <!-- Used in file activity_process_dpos.xml:181    -->
     <string name="process_as_device">Process as Device</string>
+    <!-- Used in file dpos_process2.xml:12    -->
+    <string name="register_jcors_menu">Register JCORS</string>
     <!-- Used in file activity_process_opus_result.xml:26    -->
     <string name="add_to_catalog">Add to Catalog</string>
+    <!-- Used in file DPOSProcessActivity2.java:114    -->
+    <string name="warning_jcors_dpos">Warning</string>
     <!-- Used in file activity_process_opus_result.xml:14    -->
     <string name="save_result">Save Report</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:12    -->
@@ -118,25 +132,36 @@
     </string>
     <!-- Used in file activity_process_dpos2.xml:216    -->
     <string name="process_mode">Process Mode</string>
-    <!-- Used in file activity_process_dpos2.xml:229    -->
+    <!-- Used in file activity_process_dpos2.xml:262    -->
     <string name="string_base_file">Base file</string>
     <!-- Used in file activity_process_opus.xml:85    -->
     <string name="antenna_height_opus">Antenna Height\n(vert. in meters)</string>
-    <!-- Used in file process.xml:50    -->
+    <!-- Used in file process.xml:61    -->
     <string name="action_settings">Settings</string>
-    <!-- Used in file activity_process_dpos2.xml:284    -->
+    <!-- Used in file activity_process_dpos2.xml:319    -->
     <string name="button_start_process">Send to OPUS</string>
     <!-- Used in file activity_file_list.xml:30    -->
     <string name="button_delete">Delete</string>
-    <!-- Used in file DPOSProcessActivity2.java:243    -->
+    <!-- Used in file DPOSProcessActivity2.java:273    -->
     <string name="base_format">%1$s\n%2$s:%3$s\n%4$s:%5$s\n%6$s:%7$s\n%8$s\n%9$s</string>
     <!-- Used in file activity_process_dpos2.xml:36    -->
     <string name="file_name">File Name</string>
-    <!-- Used in file OpusProcessResultActivity.java:284    -->
+    <!-- Used in file OpusProcessResultActivity.java:285    -->
     <string name="hybrid_rtk_format">Update HybridRTK coordinate for point %s</string>
     <!-- Used in file list_hybrid_rtk_header2.xml:42    -->
     <string name="string_process_mode">Mode</string>
+    <!-- Used in file DPOSProcessActivity2.java:115    -->
+    <string name="you_should_register_jcors_dpos">To process with JCORS DPOS, you should be resitered in JCORS.\nDo you want to register your device in JCORS?</string>
     <!-- Used in file activity_file_list.xml:44    -->
     <string name="button_process_jopus">Process DPOS</string>
+    <!-- UNUSED STRING 
+    <string name="string_processed__reading_result___">Processed. Reading result&#8230;</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_sending_to_server___">Sending to server&#8230;</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_reading_answer___">Reading answer&#8230;</string>
+    -->
 
 </resources>

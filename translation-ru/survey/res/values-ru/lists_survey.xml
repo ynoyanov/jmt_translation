@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file FHPreferenceFragment.java:370 -->
+    <!-- Used in file FHPreferenceFragment.java:379 -->
     <string-array name="freqruleusaarray">
          <item>0</item>
          <item>1</item>
@@ -82,6 +82,7 @@
          <item>2g</item>
          <item>3g</item>
          <item>4g</item>
+         <item>best</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:19 -->
@@ -124,7 +125,7 @@
          <item>накл.</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:568 -->
+    <!-- Used in file RTKSetupActivity.java:571 -->
     <string-array name="connected_to_array_internet_omega">
          <item>через смартфон с Android</item>
          <item>WiFi Omega</item>
@@ -138,14 +139,14 @@
          <item>SIM 2</item>
     </string-array>
 
-    <!-- Used in file ts_survey_settings.xml:98 -->
+    <!-- Used in file survey_ts_settings.xml:98 -->
     <string-array name="ts_survey_data_array">
          <item>Все измерения</item>
          <item>только Углы/Растояние</item>
          <item>только Координаты</item>
     </string-array>
 
-    <!-- Used in file stakeout_settings.xml:316 -->
+    <!-- Used in file stakeout_settings.xml:317 -->
     <string-array name="imu_modes">
          <item>Выкл.</item>
          <item>Качание (Подвижный конец вешки выкл.)</item>
@@ -182,7 +183,7 @@
          <item>gmsk</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:576 -->
+    <!-- Used in file RTKSetupActivity.java:579 -->
     <string-array name="connected_to_array_radio_triumph2">
          <item>Bluetooth B</item>
     </string-array>
@@ -199,7 +200,7 @@
          <item>60 сек</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:574 -->
+    <!-- Used in file RTKSetupActivity.java:577 -->
     <string-array name="connected_to_array_radio_triumph1">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -259,7 +260,7 @@
          <item>Сравнить оба фикса</item>
     </string-array>
 
-    <!-- Used in file FHPreferenceFragment.java:378 -->
+    <!-- Used in file FHPreferenceFragment.java:387 -->
     <string-array name="freqruleausarray">
          <item>10</item>
          <item>11</item>
@@ -273,7 +274,7 @@
          <item>19</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:584 -->
+    <!-- Used in file RTKSetupActivity.java:587 -->
     <string-array name="connected_to_array_radio_triumph3">
          <item>Bluetooth B</item>
          <item>USB B</item>
@@ -322,7 +323,7 @@
          <item>24 часа</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:566 -->
+    <!-- Used in file RTKSetupActivity.java:569 -->
     <string-array name="connected_to_array_internet_sigma">
          <item>через смартфон с Android</item>
          <item>WiFi</item>
@@ -344,7 +345,7 @@
          <item>GPS+GLO+GAL+BDU+другие</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2400 -->
+    <!-- Used in file SurveyingRTK.java:2498 -->
     <string-array name="left_right_array">
          <item>Влево</item>
          <item>Вправо</item>
@@ -393,14 +394,14 @@
          <item>1 минута</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:572 -->
+    <!-- Used in file RTKSetupActivity.java:575 -->
     <string-array name="connected_to_array_radio">
          <item>Bluetooth B</item>
          <item>Serial B</item>
          <item>Внутренний модем</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:580 -->
+    <!-- Used in file RTKSetupActivity.java:583 -->
     <string-array name="connected_to_array_radio_sigma">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -504,7 +505,7 @@
          <item>9600</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:201 -->
+    <!-- Used in file rtk_base_uhf.xml:204 -->
     <string-array name="base_correction_type_array">
          <item>RTCM 3.x MSM3</item>
          <item>RTCM 3.x MSM4 короткие</item>
@@ -582,7 +583,7 @@
          <item>30.0</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:578 -->
+    <!-- Used in file RTKSetupActivity.java:581 -->
     <string-array name="connected_to_array_radio_gismore">
          <item>Bluetooth B</item>
     </string-array>
@@ -594,7 +595,7 @@
          <item>Выкл.</item>
     </string-array>
 
-    <!-- Used in file ConfigureUHFActivity.java:968 -->
+    <!-- Used in file ConfigureUHFActivity.java:996 -->
     <string-array name="uhf_output_power_1w">
          <item>0.03W / 15dBm</item>
          <item>0.04W / 16dBm</item>
@@ -700,12 +701,10 @@
          <item>межд.футы</item>
     </string-array>
 
-    <!-- Used in file ts_survey_settings.xml:61 -->
+    <!-- Used in file survey_ts_settings.xml:61 -->
     <string-array name="ts_mark_types_array">
-         <item>QR-код</item>
-         <item>Zebra-палка</item>
+         <item>Отражатель</item>
          <item>Безотражательный</item>
-         <item>Призма</item>
     </string-array>
 
     <!-- Used in file rtk_base_fh.xml:22 -->
@@ -715,14 +714,14 @@
          <item>eu</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:564 -->
+    <!-- Used in file RTKSetupActivity.java:567 -->
     <string-array name="connected_to_array_internet_gismore">
          <item>через смартфон с Android</item>
          <item>WiFi</item>
          <item>3G GISMORE</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:206 -->
+    <!-- Used in file rtk_base_uhf.xml:209 -->
     <string-array name="base_correction_period_5_array">
          <item>1 Гц</item>
          <item>2 Гц</item>
@@ -761,7 +760,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3167 -->
+    <!-- Used in file DrawWhiteBox.java:3170 -->
     <string-array name="imu_mode_array">
          <item>Выкл.</item>
          <item>Вкл (неподвижный конец вехи)</item>
@@ -769,13 +768,13 @@
          <item>Режим Наклони и Держи</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:562 -->
+    <!-- Used in file RTKSetupActivity.java:565 -->
     <string-array name="connected_to_array_internet_triumph2">
          <item>через смартфон с Android</item>
          <item>WiFi Triumph-2</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:560 -->
+    <!-- Used in file RTKSetupActivity.java:563 -->
     <string-array name="connected_to_array_internet_triumph1">
          <item>через смартфон с Android</item>
          <item>WiFi Triumph-1</item>
@@ -783,7 +782,7 @@
          <item>LAN Triumph-1</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:570 -->
+    <!-- Used in file RTKSetupActivity.java:573 -->
     <string-array name="connected_to_array_internet_triumph3">
          <item>через смартфон с Androide</item>
          <item>WiFi Triumph-3</item>
@@ -801,7 +800,7 @@
          <item>60 сек</item>
     </string-array>
 
-    <!-- Used in file RTKSetupActivity.java:582 -->
+    <!-- Used in file RTKSetupActivity.java:585 -->
     <string-array name="connected_to_array_radio_omega">
          <item>Bluetooth B</item>
          <item>Serial B</item>
@@ -814,12 +813,18 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file rtk_base_uhf.xml:196 -->
+    <!-- Used in file rtk_base_uhf.xml:199 -->
     <string-array name="simple_base_correction_type_array">
          <item>RTCM 3.x MSM3</item>
          <item>CMR+</item>
          <item>RTCM 2.x DGPS част.</item>
          <item>ЕЩЕ ВАРИАНТЫ &gt;&gt;</item>
+    </string-array>
+
+    <!-- Used in file TSAntennaActivity.java:70 -->
+    <string-array name="jmate_mark_types_array">
+         <item>QR-Код</item>
+         <item>Зебра-Палка</item>
     </string-array>
 
     <!-- Used in file activity_start_survey.xml:180 -->
@@ -888,13 +893,13 @@
          <item>Внутренний GSM</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2400 -->
+    <!-- Used in file SurveyingRTK.java:2498 -->
     <string-array name="p1_p2_array">
          <item>от P1</item>
          <item>от P2</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3244 -->
+    <!-- Used in file DrawWhiteBox.java:3273 -->
     <string-array name="sat_systems_array">
          <item>только GPS</item>
          <item>GPS+GAL</item>
@@ -908,10 +913,10 @@
          <item>через смартфон с Android</item>
     </string-array>
 
-    <!-- Used in file SurveySettingsPreferenceFragment.java:1593 -->
+    <!-- Used in file IMUSettingsPreferenceFragment.java:86 -->
     <string-array name="occupation_time_imu_array">
-        <item>Остановка по IMU</item>
-        <item>Остановка вручную</item>
+         <item>Остановка по IMU</item>
+         <item>Остановка вручную</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->

@@ -1,150 +1,356 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2017 The Android Open Source Project
-
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor:
-          ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-          Furniel (c) 2013-2017
-          Android Localizer (aiLocalizer)
-        -->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="action_add">Добавить</string>
-  <string name="action_arhieve_folder">Архивация проектов</string>
-  <string name="action_calendar">Календарь</string>
-  <string name="action_contouring">Изолинии</string>
-  <string name="action_delete">Удалить</string>
-  <string name="action_delete_all">Удалить все выносные</string>
-  <string name="action_delete_all_codes">Удалить все коды</string>
-  <string name="action_delete_point">Удалить точку</string>
-  <string name="action_export">Экспорт</string>
-  <string name="action_import">Импорт</string>
-  <string name="action_list_grid">Таблица</string>
-  <string name="action_map">Карта</string>
-  <string name="action_map_export">Экспорт</string>
-  <string name="action_map_import">Импорт</string>
-  <string name="action_map_zoomall">Показать все</string>
-  <string name="action_receive">Получить</string>
-  <string name="action_remove_empty_drawings">Удалить пустые примитивы</string>
-  <string name="action_search">Поиск</string>
-  <string name="action_show_base_on">RTK базы</string>
-  <string name="action_show_complex_on">Графика</string>
-  <string name="action_show_design_on">Вын.</string>
-  <string name="action_show_survey_on">Снят.</string>
-  <string name="action_show_ts_on">Тах.</string>
-  <string name="action_sort">Сортировка</string>
-  <string name="antenna_height_storage">Высота антенны</string>
-  <string name="antenna_type">Антенна</string>
-  <string name="antenna_vertical_offset">Вертикальный отступ</string>
-  <string name="archive_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
-  <string name="archive_dropbox">Архивация в Dropbox</string>
-  <string name="archive_googledrive">Архивировать в GoogleDrive</string>
-  <string name="archive_onedrive">Архивировать в OneDrive</string>
-  <string name="button_add">+</string>
-  <string name="button_antenna">Антенна</string>
-  <string name="button_authorize_dropbox">Авторизация в Dropbox</string>
-  <string name="button_authorize_googledrive">Авторизация GoogleDrive</string>
-  <string name="button_authorize_onedrive">Авторизовать OneDrive</string>
-  <string name="button_delete">-</string>
-  <string name="button_modify">Изменить</string>
-  <string name="button_recalculaye">Пересчитать</string>
-  <string name="button_reset_vb_rtk">Восстановить</string>
-  <string name="button_select_folder">Выбор папки</string>
-  <string name="button_sync_jobs_dropbox">Синхронизовать проекты с Dropbox</string>
-  <string name="button_sync_jobs_googledrive">Синхринизовать проекты с GoogleDrive</string>
-  <string name="button_sync_jobs_onedrive">Синхронизовать проект с OneDrive</string>
-  <string name="change_cs_id_only">Заменить СК для выносных/тах.</string>
-  <string name="check_archive_folder">Автоархивация проектов в папку</string>
-  <string name="code">Код</string>
-  <string name="code_comment">Описание</string>
-  <string name="code_def_value">По умолч.</string>
-  <string name="code_fields">" ___ Поля  ___"</string>
-  <string name="code_max_length">Макс.длина</string>
-  <string name="code_max_value">Макс.значение</string>
-  <string name="code_min_value">Мин.значение</string>
-  <string name="code_name_number">Имя / Число</string>
-  <string name="code_type">Тип</string>
-  <string name="complex_object_area">Площадь</string>
-  <string name="complex_object_perimeter">Периметр</string>
-  <string name="complex_object_radius">Радиус</string>
-  <string name="complex_object_text">Текст</string>
-  <string name="coordinate_neh">VRS(NEH)</string>
-  <string name="coordinate_origin">Исходные</string>
-  <string name="coordinate_system">Система координат</string>
-  <string name="coordinate_wgs84">wgs84</string>
-  <string name="cs_changed_what_to_do">Хотите просто заменить СК или пересчитать точки?</string>
-  <string name="data_location_description">Все данные программа JMT хранит в подпапке javad. Эта подпапка может быть размещена в разных местах. Здесь можно выбрать это места. При смене места, JMT перенесет все данные в новое местоположение</string>
-  <string name="data_location_title">Размещение данных</string>
-  <string name="description">Описание</string>
-  <string name="east">Восток</string>
-  <string name="external_storage_string">Внешнее хранилище</string>
-  <string name="feature_name">Имя</string>
-  <string name="height">Высота</string>
-  <string name="height_slant">Накл.</string>
-  <string name="height_type">Тип высоты</string>
-  <string name="height_vertical">Верт.</string>
-  <string name="job_comment">Комментарий</string>
-  <string name="job_cs_changed">Смена СК проекта</string>
-  <string name="job_name">Имя</string>
-  <string name="job_organization">Организация</string>
-  <string name="job_surveyor">Съемщик</string>
-  <string name="jobs_are_located">Файлы проектов находятся в папке</string>
-  <string name="localization">Локализация</string>
-  <string name="measure_units">Единицы измерения</string>
-  <string name="new_arc">Новая дуга</string>
-  <string name="new_circle">Новый Круг</string>
-  <string name="new_polygon">Новый полигон</string>
-  <string name="new_text">Новый текст</string>
-  <string name="north">Север</string>
-  <string name="point_name">Имя</string>
-  <string name="recompute_job_coordinates">Пересчитать координаты выносные/тах.</string>
-  <string name="rtk_base_info">RTK База:\n</string>
-  <string name="rtpk_info">RTPK:\n</string>
-  <string name="scoped_storage_string">Внутренее хранилище</string>
-  <string name="search_hint">Поиск</string>
-  <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
-  <string name="sort_description">Сортировать по</string>
-  <string name="storage_antenna_use_vertical_offset">Отступ марки</string>
-  <string name="storage_mark_height">Высота марки</string>
-  <string name="storage_mark_id">Марка</string>
-  <string name="string_base_id_string">Ид.базы</string>
-  <string name="string_code_sort">Код</string>
-  <string name="string_codehint">Код</string>
-  <string name="string_color">Цвет</string>
-  <string name="string_comment_sort">Комментарий</string>
-  <string name="string_connect">Связь</string>
-  <string name="string_descriptionhint">Описание</string>
-  <string name="string_dpos_sort">Обработка</string>
-  <string name="string_duplicate_job_xml">Создать копию проекта</string>
-  <string name="string_edit_job_xml">Правка проекта</string>
-  <string name="string_filename_sort">Имяфайла</string>
-  <string name="string_filename_xml">Jps файл</string>
-  <string name="string_id_sort">Ид</string>
-  <string name="string_lift_tilt_survey_info">Съемка Lift-Tilt</string>
-  <string name="string_menu_export">Экспорт</string>
-  <string name="string_menu_import">Импорт</string>
-  <string name="string_name_sort">Имя</string>
-  <string name="string_new_job">Новый проект</string>
-  <string name="string_radius">Радиус</string>
-  <string name="string_reference_frame">Отчетная СК</string>
-  <string name="string_rtpk_survey">RTPK</string>
-  <string name="string_settings">Настройки</string>
-  <string name="string_text">Текст</string>
-  <string name="string_time_sort">Время</string>
-  <string name="survey_info">Съем.Информация:\n\n</string>
-  <string name="units_storage">Един.измерения</string>
-  <string name="user_storage_string">Положение заданное пользователем</string>
-  <string name="vertex_count">Вершины</string>
-  <string name="write_to_text_files">Писать в текстовые файлы</string>
+
+    <!-- Used in file activity_data_location.xml:114. Original value:Copy/Move data from folder    -->
+    <string name="check_copy_from_folder">Копировать/переместить данные из папки</string>
+    <!-- Used in file jobs.xml:70. Original value:Archive Folder    -->
+    <string name="action_arhieve_folder">Архивация проектов</string>
+    <!-- Used in file activity_job.xml:50. Original value:Surveyor    -->
+    <string name="job_surveyor">Съемщик</string>
+    <!-- Used in file activity_code_values.xml:21. Original value:Sort by    -->
+    <string name="sort_description">Сортировать по</string>
+    <!-- Used in file CodesActivity.java:132. Original value:Comment    -->
+    <string name="string_comment_sort">Комментарий</string>
+    <!-- Used in file home_map_points.xml:31. Original value:Survey Points    -->
+    <string name="action_show_survey_on">Снят.</string>
+    <!-- Used in file home_map_points.xml:61. Original value:Cut Sheet    -->
+    <string name="action_show_stakeout_report_on">Отчет о выноске</string>
+    <!-- Used in file DataLocationActivity.java:847. Original value:Move from folder is equal to new(to) folder!    -->
+    <string name="move_from_folder_is_equal_move_to_folder">Папка Из совпадает с новой(в) папкой!</string>
+    <!-- Used in file TSPointSurveyInfoActivity.java:101. Original value:Lift&amp;Tilt Survey    -->
+    <string name="string_lift_tilt_survey_info">Съемка Lift-Tilt</string>
+    <!-- Used in file rtkbases.xml:23. Original value:Sort    -->
+    <string name="action_sort">Сортировка</string>
+    <!-- Used in file activity_archive_folder.xml:155. Original value:Archive to OneDrive    -->
+    <string name="archive_onedrive">Архивировать в OneDrive</string>
+    <!-- Used in file ComplexObjectListAdapter.java:155. Original value:Text    -->
+    <string name="complex_object_text">Текст</string>
+    <!-- Used in file DataLocationActivity.java:807. Original value:Javad storage folder is not set    -->
+    <string name="current_javad_folder_is_absent">Папка javad не установлена!</string>
+    <!-- Used in file activity_point.xml:227. Original value:QGrid    -->
+    <string name="coordinate_qgrid">БыстраяСК</string>
+    <!-- Used in file DataLocationActivity.java:434. Original value:External Storage access error!    -->
+    <string name="external_storage_access_error">Ошибка доступа к внешнему хранилищу!</string>
+    <!-- Used in file DataLocationActivity.java:271. Original value:Synch.    -->
+    <string name="synch_synch_button">Synch.</string>
+    <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
+    <string name="height_vertical">Верт.</string>
+    <!-- Used in file activity_design_point.xml:30. Original value:Name    -->
+    <string name="point_name">Имя</string>
+    <!-- Used in file design_points.xml:42. Original value:Import    -->
+    <string name="string_menu_import">Импорт</string>
+    <!-- Used in file null:0. Original value:The new folder is not empty    -->
+    <string name="string_the_new_folder_is_not_empty">The new folder is not empty</string>
+    <!-- Used in file DataLocationActivity.java:246. Original value:Do you want to copy data from external folder to internal storage?    -->
+    <string name="string_copy_from_warning_text">Do you want to copy data from external folder to internal storage?</string>
+    <!-- Used in file activity_rtkbase.xml:234. Original value:Jps file    -->
+    <string name="string_filename_xml">Jps файл</string>
+    <!-- Used in file activity_data_location.xml:174. Original value:&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;    -->
+    <string name="button_sync_both_directions">&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;</string>
+    <!-- Used in file ComplexObjectListAdapter.java:162. Original value:Radius    -->
+    <string name="complex_object_radius">Радиус</string>
+    <!-- Used in file PointsFragment.java:1154. Original value:New Circle    -->
+    <string name="new_circle">Новый Круг</string>
+    <!-- Used in file codes.xml:49. Original value:Export    -->
+    <string name="action_map_export">Экспорт</string>
+    <!-- Used in file JobActivity.java:102. Original value:New Job    -->
+    <string name="string_new_job">Новый проект</string>
+    <!-- Used in file PointsFragment.java:384. Original value:Code    -->
+    <string name="string_code_sort">Код</string>
+    <!-- Used in file JobActivity.java:285. Original value:Job CS Changed     -->
+    <string name="job_cs_changed">Смена СК проекта</string>
+    <!-- Used in file design_points.xml:61. Original value:Delete All Design    -->
+    <string name="action_delete_all">Удалить все выносные</string>
+    <!-- Used in file activity_job.xml:175. Original value:Write to text files    -->
+    <string name="write_to_text_files">Писать в текстовые файлы</string>
+    <!-- Used in file RTKBasesActivity.java:103. Original value:Filename    -->
+    <string name="string_filename_sort">Имяфайла</string>
+    <!-- Used in file activity_job.xml:133. Original value:Localization    -->
+    <string name="localization">Локализация</string>
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:124. Original value:RTPK    -->
+    <string name="string_rtpk_survey">RTPK</string>
+    <!-- Used in file points.xml:57. Original value:Zoom All    -->
+    <string name="action_map_zoomall">Показать все</string>
+    <!-- Used in file activity_code.xml:121. Original value: ___ Fields ___    -->
+    <string name="code_fields">&quot; ___ Поля  ___&quot;</string>
+    <!-- Used in file CodesActivity.java:133. Original value:Time    -->
+    <string name="string_time_sort">Время</string>
+    <!-- Used in file rtkbases.xml:15. Original value:Search    -->
+    <string name="action_search">Поиск</string>
+    <!-- Used in file activity_select_storage_location.xml:13. Original value:Android 11 requires store all data in internal application folder. JMT can store data in different locations.    -->
+    <string name="android_11_issue_description">Android 11 требует хранить все данные во внутренней папке приложения. Но JMT позволяет хранить данные в разных местах.</string>
+    <!-- Used in file list_complex_objects_list_details.xml:59. Original value:Perimeter    -->
+    <string name="complex_object_perimeter">Периметр</string>
+    <!-- Used in file activity_point_antenna.xml:64. Original value:Height Type    -->
+    <string name="height_type">Тип высоты</string>
+    <!-- Used in file activity_point.xml:203. Original value:Wgs84    -->
+    <string name="coordinate_wgs84">wgs84</string>
+    <!-- Used in file PointsFragment.java:1155. Original value:New Arc    -->
+    <string name="new_arc">Новая дуга</string>
+    <!-- Used in file JobActivity.java:104. Original value:Duplicate Job    -->
+    <string name="string_duplicate_job_xml">Создать копию проекта</string>
+    <!-- Used in file DataLocationActivity.java:758. Original value:Permisisons for Storage folder are not granted!    -->
+    <string name="storage_permissions_are_not_granted">Доступ к хранилищу данных не разрешен, нет разрешений!</string>
+    <!-- Used in file activity_ts_point.xml:200. Original value:SurveyInfo:\n\n\n    -->
+    <string name="survey_info">Съем.Информация:\n\n</string>
+    <!-- Used in file activity_data_location.xml:42. Original value:Data Location    -->
+    <string name="data_location_title">Размещение данных</string>
+    <!-- Used in file activity_archive_folder.xml:118. Original value:Archive GoogleDrive    -->
+    <string name="archive_googledrive">Архивировать в GoogleDrive</string>
+    <!-- Used in file activity_complex_object_text.xml:86. Original value:Text    -->
+    <string name="string_text">Текст</string>
+    <!-- Used in file activity_rover_points_from_base.xml:16. Original value:Search    -->
+    <string name="search_hint">Поиск</string>
+    <!-- Used in file home_map_points.xml:67. Original value:View    -->
+    <string name="action_view">Просмотр</string>
+    <!-- Used in file activity_data_location.xml:66. Original value:User-defined Location    -->
+    <string name="user_storage_string">Положение заданное пользователем</string>
+    <!-- Used in file activity_code.xml:204. Original value:Def.Value    -->
+    <string name="code_def_value">По умолч.</string>
+    <!-- Used in file DataLocationActivity.java:222. Original value:Do you want to copy data from internal storage to external folder?    -->
+    <string name="string_copy_to_warning_text">Do you want to copy data from internal storage to external folder?</string>
+    <!-- Used in file code.xml:15. Original value:Apply    -->
+    <string name="action_apply">Применить</string>
+    <!-- Used in file JobsActivity.java:1055. Original value:Address    -->
+    <string name="string_address_sort">Address</string>
+    <!-- Used in file jobs.xml:8. Original value:Add    -->
+    <string name="action_add">Добавить</string>
+    <!-- Used in file activity_point_antenna.xml:44. Original value:Antenna Height    -->
+    <string name="antenna_height_storage">Высота антенны</string>
+    <!-- Used in file code_values.xml:11. Original value:Grid    -->
+    <string name="action_list_grid">Таблица</string>
+    <!-- Used in file activity_ts_point_antenna.xml:50. Original value:Mark Height    -->
+    <string name="storage_mark_height">Высота марки</string>
+    <!-- Used in file activity_archive_folder.xml:38. Original value:Select folder    -->
+    <string name="button_select_folder">Выбор папки</string>
+    <!-- Used in file survey_point.xml:8. Original value:Delete Point    -->
+    <string name="action_delete_point">Удалить точку</string>
+    <!-- Used in file home_map_points.xml:37. Original value:Design Points    -->
+    <string name="action_show_design_on">Вын.</string>
+    <!-- Used in file rtkbases.xml:8. Original value:Map    -->
+    <string name="action_map">Карта</string>
+    <!-- Used in file activity_job.xml:109. Original value:Coordinate System    -->
+    <string name="coordinate_system">Система координат</string>
+    <!-- Used in file CodesActivity.java:134. Original value:Count    -->
+    <string name="string_count_sort">Count</string>
+    <!-- Used in file rtkbases.xml:47. Original value:Export    -->
+    <string name="action_export">Экспорт</string>
+    <!-- Used in file activity_design_point.xml:71. Original value:Code    -->
+    <string name="code">Код</string>
+    <!-- Used in file ExportAndReport.java:240. Original value:Export Format is not selected!    -->
+    <string name="export_format_is_not_selected">Формат экспорт не выбран!</string>
+    <!-- Used in file activity_ts_point_antenna.xml:37. Original value:Mark    -->
+    <string name="storage_mark_id">Марка</string>
+    <!-- Used in file home_map_points.xml:43. Original value:TS Points    -->
+    <string name="action_show_ts_on">Тах.</string>
+    <!-- Used in file activity_code.xml:217. Original value:Max.Length    -->
+    <string name="code_max_length">Макс.длина</string>
+    <!-- Used in file home_map_points.xml:49. Original value:RTK Bases    -->
+    <string name="action_show_base_on">RTK базы</string>
+    <!-- Used in file JobActivity.java:287. Original value:Recompute Design/TS coordinates    -->
+    <string name="recompute_job_coordinates">Пересчитать координаты выносные/тах.</string>
+    <!-- Used in file activity_archive_folder.xml:124. Original value:Authorize GoogleDrive    -->
+    <string name="button_authorize_googledrive">Авторизация GoogleDrive</string>
+    <!-- Used in file activity_data_location.xml:59. Original value:External Storage    -->
+    <string name="external_storage_string">Внешнее хранилище</string>
+    <!-- Used in file activity_complex_object_polygon.xml:78. Original value:Color    -->
+    <string name="string_color">Цвет</string>
+    <!-- Used in file list_complex_objects_list_details.xml:52. Original value:Area    -->
+    <string name="complex_object_area">Площадь</string>
+    <!-- Used in file DataLocationActivity.java:839. Original value:From folder is absent!    -->
+    <string name="move_from_folder_is_absent">Отсутствует папка Из!</string>
+    <!-- Used in file DataLocationActivity.java:811. Original value:An error occured while set javad storage folder!    -->
+    <string name="javad_folder_set_error">Ошибка при утсановке папки javad!</string>
+    <!-- Used in file activity_point_antenna.xml:107. Original value:Recalculate    -->
+    <string name="button_recalculaye">Пересчитать</string>
+    <!-- Used in file points.xml:48. Original value:Contouring    -->
+    <string name="action_contouring">Изолинии</string>
+    <!-- Used in file activity_archive_folder.xml:86. Original value:Authorize Dropbox    -->
+    <string name="button_authorize_dropbox">Авторизация в Dropbox</string>
+    <!-- Used in file activity_data_location.xml:19. Original value:All data of JMT application are stored inside javad subfolder. And the location of the folder can be different. This dialog let you select the location. In this case JMT can move all data to new location.    -->
+    <string name="data_location_description">Все данные программа JMT хранит в подпапке javad. Эта подпапка может быть размещена в разных местах. Здесь можно выбрать это места. При смене места, JMT перенесет все данные в новое местоположение</string>
+    <!-- Used in file activity_design_point.xml:134. Original value:Height    -->
+    <string name="height">Высота</string>
+    <!-- Used in file activity_job.xml:70. Original value:Organization    -->
+    <string name="job_organization">Организация</string>
+    <!-- Used in file codes.xml:42. Original value:Import    -->
+    <string name="action_map_import">Импорт</string>
+    <!-- Used in file activity_code.xml:176. Original value:Name    -->
+    <string name="feature_name">Имя</string>
+    <!-- Used in file activity_archive_folder.xml:132. Original value:Sync Jobs with GoogleDrive    -->
+    <string name="button_sync_jobs_googledrive">Синхринизовать проекты с GoogleDrive</string>
+    <!-- Used in file activity_data_location.xml:197. Original value:Select Sync Folder    -->
+    <string name="button_select_sync_folder">Select Sync Folder</string>
+    <!-- Used in file activity_job.xml:90. Original value:Comment    -->
+    <string name="job_comment">Комментарий</string>
+    <!-- Used in file JobActivity.java:287. Original value:Change CS Id only for Design/TS    -->
+    <string name="change_cs_id_only">Заменить СК для выносных/тах.</string>
+    <!-- Used in file activity_select_storage_location.xml:18. Original value:Select JMT data location:    -->
+    <string name="select_storage_location">Выберите расположение данных JMT:</string>
+    <!-- Used in file codes.xml:55. Original value:Delete All Codes    -->
+    <string name="action_delete_all_codes">Удалить все коды</string>
+    <!-- Used in file activity_archive_folder.xml:80. Original value:Archive to Dropbox    -->
+    <string name="archive_dropbox">Архивация в Dropbox</string>
+    <!-- Used in file activity_rtkbase.xml:51. Original value:Base Id    -->
+    <string name="string_base_id_string">Ид.базы</string>
+    <!-- Used in file activity_ts_point.xml:188. Original value:Antenna    -->
+    <string name="button_antenna">Антенна</string>
+    <!-- Used in file home_map_points.xml:55. Original value:Drawings    -->
+    <string name="action_show_complex_on">Графика</string>
+    <!-- Used in file null:0. Original value:Can not copy from folder    -->
+    <string name="string_can_not_copy_from_folder">Can not copy from folder</string>
+    <!-- Used in file activity_rtkbase.xml:173. Original value:Ref.Frame    -->
+    <string name="string_reference_frame">Отчетная СК</string>
+    <!-- Used in file activity_point.xml:286. Original value:RTK Base:\n    -->
+    <string name="rtk_base_info">RTK База:\n</string>
+    <!-- Used in file DataLocationActivity.java:223. Original value:Copy To    -->
+    <string name="synch_to_button">Copy To</string>
+    <!-- Used in file activity_archive_folder.xml:94. Original value:Sync Jobs with Dropbox    -->
+    <string name="button_sync_jobs_dropbox">Синхронизовать проекты с Dropbox</string>
+    <!-- Used in file home_map_points.xml:138. Original value:Remove empty drawings    -->
+    <string name="action_remove_empty_drawings">Удалить пустые примитивы</string>
+    <!-- Used in file home_map_points.xml:145. Original value:Settings    -->
+    <string name="string_settings">Настройки</string>
+    <!-- Used in file DataLocationActivity.java:247. Original value:Copy From    -->
+    <string name="synch_from_button">Copy From</string>
+    <!-- Used in file activity_job.xml:30. Original value:Name    -->
+    <string name="job_name">Имя</string>
+    <!-- Used in file PointsFragment.java:1153. Original value:New Text    -->
+    <string name="new_text">Новый текст</string>
+    <!-- Used in file PointsFragment.java:1152. Original value:New Polygon    -->
+    <string name="new_polygon">Новый полигон</string>
+    <!-- Used in file activity_archive_folder.xml:161. Original value:Authorize OneDrive    -->
+    <string name="button_authorize_onedrive">Авторизовать OneDrive</string>
+    <!-- Used in file activity_ts_point_antenna.xml:71. Original value:Mark Offset    -->
+    <string name="storage_antenna_use_vertical_offset">Отступ марки</string>
+    <!-- Used in file rtkbases.xml:31. Original value:Calendar    -->
+    <string name="action_calendar">Календарь</string>
+    <!-- Used in file jobs.xml:76. Original value:Delete    -->
+    <string name="action_delete">Удалить</string>
+    <!-- Used in file RTKBasesActivity.java:104. Original value:Process    -->
+    <string name="string_dpos_sort">Обработка</string>
+    <!-- Used in file activity_code.xml:196. Original value:Type    -->
+    <string name="code_type">Тип</string>
+    <!-- Used in file PointsFragment.java:386. Original value:Distance    -->
+    <string name="string_distance_sort">Distance</string>
+    <!-- Used in file JobActivity.java:286. Original value:Do you want to just replace CS Id with new CS Id, or recompute coordinates    -->
+    <string name="cs_changed_what_to_do">Хотите просто заменить СК или пересчитать точки?</string>
+    <!-- Used in file DataLocationActivity.java:268. Original value:Confirmation    -->
+    <string name="string_warning_copy">Confirmation</string>
+    <!-- Used in file activity_data_location.xml:154. Original value:Synch. with external folder in background    -->
+    <string name="check_sync_in_background">Synch. with external folder in background</string>
+    <!-- Used in file activity_design_point.xml:51. Original value:Descr.    -->
+    <string name="description">Описание</string>
+    <!-- Used in file activity_point.xml:273. Original value:RTPK:\n    -->
+    <string name="rtpk_info">RTPK:\n</string>
+    <!-- Used in file design_points.xml:48. Original value:Export    -->
+    <string name="string_menu_export">Экспорт</string>
+    <!-- Used in file DataLocationActivity.java:817. Original value:Copy/Move folder is not selected!\nPlease click button to select the folder.    -->
+    <string name="copy_from_folder_is_not_selected">Папка для копирования/перемещения не выбрана! Нажмите кнопку для выбора папки.</string>
+    <!-- Used in file activity_code.xml:164. Original value:Del    -->
+    <string name="button_delete">-</string>
+    <!-- Used in file null:0. Original value:Change folder only, do not move data    -->
+    <string name="string_change_folder_only__do_not_move_data">Изменить папку не перенося данные</string>
+    <!-- Used in file activity_job.xml:163. Original value:Measure Units    -->
+    <string name="measure_units">Единицы измерения</string>
+    <!-- Used in file activity_point_antenna.xml:28. Original value:Antenna Type    -->
+    <string name="antenna_type">Антенна</string>
+    <!-- Used in file RTKBasesActivity.java:101. Original value:Id    -->
+    <string name="string_id_sort">Ид</string>
+    <!-- Used in file activity_complex_object_polygon.xml:47. Original value:Modify    -->
+    <string name="button_modify">Изменить</string>
+    <!-- Used in file activity_archive_folder.xml:26. Original value:Auto Archive Jobs to Folder    -->
+    <string name="check_archive_folder">Автоархивация проектов в папку</string>
+    <!-- Used in file list_points_list_short.xml:131. Original value:Description    -->
+    <string name="string_descriptionhint">Описание</string>
+    <!-- Used in file activity_data_location.xml:26. Original value:Android 11 requires to store all app data in the internal storage.\nJMT allows to work with external storage as previously, but this will degradate performance.    -->
+    <string name="data_location_description_android11">&quot;Android 11 требует чтобы все данные хранились во внутренней папке приложения. JMT позволяет работать и с внешнем хранилищем, но при этом упадет быстродействие. &quot;</string>
+    <!-- Used in file activity_data_location.xml:53. Original value:Scoped Storage    -->
+    <string name="scoped_storage_string">Внутренее хранилище</string>
+    <!-- Used in file activity_data_location.xml:166. Original value:&lt;&#x002d;&#x002d; Copy To folder    -->
+    <string name="button_sync_to_folder">&lt;&#x002d;&#x002d; Copy To folder</string>
+    <!-- Used in file activity_select_storage_location.xml:48. Original value:User Defined Location    -->
+    <string name="string_user_defined">Папка пользователя</string>
+    <!-- Used in file activity_design_point.xml:92. Original value:North    -->
+    <string name="north">Север</string>
+    <!-- Used in file activity_select_storage_location.xml:40. Original value:External Storage    -->
+    <string name="string_external_storage">Внешнее хранилище</string>
+    <!-- Used in file activity_complex_object_circle.xml:86. Original value:Radius    -->
+    <string name="string_radius">Радиус</string>
+    <!-- Used in file DataLocationActivity.java:270. Original value:Do you want to synchronize data between external folder and internal storage?    -->
+    <string name="string_copy_sync_warning_text">Do you want to synchronize data between external folder and internal storage?</string>
+    <!-- Used in file JobActivity.java:106. Original value:Edit Job    -->
+    <string name="string_edit_job_xml">Правка проекта</string>
+    <!-- Used in file activity_data_location.xml:132. Original value:Select From Folder    -->
+    <string name="button_select_copy_folder">Select From Folder</string>
+    <!-- Used in file activity_job.xml:194. Original value:Show antenna vertical offset    -->
+    <string name="show_antenna_offsets">Показывать верт.отступ антенны</string>
+    <!-- Used in file activity_code.xml:154. Original value:Add    -->
+    <string name="button_add">+</string>
+    <!-- Used in file activity_archive_folder.xml:19. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
+    <string name="archive_description">Объем встроенной памяти устройства ограничен. Для сохранения места можно включить архивацию на SD-карту в выбранную папку. При открытие проекта, предыдущий будет перенесен на SD-карту</string>
+    <!-- Used in file activity_code.xml:64. Original value:Name / Number    -->
+    <string name="code_name_number">Имя / Число</string>
+    <!-- Used in file activity_select_storage_location.xml:32. Original value:Internal Storage    -->
+    <string name="string_internal_storage">Внутреннее хранилище</string>
+    <!-- Used in file jobs.xml:64. Original value:Receive    -->
+    <string name="action_receive">Получить</string>
+    <!-- Used in file activity_complex_object_polygon.xml:38. Original value:Restore    -->
+    <string name="button_reset_vb_rtk">Восстановить</string>
+    <!-- Used in file jobs.xml:58. Original value:Import    -->
+    <string name="action_import">Импорт</string>
+    <!-- Used in file activity_code.xml:243. Original value:Max.Value    -->
+    <string name="code_max_value">Макс.значение</string>
+    <!-- Used in file DataLocationActivity.java:843. Original value:New(to) folder is absent!    -->
+    <string name="move_to_folder_is_absent">Отсутствует папка в!</string>
+    <!-- Used in file activity_point_antenna.xml:79. Original value:Slant    -->
+    <string name="height_slant">Накл.</string>
+    <!-- Used in file activity_point.xml:219. Original value:VRS(NEH)    -->
+    <string name="coordinate_neh">VRS(NEH)</string>
+    <!-- Used in file list_points_list_short.xml:71. Original value:Code    -->
+    <string name="string_codehint">Код</string>
+    <!-- Used in file activity_archive_folder.xml:46. Original value:Jobs are located in folder    -->
+    <string name="jobs_are_located">Файлы проектов находятся в папке</string>
+    <!-- Used in file CodesActivity.java:131. Original value:Name    -->
+    <string name="string_name_sort">Имя</string>
+    <!-- Used in file activity_data_location.xml:182. Original value:Copy From folder &#x002d;&#x002d;&gt;    -->
+    <string name="button_sync_from_folder">Copy From folder &#x002d;&#x002d;&gt;</string>
+    <!-- Used in file activity_code.xml:102. Original value:Description    -->
+    <string name="code_comment">Описание</string>
+    <!-- Used in file activity_point_antenna.xml:88. Original value:Vertical Offset    -->
+    <string name="antenna_vertical_offset">Вертикальный отступ</string>
+    <!-- Used in file activity_design_point.xml:113. Original value:East    -->
+    <string name="east">Восток</string>
+    <!-- Used in file code.xml:8. Original value:Cancel    -->
+    <string name="action_cancel">Отменить</string>
+    <!-- Used in file activity_code.xml:230. Original value:Min.Value    -->
+    <string name="code_min_value">Мин.значение</string>
+    <!-- Used in file activity_ts_point_antenna.xml:120. Original value:Units    -->
+    <string name="units_storage">Един.измерения</string>
+    <!-- Used in file DataLocationActivity.java:762. Original value:User Path folder is not selected!\nPlease click button to select the folder!    -->
+    <string name="user_path_is_not_selected">Папка пользователя не выбрана. Нажмите кнопку для выбора папки!</string>
+    <!-- Used in file activity_point.xml:211. Original value:Origin    -->
+    <string name="coordinate_origin">Исходные</string>
+    <!-- Used in file activity_archive_folder.xml:169. Original value:Sync Jobs to OneDrive    -->
+    <string name="button_sync_jobs_onedrive">Синхронизовать проект с OneDrive</string>
+    <!-- Used in file list_complex_objects_list_details.xml:45. Original value:Vertexes    -->
+    <string name="vertex_count">Вершины</string>
+    <!-- Used in file home_map_points.xml:9. Original value:Connect    -->
+    <string name="string_connect">Связь</string>
+    <!-- UNUSED STRING 
+    <string name="">Изменить папку не перенося данные</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_manual">вручную</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_autostop">автостоп</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_create_empty_drawing___dwg">Создать пустой чертеж *.dwg</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_drawing_with_ascii_data____">Подложка из ACII файла *.*</string>
+    -->
+
 </resources>
