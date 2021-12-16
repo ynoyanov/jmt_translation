@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file pref_mapinfo.xml:14 -->
+    <string-array name="report_to_do_values">
+         <item>Share result file</item>
+         <item>Open result file</item>
+         <item>Nothing</item>
+    </string-array>
+
+    <!-- Used in file pref_import_dwg.xml:11 -->
+    <string-array name="importobjectsvalues">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:20 -->
+    <string-array name="exporttrajectoriessarray">
+         <item>trajectories to 2d</item>
+         <item>trajectories To 3d</item>
+         <item>trajectories To 3d With Points</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:21 -->
+    <string-array name="exporttrajectoriesvalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+    </string-array>
+
+    <!-- Used in file pref_tots.xml:26 -->
+    <string-array name="tots_to_do_values">
+         <item>Send to TotalStation</item>
+         <item>Share result file</item>
+         <item>Open result file</item>
+         <item>Nothing</item>
+    </string-array>
+
+    <!-- Used in file pref_import_dwg.xml:10 -->
+    <string-array name="importobjectsarray">
+         <item>points only</item>
+         <item>points, lines, faces</item>
+         <item>faces only</item>
+    </string-array>
+
+    <!-- Used in file pref_mapinfo.xml:10 -->
+    <string-array name="exportobjectsarray">
+         <item>survey objects only</item>
+         <item>survey objects + drawing</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:12 -->
+    <string-array name="listvalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+
     <!-- Used in file activity_report_stimulsoft.xml:49 -->
     <string-array name="report_output_format">
          <item>PDF</item>
@@ -24,44 +82,10 @@
          <item>Height</item>
     </string-array>
 
-    <!-- Used in file pref_dxf.xml:18 -->
-    <string-array name="exportobjectsarray">
-         <item>survey objects only</item>
-         <item>survey objects + drawing</item>
-    </string-array>
-
-    <!-- Used in file pref_report.xml:10 -->
-    <string-array name="report_to_do_values">
-         <item>Share result file</item>
-         <item>Open result file</item>
-         <item>Nothing</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:19 -->
+    <!-- Used in file pref_mapinfo.xml:11 -->
     <string-array name="exportobjectsvalues">
          <item>1</item>
          <item>2</item>
-    </string-array>
-
-    <!-- Used in file pref_dxf.xml:12 -->
-    <string-array name="listvalues">
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-    </string-array>
-
-    <!-- Used in file pref_import_dwg.xml:11 -->
-    <string-array name="importobjectsvalues">
-         <item>0</item>
-         <item>1</item>
-    </string-array>
-
-    <!-- Used in file pref_import_dwg.xml:10 -->
-    <string-array name="importobjectsarray">
-         <item>points only</item>
-         <item>points and lines</item>
     </string-array>
 
 

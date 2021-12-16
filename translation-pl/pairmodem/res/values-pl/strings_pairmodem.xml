@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
-    <string name="modulation">Modulacja</string>
-    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
-    <string name="fec">FEC</string>
     <!-- Used in file item_device.xml:14. Original value:None    -->
     <string name="none">None</string>
-    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
-    <string name="protocol">Protokół</string>
-    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
-    <string name="hello_world">Witaj świecie!</string>
     <!-- Used in file activity_repeater.xml:55. Original value:RX Frequency, Hz    -->
     <string name="rx_frequency_hz">Częstotliwość RX, Hz</string>
     <!-- Used in file pair_modem.xml:13. Original value:WiFi    -->
@@ -19,20 +11,40 @@
     <string name="string_internal_radio">Radiow wewnętrzne</string>
     <!-- Used in file activity_repeater.xml:187. Original value:RTR Echo    -->
     <string name="rtr_echo">Echo RTR</string>
-    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
-    <string name="action_bluetooth">Bluetooth</string>
     <!-- Used in file activity_repeater.xml:226. Original value:Apply    -->
     <string name="button_apply">Zastosuj</string>
-    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
-    <string name="channel_spacing">Interwał kanałów</string>
     <!-- Used in file activity_load_firmware_modem_select.xml:41. Original value:Paired to receiver Radio    -->
     <string name="string_paired_radio">Sparowano z radiem odbiornika</string>
     <!-- Used in file main_bosch_2.xml:7. Original value:Refresh    -->
     <string name="refresh_bluetooth">Odśwież</string>
+    <!-- Used in file PairModemActivity.java:273. Original value:Select JLink radio to pair with    -->
+    <string name="text_select_jlink">Wybierz radio JLink aby się z nim połączyć</string>
+    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
+    <string name="call_sign">Call Sign</string>
+    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
+    <string name="tx_frequency_hz">Częstotliwość TX, Hz</string>
+    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
+    <string name="simplex_protocol_parameters">Parametry Simplex</string>
+    <!-- Used in file activity_find_rangefinder.xml:15. Original value:Connect Rangefinder as TS    -->
+    <string name="text_run_survey_with">Connect Rangefinder as TS</string>
+    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
+    <string name="button_read_from_radio">Od modemu</string>
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:584. Original value:Load firmware anyway    -->
+    <string name="string_load_firmware_anyway">Ładuj FW mimo wszystko</string>
+    <!-- Used in file activity_repeater.xml:129. Original value:Modulation    -->
+    <string name="modulation">Modulacja</string>
+    <!-- Used in file activity_repeater.xml:169. Original value:Error Correction (FEC)    -->
+    <string name="fec">FEC</string>
+    <!-- Used in file activity_repeater.xml:99. Original value:Protocol    -->
+    <string name="protocol">Protokół</string>
+    <!-- Used in file activity_main.xml:14. Original value:Hello world!    -->
+    <string name="hello_world">Witaj świecie!</string>
+    <!-- Used in file pair_modem.xml:7. Original value:Bluetooth    -->
+    <string name="action_bluetooth">Bluetooth</string>
+    <!-- Used in file activity_repeater.xml:148. Original value:Channel Spacing    -->
+    <string name="channel_spacing">Interwał kanałów</string>
     <!-- Used in file activity_load_firmware_modem_select.xml:47. Original value:Bluetooth Radio    -->
     <string name="string_bluetooth_radio">Radio Bluetooth</string>
-    <!-- Used in file PairModemActivity.java:267. Original value:Select JLink radio to pair with    -->
-    <string name="text_select_jlink">Wybierz radio JLink aby się z nim połączyć</string>
     <!-- Used in file activity_pair_modem.xml:24. Original value:Select HPT modem to pair    -->
     <string name="text_select_modem">Wybierz modem HPT aby sparować</string>
     <!-- Used in file activity_repeater.xml:159. Original value:Scrambling    -->
@@ -43,25 +55,15 @@
     <string name="text_receiver_info">Połączono z odbiornikiem</string>
     <!-- Used in file activity_find_repeater.xml:16. Original value:Select HPT Repeater to setup    -->
     <string name="text_select_repeater">Wybierz Repeater HPT aby go ustawić</string>
-    <!-- Used in file activity_repeater.xml:73. Original value:Call Sign    -->
-    <string name="call_sign">Call Sign</string>
-    <!-- Used in file activity_repeater.xml:37. Original value:TX Frequency, Hz    -->
-    <string name="tx_frequency_hz">Częstotliwość TX, Hz</string>
     <!-- Used in file activity_repeater.xml:91. Original value:Output Power    -->
     <string name="output_power_w">Output Power</string>
     <!-- Used in file main_bosch_2.xml:14. Original value:Settings    -->
     <string name="bluetooth_resttings">Settings</string>
-    <!-- Used in file activity_repeater.xml:110. Original value:Simplex Protocol Parameters    -->
-    <string name="simplex_protocol_parameters">Parametry Simplex</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:150. Original value:No connection to a Javad receiver    -->
+    <!-- Used in file LoadFirmwareModemSelectActivity.java:158. Original value:No connection to a Javad receiver    -->
     <string name="no_connection">Brak połączenie z odbiornikiem</string>
     <!-- Used in file activity_load_firmware_modem_select.xml:23. Original value:Select radio to update firmware    -->
     <string name="text_select_modem_2">Wybierz radio aby uaktualnić Firmware</string>
-    <!-- Used in file activity_find_rangefinder.xml:16. Original value:Select a Rangefinder    -->
+    <!-- Used in file activity_find_rangefinder.xml:24. Original value:Select a Rangefinder    -->
     <string name="text_select_rangefinder">Wybierz dalmierz</string>
-    <!-- Used in file activity_repeater.xml:215. Original value:From Radio    -->
-    <string name="button_read_from_radio">Od modemu</string>
-    <!-- Used in file LoadFirmwareModemSelectActivity.java:564. Original value:Load firmware anyway    -->
-    <string name="string_load_firmware_anyway">Ładuj FW mimo wszystko</string>
 
 </resources>

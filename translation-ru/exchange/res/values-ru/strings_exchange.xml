@@ -1,85 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2017 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor:
+          ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+          Furniel (c) 2013-2017
+          Android Localizer (aiLocalizer)
+        -->
 <resources>
-
-    <!-- Used in file activity_exchange_page1.xml:100. Original value:Receiver raw files    -->
-    <string name="radio_receiver_raw_files">Файлы приемника</string>
-    <!-- Used in file activity_exchange_page1.xml:34. Original value:Select direction    -->
-    <string name="text_send_receive">Выберите направление</string>
-    <!-- Used in file activity_exchange_qrcode.xml:27. Original value:Prev    -->
-    <string name="button_prev_qrcode">Пред.</string>
-    <!-- Used in file ExchangeQRCodeActivity.java:109. Original value:Scan the code with other device camera. Then press Next and repeat.    -->
-    <string name="scan_the_code_with_other_device">Отсканируйте этот код камерой другого устройства. Нажмите Далее и повторяйте</string>
-    <!-- Used in file exchange_bluetooth.xml:13. Original value:Enable Bluetooth    -->
-    <string name="exchange_enable_bluetooth">Вкл. Bluetooth</string>
-    <!-- Used in file ExchangePage1Activity.java:190. Original value:Receive &gt;&gt;    -->
-    <string name="do_receive">Получить &gt; &gt;</string>
-    <!-- Used in file activity_exchange_page1.xml:52. Original value:Receive    -->
-    <string name="radio_receive">Получить</string>
-    <!-- Used in file ExchangePage1Activity.java:190. Original value:Send &gt;&gt;    -->
-    <string name="do_send">Отправить &gt; &gt;</string>
-    <!-- Used in file exchange_bluetooth.xml:7. Original value:Refresh    -->
-    <string name="exchange_refresh">Обновить</string>
-    <!-- Used in file activity_exchange_page1.xml:165. Original value:WiFi Direct    -->
-    <string name="radio_wifi_direct">WiFi Direct</string>
-    <!-- Used in file activity_exchange_audio.xml:49. Original value:Send Data    -->
-    <string name="exchange_send">Отправить данные</string>
-    <!-- Used in file activity_exchange_network.xml:21. Original value:Select Send Controller    -->
-    <string name="text_select_send_controller">Выберите контролер отправки</string>
-    <!-- Used in file ExchangeDiskActivity.java:196. Original value:Click the list to select folder    -->
-    <string name="click_to_select">Нажмите в списке, чтобы выбрать папку</string>
-    <!-- Used in file activity_exchange_disk.xml:28. Original value:Select Folder:    -->
-    <string name="text_select_folder">Выберите папку:</string>
-    <!-- Used in file ExchangeQRCodeActivity.java:109. Original value:Point camera to qr-code on the send device.    -->
-    <string name="point_to_qrcode">Наведите камеру на QR-код передающего устройства</string>
-    <!-- Used in file activity_exchange_page1.xml:13. Original value:Next &gt;&gt;    -->
-    <string name="button_next_page">Далее &gt; &gt;</string>
-    <!-- Used in file activity_exchange_page1.xml:90. Original value:Catalogs    -->
-    <string name="radio_catalogs">Каталоги</string>
-    <!-- Used in file activity_exchange_page1.xml:182. Original value:Server    -->
-    <string name="radio_server">Сервер</string>
-    <!-- Used in file ExchangeDiskActivity.java:564. Original value:Folder is not selected!    -->
-    <string name="folder_is_not_selected">Папка не выбрана</string>
-    <!-- Used in file activity_exchange_page1.xml:95. Original value:Points    -->
-    <string name="radio_points">Точки</string>
-    <!-- Used in file activity_exchange_page1.xml:105. Original value:Coordinate Systems    -->
-    <string name="radio_coordinate_systems">Системы координат</string>
-    <!-- Used in file exchange_wifi.xml:15. Original value:Enable WiFi Direct    -->
-    <string name="exchange_enable_wifidirect">Вкл. WiFi Direct</string>
-    <!-- Used in file activity_exchange_page1.xml:46. Original value:Send    -->
-    <string name="radio_send">Передать</string>
-    <!-- Used in file activity_exchange_page1.xml:206. Original value:Audio    -->
-    <string name="radio_audio">Аудио</string>
-    <!-- Used in file activity_exchange_page1.xml:125. Original value:Files    -->
-    <string name="radio_files">Файлы</string>
-    <!-- Used in file activity_exchange_page1.xml:193. Original value:Disk/SD    -->
-    <string name="radio_disk">Диск/SD-карта</string>
-    <!-- Used in file activity_exchange_page1.xml:120. Original value:Survey Settings    -->
-    <string name="radio_survey_settings">Настройки съемки</string>
-    <!-- Used in file activity_exchange_qrcode.xml:41. Original value:Next    -->
-    <string name="button_next_qrcode">След.</string>
-    <!-- Used in file activity_exchange_page1.xml:115. Original value:Receiver Connections    -->
-    <string name="radio_receiver_connections">Подключения преимников</string>
-    <!-- Used in file exchange_network.xml:13. Original value:Enable Network    -->
-    <string name="exchange_enable_network">Вкл. сеть</string>
-    <!-- Used in file activity_exchange_page1.xml:85. Original value:Jobs    -->
-    <string name="radio_jobs">Проекты</string>
-    <!-- Used in file activity_exchange_page1.xml:110. Original value:Correction Sources    -->
-    <string name="radio_correction_sources">Источники поправок</string>
-    <!-- Used in file activity_exchange_page1.xml:176. Original value:Network    -->
-    <string name="radio_network">Сеть</string>
-    <!-- Used in file activity_exchange_page1.xml:149. Original value:Exchange via    -->
-    <string name="text_exchange_type">Обмен через</string>
-    <!-- Used in file activity_exchange_page1.xml:67. Original value:Select object type    -->
-    <string name="text_object_type">Выберите тип объектов</string>
-    <!-- Used in file activity_exchange_page1.xml:159. Original value:Bluetooth    -->
-    <string name="radio_bluetooth">Bluetooth</string>
-    <!-- Used in file activity_exchange_audio.xml:15. Original value:Input    -->
-    <string name="exchange_input">Ввод</string>
-    <!-- Used in file activity_exchange_server.xml:18. Original value:Orginization    -->
-    <string name="text_orginization">Организация</string>
-    <!-- Used in file ExchangePage1Activity.java:560. Original value:File is to large for this exchange type!    -->
-    <string name="file_size_is_to_large">Файл слишком большой для такого типа передачи!</string>
-    <!-- Used in file activity_exchange_page1.xml:199. Original value:Camera    -->
-    <string name="radio_camera">Камера</string>
-
+  <string name="button_next_page">Далее &gt; &gt;</string>
+  <string name="button_next_qrcode">След.</string>
+  <string name="button_prev_qrcode">Пред.</string>
+  <string name="click_to_select">Нажмите в списке, чтобы выбрать папку</string>
+  <string name="do_receive">Получить &gt; &gt;</string>
+  <string name="do_send">Отправить &gt; &gt;</string>
+  <string name="exchange_enable_bluetooth">Вкл. Bluetooth</string>
+  <string name="exchange_enable_network">Вкл. сеть</string>
+  <string name="exchange_enable_wifidirect">Вкл. WiFi Direct</string>
+  <string name="exchange_input">Ввод</string>
+  <string name="exchange_refresh">Обновить</string>
+  <string name="exchange_send">Отправить данные</string>
+  <string name="file_size_is_to_large">Файл слишком большой для такого типа передачи!</string>
+  <string name="folder_is_not_selected">Папка не выбрана</string>
+  <string name="point_to_qrcode">Наведите камеру на QR-код передающего устройства</string>
+  <string name="radio_audio">Аудио</string>
+  <string name="radio_bluetooth">Bluetooth</string>
+  <string name="radio_camera">Камера</string>
+  <string name="radio_catalogs">Каталоги</string>
+  <string name="radio_coordinate_systems">Системы координат</string>
+  <string name="radio_correction_sources">Источники поправок</string>
+  <string name="radio_disk">Диск/SD-карта</string>
+  <string name="radio_files">Файлы</string>
+  <string name="radio_jobs">Проекты</string>
+  <string name="radio_network">Сеть</string>
+  <string name="radio_points">Точки</string>
+  <string name="radio_receive">Получить</string>
+  <string name="radio_receiver_connections">Подключения преимников</string>
+  <string name="radio_receiver_raw_files">Файлы приемника</string>
+  <string name="radio_send">Передать</string>
+  <string name="radio_server">Сервер</string>
+  <string name="radio_survey_settings">Настройки съемки</string>
+  <string name="radio_wifi_direct">WiFi Direct</string>
+  <string name="scan_the_code_with_other_device">Отсканируйте этот код камерой другого устройства. Нажмите Далее и повторяйте</string>
+  <string name="text_exchange_type">Обмен через</string>
+  <string name="text_object_type">Выберите тип объектов</string>
+  <string name="text_orginization">Организация</string>
+  <string name="text_select_folder">Выберите папку:</string>
+  <string name="text_select_send_controller">Выберите контролер отправки</string>
+  <string name="text_send_receive">Выберите направление</string>
 </resources>

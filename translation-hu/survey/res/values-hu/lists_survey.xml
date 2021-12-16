@@ -1,482 +1,480 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<string-array name="antenna_ids_array">
-        <item>Triumph-1 belső</item>
-        <item>Triumph-2 belső</item>
-        <item>GISMore belső</item>
-        <item>Grant external</item>
-        </string-array>
-    
-<string-array name="occupation_time_array">
-        <item>1 perc</item>
-        <item>2 perc</item>
-        <item>3 perc</item>
-        <item>5 perc</item>
-        <item>10 perc</item>
-        <item>15 perc</item>
-        <item>20 perc</item>
-        <item>30 perc</item>
-        <item>45 perc</item>
-        <item>1 óra</item>
-        <item>2 óra</item>
-        <item>3 óra</item>
-        <item>4 óra</item>
-        <item>5 óra</item>
-        <item>6 óra</item>
-        <item>8 óra</item>
-        <item>10 óra</item>
-        <item>12 óra</item>
-        <item>15 óra</item>
-        <item>18 óra</item>
-        <item>24 óra</item>
-        <item>36 óra</item>
-        <item>48 óra</item>
-        <item>Kézi leállításig</item>
-        </string-array>
-
-<string-array name="occupation_time_rtk_array">
-        <item>1 mpc</item>
-        <item>3 mpc</item>
-        <item>5 mpc</item>
-        <item>10 mpc</item>
-        <item>15 mpc</item>
-        <item>20 mpc</item>
-        <item>30 mpc</item>
-        <item>45 mpc</item>
-        <item>1 perc</item>
-        <item>2 perc</item>
-        <item>3 perc</item>
-        <item>5 perc</item>
-        <item>10 perc</item>
-        <item>15 perc</item>
-        <item>20 perc</item>
-        <item>30 perc</item>
-        <item>45 perc</item>
-        <item>1 óra</item>
-        <item>2 óra</item>
-        <item>3 óra</item>
-        <item>4 óra</item>
-        <item>5 óra</item>
-        <item>6 óra</item>
-        <item>10 óra</item>
-        <item>12 óra</item>
-        <item>24 óra</item>
-        <item>48 óra</item>
-        <item>Kézi leállításig</item>
-        </string-array>
-
-<string-array name="logging_rate_array">
-        <item>1 mpc</item>
-        <item>5 mpc</item>
-        <item>10 mpc</item>
-        <item>15 mpc</item>
-        <item>30 mpc</item>
-        <item>60 mpc</item>
-        </string-array>
-
-<string-array name="height_type_array">
-        <item>függőleges</item>
-        <item>ferde</item>
-        </string-array>
-
-<string-array name="units_array">
-        <item>méter</item>
-        <item>US feet</item>
-        <item>Int.feet</item>
-        </string-array>
-
-<string-array name="correction_source_array">
-        <item>Ki (nincs korrekció)</item>
-    	<item>Ntrip szerver</item>
-    	<item>RCV szerver</item>
-    		</string-array>
-
-<string-array name="correction_source_for_triumph_2_array">
-        <item>Ki (nincs korrekció)</item>
-    	<item>Ntrip szerver</item>
-    	<item>RCV szerver</item>
-    	<item>FH Bluetooth-on</item>
-    	<item>URH Bluetooth-on</item>
-    		</string-array>
-
-<string-array name="correction_source_for_triumph_1_array">
-        <item>Ki (nincs korrekció)</item>
-    	<item>Ntrip szerver</item>
-    	<item>RCV szerver</item>
-    	<item>FH Bluetooth-on</item>
-    	<item>URH Bluetooth-on</item>
-    	<item>Belső FH</item>
-    	<item>Belső URH</item>
-    			</string-array>
-    			
-<string-array name="correction_source_for_gismore_array">
-        <item>Ki (nincs korrekció)</item>
-    	<item>Ntrip szerver</item>
-    	<item>RCV szerver</item>
-    	<item>FH Bluetooth-on</item>
-    	<item>URH Bluetooth-on</item>
-    			</string-array>
-
-<string-array name="base_correction_destination_array">
-    	<item>FH Bluetooth-on</item>
-    	<item>URH Bluetooth-on</item>
-    	<item>FH B soros porton</item>
-    	<item>URH B soros porton</item>
-    	<item>Belső FH</item>
-    	<item>Belső URH</item>
- 				</string-array>
-
-
-<string-array name="correction_type_array">
-        <item>cmd</item>
-    	<item>rtcm3</item>
-    	<item>rtcm</item>
-    	<item>cmr</item>
-        <item>jps</item>
-        </string-array>
-
-<string-array name="use_epoch_array">
-        <item>Csak RTK Fix</item>
-    	<item>Fix, lebegő vagy DGPS</item>
-    	<item>Mind</item>
-        </string-array>
-
-<string-array name="base_correction_source_array">
-        <item>Unknown(off)</item>
-        <item>FH radio on Bluetooh B</item>
-        <item>UHF radio on Bluetooth B</item>
-        <item>FH radio on serial B</item>
-        <item>UHF radio on serial B</item>
-        </string-array>
-
-<string-array name="base_correction_source_for_triumph_1_array">
-        <item>Unknown(off)</item>
-        <item>FH radio on Bluetooh B</item>
-        <item>UHF radio on Bluetooth B</item>
-        <item>FH radio on serial B</item>
-        <item>UHF radio on serial B</item>
-        <item>Internal FH</item>
-        <item>Internal UHF</item>
-        </string-array>
-
-<string-array name="base_correction_source_for_triumph_2_array">
-        <item>Unknown(off)</item>
-        <item>FH radio on Bluetooh B</item>
-        <item>UHF radio on Bluetooth B</item>
-        </string-array>
-
-<string-array name="base_correction_port_array">
-        <item></item>
-        <item>dev/blt/b</item>
-        <item>dev/blt/a</item>
-        <item>dev/ser/b</item>
-        </string-array>
-
-<string-array name="base_correction_type_array">
-        <item>RTCM 3.x full</item>
-    	<item>RTCM 3.x min</item>
-    	<item>RTCM 3.x MSM</item>
-    	<item>CMR</item>
-    	<item>CMR+</item>
-        <item>JPS max</item>
-    	<item>JPS min</item>
-    	<item>RTCM 2.x full</item>
-    	<item>RTCM 2.x min</item>
-    	<item>RTCM 2.x DGPS</item>
-    	</string-array>
-    	
-<string-array name="base_correction_type_array_rcv">
-        <item>no corrections</item>
-    	<item>RTCM 3.x full</item>
-    	<item>RTCM 3.x min</item>
-    	<item>RTCM 3.x MSM</item>
-    	<item>CMR</item>
-    	<item>CMR+</item>
-        <item>JPS max</item>
-    	<item>JPS min</item>
-    	<item>RTCM 2.x full</item>
-    	<item>RTCM 2.x min</item>
-    	<item>RTCM 2.x DGPS</item>
-    	</string-array>
-
-
-
- <string-array name="connected_to_array">
-        <item>Radio on Bluetooth B</item>
-        <item>Radio on serial B</item>
-        <item>Internal radio</item>
- 		</string-array>
- 		
- <string-array name="connected_to_array_radio">
-        <item>Bluetooth B</item>
-        <item>Serial B</item>
-        <item>Internal radio</item>
- 		</string-array>
- 
- <string-array name="connected_to_array_radio_triumph1">
-        <item>Bluetooth B</item>
-        <item>Serial B</item>
-        <item>Internal radio</item>
- 		</string-array>
-
- <string-array name="connected_to_array_radio_triumph2">
-        <item>Bluetooth B</item>
- 		</string-array>
- 		
- <string-array name="connected_to_array_radio_gismore">
-        <item>Bluetooth B</item>
- 		</string-array>
- 
- <string-array name="connected_to_array_csd_triumph1">
-        <item>Internal GSM</item>
- 		</string-array>
- 
- <string-array name="connected_to_array_internet">
-        <item>the Android device</item>
- 		</string-array>
-        
- <string-array name="connected_to_array_internet_triumph1">
-        <item>the Android device</item>
-        <item>WiFi Triumph-1</item>
-        <item>3G Triumph-1</item>
-        <item>LAN Triumph-1</item>
-        		</string-array>
- 		
- <string-array name="connected_to_array_internet_triumph2">
-        <item>the Android device</item>
-        <item>WiFi Triumph-2</item>
- 		</string-array>
- 		
- <string-array name="connected_to_array_internet_gismore">
-        <item>the Android device</item>
-        <item>WiFi</item>
-        <item>3G GISMORE</item>
- 		</string-array>
- 
- 
- <string-array name="fh_output_power">
-        <item>0.020W / 13dBm</item>
-        <item>0.025W / 14dBm</item>
-        <item>0.030W / 15dBm</item>
-        <item>0.040W / 16dBm</item>
-        <item>0.050W / 17dBm</item>
-        <item>0.060W / 18dBm</item>
-        <item>0.080W / 19dBm</item>
-        <item>0.100W / 20dBm</item>
-        <item>0.120W / 21dBm</item>
-        <item>0.160W / 22dBm</item>
-        <item>0.200W / 23dBm</item>
-        <item>0.250W / 24dBm</item>
-        <item>0.320W / 25dBm</item>
-        <item>0.400W / 26dBm</item>
-        <item>0.500W / 27dBm</item>
-        <item>0.630W / 28dBm</item>
-        <item>0.800W / 29dBm</item>
-        <item>1.000W / 30dBm</item>
-        <item>1.300W / 31dBm</item>
-        <item>1.600W / 32dBm</item>
-        <item>2.000W / 33dBm</item>
-        <item>2.500W / 34dBm</item>
-        <item>3.200W / 35dBm</item>
-        <item>4.000W / 36dBm</item>
-        <item>5.000W / 37dBm</item>
-        <item>6.300W / 38dBm</item>
-        <item>8.000W / 39dBm</item>
-        <item>10.00W / 40dBm</item>
-        <item>14.00W / 41dBm</item>
-        <item>15.00W / 42dBm</item>
-        <item>20.00W / 43dBm</item>
-        <item>25.00W / 44dBm</item>
-        <item>35.00W / 45dBm</item>
-        </string-array>
-
- <string-array name="uhf_output_power">
-        <item>0.020W / 13dBm</item>
-        <item>0.025W / 14dBm</item>
-        <item>0.030W / 15dBm</item>
-        <item>0.040W / 16dBm</item>
-        <item>0.050W / 17dBm</item>
-        <item>0.060W / 18dBm</item>
-        <item>0.080W / 19dBm</item>
-        <item>0.100W / 20dBm</item>
-        <item>0.120W / 21dBm</item>
-        <item>0.160W / 22dBm</item>
-        <item>0.200W / 23dBm</item>
-        <item>0.250W / 24dBm</item>
-        <item>0.320W / 25dBm</item>
-        <item>0.400W / 26dBm</item>
-        <item>0.500W / 27dBm</item>
-        <item>0.630W / 28dBm</item>
-        <item>0.800W / 29dBm</item>
-        <item>1.000W / 30dBm</item>
-        <item>1.300W / 31dBm</item>
-        <item>1.600W / 32dBm</item>
-        <item>2.000W / 33dBm</item>
-        <item>2.500W / 34dBm</item>
-        <item>3.200W / 35dBm</item>
-        <item>4.000W / 36dBm</item>
-        <item>5.000W / 37dBm</item>
-        <item>6.300W / 38dBm</item>
-        <item>8.000W / 39dBm</item>
-        <item>10.00W / 40dBm</item>
-        <item>14.00W / 41dBm</item>
-        <item>15.00W / 42dBm</item>
-        <item>20.00W / 43dBm</item>
-        <item>25.00W / 44dBm</item>
-        <item>35.00W / 45dBm</item>
-        </string-array>
- 
-<string-array name="orientation_array">
-        <item>Észak fent</item>
-        <item>Menetirány fent</item>
-</string-array>
-
-<string-array name="azimuth_array">
-        <item>Geodéziai</item>
-        <item>Mágneses</item>
-</string-array>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string-array name="radioArray">
-        <item>Do Not Setup</item>
-        <item>FH Radio</item>
-        <item>UHF Radio</item>
-    </string-array>
-    <string-array name="radioValues">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    
-        
-
-    <string-array name="freqRuleUsaArray">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-    </string-array>
-    <string-array name="freqRuleAusArray">
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
+    <!-- Used in file rtk_base.xml:123 -->
+    <string-array name="radioarray">
+         <item>Do Not Setup</item>
+         <item>FH Radio</item>
+         <item>UHF Radio</item>
     </string-array>
 
+    <!-- Used in file rtk_base_uhf.xml:31 -->
+    <string-array name="fh_output_power">
+         <item>0.02W / 13dBm</item>
+         <item>0.025W / 14dBm</item>
+         <item>0.03W / 15dBm</item>
+         <item>0.04W / 16dBm</item>
+         <item>0.05W / 17dBm</item>
+         <item>0.06W / 18dBm</item>
+         <item>0.08W / 19dBm</item>
+         <item>0.10W / 20dBm</item>
+         <item>0.12W / 21dBm</item>
+         <item>0.16W / 22dBm</item>
+         <item>0.20W / 23dBm</item>
+         <item>0.25W / 24dBm</item>
+         <item>0.32W / 25dBm</item>
+         <item>0.40W / 26dBm</item>
+         <item>0.50W / 27dBm</item>
+         <item>0.63W / 28dBm</item>
+         <item>0.80W / 29dBm</item>
+         <item>1.00W / 30dBm</item>
+         <item>1.30W / 31dBm</item>
+         <item>1.60W / 32dBm</item>
+         <item>2.00W / 33dBm</item>
+         <item>2.50W / 34dBm</item>
+         <item>3.20W / 35dBm</item>
+         <item>4.00W / 36dBm</item>
+         <item>5.00W / 37dBm</item>
+         <item>6.30W / 38dBm</item>
+         <item>8.00W / 39dBm</item>
+         <item>10.0W / 40dBm</item>
+         <item>14.0W / 41dBm</item>
+         <item>15.0W / 42dBm</item>
+         <item>20.0W / 43dBm</item>
+         <item>25.0W / 44dBm</item>
+         <item>35.0W / 45dBm</item>
+    </string-array>
 
+    <!-- Used in file FHPreferenceFragment.java:370 -->
+    <string-array name="freqruleusaarray">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+         <item>7</item>
+         <item>8</item>
+         <item>9</item>
+    </string-array>
+
+    <!-- Used in file SurveyingRTK.java:2397 -->
+    <string-array name="left_right_array">
+         <item>Left</item>
+         <item>Right</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:110 -->
+    <string-array name="antenna_ids_array">
+         <item>Triumph-1 belső</item>
+         <item>Triumph-2 belső</item>
+         <item>Triumph-3 belső</item>
+         <item>GISMore belső</item>
+         <item>Grant external</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:147 -->
+    <string-array name="units_array">
+         <item>méter</item>
+         <item>US feet</item>
+         <item>Int.feet</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:14 -->
+    <string-array name="orientation_array">
+         <item>Észak fent</item>
+         <item>Menetirány fent</item>
+         <item>By Sun</item>
+    </string-array>
+
+    <!-- Used in file activity_stakeout_line_target.xml:22 -->
+    <string-array name="stakeout_line_mode_array">
+         <item>2 points</item>
+         <item>1 point and azimuth</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:13 -->
+    <string-array name="connected_to_array">
+         <item>Radio on Bluetooth B</item>
+         <item>Radio on serial B</item>
+         <item>Internal radio</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:564 -->
+    <string-array name="connected_to_array_internet_gismore">
+         <item>the Android device</item>
+         <item>WiFi</item>
+         <item>3G GISMORE</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:206 -->
     <string-array name="base_correction_period_5_array">
-        <item>1 Hz</item>
-        <item>2 Hz</item>
-        <item>5 Hz</item>
-        <item>2 mpc</item>
-        <item>5 mpc</item>
+         <item>1 Hz</item>
+         <item>2 Hz</item>
+         <item>5 Hz</item>
+         <item>2 mpc</item>
+         <item>5 mpc</item>
     </string-array>
-    
+
+    <!-- Used in file RTKSetupActivity.java:572 -->
+    <string-array name="connected_to_array_radio">
+         <item>Bluetooth B</item>
+         <item>Serial B</item>
+         <item>Internal radio</item>
+    </string-array>
+
+    <!-- Used in file RTKBaseSettingsFragment.java:1224 -->
+    <string-array name="connected_to_array_csd_triumph1">
+         <item>Internal GSM</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_uhf2.xml:794 -->
+    <string-array name="uhf_output_power">
+         <item>0.03W / 15dBm</item>
+         <item>0.04W / 16dBm</item>
+         <item>0.05W / 17dBm</item>
+         <item>0.06W / 18dBm</item>
+         <item>0.08W / 19dBm</item>
+         <item>0.10W / 20dBm</item>
+         <item>0.12W / 21dBm</item>
+         <item>0.16W / 22dBm</item>
+         <item>0.20W / 23dBm</item>
+         <item>0.25W / 24dBm</item>
+         <item>0.32W / 25dBm</item>
+         <item>0.40W / 26dBm</item>
+         <item>0.50W / 27dBm</item>
+         <item>0.63W / 28dBm</item>
+         <item>0.80W / 29dBm</item>
+         <item>1.00W / 30dBm</item>
+         <item>1.30W / 31dBm</item>
+         <item>1.60W / 32dBm</item>
+         <item>2.00W / 33dBm</item>
+         <item>2.50W / 34dBm</item>
+         <item>3.20W / 35dBm</item>
+         <item>4.00W / 36dBm</item>
+         <item>5.00W / 37dBm</item>
+         <item>6.30W / 38dBm</item>
+         <item>8.00W / 39dBm</item>
+         <item>10.0W / 40dBm</item>
+         <item>14.0W / 41dBm</item>
+         <item>15.0W / 42dBm</item>
+         <item>20.0W / 43dBm</item>
+         <item>25.0W / 44dBm</item>
+         <item>35.0W / 45dBm</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_nethub.xml:127 -->
+    <string-array name="base_correction_type_array_rcv">
+         <item>no corrections</item>
+         <item>RTCM 3.x MSM3</item>
+         <item>RTCM 3.x MSM4 Short</item>
+         <item>RTCM 3.x MSM4</item>
+         <item>RTCM 3.0 Min (GPS+GLO only)</item>
+         <item>RTCM 3.0 Full</item>
+         <item>RTCM 2.0 Full</item>
+         <item>RTCM 2.0 Corrs.only</item>
+         <item>JPS Full</item>
+         <item>JPS Min</item>
+         <item>CMR</item>
+         <item>CMR+</item>
+         <item>RTCM 2.x DGPS Full</item>
+         <item>RTCM 2.x DGPS Part</item>
+    </string-array>
+
+    <!-- Used in file activity_rtk_setup.xml:111 -->
+    <string-array name="correction_source_array">
+         <item>Ki (nincs korrekció)</item>
+         <item>Ntrip szerver</item>
+         <item>RCV szerver</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:562 -->
+    <string-array name="connected_to_array_internet_triumph2">
+         <item>the Android device</item>
+         <item>WiFi Triumph-2</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:560 -->
+    <string-array name="connected_to_array_internet_triumph1">
+         <item>the Android device</item>
+         <item>WiFi Triumph-1</item>
+         <item>3G Triumph-1</item>
+         <item>LAN Triumph-1</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_uhf.xml:201 -->
+    <string-array name="base_correction_type_array">
+         <item>RTCM 3.x MSM3</item>
+         <item>RTCM 3.x MSM4 Short</item>
+         <item>RTCM 3.x MSM4</item>
+         <item>RTCM 3.0 Min (GPS+GLO only)</item>
+         <item>RTCM 3.0 Full</item>
+         <item>RTCM 2.0 Full</item>
+         <item>RTCM 2.0 Corrs.only</item>
+         <item>JPS Full</item>
+         <item>JPS Min</item>
+         <item>CMR</item>
+         <item>CMR+</item>
+         <item>RTCM 2.x DGPS Full</item>
+         <item>RTCM 2.x DGPS Part</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:576 -->
+    <string-array name="connected_to_array_radio_triumph2">
+         <item>Bluetooth B</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:574 -->
+    <string-array name="connected_to_array_radio_triumph1">
+         <item>Bluetooth B</item>
+         <item>Serial B</item>
+         <item>Internal radio</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:19 -->
+    <string-array name="azimuth_array">
+         <item>Geodéziai</item>
+         <item>Mágneses</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:124 -->
+    <string-array name="radiovalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:89 -->
+    <string-array name="occupation_time_rtk_array">
+         <item>Kézi leállításig</item>
+         <item>1 epoch</item>
+         <item>2 epochs</item>
+         <item>3 epochs</item>
+         <item>5 epochs</item>
+         <item>10 epochs</item>
+         <item>15 epochs</item>
+         <item>20 epochs</item>
+         <item>30 epochs</item>
+         <item>45 epochs</item>
+         <item>60 epochs</item>
+         <item>100 epochs</item>
+         <item>120 epochs</item>
+         <item>180 epochs</item>
+         <item>200 epochs</item>
+         <item>300 epochs</item>
+         <item>500 epochs</item>
+    </string-array>
+
+    <!-- Used in file activity_configure_ntrip.xml:243 -->
+    <string-array name="aux_port_array">
+         <item>dev/ser/a</item>
+         <item>dev/ser/b</item>
+         <item>dev/ser/c</item>
+         <item>dev/ser/d</item>
+         <item>dev/tcpcl/a</item>
+    </string-array>
+
+    <!-- Used in file rtk_base.xml:107 -->
+    <string-array name="logging_rate_array">
+         <item>1 mpc</item>
+         <item>5 mpc</item>
+         <item>10 mpc</item>
+         <item>15 mpc</item>
+         <item>30 mpc</item>
+         <item>60 mpc</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:130 -->
+    <string-array name="height_type_array">
+         <item>függőleges</item>
+         <item>ferde</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:259 -->
+    <string-array name="reference_frame_array">
+         <item>WGS84(ITRF2008)</item>
+         <item>NAD83(2011)</item>
+         <item>NAD83(PA11)</item>
+         <item>NAD83(CSRS)</item>
+         <item>NAD83(MA11)</item>
+         <item>ETRS89</item>
+         <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file activity_start_survey.xml:180 -->
+    <string-array name="occupation_time_array">
+         <item>1 perc</item>
+         <item>2 perc</item>
+         <item>3 perc</item>
+         <item>5 perc</item>
+         <item>10 perc</item>
+         <item>15 perc</item>
+         <item>20 perc</item>
+         <item>30 perc</item>
+         <item>45 perc</item>
+         <item>1 óra</item>
+         <item>2 óra</item>
+         <item>3 óra</item>
+         <item>4 óra</item>
+         <item>5 óra</item>
+         <item>6 óra</item>
+         <item>8 óra</item>
+         <item>10 óra</item>
+         <item>12 óra</item>
+         <item>15 óra</item>
+         <item>18 óra</item>
+         <item>24 óra</item>
+         <item>36 óra</item>
+         <item>48 óra</item>
+         <item>Kézi leállításig</item>
+    </string-array>
+
+    <!-- Used in file RTKSetupActivity.java:578 -->
+    <string-array name="connected_to_array_radio_gismore">
+         <item>Bluetooth B</item>
+    </string-array>
+
+    <!-- Used in file offset_survey.xml:141 -->
+    <string-array name="stakeout_line_offset_rl">
+         <item>R</item>
+         <item>L</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:260 -->
+    <string-array name="reference_frame_values_array">
+         <item>CSG_WGS_84</item>
+         <item>CSG_NAD83_2011</item>
+         <item>CSG_NAD83_PA11</item>
+         <item>CSG_NAD83_CSRS</item>
+         <item>CSG_NAD83_MA11</item>
+         <item>CSG_ETRS89</item>
+         <item>RTCM3</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_rcv.xml:16 -->
+    <string-array name="connected_to_array_internet">
+         <item>the Android device</item>
+    </string-array>
+
+    <!-- Used in file stakeout_settings.xml:66 -->
+    <string-array name="use_epoch_array">
+         <item>Csak RTK Fix</item>
+         <item>Fix, lebegő vagy DGPS</item>
+         <item>Mind</item>
+    </string-array>
+
+    <!-- Used in file rtk_base_nethub.xml:245 -->
+    <string-array name="dhcp_array">
+         <item>Off</item>
+         <item>Client</item>
+         <item>Server</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="base_correction_source_for_triumph_2_array">
+         <item>Unknown(off)</item>
+         <item>FH radio on Bluetooh B</item>
+         <item>UHF radio on Bluetooth B</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="correction_type_array">
+         <item>rtcm3</item>
+         <item>rtcm</item>
+         <item>cmr</item>
+         <item>jps</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="base_correction_destination_array">
+         <item>FH Bluetooth-on</item>
+         <item>URH Bluetooth-on</item>
+         <item>FH B soros porton</item>
+         <item>URH B soros porton</item>
+         <item>Belső FH</item>
+         <item>Belső URH</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="correction_type_array_rcv">
+         <item>cmd</item>
+         <item>rtcm3</item>
+         <item>rtcm</item>
+         <item>cmr</item>
+         <item>jps</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="correction_source_for_triumph_1_array">
+         <item>Ki (nincs korrekció)</item>
+         <item>Ntrip szerver</item>
+         <item>RCV szerver</item>
+         <item>FH Bluetooth-on</item>
+         <item>URH Bluetooth-on</item>
+         <item>Belső FH</item>
+         <item>Belső URH</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="base_correction_source_for_triumph_1_array">
+         <item>Unknown(off)</item>
+         <item>FH radio on Bluetooh B</item>
+         <item>UHF radio on Bluetooth B</item>
+         <item>FH radio on serial B</item>
+         <item>UHF radio on serial B</item>
+         <item>Internal FH</item>
+         <item>Internal UHF</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="base_correction_source_array">
+         <item>Unknown(off)</item>
+         <item>FH radio on Bluetooh B</item>
+         <item>UHF radio on Bluetooth B</item>
+         <item>FH radio on serial B</item>
+         <item>UHF radio on serial B</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="correction_source_for_gismore_array">
+         <item>Ki (nincs korrekció)</item>
+         <item>Ntrip szerver</item>
+         <item>RCV szerver</item>
+         <item>FH Bluetooth-on</item>
+         <item>URH Bluetooth-on</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="correction_source_for_triumph_2_array">
+         <item>Ki (nincs korrekció)</item>
+         <item>Ntrip szerver</item>
+         <item>RCV szerver</item>
+         <item>FH Bluetooth-on</item>
+         <item>URH Bluetooth-on</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="offset_types_array">
+         <item>OffLine</item>
+         <item>Along line</item>
+         <item>Intersection</item>
+         <item>Traverse</item>
+         <item>Perpendicular</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="stakeout_modes_array">
+         <item>Point Stakeout</item>
+         <item>Line Stakeout</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="base_correction_period_1_array">
-        <item>1 Hz</item>
-        <item>2 mpc</item>
-        <item>5 mpc</item>
-    </string-array>
-    
-	<string-array name="stakeout_modes_array">
-        <item>Point Stakeout</item>
-        <item>Line Stakeout</item>
+         <item>1 Hz</item>
+         <item>2 mpc</item>
+         <item>5 mpc</item>
     </string-array>
 
-	<string-array name="stakeout_line_mode_array">
-        <item>2 points</item>
-        <item>1 point and azimuth</item>
-    </string-array>
-
-	<string-array name="offset_types_array">
-		<item>OffLine</item>
-		<item>Along line</item>
-		<item>Intersection</item>
-		<item>Traverse</item>
-		<item>Perpendicular</item>
-	</string-array>
- 
-	<integer-array name="offset_types_image">
-		<item>@drawable/offsetrtkgeneral</item>
-		<item>@drawable/offsetrtkalongline</item>
-		<item>@drawable/offsetrtkintersection</item>
-		<item>@drawable/offsetrtkdirect</item>
-		<item>@drawable/offsetrtkperpendicular</item>
-	</integer-array>	
-
-	<string-array name="left_right_array">
-		<item>Left</item>
-		<item>Right</item>
-	</string-array>
-
-	<string-array name="dhcp_array">
-		<item>Off</item>
-		<item>Client</item>
-		<item>Server</item>
-	</string-array>
-
-	<string-array name="aux_port_array">
-        <item>dev/ser/a</item>
-        <item>dev/ser/b</item>
-        <item>dev/ser/c</item>
-        <item>dev/ser/d</item>
-        </string-array>
-        
-	<string-array name="stakeout_line_offset_rl">
-        <item>R</item>
-        <item>L</item>
-    </string-array>
-
-	<string-array name="reference_frame_array">
-        <item>WGS84(ITRF2008)</item>
-        <item>NAD83(2011)</item>
-        <item>NAD83(PA11)</item>
-        <item>NAD83(CSRS)</item>
-        <item>NAD83(MA11)</item>
-        <item>ETRS89</item>
-        <item>RTCM3</item>
-        </string-array>
-
-	<string-array name="reference_frame_values_array">
-        <item>CSG_WGS_84</item>
-        <item>CSG_NAD83_2011</item>
-        <item>CSG_NAD83_PA11</item>
-        <item>CSG_NAD83_CSRS</item>
-        <item>CSG_NAD83_MA11</item>
-        <item>CSG_ETRS89</item>
-        <item>RTCM3</item>
-        </string-array>
 
 </resources>

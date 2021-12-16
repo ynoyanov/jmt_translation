@@ -3,12 +3,14 @@
 
     <!-- Used in file activity_background_services_2.xml:82. Original value:OPUS Mail Reader    -->
     <string name="text_opusmail_server">Почтовый сервер для OPUS</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:132. Original value:Remote Control    -->
-    <string name="text_remote_control">Remote Control</string>
-    <!-- Used in file activity_background_services_2.xml:337. Original value:AnyDesk Remote Control    -->
-    <string name="text_anydesk_remote_control">AnyDesk Remote Control</string>
+    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
+    <string name="check_bosch_g100_thread">Поток чтения с Bosch GLM100C</string>
+    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
+    <string name="check_status_bar_update_threads">Поток обновления инф.панели</string>
     <!-- Used in file activity_threads.xml:68. Original value:JustinLink exchange threads    -->
     <string name="check_justinlink_threads">Поток обмена JustinLink</string>
+    <!-- Used in file activity_background_services_2.xml:261. Original value:Replace    -->
+    <string name="text_mock_location_provider_replace">Заменить</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:13. Original value:Ntrip/RCV/Nethub    -->
     <string name="text_ntrip_nethub">Ntrip/RCV/Nethub</string>
     <!-- Used in file activity_background_services_justinlink.xml:28. Original value:Log    -->
@@ -17,50 +19,12 @@
     <string name="justinlink_server_on">Вкл</string>
     <!-- Used in file activity_threads.xml:14. Original value:GNSS Receiver threads    -->
     <string name="check_receiver_threads">Потоки GNSS приемника</string>
+    <!-- Used in file activity_background_services_2.xml:244. Original value:Replace Receiver Position with followng coordinates:    -->
+    <string name="mock_location_provider_receiver">Заменить положение приемника на следующие координаты</string>
     <!-- Used in file activity_threads.xml:20. Original value:Survey Model thread    -->
     <string name="check_survey_model_threads">Поток съемки</string>
-    <!-- Used in file activity_background_services_2.xml:245. Original value:Select Point    -->
+    <!-- Used in file activity_background_services_2.xml:249. Original value:Select Point    -->
     <string name="text_mock_location_provider_select_point">Выбор точки</string>
-    <!-- Used in file activity_background_services_2.xml:352. Original value:Login AnyDesk    -->
-    <string name="login_anydesk">Login AnyDesk</string>
-    <!-- Used in file activity_background_services_2.xml:273. Original value:TeamViewer Remote Control    -->
-    <string name="text_teamviewer_remote_control">TeamViewer Remote Control</string>
-    <!-- Used in file activity_background_services_2.xml:311. Original value:Install TeamViewer QS    -->
-    <string name="install_team_viewer_qs">Install TeamViewer QS</string>
-    <!-- Used in file activity_background_services_2.xml:327. Original value:Run TeamViewer QS    -->
-    <string name="run_team_viewer_qs">Run TeamViewer QS</string>
-    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
-    <string name="nethub_server_on">Вкл.NetHub сервер</string>
-    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
-    <string name="check_jcommunity_thread">Поток JCommunity</string>
-    <!-- Used in file activity_background_services_2.xml:288. Original value:Log    -->
-    <string name="teamviewer_remote_control_log">Log</string>
-    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
-    <string name="check_rcv_server_threads">Поток RCV сервера</string>
-    <!-- Used in file activity_background_services_2.xml:204. Original value:Mock Location Provider    -->
-    <string name="text_mock_location_provider">Поставщик фиктивного положения</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:92. Original value:WSDD Server    -->
-    <string name="text_wsdd_server">сервер WSDD</string>
-    <!-- Used in file background_services.xml:6. Original value:Threads    -->
-    <string name="action_threads">Потоки</string>
-    <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
-    <string name="check_nethub_client_threads">Поток NetHub клиент</string>
-    <!-- Used in file activity_threads.xml:56. Original value:SmartTip threads    -->
-    <string name="check_smarttip_thread">Поток JTip</string>
-    <!-- Used in file activity_background_services_2.xml:97. Original value:Log    -->
-    <string name="opusmail_server_log">Лог</string>
-    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
-    <string name="text_justinlink_server">Обмен данными с JustinLin</string>
-    <!-- Used in file activity_threads.xml:50. Original value:Bosch GLM100C reading thread    -->
-    <string name="check_bosch_g100_thread">Поток чтения с Bosch GLM100C</string>
-    <!-- Used in file activity_threads.xml:26. Original value:Status Bar Update thread    -->
-    <string name="check_status_bar_update_threads">Поток обновления инф.панели</string>
-    <!-- Used in file activity_background_services_2.xml:257. Original value:Replace    -->
-    <string name="text_mock_location_provider_replace">Заменить</string>
-    <!-- Used in file activity_background_services_2.xml:240. Original value:Replace Receiver Position with followng coordinates:    -->
-    <string name="mock_location_provider_receiver">Заменить положение приемника на следующие координаты</string>
-    <!-- Used in file activity_background_services_2.xml:344. Original value:Install AnyDesk    -->
-    <string name="install_anydesk">Install AnyDesk</string>
     <!-- Used in file activity_background_services_jcommunity.xml:12. Original value:J-Community    -->
     <string name="text_j_community">J-Community</string>
     <!-- Used in file activity_threads.xml:80. Original value:Ringtone Manager thread    -->
@@ -69,29 +33,43 @@
     <string name="opusmail_server_on">Вкл</string>
     <!-- Used in file activity_background_services_jcommunity.xml:27. Original value:Log    -->
     <string name="j_community_log">Лог</string>
-    <!-- Used in file activity_background_services_2.xml:234. Original value:\nReplace Receiver Coordinate    -->
+    <!-- Used in file activity_background_services_ntripnethub.xml:28. Original value:NetHub Server on    -->
+    <string name="nethub_server_on">Вкл.NetHub сервер</string>
+    <!-- Used in file activity_background_services_2.xml:238. Original value:\nReplace Receiver Coordinate    -->
     <string name="text_mock_location_provider_receiver">\nПодменить координаты приемника</string>
+    <!-- Used in file activity_threads.xml:62. Original value:JCommunity thread    -->
+    <string name="check_jcommunity_thread">Поток JCommunity</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:21. Original value:Ntrip/RCV client on    -->
     <string name="ntrip_client_on">Вкл.Ntrip/RCV клиент</string>
+    <!-- Used in file activity_threads.xml:44. Original value:RCV Server thread    -->
+    <string name="check_rcv_server_threads">Поток RCV сервера</string>
+    <!-- Used in file activity_background_services_2.xml:204. Original value:Mock Location Provider    -->
+    <string name="text_mock_location_provider">Поставщик фиктивного положения</string>
+    <!-- Used in file BackgroundServicesSetupActivity.java:81. Original value:WSDD Server    -->
+    <string name="text_wsdd_server">сервер WSDD</string>
+    <!-- Used in file background_services.xml:6. Original value:Threads    -->
+    <string name="action_threads">Потоки</string>
     <!-- Used in file activity_background_services_jcommunity.xml:20. Original value:On    -->
     <string name="j_community_on">Вкл</string>
-    <!-- Used in file BackgroundServicesSetupActivity.java:119. Original value:J-Community    -->
+    <!-- Used in file BackgroundServicesSetupActivity.java:109. Original value:J-Community    -->
     <string name="text_jcommunity">JCommunity</string>
     <!-- Used in file activity_background_services_ntripnethub.xml:35. Original value:Ntrip/RCV/Nethub Log    -->
     <string name="ntripnethub_log">Ntrip/RCV/Nethub логи</string>
-    <!-- Used in file activity_background_services_2.xml:319. Original value:Login TeamViewer QS    -->
-    <string name="login_team_viewer_qs">Login TeamViewer QS</string>
     <!-- Used in file activity_threads.xml:74. Original value:OPUS Mail Read thread    -->
     <string name="check_opus_mail_read_thread">Поток чтения OPUS</string>
-    <!-- Used in file activity_background_services_2.xml:281. Original value:On    -->
-    <string name="teamviewer_remote_control_on">On</string>
     <!-- Used in file activity_background_services_2.xml:212. Original value:On    -->
     <string name="mock_location_provider_on">Вкл</string>
     <!-- Used in file activity_background_services_2.xml:219. Original value:Log    -->
     <string name="mock_location_provider_log">Лог</string>
-    <!-- Used in file activity_background_services_2.xml:360. Original value:Run AnyDesk    -->
-    <string name="run_anydesk">Run AnyDesk</string>
     <!-- Used in file activity_threads.xml:32. Original value:Ntrip/RCV Client thread    -->
     <string name="check_ntrip_client_threads">Поток Ntrip/RCV клиента</string>
+    <!-- Used in file activity_threads.xml:38. Original value:NetHub Client thread    -->
+    <string name="check_nethub_client_threads">Поток NetHub клиент</string>
+    <!-- Used in file activity_threads.xml:56. Original value:SmartTip threads    -->
+    <string name="check_smarttip_thread">Поток JTip</string>
+    <!-- Used in file activity_background_services_2.xml:97. Original value:Log    -->
+    <string name="opusmail_server_log">Лог</string>
+    <!-- Used in file activity_background_services_justinlink.xml:13. Original value:JustinLink Exchange Server    -->
+    <string name="text_justinlink_server">Обмен данными с JustinLin</string>
 
 </resources>

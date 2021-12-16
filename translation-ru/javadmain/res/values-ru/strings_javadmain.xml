@@ -1,366 +1,319 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file fragment_settings.xml:14. Original value:Job    -->
+    <string name="job_name_title">Проект</string>
+    <!-- Used in file HomeActivity.java:386. Original value:TS Points    -->
+    <string name="home_title_ts_points">Тахеом.тчк.</string>
+    <!-- Used in file RadioHomeActivity.java:148. Original value:Radio Firmware Loader    -->
+    <string name="home_title_radio_firmware">Загрузка ПО модема</string>
+    <!-- Used in file activity_orginize_view.xml:57. Original value:Location of Survey Button    -->
+    <string name="survey_button_location">Расположение кнопки Съемка</string>
+    <!-- Used in file activity_splash.xml:14. Original value:&#169; JAVAD GNSS 2021    -->
+    <string name="string_splash">© JAVAD GNSS 2021</string>
+    <!-- Used in file activity_orginize_view.xml:160. Original value:Translucency of controls    -->
+    <string name="translucency">Прозрачные компоненты</string>
+    <!-- Used in file fragment_settings.xml:15. Original value:Job    -->
+    <string name="job_name_summary">Проект</string>
+    <!-- Used in file HomeActivity.java:523. Original value:J-Community    -->
+    <string name="home_title_jcommunity">J-Сообщество</string>
+    <!-- Used in file BaseHomeActivity.java:2422. Original value:This TRIUMPH-3 does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!    -->
+    <string name="triumph3_oaf_message">Этот приемник TRIUMPH-3 не будет работать с JAVAD Mobile Tools без наличия OAF опции!\nПожалуйста, свяжитесь с JAVAD GNSS или с дилером для приобретения этой OAF опции!</string>
+    <!-- Used in file fragment_settings.xml:61. Original value:Map Settings    -->
+    <string name="map_settings_title">Настройки карты</string>
+    <!-- Used in file drawer_view.xml:79. Original value:Static Survey    -->
+    <string name="home_title_survey_pp">Стат.Съемка</string>
+    <!-- Used in file fragment_settings.xml:9. Original value:Receiver    -->
+    <string name="receiver_name_summary">Приемник</string>
+    <!-- Used in file activity_startup_ui.xml:75. Original value:Show Introduction screen at startup    -->
+    <string name="show_intro">Показывать инструкцию по пользованию при запуске</string>
+    <!-- Used in file translate.xml:38. Original value:China    -->
+    <string name="translation_china">Китайский</string>
+    <!-- Used in file fragment_settings.xml:89. Original value:Debug Settings    -->
+    <string name="debug_view_summary">Настройки отладки</string>
+    <!-- Used in file AboutActivity.java:44. Original value:Version     -->
+    <string name="string_ver">Версия </string>
+    <!-- Used in file fragment_settings.xml:27. Original value:Survey/Stakeout Settings    -->
+    <string name="survey_settings_label">Настройки съемки/выноски</string>
+    <!-- Used in file drawer_view.xml:118. Original value:Satellites    -->
+    <string name="home_title_satellites">Спутники</string>
+    <!-- Used in file drawer_view.xml:182. Original value:J-Mate    -->
+    <string name="home_title_jmate">J-Mate</string>
+    <!-- Used in file HomeActivity.java:386. Original value:Design Points    -->
+    <string name="home_title_design_points">Выносные тчк.</string>
+    <!-- Used in file HomeActivity.java:523. Original value:Spoofing    -->
+    <string name="home_title_spoofing">Подмена сигнала</string>
+    <!-- Used in file BaseHomeActivity.java:1025. Original value:Start Resection    -->
+    <string name="string_resection_station_string">Запуск Засечкой</string>
+    <!-- Used in file drawer_view.xml:215. Original value:Turn Off    -->
+    <string name="home_title_exit">Выход</string>
+    <!-- Used in file HomeActivity.java:381. Original value:Map    -->
+    <string name="home_title_map">Карта</string>
+    <!-- Used in file grid_item.xml:34. Original value:text_view    -->
+    <string name="text_view">text_view</string>
+    <!-- Used in file activity_exit.xml:52. Original value:Stop Mobile Data    -->
+    <string name="check_stop_mobile_data">Остановить мобильные данные</string>
+    <!-- Used in file translate.xml:7. Original value:English    -->
+    <string name="translation_english">Английский</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:78. Original value:Application is not purchased. Please go to Google Play Market to purchase it.    -->
+    <string name="dont_allow_licence">Программа установлена нелегально. Пожалуйста, перейдите в магазин Google Play Market и приобретите ее.</string>
+    <!-- Used in file activity_orginize_view.xml:214. Original value:Expand Description    -->
+    <string name="expand_description">Расширять описания</string>
+    <!-- Used in file fragment_settings.xml:56. Original value:Sound Settings    -->
+    <string name="sound_settings_summary">Настройки звуков</string>
+    <!-- Used in file activity_orginize_view.xml:322. Original value:View Additional Views    -->
+    <string name="additional_views">Информационные панели</string>
+    <!-- Used in file fragment_settings.xml:47. Original value:Internet from    -->
+    <string name="correction_internet_title">Интернет из</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:68. Original value:License is OK    -->
+    <string name="allow_license">Лицензия проверена</string>
+    <!-- Used in file drawer_view.xml:112. Original value:Receiver    -->
+    <string name="home_title_receiver">Приёмник</string>
+    <!-- Used in file activity_orginize_view.xml:99. Original value:Stakeout Text Size    -->
+    <string name="info_text_size_string_main">Размер тектса выноски</string>
+    <!-- Used in file fragment_settings.xml:69. Original value:Orginize View    -->
+    <string name="orginize_view_title">Организовать окно</string>
+    <!-- Used in file drawer_view.xml:126. Original value:Power    -->
+    <string name="home_title_power">Питание</string>
+    <!-- Used in file HomeActivity.java:524. Original value:RTK Bases    -->
+    <string name="home_title_rtkbases">Базы RTK</string>
+    <!-- Used in file drawer_view.xml:211. Original value:User Manual    -->
+    <string name="home_title_usermanual">Руководство</string>
+    <!-- Used in file HomeActivity.java:557. Original value:Calibrate    -->
+    <string name="home_title_calibrate">Калибровка</string>
+    <!-- Used in file BaseHomeActivity.java:2420. Original value:JAVAD TRIUMPH-3 works with JMT only with OAF option in the receiver!    -->
+    <string name="triumph3_oaf_title">JAVAD TRIUMPH-3 работают с JMT только при наличие OAF опции!</string>
+    <!-- Used in file activity_debug.xml:59. Original value:Debug Activity    -->
+    <string name="button_debug_activity">Отладка</string>
+    <!-- Used in file fragment_settings.xml:62. Original value:Map Settings    -->
+    <string name="map_settings_summary">Настройки карты</string>
+    <!-- Used in file activity_home.xml:16. Original value:Javad Mobile Tools for Android    -->
+    <string name="version_number">Javad Mobile Tools для Android</string>
+    <!-- Used in file drawer_view.xml:170. Original value:J-Tip    -->
+    <string name="home_title_jtip">J-Tip</string>
+    <!-- Used in file AboutActivity.java:44. Original value:Build    -->
+    <string name="string_build">Сборка</string>
+    <!-- Used in file HomeActivity.java:386. Original value:Survey Points    -->
+    <string name="home_title_survey_points">Снятые тчк.</string>
+    <!-- Used in file fragment_settings.xml:30. Original value:Antenna    -->
+    <string name="antenna_summary">Антена</string>
+    <!-- Used in file drawer_view.xml:21. Original value:Coord.Sys    -->
+    <string name="home_title_cs">Система коорд.</string>
+    <!-- Used in file fragment_settings.xml:53. Original value:Map / Sounds    -->
+    <string name="map_sound_settings">Карта / Звуки</string>
+    <!-- Used in file drawer_view.xml:57. Original value:RTK Base    -->
+    <string name="home_title_rtkbase">RTK База</string>
+    <!-- Used in file BaseHomeActivity.java:2540. Original value:Connection error!Please try to reconnect latter or select another device!    -->
+    <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
+    <!-- Used in file activity_orginize_view.xml:196. Original value:View Description    -->
+    <string name="view_description">Использовать Описания</string>
+    <!-- Used in file activity_exit.xml:17. Original value:Stop Logging    -->
+    <string name="check_stop_logging">Остановить запись в файл</string>
+    <!-- Used in file drawer_view.xml:94. Original value:TS/JMate    -->
+    <string name="home_title_ts">TS/JMATE</string>
+    <!-- Used in file translate.xml:44. Original value:Turkish    -->
+    <string name="translation_turkish">Турецкий</string>
+    <!-- Used in file drawer_view.xml:33. Original value:Catalogs    -->
+    <string name="home_title_catalog">Каталоги</string>
+    <!-- Used in file fragment_settings.xml:76. Original value:Show Satellites Number as    -->
+    <string name="show_satellite_variants">Показывать число спутников как</string>
+    <!-- Used in file drawer_view.xml:142. Original value:Reconnect WiFi    -->
+    <string name="home_title_reconnectwifi">Подключить по WiFi</string>
+    <!-- Used in file HomeMapActivity.java:232. Original value:Open navigation drawer    -->
+    <string name="navigation_drawer_open">Открыть</string>
+    <!-- Used in file translate.xml:32. Original value:Russian    -->
+    <string name="translation_russian">Русский</string>
+    <!-- Used in file fragment_settings.xml:67. Original value:User Interface Settings    -->
+    <string name="ui_settings">Настройки польз.интерфейса</string>
+    <!-- Used in file drawer_view.xml:29. Original value:Geoids    -->
+    <string name="home_title_geoids">Геоиды</string>
+    <!-- Used in file activity_orginize_view.xml:32. Original value:Survey/Stakeout on Map    -->
+    <string name="radio_with_map">Съемка/Вынос на карте</string>
+    <!-- Used in file activity_exit.xml:31. Original value:Enable NMEA messages on the port    -->
+    <string name="check_enable_nmea">Включить NMEA сообщения на порт</string>
+    <!-- Used in file HomeMapActivity.java:232. Original value:Close navigation drawer    -->
+    <string name="navigation_drawer_close">Закрыть</string>
+    <!-- Used in file drawer_view.xml:134. Original value:Control    -->
+    <string name="home_title_resets">Управление</string>
+    <!-- Used in file drawer_view.xml:162. Original value:Rangefinder    -->
+    <string name="home_title_rangefinder">Лаз.рулетка</string>
+    <!-- Used in file drawer_view.xml:9. Original value:Wizard    -->
+    <string name="home_title_wizard">Мастер</string>
+    <!-- Used in file fragment_settings.xml:41. Original value:Correction Source    -->
+    <string name="correction_source_title">Источник поправок</string>
+    <!-- Used in file drawer_view.xml:174. Original value:Spectrum    -->
+    <string name="home_title_spectrum">Спектры</string>
+    <!-- Used in file grid_item.xml:16. Original value:image_view    -->
+    <string name="image_view">image_view</string>
+    <!-- Used in file activity_orginize_view.xml:286. Original value:View Levels/Compass    -->
+    <string name="view_compass_levels">Показывать Уровни/Компас</string>
+    <!-- Used in file home.xml:46. Original value:About    -->
+    <string name="action_about">О программе</string>
+    <!-- Used in file drawer_view.xml:11. Original value:Project    -->
+    <string name="home_title_project">Проект</string>
+    <!-- Used in file drawer_view.xml:138. Original value:Terminal    -->
+    <string name="home_title_terminal">Терминал</string>
+    <!-- Used in file activity_exit.xml:66. Original value:Exit    -->
+    <string name="button_exit">Выход</string>
+    <!-- Used in file drawer_view.xml:106. Original value:Resection    -->
+    <string name="home_title_start_station_resection">Засечка</string>
+    <!-- Used in file fragment_settings.xml:21. Original value:Job Archiving    -->
+    <string name="job_archiving_summary">Архивация проектов</string>
+    <!-- Used in file activity_startup_ui.xml:14. Original value:Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.    -->
+    <string name="startup_title">Выберите начальный экран Javad Mobile Tools.\nЭто может быть меню команд или сразу карта с данными проекта.\nЭту настройку можно поменять через пункт меню основного экрана.</string>
+    <!-- Used in file fragment_settings.xml:35. Original value:Survey Settings    -->
+    <string name="survey_settings_title">Настройки съемки</string>
+    <!-- Used in file drawer_view.xml:203. Original value:Import    -->
+    <string name="home_title_import">Импорт</string>
+    <!-- Used in file MainActivity.java:82. Original value:Please enable access to files permission in Android settings for the application.    -->
+    <string name="permission_required_to_read_write">Пожалуйста, разрешите в настройках Android разрешения для этого приложения!</string>
+    <!-- Used in file activity_about.xml:20. Original value:Version 1.0.9 build 25 June 2014    -->
+    <string name="string_version">Версия 1.0.9 сборка 25 June 2021</string>
+    <!-- Used in file disconnect.xml:8. Original value:Disconnect    -->
+    <string name="string_disconnect_str">Разрыв</string>
+    <!-- Used in file HomeActivity.java:519. Original value:J-Tip    -->
+    <string name="home_title_smart_tips">J-Tip</string>
+    <!-- Used in file fragment_settings.xml:20. Original value:Job Archiving    -->
+    <string name="job_archiving">Архивация проектов</string>
+    <!-- Used in file fragment_settings.xml:29. Original value:Antenna    -->
+    <string name="antenna_title">Антенна</string>
+    <!-- Used in file fragment_settings.xml:55. Original value:Sound Settings    -->
+    <string name="sound_settings_title">Настройки звука</string>
+    <!-- Used in file fragment_settings.xml:36. Original value:Survey Settings    -->
+    <string name="survey_settings_summary">Настройки съемки</string>
+    <!-- Used in file drawer_view.xml:195. Original value:Settings    -->
+    <string name="home_title_settings">Настройки</string>
+    <!-- Used in file BaseHomeActivity.java:2424. Original value:Download and Update OAF    -->
+    <string name="string_update_oaf">Загрузить и обновить OAF</string>
+    <!-- Used in file drawer_view.xml:101. Original value:Start Station    -->
+    <string name="home_title_start_station_quick">Станция</string>
+    <!-- Used in file SettingsFragment.java:141. Original value:Stakeout Settings    -->
+    <string name="string_stakeout_settings_menu">Настройки выноса</string>
+    <!-- Used in file BaseHomeActivity.java:1019. Original value:Start Station    -->
+    <string name="string_start_station_string">Запуск станции</string>
+    <!-- Used in file drawer_view.xml:47. Original value:RTK    -->
+    <string name="home_title_rtk">RTK</string>
+    <!-- Used in file BaseHomeActivity.java:2422. Original value:This JAVAD OMEGA does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!    -->
+    <string name="omega_oaf_message">Этот приемник JAVAD OMEGA не будет работать с Javad Mobile Tools без OAF-опции!\nПожалуйста, свяжитесь с JAVAD GNSS или дилером для приобретения этой OAF-опции.</string>
+    <!-- Used in file activity_orginize_view.xml:119. Original value:Stakeout Labels    -->
+    <string name="info_text_labels_string_main">Подписи выноса</string>
+    <!-- Used in file activity_startup_ui.xml:63. Original value:Start with Map    -->
+    <string name="start_with_map">Начинать с карты</string>
+    <!-- Used in file drawer_view.xml:17. Original value:Job    -->
+    <string name="home_title_jobs">Проект</string>
+    <!-- Used in file SettingsFragment.java:143. Original value:Survey Settings    -->
+    <string name="survey_settings">Настройки съемки</string>
+    <!-- Used in file activity_orginize_view.xml:25. Original value:Survey/Stakeout without Map    -->
+    <string name="radio_without_map">Съемка/Вынос без карты</string>
+    <!-- Used in file drawer_view.xml:41. Original value:CoGo    -->
+    <string name="home_title_cogo">КоГо</string>
+    <!-- Used in file drawer_view.xml:154. Original value:Radio    -->
+    <string name="home_title_radio">Модем</string>
+    <!-- Used in file activity_orginize_view.xml:232. Original value:View Code    -->
+    <string name="view_code">Использовать Коды</string>
+    <!-- Used in file HomeActivity.java:510. Original value:RTK Works    -->
+    <string name="home_title_rtk_work">RTK работа</string>
+    <!-- Used in file drawer_view.xml:199. Original value:Export    -->
+    <string name="home_title_export">Экспорт</string>
+    <!-- Used in file drawer_view.xml:130. Original value:Calibrate Levels    -->
+    <string name="home_title_calibrate_compass">Калибровка уровней</string>
+    <!-- Used in file activity_orginize_view.xml:250. Original value:Handle swipe gestures    -->
+    <string name="handle_gestures">Настройки жестов</string>
+    <!-- Used in file BaseHomeActivity.java:1907. Original value:Spectrum OAF option is required!\nPlease contact with JAVAD GNSS    -->
+    <string name="spectrum_option_is_required">Для спектров требуется OAF-опция Спектров.\nПожалуйста, свяжитесь с JAVAD GNSS</string>
+    <!-- Used in file fragment_settings.xml:8. Original value:Receiver    -->
+    <string name="receiver_name_title">Приемник</string>
+    <!-- Used in file RadioHomeActivity.java:148. Original value:Pair Modem    -->
+    <string name="home_title_pairmodem">Сопрячь модем</string>
+    <!-- Used in file fragment_settings.xml:82. Original value:Start with Menu    -->
+    <string name="start_with_menu">Начинать с меню</string>
+    <!-- Used in file activity_exit.xml:59. Original value:Turn Off Controller    -->
+    <string name="check_turn_off_controller">Выключить контролер</string>
+    <!-- Used in file fragment_settings.xml:88. Original value:Debug    -->
+    <string name="debug_view_title">Отладка</string>
+    <!-- Used in file HomeActivity.java:568. Original value:Quattro    -->
+    <string name="home_title_quattro">Quattro</string>
+    <!-- Used in file activity_orginize_view.xml:268. Original value:View antenna and settings    -->
+    <string name="view_more_survey_controls">Показывать антенну и настройки</string>
+    <!-- Used in file drawer_view.xml:66. Original value:Stakeout    -->
+    <string name="home_title_stakeout">Вынос</string>
+    <!-- Used in file BaseHomeActivity.java:2390. Original value:Purchase Option    -->
+    <string name="string_purchase_jmt">Преобретите опцию (OAF)</string>
+    <!-- Used in file activity_orginize_view.xml:78. Original value:Color of Survey Button    -->
+    <string name="survey_button_color">Цвет кнопки Съемка</string>
+    <!-- Used in file BaseHomeActivity.java:1202. Original value:RTK Rover    -->
+    <string name="rtk_rover">RTK Ровер</string>
+    <!-- Used in file activity_exit.xml:38. Original value:Turn Off Receiver    -->
+    <string name="check_turn_off">Выключить приемник</string>
+    <!-- Used in file activity_exit.xml:24. Original value:Stop RTK and Radio    -->
+    <string name="check_stop_rtk_radio">Остановить RTK и модемы</string>
+    <!-- Used in file BaseHomeActivity.java:1910. Original value:Only JAVAD TRIUMPH-3 and JAVAD OMEGA have Spectrum Output ability    -->
+    <string name="only_t3_omega_has_spectrum_out">Только приемники JAVAD TRIUMPH-3 и JAVAD OMEGA имеют возможность вывода спектров.</string>
+    <!-- Used in file fragment_settings.xml:48. Original value:Internet from    -->
+    <string name="correction_internet_summary">Интернет из</string>
+    <!-- Used in file drawer_view.xml:62. Original value:RTK Survey    -->
+    <string name="home_title_survey_rtk">RTK съемка</string>
+    <!-- Used in file empty.xml:9. Original value:Show Menu at startup    -->
+    <string name="string_show_menu_at_startup">Меню при запуске</string>
+    <!-- Used in file fragment_settings.xml:70. Original value:Orginize View    -->
+    <string name="orginize_view_summary">Организовать окно</string>
+    <!-- Used in file translate.xml:13. Original value:Language 1    -->
+    <string name="translation_1">Язык 1</string>
+    <!-- Used in file translate.xml:19. Original value:Language 2    -->
+    <string name="translation_2">Язык 2</string>
+    <!-- Used in file drawer_view.xml:122. Original value:Corrections    -->
+    <string name="home_title_corrections">Поправки</string>
+    <!-- Used in file RadioHomeActivity.java:148. Original value:Repeater    -->
+    <string name="home_title_repeater">Повторитель</string>
+    <!-- Used in file translate.xml:25. Original value:Language 3    -->
+    <string name="translation_3">Язык 3</string>
+    <!-- Used in file fragment_settings.xml:86. Original value:Debug    -->
+    <string name="debug_settings">Отладка</string>
+    <!-- Used in file BaseHomeActivity.java:2420. Original value:JAVAD OMEGA works with JMT only with OAF option in the receiver!    -->
+    <string name="omega_oaf_title">JAVAD OMEGA работает с Javad Mobile Tools только при наличие OAF опции!</string>
+    <!-- Used in file drawer_view.xml:207. Original value:Services    -->
+    <string name="home_title_justinlink_server">Службы</string>
+    <!-- Used in file main_bosch.xml:13. Original value:Settings    -->
+    <string name="action_settings">Настройки</string>
+    <!-- Used in file activity_exit.xml:45. Original value:Exit JMT application    -->
+    <string name="check_exit_app">Выйти из программы JMT</string>
+    <!-- Used in file HomeMapActivity.java:2167. Original value:JMATE is not connected!    -->
+    <string name="jmate_is_not_connected_string">JMATE не подключен!</string>
+    <!-- Used in file drawer_view.xml:37. Original value:Codes    -->
+    <string name="home_title_codes">Коды</string>
+    <!-- Used in file drawer_view.xml:148. Original value:Devices    -->
+    <string name="home_title_devices">Устройства</string>
+    <!-- Used in file drawer_view.xml:166. Original value:Quattro/Duo    -->
+    <string name="home_title_quatro_duo">Quattro/Duo</string>
+    <!-- Used in file drawer_view.xml:25. Original value:Localize    -->
+    <string name="home_title_localize">Локализация</string>
+    <!-- Used in file drawer_view.xml:178. Original value:NMEA output    -->
+    <string name="home_title_nmea">NMEA вывод</string>
+    <!-- Used in file activity_orginize_view.xml:178. Original value:View Name    -->
+    <string name="view_name">Использовать Имена</string>
+    <!-- Used in file drawer_view.xml:53. Original value:RTK Rover    -->
+    <string name="home_title_rtkrover">RTK Ровер</string>
+    <!-- Used in file drawer_view.xml:84. Original value:Receiver Files    -->
+    <string name="home_title_filemanager">Файлы прием-ка</string>
+    <!-- Used in file HomeActivity.java:585. Original value:Survey    -->
+    <string name="home_title_survey">Съемка</string>
+    <!-- Used in file fragment_settings.xml:42. Original value:Correction Source    -->
+    <string name="correction_source_summary">Источник поправок</string>
+    <!-- Used in file drawer_view.xml:88. Original value:Process    -->
+    <string name="home_title_process">Обработка</string>
+    <!-- Used in file JavadLicenseCheckerCallback.java:88. Original value:No Internet connection to check License    -->
+    <string name="no_internet_to_check_license">Нет доступа к Интернет для проверки легальности</string>
+    <!-- Used in file activity_orginize_view.xml:304. Original value:View V6 Engines    -->
+    <string name="view_v6_engines">V6 вычислители</string>
+    <!-- Used in file drawer_view.xml:158. Original value:Total Station    -->
+    <string name="home_title_ts_exchange">Тахеометр</string>
+    <!-- Used in file drawer_view.xml:73. Original value:post-Processing    -->
+    <string name="home_title_post_processing">Пост.обработка</string>
+    <!-- Used in file HomeActivity.java:454. Original value:Duo    -->
+    <string name="home_title_duo">Duo</string>
+    <!-- Used in file BaseHomeActivity.java:1221. Original value:Connect    -->
+    <string name="string_connect">Связь</string>
+    <!-- Used in file HomeActivity.java:589. Original value:Points    -->
+    <string name="home_title_points">Точки</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Job-->
-  <string name="job_name_title">Проект</string>
-  <!--Original value: TS Points-->
-  <string name="home_title_ts_points">Тахеом.тчк.</string>
-  <!--Original value: Radio Firmware Loader-->
-  <string name="home_title_radio_firmware">Загрузка ПО модема</string>
-  <!--Original value: Location of Survey Button-->
-  <string name="survey_button_location">Расположение кнопки Съемка</string>
-  <!--Original value: © JAVAD GNSS 2021-->
-  <string name="string_splash">© JAVAD GNSS 2021</string>
-  <!--Original value: Total Station-->
-  <string name="home_title_total_station_measure">Тахеометр</string>
-  <!--Original value: Translucency of controls-->
-  <string name="translucency">Прозрачные компоненты</string>
-  <!--Original value: Job-->
-  <string name="job_name_summary">Проект</string>
-  <!--Original value: J-Community-->
-  <string name="home_title_jcommunity">J-Сообщество</string>
-  <!--Original value: This TRIUMPH-3 does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!-->
-  <string name="triumph3_oaf_message">Этот приемник TRIUMPH-3 не будет работать с JAVAD Mobile Tools без наличия OAF опции!\nПожалуйста, свяжитесь с JAVAD GNSS или с дилером для приобретения этой OAF опции!</string>
-  <!--Original value: Map Settings-->
-  <string name="map_settings_title">Настройки карты</string>
-  <!--Original value: Static Survey-->
-  <string name="home_title_survey_pp">Стат.Съемка</string>
-  <!--Original value: Scoped Storage-->
-  <string name="scoped_storage_location">Внутренне Хранилище</string>
-  <!--Original value: View Battery Percentage-->
-  <string name="view_battery_percentage">Показ в процентах заряда батареи</string>
-  <!--Original value: Data Location-->
-  <string name="data_location_summary">Месторасположение данных</string>
-  <!--Original value: Receiver-->
-  <string name="receiver_name_summary">Приемник</string>
-  <!--Original value: Show Introduction screen at startup-->
-  <string name="show_intro">Показывать инструкцию по пользованию при запуске</string>
-  <!--Original value: China-->
-  <string name="translation_china">Китайский</string>
-  <!--Original value: Debug Settings-->
-  <string name="debug_view_summary">Настройки отладки</string>
-  <!--Original value: Version -->
-  <string name="string_ver">"Версия "</string>
-  <!--Original value: Survey/Stakeout Settings-->
-  <string name="survey_settings_label">Настройки съемки/выноски</string>
-  <!--Original value: Cut Sheet-->
-  <string name="home_title_stakeout_report">Вын.Отчет</string>
-  <!--Original value: Satellites-->
-  <string name="home_title_satellites">Спутники</string>
-  <!--Original value: J-Mate-->
-  <string name="home_title_jmate">J-Mate</string>
-  <!--Original value: Design Points-->
-  <string name="home_title_design_points">Выносные тчк.</string>
-  <!--Original value: Spoofing-->
-  <string name="home_title_spoofing">Подмена сигнала</string>
-  <!--Original value: Start Resection-->
-  <string name="string_resection_station_string">Запуск Засечкой</string>
-  <!--Original value: Turn Off-->
-  <string name="home_title_exit">Выход</string>
-  <!--Original value: Map-->
-  <string name="home_title_map">Карта</string>
-  <!--Original value: text_view-->
-  <string name="text_view">text_view</string>
-  <!--Original value: Stop Mobile Data-->
-  <string name="check_stop_mobile_data">Остановить мобильные данные</string>
-  <!--Original value: English-->
-  <string name="translation_english">Английский</string>
-  <!--Original value: Application is not purchased. Please go to Google Play Market to purchase it.-->
-  <string name="dont_allow_licence">Программа установлена нелегально. Пожалуйста, перейдите в магазин Google Play Market и приобретите ее.</string>
-  <!--Original value: Expand Description-->
-  <string name="expand_description">Расширять описания</string>
-  <!--Original value: Sound Settings-->
-  <string name="sound_settings_summary">Настройки звуков</string>
-  <!--Original value: View Additional Views-->
-  <string name="additional_views">Информационные панели</string>
-  <!--Original value: Internet from-->
-  <string name="correction_internet_title">Интернет из</string>
-  <!--Original value: License is OK-->
-  <string name="allow_license">Лицензия проверена</string>
-  <!--Original value: Receiver-->
-  <string name="home_title_receiver">Приёмник</string>
-  <!--Original value: Stakeout Text Size-->
-  <string name="info_text_size_string_main">Размер тектса выноски</string>
-  <!--Original value: Orginize View-->
-  <string name="orginize_view_title">Организовать окно</string>
-  <!--Original value: Power-->
-  <string name="home_title_power">Питание</string>
-  <!--Original value: RTK Bases-->
-  <string name="home_title_rtkbases">Базы RTK</string>
-  <!--Original value: Exchange-->
-  <string name="home_title_exchange">Обмен</string>
-  <!--Original value: User Manual-->
-  <string name="home_title_usermanual">Руководство</string>
-  <!--Original value: Calibrate-->
-  <string name="home_title_calibrate">Калибровка</string>
-  <!--Original value: JAVAD TRIUMPH-3 works with JMT only with OAF option in the receiver!-->
-  <string name="triumph3_oaf_title">JAVAD TRIUMPH-3 работают с JMT только при наличие OAF опции!</string>
-  <!--Original value: Debug Activity-->
-  <string name="button_debug_activity">Отладка</string>
-  <!--Original value: Map Settings-->
-  <string name="map_settings_summary">Настройки карты</string>
-  <!--Original value: Javad Mobile Tools for Android-->
-  <string name="version_number">Javad Mobile Tools для Android</string>
-  <!--Original value: J-Tip-->
-  <string name="home_title_jtip">J-Tip</string>
-  <!--Original value: Build-->
-  <string name="string_build">Сборка</string>
-  <!--Original value: Survey Points-->
-  <string name="home_title_survey_points">Снятые тчк.</string>
-  <!--Original value: Antenna-->
-  <string name="antenna_summary">Антена</string>
-  <!--Original value: Coord.Sys-->
-  <string name="home_title_cs">СК</string>
-  <!--Original value: Map / Sounds-->
-  <string name="map_sound_settings">Карта / Звуки</string>
-  <!--Original value: RTK Base-->
-  <string name="home_title_rtkbase">RTK База</string>
-  <!--Original value: Connection error!Please try to reconnect latter or select another device!-->
-  <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
-  <!--Original value: External Storage-->
-  <string name="external_storage_location">Внешнее хранилище</string>
-  <!--Original value: View Description-->
-  <string name="view_description">Использовать Описания</string>
-  <!--Original value: Stop Logging-->
-  <string name="check_stop_logging">Остановить запись в файл</string>
-  <!--Original value: TS/JMate-->
-  <string name="home_title_ts">TS/JMATE</string>
-  <!--Original value: View coordinates in surveying-->
-  <string name="view_coordinates_in_surveying">Отображать координаты при съемке</string>
-  <!--Original value: Turkish-->
-  <string name="translation_turkish">Турецкий</string>
-  <!--Original value: Catalogs-->
-  <string name="home_title_catalog">Каталоги</string>
-  <!--Original value: Theme-->
-  <string name="theme_title">Тема</string>
-  <!--Original value: Show Satellites Number as-->
-  <string name="show_satellite_variants">Показывать число спутников как</string>
-  <!--Original value: Reconnect WiFi-->
-  <string name="home_title_reconnectwifi">На WiFi</string>
-  <!--Original value: Open navigation drawer-->
-  <string name="navigation_drawer_open">Открыть</string>
-  <!--Original value: Russian-->
-  <string name="translation_russian">Русский</string>
-  <!--Original value: User Interface Settings-->
-  <string name="ui_settings">Настройки польз.интерфейса</string>
-  <!--Original value: Geoids-->
-  <string name="home_title_geoids">Геоиды</string>
-  <!--Original value: User-defined location-->
-  <string name="user_defined_storage_location">User-defined location</string>
-  <!--Original value: Survey/Stakeout on Map-->
-  <string name="radio_with_map">Съемка/Вынос на карте</string>
-  <!--Original value: Enable NMEA messages on the port-->
-  <string name="check_enable_nmea">Включить NMEA сообщения на порт</string>
-  <!--Original value: Close navigation drawer-->
-  <string name="navigation_drawer_close">Закрыть</string>
-  <!--Original value: Control-->
-  <string name="home_title_resets">Управление</string>
-  <!--Original value: Rangefinder-->
-  <string name="home_title_rangefinder">Лаз.рулетка</string>
-  <!--Original value: Wizard-->
-  <string name="home_title_wizard">Мастер</string>
-  <!--Original value: Correction Source-->
-  <string name="correction_source_title">Источник поправок</string>
-  <!--Original value: Spectrum-->
-  <string name="home_title_spectrum">Спектры</string>
-  <!--Original value: image_view-->
-  <string name="image_view">image_view</string>
-  <!--Original value: View Levels/Compass-->
-  <string name="view_compass_levels">Показывать Уровни/Компас</string>
-  <!--Original value: About-->
-  <string name="action_about">О программе</string>
-  <!--Original value: Project-->
-  <string name="home_title_project">Проект</string>
-  <!--Original value: Terminal-->
-  <string name="home_title_terminal">Терминал</string>
-  <!--Original value: Exit-->
-  <string name="button_exit">Выход</string>
-  <!--Original value: Resection-->
-  <string name="home_title_start_station_resection">Засечка</string>
-  <!--Original value: Job Archiving-->
-  <string name="job_archiving_summary">Архивация проектов</string>
-  <!--Original value: Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.-->
-  <string name="startup_title">Выберите начальный экран Javad Mobile Tools.\nЭто может быть меню команд или сразу карта с данными проекта.\nЭту настройку можно поменять через пункт меню основного экрана.</string>
-  <!--Original value: Survey Settings-->
-  <string name="survey_settings_title">Настройки съемки</string>
-  <!--Original value: Import-->
-  <string name="home_title_import">Импорт</string>
-  <!--Original value: Please enable access to files permission in Android settings for the application.-->
-  <string name="permission_required_to_read_write">Пожалуйста, разрешите в настройках Android разрешения для этого приложения!</string>
-  <!--Original value: Version 1.0.9 build 25 June 2014-->
-  <string name="string_version">Версия 1.0.9 сборка 25 June 2021</string>
-  <!--Original value: Disconnect-->
-  <string name="string_disconnect_str">Разрыв</string>
-  <!--Original value: J-Tip-->
-  <string name="home_title_smart_tips">J-Tip</string>
-  <!--Original value: Job Archiving-->
-  <string name="job_archiving">Архивация проектов</string>
-  <!--Original value: Antenna-->
-  <string name="antenna_title">Антенна</string>
-  <!--Original value: Sound Settings-->
-  <string name="sound_settings_title">Настройки звука</string>
-  <!--Original value: Survey Settings-->
-  <string name="survey_settings_summary">Настройки съемки</string>
-  <!--Original value: Data Location-->
-  <string name="data_location_title">Папка данных программы</string>
-  <!--Original value: Settings-->
-  <string name="home_title_settings">Настройки</string>
-  <!--Original value: Download and Update OAF-->
-  <string name="string_update_oaf">Загрузить и обновить OAF</string>
-  <!--Original value: Start Station-->
-  <string name="home_title_start_station_quick">Станция</string>
-  <!--Original value: Stakeout Settings-->
-  <string name="string_stakeout_settings_menu">Настройки выноса</string>
-  <!--Original value: Start Station-->
-  <string name="string_start_station_string">Запуск станции</string>
-  <!--Original value: RTK-->
-  <string name="home_title_rtk">RTK</string>
-  <!--Original value: This JAVAD OMEGA does not work with JAVAD Mobile Tools without OAF option!\nPlease, contact with JAVAD GNSS or your dealer to purchase the OAF option!-->
-  <string name="omega_oaf_message">Этот приемник JAVAD OMEGA не будет работать с Javad Mobile Tools без OAF-опции!\nПожалуйста, свяжитесь с JAVAD GNSS или дилером для приобретения этой OAF-опции.</string>
-  <!--Original value: Stakeout Labels-->
-  <string name="info_text_labels_string_main">Подписи выноса</string>
-  <!--Original value: Start with Map-->
-  <string name="start_with_map">Начинать с карты</string>
-  <!--Original value: Job-->
-  <string name="home_title_jobs">Проект</string>
-  <!--Original value: Survey Settings-->
-  <string name="survey_settings">Настройки съемки</string>
-  <!--Original value: Survey/Stakeout without Map-->
-  <string name="radio_without_map">Съемка/Вынос без карты</string>
-  <!--Original value: CoGo-->
-  <string name="home_title_cogo">КоГо</string>
-  <!--Original value: Radio-->
-  <string name="home_title_radio">Модем</string>
-  <!--Original value: View surveying info texts-->
-  <string name="view_surveying_info">Отображать информацию при съемке</string>
-  <!--Original value: View Code-->
-  <string name="view_code">Использовать Коды</string>
-  <!--Original value: RTK Works-->
-  <string name="home_title_rtk_work">RTK работа</string>
-  <!--Original value: Export-->
-  <string name="home_title_export">Экспорт</string>
-  <!--Original value: Calibrate Levels-->
-  <string name="home_title_calibrate_compass">Калибровка уровней</string>
-  <!--Original value: Handle swipe gestures-->
-  <string name="handle_gestures">Настройки жестов</string>
-  <!--Original value: Spectrum OAF option is required!\nPlease contact with JAVAD GNSS-->
-  <string name="spectrum_option_is_required">Для спектров требуется OAF-опция Спектров.\nПожалуйста, свяжитесь с JAVAD GNSS</string>
-  <!--Original value: Receiver-->
-  <string name="receiver_name_title">Приемник</string>
-  <!--Original value: Pair Modem-->
-  <string name="home_title_pairmodem">Сопрячь модем</string>
-  <!--Original value: Start with Menu-->
-  <string name="start_with_menu">Начинать с меню</string>
-  <!--Original value: Turn Off Controller-->
-  <string name="check_turn_off_controller">Выключить контролер</string>
-  <!--Original value: Debug-->
-  <string name="debug_view_title">Отладка</string>
-  <!--Original value: Quattro-->
-  <string name="home_title_quattro">Quattro</string>
-  <!--Original value: View antenna and settings-->
-  <string name="view_more_survey_controls">Показывать антенну и настройки</string>
-  <!--Original value: Stakeout-->
-  <string name="home_title_stakeout">Вынос</string>
-  <!--Original value: Purchase Option-->
-  <string name="string_purchase_jmt">Преобретите опцию (OAF)</string>
-  <!--Original value: Color of Survey Button-->
-  <string name="survey_button_color">Цвет кнопки Съемка</string>
-  <!--Original value: RTK Rover-->
-  <string name="rtk_rover">RTK Ровер</string>
-  <!--Original value: Quick Grid-->
-  <string name="home_title_quick_grid">Быстрая СК</string>
-  <!--Original value: Type of Lists-->
-  <string name="list_types">Тип списков</string>
-  <!--Original value: Turn Off Receiver-->
-  <string name="check_turn_off">Выключить приемник</string>
-  <!--Original value: Stop RTK and Radio-->
-  <string name="check_stop_rtk_radio">Остановить RTK и модемы</string>
-  <!--Original value: Only JAVAD TRIUMPH-3 and JAVAD OMEGA have Spectrum Output ability-->
-  <string name="only_t3_omega_has_spectrum_out">Только приемники JAVAD TRIUMPH-3 и JAVAD OMEGA имеют возможность вывода спектров.</string>
-  <!--Original value: Internet from-->
-  <string name="correction_internet_summary">Интернет из</string>
-  <!--Original value: RTK Survey-->
-  <string name="home_title_survey_rtk">RTK съемка</string>
-  <!--Original value: Show Menu at startup-->
-  <string name="string_show_menu_at_startup">Меню при запуске</string>
-  <!--Original value: Orginize View-->
-  <string name="orginize_view_summary">Организовать окно</string>
-  <!--Original value: Language 1-->
-  <string name="translation_1">Язык 1</string>
-  <!--Original value: Language 2-->
-  <string name="translation_2">Язык 2</string>
-  <!--Original value: Corrections-->
-  <string name="home_title_corrections">Поправки</string>
-  <!--Original value: Repeater-->
-  <string name="home_title_repeater">Повторитель</string>
-  <!--Original value: Language 3-->
-  <string name="translation_3">Язык 3</string>
-  <!--Original value: JAVAD OMEGA works with JMT only with OAF option in the receiver!-->
-  <string name="omega_oaf_title">JAVAD OMEGA работает с Javad Mobile Tools только при наличие OAF опции!</string>
-  <!--Original value: Debug-->
-  <string name="debug_settings">Отладка</string>
-  <!--Original value: Services-->
-  <string name="home_title_justinlink_server">Службы</string>
-  <!--Original value: Settings-->
-  <string name="action_settings">Настройки</string>
-  <!--Original value: Exit JMT application-->
-  <string name="check_exit_app">Выйти из программы JMT</string>
-  <!--Original value: JMATE is not connected!-->
-  <string name="jmate_is_not_connected_string">JMATE не подключен!</string>
-  <!--Original value: Codes-->
-  <string name="home_title_codes">Коды</string>
-  <!--Original value: Devices-->
-  <string name="home_title_devices">Устройства</string>
-  <!--Original value: Quattro/Duo-->
-  <string name="home_title_quatro_duo">Quattro/Duo</string>
-  <!--Original value: Localize-->
-  <string name="home_title_localize">Локализ-ия</string>
-  <!--Original value: NMEA output-->
-  <string name="home_title_nmea">NMEA вывод</string>
-  <!--Original value: View Name-->
-  <string name="view_name">Использовать Имена</string>
-  <!--Original value: RTK Rover-->
-  <string name="home_title_rtkrover">RTK Ровер</string>
-  <!--Original value: Receiver Files-->
-  <string name="home_title_filemanager">Файлы пр-ка</string>
-  <!--Original value: Dealer Map-->
-  <string name="home_title_dealer_map">Дилеры</string>
-  <!--Original value: Survey-->
-  <string name="home_title_survey">Съемка</string>
-  <!--Original value: Correction Source-->
-  <string name="correction_source_summary">Источник поправок</string>
-  <!--Original value: Process-->
-  <string name="home_title_process">Обработка</string>
-  <!--Original value: No Internet connection to check License-->
-  <string name="no_internet_to_check_license">Нет доступа к Интернет для проверки легальности</string>
-  <!--Original value: View V6 Engines-->
-  <string name="view_v6_engines">V6 вычислители</string>
-  <!--Original value: TS Exchange-->
-  <string name="home_title_ts_exchange">Обмен с Тах.</string>
-  <!--Original value: post-Processing-->
-  <string name="home_title_post_processing">Пост.обработка</string>
-  <!--Original value: Duo-->
-  <string name="home_title_duo">Duo</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Связь</string>
-  <!--Original value: Points-->
-  <string name="home_title_points">Точки</string>
 </resources>
