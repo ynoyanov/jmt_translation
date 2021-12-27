@@ -188,9 +188,9 @@
 
     <!-- Used in file stakeout_settings.xml:248 -->
     <string-array name="code_is_required_array">
-         <item>Do not use code</item>
-         <item>Code is optional</item>
-         <item>Code is required</item>
+         <item>Nie używaj kodu</item>
+         <item>Kod opcjonalnie</item>
+         <item>Kod wymagany</item>
     </string-array>
 
     <!-- Used in file rtk_base_csd.xml:34 -->
@@ -201,9 +201,9 @@
 
     <!-- Used in file ts_survey_settings.xml:98 -->
     <string-array name="ts_survey_data_array">
-         <item>All Measurements</item>
-         <item>Angles/Distance only</item>
-         <item>Coordinates only</item>
+         <item>Wszystko</item>
+         <item>Kąt/Odległość</item>
+         <item>Współrzedne</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:317 -->
@@ -224,15 +224,15 @@
 
     <!-- Used in file activity_start_station_resection.xml:51 -->
     <string-array name="array_measurement_type">
-         <item>Distances and Angles</item>
-         <item>Angles only</item>
+         <item>Kąty i Odległości</item>
+         <item>Tylko Kąty</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:39 -->
     <string-array name="uhf_antenna_control">
-        <item>ignore</item>
+        <item>ignoruj</item>
         <item>auto</item>
-        <item>manual</item>
+        <item>ręcznie</item>
     </string-array>
 
     <!-- Used in file activity_stakeout_line_target.xml:22 -->
@@ -337,22 +337,22 @@
     <!-- Used in file stakeout_settings.xml:196 -->
     <string-array name="rtpk_time_array">
          <item>Nigdy</item>
-         <item>10 seconds</item>
-         <item>20 seconds</item>
-         <item>30 seconds</item>
-         <item>60 seconds</item>
-         <item>90 seconds</item>
-         <item>120 seconds</item>
-         <item>150 seconds</item>
-         <item>180 seconds</item>
-         <item>240 seconds</item>
-         <item>Custom</item>
+         <item>10 sek</item>
+         <item>20 sek</item>
+         <item>30 sek</item>
+         <item>60 sek</item>
+         <item>90 sek</item>
+         <item>120 sek</item>
+         <item>150 sek</item>
+         <item>180 sek</item>
+         <item>240 sek</item>
+         <item>Użytkownika</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:205 -->
     <string-array name="rtpk_mode_array">
-         <item>First Fix</item>
-         <item>Both Fix Compare</item>
+         <item>Pierwszy Fix</item>
+         <item>Porównanie</item>
     </string-array>
 
     <!-- Used in file FHPreferenceFragment.java:378 -->
@@ -581,6 +581,14 @@
          <item>RTCM 2.x DGPS Full</item>
          <item>RTCM 2.x DGPS Part</item>
     </string-array>
+    
+    <!-- Used in file activity_quick_grid_1.xml:27 -->
+    <string-array name="qgrid_method_array">
+         <item>Deltay (dN,dE,dH)</item>
+         <item>Jednopunktowa</item>
+         <item>Wielopunktowa</item>
+         <item>Zmiana Bazy</item>
+    </string-array>
 
     <!-- Used in file stakeout_settings.xml:103 -->
     <string-array name="rtk_computation_mode">
@@ -799,8 +807,8 @@
     <!-- Used in file ts_survey_settings.xml:61 -->
     <!-- Used in file ts_survey_settings.xml:61 -->
     <string-array name="ts_mark_types_array">
-        <item>Prism</item>
-        <item>Reflectorless</item>
+        <item>Lustro</item>
+        <item>Bezlustrowy</item>
     </string-array>
 
     <string-array name="jmate_mark_types_array">
@@ -838,21 +846,21 @@
 
     <!-- Used in file stakeout_settings.xml:24 -->
     <string-array name="course_source_array">
-         <item>Nothing</item>
-         <item>Velocity</item>
-         <item>Compass</item>
-         <item>Velocity+Compass</item>
+         <item>Brak</item>
+         <item>Przyspieszenie</item>
+         <item>Kompas</item>
+         <item>Przyspieszenie+Kompas</item>
          <item>Android</item>
     </string-array>
 
     <!-- Used in file stakeout_settings.xml:183 -->
     <string-array name="minial_rtk_values_6_array">
-         <item>at least 1</item>
-         <item>at least 2</item>
-         <item>at least 3</item>
-         <item>at least 4</item>
-         <item>at least 5</item>
-         <item>at least 6</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
     </string-array>
 
     <!-- Used in file rtk_base_uhf.xml:172 -->
@@ -1000,7 +1008,7 @@
          <item>GPS+GAL</item>
          <item>GPS+GAL+BDU</item>
          <item>GPS+GLO+GAL+BDU</item>
-         <item>All Systems</item>
+         <item>Wszystkie systemy</item>
     </string-array>
 
     <!-- Used in file rtk_base_rcv.xml:16 -->
@@ -1010,8 +1018,8 @@
 
     <!-- Used in file IMUSettingsPreferenceFragment.java:84 -->
     <string-array name="occupation_time_imu_array">
-         <item>Stop by IMU</item>
-         <item>Stopped manually</item>
+         <item>Auto</item>
+         <item>Rręcznie</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
@@ -1087,10 +1095,10 @@
 
     <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="minial_rtk_values_4_array">
-         <item>at least 1</item>
-         <item>at least 2</item>
-         <item>at least 3</item>
-         <item>at least 4</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->

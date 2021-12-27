@@ -1,71 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file FileManagerActivity.java:885. Original value:Wait several minutes till receiver flashing is over!  -->
-    <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Zaczekaj kilka minut, aż flashowanie odbiornika zostanie zakończone!</string>
-    <!--  Used in file FileManagerActivity.java:412. Original value:Download file  -->
-    <string name="string_download_file">Pobierz plik</string>
-    <!--  Used in file FileManagerActivity.java:431. Original value:Resume  -->
-    <string name="string_resume">Wznów</string>
-    <!--  Used in file FileManagerActivity.java:328. Original value:Total:  -->
-    <string name="string_total_">Razem:</string>
-    <!--  Used in file FileManagerActivity.java:889. Original value:Close  -->
-    <string name="string_close">Zamknij</string>
-    <!--  Used in file FileManagerActivity.java:803. Original value:Do you want to delete file \'%s\'?  -->
-    <string name="string_do_you_want_to_delete_file___s__">Czy chcesz usunąć plik \'%s\'?</string>
-    <!--  Used in file FileManagerActivity.java:944. Original value:No new Hybrid RTK files found!  -->
-    <string name="string_no_new_hybrid_rtk_files_found_">Nie odnaleziono żadnych nowych plików HybridRTK!</string>
-    <!--  Used in file FileManagerActivity.java:238. Original value:Download of base file is over!  -->
-    <string name="string_download_of_base_file_is_over_">Download of base file is over!</string>
-    <!--  Used in file FileManagerActivity.java:239. Original value:Process base file only  -->
-    <string name="string_process_base_file_only">Process base file only</string>
-    <!--  Used in file FileManagerActivity.java:822. Original value:DELETE ALL FILES  -->
-    <string name="string_delete_all_files">USUŃ WSZYSTKIE PLIKI</string>
-    <!--  Used in file FileManagerActivity.java:237. Original value:HybridRTK/VB-RTK download  -->
-    <string name="string_hybridrtk_vb_rtk_download">HybridRTK/VB-RTK download</string>
-    <!--  Used in file FileManagerActivity.java:400. Original value:loaded  -->
-    <string name="string_loaded">załadowano</string>
-    <!--  Used in file FileManagerActivity.java:637. Original value:Downloading&#8230;  -->
-    <string name="string_downloading___">Pobieranie…</string>
-    <!--  Used in file FileManagerActivity.java:736. Original value:Delete %1$d filtered files (of %2$d)  -->
-    <string name="string_delete__1_d_filtered_files__of__2_d_">Usuń %1$d (z %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:804. Original value:Delete  -->
-    <string name="string_delete">Usuń</string>
-    <!--  Used in file FileManagerActivity.java:742. Original value:Delete %1$d selected files (of %2$d)  -->
-    <string name="string_delete__1_d_selected_files__of__2_d_">Usuń %1$d wybranych plików (z %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:883. Original value:File system init started.  -->
-    <string name="string_file_system_init_started_">Zainicjowano system plików.</string>
-    <!--  Used in file FileManagerActivity.java:880. Original value:Successfully deleted all %d files  -->
-    <string name="string_successfully_deleted_all__d_files">Kasowanie wszystkich %d plików zakończone powodzeniem.</string>
-    <!--  Used in file FileManagerActivity.java:859. Original value:Removed file %s  -->
-    <string name="string_removed_file__s">Usunięto plik %s</string>
-    <!--  Used in file FileManagerActivity.java:328. Original value:Free:  -->
-    <string name="string_free_">Wolne:</string>
-    <!--  Used in file FileManagerActivity.java:888. Original value:Delete file result  -->
-    <string name="string_delete_file_result">Usuń plik wynikowy</string>
-    <!--  Used in file FileManagerActivity.java:879. Original value:Deleted %1$d files (from %2$d)  -->
-    <string name="string_deleted__1_d_files__from__2_d_">Usunięto %1$d plików (z %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:821. Original value:DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?  -->
-    <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">CZY NA PEWNO CHCESZ USUNĄĆ WSZYSTKIE PLIKI Z PAMIĘCI ODBIORNIKA?</string>
-    <!--  Used in file FileManagerActivity.java:905. Original value:Cancel  -->
-    <string name="string_cancel">Anuluj</string>
-    <!--  Used in file FileManagerActivity.java:652. Original value:Downloading file %s  -->
-    <string name="string_downloading_file__s">Pobieranie pliku %s</string>
-    <!--  Used in file FileManagerActivity.java:249. Original value:Switch to download rover files  -->
-    <string name="string_switch_to_download_rover_files">Switch to download rover files</string>
-    <!--  Used in file FileManagerActivity.java:802. Original value:Delete file  -->
-    <string name="string_delete_file">Usuń plik</string>
-    <!--  Used in file FileManagerActivity.java:884. Original value:All %d files will be deleted  -->
-    <string name="string_all__d_files_will_be_deleted">Ilość plików do usunięcią: %d</string>
-    <!--  Used in file FileManagerActivity.java:413. Original value:File %s already exist.\nDo you want to Rewrite it or Resume?  -->
-    <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Plik %s już istnieje.\nChcesz nadpisać dane czy dopisać do istniejących?</string>
-    <!--  Used in file FileManagerActivity.java:328. Original value:Memory  -->
-    <string name="string_memory">Pamięć</string>
-    <!--  Used in file FileManagerActivity.java:419. Original value:Rewrite  -->
-    <string name="string_rewrite">Nadpisz</string>
-    <!--  Used in file FileManagerActivity.java:580. Original value:Removing&#8230;  -->
-    <string name="string_removing___">Usuwanie…</string>
-    <!--  Used in file FileManagerActivity.java:327. Original value:Files:  -->
-    <string name="string_files_">Pliki:</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Wait several minutes till receiver flashing is over!-->
+  <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Zaczekaj kilka minut, aż flashowanie odbiornika zostanie zakończone!</string>
+  <!--Original value: Download file-->
+  <string name="string_download_file">Pobierz plik</string>
+  <!--Original value: Resume-->
+  <string name="string_resume">Wznów</string>
+  <!--Original value: Total:-->
+  <string name="string_total_">Razem:</string>
+  <!--Original value: Close-->
+  <string name="string_close">Zamknij</string>
+  <!--Original value: Do you want to delete file \'%s\'?-->
+  <string name="string_do_you_want_to_delete_file___s__">Czy chcesz usunąć plik \'%s\'?</string>
+  <!--Original value: No new Hybrid RTK files found!-->
+  <string name="string_no_new_hybrid_rtk_files_found_">Nie odnaleziono żadnych nowych plików HybridRTK!</string>
+  <!--Original value: Download of base file is over!-->
+  <string name="string_download_of_base_file_is_over_">Download of base file is over!</string>
+  <!--Original value: Process base file only-->
+  <string name="string_process_base_file_only">Process base file only</string>
+  <!--Original value: DELETE ALL FILES-->
+  <string name="string_delete_all_files">USUŃ WSZYSTKIE PLIKI</string>
+  <!--Original value: HybridRTK/VB-RTK download-->
+  <string name="string_hybridrtk_vb_rtk_download">Pobierz HybridRTK/VB-RTK</string>
+  <!--Original value: loaded-->
+  <string name="string_loaded">załadowano</string>
+  <!--Original value: Downloading…-->
+  <string name="string_downloading___">Pobieranie…</string>
+  <!--Original value: Delete %1$d filtered files (of %2$d)-->
+  <string name="string_delete__1_d_filtered_files__of__2_d_">Usuń %1$d (z %2$d)</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Usuń</string>
+  <!--Original value: Delete %1$d selected files (of %2$d)-->
+  <string name="string_delete__1_d_selected_files__of__2_d_">Usuń %1$d wybranych plików (z %2$d)</string>
+  <!--Original value: File system init started.-->
+  <string name="string_file_system_init_started_">Zainicjowano system plików.</string>
+  <!--Original value: Successfully deleted all %d files-->
+  <string name="string_successfully_deleted_all__d_files">Kasowanie wszystkich %d plików zakończone powodzeniem.</string>
+  <!--Original value: Removed file %s-->
+  <string name="string_removed_file__s">Usunięto plik %s</string>
+  <!--Original value: Free:-->
+  <string name="string_free_">Wolne:</string>
+  <!--Original value: Delete file result-->
+  <string name="string_delete_file_result">Usuń plik wynikowy</string>
+  <!--Original value: Deleted %1$d files (from %2$d)-->
+  <string name="string_deleted__1_d_files__from__2_d_">Usunięto %1$d plików (z %2$d)</string>
+  <!--Original value: DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?-->
+  <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">CZY NA PEWNO CHCESZ USUNĄĆ WSZYSTKIE PLIKI Z PAMIĘCI ODBIORNIKA?</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Anuluj</string>
+  <!--Original value: Downloading file %s-->
+  <string name="string_downloading_file__s">Pobieranie pliku %s</string>
+  <!--Original value: Switch to download rover files-->
+  <string name="string_switch_to_download_rover_files">Switch to download rover files</string>
+  <!--Original value: Download-->
+  <string name="string_download">Pobierz</string>
+  <!--Original value: Delete file-->
+  <string name="string_delete_file">Usuń plik</string>
+  <!--Original value: All %d files will be deleted-->
+  <string name="string_all__d_files_will_be_deleted">Ilość plików do usunięcią: %d</string>
+  <!--Original value: File %s already exist.\nDo you want to Rewrite it or Resume?-->
+  <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">Plik %s już istnieje.\nChcesz nadpisać dane czy dopisać do istniejących?</string>
+  <!--Original value: Memory-->
+  <string name="string_memory">Pamięć</string>
+  <!--Original value: Rewrite-->
+  <string name="string_rewrite">Nadpisz</string>
+  <!--Original value: Download %1$d selected files (of %2$d)-->
+  <string name="string_download__1_d_selected_files__of__2_d_">Pobierz %1$d wybranych plików(z %2$d)</string>
+  <!--Original value: Removing…-->
+  <string name="string_removing___">Usuwanie…</string>
+  <!--Original value: Files:-->
+  <string name="string_files_">Pliki:</string>
 </resources>
