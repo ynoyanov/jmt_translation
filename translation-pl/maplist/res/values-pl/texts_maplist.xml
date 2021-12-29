@@ -1,76 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1059. Original value:Close  -->
+    <string name="string_close">Zamknij</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:309. Original value:file  -->
+    <string name="string_file">plik</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1275. Original value:Do you want to delete %1$s %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
+    <!--  Used in file MapProviderActivity.java:878. Original value:CAD File is not selected  -->
+    <string name="string_cad_file_is_not_selected">CAD File is not selected</string>
+    <!--  Used in file ListWithSortAndSearchActivity.java:313. Original value:files  -->
+    <string name="string_files">pliki</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1283. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:855. Original value:Reading list of %s&#8230;  -->
+    <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1052. Original value:Close Selection  -->
+    <string name="string_close_selection">Usuń zaznaczenie</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1364. Original value:Inverse Selection  -->
+    <string name="string_inverse_selection">Odwróć zaznaczenie</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:640. Original value:Sort by  -->
+    <string name="string_sort_by">Sortuj z</string>
+    <!--  Used in file MapProviderActivity.java:875. Original value:CAD File size is too large (&gt;20Mb)  -->
+    <string name="string_cad_file_size_is_too_large___20mb_">Plik CAd zbyt duży (max 20Mb)</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:280. Original value:Zoom All  -->
+    <string name="string_zoom_all">Pokaż wszystko</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1366. Original value:UnSelect All  -->
+    <string name="string_unselect_all">Odznacz wszystko</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:309. Original value:View type  -->
+    <string name="string_view_type">Typ Widoku</string>
+    <!--  Used in file MapProviderActivity.java:278. Original value:Layers  -->
+    <string name="string_layers">Layers</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1277. Original value:Delete  -->
+    <string name="string_delete">Usuń</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:275. Original value:MapProvider  -->
+    <string name="string_mapprovider">Dostawca Map</string>
+    <!--  Used in file MapProviderActivity.java:119. Original value:Select Source Folder  -->
+    <string name="string_select_source_folder">Wybierz folder źródłowy</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1368. Original value:Select All  -->
+    <string name="string_select_all">Zaznacz wszystko</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1218. Original value:Do you want to delete %s:  -->
+    <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1104. Original value:%d selected  -->
+    <string name="string__d_selected">Zaznaczono %d</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1374. Original value:What to do with %1$s %2$s?  -->
+    <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1274. Original value:Delete %s  -->
+    <string name="string_delete__s">Usuń %s</string>
+    <!--  Used in file ListWithMapSortAndSearchActivity.java:248. Original value:Connect  -->
+    <string name="string_connect">Połącz</string>
+    <!--  Used in file ListWithSortAndSearchImplementation.java:1227. Original value:Do you want to delete %1$d %2$s?  -->
+    <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
+    <!--  Used in file BaseProviderMapActivity.java:28. Original value:Points  -->
+    <string name="string_points">Punkty</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
-  <!--Original value: file-->
-  <string name="string_file">plik</string>
-  <!--Original value: Do you want to delete %1$s %2$s?-->
-  <string name="string_do_you_want_to_delete__1_s__2_s_">Czy chcesz usunąć %1$s %2$s?</string>
-  <!--Original value: CAD File is not selected-->
-  <string name="string_cad_file_is_not_selected">CAD File is not selected</string>
-  <!--Original value: files-->
-  <string name="string_files">pliki</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: Reading list of %s…-->
-  <string name="string_reading_list_of__s___">Czytanie listy %s…</string>
-  <!--Original value: Close Selection-->
-  <string name="string_close_selection">Usuń zaznaczenie</string>
-  <!--Original value: Inverse Selection-->
-  <string name="string_inverse_selection">Odwróć zaznaczenie</string>
-  <!--Original value: Sort by-->
-  <string name="string_sort_by">Sortuj z</string>
-  <!--Original value: CAD File size is too large (>20Mb)-->
-  <string name="string_cad_file_size_is_too_large___20mb_">Plik CAd zbyt duży (max 20Mb)</string>
-  <!--Original value: Zoom All-->
-  <string name="string_zoom_all">Pokaż wszystko</string>
-  <!--Original value: UnSelect All-->
-  <string name="string_unselect_all">Odznacz wszystko</string>
-  <!--Original value: View type-->
-  <string name="string_view_type">Typ Widoku</string>
-  <!--Original value: Layers-->
-  <string name="string_layers">Layers</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: MapProvider-->
-  <string name="string_mapprovider">Dostawca Map</string>
-  <!--Original value: Select Source Folder-->
-  <string name="string_select_source_folder">Wybierz folder źródłowy</string>
-  <!--Original value: Select All-->
-  <string name="string_select_all">Zaznacz wszystko</string>
-  <!--Original value: Do you want to delete %s:-->
-  <string name="string_do_you_want_to_delete__s_">Czy chcesz usunąć %s:</string>
-  <!--Original value: %d selected-->
-  <string name="string__d_selected">Zaznaczono %d</string>
-  <!--Original value: What to do with %1$s %2$s?-->
-  <string name="string_what_to_do_with__1_s__2_s_">Co zrobić z %1$s %2$s?</string>
-  <!--Original value: Delete %s-->
-  <string name="string_delete__s">Usuń %s</string>
-  <!--Original value: Connect-->
-  <string name="string_connect">Połącz</string>
-  <!--Original value: Do you want to delete %1$d %2$s?-->
-  <string name="string_do_you_want_to_delete__1_d__2_s_">Czy chcesz usunąć %1$d %2$s?</string>
-  <!--Original value: Points-->
-  <string name="string_points">Punkty</string>
-  <!--Original value: -->
-  <string name="">CAD File size is too large (&gt;10Mb)</string>
 </resources>

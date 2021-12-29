@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_jcors.xml:51. Original value:Receiver Id    -->
-    <string name="string_receiver_id">ID Odbiornika</string>
-    <!-- Used in file activity_jcors.xml:119. Original value:LogOut receiver JCORS    -->
-    <string name="button_unregister_jcors">LogOut receiver JCORS</string>
-    <!-- Used in file activity_jcors.xml:136. Original value:Base Corrections    -->
-    <string name="rtk_base_corrections">Poprawki</string>
-    <!-- Used in file activity_jcors.xml:13. Original value:JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.    -->
-    <string name="about_jcors">JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.</string>
-    <!-- Used in file activity_jcors.xml:99. Original value:Refresh Token    -->
-    <string name="string_refresh_token">Odśwież Token</string>
-    <!-- Used in file activity_jcors.xml:83. Original value:Access Token    -->
-    <string name="string_access_token">Access Token</string>
     <!-- Used in file activity_jcors.xml:67. Original value:Tenate Id    -->
     <string name="string_tenateid">Tenate Id</string>
-    <!-- Used in file activity_jcors.xml:127. Original value:Read RTK Rover Settings from JCORS    -->
-    <string name="button_read_rover_jcors">Read RTK Rover Settings from JCORS</string>
-    <!-- Used in file activity_jcors.xml:151. Original value:Create RTK Base in JCORS    -->
-    <string name="button_read_base_jcors">Create RTK Base in JCORS</string>
+    <!-- Used in file activity_registration_select_type.xml:57. Original value:Navigate to your JCORS Services Dashboard and connect with QR code option.    -->
+    <string name="string_scan_text">Navigate to your JCORS Services Dashboard and connect with QR code option.</string>
+    <!-- Used in file activity_jcors.xml:119. Original value:LogOut receiver JCORS    -->
+    <string name="button_unregister_jcors">LogOut receiver JCORS</string>
+    <!-- Used in file JCorsActivity.java:156. Original value:Register JCORS    -->
+    <string name="button_register_on_jcors">Register JCORS</string>
+    <!-- Used in file activity_registration_login.xml:67. Original value:Password    -->
+    <string name="string_password_string">Password</string>
+    <!-- Used in file activity_jcors.xml:99. Original value:Refresh Token    -->
+    <string name="string_refresh_token">Odśwież Token</string>
+    <!-- Used in file JCorsRegistrationSelectTypeActivity.java:51. Original value:To work with JCORS DPOS you should register your receiver in JCORS    -->
+    <string name="about_jcors_dpos">To work with JCORS DPOS you should register your receiver in JCORS</string>
     <!-- Used in file activity_jcors.xml:28. Original value:Receiver    -->
     <string name="string_receiver_model_sn">Odbiornik</string>
-    <!-- Used in file activity_jcors.xml:111. Original value:Register receiver in JCORS    -->
-    <string name="button_register_jcors">Register receiver in JCORS</string>
-
-    <!-- Used in file JCorsActivity.java:154. Original value:This receiver is not registered in JCORS!\nDo you want to register the receiver in JCors?    -->
-    <string name="device_is_unregistered_warning">This receiver is not registered in JCors!\nDo you want to register the receiver in JCors?</string>
-    <!-- Used in file JCorsActivity.java:155. Original value:Register JCORS    -->
-    <string name="button_register_on_jcors">Register JCORS</string>
-    <!-- Used in file JCorsActivity.java:153. Original value:Warning    -->
+    <!-- Used in file activity_jcors.xml:136. Original value:Base Corrections    -->
+    <string name="rtk_base_corrections">Poprawki</string>
+    <!-- Used in file activity_jcors.xml:127. Original value:Read RTK Rover Settings from JCORS    -->
+    <string name="button_read_rover_jcors">Read RTK Rover Settings from JCORS</string>
+    <!-- Used in file activity_registration_login.xml:97. Original value:Login    -->
+    <string name="button_next_login">Login</string>
+    <!-- Used in file JCorsActivity.java:154. Original value:Warning    -->
     <string name="string_warning_string">Ostrzeżenie</string>
-    <!-- Used in file JCorsActivity.java:116. Original value:Do you want to unregister the receiver from JCORS?    -->
+    <!-- Used in file activity_registration_login.xml:51. Original value:Username    -->
+    <string name="string_username_string">Username</string>
+    <!-- Used in file activity_jcors.xml:83. Original value:Access Token    -->
+    <string name="string_access_token">Access Token</string>
+    <!-- Used in file JCorsRegistrationSelectTypeActivity.java:91. Original value:Select    -->
+    <string name="button_next_none">Select</string>
+    <!-- Used in file activity_jcors.xml:112. Original value:Register receiver in JCORS    -->
+    <string name="button_register_jcors">Register receiver in JCORS</string>
+    <!-- Used in file activity_registration_login.xml:19. Original value:Base URL    -->
+    <string name="base_url_string">Base URL</string>
+    <!-- Used in file activity_registration_select_type.xml:112. Original value:Scan    -->
+    <string name="button_next_scan">Scan</string>
+    <!-- Used in file activity_registration_select_type.xml:15. Original value:JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.    -->
+    <string name="about_jcors">JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.</string>
+    <!-- Used in file activity_jcors.xml:152. Original value:Create RTK Base in JCORS    -->
+    <string name="button_read_base_jcors">Create RTK Base in JCORS</string>
+    <!-- Used in file activity_jcors.xml:51. Original value:Receiver Id    -->
+    <string name="string_receiver_id">ID Odbiornika</string>
+    <!-- Used in file activity_registration_select_type.xml:23. Original value:To continue JCORS Service Account is required.\nTwo options are available:    -->
+    <string name="two_way_options_text">To continue JCORS Service Account is required.\nTwo options are available:</string>
+    <!-- Used in file JCorsActivity.java:155. Original value:This receiver is not registered in JCORS!\nDo you want to register the receiver in JCors?    -->
+    <string name="device_is_unregistered_warning">This receiver is not registered in JCors!\nDo you want to register the receiver in JCors?</string>
+    <!-- Used in file activity_registration_login.xml:35. Original value:Tenant Id    -->
+    <string name="string_tenantid_string">Tenant Id</string>
+    <!-- Used in file JCorsActivity.java:113. Original value:Do you want to unregister the receiver from JCORS?    -->
     <string name="device_logout_warning">Do you want to unregister the receiver from JCORS?</string>
-
+    <!-- Used in file activity_registration_select_type.xml:87. Original value:Login with your account credentials.    -->
+    <string name="string_login_text">Login with your account credentials.</string>
 
 </resources>

@@ -1,216 +1,205 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!--  Used in file CatalogInfoActivity.java:274. Original value:Catalog name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa przekracza dopuszczalne 40 znaków.</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:119. Original value:Hide Find  -->
+    <string name="string_hide_find">Ukryj Wyszukiwanie</string>
+    <!--  Used in file CatalogPointsActivity2.java:839. Original value:View on Map  -->
+    <string name="string_view_on_map">Pokaż na Mapie</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:926. Original value:Text Not Found  -->
+    <string name="string_text_not_found">Nie odnaleziono</string>
+    <!--  Used in file CatalogInfoActivity.java:151. Original value:Do you want to delete catalog %s?\nThe action can be undone!  -->
+    <string name="string_do_you_want_to_delete_catalog__s__nthe_action_can_be_undone_">Czy chcesz usunąć Katalog %s?\nDziałania nie można cofnąć!</string>
+    <!--  Used in file CatalogPoint.java:46. Original value:Name  -->
+    <string name="string_name">Nazwa</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:175. Original value:Do you want to delete point %1$s  -->
+    <string name="string_do_you_want_to_delete_point__1_s">Czy ususnąć Punkt %1$s?</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:UnSelect  -->
+    <string name="string_unselect">Odznacz</string>
+    <!--  Used in file CatalogInfoActivity.java:190. Original value:Do you want to duplicate catalog %1$s as ?\nThe action can be undone!  -->
+    <string name="string_do_you_want_to_duplicate_catalog__1_s_as___nthe_action_can_be_undone_">Czy chcesz zduplikować Katalog %1$s?\n Działania nie można cofnąć!</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:186. Original value:Close  -->
+    <string name="string_close">Zamknij</string>
+    <!--  Used in file CatalogPointsActivity2.java:456. Original value:Leica GSI *.gsi  -->
+    <string name="string_leica_gsi___gsi">Leica GSI *.gsi</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:MapInfo *.tab  -->
+    <string name="string_mapinfo___tab">MapInfo *.tab</string>
+    <!--  Used in file CatalogPointsActivity3.java:1001. Original value:to Job  -->
+    <string name="string_to_job">to Job</string>
+    <!--  Used in file CatalogPointActivity.java:259. Original value:Do you want to delete %s  -->
+    <string name="string_do_you_want_to_delete__s">Do you want to delete %s</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:69. Original value:Delete Catalog  -->
+    <string name="string_delete_catalog">Usuń Katalog</string>
+    <!--  Used in file CatalogPointsActivity.java:65. Original value:Catalog %s  -->
+    <string name="string_catalog__s">Katalog %s</string>
+    <!--  Used in file CatalogPointsActivity2.java:458. Original value:Raw Data RW5 *.rw5  -->
+    <string name="string_raw_data_rw5___rw5">Raw Data RW5 *.rw5</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:120. Original value:Export Points  -->
+    <string name="string_export_points">Eksport Punktów</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:73. Original value:Select  -->
+    <string name="string_select">Zaznacz</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:77. Original value:Edit Catalog  -->
+    <string name="string_edit_catalog">Edytuj Katalog</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:181. Original value:Show on map  -->
+    <string name="string_show_on_map">Pokaż na mapie</string>
+    <!--  Used in file CatalogPointsActivity2.java:449. Original value:MapInfo (*.mif;*.tab)  -->
+    <string name="string_mapinfo____mif___tab_">MapInfo (*.mif;*.tab)</string>
+    <!--  Used in file CatalogInfoActivity.java:177. Original value:Type new name for the catalog copy!  -->
+    <string name="string_type_new_name_for_the_catalog_copy_">Wprowadź nazwe dla kopii Katalogu!</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:ASCII file *.txt  -->
+    <string name="string_ascii_file___txt">ASCII file *.txt</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:AutoCad Drawing *.dxf  -->
+    <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
+    <!--  Used in file CatalogPointsActivity2.java:453. Original value:Digitals txt (*.txt)  -->
+    <string name="string_digitals_txt____txt_">Digitals txt (*.txt)</string>
+    <!--  Used in file CatalogPointsActivity2.java:451. Original value:NetCAD (*.ncn)  -->
+    <string name="string_netcad____ncn_">NetCAD (*.ncn)</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:685. Original value:%1$d points were added to job %2$s  -->
+    <string name="string__1_d_points_were_added_to_job__2_s">Dodano %1$d punktów do projektu %2$s</string>
+    <!--  Used in file CatalogsActivity.java:234. Original value:catalog  -->
+    <string name="string_catalog">katalog</string>
+    <!--  Used in file CatalogPointsActivity3.java:968. Original value:Add to job %1$d filtered points (of %2$d)  -->
+    <string name="string_add_to_job__1_d_filtered_points__of__2_d_">Add to job %1$d filtered points (of %2$d)</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:183. Original value:Export  -->
+    <string name="string_export">Eksport</string>
+    <!--  Used in file CatalogInfoActivity.java:272. Original value:Catalog name is empty!  -->
+    <string name="string_catalog_name_is_empty_">Nazwa katalogu jest pusta!</string>
+    <!--  Used in file CatalogPointsActivity2.java:992. Original value:%1$s%2$s %3$s  -->
+    <string name="string__1_s_2_s__3_s">%1$s%2$s %3$s</string>
+    <!--  Used in file CatalogPointsActivity2.java:462. Original value:Select Export Type  -->
+    <string name="string_select_export_type">Wybierz typ eksportu</string>
+    <!--  Used in file CatalogPoint.java:192. Original value:Description  -->
+    <string name="string_description">Opis</string>
+    <!--  Used in file CatalogPointsActivity2.java:621. Original value:Cancel  -->
+    <string name="string_cancel">Anuluj</string>
+    <!--  Used in file CatalogPointsActivity2.java:1007. Original value:%s  -->
+    <string name="string__s">%s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:531. Original value:Do you want to add point %s to job?  -->
+    <string name="string_do_you_want_to_add_point__s_to_job_">Czy dodać punkt %s do projektu?</string>
+    <!--  Used in file CatalogPointsActivity2.java:836. Original value:Delete point  -->
+    <string name="string_delete_point">Usuń punkt</string>
+    <!--  Used in file CatalogPointsActivity2.java:447. Original value:ASCII file (*.txt)  -->
+    <string name="string_ascii_file____txt_">ASCII file (*.txt)</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:NetCAD *.ncn  -->
+    <string name="string_netcad___ncn">NetCAD *.ncn</string>
+    <!--  Used in file CatalogPointActivity.java:315. Original value:Wrong char in point name!  -->
+    <string name="string_wrong_char_in_point_name_">Niewłaściwy znak w nazwie punktu!</string>
+    <!--  Used in file CatalogInfoActivity.java:281. Original value:Catalog %s already exists!  -->
+    <string name="string_catalog__s_already_exists_">Katalog %s już istnieje!</string>
+    <!--  Used in file CatalogPointActivity.java:302. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa punktu zbyt długa!\nLimit to 40 znaków</string>
+    <!--  Used in file CatalogInfoActivity.java:188. Original value:Duplicate catalog  -->
+    <string name="string_duplicate_catalog">Duplikuj Katalog</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:166. Original value:Do you want to delete %1$d selected points (of %2$d)  -->
+    <string name="string_do_you_want_to_delete__1_d_selected_points__of__2_d_">Czy usunąć zaznaczone punkty? (%1$d z %2$d)</string>
+    <!--  Used in file CatalogInfoActivity.java:75. Original value:New Catalog  -->
+    <string name="string_new_catalog">Nowy Katalog</string>
+    <!--  Used in file CatalogInfoActivity.java:149. Original value:Delete catalog %s  -->
+    <string name="string_delete_catalog__s">Usuń Katalog %s</string>
+    <!--  Used in file CatalogPointsActivity3.java:429. Original value:PENZ comma text file (*.txt)  -->
+    <string name="string_penz_comma_text_file____txt_">PENZ comma text file (*.txt)</string>
+    <!--  Used in file CatalogInfoActivity.java:356. Original value:Catalog %s has been created  -->
+    <string name="string_catalog__s_has_been_created">Utworzono katalog %s</string>
+    <!--  Used in file CatalogInfoActivity.java:361. Original value:Can\'t create catalog %s!  -->
+    <string name="string_can_t_create_catalog__s_">Nie można utworzyć katalogu %s!</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:120. Original value:Import Points  -->
+    <string name="string_import_points">Import Punktów</string>
+    <!--  Used in file CatalogPointActivity.java:457. Original value:Can\'t add point  -->
+    <string name="string_can_t_add_point">Nie można dodać punktu</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:171. Original value:Do you want to add to job %1$d selected points (of %2$d)  -->
+    <string name="string_do_you_want_to_add_to_job__1_d_selected_points__of__2_d_">Czy dodać do projektu zaznaczone punkty? (%1$d z %2$d)</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:165. Original value:Delete %1$d selected points (of %2$d)  -->
+    <string name="string_delete__1_d_selected_points__of__2_d_">Usunięto punkt (%1$d z %2$d)</string>
+    <!--  Used in file CatalogPointActivity.java:300. Original value:Point name is empty!  -->
+    <string name="string_point_name_is_empty_">Pusta nazwa punktu!</string>
+    <!--  Used in file CatalogsActivity.java:186. Original value:Edit  -->
+    <string name="string_edit">Edycja</string>
+    <!--  Used in file CatalogPointsActivity2.java:869. Original value:on Map  -->
+    <string name="string_on_map">na Mapie</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:Google KML *.kml  -->
+    <string name="string_google_kml___kml">Google KML *.kml</string>
+    <!--  Used in file CatalogInfoActivity.java:183. Original value:Catalog %s already exist!  -->
+    <string name="string_catalog__s_already_exist_">Katalog %s już istnieje!</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:55. Original value:What to do with catalog %1$s?  -->
+    <string name="string_what_to_do_with_catalog__1_s_">Co zrobić z katalogiem %1$s?</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:253. Original value:+ Add new control point  -->
+    <string name="string___add_new_control_point">+ Dodaj nowy punkt kontrolny</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:635. Original value:%d points were deleted  -->
+    <string name="string__d_points_were_deleted">Punkty %d zostały usunite</string>
+    <!--  Used in file CatalogPointsActivity2.java:454. Original value:Panorama txf (*.txf)  -->
+    <string name="string_panorama_txf____txf_">Panorama txf (*.txf)</string>
+    <!--  Used in file CatalogPointsActivity2.java:446. Original value:PNEZ comma text file (*.txt)  -->
+    <string name="string_pnez_comma_text_file____txt_">PNEZ comma text file (*.txt)</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Clear Select  -->
+    <string name="string_clear_select">Odznacz wszystko</string>
+    <!--  Used in file CatalogPointsActivity3.java:976. Original value:Add to job %1$d selected points (of %2$d)  -->
+    <string name="string_add_to_job__1_d_selected_points__of__2_d_">Add to job %1$d selected points (of %2$d)</string>
+    <!--  Used in file CatalogsActivity.java:238. Original value:catalogs  -->
+    <string name="string_catalogs">katalogi</string>
+    <!--  Used in file CatalogInfoActivity.java:371. Original value:Catalog %1$s has been renamed to %2$s  -->
+    <string name="string_catalog__1_s_has_been_renamed_to__2_s">Nazwę katalogu %1$s zmieniono na %2$s</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:156. Original value:What to do with point %1$s?  -->
+    <string name="string_what_to_do_with_point__1_s_">Co zrobić z punktem %1$s?</string>
+    <!--  Used in file CatalogPoint.java:179. Original value:Code  -->
+    <string name="string_code">Kod</string>
+    <!--  Used in file CatalogPointsActivity2.java:865. Original value:Delete  -->
+    <string name="string_delete">Usuń</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:924. Original value:Found %d times  -->
+    <string name="string_found__d_times">Znaleziono %d razy</string>
+    <!--  Used in file CatalogsActivity.java:168. Original value:Select Catalog  -->
+    <string name="string_select_catalog">Wybierz Katalog</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:182. Original value:Import  -->
+    <string name="string_import">Import</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:174. Original value:Delete point %1$s  -->
+    <string name="string_delete_point__1_s">Usuń Punkt %1$s</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:154. Original value:What to do with selected %1$d points (of %2$d)?  -->
+    <string name="string_what_to_do_with_selected__1_d_points__of__2_d__">Wybierz czynność dla zaznaczonych punktów (%1$d z %2$d)?</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:178. Original value:Add point %1$s to job %2$s  -->
+    <string name="string_add_point__1_s_to_job__2_s">Dodaj punkt %1$s dp projektu %2$s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Select All  -->
+    <string name="string_select_all">Zaznacz wszystko</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:562. Original value:Added OK  -->
+    <string name="string_added_ok">Zakończono</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:MapInfo *.mif  -->
+    <string name="string_mapinfo___mif">MapInfo *.mif</string>
+    <!--  Used in file CatalogPointsActivity2.java:455. Original value:to Total Station (*.gsi;*.sdr;*.raw)  -->
+    <string name="string_to_total_station____gsi___sdr___raw_">do Tachimetru(*.gsi;*.sdr;*.raw)</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:168. Original value:Add to job %1$s %2$d selected points (of %3$d)  -->
+    <string name="string_add_to_job__1_s__2_d_selected_points__of__3_d_">Dodaj wybrane punkty do projektu %1$s (%2$d  z %3$d)</string>
+    <!--  Used in file CatalogPointsActivity2.java:448. Original value:AutoCad Drawing (*.dxf)  -->
+    <string name="string_autocad_drawing____dxf_">AutoCad Drawing (*.dxf)</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:132. Original value:Find:  -->
+    <string name="string_find">Znajdź</string>
+    <!--  Used in file CatalogInfoActivity.java:373. Original value:Can\'t rename catalog %1$s to %2$s!  -->
+    <string name="string_can_t_rename_catalog__1_s_to__2_s_">Nie można zmienić nazwy %1$s na %2$s!</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:562. Original value:Error!  -->
+    <string name="string_error_">Błąd!</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Invert Selection  -->
+    <string name="string_invert_selection">Odwróć zaznaczenie</string>
+    <!--  Used in file CatalogPointsActivity2.java:450. Original value:MapInfo (*.tab)  -->
+    <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:482. Original value:Do you want to delete point %s ?  -->
+    <string name="string_do_you_want_to_delete_point__s__">Czy usunąć punkt %s?</string>
+    <!--  Used in file CatalogPointsActivity2.java:846. Original value:Delete %1$d filtered points (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d punkt(y) (z %2$d)</string>
+    <!--  Used in file CatalogPointsActivity2.java:779. Original value:point  -->
+    <string name="string_point">punkt</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:95. Original value:Can\'t delete currently selected catalog!  -->
+    <string name="string_can_t_delete_currently_selected_catalog_">Nie można usunąć aktualnie wybranego katalogu!</string>
+    <!--  Used in file CatalogPointsActivity2.java:457. Original value:Sokkia SDR33 *.sdr  -->
+    <string name="string_sokkia_sdr33___sdr">Sokkia SDR33 *.sdr</string>
+    <!--  Used in file CatalogInfoActivity.java:347. Original value:Can\'t set CS %s  -->
+    <string name="string_can_t_set_cs__s">Nie można ustawić SW %s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:645. Original value:Warning  -->
+    <string name="string_warning">Uwaga</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:176. Original value:Do you want to add to job point %1$s  -->
+    <string name="string_do_you_want_to_add_to_job_point__1_s">Czy dodać punkt %1$s do projektu?</string>
+    <!--  Used in file CatalogPointsActivity2.java:452. Original value:Google KML (*.kml)  -->
+    <string name="string_google_kml____kml_">Google KML (*.kml)</string>
+    <!--  Used in file CatalogPointActivity.java:318. Original value:Point %s already exists!  -->
+    <string name="string_point__s_already_exists_">Punkt %s już istnieje!</string>
+    <!--  Used in file CatalogPointsActivity2.java:784. Original value:points  -->
+    <string name="string_points">punkty</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Catalog name is too long!\nLimit it up to 40 chars, please-->
-  <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa przekracza dopuszczalne 40 znaków.</string>
-  <!--Original value: Hide Find-->
-  <string name="string_hide_find">Ukryj Wyszukiwanie</string>
-  <!--Original value: View on Map-->
-  <string name="string_view_on_map">Pokaż na Mapie</string>
-  <!--Original value: Text Not Found-->
-  <string name="string_text_not_found">Nie odnaleziono</string>
-  <!--Original value: Do you want to delete catalog %s?\nThe action can be undone!-->
-  <string name="string_do_you_want_to_delete_catalog__s__nthe_action_can_be_undone_">Czy chcesz usunąć Katalog %s?\nDziałania nie można cofnąć!</string>
-  <!--Original value: Name-->
-  <string name="string_name">Nazwa</string>
-  <!--Original value: Do you want to delete point %1$s-->
-  <string name="string_do_you_want_to_delete_point__1_s">Czy ususnąć Punkt %1$s?</string>
-  <!--Original value: UnSelect-->
-  <string name="string_unselect">Odznacz</string>
-  <!--Original value: Do you want to duplicate catalog %1$s as ?\nThe action can be undone!-->
-  <string name="string_do_you_want_to_duplicate_catalog__1_s_as___nthe_action_can_be_undone_">Czy chcesz zduplikować Katalog %$s?\n Działania nie można cofnąć!</string>
-  <!--Original value: Close-->
-  <string name="string_close">Zamknij</string>
-  <!--Original value: Leica GSI *.gsi-->
-  <string name="string_leica_gsi___gsi">Leica GSI *.gsi</string>
-  <!--Original value: MapInfo *.tab-->
-  <string name="string_mapinfo___tab">MapInfo *.tab</string>
-  <!--Original value: Delete Catalog-->
-  <string name="string_delete_catalog">Usuń Katalog</string>
-  <!--Original value: Catalog %s-->
-  <string name="string_catalog__s">Katalog %s</string>
-  <!--Original value: Raw Data RW5 *.rw5-->
-  <string name="string_raw_data_rw5___rw5">Raw Data RW5 *.rw5</string>
-  <!--Original value: Export Points-->
-  <string name="string_export_points">Eksport Punktów</string>
-  <!--Original value: Select-->
-  <string name="string_select">Zaznacz</string>
-  <!--Original value: Edit Catalog-->
-  <string name="string_edit_catalog">Edytuj Katalog</string>
-  <!--Original value: Show on map-->
-  <string name="string_show_on_map">Pokaż na mapie</string>
-  <!--Original value: MapInfo (*.mif;*.tab)-->
-  <string name="string_mapinfo____mif___tab_">MapInfo (*.mif;*.tab)</string>
-  <!--Original value: Type new name for the catalog copy!-->
-  <string name="string_type_new_name_for_the_catalog_copy_">Wprowadź nazwe dla kopii Katalogu!</string>
-  <!--Original value: ASCII file *.txt-->
-  <string name="string_ascii_file___txt">ASCII file *.txt</string>
-  <!--Original value: AutoCad Drawing *.dxf-->
-  <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
-  <!--Original value: Digitals txt (*.txt)-->
-  <string name="string_digitals_txt____txt_">Digitals txt (*.txt)</string>
-  <!--Original value: NetCAD (*.ncn)-->
-  <string name="string_netcad____ncn_">NetCAD (*.ncn)</string>
-  <!--Original value: %1$d points were added to job %2$s-->
-  <string name="string__1_d_points_were_added_to_job__2_s">Dodano %1$d punktów do projektu %2$s</string>
-  <!--Original value: catalog-->
-  <string name="string_catalog">katalog</string>
-  <!--Original value: Export-->
-  <string name="string_export">Eksport</string>
-  <!--Original value: Catalog name is empty!-->
-  <string name="string_catalog_name_is_empty_">Nazwa katalogu jest pusta!</string>
-  <!--Original value: %1$s%2$s %3$s-->
-  <string name="string__1_s_2_s__3_s">%1$s%2$s %3$s</string>
-  <!--Original value: Select Export Type-->
-  <string name="string_select_export_type">Wybierz typ eksportu</string>
-  <!--Original value: Description-->
-  <string name="string_description">Opis</string>
-  <!--Original value: Cancel-->
-  <string name="string_cancel">Anuluj</string>
-  <!--Original value: %s-->
-  <string name="string__s">%s</string>
-  <!--Original value: Do you want to add point %s to job?-->
-  <string name="string_do_you_want_to_add_point__s_to_job_">Czy dodać punkt %s do projektu?</string>
-  <!--Original value: Delete point-->
-  <string name="string_delete_point">Usuń punkt</string>
-  <!--Original value: ASCII file (*.txt)-->
-  <string name="string_ascii_file____txt_">ASCII file (*.txt)</string>
-  <!--Original value: NetCAD *.ncn-->
-  <string name="string_netcad___ncn">NetCAD *.ncn</string>
-  <!--Original value: Wrong char in point name!-->
-  <string name="string_wrong_char_in_point_name_">Niewłaściwy znak w nazwie punktu!</string>
-  <!--Original value: Catalog %s already exists!-->
-  <string name="string_catalog__s_already_exists_">Katalog %s już istnieje!</string>
-  <!--Original value: Point name is too long!\nLimit it up to 40 chars, please-->
-  <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Nazwa punktu zbyt długa!\nLimit to 40 znaków</string>
-  <!--Original value: Duplicate catalog-->
-  <string name="string_duplicate_catalog">Duplikuj Katalog</string>
-  <!--Original value: Do you want to delete %1$d selected points (of %2$d)-->
-  <string name="string_do_you_want_to_delete__1_d_selected_points__of__2_d_">Czy usunąć zaznaczone punkty? (%1$d z %2$d)</string>
-  <!--Original value: New Catalog-->
-  <string name="string_new_catalog">Nowy Katalog</string>
-  <!--Original value: Delete catalog %s-->
-  <string name="string_delete_catalog__s">Usuń Katalog %s</string>
-  <!--Original value: Catalog %s has been created-->
-  <string name="string_catalog__s_has_been_created">Utworzono katalog %s</string>
-  <!--Original value: Can\'t create catalog %s!-->
-  <string name="string_can_t_create_catalog__s_">Nie można utworzyć katalogu %s!</string>
-  <!--Original value: Import Points-->
-  <string name="string_import_points">Import Punktów</string>
-  <!--Original value: Can\'t add point-->
-  <string name="string_can_t_add_point">Nie można dodać punktu</string>
-  <!--Original value: Do you want to add to job %1$d selected points (of %2$d)-->
-  <string name="string_do_you_want_to_add_to_job__1_d_selected_points__of__2_d_">Czy dodać do projektu zaznaczone punkty? (%1$d z %2$d)</string>
-  <!--Original value: Delete %1$d selected points (of %2$d)-->
-  <string name="string_delete__1_d_selected_points__of__2_d_">Usunięto punkt (%1$d z %2$d)</string>
-  <!--Original value: Point name is empty!-->
-  <string name="string_point_name_is_empty_">Pusta nazwa punktu!</string>
-  <!--Original value: Edit-->
-  <string name="string_edit">Edycja</string>
-  <!--Original value: on Map-->
-  <string name="string_on_map">na Mapie</string>
-  <!--Original value: Google KML *.kml-->
-  <string name="string_google_kml___kml">Google KML *.kml</string>
-  <!--Original value: Catalog %s already exist!-->
-  <string name="string_catalog__s_already_exist_">Katalog %s już istnieje!</string>
-  <!--Original value: What to do with catalog %1$s?-->
-  <string name="string_what_to_do_with_catalog__1_s_">Co zrobić z katalogiem %1$s?</string>
-  <!--Original value: + Add new control point-->
-  <string name="string___add_new_control_point">+ Dodaj nowy punkt kontrolny</string>
-  <!--Original value: %d points were deleted-->
-  <string name="string__d_points_were_deleted">Punkty %d zostały usunite</string>
-  <!--Original value: Panorama txf (*.txf)-->
-  <string name="string_panorama_txf____txf_">Panorama txf (*.txf)</string>
-  <!--Original value: PNEZ comma text file (*.txt)-->
-  <string name="string_pnez_comma_text_file____txt_">PNEZ comma text file (*.txt)</string>
-  <!--Original value: Clear Select-->
-  <string name="string_clear_select">Odznacz wszystko</string>
-  <!--Original value: catalogs-->
-  <string name="string_catalogs">katalogi</string>
-  <!--Original value: Catalog %1$s has been renamed to %2$s-->
-  <string name="string_catalog__1_s_has_been_renamed_to__2_s">Nazwę katalogu %1$s zmieniono na %2$s</string>
-  <!--Original value: What to do with point %1$s?-->
-  <string name="string_what_to_do_with_point__1_s_">Co zrobić z punktem %1$s?</string>
-  <!--Original value: Code-->
-  <string name="string_code">Kod</string>
-  <!--Original value: Delete-->
-  <string name="string_delete">Usuń</string>
-  <!--Original value: Found %d times-->
-  <string name="string_found__d_times">Znaleziono %d razy</string>
-  <!--Original value: Select Catalog-->
-  <string name="string_select_catalog">Wybierz Katalog</string>
-  <!--Original value: Import-->
-  <string name="string_import">Import</string>
-  <!--Original value: Delete point %1$s-->
-  <string name="string_delete_point__1_s">Usuń Punkt %1$s</string>
-  <!--Original value: What to do with selected %1$d points (of %2$d)?-->
-  <string name="string_what_to_do_with_selected__1_d_points__of__2_d__">Wybierz czynność dla zaznaczonych punktów (%1$d z %2$d)?</string>
-  <!--Original value: Add point %1$s to job %2$s-->
-  <string name="string_add_point__1_s_to_job__2_s">Dodaj punkt %1$s dp projektu %2$s</string>
-  <!--Original value: Select All-->
-  <string name="string_select_all">Zaznacz wszystko</string>
-  <!--Original value: Added OK-->
-  <string name="string_added_ok">Zakończono</string>
-  <!--Original value: MapInfo *.mif-->
-  <string name="string_mapinfo___mif">MapInfo *.mif</string>
-  <!--Original value: to Total Station (*.gsi;*.sdr;*.raw)-->
-  <string name="string_to_total_station____gsi___sdr___raw_">do Tachimetru(*.gsi;*.sdr;*.raw)</string>
-  <!--Original value: Add to job %1$s %2$d selected points (of %3$d)-->
-  <string name="string_add_to_job__1_s__2_d_selected_points__of__3_d_">Dodaj wybrane punkty do projektu %1$s (%2$d  z %3$d)</string>
-  <!--Original value: AutoCad Drawing (*.dxf)-->
-  <string name="string_autocad_drawing____dxf_">AutoCad Drawing (*.dxf)</string>
-  <!--Original value: Find:-->
-  <string name="string_find">Znajdź</string>
-  <!--Original value: Can\'t rename catalog %1$s to %2$s!-->
-  <string name="string_can_t_rename_catalog__1_s_to__2_s_">Nie można zmienić nazwy %1$s na %2$s!</string>
-  <!--Original value: Error!-->
-  <string name="string_error_">Błąd!</string>
-  <!--Original value: Invert Selection-->
-  <string name="string_invert_selection">Odwróć zaznaczenie</string>
-  <!--Original value: MapInfo (*.tab)-->
-  <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
-  <!--Original value: Do you want to delete point %s ?-->
-  <string name="string_do_you_want_to_delete_point__s__">Czy usunąć punkt %s?</string>
-  <!--Original value: Delete %1$d filtered points (of %2$d)-->
-  <string name="string_delete__1_d_filtered_points__of__2_d_">Usuń %1$d punkt(y) (z %2$d)</string>
-  <!--Original value: point-->
-  <string name="string_point">punkt</string>
-  <!--Original value: Can\'t delete currently selected catalog!-->
-  <string name="string_can_t_delete_currently_selected_catalog_">Nie można usunąć aktualnie wybranego katalogu!</string>
-  <!--Original value: Sokkia SDR33 *.sdr-->
-  <string name="string_sokkia_sdr33___sdr">Sokkia SDR33 *.sdr</string>
-  <!--Original value: Can\'t set CS %s-->
-  <string name="string_can_t_set_cs__s">Nie można ustawić SW %s</string>
-  <!--Original value: Warning-->
-  <string name="string_warning">Uwaga</string>
-  <!--Original value: Do you want to add to job point %1$s-->
-  <string name="string_do_you_want_to_add_to_job_point__1_s">Czy dodać punkt %1$s do projektu?</string>
-  <!--Original value: Google KML (*.kml)-->
-  <string name="string_google_kml____kml_">Google KML (*.kml)</string>
-  <!--Original value: Point %s already exists!-->
-  <string name="string_point__s_already_exists_">Punkt %s już istnieje!</string>
-  <!--Original value: points-->
-  <string name="string_points">punkty</string>
-  <!--Original value: -->
-  <string name="">Katalog %s został usunięty</string>
-  <!--Original value: -->
-  <string name="">Nie można usunąć katalogu %s!</string>
 </resources>

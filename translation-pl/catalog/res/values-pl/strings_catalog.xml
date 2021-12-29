@@ -1,110 +1,102 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file list_catalog_points_icons2.xml:84. Original value:Description    -->
+    <string name="string_descriptionhint">Opis</string>
+    <!-- Used in file activity_catalog_point.xml:254. Original value:Height    -->
+    <string name="height">H</string>
+    <!-- Used in file catalogs.xml:22. Original value:Search    -->
+    <string name="action_search">Szukaj</string>
+    <!-- Used in file CatalogInfoActivity.java:244. Original value:Modify Catalog    -->
+    <string name="edit">Modyfikuj</string>
+    <!-- Used in file catalogs3.xml:86. Original value:Edit Catalog    -->
+    <string name="action_edit">Edytuj Katalog</string>
+    <!-- Used in file activity_catalog_edit.xml:83. Original value:Delete Catalog    -->
+    <string name="button_delete_catalog">Usuń Katalog</string>
+    <!-- Used in file CatalogPointsActivity3.java:1036. Original value:Warning    -->
+    <string name="warning_catalog">Ostrzeżenie</string>
+    <!-- Used in file CatalogPointsActivity2.java:285. Original value:Comment    -->
+    <string name="string_comment_sort">Nota</string>
+    <!-- Used in file activity_catalog_point.xml:214. Original value:North    -->
+    <string name="north">X</string>
+    <!-- Used in file activity_catalog_edit.xml:96. Original value:Duplicate Catalog    -->
+    <string name="button_duplicate_catalog">Duplikuj Katalog</string>
+    <!-- Used in file catalogs3.xml:67. Original value:Text    -->
+    <string name="view_catalog_as_text">Tekst</string>
+    <!-- Used in file catalog_point.xml:8. Original value:Delete Point    -->
+    <string name="action_delete_point_catalog">Delete Point</string>
+    <!-- Used in file catalogs.xml:29. Original value:Sort    -->
+    <string name="action_sort">Sortuj</string>
+    <!-- Used in file activity_catalogs_list.xml:21. Original value:Search files&#8230;    -->
+    <string name="search_hint">Szukaj plików…</string>
+    <!-- Used in file catalogs3.xml:32. Original value:View    -->
+    <string name="action_view">Podgląd</string>
+    <!-- Used in file catalog_list_item2.xml:35. Original value:Find:    -->
+    <string name="string_find_string">Znajdź:</string>
+    <!-- Used in file CatalogPointsActivity3.java:1037. Original value:Do you want to add selected controls points to job design points?    -->
+    <string name="add_selected_points_to_job_design_points">Czy chcesz dodać wybrane punkty kontrolne do listy punktów projektowanych Projektu?</string>
+    <!-- Used in file catalogs.xml:15. Original value:Add    -->
+    <string name="action_add">Dodaj</string>
+    <!-- Used in file catalogs.xml:36. Original value:Calendar    -->
+    <string name="action_calendar">Kalendarz</string>
+    <!-- Used in file catalogs.xml:45. Original value:Delete    -->
+    <string name="action_delete">Usuń</string>
+    <!-- Used in file activity_catalogs3.xml:21. Original value:Current Catalog    -->
+    <string name="string_catalog_name">Bieżący Katalog</string>
+    <!-- Used in file catalogs3.xml:46. Original value:Import    -->
+    <string name="action_import">Import</string>
+    <!-- Used in file CatalogInfoActivity.java:240. Original value:Create Catalog    -->
+    <string name="create">Utwórz katalog</string>
+    <!-- Used in file list_catalog_points_icons2.xml:76. Original value:Code    -->
+    <string name="string_codehint">Kod</string>
+    <!-- Used in file activity_catalog_point.xml:154. Original value:Point Name    -->
+    <string name="point_name">Nr Punktu</string>
+    <!-- Used in file CatalogInfoActivity.java:321. Original value:Can not create catalog    -->
+    <string name="cant_create_catalog">Nie można utworzyć Katalogu</string>
+    <!-- Used in file catalogs.xml:8. Original value:Map    -->
+    <string name="action_map">Mapa</string>
+    <!-- Used in file activity_catalog_point.xml:286. Original value:Coordinate System    -->
+    <string name="coordinate_system">Układ współrzędnych</string>
+    <!-- Used in file null:0. Original value:OK    -->
+    <string name="button_ok">OK</string>
+    <!-- Used in file CatalogPointsActivity2.java:282. Original value:Name    -->
+    <string name="string_name_sort">Nazwa</string>
+    <!-- Used in file null:0. Original value:Catalog %s has been deleted    -->
+    <string name="string_catalog__s_has_been_deleted">Katalog %s został usunięty</string>
+    <!-- Used in file catalogs3.xml:53. Original value:Export    -->
+    <string name="action_export">Eksport</string>
+    <!-- Used in file activity_catalog_point.xml:194. Original value:Code    -->
+    <string name="code">Kod</string>
+    <!-- Used in file CatalogPointsActivity2.java:505. Original value:Export Format is not selected!    -->
+    <string name="export_format_is_not_selected">Nie wybrano formatu eksportu!</string>
+    <!-- Used in file activity_catalog_edit.xml:74. Original value:Latitude/Longitude Format    -->
+    <string name="lat_lon_format">Format B/L</string>
+    <!-- Used in file activity_catalog_point.xml:174. Original value:Description    -->
+    <string name="description">Opis</string>
+    <!-- Used in file catalog_list_item2.xml:71. Original value:Name,    N,   E,    H,   Code,  Description    -->
+    <string name="edit_header">Nazwa,    X,   Y,    H,   Kod,  Opis</string>
+    <!-- Used in file catalogs3.xml:64. Original value:List    -->
+    <string name="view_catalog_as_list">Lista</string>
+    <!-- Used in file activity_catalog_edit.xml:16. Original value:Catalog    -->
+    <string name="text_catalog">Katalog</string>
+    <!-- Used in file activity_catalog_point.xml:234. Original value:East    -->
+    <string name="east">Y</string>
+    <!-- Used in file CatalogPointsActivity2.java:283. Original value:Type    -->
+    <string name="string_type_sort">Typ</string>
+    <!-- Used in file activity_catalog.xml:23. Original value:Catalog     -->
+    <string name="button_catalog">Katalog </string>
+    <!-- Used in file CatalogPointsActivity2.java:284. Original value:Code    -->
+    <string name="string_code_sort">Kod</string>
+    <!-- Used in file activity_catalog_edit.xml:107. Original value:Create Catalog    -->
+    <string name="button_create_catalog">Utwórz Katalog</string>
+    <!-- Used in file activity_catalog_edit.xml:53. Original value:Measure Units    -->
+    <string name="measure_units">Jednostki</string>
+    <!-- Used in file catalogs3.xml:60. Original value:View Catalog as    -->
+    <string name="view_catalogs_as">Wyświetl Katalog jako</string>
+    <!-- Used in file null:0. Original value:Can\'t delete catalog %s!    -->
+    <string name="string_can_t_delete_catalog__s_">Nie można usunąć katalogu %s!</string>
+    <!-- UNUSED STRING 
+    <string name="">Nie można usunąć katalogu %s!</string>
+    -->
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Description-->
-  <string name="string_descriptionhint">Opis</string>
-  <!--Original value: Height-->
-  <string name="height">H</string>
-  <!--Original value: Search-->
-  <string name="action_search">Szukaj</string>
-  <!--Original value: Modify Catalog-->
-  <string name="edit">Modyfikuj</string>
-  <!--Original value: Edit Catalog-->
-  <string name="action_edit">Edytuj Katalog</string>
-  <!--Original value: Delete Catalog-->
-  <string name="button_delete_catalog">Usuń Katalog</string>
-  <!--Original value: Comment-->
-  <string name="string_comment_sort">Nota</string>
-  <!--Original value: North-->
-  <string name="north">X</string>
-  <!--Original value: Duplicate Catalog-->
-  <string name="button_duplicate_catalog">Duplikuj Katalog</string>
-  <!--Original value: Text-->
-  <string name="view_catalog_as_text">Tekst</string>
-  <!--Original value: Sort-->
-  <string name="action_sort">Sortuj</string>
-  <!--Original value: Search files…-->
-  <string name="search_hint">Szukaj plików…</string>
-  <!--Original value: View-->
-  <string name="action_view">Podgląd</string>
-  <!--Original value: Find:-->
-  <string name="string_find_string">Znajdź:</string>
-  <!--Original value: Add-->
-  <string name="action_add">Dodaj</string>
-  <!--Original value: Calendar-->
-  <string name="action_calendar">Kalendarz</string>
-  <!--Original value: Delete-->
-  <string name="action_delete">Usuń</string>
-  <!--Original value: Current Catalog-->
-  <string name="string_catalog_name">Bieżący Katalog</string>
-  <!--Original value: Import-->
-  <string name="action_import">Import</string>
-  <!--Original value: Create Catalog-->
-  <string name="create">Utwórz katalog</string>
-  <!--Original value: Code-->
-  <string name="string_codehint">Kod</string>
-  <!--Original value: Point Name-->
-  <string name="point_name">Nr Punktu</string>
-  <!--Original value: Can not create catalog-->
-  <string name="cant_create_catalog">Nie można utworzyć Katalogu</string>
-  <!--Original value: Map-->
-  <string name="action_map">Mapa</string>
-  <!--Original value: Coordinate System-->
-  <string name="coordinate_system">Układ współrzędnych</string>
-  <!--Original value: Name-->
-  <string name="string_name_sort">Nazwa</string>
-  <!--Original value: Export-->
-  <string name="action_export">Eksport</string>
-  <!--Original value: Code-->
-  <string name="code">Kod</string>
-  <!--Original value: Export Format is not selected!-->
-  <string name="export_format_is_not_selected">Nie wybrano formatu eksportu!</string>
-  <!--Original value: Latitude/Longitude Format-->
-  <string name="lat_lon_format">Format B/L</string>
-  <!--Original value: Description-->
-  <string name="description">Opis</string>
-  <!--Original value: Name,    N,   E,    H,   Code,  Description-->
-  <string name="edit_header">Nazwa,    X,   Y,    H,   Kod,  Opis</string>
-  <!--Original value: List-->
-  <string name="view_catalog_as_list">Lista</string>
-  <!--Original value: Catalog-->
-  <string name="text_catalog">Katalog</string>
-  <!--Original value: East-->
-  <string name="east">Y</string>
-  <!--Original value: Type-->
-  <string name="string_type_sort">Typ</string>
-  <!--Original value: Catalog -->
-  <string name="button_catalog">Katalog </string>
-  <!--Original value: Code-->
-  <string name="string_code_sort">Kod</string>
-  <!--Original value: Create Catalog-->
-  <string name="button_create_catalog">Utwórz Katalog</string>
-  <!--Original value: Measure Units-->
-  <string name="measure_units">Jednostki</string>
-  <!--Original value: View Catalog as-->
-  <string name="view_catalogs_as">Wyświetl Katalog jako</string>
-  <!--Original value: Warning-->
-  <string name="warning_catalog">Ostrzeżenie</string>
-  <!--Original value: Do you want to add selected controls points to job design points?-->
-  <string name="add_selected_points_to_job_design_points">Czy chcesz dodać wybrane punkty kontrolne do listy punktów projektowanych Projektu?</string>
-  <!--Original value: -->
-  <string name="">OK</string>
 </resources>
