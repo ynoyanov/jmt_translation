@@ -1,93 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file JTipActivity.java:2384. Original value:Sensor S1    -->
-    <string name="source_sensor_s1">Sensor S1</string>
-    <!-- Used in file activity_jtip.xml:56. Original value:Clear Range    -->
-    <string name="button_clear_range">Clear Range</string>
-    <!-- Used in file JTipActivity.java:2300. Original value:XYZ    -->
-    <string name="button_xyz2_direction">XYZ</string>
-    <!-- Used in file activity_jtip.xml:400. Original value:Max Value    -->
-    <string name="string_max_value">Wartość max</string>
-    <!-- Used in file jtip.xml:30. Original value:Upload Firmware    -->
-    <string name="button_firmware">Ładowanie FW</string>
-    <!-- Used in file activity_jtip.xml:147. Original value:Sound type    -->
-    <string name="string_sound_type">Sound type</string>
-    <!-- Used in file activity_jtip.xml:371. Original value:Gain    -->
-    <string name="string_gain">Gain 0</string>
-    <!-- Used in file activity_jtip2.xml:70. Original value:PinPoint    -->
-    <string name="string_jtip_pinpoint">PinPoint</string>
-    <!-- Used in file JTipActivity.java:2343. Original value:Auto    -->
-    <string name="button_full_auto">Auto</string>
-    <!-- Used in file activity_jtip.xml:189. Original value:Source    -->
-    <string name="string_magnetic_source">Source</string>
-    <!-- Used in file activity_jtip.xml:456. Original value:Set Course to 0    -->
-    <string name="button_course">Ustaw kurs na 0</string>
-    <!-- Used in file JTipActivity.java:2343. Original value:SemiAuto    -->
-    <string name="button_semi_auto">SemiAuto</string>
-    <!-- Used in file jtip.xml:16. Original value:Z Dir    -->
-    <string name="button_z_direction">Z Dir</string>
-    <!-- Used in file activity_jtip.xml:168. Original value:Sensivity    -->
-    <string name="string_sensivity">Czułość</string>
-    <!-- Used in file activity_jtip2.xml:161. Original value:Off    -->
-    <string name="jtip_off">Off</string>
-    <!-- Used in file activity_jtip2.xml:168. Original value:Pair    -->
-    <string name="jtip_pair">Pair</string>
-    <!-- Used in file activity_jtip2.xml:100. Original value:High    -->
-    <string name="sensivity_high">High</string>
-    <!-- Used in file JTipActivity.java:2383. Original value:Set Sensor Source    -->
-    <string name="string_set_sensor_source_jtip">Set Sensor Source</string>
-    <!-- Used in file activity_jtip.xml:139. Original value:Sound algorithm    -->
-    <string name="string_algorithm">Sound algorithm</string>
-    <!-- Used in file JTipActivity.java:2384. Original value:Sensor S2    -->
-    <string name="source_sensor_s2">Sensor S2</string>
-    <!-- Used in file activity_jtip.xml:81. Original value:Calibrate    -->
-    <string name="button_calibrate">Kalibracja</string>
-    <!-- Used in file activity_jtip.xml:353. Original value:No Tone less than    -->
-    <string name="string_no_tone_less_than">No Tone less than</string>
-    <!-- Used in file activity_jtip.xml:181. Original value:Mag. Source    -->
-    <string name="string_data_source">Mag. Source</string>
-    <!-- Used in file jtip.xml:23. Original value:Single    -->
-    <string name="button_s_d_s">Single</string>
-    <!-- Used in file activity_find_smarttip.xml:16. Original value:Select J-Tip    -->
-    <string name="text_select_smarttip">Wybierz SmartTip</string>
-    <!-- Used in file JTipActivity.java:1114. Original value:Hold Range    -->
-    <string name="button_hold_range">Hold Range</string>
-    <!-- Used in file JTipActivity.java:1192. Original value:Calibration Required!    -->
-    <string name="jtip_calibration_required">Calibration Required!</string>
-    <!-- Used in file activity_jtip.xml:64. Original value:Set Range    -->
-    <string name="button_set_range">Set Range</string>
-    <!-- Used in file activity_jtip.xml:386. Original value:Min Value    -->
-    <string name="string_min_value">Wartość min</string>
-    <!-- Used in file activity_jtip2.xml:84. Original value:Wide    -->
-    <string name="string_jtip_wide">Wide</string>
-    <!-- Used in file activity_jtip.xml:393. Original value:Gain Value    -->
-    <string name="string_gain_value">Gain Value</string>
-    <!-- Used in file JTipActivity.java:2343. Original value:Manual    -->
-    <string name="button_manual">Manual</string>
-    <!-- Used in file JTipActivity.java:2342. Original value:Set Mode    -->
-    <string name="string_set_mode_jtip">Set Mode</string>
-    <!-- Used in file activity_jtip.xml:27. Original value:Volume    -->
-    <string name="string_volume">Volume</string>
-    <!-- Used in file JTipActivity.java:2384. Original value:Differential (S1-S2)    -->
-    <string name="source_s1_minus_s2">Differential (S1-S2)</string>
-    <!-- Used in file activity_jtip2.xml:154. Original value:Calibrate    -->
-    <string name="jtip_calibrate">Calibrate</string>
-    <!-- Used in file JTipActivity.java:2309. Original value:XY    -->
-    <string name="button_xy_direction">XY</string>
-    <!-- Used in file JTipActivity.java:2384. Original value:Both sensors - (S1+S2)/2    -->
-    <string name="source_s1_plus_s2">Both sensors - (S1+S2)/2</string>
-    <!-- Used in file find_jtip.xml:7. Original value:Refresh    -->
-    <string name="refresh_jtip">Refresh</string>
-    <!-- Used in file activity_jtip2.xml:107. Original value:Medium    -->
-    <string name="sensivity_medium">Medium</string>
-    <!-- Used in file activity_jtip.xml:269. Original value:0 Value    -->
-    <string name="string_0_value">0 Value</string>
-    <!-- Used in file jtip.xml:9. Original value:Auto\\Manual    -->
-    <string name="button_auto_manual">Auto\\Manual</string>
-    <!-- Used in file activity_jtip2.xml:114. Original value:Low    -->
-    <string name="sensivity_low">Low</string>
-    <!-- Used in file activity_jtip.xml:72. Original value:Auto Range    -->
-    <string name="button_auto_range">Auto Range</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Sensor S1-->
+  <string name="source_sensor_s1">Sensor S1</string>
+  <!--Original value: Clear Range-->
+  <string name="button_clear_range">Czyść zasięg</string>
+  <!--Original value: XYZ-->
+  <string name="button_xyz2_direction">XYZ</string>
+  <!--Original value: Max Value-->
+  <string name="string_max_value">Wartość max</string>
+  <!--Original value: Upload Firmware-->
+  <string name="button_firmware">Ładowanie FW</string>
+  <!--Original value: Sound type-->
+  <string name="string_sound_type">Typ dźwięku</string>
+  <!--Original value: Gain-->
+  <string name="string_gain">Gain 0</string>
+  <!--Original value: PinPoint-->
+  <string name="string_jtip_pinpoint">PinPoint</string>
+  <!--Original value: Auto-->
+  <string name="button_full_auto">Auto</string>
+  <!--Original value: Source-->
+  <string name="string_magnetic_source">Żródło</string>
+  <!--Original value: Set Course to 0-->
+  <string name="button_course">Ustaw kurs na 0</string>
+  <!--Original value: SemiAuto-->
+  <string name="button_semi_auto">SemiAuto</string>
+  <!--Original value: Z Dir-->
+  <string name="button_z_direction">Z Dir</string>
+  <!--Original value: Sensivity-->
+  <string name="string_sensivity">Czułość</string>
+  <!--Original value: Off-->
+  <string name="jtip_off">Off</string>
+  <!--Original value: Pair-->
+  <string name="jtip_pair">Paruj</string>
+  <!--Original value: High-->
+  <string name="sensivity_high">Wysoka</string>
+  <!--Original value: Set Sensor Source-->
+  <string name="string_set_sensor_source_jtip">Ustaw źródło sensora</string>
+  <!--Original value: Sound algorithm-->
+  <string name="string_algorithm">Algorytm dźwięków</string>
+  <!--Original value: Sensor S2-->
+  <string name="source_sensor_s2">Sensor S2</string>
+  <!--Original value: Calibrate-->
+  <string name="button_calibrate">Kalibracja</string>
+  <!--Original value: No Tone less than-->
+  <string name="string_no_tone_less_than">No Tone less than</string>
+  <!--Original value: Mag. Source-->
+  <string name="string_data_source">Mag. Source</string>
+  <!--Original value: Single-->
+  <string name="button_s_d_s">Single</string>
+  <!--Original value: Select J-Tip-->
+  <string name="text_select_smarttip">Wybierz SmartTip</string>
+  <!--Original value: Hold Range-->
+  <string name="button_hold_range">Hold Range</string>
+  <!--Original value: Calibration Required!-->
+  <string name="jtip_calibration_required">Calibration Required!</string>
+  <!--Original value: Set Range-->
+  <string name="button_set_range">Set Range</string>
+  <!--Original value: Min Value-->
+  <string name="string_min_value">Wartość min</string>
+  <!--Original value: Wide-->
+  <string name="string_jtip_wide">Wide</string>
+  <!--Original value: Gain Value-->
+  <string name="string_gain_value">Gain Value</string>
+  <!--Original value: Manual-->
+  <string name="button_manual">Manual</string>
+  <!--Original value: Set Mode-->
+  <string name="string_set_mode_jtip">Set Mode</string>
+  <!--Original value: Volume-->
+  <string name="string_volume">Volume</string>
+  <!--Original value: Differential (S1-S2)-->
+  <string name="source_s1_minus_s2">Differential (S1-S2)</string>
+  <!--Original value: Calibrate-->
+  <string name="jtip_calibrate">Calibrate</string>
+  <!--Original value: XY-->
+  <string name="button_xy_direction">XY</string>
+  <!--Original value: Both sensors - (S1+S2)/2-->
+  <string name="source_s1_plus_s2">Both sensors - (S1+S2)/2</string>
+  <!--Original value: Refresh-->
+  <string name="refresh_jtip">Refresh</string>
+  <!--Original value: Medium-->
+  <string name="sensivity_medium">Medium</string>
+  <!--Original value: 0 Value-->
+  <string name="string_0_value">0 Value</string>
+  <!--Original value: Auto\\Manual-->
+  <string name="button_auto_manual">Auto\\Manual</string>
+  <!--Original value: Low-->
+  <string name="sensivity_low">Low</string>
+  <!--Original value: Auto Range-->
+  <string name="button_auto_range">Auto Range</string>
 </resources>
