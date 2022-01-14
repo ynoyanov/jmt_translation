@@ -1,7 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="radio_send">Send</string>
-    <string name="radio_receive">Receive</string>
+    <!-- Used in file activity_exchange_page1.xml:105. Original value:Receiver raw files    -->
+    <string name="radio_receiver_raw_files">GNSS Alıcısı Raw Dosyaları</string>
+    <!-- Used in file activity_exchange_page1.xml:34. Original value:Select direction    -->
+    <string name="text_send_receive">Yön Seçimi</string>
+    <!-- Used in file activity_exchange_qrcode.xml:27. Original value:Prev    -->
+    <string name="button_prev_qrcode">Geri</string>
+    <!-- Used in file ExchangeQRCodeActivity.java:109. Original value:Scan the code with other device camera. Then press Next and repeat.    -->
+    <string name="scan_the_code_with_other_device">Kodu diğer cihaz kamerasıyla tarayın. Ardından İleri\'ye basın ve tekrarlayın.</string>
+    <!-- Used in file exchange_bluetooth.xml:13. Original value:Enable Bluetooth    -->
+    <string name="exchange_enable_bluetooth">Bluetooth\'u etkinleştir</string>
+    <!-- Used in file ExchangePage1Activity.java:197. Original value:Receive &gt;&gt;    -->
+    <string name="do_receive">Al &gt;&gt;</string>
+    <!-- Used in file activity_exchange_page1.xml:52. Original value:Receive    -->
+    <string name="radio_receive">Al</string>
+    <!-- Used in file activity_exchange_page1.xml:100. Original value:Design Points    -->
+    <string name="radio_design_points">Design Points</string>
+    <!-- Used in file ExchangePage1Activity.java:197. Original value:Send &gt;&gt;    -->
+    <string name="do_send">Gönder &gt;&gt;</string>
+    <!-- Used in file exchange_bluetooth.xml:7. Original value:Refresh    -->
+    <string name="exchange_refresh">Yenile</string>
+    <!-- Used in file activity_exchange_page1.xml:170. Original value:WiFi Direct    -->
+    <string name="radio_wifi_direct">Doğrudan WiFi</string>
+    <!-- Used in file activity_exchange_audio.xml:49. Original value:Send Data    -->
+    <string name="exchange_send">Data Gönder</string>
+    <!-- Used in file activity_exchange_network.xml:21. Original value:Select Send Controller    -->
+    <string name="text_select_send_controller">Kont.Unit.den Gönder Seç</string>
+    <!-- Used in file ExchangeDiskActivity.java:196. Original value:Click the list to select folder    -->
+    <string name="click_to_select">Klasör seçmek için listeye tıklayın</string>
+    <!-- Used in file activity_exchange_disk.xml:28. Original value:Select Folder:    -->
+    <string name="text_select_folder">Klasör Seç:</string>
+    <!-- Used in file ExchangeQRCodeActivity.java:109. Original value:Point camera to qr-code on the send device.    -->
+    <string name="point_to_qrcode">Kamerayı Cihazdaki QR Koda Doğrultun.</string>
+    <!-- Used in file activity_exchange_page1.xml:13. Original value:Next &gt;&gt;    -->
+    <string name="button_next_page">İleri &gt;&gt;</string>
+    <!-- Used in file activity_exchange_page1.xml:90. Original value:Catalogs    -->
+    <string name="radio_catalogs">Kataloglar</string>
+    <!-- Used in file activity_exchange_page1.xml:187. Original value:Server    -->
+    <string name="radio_server">Server</string>
+    <!-- Used in file ExchangeDiskActivity.java:564. Original value:Folder is not selected!    -->
+    <string name="folder_is_not_selected">Klasör seçilemedi!</string>
+    <!-- Used in file ExchangePage1Activity.java:1142. Original value:Internet is not available on the device!    -->
+    <string name="internet_is_not_available">Internet is not available on the device!</string>
+    <!-- Used in file null:0. Original value:Points    -->
+    <string name="radio_points">Noktalar</string>
+    <!-- Used in file activity_exchange_page1.xml:110. Original value:Coordinate Systems    -->
+    <string name="radio_coordinate_systems">Kordinat Sistemi</string>
+    <!-- Used in file exchange_wifi.xml:15. Original value:Enable WiFi Direct    -->
+    <string name="exchange_enable_wifidirect">Direk WiFi Etkinleştir</string>
+    <!-- Used in file activity_exchange_page1.xml:46. Original value:Send    -->
+    <string name="radio_send">Gönder</string>
+    <!-- Used in file activity_exchange_page1.xml:211. Original value:Audio    -->
+    <string name="radio_audio">Audio</string>
+    <!-- Used in file activity_exchange_page1.xml:130. Original value:Files    -->
+    <string name="radio_files">Dosyalar</string>
+    <!-- Used in file activity_exchange_page1.xml:198. Original value:Disk/SD    -->
+    <string name="radio_disk">Disk/SD</string>
+    <!-- Used in file activity_exchange_page1.xml:125. Original value:Survey Settings    -->
+    <string name="radio_survey_settings">Ölçüm Ayarları</string>
+    <!-- Used in file activity_exchange_qrcode.xml:41. Original value:Next    -->
+    <string name="button_next_qrcode">İleri</string>
+    <!-- Used in file activity_exchange_page1.xml:120. Original value:Receiver Connections    -->
+    <string name="radio_receiver_connections">Alıcı Bağlantıları</string>
+    <!-- Used in file exchange_network.xml:13. Original value:Enable Network    -->
+    <string name="exchange_enable_network">Network Etkinleştir</string>
+    <!-- Used in file activity_exchange_page1.xml:85. Original value:Jobs    -->
+    <string name="radio_jobs">İşler</string>
+    <!-- Used in file activity_exchange_page1.xml:115. Original value:Correction Sources    -->
+    <string name="radio_correction_sources">Düzeltme Kaynakları</string>
+    <!-- Used in file activity_exchange_page1.xml:181. Original value:Network    -->
+    <string name="radio_network">Network</string>
+    <!-- Used in file activity_exchange_page1.xml:154. Original value:Exchange via    -->
+    <string name="text_exchange_type">Exchange via</string>
+    <!-- Used in file activity_exchange_page1.xml:67. Original value:Select object type    -->
+    <string name="text_object_type">Obje Tipi Seç</string>
+    <!-- Used in file activity_exchange_page1.xml:164. Original value:Bluetooth    -->
+    <string name="radio_bluetooth">Bluetooth</string>
+    <!-- Used in file activity_exchange_audio.xml:15. Original value:Input    -->
+    <string name="exchange_input">Giriş</string>
+    <!-- Used in file activity_exchange_page1.xml:95. Original value:Survey Points    -->
+    <string name="radio_survey_points">Survey Points</string>
+    <!-- Used in file activity_exchange_server.xml:18. Original value:Orginization    -->
+    <string name="text_orginization">Organizasyon</string>
+    <!-- Used in file activity_exchange_page1.xml:204. Original value:Camera    -->
+    <string name="radio_camera">Kamera</string>
+    <!-- Used in file ExchangePage1Activity.java:592. Original value:File is to large for this exchange type!    -->
+    <string name="file_size_is_to_large">Bu değişim türü için dosya çok büyük!</string>
 
 </resources>

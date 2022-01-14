@@ -1,135 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file PairModemActivity.java:422. Original value:Connected. Starting to pair&#8230;  -->
-    <string name="string_connected__starting_to_pair___">Bağlandı.Eşleştirme Başlıyor…</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:538. Original value:Write firmware  -->
-    <string name="string_write_firmware">Firmware Yaz</string>
-    <!--  Used in file PairModemActivity.java:439. Original value:Modem info received&#8230;  -->
-    <string name="string_modem_info_received___">Modem Bilgisi Alındı…</string>
-    <!--  Used in file RepeaterActivity.java:322. Original value:Wrong TX frequency!  -->
-    <string name="string_wrong_tx_frequency_">TX frekans Yanlış!</string>
-    <!--  Used in file RepeaterActivity.java:149. Original value:Reading setting&#8230;  -->
-    <string name="string_reading_setting___">Ayarlar Okunuyor…</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:577. Original value:Wrong firmware file!  -->
+    <!--  Used in file PairModemActivity.java:456. Original value:Connected. Starting to pair&#8230;  -->
+    <string name="string_connected__starting_to_pair___">Bağlandı. Eşleştirme Başlıyor&#8230;</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:559. Original value:Write firmware  -->
+    <string name="string_write_firmware">Firmware yaz</string>
+    <!--  Used in file PairModemActivity.java:473. Original value:Modem info received&#8230;  -->
+    <string name="string_modem_info_received___">Modem Bilgisi Alındı&#8230;</string>
+    <!--  Used in file RepeaterActivity.java:325. Original value:Wrong TX frequency!  -->
+    <string name="string_wrong_tx_frequency_">TX Frequency Yanlış!</string>
+    <!--  Used in file RepeaterActivity.java:153. Original value:Reading setting&#8230;  -->
+    <string name="string_reading_setting___">Ayarlar Okunuyor&#8230;</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:598. Original value:Wrong firmware file!  -->
     <string name="string_wrong_firmware_file_">Firmware Dosyası Yanlış!</string>
-    <!--  Used in file FindRangefinderActivity.java:515. Original value:Close  -->
+    <!--  Used in file FindRangefinderActivity.java:550. Original value:Close  -->
     <string name="string_close">Kapat</string>
-    <!--  Used in file PairModemActivity.java:176. Original value:Modem already paired  -->
-    <string name="string_modem_already_paired">Modem Eşleştirme Hazır</string>
-    <!--  Used in file PairModemActivity.java:123. Original value:Unparing  -->
-    <string name="string_unparing">Eşleşmiyor</string>
-    <!--  Used in file RepeaterActivity.java:328. Original value:Wrong RX frequency!  -->
-    <string name="string_wrong_rx_frequency_">HatalıRX frekans!</string>
-    <!--  Used in file PairModemActivity.java:527. Original value:Unpairing error  -->
-    <string name="string_unpairing_error">Eşleştirme hatası</string>
-    <!--  Used in file RepeaterActivity.java:351. Original value:Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)  -->
-    <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Güç Birimi %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
-    <!--  Used in file PairModemActivity.java:524. Original value:Successfully unpaired.  -->
-    <string name="string_successfully_unpaired_">Eşleştirme Başarılı.</string>
-    <!--  Used in file PairModemActivity.java:461. Original value:Modem is paired ok. Rebooting modem&#8230;  -->
-    <string name="string_modem_is_paired_ok__rebooting_modem___">Modem eşleştirme tamam. Modemi yeniden başlat …</string>
-    <!--  Used in file PairModemActivity.java:119. Original value:Unpaired.  -->
-    <string name="string_unpaired_">Eşleşmedi.</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:88. Original value:Connected to radio  -->
-    <string name="string_connected_to_radio">Radio ya Bağlandı</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:588. Original value:Your radio is  -->
-    <string name="string_your_radio_is">Radyonuz</string>
-    <!--  Used in file PairModemActivity.java:474. Original value:Modem Bluetooth address is not obtained!  -->
+    <!--  Used in file PairModemActivity.java:209. Original value:Modem already paired  -->
+    <string name="string_modem_already_paired">Modemi Herzaman eşleştir</string>
+    <!--  Used in file PairModemActivity.java:163. Original value:Radio is not connected to the recceiver. Do you want to unpair in any case?  -->
+    <string name="string_radio_is_not_connected_to_the_recceiver__do_you_want_to_unpair_in_any_case_">Alıcıya radyo bağlı değil. Her durumda eşleştirmeyi kaldırmak istiyor musunuz??</string>
+    <!--  Used in file PairModemActivity.java:125. Original value:Unparing  -->
+    <string name="string_unparing">Eşleştirmeyi Kesme</string>
+    <!--  Used in file RepeaterActivity.java:331. Original value:Wrong RX frequency!  -->
+    <string name="string_wrong_rx_frequency_">RX Frequency Yanlış!</string>
+    <!--  Used in file PairModemActivity.java:565. Original value:Unpairing error  -->
+    <string name="string_unpairing_error">Eşleştirme Kesme Hatası</string>
+    <!--  Used in file FindRangefinderActivity.java:959. Original value:VA  -->
+    <string name="string_va">VA</string>
+    <!--  Used in file PairModemActivity.java:562. Original value:Unpairing error. Radio is not connected.  -->
+    <string name="string_unpairing_error__radio_is_not_connected_">Eşleştirme Kesme Hatası.Radio Bağlı Değil.</string>
+    <!--  Used in file RepeaterActivity.java:354. Original value:Power should be from %1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)  -->
+    <string name="string_power_should_be_from__1__2fw__2_ddbm__to__3__2fw__4_ddbm_">Güç kaynağından olmalıdır%1$.2fW(%2$ddBm) to %3$.2fW(%4$ddBm)</string>
+    <!--  Used in file PairModemActivity.java:558. Original value:Successfully unpaired.  -->
+    <string name="string_successfully_unpaired_">Eşleştirme Başarıyla Kesildi.</string>
+    <!--  Used in file PairModemActivity.java:495. Original value:Modem is paired ok. Rebooting modem&#8230;  -->
+    <string name="string_modem_is_paired_ok__rebooting_modem___">Modem eşleştirildi.Modemi Reboot edin&#8230;</string>
+    <!--  Used in file PairModemActivity.java:121. Original value:Unpaired.  -->
+    <string name="string_unpaired_">Eşleştirmeyi Kesme.</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:90. Original value:Connected to radio  -->
+    <string name="string_connected_to_radio">Radio Bağlandı</string>
+    <!--  Used in file FindRangefinderActivity.java:533. Original value:Run as TS  -->
+    <string name="string_run_as_ts">TS Olarak Çalıştır</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:609. Original value:Your radio is  -->
+    <string name="string_your_radio_is">Radionuz</string>
+    <!--  Used in file FindRangefinderActivity.java:958. Original value:HA  -->
+    <string name="string_ha">HA</string>
+    <!--  Used in file PairModemActivity.java:508. Original value:Modem Bluetooth address is not obtained!  -->
     <string name="string_modem_bluetooth_address_is_not_obtained_">Modem Bluetooth adresi alınamadı!</string>
-    <!--  Used in file PairModemActivity.java:497. Original value:Can\'t pair GNSS receiver  -->
-    <string name="string_can_t_pair_gnss_receiver">GNSS Alıcısı Eşleştirilemez</string>
-    <!--  Used in file FindRangefinderActivity.java:793. Original value:Cancel  -->
+    <!--  Used in file PairModemActivity.java:531. Original value:Can\'t pair GNSS receiver  -->
+    <string name="string_can_t_pair_gnss_receiver">GNSS Alıcısı ile Eşleştirilemedi</string>
+    <!--  Used in file FindRangefinderActivity.java:828. Original value:Cancel  -->
     <string name="string_cancel">İptal</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:537. Original value:Do you want to load the firmware?  -->
-    <string name="string_do_you_want_to_load_the_firmware_">Ürün yazılımını yüklemek istiyor musunuz?</string>
-    <!--  Used in file PairModemActivity.java:378. Original value:Wait!!  -->
-    <string name="string_wait__">Bekleyin!!</string>
-    <!--  Used in file PairModemActivity.java:177. Original value:Do you want to unpair the receiver and the modem?  -->
-    <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Alıcıyı ve modem eşleştirmesini kaldırmak istiyor musunuz?</string>
-    <!--  Used in file RepeaterActivity.java:462. Original value:Setup OK  -->
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:558. Original value:Do you want to load the firmware?  -->
+    <string name="string_do_you_want_to_load_the_firmware_">Firmware yüklemek istiyor musunuz?</string>
+    <!--  Used in file PairModemActivity.java:411. Original value:Wait!!  -->
+    <string name="string_wait__">Bekle!!</string>
+    <!--  Used in file PairModemActivity.java:210. Original value:Do you want to unpair the receiver and the modem?  -->
+    <string name="string_do_you_want_to_unpair_the_receiver_and_the_modem_">Alıcı ve modemin eşleşmesini kaldırmak istiyor musunuz??</string>
+    <!--  Used in file RepeaterActivity.java:465. Original value:Setup OK  -->
     <string name="string_setup_ok">Kurulum OK</string>
-    <!--  Used in file RepeaterActivity.java:351. Original value:Wrong power!  -->
-    <string name="string_wrong_power_">Hatalı Güç!</string>
-    <!--  Used in file PairModemActivity.java:489. Original value:Pairing GNSS receiver&#8230;  -->
-    <string name="string_pairing_gnss_receiver___">GNSS Alıcı Eşleşmesi…</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:685. Original value:Loaded %1$.1f %% (block #%2$d from %3$d)  -->
-    <string name="string_loaded__1__1f_____block___2_d_from__3_d_">Loaded %1$.1f %% (block #%2$d from %3$d)</string>
-    <!--  Used in file PairModemActivity.java:430. Original value:Can\'t set modem to command mode  -->
-    <string name="string_can_t_set_modem_to_command_mode">Modemi komut moduna ayarlayamazsınız</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:634. Original value:Can\'t start firmware load  -->
-    <string name="string_can_t_start_firmware_load">Firm.Yükleme Başlatılamaz</string>
-    <!--  Used in file PairModemActivity.java:976. Original value:Permission denied to obtain list of Bluetooth devices around  -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Bluetooth cihazlarının listesini almak için izin reddedildi</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:563. Original value:Can\'t read version from from the file!  -->
+    <!--  Used in file RepeaterActivity.java:354. Original value:Wrong power!  -->
+    <string name="string_wrong_power_">Güç Yanlış!</string>
+    <!--  Used in file PairModemActivity.java:523. Original value:Pairing GNSS receiver&#8230;  -->
+    <string name="string_pairing_gnss_receiver___">GNSS Alıcıs ile Eşleştirildi&#8230;</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:706. Original value:Loaded %1$.1f %% (block #%2$d from %3$d)  -->
+    <string name="string_loaded__1__1f_____block___2_d_from__3_d_">Yüklendi %1$.1f %% (block #%2$d from %3$d)</string>
+    <!--  Used in file PairModemActivity.java:464. Original value:Can\'t set modem to command mode  -->
+    <string name="string_can_t_set_modem_to_command_mode">Modem Komut Moduna Ayarlanamıyor</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:655. Original value:Can\'t start firmware load  -->
+    <string name="string_can_t_start_firmware_load">Firmware Yüklenemiyor</string>
+    <!--  Used in file PairModemActivity.java:999. Original value:Permission denied to obtain list of Bluetooth devices around  -->
+    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Çevredeki Bluetooth cihazlarının listesini alma izni reddedildi</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:584. Original value:Can\'t read version from from the file!  -->
     <string name="string_can_t_read_version_from_from_the_file_">Dosyadan sürüm okunamıyor!</string>
-    <!--  Used in file PairModemActivity.java:503. Original value:Pairing has done.  -->
-    <string name="string_pairing_has_done_">Eşleştirme Yapıldı.</string>
-    <!--  Used in file PairModemActivity.java:403. Original value:Receiver is not connected!  -->
-    <string name="string_receiver_is_not_connected_">Alıcıya Bağlanılamadı!</string>
-    <!--  Used in file PairModemActivity.java:124. Original value:Successfully unpared with radio.\nTurn the radio off and on to disconnect.  -->
-    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Radyo ile başarıyla eşleştirilmemiş. \ Bağlantıyı kesmek için radyoyu kapatıp açın.</string>
-    <!--  Used in file PairModemActivity.java:94. Original value:Paired to:)  -->
-    <string name="string_paired_to__">ile Eşleşmiş:)</string>
-    <!--  Used in file PairModemActivity.java:478. Original value:Exit from data mode&#8230;  -->
-    <string name="string_exit_from_data_mode___">Data Modundan Çıkış…</string>
-    <!--  Used in file RepeaterActivity.java:442. Original value:Applying setting&#8230;  -->
-    <string name="string_applying_setting___">Uygulama Ayarları…</string>
-    <!--  Used in file FindRangefinderActivity.java:791. Original value:Please wait  -->
+    <!--  Used in file PairModemActivity.java:537. Original value:Pairing has done.  -->
+    <string name="string_pairing_has_done_">Eşleştirme yapıldı.</string>
+    <!--  Used in file PairModemActivity.java:437. Original value:Receiver is not connected!  -->
+    <string name="string_receiver_is_not_connected_">GNSS Alıcısı Bağlanamadı!</string>
+    <!--  Used in file PairModemActivity.java:162. Original value:Modem unpairing error  -->
+    <string name="string_modem_unpairing_error">Modem Eşleştirme Kesim Hatası</string>
+    <!--  Used in file PairModemActivity.java:126. Original value:Successfully unpared with radio.\nTurn the radio off and on to disconnect.  -->
+    <string name="string_successfully_unpared_with_radio__nturn_the_radio_off_and_on_to_disconnect_">Radio ile Eşleştirme Başarıyla kesildi.\nRadio yu akapatıp açın.</string>
+    <!--  Used in file PairModemActivity.java:95. Original value:Paired to:)  -->
+    <string name="string_paired_to__">Eşleştir:)</string>
+    <!--  Used in file PairModemActivity.java:512. Original value:Exit from data mode&#8230;  -->
+    <string name="string_exit_from_data_mode___">Veri modundan çık&#8230;</string>
+    <!--  Used in file RepeaterActivity.java:445. Original value:Applying setting&#8230;  -->
+    <string name="string_applying_setting___">Ayarları Uygula&#8230;</string>
+    <!--  Used in file FindRangefinderActivity.java:826. Original value:Please wait  -->
     <string name="string_please_wait">Lütfen Bekleyin</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:751. Original value:Reset  -->
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:772. Original value:Reset  -->
     <string name="string_reset">Reset</string>
-    <!--  Used in file RepeaterActivity.java:301. Original value:Wrong RX frequecy!  -->
-    <string name="string_wrong_rx_frequecy_">Hatalı RX frekans!</string>
-    <!--  Used in file PairModemActivity.java:99. Original value:Paired  -->
-    <string name="string_paired">Esleştirildi</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:610. Original value:Firmware successfully loaded  -->
+    <!--  Used in file RepeaterActivity.java:304. Original value:Wrong RX frequecy!  -->
+    <string name="string_wrong_rx_frequecy_">RX frequecy Yanlış!</string>
+    <!--  Used in file PairModemActivity.java:100. Original value:Paired  -->
+    <string name="string_paired">Eşleştir</string>
+    <!--  Used in file FindRangefinderActivity.java:463. Original value:Disconnected!  -->
+    <string name="string_disconnected_">Bağlantı Kesildi!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:631. Original value:Firmware successfully loaded  -->
     <string name="string_firmware_successfully_loaded">Firmware Başarıyla Yüklendi</string>
-    <!--  Used in file PairModemActivity.java:492. Original value:Reseting GNSS receiver&#8230;  -->
-    <string name="string_reseting_gnss_receiver___">GNSS Alıcısı Resetleniyor…</string>
-    <!--  Used in file RepeaterActivity.java:339. Original value:Wrong call sign (only numbers and capital chars are avaibale!)  -->
-    <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Hatalı Sinyal değeri (Yalnız Rakam ve Capital Karakterler Uygundur!)</string>
-    <!--  Used in file RepeaterActivity.java:328. Original value:Frequency should be from %1$dHz to %2$dHz  -->
-    <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Frekans aralığınız %1$dHz ile %2$dHz</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:528. Original value:File doesn\'t exist!  -->
-    <string name="string_file_doesn_t_exist_">Dosya Mevcut Değil!</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:588. Original value:This firmware is  -->
-    <string name="string_this_firmware_is">Firmware</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:88. Original value:Do you want to update its firmware?  -->
-    <string name="string_do_you_want_to_update_its_firmware_">Firmware Güncellensin mi?</string>
-    <!--  Used in file PairModemActivity.java:162. Original value:Connected to   -->
-    <string name="string_connected_to_">Bağlandı</string>
-    <!--  Used in file PairModemActivity.java:465. Original value:Can\'t save modem settings!  -->
-    <string name="string_can_t_save_modem_settings_">Modem Ayarları Saklanamaz!</string>
-    <!--  Used in file PairModemActivity.java:119. Original value:Turn the radio off and on to finish.  -->
-    <string name="string_turn_the_radio_off_and_on_to_finish_">Bitirmek için radyoyu kapatıp açın.</string>
-    <!--  Used in file FindRangefinderActivity.java:512. Original value:Successfully connected to %s  -->
-    <string name="string_successfully_connected_to__s">Başarılı Bağlantı %s</string>
-    <!--  Used in file PairModemActivity.java:407. Original value:Receiver Bluetooth address is not obtained!  -->
-    <string name="string_receiver_bluetooth_address_is_not_obtained_">Alıcıdan Bluetooth adresi alınamadı!</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:309. Original value:Can\'t connect to internal radio!  -->
-    <string name="string_can_t_connect_to_internal_radio_">Dahili Radio ya Bağlanamazsınız!</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:644. Original value:Can\'t initiate firmware loading  -->
-    <string name="string_can_t_initiate_firmware_loading">Firmware Yüklemesi Başlatılamaz</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:447. Original value:Can\'t read radio info  -->
-    <string name="string_can_t_read_radio_info">Radyo Bilgisi Okunamaz</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:781. Original value:Rebooting %.1f  -->
+    <!--  Used in file PairModemActivity.java:526. Original value:Reseting GNSS receiver&#8230;  -->
+    <string name="string_reseting_gnss_receiver___">GNSS Alıcısını Resetleyin&#8230;</string>
+    <!--  Used in file RepeaterActivity.java:342. Original value:Wrong call sign (only numbers and capital chars are avaibale!)  -->
+    <string name="string_wrong_call_sign__only_numbers_and_capital_chars_are_avaibale__">Yanlış Sinyal (yalnızca sayılar ve büyük harfler kullanılabilir!)</string>
+    <!--  Used in file RepeaterActivity.java:331. Original value:Frequency should be from %1$dHz to %2$dHz  -->
+    <string name="string_frequency_should_be_from__1_dhz_to__2_dhz">Frequency aralığında olmalı %1$dHz to %2$dHz</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:549. Original value:File doesn\'t exist!  -->
+    <string name="string_file_doesn_t_exist_">Dosya mevcut değil!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:609. Original value:This firmware is  -->
+    <string name="string_this_firmware_is">Bu ürün Firmware</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:90. Original value:Do you want to update its firmware?  -->
+    <string name="string_do_you_want_to_update_its_firmware_">Ürün yazılımını güncellemek istiyor musunuz??</string>
+    <!--  Used in file PairModemActivity.java:195. Original value:Connected to   -->
+    <string name="string_connected_to_">Bağlandı </string>
+    <!--  Used in file PairModemActivity.java:499. Original value:Can\'t save modem settings!  -->
+    <string name="string_can_t_save_modem_settings_">Modem Ayarları Saklanamıyor!</string>
+    <!--  Used in file PairModemActivity.java:121. Original value:Turn the radio off and on to finish.  -->
+    <string name="string_turn_the_radio_off_and_on_to_finish_">Bitirmek için Radio Kapatıp Açın.</string>
+    <!--  Used in file FindRangefinderActivity.java:529. Original value:Successfully connected to %s  -->
+    <string name="string_successfully_connected_to__s">Başarıyla Bağlandı %s</string>
+    <!--  Used in file PairModemActivity.java:441. Original value:Receiver Bluetooth address is not obtained!  -->
+    <string name="string_receiver_bluetooth_address_is_not_obtained_">Alıcı Bluetooth adresi alınamadı!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:317. Original value:Can\'t connect to internal radio!  -->
+    <string name="string_can_t_connect_to_internal_radio_">Dahili Radio Ya bağlanılamadı!</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:665. Original value:Can\'t initiate firmware loading  -->
+    <string name="string_can_t_initiate_firmware_loading">Firmware Yüklenemedi</string>
+    <!--  Used in file FindRangefinderActivity.java:466. Original value:Distance is   -->
+    <string name="string_distance_is_">Mesafe </string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:456. Original value:Can\'t read radio info  -->
+    <string name="string_can_t_read_radio_info">Radio Bilgisi Okunamadı</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:802. Original value:Rebooting %.1f  -->
     <string name="string_rebooting___1f">Rebooting %.1f</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:234. Original value:Radio Paired by Bluetooth  -->
-    <string name="string_radio_paired_by_bluetooth">Bluetooth ile Radyo Eşleşmesi</string>
-    <!--  Used in file PairModemActivity.java:100. Original value:Successfully paired to radio.  -->
-    <string name="string_successfully_paired_to_radio_">Radyo başarıyla eşleştirildi.</string>
-    <!--  Used in file RepeaterActivity.java:294. Original value:Wrong TX frequecy!  -->
-    <string name="string_wrong_tx_frequecy_">Hatalı TX Frekans!</string>
-    <!--  Used in file PairModemActivity.java:377. Original value:Please Wait!!  -->
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:242. Original value:Radio Paired by Bluetooth  -->
+    <string name="string_radio_paired_by_bluetooth">Radio Bluetooth ile eşleştirildi</string>
+    <!--  Used in file FindRangefinderActivity.java:957. Original value:Distance  -->
+    <string name="string_distance">Mesafe</string>
+    <!--  Used in file PairModemActivity.java:101. Original value:Successfully paired to radio.  -->
+    <string name="string_successfully_paired_to_radio_">Radio Başarıyla Eşleştirildi.</string>
+    <!--  Used in file RepeaterActivity.java:297. Original value:Wrong TX frequecy!  -->
+    <string name="string_wrong_tx_frequecy_">TX Frequecy Yanlış!</string>
+    <!--  Used in file PairModemActivity.java:410. Original value:Please Wait!!  -->
     <string name="string_please_wait__">Lütfen Bekleyin!!</string>
-    <!--  Used in file FindRangefinderActivity.java:790. Original value:Conecting&#8230;  -->
-    <string name="string_conecting___">Bağlantı…</string>
-    <!--  Used in file FindRangefinderActivity.java:513. Original value:Connected to Rangefinder  -->
-    <string name="string_connected_to_rangefinder">BT MesfÖlçer Bağlandı</string>
-    <!--  Used in file LoadFirmwareModemSelectActivity.java:536. Original value:Load firmware  -->
-    <string name="string_load_firmware">Firmware yükle</string>
-    <!--  Used in file RepeaterActivity.java:457. Original value:Setup failed!  -->
+    <!--  Used in file FindRangefinderActivity.java:825. Original value:Conecting&#8230;  -->
+    <string name="string_conecting___">Bağlanıyor&#8230;</string>
+    <!--  Used in file FindRangefinderActivity.java:530. Original value:Connected to Rangefinder  -->
+    <string name="string_connected_to_rangefinder">Rangefinder &gt;Bağlandı</string>
+    <!--  Used in file LoadFirmwareModemSelectActivity.java:557. Original value:Load firmware  -->
+    <string name="string_load_firmware">Firmware Yükle</string>
+    <!--  Used in file RepeaterActivity.java:460. Original value:Setup failed!  -->
     <string name="string_setup_failed_">Kurulum Başarısız!</string>
 
 </resources>

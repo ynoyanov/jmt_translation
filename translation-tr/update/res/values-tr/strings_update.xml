@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_update_firmware.xml:42. Original value:Update from Internet to Stable    -->
-    <string name="update_from_internet_stable">İnternetde Stabil Olanla Güncelle</string>
+    <!-- Used in file activity_update_firmware.xml:43. Original value:Update from Internet to Stable    -->
+    <string name="update_from_internet_stable">İnternetten Stabil Version ile Güncelle</string>
     <!-- Used in file list_oaf_header.xml:51. Original value:Date    -->
-    <string name="string_date_header">Date</string>
+    <string name="string_date_header">Tarih</string>
     <!-- Used in file list_oaf_header.xml:42. Original value:Leased    -->
-    <string name="string_leased_header">Leased</string>
+    <string name="string_leased_header">Geçici</string>
     <!-- Used in file fragment_resets.xml:30. Original value:Reset Receiver    -->
-    <string name="reset_receiver">Alıcı Reset</string>
+    <string name="reset_receiver">GNSS Alıcısı Sıfırla</string>
     <!-- Used in file fragment_resets.xml:50. Original value:Update OAF    -->
     <string name="update_oaf">OAF Güncelle</string>
     <!-- Used in file fragment_resets.xml:17. Original value:Clear NVRAM    -->
     <string name="clear_nvram">NVRAM Temizle</string>
+    <!-- Used in file activity_update_firmware.xml:77. Original value:Update GSM (Verizon) firmware    -->
+    <string name="update_gsm_verizon_from_internet_latest">GSM(Verizon)Firmware Güncelle</string>
     <!-- Used in file activity_update_firmware.xml:32. Original value:Update from File    -->
     <string name="update_from_file">Dosyadan Güncelle</string>
     <!-- Used in file activity_update_firmware.xml:21. Original value:Options are OK    -->
-    <string name="oaf_info">OAF Tamam</string>
+    <string name="oaf_info">OAF OK</string>
     <!-- Used in file fragment_resets.xml:22. Original value:Crear all receiver settings to default values    -->
-    <string name="init_parameters_summary">Alıcı ayarlarının tümünü Fabrikasyon değerlere getirin</string>
+    <string name="init_parameters_summary">GNSS Alıcısı tüm  ayarlarını varsayılan değerlere ayarla</string>
     <!-- Used in file fragment_resets.xml:38. Original value:Save all receiver settings into text file    -->
-    <string name="save_settings_summary">Alıcı ayarlarını TXT Dosyada Sakla</string>
+    <string name="save_settings_summary">Tüm alıcı ayarlarını metin dosyasına kaydedin</string>
     <!-- Used in file oaf_update.xml:8. Original value:Save OAF Report    -->
-    <string name="action_save_oaf_report">Save OAF Report</string>
+    <string name="action_save_oaf_report">OAF Raporunu sakla</string>
     <!-- Used in file activity_update_oaf.xml:45. Original value:Check OAF at every connection    -->
-    <string name="check_oaf_at_every_connection">Her Bağlanışta OAF Kontrolet</string>
-    <!-- Used in file activity_update_firmware.xml:52. Original value:Update from Internet to Lattest    -->
-    <string name="update_from_internet_latest">İnternet den En Günceliyle</string>
+    <string name="check_oaf_at_every_connection">OAF her bağlantıda kontrol edin</string>
+    <!-- Used in file activity_update_firmware.xml:54. Original value:Update from Internet to Latest    -->
+    <string name="update_from_internet_latest">İnternetten Yeni Version ile Güncelle</string>
     <!-- Used in file list_oaf_header.xml:33. Original value:Purch.    -->
-    <string name="string_purchase_header">Purch.</string>
+    <string name="string_purchase_header">Satınalınmış.</string>
     <!-- Used in file fragment_resets.xml:50. Original value:Upfate receiver options(OAF) from file or from Web    -->
-    <string name="update_oaf_summary">Alıcı OAF ları Webden veya Dosyadan güncelle</string>
+    <string name="update_oaf_summary">Dosyadan veya Web\'den alıcı seçeneklerini (OAF) güncelleyin</string>
     <!-- Used in file fragment_resets.xml:42. Original value:Restore  all receiver settings from setting file    -->
-    <string name="restore_settings_summary">Tüm Alıcı ayarlarını Yaralananla değiştir</string>
+    <string name="restore_settings_summary">Ayar dosyasından tüm alıcı ayarlarını geri yükleyin</string>
     <!-- Used in file fragment_resets.xml:46. Original value:Upfate receiver firmware from file or from Web    -->
-    <string name="update_firmware_summary">Alıcı Firm.Dosyadan veya Web den güncelle</string>
+    <string name="update_firmware_summary">Dosyadan veya Web\'den alıcı donanım yazılımını güncelleyin</string>
     <!-- Used in file activity_update_oaf.xml:37. Original value:Update from Internet    -->
-    <string name="update_from_internet">İnternet den Güncelle</string>
+    <string name="update_from_internet">&gt;İnternetden Güncelle</string>
     <!-- Used in file list_oaf_header.xml:15. Original value:Option    -->
     <string name="string_option_header">Option</string>
     <!-- Used in file fragment_resets.xml:22. Original value:Init Parameters    -->
-    <string name="init_parameters">Parametreler init</string>
+    <string name="init_parameters">Başlangıç Parametreleri</string>
     <!-- Used in file fragment_resets.xml:30. Original value:Reset turns off and on the receiver    -->
-    <string name="reset_receiver_summary">Alıcıyı Aç - Kapat</string>
+    <string name="reset_receiver_summary">Sıfırlama GNSS Alıcınızı Kapatır/Açar</string>
     <!-- Used in file fragment_resets.xml:46. Original value:Update Firmware    -->
     <string name="update_firmware">Firmware Güncelle</string>
     <!-- Used in file list_oaf_header.xml:24. Original value:Cur.    -->
-    <string name="string_curr_header">Cur.</string>
+    <string name="string_curr_header">Geçerli</string>
     <!-- Used in file fragment_resets.xml:26. Original value:Clear file system removes all jps files on the receiver    -->
-    <string name="clear_file_system_summary">Dosya sistemi Temizleme, alıcıdaki tüm jps dosyalarını kaldırır</string>
+    <string name="clear_file_system_summary">Dosya sistemini temizle, alıcıdaki tüm jps dosyalarını kaldırır</string>
     <!-- Used in file fragment_resets.xml:38. Original value:Save Receiver Settings    -->
-    <string name="save_settings">Alıcı Ayarlarını Sakla</string>
+    <string name="save_settings">GNSS Ayarlarını sakla</string>
+    <!-- Used in file activity_update_firmware.xml:65. Original value:Update GSM (Generic) firmware    -->
+    <string name="update_gsm_generic_from_internet_latest">GSM(Generic)firmware Güncelle</string>
     <!-- Used in file fragment_resets.xml:17. Original value:Crear all receiver settings to default values    -->
-    <string name="clear_nvram_summary">Alıcının Tüm Ayar ve Değerlerini temizle</string>
+    <string name="clear_nvram_summary">GNSS Alıcı ayarlarını varsayılan değerlere getirin</string>
     <!-- Used in file fragment_resets.xml:34. Original value:Reset RTK    -->
-    <string name="reset_rtk">RTK Reset</string>
+    <string name="reset_rtk">RTK Bağ.Sıfırla</string>
+    <!-- Used in file activity_update_firmware.xml:89. Original value:Update UHF firmware    -->
+    <string name="update_uhf_from_internet_latest">UHF Firmware Güncelle</string>
     <!-- Used in file fragment_resets.xml:42. Original value:Restore Receiver Settings    -->
-    <string name="restore_settings">Alıcı Ayarları Yenileniyor</string>
+    <string name="restore_settings">GNSS Alıcı Ayarlarını Geri Yükle</string>
     <!-- Used in file fragment_resets.xml:26. Original value:Clear File System    -->
-    <string name="clear_file_system">Dosya Sistemi Temizle</string>
+    <string name="clear_file_system">Dosya Sistemini Temizle</string>
     <!-- Used in file fragment_resets.xml:34. Original value:Turn RTK off and on to refix solution    -->
-    <string name="reset_rtk_summary">Fix Çözüm için RTK Kapatın ve Tekrar Açın</string>
+    <string name="reset_rtk_summary">Çözümlemeyi düzeltmek için RTK\'yi Kapatıp Açın</string>
 
 </resources>

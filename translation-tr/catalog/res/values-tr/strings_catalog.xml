@@ -1,58 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file list_catalog_points_icons2.xml:84. Original value:Description    -->
+    <string name="string_descriptionhint">Açıklama</string>
+    <!-- Used in file activity_catalog_point.xml:254. Original value:Height    -->
+    <string name="height">Yüks.</string>
+    <!-- Used in file catalogs.xml:22. Original value:Search    -->
+    <string name="action_search">Ara</string>
+    <!-- Used in file CatalogInfoActivity.java:244. Original value:Modify Catalog    -->
+    <string name="edit">Katalog Modifiye</string>
+    <!-- Used in file catalogs3.xml:86. Original value:Edit Catalog    -->
+    <string name="action_edit">Katalog Düzelt</string>
+    <!-- Used in file activity_catalog_edit.xml:83. Original value:Delete Catalog    -->
+    <string name="button_delete_catalog">Katalog Sil</string>
+    <!-- Used in file CatalogPointsActivity3.java:1036. Original value:Warning    -->
+    <string name="warning_catalog">Uyarı</string>
+    <!-- Used in file CatalogPointsActivity2.java:285. Original value:Comment    -->
+    <string name="string_comment_sort">Yorum</string>
+    <!-- Used in file activity_catalog_point.xml:214. Original value:North    -->
+    <string name="north">X Kord</string>
+    <!-- Used in file activity_catalog_edit.xml:96. Original value:Duplicate Catalog    -->
+    <string name="button_duplicate_catalog">Katalog Çoğalt</string>
+    <!-- Used in file catalogs3.xml:67. Original value:Text    -->
+    <string name="view_catalog_as_text">Text</string>
+    <!-- Used in file catalog_point.xml:8. Original value:Delete Point    -->
+    <string name="action_delete_point_catalog">Delete Point</string>
+    <!-- Used in file catalogs.xml:29. Original value:Sort    -->
+    <string name="action_sort">Sırala</string>
+    <!-- Used in file activity_catalogs_list.xml:21. Original value:Search files&#8230;    -->
+    <string name="search_hint">Dosyaları Ara&#8230;</string>
+    <!-- Used in file catalogs3.xml:32. Original value:View    -->
+    <string name="action_view">İncele</string>
+    <!-- Used in file catalog_list_item2.xml:35. Original value:Find:    -->
+    <string name="string_find_string">Bul:</string>
+    <!-- Used in file CatalogPointsActivity3.java:1037. Original value:Do you want to add selected controls points to job design points?    -->
+    <string name="add_selected_points_to_job_design_points">İş tasarım noktalarına seçili kontrol noktaları eklemek istiyor musunuz?</string>
+    <!-- Used in file catalogs.xml:15. Original value:Add    -->
+    <string name="action_add">Ekle</string>
     <!-- Used in file catalogs.xml:36. Original value:Calendar    -->
     <string name="action_calendar">Takvim</string>
     <!-- Used in file catalogs.xml:45. Original value:Delete    -->
     <string name="action_delete">Sil</string>
-    <!-- Used in file catalogs2.xml:31. Original value:Import    -->
-    <string name="action_import">Import</string>
-    <!-- Used in file CatalogInfoActivity.java:152. Original value:Create Catalog    -->
-    <string name="create">Katalog Oluştur</string>
-    <!-- Used in file catalog_list_item.xml:83. Original value:Description    -->
-    <string name="string_descriptionhint">Açıklama</string>
-    <!-- Used in file catalogs.xml:22. Original value:Search    -->
-    <string name="action_search">Ara</string>
-    <!-- Used in file CatalogInfoActivity.java:156. Original value:Modify Catalog    -->
-    <string name="edit">Katalog Yenile</string>
-    <!-- Used in file catalog_list_item.xml:72. Original value:Code    -->
+    <!-- Used in file activity_catalogs3.xml:21. Original value:Current Catalog    -->
+    <string name="string_catalog_name">Mevcut Katalog</string>
+    <!-- Used in file catalogs3.xml:46. Original value:Import    -->
+    <string name="action_import">İmport</string>
+    <!-- Used in file CatalogInfoActivity.java:240. Original value:Create Catalog    -->
+    <string name="create">Katalog oluştur</string>
+    <!-- Used in file list_catalog_points_icons2.xml:76. Original value:Code    -->
     <string name="string_codehint">Kod</string>
-    <!-- Used in file catalogs2.xml:45. Original value:Edit Catalog    -->
-    <string name="action_edit">Edit Catalog</string>
+    <!-- Used in file activity_catalog_point.xml:154. Original value:Point Name    -->
+    <string name="point_name">Nokta Adı</string>
+    <!-- Used in file CatalogInfoActivity.java:321. Original value:Can not create catalog    -->
+    <string name="cant_create_catalog">Katalog Oluşturulamıyor</string>
     <!-- Used in file catalogs.xml:8. Original value:Map    -->
     <string name="action_map">Harita</string>
     <!-- Used in file activity_catalog_point.xml:286. Original value:Coordinate System    -->
     <string name="coordinate_system">Koord.Sistemi</string>
-    <!-- Used in file activity_catalog_edit.xml:86. Original value:OK    -->
+    <!-- Used in file null:0. Original value:OK    -->
     <string name="button_ok">OK</string>
-    <!-- Used in file activity_catalog_edit.xml:76. Original value:Delete Catalog    -->
-    <string name="button_delete_catalog">Katalog Sil</string>
-    <!-- Used in file CatalogPointsActivity2.java:283. Original value:Name    -->
-    <string name="string_name_sort">Name</string>
-    <!-- Used in file CatalogPointsActivity2.java:286. Original value:Comment    -->
-    <string name="string_comment_sort">Comment</string>
-    <!-- Used in file catalogs2.xml:38. Original value:Export    -->
-    <string name="action_export">Export</string>
-    <!-- Used in file activity_catalog_edit.xml:68. Original value:Latitude/Longitude Format    -->
-    <string name="lat_lon_format">Latitude/Longitude Format</string>
-    <!-- Used in file catalog_list_item2.xml:25. Original value:Name,    N,   E,    H,   Code,  Description    -->
-    <string name="edit_header">Name,    N,   E,    H,   Code,  Description</string>
-    <!-- Used in file activity_catalog_edit.xml:15. Original value:Catalog    -->
+    <!-- Used in file CatalogPointsActivity2.java:282. Original value:Name    -->
+    <string name="string_name_sort">Adı</string>
+    <!-- Used in file null:0. Original value:Catalog %s has been deleted    -->
+    <string name="string_catalog__s_has_been_deleted">Catalog %s has been deleted</string>
+    <!-- Used in file catalogs3.xml:53. Original value:Export    -->
+    <string name="action_export">Gönder</string>
+    <!-- Used in file activity_catalog_point.xml:194. Original value:Code    -->
+    <string name="code">Kod</string>
+    <!-- Used in file CatalogPointsActivity2.java:505. Original value:Export Format is not selected!    -->
+    <string name="export_format_is_not_selected">Gönderilecek Format Seçilmedi!</string>
+    <!-- Used in file activity_catalog_edit.xml:74. Original value:Latitude/Longitude Format    -->
+    <string name="lat_lon_format">Enlem/Boylam Formatı</string>
+    <!-- Used in file activity_catalog_point.xml:174. Original value:Description    -->
+    <string name="description">Açıklama Tanımlama</string>
+    <!-- Used in file catalog_list_item2.xml:71. Original value:Name,    N,   E,    H,   Code,  Description    -->
+    <string name="edit_header">Adı,    X,   Y,    Z,   Kod,  Açıklama</string>
+    <!-- Used in file catalogs3.xml:64. Original value:List    -->
+    <string name="view_catalog_as_list">Liste</string>
+    <!-- Used in file activity_catalog_edit.xml:16. Original value:Catalog    -->
     <string name="text_catalog">Katalog</string>
-    <!-- Used in file CatalogPointsActivity2.java:284. Original value:Type    -->
-    <string name="string_type_sort">Type</string>
+    <!-- Used in file activity_catalog_point.xml:234. Original value:East    -->
+    <string name="east">Y Kord</string>
+    <!-- Used in file CatalogPointsActivity2.java:283. Original value:Type    -->
+    <string name="string_type_sort">Tip</string>
     <!-- Used in file activity_catalog.xml:23. Original value:Catalog     -->
-    <string name="button_catalog">Katalog</string>
-    <!-- Used in file catalogs.xml:29. Original value:Sort    -->
-    <string name="action_sort">Sırala</string>
-    <!-- Used in file CatalogPointsActivity2.java:285. Original value:Code    -->
-    <string name="string_code_sort">Code</string>
-    <!-- Used in file activity_catalog_edit.xml:52. Original value:Measure Units    -->
-    <string name="measure_units">Measure Units</string>
-    <!-- Used in file activity_catalogs_list.xml:20. Original value:Search files&#8230;    -->
-    <string name="search_hint">Dosya ara…</string>
-    <!-- Used in file catalogs.xml:15. Original value:Add    -->
-    <string name="action_add">Ekle</string>
-    <string name="string_find_string">Bulmak:</string>
+    <string name="button_catalog">Katalog </string>
+    <!-- Used in file CatalogPointsActivity2.java:284. Original value:Code    -->
+    <string name="string_code_sort">Kod</string>
+    <!-- Used in file activity_catalog_edit.xml:107. Original value:Create Catalog    -->
+    <string name="button_create_catalog">Katalog oluştur</string>
+    <!-- Used in file activity_catalog_edit.xml:53. Original value:Measure Units    -->
+    <string name="measure_units">Mesafe Birimi</string>
+    <!-- Used in file catalogs3.xml:60. Original value:View Catalog as    -->
+    <string name="view_catalogs_as">Katalogu İncele</string>
+    <!-- Used in file null:0. Original value:Can\'t delete catalog %s!    -->
+    <string name="string_can_t_delete_catalog__s_">Can\'t delete catalog %s!</string>
 
 </resources>

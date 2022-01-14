@@ -8,24 +8,46 @@
          <item>2</item>
     </string-array>
 
-    <!-- Used in file pref_mapinfo.xml:12 -->
+    <!-- Used in file pref_mapinfo.xml:14 -->
     <string-array name="report_to_do_values">
-         <item>Sonuç dosyasını paylaş</item>
-         <item>Sonuç dosyasını aç</item>
+         <item>Sonuç Dosyası Paylaş</item>
+         <item>Sonuç Dosyası Aç</item>
          <item>Hiçbiri</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:20 -->
+    <string-array name="exporttrajectoriessarray">
+         <item>trajectories 2d</item>
+         <item>trajectories 3d</item>
+         <item>trajectories 3d Noktalar ile</item>
+    </string-array>
+
+    <!-- Used in file pref_dxf.xml:21 -->
+    <string-array name="exporttrajectoriesvalues">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
     </string-array>
 
     <!-- Used in file pref_import_dwg.xml:10 -->
     <string-array name="importobjectsarray">
-         <item>yalnız noktalar</item>
-         <item>noktalar ve hatlar</item>
-        <item>yalnız faces</item>
+         <item>Yalnız Noktalar</item>
+         <item>Noktalar,Hatlar,Yüzeyler</item>
+         <item>Yalnız Yüzeyler</item>
     </string-array>
 
-    <!-- Used in file pref_dxf.xml:18 -->
+    <!-- Used in file pref_tots.xml:26 -->
+    <string-array name="tots_to_do_values">
+         <item>TotalStation Gönder</item>
+         <item>Sonuç Dosyası Paylaş</item>
+         <item>Sonuç Dosyası Aç</item>
+         <item>Yok</item>
+    </string-array>
+
+    <!-- Used in file pref_mapinfo.xml:10 -->
     <string-array name="exportobjectsarray">
-         <item>Yalnız ölcüm objeleri</item>
-         <item>ölçüm objeleri + cizimler</item>
+         <item>Yalnız Ölçüm Objeleri</item>
+         <item>Ölçüm Objeleri+Çizimler</item>
     </string-array>
 
     <!-- Used in file pref_dxf.xml:12 -->
@@ -60,7 +82,7 @@
          <item>XML</item>
     </string-array>
 
-    <!-- Used in file pref_dxf.xml:19 -->
+    <!-- Used in file pref_mapinfo.xml:11 -->
     <string-array name="exportobjectsvalues">
          <item>1</item>
          <item>2</item>

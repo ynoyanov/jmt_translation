@@ -1,143 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file CatalogInfoActivity.java:186. Original value:Catalog name is too long!\nLimit it up to 40 chars, please  -->
-    <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Katalog ismi çok uzun!\nLimit 40 Karekter dir</string>
-    <!--  Used in file CatalogPointsActivity2.java:758. Original value:View on Map  -->
-    <string name="string_view_on_map">Haritada Gör</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:938. Original value:Delete %1$d selected points (of %2$d)  -->
-    <string name="string_delete__1_d_selected_points__of__2_d_">Sil %1$d seçilen noktalar (of %2$d)</string>
-    <!--  Used in file CatalogPointActivity.java:248. Original value:Point name is empty!  -->
-    <string name="string_point_name_is_empty_">Point name is empty!</string>
-    <!--  Used in file CatalogPoint.java:42. Original value:Name  -->
-    <string name="string_name">Name</string>
-    <!--  Used in file CatalogPointsActivity.java:233. Original value:Google KML *.kml  -->
-    <string name="string_google_kml___kml">Google KML *.kml</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:UnSelect  -->
-    <string name="string_unselect">SeçimHarici</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:927. Original value:What to do with catalog %1$s?  -->
-    <string name="string_what_to_do_with_catalog__1_s_">Katalog ile ne yapılacak %1$s?</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:584. Original value:+ Add new control point  -->
-    <string name="string___add_new_control_point">+ Ekle yeni kontrol noktası</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Close  -->
+    <!--  Used in file CatalogInfoActivity.java:274. Original value:Catalog name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_catalog_name_is_too_long__nlimit_it_up_to_40_chars__please">Katalog adı çok uzun!\nKarakterle sınırlayın</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:119. Original value:Hide Find  -->
+    <string name="string_hide_find">Bul Gizle</string>
+    <!--  Used in file CatalogPointsActivity2.java:839. Original value:View on Map  -->
+    <string name="string_view_on_map">Haritada Göster</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:926. Original value:Text Not Found  -->
+    <string name="string_text_not_found">Text Bulunamadı</string>
+    <!--  Used in file CatalogInfoActivity.java:151. Original value:Do you want to delete catalog %s?\nThe action can be undone!  -->
+    <string name="string_do_you_want_to_delete_catalog__s__nthe_action_can_be_undone_">Katalogları %s silmek istiyor musunuz?\in İşlem geri alınabilir!</string>
+    <!--  Used in file CatalogPoint.java:46. Original value:Name  -->
+    <string name="string_name">Adı</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:175. Original value:Do you want to delete point %1$s  -->
+    <string name="string_do_you_want_to_delete_point__1_s">Noktayı silmek istiyor musun %1$s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:UnSelect  -->
+    <string name="string_unselect">Seçilmeyenler</string>
+    <!--  Used in file CatalogInfoActivity.java:190. Original value:Do you want to duplicate catalog %1$s as ?\nThe action can be undone!  -->
+    <string name="string_do_you_want_to_duplicate_catalog__1_s_as___nthe_action_can_be_undone_">%1$s kataloğunu ?\İşlem geri alınabilir olarak çoğaltmak istiyor musunuz?!</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:186. Original value:Close  -->
     <string name="string_close">Kapat</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:545. Original value:%d points were deleted  -->
-    <string name="string__d_points_were_deleted">%d noktalar silindi</string>
-    <!--  Used in file CatalogPointsActivity2.java:397. Original value:PNEZ comma text file (*.txt)  -->
-    <string name="string_pnez_comma_text_file____txt_">PNEZ comma text file (*.txt)</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Clear Select  -->
-    <string name="string_clear_select">Seçimi temizle</string>
-    <!--  Used in file CatalogPointsActivity2.java:405. Original value:Leica GSI *.gsi  -->
+    <!--  Used in file CatalogPointsActivity2.java:456. Original value:Leica GSI *.gsi  -->
     <string name="string_leica_gsi___gsi">Leica GSI *.gsi</string>
     <!--  Used in file CatalogPointsActivity.java:233. Original value:MapInfo *.tab  -->
     <string name="string_mapinfo___tab">MapInfo *.tab</string>
-    <!--  Used in file CatalogsActivity.java:192. Original value:catalogs  -->
-    <string name="string_catalogs">Kataloglar</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Delete Catalog  -->
+    <!--  Used in file CatalogPointsActivity3.java:1001. Original value:to Job  -->
+    <string name="string_to_job">to Job</string>
+    <!--  Used in file CatalogPointActivity.java:259. Original value:Do you want to delete %s  -->
+    <string name="string_do_you_want_to_delete__s">Do you want to delete %s</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:69. Original value:Delete Catalog  -->
     <string name="string_delete_catalog">Katalog Sil</string>
     <!--  Used in file CatalogPointsActivity.java:65. Original value:Catalog %s  -->
     <string name="string_catalog__s">Katalog %s</string>
-    <!--  Used in file CatalogInfoActivity.java:261. Original value:Catalog %1$s has been renamed to %2$s  -->
-    <string name="string_catalog__1_s_has_been_renamed_to__2_s">Katalog %1$s farklı kaydet %2$s</string>
-    <!--  Used in file CatalogExpandableListAdapter2.java:850. Original value:Export Points  -->
-    <string name="string_export_points">Export Points</string>
-    <!--  Used in file CatalogPointsActivity2.java:407. Original value:Raw Data RW5 *.rw5  -->
+    <!--  Used in file CatalogExpandableListAdapter2.java:120. Original value:Export Points  -->
+    <string name="string_export_points">Noktaları Gönder</string>
+    <!--  Used in file CatalogPointsActivity2.java:458. Original value:Raw Data RW5 *.rw5  -->
     <string name="string_raw_data_rw5___rw5">Raw Data RW5 *.rw5</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:87. Original value:What to do with point %1$s?  -->
-    <string name="string_what_to_do_with_point__1_s_">Nokta ile ne yapılacak %1$s?</string>
-    <!--  Used in file CatalogPoint.java:172. Original value:Code  -->
-    <string name="string_code">Code</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:929. Original value:Select  -->
+    <!--  Used in file CatalogExpandableListAdapter3.java:73. Original value:Select  -->
     <string name="string_select">Seçim</string>
-    <!--  Used in file CatalogsActivity.java:150. Original value:Edit Catalog  -->
-    <string name="string_edit_catalog">Katalog Dzlt</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:104. Original value:Delete  -->
-    <string name="string_delete">Sil</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Show on map  -->
-    <string name="string_show_on_map">Haritada göster</string>
-    <!--  Used in file CatalogPointsActivity2.java:400. Original value:MapInfo (*.mif;*.tab)  -->
+    <!--  Used in file CatalogExpandableListAdapter3.java:77. Original value:Edit Catalog  -->
+    <string name="string_edit_catalog">Katalog Düzelt</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:181. Original value:Show on map  -->
+    <string name="string_show_on_map">Haritada Göster</string>
+    <!--  Used in file CatalogPointsActivity2.java:449. Original value:MapInfo (*.mif;*.tab)  -->
     <string name="string_mapinfo____mif___tab_">MapInfo (*.mif;*.tab)</string>
-    <!--  Used in file CatalogsActivity.java:153. Original value:Select Catalog  -->
-    <string name="string_select_catalog">Katalog Seçim</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Import  -->
-    <string name="string_import">Import</string>
+    <!--  Used in file CatalogInfoActivity.java:177. Original value:Type new name for the catalog copy!  -->
+    <string name="string_type_new_name_for_the_catalog_copy_">Katalog kopyası için yeni ad yazın!</string>
     <!--  Used in file CatalogPointsActivity.java:233. Original value:ASCII file *.txt  -->
     <string name="string_ascii_file___txt">ASCII Dosyası *.txt</string>
     <!--  Used in file CatalogPointsActivity.java:233. Original value:AutoCad Drawing *.dxf  -->
-    <string name="string_autocad_drawing___dxf">AutoCad Drawing *.dxf</string>
-    <!--  Used in file CatalogInfoActivity.java:130. Original value:Catalog %s has been deleted  -->
-    <string name="string_catalog__s_has_been_deleted">Katalog %s Silindi</string>
-    <!--  Used in file CatalogPointsActivity2.java:402. Original value:NetCAD (*.ncn)  -->
+    <string name="string_autocad_drawing___dxf">AutoCad Çizim *.dxf</string>
+    <!--  Used in file CatalogPointsActivity2.java:453. Original value:Digitals txt (*.txt)  -->
+    <string name="string_digitals_txt____txt_">Digital txt (*.txt)</string>
+    <!--  Used in file CatalogPointsActivity2.java:451. Original value:NetCAD (*.ncn)  -->
     <string name="string_netcad____ncn_">NetCAD (*.ncn)</string>
-    <!--  Used in file CatalogsActivity.java:188. Original value:catalog  -->
+    <!--  Used in file CatalogExpandableListAdapter.java:685. Original value:%1$d points were added to job %2$s  -->
+    <string name="string__1_d_points_were_added_to_job__2_s">%2$s işine %1$d nokta eklendi</string>
+    <!--  Used in file CatalogsActivity.java:234. Original value:catalog  -->
     <string name="string_catalog">Katalog</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Select All  -->
-    <string name="string_select_all">Tümünü Seç</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Export  -->
+    <!--  Used in file CatalogPointsActivity3.java:968. Original value:Add to job %1$d filtered points (of %2$d)  -->
+    <string name="string_add_to_job__1_d_filtered_points__of__2_d_">Add to job %1$d filtered points (of %2$d)</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:183. Original value:Export  -->
     <string name="string_export">Export</string>
-    <!--  Used in file CatalogPointsActivity.java:233. Original value:MapInfo *.mif  -->
-    <string name="string_mapinfo___mif">MapInfo *.mif</string>
-    <!--  Used in file CatalogPointsActivity2.java:404. Original value:to Total Station (*.gsi;*.sdr;*.raw)  -->
-    <string name="string_to_total_station____gsi___sdr___raw_">to Total Station (*.gsi;*.sdr;*.raw)</string>
-    <!--  Used in file CatalogInfoActivity.java:184. Original value:Catalog name is empty!  -->
-    <string name="string_catalog_name_is_empty_">Katalog ismi boş!</string>
-    <!--  Used in file CatalogPointsActivity2.java:890. Original value:%1$s%2$s %3$s  -->
+    <!--  Used in file CatalogInfoActivity.java:272. Original value:Catalog name is empty!  -->
+    <string name="string_catalog_name_is_empty_">Katalog Adı Boş!</string>
+    <!--  Used in file CatalogPointsActivity2.java:992. Original value:%1$s%2$s %3$s  -->
     <string name="string__1_s_2_s__3_s">%1$s%2$s %3$s</string>
-    <!--  Used in file CatalogPointsActivity2.java:399. Original value:AutoCad Drawing (*.dxf)  -->
-    <string name="string_autocad_drawing____dxf_">AutoCad Drawing (*.dxf)</string>
-    <!--  Used in file CatalogPointsActivity2.java:411. Original value:Select Export Type  -->
-    <string name="string_select_export_type">Export Tip Seçimi</string>
-    <!--  Used in file CatalogPointsActivity2.java:555. Original value:Cancel  -->
+    <!--  Used in file CatalogPointsActivity2.java:462. Original value:Select Export Type  -->
+    <string name="string_select_export_type">Gönderme Tipini Seç</string>
+    <!--  Used in file CatalogPointsActivity2.java:621. Original value:Cancel  -->
     <string name="string_cancel">İptal</string>
-    <!--  Used in file CatalogPoint.java:180. Original value:Description  -->
-    <string name="string_description">Description</string>
-    <!--  Used in file catalog_list_group.xml:31. Original value:Find:  -->
-    <string name="string_find">Find</string>
-    <!--  Used in file CatalogPointsActivity2.java:905. Original value:%s  -->
+    <!--  Used in file CatalogPoint.java:192. Original value:Description  -->
+    <string name="string_description">Tanımlama</string>
+    <!--  Used in file CatalogPointsActivity2.java:1007. Original value:%s  -->
     <string name="string__s">%s</string>
-    <!--  Used in file CatalogPointsActivity2.java:755. Original value:Delete point  -->
-    <string name="string_delete_point">Nokta sil</string>
-    <!--  Used in file CatalogInfoActivity.java:263. Original value:Can\'t rename catalog %1$s to %2$s!  -->
-    <string name="string_can_t_rename_catalog__1_s_to__2_s_">Katalog Farklı Kaydedilemez %1$s to %2$s!</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:471. Original value:Error!  -->
-    <string name="string_error_">Hata!</string>
-    <!--  Used in file CatalogPointsActivity2.java:398. Original value:ASCII file (*.txt)  -->
-    <string name="string_ascii_file____txt_">ASCII file (*.txt)</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:939. Original value:Invert Selection  -->
-    <string name="string_invert_selection">Seçimin Tersi</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:531. Original value:Do you want to add point %s to job?  -->
+    <string name="string_do_you_want_to_add_point__s_to_job_">İşe %s noktası eklemek istiyor musunuz??</string>
+    <!--  Used in file CatalogPointsActivity2.java:836. Original value:Delete point  -->
+    <string name="string_delete_point">Nokta Sil</string>
+    <!--  Used in file CatalogPointsActivity2.java:447. Original value:ASCII file (*.txt)  -->
+    <string name="string_ascii_file____txt_">ASCII Dosyası (*.txt)</string>
     <!--  Used in file CatalogPointsActivity.java:233. Original value:NetCAD *.ncn  -->
     <string name="string_netcad___ncn">NetCAD *.ncn</string>
-    <!--  Used in file CatalogPointsActivity2.java:401. Original value:MapInfo (*.tab)  -->
-    <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
-    <!--  Used in file CatalogInfoActivity.java:193. Original value:Catalog %s already exists!  -->
-    <string name="string_catalog__s_already_exists_">Katalog %s mevcut!</string>
-    <!--  Used in file CatalogPointActivity.java:250. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
-    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Point name is too long!\nLimit it up to 40 chars, please</string>
-    <!--  Used in file CatalogPointsActivity2.java:764. Original value:Delete %1$d filtered points (of %2$d)  -->
-    <string name="string_delete__1_d_filtered_points__of__2_d_">Sil %1$d seçilen noktalar (of %2$d)</string>
-    <!--  Used in file CatalogInfoActivity.java:133. Original value:Can\'t delete catalog %s!  -->
-    <string name="string_can_t_delete_catalog__s_">Katalog silinemez%s!</string>
-    <!--  Used in file CatalogInfoActivity.java:65. Original value:New Catalog  -->
+    <!--  Used in file CatalogPointActivity.java:315. Original value:Wrong char in point name!  -->
+    <string name="string_wrong_char_in_point_name_">Nokta adında yanlış karakter!</string>
+    <!--  Used in file CatalogInfoActivity.java:281. Original value:Catalog %s already exists!  -->
+    <string name="string_catalog__s_already_exists_">%s kataloğu zaten var!</string>
+    <!--  Used in file CatalogPointActivity.java:302. Original value:Point name is too long!\nLimit it up to 40 chars, please  -->
+    <string name="string_point_name_is_too_long__nlimit_it_up_to_40_chars__please">Nokta adı çok uzun!\nBunu 40 karakterle sınırlayın, lütfen</string>
+    <!--  Used in file CatalogInfoActivity.java:188. Original value:Duplicate catalog  -->
+    <string name="string_duplicate_catalog">Katalog Çogalt</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:166. Original value:Do you want to delete %1$d selected points (of %2$d)  -->
+    <string name="string_do_you_want_to_delete__1_d_selected_points__of__2_d_">Seçilen %1$d noktayı (%2$d) silmek istiyor musunuz?</string>
+    <!--  Used in file CatalogInfoActivity.java:75. Original value:New Catalog  -->
     <string name="string_new_catalog">Yeni Katalog</string>
-    <!--  Used in file CatalogPointsActivity2.java:708. Original value:point  -->
+    <!--  Used in file CatalogInfoActivity.java:149. Original value:Delete catalog %s  -->
+    <string name="string_delete_catalog__s">Katalog Sil %s</string>
+    <!--  Used in file CatalogPointsActivity3.java:429. Original value:PENZ comma text file (*.txt)  -->
+    <string name="string_penz_comma_text_file____txt_">PENZ comma text file (*.txt)</string>
+    <!--  Used in file CatalogInfoActivity.java:356. Original value:Catalog %s has been created  -->
+    <string name="string_catalog__s_has_been_created">Katalog %s Oluşturuldu</string>
+    <!--  Used in file CatalogInfoActivity.java:361. Original value:Can\'t create catalog %s!  -->
+    <string name="string_can_t_create_catalog__s_">Katalog Oluşturulamadı %s!</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:120. Original value:Import Points  -->
+    <string name="string_import_points">Noktaları Al</string>
+    <!--  Used in file CatalogPointActivity.java:457. Original value:Can\'t add point  -->
+    <string name="string_can_t_add_point">Nokta Eklenemedi</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:171. Original value:Do you want to add to job %1$d selected points (of %2$d)  -->
+    <string name="string_do_you_want_to_add_to_job__1_d_selected_points__of__2_d_">Seçilen %1$d noktayı (%2$d) işe eklemek istiyor musunuz?</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:165. Original value:Delete %1$d selected points (of %2$d)  -->
+    <string name="string_delete__1_d_selected_points__of__2_d_">Seçilen %1$d noktayı sil (%2$d)</string>
+    <!--  Used in file CatalogPointActivity.java:300. Original value:Point name is empty!  -->
+    <string name="string_point_name_is_empty_">Nokta Adı Boş!</string>
+    <!--  Used in file CatalogsActivity.java:186. Original value:Edit  -->
+    <string name="string_edit">Düzelt</string>
+    <!--  Used in file CatalogPointsActivity2.java:869. Original value:on Map  -->
+    <string name="string_on_map">Haritada</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:Google KML *.kml  -->
+    <string name="string_google_kml___kml">Google KML *.kml</string>
+    <!--  Used in file CatalogInfoActivity.java:183. Original value:Catalog %s already exist!  -->
+    <string name="string_catalog__s_already_exist_">%s kataloğu zaten var!</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:55. Original value:What to do with catalog %1$s?  -->
+    <string name="string_what_to_do_with_catalog__1_s_">%1$s Kataloğu ne yapılacak?</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:253. Original value:+ Add new control point  -->
+    <string name="string___add_new_control_point">+ Yeni Kontrol Noktası Ekle</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:635. Original value:%d points were deleted  -->
+    <string name="string__d_points_were_deleted">%d Nokta Silindi</string>
+    <!--  Used in file CatalogPointsActivity2.java:454. Original value:Panorama txf (*.txf)  -->
+    <string name="string_panorama_txf____txf_">Panorama txf (*.txf)</string>
+    <!--  Used in file CatalogPointsActivity2.java:446. Original value:PNEZ comma text file (*.txt)  -->
+    <string name="string_pnez_comma_text_file____txt_">PNEZ Virgül text Dosyası (*.txt)</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Clear Select  -->
+    <string name="string_clear_select">Seçimi Sil</string>
+    <!--  Used in file CatalogPointsActivity3.java:976. Original value:Add to job %1$d selected points (of %2$d)  -->
+    <string name="string_add_to_job__1_d_selected_points__of__2_d_">Add to job %1$d selected points (of %2$d)</string>
+    <!--  Used in file CatalogsActivity.java:238. Original value:catalogs  -->
+    <string name="string_catalogs">Kataloglar</string>
+    <!--  Used in file CatalogInfoActivity.java:371. Original value:Catalog %1$s has been renamed to %2$s  -->
+    <string name="string_catalog__1_s_has_been_renamed_to__2_s">%1$s kataloğu %2$s olarak yeniden adlandırıldı</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:156. Original value:What to do with point %1$s?  -->
+    <string name="string_what_to_do_with_point__1_s_">%1$s Nokta ile ne yapılacak?</string>
+    <!--  Used in file CatalogPoint.java:179. Original value:Code  -->
+    <string name="string_code">Kod</string>
+    <!--  Used in file CatalogPointsActivity2.java:865. Original value:Delete  -->
+    <string name="string_delete">Sil</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:924. Original value:Found %d times  -->
+    <string name="string_found__d_times">Bulundu %d zamanlar</string>
+    <!--  Used in file CatalogsActivity.java:168. Original value:Select Catalog  -->
+    <string name="string_select_catalog">Katalog Seç</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:182. Original value:Import  -->
+    <string name="string_import">İmport</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:174. Original value:Delete point %1$s  -->
+    <string name="string_delete_point__1_s">Nokta sil %1$s</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:154. Original value:What to do with selected %1$d points (of %2$d)?  -->
+    <string name="string_what_to_do_with_selected__1_d_points__of__2_d__">Seçilen %1$d nokta ile (%2$d) ne yapılacak?</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:178. Original value:Add point %1$s to job %2$s  -->
+    <string name="string_add_point__1_s_to_job__2_s">Nokta ekle%1$s İşine %2$s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Select All  -->
+    <string name="string_select_all">Tümünü seç</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:562. Original value:Added OK  -->
+    <string name="string_added_ok">Ekleme Ok</string>
+    <!--  Used in file CatalogPointsActivity.java:233. Original value:MapInfo *.mif  -->
+    <string name="string_mapinfo___mif">MapInfo *.mif</string>
+    <!--  Used in file CatalogPointsActivity2.java:455. Original value:to Total Station (*.gsi;*.sdr;*.raw)  -->
+    <string name="string_to_total_station____gsi___sdr___raw_">Total Station \'a (*.gsi;*.sdr;*.raw)</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:168. Original value:Add to job %1$s %2$d selected points (of %3$d)  -->
+    <string name="string_add_to_job__1_s__2_d_selected_points__of__3_d_">İşe ekle %1$s %2$d seçilen noktaları (of %3$d)</string>
+    <!--  Used in file CatalogPointsActivity2.java:448. Original value:AutoCad Drawing (*.dxf)  -->
+    <string name="string_autocad_drawing____dxf_">AutoCad Çizim (*.dxf)</string>
+    <!--  Used in file CatalogExpandableListAdapter2.java:132. Original value:Find:  -->
+    <string name="string_find">Bul:</string>
+    <!--  Used in file CatalogInfoActivity.java:373. Original value:Can\'t rename catalog %1$s to %2$s!  -->
+    <string name="string_can_t_rename_catalog__1_s_to__2_s_">Katalog yeniden isimlendirilemiyor %1$s to %2$s!</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:562. Original value:Error!  -->
+    <string name="string_error_">Hata!</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:103. Original value:Invert Selection  -->
+    <string name="string_invert_selection">Seçimin Tersi</string>
+    <!--  Used in file CatalogPointsActivity2.java:450. Original value:MapInfo (*.tab)  -->
+    <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:482. Original value:Do you want to delete point %s ?  -->
+    <string name="string_do_you_want_to_delete_point__s__">%s noktasını silmek istiyor musunuz?</string>
+    <!--  Used in file CatalogPointsActivity2.java:846. Original value:Delete %1$d filtered points (of %2$d)  -->
+    <string name="string_delete__1_d_filtered_points__of__2_d_">Sil %1$d Filtrelenen noktaları (of %2$d)</string>
+    <!--  Used in file CatalogPointsActivity2.java:779. Original value:point  -->
     <string name="string_point">nokta</string>
-    <!--  Used in file CatalogInfoActivity.java:246. Original value:Catalog %s has been created  -->
-    <string name="string_catalog__s_has_been_created">Katalog %s oluşturuldu</string>
-    <!--  Used in file CatalogExpandableListAdapter.java:954. Original value:Can\'t delete currently selected catalog!  -->
-    <string name="string_can_t_delete_currently_selected_catalog_">Can\'t delete currently selected catalog!</string>
-    <!--  Used in file CatalogInfoActivity.java:251. Original value:Can\'t create catalog %s!  -->
-    <string name="string_can_t_create_catalog__s_">Katalog oluşturulamaz %s!</string>
-    <!--  Used in file CatalogPointsActivity2.java:406. Original value:Sokkia SDR33 *.sdr  -->
+    <!--  Used in file CatalogExpandableListAdapter3.java:95. Original value:Can\'t delete currently selected catalog!  -->
+    <string name="string_can_t_delete_currently_selected_catalog_">Seçilen Katalog Şuanda Silinemiyor!</string>
+    <!--  Used in file CatalogPointsActivity2.java:457. Original value:Sokkia SDR33 *.sdr  -->
     <string name="string_sokkia_sdr33___sdr">Sokkia SDR33 *.sdr</string>
-    <!--  Used in file CatalogInfoActivity.java:237. Original value:Can\'t set CS %s  -->
-    <string name="string_can_t_set_cs__s">CS Set Edilmedi %s</string>
-    <!--  Used in file CatalogPointsActivity2.java:403. Original value:Google KML (*.kml)  -->
+    <!--  Used in file CatalogInfoActivity.java:347. Original value:Can\'t set CS %s  -->
+    <string name="string_can_t_set_cs__s">CS Ayarlanamadı%s</string>
+    <!--  Used in file CatalogExpandableListAdapter.java:645. Original value:Warning  -->
+    <string name="string_warning">Uyarı</string>
+    <!--  Used in file CatalogExpandableListAdapter3.java:176. Original value:Do you want to add to job point %1$s  -->
+    <string name="string_do_you_want_to_add_to_job_point__1_s">%1$s iş noktasına eklemek istiyor musunuz?</string>
+    <!--  Used in file CatalogPointsActivity2.java:452. Original value:Google KML (*.kml)  -->
     <string name="string_google_kml____kml_">Google KML (*.kml)</string>
-    <!--  Used in file CatalogPointActivity.java:256. Original value:Point %s already exists!  -->
-    <string name="string_point__s_already_exists_">Point %s already exists!</string>
-    <!--  Used in file CatalogExpandableListAdapter2.java:850. Original value:Import Points  -->
-    <string name="string_import_points">Import Points</string>
-    <!--  Used in file CatalogPointsActivity2.java:713. Original value:points  -->
-    <string name="string_points">noktalar</string>
+    <!--  Used in file CatalogPointActivity.java:318. Original value:Point %s already exists!  -->
+    <string name="string_point__s_already_exists_">Nokta %s Mevcut!</string>
+    <!--  Used in file CatalogPointsActivity2.java:784. Original value:points  -->
+    <string name="string_points">Noktalar</string>
 
 </resources>

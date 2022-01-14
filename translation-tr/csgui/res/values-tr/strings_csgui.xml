@@ -1,103 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file activity_identical_points.xml:47. Original value:&#8211;    -->
-    <string name="string_action_button">–</string>
-    <!-- Used in file list_identical_point.xml:145. Original value:Type    -->
-    <string name="identical_point_type">Type</string>
-    <!-- Used in file identical_points.xml:29. Original value:Setup    -->
+    <!-- Used in file activity_identical_points.xml:51. Original value:&#8211;    -->
+    <string name="string_action_button">&#8211;</string>
+    <!-- Used in file user_cs.xml:154. Original value:Datum direction    -->
+    <string name="datum_direction">Datum Yönü</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:205. Original value:East Ground    -->
+    <string name="string_east_ground_xml">Doğu Ground</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:410. Original value:Apply    -->
+    <string name="button_apply">Uygula</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:156. Original value:East origin    -->
+    <string name="string_origin_east">Doğu Origin</string>
+    <!-- Used in file activity_save_localization_parameters.xml:56. Original value:Height System    -->
+    <string name="string_height_system">Yüks.Sistemi</string>
+    <!-- Used in file activity_identical_points.xml:78. Original value:Type    -->
+    <string name="string_type_string">Tip</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:83. Original value:Longitude    -->
+    <string name="string_longitude_xml">Boylam</string>
+    <!-- Used in file SaveLocalizationParametersActivity.java:65. Original value:North Origing    -->
+    <string name="string_north_origin_xml">Kuzey Origing</string>
+    <!-- Used in file identical_points.xml:68. Original value:View Report    -->
+    <string name="action_report_localization">Rapor incele</string>
+    <!-- Used in file activity_save_localization_parameters.xml:100. Original value:Longitude Orig.    -->
+    <string name="string_longitude_origin_string">Boylam Orig.</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:113. Original value:Origin    -->
+    <string name="string_origin">Origin</string>
+    <!-- Used in file identical_points.xml:47. Original value:Import Localization    -->
+    <string name="action_import_localization">Lokalizasyon Al</string>
+    <!-- Used in file cs_info.xml:8. Original value:Restore    -->
+    <string name="action_restore">EskiyeDön</string>
+    <!-- Used in file CSListActivity.java:1030. Original value:It wll be removed. Please redownload it.    -->
+    <string name="do_you_want_to_remove_it">Kaldırılacak.Lütfen yeniden indirin.</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:252. Original value:Scale    -->
+    <string name="string_scale_xml">Ölçek</string>
+    <!-- Used in file user_cs.xml:93. Original value:Datum    -->
+    <string name="category_datum">Datum</string>
+    <!-- Used in file user_cs.xml:6. Original value:Projection    -->
+    <string name="category_projection">Projeksion</string>
+    <!-- Used in file identical_points.xml:54. Original value:Export Localization    -->
+    <string name="action_export_localization">Lokalizasyon Gönder</string>
+    <!-- Used in file pref_cs.xml:8. Original value:Press to add to cs favorites and finish    -->
+    <string name="add_to_favorites_description">CSs favorilerine eklemek ve bitirmek için basın</string>
+    <!-- Used in file CSListActivity.java:213. Original value:Error of reading file javad/geodata/CoordinateSystemDB.db3!    -->
+    <string name="geodata_error_illegal_state">javad/geodata/CoordinateSystemDB.db3 dosyasını okuma hatası!</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:58. Original value:Latitude    -->
+    <string name="string_latitude_xml">Enlem</string>
+    <!-- Used in file pref_cs.xml:5. Original value:Geoid    -->
+    <string name="string_geoid_string">Geoid</string>
+    <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset    -->
+    <string name="string_height_offset_xml">Yüks.Ofset</string>
+    <!-- Used in file list_identical_point.xml:150. Original value:Type    -->
+    <string name="identical_point_type">Tip</string>
+    <!-- Used in file identical_points.xml:40. Original value:Setup    -->
     <string name="action_parameters">Kurulum</string>
     <!-- Used in file pref_cs.xml:6. Original value:Cur.Epoch    -->
     <string name="current_epoch">Geçerli Epoch</string>
-    <!-- Used in file user_cs.xml:154. Original value:Datum direction    -->
-    <string name="datum_direction">Datum Yönü</string>
     <!-- Used in file activity_setup_localization_parameters.xml:323. Original value:East Inclination    -->
-    <string name="string_east_inclination_xml">East Inclination</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:205. Original value:East Ground    -->
-    <string name="string_east_ground_xml">East Ground</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:410. Original value:Apply    -->
-    <string name="button_apply">Uygula</string>
+    <string name="string_east_inclination_xml">Doğu Eğiklik</string>
     <!-- Used in file activity_save_localization_parameters.xml:81. Original value:Latitude Orig.    -->
-    <string name="string_latitude_origin_xml">Latitude Orig.</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:156. Original value:East origin    -->
-    <string name="string_origin_east">Doğu origin</string>
-    <!-- Used in file activity_save_localization_parameters.xml:56. Original value:Height System    -->
-    <string name="string_height_system">Height System</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:83. Original value:Longitude    -->
-    <string name="string_longitude_xml">Longitude</string>
-    <!-- Used in file activity_identical_points.xml:74. Original value:Type    -->
-    <string name="string_type_string">Tip</string>
+    <string name="string_latitude_origin_xml">Enlem Orig.</string>
+    <!-- Used in file identical_points.xml:16. Original value:Save    -->
+    <string name="action_save_ip">Sakla</string>
     <!-- Used in file cslist.xml:8. Original value:Filter    -->
     <string name="action_filter">Filtre</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:60. Original value:North Origing    -->
-    <string name="string_north_origin_xml">North Origing</string>
-    <!-- Used in file identical_points.xml:43. Original value:Delete Localization    -->
+    <!-- Used in file CSListActivity.java:1014. Original value:Import CS    -->
+    <string name="import_cs_title">CS İmport</string>
+    <!-- Used in file identical_points.xml:35. Original value:Auto Find    -->
+    <string name="action_auto_find">Oto.Bul</string>
+    <!-- Used in file identical_points.xml:61. Original value:Delete Localization    -->
     <string name="action_delete_localization">Lokalizasyon Sil</string>
     <!-- Used in file activity_setup_localization_parameters.xml:354. Original value:Horizontal treshold    -->
-    <string name="string_horizontal_treshold">Yatay Eşik</string>
+    <string name="string_horizontal_treshold">Yatay treshold</string>
     <!-- Used in file activity_setup_localization_parameters.xml:131. Original value:North origin    -->
-    <string name="string_origin_north">Kuzey origin</string>
-    <!-- Used in file activity_identical_points.xml:56. Original value:Design    -->
-    <string name="string_design">Aplikasyon</string>
+    <string name="string_origin_north">Kuzey Origin</string>
+    <!-- Used in file activity_identical_points.xml:60. Original value:Design    -->
+    <string name="string_design">Aplik.</string>
     <!-- Used in file pref_cs.xml:3. Original value:CS Name    -->
     <string name="string_cs_name">CS Adı</string>
     <!-- Used in file user_cs.xml:121. Original value:DZ, m    -->
     <string name="string_datum_dz">DZ, m</string>
     <!-- Used in file activity_setup_localization_parameters.xml:229. Original value:Rotation    -->
-    <string name="string_rotation_xml">Rotation</string>
+    <string name="string_rotation_xml">Dönüklük</string>
     <!-- Used in file user_cs.xml:105. Original value:DX, m    -->
     <string name="string_datum_dx">DX, m</string>
     <!-- Used in file user_cs.xml:113. Original value:DY, m    -->
     <string name="string_datum_dy">DY, m</string>
     <!-- Used in file activity_setup_localization_parameters.xml:298. Original value:North Inclination    -->
-    <string name="string_north_inclination_xml">North Inclination</string>
-    <!-- Used in file CSListActivity.java:172. Original value:No GeoData!    -->
-    <string name="no_geodata_error">No GeoData!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:113. Original value:Origin    -->
-    <string name="string_origin">Origin</string>
+    <string name="string_north_inclination_xml">Kuzey Eğiklik</string>
+    <!-- Used in file CSListActivity.java:202. Original value:No GeoData!    -->
+    <string name="no_geodata_error">GeoData Yok!</string>
     <!-- Used in file activity_setup_localization_parameters.xml:400. Original value:Cancel    -->
     <string name="button_cancel">İptal</string>
     <!-- Used in file user_cs.xml:129. Original value:RX, sec    -->
-    <string name="string_datum_rx">RX, sec</string>
+    <string name="string_datum_rx">RX, sny</string>
     <!-- Used in file user_cs.xml:137. Original value:RY, sec    -->
-    <string name="string_datum_ry">RY, sec</string>
+    <string name="string_datum_ry">RY, sny</string>
     <!-- Used in file user_cs.xml:145. Original value:RZ, sec    -->
-    <string name="string_datum_rz">RZ, sec</string>
+    <string name="string_datum_rz">RZ, sny</string>
     <!-- Used in file activity_setup_localization_parameters.xml:372. Original value:Vertical treshold    -->
-    <string name="string_vertical_treshold">Düşey Eşik</string>
+    <string name="string_vertical_treshold">Düşey treshold</string>
     <!-- Used in file user_cs.xml:153. Original value:Scale Difference, ppm    -->
     <string name="string_datum_scale_difference">Ölçek Farkı, ppm</string>
     <!-- Used in file pref_cs.xml:7. Original value:Transformation    -->
     <string name="string_transformation">Dönüşüm</string>
     <!-- Used in file pref_cs.xml:8. Original value:Add to favorites    -->
     <string name="add_to_favorites">Favorilere Ekle</string>
-    <!-- Used in file CSListActivity.java:184. Original value:It wll be removed. Please redownload it.    -->
-    <string name="do_you_want_to_remove_it">It wll be removed. Please redownload it.</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:252. Original value:Scale    -->
-    <string name="string_scale_xml">Scale</string>
-    <!-- Used in file user_cs.xml:93. Original value:Datum    -->
-    <string name="category_datum">Datum</string>
-    <!-- Used in file user_cs.xml:6. Original value:Projection    -->
-    <string name="category_projection">Projeksion</string>
     <!-- Used in file activity_setup_localization_parameters.xml:180. Original value:North Ground    -->
-    <string name="string_north_ground_xml">North Ground</string>
-    <!-- Used in file activity_save_localization_parameters.xml:100. Original value:Longitude Orig.    -->
-    <string name="string_longitude_origin_string">Boylam Orig.</string>
-    <!-- Used in file pref_cs.xml:8. Original value:Press to add to cs favorites and finish    -->
-    <string name="add_to_favorites_description">Sık kullanılanlara eklemek ve bitirmek için basın</string>
-    <!-- Used in file SaveLocalizationParametersActivity.java:61. Original value:East Origing    -->
-    <string name="string_east_origin_xml">East Origing</string>
-    <!-- Used in file CSListActivity.java:183. Original value:Error of reading file javad/geodata/CoordinateSystemDB.db3!    -->
-    <string name="geodata_error_illegal_state">Error of reading file javad/geodata/CoordinateSystemDB.db3!</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:58. Original value:Latitude    -->
-    <string name="string_latitude_xml">Latitude</string>
-    <!-- Used in file activity_identical_points.xml:65. Original value:Survey    -->
+    <string name="string_north_ground_xml">Kuzey Ground</string>
+    <!-- Used in file SaveLocalizationParametersActivity.java:66. Original value:East Origing    -->
+    <string name="string_east_origin_xml">Doğu Origing</string>
+    <!-- Used in file activity_identical_points.xml:69. Original value:Survey    -->
     <string name="string_survey">Ölçüm</string>
-    <!-- Used in file activity_setup_localization_parameters.xml:275. Original value:Height Offset    -->
-    <string name="string_height_offset_xml">Height Offset</string>
-    <!-- Used in file pref_cs.xml:5. Original value:Geoid    -->
-    <string name="string_geoid_string">Geoid</string>
-    <!-- Used in file CSListActivity.java:151. Original value:File javad/geodata/CoordinateSystemDB.db3 is corrupted!    -->
-    <string name="geodata_error">File javad/geodata/CoordinateSystemDB.db3 is corrupted!</string>
+    <!-- Used in file CSListActivity.java:181. Original value:File javad/geodata/CoordinateSystemDB.db3 is corrupted!    -->
+    <string name="geodata_error">javad/geodata/CoordinateSystemDB.db3 dosyası bozuk!</string>
+    <!-- Used in file IdenticalPointsActivity.java:512. Original value:View Report    -->
+    <string name="view_report">Rapor İncele</string>
 
 </resources>
