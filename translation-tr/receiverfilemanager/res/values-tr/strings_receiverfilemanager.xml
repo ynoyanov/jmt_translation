@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file file_manager.xml:19. Original value:Start Log    -->
+    <string name="action_start_file">Start Log</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:78. Original value:Store Base Corrections    -->
+    <string name="check_base_info">Store Base Corrections</string>
     <!-- Used in file activity_actions.xml:12. Original value:Download    -->
     <string name="button_download">Download</string>
-    <!-- Used in file file_manager.xml:70. Original value:Download HybridRTK files    -->
+    <!-- Used in file file_manager.xml:78. Original value:Download HybridRTK files    -->
     <string name="action_download_hybrid_rtk">Download HybridRTK Dosyaları</string>
-    <!-- Used in file file_manager.xml:78. Original value:Download Block Size    -->
+    <!-- Used in file FileLoggingInFileManagerActivity.java:440. Original value:Wrong elevation mask!    -->
+    <string name="wrong_elevation_mask">Wrong elevation mask!</string>
+    <!-- Used in file FileLoggingInFileManagerActivity.java:436. Original value:Can not setup evelation mask!    -->
+    <string name="cant_setup_elevation_mask">Can not setup evelation mask!</string>
+    <!-- Used in file FileManagerActivity.java:809. Original value:Share    -->
+    <string name="button_share">Share</string>
+    <!-- Used in file FileLoggingInFileManagerActivity.java:432. Original value:Receiver is not connected!    -->
+    <string name="receiver_is_not_connected">Receiver is not connected!</string>
+    <!-- Used in file file_manager.xml:86. Original value:Download Block Size    -->
     <string name="action_download_block_size">Download Blok Boyut</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:23. Original value:Receiver File Logging    -->
+    <string name="check_logging">Receiver File Logging</string>
     <!-- Used in file activity_block_size.xml:69. Original value:Apply&quot;    -->
     <string name="button_apply">Uygula&quot;</string>
     <!-- Used in file activity_file_manager.xml:39. Original value:. . .    -->
     <string name="button_select">. . .</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:93. Original value:Start Log File    -->
+    <string name="button_start_log">Start Log File</string>
     <!-- Used in file activity_block_size.xml:60. Original value:Cancel    -->
     <string name="button_cancel">İptal</string>
+    <!-- Used in file FileManagerActivity.java:206. Original value:Log file stopped OK    -->
+    <string name="log_file_stopped_ok">Log file stopped OK</string>
     <!-- Used in file activity_file_manager.xml:23. Original value:Folder\nto Store:    -->
     <string name="text_folder">Klasör\nto Sakla:</string>
     <!-- Used in file main.xml:7. Original value:Settings    -->
@@ -25,12 +43,20 @@
     <string name="block_size_description">Blok boyutu, alıcı ve Android cihaz arasında veri aktarımı için kullanılan yığını tanımlar.\nDaha büyük blok boyutu, dosyaların indirilmesini hızlandırır.\nBazı Bluetooth sorunları, alıcının 256 bayttan fazla bock boyutunu indirmesini engeller.\nVarsayılan blok boyutu 4096 bayttır.</string>
     <!-- Used in file activity_file_manager.xml:55. Original value:Search files&#8230;    -->
     <string name="search_hint">Dosyaları Ara&#8230;</string>
-    <!-- Used in file file_manager.xml:84. Original value:Delete All Files    -->
+    <!-- Used in file file_manager.xml:92. Original value:Delete All Files    -->
     <string name="button_delete_all">Tüm Dosyaları Sil</string>
-    <!-- Used in file file_manager.xml:52. Original value:Switch to Deleted files    -->
+    <!-- Used in file FileManagerActivity.java:208. Original value:Log file stopped with error    -->
+    <string name="log_file_stopped_error">Log file stopped with error</string>
+    <!-- Used in file file_manager.xml:60. Original value:Switch to Deleted files    -->
     <string name="action_show_deleted">Silinen dosyalara geç</string>
-    <!-- Used in file FileManagerActivity.java:135. Original value:Switch back to receiver files    -->
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:55. Original value:Logging Rate    -->
+    <string name="logging_rate">Logging Rate</string>
+    <!-- Used in file FileManagerActivity.java:136. Original value:Switch back to receiver files    -->
     <string name="action_hide_deleted">Alıcı dosyalarına geri dön</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:85. Original value:Write additional antenna height info, including height type and offset    -->
+    <string name="check_event_format">Write additional antenna height info, including height type and offset</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:64. Original value:Elevation Mask, degs    -->
+    <string name="elevation_mask">Elevation Mask, degs</string>
     <!-- UNUSED STRING 
     <string name="string_download_of_hybridrtk_is_over_">HybridRTK  İndirmr işi tamam!</string>
     -->

@@ -1,127 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file ExchangeWiFiActivity.java:320. Original value:Waiting for other device connection to   -->
-    <string name="string_waiting_for_other_device_connection_to_">Ожидание подключения другого устройства</string>
-    <!--  Used in file ExchangePage1Activity.java:1010. Original value:%1$s %2$s already exist  -->
-    <string name="string__1_s__2_s_already_exist">%1$s %2$s уже существует</string>
-    <!--  Used in file ExchangeAudioActivity.java:332. Original value:Send  -->
-    <string name="string_send">Отправить</string>
-    <!--  Used in file ExchangePage1Activity.java:1030. Original value:Skip  -->
-    <string name="string_skip">Пропустить</string>
-    <!--  Used in file ExchangePage1Activity.java:712. Original value:File  -->
-    <string name="string_file">Файл</string>
-    <!--  Used in file ExchangePage1Activity.java:1019. Original value:Rename  -->
-    <string name="string_rename">Переименовать</string>
-    <!--  Used in file ExchangeDiskActivity.java:216. Original value:USBs  -->
-    <string name="string_usbs">USBs</string>
-    <!--  Used in file ExchangeWiFiActivity.java:834. Original value:Aborting connection  -->
-    <string name="string_aborting_connection">Связь прервана</string>
-    <!--  Used in file ExchangePage1Activity.java:1009. Original value:What to do?  -->
-    <string name="string_what_to_do_">Что делать?</string>
-    <!--  Used in file ExchangeWiFiActivity.java:642. Original value:Connect failed. Retry.  -->
-    <string name="string_connect_failed__retry_">Сбой подключения. Повтор.</string>
-    <!--  Used in file ExchangeServerActivity.java:194. Original value:Orginization does not exist!  -->
-    <string name="string_orginization_does_not_exist_">Организация не найдена!</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:185. Original value:OK. Ready to read next QR code #  -->
-    <string name="string_ok__ready_to_read_next_qr_code__">OK. Готов считывать след.QR код #</string>
-    <!--  Used in file ExchangePage1Activity.java:683. Original value:Catalog  -->
-    <string name="string_catalog">Каталог</string>
-    <!--  Used in file ExchangeAudioActivity.java:323. Original value:Press Send button  -->
-    <string name="string_press_send_button">нажмите кнопку Отправить</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:201. Original value:Finish  -->
-    <string name="string_finish">Окончить</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:550. Original value:Permission denied to access camera  -->
-    <string name="string_permission_denied_to_access_camera">Разрешения приложения ограничивают доступ к камере!</string>
-    <!--  Used in file ExchangeWiFiActivity.java:663. Original value:Connect error: Reason=%d  -->
-    <string name="string_connect_error__reason__d">Ошибка подключения: Причина=%d</string>
-    <!--  Used in file ExchangeServerActivity.java:124. Original value:Enter orginization and press Receive button  -->
-    <string name="string_enter_orginization_and_press_receive_button">Введите организацию и нажмите кнопку Получить</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:426. Original value:Sent %s  -->
-    <string name="string_sent__s">Отправлено %s</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:444. Original value:Wait!!  -->
-    <string name="string_wait__">Подождите!</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:187. Original value:Wrong QR Code number. Waited %1$d, received %2$d  -->
-    <string name="string_wrong_qr_code_number__waited__1_d__received__2_d">Неверный номер QR кода. Ожидался %1$d, получен %2$d</string>
-    <!--  Used in file ExchangeDiskActivity.java:157. Original value:Select folder and press Read button  -->
-    <string name="string_select_folder_and_press_read_button">Выберите папку и нажмите кнопку Прочесть</string>
-    <!--  Used in file ExchangeAudioActivity.java:324. Original value:Press Receive button  -->
-    <string name="string_press_receive_button">Нажмите кнопку Получить</string>
-    <!--  Used in file ExchangeBluetoothActivity.java:627. Original value:Permission denied to obtain list of Bluetooth devices around  -->
-    <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Разрешения приложения ограничивают получение списка Bluetooth устройств</string>
-    <!--  Used in file ExchangeWiFiActivity.java:626. Original value:P2P group creation failed. Retry.  -->
-    <string name="string_p2p_group_creation_failed__retry_">Сбой создания группы P2P. Повтор.</string>
-    <!--  Used in file ExchangePage1Activity.java:1011. Original value:Rewrite  -->
-    <string name="string_rewrite">Перезаписать</string>
-    <!--  Used in file ExchangeWiFiActivity.java:839. Original value:Connect abort request failed. Reason Code:   -->
-    <string name="string_connect_abort_request_failed__reason_code__">Сбой подключения. Код: </string>
-    <!--  Used in file ExchangePage1Activity.java:707. Original value:Survey Setting  -->
-    <string name="string_survey_setting">Настройка съемки</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:195. Original value:OK  -->
-    <string name="string_ok">OK</string>
-    <!--  Used in file ExchangeWiFiActivity.java:263. Original value:This deivce:  -->
-    <string name="string_this_deivce_">Это устройство:</string>
-    <!--  Used in file ExchangeWiFiActivity.java:363. Original value:No device selected!  -->
-    <string name="string_no_device_selected_">Не выбрано устройство!</string>
-    <!--  Used in file ExchangeServerActivity.java:123. Original value:Enter orginization and press Send button  -->
-    <string name="string_enter_orginization_and_press_send_button">Введите организацию и нажмите кнопку Отправить</string>
-    <!--  Used in file ExchangeWiFiActivity.java:197. Original value:Cannot get Wi-Fi Direct system service.  -->
-    <string name="string_cannot_get_wi_fi_direct_system_service_">Не удалось получить доступ к сервису Wi-Fi Direct.</string>
-    <!--  Used in file ExchangeAudioActivity.java:734. Original value:Permission denied to access to network  -->
-    <string name="string_permission_denied_to_access_to_network">Разрешения приложения ограничивают доступ к сети</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:193. Original value:Readed  -->
-    <string name="string_readed">Прочитано</string>
-    <!--  Used in file ExchangeAudioActivity.java:332. Original value:Receive  -->
-    <string name="string_receive">Получить</string>
-    <!--  Used in file ExchangeWiFiActivity.java:931. Original value:Permission denied to obtain list of WiFi devices around  -->
-    <string name="string_permission_denied_to_obtain_list_of_wifi_devices_around">Разрешения приложения ограничивают получение списка WiFi устройств</string>
-    <!--  Used in file ExchangeWiFiActivity.java:203. Original value:Cannot initialize Wi-Fi Direct.  -->
-    <string name="string_cannot_initialize_wi_fi_direct_">Не удалось инициализировать Wi-Fi Direct.</string>
-    <!--  Used in file ExchangeServerActivity.java:194. Original value:Please, type the same orginization you sent!  -->
-    <string name="string_please__type_the_same_orginization_you_sent_">Введите тоже имя организации, что вы использовали при отправке!</string>
-    <!--  Used in file ExchangeWiFiActivity.java:472. Original value:Ready to send %s  -->
-    <string name="string_ready_to_send__s">Готово к отправке %s</string>
-    <!--  Used in file ExchangePage1Activity.java:1064. Original value:%1$d %2$s coppied (%3$d errors %4$d skipped  -->
-    <string name="string__1_d__2_s_coppied___3_d_errors__4_d_skipped">%1$d %2$s скопированно (%3$d ошибок %4$d пропущено)</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:223. Original value:Loading&#8230;  -->
-    <string name="string_loading___">Загрузка…</string>
-    <!--  Used in file ExchangePage1Activity.java:697. Original value:Correction Source  -->
-    <string name="string_correction_source">Источник поправок</string>
-    <!--  Used in file ExchangeWiFiActivity.java:178. Original value:Wi-Fi Direct is not supported by this device.  -->
-    <string name="string_wi_fi_direct_is_not_supported_by_this_device_">Wi-Fi Direct не поддерживается на этом устройстве.</string>
-    <!--  Used in file ExchangeWiFiActivity.java:191. Original value:Wi-Fi Direct is not supported by the hardware or Wi-Fi is off.  -->
-    <string name="string_wi_fi_direct_is_not_supported_by_the_hardware_or_wi_fi_is_off_">Wi-Fi Direct не поддерживается оборудованием или Wi-Fi выключен.</string>
-    <!--  Used in file ExchangePage1Activity.java:679. Original value:Job  -->
-    <string name="string_job">Проект</string>
-    <!--  Used in file ExchangeDiskActivity.java:156. Original value:Select folder and press Save button  -->
-    <string name="string_select_folder_and_press_save_button">Выберите папку и нажмите кнопку Сохранить</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:167. Original value:Cancelled  -->
-    <string name="string_cancelled">Отменено</string>
-    <!--  Used in file ExchangeWiFiActivity.java:154. Original value:Channel or manager is null  -->
-    <string name="string_channel_or_manager_is_null">Channel or manager is null</string>
-    <!--  Used in file ExchangePage1Activity.java:692. Original value:Raw file  -->
-    <string name="string_raw_file">Файл измерений приемника</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:443. Original value:Please Wait!!  -->
-    <string name="string_please_wait__">Пожалуйста, подождите!!</string>
-    <!--  Used in file ExchangePage1Activity.java:687. Original value:CS  -->
-    <string name="string_cs">Система Координат</string>
-    <!--  Used in file ExchangeQRCodeActivity.java:227. Original value:Loaded %s  -->
-    <string name="string_loaded__s">Загружено %s</string>
-    <!--  Used in file ExchangeWiFiActivity.java:235. Original value:WiFi Direct is not enabled  -->
-    <string name="string_wifi_direct_is_not_enabled">WiFi Direct не включен</string>
-    <!--  Used in file ExchangePage1Activity.java:702. Original value:Receiver Connection  -->
-    <string name="string_receiver_connection">Подключение для получения</string>
-    <!--  Used in file ExchangePage1Activity.java:1010. Original value:point  -->
-    <string name="string_point">точка</string>
-    <!--  Used in file ExchangeWiFiActivity.java:578. Original value:Waiting at   -->
-    <string name="string_waiting_at_">Ожидание </string>
-    <!--  Used in file ExchangeBluetoothActivity.java:240. Original value:Making Device Discoverable  -->
-    <string name="string_making_device_discoverable">Устройство становится видимым</string>
-    <!--  Used in file ExchangePage1Activity.java:1063. Original value:Receive is over  -->
-    <string name="string_receive_is_over">Получение завершено</string>
-    <!--  Used in file ExchangeDiskActivity.java:255. Original value:Selected folder %s  -->
-    <string name="string_selected_folder__s">Выбрана папка %s</string>
-    <!--  Used in file ExchangeWiFiActivity.java:186. Original value:Cannot get Wi-Fi system service.  -->
-    <string name="string_cannot_get_wi_fi_system_service_">Не удалось получить сервис Wi-Fi.</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Waiting for other device connection to -->
+  <string name="string_waiting_for_other_device_connection_to_">Ожидание подключения другого устройства</string>
+  <!--Original value: %1$s %2$s already exist-->
+  <string name="string__1_s__2_s_already_exist">%1$s %2$s уже существует</string>
+  <!--Original value: Send-->
+  <string name="string_send">Отправить</string>
+  <!--Original value: Skip-->
+  <string name="string_skip">Пропустить</string>
+  <!--Original value: File-->
+  <string name="string_file">Файл</string>
+  <!--Original value: Rename-->
+  <string name="string_rename">Переименовать</string>
+  <!--Original value: USBs-->
+  <string name="string_usbs">USBs</string>
+  <!--Original value: Aborting connection-->
+  <string name="string_aborting_connection">Связь прервана</string>
+  <!--Original value: What to do?-->
+  <string name="string_what_to_do_">Что делать?</string>
+  <!--Original value: Connect failed. Retry.-->
+  <string name="string_connect_failed__retry_">Сбой подключения. Повтор.</string>
+  <!--Original value: Orginization does not exist!-->
+  <string name="string_orginization_does_not_exist_">Организация не найдена!</string>
+  <!--Original value: OK. Ready to read next QR code #-->
+  <string name="string_ok__ready_to_read_next_qr_code__">OK. Готов считывать след.QR код #</string>
+  <!--Original value: Catalog-->
+  <string name="string_catalog">Каталог</string>
+  <!--Original value: Press Send button-->
+  <string name="string_press_send_button">нажмите кнопку Отправить</string>
+  <!--Original value: Finish-->
+  <string name="string_finish">Окончить</string>
+  <!--Original value: Permission denied to access camera-->
+  <string name="string_permission_denied_to_access_camera">Разрешения приложения ограничивают доступ к камере!</string>
+  <!--Original value: Connect error: Reason=%d-->
+  <string name="string_connect_error__reason__d">Ошибка подключения: Причина=%d</string>
+  <!--Original value: Enter orginization and press Receive button-->
+  <string name="string_enter_orginization_and_press_receive_button">Введите организацию и нажмите кнопку Получить</string>
+  <!--Original value: Sent %s-->
+  <string name="string_sent__s">Отправлено %s</string>
+  <!--Original value: Wait!!-->
+  <string name="string_wait__">Подождите!</string>
+  <!--Original value: Wrong QR Code number. Waited %1$d, received %2$d-->
+  <string name="string_wrong_qr_code_number__waited__1_d__received__2_d">Неверный номер QR кода. Ожидался %1$d, получен %2$d</string>
+  <!--Original value: Select folder and press Read button-->
+  <string name="string_select_folder_and_press_read_button">Выберите папку и нажмите кнопку Прочесть</string>
+  <!--Original value: Press Receive button-->
+  <string name="string_press_receive_button">Нажмите кнопку Получить</string>
+  <!--Original value: Permission denied to obtain list of Bluetooth devices around-->
+  <string name="string_permission_denied_to_obtain_list_of_bluetooth_devices_around">Разрешения приложения ограничивают получение списка Bluetooth устройств</string>
+  <!--Original value: P2P group creation failed. Retry.-->
+  <string name="string_p2p_group_creation_failed__retry_">Сбой создания группы P2P. Повтор.</string>
+  <!--Original value: Rewrite-->
+  <string name="string_rewrite">Перезаписать</string>
+  <!--Original value: Connect abort request failed. Reason Code: -->
+  <string name="string_connect_abort_request_failed__reason_code__">Сбой подключения. Код: </string>
+  <!--Original value: Survey Setting-->
+  <string name="string_survey_setting">Настройка съемки</string>
+  <!--Original value: OK-->
+  <string name="string_ok">OK</string>
+  <!--Original value: This deivce:-->
+  <string name="string_this_deivce_">Это устройство:</string>
+  <!--Original value: No device selected!-->
+  <string name="string_no_device_selected_">Не выбрано устройство!</string>
+  <!--Original value: Enter orginization and press Send button-->
+  <string name="string_enter_orginization_and_press_send_button">Введите организацию и нажмите кнопку Отправить</string>
+  <!--Original value: Cannot get Wi-Fi Direct system service.-->
+  <string name="string_cannot_get_wi_fi_direct_system_service_">Не удалось получить доступ к сервису Wi-Fi Direct.</string>
+  <!--Original value: Permission denied to access to network-->
+  <string name="string_permission_denied_to_access_to_network">Разрешения приложения ограничивают доступ к сети</string>
+  <!--Original value: Readed-->
+  <string name="string_readed">Прочитано</string>
+  <!--Original value: Receive-->
+  <string name="string_receive">Получить</string>
+  <!--Original value: Permission denied to obtain list of WiFi devices around-->
+  <string name="string_permission_denied_to_obtain_list_of_wifi_devices_around">Разрешения приложения ограничивают получение списка WiFi устройств</string>
+  <!--Original value: Cannot initialize Wi-Fi Direct.-->
+  <string name="string_cannot_initialize_wi_fi_direct_">Не удалось инициализировать Wi-Fi Direct.</string>
+  <!--Original value: Please, type the same orginization you sent!-->
+  <string name="string_please__type_the_same_orginization_you_sent_">Введите тоже имя организации, что вы использовали при отправке!</string>
+  <!--Original value: Ready to send %s-->
+  <string name="string_ready_to_send__s">Готово к отправке %s</string>
+  <!--Original value: %1$d %2$s coppied (%3$d errors %4$d skipped-->
+  <string name="string__1_d__2_s_coppied___3_d_errors__4_d_skipped">%1$d %2$s скопированно (%3$d ошибок %4$d пропущено)</string>
+  <!--Original value: Loading…-->
+  <string name="string_loading___">Загрузка…</string>
+  <!--Original value: Correction Source-->
+  <string name="string_correction_source">Источник поправок</string>
+  <!--Original value: Wi-Fi Direct is not supported by this device.-->
+  <string name="string_wi_fi_direct_is_not_supported_by_this_device_">Wi-Fi Direct не поддерживается на этом устройстве.</string>
+  <!--Original value: Wi-Fi Direct is not supported by the hardware or Wi-Fi is off.-->
+  <string name="string_wi_fi_direct_is_not_supported_by_the_hardware_or_wi_fi_is_off_">Wi-Fi Direct не поддерживается оборудованием или Wi-Fi выключен.</string>
+  <!--Original value: Job-->
+  <string name="string_job">Проект</string>
+  <!--Original value: Select folder and press Save button-->
+  <string name="string_select_folder_and_press_save_button">Выберите папку и нажмите кнопку Сохранить</string>
+  <!--Original value: Cancelled-->
+  <string name="string_cancelled">Отменено</string>
+  <!--Original value: Channel or manager is null-->
+  <string name="string_channel_or_manager_is_null">Канал или мэнеджер нулевой!</string>
+  <!--Original value: Raw file-->
+  <string name="string_raw_file">Файл измерений приемника</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Пожалуйста, подождите!!</string>
+  <!--Original value: CS-->
+  <string name="string_cs">Система Координат</string>
+  <!--Original value: Loaded %s-->
+  <string name="string_loaded__s">Загружено %s</string>
+  <!--Original value: WiFi Direct is not enabled-->
+  <string name="string_wifi_direct_is_not_enabled">WiFi Direct не включен</string>
+  <!--Original value: Receiver Connection-->
+  <string name="string_receiver_connection">Подключение для получения</string>
+  <!--Original value: point-->
+  <string name="string_point">точка</string>
+  <!--Original value: Waiting at -->
+  <string name="string_waiting_at_">Ожидание </string>
+  <!--Original value: Making Device Discoverable-->
+  <string name="string_making_device_discoverable">Устройство становится видимым</string>
+  <!--Original value: Receive is over-->
+  <string name="string_receive_is_over">Получение завершено</string>
+  <!--Original value: Selected folder %s-->
+  <string name="string_selected_folder__s">Выбрана папка %s</string>
+  <!--Original value: Cannot get Wi-Fi system service.-->
+  <string name="string_cannot_get_wi_fi_system_service_">Не удалось получить сервис Wi-Fi.</string>
 </resources>

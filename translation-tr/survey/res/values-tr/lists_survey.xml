@@ -366,6 +366,7 @@
     <string-array name="rtpk_mode_array">
          <item>İlk Fix</item>
          <item>Fix leri Karşılaştır</item>
+         <item>RTPK Only</item>
     </string-array>
 
     <!-- Used in file FHPreferenceFragment.java:387 -->
@@ -453,7 +454,7 @@
          <item>GPS+GLO+GAL+BDU+Diğer</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2498 -->
+    <!-- Used in file SurveyingRTK.java:2515 -->
     <string-array name="left_right_array">
          <item>Sol</item>
          <item>Sağ</item>
@@ -797,7 +798,7 @@
          <item>UHF Radio</item>
     </string-array>
 
-    <!-- Used in file ConfigureNtripActivity.java:655 -->
+    <!-- Used in file ConfigureNtripActivity.java:656 -->
     <string-array name="reference_frame_values_wo_rtcm3_array">
          <item>CSG_WGS_84</item>
          <item>CSG_NAD83_2011</item>
@@ -814,7 +815,8 @@
          <item>Triumph-2 Dahili</item>
          <item>Triumph-3 Dahili</item>
          <item>GISMore Dahili</item>
-         <item>Grant Harici</item>
+         <item>Grant G3 Harici</item>
+         <item>Grant G5T Harici</item>
     </string-array>
 
     <!-- Used in file activity_configure_wifi_from_style.xml:71 -->
@@ -911,7 +913,7 @@
          <item>25000</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3170 -->
+    <!-- Used in file DrawWhiteBox.java:3227 -->
     <string-array name="imu_mode_array">
          <item>Kapat</item>
          <item>Aç (fixed tip)</item>
@@ -1048,7 +1050,7 @@
          <item>RTCM3</item>
     </string-array>
 
-    <!-- Used in file SurveyingRTK.java:2498 -->
+    <!-- Used in file SurveyingRTK.java:2515 -->
     <string-array name="p1_p2_array">
          <item>P1 den</item>
          <item>P2 den</item>
@@ -1060,7 +1062,7 @@
          <item>Dahili GSM</item>
     </string-array>
 
-    <!-- Used in file DrawWhiteBox.java:3273 -->
+    <!-- Used in file DrawWhiteBox.java:3330 -->
     <string-array name="sat_systems_array">
          <item>Yalnız GPS</item>
          <item>GPS+GAL</item>
@@ -1120,17 +1122,6 @@
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->
-    <string-array name="minial_rtk_values_array">
-         <item>0</item>
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>5</item>
-         <item>6</item>
-    </string-array>
-
-    <!-- UNUSED ARRAY OF STRINGS -->
     <string-array name="list_types_array">
          <item>Yeni Uzun Tıklama listeleri</item>
          <item>Eski Buton Listesi</item>
@@ -1143,20 +1134,6 @@
          <item>UHF Radio Bluetooth B</item>
          <item>FH Radio serial B</item>
          <item>UHF Radio serial B</item>
-    </string-array>
-
-    <!-- UNUSED ARRAY OF STRINGS -->
-    <string-array name="freqruleuusarray">
-         <item>10</item>
-         <item>11</item>
-         <item>12</item>
-         <item>13</item>
-         <item>14</item>
-         <item>15</item>
-         <item>16</item>
-         <item>17</item>
-         <item>18</item>
-         <item>19</item>
     </string-array>
 
     <!-- UNUSED ARRAY OF STRINGS -->

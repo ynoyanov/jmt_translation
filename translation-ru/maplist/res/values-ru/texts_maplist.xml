@@ -1,57 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1081. Original value:Close  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file ListWithSortAndSearchActivity.java:285. Original value:file  -->
-    <string name="string_file">файл</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1296. Original value:Do you want to delete %1$s %2$s?  -->
-    <string name="string_do_you_want_to_delete__1_s__2_s_">Удалить %1$s %2$s?</string>
-    <!--  Used in file MapProviderActivity.java:878. Original value:CAD File is not selected  -->
-    <string name="string_cad_file_is_not_selected">CAD файл не выбран</string>
-    <!--  Used in file ListWithSortAndSearchActivity.java:289. Original value:files  -->
-    <string name="string_files">файлы</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1304. Original value:Cancel  -->
-    <string name="string_cancel">Отменить</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:877. Original value:Reading list of %s&#8230;  -->
-    <string name="string_reading_list_of__s___">Загружается список %s …</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1074. Original value:Close Selection  -->
-    <string name="string_close_selection">Закрыть выбор</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1383. Original value:Inverse Selection  -->
-    <string name="string_inverse_selection">Инвентировать выделение</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:662. Original value:Sort by  -->
-    <string name="string_sort_by">Сортировать по</string>
-    <!--  Used in file MapProviderActivity.java:875. Original value:CAD File size is too large (&gt;20Mb)  -->
-    <string name="string_cad_file_size_is_too_large___20mb_">CAD файл слишком велик(&gt;20Mb)</string>
-    <!--  Used in file ListWithMapSortAndSearchActivity.java:292. Original value:Zoom All  -->
-    <string name="string_zoom_all">Показать все</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1385. Original value:UnSelect All  -->
-    <string name="string_unselect_all">Сбросить выборку</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:309. Original value:View type  -->
-    <string name="string_view_type">Тип показа</string>
-    <!--  Used in file MapProviderActivity.java:278. Original value:Layers  -->
-    <string name="string_layers">Слои</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1298. Original value:Delete  -->
-    <string name="string_delete">Удалить</string>
-    <!--  Used in file ListWithMapSortAndSearchActivity.java:287. Original value:MapProvider  -->
-    <string name="string_mapprovider">Карты от</string>
-    <!--  Used in file MapProviderActivity.java:119. Original value:Select Source Folder  -->
-    <string name="string_select_source_folder">Выберите папку источника</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1387. Original value:Select All  -->
-    <string name="string_select_all">Выбрать все</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1240. Original value:Do you want to delete %s:  -->
-    <string name="string_do_you_want_to_delete__s_">Хотите удалить %s:</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1126. Original value:%d selected  -->
-    <string name="string__d_selected">выбрано %d</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1393. Original value:What to do with %1$s %2$s?  -->
-    <string name="string_what_to_do_with__1_s__2_s_">Что делать с %1$s %2$s</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1295. Original value:Delete %s  -->
-    <string name="string_delete__s">Удалить %s</string>
-    <!--  Used in file ListWithMapSortAndSearchActivity.java:260. Original value:Connect  -->
-    <string name="string_connect">Связь</string>
-    <!--  Used in file ListWithSortAndSearchImplementation.java:1249. Original value:Do you want to delete %1$d %2$s?  -->
-    <string name="string_do_you_want_to_delete__1_d__2_s_">Удалить %1$d %2$s?</string>
-    <!--  Used in file BaseProviderMapActivity.java:28. Original value:Points  -->
-    <string name="string_points">Точки</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Deleting %s…-->
+  <string name="string_deleting__s___">Удаление %s . . .</string>
+  <!--Original value: Close-->
+  <string name="string_close">Закрыть</string>
+  <!--Original value: file-->
+  <string name="string_file">файл</string>
+  <!--Original value: Do you want to delete %1$s %2$s?-->
+  <string name="string_do_you_want_to_delete__1_s__2_s_">Удалить %1$s %2$s?</string>
+  <!--Original value: CAD File is not selected-->
+  <string name="string_cad_file_is_not_selected">CAD файл не выбран</string>
+  <!--Original value: files-->
+  <string name="string_files">файлы</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отменить</string>
+  <!--Original value: Reading list of %s…-->
+  <string name="string_reading_list_of__s___">Загружается список %s …</string>
+  <!--Original value: Close Selection-->
+  <string name="string_close_selection">Закрыть выбор</string>
+  <!--Original value: Inverse Selection-->
+  <string name="string_inverse_selection">Инвентировать выделение</string>
+  <!--Original value: Sort by-->
+  <string name="string_sort_by">Сортировать по</string>
+  <!--Original value: CAD File size is too large (>20Mb)-->
+  <string name="string_cad_file_size_is_too_large___20mb_">CAD файл слишком велик(&gt;20Mb)</string>
+  <!--Original value: Zoom All-->
+  <string name="string_zoom_all">Показать все</string>
+  <!--Original value: UnSelect All-->
+  <string name="string_unselect_all">Сбросить выборку</string>
+  <!--Original value: View type-->
+  <string name="string_view_type">Тип показа</string>
+  <!--Original value: Layers-->
+  <string name="string_layers">Слои</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Удалить</string>
+  <!--Original value: MapProvider-->
+  <string name="string_mapprovider">Карты от</string>
+  <!--Original value: Select Source Folder-->
+  <string name="string_select_source_folder">Выберите папку источника</string>
+  <!--Original value: Select All-->
+  <string name="string_select_all">Выбрать все</string>
+  <!--Original value: Do you want to delete %s:-->
+  <string name="string_do_you_want_to_delete__s_">Хотите удалить %s:</string>
+  <!--Original value: %d selected-->
+  <string name="string__d_selected">выбрано %d</string>
+  <!--Original value: What to do with %1$s %2$s?-->
+  <string name="string_what_to_do_with__1_s__2_s_">Что делать с %1$s %2$s</string>
+  <!--Original value: Delete %s-->
+  <string name="string_delete__s">Удалить %s</string>
+  <!--Original value: Connect-->
+  <string name="string_connect">Связь</string>
+  <!--Original value: Do you want to delete %1$d %2$s?-->
+  <string name="string_do_you_want_to_delete__1_d__2_s_">Удалить %1$d %2$s?</string>
+  <!--Original value: Points-->
+  <string name="string_points">Точки</string>
 </resources>

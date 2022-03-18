@@ -5,17 +5,21 @@
     <string name="check_copy_from_folder">Klasörden verileri Kopyala/Taşı</string>
     <!-- Used in file jobs.xml:70. Original value:Archive Folder    -->
     <string name="action_arhieve_folder">Arşiv Klasörü</string>
+    <!-- Used in file null:0. Original value:ASCII file *.txt, *.sdr &#8230;    -->
+    <string name="string_ascii_file___txt____sdr____">ASCII Dosya *.txt, *.sdr &#8230;</string>
+    <!-- Used in file null:0. Original value:ESRI ArcGis *.shp    -->
+    <string name="string_esri_arcgis___shp">ESRI ArcGis *.shp</string>
     <!-- Used in file activity_job.xml:50. Original value:Surveyor    -->
     <string name="job_surveyor">Ölçen</string>
     <!-- Used in file activity_code_values.xml:21. Original value:Sort by    -->
     <string name="sort_description">Sırala</string>
-    <!-- Used in file CodesActivity.java:132. Original value:Comment    -->
+    <!-- Used in file CodesActivity.java:136. Original value:Comment    -->
     <string name="string_comment_sort">Yorum</string>
     <!-- Used in file home_map_points.xml:31. Original value:Survey Points    -->
     <string name="action_show_survey_on">Ölçüm Noktaları</string>
     <!-- Used in file home_map_points.xml:61. Original value:Cut Sheet    -->
     <string name="action_show_stakeout_report_on">TekSayfa</string>
-    <!-- Used in file DataLocationActivity.java:847. Original value:Move from folder is equal to new(to) folder!    -->
+    <!-- Used in file DataLocationActivity.java:882. Original value:Move from folder is equal to new(to) folder!    -->
     <string name="move_from_folder_is_equal_move_to_folder">Klasörden taşıma, yeni (to) klasöre eşittir!</string>
     <!-- Used in file TSPointSurveyInfoActivity.java:101. Original value:Lift&amp;Tilt Survey    -->
     <string name="string_lift_tilt_survey_info">Lift&amp;Tilt Ölçüm</string>
@@ -23,15 +27,19 @@
     <string name="action_sort">Sort</string>
     <!-- Used in file activity_archive_folder.xml:155. Original value:Archive to OneDrive    -->
     <string name="archive_onedrive">OneDrive Arşivle</string>
-    <!-- Used in file ComplexObjectListAdapter.java:155. Original value:Text    -->
+    <!-- Used in file StakeoutReportActivity.java:81. Original value:XY only    -->
+    <string name="action_xy_only">XY only</string>
+    <!-- Used in file survey_point.xml:8. Original value:Show On Map    -->
+    <string name="action_show_on_map">Show On Map</string>
+    <!-- Used in file ComplexObjectListAdapter.java:156. Original value:Text    -->
     <string name="complex_object_text">Text</string>
-    <!-- Used in file DataLocationActivity.java:807. Original value:Javad storage folder is not set    -->
+    <!-- Used in file DataLocationActivity.java:842. Original value:Javad storage folder is not set    -->
     <string name="current_javad_folder_is_absent">Javad Saklama Klasörü ayarlanmadı</string>
     <!-- Used in file activity_point.xml:227. Original value:QGrid    -->
     <string name="coordinate_qgrid">QGrid</string>
-    <!-- Used in file DataLocationActivity.java:434. Original value:External Storage access error!    -->
+    <!-- Used in file DataLocationActivity.java:467. Original value:External Storage access error!    -->
     <string name="external_storage_access_error">Harici Depolama erişim hatası!</string>
-    <!-- Used in file DataLocationActivity.java:271. Original value:Synch.    -->
+    <!-- Used in file DataLocationActivity.java:296. Original value:Synch.    -->
     <string name="synch_synch_button">Synch.</string>
     <!-- Used in file activity_point_antenna.xml:74. Original value:Vertical    -->
     <string name="height_vertical">Düşey</string>
@@ -43,23 +51,25 @@
     <string name="string_menu_import">Import</string>
     <!-- Used in file null:0. Original value:The new folder is not empty    -->
     <string name="string_the_new_folder_is_not_empty">The new folder is not empty</string>
-    <!-- Used in file DataLocationActivity.java:246. Original value:Do you want to copy data from external folder to internal storage?    -->
+    <!-- Used in file activity_data_location.xml:162. Original value:Scopped Storage Manager    -->
+    <string name="button_scopped_storage_mananger">Scopped Storage Manager</string>
+    <!-- Used in file DataLocationActivity.java:271. Original value:Do you want to copy data from external folder to internal storage?    -->
     <string name="string_copy_from_warning_text">Verileri harici klasörden dahili depolamaya kopyalamak istiyor musunuz?</string>
     <!-- Used in file activity_rtkbase.xml:234. Original value:Jps file    -->
     <string name="string_filename_xml">Jps Dosya</string>
-    <!-- Used in file activity_data_location.xml:174. Original value:&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;    -->
+    <!-- Used in file activity_data_location.xml:202. Original value:&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;    -->
     <string name="button_sync_both_directions">&lt;&#x002d;&#x002d; Sync with &#x002d;&#x002d;&gt;</string>
-    <!-- Used in file ComplexObjectListAdapter.java:162. Original value:Radius    -->
+    <!-- Used in file ComplexObjectListAdapter.java:163. Original value:Radius    -->
     <string name="complex_object_radius">Yarıçap</string>
-    <!-- Used in file PointsFragment.java:1154. Original value:New Circle    -->
+    <!-- Used in file PointsFragment.java:1223. Original value:New Circle    -->
     <string name="new_circle">Yeni Daire</string>
     <!-- Used in file codes.xml:49. Original value:Export    -->
     <string name="action_map_export">Export</string>
-    <!-- Used in file JobActivity.java:102. Original value:New Job    -->
+    <!-- Used in file JobActivity.java:103. Original value:New Job    -->
     <string name="string_new_job">Yeni İş</string>
-    <!-- Used in file PointsFragment.java:384. Original value:Code    -->
+    <!-- Used in file PointsFragment.java:424. Original value:Code    -->
     <string name="string_code_sort">Kod</string>
-    <!-- Used in file JobActivity.java:285. Original value:Job CS Changed     -->
+    <!-- Used in file JobActivity.java:286. Original value:Job CS Changed     -->
     <string name="job_cs_changed">İşe Ait CS Değişti </string>
     <!-- Used in file design_points.xml:61. Original value:Delete All Design    -->
     <string name="action_delete_all">Tüm Aplik Noktalarını Sil</string>
@@ -69,7 +79,7 @@
     <string name="string_filename_sort">Dosya Adı</string>
     <!-- Used in file activity_job.xml:133. Original value:Localization    -->
     <string name="localization">Lokalizasyon</string>
-    <!-- Used in file SurveyPointSurveyInfoActivity.java:124. Original value:RTPK    -->
+    <!-- Used in file SurveyPointSurveyInfoActivity.java:136. Original value:RTPK    -->
     <string name="string_rtpk_survey">RTPK</string>
     <!-- Used in file null:0. Original value:View/View    -->
     <string name="action_view_list">View/View</string>
@@ -77,7 +87,7 @@
     <string name="action_map_zoomall">Tümünü Yaklaştır</string>
     <!-- Used in file activity_code.xml:121. Original value: ___ Fields ___    -->
     <string name="code_fields"> ___ Alanlar ___</string>
-    <!-- Used in file CodesActivity.java:133. Original value:Time    -->
+    <!-- Used in file CodesActivity.java:137. Original value:Time    -->
     <string name="string_time_sort">Zaman</string>
     <!-- Used in file rtkbases.xml:15. Original value:Search    -->
     <string name="action_search">Ara</string>
@@ -89,11 +99,11 @@
     <string name="height_type">Yüks.Tipi</string>
     <!-- Used in file activity_point.xml:203. Original value:Wgs84    -->
     <string name="coordinate_wgs84">Wgs84</string>
-    <!-- Used in file PointsFragment.java:1155. Original value:New Arc    -->
+    <!-- Used in file PointsFragment.java:1224. Original value:New Arc    -->
     <string name="new_arc">Yeni Yay</string>
-    <!-- Used in file JobActivity.java:104. Original value:Duplicate Job    -->
+    <!-- Used in file JobActivity.java:105. Original value:Duplicate Job    -->
     <string name="string_duplicate_job_xml">İşi Çoğalt</string>
-    <!-- Used in file DataLocationActivity.java:758. Original value:Permisisons for Storage folder are not granted!    -->
+    <!-- Used in file DataLocationActivity.java:789. Original value:Permisisons for Storage folder are not granted!    -->
     <string name="storage_permissions_are_not_granted">Depolama klasörü için izinler verilmedi!</string>
     <!-- Used in file activity_ts_point.xml:200. Original value:SurveyInfo:\n\n\n    -->
     <string name="survey_info">Ölçen Bilgisi:\n\n\n</string>
@@ -101,6 +111,8 @@
     <string name="data_location_title">Data Konumu</string>
     <!-- Used in file activity_archive_folder.xml:118. Original value:Archive GoogleDrive    -->
     <string name="archive_googledrive">GoogleDrive Arşivle</string>
+    <!-- Used in file null:0. Original value:AutoCad Drawing *.dwg    -->
+    <string name="string_autocad_drawing___dwg">AutoCad Çizimi *.dwg</string>
     <!-- Used in file activity_complex_object_text.xml:86. Original value:Text    -->
     <string name="string_text">Text</string>
     <!-- Used in file activity_rover_points_from_base.xml:16. Original value:Search    -->
@@ -111,11 +123,11 @@
     <string name="user_storage_string">Konum Kullanıcı Tanımlı</string>
     <!-- Used in file activity_code.xml:204. Original value:Def.Value    -->
     <string name="code_def_value">Def.Değer</string>
-    <!-- Used in file DataLocationActivity.java:222. Original value:Do you want to copy data from internal storage to external folder?    -->
+    <!-- Used in file DataLocationActivity.java:247. Original value:Do you want to copy data from internal storage to external folder?    -->
     <string name="string_copy_to_warning_text">Verileri dahili depolamadan harici klasöre kopyalamak istiyor musunuz?</string>
     <!-- Used in file code.xml:15. Original value:Apply    -->
     <string name="action_apply">Uygula</string>
-    <!-- Used in file JobsActivity.java:1093. Original value:Address    -->
+    <!-- Used in file JobsActivity.java:1111. Original value:Address    -->
     <string name="string_address_sort">Adres</string>
     <!-- Used in file jobs.xml:8. Original value:Add    -->
     <string name="action_add">Ekle</string>
@@ -127,7 +139,7 @@
     <string name="storage_mark_height">İşaret Yüks.</string>
     <!-- Used in file activity_archive_folder.xml:38. Original value:Select folder    -->
     <string name="button_select_folder">Klasör Seç</string>
-    <!-- Used in file survey_point.xml:8. Original value:Delete Point    -->
+    <!-- Used in file survey_point.xml:14. Original value:Delete Point    -->
     <string name="action_delete_point">Nokta Sil</string>
     <!-- Used in file home_map_points.xml:37. Original value:Design Points    -->
     <string name="action_show_design_on">Aplik.Noktaları</string>
@@ -135,13 +147,13 @@
     <string name="action_map">Harita</string>
     <!-- Used in file activity_job.xml:109. Original value:Coordinate System    -->
     <string name="coordinate_system">Kordinat Sistemi</string>
-    <!-- Used in file CodesActivity.java:134. Original value:Count    -->
+    <!-- Used in file CodesActivity.java:138. Original value:Count    -->
     <string name="string_count_sort">Say</string>
     <!-- Used in file rtkbases.xml:47. Original value:Export    -->
     <string name="action_export">Export</string>
     <!-- Used in file activity_design_point.xml:71. Original value:Code    -->
     <string name="code">Kod</string>
-    <!-- Used in file ExportAndReport.java:263. Original value:Export Format is not selected!    -->
+    <!-- Used in file ExportAndReport.java:277. Original value:Export Format is not selected!    -->
     <string name="export_format_is_not_selected">Gönderme Formatı Seçilmedi! </string>
     <!-- Used in file activity_ts_point_antenna.xml:37. Original value:Mark    -->
     <string name="storage_mark_id">İsaret</string>
@@ -153,19 +165,23 @@
     <string name="code_max_length">Max.Uzunluk</string>
     <!-- Used in file home_map_points.xml:49. Original value:RTK Bases    -->
     <string name="action_show_base_on">RTK Sabitler</string>
-    <!-- Used in file JobActivity.java:287. Original value:Recompute Design/TS coordinates    -->
+    <!-- Used in file JobActivity.java:288. Original value:Recompute Design/TS coordinates    -->
     <string name="recompute_job_coordinates">Aplikasyon/Ts Noktalarını tekrar hesapla</string>
     <!-- Used in file activity_archive_folder.xml:124. Original value:Authorize GoogleDrive    -->
     <string name="button_authorize_googledrive">GoogleDrive Yetkili</string>
-    <!-- Used in file activity_data_location.xml:59. Original value:External Storage    -->
+    <!-- Used in file activity_data_location.xml:138. Original value:Shared Storage    -->
     <string name="external_storage_string">Harici Depolama</string>
     <!-- Used in file activity_complex_object_polygon.xml:78. Original value:Color    -->
     <string name="string_color">Renk</string>
+    <!-- Used in file activity_data_location.xml:145. Original value:Scopped storage    -->
+    <string name="scopped_storage_string">Scopped storage</string>
     <!-- Used in file list_complex_objects_list_details.xml:52. Original value:Area    -->
     <string name="complex_object_area">Alan</string>
-    <!-- Used in file DataLocationActivity.java:839. Original value:From folder is absent!    -->
+    <!-- Used in file PointsFragment.java:415. Original value:Perimeter    -->
+    <string name="string_perimeter_sort">Perimeter</string>
+    <!-- Used in file DataLocationActivity.java:874. Original value:From folder is absent!    -->
     <string name="move_from_folder_is_absent">Klasör yok!</string>
-    <!-- Used in file DataLocationActivity.java:811. Original value:An error occured while set javad storage folder!    -->
+    <!-- Used in file DataLocationActivity.java:846. Original value:An error occured while set javad storage folder!    -->
     <string name="javad_folder_set_error">Javad depolama klasörü ayarlanırken bir hata oluştu!</string>
     <!-- Used in file activity_point_antenna.xml:107. Original value:Recalculate    -->
     <string name="button_recalculaye">Tekrar Hesapla</string>
@@ -183,13 +199,15 @@
     <string name="action_map_import">Import</string>
     <!-- Used in file activity_code.xml:176. Original value:Name    -->
     <string name="feature_name">Adı</string>
+    <!-- Used in file null:0. Original value:LandXML *.xml    -->
+    <string name="string_landxml___xml">LandXML *.xml</string>
     <!-- Used in file activity_archive_folder.xml:132. Original value:Sync Jobs with GoogleDrive    -->
     <string name="button_sync_jobs_googledrive">işi GoogleDrive ile Senkr.yap</string>
-    <!-- Used in file activity_data_location.xml:197. Original value:Select Sync Folder    -->
+    <!-- Used in file activity_data_location.xml:225. Original value:Select Sync Folder    -->
     <string name="button_select_sync_folder">Senk.Klasör Seçimi</string>
     <!-- Used in file activity_job.xml:90. Original value:Comment    -->
     <string name="job_comment">Yorum</string>
-    <!-- Used in file JobActivity.java:287. Original value:Change CS Id only for Design/TS    -->
+    <!-- Used in file JobActivity.java:288. Original value:Change CS Id only for Design/TS    -->
     <string name="change_cs_id_only">Yanlız Aplikasyon/TS için CS Değiştir.</string>
     <!-- Used in file activity_android11_storage_1.xml:18. Original value:Select JMT data location:    -->
     <string name="select_storage_location">JMT data Konumunu :</string>
@@ -209,7 +227,7 @@
     <string name="string_reference_frame">Ref.Frame</string>
     <!-- Used in file activity_point.xml:286. Original value:RTK Base:\n    -->
     <string name="rtk_base_info">RTK Sabit:\n</string>
-    <!-- Used in file DataLocationActivity.java:223. Original value:Copy To    -->
+    <!-- Used in file DataLocationActivity.java:248. Original value:Copy To    -->
     <string name="synch_to_button">Kopyala</string>
     <!-- Used in file activity_archive_folder.xml:94. Original value:Sync Jobs with Dropbox    -->
     <string name="button_sync_jobs_dropbox">İşi Dropbox ile Senk.yap</string>
@@ -217,13 +235,15 @@
     <string name="action_remove_empty_drawings">Boş çizimleri kaldır</string>
     <!-- Used in file home_map_points.xml:145. Original value:Settings    -->
     <string name="string_settings">Ayarlar</string>
-    <!-- Used in file DataLocationActivity.java:247. Original value:Copy From    -->
+    <!-- Used in file DataLocationActivity.java:272. Original value:Copy From    -->
     <string name="synch_from_button">dan kopyala</string>
     <!-- Used in file activity_job.xml:30. Original value:Name    -->
     <string name="job_name">Adı</string>
-    <!-- Used in file PointsFragment.java:1153. Original value:New Text    -->
+    <!-- Used in file PointsFragment.java:1222. Original value:New Text    -->
     <string name="new_text">Yeni Text</string>
-    <!-- Used in file PointsFragment.java:1152. Original value:New Polygon    -->
+    <!-- Used in file stakeout_report.xml:23. Original value:XYZ    -->
+    <string name="action_xyz">XYZ</string>
+    <!-- Used in file PointsFragment.java:1221. Original value:New Polygon    -->
     <string name="new_polygon">Yeni Poligon</string>
     <!-- Used in file activity_archive_folder.xml:161. Original value:Authorize OneDrive    -->
     <string name="button_authorize_onedrive">OneDrive Yetkili</string>
@@ -237,13 +257,13 @@
     <string name="string_dpos_sort">Proses</string>
     <!-- Used in file activity_code.xml:196. Original value:Type    -->
     <string name="code_type">Tip</string>
-    <!-- Used in file PointsFragment.java:386. Original value:Distance    -->
+    <!-- Used in file PointsFragment.java:426. Original value:Distance    -->
     <string name="string_distance_sort">Mesafe</string>
-    <!-- Used in file JobActivity.java:286. Original value:Do you want to just replace CS Id with new CS Id, or recompute coordinates    -->
+    <!-- Used in file JobActivity.java:287. Original value:Do you want to just replace CS Id with new CS Id, or recompute coordinates    -->
     <string name="cs_changed_what_to_do">CS Kimliğini yeni CS Kimliği ile değiştirmek mi yoksa kordinatları yeniden hesaplamak mı istiyorsunuz?</string>
-    <!-- Used in file DataLocationActivity.java:268. Original value:Confirmation    -->
+    <!-- Used in file DataLocationActivity.java:293. Original value:Confirmation    -->
     <string name="string_warning_copy">Onay</string>
-    <!-- Used in file activity_data_location.xml:154. Original value:Synch. with external folder in background    -->
+    <!-- Used in file activity_data_location.xml:182. Original value:Synch. with external folder in background    -->
     <string name="check_sync_in_background">Arka planda harici klasörle Senkron et</string>
     <!-- Used in file activity_design_point.xml:51. Original value:Descr.    -->
     <string name="description">Açıklama</string>
@@ -251,7 +271,7 @@
     <string name="rtpk_info">RTPK:\n</string>
     <!-- Used in file design_points.xml:48. Original value:Export    -->
     <string name="string_menu_export">Gönder</string>
-    <!-- Used in file DataLocationActivity.java:817. Original value:Copy/Move folder is not selected!\nPlease click button to select the folder.    -->
+    <!-- Used in file DataLocationActivity.java:852. Original value:Copy/Move folder is not selected!\nPlease click button to select the folder.    -->
     <string name="copy_from_folder_is_not_selected">Klasör Kopyala/Taşı seçili değil!\nKlasörü seçmek için lütfen düğmesine tıklayın.</string>
     <!-- Used in file activity_code.xml:164. Original value:Del    -->
     <string name="button_delete">Sil</string>
@@ -271,10 +291,12 @@
     <string name="string_descriptionhint">Açıklama</string>
     <!-- Used in file activity_data_location.xml:26. Original value:Android 11 requires to store all app data in the internal storage.\nJMT allows to work with external storage as previously, but this will degradate performance.    -->
     <string name="data_location_description_android11">Android 11, tüm uygulama verilerini dahili depolamada depolamayı gerektirir.\nJMT, daha önce olduğu gibi harici depolama ile çalışmaya izin verir, ancak bu, performansı düşürür.</string>
-    <!-- Used in file activity_data_location.xml:53. Original value:Scoped Storage    -->
+    <!-- Used in file activity_data_location.xml:59. Original value:Scoped Storage    -->
     <string name="scoped_storage_string">Kapsamlı Depolama</string>
-    <!-- Used in file activity_data_location.xml:166. Original value:&lt;&#x002d;&#x002d; Copy To folder    -->
+    <!-- Used in file activity_data_location.xml:194. Original value:&lt;&#x002d;&#x002d; Copy To folder    -->
     <string name="button_sync_to_folder">&lt;&#x002d;&#x002d; Klasör e kopyala</string>
+    <!-- Used in file null:0. Original value:MapInfo *.mif, *.tab    -->
+    <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!-- Used in file activity_android11_storage_1.xml:48. Original value:User Defined Location    -->
     <string name="string_user_defined">Konum Kullanıcı Tanımlın</string>
     <!-- Used in file activity_design_point.xml:92. Original value:North    -->
@@ -283,14 +305,18 @@
     <string name="string_external_storage">Harici Depolama</string>
     <!-- Used in file activity_complex_object_circle.xml:86. Original value:Radius    -->
     <string name="string_radius">Yarıçap</string>
-    <!-- Used in file DataLocationActivity.java:270. Original value:Do you want to synchronize data between external folder and internal storage?    -->
+    <!-- Used in file DataLocationActivity.java:295. Original value:Do you want to synchronize data between external folder and internal storage?    -->
     <string name="string_copy_sync_warning_text">Verileri harici klasör ve dahili depolama arasında senkronize etmek istiyor musunuz??</string>
-    <!-- Used in file JobActivity.java:106. Original value:Edit Job    -->
+    <!-- Used in file JobActivity.java:107. Original value:Edit Job    -->
     <string name="string_edit_job_xml">İş Düzelt</string>
-    <!-- Used in file activity_data_location.xml:132. Original value:Select From Folder    -->
+    <!-- Used in file null:0. Original value:NetCAD *.ncn    -->
+    <string name="string_netcad___ncn">NetCAD *.ncn</string>
+    <!-- Used in file activity_data_location.xml:152. Original value:Select From Folder    -->
     <string name="button_select_copy_folder">Klasörden Seç</string>
     <!-- Used in file activity_job.xml:194. Original value:Show antenna vertical offset    -->
     <string name="show_antenna_offsets">Anten Düşey Ofset Göster</string>
+    <!-- Used in file PointsFragment.java:414. Original value:Area    -->
+    <string name="string_area_sort">Area</string>
     <!-- Used in file activity_code.xml:154. Original value:Add    -->
     <string name="button_add">Ekle</string>
     <!-- Used in file activity_archive_folder.xml:19. Original value:Volume of your Android device main memory is limited. To save space, you can activate Archiving to SD-card. In this case JMT moves all jobs to SD card to following folder. Then you open a job previous job will be moved to SD card, and the opening job will be coppied from SD card to main memory.    -->
@@ -305,12 +331,16 @@
     <string name="action_receive">Alım</string>
     <!-- Used in file activity_complex_object_polygon.xml:38. Original value:Restore    -->
     <string name="button_reset_vb_rtk">Restore</string>
+    <!-- Used in file null:0. Original value:Google KML *.kml    -->
+    <string name="string_google_kml___kml">Google KML *.kml</string>
     <!-- Used in file jobs.xml:58. Original value:Import    -->
     <string name="action_import">Import</string>
     <!-- Used in file activity_code.xml:243. Original value:Max.Value    -->
     <string name="code_max_value">Max.Değer</string>
-    <!-- Used in file DataLocationActivity.java:843. Original value:New(to) folder is absent!    -->
+    <!-- Used in file DataLocationActivity.java:878. Original value:New(to) folder is absent!    -->
     <string name="move_to_folder_is_absent">Yeni klasör yok!</string>
+    <!-- Used in file null:0. Original value:RossReestr *.xml    -->
+    <string name="string_rossreestr___xml">RossReestr *.xml</string>
     <!-- Used in file activity_point_antenna.xml:79. Original value:Slant    -->
     <string name="height_slant">Eğik</string>
     <!-- Used in file activity_point.xml:219. Original value:VRS(NEH)    -->
@@ -319,9 +349,11 @@
     <string name="string_codehint">Kod</string>
     <!-- Used in file activity_archive_folder.xml:46. Original value:Jobs are located in folder    -->
     <string name="jobs_are_located">İşler klasörde bulunur</string>
-    <!-- Used in file CodesActivity.java:131. Original value:Name    -->
+    <!-- Used in file CodesActivity.java:135. Original value:Name    -->
     <string name="string_name_sort">Adı</string>
-    <!-- Used in file activity_data_location.xml:182. Original value:Copy From folder &#x002d;&#x002d;&gt;    -->
+    <!-- Used in file null:0. Original value:Credo *.top    -->
+    <string name="string_credo___top">Credo *.top</string>
+    <!-- Used in file activity_data_location.xml:210. Original value:Copy From folder &#x002d;&#x002d;&gt;    -->
     <string name="button_sync_from_folder">Klasöre Kopyala &#x002d;&#x002d;&gt;</string>
     <!-- Used in file activity_code.xml:102. Original value:Description    -->
     <string name="code_comment">Açıklama</string>
@@ -335,7 +367,7 @@
     <string name="code_min_value">Min.Değer</string>
     <!-- Used in file activity_ts_point_antenna.xml:120. Original value:Units    -->
     <string name="units_storage">Birimler</string>
-    <!-- Used in file DataLocationActivity.java:762. Original value:User Path folder is not selected!\nPlease click button to select the folder!    -->
+    <!-- Used in file DataLocationActivity.java:793. Original value:User Path folder is not selected!\nPlease click button to select the folder!    -->
     <string name="user_path_is_not_selected">Kullanıcı &gt;Klasör Yolu Seçilmedi!\nKlasörü seçmek için lütfen düğmeye tıklayın!</string>
     <!-- Used in file activity_point.xml:211. Original value:Origin    -->
     <string name="coordinate_origin">Origin</string>

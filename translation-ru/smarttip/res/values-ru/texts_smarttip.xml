@@ -1,57 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file FindJTipActivity.java:126. Original value:Connected to J-Tip  -->
-    <string name="string_connected_to_j_tip">Подключено к J-Tip</string>
-    <!--  Used in file FindJTipActivity.java:228. Original value:Please wait  -->
-    <string name="string_please_wait">Подождите</string>
-    <!--  Used in file JTipActivity.java:2571. Original value:Uploading firmware&#8230;  -->
-    <string name="string_uploading_firmware___">Загрузка встроенного ПО…</string>
-    <!--  Used in file FindJTipActivity.java:128. Original value:Close  -->
-    <string name="string_close">Закрыть</string>
-    <!--  Used in file JTipActivity.java:2543. Original value:Firmware have successfully updated  -->
-    <string name="string_firmware_have_successfully_updated">Встроенное ПО J-Tip успешно обновлено</string>
-    <!--  Used in file JTipActivity.java:216. Original value:Calibration  -->
-    <string name="string_calibration">Калибровка</string>
-    <!--  Used in file JTipActivity.java:998. Original value:HW version:%1$d     SW version:%2$d  -->
-    <string name="string_hw_version__1_d_____sw_version__2_d">Версия устр-ва:%1$d     Версия ПО:%2$d</string>
-    <!--  Used in file JTipActivity.java:228. Original value:Calibration is over  -->
-    <string name="string_calibration_is_over">Калибровка выполнена</string>
-    <!--  Used in file JTipActivity2.java:1111. Original value:Calibrate  -->
-    <string name="string_calibrate">Калибровка</string>
-    <!--  Used in file JTipActivity.java:347. Original value:Clear Range  -->
-    <string name="string_clear_range">Сброс пределов</string>
-    <!--  Used in file JTipActivity2.java:1109. Original value:Calibration is required!  -->
-    <string name="string_calibration_is_required_">Требуется калибровка!</string>
-    <!--  Used in file JTipActivity.java:229. Original value:Do you want to save the calibration?  -->
-    <string name="string_do_you_want_to_save_the_calibration_">Сохранить параметры калибровки?</string>
-    <!--  Used in file JTipActivity.java:1233. Original value:Mag: 0 = %1$.0f \tmin = %2$.0f \t max = %3$.0f\nGain = %4$.0f%%\t   -->
-    <string name="string_mag__0____1__0f__tmin____2__0f__t_max____3__0f_ngain____4__0f___t_">Mag: 0 = %1$.0f \tmin = %2$.0f \t max = %3$.0f\nGain = %4$.0f%%\t </string>
-    <!--  Used in file FindJTipActivity.java:244. Original value:Cancelled by user  -->
-    <string name="string_cancelled_by_user">Прерванно пользователем</string>
-    <!--  Used in file FindJTipActivity.java:127. Original value:Successfully connected to %s  -->
-    <string name="string_successfully_connected_to__s">Успешно подключенно к %s</string>
-    <!--  Used in file JTipActivity.java:2543. Original value:Firmware update error!  -->
-    <string name="string_firmware_update_error_">Ошибка загрузки встроенного ПО!</string>
-    <!--  Used in file FindJTipActivity.java:230. Original value:Cancel  -->
-    <string name="string_cancel">Отменить</string>
-    <!--  Used in file JTipActivity.java:344. Original value:Auto Set Range  -->
-    <string name="string_auto_set_range">Авт.уст.пределов</string>
-    <!--  Used in file JTipActivity.java:2570. Original value:Please Wait!!  -->
-    <string name="string_please_wait__">Подождите!</string>
-    <!--  Used in file FindJTipActivity.java:227. Original value:Conecting&#8230;  -->
-    <string name="string_conecting___">Подключение…</string>
-    <!--  Used in file JTipActivity.java:1265. Original value:Widen Scan!  -->
-    <string name="string_widen_scan_">Широкое сканирование!</string>
-    <!--  Used in file JTipActivity.java:1235. Original value:Mag: 0 = %1$.0f(%2$.0f-%3$.0f) \tmin = %4$.0f \t max = %5$.0f  -->
-    <string name="string_mag__0____1__0f__2__0f__3__0f___tmin____4__0f__t_max____5__0f">Mag: 0 = %1$.0f(%2$.0f-%3$.0f) \tmin = %4$.0f \t max = %5$.0f</string>
-    <!--  Used in file JTipActivity.java:352. Original value:Set Min/Max  -->
-    <string name="string_set_min_max">Уст. мин/макс</string>
-    <!--  Used in file JTipActivity2.java:1108. Original value:Warning  -->
-    <string name="string_warning">Внимание</string>
-    <!--  Used in file JTipActivity.java:345. Original value:Do you want to   -->
-    <string name="string_do_you_want_to_">Хотите </string>
-    <!--  Used in file JTipActivity.java:248. Original value:Stop Calibration  -->
-    <string name="string_stop_calibration">Остановить калибровку</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Connected to J-Tip-->
+  <string name="string_connected_to_j_tip">Подключено к J-Tip</string>
+  <!--Original value: Please wait-->
+  <string name="string_please_wait">Подождите</string>
+  <!--Original value: Uploading firmware…-->
+  <string name="string_uploading_firmware___">Загрузка встроенного ПО…</string>
+  <!--Original value: Close-->
+  <string name="string_close">Закрыть</string>
+  <!--Original value: Firmware have successfully updated-->
+  <string name="string_firmware_have_successfully_updated">Встроенное ПО J-Tip успешно обновлено</string>
+  <!--Original value: Calibration is complete.-->
+  <string name="string_calibration_is_complete_">Калибровка завершена</string>
+  <!--Original value: Calibration-->
+  <string name="string_calibration">Калибровка</string>
+  <!--Original value: HW version:%1$d     SW version:%2$d-->
+  <string name="string_hw_version__1_d_____sw_version__2_d">Версия устр-ва:%1$d     Версия ПО:%2$d</string>
+  <!--Original value: Calibration is over-->
+  <string name="string_calibration_is_over">Калибровка выполнена</string>
+  <!--Original value: Calibrate-->
+  <string name="string_calibrate">Калибровка</string>
+  <!--Original value: Clear Range-->
+  <string name="string_clear_range">Сброс пределов</string>
+  <!--Original value: JTipApp: %1$s\tJ-Tip HW:%2$d SW:%3$d-->
+  <string name="string_jtipapp___1_s_tj_tip_hw__2_d_sw__3_d">JTipApp: %1$s\tJ-Tip: HW:%2$d SW:%3$d</string>
+  <!--Original value: Calibration is required!-->
+  <string name="string_calibration_is_required_">Требуется калибровка!</string>
+  <!--Original value: Do you want to save the calibration?-->
+  <string name="string_do_you_want_to_save_the_calibration_">Сохранить параметры калибровки?</string>
+  <!--Original value: Mag: 0 = %1$.0f \tmin = %2$.0f \t max = %3$.0f\nGain = %4$.0f%%\t -->
+  <string name="string_mag__0____1__0f__tmin____2__0f__t_max____3__0f_ngain____4__0f___t_">Mag: 0 = %1$.0f \tmin = %2$.0f \t max = %3$.0f\nGain = %4$.0f%%\t </string>
+  <!--Original value: Cancelled by user-->
+  <string name="string_cancelled_by_user">Прерванно пользователем</string>
+  <!--Original value: Successfully connected to %s-->
+  <string name="string_successfully_connected_to__s">Успешно подключенно к %s</string>
+  <!--Original value: JTipApp: %1$s-->
+  <string name="string_jtipapp___1_s">JTipApp: %1$s</string>
+  <!--Original value: Firmware update error!-->
+  <string name="string_firmware_update_error_">Ошибка загрузки встроенного ПО!</string>
+  <!--Original value: %1$s%2$s %3$s-->
+  <string name="string__1_s_2_s__3_s">%1$s %2$s %3$s</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отменить</string>
+  <!--Original value: Auto Set Range-->
+  <string name="string_auto_set_range">Авт.уст.пределов</string>
+  <!--Original value: Please Wait!!-->
+  <string name="string_please_wait__">Подождите!</string>
+  <!--Original value: Conecting…-->
+  <string name="string_conecting___">Подключение…</string>
+  <!--Original value: Widen Scan!-->
+  <string name="string_widen_scan_">Широкое сканирование!</string>
+  <!--Original value: Build:%s-->
+  <string name="string_build__s">Сборка:%s</string>
+  <!--Original value: Mag: 0 = %1$.0f(%2$.0f-%3$.0f) \tmin = %4$.0f \t max = %5$.0f-->
+  <string name="string_mag__0____1__0f__2__0f__3__0f___tmin____4__0f__t_max____5__0f">Mag: 0 = %1$.0f(%2$.0f-%3$.0f) \tmin = %4$.0f \t max = %5$.0f</string>
+  <!--Original value: Version:%1$s%2$s %3$s-->
+  <string name="string_version__1_s_2_s__3_s">Версия:%1$s %2$s %3$s</string>
+  <!--Original value: Set Min/Max-->
+  <string name="string_set_min_max">Уст. мин/макс</string>
+  <!--Original value: Warning-->
+  <string name="string_warning">Внимание</string>
+  <!--Original value: Do you want to -->
+  <string name="string_do_you_want_to_">Хотите </string>
+  <!--Original value: Stop Calibration-->
+  <string name="string_stop_calibration">Остановить калибровку</string>
 </resources>

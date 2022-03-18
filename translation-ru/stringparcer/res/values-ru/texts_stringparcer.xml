@@ -1,157 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!--  Used in file ExportPointsActivity.java:1003. Original value:Correction Source Corrections  -->
-    <string name="string_correction_source_corrections">Ист. попр. - Поправки</string>
-    <!--  Used in file ExportPointsActivity.java:639. Original value:WGS_Height  -->
-    <string name="string_wgs_height">Высота WGS84</string>
-    <!--  Used in file ExportPointsActivity.java:1489. Original value:Northing  -->
-    <string name="string_northing">Север</string>
-    <!--  Used in file ExportPointsActivity.java:1551. Original value:Course  -->
-    <string name="string_course">Курс</string>
-    <!--  Used in file ImportPointsActivity.java:1665. Original value:Name  -->
-    <string name="string_name">Имя</string>
-    <!--  Used in file ImportPointsActivity.java:2384. Original value:Select Import Type  -->
-    <string name="string_select_import_type">Выберите тип импорта</string>
-    <!--  Used in file ExportPointsActivity.java:169. Original value:Choose Lat/Lon format  -->
-    <string name="string_choose_lat_lon_format">Выберите формат широты/долготы</string>
-    <!--  Used in file ImportPointsActivity.java:593. Original value:No  -->
-    <string name="string_no">Нет</string>
-    <!--  Used in file ExportPointsActivity.java:489. Original value:Save This Export Profile As  -->
-    <string name="string_save_this_export_profile_as">Сохранить текущие настройки как профиль</string>
-    <!--  Used in file ImportPointsActivity.java:287. Original value:Number  -->
-    <string name="string_number">Номер</string>
-    <!--  Used in file ExportPointsActivity.java:395. Original value:Select a Delimiter Symbol  -->
-    <string name="string_select_a_delimiter_symbol">Выберите символ-разделитель</string>
-    <!--  Used in file ImportPointsActivity.java:1634. Original value:y  -->
-    <string name="string_y">y</string>
-    <!--  Used in file ImportPointsActivity.java:1632. Original value:x  -->
-    <string name="string_x">x</string>
-    <!--  Used in file ExportPointsActivity.java:639. Original value:WGS_Longitude  -->
-    <string name="string_wgs_longitude">Долгота WGS84</string>
-    <!--  Used in file ExportPointsActivity.java:429. Original value:ASCII file *.txt  -->
-    <string name="string_ascii_file___txt">ASCII файл *.txt</string>
-    <!--  Used in file ExportPointsActivity.java:429. Original value:AutoCad Drawing *.dxf  -->
-    <string name="string_autocad_drawing___dxf">AutoCad чертеж *.dxf</string>
-    <!--  Used in file ImportPointsActivity.java:1674. Original value:Name column are not selected. Select and try again!  -->
-    <string name="string_name_column_are_not_selected__select_and_try_again_">Не выбран столбец имени! Нужно выбрать и попробовать еще раз!</string>
-    <!--  Used in file ExportPointsActivity.java:1493. Original value:Up  -->
-    <string name="string_up">H</string>
-    <!--  Used in file ExportPointsActivity.java:1491. Original value:Longitude  -->
-    <string name="string_longitude">Долгота</string>
-    <!--  Used in file ExportPointsActivity.java:284. Original value:\\t - tab  -->
-    <string name="string___t___tab">\\t - tab</string>
-    <!--  Used in file ImportPointsActivity.java:281. Original value:Group  -->
-    <string name="string_group">Группа</string>
-    <!--  Used in file ExportPointsActivity.java:1418. Original value:(origin)  -->
-    <string name="string__origin_">(исх.)</string>
-    <!--  Used in file ExportPointsActivity.java:277. Original value:Enter Delimiter Symbol  -->
-    <string name="string_enter_delimiter_symbol">Введите символ-разделитель</string>
-    <!--  Used in file ExportPointsActivity.java:557. Original value:Export  -->
-    <string name="string_export">Экспорт</string>
-    <!--  Used in file ExportPointsActivity.java:567. Original value:new Profile  -->
-    <string name="string_new_profile">новый профиль</string>
-    <!--  Used in file ExportPointsActivity.java:432. Original value:Select Export Type  -->
-    <string name="string_select_export_type">Выберите тип экспорта</string>
-    <!--  Used in file ExportPointsActivity.java:531. Original value:Cancel  -->
-    <string name="string_cancel">Отменить</string>
-    <!--  Used in file ImportPointsActivity.java:287. Original value:Description  -->
-    <string name="string_description">Описание</string>
-    <!--  Used in file ExportPointsActivity.java:1067. Original value:Original RTCM3  -->
-    <string name="string_original_rtcm3">Исходные RTCM3</string>
-    <!--  Used in file ImportPointsActivity.java:616. Original value:Symbol  -->
-    <string name="string_symbol">Символ</string>
-    <!--  Used in file ImportPointsActivity.java:222. Original value:Tap To Select File Name&#8230;  -->
-    <string name="string_tap_to_select_file_name___">Нажмите для выбора имени файла…</string>
-    <!--  Used in file ExportPointsActivity.java:562. Original value:Profile  -->
-    <string name="string_profile">Профиль</string>
-    <!--  Used in file ImportPointsActivity.java:624. Original value:Width  -->
-    <string name="string_width">Ширина</string>
-    <!--  Used in file ImportPointsActivity.java:325. Original value:Decimal Sign  -->
-    <string name="string_decimal_sign">Десятичный Знак</string>
-    <!--  Used in file ExportPointsActivity.java:199. Original value:Choose export CS  -->
-    <string name="string_choose_export_cs">Выберите СК для экспорта</string>
-    <!--  Used in file ExportPointsActivity.java:1489. Original value:Latitude  -->
-    <string name="string_latitude">Широта</string>
-    <!--  Used in file ExportPointsActivity.java:389. Original value:No data to Export  -->
-    <string name="string_no_data_to_export">Нет данных для экспорта</string>
-    <!--  Used in file ImportPointsActivity.java:1179. Original value:(Drag&amp;Drop Delimeter)  -->
-    <string name="string__drag_drop_delimeter_">(Разделитель Drag&amp;Drop)</string>
-    <!--  Used in file ImportPointsActivity.java:606. Original value:Delimiter Type  -->
-    <string name="string_delimiter_type">Тип разделителя</string>
-    <!--  Used in file ImportPointsActivity.java:313. Original value:Comma  -->
-    <string name="string_comma">Запятая</string>
-    <!--  Used in file ExportPointsActivity.java:498. Original value:OK  -->
-    <string name="string_ok">OK</string>
-    <!--  Used in file ExportPointsActivity.java:984. Original value:Correction Source Id  -->
-    <string name="string_correction_source_id">Ист.Попр. - Ид.</string>
-    <!--  Used in file ImportPointsActivity.java:1131. Original value:Current Parser is not empty. This action will overwrite it!  -->
-    <string name="string_current_parser_is_not_empty__this_action_will_overwrite_it_">Текущий разборщик не пустой. Текущее действие перезапишет его!</string>
-    <!--  Used in file ExportPointsActivity.java:697. Original value:Export completed!  -->
-    <string name="string_export_completed_">Экспорт завершен!</string>
-    <!--  Used in file ExportPointsActivity.java:1547. Original value:Distance3D  -->
-    <string name="string_distance3d">Расстояние 3D</string>
-    <!--  Used in file ExportPointsActivity.java:288. Original value:Delimiter Symbol  -->
-    <string name="string_delimiter_symbol">Символ разделитель</string>
-    <!--  Used in file ExportPointsActivity.java:639. Original value:WGS_Latitude  -->
-    <string name="string_wgs_latitude">Широта WGS84</string>
-    <!--  Used in file ImportPointsActivity.java:579. Original value:Delete Parser?  -->
-    <string name="string_delete_parser_">Удалить разборщик?</string>
-    <!--  Used in file ImportPointsActivity.java:1130. Original value:Warning!  -->
-    <string name="string_warning_">Внимание!</string>
-    <!--  Used in file ExportPointsActivity.java:1297. Original value:Value must be in range from 1 to 100  -->
-    <string name="string_value_must_be_in_range_from_1_to_100">Значение должно быть в диапазоне от 1 до 100</string>
-    <!--  Used in file ImportPointsActivity.java:392. Original value:Enter Scale Coefficient  -->
-    <string name="string_enter_scale_coefficient">Введите масштабный коэффициент</string>
-    <!--  Used in file ExportPointsActivity.java:673. Original value:Export&#8230;  -->
-    <string name="string_export___">Экспорт…</string>
-    <!--  Used in file ImportPointsActivity.java:1158. Original value:Undo  -->
-    <string name="string_undo">Отменить</string>
-    <!--  Used in file ExportPointsActivity.java:1379. Original value:Table could show only first 100 strings  -->
-    <string name="string_table_could_show_only_first_100_strings">Таблица показывает только первые 100 строк</string>
-    <!--  Used in file ExportPointsActivity.java:988. Original value:Correction Source Mount Point  -->
-    <string name="string_correction_source_mount_point">Ист.Попр. - точка подключения</string>
-    <!--  Used in file ExportPointsActivity.java:227. Original value:Enter Number Of Symbol  -->
-    <string name="string_enter_number_of_symbol">Введите число символов</string>
-    <!--  Used in file ImportPointsActivity.java:2289. Original value:Import  -->
-    <string name="string_import">Импорт</string>
-    <!--  Used in file ExportPointsActivity.java:393. Original value:Tap To Input Delimiter Symbol&#8230;  -->
-    <string name="string_tap_to_input_delimiter_symbol___">Нажмите для ввода символа-разделителя…</string>
-    <!--  Used in file ImportPointsActivity.java:651. Original value:Select Source Folder  -->
-    <string name="string_select_source_folder">Выберите папку</string>
-    <!--  Used in file ImportPointsActivity.java:1116. Original value:Create  -->
-    <string name="string_create">Создать</string>
-    <!--  Used in file ImportPointsActivity.java:1652. Original value:Coordinate columns are not selected. Select and try again!  -->
-    <string name="string_coordinate_columns_are_not_selected__select_and_try_again_">Столбцы координат не выбранны. Выберите их и попробуйте еще раз!</string>
-    <!--  Used in file ExportPointsActivity.java:1550. Original value:dH  -->
-    <string name="string_dh">dH</string>
-    <!--  Used in file ImportPointsActivity.java:460. Original value:Warning: parser is not empty, applying symbol will overwriting it.  -->
-    <string name="string_warning__parser_is_not_empty__applying_symbol_will_overwriting_it_">Внимание: парсер не пустой, применение символа? перезатрет его.</string>
-    <!--  Used in file ImportPointsActivity.java:2442. Original value:Parser Name  -->
-    <string name="string_parser_name">Имя разборщика</string>
-    <!--  Used in file ExportPointsActivity.java:1546. Original value:Distance  -->
-    <string name="string_distance">Расстояние</string>
-    <!--  Used in file ExportPointsActivity.java:1548. Original value:dN  -->
-    <string name="string_dn">dN</string>
-    <!--  Used in file ExportPointsActivity.java:1493. Original value:Altitude  -->
-    <string name="string_altitude">Altitude</string>
-    <!--  Used in file ExportPointsActivity.java:998. Original value:Correction Source Protocol  -->
-    <string name="string_correction_source_protocol">Ист.Попр. - Протокол</string>
-    <!--  Used in file ExportPointsActivity.java:606. Original value:Too small columns!  -->
-    <string name="string_too_small_columns_">Слишком мало столбцов!</string>
-    <!--  Used in file ExportPointsActivity.java:1549. Original value:dE  -->
-    <string name="string_de">dE</string>
-    <!--  Used in file ExportPointsActivity.java:231. Original value:Columns Count  -->
-    <string name="string_columns_count">Число столбцов</string>
-    <!--  Used in file ExportPointsActivity.java:1491. Original value:Easting  -->
-    <string name="string_easting">Восток</string>
-    <!--  Used in file ImportPointsActivity.java:311. Original value:Point  -->
-    <string name="string_point">Точка</string>
-    <!--  Used in file ImportPointsActivity.java:2437. Original value:Enter Parser Name  -->
-    <string name="string_enter_parser_name">Введите имя разборщика</string>
-    <!--  Used in file ImportPointsActivity.java:582. Original value:Yes  -->
-    <string name="string_yes">Да</string>
-    <!--  Used in file ExportPointsActivity.java:993. Original value:Correction Source Name  -->
-    <string name="string_correction_source_name">Ист.Попр. - Имя</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Correction Source Corrections-->
+  <string name="string_correction_source_corrections">Ист. попр. - Поправки</string>
+  <!--Original value: WGS_Height-->
+  <string name="string_wgs_height">Высота WGS84</string>
+  <!--Original value: Northing-->
+  <string name="string_northing">Север</string>
+  <!--Original value: Course-->
+  <string name="string_course">Курс</string>
+  <!--Original value: Name-->
+  <string name="string_name">Имя</string>
+  <!--Original value: Select Import Type-->
+  <string name="string_select_import_type">Выберите тип импорта</string>
+  <!--Original value: Choose Lat/Lon format-->
+  <string name="string_choose_lat_lon_format">Выберите формат широты/долготы</string>
+  <!--Original value: No-->
+  <string name="string_no">Нет</string>
+  <!--Original value: Save This Export Profile As-->
+  <string name="string_save_this_export_profile_as">Сохранить текущие настройки как профиль</string>
+  <!--Original value: Import / Parsing…-->
+  <string name="string_import___parsing___">Импорт / Разборка</string>
+  <!--Original value: Number-->
+  <string name="string_number">Номер</string>
+  <!--Original value: Select a Delimiter Symbol-->
+  <string name="string_select_a_delimiter_symbol">Выберите символ-разделитель</string>
+  <!--Original value: y-->
+  <string name="string_y">y</string>
+  <!--Original value: x-->
+  <string name="string_x">x</string>
+  <!--Original value: WGS_Longitude-->
+  <string name="string_wgs_longitude">Долгота WGS84</string>
+  <!--Original value: ASCII file *.txt-->
+  <string name="string_ascii_file___txt">ASCII файл *.txt</string>
+  <!--Original value: AutoCad Drawing *.dxf-->
+  <string name="string_autocad_drawing___dxf">AutoCad чертеж *.dxf</string>
+  <!--Original value: Name column are not selected. Select and try again!-->
+  <string name="string_name_column_are_not_selected__select_and_try_again_">Не выбран столбец имени! Нужно выбрать и попробовать еще раз!</string>
+  <!--Original value: Up-->
+  <string name="string_up">H</string>
+  <!--Original value: Longitude-->
+  <string name="string_longitude">Долгота</string>
+  <!--Original value: \\t - tab-->
+  <string name="string___t___tab">\\t - tab</string>
+  <!--Original value: Group-->
+  <string name="string_group">Группа</string>
+  <!--Original value: (origin)-->
+  <string name="string__origin_">(исх.)</string>
+  <!--Original value: Enter Delimiter Symbol-->
+  <string name="string_enter_delimiter_symbol">Введите символ-разделитель</string>
+  <!--Original value: Export-->
+  <string name="string_export">Экспорт</string>
+  <!--Original value: new Profile-->
+  <string name="string_new_profile">новый профиль</string>
+  <!--Original value: Select Export Type-->
+  <string name="string_select_export_type">Выберите тип экспорта</string>
+  <!--Original value: Cancel-->
+  <string name="string_cancel">Отменить</string>
+  <!--Original value: Description-->
+  <string name="string_description">Описание</string>
+  <!--Original value: Original RTCM3-->
+  <string name="string_original_rtcm3">Исходные RTCM3</string>
+  <!--Original value: Symbol-->
+  <string name="string_symbol">Символ</string>
+  <!--Original value: Tap To Select File Name…-->
+  <string name="string_tap_to_select_file_name___">Нажмите для выбора имени файла…</string>
+  <!--Original value: Profile-->
+  <string name="string_profile">Профиль</string>
+  <!--Original value: Width-->
+  <string name="string_width">Ширина</string>
+  <!--Original value: Decimal Sign-->
+  <string name="string_decimal_sign">Десятичный Знак</string>
+  <!--Original value: Choose export CS-->
+  <string name="string_choose_export_cs">Выберите СК для экспорта</string>
+  <!--Original value: Latitude-->
+  <string name="string_latitude">Широта</string>
+  <!--Original value: No data to Export-->
+  <string name="string_no_data_to_export">Нет данных для экспорта</string>
+  <!--Original value: (Drag&Drop Delimeter)-->
+  <string name="string__drag_drop_delimeter_">(Разделитель Drag&amp;Drop)</string>
+  <!--Original value: Delimiter Type-->
+  <string name="string_delimiter_type">Тип разделителя</string>
+  <!--Original value: Comma-->
+  <string name="string_comma">Запятая</string>
+  <!--Original value: OK-->
+  <string name="string_ok">OK</string>
+  <!--Original value: Correction Source Id-->
+  <string name="string_correction_source_id">Ист.Попр. - Ид.</string>
+  <!--Original value: Current Parser is not empty. This action will overwrite it!-->
+  <string name="string_current_parser_is_not_empty__this_action_will_overwrite_it_">Текущий разборщик не пустой. Текущее действие перезапишет его!</string>
+  <!--Original value: Export completed!-->
+  <string name="string_export_completed_">Экспорт завершен!</string>
+  <!--Original value: Distance3D-->
+  <string name="string_distance3d">Расстояние 3D</string>
+  <!--Original value: Delimiter Symbol-->
+  <string name="string_delimiter_symbol">Символ разделитель</string>
+  <!--Original value: WGS_Latitude-->
+  <string name="string_wgs_latitude">Широта WGS84</string>
+  <!--Original value: Delete Parser?-->
+  <string name="string_delete_parser_">Удалить разборщик?</string>
+  <!--Original value: Warning!-->
+  <string name="string_warning_">Внимание!</string>
+  <!--Original value: Value must be in range from 1 to 100-->
+  <string name="string_value_must_be_in_range_from_1_to_100">Значение должно быть в диапазоне от 1 до 100</string>
+  <!--Original value: Enter Scale Coefficient-->
+  <string name="string_enter_scale_coefficient">Введите масштабный коэффициент</string>
+  <!--Original value: Export…-->
+  <string name="string_export___">Экспорт…</string>
+  <!--Original value: Undo-->
+  <string name="string_undo">Отменить</string>
+  <!--Original value: Table could show only first 100 strings-->
+  <string name="string_table_could_show_only_first_100_strings">Таблица показывает только первые 100 строк</string>
+  <!--Original value: Correction Source Mount Point-->
+  <string name="string_correction_source_mount_point">Ист.Попр. - точка подключения</string>
+  <!--Original value: Enter Number Of Symbol-->
+  <string name="string_enter_number_of_symbol">Введите число символов</string>
+  <!--Original value: Can not create temporary folder!-->
+  <string name="string_can_not_create_temporary_folder_">Не удалось создать временную папку!</string>
+  <!--Original value: Import-->
+  <string name="string_import">Импорт</string>
+  <!--Original value: Tap To Input Delimiter Symbol…-->
+  <string name="string_tap_to_input_delimiter_symbol___">Нажмите для ввода символа-разделителя…</string>
+  <!--Original value: Select Source Folder-->
+  <string name="string_select_source_folder">Выберите папку</string>
+  <!--Original value: Create-->
+  <string name="string_create">Создать</string>
+  <!--Original value: Coordinate columns are not selected. Select and try again!-->
+  <string name="string_coordinate_columns_are_not_selected__select_and_try_again_">Столбцы координат не выбранны. Выберите их и попробуйте еще раз!</string>
+  <!--Original value: dH-->
+  <string name="string_dh">dH</string>
+  <!--Original value: Warning: parser is not empty, applying symbol will overwriting it.-->
+  <string name="string_warning__parser_is_not_empty__applying_symbol_will_overwriting_it_">Внимание: парсер не пустой, применение символа? перезатрет его.</string>
+  <!--Original value: Parser Name-->
+  <string name="string_parser_name">Имя разборщика</string>
+  <!--Original value: Distance-->
+  <string name="string_distance">Расстояние</string>
+  <!--Original value: dN-->
+  <string name="string_dn">dN</string>
+  <!--Original value: Altitude-->
+  <string name="string_altitude">Высота</string>
+  <!--Original value: Correction Source Protocol-->
+  <string name="string_correction_source_protocol">Ист.Попр. - Протокол</string>
+  <!--Original value: Too small columns!-->
+  <string name="string_too_small_columns_">Слишком мало столбцов!</string>
+  <!--Original value: dE-->
+  <string name="string_de">dE</string>
+  <!--Original value: Columns Count-->
+  <string name="string_columns_count">Число столбцов</string>
+  <!--Original value: Easting-->
+  <string name="string_easting">Восток</string>
+  <!--Original value: Point-->
+  <string name="string_point">Точка</string>
+  <!--Original value: Enter Parser Name-->
+  <string name="string_enter_parser_name">Введите имя разборщика</string>
+  <!--Original value: Yes-->
+  <string name="string_yes">Да</string>
+  <!--Original value: Correction Source Name-->
+  <string name="string_correction_source_name">Ист.Попр. - Имя</string>
 </resources>

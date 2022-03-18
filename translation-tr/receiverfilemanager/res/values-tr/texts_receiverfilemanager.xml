@@ -1,75 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  Used in file FileManagerActivity.java:929. Original value:Wait several minutes till receiver flashing is over!  -->
+    <!--  Used in file FileManagerActivity.java:996. Original value:Wait several minutes till receiver flashing is over!  -->
     <string name="string_wait_several_minutes_till_receiver_flashing_is_over_">Alıcının yanıp sönmesi bitene kadar birkaç dakika bekleyin!</string>
-    <!--  Used in file FileManagerActivity.java:427. Original value:Download file  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:160. Original value:10Hz  -->
+    <string name="string_10hz">10Hz</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:152. Original value:50Hz  -->
+    <string name="string_50hz">50Hz</string>
+    <!--  Used in file FileManagerActivity.java:487. Original value:Download file  -->
     <string name="string_download_file">Download Dosya</string>
-    <!--  Used in file FileManagerActivity.java:446. Original value:Resume  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:510. Original value:Resume  -->
     <string name="string_resume">Devam</string>
-    <!--  Used in file FileManagerActivity.java:331. Original value:Total:  -->
+    <!--  Used in file FileManagerActivity.java:391. Original value:Total:  -->
     <string name="string_total_">Toplam:</string>
-    <!--  Used in file FileManagerActivity.java:933. Original value:Close  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:508. Original value:File %s already exist. Do you want to Resume it or use different filename?  -->
+    <string name="string_file__s_already_exist__do_you_want_to_resume_it_or_use_different_filename_">File %s already exist. Do you want to Resume it or use different filename?</string>
+    <!--  Used in file FileManagerActivity.java:1000. Original value:Close  -->
     <string name="string_close">Kapat</string>
-    <!--  Used in file FileManagerActivity.java:846. Original value:Do you want to delete file \'%s\'?  -->
+    <!--  Used in file FileManagerActivity.java:913. Original value:Do you want to delete file \'%s\'?  -->
     <string name="string_do_you_want_to_delete_file___s__">Dosyayı silmek istiyor musunuz \'%s\'?</string>
-    <!--  Used in file FileManagerActivity.java:988. Original value:No new Hybrid RTK files found!  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:171. Original value:1Hz  -->
+    <string name="string_1hz">1Hz</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:507. Original value:Receiver File Already Exists  -->
+    <string name="string_receiver_file_already_exists">Receiver File Already Exists</string>
+    <!--  Used in file FileManagerActivity.java:1055. Original value:No new Hybrid RTK files found!  -->
     <string name="string_no_new_hybrid_rtk_files_found_">Yeni Hybrid RTK Dosyası Bulunamadı!</string>
-    <!--  Used in file FileManagerActivity.java:241. Original value:Download of base file is over!  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:560. Original value:Starting survey&#8230;  -->
+    <string name="string_starting_survey___">Starting survey&#8230;</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:164. Original value:5Hz  -->
+    <string name="string_5hz">5Hz</string>
+    <!--  Used in file FileManagerActivity.java:301. Original value:Download of base file is over!  -->
     <string name="string_download_of_base_file_is_over_">Temel dosyanın indirilmesi bitti!</string>
-    <!--  Used in file FileManagerActivity.java:242. Original value:Process base file only  -->
+    <!--  Used in file FileManagerActivity.java:302. Original value:Process base file only  -->
     <string name="string_process_base_file_only">Yalnızca işlem temel dosyası</string>
-    <!--  Used in file FileManagerActivity.java:865. Original value:DELETE ALL FILES  -->
+    <!--  Used in file FileManagerActivity.java:932. Original value:DELETE ALL FILES  -->
     <string name="string_delete_all_files">TÜM DOSYALARI SİL</string>
-    <!--  Used in file FileManagerActivity.java:240. Original value:HybridRTK/VB-RTK download  -->
+    <!--  Used in file FileManagerActivity.java:300. Original value:HybridRTK/VB-RTK download  -->
     <string name="string_hybridrtk_vb_rtk_download">HybridRTK/VB-RTK download</string>
-    <!--  Used in file FileManagerActivity.java:415. Original value:loaded  -->
+    <!--  Used in file FileManagerActivity.java:475. Original value:loaded  -->
     <string name="string_loaded">Yüklendi</string>
-    <!--  Used in file FileManagerActivity.java:652. Original value:Downloading&#8230;  -->
+    <!--  Used in file FileManagerActivity.java:712. Original value:Downloading&#8230;  -->
     <string name="string_downloading___">İndiriliyor&#8230;</string>
-    <!--  Used in file FileManagerActivity.java:753. Original value:Delete %1$d filtered files (of %2$d)  -->
+    <!--  Used in file FileManagerActivity.java:817. Original value:Delete %1$d filtered files (of %2$d)  -->
     <string name="string_delete__1_d_filtered_files__of__2_d_">&gt;Sil %1$d filtre edilen dosyalar (of %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:847. Original value:Delete  -->
+    <!--  Used in file FileManagerActivity.java:914. Original value:Delete  -->
     <string name="string_delete">Sil</string>
-    <!--  Used in file FileManagerActivity.java:759. Original value:Delete %1$d selected files (of %2$d)  -->
+    <!--  Used in file FileManagerActivity.java:823. Original value:Delete %1$d selected files (of %2$d)  -->
     <string name="string_delete__1_d_selected_files__of__2_d_">Sil %1$d Seçilen dosyalar (of %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:927. Original value:File system init started.  -->
+    <!--  Used in file FileManagerActivity.java:994. Original value:File system init started.  -->
     <string name="string_file_system_init_started_">Dosya sistemi başlatıldı.</string>
-    <!--  Used in file FileManagerActivity.java:924. Original value:Successfully deleted all %d files  -->
+    <!--  Used in file FileManagerActivity.java:991. Original value:Successfully deleted all %d files  -->
     <string name="string_successfully_deleted_all__d_files">Tüm %d dosya başarıyla silindi</string>
-    <!--  Used in file FileManagerActivity.java:903. Original value:Removed file %s  -->
+    <!--  Used in file FileManagerActivity.java:970. Original value:Removed file %s  -->
     <string name="string_removed_file__s">Kaldırılan Dosya %s</string>
-    <!--  Used in file FileManagerActivity.java:331. Original value:Free:  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:173. Original value:5sec  -->
+    <string name="string_5sec">5sec</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:470. Original value:File name too long!  -->
+    <string name="string_file_name_too_long_">File name too long!</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:179. Original value:30sec  -->
+    <string name="string_30sec">30sec</string>
+    <!--  Used in file FileManagerActivity.java:199. Original value:Stop Log  -->
+    <string name="string_stop_log">Stop Log</string>
+    <!--  Used in file FileManagerActivity.java:391. Original value:Free:  -->
     <string name="string_free_">Serbest:</string>
-    <!--  Used in file FileManagerActivity.java:932. Original value:Delete file result  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:415. Original value:Can\'t start log file!  -->
+    <string name="string_can_t_start_log_file_">Can\'t start log file!</string>
+    <!--  Used in file FileManagerActivity.java:999. Original value:Delete file result  -->
     <string name="string_delete_file_result">Dosya silme Dosya sonucunu sil</string>
-    <!--  Used in file FileManagerActivity.java:923. Original value:Deleted %1$d files (from %2$d)  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:516. Original value:Use different name  -->
+    <string name="string_use_different_name">Use different name</string>
+    <!--  Used in file FileManagerActivity.java:990. Original value:Deleted %1$d files (from %2$d)  -->
     <string name="string_deleted__1_d_files__from__2_d_">Silindi %1$d dosya (from %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:864. Original value:DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?  -->
+    <!--  Used in file FileManagerActivity.java:931. Original value:DO YOU WANT TO DELETE ALL FILES IN THE RECEIVER?  -->
     <string name="string_do_you_want_to_delete_all_files_in_the_receiver_">ALICIDAKİ TÜM DOSYALARI SİLMEK İSTER MİSİNİZ??</string>
-    <!--  Used in file FileManagerActivity.java:949. Original value:Cancel  -->
+    <!--  Used in file FileManagerActivity.java:197. Original value:Confirm  -->
+    <string name="string_confirm">Confirm</string>
+    <!--  Used in file FileManagerActivity.java:1016. Original value:Cancel  -->
     <string name="string_cancel">İptal</string>
-    <!--  Used in file FileManagerActivity.java:667. Original value:Downloading file %s  -->
+    <!--  Used in file FileManagerActivity.java:727. Original value:Downloading file %s  -->
     <string name="string_downloading_file__s">Dosya İndiriliyor %s</string>
-    <!--  Used in file FileManagerActivity.java:252. Original value:Switch to download rover files  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:168. Original value:2Hz  -->
+    <string name="string_2hz">2Hz</string>
+    <!--  Used in file FileManagerActivity.java:196. Original value:Stop file %s  -->
+    <string name="string_stop_file__s">Stop file %s</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:474. Original value:File has wrong chars!  -->
+    <string name="string_file_has_wrong_chars_">File has wrong chars!</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:175. Original value:10sec  -->
+    <string name="string_10sec">10sec</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:547. Original value:Reading file list&#8230;  -->
+    <string name="string_reading_file_list___">Reading file list&#8230;</string>
+    <!--  Used in file FileManagerActivity.java:149. Original value:Stop Log %s  -->
+    <string name="string_stop_log__s">Stop Log %s</string>
+    <!--  Used in file FileManagerActivity.java:312. Original value:Switch to download rover files  -->
     <string name="string_switch_to_download_rover_files">Gezici dosyalarını indirmek için geçiş yapın</string>
-    <!--  Used in file FileManagerActivity.java:771. Original value:Download  -->
+    <!--  Used in file FileManagerActivity.java:835. Original value:Download  -->
     <string name="string_download">Download</string>
-    <!--  Used in file FileManagerActivity.java:845. Original value:Delete file  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:466. Original value:Please, type a receiver file name!  -->
+    <string name="string_please__type_a_receiver_file_name_">Please, type a receiver file name!</string>
+    <!--  Used in file FileManagerActivity.java:912. Original value:Delete file  -->
     <string name="string_delete_file">Dosya Sil</string>
-    <!--  Used in file FileManagerActivity.java:928. Original value:All %d files will be deleted  -->
+    <!--  Used in file FileManagerActivity.java:995. Original value:All %d files will be deleted  -->
     <string name="string_all__d_files_will_be_deleted">Tüm %d dosya silinecek</string>
-    <!--  Used in file FileManagerActivity.java:428. Original value:File %s already exist.\nDo you want to Rewrite it or Resume?  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:156. Original value:20Hz  -->
+    <string name="string_20hz">20Hz</string>
+    <!--  Used in file FileManagerActivity.java:488. Original value:File %s already exist.\nDo you want to Rewrite it or Resume?  -->
     <string name="string_file__s_already_exist__ndo_you_want_to_rewrite_it_or_resume_">%s dosyası zaten var.\nYeniden Yazmak mı, Devam Etmek mi İstiyorsunuz??</string>
-    <!--  Used in file FileManagerActivity.java:331. Original value:Memory  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:148. Original value:100Hz  -->
+    <string name="string_100hz">100Hz</string>
+    <!--  Used in file FileManagerActivity.java:391. Original value:Memory  -->
     <string name="string_memory">Hafıza</string>
-    <!--  Used in file FileManagerActivity.java:434. Original value:Rewrite  -->
+    <!--  Used in file FileManagerActivity.java:494. Original value:Rewrite  -->
     <string name="string_rewrite">TekrarYaz</string>
-    <!--  Used in file FileManagerActivity.java:761. Original value:Download %1$d selected files (of %2$d)  -->
+    <!--  Used in file FileLoggingInFileManagerActivity.java:181. Original value:60sec  -->
+    <string name="string_60sec">60sec</string>
+    <!--  Used in file FileManagerActivity.java:825. Original value:Download %1$d selected files (of %2$d)  -->
     <string name="string_download__1_d_selected_files__of__2_d_">Seçilen %1$d dosyayı indir(of %2$d)</string>
-    <!--  Used in file FileManagerActivity.java:595. Original value:Removing&#8230;  -->
+    <!--  Used in file FileManagerActivity.java:655. Original value:Removing&#8230;  -->
     <string name="string_removing___">Kaldırıyor&#8230;</string>
-    <!--  Used in file FileManagerActivity.java:330. Original value:Files:  -->
+    <!--  Used in file FileManagerActivity.java:390. Original value:Files:  -->
     <string name="string_files_">Dosyalar:</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:519. Original value:Receiver File %s already exist!  -->
+    <string name="string_receiver_file__s_already_exist_">Receiver File %s already exist!</string>
+    <!--  Used in file FileLoggingInFileManagerActivity.java:177. Original value:15sec  -->
+    <string name="string_15sec">15sec</string>
 
 </resources>
