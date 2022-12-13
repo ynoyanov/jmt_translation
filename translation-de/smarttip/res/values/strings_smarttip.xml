@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Used in file JTipActivity.java:2384    -->
+    <!-- Used in file JTipActivity.java:2386    -->
     <string name="source_sensor_s1">Sensor S1</string>
     <!-- Used in file activity_jtip.xml:56    -->
     <string name="button_clear_range">Clear Range</string>
-    <!-- Used in file JTipActivity.java:2300    -->
+    <!-- Used in file JTipActivity.java:2302    -->
     <string name="button_xyz2_direction">XYZ</string>
+    <!-- Used in file jtip2.xml:67    -->
+    <string name="menu_continuous">Continuous Meas.</string>
     <!-- Used in file activity_jtip.xml:400    -->
     <string name="string_max_value">Max Value</string>
     <!-- Used in file jtip.xml:30    -->
     <string name="button_firmware">Upload Firmware</string>
     <!-- Used in file activity_jtip.xml:147    -->
     <string name="string_sound_type">Sound type</string>
+    <!-- Used in file jtip2.xml:58    -->
+    <string name="menu_read_mode">Read Mode</string>
     <!-- Used in file activity_jtip.xml:371    -->
     <string name="string_gain">Gain</string>
-    <!-- Used in file JTipActivity.java:2343    -->
+    <!-- Used in file activity_jtip2.xml:78    -->
+    <string name="string_jtip_pinpoint">PinPoint</string>
+    <!-- Used in file JTipActivity.java:2345    -->
     <string name="button_full_auto">Auto</string>
     <!-- Used in file activity_jtip.xml:189    -->
     <string name="string_magnetic_source">Source</string>
+    <!-- Used in file find_jtip.xml:13    -->
+    <string name="about_jtip">About</string>
     <!-- Used in file activity_jtip.xml:456    -->
     <string name="button_course">Set Course to 0</string>
-    <!-- Used in file JTipActivity.java:2343    -->
+    <!-- Used in file JTipActivity.java:2345    -->
     <string name="button_semi_auto">SemiAuto</string>
+    <!-- Used in file jtip2.xml:44    -->
+    <string name="square_sensitivity">Square Sensitivity</string>
     <!-- Used in file jtip.xml:16    -->
     <string name="button_z_direction">Z Dir</string>
     <!-- Used in file activity_jtip.xml:168    -->
     <string name="string_sensivity">Sensivity</string>
-    <!-- Used in file JTipActivity.java:2383    -->
+    <!-- Used in file activity_jtip2.xml:177    -->
+    <string name="jtip_off">Off</string>
+    <!-- Used in file activity_jtip2.xml:184    -->
+    <string name="jtip_pair">Pair</string>
+    <!-- Used in file activity_jtip2.xml:108    -->
+    <string name="sensivity_high">High</string>
+    <!-- Used in file JTipActivity.java:2385    -->
     <string name="string_set_sensor_source_jtip">Set Sensor Source</string>
     <!-- Used in file activity_jtip.xml:139    -->
     <string name="string_algorithm">Sound algorithm</string>
-    <!-- Used in file JTipActivity.java:2384    -->
+    <!-- Used in file JTipActivity.java:2386    -->
     <string name="source_sensor_s2">Sensor S2</string>
     <!-- Used in file activity_jtip.xml:81    -->
     <string name="button_calibrate">Calibrate</string>
@@ -41,37 +57,58 @@
     <string name="string_data_source">Mag. Source</string>
     <!-- Used in file jtip.xml:23    -->
     <string name="button_s_d_s">Single</string>
-    <!-- Used in file activity_find_smarttip.xml:16    -->
-    <string name="text_select_smarttip">Select J-Tip</string>
-    <!-- Used in file JTipActivity.java:1114    -->
+    <!-- Used in file activity_find_smarttip.xml:23    -->
+    <string name="text_select_smarttip">Select J-Tip from list below</string>
+    <!-- Used in file JTipActivity.java:1116    -->
     <string name="button_hold_range">Hold Range</string>
-    <!-- Used in file JTipActivity.java:1192    -->
+    <!-- Used in file JTipActivity.java:1194    -->
     <string name="jtip_calibration_required">Calibration Required!</string>
     <!-- Used in file activity_jtip.xml:64    -->
     <string name="button_set_range">Set Range</string>
     <!-- Used in file activity_jtip.xml:386    -->
     <string name="string_min_value">Min Value</string>
+    <!-- Used in file activity_jtip2.xml:92    -->
+    <string name="string_jtip_wide">Wide</string>
     <!-- Used in file activity_jtip.xml:393    -->
     <string name="string_gain_value">Gain Value</string>
-    <!-- Used in file JTipActivity.java:2343    -->
+    <!-- Used in file JTipActivity.java:2345    -->
     <string name="button_manual">Manual</string>
-    <!-- Used in file JTipActivity.java:2342    -->
+    <!-- Used in file JTipActivity.java:2344    -->
     <string name="string_set_mode_jtip">Set Mode</string>
+    <!-- Used in file jtip2.xml:37    -->
+    <string name="different_tones">Diff.tone for Negative</string>
     <!-- Used in file activity_jtip.xml:27    -->
     <string name="string_volume">Volume</string>
-    <!-- Used in file JTipActivity.java:2384    -->
+    <!-- Used in file JTipActivity.java:2386    -->
     <string name="source_s1_minus_s2">Differential (S1-S2)</string>
-    <!-- Used in file JTipActivity.java:2309    -->
+    <!-- Used in file activity_jtip2.xml:170    -->
+    <string name="jtip_calibrate">Calibrate</string>
+    <!-- Used in file JTipActivity.java:2311    -->
     <string name="button_xy_direction">XY</string>
-    <!-- Used in file JTipActivity.java:2384    -->
+    <!-- Used in file JTipActivity.java:2386    -->
     <string name="source_s1_plus_s2">Both sensors - (S1+S2)/2</string>
+    <!-- Used in file activity_find_smarttip.xml:16    -->
+    <string name="text_select_smarttip_1">Turn on your J-Tip device. Activate Bluetooth by double click power button on J-Tip. Flashing red LED means ready to be paired.</string>
     <!-- Used in file find_jtip.xml:7    -->
     <string name="refresh_jtip">Refresh</string>
+    <!-- Used in file activity_jtip2.xml:115    -->
+    <string name="sensivity_medium">Medium</string>
     <!-- Used in file activity_jtip.xml:269    -->
     <string name="string_0_value">0 Value</string>
     <!-- Used in file jtip.xml:9    -->
     <string name="button_auto_manual">Auto\\Manual</string>
+    <!-- Used in file jtip2.xml:51    -->
+    <string name="new_sound_algorithm">New Sound Algorithm</string>
+    <!-- Used in file activity_jtip2.xml:122    -->
+    <string name="sensivity_low">Low</string>
+    <!-- Used in file activity_jtip2.xml:130    -->
+    <string name="string_sensitivity">Sensitivity</string>
+    <!-- Used in file jtip2.xml:63    -->
+    <string name="menu_single">Single Meas.</string>
     <!-- Used in file activity_jtip.xml:72    -->
     <string name="button_auto_range">Auto Range</string>
+    <!-- UNUSED STRING 
+    <string name="bluetooth_not_supported">Bluetooth is not supported!</string>
+    -->
 
 </resources>

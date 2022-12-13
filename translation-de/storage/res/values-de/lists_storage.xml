@@ -4,8 +4,8 @@
     <!-- Used in file activity_job.xml:162 -->
     <string-array name="measure_units_array">
          <item>Meters</item>
-         <item>US-Füße</item>
-         <item>Int.Füße</item>
+         <item>US-Fuß</item>
+         <item>Int.Fuß</item>
     </string-array>
 
     <!-- Used in file activity_code_values.xml:20 -->
@@ -17,11 +17,15 @@
     </string-array>
 
     <!-- Used in file activity_ts_point_antenna.xml:36 -->
+    <!-- Used in file ts_survey_settings.xml:61 -->
     <string-array name="ts_mark_types_array">
-         <item>QR-code</item>
-         <item>Zebra-Pole</item>
-         <item>Reflektorlos</item>
-         <item>Prisma</item>
+        <item>Prism</item>
+        <item>Reflectorless</item>
+    </string-array>
+
+    <string-array name="jmate_mark_types_array">
+        <item>Code-Mark</item>
+        <item>Zebra-Pole</item>
     </string-array>
 
     <!-- Used in file activity_design_point.xml:166 -->

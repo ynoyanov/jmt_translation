@@ -107,11 +107,11 @@
     <string name="string_wrong_rcv_client_port_">Falscher RCV Client Port!</string>
     <!--  Used in file PowerActivity.java:160. Original value:Charging mode is set to   -->
     <string name="string_charging_mode_is_set_to_">Lademodus ist eingestellt auf </string>
-    <!--  Used in file SurveyingRTK.java:3093. Original value:View/Edit  -->
+    <!--  Used in file SurveyingRTK.java:3076. Original value:View/Edit  -->
     <string name="string_view_edit">Anzeigen/Bearbeiten</string>
     <!--  Used in file CorrectionsActivity.java:558. Original value:(Error:%s)  -->
     <string name="string__error__s_">(Fehler:%s)</string>
-    <!--  Used in file SurveyingRTK.java:3217. Original value:Can\'t convert coordinate to WGS84!  -->
+    <!--  Used in file SurveyingRTK.java:3200. Original value:Can\'t convert coordinate to WGS84!  -->
     <string name="string_can_t_convert_coordinate_to_wgs84_">Kann Koordinate nicht in WGS84 umrechnen!</string>
     <!--  Used in file CorrectionsActivity.java:293. Original value:PPP status  -->
     <string name="string_ppp_status">PPP-Status</string>
@@ -197,7 +197,7 @@
     <string name="string_connected_to____s">Verbunden mit : %s</string>
     <!--  Used in file RTKBaseSettingsFragment.java:1570. Original value:GSM radio error! (%s)  -->
     <string name="string_gsm_radio_error____s_">GSM-Funkfehler! (%s)</string>
-    <!--  Used in file SurveyingRTK.java:2360. Original value:Dist.  -->
+    <!--  Used in file SurveyingRTK.java:2343. Original value:Dist.  -->
     <string name="string_dist_">Dist.</string>
     <!--  Used in file RTKBaseSettingsFragment.java:784. Original value:Base Station:   -->
     <string name="string_base_station__">Basisstation: </string>
@@ -275,7 +275,7 @@
     <string name="string_survey_completed___1_s__2_s_created_">Vermessung abgeschlossen! %1$s %2$s erstellt.</string>
     <!--  Used in file StartStationResectionActivity.java:1485. Original value:%d BS Point  -->
     <string name="string__d_bs_point">%d BS Punkt</string>
-    <!--  Used in file SurveyingRTK.java:1709. Original value:Do you want to save point and raw file?  -->
+    <!--  Used in file SurveyingRTK.java:1710. Original value:Do you want to save point and raw file?  -->
     <string name="string_do_you_want_to_save_point_and_raw_file_">Möchten Sie Punkt und Rohdatei speichern?</string>
     <!--  Used in file NMEAActivity.java:73. Original value:NMEA messages is disabled  -->
     <string name="string_nmea_messages_is_disabled">NMEA messages is disabled</string>
@@ -339,7 +339,7 @@
     <string name="string_can_t_turn_off_gal_tracking_">Kann GAL-Tracking nicht abschalten!</string>
     <!--  Used in file ReceiverInfoActivity.java:41. Original value:Receiver  -->
     <string name="string_receiver">Empfänger</string>
-    <!--  Used in file SurveyingRTK.java:2361. Original value:Angle  -->
+    <!--  Used in file SurveyingRTK.java:2344. Original value:Angle  -->
     <string name="string_angle">Winkel</string>
     <!--  Used in file SurveyModel.java:1842. Original value:RTK Base %s is working&#8230;  -->
     <string name="string_rtk_base__s_is_working___">RTK-Basis %s funktioniert&#8230;</string>
@@ -365,7 +365,7 @@
     <string name="string_with_rcv__tcp_">mit RCV (TCP)</string>
     <!--  Used in file RTKBaseSettingsFragment.java:2539. Original value:Finish  -->
     <string name="string_finish">Fertigstellen</string>
-    <!--  Used in file SurveyingRTK.java:3127. Original value:Surveyed Points  -->
+    <!--  Used in file SurveyingRTK.java:3110. Original value:Surveyed Points  -->
     <string name="string_surveyed_points">Vermessene Punkte</string>
     <!--  Used in file CorrectionSources.java:625. Original value:%1$s %2$dbs FEC:%3$s Scr:%4$s  -->
     <string name="string__1_s__2_dbs_fec__3_s_scr__4_s">%1$s %2$dbs FEC:%3$s Scr:%4$s</string>
@@ -393,7 +393,7 @@
     <string name="string_received_lost">Empfangen/Verloren</string>
     <!--  Used in file RTKBaseSettingsFragment.java:1901. Original value:Reset receiver&#8230;  -->
     <string name="string_reset_receiver___">Empfänger zurücksetzen&#8230;</string>
-    <!--  Used in file SurveyingRTK.java:1186. Original value:Edit last surveyed point %s  -->
+    <!--  Used in file SurveyingRTK.java:1187. Original value:Edit last surveyed point %s  -->
     <string name="string_edit_last_surveyed_point__s">Zuletzt vermessenen Punkt %s bearbeiten</string>
     <!--  Used in file BaseSurveyStakeoutFromActivity.java:1415. Original value:Set ENU  -->
     <string name="string_set_enu">ENU setzen</string>
@@ -401,7 +401,7 @@
     <string name="string_this_sv_is_excluded_from_position_computation_by_the_user">Dieser SV wird vom Anwender von der Positionsberechnung ausgeschlossen</string>
     <!--  Used in file RTKRoverSetup.java:742. Original value:Starting radio&#8230;  -->
     <string name="string_starting_radio___">Funk starten&#8230;</string>
-    <!--  Used in file SurveyingRTK.java:3095. Original value:Create Route  -->
+    <!--  Used in file SurveyingRTK.java:3078. Original value:Create Route  -->
     <string name="string_create_route">Route erstellen</string>
     <!--  Used in file RTKRoverSetup.java:198. Original value:Setup RTK computation mode error  -->
     <string name="string_setup_rtk_computation_mode_error">RTK-Berechnungsmodus einrichten Fehler</string>
@@ -417,9 +417,9 @@
     <string name="string_check_oaf_for_port_">Check OAF for port.</string>
     <!--  Used in file ConfigureCorrectionStyleBaseActivity.java:533. Original value:MORE CORRECTIONS &gt;&gt;  -->
     <string name="string_more_corrections___">MEHR KORREKTUREN &gt;&gt;</string>
-    <!--  Used in file SurveyingRTK.java:3088. Original value:What to do with point %1$s?  -->
+    <!--  Used in file SurveyingRTK.java:3071. Original value:What to do with point %1$s?  -->
     <string name="string_what_to_do_with_point__1_s_">Was ist mit Punkt %1$s zu tun?</string>
-    <!--  Used in file SurveyingRTK.java:1189. Original value:Edit last surveyed trajectory %s  -->
+    <!--  Used in file SurveyingRTK.java:1190. Original value:Edit last surveyed trajectory %s  -->
     <string name="string_edit_last_surveyed_trajectory__s">Letzte vermessene Trajektorie %s bearbeiten</string>
     <!--  Used in file MapStakeoutActivity.java:461. Original value:MapProvider  -->
     <string name="string_mapprovider">MapProvider</string>
@@ -441,7 +441,7 @@
     <string name="string_p_l1_and_l2c_measurements_are_used_in_rtk_processing">P/L1- und L2C-Messungen werden in der RTK-Verarbeitung verwendet</string>
     <!--  Used in file CorrectionsActivity.java:166. Original value:connected  -->
     <string name="string_connected">angeschlossen</string>
-    <!--  Used in file SurveyingRTK.java:1602. Original value:Survey is starting&#8230;  -->
+    <!--  Used in file SurveyingRTK.java:1603. Original value:Survey is starting&#8230;  -->
     <string name="string_survey_is_starting___">Vermessung wird gestartet&#8230;</string>
     <!--  Used in file SourceTableActivity2.java:214. Original value:mount points  -->
     <string name="string_mount_points">Punkte montieren</string>
@@ -485,7 +485,7 @@
     <string name="string_wrong_frequecy_">Falsche Frequenz!</string>
     <!--  Used in file ConfigureWiFiActivity.java:367. Original value:Can\'t setup WiFi WPA password  -->
     <string name="string_can_t_setup_wifi_wpa_password">WiFi-WPA-Passwort kann nicht eingerichtet werden</string>
-    <!--  Used in file SurveyingRTK.java:3194. Original value:Can\'t convert coordinate to CWS!  -->
+    <!--  Used in file SurveyingRTK.java:3177. Original value:Can\'t convert coordinate to CWS!  -->
     <string name="string_can_t_convert_coordinate_to_cws_">Kann Koordinate nicht in CWS konvertieren!</string>
     <!--  Used in file SurveyModel.java:1180. Original value:Moving  -->
     <string name="string_moving">Bewegt sich</string>
@@ -507,7 +507,7 @@
     <string name="string__id__d_">(id:%d)</string>
     <!--  Used in file MapHandler.java:379. Original value:Catalog Points  -->
     <string name="string_catalog_points">Katalog Punkte</string>
-    <!--  Used in file SurveyingRTK.java:2700. Original value:Distance1 is empty!  -->
+    <!--  Used in file SurveyingRTK.java:2683. Original value:Distance1 is empty!  -->
     <string name="string_distance1_is_empty_">Entfernung1 ist leer!</string>
     <!--  Used in file CalibrationActivity.java:475. Original value:Calibration matrix is  -->
     <string name="string_calibration_matrix_is">Kalibrierungsmatrix ist</string>
@@ -541,7 +541,7 @@
     <string name="string_no_velocity">Keine Geschwindigkeit</string>
     <!--  Used in file SatellitesActivity.java:650. Original value:Ghost  -->
     <string name="string_ghost">Geist</string>
-    <!--  Used in file SurveyingRTK.java:1682. Original value:Survey is stopping&#8230;  -->
+    <!--  Used in file SurveyingRTK.java:1683. Original value:Survey is stopping&#8230;  -->
     <string name="string_survey_is_stopping___">Vermessung stoppt&#8230;</string>
     <!--  Used in file SatellitesActivity.java:636. Original value:Time-Frequency parameters from the ephemeris data set may be wrong  -->
     <string name="string_time_frequency_parameters_from_the_ephemeris_data_set_may_be_wrong">Zeit-Frequenz-Parameter aus dem Ephemeriden-Datensatz können falsch sein</string>
@@ -571,7 +571,7 @@
     <string name="string_can_t_start_log_to_receiver_">Kann Log zum Empfänger nicht starten!</string>
     <!--  Used in file CorrectionSources.java:599. Original value:Simplex pars.  -->
     <string name="string_simplex_pars_">Simplex pars.</string>
-    <!--  Used in file SurveyingRTK.java:2974. Original value:Can\'t stop receiver file!  -->
+    <!--  Used in file SurveyingRTK.java:2957. Original value:Can\'t stop receiver file!  -->
     <string name="string_can_t_stop_receiver_file_">Kann Empfängerdatei nicht stoppen!</string>
     <!--  Used in file RTKSetupActivity.java:1135. Original value:Receiver file name empty!  -->
     <string name="string_receiver_file_name_empty_">Empfänger Dateiname leer!</string>
@@ -717,13 +717,13 @@
     <string name="string_2hz">2Hz</string>
     <!--  Used in file RCVBaseStaticIPPreferenceFragment.java:515. Original value:Wrong TPC IP Port!  -->
     <string name="string_wrong_tpc_ip_port_">Falscher TPC IP Port!</string>
-    <!--  Used in file SurveyingRTK.java:3129. Original value:TS Points  -->
+    <!--  Used in file SurveyingRTK.java:3112. Original value:TS Points  -->
     <string name="string_ts_points">TS Punkte</string>
     <!--  Used in file JCorsActivity.java:171. Original value:Message Group is not selected!  -->
     <string name="string_message_group_is_not_selected_">Nachrichtengruppe ist nicht ausgewählt!</string>
-    <!--  Used in file SurveyingRTK.java:2551. Original value:Can\'t store position  -->
+    <!--  Used in file SurveyingRTK.java:2534. Original value:Can\'t store position  -->
     <string name="string_can_t_store_position">Kann Position nicht speichern</string>
-    <!--  Used in file SurveyingRTK.java:1192. Original value:Edit last TS point %s  -->
+    <!--  Used in file SurveyingRTK.java:1193. Original value:Edit last TS point %s  -->
     <string name="string_edit_last_ts_point__s">Letzten TS-Punkt %s bearbeiten</string>
     <!--  Used in file SatellitesActivity.java:664. Original value:P L1 slot is used in RTK processing  -->
     <string name="string_p_l1_slot_is_used_in_rtk_processing">P L1-Slot wird in der RTK-Verarbeitung verwendet</string>
@@ -789,13 +789,13 @@
     <string name="string_stop">Stopp</string>
     <!--  Used in file StartSurveyActivity.java:676. Original value:Confirm and start  -->
     <string name="string_confirm_and_start">Bestätigen und starten</string>
-    <!--  Used in file SurveyingRTK.java:2672. Original value:Can\'t compute coordinates!  -->
+    <!--  Used in file SurveyingRTK.java:2655. Original value:Can\'t compute coordinates!  -->
     <string name="string_can_t_compute_coordinates_">Kann keine Koordinaten berechnen!</string>
     <!--  Used in file SatelliteTypesActivity.java:595. Original value:Can\'t change L1 center frequency!  -->
     <string name="string_can_t_change_l1_center_frequency_">Kann L1-Mittenfrequenz nicht ändern!</string>
     <!--  Used in file ReceiverInfoPreferenceFragment.java:97. Original value:%1$dminutes %2$dseconds  -->
     <string name="string__1_dminutes__2_dseconds">%1$dMinuten %2$dSekunden</string>
-    <!--  Used in file SurveyingRTK.java:3165. Original value:Wrong selected position!  -->
+    <!--  Used in file SurveyingRTK.java:3148. Original value:Wrong selected position!  -->
     <string name="string_wrong_selected_position_">Falsche Position gewählt!</string>
     <!--  Used in file RTKRoverSetup.java:189. Original value:Setup Rcv client error  -->
     <string name="string_setup_rcv_client_error">Setup Rcv-Client-Fehler</string>
@@ -913,7 +913,7 @@
     <string name="string_ntrip_server_">Ntrip-Server:</string>
     <!--  Used in file PowerActivity.java:83. Original value:Receiver is turned to sleep mode  -->
     <string name="string_receiver_is_turned_to_sleep_mode">Empfänger ist in den Schlafmodus geschaltet</string>
-    <!--  Used in file SurveyingRTK.java:1806. Original value:IMU Error  -->
+    <!--  Used in file SurveyingRTK.java:1807. Original value:IMU Error  -->
     <string name="string_imu_error">IMU-Fehler</string>
     <!--  Used in file BaseSurveyStakeoutFromActivity.java:676. Original value:Fast Traj.  -->
     <string name="string_fast_traj_">Schnelles Traj.</string>
@@ -995,7 +995,7 @@
     <string name="string_satellite_navigation_status_is_undefined">Satellitennavigationsstatus ist undefiniert</string>
     <!--  Used in file DebugActivity.java:499. Original value:Can\'t stop corrections into receiver file!  -->
     <string name="string_can_t_stop_corrections_into_receiver_file_">Kann Korrekturen in Empfängerdatei nicht stoppen!</string>
-    <!--  Used in file SurveyingRTK.java:3097. Original value:Close  -->
+    <!--  Used in file SurveyingRTK.java:3080. Original value:Close  -->
     <string name="string_close">Schließen</string>
     <!--  Used in file PowerActivity.java:71. Original value:Power off failed  -->
     <string name="string_power_off_failed">Ausschalten fehlgeschlagen</string>
@@ -1043,13 +1043,13 @@
     <string name="string_close_file">Datei schließen</string>
     <!--  Used in file CalibrationActivity.java:545. Original value:Calibration error!  -->
     <string name="string_calibration_error_">Kalibrierungsfehler!</string>
-    <!--  Used in file SurveyingRTK.java:2049. Original value:Overwrite %s  -->
+    <!--  Used in file SurveyingRTK.java:2050. Original value:Overwrite %s  -->
     <string name="string_overwrite__s">Überschreiben Sie %s</string>
     <!--  Used in file DrawWhiteBox.java:272. Original value:Antenna Height  -->
     <string name="string_antenna_height">Antenne Höhe</string>
     <!--  Used in file ConfigureCorrectionStyleBaseActivity.java:265. Original value:Error in settings  -->
     <string name="string_error_in_settings">Fehler in den Einstellungen</string>
-    <!--  Used in file SurveyingRTK.java:2352. Original value:Along  -->
+    <!--  Used in file SurveyingRTK.java:2335. Original value:Along  -->
     <string name="string_along">Entlang</string>
     <!--  Used in file RTKSetupActivity.java:1421. Original value:Lock Correction source from modification by password  -->
     <string name="string_lock_correction_source_from_modification_by_password">Korrekturquelle vor Änderung durch Passwort sperren</string>
@@ -1101,7 +1101,7 @@
     <string name="string_temperature">Temperatur</string>
     <!--  Used in file ConfigureCorrectionStyleBaseActivity.java:215. Original value:Can not delete correction source %1$s \n( file %2$s )  -->
     <string name="string_can_not_delete_correction_source__1_s__n__file__2_s__">Kann Korrekturquelle %1$s \n( Datei %2$s ) nicht löschen</string>
-    <!--  Used in file SurveyingRTK.java:1768. Original value:Save RTK  -->
+    <!--  Used in file SurveyingRTK.java:1769. Original value:Save RTK  -->
     <string name="string_save_rtk">Save RTK</string>
     <!--  Used in file SurveyModel.java:1923. Original value:1hour %02dmins  -->
     <string name="string_1hour__02dmins">1Stunde %02dmins</string>
@@ -1141,7 +1141,7 @@
     <string name="string_corr_rate_">Korr.Rate=</string>
     <!--  Used in file SurveySettingsPreferenceFragment.java:378. Original value:0.5 sec (2Hz)  -->
     <string name="string_0_5_sec__2hz_">0,5 sec (2Hz)</string>
-    <!--  Used in file SurveyingRTK.java:2624. Original value:Can\'t convert coordinate!  -->
+    <!--  Used in file SurveyingRTK.java:2607. Original value:Can\'t convert coordinate!  -->
     <string name="string_can_t_convert_coordinate_">Kann die Koordinate nicht konvertieren!</string>
     <!--  Used in file RTKSetupActivity.java:853. Original value:No file logging  -->
     <string name="string_no_file_logging">Keine Dateiprotokollierung</string>
@@ -1203,11 +1203,11 @@
     <string name="string_collect_ntime">Zeit sammeln</string>
     <!--  Used in file CorrectionSources.java:870. Original value:new Generic radio  -->
     <string name="string_new_generic_radio">neues generisches Funkgerät</string>
-    <!--  Used in file SurveyingRTK.java:2050. Original value:Average with %s  -->
+    <!--  Used in file SurveyingRTK.java:2051. Original value:Average with %s  -->
     <string name="string_average_with__s">Durchschnitt mit %s</string>
     <!--  Used in file RTKRoverSetup.java:196. Original value:Radio setup error  -->
     <string name="string_radio_setup_error">Radio-Setup-Fehler</string>
-    <!--  Used in file SurveyingRTK.java:1749. Original value:Save interm.result  -->
+    <!--  Used in file SurveyingRTK.java:1750. Original value:Save interm.result  -->
     <string name="string_save_interm_result">Interm.Ergebnis speichern</string>
     <!--  Used in file DebugActivity.java:497. Original value:Can\'t stop receiver log!  -->
     <string name="string_can_t_stop_receiver_log_">Kann das Empfängerprotokoll nicht stoppen!</string>
@@ -1219,9 +1219,9 @@
     <string name="string_view_style">Ansicht Stil</string>
     <!--  Used in file ConfigureNtripActivity.java:641. Original value:Empty configuration name!  -->
     <string name="string_empty_configuration_name_">Leerer Konfigurationsname!</string>
-    <!--  Used in file SurveyingRTK.java:1748. Original value:Do you want to save point?  -->
+    <!--  Used in file SurveyingRTK.java:1749. Original value:Do you want to save point?  -->
     <string name="string_do_you_want_to_save_point_">Möchten Sie den Punkt speichern?</string>
-    <!--  Used in file SurveyingRTK.java:3096. Original value:Delete  -->
+    <!--  Used in file SurveyingRTK.java:3079. Original value:Delete  -->
     <string name="string_delete">löschen.</string>
     <!--  Used in file SatellitesActivity.java:666. Original value:P/L1 and P/L2 measurements are used in RTK processing  -->
     <string name="string_p_l1_and_p_l2_measurements_are_used_in_rtk_processing">P/L1- und P/L2-Messungen werden in der RTK-Verarbeitung verwendet</string>
@@ -1285,7 +1285,7 @@
     <string name="string_all">Alle</string>
     <!--  Used in file DrawWhiteBox.java:2257. Original value:Int.FH  -->
     <string name="string_int_fh">Int.FH</string>
-    <!--  Used in file SurveyingRTK.java:2051. Original value:Compare with %s  -->
+    <!--  Used in file SurveyingRTK.java:2052. Original value:Compare with %s  -->
     <string name="string_compare_with__s">Vergleich mit %s</string>
     <!--  Used in file DrawWhiteBox.java:271. Original value:Antenna  -->
     <string name="string_antenna">Antenne</string>
@@ -1307,7 +1307,7 @@
     <string name="string_er_">er:</string>
     <!--  Used in file V6EngineSignalsActivity.java:54. Original value:Signal Priorietis for Engine %d  -->
     <string name="string_signal_priorietis_for_engine__d">Signal Priorietis für Motor %d</string>
-    <!--  Used in file SurveyingRTK.java:1483. Original value:Offset  -->
+    <!--  Used in file SurveyingRTK.java:1484. Original value:Offset  -->
     <string name="string_offset">Versatz</string>
     <!--  Used in file SurveyModel.java:1792. Original value:slant  -->
     <string name="string_slant">Schräglage</string>
@@ -1319,21 +1319,21 @@
     <string name="string_epochs">Epochen</string>
     <!--  Used in file PowerActivity.java:233. Original value:Charger  -->
     <string name="string_charger">Ladegerät</string>
-    <!--  Used in file SurveyingRTK.java:1720. Original value:Remove PP  -->
+    <!--  Used in file SurveyingRTK.java:1721. Original value:Remove PP  -->
     <string name="string_remove_pp">PP entfernen</string>
-    <!--  Used in file SurveyingRTK.java:1212. Original value:%s has removed!  -->
+    <!--  Used in file SurveyingRTK.java:1213. Original value:%s has removed!  -->
     <string name="string__s_has_removed_">%s hat entfernt!</string>
     <!--  Used in file StartSurveyActivity.java:729. Original value:Starting survey&#8230;  -->
-    <string name="string_starting_survey___">Umfrage starten&#8230;</string>
+    <string name="string_starting_survey___">Messen starten&#8230;</string>
     <!--  Used in file CorrectionSources.java:872. Original value:new NetHub Base  -->
     <string name="string_new_nethub_base">neue NetHub Basis</string>
-    <!--  Used in file SurveyingRTK.java:2353. Original value:Across  -->
+    <!--  Used in file SurveyingRTK.java:2336. Original value:Across  -->
     <string name="string_across">Über</string>
     <!--  Used in file StartStationResectionActivity.java:812. Original value:Rotation = %1$s\nBS Angle = %2$s\nBS Angle Error = %3$s  -->
     <string name="string_rotation____1_s_nbs_angle____2_s_nbs_angle_error____3_s">Drehung = %1$s\nBS Winkel = %2$s\nBS Winkelfehler = %3$s</string>
-    <!--  Used in file SurveyingRTK.java:1767. Original value:Do you want to save RTK only coordinate?  -->
+    <!--  Used in file SurveyingRTK.java:1768. Original value:Do you want to save RTK only coordinate?  -->
     <string name="string_do_you_want_to_save_rtk_only_coordinate_">Do you want to save RTK only coordinate?</string>
-    <!--  Used in file SurveyingRTK.java:2568. Original value:Point %s has been created  -->
+    <!--  Used in file SurveyingRTK.java:2551. Original value:Point %s has been created  -->
     <string name="string_point__s_has_been_created">Punkt %s ist erstellt worden</string>
     <!--  Used in file SurveyingActivity.java:95. Original value:%.0fHz  -->
     <string name="string___0fhz">%.0fHz</string>
@@ -1389,13 +1389,13 @@
     <string name="string_server">Server</string>
     <!--  Used in file RTKBaseSettingsFragment.java:1059. Original value:Internet via Android  -->
     <string name="string_internet_via_android">Internet über Android</string>
-    <!--  Used in file SurveyingRTK.java:3131. Original value:RTKBase Points  -->
+    <!--  Used in file SurveyingRTK.java:3114. Original value:RTKBase Points  -->
     <string name="string_rtkbase_points">RTKBase Punkte</string>
     <!--  Used in file DrawHybridRTK.java:87. Original value:%dh   -->
     <string name="string__dh_">%dh </string>
     <!--  Used in file SatelliteTypesActivity.java:275. Original value:Can\'t turn on GLO tracking!  -->
     <string name="string_can_t_turn_on_glo_tracking_">Kann GLO-Tracking nicht einschalten!</string>
-    <!--  Used in file SurveyingRTK.java:2588. Original value:Temporary point P2 is not surveyed yet!  -->
+    <!--  Used in file SurveyingRTK.java:2571. Original value:Temporary point P2 is not surveyed yet!  -->
     <string name="string_temporary_point_p2_is_not_surveyed_yet_">Temporärer Punkt P2 ist noch nicht vermessen!</string>
     <!--  Used in file MapToolsFragment.java:1352. Original value:Along:  -->
     <string name="string_along_">Entlang:</string>
@@ -1423,9 +1423,9 @@
     <string name="string_rover_movement_has_detected__what_to_do_">Rover-Bewegung wurde erkannt! Was ist zu tun?</string>
     <!--  Used in file RTKBaseSettingsFragment.java:1797. Original value:Ntrip Server error!  -->
     <string name="string_ntrip_server_error_">Ntrip Server Fehler!</string>
-    <!--  Used in file SurveyingRTK.java:2357. Original value:Distance1  -->
+    <!--  Used in file SurveyingRTK.java:2340. Original value:Distance1  -->
     <string name="string_distance1">Entfernung1</string>
-    <!--  Used in file SurveyingRTK.java:2358. Original value:Distance2  -->
+    <!--  Used in file SurveyingRTK.java:2341. Original value:Distance2  -->
     <string name="string_distance2">Entfernung2</string>
     <!--  Used in file SatellitesActivity.java:655. Original value:Ionospheric corrections are not received from base  -->
     <string name="string_ionospheric_corrections_are_not_received_from_base">Ionosphärenkorrekturen werden nicht von der Basis empfangen</string>
@@ -1443,7 +1443,7 @@
     <string name="string_disabled_when_auto_count_is_on">Disabled when auto_count is on</string>
     <!--  Used in file SurveyModel.java:1214. Original value:Pole end moved  -->
     <string name="string_pole_end_moved">Polende verschoben</string>
-    <!--  Used in file SurveyingRTK.java:2677. Original value:Can\'t convert coordinates to WGS84!  -->
+    <!--  Used in file SurveyingRTK.java:2660. Original value:Can\'t convert coordinates to WGS84!  -->
     <string name="string_can_t_convert_coordinates_to_wgs84_">Kann Koordinaten nicht nach WGS84 konvertieren!</string>
     <!--  Used in file SurveyModel.java:1212. Original value:Unable to minimize  -->
     <string name="string_unable_to_minimize">Kann nicht minimieren</string>
@@ -1457,7 +1457,7 @@
     <string name="string_survey_points">Vermessungspunkte</string>
     <!--  Used in file CorrectionsActivity.java:352. Original value:ARP  -->
     <string name="string_arp">ARP</string>
-    <!--  Used in file SurveyingRTK.java:1214. Original value:Can\'t delete last surveyed object!  -->
+    <!--  Used in file SurveyingRTK.java:1215. Original value:Can\'t delete last surveyed object!  -->
     <string name="string_can_t_delete_last_surveyed_object_">Kann letztes vermessenes Objekt nicht löschen!</string>
     <!--  Used in file ReceiverInfoActivity.java:74. Original value:Log file created OK  -->
     <string name="string_log_file_created_ok">Logdatei erstellt OK</string>
@@ -1471,7 +1471,7 @@
     <string name="string_wrong_msint">Falsche msint</string>
     <!--  Used in file CalibrationActivity.java:783. Original value:Calibrate anyway  -->
     <string name="string_calibrate_anyway">Calibrate anyway</string>
-    <!--  Used in file SurveyingRTK.java:2603. Original value:Angle is empty!  -->
+    <!--  Used in file SurveyingRTK.java:2586. Original value:Angle is empty!  -->
     <string name="string_angle_is_empty_">Winkel ist leer!</string>
     <!--  Used in file SurveyModel.java:1878. Original value:Static %1$s logging to file %2$s is in progress!\n%3$s overwriting!  -->
     <string name="string_static__1_s_logging_to_file__2_s_is_in_progress__n_3_s_overwriting_">Statische %1$s Aufzeichnung in Datei %2$s läuft!\n%3$s Überschreiben!</string>
@@ -1485,9 +1485,9 @@
     <string name="string_port_input_mode_setup_error_">Port input mode setup error.</string>
     <!--  Used in file RTKRoverSetup.java:848. Original value:Stopping RTK&#8230;  -->
     <string name="string_stopping_rtk___">RTK stoppen&#8230;</string>
-    <!--  Used in file SurveyingRTK.java:2357. Original value:Dist.1  -->
+    <!--  Used in file SurveyingRTK.java:2340. Original value:Dist.1  -->
     <string name="string_dist_1">Strecke.1</string>
-    <!--  Used in file SurveyingRTK.java:2358. Original value:Dist.2  -->
+    <!--  Used in file SurveyingRTK.java:2341. Original value:Dist.2  -->
     <string name="string_dist_2">Dist.2</string>
     <!--  Used in file CorrectionSources.java:223. Original value:Power:%1$.3fW(%2$ddBm)  -->
     <string name="string_power__1__3fw__2_ddbm_">Leistung:%1$.3fW(%2$ddBm)</string>
@@ -1501,7 +1501,7 @@
     <string name="string_wrong_ntripserver_address_">Falsche NtripServer-Adresse!</string>
     <!--  Used in file JavadMapActivity.java:443. Original value:Create  -->
     <string name="string_create">erstellen</string>
-    <!--  Used in file SurveyingRTK.java:3125. Original value:Design Points  -->
+    <!--  Used in file SurveyingRTK.java:3108. Original value:Design Points  -->
     <string name="string_design_points">Konstruktionspunkte</string>
     <!--  Used in file CorrectionsActivity.java:254. Original value:New Correction Source  -->
     <string name="string_correction_source">Neue Korrekturquelle</string>
@@ -1605,7 +1605,7 @@
     <string name="string_rtk_computation_nmode">RTK-Berechnung\nModus</string>
     <!--  Used in file SatelliteTypesActivity.java:313. Original value:Can\'t turn on BeiDou tracking!  -->
     <string name="string_can_t_turn_on_beidou_tracking_">Kann die BeiDou-Verfolgung nicht einschalten!</string>
-    <!--  Used in file SurveyingRTK.java:2047. Original value:Rename %1$s to %2$s  -->
+    <!--  Used in file SurveyingRTK.java:2048. Original value:Rename %1$s to %2$s  -->
     <string name="string_rename__1_s_to__2_s">Umbenennen von %1$s in %2$s</string>
     <!--  Used in file CorrectionSources.java:634. Original value:TT450S(HW) pars.  -->
     <string name="string_tt450s_hw__pars_">TT450S(HW) pars.</string>
@@ -1625,7 +1625,7 @@
     <string name="string_file__s_already_exist__do_you_want_to_resume_it_or_use_different_filename_">Datei %s existiert bereits. Möchten Sie sie fortsetzen oder einen anderen Dateinamen verwenden?</string>
     <!--  Used in file JMTInfoPreferenceFragment.java:86. Original value:Javad Mobile Tools for Android  -->
     <string name="string_javad_mobile_tools_for_android">Javad Mobile Tools für Android</string>
-    <!--  Used in file SurveyingRTK.java:1490. Original value:Event  -->
+    <!--  Used in file SurveyingRTK.java:1491. Original value:Event  -->
     <string name="string_event">Ereignis</string>
     <!--  Used in file CalibrationActivity.java:595. Original value:Switch to next side  -->
     <string name="string_switch_to_next_side">Zur nächsten Seite wechseln</string>
@@ -1679,7 +1679,7 @@
     <string name="string_auto">Auto</string>
     <!--  Used in file CoordsPickerDialog.java:53. Original value:Curr.Pos  -->
     <string name="string_curr_pos">Curr.Pos</string>
-    <!--  Used in file SurveyingRTK.java:3094. Original value:Stake  -->
+    <!--  Used in file SurveyingRTK.java:3077. Original value:Stake  -->
     <string name="string_stake">Pfahl</string>
     <!--  Used in file DrawWhiteBox.java:1049. Original value:Manual  -->
     <string name="string_manual">Manuell</string>
@@ -1769,7 +1769,7 @@
     <string name="string_nethub_jcors_">NetHub/JCORS:</string>
     <!--  Used in file DrawWhiteBox.java:288. Original value:Min.Engine\nCount  -->
     <string name="string_min_engine_ncount">Min.Engine\nCount</string>
-    <!--  Used in file SurveyingRTK.java:2585. Original value:Temporary point P1 is not surveyed yet!  -->
+    <!--  Used in file SurveyingRTK.java:2568. Original value:Temporary point P1 is not surveyed yet!  -->
     <string name="string_temporary_point_p1_is_not_surveyed_yet_">Temporärer Punkt P1 ist noch nicht vermessen!</string>
     <!--  Used in file SatellitesActivity.java:674. Original value:P/L1 and L5 slots are used in RTK processing  -->
     <string name="string_p_l1_and_l5_slots_are_used_in_rtk_processing">P/L1 und L5 Slots werden in der RTK-Verarbeitung verwendet</string>
@@ -1819,17 +1819,17 @@
     <string name="string_can_t_reset_remote_surveying_on_ts">Kann Fernvermessung auf TS nicht zurücksetzen</string>
     <!--  Used in file SatellitesActivity.java:649. Original value:No data from reference station are available for given satellite (DGPS mode only)  -->
     <string name="string_no_data_from_reference_station_are_available_for_given_satellite__dgps_mode_only_">Es sind keine Daten von der Referenzstation für den gegebenen Satelliten verfügbar (nur DGPS-Modus)</string>
-    <!--  Used in file SurveyingRTK.java:2048. Original value:Rename manual&#8230;  -->
+    <!--  Used in file SurveyingRTK.java:2049. Original value:Rename manual&#8230;  -->
     <string name="string_rename_manual___">Manuell umbenennen&#8230;</string>
     <!--  Used in file SurveyModel.java:1182. Original value:Ready to count  -->
     <string name="string_ready_to_count">Bereit zum Zählen</string>
     <!--  Used in file SatellitesActivity.java:665. Original value:P L2 slot is used in RTK processing  -->
     <string name="string_p_l2_slot_is_used_in_rtk_processing">P L2-Slot wird in RTK-Verarbeitung verwendet</string>
-    <!--  Used in file SurveyingRTK.java:1710. Original value:Save PP  -->
+    <!--  Used in file SurveyingRTK.java:1711. Original value:Save PP  -->
     <string name="string_save_pp">PP speichern</string>
     <!--  Used in file SurveyStylesActivity.java:155. Original value:Select Style %s  -->
     <string name="string_select_style__s">Stil %s auswählen</string>
-    <!--  Used in file SurveyingRTK.java:1758. Original value:Cancel point  -->
+    <!--  Used in file SurveyingRTK.java:1759. Original value:Cancel point  -->
     <string name="string_cancel_point">Punkt abbrechen</string>
     <!--  Used in file SurveyStylesActivity.java:206. Original value:Style %s doesn\'t exist!  -->
     <string name="string_style__s_doesn_t_exist_">Stil %s existiert nicht!</string>
@@ -1879,8 +1879,8 @@
     <string name="string_cancelled_by_user">Vom Benutzer abgebrochen</string>
     <!--  Used in file CorrectionsActivity.java:274. Original value:RSSI  -->
     <string name="string_rssi">RSSI</string>
-    <!--  Used in file SurveyingRTK.java:2016. Original value:Survey already started!  -->
-    <string name="string_survey_already_started_">Umfrage bereits gestartet!</string>
+    <!--  Used in file SurveyingRTK.java:2017. Original value:Survey already started!  -->
+    <string name="string_survey_already_started_">Messen bereits gestartet!</string>
     <!--  Used in file CorrectionSources.java:408. Original value:Base:  -->
     <string name="string_base_">Basis:</string>
     <!--  Used in file SurveySettingsPreferenceFragment.java:528. Original value:At least %d  -->
@@ -1949,7 +1949,7 @@
     <string name="string_imu_ft">IMU FT</string>
     <!--  Used in file SatelliteTypesActivity.java:185. Original value:Can\'t turn off Gallileo using!  -->
     <string name="string_can_t_turn_off_gallileo_using_">Kann die Verwendung von Gallileo nicht abschalten!</string>
-    <!--  Used in file SurveyingRTK.java:2363. Original value:Distance  -->
+    <!--  Used in file SurveyingRTK.java:2346. Original value:Distance  -->
     <string name="string_distance">Entfernung</string>
     <!--  Used in file ConfigureWiFiActivity.java:362. Original value:Can\'t setup WiFi Gateway  -->
     <string name="string_can_t_setup_wifi_gateway">Kann WiFi-Gateway nicht einrichten</string>
@@ -1963,7 +1963,7 @@
     <string name="string_can_t_turn_off_use_l1c_">Kann nicht abschalten, benutze L1C!</string>
     <!--  Used in file DrawWhiteBox.java:298. Original value:Coordinate\nSystem  -->
     <string name="string_coordinate_nsystem">Koordinaten\nSystem</string>
-    <!--  Used in file SurveyingRTK.java:2603. Original value:Distance2 is empty!  -->
+    <!--  Used in file SurveyingRTK.java:2586. Original value:Distance2 is empty!  -->
     <string name="string_distance2_is_empty_">Abstand2 ist leer!</string>
     <!--  Used in file DrawWhiteBox.java:2288. Original value:Only  -->
     <string name="string_only">Nur</string>
@@ -1983,7 +1983,7 @@
     <string name="string_pdop_nfilter">PDOP\nFilter</string>
     <!--  Used in file NMEAActivity.java:60. Original value:Failed to enable NMEA messages  -->
     <string name="string_failed_to_enable_nmea_messages">Failed to enable NMEA messages</string>
-    <!--  Used in file SurveyingRTK.java:1728. Original value:Save int.result  -->
+    <!--  Used in file SurveyingRTK.java:1729. Original value:Save int.result  -->
     <string name="string_save_int_result">int.Ergebnis speichern</string>
     <!--  Used in file CorrectionsActivity.java:267. Original value:Sent  -->
     <string name="string_sent">Gesendet</string>
@@ -1993,7 +1993,7 @@
     <string name="string_surveying_is_on">Vermessung ist eingeschaltet</string>
     <!--  Used in file SatelliteTypesActivity.java:198. Original value:Can\'t turn off BeiDou using!  -->
     <string name="string_can_t_turn_off_beidou_using_">Kann BeiDou nicht abschalten!</string>
-    <!--  Used in file SurveyingRTK.java:2617. Original value:No coordinate!  -->
+    <!--  Used in file SurveyingRTK.java:2600. Original value:No coordinate!  -->
     <string name="string_no_coordinate_">Keine Koordinate!</string>
     <!--  Used in file MapHandler.java:668. Original value:Create Node Points  -->
     <string name="string_create_node_points">Create Node Points</string>
@@ -2099,7 +2099,7 @@
     <string name="string_cs">CS</string>
     <!--  Used in file RTKBaseSettingsFragment.java:1514. Original value:Can\'t setup UHF radio! (Error=#%s)  -->
     <string name="string_can_t_setup_uhf_radio___error___s_">Kann UHF-Radio nicht einrichten! (Fehler=#%s)</string>
-    <!--  Used in file SurveyingRTK.java:2682. Original value:Can\'t convert coordinates to CWS!  -->
+    <!--  Used in file SurveyingRTK.java:2665. Original value:Can\'t convert coordinates to CWS!  -->
     <string name="string_can_t_convert_coordinates_to_cws_">Kann Koordinaten nicht in CWS konvertieren!</string>
     <!--  Used in file RTKSetupActivity.java:1283. Original value:Duplicate  -->
     <string name="string_duplicate">Doppeltes</string>
@@ -2108,7 +2108,7 @@
     <!--  Used in file ConfigureNtripActivity.java:689. Original value:Setup failed!  -->
     <string name="string_setup_failed_">Setup fehlgeschlagen!</string>
     <!--  Used in file ReceiverInfoPreferenceFragment.java:93. Original value:%1$ddays %2$dhours %3$dminutes  -->
-    <string name="string__1_ddays__2_dhours__3_dminutes">%1$dTage %2$Stunden %3$dMinuten</string>
+    <string name="string__1_ddays__2_dhours__3_dminutes">%1$dTage %2$dStunden %3$dMinuten</string>
     <!--  Used in file SatelliteTypesActivity.java:445. Original value:Can\'t turn off use CA/L2!  -->
     <string name="string_can_t_turn_off_use_ca_l2_">Kann die Verwendung von CA/L2 nicht abschalten!</string>
 

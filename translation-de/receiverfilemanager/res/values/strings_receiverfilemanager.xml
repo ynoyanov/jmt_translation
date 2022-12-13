@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file file_manager.xml:19    -->
+    <string name="action_start_file">Start Log</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:78    -->
+    <string name="check_base_info">Store Base Corrections</string>
     <!-- Used in file activity_actions.xml:12    -->
     <string name="button_download">Download</string>
-    <!-- Used in file file_manager.xml:55    -->
+    <!-- Used in file file_manager.xml:78    -->
     <string name="action_download_hybrid_rtk">Download HybridRTK files</string>
-    <!-- Used in file file_manager.xml:63    -->
+    <!-- Used in file FileLoggingInFileManagerActivity.java:442    -->
+    <string name="wrong_elevation_mask">Wrong elevation mask!</string>
+    <!-- Used in file FileLoggingInFileManagerActivity.java:438    -->
+    <string name="cant_setup_elevation_mask">Can not setup evelation mask!</string>
+    <!-- Used in file FileManagerActivity.java:809    -->
+    <string name="button_share">Share</string>
+    <!-- Used in file FileLoggingInFileManagerActivity.java:434    -->
+    <string name="receiver_is_not_connected">Receiver is not connected!</string>
+    <!-- Used in file file_manager.xml:86    -->
     <string name="action_download_block_size">Download Block Size</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:23    -->
+    <string name="check_logging">Receiver File Logging</string>
     <!-- Used in file activity_block_size.xml:69    -->
     <string name="button_apply">Apply&quot;</string>
     <!-- Used in file activity_file_manager.xml:39    -->
     <string name="button_select">. . .</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:93    -->
+    <string name="button_start_log">Start Log File</string>
     <!-- Used in file activity_block_size.xml:60    -->
     <string name="button_cancel">Cancel</string>
-    <!-- Used in file activity_file_manager.xml:22    -->
+    <!-- Used in file FileManagerActivity.java:206    -->
+    <string name="log_file_stopped_ok">Log file stopped OK</string>
+    <!-- Used in file activity_file_manager.xml:23    -->
     <string name="text_folder">Folder\nto Store:</string>
     <!-- Used in file main.xml:7    -->
     <string name="action_settings">Settings</string>
@@ -25,20 +43,25 @@
     <string name="block_size_description">Block size defines chunk that is used to transfer data between receiver and Android device.\nThe larger block size speeds up download of files.\nSome Bluetooth issue prevent receiver to download bock size more than 256 bytes.\nDefault block isze is 4096 bytes.</string>
     <!-- Used in file activity_file_manager.xml:55    -->
     <string name="search_hint">Search files&#8230;</string>
-    <!-- Used in file file_manager.xml:69    -->
+    <!-- Used in file file_manager.xml:92    -->
     <string name="button_delete_all">Delete All Files</string>
-    <!-- Used in file file_manager.xml:37    -->
+    <!-- Used in file FileManagerActivity.java:208    -->
+    <string name="log_file_stopped_error">Log file stopped with error</string>
+    <!-- Used in file file_manager.xml:60    -->
     <string name="action_show_deleted">Switch to Deleted files</string>
-    <!-- Used in file FileManagerActivity.java:132    -->
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:55    -->
+    <string name="logging_rate">Logging Rate</string>
+    <!-- Used in file FileManagerActivity.java:136    -->
     <string name="action_hide_deleted">Switch back to receiver files</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:85    -->
+    <string name="check_event_format">Write additional antenna height info, including height type and offset</string>
+    <!-- Used in file activity_file_logging_in_file_manager2.xml:64    -->
+    <string name="elevation_mask">Elevation Mask, degs</string>
     <!-- UNUSED STRING 
-    <string name="string_download_of_hybridrtk_is_over_">Download of HybridRTK is over!</string>
+    <string name="warning_survey">Warning</string>
     -->
     <!-- UNUSED STRING 
-    <string name="string_hybridrtk_download">HybridRTK download</string>
-    -->
-    <!-- UNUSED STRING 
-    <string name="string_switch_to_process">Switch to Process</string>
+    <string name="action_stop_file">Stop Log</string>
     -->
 
 </resources>

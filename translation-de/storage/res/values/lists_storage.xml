@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Used in file activity_project_settings.xml:638 -->
+    <string-array name="increment_point_ids_array">
+         <item>Ascending</item>
+         <item>Discending</item>
+    </string-array>
+
     <!-- Used in file activity_job.xml:162 -->
     <string-array name="measure_units_array">
          <item>Meters</item>
          <item>US Feet</item>
          <item>Int.Feet</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:656 -->
+    <string-array name="precision_array">
+         <item>0</item>
+         <item>0.0</item>
+         <item>0.00</item>
+         <item>0.000</item>
+         <item>0.0000</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:453 -->
+    <string-array name="vertical_observation_display_array">
+         <item>Zenith Angle</item>
+         <item>Elevation Angle</item>
     </string-array>
 
     <!-- Used in file activity_code_values.xml:20 -->
@@ -16,12 +37,82 @@
          <item>sort by Usage</item>
     </string-array>
 
+    <!-- Used in file activity_project_settings.xml:390 -->
+    <string-array name="coordinate_order_array">
+         <item>North, East</item>
+         <item>East, North</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:330 -->
+    <string-array name="date_array">
+         <item>MM / DD / YYYY</item>
+         <item>DD / MM / YYYY</item>
+         <item>YYYY / MM / DD</item>
+    </string-array>
+
     <!-- Used in file activity_ts_point_antenna.xml:36 -->
     <string-array name="ts_mark_types_array">
-         <item>QR-code</item>
-         <item>Zebra-Pole</item>
-         <item>Reflectorless</item>
          <item>Prism</item>
+         <item>Reflectorless</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:411 -->
+    <string-array name="angle_entry_array">
+         <item>Azimuth</item>
+         <item>Direction</item>
+         <item>Rumb</item>
+    </string-array>
+
+    <!-- Used in file activity_code.xml:195 -->
+    <string-array name="code_type_array">
+         <item>String</item>
+         <item>Integer</item>
+         <item>Number</item>
+         <item>List</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:310 -->
+    <string-array name="time_array">
+         <item>Local</item>
+         <item>UTC</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:270 -->
+    <string-array name="angles_array">
+         <item>Decimal Degrees</item>
+         <item>DDMMSS.SSS</item>
+         <item>DDMM.MMMM</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:474 -->
+    <string-array name="distance_observation_display_array">
+         <item>Slope</item>
+         <item>Horizontal</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:495 -->
+    <string-array name="slope_entry_and_display_array">
+         <item>Percent</item>
+         <item>Promile</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:432 -->
+    <string-array name="horizontal_observation_display_array">
+         <item>Angle Right</item>
+         <item>Angle Left</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:516 -->
+    <string-array name="station_display_array">
+         <item>+0.00</item>
+         <item>+00.000</item>
+         <item>+000.0000</item>
+    </string-array>
+
+    <!-- Used in file activity_project_settings.xml:176 -->
+    <string-array name="cutsheet_array">
+         <item>Manual</item>
+         <item>Automatic</item>
     </string-array>
 
     <!-- Used in file activity_design_point.xml:166 -->
@@ -30,12 +121,23 @@
          <item>Local</item>
     </string-array>
 
-    <!-- Used in file activity_code.xml:193 -->
-    <string-array name="code_type_array">
-         <item>String</item>
-         <item>Integer</item>
-         <item>Number</item>
-         <item>List</item>
+    <!-- Used in file activity_project_settings.xml:351 -->
+    <string-array name="latlong_array">
+         <item>D, M, S</item>
+         <item>DDMMSS.SSS</item>
+         <item>DDMM.MMMM</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="jmate_mark_types_array">
+         <item>Code-Mark</item>
+         <item>Zebra-Pole</item>
+    </string-array>
+
+    <!-- UNUSED ARRAY OF STRINGS -->
+    <string-array name="zero_azimuth_array">
+         <item>North</item>
+         <item>South</item>
     </string-array>
 
 

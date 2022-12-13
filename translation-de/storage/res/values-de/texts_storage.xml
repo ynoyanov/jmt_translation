@@ -22,7 +22,7 @@
     <!--  Used in file CodeActivity.java:256. Original value:Field name is too long!  -->
     <string name="string_field_name_is_too_long_">Feldname ist zu lang!</string>
     <!--  Used in file SurveyObject.java:156. Original value:BaseDistance  -->
-    <string name="string_basedistance">BasisDistanz</string>
+    <string name="string_basedistance">Distanz zur Base</string>
     <!--  Used in file DesignPointsActivity.java:708. Original value:ESRI ArcGis *.shp  -->
     <string name="string_esri_arcgis___shp">ESRI ArcGis *.shp</string>
     <!--  Used in file SurveyObject.java:1133. Original value:Float  -->
@@ -36,21 +36,21 @@
     <!--  Used in file SurveyPoint.java:456. Original value:Stakeout CutFill  -->
     <string name="string_stakeout_cutfill">Absteckung CutFill</string>
     <!--  Used in file DatabaseMapActivity.java:70. Original value:Catalog Points  -->
-    <string name="string_catalog_points">Punkte katalogisieren</string>
+    <string name="string_catalog_points">Punkte aus Punktliste</string>
     <!--  Used in file JavadImport.java:165. Original value:Empty Drawing *.dwg  -->
     <string name="string_empty_drawing___dwg">Leere Zeichnung *.dwg</string>
-    <!--  Used in file SurveyPointActivity.java:1038. Original value:Do you want to modify antenna and correct height for all the points?  -->
+    <!--  Used in file SurveyPointActivity.java:1048. Original value:Do you want to modify antenna and correct height for all the points?  -->
     <string name="string_do_you_want_to_modify_antenna_and_correct_height_for_all_the_points_">Wollen Sie die Antenne ändern und die Höhe für alle Punkte korrigieren?</string>
-    <!--  Used in file DesignPointActivity.java:500. Original value:can\'t change %d design points!  -->
+    <!--  Used in file DesignPointActivity.java:510. Original value:can\'t change %d design points!  -->
     <string name="string_can_t_change__d_design_points_">kann %d Konstruktionspunkte nicht ändern!</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:72. Original value:End Time  -->
-    <string name="string_end_time">Ende Zeit</string>
+    <string name="string_end_time">Endzeit</string>
     <!--  Used in file PointsFragment.java:325. Original value:ExportDxf  -->
     <string name="string_exportdxf">ExportDxf</string>
     <!--  Used in file DesignPointsActivity.java:369. Original value:All %s were deleted  -->
     <string name="string_all__s_were_deleted">Alle %s wurden gelöscht</string>
     <!--  Used in file ArchiveJobFolderActivity.java:966. Original value:Move back  -->
-    <string name="string_move_back">Zurückschieben</string>
+    <string name="string_move_back">Zurückgehen</string>
     <!--  Used in file DesignPoint.java:196. Original value:Description  -->
     <string name="string_description">Beschreibung</string>
     <!--  Used in file JavadImport.java:375. Original value:Cancel  -->
@@ -66,29 +66,29 @@
     <!--  Used in file SurveyPoint.java:528. Original value:Stakeout Direction  -->
     <string name="string_stakeout_direction">Absteckung Richtung</string>
     <!--  Used in file SurveyPoint.java:367. Original value:Base Distance  -->
-    <string name="string_base_distance">Basisabstand</string>
+    <string name="string_base_distance">Abstand zur Base</string>
     <!--  Used in file CodesActivity.java:654. Original value:Select Format  -->
     <string name="string_select_format">Format wählen</string>
     <!--  Used in file ComplexObjectPolygonActivity.java:289. Original value:Do you want to delete vertex #%d?  -->
     <string name="string_do_you_want_to_delete_vertex___d_">Möchten Sie den Vertex #%d löschen?</string>
     <!--  Used in file DataLocationActivity.java:571. Original value:Clearing up folder . . .  -->
-    <string name="string_clearing_up_folder______">Clearing up folder . . .</string>
+    <string name="string_clearing_up_folder______">Ordner aufräumen . . .</string>
     <!--  Used in file DataLocationActivity.java:601. Original value:Can not save new location!  -->
-    <string name="string_can_not_save_new_location_">Can not save new location!</string>
+    <string name="string_can_not_save_new_location_">Neuer Ort kann nicht gespeichert werden!</string>
     <!--  Used in file CodesActivity.java:648. Original value:Text (code only) *.txt  -->
     <string name="string_text__code_only____txt">Text (nur Code) *.txt</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:100. Original value:on  -->
-    <string name="string_on">auf</string>
+    <string name="string_on">an</string>
     <!--  Used in file TSPoint.java:277. Original value:Station  -->
     <string name="string_station">Station</string>
     <!--  Used in file SurveyObject.java:836. Original value:Correction Source Id  -->
-    <string name="string_correction_source_id">Korrektur Quellennummer</string>
+    <string name="string_correction_source_id">Korrekturdaten Quellen ID</string>
     <!--  Used in file CodesActivity.java:645. Original value:CSV file *.csv  -->
     <string name="string_csv_file___csv">CSV-Datei *.csv</string>
     <!--  Used in file SurveyPoint.java:492. Original value:Stakeout dE  -->
     <string name="string_stakeout_de">Absteckung dE</string>
     <!--  Used in file JobsActivity.java:279. Original value:Edit Job  -->
-    <string name="string_edit_job">Auftrag bearbeiten</string>
+    <string name="string_edit_job">Messjob bearbeiten</string>
     <!--  Used in file SurveyObject.java:331. Original value:Antenna Height  -->
     <string name="string_antenna_height">Antennenhöhe</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:71. Original value:Start Time  -->
@@ -96,7 +96,7 @@
     <!--  Used in file PointsFragment.java:959. Original value:Edit only point\n%s  -->
     <string name="string_edit_only_point_n_s">Nur Punkt bearbeiten\n%s</string>
     <!--  Used in file RTKBaseActivity.java:186. Original value:Do you want to restore RTK base before modification?  -->
-    <string name="string_do_you_want_to_restore_rtk_base_before_modification_">Möchten Sie die RTK-Basis vor der Änderung wiederherstellen?</string>
+    <string name="string_do_you_want_to_restore_rtk_base_before_modification_">Möchten Sie die RTK-Base vor der Änderung wiederherstellen?</string>
     <!--  Used in file JavadImport.java:580. Original value:Can\'t load importexport library!  -->
     <string name="string_can_t_load_importexport_library_">Kann die Importexport-Bibliothek nicht laden!</string>
     <!--  Used in file SurveyPointActivity.java:419. Original value:dE=  -->
@@ -104,28 +104,28 @@
     <!--  Used in file CodeActivity.java:327. Original value:Empty name!  -->
     <string name="string_empty_name_">Leerer Name!</string>
     <!--  Used in file SurveyPointAntennaActivity.java:164. Original value:Wrong vertical offset!  -->
-    <string name="string_wrong_vertical_offset_">Falscher vertikaler Offset!</string>
+    <string name="string_wrong_vertical_offset_">Falscher vertikaler Versatz!</string>
     <!--  Used in file JavadImport.java:606. Original value:Import error  -->
     <string name="string_import_error">Import-Fehler</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:97. Original value:on (  -->
-    <string name="string_on__">ein (</string>
+    <string name="string_on__">an (</string>
     <!--  Used in file CodesActivity.java:425. Original value:File doesn\'t exist!  -->
     <string name="string_file_doesn_t_exist_">Datei existiert nicht!</string>
     <!--  Used in file JobActivity.java:178. Original value:%d design points in the job  -->
-    <string name="string__d_design_points_in_the_job">%d Konstruktionspunkte im Auftrag</string>
+    <string name="string__d_design_points_in_the_job">%d Konstruktionspunkte im Messjob</string>
     <!--  Used in file JavadImport.java:925. Original value:Dwg import is unsuppurted  -->
     <string name="string_dwg_import_is_unsuppurted">Dwg-Import wird nicht unterstützt</string>
     <!--  Used in file DataLocationActivity.java:528. Original value:Move data to new location  -->
-    <string name="string_move_data_to_new_location">Move data to new location</string>
+    <string name="string_move_data_to_new_location">Daten an einen neuen Ort verschieben</string>
     <!--  Used in file DataLocationActivity.java:585. Original value:Clean up . . .  -->
-    <string name="string_clean_up______">Clean up . . .</string>
+    <string name="string_clean_up______">Aufräumen . . .</string>
     <!--  Used in file PointsFragment.java:628. Original value:Listen Audio  -->
-    <string name="string_listen_audio">Audio anhören</string>
+    <string name="string_listen_audio">Tonaufzeichung anhören</string>
     <!--  Used in file DataLocationActivity.java:144. Original value:%1$s free from %2$s total  -->
     <string name="string__1_s_free_from__2_s_total">%1$s frei von %2$s gesamt</string>
     <!--  Used in file RTKBaseActivity.java:144. Original value:File name:  -->
     <string name="string_file_name_">Dateiname:</string>
-    <!--  Used in file DesignPointActivity.java:482. Original value:Modify  -->
+    <!--  Used in file DesignPointActivity.java:492. Original value:Modify  -->
     <string name="string_modify">Ändern</string>
     <!--  Used in file SurveyPointAntennaActivity.java:157. Original value:Wrong slant height!  -->
     <string name="string_wrong_slant_height_">Falsche Schräglagenhöhe!</string>
@@ -134,37 +134,37 @@
     <!--  Used in file DataLocationActivity.java:437. Original value:Permission denied to write to your External storage  -->
     <string name="string_permission_denied_to_write_to_your_external_storage">Berechtigung zum Schreiben auf den externen Speicher verweigert</string>
     <!--  Used in file DatabaseMapActivity.java:47. Original value:Layers  -->
-    <string name="string_layers">Lagen</string>
+    <string name="string_layers">Ebenen</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:136. Original value:Hz  -->
     <string name="string_hz">Hz</string>
     <!--  Used in file DataLocationActivity.java:509. Original value:The new folder is not empty  -->
-    <string name="string_the_new_folder_is_not_empty">The new folder is not empty</string>
+    <string name="string_the_new_folder_is_not_empty">Der neue Ordner ist nicht leer</string>
     <!--  Used in file SurveyPoint.java:510. Original value:Stakeout dH  -->
     <string name="string_stakeout_dh">Absteckung dH</string>
     <!--  Used in file SurveyPoint.java:474. Original value:Stakeout dN  -->
     <string name="string_stakeout_dn">Absteckung dN</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:148. Original value:Base Id  -->
-    <string name="string_id">Basis-Id</string>
+    <string name="string_id">Base-ID</string>
     <!--  Used in file ArchiveJobFolderActivity.java:947. Original value:All your jobs will be MOVED from javad/jobs folder to SD card.  -->
-    <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">Alle Ihre Jobs werden aus dem Ordner javad/jobs auf die SD-Karte VERLEGT.</string>
+    <string name="string_all_your_jobs_will_be_moved_from_javad_jobs_folder_to_sd_card_">Alle Ihre Jobs werden aus dem Ordner javad/jobs auf die SD-Karte VERSCHOBEN.</string>
     <!--  Used in file DesignPointsActivity.java:358. Original value:Delete all %s  -->
     <string name="string_delete_all__s">Alle %s löschen</string>
     <!--  Used in file SurveyPointActivity.java:369. Original value:Time:  -->
     <string name="string_time_">Zeit:</string>
     <!--  Used in file TSPointActivity.java:371. Original value:meas.  -->
-    <string name="string_meas_">meas.</string>
+    <string name="string_meas_">verm.</string>
     <!--  Used in file ComplexObjectPolygonActivity.java:130. Original value:Save Modification  -->
     <string name="string_save_modification">Änderung speichern</string>
     <!--  Used in file CodesActivity.java:475. Original value:Successfully imported %d code  -->
-    <string name="string_successfully_imported__d_code">Erfolgreich %d Code importiert</string>
+    <string name="string_successfully_imported__d_code">%d Code erfolgreich importiert</string>
     <!--  Used in file TSPointActivity.java:372. Original value:RMS:  -->
     <string name="string_rms_">RMS:</string>
     <!--  Used in file JobsActivity.java:962. Original value:job  -->
-    <string name="string_job">Job</string>
+    <string name="string_job">Messjob</string>
     <!--  Used in file ArchiveJobFolderActivity.java:357. Original value:Auth.with   -->
     <string name="string_auth_with_">Auth.mit </string>
     <!--  Used in file TSPointSurveyInfoActivity.java:48. Original value:TS Survey Info  -->
-    <string name="string_ts_survey_info">TS Umfrage Info</string>
+    <string name="string_ts_survey_info">TS Mess Info</string>
     <!--  Used in file ArchiveJobFolderActivity.java:235. Original value:Don\'t use Job Archiving  -->
     <string name="string_don_t_use_job_archiving">Job-Archivierung nicht verwenden</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:80. Original value:Use Any Epoches  -->
@@ -176,29 +176,29 @@
     <!--  Used in file CodeActivity.java:296. Original value:Wrong max value length!  -->
     <string name="string_wrong_max_value_length_">Falsche maximale Wertelänge!</string>
     <!--  Used in file SurveyObject.java:266. Original value:Antenna Info  -->
-    <string name="string_antenna_info">Antennen-Infos</string>
+    <string name="string_antenna_info">Antennen-Info</string>
     <!--  Used in file TSPointsActivity.java:286. Original value:Delete %1$d filtered points (of %2$d)  -->
     <string name="string_delete__1_d_filtered_points__of__2_d_">Lösche %1$d gefilterte Punkte (von %2$d)</string>
     <!--  Used in file PointsFragment.java:1189. Original value:All empty %s were deleted  -->
     <string name="string_all_empty__s_were_deleted">Alle leeren %s wurden gelöscht</string>
     <!--  Used in file RTKBasesActivity.java:279. Original value:Can\'t add rtk base %s to catalog!  -->
-    <string name="string_can_t_add_rtk_base__s_to_catalog_">Kann rtk-Basis %s nicht zum Katalog hinzufügen!</string>
+    <string name="string_can_t_add_rtk_base__s_to_catalog_">Kann RTK-Base %s nicht zur Punktliste hinzufügen!</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:81. Original value:Epoch Filter  -->
     <string name="string_epoch_filter">Epochen-Filter</string>
     <!--  Used in file ComplexObjectPolygonActivity.java:288. Original value:Delete vertex  -->
     <string name="string_delete_vertex">Scheitelpunkt löschen</string>
     <!--  Used in file JobsActivity.java:291. Original value:Delete Job  -->
-    <string name="string_delete_job">Job löschen</string>
+    <string name="string_delete_job">Messjob löschen</string>
     <!--  Used in file JobsActivity.java:453. Original value:Survey is running  -->
-    <string name="string_survey_is_running">Survey is running</string>
+    <string name="string_survey_is_running">Vermessung läuft</string>
     <!--  Used in file DataLocationActivity.java:427. Original value:Permission denied to read from your External storage  -->
-    <string name="string_permission_denied_to_read_from_your_external_storage">Berechtigung verweigert, von Ihrem externen Speicher zu lesen</string>
+    <string name="string_permission_denied_to_read_from_your_external_storage">Keine Berechtigung zum Lesen von Ihrem externen Speicher</string>
     <!--  Used in file JobActivity.java:535. Original value:dE:%.3f  -->
     <string name="string_de___3f">dE:%.3f</string>
     <!--  Used in file DesignPoint.java:159. Original value:Comment  -->
     <string name="string_comment">Kommentar</string>
     <!--  Used in file PointsFragment.java:99. Original value:Points from base %1$s id:%2$d  -->
-    <string name="string_points_from_base__1_s_id__2_d">Punkte von Basis %1$s id:%2$d</string>
+    <string name="string_points_from_base__1_s_id__2_d">Punkte von Base %1$s id:%2$d</string>
     <!--  Used in file PointsFragment.java:954. Original value:Edit %d points  -->
     <string name="string_edit__d_points">%d Punkte bearbeiten</string>
     <!--  Used in file ComplexObjectPolygonActivity.java:141. Original value:Save  -->
@@ -206,27 +206,27 @@
     <!--  Used in file ArchiveJobFolderActivity.java:1053. Original value:Job Archiving is activated to folder \'%s\'!  -->
     <string name="string_job_archiving_is_activated_to_folder___s__">Job-Archivierung ist im Ordner \'%s\' aktiviert!</string>
     <!--  Used in file DataLocationActivity.java:505. Original value:Copy old data and merge with new  -->
-    <string name="string_copy_old_data_and_merge_with_new">Copy old data and merge with new</string>
+    <string name="string_copy_old_data_and_merge_with_new">Alte Daten kopieren und mit neuen zusammenführen</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:137. Original value:UHF Prot.  -->
     <string name="string_uhf_prot_">UHF Prot.</string>
     <!--  Used in file JobsActivity.java:357. Original value:Error while sharing job!  -->
-    <string name="string_error_while_sharing_job_">Fehler beim Teilen des Jobs!</string>
+    <string name="string_error_while_sharing_job_">Fehler beim Teilen des Messjobs!</string>
     <!--  Used in file SurveyObject.java:312. Original value:Antenna Vertical Offset  -->
-    <string name="string_antenna_vertical_offset">Antenne Vertikalversatz</string>
+    <string name="string_antenna_vertical_offset">Vertikaler Antennenversatz</string>
     <!--  Used in file CodesActivity.java:649. Original value:Carlson FCL *.fcl  -->
     <string name="string_carlson_fcl___fcl">Carlson FCL *.fcl</string>
     <!--  Used in file TSPointListAdapter.java:128. Original value:HR:  -->
     <string name="string_hr_">HR:</string>
     <!--  Used in file JobActivity.java:477. Original value:Job name is too long!\nLimit it up to 40 chars, please  -->
-    <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Jobname ist zu lang!\nBeschränken Sie ihn bitte auf 40 Zeichen</string>
+    <string name="string_job_name_is_too_long__nlimit_it_up_to_40_chars__please">Name des Messjobs ist zu lang!\nBeschränken Sie ihn bitte auf 40 Zeichen</string>
     <!--  Used in file SurveyObject.java:786. Original value:RTCM3 Geoid Undulation  -->
-    <string name="string_rtcm3_geoid_undulation">RTCM3 Geoid-Welligkeit</string>
+    <string name="string_rtcm3_geoid_undulation">RTCM3 Geoid-Undulation</string>
     <!--  Used in file JobsActivity.java:617. Original value:No file selected!  -->
     <string name="string_no_file_selected_">Keine Datei ausgewählt!</string>
     <!--  Used in file SurveyObject.java:757. Original value:VRMS  -->
     <string name="string_vrms">VRMS</string>
     <!--  Used in file DataLocationActivity.java:533. Original value:What to do with data?  -->
-    <string name="string_what_to_do_with_data_">What to do with data?</string>
+    <string name="string_what_to_do_with_data_">Was soll mit den Daten geschehen?</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:67. Original value:VA  -->
     <string name="string_va">VA</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:118. Original value:Ntrip Server  -->
@@ -236,31 +236,31 @@
     <!--  Used in file ExportAndReport.java:178. Original value:MapInfo (*.mif;*.tab)  -->
     <string name="string_mapinfo____mif___tab_">MapInfo (*.mif;*.tab)</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:94. Original value:Verify Mode  -->
-    <string name="string_verify_mode">Modus verifizieren</string>
+    <string name="string_verify_mode">Überprüfungsmodus</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:170. Original value:GNSS Receiver  -->
     <string name="string_gnss_receiver">GNSS-Empfänger</string>
     <!--  Used in file ExportAndReport.java:180. Original value:NetCAD (*.ncn)  -->
     <string name="string_netcad____ncn_">NetCAD (*.ncn)</string>
     <!--  Used in file DataLocationActivity.java:503. Original value:Copy old data to new location (remove previous)  -->
-    <string name="string_copy_old_data_to_new_location__remove_previous_">Copy old data to new location (remove previous)</string>
+    <string name="string_copy_old_data_to_new_location__remove_previous_">Alte Daten an neuen Speicherort kopieren (vorherige entfernen)</string>
     <!--  Used in file JobActivity.java:532. Original value:dN:%.3f  -->
     <string name="string_dn___3f">dN:%.3f</string>
     <!--  Used in file CodeActivity.java:247. Original value:Field already exist!  -->
     <string name="string_field_already_exist_">Feld ist bereits vorhanden!</string>
     <!--  Used in file SurveyObject.java:1133. Original value:Fixed  -->
-    <string name="string_fixed">Festgelegt</string>
+    <string name="string_fixed">Fixed</string>
     <!--  Used in file DesignPointsActivity.java:236. Original value:Add new point  -->
     <string name="string_add_new_point">Neuen Punkt hinzufügen</string>
     <!--  Used in file ExportAndReport.java:221. Original value:Export  -->
     <string name="string_export">Exportieren</string>
-    <!--  Used in file DesignPointActivity.java:510. Original value:Don\'t modify  -->
+    <!--  Used in file DesignPointActivity.java:520. Original value:Don\'t modify  -->
     <string name="string_don_t_modify">Nicht ändern</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:98. Original value:manual   -->
     <string name="string_manual_">manuell </string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:98. Original value:IMU Survey  -->
     <string name="string_imu_survey">IMU Vermessung</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:84. Original value:Manual Stop  -->
-    <string name="string_manual_stop">Manuell Stopp</string>
+    <string name="string_manual_stop">Manueller Stopp</string>
     <!--  Used in file SurveyPointActivity.java:364. Original value:V.RMS:  -->
     <string name="string_v_rms_">V.RMS:</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:122. Original value:First Fix  -->
@@ -274,9 +274,9 @@
     <!--  Used in file CodeActivity.java:270. Original value:Wrong max.length!  -->
     <string name="string_wrong_max_length_">Falsche max.Länge!</string>
     <!--  Used in file SurveyObject.java:1122. Original value:RTPK Solution Type  -->
-    <string name="string_rtpk_solution_type">RTPK Lösung Typ</string>
+    <string name="string_rtpk_solution_type">RTPK Lösungsart</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:123. Original value:sec  -->
-    <string name="string_sec">sec</string>
+    <string name="string_sec">sek</string>
     <!--  Used in file PointsFragment.java:609. Original value:View/Edit %1$d %2$s  -->
     <string name="string_view_edit__1_d__2_s">Betrachten/Bearbeiten %1$d %2$s</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:113. Original value:RCV Server  -->
@@ -298,9 +298,9 @@
     <!--  Used in file TSPointSurveyInfoActivity.java:109. Original value:Protocol  -->
     <string name="string_protocol">Protokoll</string>
     <!--  Used in file SurveyObject.java:538. Original value:Solution Type  -->
-    <string name="string_solution_type">Lösung Typ</string>
+    <string name="string_solution_type">Lösungsart</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:97. Original value:engines)  -->
-    <string name="string_engines_">Motoren)</string>
+    <string name="string_engines_">Engines)</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:78. Original value:Processed OK  -->
     <string name="string_processed_ok">Verarbeitet OK</string>
     <!--  Used in file SurveyPointActivity.java:363. Original value:H.RMS:  -->
@@ -320,7 +320,7 @@
     <!--  Used in file RTKBasesActivity.java:119. Original value:rtkbase  -->
     <string name="string_rtkbase">rtkbase</string>
     <!--  Used in file SurveyObject.java:303. Original value:Antenna Height Type  -->
-    <string name="string_antenna_height_type">Antennenhöhe Typ</string>
+    <string name="string_antenna_height_type">Art der Antennenhöhe</string>
     <!--  Used in file ExportAndReport.java:175. Original value:PNEZ comma text file (*.txt)  -->
     <string name="string_pnez_comma_text_file____txt_">PNEZ-Komma-Textdatei (*.txt)</string>
     <!--  Used in file RTKBaseActivity.java:189. Original value:Restore  -->
@@ -332,15 +332,15 @@
     <!--  Used in file SurveyPointActivity.java:418. Original value:dN=  -->
     <string name="string_dn_">dN=</string>
     <!--  Used in file SurveyObject.java:842. Original value:Correction Source Mount Point  -->
-    <string name="string_correction_source_mount_point">Korrektur Quell-Montagepunkt</string>
+    <string name="string_correction_source_mount_point">Mountpoint der Korrekturdatenquelle</string>
     <!--  Used in file DesignPointsActivity.java:360. Original value:Do you want to delete all %1$d %2$s?  -->
     <string name="string_do_you_want_to_delete_all__1_d__2_s_">Möchten Sie alle %1$d %2$s löschen?</string>
     <!--  Used in file DesignPointsActivity.java:363. Original value:Delete  -->
     <string name="string_delete">Löschen</string>
     <!--  Used in file SurveyPointActivity.java:441. Original value:Hybrid RTK:  -->
-    <string name="string_hybrid_rtk_">Hybrid RTK:</string>
+    <string name="string_hybrid_rtk_">Hybrid-RTK:</string>
     <!--  Used in file DataLocationActivity.java:596. Original value:All data have successfully moved to \'%s\'!  -->
-    <string name="string_all_data_have_successfully_moved_to___s__">All data have successfully moved to \'%s\'!</string>
+    <string name="string_all_data_have_successfully_moved_to___s__">Alle Daten wurden erfolgreich zu \'%s\' verschoben!</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:126. Original value:FH FRule  -->
     <string name="string_fh_frule">FH FRule</string>
     <!--  Used in file CodesActivity.java:256. Original value:Delete %1$d filtered Codes (of %2$d)  -->
@@ -350,19 +350,19 @@
     <!--  Used in file TSPointSurveyInfoActivity.java:76. Original value:Survey Settings  -->
     <string name="string_survey_settings">Vermessungseinstellungen</string>
     <!--  Used in file DataLocationActivity.java:598. Original value:All data have successfully coppied to \'%s\'!  -->
-    <string name="string_all_data_have_successfully_coppied_to___s__">All data have successfully coppied to \'%s\'!</string>
+    <string name="string_all_data_have_successfully_coppied_to___s__">Alle Daten wurden erfolgreich zu \'%s\' kopiert!</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:64. Original value:Mark Offset  -->
-    <string name="string_mark_offset">Markierungs-Offset</string>
+    <string name="string_mark_offset">Markierungs-Versatz</string>
     <!--  Used in file CodesActivity.java:829. Original value:Canceled by user  -->
-    <string name="string_canceled_by_user">Vom Benutzer abgebrochen</string>
+    <string name="string_canceled_by_user">Vom Anwender abgebrochen</string>
     <!--  Used in file DatabaseMapActivity.java:70. Original value:RTK Bases  -->
     <string name="string_rtk_bases">RTK-Basen</string>
     <!--  Used in file CodesActivity.java:826. Original value:Imported with errors  -->
-    <string name="string_imported_with_errors">Importiert mit Fehlern</string>
+    <string name="string_imported_with_errors">Mit Fehlern importiert</string>
     <!--  Used in file TSPointActivity.java:794. Original value:%d TS point changed ok  -->
     <string name="string__d_ts_point_changed_ok">%d TS-Punkt geändert ok</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:119. Original value:Mount point  -->
-    <string name="string_mount_point">Punkt montieren</string>
+    <string name="string_mount_point">Mountpoint</string>
     <!--  Used in file CodesActivity.java:355. Original value:Text file *.txt  -->
     <string name="string_text_file___txt">Textdatei *.txt</string>
     <!--  Used in file JavadImport.java:150. Original value:PNEZ comma delimited text file *.txt &#8230;  -->
@@ -374,13 +374,13 @@
     <!--  Used in file CodesActivity.java:651. Original value:DBF File *.dbf  -->
     <string name="string_dbf_file___dbf">DBF-Datei *.dbf</string>
     <!--  Used in file SurveyObject.java:550. Original value:Engine Count  -->
-    <string name="string_engine_count">Motor Anzahl</string>
+    <string name="string_engine_count">Anzahl Engines</string>
     <!--  Used in file TSPointsActivity.java:299. Original value:Add to catalog %s  -->
-    <string name="string_add_to_catalog__s">Zum Katalog hinzufügen %s</string>
+    <string name="string_add_to_catalog__s">Zur Punktliste hinzufügen %s</string>
     <!--  Used in file DesignPointsActivity.java:352. Original value:No points to delete!  -->
-    <string name="string_no_points_to_delete_">Keine Punkte zu löschen!</string>
+    <string name="string_no_points_to_delete_">Keine Punkte zum Löschen!</string>
     <!--  Used in file TSPointAntennaActivity.java:122. Original value:Mark Id is not selected!  -->
-    <string name="string_mark_id_is_not_selected_">Mark Id ist nicht ausgewählt!</string>
+    <string name="string_mark_id_is_not_selected_">Mark ID ist nicht ausgewählt!</string>
     <!--  Used in file ArchiveJobFolderActivity.java:936. Original value:%s is not a folder!  -->
     <string name="string__s_is_not_a_folder_">%s ist kein Ordner!</string>
     <!--  Used in file DatabaseMapActivity.java:70. Original value:TS Points  -->
@@ -398,9 +398,9 @@
     <!--  Used in file PointsFragment.java:323. Original value:Test  -->
     <string name="string_test">Test</string>
     <!--  Used in file DataLocationActivity.java:534. Original value:Do you want to   -->
-    <string name="string_do_you_want_to_">Do you want to </string>
+    <string name="string_do_you_want_to_">Möchten Sie </string>
     <!--  Used in file SurveyObject.java:848. Original value:Correction Source Name  -->
-    <string name="string_correction_source_name">Korrektur Quellenname</string>
+    <string name="string_correction_source_name">Name der Korrekturdatenquelle</string>
     <!--  Used in file ExportAndReport.java:181. Original value:Google KML (*.kml)  -->
     <string name="string_google_kml____kml_">Google KML (*.kml)</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:149. Original value:SN  -->
@@ -422,7 +422,7 @@
     <!--  Used in file TSPointActivity.java:379. Original value:Station:  -->
     <string name="string_station_">Station:</string>
     <!--  Used in file JobActivity.java:485. Original value:Job %s already exists!  -->
-    <string name="string_job__s_already_exists_">Job %s existiert bereits!</string>
+    <string name="string_job__s_already_exists_">Messjob %s existiert bereits!</string>
     <!--  Used in file ExportAndReport.java:183. Original value:Leica GSI *.gsi  -->
     <string name="string_leica_gsi___gsi">Leica GSI *.gsi</string>
     <!--  Used in file CodesActivity.java:210. Original value:Codes  -->
@@ -438,25 +438,25 @@
     <!--  Used in file TSPointSurveyInfoActivity.java:59. Original value:RMS  -->
     <string name="string_rms">RMS</string>
     <!--  Used in file JobsActivity.java:967. Original value:jobs  -->
-    <string name="string_jobs">Stellen</string>
+    <string name="string_jobs">Messjobs</string>
     <!--  Used in file SurveyPointActivity.java:365. Original value:Sats:  -->
     <string name="string_sats_">Sats:</string>
-    <!--  Used in file SurveyPointActivity.java:1067. Original value:%d survey objects changed ok  -->
+    <!--  Used in file SurveyPointActivity.java:1077. Original value:%d survey objects changed ok  -->
     <string name="string__d_survey_objects_changed_ok">%d Vermessungsobjekte geändert ok</string>
     <!--  Used in file CodesActivity.java:643. Original value:XML JustinLink classificator *.xml  -->
     <string name="string_xml_justinlink_classificator___xml">XML JustinLink-Klassifikator *.xml</string>
     <!--  Used in file CodesActivity.java:248. Original value:Edit Code %s  -->
     <string name="string_edit_code__s">Code %s bearbeiten</string>
-    <!--  Used in file DesignPointActivity.java:477. Original value:Do you want to set description \'%1$s\' and code \'%2$s\' for all %3$d points?  -->
+    <!--  Used in file DesignPointActivity.java:487. Original value:Do you want to set description \'%1$s\' and code \'%2$s\' for all %3$d points?  -->
     <string name="string_do_you_want_to_set_description___1_s__and_code___2_s__for_all__3_d_points_">Möchten Sie Beschreibung \'%1$s\' und Code \'%2$s\' für alle %3$d Punkte einstellen?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:71. Original value:TDOP  -->
     <string name="string_tdop">TDOP</string>
     <!--  Used in file SurveyPointActivity.java:440. Original value:Base:  -->
-    <string name="string_base_">Basis:</string>
+    <string name="string_base_">Base:</string>
     <!--  Used in file PointsFragment.java:1079. Original value:Export failed  -->
     <string name="string_export_failed">Export fehlgeschlagen</string>
     <!--  Used in file JobsActivity.java:454. Original value:Do you want to stop survey to create a new job?  -->
-    <string name="string_do_you_want_to_stop_survey_to_create_a_new_job_">Do you want to stop survey to create a new job?</string>
+    <string name="string_do_you_want_to_stop_survey_to_create_a_new_job_">Möchten Sie die Vermessung beenden, um einen neuen Job zu erstellen?</string>
     <!--  Used in file CodeActivity.java:366. Original value:Code name already exist!  -->
     <string name="string_code_name_already_exist_">Codename existiert bereits!</string>
     <!--  Used in file CodeActivity.java:359. Original value:Code name is empty!  -->
@@ -480,22 +480,22 @@
     <!--  Used in file SurveyPointListAdapter.java:265. Original value:HRMS  -->
     <string name="string_hrms">HRMS</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:88. Original value:Correction by Levels  -->
-    <string name="string_correction_by_levels">Korrektur durch Levels</string>
+    <string name="string_correction_by_levels">Neigungskorrektur</string>
     <!--  Used in file RTKBaseActivity.java:401. Original value:Modify RTK Base  -->
-    <string name="string_modify_rtk_base">RTK-Basis modifizieren</string>
+    <string name="string_modify_rtk_base">RTK-Base abändern</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:85. Original value:Occupation Time  -->
-    <string name="string_occupation_time">Belegung Zeit</string>
+    <string name="string_occupation_time">Beobachtungszeit</string>
     <!--  Used in file SurveyObject.java:666. Original value:Inclination Y Receiver  -->
     <string name="string_inclination_y_receiver">Neigung Y-Empfänger</string>
-    <!--  Used in file DesignPointActivity.java:475. Original value:Do you want to set description \'%1$s\' for all %2$d points?  -->
+    <!--  Used in file DesignPointActivity.java:485. Original value:Do you want to set description \'%1$s\' for all %2$d points?  -->
     <string name="string_do_you_want_to_set_description___1_s__for_all__2_d_points_">Möchten Sie die Beschreibung \'%1$s\' für alle %2$d Punkte setzen?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:66. Original value:Satellites  -->
     <string name="string_satellites">Satelliten</string>
     <!--  Used in file RTKBaseListAdapter.java:162. Original value:slant  -->
-    <string name="string_slant">Neigung</string>
+    <string name="string_slant">schräg</string>
     <!--  Used in file PointsFragment.java:1060. Original value:Creare New  -->
     <string name="string_creare_new">Neu erstellen</string>
-    <!--  Used in file SurveyPointActivity.java:1069. Original value:can\'t change %d survey objects!  -->
+    <!--  Used in file SurveyPointActivity.java:1079. Original value:can\'t change %d survey objects!  -->
     <string name="string_can_t_change__d_survey_objects_">kann %d Vermessungsobjekte nicht ändern!</string>
     <!--  Used in file JavadImport.java:591. Original value:Data loaded. Parsing&#8230;  -->
     <string name="string_data_loaded__parsing___">Daten geladen. Parsing&#8230;</string>
@@ -505,7 +505,7 @@
     <string name="string_applying_setting___">Einstellung anwenden&#8230|</string>
     <!--  Used in file CodesActivity.java:61. Original value:All Codes  -->
     <string name="string_all_codes">Alle Codes</string>
-    <!--  Used in file DesignPointActivity.java:502. Original value:%1$d changed ok\n%2$d can\'t be changed!  -->
+    <!--  Used in file DesignPointActivity.java:512. Original value:%1$d changed ok\n%2$d can\'t be changed!  -->
     <string name="string__1_d_changed_ok_n_2_d_can_t_be_changed_">%1$d geändert ok\n%2$d kann nicht geändert werden!</string>
     <!--  Used in file SurveyObject.java:325. Original value:Antenna ID  -->
     <string name="string_antenna_id">Antennen-ID</string>
@@ -524,7 +524,7 @@
     <!--  Used in file SurveyPointSurveyInfoActivity.java:122. Original value:Compare RTK+RTPK  -->
     <string name="string_compare_rtk_rtpk">Vergleich RTK+RTPK</string>
     <!--  Used in file JobsActivity.java:281. Original value:Duplicate Job  -->
-    <string name="string_duplicate_job">Auftrag duplizieren</string>
+    <string name="string_duplicate_job">Messjob duplizieren</string>
     <!--  Used in file JavadImport.java:854. Original value:Import error #  -->
     <string name="string_import_error__">Importfehler #</string>
     <!--  Used in file JobsActivity.java:217. Original value:New Picture  -->
@@ -535,20 +535,20 @@
     <string name="string_point__s_has_been_deleted_">Der Punkt %s wurde gelöscht.</string>
     <!--  Used in file ArchiveJobFolderActivity.java:963. Original value:Please check free space in the main memory before the action!  -->
     <string name="string_please_check_free_space_in_the_main_memory_before_the_action_">Bitte prüfen Sie vor der Aktion den freien Platz im Hauptspeicher!</string>
-    <!--  Used in file DesignPointActivity.java:498. Original value:%d design point changed ok  -->
-    <string name="string__d_design_point_changed_ok">%d Designpunkt geändert ok</string>
+    <!--  Used in file DesignPointActivity.java:508. Original value:%d design point changed ok  -->
+    <string name="string__d_design_point_changed_ok">%d Konstuierter Punkt geändert ok</string>
     <!--  Used in file SurveyObject.java:1133. Original value:Std  -->
     <string name="string_std">Std</string>
     <!--  Used in file ExportAndReport.java:2820. Original value:Please manually open result file in the job subfolder.  -->
-    <string name="string_please_manually_open_result_file_in_the_job_subfolder_">Bitte öffnen Sie die Ergebnisdatei im Unterordner des Jobs manuell.</string>
+    <string name="string_please_manually_open_result_file_in_the_job_subfolder_">Bitte öffnen Sie die Ergebnisdatei im Unterordner des Messjobs manuell.</string>
     <!--  Used in file JavadImport.java:336. Original value:Import  -->
     <string name="string_import">Importieren</string>
     <!--  Used in file JobActivity.java:177. Original value:%d survey points in the job  -->
-    <string name="string__d_survey_points_in_the_job">%d Vermessungspunkte im Job</string>
+    <string name="string__d_survey_points_in_the_job">%d Vermessungspunkte im Messjob</string>
     <!--  Used in file RTKBasesActivity.java:277. Original value:RTK base %1$s was successfully added into catalog %2$s  -->
-    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK-Basis %1$s wurde erfolgreich in Katalog %2$s hinzugefügt</string>
+    <string name="string_rtk_base__1_s_was_successfully_added_into_catalog__2_s">RTK-Base %1$s wurde erfolgreich der Puntkliste %2$s hinzugefügt</string>
     <!--  Used in file ArchiveJobFolderActivity.java:947. Original value:Please backup the jobs manually before the action!  -->
-    <string name="string_please_backup_the_jobs_manually_before_the_action_">Bitte sichern Sie die Jobs vor der Aktion manuell!</string>
+    <string name="string_please_backup_the_jobs_manually_before_the_action_">Bitte sichern Sie die Messjobs vor der Aktion manuell!</string>
     <!--  Used in file CodesActivity.java:646. Original value:Text (N,code,description) *.txt  -->
     <string name="string_text__n_code_description____txt">Text (N,Code,Beschreibung) *.txt</string>
     <!--  Used in file CodesActivity.java:647. Original value:Text (code,description) *.txt  -->
@@ -568,25 +568,25 @@
     <!--  Used in file ArchiveJobFolderActivity.java:1090. Original value:Moving job %s  -->
     <string name="string_moving_job__s">Verschiebeauftrag %s</string>
     <!--  Used in file DataLocationActivity.java:527. Original value:Change folder only, do not move data  -->
-    <string name="string_change_folder_only__do_not_move_data">Change folder only, do not move data</string>
+    <string name="string_change_folder_only__do_not_move_data">Nur Ordner ändern, keine Daten verschieben</string>
     <!--  Used in file ExportAndReport.java:179. Original value:MapInfo (*.tab)  -->
     <string name="string_mapinfo____tab_">MapInfo (*.tab)</string>
     <!--  Used in file ComplexObjectListAdapter.java:123. Original value:vers.  -->
     <string name="string_vers_">vers.</string>
     <!--  Used in file SurveyPoint.java:47. Original value:Inclination X  -->
     <string name="string_inclination_x">Neigung X</string>
-    <!--  Used in file SurveyPointActivity.java:1037. Original value:And  -->
+    <!--  Used in file SurveyPointActivity.java:1047. Original value:And  -->
     <string name="string_and">Und</string>
-    <!--  Used in file DesignPointActivity.java:480. Original value:Modify many points  -->
-    <string name="string_modify_many_points">Viele Punkte modifizieren</string>
+    <!--  Used in file DesignPointActivity.java:490. Original value:Modify many points  -->
+    <string name="string_modify_many_points">Viele Punkte ändern</string>
     <!--  Used in file ExportAndReport.java:2782. Original value:Share file with  -->
     <string name="string_share_file_with">Datei teilen mit</string>
     <!--  Used in file TSPointsActivity.java:82. Original value:Check All  -->
     <string name="string_check_all">Alle prüfen</string>
     <!--  Used in file PointsFragment.java:910. Original value:%1$d points were added into catalog %2$s  -->
-    <string name="string__1_d_points_were_added_into_catalog__2_s">%1$d Punkte wurden im Katalog %2$s hinzugefügt</string>
+    <string name="string__1_d_points_were_added_into_catalog__2_s">%1$d Punkte wurden der Punktliste %2$s hinzugefügt</string>
     <!--  Used in file TSStation.java:41. Original value:BackSite  -->
-    <string name="string_backsite">BackSite</string>
+    <string name="string_backsite">Rückseite</string>
     <!--  Used in file PointsFragment.java:1172. Original value:No drawings to delete!  -->
     <string name="string_no_drawings_to_delete_">Keine Zeichnungen zu löschen!</string>
     <!--  Used in file DesignPointsActivity.java:168. Original value:point  -->
@@ -602,9 +602,9 @@
     <!--  Used in file CodesActivity.java:432. Original value:Importing&#8230;  -->
     <string name="string_importing___">Importieren&#8230;</string>
     <!--  Used in file SurveyObject.java:860. Original value:Correction Source Corrections  -->
-    <string name="string_correction_source_corrections">Korrekturen Quelle Korrekturen</string>
+    <string name="string_correction_source_corrections">Korrekturdaten der Korrekturdatenquelle</string>
     <!--  Used in file DataLocationActivity.java:593. Original value:Done  -->
-    <string name="string_done">Done</string>
+    <string name="string_done">Erledigt</string>
     <!--  Used in file ArchiveJobFolderActivity.java:321. Original value:Auth.Token=  -->
     <string name="string_auth_token_">Auth.Token=</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:64. Original value:H.RMS  -->
@@ -616,15 +616,15 @@
     <!--  Used in file CodesActivity.java:311. Original value:No codes to delete!  -->
     <string name="string_no_codes_to_delete_">Keine Codes zu löschen!</string>
     <!--  Used in file SurveyObject.java:145. Original value:BaseID  -->
-    <string name="string_baseid">BaseID</string>
+    <string name="string_baseid">Base-ID</string>
     <!--  Used in file JobDB.java:863. Original value:Job %s is opening&#8230;  -->
-    <string name="string_job__s_is_opening___">Job %s wird geöffnet&#8230;</string>
+    <string name="string_job__s_is_opening___">Messjob %s wird geöffnet&#8230;</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:136. Original value:UHF Freq  -->
     <string name="string_uhf_freq">UHF-Freq</string>
     <!--  Used in file DataLocationActivity.java:529. Original value:Copy data to new location  -->
-    <string name="string_copy_data_to_new_location">Copy data to new location</string>
+    <string name="string_copy_data_to_new_location">Daten an neuen Speicherort kopieren</string>
     <!--  Used in file JobListAdapter.java:231. Original value:%1$d survey, %2$d design  -->
-    <string name="string__1_d_survey___2_d_design">%1$d Umfrage, %2$d Entwurf</string>
+    <string name="string__1_d_survey___2_d_design">%1$d Messen, %2$d Entwurf</string>
     <!--  Used in file SurveyObject.java:632. Original value:GDOP  -->
     <string name="string_gdop">GDOP</string>
     <!--  Used in file TSPointActivity.java:373. Original value:HA:  -->
@@ -634,13 +634,13 @@
     <!--  Used in file JobActivity.java:529. Original value:Rotation:%s  -->
     <string name="string_rotation__s">Drehung:%s</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:58. Original value:Measures collected  -->
-    <string name="string_measures_collected">Erfasste Maßnahmen</string>
+    <string name="string_measures_collected">Erfasste Messdaten</string>
     <!--  Used in file CodeActivity.java:252. Original value:Field name is empty!  -->
     <string name="string_field_name_is_empty_">Feldname ist leer!</string>
     <!--  Used in file PointsFragment.java:953. Original value:Do you want to edit %d points simultinuously?  -->
     <string name="string_do_you_want_to_edit__d_points_simultinuously_">Wollen Sie %d Punkte gleichzeitig bearbeiten?</string>
     <!--  Used in file SurveyObject.java:677. Original value:Inclination Martix Receiver  -->
-    <string name="string_inclination_martix_receiver">Neigung Martix-Empfänger</string>
+    <string name="string_inclination_martix_receiver">Neigung Matrix-Empfänger</string>
     <!--  Used in file SurveyObject.java:700. Original value:Inclination X Controller  -->
     <string name="string_inclination_x_controller">Neigung X-Controller</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:80. Original value:Use Fix or Float  -->
@@ -656,13 +656,13 @@
     <!--  Used in file DesignPointsActivity.java:707. Original value:MapInfo *.mif, *.tab  -->
     <string name="string_mapinfo___mif____tab">MapInfo *.mif, *.tab</string>
     <!--  Used in file PointsFragment.java:514. Original value:RTK Base  -->
-    <string name="string_rtk_base">RTK-Basis</string>
+    <string name="string_rtk_base">RTK-Base</string>
     <!--  Used in file PointsFragment.java:99. Original value:Point from base  -->
-    <string name="string_point_from_base">Punkt von Basis</string>
+    <string name="string_point_from_base">Punkt von Base</string>
     <!--  Used in file TSPointActivity.java:796. Original value:can\'t change %d TS points!  -->
     <string name="string_can_t_change__d_ts_points_">kann %d TS Punkte nicht ändern!</string>
     <!--  Used in file RTKBaseActivity.java:185. Original value:Restore RTK Base  -->
-    <string name="string_restore_rtk_base">RTK-Basis wiederherstellen</string>
+    <string name="string_restore_rtk_base">RTK-Base wiederherstellen</string>
     <!--  Used in file CodesActivity.java:359. Original value:Text file group *.*  -->
     <string name="string_text_file_group____">Textdatei-Gruppe *.*</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:62. Original value:HR  -->
@@ -676,47 +676,49 @@
     <!--  Used in file PointsFragment.java:511. Original value:trajectory  -->
     <string name="string_trajectory">Trajektorie</string>
     <!--  Used in file TSPointsActivity.java:360. Original value:Can\'t add point %s to catalog!  -->
-    <string name="string_can_t_add_point__s_to_catalog_">Kann Punkt %s nicht zum Katalog hinzufügen!</string>
+    <string name="string_can_t_add_point__s_to_catalog_">Kann Punkt %s nicht zur Punktliste hinzufügen!</string>
     <!--  Used in file RTKBasesActivity.java:124. Original value:rtkbases  -->
     <string name="string_rtkbases">rtkbases</string>
     <!--  Used in file TSPointActivity.java:375. Original value:Dst:  -->
     <string name="string_dst_">Dst:</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:142. Original value:SimCard  -->
-    <string name="string_simcard">SimCard</string>
+    <string name="string_simcard">SIM-Karte</string>
     <!--  Used in file JobActivity.java:475. Original value:Job name is empty!  -->
-    <string name="string_job_name_is_empty_">Jobname ist leer!</string>
+    <string name="string_job_name_is_empty_">Name des Messjobs ist leer!</string>
     <!--  Used in file DesignPointsActivity.java:706. Original value:NetCAD *.ncn  -->
     <string name="string_netcad___ncn">NetCAD *.ncn</string>
+    <!--  Used in file DesignPointActivity.java:305. Original value:Wrong char in point name!  -->
+    <string name="string_wrong_char_in_point_name_">Wrong char in point name!</string>
     <!--  Used in file DataLocationActivity.java:502. Original value:Move old data to new location (remove previous)  -->
-    <string name="string_move_old_data_to_new_location__remove_previous_">Move old data to new location (remove previous)</string>
+    <string name="string_move_old_data_to_new_location__remove_previous_">Alte Daten an einen neuen Ort verschieben (vorherige entfernen)</string>
     <!--  Used in file PointsFragment.java:516. Original value:Drawing  -->
     <string name="string_drawing">Zeichnung</string>
     <!--  Used in file JobsActivity.java:298. Original value:Share Job  -->
-    <string name="string_share_job">Job teilen</string>
+    <string name="string_share_job">Messjob teilen</string>
     <!--  Used in file SurveyObject.java:586. Original value:Satellite Count  -->
-    <string name="string_satellite_count">Satellitenzählung</string>
+    <string name="string_satellite_count">Satellitenanzahl</string>
     <!--  Used in file DatabaseMapActivity.java:70. Original value:Survey Points  -->
     <string name="string_survey_points">Vermessungspunkte</string>
     <!--  Used in file JobsActivity.java:354. Original value:Share file with&#8230;  -->
-    <string name="string_share_file_with___">Datei freigeben mit&#8230;</string>
+    <string name="string_share_file_with___">Datei mit&#8230; teilen</string>
     <!--  Used in file RTKBaseActivity.java:399. Original value:And move all %d rover points from it  -->
-    <string name="string_and_move_all__d_rover_points_from_it">Und alle %d Roverpunkte daraus verschieben</string>
+    <string name="string_and_move_all__d_rover_points_from_it">Und alle %d Roverpunkte davon verschieben</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:98. Original value:MultiRTK Mode  -->
     <string name="string_multirtk_mode">MultiRTK-Modus</string>
     <!--  Used in file DataLocationActivity.java:579. Original value:Coppying data . . .  -->
-    <string name="string_coppying_data______">Coppying data . . .</string>
+    <string name="string_coppying_data______">Kopiere daten . . .</string>
     <!--  Used in file JobListAdapter.java:225. Original value:%d survey points  -->
     <string name="string__d_survey_points">%d Vermessungspunkte</string>
     <!--  Used in file ComplexObjectPolygonActivity.java:67. Original value: vertices  -->
     <string name="string__vertices"> Vermessungspunkte</string>
     <!--  Used in file JobDB.java:864. Original value:Please wait  -->
-    <string name="string_please_wait">Please wait</string>
+    <string name="string_please_wait">Bitte warten</string>
     <!--  Used in file TSPointsActivity.java:292. Original value:Delete %1$d selected points (of %2$d)  -->
     <string name="string_delete__1_d_selected_points__of__2_d_">Lösche %1$d ausgewählte Punkte (von %2$d)</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:147. Original value:Total Station  -->
-    <string name="string_total_station">Total Station</string>
+    <string name="string_total_station">Totalstation</string>
     <!--  Used in file JavadImport.java:477. Original value:Dwg is unsuppurted  -->
-    <string name="string_dwg_is_unsuppurted">Dwg ist unsupportiert</string>
+    <string name="string_dwg_is_unsuppurted">Dwg wird nicht unterstützt</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:98. Original value:autostop   -->
     <string name="string_autostop_">autostop </string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:53. Original value:Solution  -->
@@ -724,13 +726,13 @@
     <!--  Used in file DesignPointsActivity.java:709. Original value:Google KML *.kml  -->
     <string name="string_google_kml___kml">Google KML *.kml</string>
     <!--  Used in file JobActivity.java:203. Original value:Begin time  -->
-    <string name="string_begin_time">Beginn der Zeit</string>
+    <string name="string_begin_time">Startzeit</string>
     <!--  Used in file ArchiveJobFolderActivity.java:1063. Original value:Job Archiving is turned OFF  -->
-    <string name="string_job_archiving_is_turned_off">Job-Archivierung ist ausgeschaltet</string>
+    <string name="string_job_archiving_is_turned_off">Messjob-Archivierung ist ausgeschaltet</string>
     <!--  Used in file JobsActivity.java:288. Original value:Download Job  -->
-    <string name="string_download_job">Job herunterladen</string>
+    <string name="string_download_job">Messjob herunterladen</string>
     <!--  Used in file RTKBaseActivity.java:399. Original value:Do you want to move the RTK base for %1$s (dn:%2$s de:%3$s dh:%4$s)  -->
-    <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Wollen Sie die RTK-Basis für %1$s (dn:%2$s de:%3$s dh:%4$s) verschieben</string>
+    <string name="string_do_you_want_to_move_the_rtk_base_for__1_s__dn__2_s_de__3_s_dh__4_s_">Wollen Sie die RTK-Base für %1$s (dn:%2$s de:%3$s dh:%4$s) verschieben</string>
     <!--  Used in file ArchiveJobFolderActivity.java:962. Original value:Warning!  -->
     <string name="string_warning_">Warnung!</string>
     <!--  Used in file ExportAndReport.java:182. Original value:to Total Station (*.gsi;*.sdr;*.raw;*.pnez)  -->
@@ -740,15 +742,15 @@
     <!--  Used in file CodeActivity.java:387. Original value:Code number already exist!  -->
     <string name="string_code_number_already_exist_">Codenummer bereits vorhanden!</string>
     <!--  Used in file JobListAdapter.java:229. Original value:%d design points  -->
-    <string name="string__d_design_points">%d Entwurfspunkte</string>
+    <string name="string__d_design_points">%d Konstruierte Punkte</string>
     <!--  Used in file TSPointsActivity.java:358. Original value:Point %1$s was successfully added into catalog %2$s  -->
-    <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Punkt %1$s wurde erfolgreich in Katalog %2$s eingefügt</string>
+    <string name="string_point__1_s_was_successfully_added_into_catalog__2_s">Punkt %1$s wurde erfolgreich in Punktliste %2$s eingefügt</string>
     <!--  Used in file TSPointAntennaActivity.java:130. Original value:Wrong mark height!  -->
-    <string name="string_wrong_mark_height_">Falsche Markenhöhe!</string>
+    <string name="string_wrong_mark_height_">Falsche Markierungshöhe!</string>
     <!--  Used in file PointsFragment.java:623. Original value:View Images/Audios  -->
-    <string name="string_view_images_audios">Bilder/Audios anzeigen</string>
+    <string name="string_view_images_audios">Bilder/Tonaufzeichnungen anzeigen</string>
     <!--  Used in file RTKBase.java:167. Original value:Base ID #  -->
-    <string name="string_base_id">Basis ID #</string>
+    <string name="string_base_id">Base-ID #</string>
     <!--  Used in file DesignPointsActivity.java:712. Original value:RossReestr *.xml  -->
     <string name="string_rossreestr___xml">RossReestr *.xml</string>
     <!--  Used in file JobActivity.java:544. Original value:CH:%.3f  -->
@@ -756,14 +758,14 @@
     <!--  Used in file TSPointActivity.java:374. Original value:VA:  -->
     <string name="string_va_">VA:</string>
     <!--  Used in file JobsActivity.java:428. Original value:Downloading&#8230;  -->
-    <string name="string_downloading___">Downloaden&#8230;</string>
+    <string name="string_downloading___">Herunterladen&#8230;</string>
     <!--  Used in file ArchiveJobFolderActivity.java:932. Original value:Folder %s doesn\'t exist!  -->
     <string name="string_folder__s_doesn_t_exist_">Der Ordner %s existiert nicht!</string>
     <!--  Used in file CodesActivity.java:644. Original value:JustinLink classificator *.jlc  -->
     <string name="string_justinlink_classificator___jlc">JustinLink-Klassifikator *.jlc</string>
     <!--  Used in file CodesActivity.java:251. Original value:Delete Code %s  -->
     <string name="string_delete_code__s">Code %s löschen</string>
-    <!--  Used in file DesignPointActivity.java:473. Original value:Do you want to set code \'%1$s\' for all %2$d points?  -->
+    <!--  Used in file DesignPointActivity.java:483. Original value:Do you want to set code \'%1$s\' for all %2$d points?  -->
     <string name="string_do_you_want_to_set_code___1_s__for_all__2_d_points_">Möchten Sie den Code \'%1$s\' für alle %2$d Punkte setzen?</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:68. Original value:PDOP  -->
     <string name="string_pdop">PDOP</string>
@@ -774,9 +776,9 @@
     <!--  Used in file RTKBase.java:155. Original value:Time  -->
     <string name="string_time">Zeit</string>
     <!--  Used in file DatabaseMapActivity.java:70. Original value:Design Points  -->
-    <string name="string_design_points">Entwurf Punkte</string>
+    <string name="string_design_points">Konstruierte Punkte</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:107. Original value:Correction Source  -->
-    <string name="string_correction_source">Korrektur Quelle</string>
+    <string name="string_correction_source">Korrekturdatenquelle</string>
     <!--  Used in file ExportAndReport.java:186. Original value:Report (*.*)  -->
     <string name="string_report______">Bericht (*.*)</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:125. Original value:FH USA  -->
@@ -784,31 +786,31 @@
     <!--  Used in file SurveyPointSurveyInfoActivity.java:77. Original value:Jps file  -->
     <string name="string_filename">Jps-Datei</string>
     <!--  Used in file TSPoint.java:292. Original value:Instrument Height  -->
-    <string name="string_instrument_height">Gerätehöhe</string>
+    <string name="string_instrument_height">Instrumentenhöhe</string>
     <!--  Used in file DataLocationActivity.java:504. Original value:Move old data and merge with new  -->
-    <string name="string_move_old_data_and_merge_with_new">Move old data and merge with new</string>
+    <string name="string_move_old_data_and_merge_with_new">Alte Daten verschieben und mit neuen zusammenführen</string>
     <!--  Used in file SurveyPointAntennaActivity.java:144. Original value:Antenna Id is not selected!  -->
-    <string name="string_antenna_id_is_not_selected_">Antennen-Id ist nicht ausgewählt!</string>
+    <string name="string_antenna_id_is_not_selected_">Antennen-ID ist nicht ausgewählt!</string>
     <!--  Used in file TSPointSurveyInfoActivity.java:61. Original value:Mark  -->
     <string name="string_mark">Markierung</string>
     <!--  Used in file ExportAndReport.java:177. Original value:AutoCad Drawing (*.dxf)  -->
     <string name="string_autocad_drawing____dxf_">AutoCad-Zeichnung (*.dxf)</string>
     <!--  Used in file SurveyObject.java:854. Original value:Correction Source Protocol  -->
-    <string name="string_correction_source_protocol">Korrektur Quellenprotokoll</string>
+    <string name="string_correction_source_protocol">Protokoll der Korrekturdatenquelle</string>
     <!--  Used in file ExportAndReport.java:2786. Original value:Can\'t share file!  -->
-    <string name="string_can_t_share_file_">Kann die Datei nicht freigeben!</string>
+    <string name="string_can_t_share_file_">Kann die Datei nicht teilen!</string>
     <!--  Used in file PointsFragment.java:612. Original value:View/Edit %s  -->
     <string name="string_view_edit__s">Anzeigen/Bearbeiten %s</string>
     <!--  Used in file SurveyPointActivity.java:417. Original value:D=  -->
     <string name="string_d_">D=</string>
     <!--  Used in file DataLocationActivity.java:530. Original value:Cancel change  -->
-    <string name="string_cancel_change">Cancel change</string>
+    <string name="string_cancel_change">Änderung abbrechen</string>
     <!--  Used in file JobsActivity.java:285. Original value:Select Job  -->
-    <string name="string_select_job">Job auswählen</string>
+    <string name="string_select_job">Messjob auswählen</string>
     <!--  Used in file SurveyObject.java:722. Original value:Inclination Martix Controller  -->
-    <string name="string_inclination_martix_controller">Neigung Martix Controller</string>
+    <string name="string_inclination_martix_controller">Neigungs-Matrix Controller</string>
     <!--  Used in file SurveyPointSurveyInfoActivity.java:76. Original value:Hybrid RTK  -->
-    <string name="string_hybrid_rtk">Hybrid RTK</string>
+    <string name="string_hybrid_rtk">Hybrid-RTK</string>
     <!--  Used in file SurveyPointListAdapter.java:231. Original value:%d vertices  -->
     <string name="string__d_vertices">%d Scheitelpunkte</string>
     <!--  Used in file JobActivity.java:538. Original value:AH:%.3f  -->
@@ -818,10 +820,10 @@
     <!--  Used in file ExportAndReport.java:184. Original value:Sokkia SDR33 *.sdr  -->
     <string name="string_sokkia_sdr33___sdr">Sokkia SDR33 *.sdr</string>
     <!--  Used in file PointsFragment.java:912. Original value:Can\'t add points to catalog!  -->
-    <string name="string_can_t_add_points_to_catalog_">Kann keine Punkte zum Katalog hinzufügen!</string>
+    <string name="string_can_t_add_points_to_catalog_">Kann der Punktliste keine Punkte hinzufügen!</string>
     <!--  Used in file SurveyPointActivity.java:440. Original value:Base dist:  -->
-    <string name="string_base_dist_">Basis dist:</string>
-    <!--  Used in file DesignPointActivity.java:299. Original value:Point %s already exists!  -->
+    <string name="string_base_dist_">Base dist:</string>
+    <!--  Used in file DesignPointActivity.java:309. Original value:Point %s already exists!  -->
     <string name="string_point__s_already_exists_">Punkt %s existiert bereits!</string>
     <!--  Used in file PointsFragment.java:1180. Original value:Do you want to delete %1$d %2$s?  -->
     <string name="string_do_you_want_to_delete__1_d__2_s_">Wollen Sie %1$d %2$s löschen?</string>

@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Used in file activity_corrections.xml:36. Original value:Start Corrs.    -->
-    <string name="button_start_corrections">Starten Sie Corrs.</string>
+    <string name="button_start_corrections">Korrekturdaten starten</string>
     <!-- Used in file rtk_base_uhf.xml:47. Original value:Use Repeater    -->
     <string name="use_repeater">Repeater verwenden</string>
     <!-- Used in file offsets2_with_stakeout_dark.xml:10. Original value:Trajectories    -->
@@ -16,13 +16,13 @@
     <!-- Used in file StakeoutRTK.java:3082. Original value:STT    -->
     <string name="text_stt">STT</string>
     <!-- Used in file rtk_base_nethub.xml:179. Original value:Set from Ntrip Server    -->
-    <string name="set_from_server_settings">Vom Ntrip-Server einstellen</string>
+    <string name="set_from_server_settings">Vom Ntrip-Server setzen</string>
     <!-- Used in file activity_satellite_types.xml:237. Original value:Use Measurements in RTK    -->
     <string name="string_use_signals">Messungen in RTK verwenden</string>
     <!-- Used in file rtk_base_nethub.xml:254. Original value:APN    -->
     <string name="gprs_apn">APN</string>
     <!-- Used in file stakeout_settings.xml:290. Original value:Correct by Tilt    -->
-    <string name="correct_by_compass_and_levels">Nach Neigung korrigieren</string>
+    <string name="correct_by_compass_and_levels">Neigungskorrektur</string>
     <!-- Used in file activity_configure_uhf2.xml:1173. Original value:Trimmark II/IIe params.    -->
     <string name="trimmarkii_protocol_parameters">Trimmark II/IIe params.</string>
     <!-- Used in file activity_satellite_types.xml:311. Original value:GPS    -->
@@ -36,25 +36,21 @@
     <!-- Used in file rtk_base_nethub.xml:209. Original value:RCV Client IP/Address    -->
     <string name="rcvclient_address">RCV-Client IP/Adresse</string>
     <!-- Used in file activity_power.xml:154. Original value:Enable Power Output    -->
-    <string name="enable_power_output">Enable Power Output</string>
-    <!-- Used in file activity_jcors.xml:51. Original value:Receiver Id    -->
-    <string name="string_receiver_id">Receiver Id</string>
+    <string name="enable_power_output">Stromausgabe aktivieren</string>
     <!-- Used in file rtk_base_nethub.xml:259. Original value:User    -->
-    <string name="gprs_user">Benutzer</string>
-    <!-- Used in file activity_jcors.xml:119. Original value:LogOut receiver JCORS    -->
-    <string name="button_unregister_jcors">LogOut Empfänger JCORS</string>
+    <string name="gprs_user">Anwender</string>
     <!-- Used in file RTKSetupActivity.java:435. Original value:Read CS from %s and set as Ref.Frame and Job CS    -->
-    <string name="read_cs_from_vrs_2">CS aus %s lesen und als Ref.Frame und Job CS setzen</string>
+    <string name="read_cs_from_vrs_2">KS aus %s lesen und als Ref.Rahmen und Messjob KS setzen</string>
     <!-- Used in file CalibrationActivity.java:916. Original value:Grd.Azimuth    -->
     <string name="grid_azimuth">Grd.Azimut</string>
     <!-- Used in file SurveyModel.java:696. Original value:RTCM3 coordinate system is different Reference Frame!    -->
-    <string name="rtcm3cs_mismatch2">RTCM3-Koordinatensystem ist anderer Reference Frame!</string>
+    <string name="rtcm3cs_mismatch2">RTCM3-Koordinatensystem ist anderer Referenzrahmen!</string>
     <!-- Used in file RCVBaseStaticIPPreferenceFragment.java:829. Original value:IP    -->
     <string name="lan_ip">IP</string>
     <!-- Used in file rtk_base_nethub.xml:196. Original value:Ntrip Client Mount Point    -->
-    <string name="ntripclient_mount_point">Ntrip Client Belegungspunkt</string>
+    <string name="ntripclient_mount_point">Ntrip Client Mountpoint</string>
     <!-- Used in file StartStationQuickActivity.java:303. Original value:Cannot convert occupation point to cws!    -->
-    <string name="cant_convert_occupation_point_to_cws">Kann Belegungspunkt nicht nach cws konvertieren!</string>
+    <string name="cant_convert_occupation_point_to_cws">Kann Beobachtungspunkt nicht nach cws konvertieren!</string>
     <!-- Used in file BaseSurveyStakeoutFromActivity.java:678. Original value:Traj.Name    -->
     <string name="trajectory_name">Traj.Name</string>
     <!-- Used in file rtk_base_uhf.xml:229. Original value:Check Settings    -->
@@ -66,7 +62,7 @@
     <!-- Used in file rtk_base_rcv.xml:21. Original value:IP Address/DNS    -->
     <string name="address">IP-Adresse/DNS</string>
     <!-- Used in file activity_last_point_names.xml:13. Original value:This is list of last names used in the job. Click to an item to set name with next index    -->
-    <string name="last_name_help">Dies ist eine Liste der im Auftrag verwendeten Nachnamen. Klicken Sie auf ein Element, um den Namen mit dem nächsten Index zu setzen</string>
+    <string name="last_name_help">Dies ist eine Liste der letzten im Auftrag verwendeten Bezeichner. Klicken Sie auf ein Element, um den Namen mit dem nächsten Index zu setzen</string>
     <!-- Used in file stakeout_settings.xml:267. Original value:CONTROL    -->
     <string name="title_control">STEUERUNG</string>
     <!-- Used in file rtk_base_nethub.xml:193. Original value:Ntrip Client Password    -->
@@ -84,13 +80,11 @@
     <!-- Used in file SurveyingActivity.java:128. Original value:epochs collected    -->
     <string name="epochs_collected2">Epochen gesammelt</string>
     <!-- Used in file stakeout_settings.xml:175. Original value:Multi RTK runs several RTK engines simultinously    -->
-    <string name="multi_rtk_summary">Mehrfach RTK lässt mehrere RTK-Engines gleichzeitig laufen</string>
+    <string name="multi_rtk_summary">Multi-RTK lässt mehrere RTK-Engines gleichzeitig laufen</string>
     <!-- Used in file activity_rtk_setup.xml:127. Original value:Configure    -->
     <string name="button_configure">Konfigurieren Sie</string>
     <!-- Used in file activity_configure_fh.xml:94. Original value:USA zone parameters    -->
     <string name="usa_zone_parameters">USA Zonenparameter</string>
-    <!-- Used in file activity_jcors.xml:136. Original value:Base Corrections    -->
-    <string name="rtk_base_corrections">Basis-Korrekturen</string>
     <!-- Used in file home_map_survey.xml:23. Original value:Stop RTK    -->
     <string name="string_rtk_stop">RTK stoppen</string>
     <!-- Used in file DrawWhiteBox.java:3269. Original value:Sat.System    -->
@@ -98,13 +92,13 @@
     <!-- Used in file map_stakeout.xml:22. Original value:List    -->
     <string name="string_list_menu">Liste</string>
     <!-- Used in file stakeout_settings.xml:200. Original value:Remove result files    -->
-    <string name="remove_result_files">Remove result files</string>
+    <string name="remove_result_files">Ergebnisdateien entfernen</string>
     <!-- Used in file imu_settings.xml:50. Original value:Start/Stop Raw File with IMU data    -->
-    <string name="start_stop_raw_file_imu">Start/Stop Raw File with IMU data</string>
+    <string name="start_stop_raw_file_imu">Start/Stop Rohdaten mit IMU-Daten</string>
     <!-- Used in file settings_sounds.xml:200. Original value:All epochs are collected at Lift/Titl survey    -->
-    <string name="lift_and_tilt_all_epochs_collected">Alle Epochen werden bei der Vermessung von Lift/Titl erfasst</string>
+    <string name="lift_and_tilt_all_epochs_collected">Alle Epochen werden bei der Vermessung von Lift/Tilt erfasst</string>
     <!-- Used in file DrawWhiteBox.java:3232. Original value:RTK Corrections    -->
-    <string name="rtk_corrections">RTK-Korrekturen</string>
+    <string name="rtk_corrections">RTK-Korrekturdaten</string>
     <!-- Used in file settings_sounds.xml:123. Original value:Survey Completed    -->
     <string name="survey_complete">Vermessung abgeschlossen</string>
     <!-- Used in file job_info.xml:17. Original value:Debug    -->
@@ -112,7 +106,7 @@
     <!-- Used in file CompassLevelsSettingsPreferenceFragment.java:141. Original value:Wrong maximum corrected tilt angle!    -->
     <string name="wrong_maximum_corrected_tilt_angle">Falscher maximaler korrigierter Neigungswinkel!</string>
     <!-- Used in file RTKBaseSettingsActivity.java:392. Original value:JAVAD JMT-R works only with athorized GNSS Receivers!    -->
-    <string name="jmtr_oaf_title">JAVAD JMT-R arbeitet nur mit athorisierten GNSS-Empfängern!</string>
+    <string name="jmtr_oaf_title">JAVAD JMT-R arbeitet nur mit autorisierten GNSS-Empfängern!</string>
     <!-- Used in file quattro_info.xml:9. Original value:Angle Determinatioin    -->
     <string name="quattro_angle_determination">Winkelbestimmung</string>
     <!-- Used in file activity_stakeout.xml:47. Original value:Next    -->
@@ -122,10 +116,9 @@
     <!-- Used in file activity_start_station_quick.xml:109. Original value:Start Station    -->
     <string name="button_start_station">Start Station</string>
     <!-- Used in file rtk_base_nethub.xml:269. Original value:WiFi SSID    -->
-    <string name="wlan_ssid">WiFi SSID</string>
+    <string name="wlan_ssid">WLAN SSID</string>
     <!-- Used in file activity_configure_wifi_from_style.xml:118. Original value:IP Address/DNS    -->
     <string name="ip_address">IP-Adresse/DNS</string>
-    <!-- Used in file null:0. Original value:GE HT1    -->
     <!-- Used in file StartStationQuickActivity.java:299. Original value:BackSight point is not set!    -->
     <string name="backsight_point_is_not_set">BackSight-Punkt ist nicht eingestellt!</string>
     <!-- Used in file CalibrationActivity.java:1121. Original value:Gyro OK    -->
@@ -142,7 +135,7 @@
     <string name="instrument_height">Gerätehöhe</string>
     <!-- Used in file settings_sounds.xml:222. Original value:Screen Lock    -->
     <string name="screen_locked">Bildschirm sperren</string>
-    <!-- Used in file SurveyingRTK.java:1766. Original value:RTK is ready, but no RTPK data    -->
+    <!-- Used in file SurveyingRTK.java:1767. Original value:RTK is ready, but no RTPK data    -->
     <string name="rtk_only_data_collected">RTK is ready, but no RTPK data</string>
     <!-- Used in file activity_surveying_sng.xml:294. Original value:Close File    -->
     <string name="button_close_file">Datei schließen</string>
@@ -150,8 +143,6 @@
     <string name="survey_job_name">JOB-NAME</string>
     <!-- Used in file activity_survey_style.xml:21. Original value:Select    -->
     <string name="string_select">Wählen Sie</string>
-    <!-- Used in file activity_jcors.xml:13. Original value:JAVAD JCORS is a service for correction exchange between RTK Base and RTK Rover.\nNo static IP is required.\nTo work with the service your device should be registered in JCORS.    -->
-    <string name="about_jcors">JAVAD JCORS ist ein Dienst für den Korrekturaustausch zwischen RTK Base und RTK Rover.\nEine statische IP ist nicht erforderlich.\nUm mit dem Dienst zu arbeiten, sollte Ihr Gerät in JCORS registriert sein.</string>
     <!-- Used in file settings_sounds.xml:228. Original value:Screen UnLock    -->
     <string name="screen_unlocked">Bildschirm entsperren</string>
     <!-- Used in file SurveyModel.java:696. Original value:RTCM3 coordinate system is different Job CS!    -->
@@ -242,7 +233,7 @@
     <string name="wifi_ssid">WiFi SSID</string>
     <!-- Used in file receiver_info.xml:18. Original value:Power Of Board, V    -->
     <string name="receiver_power_board">Leistung der Karte, V</string>
-    <!-- Used in file SurveyingRTK.java:1620. Original value:Can\'t read RTK Base Info!    -->
+    <!-- Used in file SurveyingRTK.java:1621. Original value:Can\'t read RTK Base Info!    -->
     <string name="cant_read_rtk_base">Kann RTK Base Info nicht lesen!</string>
     <!-- Used in file ConfigureNtripActivity.java:419. Original value:dev/ser/b AUX Port changed to dev/tcpcl/a for Triumph-3    -->
     <string name="dev_ser_b_changed_to_dev_tcpcl_a_for_triumph_3">dev/ser/b AUX Port geändert in dev/tcpcl/a für Triumph-3</string>
@@ -278,7 +269,7 @@
     <string name="start_compass_calibration">Start\nKompass\nKalibrierung</string>
     <!-- Used in file status_bar.xml:70. Original value:battery    -->
     <string name="battery">Batterie</string>
-    <!-- Used in file SurveyingRTK.java:2221. Original value:Code is required! But did not set!    -->
+    <!-- Used in file SurveyingRTK.java:2222. Original value:Code is required! But did not set!    -->
     <string name="code_is_required">Code wird benötigt! Wurde aber nicht gesetzt!</string>
     <!-- Used in file activity_calibrate.xml:62. Original value:S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
     <string name="start_compass_calibration_land">S\nt\na\nr\nt\n \nC\no\nm\np\na\ns\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
@@ -292,7 +283,7 @@
     <string name="string_settings">Einstellungen</string>
     <!-- Used in file stakeout_settings.xml:174. Original value:MULTI RTK    -->
     <string name="title_multi_rtk">Mehrfach RTK</string>
-    <!-- Used in file SurveyingRTK.java:1291. Original value:Error of taking photo!    -->
+    <!-- Used in file SurveyingRTK.java:1292. Original value:Error of taking photo!    -->
     <string name="error_take_photo">Fehler beim Fotografieren!</string>
     <!-- Used in file survey_settings.xml:239. Original value:Use ENTER key for survey    -->
     <string name="string_use_enter_keyboard_for_survey">Use ENTER key for survey</string>
@@ -304,8 +295,6 @@
     <string name="text_averaging_small">Mittelwertbildung\n\n</string>
     <!-- Used in file StartStationResectionActivity.java:571. Original value:Occupation Point is not Selected!    -->
     <string name="oc_is_not_selected">Belegungspunkt ist nicht ausgewählt!</string>
-    <!-- Used in file activity_jcors.xml:99. Original value:Refresh Token    -->
-    <string name="string_refresh_token">Token aktualisieren</string>
     <!-- Used in file rtk_base_uhf.xml:22. Original value:Scan UHF    -->
     <string name="button_scan_uhf">UHF scannen</string>
     <!-- Used in file StartSurveyActivity.java:417. Original value:Receiver is not connected!    -->
@@ -528,7 +517,7 @@
     <string name="imu_motion_interval">IMU Motion Interval, sec</string>
     <!-- Used in file activity_stakeout_surface_target.xml:61. Original value:Station    -->
     <string name="string_station">Station</string>
-    <!-- Used in file SurveyingRTK.java:1534. Original value:Lift and Tilt mode Deactivated    -->
+    <!-- Used in file SurveyingRTK.java:1535. Original value:Lift and Tilt mode Deactivated    -->
     <string name="lift_and_tilt_mode_deactivated">Hebe- und Neigemodus Deaktiviert</string>
     <!-- Used in file receiver_info.xml:14. Original value:Processor Frequency, MHz    -->
     <string name="receiver_processor_freq">Prozessor-Frequenz, MHz</string>
@@ -568,7 +557,6 @@
     <string name="text_solution_type">Lösung\n</string>
     <!-- Used in file rtk_base.xml:82. Original value:Read Coordinates From Catalog    -->
     <string name="get_from_catalog_summary">Koordinaten aus Katalog lesen</string>
-    <!-- Used in file null:0. Original value:GT Length    -->
     <!-- Used in file DebugActivity.java:220. Original value:Stop and Send Debug    -->
     <string name="button_stop_send_debug">Debug anhalten und senden</string>
     <!-- Used in file activity_stakeout_line_target.xml:186. Original value:Along    -->
@@ -597,14 +585,13 @@
     <string name="set_coordinate">Koordinaten setzen</string>
     <!-- Used in file map_survey.xml:49. Original value:Modelspace Color    -->
     <string name="action_back_color">Modellraum Farbe</string>
-    <!-- Used in file null:0. Original value:LE HT0    -->
     <!-- Used in file verify_settings.xml:44. Original value:Number of Groups    -->
     <string name="verify_number_of_groups">Anzahl der Gruppen</string>
     <!-- Used in file stakeout_settings.xml:118. Original value:Switch between antenna input    -->
     <string name="antenna_type_summary">Umschalten zwischen Antenneneingang</string>
     <!-- Used in file verify_settings.xml:52. Original value:Tolerance between groups    -->
     <string name="verify_tolerance_between_groups">Toleranz zwischen Gruppen</string>
-    <!-- Used in file SurveyingRTK.java:2259. Original value:Can\'t setup elevation mask!    -->
+    <!-- Used in file StakeoutSettingsActivity.java:218. Original value:Can\'t setup elevation mask!    -->
     <string name="cant_setup_elevation_mask">Kann keine Elevationsmaske einrichten!</string>
     <!-- Used in file quattro_attitude.xml:10. Original value:Distance BC    -->
     <string name="quattro_distance_bc">Abstand BC</string>
@@ -630,8 +617,7 @@
     <string name="rtcm30_min">RTCM 3.0 Min (nur GPS+GLO)</string>
     <!-- Used in file activity_configure_uhf2.xml:751. Original value:Frequency, Hz    -->
     <string name="frequency_hz">Frequenz, Hz</string>
-    <!-- Used in file JCorsActivity.java:154. Original value:This receiver is not registered in JCORS!\nDo you want to register the receiver in JCors?    -->
-    <string name="device_is_unregistered_warning">Dieser Empfänger ist nicht in JCORS registriert!\n Wollen Sie den Empfänger in JCors registrieren?</string>
+    <string name="frequency_mhz">Frequenz, MHz</string>
     <!-- Used in file stakeout.xml:10. Original value:Average    -->
     <string name="action_average">Durchschnitt</string>
     <!-- Used in file activity_configure_ntrip.xml:130. Original value:Source Table    -->
@@ -654,8 +640,6 @@
     <string name="text_zoom_target">Ziel</string>
     <!-- Used in file verify_settings.xml:43. Original value:Number of Groups    -->
     <string name="verify_number_of_groups_summary">Anzahl der Gruppen</string>
-    <!-- Used in file activity_jcors.xml:83. Original value:Access Token    -->
-    <string name="string_access_token">Zugriff Token</string>
     <!-- Used in file rtk_base_nethub.xml:45. Original value:TCP B    -->
     <string name="correction_type_tcp_b">TCP B</string>
     <!-- Used in file rtk_base_nethub.xml:50. Original value:TCP C    -->
@@ -676,7 +660,7 @@
     <string name="hibrid_rtk_description">Hybrid-RTK speichert Rohdaten für jeden Punkt als separate Datei, um sie dann auf DPOS zu verarbeiten, wenn kein RTK-Fix für eine bestimmte Zeit vorliegt</string>
     <!-- Used in file quattro_info.xml:6. Original value:RMS Heading    -->
     <string name="quattro_rms_heading">RMS-Kurs</string>
-    <!-- Used in file SurveyingRTK.java:2255. Original value:Wrong elevation mask!    -->
+    <!-- Used in file StakeoutSettingsActivity.java:214. Original value:Wrong elevation mask!    -->
     <string name="wrong_elevation_mask">Falsche Elevationsmaske!</string>
     <!-- Used in file stakeout_settings.xml:260. Original value:RTCM3 CS    -->
     <string name="rtcm3_cs">RTCM3 CS</string>
@@ -699,7 +683,7 @@
     <!-- Used in file stakeout_settings.xml:203. Original value:RTPK/RTK Mode    -->
     <string name="rtpk_mode">RTPK/RTK-Modus</string>
     <!-- Used in file activity_stakeout.xml:370. Original value:Survey\n\n    -->
-    <string name="text_survey">Umfrage</string>
+    <string name="text_survey">Messen</string>
     <!-- Used in file rtk_base.xml:87. Original value:Set Coordinates To Receiver Without Radio Setup    -->
     <string name="set_coordinate_summary">Koordinaten auf Empfänger ohne Funkeinstellung setzen</string>
     <!-- Used in file backsite_row.xml:159. Original value:HA    -->
@@ -754,8 +738,6 @@
     <string name="wrong_antenna_vertical_offset">Falscher vertikaler Antennenversatz!</string>
     <!-- Used in file MapStakeoutActivity.java:1280. Original value:Left    -->
     <string name="text_left">Links</string>
-    <!-- Used in file activity_jcors.xml:67. Original value:Tenate Id    -->
-    <string name="string_tenateid">Tenate Id</string>
     <!-- Used in file stakeout_settings.xml:237. Original value:Detect Rover movement during survey    -->
     <string name="string_detect_rover_move">Rover-Bewegung während der Vermessung erkennen</string>
     <!-- Used in file rtk_base_csd.xml:3. Original value:Direct Call (CSD)    -->
@@ -785,7 +767,7 @@
     <!-- Used in file rtk_base_nethub.xml:201. Original value:Ntrip Corrections    -->
     <string name="ntripserver_message_set">NTrip-Korrekturen</string>
     <!-- Used in file home_map_surveyonmap.xml:47. Original value:Survey    -->
-    <string name="action_survey">Umfrage</string>
+    <string name="action_survey">Messen</string>
     <!-- Used in file backsite_row.xml:80. Original value:HR    -->
     <string name="string_hr_string">HR</string>
     <!-- Used in file SurveyStyleInformationActivity.java:138. Original value:Fixed Only    -->
@@ -814,8 +796,6 @@
     <string name="use_epochs">Positionsgenauigkeit</string>
     <!-- Used in file receiver_info.xml:24. Original value:Status of External Antenna    -->
     <string name="receiver_antenna_dc">Status der externen Antenne</string>
-    <!-- Used in file activity_jcors.xml:127. Original value:Read RTK Rover Settings from JCORS    -->
-    <string name="button_read_rover_jcors">Lesen der RTK-Rover-Einstellungen aus JCORS</string>
     <!-- Used in file receiver_info.xml:15. Original value:Receiver Board Temperature,\u00b0C    -->
     <string name="receiver_board_temp">Temperatur der Empfängerplatine,\u00b0C</string>
     <!-- Used in file average_ts_mode.xml:5. Original value:ReMeasure    -->
@@ -930,8 +910,6 @@
     <string name="duo_hd_length">HD Länge</string>
     <!-- Used in file SurveySettingsPreferenceFragment.java:435. Original value:OAF is required for RTPK    -->
     <string name="rtpk_no_oaf">OAF wird für RTPK benötigt</string>
-    <!-- Used in file JCorsActivity.java:155. Original value:Register JCORS    -->
-    <string name="button_register_on_jcors">Register JCORS</string>
     <!-- Used in file settings_sounds.xml:46. Original value:Epoch Rejected by Solution Type Fix    -->
     <string name="epoch_rejected_solution_type">Epoche von Lösungstyp abgelehnt Fix</string>
     <!-- Used in file activity_nmea.xml:128. Original value:Disable Messages    -->
@@ -968,7 +946,6 @@
     <string name="elapsed_time">Verstrichene Zeit</string>
     <!-- Used in file offset_survey.xml:156. Original value:Store Offset    -->
     <string name="button_store_offset">Offset speichern</string>
-    <!-- Used in file null:0. Original value:Increment:    -->
     <!-- Used in file content_home_map_stakeoutonmap_top.xml:101. Original value:NTT    -->
     <string name="text_ntt_map">NTT</string>
     <!-- Used in file settings_sounds.xml:151. Original value:RTK Fix Ready    -->
@@ -991,9 +968,11 @@
     <string name="string_ddoppl">dDoppl</string>
     <!-- Used in file SurveyModel.java:788. Original value:Can\'t obtain current receiver time!    -->
     <string name="cant_read_receivertime_to_program">Kann die aktuelle Empfängerzeit nicht erhalten!</string>
+    <!-- Used in file SurveyingRTK.java:2259. Original value:Wrong char in name!    -->
+    <string name="wrong_char_in_site_name">Wrong char in name!</string>
     <!-- Used in file offset_survey.xml:30. Original value:P1    -->
     <string name="string_p1">P1</string>
-    <!-- Used in file SurveyingRTK.java:1745. Original value:Verify in not finished. Do you want to store an intermidiate position?    -->
+    <!-- Used in file SurveyingRTK.java:1746. Original value:Verify in not finished. Do you want to store an intermidiate position?    -->
     <string name="verify_in_not_finished">Verify in nicht beendet. Möchten Sie eine Zwischenposition speichern?</string>
     <!-- Used in file receiver_info.xml:9. Original value:Firmware Version    -->
     <string name="receiver_firmware_version">Firmware-Version</string>
@@ -1059,7 +1038,7 @@
     <string name="string_use_external_bluetooth_control_for_survey">Bluetooth-Fernsteuerung für Vermessung verwenden</string>
     <!-- Used in file activity_configure_uhf2.xml:1222. Original value:Trimtalk 3 params.    -->
     <string name="trimmark3_protocol_parameters">Trimtalk 3 Params.</string>
-    <!-- Used in file SurveyingRTK.java:1622. Original value:Continue without RTK base    -->
+    <!-- Used in file SurveyingRTK.java:1623. Original value:Continue without RTK base    -->
     <string name="continue_without_base">Continue without RTK base</string>
     <!-- Used in file CalibrationActivity.java:815. Original value:Take device into your hand rotate it in all directions    -->
     <string name="compass_calibration_prepared">Nehmen Sie das Gerät in die Hand und drehen Sie es in alle Richtungen</string>
@@ -1133,10 +1112,8 @@
     <string name="receiver_files_summury">Empfänger-Dateimanager</string>
     <!-- Used in file StartStationQuickActivity.java:306. Original value:Cannot convert backsight point to cws!    -->
     <string name="cant_convert_backsight_point_to_cws">Kann Backsight-Punkt nicht in cws konvertieren!</string>
-    <!-- Used in file SurveyingRTK.java:1619. Original value:Warning    -->
+    <!-- Used in file SurveyingRTK.java:1620. Original value:Warning    -->
     <string name="no_rtkbase_warning_dialog_title">Warning</string>
-    <!-- Used in file activity_jcors.xml:151. Original value:Create RTK Base in JCORS    -->
-    <string name="button_read_base_jcors">RTK-Basis in JCORS anlegen</string>
     <!-- Used in file source_table_row_dark.xml:133. Original value:VRS    -->
     <string name="vrs">VRS</string>
     <!-- Used in file verify_settings.xml:5. Original value:Verify Mode    -->
@@ -1145,8 +1122,6 @@
     <string name="magnetic_azimuth">Mag.Azimut</string>
     <!-- Used in file ts_activity_antenna.xml:73. Original value:Use vertical offset    -->
     <string name="antenna_use_vertical_offset">Vertikalen Versatz verwenden</string>
-    <!-- Used in file JCorsActivity.java:116. Original value:Do you want to unregister the receiver from JCORS?    -->
-    <string name="device_logout_warning">Wollen Sie den Empfänger von JCORS abmelden?</string>
     <!-- Used in file rtk_base_uhf.xml:136. Original value:Error Correction(FEC)    -->
     <string name="error_correction">Fehlerkorrektur(FEC)</string>
     <!-- Used in file map_stakeout.xml:8. Original value:Eye    -->
@@ -1164,7 +1139,7 @@
     <!-- Used in file imu_settings.xml:11. Original value:IMU Mode    -->
     <string name="title_imu_mode">IMU Mode</string>
     <!-- Used in file home_map_survey.xml:55. Original value:Orginize View    -->
-    <string name="action_orginize_view">Orginize einrichten</string>
+    <string name="action_organize_view">Organize einrichten</string>
     <!-- Used in file satellite_row_header.xml:21. Original value:Ant    -->
     <string name="antenna_short">Ameise</string>
     <!-- Used in file stakeout_settings.xml:135. Original value:Use vertical offset    -->
@@ -1223,6 +1198,7 @@
     <string name="target_line_small">Linie Ziel</string>
     <!-- Used in file activity_satellite_types.xml:40. Original value:Use    -->
     <string name="string_use_sats">verwenden</string>
+    <string name="string_view_sats">View</string>
     <!-- Used in file SurveyModel.java:2002. Original value:1 minute    -->
     <string name="minute">1 Minute</string>
     <!-- Used in file status_bar.xml:121. Original value:LQ    -->
@@ -1237,7 +1213,7 @@
     <string name="string_accept_title_settings">Epochen mit Neigung akzeptieren</string>
     <!-- Used in file job_info.xml:9. Original value:Save Log    -->
     <string name="save_log">Log speichern</string>
-    <!-- Used in file SurveyingRTK.java:1747. Original value:Verify is not finily finished    -->
+    <!-- Used in file SurveyingRTK.java:1748. Original value:Verify is not finily finished    -->
     <string name="verify_no_data_data_collected">Verify ist noch nicht endgültig abgeschlossen</string>
     <!-- Used in file settings_sounds.xml:193. Original value:Any epoch is collected at Lift/Titl survey    -->
     <string name="lift_and_tilt_any_epoch_collected">Jede Epoche wird bei der Heben/Neigen-Messung erfasst</string>
@@ -1311,8 +1287,6 @@
     <string name="record_rate">Aufnahmerate</string>
     <!-- Used in file RCVBaseStaticIPPreferenceFragment.java:834. Original value:Mask    -->
     <string name="lan_mask">Maske</string>
-    <!-- Used in file activity_jcors.xml:28. Original value:Receiver    -->
-    <string name="string_receiver_model_sn">Empfänger</string>
     <!-- Used in file activity_configure_gprs.xml:54. Original value:Hot Start    -->
     <string name="hot_start">Heißer Start</string>
     <!-- Used in file StakeoutRTK.java:4068. Original value:\u2195    -->
@@ -1329,7 +1303,7 @@
     <string name="not_enough_memory">Nicht genug Speicher im Receiver!</string>
     <!-- Used in file StartStationResectionActivity.java:1333. Original value:Cannot save station to job!    -->
     <string name="cant_save_station_to_controller">Kann Sender nicht in Auftrag speichern!</string>
-    <!-- Used in file SurveyingRTK.java:1628. Original value:Stop survey    -->
+    <!-- Used in file SurveyingRTK.java:1629. Original value:Stop survey    -->
     <string name="stop_survey">Stop survey</string>
     <!-- Used in file settings_sounds.xml:67. Original value:Epoch Rejected by Tilt    -->
     <string name="epoch_rejected_tilt">Epoche wird durch Neigung abgelehnt</string>
@@ -1397,8 +1371,6 @@
     <string name="nmea_enable">Enable Messages</string>
     <!-- Used in file rtk_base.xml:146. Original value:STATION START    -->
     <string name="start_station_up">STATION START</string>
-    <!-- Used in file JCorsActivity.java:153. Original value:Warning    -->
-    <string name="string_warning_string">Warnung</string>
     <!-- Used in file activity_configure_uhf2.xml:602. Original value:More &gt;&gt;    -->
     <string name="button_more">Mehr</string>
     <!-- Used in file activity_calibrate.xml:93. Original value:Offsets    -->
@@ -1430,7 +1402,7 @@
     <!-- Used in file activity_stakeout_cutfill.xml:224. Original value:dH\n    -->
     <string name="text_dh">dH\n</string>
     <!-- Used in file activity_surveying.xml:30. Original value:Survey Type    -->
-    <string name="survey_type">Umfrage Typ</string>
+    <string name="survey_type">Messen Typ</string>
     <!-- Used in file activity_stakeout_cutfill.xml:207. Original value:dE\n    -->
     <string name="text_de">dE\n</string>
     <!-- Used in file rtk_base_uhf.xml:191. Original value:CORRECTIONS    -->
@@ -1455,8 +1427,6 @@
     <string name="l2c">L2C</string>
     <!-- Used in file source_table_row_dark.xml:163. Original value:Authent.    -->
     <string name="authentication">Authentisch.</string>
-    <!-- Used in file activity_jcors.xml:111. Original value:Register receiver in JCORS    -->
-    <string name="button_register_jcors">Empfänger in JCORS registrieren</string>
     <!-- Used in file BaseSurveyStakeoutFromActivity.java:1468. Original value:Ignore the movement    -->
     <string name="ignore_movement">Ignorieren der Bewegung</string>
     <!-- Used in file satellite_row_header.xml:70. Original value:L2P\nE5b\nB2    -->
@@ -1465,13 +1435,15 @@
     <string name="string_format_sort">Format</string>
     <!-- Used in file activity_surveying_rtk.xml:34. Original value:Static    -->
     <string name="button_static">Statisch</string>
+    <!-- Used in file SurveyingRTK.java:2242. Original value:Name is too long!\nLimit it up to 40 chars, please    -->
+    <string name="site_name_too_long">Name is too long!\nLimit it up to 40 chars, please</string>
     <!-- Used in file activity_stakeout.xml:214. Original value:Cut    -->
     <string name="text_cut">Schnitt</string>
     <!-- Used in file stakeout_settings.xml:229. Original value:Debug Survey    -->
     <string name="string_debug_survey">Debug-Übersicht</string>
     <!-- Used in file receiver_info.xml:5. Original value:Receiver S/N    -->
     <string name="receiver_sn">Empfänger S/N</string>
-    <!-- Used in file SurveyingRTK.java:1799. Original value:IMU Error    -->
+    <!-- Used in file SurveyingRTK.java:1800. Original value:IMU Error    -->
     <string name="imu_error">IMU-Fehler</string>
     <!-- Used in file activity_rtk_setup.xml:54. Original value:Start    -->
     <string name="button_start">Start</string>
@@ -1513,7 +1485,7 @@
     <string name="f_rule">Freq.Regel</string>
     <!-- Used in file satellite_row_header.xml:56. Original value:L1CA    -->
     <string name="l1ca">L1CA</string>
-    <!-- Used in file SurveyingRTK.java:1301. Original value:Error of saving photo!    -->
+    <!-- Used in file SurveyingRTK.java:1302. Original value:Error of saving photo!    -->
     <string name="error_save_photo">Fehler beim Speichern des Fotos!</string>
     <!-- Used in file StakeoutSettingsActivity.java:127. Original value:are OK    -->
     <string name="are_ok">sind OK</string>
@@ -1583,8 +1555,7 @@
     <string name="job_data_path">Datenpfad</string>
     <!-- Used in file activity_calibrate.xml:70. Original value:S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn    -->
     <string name="start_levels_calibration_land">S\nt\na\nr\nt\n \nL\ne\nv\ne\nl\ns\n \nC\na\nl\ni\nb\nr\na\nt\ni\no\nn</string>
-    <!-- Used in file null:0. Original value:Pick 2 Points On Map:    -->
-    <!-- Used in file SurveyingRTK.java:1708. Original value:No data RTK collected, and HybridRTK file exists    -->
+    <!-- Used in file SurveyingRTK.java:1709. Original value:No data RTK collected, and HybridRTK file exists    -->
     <string name="hibrid_rtk_data_collected">Keine RTK-Daten gesammelt, und HybridRTK-Datei vorhanden</string>
     <!-- Used in file activity_file_logging.xml:113. Original value:Store Base Corrections    -->
     <string name="check_base_info">Basiskorrekturen speichern</string>
@@ -1598,7 +1569,7 @@
     <string name="hu">H/U</string>
     <!-- Used in file activity_debug.xml:67. Original value:Send Debug    -->
     <string name="button_send_debug">Debug senden</string>
-    <!-- Used in file SurveyingRTK.java:2229. Original value:Site name is empty!    -->
+    <!-- Used in file SurveyingRTK.java:2240. Original value:Site name is empty!    -->
     <string name="site_name_is_empty">Standortname ist leer!</string>
     <!-- Used in file activity_start_station_quick.xml:30. Original value:Occupation Point    -->
     <string name="occupation_point">Belegungspunkt</string>
@@ -1620,7 +1591,7 @@
     <string name="string_menu_average_off">Mittelwertbildung aus</string>
     <!-- Used in file satellite_row_header.xml:84. Original value:L5\nE5a\nG3    -->
     <string name="l5">L5\nE5a\nG3</string>
-    <!-- Used in file SurveyingRTK.java:1534. Original value:Lift and Tilt mode Activated    -->
+    <!-- Used in file SurveyingRTK.java:1535. Original value:Lift and Tilt mode Activated    -->
     <string name="lift_and_tilt_mode_activated">&quot;Modus &quot;&quot;Heben und Neigen&quot;&quot; ist aktiviert&quot;</string>
     <!-- Used in file home_map_stakeout.xml:48. Original value:AR    -->
     <string name="string_ar_xml">AR</string>
@@ -1732,7 +1703,6 @@
     <string name="ntripclient_gga">Ntrip Client GGA</string>
     <!-- Used in file rtk_base.xml:17. Original value:Station ID    -->
     <string name="station_id">Station ID</string>
-    <!-- Used in file null:0. Original value:Pick 2 Points of circles    -->
     <!-- Used in file BaseSurveyStakeoutFromActivity.java:662. Original value:Lift&amp;Tilt    -->
     <string name="string_lift_tilt_survey_title">Heben und Neigen</string>
     <!-- Used in file IMUSettingsPreferenceFragment.java:403. Original value:HybridRTK is not compatible with IMU. HybridRTK will turn off.    -->
@@ -1835,10 +1805,10 @@
     <string name="number_of_sats">0+0+0+0</string>
     <!-- Used in file SurveyModel.java:2005. Original value:secs    -->
     <string name="seconds">secs</string>
-    <!-- Used in file SurveyingRTK.java:2234. Original value:Object name already exists in the job!    -->
+    <!-- Used in file SurveyingRTK.java:2247. Original value:Object name already exists in the job!    -->
     <string name="site_name_already_exist">Objektname existiert bereits im Auftrag!</string>
     <!-- Used in file offset_survey.xml:55. Original value:Survey P2    -->
-    <string name="button_survey_p2">Umfrage P2</string>
+    <string name="button_survey_p2">Messen P2</string>
     <!-- Used in file offset_survey.xml:37. Original value:Survey P1    -->
     <string name="button_survey_p1">Vermessung P1</string>
     <!-- Used in file settings_sounds.xml:116. Original value:Stakeout Epoch Rejected    -->
@@ -1961,7 +1931,7 @@
     <string name="carrier">Träger</string>
     <!-- Used in file ConfigureCorrectionStyleBaseActivity.java:562. Original value:JPS Min    -->
     <string name="jps_min">JPS Min</string>
-    <!-- UNUSED STRING 
+    <!-- UNUSED STRING
     <string name="radio_setup">Radio Setup</string>
     -->
     <!-- UNUSED STRING 
