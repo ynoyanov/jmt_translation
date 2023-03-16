@@ -1,105 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-    <!-- Used in file activity_connection_bluetooth.xml:94. Original value:Set receiver WiFi AdHoc mode for iPhone    -->
-    <string name="button_wifi_iphone_reconnect">Настроить приемник для подключения iPhone</string>
-    <!-- Used in file main_communication.xml:46. Original value:About    -->
-    <string name="action_about">О программе</string>
-    <!-- Used in file activity_connection.xml:79. Original value:Password    -->
-    <string name="password">Пароль</string>
-    <!-- Used in file main_communication.xml:22. Original value:J-Mate    -->
-    <string name="action_communication_jmate">J-Mate</string>
-    <!-- Used in file activity_connection_bluetooth.xml:82. Original value:Reconnect with WiFi using external AP    -->
-    <string name="button_wifi_network_reconnect">Подключить к WiFi используя внешнюю точку доступа</string>
-    <!-- Used in file activity_main_communication.xml:107. Original value:GeoMax/Leica    -->
-    <string name="ts_leica">GeoMax/Leica</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:46. Original value:Rename    -->
-    <string name="string_rename">Переименовать</string>
-    <!-- Used in file activity_main_communication.xml:91. Original value:TS Model:    -->
-    <string name="text_ts_model">Модель тахеометра:</string>
-    <!-- Used in file ReceiverModel.java:2258. Original value:RTK Base antenna Id error!    -->
-    <string name="set_rtkbase_error_antenna_id">Ошибка модели антены!</string>
-    <!-- Used in file main_communication.xml:15. Original value:GPS    -->
-    <string name="action_communication_gps">GPS</string>
-    <!-- Used in file ConfigurationManager.java:215. Original value:&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d;     -->
-    <string name="string_without_receiver">&quot; &#x002d;&#x002d;&#x002d;без приемника&#x002d;&#x002d;&#x002d; &quot;</string>
-    <!-- Used in file activity_connection_configurations.xml:19. Original value:New    -->
-    <string name="string_new">Новая</string>
-    <!-- Used in file ReceiverModel.java:2262. Original value:RTK Base antenna height error!    -->
-    <string name="set_rtkbase_error_antenna_height">Ошибка высоты антенны!</string>
-    <!-- Used in file ReceiverModel.java:2260. Original value:RTK Base antenna type error!    -->
-    <string name="set_rtkbase_error_antenna_type">Ошибка ввода типа антенны!</string>
-    <!-- Used in file main_communication.xml:29. Original value:Leica S910    -->
-    <string name="action_communication_s910">Leica S910</string>
-    <!-- Used in file ReceiverModel.java:2197. Original value:RTK Base parameters is not pass!    -->
-    <string name="set_rtkbase_error_null">Не переданны параметры RTK базы!</string>
-    <!-- Used in file activity_connection_bluetooth.xml:70. Original value:Reconnect with WiFi using the Android as Mobile Hotspot    -->
-    <string name="button_wifi_ap_reconnect">Подключить по WiFi,используя этот телефон как мобильную точку доступа</string>
-    <!-- Used in file MainCommunicationActivity.java:827. Original value:Connected to JMATE    -->
-    <string name="text_connection_jmate">Подключено к JMATE</string>
-    <!-- Used in file activity_main_communication.xml:135. Original value:Connection to receiver:    -->
-    <string name="text_connection">Связь с приемником:</string>
-    <!-- Used in file activity_connection.xml:50. Original value:Login    -->
-    <string name="login">Логин</string>
-    <!-- Used in file MainCommunicationActivity.java:827. Original value:Connected to TS    -->
-    <string name="text_connection_ts">Подключено к тахеометру</string>
-    <!-- Used in file ReceiverModel.java:2264. Original value:RTK Base cannot enable corrections    -->
-    <string name="set_rtkbase_error_enable_corrections">Не удалось запустить поправки на RTK базе!</string>
-    <!-- Used in file ReceiverModel.java:2266. Original value:RTK Base base id error!    -->
-    <string name="set_rtkbase_error_base_id">Неверный идентификатор базы!</string>
-    <!-- Used in file main_communication.xml:36. Original value:Refresh    -->
-    <string name="action_refresh">Обновить</string>
-    <!-- Used in file activity_connection_bluetooth.xml:54. Original value:WiFi Password    -->
-    <string name="string_wifi_password">Пароль WiFi</string>
-    <!-- Used in file main_communication.xml:39. Original value:only Javad devices    -->
-    <string name="action_filter_javad">только устройства Javad</string>
-    <!-- Used in file activity_main_communication.xml:49. Original value:Device Type    -->
-    <string name="text_device_type">Тип устройства</string>
-    <!-- Used in file activity_main_communication.xml:172. Original value:Network    -->
-    <string name="ethernet_radio">Сеть</string>
-    <!-- Used in file activity_connection.xml:60. Original value:NetGear Login    -->
-    <string name="login_netgear">Приемник в NetGear</string>
-    <!-- Used in file MainCommunicationActivity.java:1463. Original value:Connection error!Please try to reconnect latter or select another device!    -->
-    <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
-    <!-- Used in file activity_connection_configurations.xml:40. Original value:Delete    -->
-    <string name="string_delete">Удалить</string>
-    <!-- Used in file list_items_button.xml:13. Original value:Connect    -->
-    <string name="button_connect">Связь</string>
-    <!-- Used in file null:0. Original value:Check that the application has WRITE_SETTINS permission!    -->
-    <string name="string_check_that_the_application_has_write_settins_permission_">Проверьте, что приложению имеет разрешение WRITE_SETTINS в системе!</string>
-    <!-- Used in file activity_main_communication.xml:114. Original value:Sokkia    -->
-    <string name="ts_sokkia">Sokkia</string>
-    <!-- Used in file MainCommunicationActivity.java:1537. Original value:Ask Permission    -->
-    <string name="ask_permissions">Запросить разрешения</string>
-    <!-- Used in file activity_main_communication.xml:158. Original value:WiFi    -->
-    <string name="wifi_radio">WiFi</string>
-    <!-- Used in file activity_connect_ts_name.xml:43. Original value:Connect    -->
-    <string name="button_connect_to_ts">Связь</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:61. Original value:Cancel    -->
-    <string name="button_cancel">Отменить</string>
-    <!-- Used in file MainCommunicationActivity.java:1536. Original value:Bluetooth list requests Coarse Location Permission. Do you want to ask permissions for the connection?    -->
-    <string name="no_permission_for_connection_bluetooth_content">Для показа списка устройств Bluetooth требуется разрешение Coarse Location. Запросить разрешение?</string>
-    <!-- Used in file MainCommunicationActivity.java:1535. Original value:No permissions for Bluetooth device list    -->
-    <string name="no_permission_for_connection_bluetooth">Нет разрешений для доступа к списку Bluetooth устройств</string>
-    <!-- Used in file connection.xml:7. Original value:Settings    -->
-    <string name="action_settings">Настройки</string>
-    <!-- Used in file activity_main_communication.xml:165. Original value:WiFi\n(Mob.AP)    -->
-    <string name="wifi_ap_radio">WiFi\n(моб.точка)</string>
-    <!-- Used in file activity_rename_connection_configurations.xml:23. Original value:Settings Name    -->
-    <string name="setting_name">Имя настройки</string>
-    <!-- Used in file activity_connect_ts_name.xml:52. Original value:Select CS to Connect    -->
-    <string name="text_select_ts_title">Выбер. СК для связи</string>
-    <!-- Used in file ConfigurationManager.java:192. Original value:- select a configuration    -->
-    <string name="string_select_configuration_small">- выберите</string>
-    <!-- Used in file ConfigurationManager.java:194. Original value:&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d;     -->
-    <string name="string_select_configuration">&quot;&#x002d;&#x002d;&#x002d; выберите конфигурацию &#x002d;&#x002d;&#x002d; &quot;</string>
-    <!-- Used in file activity_main_communication.xml:151. Original value:Bluetooth    -->
-    <string name="bluetooth_radio">Bluetooth</string>
-    <!-- Used in file activity_connect_ts_name.xml:27. Original value:Connect to TS    -->
-    <string name="connect_to_ts_name">Подкл.к тах.</string>
-    <!-- Used in file ReceiverModel.java:2256. Original value:RTK Base position error!    -->
-    <string name="set_rtkbase_error_position">Ошибка установки положения RTK базы!</string>
-    <!-- Used in file activity_main_communication.xml:121. Original value:Nikon Nivo    -->
-    <string name="ts_nikon">Nikon Nivo</string>
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Set receiver WiFi AdHoc mode for iPhone-->
+  <string name="button_wifi_iphone_reconnect">Настроить приемник для подключения iPhone</string>
+  <!--Original value: About-->
+  <string name="action_about">О программе</string>
+  <!--Original value: Password-->
+  <string name="password">Пароль</string>
+  <!--Original value: J-Mate-->
+  <string name="action_communication_jmate">J-Mate</string>
+  <!--Original value: Reconnect with WiFi using external AP-->
+  <string name="button_wifi_network_reconnect">Подключить к WiFi используя внешнюю точку доступа</string>
+  <!--Original value: GeoMax/Leica-->
+  <string name="ts_leica">GeoMax/Leica</string>
+  <!--Original value: Following permissions are required for Bluetooth:-->
+  <string name="no_permission_for_connection_bluetooth_message">Для работы с Bluetooth требуются следующие разрешения:</string>
+  <!--Original value: Rename-->
+  <string name="string_rename">Переименовать</string>
+  <!--Original value: TS Model:-->
+  <string name="text_ts_model">Модель тахеометра:</string>
+  <!--Original value: RTK Base antenna Id error!-->
+  <string name="set_rtkbase_error_antenna_id">Ошибка модели антены!</string>
+  <!--Original value: GPS-->
+  <string name="action_communication_gps">GPS</string>
+  <!--Original value: - - -without receiver- - - -->
+  <string name="string_without_receiver">" ---без приемника--- "</string>
+  <!--Original value: New-->
+  <string name="string_new">Новая</string>
+  <!--Original value: RTK Base antenna height error!-->
+  <string name="set_rtkbase_error_antenna_height">Ошибка высоты антенны!</string>
+  <!--Original value: No permission for network-->
+  <string name="no_permission_for_connection_network_message">Нет разрешений для доступа в сеть</string>
+  <!--Original value: RTK Base antenna type error!-->
+  <string name="set_rtkbase_error_antenna_type">Ошибка ввода типа антенны!</string>
+  <!--Original value: Leica S910-->
+  <string name="action_communication_s910">Leica S910</string>
+  <!--Original value: RTK Base parameters is not pass!-->
+  <string name="set_rtkbase_error_null">Не переданны параметры RTK базы!</string>
+  <!--Original value: Reconnect with WiFi using the Android as Mobile Hotspot-->
+  <string name="button_wifi_ap_reconnect">Подключить по WiFi,используя этот телефон как мобильную точку доступа</string>
+  <!--Original value: Connected to JMATE-->
+  <string name="text_connection_jmate">Подключено к JMATE</string>
+  <!--Original value: Connection to receiver:-->
+  <string name="text_connection">Связь с приемником:</string>
+  <!--Original value: Login-->
+  <string name="login">Логин</string>
+  <!--Original value: Connected to TS-->
+  <string name="text_connection_ts">Подключено к тахеометру</string>
+  <!--Original value: RTK Base cannot enable corrections-->
+  <string name="set_rtkbase_error_enable_corrections">Не удалось запустить поправки на RTK базе!</string>
+  <!--Original value: RTK Base base id error!-->
+  <string name="set_rtkbase_error_base_id">Неверный идентификатор базы!</string>
+  <!--Original value: Refresh-->
+  <string name="action_refresh">Обновить</string>
+  <!--Original value: WiFi Password-->
+  <string name="string_wifi_password">Пароль WiFi</string>
+  <!--Original value: Following permissions are required for WiFi:-->
+  <string name="no_permission_for_connection_wifi_message">Для работы с WiFi требуются следующие разрешения:</string>
+  <!--Original value: only Javad devices-->
+  <string name="action_filter_javad">только устройства Javad</string>
+  <!--Original value: Device Type-->
+  <string name="text_device_type">Тип устройства</string>
+  <!--Original value: Network-->
+  <string name="ethernet_radio">Сеть</string>
+  <!--Original value: NetGear Login-->
+  <string name="login_netgear">Приемник в NetGear</string>
+  <!--Original value: Connection Error. No response from selected Bluetooth Device-->
+  <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
+  <!--Original value: Following permissions are required for network:-->
+  <string name="no_permission_for_connection_network">Для доступа в сеть нужны разрешения:</string>
+  <!--Original value: Delete-->
+  <string name="string_delete">Удалить</string>
+  <!--Original value: Connect-->
+  <string name="button_connect">Связь</string>
+  <!--Original value: Sokkia-->
+  <string name="ts_sokkia">Sokkia</string>
+  <!--Original value: Ask Permission-->
+  <string name="ask_permissions">Запросить разрешения</string>
+  <!--Original value: WiFi-->
+  <string name="wifi_radio">WiFi</string>
+  <!--Original value: Connect-->
+  <string name="button_connect_to_ts">Связь</string>
+  <!--Original value: Cancel-->
+  <string name="button_cancel">Отменить</string>
+  <!--Original value: Bluetooth requests permission. Do you want to ask permissions for the connection?-->
+  <string name="no_permission_for_connection_bluetooth_content">Для Bluetooth требуются разрешения. Запросить разрешение?</string>
+  <!--Original value: No permissions for Bluetooth-->
+  <string name="no_permission_for_connection_bluetooth">Нет разрешений для доступа к списку Bluetooth устройств</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Настройки</string>
+  <!--Original value: WiFi\n(Mob.AP)-->
+  <string name="wifi_ap_radio">WiFi\n(моб.точка)</string>
+  <!--Original value: Settings Name-->
+  <string name="setting_name">Имя настройки</string>
+  <!--Original value: Select CS to Connect-->
+  <string name="text_select_ts_title">Выбер. СК для связи</string>
+  <!--Original value: - select a configuration-->
+  <string name="string_select_configuration_small">- выберите</string>
+  <!--Original value: - - - select a configuration - - - -->
+  <string name="string_select_configuration">"--- выберите конфигурацию --- "</string>
+  <!--Original value: Bluetooth-->
+  <string name="bluetooth_radio">Bluetooth</string>
+  <!--Original value: Select a configuration-->
+  <string name="string_select_configuration_peter">Выберите конфигурацию</string>
+  <!--Original value: Connect to TS-->
+  <string name="connect_to_ts_name">Подкл.к тах.</string>
+  <!--Original value: No permissions for WiFi-->
+  <string name="no_permission_for_connection_wifi">Разрешения для WiFi</string>
+  <!--Original value: RTK Base position error!-->
+  <string name="set_rtkbase_error_position">Ошибка установки положения RTK базы!</string>
+  <!--Original value: Nikon Nivo-->
+  <string name="ts_nikon">Nikon Nivo</string>
+  <!--Original value: -->
+  <string name="">Проверьте, что приложению имеет разрешение WRITE_SETTINS в системе!</string>
 </resources>

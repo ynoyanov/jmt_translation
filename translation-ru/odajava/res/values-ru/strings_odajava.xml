@@ -1,36 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file main_menu.xml:3. Original value:Settings    -->
+    <string name="settings">Настройки</string>
+    <!-- Used in file preferences.xml:4. Original value:Read folders recursefly    -->
+    <string name="folderdepthtitle">Рекуррентно считывать папки</string>
+    <!-- Used in file preferences.xml:5. Original value:If enabled, all files found in subfolders will be shown    -->
+    <string name="folderdepthsummary">Если включено, будут показаны все файлы в подпапках</string>
+    <!-- Used in file preferences.xml:9. Original value:File Extensions    -->
+    <string name="file_extension_title">Расширения файлов</string>
+    <!-- Used in file preferences.xml:10. Original value:Files with selected extensions will be available for opening    -->
+    <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
+    <!-- Used in file Main.java:288. Original value:Incomplete Application Context    -->
+    <string name="warning_dialog_title">Неполный контекст приложения</string>
+    <!-- Used in file Main.java:289. Original value:OdActivationInfo file is not found. Copy your OdActivationInfo file to external storage folder or rebuild sample with file placed in assets folder.    -->
+    <string name="warning_dialog_message">OdActivationInfo file is not found. Copy your OdActivationInfo file to external storage folder or rebuild sample with file placed in assets folder.</string>
+    <!-- UNUSED STRING 
+    <string name="app_name">OdaAndroidApp</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="hello">Hello World, Main!</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="category">File Extensions</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="categorytitle">Files with selected extensions will be available for opening</string>
+    -->
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Settings-->
-  <string name="settings">Настройки</string>
-  <!--Original value: Read folders recursefly-->
-  <string name="folderdepthtitle">Рекуррентно считывать папки</string>
-  <!--Original value: If enabled, all files found in subfolders will be shown-->
-  <string name="folderdepthsummary">Если включено, будут показаны все файлы в подпапках</string>
-  <!--Original value: File Extensions-->
-  <string name="file_extension_title">Расширения файлов</string>
-  <!--Original value: Files with selected extensions will be available for opening-->
-  <string name="file_extension_summary">Files with selected extensions will be available for opening</string>
-  <!--Original value: Incomplete Application Context-->
-  <string name="warning_dialog_title">Неполный контекст приложения</string>
-  <!--Original value: OdActivationInfo file is not found. Copy your OdActivationInfo file to external storage folder or rebuild sample with file placed in assets folder.-->
-  <string name="warning_dialog_message">OdActivationInfo file is not found. Copy your OdActivationInfo file to external storage folder or rebuild sample with file placed in assets folder.</string>
 </resources>

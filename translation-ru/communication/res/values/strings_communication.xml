@@ -13,44 +13,50 @@
     <string name="button_wifi_network_reconnect">Reconnect with WiFi using external AP</string>
     <!-- Used in file activity_main_communication.xml:107    -->
     <string name="ts_leica">GeoMax/Leica</string>
+    <!-- Used in file PermissionsForConnection.java:74    -->
+    <string name="no_permission_for_connection_bluetooth_message">Following permissions are required for Bluetooth:</string>
     <!-- Used in file activity_rename_connection_configurations.xml:46    -->
     <string name="string_rename">Rename</string>
     <!-- Used in file activity_main_communication.xml:91    -->
     <string name="text_ts_model">TS Model:</string>
-    <!-- Used in file ReceiverModel.java:2226    -->
+    <!-- Used in file ReceiverModel.java:2295    -->
     <string name="set_rtkbase_error_antenna_id">RTK Base antenna Id error!</string>
     <!-- Used in file main_communication.xml:15    -->
     <string name="action_communication_gps">GPS</string>
-    <!-- Used in file ConfigurationManager.java:216    -->
+    <!-- Used in file ConfigurationManager.java:221    -->
     <string name="string_without_receiver">&#x002d;&#x002d;&#x002d;without receiver&#x002d;&#x002d;&#x002d; </string>
     <!-- Used in file activity_connection_configurations.xml:19    -->
     <string name="string_new">New</string>
-    <!-- Used in file ReceiverModel.java:2230    -->
+    <!-- Used in file ReceiverModel.java:2299    -->
     <string name="set_rtkbase_error_antenna_height">RTK Base antenna height error!</string>
-    <!-- Used in file ReceiverModel.java:2228    -->
+    <!-- Used in file PermissionsForConnection.java:205    -->
+    <string name="no_permission_for_connection_network_message">No permission for network</string>
+    <!-- Used in file ReceiverModel.java:2297    -->
     <string name="set_rtkbase_error_antenna_type">RTK Base antenna type error!</string>
     <!-- Used in file main_communication.xml:29    -->
     <string name="action_communication_s910">Leica S910</string>
-    <!-- Used in file ReceiverModel.java:2165    -->
+    <!-- Used in file ReceiverModel.java:2234    -->
     <string name="set_rtkbase_error_null">RTK Base parameters is not pass!</string>
     <!-- Used in file activity_connection_bluetooth.xml:70    -->
     <string name="button_wifi_ap_reconnect">Reconnect with WiFi using the Android as Mobile Hotspot</string>
-    <!-- Used in file MainCommunicationActivity.java:831    -->
+    <!-- Used in file MainCommunicationActivity.java:849    -->
     <string name="text_connection_jmate">Connected to JMATE</string>
     <!-- Used in file activity_main_communication.xml:135    -->
     <string name="text_connection">Connection to receiver:</string>
     <!-- Used in file activity_connection.xml:50    -->
     <string name="login">Login</string>
-    <!-- Used in file MainCommunicationActivity.java:831    -->
+    <!-- Used in file MainCommunicationActivity.java:849    -->
     <string name="text_connection_ts">Connected to TS</string>
-    <!-- Used in file ReceiverModel.java:2232    -->
+    <!-- Used in file ReceiverModel.java:2301    -->
     <string name="set_rtkbase_error_enable_corrections">RTK Base cannot enable corrections</string>
-    <!-- Used in file ReceiverModel.java:2234    -->
+    <!-- Used in file ReceiverModel.java:2303    -->
     <string name="set_rtkbase_error_base_id">RTK Base base id error!</string>
     <!-- Used in file main_communication.xml:36    -->
     <string name="action_refresh">Refresh</string>
     <!-- Used in file activity_connection_bluetooth.xml:54    -->
     <string name="string_wifi_password">WiFi Password</string>
+    <!-- Used in file PermissionsForConnection.java:115    -->
+    <string name="no_permission_for_connection_wifi_message">Following permissions are required for WiFi:</string>
     <!-- Used in file main_communication.xml:39    -->
     <string name="action_filter_javad">only Javad devices</string>
     <!-- Used in file activity_main_communication.xml:49    -->
@@ -59,15 +65,17 @@
     <string name="ethernet_radio">Network</string>
     <!-- Used in file activity_connection.xml:60    -->
     <string name="login_netgear">NetGear Login</string>
-    <!-- Used in file MainCommunicationActivity.java:1467    -->
-    <string name="connection_error_str">Connection error!Please try to reconnect latter or select another device!</string>
+    <!-- Used in file MainCommunicationActivity.java:1493    -->
+    <string name="connection_error_str">Connection Error. No response from selected Bluetooth Device</string>
+    <!-- Used in file PermissionsForConnection.java:204    -->
+    <string name="no_permission_for_connection_network">Following permissions are required for network:</string>
     <!-- Used in file activity_connection_configurations.xml:40    -->
     <string name="string_delete">Delete</string>
     <!-- Used in file list_items_button.xml:13    -->
     <string name="button_connect">Connect</string>
     <!-- Used in file activity_main_communication.xml:114    -->
     <string name="ts_sokkia">Sokkia</string>
-    <!-- Used in file MainCommunicationActivity.java:1541    -->
+    <!-- Used in file PermissionsForConnection.java:244    -->
     <string name="ask_permissions">Ask Permission</string>
     <!-- Used in file activity_main_communication.xml:158    -->
     <string name="wifi_radio">WiFi</string>
@@ -75,10 +83,10 @@
     <string name="button_connect_to_ts">Connect</string>
     <!-- Used in file activity_rename_connection_configurations.xml:61    -->
     <string name="button_cancel">Cancel</string>
-    <!-- Used in file MainCommunicationActivity.java:1540    -->
-    <string name="no_permission_for_connection_bluetooth_content">Bluetooth list requests Coarse Location Permission. Do you want to ask permissions for the connection?</string>
-    <!-- Used in file MainCommunicationActivity.java:1539    -->
-    <string name="no_permission_for_connection_bluetooth">No permissions for Bluetooth device list</string>
+    <!-- Used in file PermissionsForConnection.java:243    -->
+    <string name="no_permission_for_connection_bluetooth_content">Bluetooth requests permission. Do you want to ask permissions for the connection?</string>
+    <!-- Used in file PermissionsForConnection.java:73    -->
+    <string name="no_permission_for_connection_bluetooth">No permissions for Bluetooth</string>
     <!-- Used in file connection.xml:7    -->
     <string name="action_settings">Settings</string>
     <!-- Used in file activity_main_communication.xml:165    -->
@@ -87,20 +95,30 @@
     <string name="setting_name">Settings Name</string>
     <!-- Used in file activity_connect_ts_name.xml:52    -->
     <string name="text_select_ts_title">Select CS to Connect</string>
-    <!-- Used in file ConfigurationManager.java:193    -->
+    <!-- Used in file ConfigurationManager.java:197    -->
     <string name="string_select_configuration_small">- select a configuration</string>
-    <!-- Used in file ConfigurationManager.java:195    -->
+    <!-- Used in file ConfigurationManager.java:199    -->
     <string name="string_select_configuration">&#x002d;&#x002d;&#x002d; select a configuration &#x002d;&#x002d;&#x002d; </string>
     <!-- Used in file activity_main_communication.xml:151    -->
     <string name="bluetooth_radio">Bluetooth</string>
+    <!-- Used in file ConfigurationManager.java:194    -->
+    <string name="string_select_configuration_peter">Select a configuration</string>
     <!-- Used in file activity_connect_ts_name.xml:27    -->
     <string name="connect_to_ts_name">Connect to TS</string>
-    <!-- Used in file ReceiverModel.java:2224    -->
+    <!-- Used in file PermissionsForConnection.java:114    -->
+    <string name="no_permission_for_connection_wifi">No permissions for WiFi</string>
+    <!-- Used in file ReceiverModel.java:2293    -->
     <string name="set_rtkbase_error_position">RTK Base position error!</string>
     <!-- Used in file activity_main_communication.xml:121    -->
     <string name="ts_nikon">Nikon Nivo</string>
     <!-- UNUSED STRING 
+    <string name="string_wait__">Wait!!</string>
+    -->
+    <!-- UNUSED STRING 
     <string name="string_check_that_the_application_has_write_settins_permission_">Check that the application has WRITE_SETTINS permission!</string>
+    -->
+    <!-- UNUSED STRING 
+    <string name="string_please_wait__">Please Wait!!</string>
     -->
 
 </resources>

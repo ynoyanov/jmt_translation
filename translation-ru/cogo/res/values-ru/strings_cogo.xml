@@ -21,14 +21,254 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
   <!--Original value: The task moves existing points by given distance and angle.-->
   <string name="description_move">Задача сдвигает выбранные точки на заданное растояние и угол</string>
-  <!--Original value: Inv.Offset-->
-  <string name="title_inverse_offset">Обр.Засечка</string>
+  <!--Original value: Point Name:-->
+  <string name="text_point_name">Имя точки:</string>
   <!--Original value: Name-->
   <string name="string_name">Имя</string>
-  <!--Original value: Hinge-->
-  <string name="title_hinge">Шарнир</string>
+  <!--Original value: Local Easting:-->
+  <string name="local_easting">Локальный восток:</string>
+  <!--Original value: Task to compute scale factors (Grid Scale Factor, Elevation and Combined Factors) for a group of points-->
+  <string name="description_factors">Task to compute scale factors (Grid Scale Factor, Elevation and Combined Factors) for a group of points</string>
+  <!--Original value: Solve for Lat/Long-->
+  <string name="solve_for_lat_lon">Решить для Шир/Долг</string>
+  <!--Original value: Latitude DMS:-->
+  <string name="latitude_dms">Широта:</string>
   <!--Original value: Inverse geodetic task computes the bearing (azimuth) and distance between two known points.-->
   <string name="description_inverse">Обратная геодезическая задача расчета направления (азимута) и расстояния между двумя заданными точками</string>
+  <!--Original value: Height Offset:-->
+  <string name="string_cogo_height_offset">Отступ высоты:</string>
+  <!--Original value: The task divides line defined by two known points to given number of points.-->
+  <string name="description_divide_line">Эта задача разбивает линию, заданную двумя точками, на заданное число точек</string>
+  <!--Original value: Recompute area by parallel moving edge-->
+  <string name="description_parallel">Пересчитать площадь сдвинув сторону параллельно</string>
+  <!--Original value: Add Photo-->
+  <string name="string_add_photo">Доб.фото</string>
+  <!--Original value: Cut Area, m²-->
+  <string name="text_cut_area_m2">Убрать площадь, м2</string>
+  <!--Original value: Save Point-->
+  <string name="save_point">Сохранить точку</string>
+  <!--Original value: Distance-Distance-->
+  <string name="title_intersection_d_d">Расстояние-Расстояние</string>
+  <!--Original value: Chord Length:-->
+  <string name="chord_length">Длина хорды:</string>
+  <!--Original value: Offset tasks by two points.\nOffset along line, to line and standard offset\n-->
+  <string name="description_offsets">Задачи промеров с двух точек\nПромер вдоль линии, Промер к линии и др. промеры</string>
+  <!--Original value: Bearing-->
+  <string name="text_bearing">Направление</string>
+  <!--Original value: Align-->
+  <string name="title_align">Выровнять</string>
+  <!--Original value: Edit-->
+  <string name="text_cogo_edit">Правка</string>
+  <!--Original value: Clear Previous Isolines-->
+  <string name="remove_previous_isolines">Стереть предыдущие изолинии</string>
+  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.-->
+  <string name="description_diagonals">Вычисление пересечения двух линий, заданных точками P1-P3 и P2-P4.</string>
+  <!--Original value: 3-Points Arc-->
+  <string name="title_points3_arc">Дуга по 3-м точкам</string>
+  <!--Original value: Image-->
+  <string name="image_view2">Картинка</string>
+  <!--Original value: Move Existing Points-->
+  <string name="move_existing_points">Существующие точки</string>
+  <!--Original value: Previous-->
+  <string name="string_previous_button">Назад</string>
+  <!--Original value: Convert (X-Y):-->
+  <string name="string_convert_x_y">Преобр. (X-Y)</string>
+  <!--Original value: Grid-to-Geo Factor-->
+  <string name="text_grid_to_geo_factor">Grid-to-Geo Factor</string>
+  <!--Original value: Stakes-->
+  <string name="title_stakes">Вынос</string>
+  <!--Original value: A-->
+  <string name="text_side_a">Сторона А</string>
+  <!--Original value: B-->
+  <string name="text_side_b">Сторона B</string>
+  <!--Original value: C-->
+  <string name="text_side_c">Сторона С</string>
+  <!--Original value: Combined Factor-->
+  <string name="text_combined_factor">Combined Factor</string>
+  <!--Original value: Apply Geoid-->
+  <string name="apply_geoid">Применить геоид</string>
+  <!--Original value: Keep Area, m²-->
+  <string name="text_keep_area_m2">Оставить площадь, м2</string>
+  <!--Original value: Radius:-->
+  <string name="radius">Радиус:</string>
+  <!--Original value: Area:-->
+  <string name="area">Площадь:</string>
+  <!--Original value: Azimuth:-->
+  <string name="string_cogo_azimuth">Азимут:</string>
+  <!--Original value: Redraw Triangle-->
+  <string name="redraw_triangle">Перерисовать</string>
+  <!--Original value: Offset-->
+  <string name="title_offset">Отступ</string>
+  <!--Original value: On/Off-->
+  <string name="on_off">Вкл/Выкл</string>
+  <!--Original value: Arc Length:-->
+  <string name="arc_length">Длина дуги:</string>
+  <!--Original value: Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.-->
+  <string name="description_triangle">Вычисляет параметры треугольника, заданного 3 точками - длины сторон и углы</string>
+  <!--Original value: External:-->
+  <string name="external">Экстернал:</string>
+  <!--Original value: Offset-->
+  <string name="text_offset">Отступ</string>
+  <!--Original value: Degree of Arc:-->
+  <string name="degree_of_arc">Угол дуги:</string>
+  <!--Original value: Triangle-->
+  <string name="title_triangle">Треугольник</string>
+  <!--Original value: Load-->
+  <string name="load">Загрузить</string>
+  <!--Original value: Code:-->
+  <string name="string_cogo_code">Код:</string>
+  <!--Original value: Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n-->
+  <string name="description_stakes">Задачи выноса\nРазбить линию, Разбивка Линий с отступом, Вынос Кривых и др. задачи</string>
+  <!--Original value: Shift-->
+  <string name="title_shift">Сдвиг</string>
+  <!--Original value: Isoline Heights (space delimited)-->
+  <string name="text_isoline_heights">Высоты изолиний (разделенные запятыми)</string>
+  <!--Original value: Northing:-->
+  <string name="string_cogo_northing">Север:</string>
+  <!--Original value: Evalation Factor-->
+  <string name="text_elevation_factor">Evalation Factor</string>
+  <!--Original value: Add-->
+  <string name="string_add_button">Доб.</string>
+  <!--Original value: Average-->
+  <string name="title_average">Усреднить</string>
+  <!--Original value: Description:-->
+  <string name="string_cogo_description">Описание:</string>
+  <!--Original value: Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.-->
+  <string name="description_intersection_d_d">Две заданные точки и два расстояния от них задаются для вычисления новой точки. Для можно выбрать точку слева или справа.</string>
+  <!--Original value: The task moves existing points by aligning them to selected points.-->
+  <string name="description_align">Задача сдвигает существующие точки, притягивая их к выбранным точкам</string>
+  <!--Original value: Magnetic Inclination-->
+  <string name="text_grid_text_magnetic_inclination">Magnetic Inclination</string>
+  <!--Original value: Use Points-->
+  <string name="string_cogo_use_points">Исп.точки</string>
+  <!--Original value: Two Line Intersection-->
+  <string name="title_intersection_lines">Пересечение двух линий</string>
+  <!--Original value: PPM-->
+  <string name="text_radio_ppm">PPM</string>
+  <!--Original value: R1-->
+  <string name="text_r1">R1</string>
+  <!--Original value: N-->
+  <string name="string_number">N</string>
+  <!--Original value: Settings:-->
+  <string name="text_settings">Настройки:</string>
+  <!--Original value: R3-->
+  <string name="text_r3">R3</string>
+  <!--Original value: The task triangulates the selected points and and compute lines of equal heights with given values.-->
+  <string name="description_isolines">Задача строит линии равных высот (изолинии) используя высоты выбранных точек</string>
+  <!--Original value: R2-->
+  <string name="text_r2">R2</string>
+  <!--Original value: Elevation:-->
+  <string name="string_cogo_elevation">Высота:</string>
+  <!--Original value: Calculate-->
+  <string name="string_calculate">Вычислить</string>
+  <!--Original value: Redraw Curve-->
+  <string name="redraw_curve">Перерисовать кривую</string>
+  <!--Original value: Distance-->
+  <string name="text_distance">Расстояние</string>
+  <!--Original value: Ignore Elevations-->
+  <string name="ignore_elevations">Игнорировать высоты</string>
+  <!--Original value: Number of points-->
+  <string name="text_num_points">Число точек</string>
+  <!--Original value: Side C:-->
+  <string name="side_c">Сторона С:</string>
+  <!--Original value: Side B:-->
+  <string name="side_b">Сторона В:</string>
+  <!--Original value: Side A:-->
+  <string name="side_a">Сторона А:</string>
+  <!--Original value: The task computes volume of the convex hall defined by selected points.-->
+  <string name="description_volume">Задача вычисляет объем тела, заданного точками</string>
+  <!--Original value: N: - - -\nE: - - -\nH: - - -\n-->
+  <string name="text_coordinate">С: ---\nВ: ---\nH: ---\n</string>
+  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.-->
+  <string name="description_intersection_lines">Заданы 4 точки - P1, P2, P3, P4. Вычисляется точка P5 как пересечение линий P1-P2 и P3-P4.</string>
+  <!--Original value: Delta North:-->
+  <string name="string_cogo_delta_north">Сдвиг север:</string>
+  <!--Original value: Delta Elevation:-->
+  <string name="string_cogo_delta_elevation">Сдвиг высоты:</string>
+  <!--Original value: Parallel-->
+  <string name="title_parallel">Параллельный сдвиг</string>
+  <!--Original value: P3\npoint3\n-->
+  <string name="text_p3">P3\nточка3\n</string>
+  <!--Original value: P2\npoint2\n-->
+  <string name="text_p2">P2\nточка2\n</string>
+  <!--Original value: P4\npoint4\n-->
+  <string name="text_p4">P4\nточка4\n</string>
+  <!--Original value: Mid-Ordinate:-->
+  <string name="mid_ordinate">Сред.ордината:</string>
+  <!--Original value: P1\npoint1\n-->
+  <string name="text_p1">P1\nточка1\n</string>
+  <!--Original value: Point Type-->
+  <string name="title_comp_mode">Тип точки</string>
+  <!--Original value: 2nd nodal point-->
+  <string name="text_second_nodal_point">2-я точка стороны</string>
+  <!--Original value: Easting:-->
+  <string name="string_cogo_easting">Восток:</string>
+  <!--Original value: Perimeter-->
+  <string name="text_perimeter">Периметр</string>
+  <!--Original value: from Map-->
+  <string name="string_cogo_select_from_map">с карты</string>
+  <!--Original value: OK-->
+  <string name="string_cogo_ok">ОК</string>
+  <!--Original value: Add New Isolines-->
+  <string name="add_new_isolines">Добавить новые контура</string>
+  <!--Original value: Grid Convergence-->
+  <string name="text_grid_convergence">Grid Convergence</string>
+  <!--Original value: Back-->
+  <string name="string_back">Назад</string>
+  <!--Original value: ΔE-->
+  <string name="text_delta_e">ΔE</string>
+  <!--Original value: Select Points-->
+  <string name="text_points">Выбор точек</string>
+  <!--Original value: ΔH-->
+  <string name="text_delta_h">ΔH</string>
+  <!--Original value: Dest. Point ID:-->
+  <string name="string_cogo_destination_point_id">Ид.получ.точки:</string>
+  <!--Original value: 3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)-->
+  <string name="description_points3_arc">Задача вычисляет параметры дуги, вычисляемой по 3-м точкам. Вычисляются параметры - Радиус (R), Угол (A), Длина дуги (L), Хорда ( c), Тангенс (T), Сдернюю ординанту (m), Угол кривизны (D)</string>
+  <!--Original value: Result Point Descr.:-->
+  <string name="text_point_description">Описание получ.точки:</string>
+  <!--Original value: ΔN-->
+  <string name="text_delta_n">ΔN</string>
+  <!--Original value: Volume-->
+  <string name="text_volume">Объем</string>
+  <!--Original value: Local Northing:-->
+  <string name="local_norting">Местный север:</string>
+  <!--Original value: Basic-->
+  <string name="title_basic">Основные</string>
+  <!--Original value: Display Points From:-->
+  <string name="string_cogo_display_points_from">Отображать точки из:</string>
+  <!--Original value: Degree of Curvature, chord-->
+  <string name="text_d_chord">Угол кривизны, хорда</string>
+  <!--Original value: Apply Localization-->
+  <string name="apply_localization">Применить локализацию</string>
+  <!--Original value: Delta East:-->
+  <string name="string_cogo_delta_east">Разница восток:</string>
+  <!--Original value: Grid-to-Ground Factor-->
+  <string name="text_grid_to_ground_factor">Grid-to-Ground Factor</string>
+  <!--Original value: Grid Scale Factor-->
+  <string name="text_grid_scale_factor">Grid Scale Factor</string>
+  <!--Original value: Divide Line-->
+  <string name="title_divide_line">Разбить линию</string>
+  <!--Original value: The task moves existing points by given angle related to given point.-->
+  <string name="description_rotate">Задача перемещает точки на заданный угол относительно выбранной точки.</string>
+  <!--Original value: Direct-->
+  <string name="title_direct">Прямая</string>
+  <!--Original value: Grid By Line-->
+  <string name="text_grid_by_line">Сетка по линии</string>
+  <!--Original value: Left-->
+  <string name="text_left">Влево</string>
+  <!--Original value: Delta:-->
+  <string name="delta">Разница:</string>
+  <!--Original value: Inv.Offset-->
+  <string name="title_inverse_offset">Обр.Засечка</string>
+  <!--Original value: Hinge-->
+  <string name="title_hinge">Шарнир</string>
+  <!--Original value: Feature Codes-->
+  <string name="string_cogo_feature_codes">Коды</string>
+  <!--Original value: Distance:-->
+  <string name="string_cogo_distance">Расстояние:</string>
+  <!--Original value: Edit-->
+  <string name="edit">Изменить</string>
   <!--Original value: Create-->
   <string name="button_create">Создать</string>
   <!--Original value: Compute intersection of two perpendicula lines defined by 3 points-->
@@ -39,30 +279,24 @@
   <string name="text_right">Вправо</string>
   <!--Original value: Basic functions as\nDirect, Inverse, Offset and Shifts\n-->
   <string name="description_basic">Основные задачи\nПрямая, Обратная, Ход и др.</string>
-  <!--Original value: The task divides line defined by two known points to given number of points.-->
-  <string name="description_divide_line">Эта задача разбивает линию, заданную двумя точками, на заданное число точек</string>
-  <!--Original value: Recompute area by parallel moving edge-->
-  <string name="description_parallel">Пересчитать площадь сдвинув сторону параллельно</string>
   <!--Original value: Area-->
   <string name="text_area">Площадь</string>
   <!--Original value: Computes point P4 with given points P1, P2, P3 and distances D1, D2, D3 from them.-->
   <string name="description_resection">Вычисляется точка Р4 по трем данным точкам и трем расстояниям от них.</string>
   <!--Original value: Offsets-->
   <string name="title_offsets">Промеры</string>
-  <!--Original value: Cut Area, m²-->
-  <string name="text_cut_area_m2">Убрать площадь, м2</string>
-  <!--Original value: Distance-Distance-->
-  <string name="title_intersection_d_d">Расстояние-Расстояние</string>
   <!--Original value: Isolines-->
   <string name="title_isolines">Изолинии</string>
-  <!--Original value: Offset tasks by two points.\nOffset along line, to line and standard offset\n-->
-  <string name="description_offsets">Задачи промеров с двух точек\nПромер вдоль линии, Промер к линии и др. промеры</string>
+  <!--Original value: Factors-->
+  <string name="title_factors">Factors</string>
+  <!--Original value: Tangent:-->
+  <string name="tangent">Тангент:</string>
   <!--Original value: Radius (R)-->
   <string name="text_r">Радиус (R)</string>
   <!--Original value: Tangent (T)-->
   <string name="text_t">Тангенс (T)</string>
-  <!--Original value: Bearing-->
-  <string name="text_bearing">Направление</string>
+  <!--Original value: Magnetic Declination-->
+  <string name="text_magnetic_declination">Magnetic Declination</string>
   <!--Original value: Line Offsets-->
   <string name="title_line_offsets">Сдвиг линий</string>
   <!--Original value: Stakeout Curve task is similar to Stake Line, but it works on circular curves instead of straight lines. It divides Arc by equal segments based on point number. The arc has Offset from base Arc with given Radius and the angle of rotation A.-->
@@ -79,8 +313,6 @@
   <string name="text_view2">Текст</string>
   <!--Original value: B, grid-->
   <string name="text_b">B, плоск.</string>
-  <!--Original value: Clear Previous Isolines-->
-  <string name="remove_previous_isolines">Стереть предыдущие изолинии</string>
   <!--Original value: External (e)-->
   <string name="text_e">Внешняя (e)</string>
   <!--Original value: D-->
@@ -89,94 +321,90 @@
   <string name="text_keep_area_percent">Оставить площадь, %</string>
   <!--Original value: ΔH, abs-->
   <string name="text_h">dH, абс.</string>
-  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P3 and P2-P4.-->
-  <string name="description_diagonals">Вычисление пересечения двух линий, заданных точками P1-P3 и P2-P4.</string>
   <!--Original value: Inverse-->
   <string name="title_inverse">Обратная</string>
-  <!--Original value: 3-Points Arc-->
-  <string name="title_points3_arc">Дуга по 3-м точкам</string>
-  <!--Original value: Image-->
-  <string name="image_view2">Картинка</string>
-  <!--Original value: Move Existing Points-->
-  <string name="move_existing_points">Существующие точки</string>
   <!--Original value: Angle (A)-->
   <string name="text_a">Угол (A)</string>
+  <!--Original value: Use Current Localization-->
+  <string name="use_current_localization">Использовать локализацию</string>
+  <!--Original value: Select Point:-->
+  <string name="string_cogo_select_point">Выбор точки:</string>
   <!--Original value: N: - - -\nE: - - -\nH: - - -\nName:-->
   <string name="text_coordinate_result">С: ---\nВ: ---\nH: ---\n</string>
-  <!--Original value: Stakes-->
-  <string name="title_stakes">Вынос</string>
+  <!--Original value: 2pt Rotate Only-->
+  <string name="two_pt_rotate_only">поворот по 2м точкам</string>
   <!--Original value: Angle-->
   <string name="text_angle">Угол</string>
   <!--Original value: 1st nodal point-->
   <string name="text_first_nodal_point">1-я точка стороны</string>
-  <!--Original value: A-->
-  <string name="text_side_a">Сторона А</string>
-  <!--Original value: B-->
-  <string name="text_side_b">Сторона B</string>
-  <!--Original value: C-->
-  <string name="text_side_c">Сторона С</string>
   <!--Original value: East-->
   <string name="string_east">Восток</string>
   <!--Original value: Along Line-->
   <string name="title_along_line">Вдоль линии</string>
-  <!--Original value: Keep Area, m²-->
-  <string name="text_keep_area_m2">Оставить площадь, м2</string>
-  <!--Original value: Offset-->
-  <string name="title_offset">Отступ</string>
-  <!--Original value: Traverse geodetic task computes the parameters of the triangle (side length and angles) by given three known points P1, P2 and P3.-->
-  <string name="description_triangle">Вычисляет параметры треугольника, заданного 3 точками - длины сторон и углы</string>
-  <!--Original value: Offset-->
-  <string name="text_offset">Отступ</string>
+  <!--Original value: Scale Base Point:-->
+  <string name="scale_base_point">Базовая точка масштаба</string>
+  <!--Original value: Ratio-->
+  <string name="text_radio_ratio">Ratio</string>
+  <!--Original value: Longitude DMS:-->
+  <string name="longitude_dms">Долгота:</string>
+  <!--Original value: Solve-->
+  <string name="solve">Решить</string>
   <!--Original value: Intersection tasks by two points.\nDistance-Distance, Bearing-Bearing, Bearing-Distance, Two Line intersection, Diagonals and Resection tasks\n-->
   <string name="description_intersections">Задачи расчета Пересечения с двух точек.\nЗадачи Расстояние-Расстояние, Направление-Направление, Диагонали и др.</string>
+  <!--Original value: Next-->
+  <string name="string_next_button">Далее</string>
   <!--Original value: The task computes position by two distance along line given by two points.-->
   <string name="description_along_line">Задача вычисляет положение точки задав расстоние вдоль линии, заданной двумя точками.</string>
   <!--Original value: Resection-->
   <string name="title_resection">Пересечение</string>
   <!--Original value: Stakeout Curve-->
   <string name="title_stakeout_curve">Разбить кривую</string>
-  <!--Original value: Triangle-->
-  <string name="title_triangle">Треугольник</string>
-  <!--Original value: Stake tasks as\nDivide line, Line Offsets, Stake curves tasks\n-->
-  <string name="description_stakes">Задачи выноса\nРазбить линию, Разбивка Линий с отступом, Вынос Кривых и др. задачи</string>
+  <!--Original value: Result Point ID:-->
+  <string name="text_point_result">Ид.точки результата:</string>
   <!--Original value: Area/Perimeter-->
   <string name="title_areas">Площадь/Периметр</string>
-  <!--Original value: Shift-->
-  <string name="title_shift">Сдвиг</string>
-  <!--Original value: Isoline Heights (space delimited)-->
-  <string name="text_isoline_heights">Высоты изолиний (разделенные запятыми)</string>
-  <!--Original value: Average-->
-  <string name="title_average">Усреднить</string>
+  <!--Original value: Point ID:-->
+  <string name="text_point_id">Ид.точки:</string>
+  <!--Original value: Rotation Angle:-->
+  <string name="string_cogo_rotation_angle">Угол поворота:</string>
+  <!--Original value: Add Note-->
+  <string name="string_add_note">Доб.заметку</string>
   <!--Original value: Track Incremenet-->
   <string name="text_track_increment">Сдвиг треков</string>
   <!--Original value: Save Report to file-->
   <string name="string_save_report_to_file">Сохранить отчет в файл</string>
-  <!--Original value: Known two points P1 and P2 and two radiuses - distances from P1 and P2 to new computed point P3. To resolve ambiguity in result point please select Left or Right side P1-P2.-->
-  <string name="description_intersection_d_d">Две заданные точки и два расстояния от них задаются для вычисления новой точки. Для можно выбрать точку слева или справа.</string>
+  <!--Original value: Coords-->
+  <string name="string_coords">Коорд-ты</string>
   <!--Original value: Move-->
   <string name="title_move">Переместить</string>
-  <!--Original value: Two Line Intersection-->
-  <string name="title_intersection_lines">Пересечение двух линий</string>
+  <!--Original value: from Point List-->
+  <string name="string_cogo_select_from_point_list">из списка точек</string>
   <!--Original value: Traverse-->
   <string name="title_traverse">Ход</string>
   <!--Original value: Diagonals-->
   <string name="title_diagonals">Диагонали</string>
-  <!--Original value: R1-->
-  <string name="text_r1">R1</string>
-  <!--Original value: N-->
-  <string name="string_number">N</string>
-  <!--Original value: R3-->
-  <string name="text_r3">R3</string>
-  <!--Original value: The task triangulates the selected points and and compute lines of equal heights with given values.-->
-  <string name="description_isolines">Задача строит линии равных высот (изолинии) используя высоты выбранных точек</string>
-  <!--Original value: R2-->
-  <string name="text_r2">R2</string>
-  <!--Original value: Distance-->
-  <string name="text_distance">Расстояние</string>
+  <!--Original value: Method:-->
+  <string name="method">Метод:</string>
+  <!--Original value: Origin Point ID:-->
+  <string name="string_cogo_origin_point_id">Ид.точки начала:</string>
+  <!--Original value: Point ID #2:-->
+  <string name="text_point_id2">Ид.точки №2:</string>
+  <!--Original value: Point ID #1:-->
+  <string name="text_point_id1">Ид.точки №1:</string>
+  <!--Original value: Scale Factor:-->
+  <string name="scale_factor">Масшт.коэффициент:</string>
+  <!--Original value: c:-->
+  <string name="angle_c">c:</string>
+  <!--Original value: b:-->
+  <string name="angle_b">b:</string>
+  <!--Original value: a:-->
+  <string name="angle_a">a:</string>
+  <!--Original value: Add-->
+  <string name="text_cogo_add">Доб.</string>
   <!--Original value: The task computes position by two offsets along and across line from a line given by two points.-->
   <string name="description_offset">Задача вычисляет положение по двум отступам вдоль и поперек линии, заданной двумя точками.</string>
-  <!--Original value: Number of points-->
-  <string name="text_num_points">Число точек</string>
+  <!--Original value: Center Point ID:-->
+  <string name="string_cogo_center_point_id">Ид.центральной точки:</string>
   <!--Original value: The task computes area and perimeter of the area defined by selected points.-->
   <string name="description_area_perimeter">Вычисляет площадь и периметр полигона, заданного выбранными точками</string>
   <!--Original value: Area/Perimeter-->
@@ -185,70 +413,50 @@
   <string name="description_direct">Вычислить положение точки относительно другой точки, задав направление (азимут) и расстояние от данной точки</string>
   <!--Original value: Recompute area by moving hinge-->
   <string name="description_hinge">Пересчитать площадь сдвинув сторону</string>
-  <!--Original value: The task computes volume of the convex hall defined by selected points.-->
-  <string name="description_volume">Задача вычисляет объем тела, заданного точками</string>
-  <!--Original value: N: - - -\nE: - - -\nH: - - -\n-->
-  <string name="text_coordinate">С: ---\nВ: ---\nH: ---\n</string>
-  <!--Original value: Known 4 points - P1, P2, P3, P4. CoGo point P5 as intersection of P1-P2 and P3-P4.-->
-  <string name="description_intersection_lines">Заданы 4 точки - P1, P2, P3, P4. Вычисляется точка P5 как пересечение линий P1-P2 и P3-P4.</string>
   <!--Original value: Grid By Extents-->
   <string name="text_grid_by_extents">Сетка по размерам</string>
   <!--Original value: Tasks for several points\n like Shift, Rotate, Average\n-->
   <string name="description_transform">Задачи для нескольких точек\nСдвиг, Поворот, Усреднение и т.п.</string>
-  <!--Original value: Parallel-->
-  <string name="title_parallel">Параллельный сдвиг</string>
-  <!--Original value: P3\npoint3\n-->
-  <string name="text_p3">P3\nточка3\n</string>
-  <!--Original value: P2\npoint2\n-->
-  <string name="text_p2">P2\nточка2\n</string>
-  <!--Original value: P4\npoint4\n-->
-  <string name="text_p4">P4\nточка4\n</string>
   <!--Original value: α-->
   <string name="text_angle_a">α</string>
   <!--Original value: β-->
   <string name="text_angle_b">β</string>
   <!--Original value: γ-->
   <string name="text_angle_c">γ</string>
-  <!--Original value: P1\npoint1\n-->
-  <string name="text_p1">P1\nточка1\n</string>
   <!--Original value: Intersections-->
   <string name="title_intersections">Пересечения</string>
   <!--Original value: Reference Height-->
   <string name="text_refheight">Отчетная высота</string>
   <!--Original value: The task shifts existing points by deltas north, east and up.-->
   <string name="description_shift">Задача сдвигает точки на север, восток, вверх.</string>
+  <!--Original value: Geo-to-Ground Factor-->
+  <string name="text_geo_to_ground_factor">Geo-to-Ground Factor</string>
   <!--Original value: Result\nCoordinate\nDeltas-->
   <string name="text_deltas">Разницы\nкоординат\n</string>
   <!--Original value: Volume-->
   <string name="title_volume">Объем</string>
-  <!--Original value: 2nd nodal point-->
-  <string name="text_second_nodal_point">2-я точка стороны</string>
   <!--Original value: Point Height Range-->
   <string name="text_heights">Диапазон высот точек</string>
-  <!--Original value: Perimeter-->
-  <string name="text_perimeter">Периметр</string>
   <!--Original value: Report-->
   <string name="button_report">Отчет</string>
+  <!--Original value: Solve for a, b, c-->
+  <string name="solve_for_abc">Решить для a, b, c</string>
   <!--Original value: Area/Perimiter/Volume computations, Area change tasks\n-->
   <string name="description_areas">Задачи вычисления Площади, Перимера, Объема и задачи изменения площади</string>
+  <!--Original value: Solve for Local N/E-->
+  <string name="solve_for_local_ne">Решить для локальных N/E</string>
   <!--Original value: Degree of Curvature, arc-->
   <string name="text_d_arc">Уог кривизны, дуга</string>
   <!--Original value: Traverse geodetic task computes the geodetic position of a Point P3 by given two known points P1 and P2 and an angle(bearing) and distance.-->
   <string name="description_traverse">Задача расчета участка хода с двух заданных точек (передней и задней) и направления/расстояния до следующей точки</string>
   <!--Original value: The task compute average coordinates of the selected points and store a point with the coordinates.-->
   <string name="description_average">Задача вычисляет среднее значение координат выбранных точек и создает точку с этими координатами</string>
-  <!--Original value: Add New Isolines-->
-  <string name="add_new_isolines">Добавить новые контура</string>
+  <!--Original value: Use Railroad-->
+  <string name="use_railroad_definition">Исп.жел.дорож.</string>
   <!--Original value: ΔN-->
   <string name="text_dn">ΔN</string>
   <!--Original value: North-->
   <string name="string_north">Север</string>
-  <!--Original value: ΔE-->
-  <string name="text_delta_e">ΔE</string>
-  <!--Original value: Select Points-->
-  <string name="text_points">Выбор точек</string>
-  <!--Original value: ΔH-->
-  <string name="text_delta_h">ΔH</string>
   <!--Original value: ΔH-->
   <string name="text_dh">ΔH</string>
   <!--Original value: Transform-->
@@ -257,18 +465,12 @@
   <string name="text_de">ΔE</string>
   <!--Original value: Rotate-->
   <string name="title_rotate">Повернуть</string>
-  <!--Original value: 3-Points Arc task calculates parameters for Arc based on 3 known points. The following is list of arc paramters - Radius (R), Angle (A), Arc Length (L), Chord (c ), Tangent (T), Middle Ordinate (m), Degree of Curvature (D)-->
-  <string name="description_points3_arc">Задача вычисляет параметры дуги, вычисляемой по 3-м точкам. Вычисляются параметры - Радиус (R), Угол (A), Длина дуги (L), Хорда ( c), Тангенс (T), Сдернюю ординанту (m), Угол кривизны (D)</string>
-  <!--Original value: ΔN-->
-  <string name="text_delta_n">ΔN</string>
-  <!--Original value: Volume-->
-  <string name="text_volume">Объем</string>
-  <!--Original value: Basic-->
-  <string name="title_basic">Основные</string>
+  <!--Original value: Create-->
+  <string name="string_create">Создать</string>
   <!--Original value: The task divides line between two known points by equal segments based on point number of increment value. Also it creates additional number of tracks in parallel with given increment distance value.-->
   <string name="description_line_offsets">Задача разбивает линию, заданную двумя точками, на равные отрезки, заданные длиной отрезка или числом точек. Так же будут созданны дополнительные трэки паралельным сдвигом на заданное растояние.</string>
-  <!--Original value: Degree of Curvature, chord-->
-  <string name="text_d_chord">Угол кривизны, хорда</string>
+  <!--Original value: Ellipsoid Elevation:-->
+  <string name="ellipsoid_elevation">Элл.высота:</string>
   <!--Original value: Store-->
   <string name="action_store">Сохранить</string>
   <!--Original value: Radius-->
@@ -279,18 +481,10 @@
   <string name="text_d2">D2</string>
   <!--Original value: - - - -->
   <string name="text_point_coords">--- </string>
-  <!--Original value: Divide Line-->
-  <string name="title_divide_line">Разбить линию</string>
-  <!--Original value: The task moves existing points by given angle related to given point.-->
-  <string name="description_rotate">Задача перемещает точки на заданный угол относительно выбранной точки.</string>
-  <!--Original value: Direct-->
-  <string name="title_direct">Прямая</string>
+  <!--Original value: to Point List-->
+  <string name="string_cogo_add_to_list">в список точек</string>
   <!--Original value: Height-->
   <string name="string_height">Высота</string>
   <!--Original value: Number of Tracks-->
   <string name="text_num_tracks">Число треков</string>
-  <!--Original value: Grid By Line-->
-  <string name="text_grid_by_line">Сетка по линии</string>
-  <!--Original value: Left-->
-  <string name="text_left">Влево</string>
 </resources>

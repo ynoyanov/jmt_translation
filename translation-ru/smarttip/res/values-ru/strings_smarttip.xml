@@ -1,116 +1,111 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-          Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-          Licensed under the Apache License, Version 2.0 (the "License");
-          you may not use this file except in compliance with the License.
-          You may obtain a copy of the License at
+    <!-- Used in file JTipActivity.java:2386. Original value:Sensor S1    -->
+    <string name="source_sensor_s1">Сенсор S1</string>
+    <!-- Used in file activity_jtip.xml:56. Original value:Clear Range    -->
+    <string name="button_clear_range">Сброс предела</string>
+    <!-- Used in file JTipActivity.java:2302. Original value:XYZ    -->
+    <string name="button_xyz2_direction">XYZ</string>
+    <!-- Used in file jtip2.xml:67. Original value:Continuous Meas.    -->
+    <string name="menu_continuous">Continuous Meas.</string>
+    <!-- Used in file activity_jtip.xml:400. Original value:Max Value    -->
+    <string name="string_max_value">Макс.значение</string>
+    <!-- Used in file jtip.xml:30. Original value:Upload Firmware    -->
+    <string name="button_firmware">Обновить встроенное ПО</string>
+    <!-- Used in file activity_jtip.xml:147. Original value:Sound type    -->
+    <string name="string_sound_type">Тип вычисления звука</string>
+    <!-- Used in file jtip2.xml:58. Original value:Read Mode    -->
+    <string name="menu_read_mode">Read Mode</string>
+    <!-- Used in file activity_jtip.xml:371. Original value:Gain    -->
+    <string name="string_gain">Усиление 0</string>
+    <!-- Used in file activity_jtip2.xml:78. Original value:PinPoint    -->
+    <string name="string_jtip_pinpoint">Узко</string>
+    <!-- Used in file JTipActivity.java:2345. Original value:Auto    -->
+    <string name="button_full_auto">Авто</string>
+    <!-- Used in file activity_jtip.xml:189. Original value:Source    -->
+    <string name="string_magnetic_source">Источник</string>
+    <!-- Used in file find_jtip.xml:13. Original value:About    -->
+    <string name="about_jtip">О программе</string>
+    <!-- Used in file activity_jtip.xml:456. Original value:Set Course to 0    -->
+    <string name="button_course">Установить курс на 0</string>
+    <!-- Used in file JTipActivity.java:2345. Original value:SemiAuto    -->
+    <string name="button_semi_auto">ПолуАвто</string>
+    <!-- Used in file jtip2.xml:44. Original value:Square Sensitivity    -->
+    <string name="square_sensitivity">Square Sensitivity</string>
+    <!-- Used in file jtip.xml:16. Original value:Z Dir    -->
+    <string name="button_z_direction">Z</string>
+    <!-- Used in file activity_jtip.xml:168. Original value:Sensivity    -->
+    <string name="string_sensivity">Чувствительность</string>
+    <!-- Used in file activity_jtip2.xml:177. Original value:Off    -->
+    <string name="jtip_off">Выкл.</string>
+    <!-- Used in file activity_jtip2.xml:184. Original value:Pair    -->
+    <string name="jtip_pair">Сопрячь</string>
+    <!-- Used in file activity_jtip2.xml:108. Original value:High    -->
+    <string name="sensivity_high">Сильно</string>
+    <!-- Used in file JTipActivity.java:2385. Original value:Set Sensor Source    -->
+    <string name="string_set_sensor_source_jtip">Выбор источника данных</string>
+    <!-- Used in file activity_jtip.xml:139. Original value:Sound algorithm    -->
+    <string name="string_algorithm">Алгоритм звука</string>
+    <!-- Used in file JTipActivity.java:2386. Original value:Sensor S2    -->
+    <string name="source_sensor_s2">Сенсор S2</string>
+    <!-- Used in file activity_jtip.xml:81. Original value:Calibrate    -->
+    <string name="button_calibrate">Калибровка</string>
+    <!-- Used in file activity_jtip.xml:353. Original value:No Tone less than    -->
+    <string name="string_no_tone_less_than">Нет звука при значение меньше</string>
+    <!-- Used in file activity_jtip.xml:181. Original value:Mag. Source    -->
+    <string name="string_data_source">Источник данных</string>
+    <!-- Used in file jtip.xml:23. Original value:Single    -->
+    <string name="button_s_d_s">Единичный</string>
+    <!-- Used in file activity_find_smarttip.xml:23. Original value:Select J-Tip from list below    -->
+    <string name="text_select_smarttip">Выберите J-Tip</string>
+    <!-- Used in file JTipActivity.java:1116. Original value:Hold Range    -->
+    <string name="button_hold_range">Не менять предел</string>
+    <!-- Used in file JTipActivity.java:1194. Original value:Calibration Required!    -->
+    <string name="jtip_calibration_required">Требуется калибровка!</string>
+    <!-- Used in file activity_jtip.xml:64. Original value:Set Range    -->
+    <string name="button_set_range">Уст.предел</string>
+    <!-- Used in file activity_jtip.xml:386. Original value:Min Value    -->
+    <string name="string_min_value">Мин.значение</string>
+    <!-- Used in file activity_jtip2.xml:92. Original value:Wide    -->
+    <string name="string_jtip_wide">Широкий</string>
+    <!-- Used in file activity_jtip.xml:393. Original value:Gain Value    -->
+    <string name="string_gain_value">Усиление</string>
+    <!-- Used in file JTipActivity.java:2345. Original value:Manual    -->
+    <string name="button_manual">Ручной</string>
+    <!-- Used in file JTipActivity.java:2344. Original value:Set Mode    -->
+    <string name="string_set_mode_jtip">Уст.режим</string>
+    <!-- Used in file jtip2.xml:37. Original value:Diff.tone for Negative    -->
+    <string name="different_tones">Diff.tone for Negative</string>
+    <!-- Used in file activity_jtip.xml:27. Original value:Volume    -->
+    <string name="string_volume">Громкость</string>
+    <!-- Used in file JTipActivity.java:2386. Original value:Differential (S1-S2)    -->
+    <string name="source_s1_minus_s2">Разница (S1-S2)</string>
+    <!-- Used in file activity_jtip2.xml:170. Original value:Calibrate    -->
+    <string name="jtip_calibrate">Калибровка</string>
+    <!-- Used in file JTipActivity.java:2311. Original value:XY    -->
+    <string name="button_xy_direction">XY</string>
+    <!-- Used in file JTipActivity.java:2386. Original value:Both sensors - (S1+S2)/2    -->
+    <string name="source_s1_plus_s2">Оба сенсора - (S1+S2)/2</string>
+    <!-- Used in file find_jtip.xml:7. Original value:Refresh    -->
+    <string name="refresh_jtip">Обновить</string>
+    <!-- Used in file activity_jtip2.xml:115. Original value:Medium    -->
+    <string name="sensivity_medium">Средне</string>
+    <!-- Used in file activity_find_smarttip.xml:16. Original value:Turn on your J-Tip device. Activate Bluetooth by double click power button on J-Tip. Flashing red LED means ready to be paired.    -->
+    <string name="text_select_smarttip_1">Включите J-Tip. Активируйте Bluetooth двойным нажатием на кнопку питания J-Tip. Мигающий красный светодиод означает, что прибор говто быть сопряжен.</string>
+    <!-- Used in file activity_jtip.xml:269. Original value:0 Value    -->
+    <string name="string_0_value">Значение нуля</string>
+    <!-- Used in file jtip.xml:9. Original value:Auto\\Manual    -->
+    <string name="button_auto_manual">Авто\\Ручной</string>
+    <!-- Used in file jtip2.xml:51. Original value:New Sound Algorithm    -->
+    <string name="new_sound_algorithm">New Sound Algorithm</string>
+    <!-- Used in file activity_jtip2.xml:122. Original value:Low    -->
+    <string name="sensivity_low">Слабо</string>
+    <!-- Used in file activity_jtip2.xml:130. Original value:Sensitivity    -->
+    <string name="string_sensitivity">Мин.чувствительность</string>
+    <!-- Used in file jtip2.xml:63. Original value:Single Meas.    -->
+    <string name="menu_single">Single Meas.</string>
+    <!-- Used in file activity_jtip.xml:72. Original value:Auto Range    -->
+    <string name="button_auto_range">Авто предел</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
-
-          Unless required by applicable law or agreed to in writing, software
-          distributed under the License is distributed on an "AS IS" BASIS,
-          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-          See the License for the specific language governing permissions and
-          limitations under the License.
-
-          Editor: 
-            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
-            Android Localizer (aiLocalizer)
-        -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Sensor S1-->
-  <string name="source_sensor_s1">Сенсор S1</string>
-  <!--Original value: Clear Range-->
-  <string name="button_clear_range">Сброс предела</string>
-  <!--Original value: XYZ-->
-  <string name="button_xyz2_direction">XYZ</string>
-  <!--Original value: Max Value-->
-  <string name="string_max_value">Макс.значение</string>
-  <!--Original value: Upload Firmware-->
-  <string name="button_firmware">Обновить встроенное ПО</string>
-  <!--Original value: Sound type-->
-  <string name="string_sound_type">Тип вычисления звука</string>
-  <!--Original value: Gain-->
-  <string name="string_gain">Усиление 0</string>
-  <!--Original value: PinPoint-->
-  <string name="string_jtip_pinpoint">Узко</string>
-  <!--Original value: Auto-->
-  <string name="button_full_auto">Авто</string>
-  <!--Original value: Source-->
-  <string name="string_magnetic_source">Источник</string>
-  <!--Original value: About-->
-  <string name="about_jtip">О программе</string>
-  <!--Original value: Set Course to 0-->
-  <string name="button_course">Установить курс на 0</string>
-  <!--Original value: SemiAuto-->
-  <string name="button_semi_auto">ПолуАвто</string>
-  <!--Original value: Z Dir-->
-  <string name="button_z_direction">Z</string>
-  <!--Original value: Sensivity-->
-  <string name="string_sensivity">Чувствительность</string>
-  <!--Original value: Off-->
-  <string name="jtip_off">Выкл.</string>
-  <!--Original value: Pair-->
-  <string name="jtip_pair">Сопрячь</string>
-  <!--Original value: High-->
-  <string name="sensivity_high">Сильно</string>
-  <!--Original value: Set Sensor Source-->
-  <string name="string_set_sensor_source_jtip">Выбор источника данных</string>
-  <!--Original value: Sound algorithm-->
-  <string name="string_algorithm">Алгоритм звука</string>
-  <!--Original value: Sensor S2-->
-  <string name="source_sensor_s2">Сенсор S2</string>
-  <!--Original value: Calibrate-->
-  <string name="button_calibrate">Калибровка</string>
-  <!--Original value: No Tone less than-->
-  <string name="string_no_tone_less_than">Нет звука при значение меньше</string>
-  <!--Original value: Mag. Source-->
-  <string name="string_data_source">Источник данных</string>
-  <!--Original value: Single-->
-  <string name="button_s_d_s">Единичный</string>
-  <!--Original value: Select J-Tip from list below-->
-  <string name="text_select_smarttip">Выберите J-Tip</string>
-  <!--Original value: Hold Range-->
-  <string name="button_hold_range">Не менять предел</string>
-  <!--Original value: Calibration Required!-->
-  <string name="jtip_calibration_required">Требуется калибровка!</string>
-  <!--Original value: Set Range-->
-  <string name="button_set_range">Уст.предел</string>
-  <!--Original value: Min Value-->
-  <string name="string_min_value">Мин.значение</string>
-  <!--Original value: Wide-->
-  <string name="string_jtip_wide">Широкий</string>
-  <!--Original value: Gain Value-->
-  <string name="string_gain_value">Усиление</string>
-  <!--Original value: Manual-->
-  <string name="button_manual">Ручной</string>
-  <!--Original value: Set Mode-->
-  <string name="string_set_mode_jtip">Уст.режим</string>
-  <!--Original value: Volume-->
-  <string name="string_volume">Громкость</string>
-  <!--Original value: Differential (S1-S2)-->
-  <string name="source_s1_minus_s2">Разница (S1-S2)</string>
-  <!--Original value: Calibrate-->
-  <string name="jtip_calibrate">Калибровка</string>
-  <!--Original value: XY-->
-  <string name="button_xy_direction">XY</string>
-  <!--Original value: Both sensors - (S1+S2)/2-->
-  <string name="source_s1_plus_s2">Оба сенсора - (S1+S2)/2</string>
-  <!--Original value: Turn on your J-Tip device. Activate Bluetooth by double click power button on J-Tip. Flashing red LED means ready to be paired.-->
-  <string name="text_select_smarttip_1">Включите J-Tip. Активируйте Bluetooth двойным нажатием на кнопку питания J-Tip. Мигающий красный светодиод означает, что прибор говто быть сопряжен.</string>
-  <!--Original value: Refresh-->
-  <string name="refresh_jtip">Обновить</string>
-  <!--Original value: Medium-->
-  <string name="sensivity_medium">Средне</string>
-  <!--Original value: 0 Value-->
-  <string name="string_0_value">Значение нуля</string>
-  <!--Original value: Auto\\Manual-->
-  <string name="button_auto_manual">Авто\\Ручной</string>
-  <!--Original value: Low-->
-  <string name="sensivity_low">Слабо</string>
-  <!--Original value: Sensitivity-->
-  <string name="string_sensitivity">Мин.чувствительность</string>
-  <!--Original value: Auto Range-->
-  <string name="button_auto_range">Авто предел</string>
 </resources>

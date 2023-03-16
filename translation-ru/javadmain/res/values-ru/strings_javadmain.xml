@@ -19,8 +19,10 @@
             Android Localizer (aiLocalizer)
         -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
-  <!--Original value: Job-->
+  <!--Original value: Project-->
   <string name="job_name_title">Проект</string>
+  <!--Original value: Peripherals-->
+  <string name="home_title_peripheral">Устройства</string>
   <!--Original value: Data in scoped (internal app) storage-->
   <string name="android_11_data_in_scopped_storage">Данные во внутреннем хранилище</string>
   <!--Original value: TS Points-->
@@ -35,7 +37,7 @@
   <string name="home_title_total_station_measure">Тахеометр</string>
   <!--Original value: Translucency of controls-->
   <string name="translucency">Прозрачные компоненты</string>
-  <!--Original value: Job-->
+  <!--Original value: Project-->
   <string name="job_name_summary">Проект</string>
   <!--Original value: J-Community-->
   <string name="home_title_jcommunity">J-Сообщество</string>
@@ -49,6 +51,8 @@
   <string name="android_11_data_location_title2">Новое место данных</string>
   <!--Original value: Static Survey-->
   <string name="home_title_survey_pp">Стат.Съемка</string>
+  <!--Original value: Corrs.-->
+  <string name="home_title_corrections_small">Попр.</string>
   <!--Original value: Scoped Storage-->
   <string name="scoped_storage_location">Внутренне Хранилище</string>
   <!--Original value: View Battery Percentage-->
@@ -61,6 +65,8 @@
   <string name="show_intro">Показывать инструкцию по пользованию при запуске</string>
   <!--Original value: Organize View-->
   <string name="organize_view_summary">Организовать окно</string>
+  <!--Original value: GNSS JPPP Rover Setup-->
+  <string name="home_title_gnss_jppp_rover_setup">Запуск JPPP ровера</string>
   <!--Original value: China-->
   <string name="translation_china">Китайский</string>
   <!--Original value: Debug Settings-->
@@ -71,6 +77,8 @@
   <string name="survey_settings_label">Настройки съемки/выноски</string>
   <!--Original value: Cut Sheet-->
   <string name="home_title_stakeout_report">Вын.Отчет</string>
+  <!--Original value: GNSS Static Setup-->
+  <string name="home_title_gnss_static_setup">Запуск Стат.cъемки</string>
   <!--Original value: Satellites-->
   <string name="home_title_satellites">Спутники</string>
   <!--Original value: Reset all Settings-->
@@ -79,8 +87,14 @@
   <string name="home_title_jmate">J-Mate</string>
   <!--Original value: Select Previous Data Item-->
   <string name="select_previous_data_item">Выберите предыдущую папку данных</string>
+  <!--Original value: Reset RTK-->
+  <string name="home_title_reset_rtk">Сброс RTK</string>
+  <!--Original value: Update Firmware-->
+  <string name="home_title_update_firmware">Обновить встроенное ПО</string>
   <!--Original value: Design Points-->
   <string name="home_title_design_points">Выносные тчк.</string>
+  <!--Original value: Survey-->
+  <string name="text_btns_survey">Съемка</string>
   <!--Original value: Spoofing-->
   <string name="home_title_spoofing">Подмена сигнала</string>
   <!--Original value: Start Resection-->
@@ -91,6 +105,8 @@
   <string name="show_battery_percentage">Показывать заряд в процентах</string>
   <!--Original value: Map-->
   <string name="home_title_map">Карта</string>
+  <!--Original value: Connect-->
+  <string name="home_title_connect_gnss">Связь</string>
   <!--Original value: text_view-->
   <string name="text_view">text_view</string>
   <!--Original value: Stop Mobile Data-->
@@ -101,8 +117,14 @@
   <string name="dont_allow_licence">Программа установлена нелегально. Пожалуйста, перейдите в магазин Google Play Market и приобретите ее.</string>
   <!--Original value: Expand Description-->
   <string name="expand_description">Расширять описания</string>
+  <!--Original value: Manual Input-->
+  <string name="home_title_manual_input">Ручной ввод</string>
   <!--Original value: Sound Settings-->
   <string name="sound_settings_summary">Настройки звуков</string>
+  <!--Original value: Group main menu items-->
+  <string name="use_grouped_menu">Группировать элементы меню</string>
+  <!--Original value: Edit/Process Data-->
+  <string name="home_title_edit_process_data">Правка/Обработка данных</string>
   <!--Original value: View Additional Views-->
   <string name="additional_views">Информационные панели</string>
   <!--Original value: Internet from-->
@@ -113,6 +135,12 @@
   <string name="home_title_receiver">Приёмник</string>
   <!--Original value: Stakeout Text Size-->
   <string name="info_text_size_string_main">Размер тектса выноски</string>
+  <!--Original value: GNSS Data Logging-->
+  <string name="home_title_gnss_data_logging">Запись GNSS данных</string>
+  <!--Original value: Reset Factory Defaults-->
+  <string name="home_title_reset_factory_default">Сбросить на заводские настройки</string>
+  <!--Original value: Store Point-->
+  <string name="home_title_store_point">Сохранить точку</string>
   <!--Original value: Power-->
   <string name="home_title_power">Питание</string>
   <!--Original value: RTK Bases-->
@@ -120,36 +148,50 @@
   <!--Original value: Exchange-->
   <string name="home_title_exchange">Обмен</string>
   <!--Original value: User Manual-->
-  <string name="home_title_usermanual">Руководство</string>
+  <string name="home_title_usermanual">Инструкция</string>
   <!--Original value: Calibrate-->
-  <string name="home_title_calibrate">Калибровка</string>
+  <string name="home_title_calibrate">Калиб-ка</string>
   <!--Original value: JAVAD TRIUMPH-3 works with JMT only with OAF option in the receiver!-->
   <string name="triumph3_oaf_title">JAVAD TRIUMPH-3 работают с JMT только при наличие OAF опции!</string>
   <!--Original value: Debug Activity-->
   <string name="button_debug_activity">Отладка</string>
   <!--Original value: Map Settings-->
   <string name="map_settings_summary">Настройки карты</string>
+  <!--Original value: JPPP Rover-->
+  <string name="home_title_jppprover">JPPP ровер</string>
   <!--Original value: Next >>-->
   <string name="android_11_next">Далее &gt;&gt;</string>
   <!--Original value: Javad Mobile Tools for Android-->
   <string name="version_number">Javad Mobile Tools для Android</string>
   <!--Original value: J-Tip-->
   <string name="home_title_jtip">J-Tip</string>
+  <!--Original value: Intersections-->
+  <string name="home_title_intersections">Пересечения</string>
   <!--Original value: Build-->
   <string name="string_build">Сборка</string>
   <!--Original value: Survey Points-->
   <string name="home_title_survey_points">Снятые тчк.</string>
+  <!--Original value: Project-->
+  <string name="text_btns_projects">Проект</string>
   <!--Original value: Antenna-->
   <string name="antenna_summary">Антена</string>
+  <!--Original value: Utilities-->
+  <string name="home_title_utilities">Утилиты</string>
+  <!--Original value: Range finder-->
+  <string name="home_title_rangefinder_small">Дальномер</string>
   <!--Original value: Coord.Sys-->
   <string name="home_title_cs">СК</string>
   <!--Original value: Map / Sounds-->
   <string name="map_sound_settings">Карта / Звуки</string>
   <!--Original value: Find Previous Data in shared storage-->
-  <string name="android_11_find_previous">Найти предыдущие данные</string>
+  <string name="android_11_find_previous">Найти предыдущие данные во внешнем хранилище</string>
+  <!--Original value: About Program-->
+  <string name="home_title_about_program">О Программе</string>
+  <!--Original value: Update OAF-->
+  <string name="home_title_update_oaf">Обновить OAF</string>
   <!--Original value: RTK Base-->
   <string name="home_title_rtkbase">RTK База</string>
-  <!--Original value: Reset Job-->
+  <!--Original value: Reset Project-->
   <string name="reset_job_item">Сбросить тек.проект</string>
   <!--Original value: Connection error!Please try to reconnect latter or select another device!-->
   <string name="connection_error_str">Ошибка подключения, пожалуйста подождите или выберите другое подключение.</string>
@@ -163,7 +205,9 @@
   <string name="check_stop_logging">Остановить запись в файл</string>
   <!--Original value: TS/JMate-->
   <string name="home_title_ts">TS/JMATE</string>
-  <!--Original value: Use Shared Storage for jobs and Scopped for other data-->
+  <!--Original value: Elevation Delta-->
+  <string name="home_title_elevation_delta">Вынос разностей высот</string>
+  <!--Original value: Use Shared Storage for projects and Scopped for other data-->
   <string name="android_11_scopped_and_shared_storage">Использовать внешнее хранилище для проектов и внутреннее для остальных данных</string>
   <!--Original value: View coordinates in surveying-->
   <string name="view_coordinates_in_surveying">Отображать координаты при съемке</string>
@@ -175,7 +219,9 @@
   <string name="theme_title">Тема</string>
   <!--Original value: Show Satellites Number as-->
   <string name="show_satellite_variants">Показывать число спутников как</string>
-  <!--Original value: Reconnect WiFi-->
+  <!--Original value: Calculator-->
+  <string name="home_title_calculator">Калькулятор</string>
+  <!--Original value: To WiFi-->
   <string name="home_title_reconnectwifi">На WiFi</string>
   <!--Original value: Organize View-->
   <string name="organize_view_title">Организовать окно</string>
@@ -183,30 +229,42 @@
   <string name="navigation_drawer_open">Открыть</string>
   <!--Original value: Use only Shared Storage-->
   <string name="android_11_shared_storage">Использовать общее хранилище</string>
+  <!--Original value: Areas-->
+  <string name="home_title_areas">Площади</string>
+  <!--Original value: Import / Export-->
+  <string name="home_title_import_export">Импорт / Экспорт</string>
   <!--Original value: Russian-->
   <string name="translation_russian">Русский</string>
+  <!--Original value: Start with new UI-->
+  <string name="start_with_menu_peter">Запуск с новым UI</string>
   <!--Original value: \tAndroid 10 requires store all data in internal application folder. JMT can store data in different locations:-->
   <string name="android_11_data_location_selection">\tВ Android 10 предлагается хранить данные во внутренней папке приложения. JMT может хранить данные как в:</string>
+  <!--Original value: Reset Receiver-->
+  <string name="home_title_reset_receiver">Перезапуск приемника</string>
   <!--Original value: User Interface Settings-->
   <string name="ui_settings">Настройки польз.интерфейса</string>
   <!--Original value: Geoids-->
   <string name="home_title_geoids">Геоиды</string>
   <!--Original value: User-defined location-->
-  <string name="user_defined_storage_location">User-defined location</string>
+  <string name="user_defined_storage_location">Положение пользователя</string>
   <!--Original value: Survey/Stakeout on Map-->
   <string name="radio_with_map">Съемка/Вынос на карте</string>
   <!--Original value: Enable NMEA messages on the port-->
   <string name="check_enable_nmea">Включить NMEA сообщения на порт</string>
+  <!--Original value: Point Average-->
+  <string name="home_title_point_average">Усреднение точке</string>
   <!--Original value: \tSince Android 10 Google modified app rules for data access.\n\n\tIf you have your data on the device, please select Find Previous Data, click Next and find javad folder and provide access to it.\n\n\tFor new device just select No previous data and click Next.-->
   <string name="android_11_find_data_description">\tВ Android 10 Google изменил правила доступа к данным.\n\n\tЕсли на этом устройстве есть данные JMT предыдущих версий, то выберите Найти предыдущие данные и нажмите Далее, затем выберите папку javad и предоставьте доступ к ней.\n\n\tДля нового чистого устройства просто выберите Нет предыдущих данных и нажмите Далее.</string>
   <!--Original value: Close navigation drawer-->
   <string name="navigation_drawer_close">Закрыть</string>
-  <!--Original value: \tScopped storage is difficult to be accessed from other apps. Shared storage usage degradates performance.\n\n\tPlease select which storage location to use. Data location can be changed further in Settings dialog.-->
+  <!--Original value: JMT default variant is to store data into internal(scopped) storage and projects on shared storage\n\tScopped storage is difficult to be accessed from other apps. Shared storage usage degradates performance.\n\n\tPlease select which storage location to use. Data location can be changed further in Settings dialog.-->
   <string name="android_11_data_location_selection_2">\tДоступ к частной папке из других приложений может быть затруднен. Использование общей папки снижает быстродействие программы.\n\n\tВыберите какое место использовать для хранения данных. Сменить место хранения данных можно в диалоге Настройки.</string>
   <!--Original value: Control-->
-  <string name="home_title_resets">Управление</string>
+  <string name="home_title_resets">Действия</string>
   <!--Original value: Rangefinder-->
   <string name="home_title_rangefinder">Лаз.рулетка</string>
+  <!--Original value: Localization-->
+  <string name="home_title_localization">Локализация</string>
   <!--Original value: Wizard-->
   <string name="home_title_wizard">Мастер</string>
   <!--Original value: Correction Source-->
@@ -221,6 +279,8 @@
   <string name="android11_coppying_data">Копирование данных</string>
   <!--Original value: View Levels/Compass-->
   <string name="view_compass_levels">Показывать Уровни/Компас</string>
+  <!--Original value: By Interval-->
+  <string name="home_title_store_point_by_interval">По интервалу</string>
   <!--Original value: About-->
   <string name="action_about">О программе</string>
   <!--Original value: Project-->
@@ -231,7 +291,9 @@
   <string name="button_exit">Выход</string>
   <!--Original value: Resection-->
   <string name="home_title_start_station_resection">Засечка</string>
-  <!--Original value: Job Archiving-->
+  <!--Original value: Send GNSS Commands-->
+  <string name="home_title_send_command">Отправить GNSS команды</string>
+  <!--Original value: Project Archiving-->
   <string name="job_archiving_summary">Архивация проектов</string>
   <!--Original value: Select first window Javad Mobile Tools starts from.\nYou can start work from command menu or go directly to map with project.\nThis setting can be changed any time from dropdown menu on main window.-->
   <string name="startup_title">Выберите начальный экран Javad Mobile Tools.\nЭто может быть меню команд или сразу карта с данными проекта.\nЭту настройку можно поменять через пункт меню основного экрана.</string>
@@ -241,13 +303,17 @@
   <string name="home_title_import">Импорт</string>
   <!--Original value: Please enable access to files permission in Android settings for the application.-->
   <string name="permission_required_to_read_write">Пожалуйста, разрешите в настройках Android разрешения для этого приложения!</string>
+  <!--Original value: Project File-->
+  <string name="home_title_project_file">Проект</string>
   <!--Original value: Version 1.0.9 build 25 June 2014-->
   <string name="string_version">Версия 1.0.9 сборка 25 June 2021</string>
+  <!--Original value: Tools-->
+  <string name="text_btns_tools">Инст-ты</string>
   <!--Original value: Disconnect-->
   <string name="string_disconnect_str">Разрыв</string>
   <!--Original value: J-Tip-->
   <string name="home_title_smart_tips">J-Tip</string>
-  <!--Original value: Job Archiving-->
+  <!--Original value: Project Archiving-->
   <string name="job_archiving">Архивация проектов</string>
   <!--Original value: Antenna-->
   <string name="antenna_title">Антенна</string>
@@ -255,10 +321,16 @@
   <string name="sound_settings_title">Настройки звука</string>
   <!--Original value: External Storage access error!-->
   <string name="android11_storage_access_error">Ошибка доступа к общей папке!</string>
+  <!--Original value: Exit Program-->
+  <string name="home_title_exit_program">Выход из программы</string>
   <!--Original value: Use only Scopped Storage-->
   <string name="android_11_scopped_storage">Использовать частное хранилище</string>
   <!--Original value: Survey Settings-->
   <string name="survey_settings_summary">Настройки съемки</string>
+  <!--Original value: Disconnect-->
+  <string name="home_title_disconnect_gnss">Отключить</string>
+  <!--Original value: GNSS Rover Setup-->
+  <string name="home_title_gnss_rtk_rover_setup">Настройка ровера</string>
   <!--Original value: Data Location-->
   <string name="data_location_title">Папка данных программы</string>
   <!--Original value: Settings-->
@@ -269,6 +341,8 @@
   <string name="string_update_oaf">Загрузить и обновить OAF</string>
   <!--Original value: Start Station-->
   <string name="home_title_start_station_quick">Станция</string>
+  <!--Original value: JPPP Survey-->
+  <string name="home_title_survey_jppp">JPPP Съемка</string>
   <!--Original value: Stakeout Settings-->
   <string name="string_stakeout_settings_menu">Настройки выноса</string>
   <!--Original value: Start Station-->
@@ -281,7 +355,7 @@
   <string name="info_text_labels_string_main">Подписи выноса</string>
   <!--Original value: Start with Map-->
   <string name="start_with_map">Начинать с карты</string>
-  <!--Original value: Job-->
+  <!--Original value: Project-->
   <string name="home_title_jobs">Проект</string>
   <!--Original value: Survey Settings-->
   <string name="survey_settings">Настройки съемки</string>
@@ -295,20 +369,32 @@
   <string name="view_surveying_info">Отображать информацию при съемке</string>
   <!--Original value: The folder is not JMT folder!\nPlease choose correct one!-->
   <string name="android11_folder_is_not_jmt_folder">Эта папка не данные JMT!\nПожалуйста, выберите папку с данными JMT!</string>
+  <!--Original value: GNSS Base Setup-->
+  <string name="home_title_gnss_base_setup">Настройка Базы</string>
   <!--Original value: View Code-->
   <string name="view_code">Использовать Коды</string>
   <!--Original value: RTK Works-->
   <string name="home_title_rtk_work">RTK работа</string>
   <!--Original value: Export-->
   <string name="home_title_export">Экспорт</string>
-  <!--Original value: Calibrate Levels-->
+  <!--Original value: Stake Point-->
+  <string name="home_title_stake_point">Вынос точки</string>
+  <!--Original value: Transformation-->
+  <string name="home_title_transformation">Преобразование</string>
+  <!--Original value: Calibrate-->
   <string name="home_title_calibrate_compass">Калибровка уровней</string>
+  <!--Original value: Project Settings-->
+  <string name="home_title_project_settings">Настройки проекта</string>
   <!--Original value: Handle swipe gestures-->
   <string name="handle_gestures">Настройки жестов</string>
+  <!--Original value: Settings / Tolerances-->
+  <string name="home_title_settings_tolerance">Настройки / точность</string>
   <!--Original value: Spectrum OAF option is required!\nPlease contact with JAVAD GNSS-->
   <string name="spectrum_option_is_required">Для спектров требуется OAF-опция Спектров.\nПожалуйста, свяжитесь с JAVAD GNSS</string>
   <!--Original value: Receiver-->
   <string name="receiver_name_title">Приемник</string>
+  <!--Original value: Feature Code List-->
+  <string name="home_title_feature_code_list">Список кодов</string>
   <!--Original value: Pair Modem-->
   <string name="home_title_pairmodem">Сопрячь модем</string>
   <!--Original value: Start with Menu-->
@@ -329,6 +415,8 @@
   <string name="string_purchase_jmt">Преобретите опцию (OAF)</string>
   <!--Original value: Color of Survey Button-->
   <string name="survey_button_color">Цвет кнопки Съемка</string>
+  <!--Original value: Stake Offset-->
+  <string name="home_title_stake_offset">Вынос отступа</string>
   <!--Original value: RTK Rover-->
   <string name="rtk_rover">RTK Ровер</string>
   <!--Original value: Quick Grid-->
@@ -357,15 +445,23 @@
   <string name="home_title_repeater">Повторитель</string>
   <!--Original value: Language 3-->
   <string name="translation_3">Язык 3</string>
+  <!--Original value: Other variants-->
+  <string name="android_11_other_variants">Другие варианты</string>
   <!--Original value: JAVAD OMEGA works with JMT only with OAF option in the receiver!-->
   <string name="omega_oaf_title">JAVAD OMEGA работает с Javad Mobile Tools только при наличие OAF опции!</string>
   <!--Original value: Debug-->
   <string name="debug_settings">Отладка</string>
+  <!--Original value: Device-->
+  <string name="text_btns_device">Устройство</string>
   <!--Original value: Services-->
   <string name="home_title_justinlink_server">Службы</string>
+  <!--Original value: Stake-->
+  <string name="stake_title">Вынос</string>
   <!--Original value: Settings-->
   <string name="action_settings">Настройки</string>
-  <!--Original value: Exit JMT application-->
+  <!--Original value: Store Point - Average (test)-->
+  <string name="home_title_store_point_average">Сохранить точку - Усреднить (test)</string>
+  <!--Original value: Exit the application-->
   <string name="check_exit_app">Выйти из программы JMT</string>
   <!--Original value: JMATE is not connected!-->
   <string name="jmate_is_not_connected_string">JMATE не подключен!</string>
@@ -376,17 +472,23 @@
   <!--Original value: Quattro/Duo-->
   <string name="home_title_quatro_duo">Quattro/Duo</string>
   <!--Original value: Localize-->
-  <string name="home_title_localize">Локализ-ия</string>
+  <string name="home_title_localize">Локал-ия</string>
   <!--Original value: NMEA output-->
   <string name="home_title_nmea">NMEA вывод</string>
   <!--Original value: Reset Map-->
   <string name="reset_map_item">Сбросить тек. карту</string>
+  <!--Original value: Auto by Interval-->
+  <string name="home_title_auto_by_interval">Автоинтервал</string>
+  <!--Original value: Stake Line/Arc-->
+  <string name="home_title_stake_line_arc">Вынос дуги/Круга</string>
   <!--Original value: View Name-->
   <string name="view_name">Использовать Имена</string>
   <!--Original value: RTK Rover-->
   <string name="home_title_rtkrover">RTK Ровер</string>
   <!--Original value: Receiver Files-->
-  <string name="home_title_filemanager">Файлы пр-ка</string>
+  <string name="home_title_filemanager">Файлы jps</string>
+  <!--Original value: GNSS Status-->
+  <string name="home_title_gnss_status">GNSS статус</string>
   <!--Original value: Dealer Map-->
   <string name="home_title_dealer_map">Дилеры</string>
   <!--Original value: Survey-->

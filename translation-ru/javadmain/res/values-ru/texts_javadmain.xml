@@ -22,21 +22,31 @@
   <!--Original value: Debug Survey-->
   <string name="string_debug_survey">Отладка Съемка</string>
   <!--Original value: Can\'t access to folders!-->
-  <string name="string_can_t_access_to_folders_" />
+  <string name="string_can_t_access_to_folders_">Не удалось получить доступ к папке!</string>
   <!--Original value: Receiver is not licensed!-->
   <string name="string_receiver_is_not_licensed_">Приемник не имеет OAF лицензии!</string>
   <!--Original value: Close-->
   <string name="string_close">Закрыть</string>
   <!--Original value: Use-->
   <string name="string_use">Исп.</string>
+  <!--Original value: Archive projects to SD folder %s-->
+  <string name="string_archive_projects_to_sd_folder__s">Архивация проектов на SD карту %s</string>
+  <!--Original value: Archive projects to DropBox-->
+  <string name="string_archive_projects_to_dropbox">Архивация проектов в DropBox</string>
   <!--Original value: This is dangerous setting-->
   <string name="string_this_is_dangerous_setting">Это опасная настройка</string>
+  <!--Original value: No background-->
+  <string name="string_no_background">Нет подложки</string>
   <!--Original value: Russian-->
   <string name="string_russian">Русский</string>
   <!--Original value: Scheme-->
   <string name="string_scheme">Схема</string>
   <!--Original value: Survey/Stakeout without Map-->
   <string name="string_survey_stakeout_without_map">Съемка/Вынос без карты</string>
+  <!--Original value: Changing archive settings will move all your project files!-->
+  <string name="string_changing_archive_settings_will_move_all_your_project_files_">Изменение настроек архивации перенесет все файлы проектов!</string>
+  <!--Original value: Project Arhiving is off-->
+  <string name="string_project_arhiving_is_off">Архивация проектов отключена</string>
   <!--Original value: Option has purchased. App is licensed to work with any JAVAD GNSS receiver.-->
   <string name="string_option_has_purchased__app_is_licensed_to_work_with_any_javad_gnss_receiver_">Опции приобретены. Программа теперь будет работать с любым приемником JAVAD GNSS.</string>
   <!--Original value: Job:-->
@@ -44,21 +54,15 @@
   <!--Original value: Permission denied to access to camera-->
   <string name="string_permission_denied_to_access_to_camera">Для доступа к камере нужно системное разрешение!</string>
   <!--Original value: Cancel-->
-  <string name="string_cancel" />
+  <string name="string_cancel">Отменить</string>
   <!--Original value: Problem setting up In-app Billing: -->
   <string name="string_problem_setting_up_in_app_billing__">Проблема встроенной покупки:</string>
   <!--Original value: Start Corrections-->
   <string name="string_start_corrections">Запустить поправки</string>
-  <!--Original value: Archive jobs to GoogleDrive-->
-  <string name="string_archive_jobs_to_googledrive">Архивация в GoogleDrive</string>
-  <!--Original value: Archive jobs to Microsoft OneDrive-->
-  <string name="string_archive_jobs_to_microsoft_onedrive">Архивация в Microsoft OneDrive</string>
-  <!--Original value: Version:%1$s%2$s %3$s-->
-  <string name="string_version__1_s_2_s__3_s">Версия:%1$s%2$s %3$s</string>
   <!--Original value: Choose action-->
   <string name="string_choose_action">Выберите действие</string>
   <!--Original value: Clearing up folder . . .-->
-  <string name="string_clearing_up_folder______" />
+  <string name="string_clearing_up_folder______">Очистка папки…</string>
   <!--Original value: Survey on bottom-->
   <string name="string_survey_on_bottom">Съемка внизу экрана</string>
   <!--Original value: Antenna/Settings button-->
@@ -73,6 +77,8 @@
   <string name="string_reset">Сброс</string>
   <!--Original value: Taiwan-->
   <string name="string_taiwan">Китайский</string>
+  <!--Original value:  %1$s%2$s %3$s-->
+  <string name="string___1_s_2_s__3_s"> %1$s%2$s %3$s</string>
   <!--Original value: Turkish-->
   <string name="string_turkish">Турецкий</string>
   <!--Original value: Please, switch to design or TS points from top menu to import data!-->
@@ -91,8 +97,6 @@
   <string name="string_stay_for__dsec">Стоять %d сек</string>
   <!--Original value: Permission denied to write to your External storage-->
   <string name="string_permission_denied_to_write_to_your_external_storage">Настройки программы запрещают доступ к файлам!</string>
-  <!--Original value: Archive jobs to DropBox-->
-  <string name="string_archive_jobs_to_dropbox">Архивация в DropBox</string>
   <!--Original value: Can not create temporary folder!-->
   <string name="string_can_not_create_temporary_folder_">Не удалось создать папку!</string>
   <!--Original value: Stop connection-->
@@ -107,8 +111,6 @@
   <string name="string_survey_on_top">Вверху экрана</string>
   <!--Original value: Rec:-->
   <string name="string_rec_">П-к:</string>
-  <!--Original value: Changing archive settings will move all your job files!-->
-  <string name="string_changing_archive_settings_will_move_all_your_job_files_">Изменение настроек архивации переместит ВСЕ ваши проекты!</string>
   <!--Original value: Error purchasing: -->
   <string name="string_error_purchasing__">Ошибка покупки:</string>
   <!--Original value: Changing data location will move all your files!-->
@@ -117,10 +119,12 @@
   <string name="string_fix__float_or_dgps">Фикс,Плав или DGPS</string>
   <!--Original value: Disconnect-->
   <string name="string_disconnect">Разорвать</string>
-  <!--Original value: Archive jobs to SD folder %s-->
-  <string name="string_archive_jobs_to_sd_folder__s">Проекты архивируются в папку %s</string>
+  <!--Original value: Archive projects to GoogleDrive-->
+  <string name="string_archive_projects_to_googledrive">Архивировать проекты на GoogleDrive</string>
   <!--Original value: only-->
   <string name="string_only">только</string>
+  <!--Original value: Wrong folder selected!\nYou should create javad subfolder in root directory!-->
+  <string name="string_wrong_folder_selected__nyou_should_create_javad_subfolder_in_root_directory_">Неверная папка!\nВы должны создать папку javad  в корне общего хранилища!</string>
   <!--Original value: CS %1$s is set as RTCM3 CS for correction source %2$s-->
   <string name="string_cs__1_s_is_set_as_rtcm3_cs_for_correction_source__2_s">CS %1$s is set as RTCM3 CS for correction source %2$s</string>
   <!--Original value: Can not clean up from folder-->
@@ -131,6 +135,8 @@
   <string name="string_warning">Внимание</string>
   <!--Original value: no correction source-->
   <string name="string_no_correction_source">нет источника поправок</string>
+  <!--Original value: Raster image-->
+  <string name="string_raster_image">Растровое изображение</string>
   <!--Original value: Permission denied to read from your External storage-->
   <string name="string_permission_denied_to_read_from_your_external_storage">Настройки программы запрещают доступ к внешним файлам!</string>
   <!--Original value: Done-->
@@ -161,6 +167,8 @@
   <string name="string_yandex_maps">Яндекс.Карты</string>
   <!--Original value: Can not clear up new folder-->
   <string name="string_can_not_clear_up_new_folder">Не удалось стереть папку</string>
+  <!--Original value: Archive projects to Microsoft OneDrive-->
+  <string name="string_archive_projects_to_microsoft_onedrive">Архивировать проекты на Microsoft OneDrive</string>
   <!--Original value: First Fix-->
   <string name="string_first_fix">Первое фикс.решение</string>
   <!--Original value: Select Last Job (%s)-->
@@ -189,10 +197,14 @@
   <string name="string_permission_denied_to_manage_to_your_external_storage">Разрешения не дают программе доступ к файловому хранилищу!</string>
   <!--Original value: CAD layers-->
   <string name="string_cad_layers">Слои CAD</string>
+  <!--Original value: Create/Select folder-->
+  <string name="string_create_select_folder">Создать/Выбрать папку</string>
   <!--Original value: Survey/Stakeout on Map-->
   <string name="string_survey_stakeout_on_map">Съемка/Вынос на Карте</string>
   <!--Original value: Select Other Job…-->
   <string name="string_select_other_job___">Выбрать другой проект</string>
+  <!--Original value: Select/Provide-->
+  <string name="string_select_provide">Выбрать/Дать доступ</string>
   <!--Original value: North Up-->
   <string name="string_north_up">На север</string>
   <!--Original value: Additional views-->
@@ -209,8 +221,6 @@
   <string name="string_dxf_dwg_file">DXF/DWG Файл</string>
   <!--Original value: View:-->
   <string name="string_view_">Показывать:</string>
-  <!--Original value: Job Arhiving is off-->
-  <string name="string_job_arhiving_is_off">Архивация проектов отключена</string>
   <!--Original value: Can not copy all from folder-->
   <string name="string_can_not_copy_all_from_folder">Не удалось скопировать все</string>
   <!--Original value: The application is designed to be ran on Nautiz X8 device only.-->
@@ -225,10 +235,26 @@
   <string name="string_build__s">Сборка:%s</string>
   <!--Original value: Survey-->
   <string name="string_survey">Снятые</string>
+  <!--Original value: Please create or select javad subfolder of root directory.\nAnd then provide access for JMT to the folder-->
+  <string name="string_please_create_or_select_javad_subfolder_of_root_directory__nand_then_provide_access_for_jmt_to_the_folder">Пож-та создайте или выберите папку javad в корне общего хранилища.\nА затем предоставьте к ней доступ</string>
+  <!--Original value: The folder should be named \'javad\'-->
+  <string name="string_the_folder_should_be_named__javad_">Папка должна называться javad</string>
   <!--Original value: Sun Up-->
   <string name="string_sun_up">Солнце вверху</string>
   <!--Original value: Course Up-->
   <string name="string_course_up">По движению</string>
   <!--Original value: Points-->
   <string name="string_points">Точки</string>
+  <!--Original value: -->
+  <string name="">Архивация в GoogleDrive</string>
+  <!--Original value: -->
+  <string name="">Архивация в Microsoft OneDrive</string>
+  <!--Original value: -->
+  <string name="">Архивация в DropBox</string>
+  <!--Original value: -->
+  <string name="">Изменение настроек архивации переместит ВСЕ ваши проекты!</string>
+  <!--Original value: -->
+  <string name="">Проекты архивируются в папку %s</string>
+  <!--Original value: -->
+  <string name="">Архивация проектов отключена</string>
 </resources>
